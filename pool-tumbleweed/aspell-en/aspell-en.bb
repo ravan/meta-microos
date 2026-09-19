@@ -1,12 +1,12 @@
 SUMMARY = "English Dictionaries for ASpell"
 DESCRIPTION = "An English, Canadian English and British English dictionary for the ASpell \
 spell checker."
-LICENSE = "MIT & BSD-3-Clause"
+LICENSE = "BSD-3-Clause & MIT"
 
-PV = "2020.12.07"
+PV = "2026.02.25"
 
-RPM_NAME = "aspell-en-2020.12.07-2.3.aarch64.rpm"
-RPM_HASH = "98ca456f7202c3d8595a258326679a8bb1e62878c43ea242a4eae3d7c3802d5918a5fad4b28f4fc5c26be601bd59994c7b5b0748704045f75d01a6e089de6285"
+RPM_NAME = "aspell-en-2026.02.25-1.2.aarch64.rpm"
+RPM_HASH = "4e309e374e6022874823ab5434a06fbfd9343c08d3fecb3def6b7a04f86ae5b9ac8406ed5dc921046ddb062a1fd0e7210e5ba38be8cc69ec8707eb64e92a4555"
 
 RPROVIDES:${PN} += "aspell-en \
 locale-aspell-en"

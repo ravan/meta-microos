@@ -7,10 +7,10 @@ List View, server-side sorting, SASL, TLS/SSL, and many other \
 features. (The server started out as Netscape Directory Server.)"
 LICENSE = "GPL-3.0-or-later & MPL-2.0"
 
-PV = "2.4.0~git74.4297d88"
+PV = "3.3.1+8c2711bd6"
 
-RPM_NAME = "389-ds-2.4.0~git74.4297d88-1.1.aarch64.rpm"
-RPM_HASH = "51bb0798c215afdb9f4c2cb71da581e9059d9b483427f7b2c146b8c7032cd4fbe555fe4fe37bc7c3d089b41abecde15e2c095c5afc7a8ea1e9199522a09a6c91"
+RPM_NAME = "389-ds-3.3.1+8c2711bd6-1.1.aarch64.rpm"
+RPM_HASH = "f690e5dd73ac7002b9e52471f4caabcafb7abbdeaa04dc2626348a2a5d2d438a120e2415169c7cb43d6a46ebef96fd3825d3d209975cf08702e1e0542755209d"
 
 RPROVIDES:${PN} += "389-ds \
 389-ds-base \
@@ -49,6 +49,7 @@ libreferint-plugin.so \
 libreplication-plugin.so \
 libretrocl-plugin.so \
 librewriters.so.0 \
+librobdb.so \
 libroles-plugin.so \
 librootdn-access-plugin.so \
 libschemareload-plugin.so \
@@ -61,7 +62,7 @@ libwhoami-plugin.so \
 user-dirsrv"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 /usr/sbin/service \
 acl \
@@ -76,23 +77,23 @@ libcom-err.so.2 \
 libcrack.so.2 \
 libcrypt.so.1 \
 libcrypto.so.3 \
-libdb-4.8.so \
 libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libjson-c.so.5 \
 libkrb5.so.3 \
 liblber.so.2 \
 libldap.so.2 \
-liblmdb-0.9.30.so \
-libm.so.6 \
+liblmdb-0.9.35.so \
 libnspr4.so \
 libnss3.so \
+libnssutil3.so \
 libpam.so.0 \
 libpcre2-8.so.0 \
 libplc4.so \
 libplds4.so \
 libsasl2.so.3 \
+libsmime3.so \
 libssl.so.3 \
 libssl3.so \
 libsvrcore.so.0 \

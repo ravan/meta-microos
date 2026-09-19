@@ -2,10 +2,10 @@ SUMMARY = "Geany libraries"
 DESCRIPTION = "Geany's core library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "libgeany0-1.38-3.8.aarch64.rpm"
-RPM_HASH = "4a32e6f5470a6829bda1babb75b1bc7812590e6752a51f03ad453ffff1946f18ed4a13d70b469368ae5e3ddba8b038173c3625033c6fbf546ee4f61c490ab076"
+RPM_NAME = "libgeany0-2.1-1.7.aarch64.rpm"
+RPM_HASH = "f899e02c177e79836e5fef7c72c467e527744a779c637bbfd1d978b1865d874c34f2bcaf26d8b67f2caa969f72f513499c0df044a24bc7a397a0f2facccde1a8"
 
 RPROVIDES:${PN} += "libgeany.so.0 \
 libgeany0"

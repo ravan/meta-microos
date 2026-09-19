@@ -3,10 +3,10 @@ DESCRIPTION = "Host setup helper to pull in all packages required/useful on \
 the build host to build live and install iso images."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "kiwi-systemdeps-iso-media-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "9f90937d2de6b573eb80301f266db3da425126c7160d684820d8bbdc1b2b544cf691c7780ff925985c2b7e7922c293d999086dff32ec03c3dfb9c18e1d91b89f"
+RPM_NAME = "kiwi-systemdeps-iso-media-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "015dd45273e6885221a3252ebd6130679fd8ffd766a6b0cb7cb789a6700c4f7786f83a5bedf52b8d22eccfa4e3979c50ae5f36d7e120ed56104345b3cd86f224"
 
 RPROVIDES:${PN} += "kiwi-image-iso \
 kiwi-image-iso-requires \

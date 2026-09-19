@@ -6,10 +6,10 @@ agency. Spectral is a new and versatile serif face available in \
 seven weights of roman and italic, with small caps."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64528"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-spectral-2023.209.svn64528-58.1.noarch.rpm"
-RPM_HASH = "4d3b304132f5307c4db5d17957cd7ce08e8eee38327247bded72fa9ee45c2b6cefe7c6c1d46d3c3bab4f3ddab866ddc4713b5ddcddbfe9fba322615a5350621d"
+RPM_NAME = "texlive-spectral-2026.226.svn77682-64.2.noarch.rpm"
+RPM_HASH = "d82af396411db614228dd9d742ae1e8c26448620e792d72918ddd665285b9ed54c8c4f3e3867b32cf93f2d59599fcc0d7ed13b28dd15573d1ce086c0395dfb9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Spectral-LF.fd \

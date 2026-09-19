@@ -10,17 +10,17 @@ This meta-package brings in, as dependencies, the minimum set of packages \
 currently necessary for having a functional (headless) QEMU/KVM stack."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-headless-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "353881626e1c231ea487a64f29ea58fa39b8f903fc9aa1008b1c33296d2cf13035db442d74ed5e6f9154e5cfa7cf1a7e04ebda6f17e9031619138d980d6c47da"
+RPM_NAME = "qemu-headless-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "1c7167cdf50d23b672effb1629a53ae92fa815ceb01e9f47a7d702bcf24ba7bb6409d099844ed3cf5b8b12cf85f5219a2d71dd1d9ccb4d5a317bca07a58b3034"
 
 RPROVIDES:${PN} += "qemu-headless"
 
 RDEPENDS:${PN} += "qemu \
-qemu-chardev-spice \
-qemu-hw-usb-redirect \
+qemu-block-curl \
+qemu-block-nfs \
 qemu-img \
-qemu-ui-spice-core"
+virtiofsd"
 
 inherit rpm

@@ -11,13 +11,14 @@ garamondx package, thus offering a garamond-alike \
 text-with-maths combination."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.71svn62369"
+PV = "2026.226.1.756svn78101"
 
-RPM_NAME = "texlive-newtx-2023.209.1.71svn62369-55.1.noarch.rpm"
-RPM_HASH = "f955a7b9ce7438e6f19463c72dd069b85ed1458d38c505161c7bd04fed679179ec07e209d2acb22de901cc30c506c097869aa2bde8ec516f7694374dc559b4b2"
+RPM_NAME = "texlive-newtx-2026.226.1.756svn78101-61.2.noarch.rpm"
+RPM_HASH = "f937cce93f6baa6894ccb169cfcc6ebf88dcffa4d1355000dc6eaaef955380a186fb5e8559119b053151f32f01070070d2044479faa7fadc454f2515e7d323c7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-Libertine-nu.tfm \
+RPROVIDES:${PN} += "tex-LY1MinLibertinusSerif-Inf.fd \
+tex-Libertine-nu.tfm \
 tex-LibertineI-5nu.tfm \
 tex-LibertineI-7nu.tfm \
 tex-LibertineI-nu.tfm \
@@ -34,6 +35,30 @@ tex-LibertineZ-nu.tfm \
 tex-LibertineZI-5nu.tfm \
 tex-LibertineZI-7nu.tfm \
 tex-LibertineZI-nu.tfm \
+tex-LibertinusSerif-Bold-inf-ly1.tfm \
+tex-LibertinusSerif-Bold-inf-ot1.tfm \
+tex-LibertinusSerif-Bold-inf-t1.tfm \
+tex-LibertinusSerif-Bold-inf-t2a.tfm \
+tex-LibertinusSerif-BoldItalic-inf-ly1.tfm \
+tex-LibertinusSerif-BoldItalic-inf-ot1.tfm \
+tex-LibertinusSerif-BoldItalic-inf-t1.tfm \
+tex-LibertinusSerif-BoldItalic-inf-t2a.tfm \
+tex-LibertinusSerif-Italic-inf-ly1.tfm \
+tex-LibertinusSerif-Italic-inf-ot1.tfm \
+tex-LibertinusSerif-Italic-inf-t1.tfm \
+tex-LibertinusSerif-Italic-inf-t2a.tfm \
+tex-LibertinusSerif-Regular-inf-ly1.tfm \
+tex-LibertinusSerif-Regular-inf-ot1.tfm \
+tex-LibertinusSerif-Regular-inf-t1.tfm \
+tex-LibertinusSerif-Regular-inf-t2a.tfm \
+tex-LibertinusSerif-Semibold-inf-ly1.tfm \
+tex-LibertinusSerif-Semibold-inf-ot1.tfm \
+tex-LibertinusSerif-Semibold-inf-t1.tfm \
+tex-LibertinusSerif-Semibold-inf-t2a.tfm \
+tex-LibertinusSerif-SemiboldItalic-inf-ly1.tfm \
+tex-LibertinusSerif-SemiboldItalic-inf-ot1.tfm \
+tex-LibertinusSerif-SemiboldItalic-inf-t1.tfm \
+tex-LibertinusSerif-SemiboldItalic-inf-t2a.tfm \
 tex-MinLibBol-ly1.tfm \
 tex-MinLibBol-ot1.tfm \
 tex-MinLibBol-t1.tfm \
@@ -52,6 +77,8 @@ tex-NewTXBMI7.tfm \
 tex-NewTXMI.tfm \
 tex-NewTXMI5.tfm \
 tex-NewTXMI7.tfm \
+tex-OT1MinLibertinusSerif-Inf.fd \
+tex-T1MinLibertinusSerif-Inf.fd \
 tex-alt-mn-greek.enc \
 tex-ebgBMI.tfm \
 tex-ebgBRM.tfm \
@@ -73,18 +100,28 @@ tex-fxlzi-7letters.tfm \
 tex-fxlzi-jv.tfm \
 tex-fxlzi-jv5.tfm \
 tex-fxlzi-jv7.tfm \
+tex-lbtsI-77t54r.enc \
+tex-lbtsI-hhbt6z.enc \
+tex-lbtsI-n4gj6t.enc \
+tex-lbtsI-ugujza.enc \
+tex-lbtsI-xaezkf.enc \
+tex-lbtsI-yt5vb5.enc \
 tex-libcaps.enc \
 tex-libertinealt.enc \
 tex-lmsntxsy.fd \
 tex-lmxntxexx.fd \
 tex-ly1minebgaramond.fd \
 tex-ly1minlibertine.fd \
+tex-ly1minlibertinus.fd \
 tex-ly1minntx.fd \
 tex-ly1ntxdnom.fd \
 tex-ly1ntxinf.fd \
+tex-ly1ntxinfalt.fd \
 tex-ly1ntxlf.fd \
+tex-ly1ntxnumr.fd \
 tex-ly1ntxosf.fd \
 tex-ly1ntxsups.fd \
+tex-ly1ntxsupsalt.fd \
 tex-ly1ntxth-lf.fd \
 tex-ly1ntxth-osf.fd \
 tex-ly1ntxth-tlf.fd \
@@ -109,6 +146,7 @@ tex-ntx-Bold-lf-ly1.tfm \
 tex-ntx-Bold-lf-ot1.tfm \
 tex-ntx-Bold-lf-ot1.vf \
 tex-ntx-Bold-lf-ot1r.tfm \
+tex-ntx-Bold-lf-pc-t1.tfm \
 tex-ntx-Bold-lf-sc-ly1.tfm \
 tex-ntx-Bold-lf-sc-ot1.tfm \
 tex-ntx-Bold-lf-sc-t1.tfm \
@@ -120,6 +158,7 @@ tex-ntx-Bold-osf-ly1.tfm \
 tex-ntx-Bold-osf-ot1.tfm \
 tex-ntx-Bold-osf-ot1.vf \
 tex-ntx-Bold-osf-ot1r.tfm \
+tex-ntx-Bold-osf-pc-t1.tfm \
 tex-ntx-Bold-osf-sc-ly1.tfm \
 tex-ntx-Bold-osf-sc-ot1.tfm \
 tex-ntx-Bold-osf-sc-t1.tfm \
@@ -131,6 +170,7 @@ tex-ntx-Bold-tlf-ly1.tfm \
 tex-ntx-Bold-tlf-ot1.tfm \
 tex-ntx-Bold-tlf-ot1.vf \
 tex-ntx-Bold-tlf-ot1r.tfm \
+tex-ntx-Bold-tlf-pc-t1.tfm \
 tex-ntx-Bold-tlf-sc-ly1.tfm \
 tex-ntx-Bold-tlf-sc-ot1.tfm \
 tex-ntx-Bold-tlf-sc-t1.tfm \
@@ -142,6 +182,7 @@ tex-ntx-Bold-tosf-ly1.tfm \
 tex-ntx-Bold-tosf-ot1.tfm \
 tex-ntx-Bold-tosf-ot1.vf \
 tex-ntx-Bold-tosf-ot1r.tfm \
+tex-ntx-Bold-tosf-pc-t1.tfm \
 tex-ntx-Bold-tosf-sc-ly1.tfm \
 tex-ntx-Bold-tosf-sc-ot1.tfm \
 tex-ntx-Bold-tosf-sc-t1.tfm \
@@ -153,6 +194,7 @@ tex-ntx-BoldItalic-lf-ly1.tfm \
 tex-ntx-BoldItalic-lf-ot1.tfm \
 tex-ntx-BoldItalic-lf-ot1.vf \
 tex-ntx-BoldItalic-lf-ot1r.tfm \
+tex-ntx-BoldItalic-lf-pc-t1.tfm \
 tex-ntx-BoldItalic-lf-sc-ly1.tfm \
 tex-ntx-BoldItalic-lf-sc-ot1.tfm \
 tex-ntx-BoldItalic-lf-sc-t1.tfm \
@@ -164,6 +206,7 @@ tex-ntx-BoldItalic-osf-ly1.tfm \
 tex-ntx-BoldItalic-osf-ot1.tfm \
 tex-ntx-BoldItalic-osf-ot1.vf \
 tex-ntx-BoldItalic-osf-ot1r.tfm \
+tex-ntx-BoldItalic-osf-pc-t1.tfm \
 tex-ntx-BoldItalic-osf-sc-ly1.tfm \
 tex-ntx-BoldItalic-osf-sc-ot1.tfm \
 tex-ntx-BoldItalic-osf-sc-t1.tfm \
@@ -175,6 +218,7 @@ tex-ntx-BoldItalic-tlf-ly1.tfm \
 tex-ntx-BoldItalic-tlf-ot1.tfm \
 tex-ntx-BoldItalic-tlf-ot1.vf \
 tex-ntx-BoldItalic-tlf-ot1r.tfm \
+tex-ntx-BoldItalic-tlf-pc-t1.tfm \
 tex-ntx-BoldItalic-tlf-sc-ly1.tfm \
 tex-ntx-BoldItalic-tlf-sc-ot1.tfm \
 tex-ntx-BoldItalic-tlf-sc-t1.tfm \
@@ -186,6 +230,7 @@ tex-ntx-BoldItalic-tosf-ly1.tfm \
 tex-ntx-BoldItalic-tosf-ot1.tfm \
 tex-ntx-BoldItalic-tosf-ot1.vf \
 tex-ntx-BoldItalic-tosf-ot1r.tfm \
+tex-ntx-BoldItalic-tosf-pc-t1.tfm \
 tex-ntx-BoldItalic-tosf-sc-ly1.tfm \
 tex-ntx-BoldItalic-tosf-sc-ot1.tfm \
 tex-ntx-BoldItalic-tosf-sc-t1.tfm \
@@ -195,6 +240,7 @@ tex-ntx-BoldItalic-tosf-scl-t1.tfm \
 tex-ntx-BoldItalic-tosf-t1.tfm \
 tex-ntx-BoldSlanted-lf-ly1.tfm \
 tex-ntx-BoldSlanted-lf-ot1.tfm \
+tex-ntx-BoldSlanted-lf-pc-t1.tfm \
 tex-ntx-BoldSlanted-lf-sc-ly1.tfm \
 tex-ntx-BoldSlanted-lf-sc-ot1.tfm \
 tex-ntx-BoldSlanted-lf-sc-t1.tfm \
@@ -204,6 +250,7 @@ tex-ntx-BoldSlanted-lf-scl-t1.tfm \
 tex-ntx-BoldSlanted-lf-t1.tfm \
 tex-ntx-BoldSlanted-osf-ly1.tfm \
 tex-ntx-BoldSlanted-osf-ot1.tfm \
+tex-ntx-BoldSlanted-osf-pc-t1.tfm \
 tex-ntx-BoldSlanted-osf-sc-ly1.tfm \
 tex-ntx-BoldSlanted-osf-sc-ot1.tfm \
 tex-ntx-BoldSlanted-osf-sc-t1.tfm \
@@ -213,6 +260,7 @@ tex-ntx-BoldSlanted-osf-scl-t1.tfm \
 tex-ntx-BoldSlanted-osf-t1.tfm \
 tex-ntx-BoldSlanted-tlf-ly1.tfm \
 tex-ntx-BoldSlanted-tlf-ot1.tfm \
+tex-ntx-BoldSlanted-tlf-pc-t1.tfm \
 tex-ntx-BoldSlanted-tlf-sc-ly1.tfm \
 tex-ntx-BoldSlanted-tlf-sc-ot1.tfm \
 tex-ntx-BoldSlanted-tlf-sc-t1.tfm \
@@ -222,6 +270,7 @@ tex-ntx-BoldSlanted-tlf-scl-t1.tfm \
 tex-ntx-BoldSlanted-tlf-t1.tfm \
 tex-ntx-BoldSlanted-tosf-ly1.tfm \
 tex-ntx-BoldSlanted-tosf-ot1.tfm \
+tex-ntx-BoldSlanted-tosf-pc-t1.tfm \
 tex-ntx-BoldSlanted-tosf-sc-ly1.tfm \
 tex-ntx-BoldSlanted-tosf-sc-ot1.tfm \
 tex-ntx-BoldSlanted-tosf-sc-t1.tfm \
@@ -233,6 +282,7 @@ tex-ntx-Italic-lf-ly1.tfm \
 tex-ntx-Italic-lf-ot1.tfm \
 tex-ntx-Italic-lf-ot1.vf \
 tex-ntx-Italic-lf-ot1r.tfm \
+tex-ntx-Italic-lf-pc-t1.tfm \
 tex-ntx-Italic-lf-sc-ly1.tfm \
 tex-ntx-Italic-lf-sc-ot1.tfm \
 tex-ntx-Italic-lf-sc-t1.tfm \
@@ -244,6 +294,7 @@ tex-ntx-Italic-osf-ly1.tfm \
 tex-ntx-Italic-osf-ot1.tfm \
 tex-ntx-Italic-osf-ot1.vf \
 tex-ntx-Italic-osf-ot1r.tfm \
+tex-ntx-Italic-osf-pc-t1.tfm \
 tex-ntx-Italic-osf-sc-ly1.tfm \
 tex-ntx-Italic-osf-sc-ot1.tfm \
 tex-ntx-Italic-osf-sc-t1.tfm \
@@ -255,6 +306,7 @@ tex-ntx-Italic-tlf-ly1.tfm \
 tex-ntx-Italic-tlf-ot1.tfm \
 tex-ntx-Italic-tlf-ot1.vf \
 tex-ntx-Italic-tlf-ot1r.tfm \
+tex-ntx-Italic-tlf-pc-t1.tfm \
 tex-ntx-Italic-tlf-sc-ly1.tfm \
 tex-ntx-Italic-tlf-sc-ot1.tfm \
 tex-ntx-Italic-tlf-sc-t1.tfm \
@@ -266,6 +318,7 @@ tex-ntx-Italic-tosf-ly1.tfm \
 tex-ntx-Italic-tosf-ot1.tfm \
 tex-ntx-Italic-tosf-ot1.vf \
 tex-ntx-Italic-tosf-ot1r.tfm \
+tex-ntx-Italic-tosf-pc-t1.tfm \
 tex-ntx-Italic-tosf-sc-ly1.tfm \
 tex-ntx-Italic-tosf-sc-ot1.tfm \
 tex-ntx-Italic-tosf-sc-t1.tfm \
@@ -277,6 +330,7 @@ tex-ntx-Regular-lf-ly1.tfm \
 tex-ntx-Regular-lf-ot1.tfm \
 tex-ntx-Regular-lf-ot1.vf \
 tex-ntx-Regular-lf-ot1r.tfm \
+tex-ntx-Regular-lf-pc-t1.tfm \
 tex-ntx-Regular-lf-sc-ly1.tfm \
 tex-ntx-Regular-lf-sc-ot1.tfm \
 tex-ntx-Regular-lf-sc-t1.tfm \
@@ -288,6 +342,7 @@ tex-ntx-Regular-osf-ly1.tfm \
 tex-ntx-Regular-osf-ot1.tfm \
 tex-ntx-Regular-osf-ot1.vf \
 tex-ntx-Regular-osf-ot1r.tfm \
+tex-ntx-Regular-osf-pc-t1.tfm \
 tex-ntx-Regular-osf-sc-ly1.tfm \
 tex-ntx-Regular-osf-sc-ot1.tfm \
 tex-ntx-Regular-osf-sc-t1.tfm \
@@ -299,6 +354,7 @@ tex-ntx-Regular-tlf-ly1.tfm \
 tex-ntx-Regular-tlf-ot1.tfm \
 tex-ntx-Regular-tlf-ot1.vf \
 tex-ntx-Regular-tlf-ot1r.tfm \
+tex-ntx-Regular-tlf-pc-t1.tfm \
 tex-ntx-Regular-tlf-sc-ly1.tfm \
 tex-ntx-Regular-tlf-sc-ot1.tfm \
 tex-ntx-Regular-tlf-sc-t1.tfm \
@@ -310,6 +366,7 @@ tex-ntx-Regular-tosf-ly1.tfm \
 tex-ntx-Regular-tosf-ot1.tfm \
 tex-ntx-Regular-tosf-ot1.vf \
 tex-ntx-Regular-tosf-ot1r.tfm \
+tex-ntx-Regular-tosf-pc-t1.tfm \
 tex-ntx-Regular-tosf-sc-ly1.tfm \
 tex-ntx-Regular-tosf-sc-ot1.tfm \
 tex-ntx-Regular-tosf-sc-t1.tfm \
@@ -319,6 +376,7 @@ tex-ntx-Regular-tosf-scl-t1.tfm \
 tex-ntx-Regular-tosf-t1.tfm \
 tex-ntx-Slanted-lf-ly1.tfm \
 tex-ntx-Slanted-lf-ot1.tfm \
+tex-ntx-Slanted-lf-pc-t1.tfm \
 tex-ntx-Slanted-lf-sc-ly1.tfm \
 tex-ntx-Slanted-lf-sc-ot1.tfm \
 tex-ntx-Slanted-lf-sc-t1.tfm \
@@ -328,6 +386,7 @@ tex-ntx-Slanted-lf-scl-t1.tfm \
 tex-ntx-Slanted-lf-t1.tfm \
 tex-ntx-Slanted-osf-ly1.tfm \
 tex-ntx-Slanted-osf-ot1.tfm \
+tex-ntx-Slanted-osf-pc-t1.tfm \
 tex-ntx-Slanted-osf-sc-ly1.tfm \
 tex-ntx-Slanted-osf-sc-ot1.tfm \
 tex-ntx-Slanted-osf-sc-t1.tfm \
@@ -337,6 +396,7 @@ tex-ntx-Slanted-osf-scl-t1.tfm \
 tex-ntx-Slanted-osf-t1.tfm \
 tex-ntx-Slanted-tlf-ly1.tfm \
 tex-ntx-Slanted-tlf-ot1.tfm \
+tex-ntx-Slanted-tlf-pc-t1.tfm \
 tex-ntx-Slanted-tlf-sc-ly1.tfm \
 tex-ntx-Slanted-tlf-sc-ot1.tfm \
 tex-ntx-Slanted-tlf-sc-t1.tfm \
@@ -346,6 +406,7 @@ tex-ntx-Slanted-tlf-scl-t1.tfm \
 tex-ntx-Slanted-tlf-t1.tfm \
 tex-ntx-Slanted-tosf-ly1.tfm \
 tex-ntx-Slanted-tosf-ot1.tfm \
+tex-ntx-Slanted-tosf-pc-t1.tfm \
 tex-ntx-Slanted-tosf-sc-ly1.tfm \
 tex-ntx-Slanted-tosf-sc-ot1.tfm \
 tex-ntx-Slanted-tosf-sc-t1.tfm \
@@ -438,13 +499,6 @@ tex-ntxbsy7.vf \
 tex-ntxbsyc.tfm \
 tex-ntxbsyc.vf \
 tex-ntxbsym.tfm \
-tex-ntxbsym.vf \
-tex-ntxdenoms-LY1.enc \
-tex-ntxdenoms-OT1.enc \
-tex-ntxdenoms-Regular-ly1.tfm \
-tex-ntxdenoms-Regular-ot1.tfm \
-tex-ntxdenoms-Regular-t1.tfm \
-tex-ntxdenoms-T1.enc \
 tex-ntxdnom-Bold-ly1.tfm \
 tex-ntxdnom-Bold-ot1.tfm \
 tex-ntxdnom-Bold-t1.tfm \
@@ -463,10 +517,17 @@ tex-ntxdnom-Regular-t1.tfm \
 tex-ntxdnom-Slanted-ly1.tfm \
 tex-ntxdnom-Slanted-ot1.tfm \
 tex-ntxdnom-Slanted-t1.tfm \
+tex-ntxdnom-ly1.enc \
+tex-ntxdnom-ot1.enc \
+tex-ntxdnom-t1.enc \
+tex-ntxebgbmi-alth.tfm \
+tex-ntxebgbmi-alth.vf \
 tex-ntxebgbmi.tfm \
 tex-ntxebgbmi.vf \
 tex-ntxebgbmia.tfm \
 tex-ntxebgbmia.vf \
+tex-ntxebgmi-alth.tfm \
+tex-ntxebgmi-alth.vf \
 tex-ntxebgmi.tfm \
 tex-ntxebgmi.vf \
 tex-ntxebgmia.tfm \
@@ -498,6 +559,18 @@ tex-ntxinf-Slanted-t1.tfm \
 tex-ntxinf-ly1.enc \
 tex-ntxinf-ot1.enc \
 tex-ntxinf-t1.enc \
+tex-ntxinfalt-Bold-ly1.tfm \
+tex-ntxinfalt-Bold-ot1.tfm \
+tex-ntxinfalt-Bold-t1.tfm \
+tex-ntxinfalt-BoldItalic-ly1.tfm \
+tex-ntxinfalt-BoldItalic-ot1.tfm \
+tex-ntxinfalt-BoldItalic-t1.tfm \
+tex-ntxinfalt-Italic-ly1.tfm \
+tex-ntxinfalt-Italic-ot1.tfm \
+tex-ntxinfalt-Italic-t1.tfm \
+tex-ntxinfalt-Regular-ly1.tfm \
+tex-ntxinfalt-Regular-ot1.tfm \
+tex-ntxinfalt-Regular-t1.tfm \
 tex-ntxmi.tfm \
 tex-ntxmi.vf \
 tex-ntxmi0.tfm \
@@ -519,25 +592,59 @@ tex-ntxmi7.vf \
 tex-ntxmia.tfm \
 tex-ntxmia.vf \
 tex-ntxmiaalt.enc \
+tex-ntxnumr-Bold-ly1.tfm \
+tex-ntxnumr-Bold-ot1.tfm \
+tex-ntxnumr-Bold-t1.tfm \
+tex-ntxnumr-BoldItalic-ly1.tfm \
+tex-ntxnumr-BoldItalic-ot1.tfm \
+tex-ntxnumr-BoldItalic-t1.tfm \
+tex-ntxnumr-Italic-ly1.tfm \
+tex-ntxnumr-Italic-ot1.tfm \
+tex-ntxnumr-Italic-t1.tfm \
+tex-ntxnumr-Regular-ly1.tfm \
+tex-ntxnumr-Regular-ot1.tfm \
+tex-ntxnumr-Regular-t1.tfm \
+tex-ntxnumr-ly1.enc \
+tex-ntxnumr-ot1.enc \
+tex-ntxnumr-t1.enc \
 tex-ntxsups-Bold-ly1.tfm \
 tex-ntxsups-Bold-ot1.tfm \
 tex-ntxsups-Bold-t1.tfm \
+tex-ntxsups-Bold-ts1.tfm \
 tex-ntxsups-Bold.tfm \
 tex-ntxsups-BoldItalic-ly1.tfm \
 tex-ntxsups-BoldItalic-ot1.tfm \
 tex-ntxsups-BoldItalic-t1.tfm \
+tex-ntxsups-BoldItalic-ts1.tfm \
 tex-ntxsups-BoldItalic.tfm \
 tex-ntxsups-Italic-ly1.tfm \
 tex-ntxsups-Italic-ot1.tfm \
 tex-ntxsups-Italic-t1.tfm \
+tex-ntxsups-Italic-ts1.tfm \
 tex-ntxsups-Italic.tfm \
 tex-ntxsups-Regular-ly1.tfm \
 tex-ntxsups-Regular-ot1.tfm \
 tex-ntxsups-Regular-t1.tfm \
+tex-ntxsups-Regular-ts1.tfm \
 tex-ntxsups-Regular.tfm \
 tex-ntxsups-ly1.enc \
 tex-ntxsups-ot1.enc \
 tex-ntxsups-t1.enc \
+tex-ntxsups-ts1.enc \
+tex-ntxsupsalt-Bold-ly1.tfm \
+tex-ntxsupsalt-Bold-ot1.tfm \
+tex-ntxsupsalt-Bold-t1.tfm \
+tex-ntxsupsalt-BoldItalic-ly1.tfm \
+tex-ntxsupsalt-BoldItalic-ot1.tfm \
+tex-ntxsupsalt-BoldItalic-t1.tfm \
+tex-ntxsupsalt-Italic-ly1.tfm \
+tex-ntxsupsalt-Italic-ot1.tfm \
+tex-ntxsupsalt-Italic-t1.tfm \
+tex-ntxsupsalt-Regular-ly1.tfm \
+tex-ntxsupsalt-Regular-ot1.tfm \
+tex-ntxsupsalt-Regular-t1.tfm \
+tex-ntxsupsalt-Regular-ts1.tfm \
+tex-ntxsupsalt-Regular.tfm \
 tex-ntxsy.tfm \
 tex-ntxsy.vf \
 tex-ntxsy5.tfm \
@@ -548,7 +655,6 @@ tex-ntxsybalt.tfm \
 tex-ntxsyc.tfm \
 tex-ntxsyc.vf \
 tex-ntxsym.tfm \
-tex-ntxsym.vf \
 tex-ntxsyralt.tfm \
 tex-ntxth-Italic-osf-ly1.tfm \
 tex-ntxth-Italic-osf-ot1.tfm \
@@ -679,12 +785,16 @@ tex-omlzmnmi.fd \
 tex-omlzutmi.fd \
 tex-ot1minebgaramond.fd \
 tex-ot1minlibertine.fd \
+tex-ot1minlibertinus.fd \
 tex-ot1minntx.fd \
 tex-ot1ntxdnom.fd \
 tex-ot1ntxinf.fd \
+tex-ot1ntxinfalt.fd \
 tex-ot1ntxlf.fd \
+tex-ot1ntxnumr.fd \
 tex-ot1ntxosf.fd \
 tex-ot1ntxsups.fd \
+tex-ot1ntxsupsalt.fd \
 tex-ot1ntxth-lf.fd \
 tex-ot1ntxth-osf.fd \
 tex-ot1ntxth-tlf.fd \
@@ -730,12 +840,16 @@ tex-stxscr.tfm \
 tex-t1fxl1.fd \
 tex-t1minebgaramond.fd \
 tex-t1minlibertine.fd \
+tex-t1minlibertinus.fd \
 tex-t1minntx.fd \
 tex-t1ntxdnom.fd \
 tex-t1ntxinf.fd \
+tex-t1ntxinfalt.fd \
 tex-t1ntxlf.fd \
+tex-t1ntxnumr.fd \
 tex-t1ntxosf.fd \
 tex-t1ntxsups.fd \
+tex-t1ntxsupsalt.fd \
 tex-t1ntxth-lf.fd \
 tex-t1ntxth-osf.fd \
 tex-t1ntxth-tlf.fd \
@@ -751,6 +865,8 @@ tex-t1xsl-tosf.tfm \
 tex-t1xsl-tosf.vf \
 tex-ts1ntxlf.fd \
 tex-ts1ntxosf.fd \
+tex-ts1ntxsups.fd \
+tex-ts1ntxsupsalt.fd \
 tex-ts1ntxtlf.fd \
 tex-ts1ntxtosf.fd \
 tex-ts1ntxtt.fd \
@@ -826,12 +942,9 @@ tex-etoolbox.sty \
 tex-fontaxes.sty \
 tex-fontenc.sty \
 tex-fontspec.sty \
-tex-ifluatex.sty \
 tex-iftex.sty \
 tex-ifthen.sty \
-tex-ifxetex.sty \
 tex-mweights.sty \
-tex-realscripts.sty \
 tex-rtcxsl.tfm \
 tex-rtxptmro.tfm \
 tex-rtxsl.tfm \
@@ -840,16 +953,14 @@ tex-textcomp.sty \
 tex-txbex.tfm \
 tex-txbmi1.tfm \
 tex-txbsy.tfm \
-tex-txbsya.tfm \
-tex-txbsyb.tfm \
 tex-txbsyc.tfm \
 tex-txsy.tfm \
-tex-txsya.tfm \
-tex-txsyb.tfm \
 tex-txsyc.tfm \
 tex-unicode-math.sty \
 tex-updmap.cfg \
+tex-xcolor.sty \
 tex-xkeyval.sty \
+tex-xpatch.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

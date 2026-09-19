@@ -7,21 +7,19 @@ A tape client would launch something like ssh for the actual \
 connection, and through that, have the rmt program executed."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "schily-rmt-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "abeb05ccb8870b6d81684f0bbeb723ed5785694a7d298fd1725f46dc2f9ffc38f6375e40d25cbc258212523bd783834e00cfb52fed7b28e181401a6fe0024395"
+RPM_NAME = "schily-rmt-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "744a44a37864d7c6a7e0070336c28830fa7cc659d59f61143d01d07f301df67dc5ec066cc86a7ad7c531c17f45d253873e65052fadf348ef50a917a2a56e1627"
 
 RPROVIDES:${PN} += "config-schily-rmt \
 rmt \
 schily-rmt \
 star-rmt-/usr/bin/srmt"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdeflt.so.1.0 \
-libschily.so.2.0 \
-update-alternatives"
+libschily.so.2.0"
 
 inherit rpm

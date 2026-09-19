@@ -11,17 +11,18 @@ utilities to foster development of other open source scientific \
 software."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.1"
+PV = "3.2.1"
 
-RPM_NAME = "openbabel-3.1.1-2.1.aarch64.rpm"
-RPM_HASH = "3802f765addb00238e2500f3c97d48e6aecc3d7501cede672b7d07f7b388a6de6ae5c2a0d481fc57574e1b5ae306607367a88faf480b48d1dd8533863cd4d63b"
+RPM_NAME = "openbabel-3.2.1-1.1.aarch64.rpm"
+RPM_HASH = "0a4c3005e3078a331c6fb320b1b5c63b73e3ef6253c0ca64c6763f345fdf6ec5bf775c10f4e2b3c35500aadf1e412aac2ef2e0788e14b3d66b42ef7fb5b96b45"
 
 RPROVIDES:${PN} += "openbabel"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libopenbabel.so.7 \
+libm.so.6 \
+libopenbabel.so.8 \
 libstdc++.so.6"
 
 inherit rpm

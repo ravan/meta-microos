@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkz-base"
 DESCRIPTION = "This package includes the documentation for texlive-tkz-base"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2csvn66115"
+PV = "2026.226.4.21csvn69460"
 
-RPM_NAME = "texlive-tkz-base-doc-2023.209.4.2csvn66115-53.1.noarch.rpm"
-RPM_HASH = "e3eba4e4e4cd65e8fcc31c79144f75e66294cff7b574bae7593933f062d1f24847c5ea6ea223828cdd3af0bcecbdc72f048544f88726a2212997ab917954b7f2"
+RPM_NAME = "texlive-tkz-base-doc-2026.226.4.21csvn69460-59.2.noarch.rpm"
+RPM_HASH = "499ca7de3523df3f421f3b2a8cebc934ec1139ace5fb71a60b05485e43cb0c77c3e5fd612c299a97caaf73e03e91934dff5042deb62732fb9a8a8c5ca628d959"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tkz-base-doc-fr \

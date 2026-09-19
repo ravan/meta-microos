@@ -2,10 +2,10 @@ SUMMARY = "Virtual Linux disk plugin for nbdkit"
 DESCRIPTION = "This package is a virtual Linux disk plugin for nbdkit."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.48.0"
 
-RPM_NAME = "nbdkit-linuxdisk-plugin-1.32.2-1.4.aarch64.rpm"
-RPM_HASH = "9ce9d93db952ca4feb7aae46a4402324848528de6572b768c0b2797f8ae7808f0936a72bef676dc78ae6502c1cce37969c46b93037155488e5e302281658fba3"
+RPM_NAME = "nbdkit-linuxdisk-plugin-1.48.0-1.1.aarch64.rpm"
+RPM_HASH = "db56e220309cc850acfdcce5f595debe3f1e1176c994f691eb7bdf15e9489fc984f83171fcbdb5ec90677757be151541b11b77b462b2761a5d2ec7bbb10b5d5e"
 
 RPROVIDES:${PN} += "nbdkit-linuxdisk-plugin"
 

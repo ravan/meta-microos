@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0 & GFDL-1.1-only"
 
 PV = "40.3"
 
-RPM_NAME = "gnome-devel-docs-lang-40.3-1.6.noarch.rpm"
-RPM_HASH = "e1bb7407fafaddb12d409cd94ed1179bfe939dd0af70ff3b5affdcfe529b9f1fee4c1da1ad0fa5f602a0a3046c1bd8ed04f338ef9a5ff4734fea2d59e0ae5012"
+RPM_NAME = "gnome-devel-docs-lang-40.3-1.15.noarch.rpm"
+RPM_HASH = "da7b57c616589de90744a724e785e9194fe7260b8f85d0b9bf3203efca5d5ccd84d3d17d056502dbf897eac23650d604c34f0dd3bc66fd738dc17be5853db90d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-devel-docs-lang \

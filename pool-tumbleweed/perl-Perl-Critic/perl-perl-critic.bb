@@ -26,10 +26,10 @@ called 'perlcritic-gui'. You can get a free community edition of ActivePerl \
 from http://www.activestate.com."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.150"
+PV = "1.156.0"
 
-RPM_NAME = "perl-Perl-Critic-1.150-1.3.noarch.rpm"
-RPM_HASH = "b29b4c6bb96f5fa6f29069b5f6384eeb6d6c12119b1df53f88acef708d7f52223b7db8de3f395d0f4f2d9514ce322a543d98ab1213f449f3c162677c7165eb34"
+RPM_NAME = "perl-Perl-Critic-1.156.0-1.10.noarch.rpm"
+RPM_HASH = "5e6eceb97c4b61cc1e5eb04f080cb00ed2b8f2622b978bab9c7dd0dd034fb94240199401d044dddcc398d054e819907a9b0d2a2abbeacba207f4f6f3a84a2624"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl--Critic \
@@ -229,7 +229,7 @@ perl-Perl-Critic \
 perl-Test--Perl--Critic--Policy"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-B--Keywords \
 perl-Config--Tiny \
 perl-Exception--Class \

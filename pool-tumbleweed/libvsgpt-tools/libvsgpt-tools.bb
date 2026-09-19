@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains the utility programs from libvsgpt to \
 inspect GUID partition tables."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221029"
+PV = "20260911"
 
-RPM_NAME = "libvsgpt-tools-20221029-4.1.aarch64.rpm"
-RPM_HASH = "49cc892c65f3cf87254056280151b23d3fea5c4338c511a9c803e11104c06e7ad5693543ff42bf9c5f39de7ec771d0f608f9a11e1ecc66c3046164c7d4031abb"
+RPM_NAME = "libvsgpt-tools-20260911-1.1.aarch64.rpm"
+RPM_HASH = "76ac09f7847abb204a29b5a0abf4130f446ff9a93ede665d3b98c6fb5f9602566d0163beb2c73f222db63e7dbb5536e508eec4f25668b757f0d7d4fcedf066d8"
 
 RPROVIDES:${PN} += "libvsgpt-tools"
 

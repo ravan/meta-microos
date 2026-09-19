@@ -6,10 +6,10 @@ package provides a Unicode font for rendering HamNoSys symbols \
 as well as three methods for entering them."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.3svn61941"
+PV = "2026.226.1.0.3svn61941"
 
-RPM_NAME = "texlive-hamnosys-2023.209.1.0.3svn61941-54.2.noarch.rpm"
-RPM_HASH = "d2c6d6dc3aaaceac452d85c783a43b25d7ab5c8598e87b083650ee4eaad2690eb22bcdd0e3f7b832cb9b171f9aedc3c92762c23817244f51821ebfc97d4d6631"
+RPM_NAME = "texlive-hamnosys-2026.226.1.0.3svn61941-60.4.noarch.rpm"
+RPM_HASH = "a40933679e07cec79fffd9894d447f8a3882ca4e1b82fd39b61b19c8da21dd913b8d5a05bee4f437a3f41afa920d89e2cb1b195009da3594ec70346f7127332e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hamnosys.sty \

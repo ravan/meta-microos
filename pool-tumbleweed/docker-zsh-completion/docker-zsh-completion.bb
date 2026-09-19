@@ -2,10 +2,10 @@ SUMMARY = "Zsh Completion for docker"
 DESCRIPTION = "Zsh command line completion support for docker."
 LICENSE = "Apache-2.0"
 
-PV = "24.0.5_ce"
+PV = "29.7.2_ce"
 
-RPM_NAME = "docker-zsh-completion-24.0.5_ce-2.1.noarch.rpm"
-RPM_HASH = "c47b85fed28b9742a00cf93d4428f3258051be3d0767a45b9bed2eace045ca97f3c098884af421c16f9e31d1389ba5189831c134a0e7803877a6911a206646c5"
+RPM_NAME = "docker-zsh-completion-29.7.2_ce-41.1.noarch.rpm"
+RPM_HASH = "f848ff3a0fa5f361ee70bec6fcd44bb94063405dcb9ecd4fa7cb9d3a9f28b0ad92e6f588b8e5900a69851fbd2288de24e02788e1e1f87e3b7358586a41ad64c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docker-zsh-completion"

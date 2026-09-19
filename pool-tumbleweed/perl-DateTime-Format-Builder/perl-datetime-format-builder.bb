@@ -10,10 +10,10 @@ innards to any subclasses, or for when you need to do something slightly \
 beyond what I expected."
 LICENSE = "Artistic-2.0"
 
-PV = "0.83"
+PV = "0.830.0"
 
-RPM_NAME = "perl-DateTime-Format-Builder-0.83-1.15.noarch.rpm"
-RPM_HASH = "501ccd6966ee16c2c728895d9456b481ca94b5e1091a4dddfa58808f082dfdf5f09844e8f4b0b75df6eaee9a94ff33ef17401154563fba34d80294f3d2c93f14"
+RPM_NAME = "perl-DateTime-Format-Builder-0.830.0-1.3.noarch.rpm"
+RPM_HASH = "1d2ad48aede2bff28fe4d9db5cbb2b7e93b3eaa839bc3b665b45d474c240401e9fc994e02a0b8dc6232dcdc03c8d40712eb1b314b1ef9544f84afa5f3fc35676"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--Builder \
@@ -25,7 +25,7 @@ perl-DateTime--Format--Builder--Parser--Strptime \
 perl-DateTime--Format--Builder--Parser--generic \
 perl-DateTime-Format-Builder"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime \
 perl-DateTime--Format--Strptime \
 perl-Params--Validate \

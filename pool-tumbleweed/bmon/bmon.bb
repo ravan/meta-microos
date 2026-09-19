@@ -9,8 +9,8 @@ LICENSE = "MIT | BSD-2-Clause"
 
 PV = "4.0"
 
-RPM_NAME = "bmon-4.0-1.25.aarch64.rpm"
-RPM_HASH = "4e11ef28b7f08a4af449f337e8d3ca27359eec9bf318b6000253ec8b086eccee6ef1fef26c4ea0184d9da598bd64dca57b65fd61daef582aa36eb3a00795c5a2"
+RPM_NAME = "bmon-4.0-1.38.aarch64.rpm"
+RPM_HASH = "de082c06247b2162970c0878b560a56e5de6e0541e2b853487cc8ffbdc1a7611886c3f3972b62572852466cecaeeb5d2a1d75fce4a5e273930bc8326a9e6fd95"
 
 RPROVIDES:${PN} += "bmon \
 config-bmon"

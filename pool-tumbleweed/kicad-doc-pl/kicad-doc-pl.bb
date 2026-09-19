@@ -2,10 +2,10 @@ SUMMARY = "Polish documentation and tutorials for KiCad"
 DESCRIPTION = "This package contains Polish documentation and tutorials for KiCad"
 LICENSE = "CC-BY-SA-3.0 & GPL-3.0-or-later"
 
-PV = "7.0.6"
+PV = "10.0.6"
 
-RPM_NAME = "kicad-doc-pl-7.0.6-1.1.noarch.rpm"
-RPM_HASH = "d5aeff270a23f51db191a47681ce60685ec97dcb34deca20a21f2e716dad3d7e09a94ed0fa7df4329e9bc3343fbb9184646cb595cdc4622aa6f246cc37a894ef"
+RPM_NAME = "kicad-doc-pl-10.0.6-1.1.noarch.rpm"
+RPM_HASH = "65cb06a0945f2c6ec5b70b6003743421ea6373f063e2653c5b0ec7d25a0d0c9d2b0000ad0a33e229b4ca2c0882c6f3e88aa40679886e4ce8152ea991f4b09810"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kicad-doc-pl \

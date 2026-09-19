@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-encxvlna"
 DESCRIPTION = "This package includes the documentation for texlive-encxvlna"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn34087"
+PV = "2026.226.1.1svn34087"
 
-RPM_NAME = "texlive-encxvlna-doc-2023.209.1.1svn34087-54.2.noarch.rpm"
-RPM_HASH = "547f8e97596704d008889072d96b8fbca227465ce90fbad6741dcaac4bc1c3657e0430b97b1c8430c9c8c5696d73279ee3f4b2bbabe3cd6ed2c549e1ed71efe6"
+RPM_NAME = "texlive-encxvlna-doc-2026.226.1.1svn34087-61.4.noarch.rpm"
+RPM_HASH = "02a0d14c112835e70a19733120de3c92965e0cdf388db5479258d2de32a5ee5c37e1529c4b1260dab8d06bffa450bd55bfb8e15bdac19c4a7070d9caf536652b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-encxvlna-doc"

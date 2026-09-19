@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fullwidth"
 DESCRIPTION = "This package includes the documentation for texlive-fullwidth"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn24684"
+PV = "2026.226.0.0.1svn24684"
 
-RPM_NAME = "texlive-fullwidth-doc-2023.209.0.0.1svn24684-53.1.noarch.rpm"
-RPM_HASH = "8721ea8e24bca4f019857adab89266f8fbd15a9380d80c7f3faca10162680e723f6000f4fa65ddb2fa34ac66a4840343d0b1de2181d8fdf1c03d6941b9e7112d"
+RPM_NAME = "texlive-fullwidth-doc-2026.226.0.0.1svn24684-60.2.noarch.rpm"
+RPM_HASH = "4a9333b73a8571f4e6686672101623a6673c9d71f2ae190dfbb4761865aafe20eec13be2019e57b7e5bed78ae233379180957b5bba7d646a38b8fbbaf5ceabea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fullwidth-doc"

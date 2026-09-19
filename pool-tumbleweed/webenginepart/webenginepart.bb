@@ -1,43 +1,44 @@
 SUMMARY = "KDE WebEngine web browser component"
-DESCRIPTION = "This package contains a HTML rendering engine for Konqueror that is based on QtWebEngine."
+DESCRIPTION = "This package contains a HTML rendering engine for Konqueror using Qt web engine."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "webenginepart-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5ab639c8dec793b9a29e14e21572f94b1ee5c4765e9a7b294c4236c0f74cbf7576158b456e4483e5f780e969e1e67912e57f66e17dfd8959e4a8d507bdc0cb78"
+RPM_NAME = "webenginepart-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "5da102a21958ac8e441ef1fe2e133b845878677fd0fbbc760583b5f12b196df8bfe114b248c53b25f49c831ebe268d161763623cf8513d6b428f64c5727e5d2d"
 
 RPROVIDES:${PN} += "libkwebenginepart.so \
 webenginepart"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Konq.so.6 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5SonnetCore.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Konq.so.7 \
+libKF6KonqSettings.so.7 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6Wallet.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

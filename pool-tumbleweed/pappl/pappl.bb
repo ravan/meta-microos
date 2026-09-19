@@ -14,10 +14,10 @@ computer or on your whole network, which can then be discovered and \
 used by any application."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.4"
+PV = "1.4.12"
 
-RPM_NAME = "pappl-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "9475c2e57e758add85f8e10c13d5c253532c4416eb254c2b4dd312094a1d492cd65b843d27ed5c1743f06f0046479a8785ce3da953c2da33a1e7da342790b15c"
+RPM_NAME = "pappl-1.4.12-1.1.aarch64.rpm"
+RPM_HASH = "6799dfd4600368d24bbe99d15c0454ded7f41b353e03234b6ea37fe88fd84246851824694af032afe5d1e67808b89131574f40c13048a73c29000a1566910e12"
 
 RPROVIDES:${PN} += "pappl"
 

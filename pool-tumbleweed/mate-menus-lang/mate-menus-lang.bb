@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-menus"
 DESCRIPTION = "Provides translations for the 'mate-menus' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-menus-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "380295d18ff94733ab73de715bee32004afdba522c8a6cd15d5b1542a6cc7c2b522fc46e1f11b6379e43dd4262e3162ea05a2d432eccedd4abec021f95c3ab9c"
+RPM_NAME = "mate-menus-lang-1.28.0-2.5.noarch.rpm"
+RPM_HASH = "22b0105aab493e7be14dbe3f51fe97c33550073ed902e8b53a669719c798c7f5f160de90a3d7715eacf0f564c681514447a87afa5d4658d632fed567489a1b89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-menus-af \
@@ -30,7 +30,6 @@ locale-mate-menus-el \
 locale-mate-menus-en-AU \
 locale-mate-menus-en-CA \
 locale-mate-menus-en-GB \
-locale-mate-menus-en-US \
 locale-mate-menus-eo \
 locale-mate-menus-es \
 locale-mate-menus-es-AR \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-elocalloc"
 DESCRIPTION = "This package includes the documentation for texlive-elocalloc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.03svn42712"
+PV = "2026.226.0.0.03svn42712"
 
-RPM_NAME = "texlive-elocalloc-doc-2023.209.0.0.03svn42712-54.2.noarch.rpm"
-RPM_HASH = "32a18171fc5bb7686fb89c62a20568418c2fe5632dbae47c539e751b5ab257a5afec861428da4c4d3b620d918b543f6552f45f25c729bd8662536c4dc2420be3"
+RPM_NAME = "texlive-elocalloc-doc-2026.226.0.0.03svn42712-61.4.noarch.rpm"
+RPM_HASH = "497cc75bad56b9455179c7203e93e5c6b228a4018d8945757e5b9deb34958411bd597922aef631d3ba2cbf6bf685ef9290a7a7401a81c9eeea2cbe13d908a6fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-elocalloc-doc"

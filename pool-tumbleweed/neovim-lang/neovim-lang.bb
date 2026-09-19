@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package neovim"
 DESCRIPTION = "Provides translations for the 'neovim' package."
-LICENSE = "Apache-2.0 & Vim"
+LICENSE = "Apache-2.0 & Vim & GPL-3.0-or-later & CC-BY-3.0"
 
-PV = "0.9.2"
+PV = "0.12.5"
 
-RPM_NAME = "neovim-lang-0.9.2-1.1.noarch.rpm"
-RPM_HASH = "ba56fdec42b8af7499ede7d0b91b4019aff2a6ea43e392ab2ecac81ea7c1f758489238534f93ba9de0bb0866013bacf4a8255d00ae5da35b41e1009b9946fe78"
+RPM_NAME = "neovim-lang-0.12.5-1.1.noarch.rpm"
+RPM_HASH = "8c05075f9aec67d4d0ad11c3a02c7374786c400a1044f034a568320e1d58a3adead895a6a4f53a9cc9707c59da1de126c937a5b5d1e31313e50e0475c67e8e01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-neovim-af \

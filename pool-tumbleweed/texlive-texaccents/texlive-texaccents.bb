@@ -4,10 +4,10 @@ of special characters to Unicode, e. g. \\'{a} - a, \\k{a} - a, \
 ..."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn64447"
+PV = "2026.227.1.0.1svn64447"
 
-RPM_NAME = "texlive-texaccents-2023.209.1.0.1svn64447-55.1.noarch.rpm"
-RPM_HASH = "57ae396b38014ed493feb88bf5291e4d870182f8710f421df7f45868bc361891f3d9e564dea0d6fa77f1cf7c01dbea4720e48d458fd99b976d099f0b686596c3"
+RPM_NAME = "texlive-texaccents-2026.227.1.0.1svn64447-62.2.noarch.rpm"
+RPM_HASH = "ebac6556d29e12d9f6b4321ab112206fafa9de326855065daf97665e710650e08fd3587a5ef36e0ac8f2fd53f919e2223061acbb46fb8dc371f4adbeeed27a7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texaccents"

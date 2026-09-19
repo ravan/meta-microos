@@ -2,18 +2,18 @@ SUMMARY = "Translations for package kfourinline"
 DESCRIPTION = "Provides translations for the 'kfourinline' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kfourinline-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "1d6370e628b1b0ae976ceda65caae740ddbdc06f3195e8be6edf2d66876e9243b2105ce90cb3ca1bcb36a0b6122e21a8456d4811709d4cf7e4bf4daf0a75fd5c"
+RPM_NAME = "kfourinline-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "d8f74c36c0130e379c0ae4876a99a30ed23ad04317368f61a0002cb21a82b59b87a372797ea36c468268a9e6456714a3f09fdd58732fae509db25dfa39ff2195"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kfourinline-lang \
 kfourinline-lang-all \
 locale-kfourinline-af \
 locale-kfourinline-ar \
+locale-kfourinline-ast \
 locale-kfourinline-be \
-locale-kfourinline-bg \
 locale-kfourinline-br \
 locale-kfourinline-bs \
 locale-kfourinline-ca \
@@ -34,8 +34,10 @@ locale-kfourinline-fr \
 locale-kfourinline-ga \
 locale-kfourinline-gl \
 locale-kfourinline-he \
+locale-kfourinline-hi \
 locale-kfourinline-hr \
 locale-kfourinline-hu \
+locale-kfourinline-ia \
 locale-kfourinline-id \
 locale-kfourinline-is \
 locale-kfourinline-it \

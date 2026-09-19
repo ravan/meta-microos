@@ -2,10 +2,10 @@ SUMMARY = "LaTeX executables and man pages"
 DESCRIPTION = "The latex-bin package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-latex-bin-2023.209.svn66186-56.1.noarch.rpm"
-RPM_HASH = "1a165411b09d0859e6f48eccfe177ad4f28766006756f54add8c91bd3af1cc89b1a98a35515cdfe7b39340ad77ebe43addfb8477b8200f314594f31f57fc7b88"
+RPM_NAME = "texlive-latex-bin-2026.226.svn77830-63.2.noarch.rpm"
+RPM_HASH = "2ac9b8e5c65258dfd86f4d294ddf837e30e71479f6fb3cf9a10b7e2e44f2267591ad035a7f0f8f23388bc78d3930cf299425f405b0aada738cc66878845037df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dvilualatex.1 \
@@ -25,15 +25,12 @@ tex-language.dat.lua \
 tex-language.def \
 texlive \
 texlive-amsfonts \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-cm-super \
 texlive-dehyph \
 texlive-dehyph-exptl \
 texlive-ec \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-graphics \
@@ -43,16 +40,17 @@ texlive-hyphen-ancientgreek \
 texlive-hyphen-base \
 texlive-hyphen-german \
 texlive-hyphen-greek \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
 texlive-l3kernel \
-texlive-l3packages \
 texlive-latex \
 texlive-latex-bin-bin \
 texlive-latex-fonts \
 texlive-latexconfig \
 texlive-lm \
+texlive-lua-uni-algos \
 texlive-luahbtex \
 texlive-luaotfload \
 texlive-luatex \

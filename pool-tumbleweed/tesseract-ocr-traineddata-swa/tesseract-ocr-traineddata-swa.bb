@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Swahili lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-swa-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "a0c1ecdea88f5e4082d619124c8c6e32b768ca529dab2184d3193ebd131560d88c4d7e635cb8b2a50319527a50db9f24407feb9a5761be8dbd31c8678df34ba7"
+RPM_NAME = "tesseract-ocr-traineddata-swa-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "57961f1ca450cb1d17d84784b21f92b417f5d5d34f4f366b02bcd6da0c382f90aec77308610d72ceae666879439ca8709cbbe150765736ba5411eafd65c4cfe7"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-swa \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-sw \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-swa \
 tesseract-ocr-traineddata-swahili \
 tesseract-traineddata-swahili"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

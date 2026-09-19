@@ -1,12 +1,12 @@
-SUMMARY = "Shared library for libportal"
-DESCRIPTION = "A GIO-style async APIs for most Flatpak portals. \
+SUMMARY = "GTK3 integration for libportal"
+DESCRIPTION = "A GIO-style async API for most Flatpak portals. \
 This package contains the shared library of libportal."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.7"
+PV = "0.10.0"
 
-RPM_NAME = "libportal-gtk3-1-0.7-1.1.aarch64.rpm"
-RPM_HASH = "5eeebb0f20923ab59505e1b78d22e86c27221c7868c88d36b3dcd7cc7e607e9bae5e90b15d758a883cf2714757c3d4ef3c55ce462d6b6bb8acd9b0b266030c52"
+RPM_NAME = "libportal-gtk3-1-0.10.0-1.2.aarch64.rpm"
+RPM_HASH = "07e73d4fcb5d28758b85da784bf945a336bf29211866c0c1870a6999a45b65f6fe8b62a6631558ad1fb2ce6291aa41293290d990a2889afd3bd0b89b39e12483"
 
 RPROVIDES:${PN} += "libportal-gtk3-1 \
 libportal-gtk3.so.1"

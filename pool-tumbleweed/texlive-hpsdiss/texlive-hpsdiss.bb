@@ -4,10 +4,10 @@ Zurich. The requirements were to use A5 paper and 10pt type. A \
 sample of the output is shown in the PDF documentation link."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-hpsdiss-2023.209.1.0svn15878-54.2.noarch.rpm"
-RPM_HASH = "6d0959a3ee9617b5b9f6af7772b00cebc04fbe81fa542eef4b117056ecf30e27939d1398507dc131ef241d488c946511e1c21b2d97fce45a92041860a6391dd3"
+RPM_NAME = "texlive-hpsdiss-2026.226.1.0svn15878-60.4.noarch.rpm"
+RPM_HASH = "13128f1682eac141a2644d8f209e498ad443c423a1de3dba8852dfd83feee3327ee08bc731f2ef0a2bb8c0d85ee6d1cd3a75c55151c93c649c035688330d6006"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hpsdiss.cls \

@@ -1,11 +1,11 @@
 SUMMARY = "Japanese Kana Kanji input engine for IBus"
 DESCRIPTION = "ibus-kkc is a Japanese Kana Kanji input engine for IBus IMF."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.5.22"
 
-RPM_NAME = "ibus-kkc-1.5.22-1.10.aarch64.rpm"
-RPM_HASH = "440069bfaba2e4fc696c0bd871149a2fc19c8fcac81f15d1e77eedb8a19c08e2b65af086c99c0de2a13736d0ab9b9a531229c693575e1d786f6e4b0fd095d953"
+RPM_NAME = "ibus-kkc-1.5.22-3.7.aarch64.rpm"
+RPM_HASH = "aeb82eb9039f66deca13ddfb22f6bd0a113b710df60992e6b9081c631da243bafd5ad420bda6f00ca07c8e9503abb8825be25bfd0ddd3a98664fa17744f542db"
 
 RPROVIDES:${PN} += "ibus-kkc"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libsecret"
 DESCRIPTION = "Provides translations for the 'libsecret' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.20.5"
+PV = "0.21.7"
 
-RPM_NAME = "libsecret-lang-0.20.5-1.8.noarch.rpm"
-RPM_HASH = "d5f7be4595306912f7aebb3b90a1aee8ba13d4c286e2c477c971425f67f2876a08ca7c17784240bafd119542bee2e4455ce7702df7f3ab18f0e8b7ca6d4f51e6"
+RPM_NAME = "libsecret-lang-0.21.7-2.4.noarch.rpm"
+RPM_HASH = "c76a3aa502b368f7e0920931c54a38babb2d5b2c6a0a537046385d3782fbb2a65e94b3f4bac18d71b43ac478101709dbbdcfed6570cefbf9018f5625fb0398d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libsecret-lang \
@@ -31,11 +31,13 @@ locale-libsecret-fr \
 locale-libsecret-fur \
 locale-libsecret-gl \
 locale-libsecret-he \
+locale-libsecret-hi \
 locale-libsecret-hr \
 locale-libsecret-hu \
 locale-libsecret-id \
 locale-libsecret-it \
 locale-libsecret-ja \
+locale-libsecret-ka \
 locale-libsecret-kk \
 locale-libsecret-ko \
 locale-libsecret-lt \
@@ -57,6 +59,7 @@ locale-libsecret-sl \
 locale-libsecret-sr \
 locale-libsecret-sr@latin \
 locale-libsecret-sv \
+locale-libsecret-ta \
 locale-libsecret-tr \
 locale-libsecret-uk \
 locale-libsecret-vi \

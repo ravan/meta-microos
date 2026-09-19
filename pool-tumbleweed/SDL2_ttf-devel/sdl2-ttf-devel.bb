@@ -3,10 +3,10 @@ DESCRIPTION = "This is a sample library that allows you to use TrueType fonts in
 SDL applications."
 LICENSE = "Zlib"
 
-PV = "2.20.2"
+PV = "2.24.0"
 
-RPM_NAME = "SDL2_ttf-devel-2.20.2-1.4.aarch64.rpm"
-RPM_HASH = "b2f0ef4f9345b69dd47c27aa54891d855217f878c155a5cf58fe3cc97c6602d50543dbfbdb7250ff31029e858812d9eb09cd0631b40d389f1d436490aafb052e"
+RPM_NAME = "SDL2_ttf-devel-2.24.0-4.5.aarch64.rpm"
+RPM_HASH = "500712af826d458c9d667678e8a5c77cdccf84c24640eab4700349d6eccdeb4ae2797af1ea51d295bebdaff5270099464d9aed25f3cc2c4a90061e0c51fda4b3"
 
 RPROVIDES:${PN} += "SDL2-ttf-devel \
 libSDL2-ttf-devel \

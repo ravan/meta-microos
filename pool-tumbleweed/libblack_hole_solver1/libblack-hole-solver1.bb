@@ -2,10 +2,10 @@ SUMMARY = "Solitaire Solver dynamic libraries"
 DESCRIPTION = "Contains the Black Hole Solitaire dynamic library."
 LICENSE = "MIT"
 
-PV = "1.12.0"
+PV = "1.14.0"
 
-RPM_NAME = "libblack_hole_solver1-1.12.0-1.2.aarch64.rpm"
-RPM_HASH = "058efbfb3917f7cd9cae83e2a045561ac6cdce54a8f8bcc4ee75737f516c606ea34062e2605c987ee72e62ecb05bbb06f1deebf2be0c9bc1b8abdfd97794e9e2"
+RPM_NAME = "libblack_hole_solver1-1.14.0-1.5.aarch64.rpm"
+RPM_HASH = "faab4be5aa2d2d0caaed6961121b1d84d052cb1415e3d3b9bb2cdc757120a051985cb954693ed5c1e641e909b799e50ac141451641abab4eb32a524e93ae44dc"
 
 RPROVIDES:${PN} += "libblack-hole-solver.so.1 \
 libblack-hole-solver1"

@@ -2,10 +2,10 @@ SUMMARY = "HashLink library"
 DESCRIPTION = "This subpackage provides the libhl library for HashLink."
 LICENSE = "MIT"
 
-PV = "1.13"
+PV = "1.15"
 
-RPM_NAME = "libhl1-1.13-1.4.aarch64.rpm"
-RPM_HASH = "a9f47161300b21e6533becddf9950971fcf3f925e83cb99d77fc20432386427309581160b7a25a099f8d34e2d1a936d0e41c1cec369ee7535a32a627ab72e890"
+RPM_NAME = "libhl1-1.15-4.2.aarch64.rpm"
+RPM_HASH = "33c649fff131982fe8b93b2dae47efbf49aae7089bbddc2fd521dd9c557cbd1d58ad1193968c7a4f6892c229bb0db1fe7484b6e3987669e84b7a0039eb2bae23"
 
 RPROVIDES:${PN} += "libhl.so.1 \
 libhl1"

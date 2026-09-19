@@ -2,16 +2,15 @@ SUMMARY = "Data files for lalinference"
 DESCRIPTION = "This package provides the data files for lalinference."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.0"
+PV = "4.1.9"
 
-RPM_NAME = "lalinference-data-4.0.0-1.2.noarch.rpm"
-RPM_HASH = "59a17e87f31b87d3cfd9d736403dc5bb58dea1581b5c1926eb7844cdcfb7e13ce41c196bd57cfb1d54f6f5ec72933d9fbaa477329e1ac706d505871217193c7d"
+RPM_NAME = "lalinference-data-4.1.9-3.1.noarch.rpm"
+RPM_HASH = "14934e9275baafeb4beffcf3f456c102f019d3a3a7a6f841877fb43e6ae84fcfca19a515d4d8c8ffbbbbc1e88adc70360fd414573636078cd03814bec2b1492b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lalinference-data \
-python310-lalinference-data \
-python38-lalinference-data \
-python39-lalinference-data"
+python313-lalinference-data \
+python314-lalinference-data"
 
 RDEPENDS:${PN} += ""
 

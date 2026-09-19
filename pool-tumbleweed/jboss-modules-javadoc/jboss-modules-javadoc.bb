@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 & xpp"
 
 PV = "1.5.2"
 
-RPM_NAME = "jboss-modules-javadoc-1.5.2-1.21.noarch.rpm"
-RPM_HASH = "d4b1cf541fd3fd108152562e7242ee96af03d96f1abdd3c88e690d3e75d922afc384f2400b7a58f07ccec88c02f38cb22d3935c7d9d0cf5c613485e2888b5d2c"
+RPM_NAME = "jboss-modules-javadoc-1.5.2-1.37.noarch.rpm"
+RPM_HASH = "adc52327a9aa5803b15acc3b219e050b64dfd22496e99eca4ddce0392db71d171c6fd1185bb1572987402f4724a6e85bca9c2847ffd0c0494d2aeb19ef404efc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-modules-javadoc"

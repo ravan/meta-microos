@@ -11,10 +11,10 @@ initiators can be configured to discover the targets by asking the \
 iSNS server."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.6.8"
+PV = "v0.6.8+11.8a2bdcc"
 
-RPM_NAME = "target-isns-0.6.8-2.13.aarch64.rpm"
-RPM_HASH = "bfeec244777ded1272bfd5d12f050a8e36517ddf8a82b78802735725347159d05f5694f79ff366e783bb3c0075a6f4cf302839655ebde3ff26b5a9ed9ee2fb88"
+RPM_NAME = "target-isns-v0.6.8+11.8a2bdcc-1.3.aarch64.rpm"
+RPM_HASH = "fdbb1575c558e51eedb11aea35966d6d689ab76cc83c19e2ec694dddbd25086aaf939a319fdffc300331feefa1e87d12924b8129614c6f00667546a583437513"
 
 RPROVIDES:${PN} += "config-target-isns \
 target-isns"

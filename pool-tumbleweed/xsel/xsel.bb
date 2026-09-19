@@ -4,10 +4,10 @@ selection. Normally this is only accessible by manually highlighting \
 information and pasting it with the middle mouse button."
 LICENSE = "MIT"
 
-PV = "1.2.0"
+PV = "1.2.1"
 
-RPM_NAME = "xsel-1.2.0-20.1.aarch64.rpm"
-RPM_HASH = "5fd6e4abec6c81a3151f45135154c68e92386c52b3b9f1b658bb4592e304d98c1559808dce64879ee8b8102e89d03e75634687cfef58e0a1a027dbbfa79c8dfc"
+RPM_NAME = "xsel-1.2.1-1.9.aarch64.rpm"
+RPM_HASH = "a3115eef0b7642430cadfd1fe987a5ed78937713d4982183b8144264c3a2d06c47ff80f3428cddf95dff8a53cfd27d4ddbe0c0b971af203525d8bc411ab4ba44"
 
 RPROVIDES:${PN} += "xsel"
 

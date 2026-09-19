@@ -3,10 +3,10 @@ DESCRIPTION = "Python language bindings for the lasso (Liberty Alliance Single S
 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.2"
+PV = "2.9.0"
 
-RPM_NAME = "python3-lasso-2.8.2-1.4.aarch64.rpm"
-RPM_HASH = "0c18fe4d75a4771ea0c1e22c83984af9a597eec18b34ed808e6febe342b7bc1ab647053b2e4683228f1f49ec54733b660dbc1d84f3eecec854a256c56822ee98"
+RPM_NAME = "python3-lasso-2.9.0-1.7.aarch64.rpm"
+RPM_HASH = "41f8c8de4f683853bdd74dd125035e628850c1059b80b612003431888ee9d9ab8e7a55343e3e730515f4696ef2d1687374c57e2d3e1ca8157aa7922d3637aa84"
 
 RPROVIDES:${PN} += "python3-lasso"
 
@@ -16,7 +16,7 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 liblasso.so.3 \
 liblasso3 \
-libxml2.so.2 \
+libxml2.so.16 \
 python-abi \
 python3"
 

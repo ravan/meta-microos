@@ -5,10 +5,10 @@ specific positions within the file. It uses (a bundled version of) \
 libmagic to heuristically determine this."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-fileinfo-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "44f4368acd2f71ea61d52ea597714ac8745921771274cccc8fe4a7e3add302221936d450b3031156d96c277c1b9efeada52c031634b45d1d4abd58d8449db3d2"
+RPM_NAME = "php8-fileinfo-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "2fdb690e870c52fdc3eac351c260d3fe3d685ecab388df21425ed25992a23c31adf7086ccd21c9058b4b989f3e97dff59480327224fe333958510bd6f0806c42"
 
 RPROVIDES:${PN} += "config-php8-fileinfo \
 php-fileinfo \

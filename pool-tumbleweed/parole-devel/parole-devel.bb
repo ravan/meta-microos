@@ -2,10 +2,10 @@ SUMMARY = "Development Files for Parole"
 DESCRIPTION = "This package contains development files for developing plugins for parole."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "parole-devel-4.18.0-1.4.aarch64.rpm"
-RPM_HASH = "a6c4dd9cdeda20837612982ddf37c2054796c0a3320964c4cd9ec6563b789f9ad0cd28c1e0d82ac21e85e7e765599dfdd16a48900f15c3b791084e4c4a52e512"
+RPM_NAME = "parole-devel-4.20.0-1.5.aarch64.rpm"
+RPM_HASH = "9b25568c6c7732c8838f39721dcd7cf9a3587dc3d22a305c728b4fe0f7148fa5eb9f998147d66db8235aa06c16f7c34793d6ce3724e21d485dfcc074c0f2f26a"
 
 RPROVIDES:${PN} += "parole-devel"
 

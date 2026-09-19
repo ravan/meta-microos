@@ -6,8 +6,8 @@ LICENSE = "WTFPL"
 
 PV = "2.7.0"
 
-RPM_NAME = "vim-plugin-NERDcommenter-2.7.0-56.1.noarch.rpm"
-RPM_HASH = "1a5bb3d70c21719319373ea7c1dd2f5a73e42d1ce1628321cd66edaa9da71c9ec99b4dd05817c0e4625a99cfb72a45d480b7997791440b42bf451df687df5593"
+RPM_NAME = "vim-plugin-NERDcommenter-2.7.0-64.2.noarch.rpm"
+RPM_HASH = "0d32cee459946fbd7e79a8e78b8766e13c7e778d3da796a41546aa0bb8e70679561ccdb6bb808ac65b8030c314b95e8d450c3a01d1e8ec170202019f8b0d0515"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-NERDcommenter"

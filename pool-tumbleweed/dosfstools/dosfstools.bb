@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.2"
 
-RPM_NAME = "dosfstools-4.2-4.3.aarch64.rpm"
-RPM_HASH = "af82d6a4aa782ea546dffb344a8a2a22b75e49dd988dbbb3ded3d81e39aa6160bf3ad23ed7b03edd7bf5f6405e41c45a90ee13aaacfcf9038e8a2f8ad252aa5b"
+RPM_NAME = "dosfstools-4.2-4.14.aarch64.rpm"
+RPM_HASH = "674346b39901826ec247fd0d58ed947c9d558e8e449b2a0924f52fe2be071a1712681cf5c00a3d6086e54e021fc5fe73f15b065d9cb9f6e69c6574c5c85ef688"
 
 RPROVIDES:${PN} += "dosfsck \
 dosfstools \

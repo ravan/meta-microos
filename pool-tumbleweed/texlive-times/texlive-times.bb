@@ -2,7 +2,7 @@ SUMMARY = "URW 'Base 35' font pack for LaTeX"
 DESCRIPTION = "A set of fonts for use as 'drop-in' replacements for Adobe's \
 basic set, comprising: Century Schoolbook (substituting for \
 Adobe's New Century Schoolbook); Dingbats (substituting for \
-Adobe's Zapf Dingbats); Nimbus Mono L (substituting for Abobe's \
+Adobe's Zapf Dingbats); Nimbus Mono L (substituting for Adobe's \
 Courier); Nimbus Roman No9 L (substituting for Adobe's Times); \
 Nimbus Sans L (substituting for Adobe's Helvetica); Standard \
 Symbols L (substituting for Adobe's Symbol); URW Bookman; URW \
@@ -11,10 +11,10 @@ Chancery); URW Gothic L Book (substituting for Adobe's Avant \
 Garde); and URW Palladio L (substituting for Adobe's Palatino)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-times-2023.209.svn61719-53.1.noarch.rpm"
-RPM_HASH = "b6f4ace72678ed19212f6ce887ff01d196f11516192cd2eaac555eedea4842e620ff7576df05cbeaf8767d4666d3a8424f8f1d957225f820dd1a5308a4d4d6e6"
+RPM_NAME = "texlive-times-2026.226.svn77161-59.2.noarch.rpm"
+RPM_HASH = "b3520cefc5e62eb68fdcdf01bfa0c4e6e463b372bcf86673646c2303cf8cf7ea8996d13b22a573e076b2baf7548c6c925bc445b06210f221ab4f022a9ab0f57b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-8rutm.fd \

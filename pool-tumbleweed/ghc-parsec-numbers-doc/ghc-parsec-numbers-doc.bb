@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0"
 
-RPM_NAME = "ghc-parsec-numbers-doc-0.1.0-7.3.noarch.rpm"
-RPM_HASH = "f88cfd19c0f0f05bfa02cab4d295befa744716e861d7ebd997543e3be7a487a69d680cb072950b155735f29671c6ace59407c0c87d5f2cf4d8740eb60a1ae985"
+RPM_NAME = "ghc-parsec-numbers-doc-0.1.0-7.19.noarch.rpm"
+RPM_HASH = "a0cf4eb3b5dc264b54c9339ab16bdf6593c8ce7e6156c4474093d783189bcb67f14ee4a24663bb67057aac7ab768f225774a9c155de7b9cd40f1014751e500ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-parsec-numbers-doc"

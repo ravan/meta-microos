@@ -2,10 +2,10 @@ SUMMARY = "Translations for package dconf-editor"
 DESCRIPTION = "Provides translations for the 'dconf-editor' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.0"
+PV = "49.0"
 
-RPM_NAME = "dconf-editor-lang-43.0-1.4.noarch.rpm"
-RPM_HASH = "d06d150d7cdd902db5869b7f0cb62a032eaa0fb884cdc248537933656f4d13c5b0edc15d9541e90ff0e1f0c589d60b62cf83b00b58b85d000c0db9c81ec1312d"
+RPM_NAME = "dconf-editor-lang-49.0-2.4.noarch.rpm"
+RPM_HASH = "33a9bd6819b9b106b4de82bca7c55f29adf5f7cde9be4a806fb4b37b02b6636bb4f2729a9101683d49d5b74009430ad04b3ceb5b80ac6216c320cb1e8c4f46d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dconf-editor-lang \

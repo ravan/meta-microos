@@ -4,10 +4,10 @@ supports almost all new drivers that have been added to the kernel \
 recently."
 LICENSE = "ISC"
 
-PV = "5.19"
+PV = "6.17"
 
-RPM_NAME = "iw-5.19-1.5.aarch64.rpm"
-RPM_HASH = "6192e9ac99508d1ad8c69937537bbacd7909d9fd49dbbaee8b4ea94bf31180e903b0549d0964c23f179fa85d6c12af75d1ac7a26ab1bbd8d0287b2d8d5607b7b"
+RPM_NAME = "iw-6.17-2.3.aarch64.rpm"
+RPM_HASH = "1101f6a9482be1f1745ddf6a0c29cbbec2045e653a85891fcd0f06f432f5c1748e15d0ce8b80e3ef38bbaf3c3566502971c73be333a6802d64ce22a8e27a9a5f"
 
 RPROVIDES:${PN} += "iw"
 

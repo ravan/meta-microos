@@ -4,18 +4,19 @@ size, strings, and strip. These utilities are needed whenever you want \
 to compile a program or kernel."
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
-PV = "2.40"
+PV = "2.45"
 
-RPM_NAME = "cross-s390-binutils-2.40-5.1.aarch64.rpm"
-RPM_HASH = "ce255d492d5ca1516a34d064322594c74577b01a93199e65c289221775b9f833d3280de1994027bd7e5d114425cce003bb93f141f10807ccf98a7e4c3eaceba1"
+RPM_NAME = "cross-s390-binutils-2.45-4.3.aarch64.rpm"
+RPM_HASH = "10b9a4b21767f500ce36387743fe2aed5e36e5dc4a980c489432a988196f8dce75020a74030b20d65fe74b67b627bad597b44303851db8dd2cffa659afd35f58"
 
 RPROVIDES:${PN} += "cross-s390-binutils"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libsframe2 \
 libz.so.1 \
-libzstd.so.1 \
-update-alternatives"
+libzstd.so.1"
 
 inherit rpm

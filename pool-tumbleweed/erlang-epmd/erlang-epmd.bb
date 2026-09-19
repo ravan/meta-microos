@@ -2,10 +2,10 @@ SUMMARY = "Erlang Port Mapper daemon"
 DESCRIPTION = "The Erlang Port Mapper daemon acts as a name server on all hosts involved in distributed Erlang computations."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-epmd-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "d5364acb3015a25be30dd13c5741ca94cda416a0a58ab010793dfea38c0fe567b1012cd5ecc9cfd547578e9ff0c45cea944845e23c9733502b23717560d43031"
+RPM_NAME = "erlang-epmd-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "7046f80264a954e854780126bb0e49b4ed4e1a0f74f3a2e37036b636ee97681c1b4960e5a4db7108a099a15a95871b1a821479d372c2608c7eccf9a141a8776e"
 
 RPROVIDES:${PN} += "erlang-epmd \
 group-epmd \
@@ -20,7 +20,6 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
 libsystemd.so.0 \
-systemd \
 sysuser-shadow"
 
 inherit rpm

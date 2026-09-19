@@ -6,10 +6,10 @@ This package includes files that are shared between several \
 Cinnamon applications (configuration schemas)."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "libcinnamon-desktop-data-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "8fc1cc34b623b99253a71964280766e6af6cd7277b43ed6969ed5490fd2c51d140581dc4df3e586c5181f88256c9a299f6020bc4820f7f2ba940d7768fabaa21"
+RPM_NAME = "libcinnamon-desktop-data-6.4.1-1.8.noarch.rpm"
+RPM_HASH = "24644916090e34ccac0614d407aaa975d3508795fbb260c6626df619a1168ad2e96fc04df6d109f3a2ac871c47639a1f70db4434eeb871759b1890c5d62f9efd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-desktop-lang \

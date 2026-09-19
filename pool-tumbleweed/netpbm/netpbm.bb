@@ -11,10 +11,10 @@ Toolkit raster object, and many more. On top of that, man pages are \
 included for all tools."
 LICENSE = "BSD-3-Clause & GPL-2.0-or-later & IJG & MIT & SUSE-Public-Domain"
 
-PV = "11.2.0"
+PV = "11.14.0"
 
-RPM_NAME = "netpbm-11.2.0-1.1.aarch64.rpm"
-RPM_HASH = "9a3300bf74f865f3cf5917f11d1cb878f4a87b2e0c733eccde04b17ff315c3927874be14d0ea9189f67f8165bcf8d71ee9577229198a42a7a49713aa51f8961f"
+RPM_NAME = "netpbm-11.14.0-1.3.aarch64.rpm"
+RPM_HASH = "ad606328269058b1ebba51cb9d8ec7f26c25c1be5711d670cb2b62a0d3b28e54c56ced753dce9511f48f493a229643b14747d2339df1eb1176390a01f42beaba"
 
 RPROVIDES:${PN} += "netpbm \
 pbmplus"
@@ -29,7 +29,7 @@ libm.so.6 \
 libnetpbm.so.11 \
 libpng16.so.16 \
 libtiff.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Tools to access the VHD image format"
 DESCRIPTION = "Tools to access the Virtual Hard Disk (VHD) image format.  See libvhdi for additional details."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221124"
+PV = "20260901"
 
-RPM_NAME = "libvhdi-tools-20221124-4.1.aarch64.rpm"
-RPM_HASH = "6c94fe761da3de273f3a254f5a281e5bec4e0cee2c551d7b282961678ff6f782776bbe736d7b07368e85c2082f2843cc69bc8b058f0ef8177714799a0f2d2634"
+RPM_NAME = "libvhdi-tools-20260901-1.1.aarch64.rpm"
+RPM_HASH = "c0a25ad0c16d5f5c8639c2ed64c0bd9dab96981a178a609b105afddd5421ab43feea2d094d4f04363847dbef2b551c06b1612a4078f8e204976c9687334c78e7"
 
 RPROVIDES:${PN} += "libvhdi-tools"
 

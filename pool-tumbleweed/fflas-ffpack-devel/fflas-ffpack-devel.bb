@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.5.0"
 
-RPM_NAME = "fflas-ffpack-devel-2.5.0-1.6.aarch64.rpm"
-RPM_HASH = "8a0f9122ad8a2568b7fb7d9c9ac29f199b24665860e1c1e881871503c55ccfc384fd4cf7ad0bd5c61f6687a4f78ee6d3d739de732eb0d8e6e8480013e6429027"
+RPM_NAME = "fflas-ffpack-devel-2.5.0-1.15.aarch64.rpm"
+RPM_HASH = "1417b6a580c7d87e6d3879dfb8a105125ab1d68037e9952f3e9adafb8bd108bbe68dd692677261cbcaf5f2e9b89df5619cb6d37148353814315031007dc91a0e"
 
 RPROVIDES:${PN} += "fflas-ffpack-devel \
 pkgconfig-fflas-ffpack"

@@ -7,8 +7,8 @@ LICENSE = "CDDL-1.0"
 
 PV = "3.02~a10"
 
-RPM_NAME = "readcd-3.02~a10-47.4.aarch64.rpm"
-RPM_HASH = "fdd3b13e8721cf9660a8ce1637630724005f5b2070c26b69aaead2d75f2efbe2fd42d404b9fb1d8f6c7a5c8baa21886a86df2ad7a6d0e94e80ffad8c7509ae7f"
+RPM_NAME = "readcd-3.02~a10-53.5.aarch64.rpm"
+RPM_HASH = "6de1a19be2f6dd42e489a082b27825514d8729f079bbdfc9923451489dcba889db9c0a60272ff6f631b1966ed1eb90889dc56306991dde0e0aa36e9977f7e261"
 
 RPROVIDES:${PN} += "cdrecord-/usr/bin/readcd \
 readcd"

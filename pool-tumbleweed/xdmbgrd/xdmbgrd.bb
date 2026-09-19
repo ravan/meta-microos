@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "xdmbgrd-0.8-1.5.aarch64.rpm"
-RPM_HASH = "27cbce85f19acecd1fb2fde4e9400c6a9d0173fe11926d5be26439ba9830d5fdc2526f25fa1b6995c296e3290d3b8c1d191a4b5c51ae785f716e909c0ca35431"
+RPM_NAME = "xdmbgrd-0.8-2.11.aarch64.rpm"
+RPM_HASH = "0b827fb36ffb75266e279cda6e590bd29f4fee3930bba3ceb03a5308fccfff45bdfb4b45690bec6fba1d872d08af84dc885cb730263b34b700d5843378302ccd"
 
 RPROVIDES:${PN} += "xdmbgrd"
 

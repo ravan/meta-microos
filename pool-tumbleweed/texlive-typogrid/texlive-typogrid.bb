@@ -4,10 +4,10 @@ the page into columns, and may be used for fixing measurements \
 of layout."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.21svn24994"
+PV = "2026.226.0.0.21svn24994"
 
-RPM_NAME = "texlive-typogrid-2023.209.0.0.21svn24994-53.1.noarch.rpm"
-RPM_HASH = "f379df591199781dfdedbda7aca4f57bcf361e8abf89b1f18ed7efba3d048e28685dc86b264e35ce3d101f3369fd889bda28a9e9e04e4385abbd1f363f4e230f"
+RPM_NAME = "texlive-typogrid-2026.226.0.0.21svn24994-59.2.noarch.rpm"
+RPM_HASH = "cc99b9cc13a3f812ecc03975af6e6c3a70366fee1a3494d334629e283aafb361264f8f8c5f6ff17a61ce48b350617a83311ed3865e877c2196208f88a627ba5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-typogrid.sty \

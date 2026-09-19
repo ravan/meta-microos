@@ -5,10 +5,10 @@ It allows inspecting and controlling the UI remotely via \
 an HTTP REST API. This is designed for automated tests."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-qt-rest-api16-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "8dec1ea698d7456f32b95a3cfdeb515c0f596d58146422b09971acc49302feffd8819cb843c0ccbdb236dccc943e03d6eebd897a79dd3b3541ae6cdc142572c5"
+RPM_NAME = "libyui-qt-rest-api16-4.7.7-1.1.aarch64.rpm"
+RPM_HASH = "b50f325da04574bc65763b423fa7cfd3e8428e69d50467c4672d58f7266ea5440132ddea1015a46e04705babc3e049c63cf3355fa8750430dd6c2af60ababde3"
 
 RPROVIDES:${PN} += "libyui-qt-rest-api \
 libyui-qt-rest-api.so.16 \

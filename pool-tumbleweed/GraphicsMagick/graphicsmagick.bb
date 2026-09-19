@@ -14,10 +14,10 @@ This package is compiled with Q16, which means that it provides better \
 performance on 16 bit images and less."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "GraphicsMagick-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "c93890f6db660958fa42344674324953c7ba709f99d39c0c9597908d4a1922cd6c95e607fe6a026b59622558261f8d2c225712b430aa5873167961bafed4effd"
+RPM_NAME = "GraphicsMagick-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "218481848261b6b1f5d252ade88fb1da2b0074d38be26b76c563803811b6577acefd3c5212d2e00a60e27767b92be671e5d0b1c873b3d240b60e344ad3f07f02"
 
 RPROVIDES:${PN} += "GraphicsMagick"
 

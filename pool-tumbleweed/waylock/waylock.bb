@@ -4,10 +4,10 @@ DESCRIPTION = "Screenlocker for Wayland compositors implementing ext-session-loc
 cause the session to be unlocked.)"
 LICENSE = "ISC"
 
-PV = "0.6.2"
+PV = "1.3.0"
 
-RPM_NAME = "waylock-0.6.2-1.3.aarch64.rpm"
-RPM_HASH = "f66e76980c4979e30ed364dae2bb323dc4eea188de5cf102846a40a2c99316efa410d1ea7433fe22a164905a3318e6fb9ec727890442c14ca77c87286e884c32"
+RPM_NAME = "waylock-1.3.0-1.1.aarch64.rpm"
+RPM_HASH = "71965cf234560bec37a75cce16692b3d088da113de370747326bebc4f31e2dac032c5a7cc87dd505abb4c48dd1e39f3f74cab1ccdb4e08cfc856d55d32fa70db"
 
 RPROVIDES:${PN} += "waylock"
 

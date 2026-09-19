@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-ppc64le-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "de72495a5f931f2ab90dc2d52f55fbf6de42f952ee426ad44576d394e8f2e8a925ce9738078c1925c031ae53156e806c88c7bde38cd897a8c4145b8cc4e3a6d0"
+RPM_NAME = "cross-ppc64le-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "9bf34e8f82046a4081935df9321a79b7c913d320913dd5fb43730b1e85a6f60fd0e12b31dba5aa377f117f6f7809b474c12f26a175b95460f3b13fd23efaf92a"
 
 RPROVIDES:${PN} += "cross-ppc64le-gcc7 \
-liblto-plugin.so.0"
+liblto-plugin.so.0 \
+powerpc64le-suse-linux-gcc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 cross-ppc64le-binutils \

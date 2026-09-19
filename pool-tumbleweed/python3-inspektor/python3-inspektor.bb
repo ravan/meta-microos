@@ -6,28 +6,23 @@ pycodestyle, and checks for PEP8 compliance. \
 Inspektor can work with Git and SVN checkouts."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.2"
+PV = "0.5.3"
 
-RPM_NAME = "python3-inspektor-0.5.2-2.9.noarch.rpm"
-RPM_HASH = "2779f3aa2e714f9f52c7781244462a8ce9af944cdf51663ca7338d3f4ef0ad3e535c5cf751b83a883456b34a6949363afe7319babb0297ebf25e5fdaf875471b"
+RPM_NAME = "python3-inspektor-0.5.3-1.2.noarch.rpm"
+RPM_HASH = "ccf27b62c599eac2a98b62248bab96556cf91bbf674047012948a604d37c9b01723d430f41d51a818609367f2f38aa44a7ed30012a46a1312128eba6955689a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-inspektor \
-python3.11dist-inspektor \
+python3.13dist-inspektor \
 python3dist-inspektor"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
-python3-astroid \
 python3-cliff \
-python3-cmd2 \
-python3-logutils \
-python3-pbr \
 python3-pycodestyle \
 python3-pylint \
-python3-stevedore \
-python3-typed-ast \
+python3-six \
 update-alternatives"
 
 inherit rpm

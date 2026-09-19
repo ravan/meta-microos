@@ -2,10 +2,10 @@ SUMMARY = "Comics document support for Evince"
 DESCRIPTION = "A plugin for Evince to read Comics documents."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.3"
+PV = "48.4"
 
-RPM_NAME = "evince-plugin-comicsdocument-44.3-1.1.aarch64.rpm"
-RPM_HASH = "beb6ab6a68312ae9788bc5aa7ad6f467de82add3981a85194eb483164e39592b4e98edcebba87ba229e825f16ee240f9f4ea53b317db5e6eca69acca5bc9ad1a"
+RPM_NAME = "evince-plugin-comicsdocument-48.4-2.1.aarch64.rpm"
+RPM_HASH = "da25054d739a50fb3f5fece9144e20e919491b71146340f755be75e7b1be98a280986924233e7dfc5619e1fcb104c5a08e5726449ad5eac89875c85bc99f04b3"
 
 RPROVIDES:${PN} += "evince-plugin-comicsdocument \
 libcomicsdocument.so"

@@ -1,43 +1,40 @@
 SUMMARY = "DICOM Toolkit"
 DESCRIPTION = "DCMTK is a collection of libraries and applications implementing large \
 parts the DICOM standard."
-LICENSE = "BSD-3-Clause & Apache-2.0"
+LICENSE = "Apache-2.0 & BSD-3-Clause"
 
-PV = "3.6.7"
+PV = "3.7.0"
 
-RPM_NAME = "dcmtk-3.6.7-2.3.aarch64.rpm"
-RPM_HASH = "5f03f2a606e4a210b48b01179e49a2fc01224588ad412ceecdb6ac28d14b0aa7735aa81f225e8bab652e7929ee0a29d797724f9ebcb10b8108d9f680f506b809"
+RPM_NAME = "dcmtk-3.7.0-2.4.aarch64.rpm"
+RPM_HASH = "497097f22bfdc6d1c6e423b1afd148039503fb0553c75cb6aa185d6c37bf2749ee89beeda65191cf7290dd4108be976eb4fabc5d81a504481a4fc4dc434387a4"
 
 RPROVIDES:${PN} += "config-dcmtk \
 dcmtk"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcmr.so.17 \
-libdcmdata.so.17 \
-libdcmdsig.so.17 \
-libdcmect.so.17 \
-libdcmfg.so.17 \
-libdcmimage.so.17 \
-libdcmimgle.so.17 \
-libdcmiod.so.17 \
-libdcmjpeg.so.17 \
-libdcmjpls.so.17 \
-libdcmnet.so.17 \
-libdcmpstat.so.17 \
-libdcmqrdb.so.17 \
-libdcmrt.so.17 \
-libdcmseg.so.17 \
-libdcmsr.so.17 \
-libdcmtls.so.17 \
-libdcmwlm.so.17 \
+libdcmdata.so.20 \
+libdcmdsig.so.20 \
+libdcmimage.so.20 \
+libdcmimgle.so.20 \
+libdcmjpeg.so.20 \
+libdcmjpls.so.20 \
+libdcmnet.so.20 \
+libdcmpstat.so.20 \
+libdcmqrdb.so.20 \
+libdcmrt.so.20 \
+libdcmsr.so.20 \
+libdcmtls.so.20 \
+libdcmwlm.so.20 \
+libdcmxml.so.20 \
 libgcc-s.so.1 \
-libi2d.so.17 \
+libi2d.so.20 \
 libm.so.6 \
-liboflog.so.17 \
-libofstd.so.17 \
+liboficonv.so.20 \
+liboflog.so.20 \
+libofstd.so.20 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

@@ -7,10 +7,10 @@ PostScript.  Only language text which can be converted from UTF-8 to \
 Latin encodings are supported."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.15"
+PV = "4.15.8"
 
-RPM_NAME = "a2ps-4.15-1.4.aarch64.rpm"
-RPM_HASH = "ffdd649de24b709552f66d6cc0f90cb98b5999553593342be09879db74d779fe6c3322c367dcb0f8046a69dab4686fe988c273fbd93afbd3a1c13c98f8d83dfa"
+RPM_NAME = "a2ps-4.15.8-1.1.aarch64.rpm"
+RPM_HASH = "cc4629e6cf6acdc5c5f2f6373d6bc42ba012df22627d92fef60bb5f48894849231d76c96c0b2c8017547af9f1acea9492a89b587c7db9a1aa234985eb721c2db"
 
 RPROVIDES:${PN} += "a2ps \
 a2ps-bin \

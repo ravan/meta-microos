@@ -12,10 +12,10 @@ This package does not have a devel package, because this project is for \
 development/testing."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.1.4"
+PV = "1.1.8"
 
-RPM_NAME = "pam_wrapper-1.1.4-2.4.aarch64.rpm"
-RPM_HASH = "0d22a8b736635f8814883bf826d9aafb314d070faed0358cad0160ef6880818379ad6bd5c9bb807a50b681d3a660473f1da1bd729f74817bd582d504c796251d"
+RPM_NAME = "pam_wrapper-1.1.8-1.4.aarch64.rpm"
+RPM_HASH = "c673424b2b9fb63e65f1efdf832083bb3d3b728456538a8869f12b85a541142ea913c0ab5d6dcaca1d0da5ef56fdeae0ac5e40c2f29001acddf63bc67d3d62b2"
 
 RPROVIDES:${PN} += "cmake-pam-wrapper \
 libpam-wrapper.so.0 \

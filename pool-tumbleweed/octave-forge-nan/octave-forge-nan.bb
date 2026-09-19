@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.7.0"
 
-RPM_NAME = "octave-forge-nan-3.7.0-1.7.aarch64.rpm"
-RPM_HASH = "9993e3b8ec63020879bdb5449dc0e35baa8f6dc85dce598cde98965d29348d118a353f4872a1593e55c11dc1c505641d1fd14c0aea250c14873f9cae5ab9753b"
+RPM_NAME = "octave-forge-nan-3.7.0-1.17.aarch64.rpm"
+RPM_HASH = "be98ff68873680cae5f0be104ca62e1f3027220f368e299be02c2bc938534c9d3b95ba8315da2d3ab48a2ea0b0eb084d336610456d5b332aa13fd39fe24ee361"
 
 RPROVIDES:${PN} += "octave-forge-nan"
 
@@ -16,6 +16,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libm.so.6 \
+liboctmex.so.1 \
 libopenblas.so.0 \
 libstdc++.so.6 \
 octave-cli"

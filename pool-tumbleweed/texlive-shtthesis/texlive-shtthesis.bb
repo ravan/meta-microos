@@ -7,10 +7,10 @@ via \\shtsetup, then his or her thesis document will be typeset \
 properly."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.3.3svn62441"
+PV = "2026.226.0.0.3.3svn62441"
 
-RPM_NAME = "texlive-shtthesis-2023.209.0.0.3.3svn62441-54.1.noarch.rpm"
-RPM_HASH = "7596888c598db583b874bf79993db84e56b0aa48509a94fd120e013688f4663ed20e1e3429c591c60999b6c49fa0c99cb5ddfce254ec0847a7bd06ec349ca7b3"
+RPM_NAME = "texlive-shtthesis-2026.226.0.0.3.3svn62441-60.2.noarch.rpm"
+RPM_HASH = "3e4c18d9a119facb7eeb4548a828bafd2259144c6be2a327db094b8b6b96a8148b70b4fb55eb21c278029641229d9cb1d266c225004cc55608d83ebbe27e86d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-shtthesis.cls \

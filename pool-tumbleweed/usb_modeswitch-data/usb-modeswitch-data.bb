@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6.1"
 
-RPM_NAME = "usb_modeswitch-data-2.6.1-2.7.noarch.rpm"
-RPM_HASH = "c3492525022b98350cb38572323bdb95562f4fe222cfc8cd93d528e6efac188fb345a617690fa24ff5e161375e368f5b61b15cea7c9e25d5f256086cf19b9a72"
+RPM_NAME = "usb_modeswitch-data-2.6.1-4.5.noarch.rpm"
+RPM_HASH = "fe5397a9a4e9f7a20a88585e062a74aa252628b3b9102f7ae8a13f714a355d01da9d10aecc2052f0d1adb9292e919d62e163fc432c4ce409ad32c0c622341c5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "usb-modeswitch-data"

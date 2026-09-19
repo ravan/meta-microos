@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.03"
 
-RPM_NAME = "perl-MooseX-HasDefaults-0.03-2.21.noarch.rpm"
-RPM_HASH = "7e08202430065a0aecd331ee75eb028b8c2abe33d6fb8de94656b2112aed8535771508f656cc5eeb7493a62524b5e9c4153611627ac19b2cbeb0476f0300b62a"
+RPM_NAME = "perl-MooseX-HasDefaults-0.03-2.35.noarch.rpm"
+RPM_HASH = "6af6445649f407d39999dd5c9c0ed836d6dbe43d330e606aedef8db7f53a39de207b61619210d9c76f33eda8e1867ce6069d0a75f3f414e6512ea62d0141b399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--HasDefaults \
@@ -20,7 +20,7 @@ perl-MooseX--HasDefaults--RO \
 perl-MooseX--HasDefaults--RW \
 perl-MooseX-HasDefaults"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose"
 
 inherit rpm

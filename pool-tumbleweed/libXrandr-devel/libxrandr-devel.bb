@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libXrandr2."
 LICENSE = "MIT"
 
-PV = "1.5.3"
+PV = "1.5.5"
 
-RPM_NAME = "libXrandr-devel-1.5.3-1.2.aarch64.rpm"
-RPM_HASH = "24beabe394cf932d75d8937eab864daa3d3316a7c1faeed92d0f98e2a010834a87b2066294592fea389347fdcecd3852c6ad1591b1d20edb31447dee50bed440"
+RPM_NAME = "libXrandr-devel-1.5.5-1.4.aarch64.rpm"
+RPM_HASH = "44b4274d8dbf5c6da3e74700388e55b11b26e25e61703920ce97dfec173e4e3f743d2519fa3a43e6e92667725489ada275b441578763fc5480b2e41678d615e8"
 
 RPROVIDES:${PN} += "libXrandr-devel \
 pkgconfig-xrandr"
@@ -18,8 +18,10 @@ pkgconfig-xrandr"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libXrandr2 \
 pkgconfig-randrproto \
+pkgconfig-renderproto \
 pkgconfig-x11 \
 pkgconfig-xext \
+pkgconfig-xextproto \
 pkgconfig-xproto \
 pkgconfig-xrender"
 

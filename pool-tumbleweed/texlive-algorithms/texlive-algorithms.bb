@@ -6,10 +6,10 @@ algorithmic environment a number of commands for typesetting \
 popular algorithmic constructs are available."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.0.0.1svn42428"
+PV = "2026.226.0.0.1svn78101"
 
-RPM_NAME = "texlive-algorithms-2023.209.0.0.1svn42428-55.1.noarch.rpm"
-RPM_HASH = "bce96ea1b408778733c3e69d575e10c2e22263ab9ea5f3446b44919d1373e76ced5a840c37d33ff35b792468108b22d10fb2f98e7d01d1fa4a65402fb5738989"
+RPM_NAME = "texlive-algorithms-2026.226.0.0.1svn78101-61.2.noarch.rpm"
+RPM_HASH = "79a070dc75738d52f5ce2457aa024ee1baa5ea55c51b640a00726abd9781152d47e0e66a19fe3a2177c55c22583a3ddea51ceb3e73ccdbff9b37f92652b17a8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algorithm.sty \

@@ -7,10 +7,10 @@ The programmer should be familiar with the structure of a DNS packet and \
 the zone file presentation format described in RFC1035."
 LICENSE = "MIT"
 
-PV = "1.39"
+PV = "1.570.0"
 
-RPM_NAME = "perl-Net-DNS-1.39-1.2.noarch.rpm"
-RPM_HASH = "94b04c203e5928536f2b235f0ad537ad138f8e265678b4f115c1357cf6dc11e2e414a7cb9c9e2b77447b8122c250a1918ad8ce0c92fdbf2f0ce547f44f4f54dd"
+RPM_NAME = "perl-Net-DNS-1.570.0-1.1.noarch.rpm"
+RPM_HASH = "1872aa18895f50e6622dd4fb7cea430efa73cb7cda98988556b4b74afc0db5696c64bf5be9c554f976104c0230a6c8b5b6919ef593708d0c61573ac6c1f5910e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Net--DNS \
@@ -39,10 +39,12 @@ perl-Net--DNS--RR--CDS \
 perl-Net--DNS--RR--CERT \
 perl-Net--DNS--RR--CNAME \
 perl-Net--DNS--RR--CSYNC \
+perl-Net--DNS--RR--DELEG \
 perl-Net--DNS--RR--DHCID \
 perl-Net--DNS--RR--DNAME \
 perl-Net--DNS--RR--DNSKEY \
 perl-Net--DNS--RR--DS \
+perl-Net--DNS--RR--DSYNC \
 perl-Net--DNS--RR--EUI48 \
 perl-Net--DNS--RR--EUI64 \
 perl-Net--DNS--RR--GPOS \
@@ -79,13 +81,17 @@ perl-Net--DNS--RR--OPT--DHU \
 perl-Net--DNS--RR--OPT--EXPIRE \
 perl-Net--DNS--RR--OPT--EXTENDED-ERROR \
 perl-Net--DNS--RR--OPT--KEY-TAG \
+perl-Net--DNS--RR--OPT--MQTYPE-QUERY \
+perl-Net--DNS--RR--OPT--MQTYPE-RESPONSE \
 perl-Net--DNS--RR--OPT--N3U \
-perl-Net--DNS--RR--OPT--NSID \
 perl-Net--DNS--RR--OPT--PADDING \
 perl-Net--DNS--RR--OPT--REPORT-CHANNEL \
 perl-Net--DNS--RR--OPT--TCP-KEEPALIVE \
+perl-Net--DNS--RR--OPT--UPDATE-LEASE \
+perl-Net--DNS--RR--OPT--ZONEVERSION \
 perl-Net--DNS--RR--PTR \
 perl-Net--DNS--RR--PX \
+perl-Net--DNS--RR--RESINFO \
 perl-Net--DNS--RR--RP \
 perl-Net--DNS--RR--RRSIG \
 perl-Net--DNS--RR--RT \
@@ -119,9 +125,10 @@ perl-Net--DNS--ZoneFile--Generator \
 perl-Net--DNS--ZoneFile--Text \
 perl-Net-DNS"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp \
 perl-Digest--HMAC \
+perl-Digest--MD5 \
 perl-Digest--SHA \
 perl-Encode \
 perl-Exporter \
@@ -131,6 +138,11 @@ perl-IO--Socket \
 perl-IO--Socket--IP \
 perl-PerlIO \
 perl-Scalar--Util \
-perl-Time--Local"
+perl-Socket \
+perl-Time--Local \
+perl-base \
+perl-constant \
+perl-overload \
+perl-warnings"
 
 inherit rpm

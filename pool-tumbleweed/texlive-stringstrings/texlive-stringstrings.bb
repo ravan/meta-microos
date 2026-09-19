@@ -11,10 +11,10 @@ macros may be strung together sequentially and nested (after a \
 fashion) to achieve rather complex manipulations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.24svn57097"
+PV = "2026.226.1.24svn77682"
 
-RPM_NAME = "texlive-stringstrings-2023.209.1.24svn57097-58.1.noarch.rpm"
-RPM_HASH = "79934899758cc40a0ae605f2f7251a3430c163aa5db5c7b49365925263d644139a0d214aca2c7cabc454863020cfe62cc08563d6d8e13aecf7ef93882f386024"
+RPM_NAME = "texlive-stringstrings-2026.226.1.24svn77682-64.2.noarch.rpm"
+RPM_HASH = "9b437660de5fbc9081af8390abbf0ffb6b135ca31850c8cb8eb293bd122ee32687b40b46716522aa9e2c84ec7c24b47414cf911d8bae09e74b407f0761396fff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-stringstrings.sty \

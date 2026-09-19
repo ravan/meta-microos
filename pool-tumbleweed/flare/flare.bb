@@ -11,16 +11,15 @@ Flare uses .ini-style config files for most of the \
 game data to modify game contents. The game code is C++."
 LICENSE = "(CC-BY-SA-3.0 | CC-BY-SA-4.0) & GPL-3.0-or-later"
 
-PV = "1.14"
+PV = "1.15"
 
-RPM_NAME = "flare-1.14-1.4.aarch64.rpm"
-RPM_HASH = "f2f3c180b929aa70707d7e7c279a405c0a22da3b134605a9d7d73a36ddc118adc6a897c04a154108638eca13ca13adfaf739b6b5e04fa56e5743b96cde4822ee"
+RPM_NAME = "flare-1.15-1.2.aarch64.rpm"
+RPM_HASH = "f33e56acdb008fd439dd7b2a79d7a5c202ad0d435093a798a7293edf62ccdb6bf750322258230e687a1ab6ded3edb651204818a52da05a2a2af75f0da483e20e"
 
 RPROVIDES:${PN} += "flare \
 flare-engine"
 
 RDEPENDS:${PN} += "flare-game \
-hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
@@ -28,7 +27,6 @@ libSDL2-mixer-2.0.so.0 \
 libSDL2-ttf-2.0.so.0 \
 libc.so.6 \
 libm.so.6 \
-libstdc++.so.6 \
-update-desktop-files"
+libstdc++.so.6"
 
 inherit rpm

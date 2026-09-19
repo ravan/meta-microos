@@ -3,10 +3,10 @@ DESCRIPTION = "Spine is a supplemental poller for Cacti that makes use of pthrea
 excellent performance."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.25"
+PV = "1.2.31"
 
-RPM_NAME = "cacti-spine-1.2.25-1.1.aarch64.rpm"
-RPM_HASH = "6cf1d07dff1f940106699652526bf69205e6bad9ac06d299e4cb5d7c03185ed2199167e88722666bec87dd699ecb9825a3bca796c6df2da4a98a6226e70091cd"
+RPM_NAME = "cacti-spine-1.2.31-1.3.aarch64.rpm"
+RPM_HASH = "da5ba8dbfb0eb19f940ccc3b94e186d7416f4bc05e74d926a9e088f5955d82ed60ecf16a244a84fd5b6bbc880da806044dc7bd13e15bc8c76fbf7bc4bf5c40aa"
 
 RPROVIDES:${PN} += "cacti-spine \
 config-cacti-spine"
@@ -16,7 +16,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
 libmariadb.so.3 \
-libnetsnmp.so.40 \
+libnetsnmp.so.45 \
 rrdtool"
 
 inherit rpm

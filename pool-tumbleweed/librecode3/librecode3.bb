@@ -5,10 +5,10 @@ This package contains librecode shared library for embedding in \
 other applications."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.7.14"
+PV = "3.7.15"
 
-RPM_NAME = "librecode3-3.7.14-1.1.aarch64.rpm"
-RPM_HASH = "40ab19e8a7c18e049bc547d3a8398ea2dc140eae40fcd851aadf8bb639567abb833e67326d6e93fb9870546fc150a2b8f991f19fe1118a36b2c936db3e46ccce"
+RPM_NAME = "librecode3-3.7.15-2.5.aarch64.rpm"
+RPM_HASH = "d9bbba7c07cb749ef59783587ce121cce97a3b3a3d024e6084bd10bd39948648e96740cc12d3b1b3eb23d9c69ca6db25eef25dbb75d1e518d9f694e0a41f7ff0"
 
 RPROVIDES:${PN} += "librecode.so.3 \
 librecode3"

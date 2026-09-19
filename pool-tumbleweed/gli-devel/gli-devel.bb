@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-only & MIT"
 
 PV = "0.8.2.0"
 
-RPM_NAME = "gli-devel-0.8.2.0-4.4.aarch64.rpm"
-RPM_HASH = "9f953667c2cbf311a06d77c54b91a252c5303ff61bb74766428a9b3c246d06e4f8d826290562599dbc4054316973776510b4e67129cc6a5a0dff26bc3b1eb8eb"
+RPM_NAME = "gli-devel-0.8.2.0-6.5.aarch64.rpm"
+RPM_HASH = "a2b27a82610372dd05e02f8e164050e52f989abf904a5fab2286d45397d0db1f64db0b1216ebfb82788237ad73f0f8374a3c92a96b7fee50a1abb83d6ae37a43"
 
 RPROVIDES:${PN} += "cmake-gli \
 gli-devel"

@@ -2,13 +2,14 @@ SUMMARY = "Translations for package xfce4-settings"
 DESCRIPTION = "Provides translations for the 'xfce4-settings' package."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
-PV = "4.18.3"
+PV = "4.20.5"
 
-RPM_NAME = "xfce4-settings-lang-4.18.3-1.1.noarch.rpm"
-RPM_HASH = "fa99948e859a8ea10155857f2487f61b641dcd939593b4df32dad3ae08cb0256367de8f4c513b5fcb0e7947f6dc72488693b591a78a1f7914f3e49c76734fb08"
+RPM_NAME = "xfce4-settings-lang-4.20.5-1.1.noarch.rpm"
+RPM_HASH = "d52ae1c7475bef82efccad382d15ffdfcafa5ede1111eec45927d7e3a04dccc7a708124148fa2d618947aa9e153b6b49bf96297e15e1430c1869635ab309773f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-settings-ar \
+locale-xfce4-settings-az \
 locale-xfce4-settings-be \
 locale-xfce4-settings-bg \
 locale-xfce4-settings-bn \
@@ -59,6 +60,7 @@ locale-xfce4-settings-th \
 locale-xfce4-settings-tr \
 locale-xfce4-settings-ug \
 locale-xfce4-settings-uk \
+locale-xfce4-settings-vi \
 locale-xfce4-settings-zh-CN \
 locale-xfce4-settings-zh-HK \
 locale-xfce4-settings-zh-TW \

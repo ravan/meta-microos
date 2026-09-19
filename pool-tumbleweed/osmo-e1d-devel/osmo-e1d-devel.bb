@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of libosmo-e1d."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.5.0"
+PV = "0.8.0"
 
-RPM_NAME = "osmo-e1d-devel-0.5.0-1.2.aarch64.rpm"
-RPM_HASH = "4b376419bac01ff49d9d3f96e77a9e0aa9945163401348572f03cfb8aee3ed7d45eded806361608fe72095abdcb2782f32f2ff33981c14afe66d8aea4c197571"
+RPM_NAME = "osmo-e1d-devel-0.8.0-1.1.aarch64.rpm"
+RPM_HASH = "9f9a9209b4c6c2e2c91ceb4ccb113d55a9f7d785686294086a2c52982b4226a556c6e86bcd58cc1f92510ec049abbc76c3a9bf2f4193267520307807000bf3d7"
 
 RPROVIDES:${PN} += "libosmo-e1d-devel \
 osmo-e1d-devel \
@@ -14,8 +14,8 @@ pkgconfig-libosmo-e1d \
 pkgconfig-libosmo-octoi"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libosmo-e1d1 \
-libosmo-octoi1 \
+libosmo-e1d3 \
+libosmo-octoi3 \
 pkgconfig-libosmocore"
 
 inherit rpm

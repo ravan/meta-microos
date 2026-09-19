@@ -6,10 +6,10 @@ extensive access controls and can also be used as a server \
 accelerator."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.2"
+PV = "7.7"
 
-RPM_NAME = "squid-6.2-1.1.aarch64.rpm"
-RPM_HASH = "7aac522bb891599ad1037dbcb74a3237718f526b9775a50d6d3f34c39ec75d5ea1f8a53afc503edcb00e0086171feec7f3058e51324a8eebd1b7564f19e133b0"
+RPM_NAME = "squid-7.7-1.1.aarch64.rpm"
+RPM_HASH = "6045780e51400c98f150bf75c31e58673818356c7518ea9515f1a6047f478f44c2e24f44bc6eef914f533cf34b168bb1294d1baeb0e44b14e0e0d3aa11847a4d"
 
 RPROVIDES:${PN} += "config-squid \
 group-squid \

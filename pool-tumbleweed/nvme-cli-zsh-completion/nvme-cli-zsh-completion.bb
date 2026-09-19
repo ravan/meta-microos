@@ -2,10 +2,10 @@ SUMMARY = "NVM Express user space tools zsh completion"
 DESCRIPTION = "Optional dependency offering zsh completion for NVM Express user space tools"
 LICENSE = "GPL-2.0-only"
 
-PV = "2.4"
+PV = "3.0+6.g1ac60ca4b"
 
-RPM_NAME = "nvme-cli-zsh-completion-2.4-2.1.noarch.rpm"
-RPM_HASH = "834e6cd00bf7e630a477f8b32e807fe3d2e24c91c24f1683251435ed1954172a247621e94a25c41dd0b2a3db9240cdb8b7ace38f7e44e19f0a350a2391ed66ad"
+RPM_NAME = "nvme-cli-zsh-completion-3.0+6.g1ac60ca4b-1.1.noarch.rpm"
+RPM_HASH = "90252e4a615c913f32f43c8f56357d16c9e6bcb3acb3910b94a3ecf1691e2670dbcaca2b44ceb8a6f1de952ab2c3f889ac84e8acf1cd91e1a273e5b2faabc304"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvme-cli-zsh-completion"

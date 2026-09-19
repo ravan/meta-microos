@@ -5,16 +5,17 @@ Cinnamon modules/applications. \
 This package provides the GObject Introspection bindings for libcvc."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "typelib-1_0-Cvc-1_0-5.8.0-1.1.aarch64.rpm"
-RPM_HASH = "3585b8b9164b18d64b5745193a9b1a1b4a72a2518b4ad42e161bac90be499601304e3f1d243bdcee09792efb042e510702a58cf32d7c7d3aebdd3dc9b2768d1a"
+RPM_NAME = "typelib-1_0-Cvc-1_0-6.4.1-1.8.aarch64.rpm"
+RPM_HASH = "1dd1c5d402dc97584344865675a9f9418ff1a3a607d39c569d40c0fc539fed42c0a8e11f5e698653c4e571aa3d071c6757374a405f8566bc4dd1c3032d8fbf48"
 
 RPROVIDES:${PN} += "typelib-1-0-Cvc-1-0 \
 typelib-Cvc"
 
 RDEPENDS:${PN} += "libcvc.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

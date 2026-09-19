@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-lablgtk3-devel package contains libraries and signature
 developing applications that use ocaml-lablgtk3."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "3.1.3"
+PV = "3.1.5"
 
-RPM_NAME = "ocaml-lablgtk3-devel-3.1.3-2.4.aarch64.rpm"
-RPM_HASH = "d2fdd0617b3bb4cd8b4b0162ff7fa9d38850abbe5ec222a45198d4c80fedd8a61da2826a184c1293ba3aecbe72b03bd448e8419e4f56cfe94c2336f55f8ab2fc"
+RPM_NAME = "ocaml-lablgtk3-devel-3.1.5-1.1.aarch64.rpm"
+RPM_HASH = "f10750ecab8319fa45f7e3c85f1cd043ace7c9cdba236728b6a53700be12f702cc42d3e3dcafa13b365ae032f33c73502b1ed03762ff1ce5467c1de881e61d27"
 
-RPROVIDES:${PN} += "ocaml-Cairo-pango \
+RPROVIDES:${PN} += "config-ocaml-lablgtk3-devel \
+ocaml-Cairo-pango \
 ocaml-GAction \
 ocaml-GAssistant \
 ocaml-GBin \
@@ -102,10 +103,12 @@ ocaml-OgtkTextProps \
 ocaml-OgtkTreeProps \
 ocaml-Pango \
 ocaml-PangoEnums \
+ocaml-Rsvg2 \
 ocaml-SourceView3Enums \
 ocaml-lablgtk3-devel \
 ocamlfind-lablgtk3 \
 ocamlfind-lablgtk3-gtkspell3 \
+ocamlfind-lablgtk3-rsvg2 \
 ocamlfind-lablgtk3-sourceview3 \
 ocamlx-Cairo-pango \
 ocamlx-GAction \
@@ -200,6 +203,7 @@ ocamlx-OgtkTextProps \
 ocamlx-OgtkTreeProps \
 ocamlx-Pango \
 ocamlx-PangoEnums \
+ocamlx-Rsvg2 \
 ocamlx-SourceView3Enums"
 
 RDEPENDS:${PN} += "libc.so.6 \
@@ -213,20 +217,22 @@ libgtksourceview-3.0.so.1 \
 libgtkspell3-3.so.0 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
+librsvg-2.so.2 \
 ocaml-Cairo \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-CamlinternalOO \
-ocaml-Condition \
-ocaml-Mutex \
 ocaml-Stdlib \
 ocaml-Stdlib--ArrayLabels \
 ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
+ocaml-Stdlib--Bytes \
 ocaml-Stdlib--BytesLabels \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Condition \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Gc \
@@ -235,6 +241,7 @@ ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Lazy \
 ocaml-Stdlib--List \
 ocaml-Stdlib--ListLabels \
+ocaml-Stdlib--Mutex \
 ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Oo \
@@ -243,6 +250,7 @@ ocaml-Stdlib--Printf \
 ocaml-Stdlib--Queue \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--StdLabels \
+ocaml-Stdlib--String \
 ocaml-Stdlib--StringLabels \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
@@ -250,23 +258,25 @@ ocaml-Thread \
 ocaml-Unix \
 ocaml-lablgtk3 \
 ocamlfind-cairo2 \
+ocamlfind-lablgtk3 \
 ocamlfind-threads \
 ocamlx-CamlinternalLazy \
 ocamlx-CamlinternalOO \
-ocamlx-Condition \
-ocamlx-Mutex \
 ocamlx-Stdlib \
 ocamlx-Stdlib--ArrayLabels \
 ocamlx-Stdlib--Buffer \
+ocamlx-Stdlib--Bytes \
 ocamlx-Stdlib--BytesLabels \
 ocamlx-Stdlib--Callback \
 ocamlx-Stdlib--Char \
+ocamlx-Stdlib--Condition \
 ocamlx-Stdlib--Format \
 ocamlx-Stdlib--Gc \
 ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Int32 \
 ocamlx-Stdlib--List \
 ocamlx-Stdlib--ListLabels \
+ocamlx-Stdlib--Mutex \
 ocamlx-Stdlib--Nativeint \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
@@ -276,6 +286,7 @@ ocamlx-Stdlib--Sys \
 ocamlx-Thread \
 pkgconfig-gtk+-3.0 \
 pkgconfig-gtksourceview-3.0 \
-pkgconfig-gtkspell3-3.0"
+pkgconfig-gtkspell3-3.0 \
+pkgconfig-librsvg-2.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-linguex"
 DESCRIPTION = "This package includes the documentation for texlive-linguex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.3svn30815"
+PV = "2026.226.4.3svn77682"
 
-RPM_NAME = "texlive-linguex-doc-2023.209.4.3svn30815-55.1.noarch.rpm"
-RPM_HASH = "a9a78d02384f06d40ef3171f78e36d1178bc4be5551f073b745cc53adadef762283eff907eed671a2431757732f9b88037761a95b5a3400cd80b1cbbe7af0dde"
+RPM_NAME = "texlive-linguex-doc-2026.226.4.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "8e78578a46faa570d054fbbf23858a3c270e091ca90431f4650fd004dc91f7393c903a4d415457b6b00bc62a01024bab0661183411bc4dbb1d1d8a0c1d8fb2df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-linguex-doc"

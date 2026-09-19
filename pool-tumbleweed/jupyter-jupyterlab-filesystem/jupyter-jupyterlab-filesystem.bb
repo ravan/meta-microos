@@ -6,20 +6,18 @@ It also provides macros for building packages that depend on \
 JupyterLab."
 LICENSE = "BSD-3-Clause"
 
-PV = "20221227"
+PV = "20241127"
 
-RPM_NAME = "jupyter-jupyterlab-filesystem-20221227-12.1.noarch.rpm"
-RPM_HASH = "1559cb5df0ba32e00eeba76b06250932187053c55298a10f0151504f7c88bfd88000e49150f3295cfb37276b9df1720d964c2e181e1d224e2e952eab8b4b5955"
+RPM_NAME = "jupyter-jupyterlab-filesystem-20241127-1.8.noarch.rpm"
+RPM_HASH = "662192f7def2f6fbf4795cb67ba9f44d6ab2066d97252571fcbca89ffb95f5ddd85c74f7a876e4c714596fb76084fcf388fff9b45a7db77e1dd7aa7423306c44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-filesystem \
 jupyter-jupyterlab-macros-devel \
-python310-jupyterlab-filesystem \
-python310-jupyterlab-macros-devel \
-python311-jupyterlab-filesystem \
-python311-jupyterlab-macros-devel \
-python39-jupyterlab-filesystem \
-python39-jupyterlab-macros-devel \
+python313-jupyterlab-filesystem \
+python313-jupyterlab-macros-devel \
+python314-jupyterlab-filesystem \
+python314-jupyterlab-macros-devel \
 rpm-macro--jupyter-lab-dir \
 rpm-macro--jupyter-labextensions-dir \
 rpm-macro--jupyter-labextensions-dir3"

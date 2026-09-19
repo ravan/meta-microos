@@ -6,10 +6,10 @@ This package is not needed to develop libyui-based applications, \
 only to develop extensions for libyui-qt."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-qt-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "2220c1dbb90f982c39b1c6587fcf2af919aae1365d9f7fc9c0c8a44efadf4cc90c3d9a988b20300e64515e3635004d0519e276a22a0a025815fde88e25658e7a"
+RPM_NAME = "libyui-qt-devel-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "87063528fc93f44e5a07b4ad52dc45cf5f2d8151fe2195620b0f93934e35f4a5827dcc686b341a621399a68a67eeeef993564dc3615891c398fe0ae75933dc33"
 
 RPROVIDES:${PN} += "libyui-qt-devel \
 pkgconfig-libyui-qt"

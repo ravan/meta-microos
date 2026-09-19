@@ -2,10 +2,10 @@ SUMMARY = "Translations for package meld"
 DESCRIPTION = "Provides translations for the 'meld' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.22.0"
+PV = "3.24.0"
 
-RPM_NAME = "meld-lang-3.22.0-1.3.noarch.rpm"
-RPM_HASH = "0519f6f249009229a54a4b024e3feff5c1c5f155f15b047fae056bc310747a68d4103913bc9fcb4043e3ce306e54b9f77c7de6396604de5af2ae81f249fd252a"
+RPM_NAME = "meld-lang-3.24.0-1.2.noarch.rpm"
+RPM_HASH = "3a495cd2990f167d1ca4eed75174c7ea42f1b7a5d78da4b709a4acc2828cf49c6bf5843f50448f1c44459c4956c6cd79188e11a2ddb96863d90e50f77b56b364"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-meld-ar \
@@ -23,14 +23,18 @@ locale-meld-en-GB \
 locale-meld-eo \
 locale-meld-es \
 locale-meld-eu \
+locale-meld-fa \
 locale-meld-fi \
 locale-meld-fr \
 locale-meld-gl \
 locale-meld-he \
+locale-meld-hi \
 locale-meld-hu \
 locale-meld-id \
 locale-meld-it \
 locale-meld-ja \
+locale-meld-ka \
+locale-meld-kk \
 locale-meld-ko \
 locale-meld-nb \
 locale-meld-ne \

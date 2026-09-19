@@ -2,10 +2,10 @@ SUMMARY = "Erlang documentation"
 DESCRIPTION = "Documentation for Erlang."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-doc-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "cf8ae427af98937f9f61209320d581dd01608f25657d7dbbe4b01d68ea8cfff43e80a2d4e0b63411127daada6f2f839d3f359376d9ea1457c30c4d979a4f10f7"
+RPM_NAME = "erlang-doc-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "6bf1a77dad189be028e0755d87b8c363ffcceb97f70107ecaba047c4de3780c7cd9165cf5bb952296da49be1dcaf1eb4a9f59a908268fb734aa6814ac62f4c8e"
 
 RPROVIDES:${PN} += "erlang-doc"
 

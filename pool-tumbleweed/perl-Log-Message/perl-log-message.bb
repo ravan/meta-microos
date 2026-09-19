@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.08"
 
-RPM_NAME = "perl-Log-Message-0.08-3.28.noarch.rpm"
-RPM_HASH = "40cc0cfdb61d5a5682ba5b09750d9d533ead93374923875685d856188be667e2de9a18fa70e56f10fdc1959066016cbc0c28096ab4b2eba9f165c4dadb395631"
+RPM_NAME = "perl-Log-Message-0.08-3.42.noarch.rpm"
+RPM_HASH = "67524f59faf08d1d291eb1ea5c3f08917fb5cd64f493b81ca5c8dbbf987b22dfdb063cbdf4b7ea0eb969f641d371b56f5f36a7724ecd358f5eed5e6447c3ceb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Log--Message \
@@ -22,7 +22,7 @@ perl-Log--Message--Handlers \
 perl-Log--Message--Item \
 perl-Log-Message"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Locale--Maketext--Simple \
 perl-Module--Load \
 perl-Params--Check"

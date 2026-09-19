@@ -5,8 +5,8 @@ LICENSE = "IPA"
 
 PV = "003.02"
 
-RPM_NAME = "ipa-pgothic-bold-fonts-003.02-13.18.noarch.rpm"
-RPM_HASH = "3df014c865613f94c0068c29c088b86ddfb20aced2597afd6e23b2985719c5088bab10971cc0c50866b327d9030ff3ee15ce8b6875db12814ff80da41554362c"
+RPM_NAME = "ipa-pgothic-bold-fonts-003.02-14.5.noarch.rpm"
+RPM_HASH = "767d5c0b6f384d23f17f291c3fdba2b16f3f1c05ab061b5d1375fde50f4c08a3aae8eade801dfaefc46863c0ff6e9b38375e1478b8c672beacedb6070510e555"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "IPAPGothic-Bold \

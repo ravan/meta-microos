@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "libgomp1-gcc7-7.5.0+r278197-14.6.aarch64.rpm"
-RPM_HASH = "ecfb56ea7256a089f67ab0618114218f4f8dcedc7cec86f060ddc2c98665b80511922339e13b3307e1c6c1b874f64ff0dde9ede42b9622222e5be6d58ae66ac1"
+RPM_NAME = "libgomp1-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "301a5ef8884660cb8738be0b25492ab5bce1febeb2c92b3616cf47190bc93c9fb6da8b2a44eb033978c325eb911d772ae595686fd997c2fb3823a56fafe8793a"
 
 RPROVIDES:${PN} += "libgomp.so.1 \
 libgomp1 \

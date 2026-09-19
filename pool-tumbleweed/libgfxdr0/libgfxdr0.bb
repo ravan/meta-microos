@@ -3,10 +3,10 @@ DESCRIPTION = "GlusterFS is a clustered file-system capable of scaling to severa
 petabytes."
 LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
-PV = "11.0"
+PV = "11.1"
 
-RPM_NAME = "libgfxdr0-11.0-4.1.aarch64.rpm"
-RPM_HASH = "519557756b603bb8f8f414d10fe89ce0adcff111e72abdf3cb62f54496e087c57a95fefcb4a1b983b01550b22241816f1672b0b550c79345d073cf02d9e25f72"
+RPM_NAME = "libgfxdr0-11.1-4.10.aarch64.rpm"
+RPM_HASH = "0d9298fc6835af6da9309a0edc7ea7f489e8642988c3b2553e8aa3a80611cd4deee88f5a789b478b1ab5b575782a207fe38b27e0f875375447f54b91e7e58aa3"
 
 RPROVIDES:${PN} += "libgfxdr.so.0 \
 libgfxdr0"

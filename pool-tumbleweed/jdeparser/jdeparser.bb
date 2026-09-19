@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.3"
 
-RPM_NAME = "jdeparser-2.0.3-1.19.noarch.rpm"
-RPM_HASH = "f1dec3a30d3491353ed6598054ca4132258f4776ee75728fde1f2f0aa32693b4b19cdb51ed6fbbd71669da2a3c3fb1a8aa8cc6a64274eb5bf5e02f407d473699"
+RPM_NAME = "jdeparser-2.0.3-2.14.noarch.rpm"
+RPM_HASH = "092c1022cde6b2fefd690da8996bf43bff02947fe84c10fe78ac44ac62f3704f8ff36d15fe2242c1300354a323102b6d32fb173e4ea40d216e75aef9a41aefff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jdeparser \

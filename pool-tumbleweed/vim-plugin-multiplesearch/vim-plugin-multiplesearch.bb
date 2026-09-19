@@ -7,8 +7,8 @@ LICENSE = "Vim"
 
 PV = "1.3"
 
-RPM_NAME = "vim-plugin-multiplesearch-1.3-56.1.noarch.rpm"
-RPM_HASH = "477c821865cc1258776df5cd5c18c8990e43fc09433f06b65074edc15a66c7871289832de3671d705f9666d6a234fddf56853954470bc07c30305bcc78c7d959"
+RPM_NAME = "vim-plugin-multiplesearch-1.3-64.2.noarch.rpm"
+RPM_HASH = "68419d474c769bed7a7f4e0e9e62c64cdd3f6bef2f40122a572d2596a34d09b872a8fb3924761316590945ca5d512e814230e42706e69f5e077f8ca768f47f8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-multiplesearch"

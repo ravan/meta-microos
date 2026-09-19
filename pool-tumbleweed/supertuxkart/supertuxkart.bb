@@ -12,10 +12,10 @@ You can do a single race against other karts, compete in one of several Grand Pr
 on your own, play battle mode against your friends, and more!"
 LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.4"
+PV = "1.5"
 
-RPM_NAME = "supertuxkart-1.4-4.3.aarch64.rpm"
-RPM_HASH = "7ef74ce4755bb105c5796826b8b1a7dc6e8dfa892f21f256bf94b2de443a46877c7032044a566d137dfc40109421f0c45a1ba3c372e5d3c46f425205b6177bac"
+RPM_NAME = "supertuxkart-1.5-1.6.aarch64.rpm"
+RPM_HASH = "a6ad5fc1c62f8588427080083e4740fff5da801d5bd67ca12f81e09283f451c5e96dc3bfb35aaa76d355eae192c35262d5c56ebf1b994accfb64bd126841a803"
 
 RPROVIDES:${PN} += "supertuxkart"
 
@@ -34,6 +34,7 @@ libmcpp.so.0 \
 libopenal.so.1 \
 libpng16.so.16 \
 libresolv.so.2 \
+libshaderc-shared.so.1 \
 libstdc++.so.6 \
 libvorbisfile.so.3 \
 libwiiuse.so.0 \

@@ -9,10 +9,10 @@ spacing; \\textslcc and \\textssc, which are shortcuts for \
 \\spacedcaps\\textlcc and \\spacedcaps\\textsc (accordingly)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn46432"
+PV = "2026.226.1.0svn46432"
 
-RPM_NAME = "texlive-lccaps-2023.209.1.0svn46432-55.1.noarch.rpm"
-RPM_HASH = "592fe11d48aa21bc517f37d8e7d0d336d908ed4ccadb3c65c7d1fd995bc9fe4f8d6657a23ba13843166d310ab587a7cc4f926bd9b0d1acf0f8b67a42ea72f3ea"
+RPM_NAME = "texlive-lccaps-2026.226.1.0svn46432-61.2.noarch.rpm"
+RPM_HASH = "41b9915022bc6c3ee2a11cc36e1d14127644d474e5a8592ae546c1ce5a857732d2c97f316cf836d4ed77e1faf846283bcadb2e2cdd242ae1476af7fc95e8b059"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lccaps.sty \

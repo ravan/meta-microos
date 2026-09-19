@@ -5,10 +5,10 @@ Types: PAB (Personal Address Book), PST (Personal Storage Table) and \
 OST (Offline Storage Table)."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230325"
+PV = "20231205"
 
-RPM_NAME = "libpff1-20230325-2.1.aarch64.rpm"
-RPM_HASH = "b7fc66d1861e5637c3a7eba4957b986b8b1e269ea20389eb2834416c8ff0ce8d82d9356261bacbbc0c0cd4e38573ad0e3830ea741eed7e2dadb72a78861b3d5d"
+RPM_NAME = "libpff1-20231205-2.30.aarch64.rpm"
+RPM_HASH = "2e6face79edb015ab6cbddbf523f811ef963272e210805099d23f7dfdb0f5e0419cb09b899c1f4bbfe7ebab087f4f0b4860053471c63de509b4e0ed6905699e3"
 
 RPROVIDES:${PN} += "libpff.so.1 \
 libpff1"

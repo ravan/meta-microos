@@ -26,10 +26,10 @@ Tents and Trees (aka Zeltlager, Zeltplatz, Camping, ...), and \
 Tunnel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.5svn34491"
+PV = "2026.226.2.5svn78101"
 
-RPM_NAME = "texlive-logicpuzzle-2023.209.2.5svn34491-55.1.noarch.rpm"
-RPM_HASH = "778dd1a24cc9f66ef3512fe45a1ffc6ba35027283554df437b461551ffd539976aa11ef443eebdc68f2bee5a72157479118a1e69932f5226ac04bfd9f6640def"
+RPM_NAME = "texlive-logicpuzzle-2026.226.2.5svn78101-61.2.noarch.rpm"
+RPM_HASH = "50ef7300f4ef857e33699b984b2e7d2a9b61f9e104506ec984bae074b1b58bc629732e0984ecc4f217dd2595a0a70af04c7c920799fb88b658b4c6fb60783854"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logicpuzzle.sty \

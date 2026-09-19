@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "3.12.2"
 
-RPM_NAME = "libcryptui-lang-3.12.2-10.4.noarch.rpm"
-RPM_HASH = "a6c68c86ecb1226a6464e57583da778499510b02da57f9db5eb655acee4ca2d930e77ff51fdead6aef7ec7c0d2318949e6fb6944bb3b4d93df59cd6570daecc9"
+RPM_NAME = "libcryptui-lang-3.12.2-12.7.noarch.rpm"
+RPM_HASH = "06c805fb8416bc92b4407dbab788147ba5ac39a0dd2c15d275dfe45ecfbc86cabe5399899ec5c9ec5c499c1049d5a4326a8f0308f6211371752b5de8c6dfe13b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcryptui-lang \

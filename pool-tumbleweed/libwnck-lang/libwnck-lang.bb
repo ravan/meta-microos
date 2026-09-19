@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libwnck"
 DESCRIPTION = "Provides translations for the 'libwnck' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.3"
 
-RPM_NAME = "libwnck-lang-43.0-3.4.noarch.rpm"
-RPM_HASH = "932f767f464890f609f7133f13d4877f3e508f0c41a03f7e1caeec204d227d5ffb60be1e20aa54f4689dedb060214bdb16be92800e6cfd45ec243142891c24f4"
+RPM_NAME = "libwnck-lang-43.3-2.4.noarch.rpm"
+RPM_HASH = "d3c5312a1498111fa20a0974a5b0bc1d61b8286312980b2df4b068a85676915f2052e26a281d4f85c7f7b5237f15160f3db68c3113e916d90df1fe6c945071ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwnck-lang \

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Amharic lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-amh-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "f60be004944b4806ba7f59ba9a7b340b7c73d1d66ea70668894c00825f2b95e9afa513ba22958e03c281beacba59898694cd7ff4aadc3293c428dd65b27f8ae9"
+RPM_NAME = "tesseract-ocr-traineddata-amh-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "a175ac16e6cf2a41316fd967043eb0c84cd71dcf531b750219565b82b276b7309516c78ca02c5b07173507eb6150ffedbfbecd3a89a61126794434a7000244a8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-amh \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-an \
+tesseract-ocr-traineddata-amh \
 tesseract-ocr-traineddata-amharic \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-amharic"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

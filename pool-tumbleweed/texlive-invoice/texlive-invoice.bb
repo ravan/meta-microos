@@ -7,10 +7,10 @@ comma as decimal separator. The package depends on the fp, calc \
 and siunitx for its calculations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn48359"
+PV = "2026.226.svn48359"
 
-RPM_NAME = "texlive-invoice-2023.209.svn48359-54.1.noarch.rpm"
-RPM_HASH = "f8e71ab2c84c5f756ca88627d0dde3d0c666b6a672b6ee7343f6763011845cb51986e1c140aa4c3f2a5d1703337e2775266e034e77366cc77ecfbe6533b5e420"
+RPM_NAME = "texlive-invoice-2026.226.svn48359-60.2.noarch.rpm"
+RPM_HASH = "2313f8d688c2e42bfefee58d1db2b7e9f708787afd8e1fa47a456c764a509d0ef903154ece6a89a4577b3e73a579b4c2cece64ac044d47c3740d9d6564bed15a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-invoice.sty \

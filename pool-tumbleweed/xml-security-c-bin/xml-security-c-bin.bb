@@ -7,10 +7,10 @@ XPath and XSLT transforms. \
 This package contains the utility programs."
 LICENSE = "Apache-2.0"
 
-PV = "2.0.4"
+PV = "3.0.0"
 
-RPM_NAME = "xml-security-c-bin-2.0.4-1.10.aarch64.rpm"
-RPM_HASH = "093c4d9010929ff4b7304a7e1f61f73d67c0b01742bfa164a89eadd6c0f1baa80a4bccc0a2b6a36d4b4dc8b2d0e18facdc552dba1bcbdd38a5f53fe3ac470222"
+RPM_NAME = "xml-security-c-bin-3.0.0-1.8.aarch64.rpm"
+RPM_HASH = "9635367e072b0803d2ce2f00325eefefa7573079aab27ff7cb8a9609a44481f285a4fc123ec0704e4bce50bdf8e53fa74eabfc35b59b61aacf7b805df57f60da"
 
 RPROVIDES:${PN} += "xml-security-c-bin"
 
@@ -19,8 +19,7 @@ libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
-libxalan-c.so.112 \
-libxerces-c-3.2.so \
-libxml-security-c.so.20"
+libxerces-c-3.3.so \
+libxml-security-c.so.30"
 
 inherit rpm

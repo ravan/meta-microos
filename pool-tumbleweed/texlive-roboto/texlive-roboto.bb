@@ -5,10 +5,10 @@ Roboto Slab and Roboto Serif families of fonts, designed by \
 Christian Robertson and Greg Gazdowicz for Google."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.svn64350"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-roboto-2023.209.svn64350-54.2.noarch.rpm"
-RPM_HASH = "c8f82471b3334cbb889d0de916f281a2d31124c98e99fee7a26f08dbbc9108dcd99e08b5a38652cd9d5c38f171e57b6c7e9d607f2113e33385ebd628ff5f7fac"
+RPM_NAME = "texlive-roboto-2026.226.svn77682-60.4.noarch.rpm"
+RPM_HASH = "21905c43a41d774aff948f0d8537737a6c81d4e8a3edfb69e4f83f6a4a959f7f070429784b1734feabe67cc1d3445d7713c5a701ab9e1413eb213684861396a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LGRRoboto-LF.fd \

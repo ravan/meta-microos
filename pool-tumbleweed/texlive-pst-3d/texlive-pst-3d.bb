@@ -4,10 +4,10 @@ shadows, tilting and three dimensional representations of text \
 or graphical objects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn17257"
+PV = "2026.226.1.10svn77682"
 
-RPM_NAME = "texlive-pst-3d-2023.209.1.10svn17257-53.1.noarch.rpm"
-RPM_HASH = "d4fbf801188776b2c72120119ceb895512388e713fcbdb34e73c50003c22811bbc4e6130c075a0701eabfdd6e2c7dfe672cf8f8bab9388abca01e4d947224376"
+RPM_NAME = "texlive-pst-3d-2026.226.1.10svn77682-59.2.noarch.rpm"
+RPM_HASH = "b3b31fd7410249a46324d2c1617312d7e218d163b506dd007453d50fa89c75c10309ebbf00f13f1ef45f7f82baa092a4b6c77bca8048a2253f4f4f2f4576ab15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-3d.sty \

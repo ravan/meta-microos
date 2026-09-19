@@ -5,10 +5,10 @@ is a useful addition to the chletter document class, it is not \
 tied to it and may be used as a general purpose package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn27118"
+PV = "2026.226.1.01svn27118"
 
-RPM_NAME = "texlive-chextras-2023.209.1.01svn27118-54.1.noarch.rpm"
-RPM_HASH = "2182b014802b8f712c5ec3fca5db77a8ddb0bb19dc86bedab10c6ca2bca3eedbb5bd4fe66fcf690b8901e8d2963667e0406c053a0400a113e1f35fe286bcf23d"
+RPM_NAME = "texlive-chextras-2026.226.1.01svn27118-60.2.noarch.rpm"
+RPM_HASH = "95f1a85e93a184fd3296939dfe3b02a886a8b0782a99088e1f391fa726127121a000bd7be40d21686d6a3c51134c0ef98bb0d0127739cf5fae3abd44ce002810"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chextras.sty \

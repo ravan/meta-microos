@@ -10,10 +10,10 @@ boxedminipage2e and now replaces Mario Wolczko's earlier \
 boxedminipage package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54827"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-boxedminipage-2023.209.1.1svn54827-53.1.noarch.rpm"
-RPM_HASH = "80f182776aae194d22bb32be960783801ae711ea30e6047a1fc31709d7ec701ddcfd5fa6fac8a5cf069e07c9e9f382039927ae60847ec4dd14e7bc05ca8e4b65"
+RPM_NAME = "texlive-boxedminipage-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "64e76a288f189e66f7490101d90419e2fe66fba1f98c975a1bb3ca702996d7eb608fea836e85539689fcb3f1f65828f36aa23601b589c7cdacff0bd407437384"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boxedminipage.sty \

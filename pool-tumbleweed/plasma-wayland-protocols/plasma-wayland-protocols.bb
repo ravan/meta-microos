@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the non-standard Wayland protocol definitio
 KDE Plasma."
 LICENSE = "BSD-3-Clause & LGPL-2.1-only & LGPL-2.1-or-later & MIT"
 
-PV = "1.10"
+PV = "1.22.0"
 
-RPM_NAME = "plasma-wayland-protocols-1.10-1.4.aarch64.rpm"
-RPM_HASH = "a650b8aeac942e853d924cf89c296e13cf3ed0aa414d8a7223670f320589a3fff43a60bc44e9bcb62ca27c44fda442b1781875c6da3b7b604fe1e2ebe8a282f4"
+RPM_NAME = "plasma-wayland-protocols-1.22.0-1.1.aarch64.rpm"
+RPM_HASH = "1204901b94c2de966c5e8de50d33fdad0ea247607ce0b20ec0f11abc87ac7ce8dea12afb9b65303019fdd23ddf1c8cd3fac28b1210d1207ad0256565ec93c735"
 
 RPROVIDES:${PN} += "cmake-PlasmaWaylandProtocols \
 plasma-wayland-protocols"

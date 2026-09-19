@@ -2,20 +2,21 @@ SUMMARY = "Libraries generated for TVM"
 DESCRIPTION = "Libraries generated for TVM without any provided soname."
 LICENSE = "Apache-2.0"
 
-PV = "0.11.0"
+PV = "0.24.0"
 
-RPM_NAME = "libtvm-0.11.0-2.7.aarch64.rpm"
-RPM_HASH = "e7bae3c2b62519967c28fe362488bb1e6b04ab4b8c4aba29c054993cbe71ec09e6a2d3e924afb82498f34de5a8b8f0b0239d45751e8868c0ca54ae5d2887d994"
+RPM_NAME = "libtvm-0.24.0-2.3.aarch64.rpm"
+RPM_HASH = "f7e2f8e871af03866112d59199cd8052597166c3fd8c1633082bb2a107d00b25576456623e6d40eb382742f36f092a024d3ee35a58253503f9537d38f296a507"
 
 RPROVIDES:${PN} += "libtvm \
+libtvm-compiler.so \
+libtvm-ffi.so \
 libtvm-runtime.so \
-libtvm.so \
 tvm"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libLLVM.so.14 \
-libSPIRV-Tools-2023.3~rc1.so \
+libLLVM.so.22.1 \
+libSPIRV-Tools-2026.3~rc1.so \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

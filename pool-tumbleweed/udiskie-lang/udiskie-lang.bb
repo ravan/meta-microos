@@ -2,17 +2,19 @@ SUMMARY = "Translations for package udiskie"
 DESCRIPTION = "Provides translations for the 'udiskie' package."
 LICENSE = "MIT"
 
-PV = "2.4.2"
+PV = "2.6.1"
 
-RPM_NAME = "udiskie-lang-2.4.2-1.7.noarch.rpm"
-RPM_HASH = "0bfc4f85abf310c4f08df24f45b726f3547defb0e0eb56348b99cdc5dba12e38667c6231936ed903d6221d0d215368f345a25e85ea4c5365786adb4b0119e53a"
+RPM_NAME = "udiskie-lang-2.6.1-1.2.noarch.rpm"
+RPM_HASH = "b2944b7a1860ea09074d64c90d3ac06b18ab9eb5ef2cc7ddd12dfd69ce10b1346e0fe329f94977366f856bd7ee5a83893f9ea65e74a9c82b54e06983bbaf39b1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-udiskie-en-US \
+RPROVIDES:${PN} += "locale-udiskie-de \
+locale-udiskie-en-US \
 locale-udiskie-es-ES \
 locale-udiskie-it-IT \
 locale-udiskie-ru-RU \
 locale-udiskie-tr-TR \
+locale-udiskie-zh-CN \
 udiskie-lang \
 udiskie-lang-all"
 

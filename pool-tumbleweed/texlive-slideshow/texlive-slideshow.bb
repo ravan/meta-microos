@@ -5,10 +5,10 @@ distiller). Such an arrangement has its advantages (though \
 there are disadvantages too)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-slideshow-2023.209.1.0svn15878-58.1.noarch.rpm"
-RPM_HASH = "dc66de8f7d6711f186d60adec054ad9a0c0809ca85f6dbd4e970d27bb5b157c3946ddecd73abe165559a6c6f52ba155583026c95d8e0dc0b8a902ace274d683f"
+RPM_NAME = "texlive-slideshow-2026.226.1.0svn15878-64.2.noarch.rpm"
+RPM_HASH = "2b93e7391024675dd94c27c31ddd872f382518804ab73392a8f723c6fd35bdd33b7493bba4975069d670ddc2fc7520a634e436493ec453ea42e7c794d9d73d34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-slideshow"

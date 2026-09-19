@@ -11,8 +11,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.000"
 
-RPM_NAME = "cyreal-wire-fonts-1.000-7.17.noarch.rpm"
-RPM_HASH = "96d3744c5546de3fd29566015dc9a2af996c1dfacd5d900eebd9eee8a06a4e7a86747772a78fdcdba35e3661ceaefda7583e9c77eaf26db9729aa1e639899dcb"
+RPM_NAME = "cyreal-wire-fonts-1.000-7.25.noarch.rpm"
+RPM_HASH = "7417f517bf36a22f659a444e550886fbde4229f179aa9695ea983a659319595fd6efa46b5d5435ca2a136665790ce7bcd65303da394ae6f0716ccabcd0381b00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cyreal-wire-fonts"

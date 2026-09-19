@@ -5,10 +5,10 @@ class, and is extracted for the convenience of non-users of \
 that class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn18130"
+PV = "2026.226.svn18130"
 
-RPM_NAME = "texlive-numname-2023.209.svn18130-55.1.noarch.rpm"
-RPM_HASH = "68b8ca6bb7328ce58ee5e9b8c2cc519210f976012c973e561877dab8008bddb968ddd62f443ff738d1bdbffeead2a028f3b7b744febda0faf65fed5d96a8b78a"
+RPM_NAME = "texlive-numname-2026.226.svn18130-61.2.noarch.rpm"
+RPM_HASH = "e63a55669cfc301f1206ef01ac872b2e6ea0f13306ea10ea3e73659fdea76627b7743e84cb84d4e7419fd4ebde11b78990646f079fcdd8a0dcb1f00bb5a0f9d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numname.sty \

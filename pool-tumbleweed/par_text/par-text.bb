@@ -16,10 +16,10 @@ If there are suffixes, spaces are inserted before them so that they all \
 end in the same column."
 LICENSE = "MIT"
 
-PV = "1.53.0+git.1584347654.eb0590f"
+PV = "1.53.0+git.1736064647.1430e33"
 
-RPM_NAME = "par_text-1.53.0+git.1584347654.eb0590f-5.1.aarch64.rpm"
-RPM_HASH = "edc48699ebc7346524bebdf87166ede894ec2d2a1cc9c7c5c08b1b1312dafcd1c711ae395e2bc55f12e5d496c7b1b3b19b1510c5318a825975039f72b0e12e23"
+RPM_NAME = "par_text-1.53.0+git.1736064647.1430e33-1.5.aarch64.rpm"
+RPM_HASH = "13cf29d825ef221b3315603db96408fb8381719972b2ea027af5f8c93730454829ce8a4208c2757248b1a98b5496456f89aea97d99c9da17fe6bedc0a9c85c26"
 
 RPROVIDES:${PN} += "par-text"
 

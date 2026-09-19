@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "camsource-0.7.1-3.14.aarch64.rpm"
-RPM_HASH = "0d029f4fccd66409f92997bbc40d8ce101b6c2a007a39ffcfce15cdf8e8a30b47fdb9751ec1c2eae56d3a726ffa6e6260dcadc87dd86d980db805b08e5b0be3e"
+RPM_NAME = "camsource-0.7.1-5.10.aarch64.rpm"
+RPM_HASH = "5c52a0779ecfa61fba8758e7dad65ca8640e6342b35f51f22e6bc3172d6457af41adb4063a8729fb52bffe3a28211dc27ce7fbfce79bf5a0e4669ff2c55aa210"
 
 RPROVIDES:${PN} += "camsource \
 config-camsource \
@@ -37,6 +37,6 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjpeg.so.8 \
 libv4l1.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

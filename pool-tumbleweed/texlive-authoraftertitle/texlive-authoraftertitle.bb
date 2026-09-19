@@ -4,10 +4,10 @@ package available to the user (as \\MyAuthor, etc) after the \
 \\maketitle command has been executed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn55889"
+PV = "2026.226.1.0svn55889"
 
-RPM_NAME = "texlive-authoraftertitle-2023.209.1.0svn55889-54.1.noarch.rpm"
-RPM_HASH = "4fecfa9437c59fce2242727b8f4797f2c49f97d024d9bbd06efe106fc89fce590ac5bdecdf5be5321f558998f4f90888d562f190f6a5f4df072e7c63047c717e"
+RPM_NAME = "texlive-authoraftertitle-2026.226.1.0svn55889-60.2.noarch.rpm"
+RPM_HASH = "61cc5ff0ed7f7dfe8e8239217da583c2b4c551750c7638bec8eca23fdc5aaf9d8259fe5ae638e904f3aeed2a3fabfb631fee4bd220ce1219b8657aa078414d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authoraftertitle.sty \

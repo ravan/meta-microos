@@ -5,8 +5,8 @@ LICENSE = "SUSE-Firmware"
 
 PV = "17.63"
 
-RPM_NAME = "technisat-usb2-firmware-17.63-7.7.noarch.rpm"
-RPM_HASH = "cd61760e9ad7e6319a219321145aea6849eef3cc447ad1b938621a505d0dce25a678c183b3c4bb2889b4a596fa9c5a0c58e8eb0043cdca3291db2b1a29f8ff6d"
+RPM_NAME = "technisat-usb2-firmware-17.63-7.15.noarch.rpm"
+RPM_HASH = "2ffe4396d047286cb0abc42faa33de704f47e7ec061ff97ce749251031f0d96366f2d35adc86c0259271d39c99a42be5e1f9ddcd47130b0cb3bdaa668ced4689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-dvb-usb-SkyStar-USB-HD-FW-v17-63.HEX.fw \

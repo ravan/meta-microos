@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "obs-service-replace_using_env-0.1-2.6.noarch.rpm"
-RPM_HASH = "c51f97b1f62775ecc7e8ea172e942a9cd1cb6467c8ac5deff7b1a01d90cc67d69ca6748ada52fb88cfc0b100b80bc6df47737f76e18af6f68fb0ae3c2dd5bea5"
+RPM_NAME = "obs-service-replace_using_env-0.1-2.14.noarch.rpm"
+RPM_HASH = "910d68c0dc5811f26483d1352ab54cb3cdb5a4a4d046e1a118611683b04d2fcf4cb951fcabf139f2e9b7138bbc9855db57debe6486ccbf88cc220dddd27a6ed1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "obs-service-replace-using-env"

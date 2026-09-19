@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.0"
 
-RPM_NAME = "lua53-editorconfig-core-lua-0.3.0-4.4.aarch64.rpm"
-RPM_HASH = "ef8c3bae714b54a08ff2eddf562e4ca5ec841caf2aed7d71d5746ad8d71640e71db1c2dce50b9698a9bc1f32c0e9a308df447e3df01a0fc33162b54547c04915"
+RPM_NAME = "lua53-editorconfig-core-lua-0.3.0-7.3.aarch64.rpm"
+RPM_HASH = "65bea8cf36cd6f9b9880d816ea1dd8d2627507718e7af5c9fdb580161bbf78ccd30bbc471fd545906015ad07a2e9d37a9d42fe46d41f6a6765c317ffeb29c7b6"
 
 RPROVIDES:${PN} += "lua53-LPeg \
 lua53-editorconfig-core-lua"

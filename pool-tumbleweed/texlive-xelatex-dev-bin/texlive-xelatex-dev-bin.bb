@@ -2,10 +2,10 @@ SUMMARY = "Binary files of xelatex-dev"
 DESCRIPTION = "Binary files of xelatex-dev"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn53999"
+PV = "2026.20260301.svn53999"
 
-RPM_NAME = "texlive-xelatex-dev-bin-2023.20230311.svn53999-93.2.aarch64.rpm"
-RPM_HASH = "c3164b50de39a6089d48ed2d226eea1d19b69afcd935449881adcc43ec34c92a4a0481818bdd63253b39614d304d7f30f26f8ba5689356773baded6d1fb2c08a"
+RPM_NAME = "texlive-xelatex-dev-bin-2026.20260301.svn53999-120.4.aarch64.rpm"
+RPM_HASH = "32747f41ebba61df71d839bef817047b00bb2eab84b9665f37a7d90496e96ac6fd66fa4c6282db2142e739bc9e246a7876223fa08c017d06c514af1ac1a8dbe8"
 
 RPROVIDES:${PN} += "texlive-xelatex-dev-bin"
 

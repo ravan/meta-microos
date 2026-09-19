@@ -1,13 +1,14 @@
 SUMMARY = "LaTeX checker"
 DESCRIPTION = "Lacheck is a tool for finding common mistakes in LaTeX \
 documents. The distribution includes sources, and executables \
-for OS/2 and Win32 environments."
+for OS/2 and Win32 environments. It is maintained as part of \
+TeX Live."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn75712"
 
-RPM_NAME = "texlive-lacheck-2023.209.svn66186-56.1.noarch.rpm"
-RPM_HASH = "0b0c03c72b75461d6a686b299c69da017854c24b72a66f0ea21c0533bb7bb630b8cc3b394e6aeeb02bf12b3908be87d2237b331bae6de140eff5038a445fd5fa"
+RPM_NAME = "texlive-lacheck-2026.226.svn75712-63.2.noarch.rpm"
+RPM_HASH = "2f5ae73b2a55af114bf2c5ff59a2dd47ff155a4ea467f8dbbc89f5f3e30c6adc2660af1af209d18219671f80580b32c99ea80f546afdf74d4b21e772ff517301"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-lacheck.1 \

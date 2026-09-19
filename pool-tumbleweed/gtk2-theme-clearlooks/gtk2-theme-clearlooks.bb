@@ -1,11 +1,11 @@
 SUMMARY = "Clearlooks Theme for GTK+ 2"
 DESCRIPTION = "This package provides the Clearlooks GTK+ 2 theme."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-theme-clearlooks-2.20.2-19.43.noarch.rpm"
-RPM_HASH = "abffc247a0ab868d960f77d180e710ba22f761e64e9bc3e99841e48ec02c5bff8608c9552b7c349909cec6ed768d5934e3e1f83c71bf5a23abd0cb346ade9876"
+RPM_NAME = "gtk2-theme-clearlooks-2.20.2-23.6.noarch.rpm"
+RPM_HASH = "cd664407158b6722a5e47e9f8f6461014d85e7273a0fd8e9f9fea1082136cc8223668e47929afc4ee63b7265dfb36ef1632c58c24fe58128d8928c728451746e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk2-theme-clearlooks"

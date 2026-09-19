@@ -20,25 +20,30 @@ The following features are available: \
 - Compatibility with PostgreSQL >= 8.3"
 LICENSE = "MIT"
 
-PV = "2.47"
+PV = "2.59.1"
 
-RPM_NAME = "pgbackrest-2.47-1.1.aarch64.rpm"
-RPM_HASH = "02fe81f376078bab5e0d131323d510b0dc9be0f32214308586d1ca7cff25b3cb75e525e7d3830f47ba2647b2677279290ce60b10bc072877597f3780fa23c69d"
+RPM_NAME = "pgbackrest-2.59.1-1.1.aarch64.rpm"
+RPM_HASH = "e3db9ba43fbcc134940f86f5dad6daa0a3b73edd5969b8a35cd403ef20d80f109a8bc977f5d620bc53f76fcd542adad79abc03894d5c06d191bbb7c319a998bc"
 
 RPROVIDES:${PN} += "config-pgbackrest \
 pgbackrest"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-postgres \
 ld-linux-aarch64.so.1 \
+libbacktrace.so.0 \
 libbz2.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 liblz4.so.1 \
 libpq.so.5 \
+libssh2.so.1 \
 libssl.so.3 \
-libxml2.so.2 \
+libsystemd.so.0 \
+libxml2.so.16 \
 libz.so.1 \
 libzstd.so.1 \
-postgresql-server"
+postgresql-server \
+user-postgres"
 
 inherit rpm

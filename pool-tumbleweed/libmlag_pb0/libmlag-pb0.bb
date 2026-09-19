@@ -1,11 +1,11 @@
 SUMMARY = "FRRouting utility library"
-DESCRIPTION = "This library contains part of the mlag implementation of FRRouting."
+DESCRIPTION = "This library contains part of the mlag_pb implementation of FRRouting."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "8.4"
+PV = "10.6.1"
 
-RPM_NAME = "libmlag_pb0-8.4-5.1.aarch64.rpm"
-RPM_HASH = "9c05f49b13dc8cea3aca81c8acaf7ba328bce60b878636d58f1bcf48a099f2e8a939bfb9a724e956b7572be8b0afecfef4ddaa5e1253a82f8d0fd5c2226bf8f5"
+RPM_NAME = "libmlag_pb0-10.6.1-1.3.aarch64.rpm"
+RPM_HASH = "1a85c879098f6e199915a0d00516db016d5f34ac14656fd5da6fef1849d2641d0498a22e69862687f34b58d7bbdbaa1f863b14590ab3f39e0fbf3092dfb76641"
 
 RPROVIDES:${PN} += "libmlag-pb.so.0 \
 libmlag-pb0"

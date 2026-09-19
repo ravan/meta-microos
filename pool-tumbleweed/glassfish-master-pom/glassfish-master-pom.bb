@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "8"
 
-RPM_NAME = "glassfish-master-pom-8-1.11.noarch.rpm"
-RPM_HASH = "02cc0c0cb994d22e0a877537492b473ae0b5bcfa0b6a88d0cb4cc6ba39592e9cab3d71d08a844b0fac8503cd8e8f473e435709f9d6508cc63877420c2617195b"
+RPM_NAME = "glassfish-master-pom-8-1.18.noarch.rpm"
+RPM_HASH = "1701219dbc5a49838c3a095c8c77cceb0cb4c4d1ef8c85162ada20517dd68c1595b0bc535b60827666022a5dcdc6a31c4f3114b6575f04a02118177f9bf379bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-master-pom \

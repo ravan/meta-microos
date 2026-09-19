@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.009"
 
-RPM_NAME = "perl-MooseX-TransactionalMethods-0.009-2.21.noarch.rpm"
-RPM_HASH = "1922282ea95c4734efa6d17c728b41a1a386b2e4f86a32d3c89f8693e900d32037a4d54038cbff98d2d0c76f36e4dbf8407f6a9559355ca2604119ac3bb2c116"
+RPM_NAME = "perl-MooseX-TransactionalMethods-0.009-2.35.noarch.rpm"
+RPM_HASH = "060d8d2af06b09bca0216265eae06ff0ecad21565434bcb71695350ac690e91fa3431404ef7d9189bf44ba552b44726d61337efee853a67346333c3a8b49ae3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Meta--Method--Transactional \
@@ -17,7 +17,7 @@ perl-MooseX--Meta--Method--Transactional--Meta--Role \
 perl-MooseX--TransactionalMethods \
 perl-MooseX-TransactionalMethods"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose \
 perl-Sub--Name \
 perl-aliased"

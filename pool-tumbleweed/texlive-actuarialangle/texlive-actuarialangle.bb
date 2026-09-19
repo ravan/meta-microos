@@ -6,10 +6,10 @@ angle square bracket used to emphasize joint status in symbols \
 of life contingencies."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn51376"
+PV = "2026.226.2.1svn67201"
 
-RPM_NAME = "texlive-actuarialangle-2023.209.2.1svn51376-55.1.noarch.rpm"
-RPM_HASH = "b1bfd98b0d214f24ccdb81d00fd36b0eeb8ba21cf8750bbcc9092e149482f39e5a53c2cfa72a975e525d003b1ac33f8ab05d37db23d66b2b21dbfde2c82a7ec0"
+RPM_NAME = "texlive-actuarialangle-2026.226.2.1svn67201-61.2.noarch.rpm"
+RPM_HASH = "4c35b7892f03e5c56dd6903c6f8e9aa16af6f06d8affa8150e198101e354eac23ec34b36dc79417e2bf5b4e0a69e5497fb366c51188beb64247e46dbd9bad671"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-actuarialangle.sty \

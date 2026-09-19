@@ -2,16 +2,16 @@ SUMMARY = "Translations for package parley"
 DESCRIPTION = "Provides translations for the 'parley' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "parley-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "03c149171d1e2163f87d5a5328710f97b579c05ffa1d300d1defb504cd8cff63bbe108c6646545becfbb4b6e85425b3f092a0cacb3098422879ee57328f6ca4d"
+RPM_NAME = "parley-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "0b98dd4a64ae1eb70211573511e18fe14487388b4cd9a201e01f90c5ec8631361ebe641edf1fcc058b0bfa974bbbabc19d1cb926bbd136ca0f24b0077c5d5cd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-parley-af \
 locale-parley-ar \
+locale-parley-ast \
 locale-parley-be \
-locale-parley-bg \
 locale-parley-bn \
 locale-parley-br \
 locale-parley-bs \
@@ -43,6 +43,7 @@ locale-parley-ja \
 locale-parley-ka \
 locale-parley-kk \
 locale-parley-km \
+locale-parley-ko \
 locale-parley-lt \
 locale-parley-lv \
 locale-parley-mk \

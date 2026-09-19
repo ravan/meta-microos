@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.1"
 
-RPM_NAME = "futuresql-qt5-devel-0.1.1-1.1.aarch64.rpm"
-RPM_HASH = "b6490f31368ba5a69c23de8004911d39e4c625a6667861604ff829e6c800018bd7653dd3a3715dc431d3c47dbc1e86a1182411f2ff6305a4ac2dec135eb7aa19"
+RPM_NAME = "futuresql-qt5-devel-0.1.1-1.10.aarch64.rpm"
+RPM_HASH = "47c498bfc2e44cbbebe3639387b2a4cc6cba04599a41ce35530cae86d125616df412ffe2908e6a040368b2419c8cd42d686cc973501027e471582e7a920f31a5"
 
 RPROVIDES:${PN} += "cmake-FutureSQL5 \
 futuresql-qt5-devel"

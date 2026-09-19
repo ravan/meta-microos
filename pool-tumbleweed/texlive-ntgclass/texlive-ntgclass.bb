@@ -8,10 +8,10 @@ requirements, and a letter class. The elements of the bundle \
 were designed by members of the Dutch TeX Users Group NTG."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1fsvn65522"
+PV = "2026.226.2.1hsvn77239"
 
-RPM_NAME = "texlive-ntgclass-2023.209.2.1fsvn65522-55.1.noarch.rpm"
-RPM_HASH = "fc1a97dd71c4fd6ed2371b9ffca6b20c23731458c4565e603742639541bd216b7e72e45601fa55f524f2fcd6e9394a8d0ba20acb9b54368db2f4b13e45ca9e93"
+RPM_NAME = "texlive-ntgclass-2026.226.2.1hsvn77239-61.2.noarch.rpm"
+RPM_HASH = "4dee74a35d81d5a5b2898f67c598eceb186b24aa06dde43100a9ecd0b4a3877368b7ea5f10dda148adf6913306623a70e8b5ce10eaa6d44c10e723be331d1cbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-a4.sty \

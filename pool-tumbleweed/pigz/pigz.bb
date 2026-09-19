@@ -4,12 +4,13 @@ LICENSE = "Zlib"
 
 PV = "2.8"
 
-RPM_NAME = "pigz-2.8-1.1.aarch64.rpm"
-RPM_HASH = "e2bc34bc5e2800bb8cddebde2c026c38b42fcbd04066433d67b24edb3efa7affd5d9ce971747906bb87024af66c9bad69c66b9f7d7223426cac4b693c85da71e"
+RPM_NAME = "pigz-2.8-2.11.aarch64.rpm"
+RPM_HASH = "0ac9aa3efd0105a4a8c23c3ee65673f2052670c6dff483c273cd042155382352edf2a2d52e7221cc860c4a09a8358612120077ddad720495ba840bddcf61ac9b"
 
 RPROVIDES:${PN} += "pigz"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libm.so.6 \
 libz.so.1"
 

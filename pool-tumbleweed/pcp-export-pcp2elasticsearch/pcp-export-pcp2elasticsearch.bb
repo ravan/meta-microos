@@ -4,14 +4,15 @@ to Elasticsearch - a distributed, RESTful search and analytics engine. \
 See https://www.elastic.co/community for further details."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-export-pcp2elasticsearch-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "40cefe6278417521966efa6e1b779c0c4505c698ba8953533e1707374716dc2c5734a08d9ab5b214aa66192b5dcc6650fcc70419c53fa99d5371ac8d8676bd82"
+RPM_NAME = "pcp-export-pcp2elasticsearch-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "8b0afcbd4b56f2662b46c975de7f0949f758ef3d0f52d8e49c919a7f12df574e2c205af377d4e73282782d1537eac3dfe1be155bc588f74604f49abe64841388"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-export-pcp2elasticsearch"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/pmpython \
 libpcp3 \
 python3-pcp \
 python3-requests"

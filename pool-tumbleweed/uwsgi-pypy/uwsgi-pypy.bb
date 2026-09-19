@@ -4,10 +4,10 @@ DESCRIPTION = "uWSGI is a self-healing application container server coded in pur
 This package contains support for Python applications using PyPy."
 LICENSE = "Apache-2.0 & GPL-2.0-only-with-GCC-exception-2.0"
 
-PV = "2.0.21"
+PV = "2.0.31"
 
-RPM_NAME = "uwsgi-pypy-2.0.21-3.2.aarch64.rpm"
-RPM_HASH = "afbee6b4871032e57a46fee062168158e0545662c7904b890a633a239cd84a488040c48d165694b542a4f08c631a7abcc1e37a8f2f43e6e197520d51be508cb1"
+RPM_NAME = "uwsgi-pypy-2.0.31-4.4.aarch64.rpm"
+RPM_HASH = "104268972f15b3a2a25b516154eff7a7b8ef712efe322a5684a51d9e09ae8fd5296dc338b50366b72c8e2fd034023475314a61b646448e1c3850ed2de6b15893"
 
 RPROVIDES:${PN} += "uwsgi-pypy"
 

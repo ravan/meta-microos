@@ -9,22 +9,20 @@ authorization purposes. \
 This package provides command line applications to access the VOMS services."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.0~rc3"
+PV = "2.1.3"
 
-RPM_NAME = "voms-clients-2.1.0~rc3-1.4.aarch64.rpm"
-RPM_HASH = "01730f18e88cacd9dcdea99c475f0789540f205f037e3932368fed7415907a90420d83a25b0bf3e866fa87290203aba26bc5a34cd972b8a7c61b8276a81e631e"
+RPM_NAME = "voms-clients-2.1.3-1.3.aarch64.rpm"
+RPM_HASH = "98935784dc9944e6e766884dab27dfeea0d303a46912774e79d318a5981b9ebdce13d6ffde8eab83bf53aca9c3e54584ce5e00936983265cf120f6bae7700b5b"
 
 RPROVIDES:${PN} += "voms-clients"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
 libssl.so.3 \
 libstdc++.so.6 \
 libvomsapi.so.1 \
-libvomsapi1 \
-update-alternatives"
+libvomsapi1"
 
 inherit rpm

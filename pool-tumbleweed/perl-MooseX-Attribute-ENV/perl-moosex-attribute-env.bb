@@ -34,15 +34,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-MooseX-Attribute-ENV-0.02-2.21.noarch.rpm"
-RPM_HASH = "082007c6b60ad10e8be46860090f55f2062912c46353ff5b777e6037020a6a5ac378890e2f4e10ca26f4973f81e725099d12e8832c1489b0d2b60bf6afe239a9"
+RPM_NAME = "perl-MooseX-Attribute-ENV-0.02-2.35.noarch.rpm"
+RPM_HASH = "e6f96f3c1402fb461b2326969122f0ef7298b89acb49f8f52c9cbc9d0509b16c222bd1a5ed4ea40468837a84e0ffa11b20363681fd6c44f7d07737eddff1ee85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Moose--Meta--Attribute--Custom--Trait--ENV \
 perl-MooseX--Attribute--ENV \
 perl-MooseX-Attribute-ENV"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose"
 
 inherit rpm

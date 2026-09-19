@@ -3,15 +3,15 @@ DESCRIPTION = "The policycoreutils-python-utils package contains the management 
 use to manage an SELinux environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "policycoreutils-python-utils-3.5-4.1.noarch.rpm"
-RPM_HASH = "5940b4fa21c707b5590b7b131fecf2e7ed17fd97343df8b55184093ad56354f2eb22daef4ce1d447e315d389da394e6d4c04a6a3c0cb2d6ed380b8ee0678f502"
+RPM_NAME = "policycoreutils-python-utils-3.11-2.2.noarch.rpm"
+RPM_HASH = "0bd2d1ba7ab70bb025695120d26c123535696d7d7577a133c5331240baa4339637c1b4105d6e906e43e9cea3bcb0b7f731c5652b130466ceba416f40273a025f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "policycoreutils-python-utils"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python3-policycoreutils"
 
 inherit rpm

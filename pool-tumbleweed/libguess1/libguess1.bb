@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2"
 
-RPM_NAME = "libguess1-1.2-1.27.aarch64.rpm"
-RPM_HASH = "0a458a30fbc609b313cfb50923121448c806634deca46efed0af3bfc3ce3f80a60d8499bddd4bac34db551c78f294263a43c101ec32d2ce8c052fa2d7d52ef57"
+RPM_NAME = "libguess1-1.2-1.37.aarch64.rpm"
+RPM_HASH = "e64910c44260432cf612327132b00d594ec9fa221a37969bc7eb607647ded99ff3cde101a8392a616b0e94f41edeac217db9bd6a2999a37ffca14d2f813a9307"
 
 RPROVIDES:${PN} += "libguess.so.1 \
 libguess1"

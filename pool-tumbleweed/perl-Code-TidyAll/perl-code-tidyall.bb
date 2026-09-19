@@ -4,10 +4,10 @@ DESCRIPTION = "This is the engine used by tidyall - read that first to get an ov
 You can call this API from your own program instead of executing 'tidyall'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.83"
+PV = "0.850.0"
 
-RPM_NAME = "perl-Code-TidyAll-0.83-1.4.noarch.rpm"
-RPM_HASH = "195132b322e39ad7054c2c7de63effae6efebaa8b2678dd7277ac134d45ca514e50f8a9aed9a6f505912bd6574009996d8980fc985317cf984ec090bd3517cb5"
+RPM_NAME = "perl-Code-TidyAll-0.850.0-1.7.noarch.rpm"
+RPM_HASH = "a71c23392e519ae41234f2232ea8e06f8f34affcf70817fa7b5aaf589c6a3eb02137996f0710e4fdecd98d5654f339278360ed75d0b51ef995b6e4812701a9b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Code--TidyAll \
@@ -42,14 +42,13 @@ perl-Code--TidyAll--Role--RunsCommand \
 perl-Code--TidyAll--Role--Tempdir \
 perl-Code--TidyAll--SVN--Precommit \
 perl-Code--TidyAll--SVN--Util \
-perl-Code--TidyAll--Util \
 perl-Code--TidyAll--Util--Zglob \
 perl-Code--TidyAll--Zglob \
 perl-Code-TidyAll \
 perl-Test--Code--TidyAll"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-Config--INI--Reader \
 perl-Date--Format \

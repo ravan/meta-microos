@@ -7,8 +7,8 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.03"
 
-RPM_NAME = "perl-DBIx-ContextualFetch-1.03-5.28.noarch.rpm"
-RPM_HASH = "c94b648921b3bd6fb8b0c3157c7a9dddcd018aa6f32557f693febcda95ccb9acd806ed57949dfa5ca643611401e5d67219d14259da1a3bafe7bfc1dda607a9d9"
+RPM_NAME = "perl-DBIx-ContextualFetch-1.03-5.42.noarch.rpm"
+RPM_HASH = "6cfefbbc52d65ff7cb1746604c61a987d78bc0b905c2b7c91951024a93d9bb90f124b3d1ab4be606e74a71bcf9065f66b18075ba2056e8635ae5b23f069b563c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--ContextualFetch \
@@ -16,7 +16,7 @@ perl-DBIx--ContextualFetch--db \
 perl-DBIx--ContextualFetch--st \
 perl-DBIx-ContextualFetch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBI"
 
 inherit rpm

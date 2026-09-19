@@ -11,10 +11,10 @@ have been stripped from the PAR distribution and are now distributed as the \
 compiler."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.59.0"
+PV = "1.64.0"
 
-RPM_NAME = "perl-PAR-Packer-1.59.0-1.2.aarch64.rpm"
-RPM_HASH = "12e0d92b9d9cfe9a4764fd97baba209a83f7f991f9e7a03f2ee42ac77e72db96645ec2374351d9b2fda1beac1a575e44023b3d592ad05043b0ff2a78481d0d25"
+RPM_NAME = "perl-PAR-Packer-1.64.0-1.10.aarch64.rpm"
+RPM_HASH = "f07b3e6316950ac7014f7049685af31aafab45c20af8d415c749d1bf389ae33ec8552466fce244ed80b0f77b3fb5a4d50610c928ce211b2850d28daf35d0557f"
 
 RPROVIDES:${PN} += "perl-App--Packer--PAR \
 perl-PAR--Filter \
@@ -32,7 +32,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libperl.so \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
 perl-Compress--Zlib \
 perl-Digest--SHA \

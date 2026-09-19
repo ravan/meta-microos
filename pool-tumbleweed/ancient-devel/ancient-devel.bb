@@ -3,10 +3,10 @@ DESCRIPTION = "This subpackage contains libraries and header files for developin
 applications that want to make use of libancient."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1.0"
+PV = "2.3.0"
 
-RPM_NAME = "ancient-devel-2.1.0-1.1.aarch64.rpm"
-RPM_HASH = "244d9e4d305d83e60c46bcfa164ae0eee9201de301be64e574c22d3a68065420981b3f1c0390182dcc0ffa7cae11cdf899f7ab502f0051af927145cca9af137c"
+RPM_NAME = "ancient-devel-2.3.0-1.5.aarch64.rpm"
+RPM_HASH = "b3a17bdcf3753fe039f2c2e49e519e81c7a9427062ec37f60c81af2752e097f18c95570fcd1889ed7d4b3700ee42f2bbd479738f90fe08d985406b7e403bc0e9"
 
 RPROVIDES:${PN} += "ancient-devel \
 pkgconfig-libancient"

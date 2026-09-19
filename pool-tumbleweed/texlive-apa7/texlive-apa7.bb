@@ -7,10 +7,10 @@ class can mask author identity for copies for use in masked \
 peer review. The class is a development of the apa6 class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.16svn63974"
+PV = "2026.226.2.16svn63974"
 
-RPM_NAME = "texlive-apa7-2023.209.2.16svn63974-55.1.noarch.rpm"
-RPM_HASH = "e66f9c041d39d8f16d1ed58995fedc2bec3a61bd277915e432ccf24d82c10d5bbe5b6891a1200034b637eb3e5dfebb0cd2b19880954e14309c19dd9017d0e02a"
+RPM_NAME = "texlive-apa7-2026.226.2.16svn63974-61.2.noarch.rpm"
+RPM_HASH = "24d762da7838f304618f6587724f56d8b7ab147d84ae884ee004b8b117684d4baa98b35ccb0c64fd6a6659df56c8ff8f6c3887fff331332f141bcfe94fec37d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-APA7endfloat.cfg \

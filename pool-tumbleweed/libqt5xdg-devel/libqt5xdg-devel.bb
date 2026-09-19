@@ -2,10 +2,10 @@ SUMMARY = "Devel files for libqtxdg"
 DESCRIPTION = "QtXDG libraries for development"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.11.0"
+PV = "3.12.0"
 
-RPM_NAME = "libqt5xdg-devel-3.11.0-1.3.aarch64.rpm"
-RPM_HASH = "f5a37b0acd58317002f15dd57cc8547bc39117c5fa2c99dd1e9f8a79c87760b3b465b28a223c8da7177f3e10671850e05470a0f2d27892712e98b8dd013a716e"
+RPM_NAME = "libqt5xdg-devel-3.12.0-3.12.aarch64.rpm"
+RPM_HASH = "5a88c3b33a0bf39dc5cad8a46463df3ca20296cb9ac0673819d8038c67c4bd392b72b0b700be5561ba25220ff7901e2738bf8296844e53ecefc0d0bf7e7d8f3a"
 
 RPROVIDES:${PN} += "cmake-qt5xdg \
 libqt5xdg-devel \

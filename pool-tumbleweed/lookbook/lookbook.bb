@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "lookbook-1.2.0-1.11.aarch64.rpm"
-RPM_HASH = "ad020f11359bf689fa03c5ccc6474b242525d01dfae3392f51250e37c1f6e9d5e1fb06869501d574861e30369df2c287de88725d55ac2db825f6bf6d61cb32b3"
+RPM_NAME = "lookbook-1.2.0-2.8.aarch64.rpm"
+RPM_HASH = "e2d29b3a724fc69e1a5579bc3412aa593a20edd59bba8bb4fd010ff0025d828bb9ca40fcee4b49e3b5eaac77a9eda612e327dd77e880ee324b16840d2de9fc1a"
 
 RPROVIDES:${PN} += "lookbook"
 

@@ -2,16 +2,38 @@ SUMMARY = "All rime input schemas"
 DESCRIPTION = "All rime input schemas."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-all-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "3491f36cfb05a579d64b8c5bca3bac6f022d089aeea6082a3b9137e0086afba1dd9a1853bc6fc1b4cf0ad157c86ecd68598337bab519e5badcdb0f150392253e"
+RPM_NAME = "rime-schema-all-20250315-1.4.noarch.rpm"
+RPM_HASH = "15bac9ec9dcccb20bf217390b87b732583e2101552c9160f3a46af361f492bcd98ec540b75ffa3ff5692410934e88ae58a70159f088a850bde785fa5ff3da3e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brise \
 rime-schema-all"
 
-RDEPENDS:${PN} += "rime-schema-default \
-rime-schema-extra"
+RDEPENDS:${PN} += "rime-schema-array \
+rime-schema-bopomofo \
+rime-schema-cangjie \
+rime-schema-cantonese \
+rime-schema-combo-pinyin \
+rime-schema-custom \
+rime-schema-double-pinyin \
+rime-schema-emoji \
+rime-schema-emoji-cantonese \
+rime-schema-essay \
+rime-schema-essay-simp \
+rime-schema-ipa \
+rime-schema-luna-pinyin \
+rime-schema-middle-chinese \
+rime-schema-pinyin-simp \
+rime-schema-prelude \
+rime-schema-quick \
+rime-schema-scj \
+rime-schema-soutzoe \
+rime-schema-stenotype \
+rime-schema-stroke \
+rime-schema-terra-pinyin \
+rime-schema-wubi \
+rime-schema-wugniu"
 
 inherit rpm

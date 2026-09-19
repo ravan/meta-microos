@@ -10,10 +10,10 @@ excludes components that depend on external libraries, most notably XML, \
 database and UI toolkits support."
 LICENSE = "Python-2.0"
 
-PV = "3.12.0rc1"
+PV = "3.12.14"
 
-RPM_NAME = "python312-base-3.12.0rc1-2.1.aarch64.rpm"
-RPM_HASH = "64eb03f746d02eb0e093bcd6ad05a8be2d11da958c194a00fd728ef5bf7331f782998b1827084209fcc471629b4a8093c7e7f1a28c7464057c7b4bbb115aaeec"
+RPM_NAME = "python312-base-3.12.14-1.1.aarch64.rpm"
+RPM_HASH = "7ddad1679f69f950f81c3769724430bfd0cd0e60ed92002f6321f3511b7a7f345e3124470c534d244390d067c9193d592d8f708f9dbdc6d9de38762a4dfdc01b"
 
 RPROVIDES:${PN} += "python-abi \
 python312-asyncio \
@@ -31,7 +31,7 @@ libexpat.so.1 \
 libffi.so.8 \
 liblzma.so.5 \
 libm.so.6 \
-libmpdec.so.3 \
+libmpdec.so.4 \
 libpython3-12-1-0 \
 libpython3.12.so.1.0 \
 libssl.so.3 \

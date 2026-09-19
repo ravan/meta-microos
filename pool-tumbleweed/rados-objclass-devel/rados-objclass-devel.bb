@@ -1,12 +1,13 @@
 SUMMARY = "RADOS object class development kit"
 DESCRIPTION = "This package contains libraries and headers needed to develop RADOS object \
 class plugins."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "rados-objclass-devel-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "be243abe02f84e7ec0a83f78cd484dd2a0b9c768f75c58a9c4ad0454bb1ef75d2589b7692004f61fe09b7d9ab8b6043d112fbaeafb7ab6b383923128be88750c"
+RPM_NAME = "rados-objclass-devel-18.2.7-8.1.noarch.rpm"
+RPM_HASH = "a38103f8632fa17d46d3d9a3f9439e4f919d37f7133f80c10915a20f0c262a3088b21e160a312965d14f618c3454dcfe0053ee835b5e78343e7abc31372e3eeb"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rados-objclass-devel"
 

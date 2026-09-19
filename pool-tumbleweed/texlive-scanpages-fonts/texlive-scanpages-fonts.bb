@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-scanpages"
 DESCRIPTION = "The  separated fonts package for texlive-scanpages"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.05asvn42633"
+PV = "2026.226.1.05asvn42633"
 
-RPM_NAME = "texlive-scanpages-fonts-2023.209.1.05asvn42633-54.1.noarch.rpm"
-RPM_HASH = "0a89d9bd513c793ef6509a5bc6275acca79be38dbcb58ddacd270033411385c8d376337ab44ff49b3939a4d3e3c59652b5b98cd577a93904f357786d94002df4"
+RPM_NAME = "texlive-scanpages-fonts-2026.226.1.05asvn42633-60.2.noarch.rpm"
+RPM_HASH = "df9aa4e1bf4ae1d2f0d6fa6aa59d8733a6a756b7df038799c3dd8128f2e42ccacbf16975b438fd200205858adda53d342e3814d62240b0c6eb30e9513616d09b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-scanwipe \

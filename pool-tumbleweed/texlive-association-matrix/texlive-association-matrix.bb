@@ -10,10 +10,10 @@ was added. The package depends on etoolbox, forloop, ifthen, \
 textcomp, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64845"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-association-matrix-2023.209.1.1svn64845-54.1.noarch.rpm"
-RPM_HASH = "c941148b1f75ac5bc775656b8bc0c3c36d36f1a2dd07a633e281b88450427e010617d284cb1892b82ad6fa45815bc90bfe4feae57b7d5ff66da4098a156e3649"
+RPM_NAME = "texlive-association-matrix-2026.226.1.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "674fe6c9a43c9ee1a2613cdeecbdffacf73ee198d096040e202372811c517edaa12c368927e2b7041f5301b8ccd499f1d52199d93b99e2621552419785349f42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-association-matrix.sty \

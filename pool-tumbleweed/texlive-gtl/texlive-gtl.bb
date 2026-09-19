@@ -3,14 +3,13 @@ DESCRIPTION = "The package provides tools for simple operations on lists of \
 tokens which are not necessarily balanced. It is in particular \
 used a lot in the unravel package, to go through tokens one at \
 a time rather than having to work with entire braced groups at \
-a time. The package requires up-to-date versions of the \
-l3kernel, l3kpackages, and l3experimental bundles."
+a time."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn49527"
+PV = "2026.226.0.0.6svn69297"
 
-RPM_NAME = "texlive-gtl-2023.209.0.0.5svn49527-54.2.noarch.rpm"
-RPM_HASH = "6d246624ea3c495ddefbaeeffb39466bf5aa236ce7708c91e8d2ad72c822e3c83fdf20c8602c8dc9bd3db80f9ba17ca13eb068799ad7777e1908b77edd3b12b4"
+RPM_NAME = "texlive-gtl-2026.226.0.0.6svn69297-60.4.noarch.rpm"
+RPM_HASH = "56669cad0b67e6bb9bfc867bf93f193cb819e21e2048632b63f23acea1db92ac7b5a621528fe9b83aaf71553876b0ce0e1dbaa5d2f85acbe39dd5dd1f22773d6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gtl.sty \

@@ -46,8 +46,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "8.01"
 
-RPM_NAME = "gdouros-text-fonts-8.01-1.14.noarch.rpm"
-RPM_HASH = "9423e62b56c853ac82227e3755ffdb9aa8fe9b85b585c54bea258cff277a8a1fef5dbb6188080926cbb33aeda3de0f3887c6b571cd2d4fb1a3041d6b8b13feb4"
+RPM_NAME = "gdouros-text-fonts-8.01-1.22.noarch.rpm"
+RPM_HASH = "076f85c26e9d266e6dfa797cd3f59c3a2a79dad3f39b808f1647020fcdda488e2b88487320bcffa289a6d79192b27e4ab9674754a073c1fa00de216732c4fd92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alexander-fonts \

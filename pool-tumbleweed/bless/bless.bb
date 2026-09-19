@@ -15,8 +15,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6.3"
 
-RPM_NAME = "bless-0.6.3-2.5.aarch64.rpm"
-RPM_HASH = "ec3c0216dbcfdf7c7fdea5c09796ca5dfd8d069f2ad0335cc037863b9c3df59a3fd5e6017524808d2e47143b22eac2c3a07ed9e1939f6be46b74fd840ed4db36"
+RPM_NAME = "bless-0.6.3-3.3.aarch64.rpm"
+RPM_HASH = "d6e4ead10647f21c8183511e16cd1ffb8e092dd96882ed580eaacb3ff879a22ce03bb2cd23ac7831fbfcf13d91b3cce82e70786fba02b273a0d3f6a1cd45434f"
 
 RPROVIDES:${PN} += "bless \
 mono-Bless.Buffers \

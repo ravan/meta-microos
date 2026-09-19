@@ -14,10 +14,10 @@ installed package see the PPD files in this directory: \
 /usr/share/cups/model/manufacturer-PPDs/epson-inkjet-printer-escpr"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.7.22"
+PV = "1.8.6"
 
-RPM_NAME = "epson-inkjet-printer-escpr-1.7.22-1.4.aarch64.rpm"
-RPM_HASH = "a748c0516e968167ebdbac8c033820d8b9e435b1b8930b995fadfb282c540b7066969bb23f4c3c315bd56a7a0bc6e566eab9a871cb1175b47da14f53c6c57561"
+RPM_NAME = "epson-inkjet-printer-escpr-1.8.6-1.5.aarch64.rpm"
+RPM_HASH = "a025ef3d4fa3679d24655489bf04d6cabb56274478a58c519c1e14aabca65adb1760fc79a0c3effc859e5e0257c30b6c7f181382f1dd8e11cface3a2f7d36992"
 
 RPROVIDES:${PN} += "epson-inkjet-printer-escpr \
 libescpr.so.1 \
@@ -56,6 +56,7 @@ postscriptdriver-epson;ec-c110-series; \
 postscriptdriver-epson;ep-10va-series; \
 postscriptdriver-epson;ep-306-series; \
 postscriptdriver-epson;ep-30va-series; \
+postscriptdriver-epson;ep-315-series; \
 postscriptdriver-epson;ep-4004; \
 postscriptdriver-epson;ep-702a; \
 postscriptdriver-epson;ep-703a; \
@@ -71,6 +72,8 @@ postscriptdriver-epson;ep-712a-series; \
 postscriptdriver-epson;ep-713a-series; \
 postscriptdriver-epson;ep-714a-series; \
 postscriptdriver-epson;ep-715a-series; \
+postscriptdriver-epson;ep-716a-series; \
+postscriptdriver-epson;ep-717a-series; \
 postscriptdriver-epson;ep-774a; \
 postscriptdriver-epson;ep-775a-series; \
 postscriptdriver-epson;ep-776a-series; \
@@ -89,6 +92,8 @@ postscriptdriver-epson;ep-812a-series; \
 postscriptdriver-epson;ep-813a-series; \
 postscriptdriver-epson;ep-814a-series; \
 postscriptdriver-epson;ep-815a-series; \
+postscriptdriver-epson;ep-816a-series; \
+postscriptdriver-epson;ep-817a-series; \
 postscriptdriver-epson;ep-901a; \
 postscriptdriver-epson;ep-901f; \
 postscriptdriver-epson;ep-902a; \
@@ -104,6 +109,7 @@ postscriptdriver-epson;ep-976a3-series; \
 postscriptdriver-epson;ep-977a3-series; \
 postscriptdriver-epson;ep-978a3-series; \
 postscriptdriver-epson;ep-979a3-series; \
+postscriptdriver-epson;ep-m476t-series; \
 postscriptdriver-epson;ep-m552t-series; \
 postscriptdriver-epson;ep-m553t-series; \
 postscriptdriver-epson;ep-m570t-series; \
@@ -130,6 +136,8 @@ postscriptdriver-epson;et-2800-series; \
 postscriptdriver-epson;et-2810-series; \
 postscriptdriver-epson;et-2820-series; \
 postscriptdriver-epson;et-2850-series; \
+postscriptdriver-epson;et-2860-series; \
+postscriptdriver-epson;et-2870-series; \
 postscriptdriver-epson;et-4500-series; \
 postscriptdriver-epson;et-4550-series; \
 postscriptdriver-epson;et-4700-series; \
@@ -140,6 +148,8 @@ postscriptdriver-epson;et-m1100-series; \
 postscriptdriver-epson;et-m1120-series; \
 postscriptdriver-epson;et-m2120-series; \
 postscriptdriver-epson;ew-052a-series; \
+postscriptdriver-epson;ew-056a-series; \
+postscriptdriver-epson;ew-456a-series; \
 postscriptdriver-epson;ew-m5071ft-series; \
 postscriptdriver-epson;ew-m571t-series; \
 postscriptdriver-epson;ew-m660ft-series; \
@@ -148,6 +158,7 @@ postscriptdriver-epson;ew-m970a3t-series; \
 postscriptdriver-epson;k200; \
 postscriptdriver-epson;k300; \
 postscriptdriver-epson;l1110-series; \
+postscriptdriver-epson;l1270-series; \
 postscriptdriver-epson;l1455-series; \
 postscriptdriver-epson;l3050-series; \
 postscriptdriver-epson;l3060-series; \
@@ -158,6 +169,8 @@ postscriptdriver-epson;l3150-series; \
 postscriptdriver-epson;l3160-series; \
 postscriptdriver-epson;l3250-series; \
 postscriptdriver-epson;l3260-series; \
+postscriptdriver-epson;l3270-series; \
+postscriptdriver-epson;l3280-series; \
 postscriptdriver-epson;l364-series; \
 postscriptdriver-epson;l375-series; \
 postscriptdriver-epson;l385-series; \
@@ -175,6 +188,7 @@ postscriptdriver-epson;l486-series; \
 postscriptdriver-epson;l495-series; \
 postscriptdriver-epson;l5190-series; \
 postscriptdriver-epson;l5290-series; \
+postscriptdriver-epson;l5310-series; \
 postscriptdriver-epson;l565-series; \
 postscriptdriver-epson;l575-series; \
 postscriptdriver-epson;l605-series; \
@@ -298,11 +312,13 @@ postscriptdriver-epson;px-m840fx; \
 postscriptdriver-epson;px-m860f; \
 postscriptdriver-epson;px-s05-series; \
 postscriptdriver-epson;px-s06-series; \
+postscriptdriver-epson;px-s155-series; \
 postscriptdriver-epson;px-s160t-series; \
 postscriptdriver-epson;px-s170t-series; \
 postscriptdriver-epson;px-s170ut-series; \
 postscriptdriver-epson;px-s350; \
 postscriptdriver-epson;px-s5040; \
+postscriptdriver-epson;px-s505-series; \
 postscriptdriver-epson;px-s7050-series; \
 postscriptdriver-epson;px-s7050ps; \
 postscriptdriver-epson;px-s7050x; \
@@ -451,6 +467,7 @@ postscriptdriver-epson;tx720-artisan720; \
 postscriptdriver-epson;tx820-artisan830; \
 postscriptdriver-epson;wf-100-series; \
 postscriptdriver-epson;wf-110-series; \
+postscriptdriver-epson;wf-2110-series; \
 postscriptdriver-epson;wf-2510-series; \
 postscriptdriver-epson;wf-2520-series; \
 postscriptdriver-epson;wf-2530-series; \
@@ -497,6 +514,7 @@ postscriptdriver-epson;wf-8010-series; \
 postscriptdriver-epson;wf-8090-series; \
 postscriptdriver-epson;wf-8510-series; \
 postscriptdriver-epson;wf-8590-series; \
+postscriptdriver-epson;wf-m1130-series; \
 postscriptdriver-epson;wf-m1560-series; \
 postscriptdriver-epson;wf-m5190-series; \
 postscriptdriver-epson;wf-m5690-series; \
@@ -603,6 +621,7 @@ postscriptdriver-epson;xp-610-series; \
 postscriptdriver-epson;xp-620-series; \
 postscriptdriver-epson;xp-630-series; \
 postscriptdriver-epson;xp-640-series; \
+postscriptdriver-epson;xp-65-series; \
 postscriptdriver-epson;xp-700-series; \
 postscriptdriver-epson;xp-710-series; \
 postscriptdriver-epson;xp-7100-series; \
@@ -621,9 +640,9 @@ postscriptdriver-epson;xp-960-series;"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 cups \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcups.so.2 \
-libcupsimage.so.2"
+libcupsimage.so.2 \
+libm.so.6"
 
 inherit rpm

@@ -7,10 +7,10 @@ This package provides the components needed to automatically start \
 the PulseAudio sound server on X11 startup."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-module-x11-16.1-4.1.aarch64.rpm"
-RPM_HASH = "26fe6e28b02ce86deb786430a75a663f75e546a8527643d2c526a2f734eb2eb172cc6386312bbd50b18ba3af898da028d2fea511a687ae84c29331873e2b996a"
+RPM_NAME = "pulseaudio-module-x11-17.0-7.5.aarch64.rpm"
+RPM_HASH = "0a0d12799da9f95dbcb2e47598d959de7b7a1fa9d6bf8530a7c720748bfb844da172bc6e9c6922cdc9086f207855b0789c4b83a1862e9961f2fe0a26922484c2"
 
 RPROVIDES:${PN} += "pulseaudio-module-x11"
 
@@ -23,8 +23,8 @@ libXtst.so.6 \
 libc.so.6 \
 libprotocol-native.so \
 libpulse.so.0 \
-libpulsecommon-16.1.so \
-libpulsecore-16.1.so \
+libpulsecommon-17.0.so \
+libpulsecore-17.0.so \
 libxcb.so.1 \
 pulseaudio \
 pulseaudio-utils"

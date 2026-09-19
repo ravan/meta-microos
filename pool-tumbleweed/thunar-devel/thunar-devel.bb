@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the development files needed for developing
 Thunar."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.6"
+PV = "4.20.10"
 
-RPM_NAME = "thunar-devel-4.18.6-1.1.aarch64.rpm"
-RPM_HASH = "1076804bc13d46a63deb0b82972273adfacf0832d3602f868b26e7cca0265a2d41ba141312bafc7a0d92310d892990e4fe06fef76a577b9a5f440614ad0d6eaf"
+RPM_NAME = "thunar-devel-4.20.10-1.1.aarch64.rpm"
+RPM_HASH = "51df420a27f000c86191262650277d2c46c39510f462f33456f45b5f34cbfa4c5dcfe787998af4d6d1e14d2afed17845c19aa1b2a596a81dad91309b57d62410"
 
 RPROVIDES:${PN} += "pkgconfig-thunarx-3 \
 thunar-devel \

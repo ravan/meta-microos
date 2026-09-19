@@ -6,10 +6,10 @@ list of the available font family names on typical LaTeX \
 installations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn65038"
+PV = "2026.226.1.0svn65038"
 
-RPM_NAME = "texlive-lgrmath-2023.209.1.0svn65038-55.1.noarch.rpm"
-RPM_HASH = "dcf4ea57119fec7a3e2e9b6ec2d1343313ecf2a1b771d4c56b8df1182ceab1df76d0b1c30abbd42d156602228ed57b7ea84ac7390e8a190954bd544a1e6681ff"
+RPM_NAME = "texlive-lgrmath-2026.226.1.0svn65038-61.2.noarch.rpm"
+RPM_HASH = "2f15292cd69397c5d957e1166e2926aadcca993d85cf00b161720141ca3f59fd78a4aef0aaab9bc242090d6c29c095e799945d132cf3af1d5891c85d420d522f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lgrmath.sty \

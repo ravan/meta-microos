@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bagpipe"
 DESCRIPTION = "This package includes the documentation for texlive-bagpipe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.02svn34393"
+PV = "2026.226.3.02svn34393"
 
-RPM_NAME = "texlive-bagpipe-doc-2023.209.3.02svn34393-54.1.noarch.rpm"
-RPM_HASH = "520f78c33f38a5183b76c62558d5cb05d5938febbe124c90bb89f883cd52dbdcb0853fbd1ad4ce30ab6f6cde7aad8dbcbc007fc65fa2553d42435e55c21e8698"
+RPM_NAME = "texlive-bagpipe-doc-2026.226.3.02svn34393-60.2.noarch.rpm"
+RPM_HASH = "385ebb535b0140b0868d66ea24bf4f80f1d53a2643ad65dbe0935156bc37b9ea5429c157a41204354903d2f48521cbf3ab429a5be57cb67eeea3512397a0ea16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bagpipe-doc"

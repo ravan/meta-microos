@@ -14,10 +14,10 @@ forms of the fields. This list also includes the claves defined \
 with the biblatex-claves package version 1.2 or later."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn45858"
+PV = "2026.226.1.0.1svn45858"
 
-RPM_NAME = "texlive-biblatex-shortfields-2023.209.1.0.1svn45858-54.1.noarch.rpm"
-RPM_HASH = "045b08ff2028610b536df4f31ddbc2770fd4776051aee4223ccc82265d0f9230200d50c4a5ccbc621673716a5b734228dc741cbc1f68b249c7c2b08296de9f44"
+RPM_NAME = "texlive-biblatex-shortfields-2026.226.1.0.1svn45858-61.2.noarch.rpm"
+RPM_HASH = "c3aefa93d1c3e7d7c13cf10d947913cab52c4abc9147f23e3c802949862502ac49acb45620f4d8f3dcd3b347ec30ba8f24ba29ee92d3af8cc109c6d9362f4a16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-biblatex-shortfields.sty \

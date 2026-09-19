@@ -5,10 +5,10 @@ those (pre-defined) abbreviations that have actually been used \
 in the document"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-juraabbrev-2023.209.svn15878-56.1.noarch.rpm"
-RPM_HASH = "47151a4a6b4cdb080bddf2705c28434ec37a0f426a47272f52dc8f4b4c14e397f5f5c9fdd0305226063e1f08f57ee5fa4054cd2b9bc496d963f678ce54840e60"
+RPM_NAME = "texlive-juraabbrev-2026.226.svn15878-63.2.noarch.rpm"
+RPM_HASH = "657f9180d40813081165a0c145b8be2f9800cd73cf060e1fcb85a0bdbd63f3e0f67c281d9313f4db0133c86161ab2c8d407cc67c8fca2dc47773ad312a21395f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-juraabbrev.sty \

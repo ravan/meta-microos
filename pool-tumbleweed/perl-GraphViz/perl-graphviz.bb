@@ -10,8 +10,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.26"
 
-RPM_NAME = "perl-GraphViz-2.26-1.3.noarch.rpm"
-RPM_HASH = "dfcd2c450494e4b57d30831dfb1c2abf8391782d83c78c8f9b45ee4c9ece23ddd2182d5eb8ee0b911b257bce220ba7fec58ad7def9f6ba7991b9cc2e3e616b64"
+RPM_NAME = "perl-GraphViz-2.26-1.17.noarch.rpm"
+RPM_HASH = "c059a2d22212a94ec2e91b3658202b735847d9f08defeefd047f9198eb7b552d3695e66d53f4d6635e921b376b6dd573ab3bd3c3e4af006f2f2d8e396b8f34ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DB \
@@ -30,7 +30,7 @@ RDEPENDS:${PN} += "cairo \
 graphviz \
 graphviz-gnome \
 pango \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-IPC--Run \
 perl-LWP--Simple \

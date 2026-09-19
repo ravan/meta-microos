@@ -19,8 +19,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2020.01"
 
-RPM_NAME = "libopen_amp0-2020.01-1.13.aarch64.rpm"
-RPM_HASH = "103c62cc4da868b3fded1d8b3edfb672078341f30be99f2cd2243ffd89538ca13f84257f6f53f118361a7160fb2649647a060f4e905b82f3bc678a2984c41534"
+RPM_NAME = "libopen_amp0-2020.01-2.9.aarch64.rpm"
+RPM_HASH = "4dcca2d41b94037eea96eb12e42a225ed6ea2101a0c635f9cb994109c043563fb2bb4b3571e83436b52eda94d477a55c9700af914d764dd1a0cf14a1696d569f"
 
 RPROVIDES:${PN} += "libopen-amp.so.0 \
 libopen-amp0 \
@@ -29,6 +29,6 @@ openamp"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libmetal.so.0"
+libmetal.so.1"
 
 inherit rpm

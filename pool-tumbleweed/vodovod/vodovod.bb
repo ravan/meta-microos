@@ -10,18 +10,20 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.10_svn23"
 
-RPM_NAME = "vodovod-1.10_svn23-3.25.aarch64.rpm"
-RPM_HASH = "3a052235b869dd19c09cf29d5777e4214526b0490ce5de62aff57f314bd20c99d5afe35e2871502df624e8e55252695adbde5b12325af9108aa6bb3e2d76fde2"
+RPM_NAME = "vodovod-1.10_svn23-4.10.aarch64.rpm"
+RPM_HASH = "312abf2da5c6f5deaca3ecfb41ebb2c4e57737007a06fd37176a9d222a9e6cd8b1f8ab68c5d9c5e2672828520997c74007a82a9c1a7c4b1382a6e2388556f955"
 
 RPROVIDES:${PN} += "vodovod"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "group-games \
+ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
 libSDL-image-1.2.so.0 \
 libSDL-mixer-1.2.so.0 \
 libSDL-ttf-2.0.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libstdc++.so.6"
+libstdc++.so.6 \
+user-games"
 
 inherit rpm

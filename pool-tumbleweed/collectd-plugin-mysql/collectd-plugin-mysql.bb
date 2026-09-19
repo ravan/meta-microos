@@ -2,10 +2,10 @@ SUMMARY = "MySQL Monitoring Plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to monitor MySQL server instances."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-mysql-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "ef24f2b883d3d7f399fb9f05f2933c69273fb80ce362e63d69e3abc7306fff154eeff437c620accd53166201053983738e2dbb48af0c6e4b53a85cfb0277c50d"
+RPM_NAME = "collectd-plugin-mysql-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "86f9b41451e7158febf35079f860a75bd06165e2d24583169d9420adc0da5fe4be367274cd8189f57d850bcdbd212ee04ff4d8faa42a8364af85623abce68003"
 
 RPROVIDES:${PN} += "collectd-plugin-mysql"
 

@@ -11,13 +11,13 @@ Detailed information (including a User's manual), source code, and pre-compiled 
 binaries are available at: http://potassco.org/"
 LICENSE = "MIT"
 
-PV = "5.6.2"
+PV = "5.8.0"
 
-RPM_NAME = "python3-clingo-5.6.2-2.1.aarch64.rpm"
-RPM_HASH = "ecdef03bf28d50a9e3801c26e15fa254e5ec7416ce804b59548660c6e64c65c6e1e76381912453d35bc30668bba168edb39f617620263374b85feb9b7b5e8a57"
+RPM_NAME = "python3-clingo-5.8.0-2.4.aarch64.rpm"
+RPM_HASH = "d2a427ca2682a1a2ded04d439901298220741d9474c07db22a893eaab11706b92ee73be6762e0bb66210a1030508a95b70fec5c70198e03dc9dc6319346957ad"
 
 RPROVIDES:${PN} += "python3-clingo \
-python3.11dist-clingo \
+python3.13dist-clingo \
 python3dist-clingo"
 
 RDEPENDS:${PN} += "clingo \

@@ -2,13 +2,14 @@ SUMMARY = "Zsh Completion for fuzzel"
 DESCRIPTION = "Zsh command-line completion support for fuzzel"
 LICENSE = "MIT"
 
-PV = "1.9.2"
+PV = "1.14.0"
 
-RPM_NAME = "fuzzel-zsh-completion-1.9.2-1.1.aarch64.rpm"
-RPM_HASH = "e63ecf4aed8c12374ba10526084536ea66caf860a31367b4296a61b0ef62df75983fca73945457bb2ce21645dcf3a844fff3e8acd6d1de5ff5c96b4ef1c26c1a"
+RPM_NAME = "fuzzel-zsh-completion-1.14.0-1.7.aarch64.rpm"
+RPM_HASH = "a340cb9b60a9f6e3faa07eb79d76a6a6361cd6068e24665606512268bccd4c3781ead705da364ca58120a4f0f0b02671cdd3f79734574e457c12c7d5d5148daf"
 
 RPROVIDES:${PN} += "fuzzel-zsh-completion"
 
-RDEPENDS:${PN} += "zsh"
+RDEPENDS:${PN} += "fuzzel \
+zsh"
 
 inherit rpm

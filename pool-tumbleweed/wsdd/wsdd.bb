@@ -7,10 +7,10 @@ appear in Windows again using the Web Service Discovery method. This is benefici
 for devices running Samba, like NAS or file sharing servers on your local network."
 LICENSE = "MIT"
 
-PV = "0.7.1"
+PV = "0.9"
 
-RPM_NAME = "wsdd-0.7.1-2.2.noarch.rpm"
-RPM_HASH = "7641958a79b93ede17bcd3a0845065cf0ef59d454954a252e6213c4df33c2ebfb2f74ff99f5e08716b68e2193a9e4fdd947f5469fc154d9a1158b7d8035202a9"
+RPM_NAME = "wsdd-0.9-2.3.noarch.rpm"
+RPM_HASH = "be417fc4a8454bdb256e67722237a8fd757740961d849f83f477eca4a8a19a381b51d9dd8af4944f9fb51b04e20b932f8faca834e6e722855bd7b966eb28d54c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-wsdd \

@@ -6,10 +6,10 @@ exercise 'Complete the Text' 'True or false' Closed questions \
 Open questions 'Find the error'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.0svn64425"
+PV = "2026.226.9.1svn77002"
 
-RPM_NAME = "texlive-verifiche-2023.209.6.0svn64425-54.1.noarch.rpm"
-RPM_HASH = "799a7999a48acad9df8726bde3375615acfcbaddc99a0942ed69c9cab267446633b179359cdca3d7462945ae5bf8d557f13f0c47540a7a761876172fab4f3fa4"
+RPM_NAME = "texlive-verifiche-2026.226.9.1svn77002-60.2.noarch.rpm"
+RPM_HASH = "a73cb6dd9914eecea8619336bc41d36f189f7838adc9f80779b10e8238c2f36df3018b6f52e14c67dca2fc5a6de6c0cbdc34ae740e68774c4aa7ad5de5175fdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-verifiche.sty \
@@ -21,16 +21,12 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsmath.sty \
-tex-amssymb.sty \
-tex-booktabs.sty \
 tex-enumitem.sty \
-tex-graphicx.sty \
+tex-fp.sty \
 tex-pgffor.sty \
-tex-siunitx.sty \
+tex-randomlist.sty \
 tex-tikz.sty \
 tex-ulem.sty \
-tex-xcolor.sty \
 tex-xkeyval.sty \
 tex-xparse.sty \
 texlive \

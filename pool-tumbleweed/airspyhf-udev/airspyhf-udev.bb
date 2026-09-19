@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.8"
 
-RPM_NAME = "airspyhf-udev-1.6.8-1.13.aarch64.rpm"
-RPM_HASH = "7eb2ec27d027b5b8c5963c659b54c923000ae341c8cf73daf85c086ad82757452e574db7adab96acbf6780bb64d4bdcf043fe40b00b6ab45b1e1829e7688cf4e"
+RPM_NAME = "airspyhf-udev-1.6.8-4.7.aarch64.rpm"
+RPM_HASH = "619655220910770594d8a9e7b941a4169f97f7d2b1d262a2643f25749bc6d526f810ee8bc5b4ed35e2a412a2e84a3787c1c5c6e888f8aa957d9871660fdc6535"
 
 RPROVIDES:${PN} += "airspyhf-udev"
 

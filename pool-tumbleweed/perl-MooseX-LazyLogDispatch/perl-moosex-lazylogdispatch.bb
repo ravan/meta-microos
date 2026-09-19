@@ -4,15 +4,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.02"
 
-RPM_NAME = "perl-MooseX-LazyLogDispatch-0.02-10.21.noarch.rpm"
-RPM_HASH = "80d2a2f69aafc254d933a11e05865a2816a63f6548f777990a061603e634224f662b3b887b2a6477bcd788e52d2557aef7fcbed4bd4993fbccde03fdb3bc4570"
+RPM_NAME = "perl-MooseX-LazyLogDispatch-0.02-10.35.noarch.rpm"
+RPM_HASH = "cf571bbcb2d72429ced739fe53e180a010f81d17fd9e717f23ba2a8a987ee67dda9f738d0a4290c1468add027ff1160c92007060d56d7da6e26174485df41216"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--LazyLogDispatch \
 perl-MooseX--LazyLogDispatch--Levels \
 perl-MooseX-LazyLogDispatch"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Log--Dispatch--Configurator \
 perl-Moose"
 

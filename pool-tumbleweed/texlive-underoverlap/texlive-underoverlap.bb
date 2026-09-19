@@ -1,13 +1,13 @@
 SUMMARY = "Position decorations over and under expressions"
 DESCRIPTION = "The package overcomes TeX's inherent limitations in commands \
-that place decorations (such as braces) at arbirary positions \
+that place decorations (such as braces) at arbitrary positions \
 over and under expressions, overlapping as necessary."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.1_r1svn29019"
+PV = "2026.226.0.0.0.1_r1svn77682"
 
-RPM_NAME = "texlive-underoverlap-2023.209.0.0.0.1_r1svn29019-54.1.noarch.rpm"
-RPM_HASH = "4de0d212f8c602da61d48ef6e25cf17e4b6c4a3c1a040498646d2abae6c7f482d75dab341e74554b956ad991ab5618884575dd15128affa9d5d560dd6b8dcb37"
+RPM_NAME = "texlive-underoverlap-2026.226.0.0.0.1_r1svn77682-60.2.noarch.rpm"
+RPM_HASH = "f4e3439d212d8898113c35a0a2d238b1dbf38459f515df32dc69c324d5bbad19d049cb142b07e699dec573c63289dc7cd70bbc9618704321636394eac2a450df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-underoverlap.sty \

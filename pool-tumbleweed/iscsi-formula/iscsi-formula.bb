@@ -6,14 +6,15 @@ in SLE15. To use it in SLE12, salt (and it sub-components) comes from the Advanc
 module, which can be added running the `SUSEConnect -p sle-module-adv-systems-management/12/{{ arch }}`"
 LICENSE = "Apache-2.0"
 
-PV = "1.1.1"
+PV = "1.2.0"
 
-RPM_NAME = "iscsi-formula-1.1.1-2.7.noarch.rpm"
-RPM_HASH = "1d584c8f9a19f67ce895008e3e5f62c8349b00df848d1f01cb18e3f8a95c59e2c1c30fb2034950704934da2f2a6518cedbf14c56fb747763b6dc378d613bde40"
+RPM_NAME = "iscsi-formula-1.2.0-1.8.noarch.rpm"
+RPM_HASH = "1a0c2756b5fe0eb1990155ac55c3392416f7e54d0566e788f1f131b76be4bb996e138b053c3bc58d47110ff8d2f5beb023a609a2f5789de43af313d7ca5326d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iscsi-formula"
 
-RDEPENDS:${PN} += "salt-formulas-configuration"
+RDEPENDS:${PN} += "group-salt \
+salt-formulas-configuration"
 
 inherit rpm

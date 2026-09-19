@@ -24,10 +24,10 @@ This package contains the command-line utilities to manage KyotoCabinet \
 database files."
 LICENSE = "SUSE-GPL-3.0-with-FLOSS-exception"
 
-PV = "1.2.77"
+PV = "1.2.80"
 
-RPM_NAME = "kyotocabinet-1.2.77-3.1.aarch64.rpm"
-RPM_HASH = "30595e092492f8e73407e9c918ad1ebd6ed1a06ef040cea7d4e2f07004b228e2577eb587f34ba3dae9dbc490d5b73790ac5fc896374e5860cf3b16185c5d769e"
+RPM_NAME = "kyotocabinet-1.2.80-2.6.aarch64.rpm"
+RPM_HASH = "63059806961be642ed3d9fea720d43dfe5a7d2d0825a7ae662c4429d297862702cd50667f4ae4b049143e173a334b21cd2e1449e9cd1dd00df67855bdb1cbd7f"
 
 RPROVIDES:${PN} += "kyotocabinet"
 

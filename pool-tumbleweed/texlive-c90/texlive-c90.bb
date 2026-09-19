@@ -2,10 +2,10 @@ SUMMARY = "C90 font encoding for Thai"
 DESCRIPTION = "part of the CJK package, ctan.org/pkg/cjk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn60830"
+PV = "2026.226.svn60830"
 
-RPM_NAME = "texlive-c90-2023.209.svn60830-53.1.noarch.rpm"
-RPM_HASH = "3a3a7ec2e046a3c93ccc5a08c4770d51f306fc502e5808613c2169ef8ef8e0af6c040b0f0c822c4748a998c2fb2a596e73d2e7e2b274a96e15478a7cd3c9b872"
+RPM_NAME = "texlive-c90-2026.226.svn60830-59.2.noarch.rpm"
+RPM_HASH = "a9b2dc152994971416a2c57a03869fe66f8a23753d1a4abf808dad475bb5bd2ef5660060ad6352c135d5665ebee15b971a8ea088d432318de15d7a3fe156602f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-c90.enc \

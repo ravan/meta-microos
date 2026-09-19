@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scrabble"
 DESCRIPTION = "This package includes the documentation for texlive-scrabble"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.3svn65507"
+PV = "2026.226.0.0.20asvn77114"
 
-RPM_NAME = "texlive-scrabble-doc-2023.209.0.0.1.3svn65507-54.1.noarch.rpm"
-RPM_HASH = "f0ea11ecd7bddefbae408fa439ec5515afdbf747045c87972b601d57247e529044b13e0fe5aeb97a3123e28dd98213e05caaba3e062054e657f798a57c3829e2"
+RPM_NAME = "texlive-scrabble-doc-2026.226.0.0.20asvn77114-60.2.noarch.rpm"
+RPM_HASH = "69ab1d6dd7a350a00e9cf3150aa72b7444795eb7839bb56048d69878c83d52a31830626693a2608df18bdbff33edd702837b970866915f0a3d30a3bffbff3965"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-scrabble-doc-fr \

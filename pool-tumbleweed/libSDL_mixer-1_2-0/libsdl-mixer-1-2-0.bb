@@ -6,8 +6,8 @@ LICENSE = "Zlib"
 
 PV = "1.2.12"
 
-RPM_NAME = "libSDL_mixer-1_2-0-1.2.12-8.30.aarch64.rpm"
-RPM_HASH = "3fc507f9373ffb5f720c724a247487db6e5d1085510967621ee3bd0d13c35b6e529cfcaed2cc6bb2eee974881759b2ec9f5968012b3c0a10b1a52b2fd5d24695"
+RPM_NAME = "libSDL_mixer-1_2-0-1.2.12-10.8.aarch64.rpm"
+RPM_HASH = "0a4c74bd528c7e981e03297db45a6393f0530b17dfedaf6976614efb3ed6f261d1546a901d119f75275da52d886720fff306df0b6475b03081e3495d3599cfef"
 
 RPROVIDES:${PN} += "SDL-mixer \
 libSDL-mixer-1-2-0 \
@@ -15,7 +15,7 @@ libSDL-mixer-1.2.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libSDL-1.2.so.0 \
 libc.so.6 \
 libm.so.6 \

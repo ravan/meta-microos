@@ -2,10 +2,10 @@ SUMMARY = "Command line client for communication over D-Bus"
 DESCRIPTION = "Command line client for communication over D-Bus."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-tools-qdbus-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "5ad8722e9ca03197322564cbbf16b1191036e06679951e4650b47a9cc493665eb4205892cd56e1efdc5c2084f468ad172d16a8e93af929a44c117dff45d47a99"
+RPM_NAME = "qt6-tools-qdbus-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "cc2503224e20876dfe1a5fb65a1fd692767c613667b63f21bc13a973d63d68c62e9c99403a864d55cca96605f7156ab24b20a0d6ab357ea212ddcb6e0f43bbb1"
 
 RPROVIDES:${PN} += "qt6-tools-qdbus"
 

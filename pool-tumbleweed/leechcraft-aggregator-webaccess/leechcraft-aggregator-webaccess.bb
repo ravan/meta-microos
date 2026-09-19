@@ -4,27 +4,27 @@ Aggregator feed reader, so one can read news \
 articles from a mobile device or another machine."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-aggregator-webaccess-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "fabcf6a9d82a11605915f202438f7c87aa00d6ff8dcb711e9c3a295a0a04c85a80699ecdde7575aeb4ed4205d1f6534f669dd618700389296fdc9953889ec32a"
+RPM_NAME = "leechcraft-aggregator-webaccess-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "01accaabbca46eedb65dcc601f23e7da95e918ba83e85259c270cde007427bd9afc68fd967ff277d742e8e89240ae05992ed54baf33eb0c95fac83ccabeee4e5"
 
 RPROVIDES:${PN} += "leechcraft-aggregator-webaccess \
 libleechcraft-aggregator-webaccess.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-aggregator \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-models-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-xsd-qt5.so.0.6.75 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-xsd-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6 \
-libwt.so.4.8.1 \
-libwthttp.so.4.8.1"
+libwt.so.4.12.6 \
+libwthttp.so.4.12.6"
 
 inherit rpm

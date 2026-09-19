@@ -2,13 +2,13 @@ SUMMARY = "Translations for package tellico"
 DESCRIPTION = "Provides translations for the 'tellico' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.1"
+PV = "4.2.2"
 
-RPM_NAME = "tellico-lang-3.5.1-1.1.noarch.rpm"
-RPM_HASH = "8d63a87c7725c73f3298fe53415d0c46567f1024a36dcb0d2287b21b871ac63bc8b60e40b9f26548b30aff50bebde2fc4d141d1762a043292e3830e3ae87486f"
+RPM_NAME = "tellico-lang-4.2.2-1.1.noarch.rpm"
+RPM_HASH = "676f0b0d7d1022f94e0ad5bdb050430f2a8e70d19f9c1ed74eb820a8792734b449cedde2f8a56544daf5786a90c05760a68df3eac98a0504e33be62728c10737"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-tellico-bg \
+RPROVIDES:${PN} += "locale-tellico-ar \
 locale-tellico-bs \
 locale-tellico-ca \
 locale-tellico-ca@valencia \
@@ -25,9 +25,11 @@ locale-tellico-fi \
 locale-tellico-fr \
 locale-tellico-ga \
 locale-tellico-gl \
+locale-tellico-he \
 locale-tellico-hu \
 locale-tellico-ia \
 locale-tellico-it \
+locale-tellico-ja \
 locale-tellico-ka \
 locale-tellico-kk \
 locale-tellico-ko \

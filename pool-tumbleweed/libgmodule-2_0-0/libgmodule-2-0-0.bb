@@ -7,10 +7,10 @@ The libgmodule library provides a portable way to dynamically load \
 object files (commonly known as 'plug-ins')."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "libgmodule-2_0-0-2.76.5-1.1.aarch64.rpm"
-RPM_HASH = "ab2f7ed06f3362afbce54dce624ac82d52c54f0b14356be64db1fe3f3b4cd258f899476c5cb640a4a60377c4adade56801f97896a6d19ba5f6a9de6eb6593c89"
+RPM_NAME = "libgmodule-2_0-0-2.88.3-1.1.aarch64.rpm"
+RPM_HASH = "faadf3ff4a17e81f978af2a5ea1b80567adf67896fad67c7682811df3710de8a31f74f22d88b6b296020476b21ff15094d324668e07507becd11c508a2838340"
 
 RPROVIDES:${PN} += "libgmodule-2-0-0 \
 libgmodule-2.0.so.0"

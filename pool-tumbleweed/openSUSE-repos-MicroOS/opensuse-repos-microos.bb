@@ -2,10 +2,10 @@ SUMMARY = "openSUSE package repositories"
 DESCRIPTION = "Definitions for openSUSE repository management via zypp-services"
 LICENSE = "MIT"
 
-PV = "20230810.a7534f6"
+PV = "20260423.1a6a0f3"
 
-RPM_NAME = "openSUSE-repos-MicroOS-20230810.a7534f6-1.1.aarch64.rpm"
-RPM_HASH = "68b5ac474f01daa306d4b1910d68ee347ff4993ec872a051d2b27608768407bd334abbd61e613048bec02a2128054e96e3662372efa25749582ddef6b7259560"
+RPM_NAME = "openSUSE-repos-MicroOS-20260423.1a6a0f3-2.2.aarch64.rpm"
+RPM_HASH = "dc1e2e9fc6661182211584e5b841f72460fe0094dbe8fc7abacd0de00d76779dc2d15957488b804cd6dde827195085e252e93e45c9149e3a1bfbd2143b21d290"
 
 RPROVIDES:${PN} += "openSUSE-repos \
 openSUSE-repos-MicroOS"

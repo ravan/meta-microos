@@ -6,10 +6,10 @@ MySQL Community Server. \
 This package only contains the server-side programs."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "mariadb-11.0.2-1.1.aarch64.rpm"
-RPM_HASH = "98a82ff5340b321bf83dfe3f1344f54205e2bab904e712ee700158354ad0411df8106c6423e09d0b2ae5cdf5aaf69c59c31c08afb7d15825f591adb862db9b29"
+RPM_NAME = "mariadb-12.3.2-1.3.aarch64.rpm"
+RPM_HASH = "f617939cb48fae93f171b5f756a74df22f1f978e82331f1c5daea4113432ccee4eac26bae060c1973db41266eb56c773b9e3795b003c9bccc793c633f57d64cf"
 
 RPROVIDES:${PN} += "config-mariadb \
 libdaemon-example.so \
@@ -25,6 +25,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/hostname \
 /usr/bin/perl \
 /usr/bin/sh \
+group-mysql \
 ld-linux-aarch64.so.1 \
 libJudy.so.1 \
 libaio.so.1 \
@@ -46,7 +47,7 @@ libssl.so.3 \
 libstdc++.so.6 \
 libsystemd.so.0 \
 libwrap.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 mariadb-client \
 mariadb-errormessages \

@@ -6,10 +6,10 @@ GNU awk is upwardly compatible with the System V Release 4 awk.  It is \
 almost completely POSIX 1003.2 compliant."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.2.2"
+PV = "5.4.1"
 
-RPM_NAME = "gawk-5.2.2-2.2.aarch64.rpm"
-RPM_HASH = "c91ee53ccd7739d360b8345606453c3ebfbadc3a683b024596d5f4a36989adbfa362e87c61c4a1967ce7de2037a5951191288ce42669c2945078d5a4afecec03"
+RPM_NAME = "gawk-5.4.1-1.2.aarch64.rpm"
+RPM_HASH = "706a298a2844efc7800ff50e0043304ae0e74f3a565a013a8b09b9f0605fa935ee710aa5e19884d2b5270fde2c1bbd7706949b6c22a6b8231c639166dbb9c02f"
 
 RPROVIDES:${PN} += "/usr/bin/awk \
 /usr/bin/gawk \

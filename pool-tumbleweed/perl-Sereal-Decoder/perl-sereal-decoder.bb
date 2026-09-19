@@ -20,10 +20,10 @@ our benchmarks can be seen at \
 https://github.com/Sereal/Sereal/wiki/Sereal-Comparison-Graphs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.004"
+PV = "5.10.0"
 
-RPM_NAME = "perl-Sereal-Decoder-5.004-1.3.aarch64.rpm"
-RPM_HASH = "1896d4add5426ebc7a8adc2ba6007eb0439d8cdd3cd9f9866277b21d27331acfc9a7b4ae102f28bdfec27bdd99b8a5b528fab56db75291b34a47f798fca8e432"
+RPM_NAME = "perl-Sereal-Decoder-5.10.0-1.1.aarch64.rpm"
+RPM_HASH = "5e5aec913ec8742669851054c7c81ecb0a6c44489a651c939f1ad0784813204d85fda72b67bf551b74288a764fdf5b7815a41d03fce85af77b5031da6efbf959"
 
 RPROVIDES:${PN} += "perl-Sereal--Decoder \
 perl-Sereal--Decoder--Constants \
@@ -32,6 +32,6 @@ perl-Sereal-Decoder"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

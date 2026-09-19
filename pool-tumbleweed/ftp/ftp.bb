@@ -1,19 +1,13 @@
 SUMMARY = "The Standard UNIX FTP Client"
 DESCRIPTION = "This package provides the standard UNIX command line FTP client. FTP is \
 the file transfer protocol, which is a widely used Internet protocol \
-for transferring files. \
- \
- \
- \
-Authors: \
--------- \
-    David A. Holland <netbug@ftp.uk.linux.org>"
+for transferring files."
 LICENSE = "BSD-3-Clause"
 
 PV = "0.17"
 
-RPM_NAME = "ftp-0.17-694.27.aarch64.rpm"
-RPM_HASH = "a055bd5eaf11a3021ec39a9fa8dd8338be23ff0ce3a0ed01c4b45d57674dcf2b513ae61204816109392c7d014f3cee4ddaf54174391768f8e521e8ab69a94191"
+RPM_NAME = "ftp-0.17-697.5.aarch64.rpm"
+RPM_HASH = "a1824c25f64c7b3c660e37eb198c01bf2d8ef4613031b202f64060ff8cd69272b7aa188e60e30edbb0a81336d85642e705690ef9392e4e5fd7f40a5af4b7ad26"
 
 RPROVIDES:${PN} += "ftp"
 

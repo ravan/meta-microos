@@ -7,10 +7,10 @@ providers, including podcasts, Apple trailers, Flickr, \
 Jamendo, Vimeo, YouTube."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.16"
+PV = "0.3.18"
 
-RPM_NAME = "grilo-plugins-0.3.16-1.2.aarch64.rpm"
-RPM_HASH = "d714501ee5d209fc42b62c3e14b22cd866a500560032fb2800eae22823380fd4285b5a417eed347ac9f1f6098aa78512a29186438c5cbc4e82fe06ccc2f81761"
+RPM_NAME = "grilo-plugins-0.3.18-2.3.aarch64.rpm"
+RPM_HASH = "894b406c0a5852d21bcac38b4ecad6a1ade163905e6bc4d0fdf9c3b07f34dc0fbe89e6561f8764d1ecd6ed763a726d4166415ababbaaf538c9d8a93671ebab03"
 
 RPROVIDES:${PN} += "grilo-plugins \
 libgrlbookmarks.so \
@@ -27,7 +27,6 @@ libgrlmagnatune.so \
 libgrlmetadatastore.so \
 libgrlopticalmedia.so \
 libgrlpodcasts.so \
-libgrlraitv.so \
 libgrlshoutcast.so \
 libgrlthetvdb.so \
 libgrltmdb.so"
@@ -51,9 +50,10 @@ libjson-glib-1.0.so.0 \
 liblua5.4.so.5 \
 libmediaart-2.0.so.0 \
 liboauth.so.0 \
+librest-1.0.so.0 \
 libsqlite3.so.0 \
 libtotem-plparser-mini.so.18 \
 libtotem-plparser.so.18 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

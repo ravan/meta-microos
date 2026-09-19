@@ -6,10 +6,10 @@ These include full-batch gradient descent techniques, small-batch \
 techniques, gradient-free optimizers, and constrained optimization."
 LICENSE = "BSD-3-Clause & MPL-2.0 & BSL-1.0"
 
-PV = "2.19.1"
+PV = "3.11.0"
 
-RPM_NAME = "ensmallen-devel-2.19.1-1.3.aarch64.rpm"
-RPM_HASH = "109a4c689558892f6bf5283479a2716b9cdcd447b1065063fc4125b4aea149c3ab56c32919fa9585cf963e9266c7c165ff28e1802ca64e784494c7e38f4d7965"
+RPM_NAME = "ensmallen-devel-3.11.0-1.2.aarch64.rpm"
+RPM_HASH = "1c49da697d9638357340ed3225e8080dd928a42c9ee37e850cf4aa9cc41ac36d526c130d3d4aa97cee62e37faf6a5850500f41b089efc0116cd135c1c18c7c0e"
 
 RPROVIDES:${PN} += "cmake-ensmallen \
 ensmallen-devel"

@@ -6,10 +6,10 @@ the end of the text, a table set summarizes the skills \
 assessed, and in what proportions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn47573"
+PV = "2026.226.1.0svn47573"
 
-RPM_NAME = "texlive-competences-2023.209.1.0svn47573-54.1.noarch.rpm"
-RPM_HASH = "a694ff85ebe4c5d06415b18212eb1585eebfef7705f83bc0c32d4f2ae2da10cbf8b0a4814b4a7c8154f0710f120e9c551949229b07e8cc71cdf7a4a14cb78e07"
+RPM_NAME = "texlive-competences-2026.226.1.0svn47573-60.2.noarch.rpm"
+RPM_HASH = "4303f2b331c813f1eefbfd140d5522a43968012f09250be46cfae88a16b2cb3a6516db2aea6de91487dfd17e28a9cec720fb39a8f2f906cc64862e9780bae016"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-competences.sty \

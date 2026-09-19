@@ -2,10 +2,10 @@ SUMMARY = "Languages for Caja extensions"
 DESCRIPTION = "Provides common translations shared by Caja file manager extensions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extensions-common-lang-1.26.1-2.3.noarch.rpm"
-RPM_HASH = "ee66c5915f4db03faef3c86f19f67981202c094b7780e89a87f1d94f0d7c518e1ab8caaac996eea455fd242c4d4e676df195912e361acdd80201b601a69146aa"
+RPM_NAME = "caja-extensions-common-lang-1.28.0-2.11.noarch.rpm"
+RPM_HASH = "ddaf8891a3135c28a8a057df799c9a6e2416ad87e317339d2c14e207b0304b469cfa7b593e9a7985ce4b649369b9623463741f5def741af75735344839fb7747"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-extension-image-converter-lang \
@@ -13,6 +13,7 @@ caja-extension-open-terminal-lang \
 caja-extension-sendto-lang \
 caja-extension-share-lang \
 caja-extension-wallpaper-lang \
+caja-extension-xattr-av-lang \
 caja-extension-xattr-tags-lang \
 caja-extensions-common-lang \
 locale-caja-extensions-common-af \
@@ -43,8 +44,17 @@ locale-caja-extensions-common-es \
 locale-caja-extensions-common-es-AR \
 locale-caja-extensions-common-es-CL \
 locale-caja-extensions-common-es-CO \
+locale-caja-extensions-common-es-CR \
+locale-caja-extensions-common-es-DO \
+locale-caja-extensions-common-es-EC \
 locale-caja-extensions-common-es-ES \
 locale-caja-extensions-common-es-MX \
+locale-caja-extensions-common-es-NI \
+locale-caja-extensions-common-es-PA \
+locale-caja-extensions-common-es-PE \
+locale-caja-extensions-common-es-SV \
+locale-caja-extensions-common-es-UY \
+locale-caja-extensions-common-es-VE \
 locale-caja-extensions-common-et \
 locale-caja-extensions-common-eu \
 locale-caja-extensions-common-fa \
@@ -59,6 +69,7 @@ locale-caja-extensions-common-he \
 locale-caja-extensions-common-hi \
 locale-caja-extensions-common-hr \
 locale-caja-extensions-common-hu \
+locale-caja-extensions-common-ia \
 locale-caja-extensions-common-id \
 locale-caja-extensions-common-is \
 locale-caja-extensions-common-it \

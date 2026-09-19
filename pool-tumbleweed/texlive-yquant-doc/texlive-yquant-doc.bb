@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yquant"
 DESCRIPTION = "This package includes the documentation for texlive-yquant"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.3svn65933"
+PV = "2026.226.0.0.9svn77263"
 
-RPM_NAME = "texlive-yquant-doc-2023.209.0.0.7.3svn65933-53.2.noarch.rpm"
-RPM_HASH = "dd820050c6b3bafd14559a336f9f8d7ef42d6358518976580d5becafafe5ce14331fa3b171b2582e7b9ffda8c23e54f786bd01a71f18f4d8af641ab9ab31716b"
+RPM_NAME = "texlive-yquant-doc-2026.226.0.0.9svn77263-59.4.noarch.rpm"
+RPM_HASH = "bd7bc3ffd492199e01e4ef91921df8f57286219c598f97b94b648e6e685c223d7190d5abc1d9bc869af588cc72ec28b120ce31d4d9d17101b8210d836385f2ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yquant-doc"

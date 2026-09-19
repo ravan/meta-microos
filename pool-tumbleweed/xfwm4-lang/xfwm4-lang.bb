@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfwm4"
 DESCRIPTION = "Provides translations for the 'xfwm4' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "xfwm4-lang-4.18.0-1.4.noarch.rpm"
-RPM_HASH = "e238802d2981e300a15756f7c77590f4aa64496a41341f08e54030397d28e13a4e9aaa5932dd0db4a67e282fca82ce85095a883d24f035663de63b06cf2cc658"
+RPM_NAME = "xfwm4-lang-4.20.0-1.8.noarch.rpm"
+RPM_HASH = "8c62e11fc9d77ad3ecd316bd794aec8785462416bd18ac2160cb4bbf594891cd182a321b2abca5dd380098f91f0a0d47f89318205d3cbde305302874e252d978"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfwm4-ar \

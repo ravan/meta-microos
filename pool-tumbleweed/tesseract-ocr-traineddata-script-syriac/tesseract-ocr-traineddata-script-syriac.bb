@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Syriac scri
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-syriac-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ca9daae62076f07da1b1b0407d4dd4ac52d6a7446c7a3f5d4ce5a48889b490cf42880d3fe91f6c6f21568474669bdae5c74ad8d5faa0020bab5d22eb31601aa1"
+RPM_NAME = "tesseract-ocr-traineddata-script-syriac-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "701db294e0e53259dea2c65979548793fd7cc49e61d2390c53a8b1885362fb11c9da3d6746426301d1d705390ba27053d789a48c31c5a2a91c0a2d6bc8abaf13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-syriac"

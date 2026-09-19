@@ -2,14 +2,15 @@ SUMMARY = "Mail Client"
 DESCRIPTION = "KMail is the KDE mail client."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmail-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "f9c33b47b1af159468076734c4df47c445963a3d08d707a2cb6b9d1b2a88299be52163eb78c910366dc320a2c77a3eb2993246c8e3c9c118aab0219917a95613"
+RPM_NAME = "kmail-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "8377fb8b8eff2ac07e2609b9699a9994a209182e3a08a3d122d0ebd55658e11ebd0caf04a2a1c8925a9a3a94abd94bbdb958d5c57dec5d2b40d1698ba5ebc293"
 
 RPROVIDES:${PN} += "kmail \
 kmail5 \
-libkmailprivate.so.5"
+libkmailprivate.so.6 \
+libmailfilteragentprivate.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 kdepim-addons \
@@ -18,82 +19,94 @@ kmail-account-wizard \
 kmail-application-icons \
 ktextaddons \
 ld-linux-aarch64.so.1 \
-libKF5Bookmarks.so.5 \
-libKF5CalendarCore.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemModels.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5SonnetUi.so.5 \
-libKF5TextAutoCorrectionCore.so.1 \
-libKF5TextAutoCorrectionWidgets.so.1 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiAgentBase.so.5 \
-libKPim5AkonadiContact.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiMime.so.5 \
-libKPim5AkonadiSearchDebug.so.5 \
-libKPim5AkonadiSearchPIM.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5CalendarUtils.so.5 \
-libKPim5ContactEditor.so.5 \
-libKPim5Gravatar.so.5 \
-libKPim5IdentityManagement.so.5 \
-libKPim5IdentityManagementWidgets.so.5 \
-libKPim5KSieveUi.so.5 \
-libKPim5KontactInterface.so.5 \
-libKPim5Ldap.so.5 \
-libKPim5Libkdepim.so.5 \
-libKPim5Libkleo.so.5 \
-libKPim5MailCommon.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5MessageComposer.so.5 \
-libKPim5MessageCore.so.5 \
-libKPim5MessageList.so.5 \
-libKPim5MessageViewer.so.5 \
-libKPim5Mime.so.5 \
-libKPim5MimeTreeParser.so.5 \
-libKPim5PimCommon.so.5 \
-libKPim5PimCommonAkonadi.so.5 \
-libKPim5TemplateParser.so.5 \
-libKPim5TextEdit.so.5 \
-libKPim5WebEngineViewer.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5WebEngineCore.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6Bookmarks.so.6 \
+libKF6CalendarCore.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6IconWidgets.so.6 \
+libKF6ItemModels.so.6 \
+libKF6ItemViews.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Mime.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6Parts.so.6 \
+libKF6Service.so.6 \
+libKF6SonnetUi.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextAddonsWidgets.so.1 \
+libKF6TextAutoCorrectionCore.so.1 \
+libKF6TextAutoCorrectionWidgets.so.1 \
+libKF6TextCustomEditor.so.1 \
+libKF6TextUtils.so.1 \
+libKF6UserFeedbackCore.so.6 \
+libKF6UserFeedbackWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiAgentBase.so.6 \
+libKPim6AkonadiAgentWidgetBase.so.6 \
+libKPim6AkonadiContactCore.so.6 \
+libKPim6AkonadiContactWidgets.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiMime.so.6 \
+libKPim6AkonadiSearchDebug.so.6 \
+libKPim6AkonadiSearchPIM.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6CalendarUtils.so.6 \
+libKPim6Gravatar.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libKPim6IdentityManagementWidgets.so.6 \
+libKPim6KSieveCore.so.6 \
+libKPim6KSieveUi.so.6 \
+libKPim6KontactInterface.so.6 \
+libKPim6LdapCore.so.6 \
+libKPim6LdapWidgets.so.6 \
+libKPim6Libkdepim.so.6 \
+libKPim6Libkleo.so.6 \
+libKPim6MailCommon.so.6 \
+libKPim6MailTransport.so.6 \
+libKPim6MessageComposer.so.6 \
+libKPim6MessageCore.so.6 \
+libKPim6MessageList.so.6 \
+libKPim6MessageViewer.so.6 \
+libKPim6MimeTreeParser.so.6 \
+libKPim6PimCommon.so.6 \
+libKPim6PimCommonActivities.so.6 \
+libKPim6PimCommonAkonadi.so.6 \
+libKPim6TemplateParser.so.6 \
+libKPim6TextEdit.so.6 \
+libKPim6WebEngineViewer.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgpgmepp.so.6 \
-libqgpgme.so.15 \
-libqt5keychain.so.1 \
-libstdc++.so.6 \
-messagelib"
+libgpg-error.so.0 \
+libgpgmepp.so.7 \
+libqgpgmeqt6.so.15 \
+libqt6keychain.so.1 \
+libstdc++.so.6"
 
 inherit rpm

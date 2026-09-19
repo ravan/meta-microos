@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-fmt-devel package contains libraries and signature file
 developing applications that use ocaml-fmt."
 LICENSE = "ISC"
 
-PV = "0.9.0"
+PV = "0.11.0"
 
-RPM_NAME = "ocaml-fmt-devel-0.9.0-1.13.aarch64.rpm"
-RPM_HASH = "acd436c7bd8f4a2952bf3c0380f51db9bdd39e66177cf808f429bc4d2559899fc73b2cac4f2a34ddf3918fd43e8586113b70c36d42dc488f26e4b82362df9ec2"
+RPM_NAME = "ocaml-fmt-devel-0.11.0-2.3.aarch64.rpm"
+RPM_HASH = "25da06b8e6e9fa4e118f11f06bf2bd10a60e3cb4c4025fa6e13686d6675bdd6caf04eff0ebd364a856ebd68fc09207374fc52f64b3c05468c1c4624fa757766a"
 
 RPROVIDES:${PN} += "ocaml-Fmt \
 ocaml-Fmt-cli \
@@ -28,13 +28,16 @@ ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmdliner \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
@@ -48,6 +51,7 @@ ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Char \
 ocaml-Stdlib--Complex \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Fun \
@@ -63,6 +67,7 @@ ocaml-Stdlib--Obj \
 ocaml-Stdlib--Option \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Queue \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--Stack \
@@ -73,11 +78,13 @@ ocaml-Subst \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Unix \
 ocaml-Warnings \
 ocaml-fmt \
 ocamlfind-cmdliner \
 ocamlfind-compiler-libs.toplevel \
+ocamlfind-fmt \
 ocamlfind-result \
 ocamlfind-unix \
 ocamlx-Cmdliner \

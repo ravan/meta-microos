@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4.1.4"
 
-RPM_NAME = "httpcomponents-asyncclient-javadoc-4.1.4-3.10.noarch.rpm"
-RPM_HASH = "1ae761d3a151de53817d41fc7f13112736e0b753e46959058ca1aa8aba0ed5e8f7a0b2bbae454d910f93a8ee561eec60aaca5f9b8135e6d3f822672af5ca40b4"
+RPM_NAME = "httpcomponents-asyncclient-javadoc-4.1.4-5.4.noarch.rpm"
+RPM_HASH = "a0c20572bd01a42d8a923f00e7fb97445ef4598a27317aab8f0ce59bc51251fe9c4ac3ea0ade19e8f4df092147dc425777b9010d7dcd34b817291906e047a3f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "httpcomponents-asyncclient-javadoc"

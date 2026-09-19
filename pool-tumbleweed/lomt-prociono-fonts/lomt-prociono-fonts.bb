@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-prociono-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "1f00ecae0dc61ee86babd0c443e954c80f9955827c4550230456b66987627b1591cbb480289f2dec9cc7c8aae44b8f6874dd3af650203fb3ea0f30ab3ece5b8a"
+RPM_NAME = "lomt-prociono-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "157fd72d3a2cd05b13514a9c166bb8e8534f6cc71cb8b337b4c129aecd23410151458bfdb4bb8c80ec7200ae18fc04100b4b624914b670b27fe5e30f7eac2ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-prociono-fonts"

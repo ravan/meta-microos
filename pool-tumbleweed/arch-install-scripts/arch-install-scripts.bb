@@ -5,10 +5,10 @@ DESCRIPTION = "This package provides helper scripts originating in Arch Linux th
 * arch-chroot: Set up bind mounts and chroot into the target system"
 LICENSE = "GPL-2.0-only"
 
-PV = "28"
+PV = "30"
 
-RPM_NAME = "arch-install-scripts-28-1.2.noarch.rpm"
-RPM_HASH = "ccaee5f17ec78abd93246817ccf9a11a43068cf44deb42daac1c6bc82aabcdd9cee499f2e6a425c76e94975154308778f086292daccd0b4ee8a9e694239f7294"
+RPM_NAME = "arch-install-scripts-30-1.3.noarch.rpm"
+RPM_HASH = "019a42b0cdf9fe4a07560758fb2250e60d3171fe3355fec81720d6d9cfdc8703eee86bfaf149701a0b0084ea6081e6cd2e5e8c96f893f65d50ea7fa429b77646"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arch-install-scripts"

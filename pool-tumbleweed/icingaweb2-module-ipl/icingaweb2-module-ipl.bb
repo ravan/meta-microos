@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "0.5.0"
 
-RPM_NAME = "icingaweb2-module-ipl-0.5.0-1.13.noarch.rpm"
-RPM_HASH = "817398417f73d8e6e4f51a66ae15d816cceb0328c876d45bc324ef866346c9eb6cf7e4249cf215291c1a5d49f9ebe76149f787b73ce5b1c6ca99061ae25c962d"
+RPM_NAME = "icingaweb2-module-ipl-0.5.0-1.28.noarch.rpm"
+RPM_HASH = "5520e3e8e5a7cff0e6b721614596af4b17a3de6b921affcb788e8943377a1d5506aba98464b0885f28d0455dc1f863eb03da30fbc578e03e494ab6f88ca59b89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icingaweb2-module-ipl"

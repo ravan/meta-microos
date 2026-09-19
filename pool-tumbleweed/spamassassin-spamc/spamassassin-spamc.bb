@@ -3,10 +3,10 @@ DESCRIPTION = "Spamc is the client to contact the spammassassin spamd daemon. It
 be used in place of 'spamassassin' in scripts to process mail."
 LICENSE = "Apache-2.0"
 
-PV = "4.0.0"
+PV = "4.0.1"
 
-RPM_NAME = "spamassassin-spamc-4.0.0-74.6.aarch64.rpm"
-RPM_HASH = "964cd1f764908a21c67d912592f972fa3c23e67086bbe8205a16aa41f26d55d403d8f47ce33572ee36cb1e4d8f3c06e8e57ba5f6c02e621e1c4477f5ff5a15fe"
+RPM_NAME = "spamassassin-spamc-4.0.1-78.12.aarch64.rpm"
+RPM_HASH = "3b5323c2a100cdbdd738190398cf084db544936ef941805e85df80d5817c2275366c57cdf80afd8f72cf78a7dae86735910d0d55a00bb6b2ab0b196aea5e8bc6"
 
 RPROVIDES:${PN} += "spamassassin-spamc"
 

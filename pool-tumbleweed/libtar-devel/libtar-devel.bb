@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.20"
 
-RPM_NAME = "libtar-devel-1.2.20-2.16.aarch64.rpm"
-RPM_HASH = "62b8c0be24797ce08ea7a941de42dfb389fce1245a215d1256be1a27e09a126a26e3cc77be2eac148f1cdc3df43acd879dcf8d2e9a84ef6e2177db2856332fdc"
+RPM_NAME = "libtar-devel-1.2.20-3.3.aarch64.rpm"
+RPM_HASH = "0c89a3d3314b71baab9b06b431743b79379658ff406a56a9fe029efa011e4d1339c3fc6855a67959b2b5e08e00aaef3822310f6b6bcda5171f5698d604a46925"
 
 RPROVIDES:${PN} += "libtar-devel"
 

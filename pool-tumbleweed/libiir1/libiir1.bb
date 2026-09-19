@@ -9,10 +9,10 @@ All realtime filter code is in the header files which guarantees efficient integ
 and the compiler can optimise both filter code and main program at the same time."
 LICENSE = "MIT"
 
-PV = "1.9.4"
+PV = "1.10.0"
 
-RPM_NAME = "libiir1-1.9.4-1.4.aarch64.rpm"
-RPM_HASH = "b8cdfbfd04b64a4ade34798c26878d460af3c8a51368f0c1c365c2e587cbdbad87f065148b98e80415e595fc1486f197e6c7c9c840bcdc10c25665da0c426ede"
+RPM_NAME = "libiir1-1.10.0-1.5.aarch64.rpm"
+RPM_HASH = "a7d4c61377bf28dbbcde7eca81678ca23e64fb0b365742e130a2eea30986ccef12d0c0735c4e258684468e49384b4d9d80e38fcc4af5feaf1c99984626b0adac"
 
 RPROVIDES:${PN} += "libiir.so.1 \
 libiir1"

@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & CC-BY-SA-3.0"
 
 PV = "20220216.1.26"
 
-RPM_NAME = "terminology-theme-dark-20220216.1.26-1.5.noarch.rpm"
-RPM_HASH = "88b9bfd04233712da8f58cfca12ff55883ff2d76f33da9a282eb4f268dfa7fb16d759c3420b96e55eb66448bba2ea6294c5fe91209c1bd51154b183ce21ae17c"
+RPM_NAME = "terminology-theme-dark-20220216.1.26-2.2.noarch.rpm"
+RPM_HASH = "7fe35b87bb6e3482957646ef6048be1e723d90f14d7652fde36be1c509031a7273f18cd93ab7fb5e299a3e6dae755a9889f027210a33f033b0baf67a88f96c83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminology-theme \

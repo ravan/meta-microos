@@ -4,27 +4,26 @@ public access points in train stations, coffee shops, universities, etc. \
 Upon detection, the assistant appears showing the captive portal. Once a \
 connection is known to have been established, it dismisses itself. Written \
 in Vala and using WebkitGtk+."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.4.2"
+PV = "8.0.2"
 
-RPM_NAME = "capnet-assist-2.4.2-1.5.aarch64.rpm"
-RPM_HASH = "1dfa4c61a244a2497c7f27e4d24dc68b4fd57e433533c27d3eb722099d7456a4cc1f5db10d8a393562103c0d0e3467c24048019bdbe2c02dd6bda66facfd5ba1"
+RPM_NAME = "capnet-assist-8.0.2-1.5.aarch64.rpm"
+RPM_HASH = "25bae903e6f43d16a2257e0dd9a70c7395189bfec5d897ad252c725e632179163c206e9192552c9c7ae90a2077a9c726ec5f864c27c90cc4408cada419650f62"
 
 RPROVIDES:${PN} += "capnet-assist \
 elementary-capnet-assist"
 
 RDEPENDS:${PN} += "NetworkManager \
 ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
-libgcr-base-3.so.1 \
-libgcr-ui-3.so.1 \
+libgcr-4.so.4 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgranite.so.6 \
-libgtk-3.so.0 \
-libhandy-1.so.0 \
-libwebkit2gtk-4.0.so.37"
+libgranite-7.so.7 \
+libgtk-4.so.1 \
+libwebkitgtk-6.0.so.4"
 
 inherit rpm

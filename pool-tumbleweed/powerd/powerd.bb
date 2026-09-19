@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.2"
 
-RPM_NAME = "powerd-2.0.2-1.2.aarch64.rpm"
-RPM_HASH = "e79b0983b88bd27aa91b203ff1668ec5426c70fcaf8e40fb496fcae802213daff7ebe904604d41bdc6fc4d28cca7a35cab46f146074d36001b8a67240049dd3b"
+RPM_NAME = "powerd-2.0.2-4.4.aarch64.rpm"
+RPM_HASH = "7489db3ae4b993b1a21f6e249f84b0e300b854d313f463bac03ad75db9f46ccc2b65483d23c58dffc50a97011e02dd11591e95d518b61ad926d486a027e94a49"
 
 RPROVIDES:${PN} += "config-powerd \
 powerd"

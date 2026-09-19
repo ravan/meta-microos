@@ -7,10 +7,10 @@ file and to output a list of bad spellings. The package should \
 work with most spell-checkers, even dumb, TeX-unaware ones."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.41svn30715"
+PV = "2026.226.0.0.41svn73571"
 
-RPM_NAME = "texlive-spelling-2023.209.0.0.41svn30715-58.1.noarch.rpm"
-RPM_HASH = "074057f0ace07a2d2bcf4242eb2f9155c1e4e33f0e8e7c2c5b7ba74b408833296c803157e592372ed566975172ef0f7ed50d2bb74817943ee94f847b124dbe40"
+RPM_NAME = "texlive-spelling-2026.226.0.0.41svn73571-64.2.noarch.rpm"
+RPM_HASH = "cad02a455f2fe51827873d4df26b45a658e2544512b6cfe599e46a457a49a8b96288b3fe2fa0e272c6e822085a7dede5a09971e98f9fd016966bc56d07b6a698"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spelling.sty \

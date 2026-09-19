@@ -10,10 +10,10 @@ intelligently handling personal dictionaries when more than one \
 Aspell process is open at once."
 LICENSE = "GFDL-1.1-or-later & LGPL-2.1-only & HPND & SUSE-BSD-Mark-Modifications"
 
-PV = "0.60.8"
+PV = "0.60.8.2"
 
-RPM_NAME = "aspell-0.60.8-5.5.aarch64.rpm"
-RPM_HASH = "7f7ebf2bbde0b42c652f447e23b7c96e5472099ef60f5de02af5f28123f7f6503b2c2a0fc131aeb7074d6e5bc268b205fd61af426c3f80179d51bd2e56e98815"
+RPM_NAME = "aspell-0.60.8.2-1.3.aarch64.rpm"
+RPM_HASH = "5a5a39a058ef8716a2ac7f79722aa53604f05dc3a573daa6998ba0cd92ed13b3b4c454a3b7c8da9336eae0158ce70db61bf0ae5bb1b5e3e1cdf966c28fcb973f"
 
 RPROVIDES:${PN} += "aspell \
 pspell"

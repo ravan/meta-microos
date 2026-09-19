@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-maker"
 DESCRIPTION = "This package includes the documentation for texlive-maker"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn44823"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-maker-doc-2023.208.1.0svn44823-53.1.noarch.rpm"
-RPM_HASH = "2696b39c76dea5e4a12ee3024ec0862d806870cb446f7d8684cfcd4be4968af5e4aa748c05c52b32fa42cb88f5115940aed08247c5fe1196caa20b4711df08cd"
+RPM_NAME = "texlive-maker-doc-2026.226.1.0svn76924-59.2.noarch.rpm"
+RPM_HASH = "93341536b7ad2a6247001cb2e3b4fd9cab2186e784f6031de1c79446a720aa7f2ad27a8badf6fb45a8094437ad6f1a43f7cd63004f74ab03b3382aaa5dc94dbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maker-doc"

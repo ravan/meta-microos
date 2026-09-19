@@ -5,13 +5,16 @@ Manipulating OpenType, TrueType, Type 1,and for manipulation of \
 PostScript and other image formats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn61207"
+PV = "2026.222.svn61207"
 
-RPM_NAME = "texlive-collection-fontutils-2023.208.svn61207-60.1.noarch.rpm"
-RPM_HASH = "cfca9a099fb0cfa48211451da5822fb505ba506d52d9c83835c32e3abb9e210cc51b82e326500d522a24f4108812a30e2101c692417ced79bf0c8713643d3c8c"
+RPM_NAME = "texlive-collection-fontutils-2026.222.svn61207-68.2.noarch.rpm"
+RPM_HASH = "edf54da01fb18db6bd5cf25dd05dae9a3275cdab8dd02accb6281647b5161ea87b76d0d91c7f2f2f8e1a593f04eb47e5942483ed8fb055aa747cbb2e80440f89"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-fontutils"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-fontutils \
+texlive-collection-fontutils"
 
 RDEPENDS:${PN} += "psutils \
 texlive-accfonts \

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides styles for drawing Object-Role Model (ORM) \
 diagrams in TeX based on the PGF and TikZ picture environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.1.4svn61719"
+PV = "2026.226.0.0.1.4svn61719"
 
-RPM_NAME = "texlive-tkz-orm-2023.209.0.0.1.4svn61719-53.1.noarch.rpm"
-RPM_HASH = "b191ab75a18ebce10b1b973365ec14adcfc0c9dbcbd7c70f85edde46dc2af1e85263674efc16a621d7d323c16ddec73dc9918e233340b11f4f02a45c043eadfb"
+RPM_NAME = "texlive-tkz-orm-2026.226.0.0.1.4svn61719-59.2.noarch.rpm"
+RPM_HASH = "c1db909379371b3459c58175b3616d8bc9cfad67831ef0d9b1e71323eb52799d81e61c8ee8058899fcd111eb8e3211465dba3f1dcdac16dd4ce4745108a35fb1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tkz-orm.sty \

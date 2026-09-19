@@ -8,15 +8,13 @@ input encoding, and is able to use modern (OpenType and \
 TrueType) fonts (for both text and mathematics)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.svn66546"
+PV = "2026.226.svn78218"
 
-RPM_NAME = "texlive-luatex-2023.208.svn66546-53.1.noarch.rpm"
-RPM_HASH = "537680fb9dd80c6154095b4a0cd2992ff61ca6b4d4462c973a6a53e7cf611a3850e00c399120a9f7d286593b278be08d0c2fd4e13707547943e0c0166b0e351e"
+RPM_NAME = "texlive-luatex-2026.226.svn78218-59.2.noarch.rpm"
+RPM_HASH = "6aaadc1d75bfd26520faea69c9b452cbe1c5412252da6f7ef09091a59164ab644aca4b9a85ff3fe985519e6007528d74351ff1f6610958ed626de52f702e496c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-texlive-luatex \
-tex-luatex-unicode-letters.tex \
-tex-luatexiniconfig.tex \
+RPROVIDES:${PN} += "tex-luatex-unicode-letters.tex \
 texlive-luatex"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

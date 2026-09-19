@@ -2,10 +2,10 @@ SUMMARY = "Translations for package NetworkManager-libreswan"
 DESCRIPTION = "Provides translations for the 'NetworkManager-libreswan' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.16"
+PV = "1.2.30"
 
-RPM_NAME = "NetworkManager-libreswan-lang-1.2.16-2.3.noarch.rpm"
-RPM_HASH = "2dbf95101da975a2f89bb5b43e6de8c6c07619260527b3ae3827fb25cb0dfcaeacbb3f3a65be6d4ad144b3064d50741941c2026d4c6123d0aa96e47336bff9c4"
+RPM_NAME = "NetworkManager-libreswan-lang-1.2.30-1.4.noarch.rpm"
+RPM_HASH = "59d12a9a89f5e5d438b62a521cc4b21be681227e21cf59ce008a44d723606b429a767c5d54ea272622aaf25e75fdfd894aa6d0fa9db39019fbacbda93dda3e80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-libreswan-lang \
@@ -28,6 +28,7 @@ locale-NetworkManager-libreswan-fr \
 locale-NetworkManager-libreswan-fur \
 locale-NetworkManager-libreswan-gl \
 locale-NetworkManager-libreswan-gu \
+locale-NetworkManager-libreswan-hi \
 locale-NetworkManager-libreswan-hr \
 locale-NetworkManager-libreswan-hu \
 locale-NetworkManager-libreswan-id \

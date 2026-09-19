@@ -2,10 +2,10 @@ SUMMARY = "Haskell cabal2spec library documentation"
 DESCRIPTION = "This package provides the Haskell cabal2spec library documentation."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.8.0"
 
-RPM_NAME = "ghc-cabal2spec-doc-2.7.0-1.5.noarch.rpm"
-RPM_HASH = "bbfbbbd9246f7747ac60dfcd78e5f7501b72d85018a0ec7cc69d12e6a854858778968908256902c4b4c7984defd8ad629be0f79af93984351dd4e9b042cce862"
+RPM_NAME = "ghc-cabal2spec-doc-2.8.0-1.9.noarch.rpm"
+RPM_HASH = "72d6d5db4e305234b019c719d911bd74548875d4ba50ff19a4bdc36c86d2d745c8c37b16d3b9a9120ce1baf67022d7e0022d72133491b9982e0896fcbda9745b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal2spec-doc"

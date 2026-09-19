@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later | APL-1.0"
 
 PV = "0.9.3"
 
-RPM_NAME = "libofa-devel-0.9.3-104.16.aarch64.rpm"
-RPM_HASH = "9ceac93525fc97ef565ce1f02a2fa73663d0b6963dbd7d7d7a572c6011c889b8a572d03a00a4ab33be950b8b5d7b5d013bc0c4748b7ba1211217f8fa06d6d42f"
+RPM_NAME = "libofa-devel-0.9.3-105.9.aarch64.rpm"
+RPM_HASH = "335db33b2bb1ec2b12156a40bbf30a0dd610ab4659af3916cdcaa5c22cd7d06ddc4177c81ffb573be95a27cb637e0bc0ddf7bce0514c7e57e9e3908fd4c7cdba"
 
 RPROVIDES:${PN} += "libofa-devel \
 pkgconfig-libofa"

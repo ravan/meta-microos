@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines the W3C Scalable Vector Graphics (SVG) \
 colour names for use with both the color and PSTricks packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-svgcolor-2023.209.1.0svn15878-58.1.noarch.rpm"
-RPM_HASH = "aaa314a60f6afc1ae5a731643892524d3e8658ffe9d585851d27560b654e1ce50d36ec72d495e9fd288018cfa838eaf3e6f4731e233696926fd009ef3e41af55"
+RPM_NAME = "texlive-svgcolor-2026.226.1.0svn15878-64.2.noarch.rpm"
+RPM_HASH = "81742b80394b6183e4491d58674ae8a4d959e66325426c8f4cc9acd6996f01afebf4b332345f538730e2b728a837b2faa02713d4995e0bfc38884766426712ce"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svgcolor.sty \

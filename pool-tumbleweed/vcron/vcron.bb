@@ -6,12 +6,12 @@ DESCRIPTION = "TK-Interface for cron and at. \
 Authors: \
 -------- \
     Daniel Roche <dan@lectra.com>"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.3"
 
-RPM_NAME = "vcron-2.3-281.16.noarch.rpm"
-RPM_HASH = "bc204b144fa4ac165ac21bbd92e66a7e5abf09f78e241458868999d57afcd3ae1f6aae98dace771d06b6add35351b353d0463facccf348cfbe39c90cd1bb3c49"
+RPM_NAME = "vcron-2.3-283.7.noarch.rpm"
+RPM_HASH = "3ad3d9d1c74fd265ed8d9c7c5f57bcb2b9d3e23c7e860a1cdbd76b670ddb6dd283815410a550e44f5b1c284beb4a9e81b596de908128107ba783e4f9b80bd636"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vcron"

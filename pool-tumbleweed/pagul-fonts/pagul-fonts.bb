@@ -4,8 +4,8 @@ LICENSE = "SUSE-GPL-3.0-with-font-exception"
 
 PV = "1.0"
 
-RPM_NAME = "pagul-fonts-1.0-3.17.noarch.rpm"
-RPM_HASH = "45c3ad3917c81d8737929ce178e016a538314499a02b510d7d1ea26796eb16bfbdbea6acecd96a776204ffde94370e45e3df57eaac7202fd99cf5bc8642da15a"
+RPM_NAME = "pagul-fonts-1.0-3.25.noarch.rpm"
+RPM_HASH = "21c9f9306137bbdc4818d59e459734cd25d951a8ec86685628c435eef956227d8411df99761d4eae319ba482fcf7b3383d38985c89fcbda7ea0c97556c983a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagul-fonts"

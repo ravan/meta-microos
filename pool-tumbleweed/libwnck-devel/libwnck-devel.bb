@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "43.3"
 
-RPM_NAME = "libwnck-devel-43.0-3.4.aarch64.rpm"
-RPM_HASH = "5f6f5cc1953f2da67f62b778af0237652732650302c50de61f1ef693698b132f47bdd1a48a50d4a30d54eed08367d0722bf1f3dcf05da59ff278efa2b0fbafb7"
+RPM_NAME = "libwnck-devel-43.3-2.4.aarch64.rpm"
+RPM_HASH = "c89b885396a091966aee6dae8625b973d2a863b2872c9b9456fe6624c9277b5f5015e11836dcedccd720beb8c8dad08145d20c4a2cad1a38b1a51c2f8fe31fdf"
 
 RPROVIDES:${PN} += "libwnck-devel \
 libwnck-doc \

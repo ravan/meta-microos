@@ -9,17 +9,16 @@ If you are not already familiar with the Test::More manpage now would be \
 the time to go take a look."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.37"
+PV = "0.370.0"
 
-RPM_NAME = "perl-Test-Warn-0.37-1.4.noarch.rpm"
-RPM_HASH = "9d1f3d031b1284a45d8eb2efc7e57a6474bcb9e9776a7667d7edbb3673a4a392a05dce43a27621882397afd9f22e4aa7e50a35196b5f8ba1102e5da941664de7"
+RPM_NAME = "perl-Test-Warn-0.370.0-1.7.noarch.rpm"
+RPM_HASH = "2a93b65fbace24967ae721093ab6f1c0a85c4666b2fadb48932aced68101451e5c4225937ca2fa81bfc8531e6715d6f77c5d859ed76cae2f4767b0d0c4702638"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Warn \
-perl-Test--Warn--Categorization \
 perl-Test-Warn"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp \
 perl-Sub--Uplevel"
 

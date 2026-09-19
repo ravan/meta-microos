@@ -2,10 +2,10 @@ SUMMARY = "Utility to display ditroff output"
 DESCRIPTION = "xditview displays ditroff output on an X display."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xditview-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "911ba9ee45c4c233da685f32b95532f676ca1531bf38f7fa5da77124f49f464f053d3b4e99fb4132a1d40efc8bb1661a296d99f9bfcdbaeba61dc473a40f59ea"
+RPM_NAME = "xditview-1.0.7-1.11.aarch64.rpm"
+RPM_HASH = "15190fece4236c5a407b4014544b5b64baebd4021b06cf1fbc7215d5e3b698db06aec14609b9ff546025a501adcc5fe94c9892e4a412913b6cad23fc2744243d"
 
 RPROVIDES:${PN} += "xditview"
 

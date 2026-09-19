@@ -1,17 +1,17 @@
-SUMMARY = "Typeset 5.5' x 8' recipes for browsing or printing"
+SUMMARY = "Typeset 5.5'' x 8'' recipes for browsing or printing"
 DESCRIPTION = "This is a LaTeX2e class for typesetting recipes. It is designed \
 for typesetting one or two recipes per page, with dimensions of \
-5.5' x 8.5'. The hyperlinked table of contents (ToC) and page \
+5.5'' x 8.5''. The hyperlinked table of contents (ToC) and page \
 numbers make browsing recipes convenient, and the pages can be \
 joined together or printed two per sheet to normal letterpaper \
 easily. The size was chosen to work in half-page 3-ring binder \
 cover sheets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn37026"
+PV = "2026.226.svn75878"
 
-RPM_NAME = "texlive-recipebook-2023.209.svn37026-54.2.noarch.rpm"
-RPM_HASH = "269aaf0e4bb24e425fd7800a55b3a5b7cb7cc2152abdf1a7559bcfe7aeb7b1bb52f5f83bdf7a54111f2170e66d0d1fe10470261061b0067f312c0867b7cd0329"
+RPM_NAME = "texlive-recipebook-2026.226.svn75878-60.4.noarch.rpm"
+RPM_HASH = "3c4bb76d925ba31b354ee0d27c7ab5a441f0562ec7afa50af9a1b35a6e9cbd45ccacb00942c3c4a9c172e9a58efcf2c33c06fd7b0cb1fac33e75074d0e080791"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-RecipeBook.cls \

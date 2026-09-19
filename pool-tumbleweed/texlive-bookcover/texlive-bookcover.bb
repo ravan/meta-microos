@@ -2,10 +2,10 @@ SUMMARY = "A class for book covers and dust jackets"
 DESCRIPTION = "This class helps typesetting book covers and dust jackets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.5svn65394"
+PV = "2026.226.3.9svn77334"
 
-RPM_NAME = "texlive-bookcover-2023.209.3.5svn65394-53.1.noarch.rpm"
-RPM_HASH = "679cd9662f78857a4ae79a9821481e714150e9fd56cce2364135a6f8fac5e0613e128c1c03e89cf09600aa2443a05b76f70960861eebeab01342d7b27b3512e7"
+RPM_NAME = "texlive-bookcover-2026.226.3.9svn77334-59.2.noarch.rpm"
+RPM_HASH = "199af84105219cb3a35343bcebbf5871d61bc7d0e79c0b5506f7a057c0858123406ba300840a606554ae0ce18a980d0b00a932d998f511ab5103425e50067fbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bookcover.cls \
@@ -19,14 +19,10 @@ grep \
 sed \
 tex-article.cls \
 tex-calc.sty \
-tex-etoolbox.sty \
 tex-fgruler.sty \
 tex-geometry.sty \
-tex-graphicx.sty \
 tex-kvoptions.sty \
-tex-picture.sty \
 tex-tikz.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

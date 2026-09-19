@@ -6,15 +6,15 @@ run-time reflection. It feels like a dynamic language but has the speed and \
 safety of a static language."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.21"
+PV = "1.27"
 
-RPM_NAME = "go-1.21-1.1.aarch64.rpm"
-RPM_HASH = "e19dd518f677078fa62fd656372e3e9e922ecb41b2f08557d7e03c4009b0aaa32a0f815a6ea60babde94836232cd8075534ad7852ef8b6df0de20d6371fe0e85"
+RPM_NAME = "go-1.27-1.1.aarch64.rpm"
+RPM_HASH = "0101069815ca8af2c842dd9983da5a2c4ac590942d6d5dd301283e12a97ddda44661f59cd4cbd8648261b089ac885b8481d613a7c29e084e660b1f27b7ad0c1d"
 
 RPROVIDES:${PN} += "go \
 golang \
 golang-API"
 
-RDEPENDS:${PN} += "go1.21"
+RDEPENDS:${PN} += "go1.27"
 
 inherit rpm

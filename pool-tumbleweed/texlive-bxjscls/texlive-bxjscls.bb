@@ -7,10 +7,10 @@ aid of suitable packages that provide capability of Japanese \
 typesetting."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.2.7asvn63011"
+PV = "2026.226.2.9dsvn75447"
 
-RPM_NAME = "texlive-bxjscls-2023.209.2.7asvn63011-53.1.noarch.rpm"
-RPM_HASH = "7eb6cc5a7b1134c1252188ebebdf253c8e09036af858956ab683fa65096520134f656d90fbc464b0f7184f897f2d69f09060d5773d77d83b9b43b86ab61e2557"
+RPM_NAME = "texlive-bxjscls-2026.226.2.9dsvn75447-59.2.noarch.rpm"
+RPM_HASH = "19e45e4c11f161e0219cd11e2d093e99db6e5af7c6f9d44277e31b0a2a4da991c5fca2b48ffcc9b6f40663c77357c44f3a237a7a418f5fe53de6709fda6d8d85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxjsarticle.cls \
@@ -43,7 +43,6 @@ tex-etoolbox.sty \
 tex-filehook.sty \
 tex-fixltx2e.sty \
 tex-geometry.sty \
-tex-ifpdf.sty \
 tex-iftex.sty \
 tex-inputenc.sty \
 tex-jslogo.sty \
@@ -54,9 +53,9 @@ tex-luatexja.sty \
 tex-pdftexcmds.sty \
 tex-plautopatch.sty \
 tex-polyglossia.sty \
-tex-pxbabel.sty \
 tex-pxchfon.sty \
 tex-pxjahyper-enc.sty \
+tex-pxjahyper-uni.def \
 tex-t1enc.def \
 tex-type1cm.sty \
 tex-zxjafont.sty \

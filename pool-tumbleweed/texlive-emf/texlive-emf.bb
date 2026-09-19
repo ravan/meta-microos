@@ -1,15 +1,14 @@
 SUMMARY = "Support for the EMF symbol"
 DESCRIPTION = "This package provides LaTeX support for the symbol for the EMF \
 in electric circuits and electrodynamics. It provides support \
-for multiple symbols but does not provide any fonts. The fonts \
-themselves must be aquired otherwise. However the fonts are \
-part of a normal TeX Live installation."
+for multiple symbols but does not provide any fonts; the fonts \
+are part of a normal TeX Live installation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1svn42023"
+PV = "2026.226.1svn76790"
 
-RPM_NAME = "texlive-emf-2023.209.1svn42023-54.2.noarch.rpm"
-RPM_HASH = "67bf8fcbec99db21a2ffaff2f4bffe141345e754171fc6f8ead5615602ceb89cb95d8b64995798a872b05f17c1ad824b98499fb540e8b04a69d138f8642d61ce"
+RPM_NAME = "texlive-emf-2026.226.1svn76790-61.4.noarch.rpm"
+RPM_HASH = "f98d888a58c16bcc96eeb0168cef1b3464acd9a7705bea80773803f8ef511bd2d58cd2a4c78ca9c29ff66bdff4436919bfb557bcae2e5a3ee12cbf4203445cb0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emf.sty \

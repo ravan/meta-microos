@@ -3,10 +3,10 @@ DESCRIPTION = "This library is used to parse EXIF information from JPEGs created
 digital cameras."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6.24"
+PV = "0.6.26"
 
-RPM_NAME = "libexif12-0.6.24-1.10.aarch64.rpm"
-RPM_HASH = "c314726a472c81816e7b5fb7ef0b6445df01302e89ceb0b286c1976e17ffcaf546dacdb5d06966086e7361f7065f685450baf5180f95785be83d89074df20318"
+RPM_NAME = "libexif12-0.6.26-1.3.aarch64.rpm"
+RPM_HASH = "1700368d936e1bf38b17c45d3cc8fa31ced1a8058dc8c297567fbfad4c6de5ec9da21414b999d6b4a105d310622e763b1a1ef61caebe35971191e6dce7d60154"
 
 RPROVIDES:${PN} += "libexif \
 libexif.so.12 \

@@ -8,10 +8,10 @@ YaST for generic (C++) applications. This package has very few \
 dependencies."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui16-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "da1c986813a38f47a6d86ad98e60e5d19f8506d36b3adead7326fdd85a2b44cbef951fc8b53d2416805372434ca16a50d6062da8bf199ff19e57a9215b01415b"
+RPM_NAME = "libyui16-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "c1900e49386b2b9be252937962a48b7cb05c78e89c64bf2f9529fde05f5a1bca1b61381ecd4f57dc7c00ab2583999abf52be1f9c4b6fdfc0a1adb59e5c3cc0ee"
 
 RPROVIDES:${PN} += "libyui-doc \
 libyui.so.16 \

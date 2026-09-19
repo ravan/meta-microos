@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains software for integrating L2TP and L2TP/IPse
 (L2TP over IPsec) VPN support with NetworkManager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.20.8"
+PV = "1.52.4"
 
-RPM_NAME = "NetworkManager-l2tp-1.20.8-1.6.aarch64.rpm"
-RPM_HASH = "d61bd63339036e802861d4c9abd086c37c50ba4ee115a9e7e52c66d227a47fec35822ac587a41a2452f1a8fa5654fd4288bdaf5dda4ee4431eda490aa94bfb5e"
+RPM_NAME = "NetworkManager-l2tp-1.52.4-1.1.aarch64.rpm"
+RPM_HASH = "42a18177d696e256065a7959d9cbe0b6489e736ae055d6a495eb048a9522abac76b2b2d3bd895093e8a87f087f90f8ba405f426c3427f40d3186ecb7209c134f"
 
 RPROVIDES:${PN} += "NetworkManager-l2tp \
 libnm-vpn-plugin-l2tp.so"

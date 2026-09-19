@@ -65,15 +65,15 @@ A 'busy' block is therefore useful to prevent attempts at input when the \
 program is busy at some non-interactive task."
 LICENSE = "Artistic-2.0"
 
-PV = "1.025"
+PV = "1.27.0"
 
-RPM_NAME = "perl-IO-Interactive-1.025-1.2.noarch.rpm"
-RPM_HASH = "b5bd9101e1820c462a3dd8f9a1b4cf0cab294d2e4da7894602d6b4da921742663307efb6f50b917d186c46d5e3679f8f6aa5be67ab6a18bc0b066a82e534d893"
+RPM_NAME = "perl-IO-Interactive-1.27.0-1.7.noarch.rpm"
+RPM_HASH = "38239e890b6edbb080a11b7401f73f682851241c617da677f0b7f595e39bb36f1af7c83548ff84d8ae7cc2372a7da72fc072ee6aa16103cc1c0b20cb27916a09"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IO--Interactive \
 perl-IO-Interactive"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a beamer theme designed for Tsinghua \
 University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn61071"
+PV = "2026.227.1.1.0svn61071"
 
-RPM_NAME = "texlive-thubeamer-2023.209.1.1.0svn61071-55.1.noarch.rpm"
-RPM_HASH = "6651471e030001586393b2c61984729de1623a6ff494fb07d32d0dae94c018d40194e5e6925c95ec865b885c288376e18197681eb04992a9f54874f3db4044a1"
+RPM_NAME = "texlive-thubeamer-2026.227.1.1.0svn61071-62.2.noarch.rpm"
+RPM_HASH = "8dc25c0a9d3cda861654468d7d9906ad932327b8d17e4b503ffc09520634cba0dadb0382c8dbb72bedba662b902d0af1c328f0b2aa280f628a863c769100683c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemethubeamer.sty \

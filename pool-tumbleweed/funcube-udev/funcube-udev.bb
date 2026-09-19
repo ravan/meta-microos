@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.10.0.rc3"
 
-RPM_NAME = "funcube-udev-3.10.0.rc3-1.4.noarch.rpm"
-RPM_HASH = "0da7d45a04016974b1de56cbead60a03ef384f83e9f592226b8c95d86e6795e9bc84c0d66e95a05e7ae44d8c0c35e169783827428bf9d2cc04a863c43dbedfe5"
+RPM_NAME = "funcube-udev-3.10.0.rc3-3.5.noarch.rpm"
+RPM_HASH = "ae0e367453d011ab45d37654eaa4b0fddd6ff069ed7f64085e558b5d19e8df9c089560848a2277db04f6fb22bd2077a2bf874823b28203376b5a7d4b0a472825"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "funcube-udev"

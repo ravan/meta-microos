@@ -5,10 +5,10 @@ linear programming (LP) solver. \
 This package contains the development headers for coin-or-Osi."
 LICENSE = "EPL-2.0"
 
-PV = "0.108.7"
+PV = "0.108.11"
 
-RPM_NAME = "coin-or-Osi-devel-0.108.7-1.4.aarch64.rpm"
-RPM_HASH = "ee37b3066fe8e0baaefb063f811dd4abc5030d31ac32659baa72e3e02702ae584696aeda071d571747158de99d89ed7a793077ba1f92923b7f4e37d958e6c4e1"
+RPM_NAME = "coin-or-Osi-devel-0.108.11-1.7.aarch64.rpm"
+RPM_HASH = "b2d41782de1a6d6cf39fc44e239d3157959ffa7a44ff68b95289f1f248675767cead6cd49d016f47855f4460795318c817734a8e813e603bd38611fe568beecb"
 
 RPROVIDES:${PN} += "coin-or-Osi-devel \
 pkgconfig-osi"

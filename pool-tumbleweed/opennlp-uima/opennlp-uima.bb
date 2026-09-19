@@ -2,10 +2,10 @@ SUMMARY = "Apache OpenNLP UIMA Annotators"
 DESCRIPTION = "This package provides Apache OpenNLP UIMA Annotators."
 LICENSE = "Apache-2.0"
 
-PV = "1.5.3"
+PV = "1.9.5"
 
-RPM_NAME = "opennlp-uima-1.5.3-4.1.noarch.rpm"
-RPM_HASH = "403bccb8e2f8935aa06827157f352dc61fccb10932f779cf8642439b1bbc3f8c424833a768dd37af6f154c1da39eb4bcdc2505c78a2ae6b8557a8a1bb39827b1"
+RPM_NAME = "opennlp-uima-1.9.5-2.1.noarch.rpm"
+RPM_HASH = "0365ebe8e08202fb8e7febd39b3885f4da9f3e779e4e82871134b324582765195f45243577d75fbc628189898cf4c3c5d5d32fc075c1215ab06f1dfafd218de8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.opennlp-opennlp-uima \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-epsf-dvipdfmx"
 DESCRIPTION = "This package includes the documentation for texlive-epsf-dvipdfmx"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2014svn35575"
+PV = "2026.226.2014svn35575"
 
-RPM_NAME = "texlive-epsf-dvipdfmx-doc-2023.209.2014svn35575-54.2.noarch.rpm"
-RPM_HASH = "ee4c011ae2094def7ee9436a3a73208dbaeccdc95e3ed3ecb63f6dbded35fb1171f8dd2d5242257a335b09b001394cc57be38fb1ab2b32ec7b33af135d171390"
+RPM_NAME = "texlive-epsf-dvipdfmx-doc-2026.226.2014svn35575-61.4.noarch.rpm"
+RPM_HASH = "b16687b941d55bc41026f52e4167a314e24e9c90483af83407a638f1daa4ce032f3f803c87182ac1223f0b331d5822687c358089b6466dc9ce90aebd0b258ea3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epsf-dvipdfmx-doc"

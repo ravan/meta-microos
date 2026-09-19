@@ -12,10 +12,10 @@ incorporates ideas that come from the trivfloat package; the \
 documentation uses the auto-pst-pdf package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0msvn31096"
+PV = "2026.226.2.0msvn31096"
 
-RPM_NAME = "texlive-chemstyle-2023.209.2.0msvn31096-54.1.noarch.rpm"
-RPM_HASH = "9d74b361e03fc1c5088c0e490cb59c85205c4e4feb9881507bd0c545a3f7982bbec7a07aa87b17e8b241862eab1d639b9542ddeff8bd97d9d27c558913ce9099"
+RPM_NAME = "texlive-chemstyle-2026.226.2.0msvn31096-60.2.noarch.rpm"
+RPM_HASH = "2068d22d13e8052dd5fbecba71b8c44f4ebbad768f8ad676fd5240919ff85e8d700104243f0ae5dd3c341fc6665dc95ad3a4c4006f5dc636429e57944860314a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-angew.chemstyle.cfg \

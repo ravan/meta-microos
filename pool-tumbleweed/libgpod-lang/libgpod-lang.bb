@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "libgpod-lang-0.8.3-12.7.noarch.rpm"
-RPM_HASH = "577fd64dcf22957746df3399a9ad5e0b5d6dbc3dabcc59b99500c070f66afa0a7d791f8458bb769d6bf5f53853bf74e32bda6ea62dd3dd0b9d2b9a6348ddbd9b"
+RPM_NAME = "libgpod-lang-0.8.3-16.5.noarch.rpm"
+RPM_HASH = "2a54e1c3c8c1ba67aaac03fa57eb56bece121ac71af739b1a64b10490331b900ed324bdebe5d4fe075a045a082432b10c9118ead20e3c6d7f43c93d30d3fbab8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgpod-lang \

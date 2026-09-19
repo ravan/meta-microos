@@ -3,10 +3,10 @@ DESCRIPTION = "Leaves Plugin for DNF, Python 3 version. List all installed packa
 not required by any other installed package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "python3-dnf-plugin-leaves-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "fbdb54982ea720953c6787f67384b95b8b151e3d12cfd79e968e9f0a5d6608025524974702b15b840be26a0f4ee822f1ce17b5e880ea2e42fac89dcf46e91884"
+RPM_NAME = "python3-dnf-plugin-leaves-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "acd017c573f608856ae768f9335b04ebbade1125fcf1bea94fcffc0e41b1e82ca1f374040befd048c77fec7a289ebf33b2c97bf7ad62c3e2c5909049bbe6dcff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-leaves \

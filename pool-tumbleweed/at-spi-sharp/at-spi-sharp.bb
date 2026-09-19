@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.1"
 
-RPM_NAME = "at-spi-sharp-1.1.1-2.2.noarch.rpm"
-RPM_HASH = "bd62c9c1b333ff9e0f5b2ba2b415c00e45a1b7f6e000055ffa13264bf5f15a74b454917fa4f42c53ef136b7c3d3601054f3a57e52e5de7bbb8f0bd4d20563613"
+RPM_NAME = "at-spi-sharp-1.1.1-3.5.noarch.rpm"
+RPM_HASH = "1221fa43455a04de6bdbd84561bfd5ba3e8447a60bc9043622f249fe6af7598d586170e52e2aa70a3c085acb93a4350849ff7bb66cc8da02fbbb5e932447e9b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "at-spi-sharp \

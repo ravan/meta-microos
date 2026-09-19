@@ -14,8 +14,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "hexter-1.1.1-1.11.aarch64.rpm"
-RPM_HASH = "92b7fff1deb5275a43a8744f5ad532148d538ea34c0b057cdc0dfae372f98dfb7beb88eb44311476e92e9a8d9a75f75aa126e848014adc24b2a70421189de543"
+RPM_NAME = "hexter-1.1.1-2.5.aarch64.rpm"
+RPM_HASH = "5fb3ec2d898c227e2634ea01be4ae0f0e98a859c15d01af5a54bfbcde027a8a008ef77301092e96d3a6c7bf287a20a3465085da0ff169a47d82819d2050c9650"
 
 RPROVIDES:${PN} += "hexter"
 
@@ -30,6 +30,7 @@ libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 liblo.so.7 \
 libm.so.6 \
+libmvec.so.1 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0"
 

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.9.1"
 
-RPM_NAME = "univocity-parsers-2.9.1-1.5.noarch.rpm"
-RPM_HASH = "6405cab95b5a68c42c426c3e2495e0fe214f692585a00252c571f5849c2a0d22a0f0d3c884f7e3cac6e1550337553869836114bd8fc5c2eb6ee53eb9d0cecc27"
+RPM_NAME = "univocity-parsers-2.9.1-4.8.noarch.rpm"
+RPM_HASH = "9f15a3b7155014c53b5a26e17de868dcbe905b90c1eab68db18da139375d9059f62355880b082f7a8cea72127a00c68a292f903a7e665f16fe9613d0454a9410"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.univocity-univocity-parsers \

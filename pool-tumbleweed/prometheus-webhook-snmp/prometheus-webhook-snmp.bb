@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0"
 
 PV = "1.4"
 
-RPM_NAME = "prometheus-webhook-snmp-1.4-2.7.noarch.rpm"
-RPM_HASH = "57e065aa5cba5ea7367a363a67f7e6dd275804acdde550944e4b17b5fe3529fda9699a32f19f0c5adf5348644e72f3afe30efc40a3da4e4a7949ee6a3084f1cc"
+RPM_NAME = "prometheus-webhook-snmp-1.4-3.7.noarch.rpm"
+RPM_HASH = "a73564c6e7f5e34457f5abf1eb299533bcc81b318e9a29e89d8332365a5fec4437e8d0b3eba624034765198d559639daa3fe7bc8c9f50f1701f9c452a7337648"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "prometheus-webhook-snmp"

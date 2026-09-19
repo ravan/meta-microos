@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tpslifonts"
 DESCRIPTION = "This package includes the documentation for texlive-tpslifonts"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.6svn42428"
+PV = "2026.226.0.0.6svn42428"
 
-RPM_NAME = "texlive-tpslifonts-doc-2023.209.0.0.6svn42428-53.1.noarch.rpm"
-RPM_HASH = "0c188bef31a7c3b35433c6585849cca5070faab2c549ffc8ff28cfc2891f30f6e3d1fbf9f2d3753129aecb6cda89e4e008146120c53658c531319f97db9417a5"
+RPM_NAME = "texlive-tpslifonts-doc-2026.226.0.0.6svn42428-59.2.noarch.rpm"
+RPM_HASH = "ba5219b9cc65ecab4cb74676f3d1b0d5e9438b5f8794fe04a79aa6905b7af0b964ba198535783b8d570b860dce6fd3a4d0455749cd5c8edf49e03a15318895f4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tpslifonts-doc"

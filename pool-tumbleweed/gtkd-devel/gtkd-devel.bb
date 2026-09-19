@@ -4,8 +4,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "3.9.0"
 
-RPM_NAME = "gtkd-devel-3.9.0-2.12.aarch64.rpm"
-RPM_HASH = "28c09f6dd59fa19353fde14630383bb7dc5947efc74a2fd8b8dc693055eee75f3c6d934f7d6c2adba24a6e018fccb2cb2b0186df9b5a655d2cb1d2fdd1124427"
+RPM_NAME = "gtkd-devel-3.9.0-3.10.aarch64.rpm"
+RPM_HASH = "2f9b1c693c5bf342dce9db9c3291619995e3a679c1f9b14f217e097b365cbe96392323cf2e603d9926d8579f6d60f7ee17ccf370b3ed84ab574de3a027300f00"
 
 RPROVIDES:${PN} += "gtkd-devel \
 pkgconfig-gstreamerd-3 \

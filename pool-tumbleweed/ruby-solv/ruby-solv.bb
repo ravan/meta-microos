@@ -2,20 +2,21 @@ SUMMARY = "Ruby bindings for the libsolv library"
 DESCRIPTION = "Ruby bindings for libsolv."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.24"
+PV = "0.7.39"
 
-RPM_NAME = "ruby-solv-0.7.24-1.4.aarch64.rpm"
-RPM_HASH = "2a3e16ebc4edfb7588908984535f6b54a345b6baa00cf7822e9bcc5c8554d9243ac208a046c573c4f0a17e16ab9a0d9f6aa34d54113371ebc850c0edea707657"
+RPM_NAME = "ruby-solv-0.7.39-1.4.aarch64.rpm"
+RPM_HASH = "9aa2f42df08503265a3a9952205cdc5fb8e6ed43fe9ec9c816c0e3fe5fbd1afbe830f36ca14d8c6d1a9e09cc41046fa489a0a8c1edef41487d8085c69306c40f"
 
-RPROVIDES:${PN} += "ruby-solv"
+RPROVIDES:${PN} += "ruby-solv \
+ruby-solv-ruby-4.0.0"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
 liblzma.so.5 \
-librpm.so.9 \
-librpmio.so.9 \
-libxml2.so.2 \
+librpm.so.10 \
+librpmio.so.10 \
+libxml2.so.16 \
 libz.so.1 \
 libzstd.so.1"
 

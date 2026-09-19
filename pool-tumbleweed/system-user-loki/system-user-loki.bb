@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "system-user-loki-1.0.0-1.8.noarch.rpm"
-RPM_HASH = "fa52e1fb3bdc42bfaf0853f2483273a86e034644b073d93b24f28a6ec40569df08398bd393bd02e67bd4458d405cb18808361652bcf1234c3fe0b9caff90895f"
+RPM_NAME = "system-user-loki-1.0.0-1.16.noarch.rpm"
+RPM_HASH = "e4d2fcb96ac1fd0903155140ae85087d9b0a5c36ef3f13d046f940e0035b68ff95df5b03b257a517f6322ac13e5e23a9bb5eefe522dc1d42d094ae8df6839cd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-loki \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-readablecv"
 DESCRIPTION = "This package includes the documentation for texlive-readablecv"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn61719"
+PV = "2026.226.4.0svn76790"
 
-RPM_NAME = "texlive-readablecv-doc-2023.209.3.0svn61719-54.2.noarch.rpm"
-RPM_HASH = "2e8613b30fb48fbd0438d64ecdeb18e9f880264ec5306e3633c12d17ae85b77fb53b5a9643ad066e88c99ad3244dd03c308edeb485fe261f26f541203da2c59c"
+RPM_NAME = "texlive-readablecv-doc-2026.226.4.0svn76790-60.4.noarch.rpm"
+RPM_HASH = "d46f131d5ea14e283c8080d80638a81f6a08ba53c8f4ec1b79368269dd2db1fcc73706bfe4e14a86c03f38af0ce97bde2ec90be6d8f83c3149ea2e220a98de5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-readablecv-doc"

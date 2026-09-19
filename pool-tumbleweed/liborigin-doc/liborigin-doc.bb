@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for liborigin"
 DESCRIPTION = "This package provides the documentation for liborigin."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2"
+PV = "3.0.3"
 
-RPM_NAME = "liborigin-doc-3.0.2-1.1.noarch.rpm"
-RPM_HASH = "a03de658ccd0f0481a9033c4e5894dbbab0d9c095347022ddb45854333eab11bf35fe52a89cc584c3ab12dd6a57208a757c06a00f96325f8ade086ef0ecd503d"
+RPM_NAME = "liborigin-doc-3.0.3-1.5.noarch.rpm"
+RPM_HASH = "98e98d611f7d824c1440b71c4a05ff734671e34ae455db669ab6522dd93f63becf4d119e38fcf6d0db80faae908028d319e044d3f1344eb838d85fdcad796578"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "liborigin-doc"

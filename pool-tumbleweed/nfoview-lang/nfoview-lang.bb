@@ -2,10 +2,10 @@ SUMMARY = "Translations for package nfoview"
 DESCRIPTION = "Provides translations for the 'nfoview' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.29"
+PV = "1.99"
 
-RPM_NAME = "nfoview-lang-1.29-1.3.noarch.rpm"
-RPM_HASH = "f38f74dad2576c77f66a5dde7feff4ee71590aaa0c3429f40a82a13913ac973054d1ddda48939400e013bcfbfb86840c7edca4021d827e366645fcdba2095c4e"
+RPM_NAME = "nfoview-lang-1.99-1.11.noarch.rpm"
+RPM_HASH = "656be09c2ec4e959dc9f7bf37e12fcfdf5357bed3c491b61877fbe960addedc6e8f63479b897fe3694df2ad9295f428dce90473a7d625980269d68264fc002ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nfoview-bg \
@@ -20,6 +20,7 @@ locale-nfoview-fr \
 locale-nfoview-he \
 locale-nfoview-hu \
 locale-nfoview-it \
+locale-nfoview-ka \
 locale-nfoview-nl \
 locale-nfoview-pl \
 locale-nfoview-pt-BR \

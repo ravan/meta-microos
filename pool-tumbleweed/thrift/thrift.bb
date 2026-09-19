@@ -6,10 +6,10 @@ Ruby, Perl, PHP, Objective C/Cocoa, Smalltalk, Erlang, Objective \
 Caml, and Haskell."
 LICENSE = "Apache-2.0"
 
-PV = "0.17.0"
+PV = "0.24.0"
 
-RPM_NAME = "thrift-0.17.0-1.10.aarch64.rpm"
-RPM_HASH = "784dce6509825a7772fda26e0be9ed4438f7286fcd585c4fa8f34cae4db0a0905d0c50e5e5034982febad290dbe85ea589c9dbfd4d420d8391c98967c4cd681b"
+RPM_NAME = "thrift-0.24.0-2.1.aarch64.rpm"
+RPM_HASH = "bca54364783639bd03a908c117cb3dbc5f8a2822957406fb1b633b21fde38258da758634628d56b14a5e93482db8dec4d8a536952c44fe5b81faec3b4b005f1f"
 
 RPROVIDES:${PN} += "thrift"
 

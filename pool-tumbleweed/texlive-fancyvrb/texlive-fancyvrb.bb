@@ -7,10 +7,10 @@ write and read files in verbatim mode; build 'example' \
 environments (showing both result and verbatim source)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.5asvn65585"
+PV = "2026.226.4.6svn77682"
 
-RPM_NAME = "texlive-fancyvrb-2023.209.4.5asvn65585-53.1.noarch.rpm"
-RPM_HASH = "80df9912a778b88cd610773c98241f8113ec0b0a8442d461df9ae75f26e5c02dbdc517b096698db22751eaa66692584e012ca1dff7aa4d0862cdfd7a3bd8febd"
+RPM_NAME = "texlive-fancyvrb-2026.226.4.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "60777734f26bb03421c73ac329a595f4dfaa6743557d7ee09a690f6dd2536866c7f6ecb2b065fe644c4cc84d0bed84a18e537f4f3a06c08a581b43ef4aae2382"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancyvrb-ex.sty \

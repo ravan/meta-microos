@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libmatemixer"
 DESCRIPTION = "Provides translations for the 'libmatemixer' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "libmatemixer-lang-1.26.0-1.8.noarch.rpm"
-RPM_HASH = "7698741020e8a3d54311431584ad3b56a6e2da68617bfce38b35393f9d39eeb2b23e5b6613ea74578d1d54504aae53ecac79864178c0de74d49074bdb72e44c9"
+RPM_NAME = "libmatemixer-lang-1.28.0-1.10.noarch.rpm"
+RPM_HASH = "10a4bedc0baabfd8b114d8e90c25749fcdbb7ca6f72a3b07300cf72197d5bcbdce3280791d25f99750e18858a8d0e9d3aa52e1e121ab24bbfe050d1465487b69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmatemixer-lang \

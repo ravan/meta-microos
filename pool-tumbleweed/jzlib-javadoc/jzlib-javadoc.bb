@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.3"
 
-RPM_NAME = "jzlib-javadoc-1.1.3-5.7.noarch.rpm"
-RPM_HASH = "53ba4f4af51654ee4969593b99258a050a1fbc40c04aa5b2c84613f811383f3df54e0ccdcfcb9c1f3c0e06de446e3de0b3f3e7dbad74f3abe1e701d7786c5a8f"
+RPM_NAME = "jzlib-javadoc-1.1.3-6.9.noarch.rpm"
+RPM_HASH = "68f1c282868e182041328ce9c67e52a034a161d905d1798cd5a895fd6da8ad22d35eed9c8e3d6463f4038023cabd066e02b0c1c96b29ee8608190db62c3664c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jzlib-javadoc"

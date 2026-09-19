@@ -5,10 +5,10 @@ shell operations. The look and feel of the package output \
 imitates the look of a shell prompt."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1bsvn41991"
+PV = "2026.226.2.1bsvn41991"
 
-RPM_NAME = "texlive-shdoc-2023.209.2.1bsvn41991-54.1.noarch.rpm"
-RPM_HASH = "78e79d11713d653f56a402983c7b339dc737272d842759b4c4b138bf46808b67a9b4b51d6f04039d6db1285da1cd07052df1d9ebaebc35838ebfe27c93c47a7f"
+RPM_NAME = "texlive-shdoc-2026.226.2.1bsvn41991-60.2.noarch.rpm"
+RPM_HASH = "9704d5234f4d9b67332d56e7d4e0b9fd1793f0a3ed43d4dbc9f9f73f767481cea773aaa0dd009c286fa27552c0974f143684bbe64521590b71a0166e6772c2c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-shdoc.sty \

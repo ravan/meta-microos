@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bizcard"
 DESCRIPTION = "This package includes the documentation for texlive-bizcard"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-bizcard-doc-2023.209.1.1svn15878-53.1.noarch.rpm"
-RPM_HASH = "cf935d982e5f073403efb1ecc58251884909082737e5cca98eb91ada2339308ed95cc3e2e54c7025594633baf3305ba8544edf5dee6af9362a0a1b10eaa6ceca"
+RPM_NAME = "texlive-bizcard-doc-2026.226.1.1svn15878-59.2.noarch.rpm"
+RPM_HASH = "f58bb74159a0ed4311402c6f5f01ffcacdd04a46996711176f6ccf3304d1b01057ab4f743b90f7970f8ad9762281ef06ad85f871072c3c5637315768e6df5e39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bizcard-doc"

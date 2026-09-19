@@ -2,10 +2,10 @@ SUMMARY = "Open Virtual Network support for Open vSwitch"
 DESCRIPTION = "This subpackage contains the OVN database and northbound daemon."
 LICENSE = "Apache-2.0"
 
-PV = "23.03.0"
+PV = "26.03.2"
 
-RPM_NAME = "ovn-central-23.03.0-15.1.aarch64.rpm"
-RPM_HASH = "f8d97d25a616c9ba04c8c28fc255f9bd184d4c544f156f866bb5ab7c89a4880caf4e0c2e144ddaddca1c363c6ad7c0538c3de8536273c9340af0eddcfba6bb6e"
+RPM_NAME = "ovn-central-26.03.2-37.1.aarch64.rpm"
+RPM_HASH = "0a7cd2a9b18c0049c05b774d61424a2910c48001d6d472a25516a73c0affaf779151dabd86dec86f07f2f51613b546206c355a87f3a6a0e1d19d84ddc0870993"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-ovn-/usr/bin/ovn-northd \
 openvswitch-ovn-/usr/bin/ovn-northd \
@@ -15,8 +15,8 @@ ovn-central"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libopenvswitch-3.1.so.0 \
-libovn-23.03.so.0 \
+libopenvswitch-3.7.so.0 \
+libovn-26.03.so.0 \
 openvswitch \
 ovn"
 

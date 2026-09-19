@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed for developing application
 xfconf."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "libxfconf-devel-4.18.1-1.1.aarch64.rpm"
-RPM_HASH = "ddc0de6fb557585ee42ebd5ed8adf809c3ef2f9b5bf6345a951f92c2e7304473a44d33b9b003a6bfe9f17fd6db94f6bdc7a70090d6edf6d762b26fdd1d619a90"
+RPM_NAME = "libxfconf-devel-4.20.0-1.9.aarch64.rpm"
+RPM_HASH = "423fc4464dca57f5e3c9c8dd6bf1c5e56233b8b444935853444b70192785db8ee40b67fd6e374e720fc594c8a1c698d3d1f015e0301ffdce16542fff98390ba1"
 
 RPROVIDES:${PN} += "libxfce4mcs-devel \
 libxfconf-devel \

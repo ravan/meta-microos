@@ -6,10 +6,10 @@ figures are interactive. A variety of interactive widgets are \
 included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.90svn63957"
+PV = "2026.226.0.0.90svn76924"
 
-RPM_NAME = "texlive-figput-2023.209.0.0.90svn63957-53.1.noarch.rpm"
-RPM_HASH = "1f681d7226dbbdfac091e40971aa6e21d26ec5e9a2af63ed1b2a3e760029a601c96cbd2a0620a5ece4700c6c7a8bda5275523e5e6e653e8b8d0ab091451c1788"
+RPM_NAME = "texlive-figput-2026.226.0.0.90svn76924-59.2.noarch.rpm"
+RPM_HASH = "26e8faca684a4147576936c148eb692667ad48ca911df3cb4f5ef48cdce29fc250c6a92a1512863245ce4dd90e5758b4de30d9825e973ae3a774d3d11c3fe503"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figput.sty \

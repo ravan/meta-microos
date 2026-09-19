@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tocbibind"
 DESCRIPTION = "This package includes the documentation for texlive-tocbibind"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5ksvn20085"
+PV = "2026.226.1.5ksvn77682"
 
-RPM_NAME = "texlive-tocbibind-doc-2023.209.1.5ksvn20085-53.1.noarch.rpm"
-RPM_HASH = "a2d55fb95f7eece73fe78670a390f17415c018a630f0b1780fdb77bbd291eb39f969b1cb189357647adeec69b0f05eac6e005e73cb7cd6318ad8ec84ebdaeefc"
+RPM_NAME = "texlive-tocbibind-doc-2026.226.1.5ksvn77682-59.2.noarch.rpm"
+RPM_HASH = "4b9b551309aba27ccbef2d67057d6890b420aa02c86560d6d47cd6b914fca36c2c6dff80a182b91b4f51435ceb671195b1c0daf1dd39e19700b9a671f8affff9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tocbibind-doc"

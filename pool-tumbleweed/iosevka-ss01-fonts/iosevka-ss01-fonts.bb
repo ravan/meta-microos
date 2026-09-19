@@ -6,10 +6,10 @@ preparing technical documents. \
 This package contains the Iosevka SS01 typeface (monospace, Andale Mono style)."
 LICENSE = "OFL-1.1"
 
-PV = "26.1.0"
+PV = "34.8.1"
 
-RPM_NAME = "iosevka-ss01-fonts-26.1.0-1.1.noarch.rpm"
-RPM_HASH = "841a80620ce597d606f90067dafe4ca058d4ed39f58dda2155999e6f71ad6b442509db069b185e10173c080cfb421c575e46505b97acf276bd1c22af1a66a593"
+RPM_NAME = "iosevka-ss01-fonts-34.8.1-1.1.noarch.rpm"
+RPM_HASH = "11c81c0ab8ed5ecafe2321a4b2e0bd91fc08a8f0f0915008243e8620f78f8583653c5ff77283893c9209a72065cbd66ea0d0dcebc269fd7b0835d62ba5715092"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "iosevka-ss01-fonts"

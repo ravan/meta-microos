@@ -5,10 +5,10 @@ package and CJKnumb is that the commands provided are \
 expandable in the 'proper' way."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn66115"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-zhnumber-2023.209.3.0svn66115-53.2.noarch.rpm"
-RPM_HASH = "e09dd34fbd411d954475b4021cce4ef809e5e65847e07fea43528dee377e9cec29d043524abe27db7669b20e2945c0ee8caa8ba0d3806ce7330da0f1e9177c3b"
+RPM_NAME = "texlive-zhnumber-2026.226.3.0svn77682-59.4.noarch.rpm"
+RPM_HASH = "fd36314678c2c9c15a20e8560c47cbd8722d403c179b395b78ee58925254d45b83b78dd5a148d74fc0e8abb736e302a0b107c0cc707d673fca9f99a6e8c2aa78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zhnumber-big5.cfg \

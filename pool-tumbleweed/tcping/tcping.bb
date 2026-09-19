@@ -24,13 +24,13 @@ would be illustrative enough. \
  * An alternative to ping in environments that ICMP is blocked."
 LICENSE = "MIT"
 
-PV = "2.0.0"
+PV = "2.8.0"
 
-RPM_NAME = "tcping-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "43157f114ff2316a2edf9a6c2b62ecaec36516f5f8247cfe3af5431b6c29fb66f15e80fc5a317725b9913333770d67ffc071d6d1f59341557e04165d7917d8dc"
+RPM_NAME = "tcping-2.8.0-1.4.aarch64.rpm"
+RPM_HASH = "03656d015a6fe8eb4dd0b49d2f65cd51044c576589a840eba6246dcc6619dff4596fa44b48dc474f09f6d0a7479570dc9a8d81709f4e537f21a71a05bee8ab08"
 
 RPROVIDES:${PN} += "tcping"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

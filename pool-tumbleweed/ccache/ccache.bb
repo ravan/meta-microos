@@ -5,19 +5,23 @@ being done again. Supported languages are C, C++, Objective-C and \
 Objective-C++."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.8.2"
+PV = "4.14"
 
-RPM_NAME = "ccache-4.8.2-1.1.aarch64.rpm"
-RPM_HASH = "d72ce276ccf0dd9b74e2faf72a24e6c9e5377be305178e92838629e7e6482e523dfd77cb26c315ab56d8ac176ab333e087b82acdea813beb84e9f557680f3650"
+RPM_NAME = "ccache-4.14-2.1.aarch64.rpm"
+RPM_HASH = "da19f03230f034443a149f34bd1e13e6a2688ad09406d657ece348116276aa3150842bf9087e4cf9c3e997c635ff94ee03f306ed1a46f4674e03ebb07f9b3354"
 
 RPROVIDES:${PN} += "ccache \
 distcc-/usr/bin/ccache"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libcpp-httplib.so.0.49 \
+libfmt.so.12 \
 libgcc-s.so.1 \
+libhiredis.so.1.3.0 \
 libm.so.6 \
 libstdc++.so.6 \
+libxxhash.so.0 \
 libzstd.so.1"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.4.1"
 
-RPM_NAME = "dkimproxy-1.4.1-15.7.noarch.rpm"
-RPM_HASH = "17032289e0f8efe8b854622b167b49e59bebdf8971abdd82f6d30f08288076d0c8df49d77dc3bc93a22bbf31022f6afcfe85a8ecf41bf5e7d3f10502353d1d5f"
+RPM_NAME = "dkimproxy-1.4.1-21.7.noarch.rpm"
+RPM_HASH = "1a34ca10fafd5ed456a451c68862876d904a3e5a29eab351968b737c1adf6f3e7c8edefe4e5447aca1ad7d818896816a559e7bb5840dcc56da7913d8d687e408"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dkimproxy \
@@ -26,7 +26,6 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
 git-core \
-perl-IO--Socket--INET6 \
 perl-Mail-DKIM \
 perl-Net-Server \
 pwdutils"

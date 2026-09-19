@@ -6,10 +6,10 @@ symbol, text content, or custom macros as the section break \
 mark symbol."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1dsvn50339"
+PV = "2026.226.0.0.1dsvn77682"
 
-RPM_NAME = "texlive-sectionbreak-2023.209.0.0.1dsvn50339-54.1.noarch.rpm"
-RPM_HASH = "aea6df3627b3d5a77aa17056adfbc29b8b128a2e74254bee19cf421a6b9d780b449a5849e8aeb5e0a4eb1288e67fbdbcafe2ae1c196103982c165a18863c05c5"
+RPM_NAME = "texlive-sectionbreak-2026.226.0.0.1dsvn77682-60.2.noarch.rpm"
+RPM_HASH = "a4e29efc566bc58844550ebb0ef1f4cd96b9b59d81ee9bcf0658e4672d6476c3113d02402401d98f284064415c075ab33c816f3011866cddace83c8e202e95f3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sectionbreak.sty \

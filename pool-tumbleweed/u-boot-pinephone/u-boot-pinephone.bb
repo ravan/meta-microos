@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains the firmware for the pinephone platform."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-pinephone-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "67a62e024871c0bea2233248f615f8d2a447cd9bc5da36cac97139593943cab16d15bee98cd9857fa74c3cbabccdfdf3a8f59152ef91a98302c6c0b7f8fcc7df"
+RPM_NAME = "u-boot-pinephone-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "c810b3b20d55cb94f4da243df19b9d5a0c84a4821535bcaefbee78610b3541df983b098533a92809801203f521c221f2f004eda7a0587f26d4383a1622bbc1ec"
 
 RPROVIDES:${PN} += "u-boot-loader \
 u-boot-pinephone"

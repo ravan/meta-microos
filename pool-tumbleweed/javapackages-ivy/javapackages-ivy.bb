@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains files needed by local mode fow Apache Ivy, 
 allows artifact resolution using XMvn resolver."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.2.0"
+PV = "6.5.1"
 
-RPM_NAME = "javapackages-ivy-6.2.0-2.1.noarch.rpm"
-RPM_HASH = "a85e69ba4da25ed2fe030f42872a4fbe70ece2fd43cdef2cba03f475f955085b066d7d86732650dba4bfcaeb8e189e8301e20a470b4d2f39c7cf3c88cf759a59"
+RPM_NAME = "javapackages-ivy-6.5.1-3.2.noarch.rpm"
+RPM_HASH = "a2c958722f4c9a75e213645d471e52b332c6b772d828075a73f866ead990b9e4a7618ed438b280a9d2c64a11143297fe01a2b21c34605f0578dbd76ef786b42f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javapackages-ivy"

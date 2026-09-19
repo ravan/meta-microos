@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0"
 
 PV = "0.1"
 
-RPM_NAME = "udev-persistent-ifnames-0.1-2.16.noarch.rpm"
-RPM_HASH = "bc0e1cc0a724216575bf8e7e574f49a8ba5cbc61339b3f7f7fc3c703f0d7734747c522f3f9ab2f7ebaa2e31d67fbbf23923c9a3cfef388f2741b56c9f8f5c801"
+RPM_NAME = "udev-persistent-ifnames-0.1-2.24.noarch.rpm"
+RPM_HASH = "7340209daeff2d0bdb49105a6151636e6fb62887910db8a931239468700b47d334bc84de29fc0f5991a1f130e5131a08898683d74ad3d296d464788c22683c11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "udev-persistent-ifnames"

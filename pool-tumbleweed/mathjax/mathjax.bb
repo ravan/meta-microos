@@ -5,19 +5,23 @@ setup on the part of the user (no plugins to download or software to \
 install), so the page author can write web documents that include \
 mathematics and be confident that users will be able to view it \
 naturally and easily. Supports LaTeX, MathML, and AsciiMath notation \
-in HTML pages."
+in HTML pages. \
+ \
+ \
+License:        Apache-2.0"
 LICENSE = "Apache-2.0"
 
-PV = "2.6.0"
+PV = "3.2.2"
 
-RPM_NAME = "mathjax-2.6.0-3.6.noarch.rpm"
-RPM_HASH = "57cae95c890a27d507158b6ce427756aad3f04264aaacc179ba9c8347697aafccb2903c5c5afd0b92d4fb4e99676b19f873da811e86c359dbcdd47079990d81d"
+RPM_NAME = "mathjax-3.2.2-1.6.noarch.rpm"
+RPM_HASH = "9250e2090236ac6653ad760add02abadd067377d233ce9298bde15f12b88f14454bbbbfb9a03cd7f1c9007c0e682beea2a10bdf591c97af8bba8c4636c930613"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "mathjax"
+RPROVIDES:${PN} += "mathjax \
+npm-mathjax"
 
 RDEPENDS:${PN} += "mathjax-ams-fonts \
-mathjax-caligraphic-fonts \
+mathjax-calligraphic-fonts \
 mathjax-fraktur-fonts \
 mathjax-main-fonts \
 mathjax-math-fonts \
@@ -28,7 +32,7 @@ mathjax-size2-fonts \
 mathjax-size3-fonts \
 mathjax-size4-fonts \
 mathjax-typewriter-fonts \
-mathjax-winchrome-fonts \
-mathjax-winie6-fonts"
+mathjax-vector-fonts \
+mathjax-zero-fonts"
 
 inherit rpm

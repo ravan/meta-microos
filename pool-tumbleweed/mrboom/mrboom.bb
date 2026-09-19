@@ -3,10 +3,10 @@ DESCRIPTION = "This is an SDL2 version of the original 1999 version of Mr. Boom.
 The goal of the game is to bomb away enemies and other players."
 LICENSE = "MIT"
 
-PV = "4.9"
+PV = "5.5"
 
-RPM_NAME = "mrboom-4.9-1.16.aarch64.rpm"
-RPM_HASH = "ff8b7f6025dd51fc39015525c65a595c3d3fa47be47d9f3f0d8d775c259dfe34d31c6513211375cf10089b0fbbc2c689d1a01170732335267d87b78e9fbfe2c4"
+RPM_NAME = "mrboom-5.5-1.9.aarch64.rpm"
+RPM_HASH = "d4726161093f6c5e3e8853d62e825076c0c3304455d1a1e4bb609d6ed3aa31f4f469058dba0871e83a6e8654a7f67dfebc06ced9e5d17428ee73219a90f31d40"
 
 RPROVIDES:${PN} += "mrboom"
 

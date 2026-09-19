@@ -5,17 +5,16 @@ DESCRIPTION = "This framework contains two main components: \
 Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kwallet-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "25091cc1a151745ca0fb2f0360837692533d6894340515108eb392dbc8fa16f534d311170179aedefe1f20c286346f178f1e2c82d8d6ebb0a2cb93a30faf6763"
+RPM_NAME = "kwallet-devel-5.116.0-2.9.aarch64.rpm"
+RPM_HASH = "aff20eb276cd79c4501a378fb74c9c72a82706bff18ee4630b549da1b96140b3e5698b9e7d4cd71bebb65b0aad3f95c3a0d2508d9148217e74594f73a58e4cd7"
 
 RPROVIDES:${PN} += "cmake-KF5Wallet \
 kwallet-devel \
 kwallet-framework-devel"
 
 RDEPENDS:${PN} += "cmake-Qt5Gui \
-extra-cmake-modules \
 libKF5Wallet5 \
 libkwalletbackend5-5"
 

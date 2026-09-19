@@ -6,10 +6,10 @@ that is commonly needed by many applications. \
 Part of the Enthought Tool Suite (ETS)."
 LICENSE = "BSD-3-Clause & LGPL-2.1-only & LGPL-3.0-only"
 
-PV = "5.2.0"
+PV = "5.2.1"
 
-RPM_NAME = "python311-apptools-5.2.0-1.5.noarch.rpm"
-RPM_HASH = "983a72861687c30ff13eaa959b0e607c00730b302eccb297889b0daaaa7bc6e7b8199b11d502049620189d838285ac236b12d70f9895c3a62237e1be11a90879"
+RPM_NAME = "python311-apptools-5.2.1-1.2.noarch.rpm"
+RPM_HASH = "f9fa5b106a8dcd0710883353aa2b252f1d6f3e4734d93a298a2a2bc3029ab8baae6c343693c719de58296d6522159b15ed36e64edbbf9bd158b39e57cab6c6bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-apptools \

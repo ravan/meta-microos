@@ -12,16 +12,17 @@ This package contains spd-conf, a configuration tool for Speech \
 Dispatcher."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.5"
+PV = "0.12.1"
 
-RPM_NAME = "speech-dispatcher-configure-0.11.5-1.1.aarch64.rpm"
-RPM_HASH = "5d744c947b88b232eb1cb7c17954f75a50747c433750f66b6ac5e6fa6eff32c8721237cfa07cc329744c1b093ac6b8f86959046ad263fe4e77688f13a47fdcb2"
+RPM_NAME = "speech-dispatcher-configure-0.12.1-1.6.aarch64.rpm"
+RPM_HASH = "12c8b4e7bcb36c5e63eb64e93482f6ba8b3747c8f934fe7d7f0c0712fe58807b3972f1b50a8c7285813d168656d5619fb90ef1df4de5a7eae5cd8ef6d68b154c"
 
 RPROVIDES:${PN} += "speech-dispatcher-configure"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-pyxdg \
+python313-pyxdg \
+python313-speechd \
 speech-dispatcher"
 
 inherit rpm

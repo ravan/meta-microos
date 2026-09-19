@@ -4,10 +4,10 @@ SIL International from Bitstream Charter in TrueType format, \
 with support for LaTeX, pdfLaTeX, XeLaTeX and LuaLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.6.101svn64998"
+PV = "2026.226.6.101svn64998"
 
-RPM_NAME = "texlive-charissil-2023.209.6.101svn64998-54.1.noarch.rpm"
-RPM_HASH = "8b6272899012f54de9d55e10ab7f367481ee57ff3849962109a1ba9e5e4245fa67ed1886928c38ed9756ed390098c092f1c851ff60be570888c7059854bd4e58"
+RPM_NAME = "texlive-charissil-2026.226.6.101svn64998-60.2.noarch.rpm"
+RPM_HASH = "8e862d3d9b15819f3ecc5778e92fec1fbaffdb0c7605807f5a347b879b496f27980d84f80dd38db6b57354d4a4849d1f4a27cb73e356bfbc42a56410701f5403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CharisSIL.sty \

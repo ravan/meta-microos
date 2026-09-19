@@ -7,17 +7,19 @@ form of document that does not conform to the standard one or \
 two column layout."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.17svn35291"
+PV = "2026.226.2.1svn78101"
 
-RPM_NAME = "texlive-flowfram-2023.209.1.17svn35291-53.1.noarch.rpm"
-RPM_HASH = "fb9de2f4f75eaab81920cfafcdd9bcef14a1918743e115350ad4e37f2b22249d5f7eda5ff912c143b00d108138e285c9b5713c7f8e952c8f50b8ba0d5139733e"
+RPM_NAME = "texlive-flowfram-2026.226.2.1svn78101-60.2.noarch.rpm"
+RPM_HASH = "afb1923c5ea7fe56e4489a09b8a4cc0208126413027869389f2a7a389d8b5dc7615832f872e7d5e46ca3a54927e768c07a8008ba761384cdcf4bb0752643cfff"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-flowfram.sty \
+RPROVIDES:${PN} += "tex-flowfram-2014-09-30.sty \
+tex-flowfram-2025-08-23.sty \
+tex-flowfram.sty \
+tex-flowframtkutils.sty \
 texlive-flowfram"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
 ed \
 findutils \
@@ -27,7 +29,12 @@ tex-afterpage.sty \
 tex-color.sty \
 tex-etoolbox.sty \
 tex-graphics.sty \
+tex-graphicx.sty \
 tex-ifthen.sty \
+tex-luatex85.sty \
+tex-pgf.sty \
+tex-pst-char.sty \
+tex-rerunfilecheck.sty \
 tex-xfor.sty \
 tex-xkeyval.sty \
 texlive \

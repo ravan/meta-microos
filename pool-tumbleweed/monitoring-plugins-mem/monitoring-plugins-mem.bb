@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "20120618"
 
-RPM_NAME = "monitoring-plugins-mem-20120618-102.10.noarch.rpm"
-RPM_HASH = "5f46d34676c797ebad7dd9f0cba0f8c513100b25742926b5e72beab969fde1af78a3c4211a5cf1f92d9a78697d1a773a0aa236097ad49df8c7f09038c994c30d"
+RPM_NAME = "monitoring-plugins-mem-20120618-103.7.noarch.rpm"
+RPM_HASH = "3d7f32dc625378bc6326399f7fa4b10e7cb89267408e39fdccfe209254b9c79f350acb229f1a1e3885c1b7858a335ff24e73444438f005799d96da2976761b5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-mem \

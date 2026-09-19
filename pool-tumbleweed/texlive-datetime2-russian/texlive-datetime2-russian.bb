@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn49345"
+PV = "2026.226.1.1svn49345"
 
-RPM_NAME = "texlive-datetime2-russian-2023.209.1.1svn49345-53.1.noarch.rpm"
-RPM_HASH = "03682740ddfb990ccf7a1dfd3698801c8df02c6c36ee21be1a99c212492978f30a4e6c5c229fe54116e4cf97682e36ce0307fc339c6e0d9f12d00577396002fe"
+RPM_NAME = "texlive-datetime2-russian-2026.226.1.1svn49345-59.2.noarch.rpm"
+RPM_HASH = "47c11e51d71d4c4bd741f9cddbe916f14930ce3d08f15a25cc13c4997a221feac69d4053ef50c3fa98e05597841cd6e78a010328ad0a55ef28187b2cf1e57e4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-russian-ascii.ldf \

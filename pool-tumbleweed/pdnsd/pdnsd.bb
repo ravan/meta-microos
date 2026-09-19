@@ -11,14 +11,16 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.9a"
 
-RPM_NAME = "pdnsd-1.2.9a-10.9.aarch64.rpm"
-RPM_HASH = "e574e5621645c4e2437c2786670c2286d465f59566db618c7eb019078f3729ae81dce927105135ac438409ce4788210f37943b777a92556f6c2d01e1799403ad"
+RPM_NAME = "pdnsd-1.2.9a-12.12.aarch64.rpm"
+RPM_HASH = "3d151cfea516827f819789832fa73744cfb6b777e298cf330eb21ce9649111528645d2145e9bc1cf08d2b2d678b13c760a01fb0f6c0ba7da6ca7f2ce776c2cc4"
 
 RPROVIDES:${PN} += "config-pdnsd \
 pdnsd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-pdns \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+user-pdns"
 
 inherit rpm

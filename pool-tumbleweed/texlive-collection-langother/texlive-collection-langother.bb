@@ -6,13 +6,15 @@ of the support, to keep both collection sizes and the number of \
 collections reasonable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn59564"
+PV = "2026.222.svn74620"
 
-RPM_NAME = "texlive-collection-langother-2023.208.svn59564-60.1.noarch.rpm"
-RPM_HASH = "007b8b6bc01fd6b2f015155b5e6e95e60ad247f677ab3087d935d45bd7ecdc5047a199661b77bdeefd00b514528b36e6542b4dc4b52c564fc2c901210b134310"
+RPM_NAME = "texlive-collection-langother-2026.222.svn74620-68.2.noarch.rpm"
+RPM_HASH = "0fc7db541b8b166d7900a9812ff7eda2edf38b683378a2f08932829b1f0e7eb1109845d72ee1ff81d88bf5d6bab5ae20549b0872f2d24bc314f6253a1363eb98"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langother"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+texlive-collection-langother"
 
 RDEPENDS:${PN} += "texlive-aalok \
 texlive-akshar \
@@ -36,10 +38,12 @@ texlive-chhaya \
 texlive-cjhebrew \
 texlive-collection-basic \
 texlive-ctib \
+texlive-culmus \
 texlive-ethiop \
 texlive-ethiop-t1 \
 texlive-fc \
 texlive-fonts-tlwg \
+texlive-hebrew-fonts \
 texlive-hindawi-latex-template \
 texlive-hyphen-afrikaans \
 texlive-hyphen-armenian \
@@ -47,12 +51,14 @@ texlive-hyphen-coptic \
 texlive-hyphen-esperanto \
 texlive-hyphen-ethiopic \
 texlive-hyphen-georgian \
+texlive-hyphen-hebrew \
 texlive-hyphen-indic \
 texlive-hyphen-indonesian \
 texlive-hyphen-interlingua \
 texlive-hyphen-sanskrit \
 texlive-hyphen-thai \
 texlive-hyphen-turkmen \
+texlive-hyphen-vietnamese \
 texlive-latex-mr \
 texlive-latexbangla \
 texlive-latino-sine-flexione \
@@ -60,13 +66,14 @@ texlive-lshort-thai \
 texlive-lshort-vietnamese \
 texlive-marathi \
 texlive-ntheorem-vn \
-texlive-padauk \
 texlive-quran-bn \
+texlive-quran-id \
 texlive-quran-ur \
 texlive-sanskrit \
 texlive-sanskrit-t1 \
 texlive-thaienum \
 texlive-thaispec \
+texlive-tuzuk \
 texlive-unicode-alphabets \
 texlive-velthuis \
 texlive-vntex \

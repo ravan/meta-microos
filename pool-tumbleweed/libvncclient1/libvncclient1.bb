@@ -3,10 +3,10 @@ DESCRIPTION = "LibVNCServer/LibVNCClient are cross-platform C libraries that all
 implementing VNC server or client functionality in your program."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.9.14"
+PV = "0.9.15"
 
-RPM_NAME = "libvncclient1-0.9.14-1.1.aarch64.rpm"
-RPM_HASH = "68e8baf4f485939dc0dc95409d11adc2fe3288f903c16bbb898c8bb843ead091326390c37699916dea94e2b3e1c8962862c2b1779dd39ee0bdb9ff1c1a80f66a"
+RPM_NAME = "libvncclient1-0.9.15-4.1.aarch64.rpm"
+RPM_HASH = "07fb205e34184f9220010519b85746e69d7cac28df7d0ff27facca79e8cb54537aeef2bb89e89f8b35e2472222bed89cc87246136a6d13e86ff4e79b8875068a"
 
 RPROVIDES:${PN} += "libvncclient.so.1 \
 libvncclient1"

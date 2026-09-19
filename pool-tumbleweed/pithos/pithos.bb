@@ -4,10 +4,10 @@ lightweight than the Pandora.com web client, and integrates with desktop \
 features such as media keys, notifications, and the sound menu."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.6.0"
+PV = "1.6.2"
 
-RPM_NAME = "pithos-1.6.0-1.3.noarch.rpm"
-RPM_HASH = "cf122e1303929f4fe0493044b8d63bc11c0eacd3dfd776d8b04d08e64ab94f2e1bc4a8da4e1bbaa4ae760629514e9949f1d0fe1f202eb35144acd2b08f026f1b"
+RPM_NAME = "pithos-1.6.2-1.1.noarch.rpm"
+RPM_HASH = "e03021838b88f2d2b8562c059fc3f1b8021f17be60772430f2506af9a1af7e405b7b489e320cd3032c11dbda3f331ce027166e21705ff8be52144803eb75392a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pithos"

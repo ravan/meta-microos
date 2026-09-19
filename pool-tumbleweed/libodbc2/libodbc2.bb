@@ -3,10 +3,10 @@ DESCRIPTION = "ODBC is an API that abstracts the access to different database \
 management systems."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.3.12"
+PV = "2.3.14"
 
-RPM_NAME = "libodbc2-2.3.12-1.1.aarch64.rpm"
-RPM_HASH = "892f78dca7e896f8178a7b4bef6f07636d1da503b79dd40854cf97a14d91cecf545090f9ec451f87dc4ecc74d53f6e2b358d2bb8a65235c3eb3562a427242470"
+RPM_NAME = "libodbc2-2.3.14-1.7.aarch64.rpm"
+RPM_HASH = "c18f321d744b8fa8068820435b60f78521d44c0863641c908b0bac536d0d6a88fce10f5fdb9c95a8379d33b87b1a6d552bc0242b29cb9f713701b4fc4cacafa4"
 
 RPROVIDES:${PN} += "libodbc.so.2 \
 libodbc2 \

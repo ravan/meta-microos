@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xecolor"
 DESCRIPTION = "This package includes the documentation for texlive-xecolor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn29660"
+PV = "2026.226.0.0.1svn77682"
 
-RPM_NAME = "texlive-xecolor-doc-2023.209.0.0.1svn29660-53.2.noarch.rpm"
-RPM_HASH = "ae3bcb9dc94d9809f73e89f4ae676211e2bf454bc08d9713c9c3eaa23f6b1e9a52f2e2169892f0132b4208b54307a5295c909d22c9cf48708462d1c453f2b52e"
+RPM_NAME = "texlive-xecolor-doc-2026.226.0.0.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "1db10ce15dce7b65d1bd31dc0e2bb6ed3f9f7caf14bbe3fdd292ed2378a6fe3686908f9033f1a82a7796383de745925067c3ac80a2ef301ac30cecd350e5c593"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xecolor-doc"

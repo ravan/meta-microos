@@ -6,10 +6,10 @@ matching GNU getopt or POSIX mode.) \
 It requires and makes use of C++11 <regex>."
 LICENSE = "MIT"
 
-PV = "3.1.1"
+PV = "3.3.1"
 
-RPM_NAME = "cxxopts-devel-3.1.1-1.1.aarch64.rpm"
-RPM_HASH = "d4f9f00c223819fd3a31e5b6fee1150bcd71973479e5c130599bbcccf889dfe3a3c6b3f7aaeeb22bee3d63743c1d29b42ac7700e96b14ea5112087e2128cf6f5"
+RPM_NAME = "cxxopts-devel-3.3.1-1.5.aarch64.rpm"
+RPM_HASH = "2430f97aff6ec7a146e138ab1c1014cacec7231691d883eac51a609b56b5a4a87e83003306acee17b159ec84f0e13db134d7fe414010cbf9ba3c93d05d1efb0a"
 
 RPROVIDES:${PN} += "cmake-cxxopts \
 cxxopts-devel \

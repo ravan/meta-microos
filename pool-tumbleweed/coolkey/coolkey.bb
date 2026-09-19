@@ -14,8 +14,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.1.0"
 
-RPM_NAME = "coolkey-1.1.0-152.6.aarch64.rpm"
-RPM_HASH = "2d7045cfd029cd6c982ad64728b2b2afc3aa2cd07407a3473d915482a1cad3dfd06bda51235394565ba26d8f4d948cc03cc44102e6a41092e6fef14517d1d3cc"
+RPM_NAME = "coolkey-1.1.0-154.8.aarch64.rpm"
+RPM_HASH = "2f5369ce64731655712583c3dbe1cc44414d954db081c5279e8f0c1a78cef3da171c013c549c30ceebbfc65d1d3a12674d686cc027207b86da4d989175aec427"
 
 RPROVIDES:${PN} += "coolkey \
 libckyapplet.so.1 \
@@ -28,6 +28,7 @@ libgcc-s.so.1 \
 libsoftokn3.so \
 libstdc++.so.6 \
 libz.so.1 \
-pcsc-ccid"
+pcsc-ccid \
+pcsc-lite"
 
 inherit rpm

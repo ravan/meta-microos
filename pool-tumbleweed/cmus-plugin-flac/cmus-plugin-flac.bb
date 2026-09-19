@@ -2,16 +2,16 @@ SUMMARY = "FLAC input plugin for the C* Music Player"
 DESCRIPTION = "This package provides FLAC input support for the C* Music Player."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.10.0"
+PV = "2.12.0"
 
-RPM_NAME = "cmus-plugin-flac-2.10.0-2.1.aarch64.rpm"
-RPM_HASH = "14e3727570467e08a6227985835bbcec76a1693d0f4d076b64e4e975b72870f7b9f73d339b04b498475c3a4628ed29fca48126c3f6ea15d09042853acc54f85d"
+RPM_NAME = "cmus-plugin-flac-2.12.0-3.6.aarch64.rpm"
+RPM_HASH = "9eb3006411d190ffea19d8715ac2ff4252bfdc54f96e121e2a83bfe6186f0ac39b91c2c196bf8c1c1223ed0b6d203f320caee4fbcc9a4b9f062fe523e32dec72"
 
 RPROVIDES:${PN} += "cmus-plugin-flac"
 
 RDEPENDS:${PN} += "cmus \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libc.so.6"
 
 inherit rpm

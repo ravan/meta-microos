@@ -5,8 +5,8 @@ LICENSE = "SUSE-Public-Domain & BSD-3-Clause"
 
 PV = "0.4.2"
 
-RPM_NAME = "efont-unicode-bitmap-fonts-0.4.2-228.10.noarch.rpm"
-RPM_HASH = "ebca0184de5613cf5722f556e6edf4f27848d3604d478eb59bae5943497c527cc9aa8b3df85a6710327462d67f2f5fb79c35a74b2b3ac0da9ef015dc88888121"
+RPM_NAME = "efont-unicode-bitmap-fonts-0.4.2-229.7.noarch.rpm"
+RPM_HASH = "4bb79c03df2595bdd2fd2159d45643c895f6d372eae678025ed57f2241d5e650bb94f65f459d5761fe978a948b76cc055d085ec45379c17470f13b20326aa8ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "efont-unicode \

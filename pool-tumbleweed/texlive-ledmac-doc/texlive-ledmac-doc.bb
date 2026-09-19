@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ledmac"
 DESCRIPTION = "This package includes the documentation for texlive-ledmac"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.19.4svn41811"
+PV = "2026.226.0.0.19.4svn41811"
 
-RPM_NAME = "texlive-ledmac-doc-2023.209.0.0.19.4svn41811-55.1.noarch.rpm"
-RPM_HASH = "4382c5883b7f57618afd2dd120ceaffee061aa53722e36a54d43b3d5bc4afcb6599f68b36bf3115a7deee8f954cc6ff352b350d3ae572ce664a704dc783a4d92"
+RPM_NAME = "texlive-ledmac-doc-2026.226.0.0.19.4svn41811-61.2.noarch.rpm"
+RPM_HASH = "50ad16c2705c03c3e7277ec3c611f4581eb38e227be1ee502c8ab4b3385f91ef31eeff7979a6066397b273b46d3d52d97a8d396262fe5e39ee93b9c84551c6be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ledmac-doc"

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Kabyle Translations"
 DESCRIPTION = "YaST2 - Translations for Kabyle."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-kab-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "145dc65367a984bab9cf4c3d47610e86c4ec8e4ab28a03a08898c096a35ff215078fe58d4c31c381437354fc3a5778ef9572bcbe02ae17e87fb5cdfa67bad52f"
+RPM_NAME = "yast2-trans-kab-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "e5b25c73408538a5d0b85abeab4d3ad95b7d23a5f3023c9f0160845f204e954c3a976597fcaa4bf75a6d45f97bc99710bdf944eebf044976f0b6d6a1f20da0c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-kab \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package fprintd"
 DESCRIPTION = "Provides translations for the 'fprintd' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.94.2"
+PV = "1.94.5"
 
-RPM_NAME = "fprintd-lang-1.94.2-2.5.noarch.rpm"
-RPM_HASH = "22bfc1e63e3a24cc84f7286c5338d8b4ae313eca4d3f5985db4fd129cd48fde349bcfe3419446e750ecdcdf18469837b461fdcd2ab0296d0c9060b67a481ac07"
+RPM_NAME = "fprintd-lang-1.94.5-1.4.noarch.rpm"
+RPM_HASH = "83e4a2506e3284364359d89c1b092ae538ba191a05e244e463e152ac7dc1409aa37f145e32db096c847ce73b7ce12394a1c719c6ae79aefc5ebf7667231d81d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fprintd-lang \

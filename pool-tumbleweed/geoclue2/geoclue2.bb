@@ -4,10 +4,10 @@ awareness in applications. GeoClue uses the D-Bus inter-process \
 communication mechanism to provide location information"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.7.0"
+PV = "2.8.2"
 
-RPM_NAME = "geoclue2-2.7.0-1.4.aarch64.rpm"
-RPM_HASH = "e5c2aaa44c5e030167ff7d578cdb0c1f0fef628a43f3695a6623168695819700088033bf9be2eb8cda28537b4daa05b160316089210c91f984332cfd0b6d76cb"
+RPM_NAME = "geoclue2-2.8.2-1.2.aarch64.rpm"
+RPM_HASH = "dce076356ca6834217b6801c0251747b95646abba085e8248a07fa86a426beb671ae1b42d3217a5402ff780a3ca0dc7e3dd03c4be75da85674d9bf678a055965"
 
 RPROVIDES:${PN} += "config-geoclue2 \
 dbus-org.freedesktop.GeoClue2 \

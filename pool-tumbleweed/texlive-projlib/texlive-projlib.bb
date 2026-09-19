@@ -1,4 +1,4 @@
-SUMMARY = "A series of tools to simplify your workflow"
+SUMMARY = "A collection of facilitative tools"
 DESCRIPTION = "ProjLib is a collection of tools to help you write LaTeX \
 documents. With the main package ProjLib loaded, you no longer \
 need to set up the theorem-like environments, nor to manually \
@@ -6,10 +6,10 @@ configure the appropriate multilingual settings. In addition, a \
 series of auxiliary functionalities are introduced."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-projlib-2023.209.svn65475-53.1.noarch.rpm"
-RPM_HASH = "69529396b89fe40f6ce342be52b87014025f8653ab50b0cfef46eed9282b78000d1781324d9c92a6e5f4b7687797e60f629de05a02cd777cd81a3c30bf78a3ea"
+RPM_NAME = "texlive-projlib-2026.226.svn78004-59.2.noarch.rpm"
+RPM_HASH = "c2a2520c54d1a99895590d314bebff81f38e39459811a5efaa1417f5266694f2161034653a10d04271570663a4e9a74731233070cf6a2dcb2393b7dcead66a89"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ProjLib.sty \
@@ -37,15 +37,19 @@ tex-amsthm.sty \
 tex-anyfontsize.sty \
 tex-babel.sty \
 tex-biolinum.sty \
+tex-cabin.sty \
 tex-cfr-lm.sty \
 tex-create-theorem.sty \
 tex-csquotes.sty \
 tex-ebgaramond-maths.sty \
 tex-ebgaramond.sty \
 tex-eulervm.sty \
+tex-fbb.sty \
 tex-fontenc.sty \
+tex-fontsetup.sty \
 tex-fontspec.sty \
 tex-lmodern.sty \
+tex-mathalfa.sty \
 tex-mathastext.sty \
 tex-mathpazo.sty \
 tex-mathrsfs.sty \
@@ -58,12 +62,14 @@ tex-notomath.sty \
 tex-regexpatch.sty \
 tex-relsize.sty \
 tex-scontents.sty \
-tex-setspace.sty \
+tex-setspaceenhanced.sty \
 tex-silence.sty \
+tex-textcomp.sty \
 tex-tikz.sty \
 tex-ulem.sty \
 tex-unicode-math.sty \
 tex-xcolor.sty \
+tex-zi4.sty \
 texlive \
 texlive-create-theorem \
 texlive-filesystem \

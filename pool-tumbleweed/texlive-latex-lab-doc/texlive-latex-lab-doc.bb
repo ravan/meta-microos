@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-latex-lab"
 DESCRIPTION = "This package includes the documentation for texlive-latex-lab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64892"
+PV = "2026.226.20251101asvn76739"
 
-RPM_NAME = "texlive-latex-lab-doc-2023.209.svn64892-56.1.noarch.rpm"
-RPM_HASH = "5e3210c2dafe236709fb06dbfc366c65e790ce89f05d2a429aaff78975d9c73cdf21633b0acc4c4ea5a282175229511f919dc5b5dc8656bb7ed93d7bab026bb7"
+RPM_NAME = "texlive-latex-lab-doc-2026.226.20251101asvn76739-63.2.noarch.rpm"
+RPM_HASH = "dab2b0e864d6de94604935dab7e9a94eef6026850c4e177b440e69c1029b2b51b17ec0e9c355e9971fd57949aba1b6b14d52a907dafbf3b87e092b47268c68a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex-lab-doc"

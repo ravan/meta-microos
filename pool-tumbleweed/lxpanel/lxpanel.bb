@@ -13,10 +13,10 @@ For example, 'lxpanelctl run' will show the Run dialog in lxpanel, and 'lxpanelc
 will show the application menu. This is useful in key bindings provided by window managers."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.1"
+PV = "0.11.1"
 
-RPM_NAME = "lxpanel-0.10.1-1.11.aarch64.rpm"
-RPM_HASH = "1c772aa134a37783dc4d6ec8b8013a75d5673f3d0d3a05d4c50ee1e35f6985aa3c5fe7d9d3f9303633f6223b3979aaf65cf7a15c62b511ddd02c42fae4ca800d"
+RPM_NAME = "lxpanel-0.11.1-1.4.aarch64.rpm"
+RPM_HASH = "2bab1ea9db458683ebc2822917cae7879676a9eb83f64bd819a52a8d758b7b176cdd886dbb6ddaea828295cbf3d36fef407ae277bc71cf6066a6afe3b7c98835"
 
 RPROVIDES:${PN} += "config-lxpanel \
 lxpanel \
@@ -28,21 +28,21 @@ libasound.so.2 \
 libc.so.6 \
 libcairo.so.2 \
 libcurl.so.4 \
-libfm-gtk.so.4 \
+libfm-gtk3.so.4 \
 libfm.so.4 \
+libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
+libgtk-3.so.0 \
 libiw.so.30 \
-libkeybinder.so.0 \
+libkeybinder-3.0.so.0 \
 liblxpanel.so.0 \
 libm.so.6 \
 libmenu-cache.so.3 \
-libwnck-1.so.22 \
-libxml2.so.2 \
+libwnck-3.so.0 \
+libxml2.so.16 \
 lxmenu-data \
 menu-cache"
 

@@ -6,10 +6,10 @@ This driver is meant to be used with the PCSC-Lite daemon from the \
 pcsc-lite package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.1.10"
+PV = "1.1.13"
 
-RPM_NAME = "pcsc-acsccid-1.1.10-1.1.aarch64.rpm"
-RPM_HASH = "94aa7526a35b8773fa4df265cf77457af30bbffe0139b36cc6f7d9b675f7780d629c0a8084cceef493e88adbc6b069ba09ce6e353cfc7a792f3c674fc8e5724c"
+RPM_NAME = "pcsc-acsccid-1.1.13-1.4.aarch64.rpm"
+RPM_HASH = "76765115e970c1b88fdce6209cc0bbcfa0739458772e7bf8fc6205b67fe431b87a5002859ac197de67fef8507b3e3c923fd26a893c5a7a4831ebfe674a61d46d"
 
 RPROVIDES:${PN} += "libacsccid.so \
 pcsc-acsccid"

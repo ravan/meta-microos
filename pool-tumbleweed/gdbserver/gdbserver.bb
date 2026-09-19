@@ -7,16 +7,17 @@ This package provides a program that allows you to run GDB on a different \
 machine than the one which is running the program being debugged."
 LICENSE = "GPL-3.0-only-with-GCC-exception-3.1 & GPL-3.0-or-later & LGPL-2.1-or-later & LGPL-3.0-or-later"
 
-PV = "13.2"
+PV = "16.3"
 
-RPM_NAME = "gdbserver-13.2-2.1.aarch64.rpm"
-RPM_HASH = "e51bdb51964c112ef467675005626c8544ee5ee58ca707cef0967648c570e7cff2cec410d4a5052a687e0f202fcd2a5c458766cb7de29832fd29e6b97079e02b"
+RPM_NAME = "gdbserver-16.3-7.4.aarch64.rpm"
+RPM_HASH = "ec18932fe96012673e9e6c6a577f70fa857dc10924eade43bafaeeda17d7a757b6fc979db9615a763293155643b7e60671f672ce33e9e72641143e0613e44fff"
 
 RPROVIDES:${PN} += "gdbserver"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
+libm.so.6 \
 libstdc++.so.6"
 
 inherit rpm

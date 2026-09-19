@@ -4,14 +4,14 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.85"
 
-RPM_NAME = "ghc-IfElse-prof-0.85-4.3.aarch64.rpm"
-RPM_HASH = "18112872e1230c8a927190ab0ea7e2de6bf7426217bafb4e9122ece4da2a425845dd3424c31e0eb2ab83029f3eae94dbad35c488f4f728c1f4736eca2c14f359"
+RPM_NAME = "ghc-IfElse-prof-0.85-4.19.aarch64.rpm"
+RPM_HASH = "ac305748d328888366be4914004d5664c5004e4d2b7abb1ab5aa760d826c731cbb6c07b3b52c8e0ace77f6bf22cc3281ff16ce1cd44e867e5509e263f82da40d"
 
 RPROVIDES:${PN} += "ghc-IfElse-prof \
-ghc-prof-IfElse-0.85-2pDYDhNcKvHGxAsencQysh"
+ghc-prof-IfElse-0.85-2Mr7a1arQJZD9ILoSvSyef"
 
 RDEPENDS:${PN} += "ghc-IfElse-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-mtl-2.2.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-mtl-2.3.2-37ef"
 
 inherit rpm

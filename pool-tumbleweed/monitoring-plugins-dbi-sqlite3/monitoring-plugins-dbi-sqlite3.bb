@@ -7,10 +7,10 @@ This virtual package requires the needed libraries for check_dbi to work \
 with a SQlite database."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-dbi-sqlite3-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "623d106abd79e5f03a052a7d5360d202579b75fa0750f970f9dbe43068ff71b604a6cf7501bd1f87dae5fd5109492d968700a40c48d0d63b7c5090e16b17facd"
+RPM_NAME = "monitoring-plugins-dbi-sqlite3-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "5e841ef2418e8e5a27cd9240e3fa853305c1bd961bc62b8290efe953ea6341931f3765fec2d3d4dcdf15059e7b7238da1512b71a4a1e43fa2674e176702edf19"
 
 RPROVIDES:${PN} += "monitoring-plugins-dbi-backend \
 monitoring-plugins-dbi-sqlite3 \

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Portuguese Translations"
 DESCRIPTION = "YaST2 - Translations for Portuguese."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-pt-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "124ae8e6f0d5071a15f28f8ba20d473dea73491dd4603769a1f3cdae47c273753b88db4c5a7d51b25d3c1c4622ce31ef6c921e90c5eac6a2942bd15078919fca"
+RPM_NAME = "yast2-trans-pt-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "06599987224b0d87f1e96b0cf05d3d0c577e2406539555b76ec657f9d446d0f9fef83e025be39987351a5eb73f1a9fbe18cc05e5dc3ed84306e88fb05723dfe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-pt \

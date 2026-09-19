@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ribbonproofs"
 DESCRIPTION = "This package includes the documentation for texlive-ribbonproofs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn31137"
+PV = "2026.226.1.0svn31137"
 
-RPM_NAME = "texlive-ribbonproofs-doc-2023.209.1.0svn31137-54.2.noarch.rpm"
-RPM_HASH = "54de1ae7222b714779f339a47fe2023ed4199fa15e6816cb24925eb41c1f2e5d7e4452bbfc20987742c0425b511560ff6a7e2dabdc46ec9a1fda18d8fbb716bf"
+RPM_NAME = "texlive-ribbonproofs-doc-2026.226.1.0svn31137-60.4.noarch.rpm"
+RPM_HASH = "c368522ebfc8ce657653c79175b280763ee66b2a332438d10a95cad812fccc89c9baa8f978eba7ee6265b68671bff4fd1bb793bd4e9597066748499ab9413139"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ribbonproofs-doc"

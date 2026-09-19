@@ -4,14 +4,14 @@ provide a backend to GSettings on platforms that don't already \
 have configuration storage systems."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.40.0"
+PV = "0.49.0"
 
-RPM_NAME = "dconf-0.40.0-3.4.aarch64.rpm"
-RPM_HASH = "be9f6cef81a831fb145af5484dcaeec3b5ca8cb398de06e81ed708e4551160fb033349b0eee4fc4cee37b43e2fa1c4be3a3058b82e4af7d4439e75dae83bf996"
+RPM_NAME = "dconf-0.49.0-1.5.aarch64.rpm"
+RPM_HASH = "57e59f2b47feae57b500b17bfda1399edc47fabdd8ea331035f2f735c4f1ca2a9b09fd68539f6de89f86eff1d78b267d24ca15fd3b10458b0be7aaa8eca782af"
 
 RPROVIDES:${PN} += "dconf"
 
-RDEPENDS:${PN} += "dbus-1 \
+RDEPENDS:${PN} += "dbus-service \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libdconf.so.1 \

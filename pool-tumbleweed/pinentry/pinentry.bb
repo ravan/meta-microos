@@ -3,17 +3,17 @@ DESCRIPTION = "This is a collection of simple PIN or passphrase entry dialogs wh
 utilize the Assuan protocol as described by the Aegypten project."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.3.3"
 
-RPM_NAME = "pinentry-1.2.1-3.1.aarch64.rpm"
-RPM_HASH = "be3034773b04ba50d8e53a5cb24809337a219e9e27f61f9ddd5cdf0ea17627a07c85e1d2707b354a648b5ccf6cda892488680c27324e298ad8fc6624faf60f4c"
+RPM_NAME = "pinentry-1.3.3-1.2.aarch64.rpm"
+RPM_HASH = "b92ed6a70028ce383632c2af58fcfea82d220d4897115ca1afcae35a1b83f8a8f0220331e840c78570aeccb571437101326596792f09f055ec4c7bf63a765f2f"
 
 RPROVIDES:${PN} += "pinentry \
 pinentry-dialog"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libassuan.so.0 \
+libassuan.so.9 \
 libc.so.6 \
 libgpg-error.so.0 \
 libncursesw.so.6 \

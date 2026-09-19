@@ -12,10 +12,10 @@ nicht ohne BibLaTeX (mindestens in der Version 0.9b) verwendet \
 werden."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7bsvn66579"
+PV = "2026.226.1.7bsvn77682"
 
-RPM_NAME = "texlive-biblatex-dw-2023.209.1.7bsvn66579-54.1.noarch.rpm"
-RPM_HASH = "71e77a24d5c59c6c2d8e423f17f9211f9b82f38afccca9f53cb96f75295775026f4c36d152da12f60afbfbeb6194732df3f7e321832cea3ec8414a351bec911c"
+RPM_NAME = "texlive-biblatex-dw-2026.226.1.7bsvn77682-61.2.noarch.rpm"
+RPM_HASH = "fd436bcfd784f929ee253fe4e4daeb5d4c981f183133edcc1da0f2ce1cd222d1e190da5bcd7f232496e77599ee211720eadf9974ddd13ba160840ccc7881002a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authortitle-dw.bbx \

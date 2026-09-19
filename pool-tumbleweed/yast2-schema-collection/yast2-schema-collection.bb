@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.1"
 
-RPM_NAME = "yast2-schema-collection-0.0.1-2.6.noarch.rpm"
-RPM_HASH = "fe37be10835f4e4e111f91363c4aecf84281f4f56bd55aaa7d0364e04f3bba984c9aaa1cd54378ad3a6582a10751c0d982a9c7ca2cf9df692a4410cab8cf6090"
+RPM_NAME = "yast2-schema-collection-0.0.1-2.14.noarch.rpm"
+RPM_HASH = "a95a63aede2d994b2e592b6535097ff478f9650d885d6b22ee7cd114b6b8718c917242d931e4bdcaab1781b436f33c941072103923ef2de32d36dc913a04c50e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-schema-collection"

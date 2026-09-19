@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.6.57"
 
-RPM_NAME = "libFOX-1_6-0-1.6.57-4.2.aarch64.rpm"
-RPM_HASH = "72b9beff388d2ea82cccaa3f13ff02d7a1506c872501198f224551f4f170c08145d47f5c50ae7b29e1880369ae0a884b3895e9bc79b344d687e58e66ef6503fb"
+RPM_NAME = "libFOX-1_6-0-1.6.57-4.14.aarch64.rpm"
+RPM_HASH = "6a0e73a13a8e80afcc1ce159aefb0587601bde4b2a69efd0a2a25cf2724a4a71840704045e9a5547170d9604de463c1486216b2256b4dddb1a610784a2b74d24"
 
 RPROVIDES:${PN} += "fox \
 libCHART-1.6.so.0 \
@@ -27,6 +27,7 @@ libfreetype.so.6 \
 libgcc-s.so.1 \
 libjpeg.so.8 \
 libm.so.6 \
+libmvec.so.1 \
 libpng16.so.16 \
 libstdc++.so.6 \
 libtiff.so.6 \

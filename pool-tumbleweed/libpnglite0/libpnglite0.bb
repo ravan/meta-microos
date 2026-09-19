@@ -8,8 +8,8 @@ LICENSE = "Zlib"
 
 PV = "0.1.17"
 
-RPM_NAME = "libpnglite0-0.1.17-1.23.aarch64.rpm"
-RPM_HASH = "27bcec14940f68c9826a82c9763a608cb3495c06723c0de9edf5dba694034037a75d9dca885de166e5d8fe2570674ea7fb2a73c80a718132e476eec7765b992d"
+RPM_NAME = "libpnglite0-0.1.17-2.9.aarch64.rpm"
+RPM_HASH = "41e7e76174c2be0df6e54c06eef1c0076ad66e44fcbebd6d972b453ee9eda643b0667e3fcaeffa8e7d175a19f2c5024d642a34aae7152271098189c34fbfe70b"
 
 RPROVIDES:${PN} += "libpnglite.so.0 \
 libpnglite0"

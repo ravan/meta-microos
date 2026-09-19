@@ -8,10 +8,10 @@ package doesn't (currently) support mathematics. More encodings \
 and/or features are expected."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.34svn31771"
+PV = "2026.226.2.34svn77682"
 
-RPM_NAME = "texlive-dejavu-2023.209.2.34svn31771-53.1.noarch.rpm"
-RPM_HASH = "c4fbdf91f115ae3b427ea75ad07be1e5b0b2966bef0b4e78b5da04ca1d5b4b63b08874ab4322a6d0a9126de65731fc008f8f2c78aa6749de2cbb1fd8d24fa049"
+RPM_NAME = "texlive-dejavu-2026.226.2.34svn77682-59.2.noarch.rpm"
+RPM_HASH = "24bc4b9b15d9242bdfc9aabff855b0e4235f6feca7009907982d74acdc16ffe1c725977094c15645c0c62ac8dd975d1e55306ae54d4113100d40e5d1f7cffdb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-DejaVuSans-Bold-tlf-il2.tfm \

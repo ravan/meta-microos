@@ -8,10 +8,10 @@ unsafe features (such as password or hostbased authentication) or doesn't \
 use dynamic memory allocation (no allocation failures, etc.)"
 LICENSE = "CC0-1.0"
 
-PV = "20230101"
+PV = "20260601"
 
-RPM_NAME = "tinyssh-20230101-1.3.aarch64.rpm"
-RPM_HASH = "28f06008a9b5eabf4dcd1435dd394356cd7b90eb353bcdde213f86d695969850da481fffbd407f69983a9edc39ff6d81137fabf391f09cec117e73ac113a98b8"
+RPM_NAME = "tinyssh-20260601-1.3.aarch64.rpm"
+RPM_HASH = "f227acdbbff87b6b54d19a1acda9a6d01e858ea6a32a472a9db54865d3fcb874275017a28fe555816f48c6a0f22adaa058bcef0b5c8ec9a503a161bd52f24215"
 
 RPROVIDES:${PN} += "tinyssh"
 

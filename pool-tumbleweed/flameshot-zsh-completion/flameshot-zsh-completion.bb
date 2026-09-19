@@ -2,10 +2,10 @@ SUMMARY = "ZSH completion for flameshot"
 DESCRIPTION = "zsh shell completions for flameshot."
 LICENSE = "GPL-3.0-only"
 
-PV = "12.1.0"
+PV = "14.0.0"
 
-RPM_NAME = "flameshot-zsh-completion-12.1.0-2.2.noarch.rpm"
-RPM_HASH = "a38868d67708c67b75e664d0be43e377425f4a87f770c6ef788a011b840ae72c620ba93c4f51fcdb071975cacbc23473e5f3cc0ccc5a47f457019a65dce7886b"
+RPM_NAME = "flameshot-zsh-completion-14.0.0-1.2.noarch.rpm"
+RPM_HASH = "ed2382ce1fbcbcac16f58b5481c7a63ef22cb3348b2d4be710b513f3a097c6a0778ab56eb5b970b966a73d39ab6ed2a2ff2b82baf0d6b42a2a7de257e989d434"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "flameshot-zsh-completion"

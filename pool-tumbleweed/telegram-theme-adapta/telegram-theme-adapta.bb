@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-4.0 & GPL-2.0-only"
 
 PV = "3.95.0.11"
 
-RPM_NAME = "telegram-theme-adapta-3.95.0.11-3.5.aarch64.rpm"
-RPM_HASH = "e1e32dac25ff994ac82385a622409d6ff8e0483b9267859a85b68f7cb2f00b99421336bf13e716b553144cd2191f46b9e32581e4ce19c95821ef2fda6ff395d5"
+RPM_NAME = "telegram-theme-adapta-3.95.0.11-5.4.aarch64.rpm"
+RPM_HASH = "c5ee72239ab60a8ab344d1ffa181e3a9c7c725bbd62147ec02ba83ecac3a003a99d2892f875839b71b46001078afa3e71016ab329938ea7c3f452b685ca21dfa"
 
 RPROVIDES:${PN} += "telegram-theme-adapta"
 

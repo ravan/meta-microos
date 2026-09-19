@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gettitlestring"
 DESCRIPTION = "This package includes the documentation for texlive-gettitlestring"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53170"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-gettitlestring-doc-2023.209.1.6svn53170-53.1.noarch.rpm"
-RPM_HASH = "7cdf3acae73c6647efbf1692923452ffa0e13d271a0b2360748781d453f2f4fdfa850ac4001e0356fb6355a03aeb9e7ef6fc63f2e0d0b261bc2e68f576a124e9"
+RPM_NAME = "texlive-gettitlestring-doc-2026.226.1.6svn77682-60.2.noarch.rpm"
+RPM_HASH = "d25f89bf90d9b64ae3cd5cf67c6d7ede5f2d5135515b491eb89895d5766ed2aa476c02aecdb8ec751dbe626ad940bb44ea1fdf24348a3dc445d43466b07bf50a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gettitlestring-doc"

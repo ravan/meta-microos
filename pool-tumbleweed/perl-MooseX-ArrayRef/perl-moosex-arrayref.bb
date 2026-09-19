@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.005"
 
-RPM_NAME = "perl-MooseX-ArrayRef-0.005-1.27.noarch.rpm"
-RPM_HASH = "7b80088ad29043ab428a1e9e55c9305bee2d8a17c9b991461dda7de91ae99934b0a7d5af49f6a013308dbd46c5aa6721b62cb8ef8289f83fb7f803257f25e4e5"
+RPM_NAME = "perl-MooseX-ArrayRef-0.005-1.41.noarch.rpm"
+RPM_HASH = "315198c499cd6a4e3540b8d263756774a8da4828341c6e9a03deb40d6c7e5ee8dd317c3cc5e58cad15b6cdf49c3aeece4dc6d1c6b148645e1dc8772be1105d4b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--ArrayRef \
@@ -21,7 +21,7 @@ perl-MooseX--ArrayRef--Meta--Class \
 perl-MooseX--ArrayRef--Meta--Instance \
 perl-MooseX-ArrayRef"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose"
 
 inherit rpm

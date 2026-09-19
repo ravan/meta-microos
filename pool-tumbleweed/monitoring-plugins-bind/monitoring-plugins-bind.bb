@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "monitoring-plugins-bind-1.3-104.6.noarch.rpm"
-RPM_HASH = "82fc098a733e07b49166cc3b059b4d5a72c0d67f48e9be81f41eb6930108963ec5dc55f5159ace60ddcbcacb9dddf44ec59402f2b255a672a58478dcadf2f3f1"
+RPM_NAME = "monitoring-plugins-bind-1.3-105.7.noarch.rpm"
+RPM_HASH = "d2df2e27be535205367ff124b2a458f2e0e698a30d20f7b2fd03747b254ef5e9dff3455f80b490af5e98de4984331fd44e224e3c59baa8648fd72b54267dbb9f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-bind \

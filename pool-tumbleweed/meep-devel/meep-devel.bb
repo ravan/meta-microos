@@ -7,15 +7,15 @@ This package contains libraries and header files for developing \
 applications that use meep."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "meep-devel-1.26.0-1.4.aarch64.rpm"
-RPM_HASH = "2a86dc78f1ef194d9af8f1872af02b6074a13ca617b5c520dcc8298d060b77d5f95bff8a509db49aa81d5c906e4b065f696f2f303888f6ee83d4bfe5b585a573"
+RPM_NAME = "meep-devel-1.28.0-1.12.aarch64.rpm"
+RPM_HASH = "b4f64d0bc1e14631a5a847a224ac435daf5487bdf74c2ed7595619d0c365ed22555cc4050319de2cb8ef5183a5c7e34384ce68c57196760abc6ea7abec063ae8"
 
 RPROVIDES:${PN} += "meep-devel \
 pkgconfig-meep"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libmeep31"
+libmeep32"
 
 inherit rpm

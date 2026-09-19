@@ -4,10 +4,10 @@ beautifully formatted, consistent U.S. Patent Application using \
 LaTeX and/or LyX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn27744"
+PV = "2026.226.1.0svn27744"
 
-RPM_NAME = "texlive-uspatent-2023.209.1.0svn27744-54.1.noarch.rpm"
-RPM_HASH = "d62061baba9452fd6b725b478a346fd3bc027ab47d8eee755aa9adcc9c3a68268a3b0ac05d92b850caf30a42ae13833a06157544e543bf04eaed7772698a6927"
+RPM_NAME = "texlive-uspatent-2026.226.1.0svn27744-60.2.noarch.rpm"
+RPM_HASH = "6f09badb8ffe08546c57614f24d4e169b136b68bbed0c5a39c7ef86be94d89782e4ec4d246ed1a17434cf30ef7964b902094946f3a17e2e5c99cd07d6a3dc5ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uspatent.cls \

@@ -7,16 +7,17 @@ This package provides the GObject Introspection bindings for the \
 libcolord library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.6"
+PV = "1.4.8"
 
-RPM_NAME = "typelib-1_0-Colord-1_0-1.4.6-4.1.aarch64.rpm"
-RPM_HASH = "51245e36b5c2231d5e276670f77ff86aa72ca48007377976bbe10ac50236b9b2d63a37fdfd0f87d0bc0fcfa76781547f17f201bf1af2d73563b712b94d96cd12"
+RPM_NAME = "typelib-1_0-Colord-1_0-1.4.8-3.1.aarch64.rpm"
+RPM_HASH = "c4062b121e7d46d44dfee1ce0f17431fa4e0f9a5ad441e8d8ad56274b70638a128593e52d2cc2f16850e0ac9743260136205aa9934b8d5180fd5023fb858f431"
 
 RPROVIDES:${PN} += "typelib-1-0-Colord-1-0 \
 typelib-Colord"
 
 RDEPENDS:${PN} += "libcolord.so.2 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

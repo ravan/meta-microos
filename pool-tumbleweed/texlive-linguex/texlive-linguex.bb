@@ -8,10 +8,10 @@ tree-dvips, but overcoming some of the older package's \
 shortcomings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.3svn30815"
+PV = "2026.226.4.3svn77682"
 
-RPM_NAME = "texlive-linguex-2023.209.4.3svn30815-55.1.noarch.rpm"
-RPM_HASH = "318556cf5d1655529c35c159ec98cc5b3d7d34eb26f9773a2043ddaf4107839aa31ab16b62dabc14370ec8475c3dbcb4fc0a20c238003a78635c5cf9c921dacd"
+RPM_NAME = "texlive-linguex-2026.226.4.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "9dde691a7bafb3ad48770a4ebbe8a7baeb915521c92050ac7267b3e2fab3cfc780ff36576f47c82250c57d4b3ad13edf025753c9e77d296e5da707a162ddd03b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-linguex.sty \

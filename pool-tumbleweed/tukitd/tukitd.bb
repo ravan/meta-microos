@@ -1,21 +1,21 @@
 SUMMARY = "D-Bus controlling service for transactional updates"
-DESCRIPTION = "This package provedes the D-Bus service to access libtukit4's \
+DESCRIPTION = "This package provedes the D-Bus service to access libtukit8's \
 functionality to manage transactional systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.0"
+PV = "6.1.3"
 
-RPM_NAME = "tukitd-4.3.0-1.1.aarch64.rpm"
-RPM_HASH = "be6b61ff8a7d2011f3a7556ea1e2a4ad64e292382dd567f4d649dd5105c11807a61e57924062c426e8fe47bae3493d9fe857afd2f852c5397ad38ea87483065d"
+RPM_NAME = "tukitd-6.1.3-1.2.aarch64.rpm"
+RPM_HASH = "08f7d5cfdf04f829bbdf7d78cc81e317a4cc02e97fd2b3feb062211a92d0bf3f2d128864335cc47cb1f5ad1b9f9030674914f4de6424f8c410a786776e3f45fb"
 
 RPROVIDES:${PN} += "tukitd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-dbus-1 \
+dbus-service \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsystemd.so.0 \
-libtukit.so.4 \
-libtukit4"
+libtukit.so.8 \
+libtukit8"
 
 inherit rpm

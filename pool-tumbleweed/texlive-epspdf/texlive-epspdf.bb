@@ -6,10 +6,10 @@ conversion options are made possible by converting in multiple \
 steps."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.6.5.1svn66115"
+PV = "2026.226.0.0.6.5.2svn74487"
 
-RPM_NAME = "texlive-epspdf-2023.209.0.0.6.5.1svn66115-54.2.noarch.rpm"
-RPM_HASH = "9e37dcefb1b67584e8660b23f8c741bb1f1f68319d15303e1dcc5a4e858ff84db346a3b4673182731e0872b855b98691e08e2968c2f8956e18d94b89a3785fd7"
+RPM_NAME = "texlive-epspdf-2026.226.0.0.6.5.2svn74487-61.4.noarch.rpm"
+RPM_HASH = "4455088f47a636a2d6eacd7581bac3d07818c67f95963cf0a7575488245bb7d6261ecffb07195fcec4458b04cec33ac55f247068b243b841a8b3378adf8157ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-epspdf"

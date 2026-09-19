@@ -7,10 +7,10 @@ format. \
 Compatibility package."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw64-libz-1.2.13-2.2.noarch.rpm"
-RPM_HASH = "d722557a084580c282fa8f323c4abf8b12e920a3f0db17970ea259fc31dca24b7760a81c1eed30c5173528a375f3b622831a921ba0b1468d17b006872cae3e80"
+RPM_NAME = "mingw64-libz-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "81a65a8117e6c5e3b6910dead35dcab3cb5154db88257de4e890e730edc9caaaa1b313fcbefeb5df9f82f10dd21c403d42e906549db9c13cb63566633a8a57fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-libz \

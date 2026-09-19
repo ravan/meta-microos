@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "8.1.0"
 
-RPM_NAME = "osgi-annotation-8.1.0-1.1.noarch.rpm"
-RPM_HASH = "dacf59cf76d7a1dbdc1a64b107c09d0e00624073f6bf845c655522a942a558bcd13e2536df1f5381f7bde4f2a69a9a138e95e35448ba2dea415c1361ea8ad305"
+RPM_NAME = "osgi-annotation-8.1.0-2.8.noarch.rpm"
+RPM_HASH = "fc391698a9e13b69bf179f93acd983b83ff2c4abfa088c582e58a25bd2cb6ca35bbc1270e556955461ba0d9ef8d68013cb4bf20e5936fcec3ff4211100391d15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.osgi-org.osgi.annotation \

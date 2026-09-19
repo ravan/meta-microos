@@ -3,10 +3,10 @@ DESCRIPTION = "You need this package if you want to compile programs against the
 of the Qt5 BodyMovin library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5Bodymovin-private-headers-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "dfc40d38f19f6bdd07768ccc8f87f3a6d34f2381da336526a5c93c916f6e08a807b589410812be18468644632686157c96dc1fb9205ebb99dcc5b17dcafdf63f"
+RPM_NAME = "libQt5Bodymovin-private-headers-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "f8be8efdcfd578b191f1f92535bc4a17c5160bb1909cfc2856086e6a7a352533551a0b141dec2a7f1ba6eaccc707ab51c692c87772fc1c1e7c9905e5b19cd5ec"
 
 RPROVIDES:${PN} += "libQt5Bodymovin-private-headers-devel"
 

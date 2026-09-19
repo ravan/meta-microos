@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.2"
 
-RPM_NAME = "ghc-StateVar-doc-1.2.2-2.3.noarch.rpm"
-RPM_HASH = "72109a2a162017ce6cc94097ecd7b6afa7444254c63f524598b1898f07cfd317036dcb2eb17cbf9b99c959f5e461dd5fc880c351aaf777707741e4f74fe286d3"
+RPM_NAME = "ghc-StateVar-doc-1.2.2-2.23.noarch.rpm"
+RPM_HASH = "350f46865f1882bda5d53402e017e14c7f556a68a8688781e12e62ce143721064bea9a2f6e89bdf2e0d8e648be2d32e1d4a44a6bed85961867f4f47604e49e6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-StateVar-doc"

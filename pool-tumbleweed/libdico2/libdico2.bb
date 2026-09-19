@@ -6,10 +6,10 @@ database format. GNU Dico handles database accesses using loadable modules. \
 This package contains shared library for dico."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "libdico2-2.11-1.16.aarch64.rpm"
-RPM_HASH = "bb10d1b5a123a4a45e62fd98bd4cdadf68275240b840640d6e9337b17047811c6f863cc5635fdba9cd3b7c556041ff6acde374c2a348b4be2b06c41c91cd2097"
+RPM_NAME = "libdico2-2.12-2.5.aarch64.rpm"
+RPM_HASH = "e376ce178f6cfd71eac41ab80ab45b5dca8b03196d718eb7be3578332c8bad8e08fa0391948f470ab2a4b0b487c23bb8fb697f37241f4db8d4715aee862942b2"
 
 RPROVIDES:${PN} += "libdico.so.2 \
 libdico2"

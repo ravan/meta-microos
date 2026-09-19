@@ -8,8 +8,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.27"
 
-RPM_NAME = "pam_yubico-2.27-2.10.aarch64.rpm"
-RPM_HASH = "297180544a618b6bc507a41347bc507769d4d86011dae135a23d003c031c994e710dd4c35c9e847c0a7070a38a16379b869bc411d78ae7dc416ce529c41bdea9"
+RPM_NAME = "pam_yubico-2.27-2.20.aarch64.rpm"
+RPM_HASH = "e9bfed2feb8f7daaad0b350847200ad8a4ff7b95f06a182432936f287d5c186f5dfa6b1cadc3df4f791714da075f171031bc7eb0f53c2e28ec40c24c8597eec7"
 
 RPROVIDES:${PN} += "pam-yubico"
 

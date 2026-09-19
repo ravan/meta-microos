@@ -9,24 +9,24 @@ navigating through the file. These features are meant to allow the user to \
 quickly and efficiently focus on problems."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.11.2"
+PV = "0.14.1"
 
-RPM_NAME = "lnav-0.11.2-1.1.aarch64.rpm"
-RPM_HASH = "38eceb55283ead52305238134b61819cd3436efb60b47c614f6c6460758d3e6025532f7993fd635309f0f1ac8fdcef576a33d7dcd0942f4c5b50e05c2f1f8ebe"
+RPM_NAME = "lnav-0.14.1-1.1.aarch64.rpm"
+RPM_HASH = "37136624ef5e9aebc3eb32c3a253ca172a89a8667575c24d14a9b669fea5b089b07b3e1708fc1893de9ba6064bd92fe670e28d269daaa64bada0fa560f41d3d9"
 
 RPROVIDES:${PN} += "lnav"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libarchive.so.13 \
+libbz2.so.1 \
 libc.so.6 \
 libcurl.so.4 \
 libgcc-s.so.1 \
 libm.so.6 \
-libncursesw.so.6 \
 libpcre2-8.so.0 \
-libreadline.so.8 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libtinfo.so.6 \
+libunistring.so.5 \
 libz.so.1"
 
 inherit rpm

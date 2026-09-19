@@ -5,13 +5,13 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.02"
 
-RPM_NAME = "perl-Test-NoTabs-2.02-1.19.noarch.rpm"
-RPM_HASH = "0ce9ca8cd0f17c40bd07ebe864fbb2e4c25b2f41645e3e601859b6040331b516143e850bc4b09e4932e3702eb9d89de2afe3828828e79fc024ecdb62e9a30419"
+RPM_NAME = "perl-Test-NoTabs-2.02-1.33.noarch.rpm"
+RPM_HASH = "eea76c186e6caac9cd35eb0a46ac6bf39dacce90743ee4896d79ea8a067aae04ae154066eeab419f3ee3e88700a9cfd54e8febfbf04fcb1bf48a0be1d1c3052e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--NoTabs \
 perl-Test-NoTabs"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

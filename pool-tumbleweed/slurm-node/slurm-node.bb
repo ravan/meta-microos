@@ -2,15 +2,14 @@ SUMMARY = "Minimal slurm node"
 DESCRIPTION = "This package contains just the minmal code to run a compute node."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-node-23.02.4-2.1.aarch64.rpm"
-RPM_HASH = "302170012dd94ddb3bacecbe217e4184202d1351c7034bb62c09cc84090217fda1849c079ced71adacdf008f2e579acc7669d135672de2b61233ed008a806bca"
+RPM_NAME = "slurm-node-25.11.2-1.6.aarch64.rpm"
+RPM_HASH = "70ceda06954801d379055b914dd4417fe836bdfb8cf19d66ad8f107b2dd47635e41557c5d288d52e2f879a32de0b92b998c06b1f412f892feb5fbe2b6d75332a"
 
 RPROVIDES:${PN} += "slurm-node"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhwloc.so.15 \
 liblua5.4.so.5 \

@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-xcharter-math"
 DESCRIPTION = "The  separated fonts package for texlive-xcharter-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.36svn65686"
+PV = "2026.226.0.0.73svn78170"
 
-RPM_NAME = "texlive-xcharter-math-fonts-2023.209.0.0.36svn65686-53.2.noarch.rpm"
-RPM_HASH = "fce195116a631a6a2625892d5854195d19cc5b2c7a65ad16908de0dbffa0b7d985b7b5dd7f9f68f8b5421f99ea3141109e13d73eba519836e8fbbdef2b0bff8f"
+RPM_NAME = "texlive-xcharter-math-fonts-2026.226.0.0.73svn78170-59.4.noarch.rpm"
+RPM_HASH = "14a0130369a6ff54faab4f4c44d9ffedbec29e0f97391cdb03e60280baa21da110fc5fcb44db78f5505b97682c31d87d3e40b5fb8024ce13e9363b1378000892"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \
@@ -30,7 +31,6 @@ font--lang=uz \
 font--lang=xh \
 font--lang=za \
 font--lang=zu \
-font-xcharter-math-bold \
 font-xchartermath \
 texlive-xcharter-math-fonts"
 

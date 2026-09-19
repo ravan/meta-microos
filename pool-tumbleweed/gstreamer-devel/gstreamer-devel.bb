@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-devel-1.22.5-1.1.aarch64.rpm"
-RPM_HASH = "3d2377b89e2acb26f3e3cf51119a37045d2e7ef99eb08eb36e3fad1e8bb57e1433fead34a7ab62eb9c1815b16021dd41d34c42d45ab2581b3af5c9458e96c520"
+RPM_NAME = "gstreamer-devel-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "e48a5ea61736b99c37db5c9b7e275739ffdad8b4c34f41b0f116f085bcba08163c86dbac34a4100ba18f1dd0ff3c8ce37d4729fcf887a62a3538a7846b2e9af8"
 
 RPROVIDES:${PN} += "gstreamer-devel \
 pkgconfig-gstreamer-1.0 \
@@ -17,7 +17,7 @@ pkgconfig-gstreamer-net-1.0"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/pkg-config \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 gstreamer \
 gstreamer-utils \
 libgstreamer-1-0-0 \

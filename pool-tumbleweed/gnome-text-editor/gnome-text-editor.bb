@@ -5,25 +5,23 @@ if you quit the application. You can come back to your work even if \
 you've never saved it to a file."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gnome-text-editor-44.0-1.3.aarch64.rpm"
-RPM_HASH = "e59b7e37996b8bc63d1052ee7d1bb19d9e733bd86f054620f2bda6ca6d557c563b3c4befe79c910d69fcbf12e522ec2cbbe8d3be5feff1cfb33ae04f3252ba58"
+RPM_NAME = "gnome-text-editor-50.1-1.2.aarch64.rpm"
+RPM_HASH = "fbb1cb9c272d082e909a023b51e9efb6c540ccf5875f46ed718be542ff2b1772b765c68c5dc026e2fd4f743bd3052c901e085faa6f5a32483b38e8f0db3822e7"
 
 RPROVIDES:${PN} += "gnome-text-editor"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libadwaita-1.so.0 \
 libc.so.6 \
-libcairo.so.2 \
 libeditorconfig.so.0 \
-libenchant-2.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-4.so.1 \
 libgtksourceview-5.so.0 \
-libicuuc.so.73 \
-libpango-1.0.so.0"
+libpango-1.0.so.0 \
+libspelling-1.so.2"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "The fonts are provided as Metafont source; Type 1 format \
 versions (csfonts-t1) are also available."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn41553"
+PV = "2026.226.svn41553"
 
-RPM_NAME = "texlive-cs-2023.209.svn41553-55.1.noarch.rpm"
-RPM_HASH = "85ac46b7d5aa2558d38ee9f96c56016957a92a678e27c93bdad0632da51afcf09415fccfe6f21bdf48386fecce57e127bb70451aab093a7a28560b0d5734d614"
+RPM_NAME = "texlive-cs-2026.226.svn41553-61.2.noarch.rpm"
+RPM_HASH = "a28a7caac9ddb4e0484b0be376e5eb2670964234e00893c19b4505e92679fc6316b7ebf92a52d5ea6a844466ebb3e7266fc115889770706a915dfd9ee1a2da68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bchb8z.tfm \

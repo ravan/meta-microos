@@ -7,8 +7,8 @@ LICENSE = "Vim"
 
 PV = "37.43"
 
-RPM_NAME = "vim-plugin-align-37.43-56.1.noarch.rpm"
-RPM_HASH = "8e1a9e53829016565ce20054be81336b574ff1e4d236004f966831c46fd8c9ad510d77ae8f96bd3d34578af2f3592f318ca5a6dfd4852660c542aedde747347d"
+RPM_NAME = "vim-plugin-align-37.43-64.2.noarch.rpm"
+RPM_HASH = "204b6bcdd894e45f105c351a17992364d40f80aac51a1993810ec7dd4ababee40e1e0587d8d9eaf3b7030914c05f4921582e203435e6c42ea1552d09dc238dd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-align"

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "20190920"
 
-RPM_NAME = "grpc-httpjson-transcoding-source-20190920-2.9.noarch.rpm"
-RPM_HASH = "8df458030c16a3fa0b6c9c8201ba3110b2584ab57ff27f8e422937475241b6d3f97ab1f0f06a863967f8ac5fd834be9d3689d01516e42bd5be9ad910508e28a5"
+RPM_NAME = "grpc-httpjson-transcoding-source-20190920-2.17.noarch.rpm"
+RPM_HASH = "f4b21320ce39ebd98af9e64f537d30beb628db91077e3c59727a02d8db0720cc4f57fb3c43f7ea0fe86f80f0066113da42c17419bcd0ee501ef684eb22315097"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grpc-httpjson-transcoding-source"

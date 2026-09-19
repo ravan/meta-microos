@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libpeas"
 DESCRIPTION = "Provides translations for the 'libpeas' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.36.0"
+PV = "1.38.1"
 
-RPM_NAME = "libpeas-lang-1.36.0-1.2.noarch.rpm"
-RPM_HASH = "f045cf40689e439f3bd284725f5a5fff0b5625910676c7dcd82a8cd730409e5fb44d3b574e4061aa0449b3f40674881898489d9b9aebc663540c753e1183852e"
+RPM_NAME = "libpeas-lang-1.38.1-1.3.noarch.rpm"
+RPM_HASH = "a76447a20603ec8f9d58081d73070283b2a2292e96a90d20143a945222f59a2f55896256bafbac20ad50a29f4f06014a8564c3a0bea2133d122ea7b273dc82ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libpeas-lang \

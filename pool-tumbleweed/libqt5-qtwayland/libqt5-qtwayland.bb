@@ -2,10 +2,10 @@ SUMMARY = "Qt 5 Wayland Addon"
 DESCRIPTION = "Qt is a set of libraries for developing applications."
 LICENSE = "GPL-3.0-or-later & (LGPL-3.0-only | GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde51"
+PV = "5.15.19+kde55"
 
-RPM_NAME = "libqt5-qtwayland-5.15.10+kde51-1.1.aarch64.rpm"
-RPM_HASH = "e77cec9277feec1d54cd0828acc5a90dea250b553fafd8ad8a1e9f1e18225c68a0fbccd5231a45eda7fcadb35e601df23c1657974d8bf19f3512c7e0b3690ebf"
+RPM_NAME = "libqt5-qtwayland-5.15.19+kde55-1.2.aarch64.rpm"
+RPM_HASH = "93803a3800b3673bafe73750f678e3c817ea53d6254dd1a72e4fda7dfdc62d73b4c90148ef53218f78f3650979d61b9fde9b5345fffa6fe0255928f630abffa1"
 
 RPROVIDES:${PN} += "libbradient.so \
 libdmabuf-server.so \

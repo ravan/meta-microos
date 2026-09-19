@@ -2,10 +2,10 @@ SUMMARY = "LXDE panel libraries"
 DESCRIPTION = "Library for interpolability and access to the lxpanel API by plugins."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.10.1"
+PV = "0.11.1"
 
-RPM_NAME = "liblxpanel0-0.10.1-1.11.aarch64.rpm"
-RPM_HASH = "7e462e7674fdc7b481415bae258fdae82d9e2e64ae5192f01c3b27ffb5aeff67ca3bf9854a1769d3873f1f2677e0fbc4e45867257badea34ef8888bc8779ec75"
+RPM_NAME = "liblxpanel0-0.11.1-1.4.aarch64.rpm"
+RPM_HASH = "7731649e66b314d173a861d014abc9230535b0274d4b01ad2c687eda9117c9fcb458d783b7c56b8ca102d5653610dcfbfc7eda3af9557b7d169c08d3a21b4ff3"
 
 RPROVIDES:${PN} += "liblxpanel.so.0 \
 liblxpanel0"
@@ -15,16 +15,16 @@ ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libc.so.6 \
 libcairo.so.2 \
-libfm-gtk.so.4 \
+libfm-gtk3.so.4 \
 libfm.so.4 \
+libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
-libkeybinder.so.0 \
+libgtk-3.so.0 \
+libkeybinder-3.0.so.0 \
 libpango-1.0.so.0"
 
 inherit rpm

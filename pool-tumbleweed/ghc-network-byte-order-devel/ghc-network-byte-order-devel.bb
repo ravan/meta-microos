@@ -3,18 +3,18 @@ DESCRIPTION = "This package provides the Haskell network-byte-order library deve
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.6"
+PV = "0.1.8"
 
-RPM_NAME = "ghc-network-byte-order-devel-0.1.6-4.3.aarch64.rpm"
-RPM_HASH = "2576e333d2acd53c1fb4a32efdf2451abf626d89b99b8063437c77b37de55859c48024eeb10786fc20d96b7ddd4da743ce56aeced7afe48be94a4a72a9ebe74c"
+RPM_NAME = "ghc-network-byte-order-devel-0.1.8-1.2.aarch64.rpm"
+RPM_HASH = "296676825c60de8a66a42c2377ea0c26ac54eb44f705c518ed5bc4381409eb635be6bf666c2097c56d632328305f056a57ea69a191c27321bb3240eb989b3968"
 
-RPROVIDES:${PN} += "ghc-devel-network-byte-order-0.1.6-vRMRsceTnFFPQXnTdvJFs \
+RPROVIDES:${PN} += "ghc-devel-network-byte-order-0.1.8-2e5INl5ljJtIwuBIoNgv18 \
 ghc-network-byte-order-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
 ghc-network-byte-order"
 
 inherit rpm

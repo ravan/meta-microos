@@ -6,10 +6,11 @@ LICENSE = "BSD-3-Clause"
 
 PV = "21.12"
 
-RPM_NAME = "protobuf21-devel-21.12-1.1.aarch64.rpm"
-RPM_HASH = "e36fd21097cfa066ca7c159c86ae753f754d856b2814180d5198ce1f13ed17f1868a75b7efff9156a71132928c138560c6d51d813bf1912f46022f3316cb6aeb"
+RPM_NAME = "protobuf21-devel-21.12-4.9.aarch64.rpm"
+RPM_HASH = "aee44f1d6310305e9bc1a34c2e4a8646f92640ef439f14739fadac47d98a2ff254b387de24cad460084d29b46be9fdeba43708745bf51c3cc7842abca1461881"
 
-RPROVIDES:${PN} += "libprotobuf-devel \
+RPROVIDES:${PN} += "cmake-protobuf \
+libprotobuf-devel \
 pkgconfig-protobuf \
 pkgconfig-protobuf-lite \
 protobuf-devel \
@@ -22,7 +23,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libprotobuf-lite3-21-12 \
 libprotobuf3-21-12 \
-libprotoc-3.21.12.so \
+libprotoc.so.3.21.12.0 \
 libstdc++.so.6 \
 pkgconfig-zlib"
 

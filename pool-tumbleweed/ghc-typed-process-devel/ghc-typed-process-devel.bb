@@ -2,23 +2,24 @@ SUMMARY = "Haskell typed-process library development files"
 DESCRIPTION = "This package provides the Haskell typed-process library development files."
 LICENSE = "MIT"
 
-PV = "0.2.11.0"
+PV = "0.2.13.0"
 
-RPM_NAME = "ghc-typed-process-devel-0.2.11.0-1.9.aarch64.rpm"
-RPM_HASH = "fb99cfa3692fe165afcd13fbd714fe0e619acccb65e97f1ca565a9b791ef4d50f1a312c5fbd341ea11c4493804b9f7aa0571bc7933fa535304951435b78fce7e"
+RPM_NAME = "ghc-typed-process-devel-0.2.13.0-1.12.aarch64.rpm"
+RPM_HASH = "b931852045fafec43a047294c4b26d0b1953a9a8b45fc051f5e0349028555c25a6feaf5f95b81a6de9c23dc6a147a5b7e84ccd54a126365df445801654c6bbe2"
 
-RPROVIDES:${PN} += "ghc-devel-typed-process-0.2.11.0-D02VU1fccqSD0M6BP6Pfz9 \
+RPROVIDES:${PN} += "ghc-devel-typed-process-0.2.13.0-Igkw9DqKpM63tp2LRi4SDw \
 ghc-typed-process-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unliftio-core-0.2.1.0-LP03A4AUPGIIJc7XWMX3ES \
+ghc-devel-async-2.2.6-4fW0sXrepSt4QxgAnnLVB6 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unliftio-core-0.2.1.0-HFUY5mS3bsg3RW1edumY92 \
 ghc-typed-process"
 
 inherit rpm

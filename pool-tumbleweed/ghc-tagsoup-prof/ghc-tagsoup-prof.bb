@@ -4,16 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.8"
 
-RPM_NAME = "ghc-tagsoup-prof-0.14.8-6.8.aarch64.rpm"
-RPM_HASH = "cb25c374667913b82699ef0db940704c1e0bede0228788bc2db729962d873511709bf0c78d849958882fb33a3fbcab2e70c90d71ee13d4db0dce75a37db7a744"
+RPM_NAME = "ghc-tagsoup-prof-0.14.8-6.31.aarch64.rpm"
+RPM_HASH = "48aaf3a133c7254b5210aec2d4f3dd456d7e713cb338eca5d7c85a97dc18f15a4a2d01da28fb8c0e89586ffeb013fc0aa2b12a33e6c38b2e1374c87f5d6eda70"
 
-RPROVIDES:${PN} += "ghc-prof-tagsoup-0.14.8-FUMcGuRz5feAeL2vCCRpAn \
+RPROVIDES:${PN} += "ghc-prof-tagsoup-0.14.8-10TuRISnkEwKwhRg5mGRCv \
 ghc-tagsoup-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-text-2.0.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-text-2.1.4-cf23 \
 ghc-tagsoup-devel"
 
 inherit rpm

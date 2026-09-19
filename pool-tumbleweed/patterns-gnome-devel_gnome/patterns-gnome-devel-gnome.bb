@@ -2,10 +2,10 @@ SUMMARY = "GNOME Development"
 DESCRIPTION = "GNOME development packages."
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-devel_gnome-20201210-16.1.aarch64.rpm"
-RPM_HASH = "7b4081ced923e6c6288f6634b12a8afa6e662023c5e1902eaf0fb824087968b8b665eb496bd1ce5ca0a1eb34b129a16b72a00cc17bd4af4f885d3f18ea295f6d"
+RPM_NAME = "patterns-gnome-devel_gnome-20250310-10.2.aarch64.rpm"
+RPM_HASH = "a710ffa4a663bfdafe4f013d593aaefeef7b752dc59df0651f293cc87a94759289e691e2799782fac32820dfbdff55af4ff2373319d4522859acde111f153889"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

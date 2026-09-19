@@ -18,25 +18,17 @@ needs to be added manually into /etc/nsswitch.conf, see nss-systemd(8) man page 
 for an example on how to do that."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "systemd-homed-253.8-1.2.aarch64.rpm"
-RPM_HASH = "e49c424af7adf8b4a1a2dd447155e693eb4836e133cd9de753c9001e6fa7e619279145a8dd79af019932c73d9b39bd8c3e27ffadf7efa74270083fe6bccd3974"
+RPM_NAME = "systemd-homed-261.2-1.2.aarch64.rpm"
+RPM_HASH = "70b8846258ae62390d11c4b5b8e456ba65f500249f75f24d642b3ceb307cd6318480187d9df06d8ac8b76d239c2e6420d31330d7a53aba5b65b8a95b31fdbdeb"
 
-RPROVIDES:${PN} += "config-systemd-homed \
-systemd-homed"
+RPROVIDES:${PN} += "systemd-homed"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libblkid.so.1 \
 libc.so.6 \
-libcap.so.2 \
-libcrypto.so.3 \
-libfdisk.so.1 \
-libm.so.6 \
-libp11-kit.so.0 \
-libpam.so.0 \
-libsystemd-shared-253.so \
+libsystemd-shared-261.2-1.2.so \
 systemd"
 
 inherit rpm

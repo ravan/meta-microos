@@ -9,10 +9,10 @@ is provided for correct sorting of Persian references and three \
 fields LANGUAGE, TRANSLATOR and AUTHORFA are defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn37297"
+PV = "2026.226.0.0.9svn76790"
 
-RPM_NAME = "texlive-persian-bib-2023.209.0.0.9svn37297-52.1.noarch.rpm"
-RPM_HASH = "bca6bbe44b4fe778001d5346e8e9f6ee48d4a82dc8a902227789cb07897cf21dd7109b31942b0e520999f5f318a37e2872644e39c0ab1ba49dd3779b185b9bf3"
+RPM_NAME = "texlive-persian-bib-2026.226.0.0.9svn76790-58.2.noarch.rpm"
+RPM_HASH = "bc9386e468f436d14318156a350349951221635ff743f8218c11a7885b8d0ff4b4a439c86113a0fc6c58e4b9b9d4aafe6acea679af3c8117332e3eef7f5b8690"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-persian-bib"

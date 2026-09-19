@@ -34,16 +34,17 @@ Currently phpMyAdmin can: \
     (see FAQ 9.1)"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.1"
+PV = "5.2.3"
 
-RPM_NAME = "phpMyAdmin-5.2.1-3.1.noarch.rpm"
-RPM_HASH = "dec1fba7ea1a9cbf42a1878e7cc783c25d1652033fe8544998c86dad899096cea85a03c4e58133d90f121295bc9ca5757d8eb9d20e9f4ef1a95b51a469d1a64b"
+RPM_NAME = "phpMyAdmin-5.2.3-1.3.noarch.rpm"
+RPM_HASH = "768726cd9c09af9fc952007867e7d6a471958db7661b2b9996285d91272364c12a6b12e3373b0ed1f9c1f31c31c08b51b66126cabb941f6b21870fe9b53546d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-phpMyAdmin \
 phpMyAdmin"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-www \
 php-bz2 \
 php-ctype \
 php-gd \

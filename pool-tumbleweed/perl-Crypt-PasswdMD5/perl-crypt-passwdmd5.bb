@@ -13,16 +13,20 @@ generated, using the function random_md5_salt(). This function is not \
 exported by default."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.42"
+PV = "1.460.0"
 
-RPM_NAME = "perl-Crypt-PasswdMD5-1.42-1.5.noarch.rpm"
-RPM_HASH = "ebad4406a189602628cf3364b909013423b76f0c7c52579eb2dce53cc6bae263509bacbbc1b6b998fd16c47d4d7d478089784fdf27269941b18ac0d2691f295e"
+RPM_NAME = "perl-Crypt-PasswdMD5-1.460.0-1.1.noarch.rpm"
+RPM_HASH = "a3f1d106f2a6352bc9de88de0dc90c47e4ae331cb952340bd15db0dd83aad0b5ee4450a1ce3ecb6ddebd34923475319c020a2d93a02b0afe4fd8c6b287947ff2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Crypt--PasswdMD5 \
 perl-Crypt-PasswdMD5"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Digest--MD5"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Crypt--URandom \
+perl-Digest--MD5 \
+perl-Encode \
+perl-Exporter \
+perl-ExtUtils--MakeMaker"
 
 inherit rpm

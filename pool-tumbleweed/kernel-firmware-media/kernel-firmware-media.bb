@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for various Video4Linux drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-various Video4Linux drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for various Video4Linux drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260813"
 
-RPM_NAME = "kernel-firmware-media-20230829-1.1.noarch.rpm"
-RPM_HASH = "35ac8a6329b0e8c39f15b9ded1df18c5514f55e1a062b2c640b3a11427ed8bc961ba30c3797aabe6578bcacc7215305ede95d7ba28b838cbb969109f09d7aece"
+RPM_NAME = "kernel-firmware-media-20260813-1.1.noarch.rpm"
+RPM_HASH = "b4e1ed0ae974b770f8b384a319cc3c0994eeeadc9c720e6bde5782468c894d985dfa0768376bd7b67e124c51543ab0f3260cb45c5c824d63e36060e4f0be8dc8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-as102-data1-st.hex \
@@ -29,7 +28,6 @@ firmware-dvb-usb-terratec-h5-drxk.fw \
 firmware-isdbt-nova-12mhz-b0.inp \
 firmware-isdbt-nova-12mhz.inp \
 firmware-isdbt-rio.inp \
-firmware-lgs8g75.fw \
 firmware-mediatek/mt8173/vpu-d.bin \
 firmware-mediatek/mt8173/vpu-p.bin \
 firmware-meson/vdec/g12a-h264.bin \
@@ -55,9 +53,29 @@ firmware-qcom/venus-5.2/venus.mbn \
 firmware-qcom/venus-5.2/venus.mdt \
 firmware-qcom/venus-5.4/venus.mbn \
 firmware-qcom/venus-5.4/venus.mdt \
+firmware-qcom/venus-6.0/venus.mbn \
 firmware-qcom/vpu-1.0/venus.mbn \
 firmware-qcom/vpu-1.0/venus.mdt \
 firmware-qcom/vpu-2.0/venus.mbn \
+firmware-qcom/vpu/ar50lt-p1-gen2-s6.mbn \
+firmware-qcom/vpu/vpu20-p1-gen2-s6.mbn \
+firmware-qcom/vpu/vpu20-p1-gen2.mbn \
+firmware-qcom/vpu/vpu20-p1.mbn \
+firmware-qcom/vpu/vpu20-p4-sm8450-s7.mbn \
+firmware-qcom/vpu/vpu20-p4.mbn \
+firmware-qcom/vpu/vpu30-p1-s7.mbn \
+firmware-qcom/vpu/vpu30-p4-s6-16mb.mbn \
+firmware-qcom/vpu/vpu30-p4-s6.mbn \
+firmware-qcom/vpu/vpu30-p4-s7.mbn \
+firmware-qcom/vpu/vpu30-p4.mbn \
+firmware-qcom/vpu/vpu33-p2-s7.mbn \
+firmware-qcom/vpu/vpu33-p4-s7.mbn \
+firmware-qcom/vpu/vpu33-p4.mbn \
+firmware-qcom/vpu/vpu35-p4-s7.mbn \
+firmware-qcom/vpu/vpu35-p4.mbn \
+firmware-qcom/vpu/vpu36-p4-s7.mbn \
+firmware-qcom/vpu/vpu40-p2-s7.mbn \
+firmware-s5p-mfc-v12.fw \
 firmware-s5p-mfc-v6-v2.fw \
 firmware-s5p-mfc-v6.fw \
 firmware-s5p-mfc-v7.fw \
@@ -71,16 +89,12 @@ firmware-sms1xxx-stellar-dvbt-01.fw \
 firmware-tdmb-nova-12mhz.inp \
 firmware-ti/vpdma-1b8.bin \
 firmware-tlg2300-firmware.bin \
-firmware-ttusb-budget/dspbootcode.bin \
 firmware-v4l-cx231xx-avcore-01.fw \
 firmware-v4l-cx23418-apu.fw \
 firmware-v4l-cx23418-cpu.fw \
 firmware-v4l-cx23418-dig.fw \
 firmware-v4l-cx23885-avcore-01.fw \
 firmware-v4l-cx25840.fw \
-firmware-vicam/firmware.fw \
-firmware-vpu-d.bin \
-firmware-vpu-p.bin \
 kernel-firmware-media"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

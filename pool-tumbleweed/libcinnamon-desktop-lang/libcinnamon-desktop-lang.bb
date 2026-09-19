@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libcinnamon-desktop"
 DESCRIPTION = "Provides translations for the 'libcinnamon-desktop' package."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "5.8.0"
+PV = "6.4.1"
 
-RPM_NAME = "libcinnamon-desktop-lang-5.8.0-1.1.noarch.rpm"
-RPM_HASH = "7cc3e4925e92ef2b96df1c23884b496ac7a203897ee8848c3dbdcedc54e6c44b0765cfb353c90b38d0442a56a07cba19bb00228016eeff749860089cf5f84584"
+RPM_NAME = "libcinnamon-desktop-lang-6.4.1-1.8.noarch.rpm"
+RPM_HASH = "664bd926365a10060941ddc279af34befc593725055e05c5f2f9f15c44a9a5643ab908a109a3ab0d2a9e4635016e0283d8c3a41ed5c7c3acb8ee1773f7d0b7cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libcinnamon-desktop-lang \

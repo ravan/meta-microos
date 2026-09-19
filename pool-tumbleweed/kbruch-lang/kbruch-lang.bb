@@ -2,17 +2,17 @@ SUMMARY = "Translations for package kbruch"
 DESCRIPTION = "Provides translations for the 'kbruch' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kbruch-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "f8cf420308c79198a826505d7792bb848605245a56bcf915eff74ba6c935e89860f587a2b3288b4e63095e9d5074a97cb212b3c022189324879b1a84e7a05d0b"
+RPM_NAME = "kbruch-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "dd2f349c1cc3f97d4560f9bd98f0f69c14bb72af5145a9f47c59985ea773fcadab125f12038031870a6382ef56b7ad5382f8ad9d28ae037eccd0cc847bb23043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kbruch-lang \
 kbruch-lang-all \
 locale-kbruch-ar \
+locale-kbruch-ast \
 locale-kbruch-be \
-locale-kbruch-bg \
 locale-kbruch-bn \
 locale-kbruch-br \
 locale-kbruch-bs \
@@ -37,6 +37,7 @@ locale-kbruch-he \
 locale-kbruch-hi \
 locale-kbruch-hr \
 locale-kbruch-hu \
+locale-kbruch-ia \
 locale-kbruch-is \
 locale-kbruch-it \
 locale-kbruch-ja \

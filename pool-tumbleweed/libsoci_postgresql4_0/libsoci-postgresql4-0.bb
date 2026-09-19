@@ -8,8 +8,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "libsoci_postgresql4_0-4.0.2-4.5.aarch64.rpm"
-RPM_HASH = "ec58495200cab7d3e44e106f80dc994901613e53372a1970de7d0f74db7c9e197d3589fce2c8c4f28173d8e61f9e070555119d0a971422570100027ebc18a366"
+RPM_NAME = "libsoci_postgresql4_0-4.0.2-5.10.aarch64.rpm"
+RPM_HASH = "8bff911a3391e1b1915bb67d367b430e213592cf2d10b67ae257527f25d5bc3449596fdff953082c470c7f612b238a3d9aa3039d46eade4b240740f6ac928c51"
 
 RPROVIDES:${PN} += "libsoci-postgresql.so.4.0 \
 libsoci-postgresql4-0 \

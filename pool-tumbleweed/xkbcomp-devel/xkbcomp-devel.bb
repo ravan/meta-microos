@@ -3,15 +3,17 @@ DESCRIPTION = "The xkbcomp keymap compiler converts a description of an XKB keym
 into one of several output formats."
 LICENSE = "MIT"
 
-PV = "1.4.6"
+PV = "1.5.0"
 
-RPM_NAME = "xkbcomp-devel-1.4.6-1.3.aarch64.rpm"
-RPM_HASH = "24756608f6b28ec036166d91d973bf93ae356ae2d1d0c116e7233347377f619997f97df7b842266295becc1e146596db45823fefb36e5b47facfbc0aa2453103"
+RPM_NAME = "xkbcomp-devel-1.5.0-1.4.aarch64.rpm"
+RPM_HASH = "7f8decaaa817962282937004717a5172605bad6e06974c70548bda96efdf437442043914403201c0c71c3c2f065166dbf291e3d5cd8f661587e4a36be5362abe"
 
 RPROVIDES:${PN} += "pkgconfig-xkbcomp \
 xkbcomp-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+pkgconfig-x11 \
+pkgconfig-xkbfile \
 xkbcomp"
 
 inherit rpm

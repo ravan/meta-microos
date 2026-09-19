@@ -5,10 +5,10 @@ of text in LaTeX documents. It comprises the packages color, \
 graphics, graphicx, trig, epsfig, keyval, and lscape."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66204"
+PV = "2026.226.svn75374"
 
-RPM_NAME = "texlive-graphics-2023.209.svn66204-54.2.noarch.rpm"
-RPM_HASH = "f9ed8676be19fa23df41a6db2c32146efa9134a00c65b7d6607ecb5704b552a63014eedb267087e8953a035be770d833e9cb309c6dad60f822f4d6063ca812c8"
+RPM_NAME = "texlive-graphics-2026.226.svn75374-60.4.noarch.rpm"
+RPM_HASH = "381538eb7289946a4d9545d4407f4fe64a7a83faf56d7de9a965dfeb6fde588557b2b5fc4f74abedb94db43baf59aa9dcd300ce38aba5ed97d93d246d4771001"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-color.sty \

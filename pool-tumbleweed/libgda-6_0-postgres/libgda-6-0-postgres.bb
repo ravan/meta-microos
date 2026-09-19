@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "libgda-6_0-postgres-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "7a966686ad28dc68bca54f8efa936346fd2d5448def7032f84e98fa5bed440043a04623e68edee735476d917b506244269095febb4237456b3487644d721e7c8"
+RPM_NAME = "libgda-6_0-postgres-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "c421d223a9e9e117dda57ea515eb207bf96b44e625761d87b2e5f1ad5ceb7c87b70d648a46f14e3607408b8ae2b9cef45cafeeba6df199597fb73553a1d8e86b"
 
 RPROVIDES:${PN} += "libgda-6-0-postgres \
 libgda-postgres \

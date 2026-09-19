@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-greektex"
 DESCRIPTION = "This package includes the documentation for texlive-greektex"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn28327"
+PV = "2026.226.svn28327"
 
-RPM_NAME = "texlive-greektex-doc-2023.209.svn28327-54.2.noarch.rpm"
-RPM_HASH = "95f334d66eabc58311af5621c359dd144d1e8e1d8b5b5886d1056bec45662f03e209317c4195f0a59a00b95438595132967f01320bbf7afd05300773132caff6"
+RPM_NAME = "texlive-greektex-doc-2026.226.svn28327-60.4.noarch.rpm"
+RPM_HASH = "d758a449ae0bf2d1f2349e2d84bf2243cf1829d9cb1b885a7767bdda3cd5ea0c6f48f98f84f59450a325347a04922305cbf0ebccfc740573286228f4cb12ed92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-greektex-doc-el \

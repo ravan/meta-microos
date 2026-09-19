@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "oprofile-devel-1.4.0-2.2.aarch64.rpm"
-RPM_HASH = "4db2d4e810c1261a27986df5d8882dc6b428adf28b6282fb457fde77a66f25c0718efad40828408aa92e416c508924553818b8f914bf579dd7c6c612580a3f9a"
+RPM_NAME = "oprofile-devel-1.4.0-5.2.aarch64.rpm"
+RPM_HASH = "8992c0627b7eb49692b1ef2542473cdc873dac1510b3b4ff07d99442ca80394ab665d97f20a1cf6497870e48ee42f17f0f1482938f85013d0adf3fc246791e86"
 
 RPROVIDES:${PN} += "oprofile-devel"
 

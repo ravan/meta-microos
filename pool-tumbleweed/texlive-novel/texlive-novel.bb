@@ -8,10 +8,10 @@ stories. It is however not recommended for creating color \
 picture books or dissertations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.80svn65848"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-novel-2023.209.1.80svn65848-55.1.noarch.rpm"
-RPM_HASH = "5de590b8291ae7c9a53af496147c02fea5edfc38d09ffc6e716d2b39d9fbf2d64eef34a653b1d39d76234922aef2bfcb4d7df62574bc2469a524e32e2a63f6df"
+RPM_NAME = "texlive-novel-2026.226.2.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "f19e237719477ce1ae5e486ceae8c898f5cd5a8f5a1bd256e246df7a979fcb9c66e6b133b89f7c97100b4ebbddb2aa053c5650ab6f321d890fa39e1760e47010"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-novel-CGATSTR001.clo \
@@ -43,6 +43,7 @@ grep \
 sed \
 tex-adjustbox.sty \
 tex-atbegshi.sty \
+tex-babel.sty \
 tex-calc.sty \
 tex-changepage.sty \
 tex-eso-pic.sty \
@@ -51,8 +52,7 @@ tex-fancyhdr.sty \
 tex-fontspec.sty \
 tex-fp.sty \
 tex-hyperref.sty \
-tex-ifluatex.sty \
-tex-ifxetex.sty \
+tex-iftex.sty \
 tex-keyval.sty \
 tex-letltxmacro.sty \
 tex-lipsum.sty \
@@ -69,7 +69,6 @@ tex-textpos.sty \
 tex-unicode-math.sty \
 tex-wrapfig.sty \
 tex-xcolor.sty \
-tex-xfp.sty \
 tex-xifthen.sty \
 tex-xparse.sty \
 tex-xstring.sty \

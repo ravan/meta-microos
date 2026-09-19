@@ -12,10 +12,10 @@ development. \
 * Proven under fire as Mozilla's bug tracking system"
 LICENSE = "MPL-2.0"
 
-PV = "5.0.6"
+PV = "5.2"
 
-RPM_NAME = "bugzilla-5.0.6-5.1.noarch.rpm"
-RPM_HASH = "610538de03b59d8049f4e9a104e62f1ccb83f54a307594a5b47dd80fb3d6ce998045524b043a1a9dafca1a5fb9cbd5e39ca9599b90d1d094c3d1de498670bb52"
+RPM_NAME = "bugzilla-5.2-1.6.noarch.rpm"
+RPM_HASH = "0cd09362f8bf151deaae294a1e10cddf311e3207c46c53f25edad536a2300c5e586d72645ac830753dbb36e907f6aa6623ffaeb569a12cb0b3432054d0d3df1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bugzilla \
@@ -76,11 +76,14 @@ perl-Bugzilla--Config--ShadowDB \
 perl-Bugzilla--Config--UserMatch \
 perl-Bugzilla--Constants \
 perl-Bugzilla--DB \
+perl-Bugzilla--DB--MariaDB \
 perl-Bugzilla--DB--Mysql \
 perl-Bugzilla--DB--Oracle \
 perl-Bugzilla--DB--Oracle--st \
 perl-Bugzilla--DB--Pg \
+perl-Bugzilla--DB--QuoteIdentifier \
 perl-Bugzilla--DB--Schema \
+perl-Bugzilla--DB--Schema--MariaDB \
 perl-Bugzilla--DB--Schema--Mysql \
 perl-Bugzilla--DB--Schema--Oracle \
 perl-Bugzilla--DB--Schema--Pg \
@@ -217,10 +220,11 @@ perl-Authen-SASL \
 perl-CGI \
 perl-Cache-Memcached \
 perl-Chart \
+perl-DBD-MariaDB \
 perl-DBD-Pg \
 perl-DBD-SQLite \
-perl-DBD-mysql \
 perl-DBI \
+perl-DBIx-Connector \
 perl-Daemon-Generic \
 perl-DateTime \
 perl-DateTime-TimeZone \
@@ -248,6 +252,7 @@ perl-List-MoreUtils \
 perl-MIME-tools \
 perl-Math-Random-ISAAC \
 perl-Module-Pluggable \
+perl-Moo \
 perl-Net-SMTP-SSL \
 perl-Object-Pluggable \
 perl-PatchReader \
@@ -263,6 +268,7 @@ perl-XMLRPC-Lite \
 perl-base \
 perl-ldap \
 perl-libwww-perl \
-systemd"
+systemd \
+user-wwwrun"
 
 inherit rpm

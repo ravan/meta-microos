@@ -2,14 +2,15 @@ SUMMARY = "Translations for package ModemManager"
 DESCRIPTION = "Provides translations for the 'ModemManager' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.20.6"
+PV = "1.24.2"
 
-RPM_NAME = "ModemManager-lang-1.20.6-1.2.noarch.rpm"
-RPM_HASH = "7adfb403d17a594fba26822923ac17f393ceeeb72d8889596e43cd20e4694ab37ec0b2b9d5756f81096e5b3f38a2546a6b91b4bfdb86803457a8d5eb7b1b1917"
+RPM_NAME = "ModemManager-lang-1.24.2-1.6.noarch.rpm"
+RPM_HASH = "ced7d6410175cc74ce56116fcae3a97491bf27b4e9fc72c699be3a8fc055486a3cada4e3d74c0e410e1d2ac39669a8ec7481593a83055371ae367369a9948aa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ModemManager-lang \
 ModemManager-lang-all \
+locale-ModemManager-ca \
 locale-ModemManager-cs \
 locale-ModemManager-da \
 locale-ModemManager-de \

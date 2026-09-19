@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-eczar"
 DESCRIPTION = "This package includes the documentation for texlive-eczar"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.1svn57716"
+PV = "2026.226.0.0.1svn57716"
 
-RPM_NAME = "texlive-eczar-doc-2023.209.0.0.1svn57716-54.2.noarch.rpm"
-RPM_HASH = "96a6dc593cf834b3a1d91f3d2a1d33711b31b84b5feafafbb14ddd52a722a13f8fa36b387c539161b5bebc3a8f9f8373c9706ecbf2d0290dee3c250cb415367c"
+RPM_NAME = "texlive-eczar-doc-2026.226.0.0.1svn57716-61.4.noarch.rpm"
+RPM_HASH = "d47c88c373c48436a48825acada6329bffc5e4fc869b81bb3a453ef024b808a80d507ec2bc8b3a94f54547bf81ee39282dcf758adcf33b1d0510597e4571ff23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-eczar-doc"

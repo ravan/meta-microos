@@ -18,18 +18,20 @@ gold flame = Set flame strength to max \
 There isn't much point in playing the game alone (single player). In that \
 case the only thing to avoid is accidentally killing yourself. Big deal... \
 It's really a multiplayer game."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.4"
+PV = "1.0.10"
 
-RPM_NAME = "sdl_bomber-1.0.4-1.28.aarch64.rpm"
-RPM_HASH = "0a10bfd540f68d06953f9961e3a768c48ea454a41fc1d2481f2163b55563b03c9f04bb1895b88d19a29ce40f6d53d462748a1941dba131d3648597da9272b1a6"
+RPM_NAME = "sdl_bomber-1.0.10-2.4.aarch64.rpm"
+RPM_HASH = "923fc0ece61faf4e90275f9a998cf8a0f171d340a464a1555432e230d85897d42075feaba00435abb9ba0793b53b2aaf4dfe7470cb70e1942e951a2cfcd0c7f3"
 
 RPROVIDES:${PN} += "sdl-bomber"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
 libc.so.6"
 
 inherit rpm

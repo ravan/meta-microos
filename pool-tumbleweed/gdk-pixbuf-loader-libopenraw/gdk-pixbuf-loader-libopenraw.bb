@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.3.7"
 
-RPM_NAME = "gdk-pixbuf-loader-libopenraw-0.3.7-1.1.aarch64.rpm"
-RPM_HASH = "e59e1424b061eefb27f339ac5c35d5790def822012f5c59570b8b004b144cf45873a9641366a8ddfdcaba4b2a7a8e0d32cc53b9d7534cb0e06e4fc776e7e5ec8"
+RPM_NAME = "gdk-pixbuf-loader-libopenraw-0.3.7-1.14.aarch64.rpm"
+RPM_HASH = "9ede46fa970ece7beeffbb7a224e018b52d8c8fae03d50939cfcbfa2a757e87b754225506c16396a3f03d388b3efeffb97643e224bb418edf7abb8c77e60d07d"
 
 RPROVIDES:${PN} += "gdk-pixbuf-loader-libopenraw \
 libopenraw-pixbuf.so"

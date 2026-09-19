@@ -3,13 +3,15 @@ DESCRIPTION = "Libraries and header files for developing applications that want 
 make use of libperseus-sdr."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.8.1"
+PV = "0.8.2"
 
-RPM_NAME = "libperseus-sdr-devel-0.8.1-1.23.aarch64.rpm"
-RPM_HASH = "854e52d511176de9a2d4b0449c257208d5791a208bb670cd31787e1982d05cdffdb3be75459b4fcaddadcfc6ad12a52462fe3c972271f1f6176166a093cc7dc2"
+RPM_NAME = "libperseus-sdr-devel-0.8.2-1.1.aarch64.rpm"
+RPM_HASH = "7a8cda01ba4882593f64488d2bf2c6fa0486b0d148cc5f7a7eee58acde6aa0c7e4e7562404d185c0ec9a0ecae4b411450020414d855ee7c93f0de7a11bff16b3"
 
-RPROVIDES:${PN} += "libperseus-sdr-devel"
+RPROVIDES:${PN} += "libperseus-sdr-devel \
+pkgconfig-libperseus-sdr"
 
-RDEPENDS:${PN} += "libperseus-sdr0"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libperseus-sdr0"
 
 inherit rpm

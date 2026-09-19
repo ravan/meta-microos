@@ -1,12 +1,15 @@
-SUMMARY = "Supporting tools for use with Metafont"
+SUMMARY = "Supporting tools for Metafont: gftodvi, gftopk, gftype, mft"
 DESCRIPTION = "A collection of programs (as web source) for processing the \
-output of Metafont."
+output of Metafont. They include: gftodvi (for making proof \
+sheets of letters); gftopk (translate gf bitmap files to pk \
+bitmaps); gftype (human-readable dump of gf files); mft \
+(prettyprint Metafont source)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-mfware-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "ae9c5c10bc3800373b956ce57f2f97c8d9bdfff81362e134ad0fa79bad44e2fa17c64ee6fafbc1d978deb1a5c504e2cb4836e6e11bf39267717b9b11e5a88d0b"
+RPM_NAME = "texlive-mfware-2026.226.svn77830-61.2.noarch.rpm"
+RPM_HASH = "2a75177429bbecc839cfd770a47e886e15be8ea35359883fc70a456453a9b51d471254412e2573b1030efc3ddf7535dae1ecdfaf4afec77ad7ec34f4c37258e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mfware"

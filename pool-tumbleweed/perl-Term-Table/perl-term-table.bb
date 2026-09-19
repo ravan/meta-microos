@@ -1,12 +1,12 @@
 SUMMARY = "Format a header and rows into a table"
 DESCRIPTION = "This is used by some failing tests to provide diagnostics about what has \
-gone wrong. This module is able to generic format rows of data into tables."
+gone wrong. This module is able to format rows of data into tables."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.016"
+PV = "0.028"
 
-RPM_NAME = "perl-Term-Table-0.016-1.9.noarch.rpm"
-RPM_HASH = "7b7c8d9903fa3571964007f2498b01e4385a135507e2a3eea0d2708ba73108964855e7f0116cfa1562bbf0875fb7820ff00905c9350c7c64c8ccc25e98cde1cf"
+RPM_NAME = "perl-Term-Table-0.028-1.5.noarch.rpm"
+RPM_HASH = "2b4f86bd45f10fe2b46739b0bcf997ba1ac23d6c2437699bca944b476e9a2e362cff83818ddded3f0f0921569a167d6991dd9d11226ebebb5e9d2dac5502b1f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Term--Table \
@@ -18,7 +18,6 @@ perl-Term--Table--Spacer \
 perl-Term--Table--Util \
 perl-Term-Table"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-Importer"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

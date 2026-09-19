@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files needed to compile programs that u
 fluidsynth library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.3"
+PV = "2.6.0"
 
-RPM_NAME = "fluidsynth-devel-2.3.3-1.1.aarch64.rpm"
-RPM_HASH = "62b6b2fa3b2a97e9e74744ae3e972754c355089b7057214865e654d2c8e4960b66304edd2734fed04c5c4e0dffdd190341bf48726a12fb6d014c8d28c9eb0276"
+RPM_NAME = "fluidsynth-devel-2.6.0-2.1.aarch64.rpm"
+RPM_HASH = "c5b8c8eb5f79b1fd6cf0c16ce29eeda113132ed7f96b073f28112e47c9325c92f561354bf73c9c481300b75205595e0f03392a3dae44ee8287494876acdcee18"
 
 RPROVIDES:${PN} += "cmake-FluidSynth \
 fluidsynth-devel \
@@ -14,19 +14,16 @@ libfluidsynth-devel \
 pkgconfig-fluidsynth"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+fluidsynth \
 glibc-devel \
 libfluidsynth3 \
 pkgconfig-alsa \
-pkgconfig-dbus-1 \
-pkgconfig-glib-2.0 \
-pkgconfig-gmodule-2.0 \
-pkgconfig-gthread-2.0 \
 pkgconfig-jack \
-pkgconfig-libinstpatch-1.0 \
+pkgconfig-libpipewire-0.3 \
 pkgconfig-libpulse-simple \
 pkgconfig-libsystemd \
 pkgconfig-readline \
-pkgconfig-sdl2 \
+pkgconfig-sdl3 \
 pkgconfig-sndfile"
 
 inherit rpm

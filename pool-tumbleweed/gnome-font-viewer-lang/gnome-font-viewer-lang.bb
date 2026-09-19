@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-font-viewer"
 DESCRIPTION = "Provides translations for the 'gnome-font-viewer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-font-viewer-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "de80f08454d290df5c8615c8ec3caf061afb3b7dca1f9b95e1a5d32ca891ff2e1544f0802627316c2f100a0731e70b34300fb1cc8ec3c97e3fe451bc04b74c5e"
+RPM_NAME = "gnome-font-viewer-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "ac141b226223882fba1f64479916bd94612ea4974a35a465e8e316d79900a3152c7371490b9367dc46c812986a1be90805cceb40d1400ea3bb09afd293f64dba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-font-viewer-lang \

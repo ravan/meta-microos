@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xq"
 DESCRIPTION = "This package includes the documentation for texlive-xq"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn35211"
+PV = "2026.226.0.0.4svn78101"
 
-RPM_NAME = "texlive-xq-doc-2023.209.0.0.4svn35211-53.2.noarch.rpm"
-RPM_HASH = "281df76e8070b33dd0ccc98a931a1427f96d573dbe3476c4af0a2da19f7ddab9d27ba5a7ff6ce7bcee98760dcaefd30e1f77d7ec790ba379f45331c4ed6b7387"
+RPM_NAME = "texlive-xq-doc-2026.226.0.0.4svn78101-59.4.noarch.rpm"
+RPM_HASH = "33a792ab00f8f6664c56b2b022dc0863fe7a4a9fa97b5f8cb4977829358a458585eca1b1dbe79f1b8a306c5af28788b0ac1cd3e80290df2c8b7cfd1506966ddb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xq-doc"

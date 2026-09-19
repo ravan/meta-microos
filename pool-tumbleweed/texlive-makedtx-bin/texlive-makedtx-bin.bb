@@ -2,10 +2,10 @@ SUMMARY = "Binary files of makedtx"
 DESCRIPTION = "Binary files of makedtx"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn38769"
+PV = "2026.20260301.svn38769"
 
-RPM_NAME = "texlive-makedtx-bin-2023.20230311.svn38769-93.2.aarch64.rpm"
-RPM_HASH = "466c44b92cc8d7dac8b5c340a711db1c941e1eaca38d30a028f23d34ed66f414476696db25b2bbe043c9bd44b118c15b16ef899ad8fbfb1c207ca7cbdec30cf2"
+RPM_NAME = "texlive-makedtx-bin-2026.20260301.svn38769-120.4.aarch64.rpm"
+RPM_HASH = "4f152a20d20ff3f465b8b4189d221a4a63aae257d5a1518e06768ba2a36b53af43aad6adf68b2fe0a0ff0630b57ad61a9025392b008e4fc25fbd78a2fa55e0bf"
 
 RPROVIDES:${PN} += "texlive-makedtx-bin"
 

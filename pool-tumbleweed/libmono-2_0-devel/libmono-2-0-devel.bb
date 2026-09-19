@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "libmono-2_0-devel-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "c82d08888af783a597f7a1701a99ba325e8b3cfbcb57a210cfed825156e07d83c0d8ef95420968b47d5aba4c51013b3d812ce191a7ebf2af5dd40de1db0108c3"
+RPM_NAME = "libmono-2_0-devel-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "911fd5e718c4ba214dd1d065bc4ca251972b4ffb9783138bee4b89b6dabfd3e848e7000b1d1c490d70a4668cc7f84946b78e9f3f2b3452f62721b46a8e210a83"
 
 RPROVIDES:${PN} += "libmono-2-0-devel \
 pkgconfig-mono-2"

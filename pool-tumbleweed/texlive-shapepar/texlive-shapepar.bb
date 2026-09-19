@@ -14,10 +14,10 @@ the shapepatch extension to transfig which will convert xfig \
 output to \\shapepar polygon form."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn30708"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-shapepar-2023.209.2.2svn30708-54.1.noarch.rpm"
-RPM_HASH = "fd8d2562e778daf959e73a9f5d8ec52268165e45b5191c0aa98bfe9d14ca7c89a3444cbd0306c4c0de2f63432567a723edeb18d2f9c9b6936ec193bac4f7b319"
+RPM_NAME = "texlive-shapepar-2026.226.2.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "04c7c4c429100c341a1917bd8dd100c388d36b93f1059a8c48e422f5876dacf378193ee93c22f81ab5004b96389b75c6e20b4f07fec66aa86df2b5377a646387"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Canflagshape.def \

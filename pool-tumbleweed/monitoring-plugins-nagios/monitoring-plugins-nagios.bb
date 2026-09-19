@@ -6,10 +6,10 @@ number of minutes specified by the expires option. \
 It also checks the process table for a process matching the command argument."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-nagios-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "2bd33b2d5d9d6dadea9d4918cbafb751dc85c808e27f271aea4c0e7a5ae9630de627c6b80b1237d3ca8f14f2b307ae1abefe1894d265c9f0d2d4e2c802d670bd"
+RPM_NAME = "monitoring-plugins-nagios-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "1066311ec6d266f665737dc36bb158f2bd7cfd324b5424751cf11cb720bed9f6935721d305359fac0d8f79b98979a417b8535e9dd88367144b8645e16897c9d2"
 
 RPROVIDES:${PN} += "monitoring-plugins-nagios \
 nagios-plugins-nagios"

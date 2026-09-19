@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows compiler for Objective-C and Objective-C++"
 DESCRIPTION = "MinGW Windows compiler for Objective-C and Objective-C++"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-gcc-objc-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "085a671a1827db65705b2d1bc2ddef56dc86489867ba411f4168881cbb66359bb89b50440b08f999ab50966c444c4aa2612f9d7c908e2e837ed4707ce80a7a0c"
+RPM_NAME = "mingw64-gcc-objc-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "da33935d21070db872396b143f5ffd57c2d20f39da9052bee9ae2c01c20d0aba0892266dfa2533fcf67e5acc0e906b65a76ab0ad450fbef254582cc36a07eaf5"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-gcc-objc \
 mingw64-lib-objc"

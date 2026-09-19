@@ -2,10 +2,10 @@ SUMMARY = "MariaDB RPM macros"
 DESCRIPTION = "Provides macros usable in rpm spec files."
 LICENSE = "SUSE-GPL-2.0-with-FLOSS-exception"
 
-PV = "11.0.2"
+PV = "12.3.2"
 
-RPM_NAME = "mariadb-rpm-macros-11.0.2-1.1.aarch64.rpm"
-RPM_HASH = "05c6deaf2cc1a2cef779dc6d78b4078915b5fa98fd4bebcb711a29406e8d3e9374d5ec6a1a63d7015bf4b982aec739aafdb082fabcbc32b9742ca700d31aecf8"
+RPM_NAME = "mariadb-rpm-macros-12.3.2-1.3.aarch64.rpm"
+RPM_HASH = "3b7858dbf0626d601c3568af770d175e759b8573f403ca18c7971d1e00cf26aa9972812563e428928b068a1da759754b1b6f3be4dd2f1560b40d992c75d2302d"
 
 RPROVIDES:${PN} += "mariadb-rpm-macros \
 rpm-macro-mysql-testserver-cconf \

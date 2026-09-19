@@ -33,13 +33,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-Tie-Hash-Method-0.02-1.22.noarch.rpm"
-RPM_HASH = "bf2c74ee91900ba5aa75b367b904966714cf0b10272b9fba6a25a69d04edc8155a1bc58d4942aa80cc8bb049a7bcd1ec8621402b2d34c7705583589e5c845a4a"
+RPM_NAME = "perl-Tie-Hash-Method-0.02-1.36.noarch.rpm"
+RPM_HASH = "f465313d66ff774a45fce5dc291c3d659bbaf02fe2e5a80a0719c9309857fa78edb29e9ee4cbdb7e5a8c605b162dd6254a6fe1179ec692e9e155ee19a18def43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Hash--Method \
 perl-Tie-Hash-Method"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

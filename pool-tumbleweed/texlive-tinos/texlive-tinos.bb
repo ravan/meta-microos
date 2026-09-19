@@ -4,10 +4,10 @@ serif design that is metrically compatible with Times New \
 Roman."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.svn64504"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-tinos-2023.209.svn64504-53.1.noarch.rpm"
-RPM_HASH = "bbd0fbb6160207a82ffe59c7ec569d849c4cd764593db5df274dba81362a728df2cdb5342338771f89bb87c9d568c92d47112d34ba4c94bb142776075e795ec3"
+RPM_NAME = "texlive-tinos-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "3b621cc227ba1ee33951fa761bd14490ed3f6bf06c5cf93b0a3f919c7eb815e85974ed4d82b0eee57c2e74c723464ce1526bcb407078b3a0dcf0f6149da0e48c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Tinos-TLF.fd \

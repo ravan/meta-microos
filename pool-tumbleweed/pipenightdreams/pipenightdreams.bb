@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.10.0"
 
-RPM_NAME = "pipenightdreams-0.10.0-1.27.aarch64.rpm"
-RPM_HASH = "eba93c2d29873a2589b7d9644ea5297e2fed0e58d8e139b95017bec6ee9d95ce1c3a481c2e0fa88dc19061c1648bbfb4dd79be4050c2c4345c061a60d5e81036"
+RPM_NAME = "pipenightdreams-0.10.0-2.10.aarch64.rpm"
+RPM_HASH = "050041f788707d383e3549efe62f43fe1ffd4b94db508e6f449f151df054026cdbdbc449ca0c5b80ecd7584f102ffefd64390b0f9ea482201ad7fd64faa13c01"
 
 RPROVIDES:${PN} += "pipenightdreams"
 

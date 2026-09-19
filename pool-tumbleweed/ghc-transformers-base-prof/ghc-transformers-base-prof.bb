@@ -2,19 +2,19 @@ SUMMARY = "Haskell transformers-base profiling library"
 DESCRIPTION = "This package provides the Haskell transformers-base profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.6"
+PV = "0.4.6.1"
 
-RPM_NAME = "ghc-transformers-base-prof-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "998b0e1e13b5c7a93b734519a2bb65623aaf4268185d087395f84ea66440093ac1dd4027a651cc7e405b1d90e8317525c7bd28ba2c740a5ff01d7ae651a3a9c4"
+RPM_NAME = "ghc-transformers-base-prof-0.4.6.1-1.3.aarch64.rpm"
+RPM_HASH = "45793b585b62e21ecd86e90f1fc93fe3ee7a97d68b3ba99377c4672e0237ae8f3c9378471d348361839276d56d992a5a5c677c2b41d07c6c8d16d5b07f8c5e5b"
 
-RPROVIDES:${PN} += "ghc-prof-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44 \
+RPROVIDES:${PN} += "ghc-prof-transformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB \
 ghc-transformers-base-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
-ghc-prof-stm-2.5.1.0 \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO \
+ghc-prof-stm-2.5.3.1-6d74 \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-transformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW \
 ghc-transformers-base-devel"
 
 inherit rpm

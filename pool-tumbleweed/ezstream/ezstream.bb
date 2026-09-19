@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "ezstream-1.0.2-1.8.aarch64.rpm"
-RPM_HASH = "a7fb30897e29b717d9721093c97e42aea5a2227d2a59620583858bf901e77a1a4c4a2e540babf15441d60ca15f479de888f467c1c673bead598b4a43374ab95f"
+RPM_NAME = "ezstream-1.0.2-2.6.aarch64.rpm"
+RPM_HASH = "edd0163461379b362a77b50e653457677e34dc49441d76d087873d432e66611c241b0b388ec78397254fcd434966250f632e9b9e8e671cdf5255ecfaad04a19d"
 
 RPROVIDES:${PN} += "ezstream"
 
@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libshout.so.3 \
-libtag-c.so.0 \
-libxml2.so.2"
+libtag-c.so.2 \
+libxml2.so.16"
 
 inherit rpm

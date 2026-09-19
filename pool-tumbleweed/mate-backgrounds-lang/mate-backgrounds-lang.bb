@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-backgrounds"
 DESCRIPTION = "Provides translations for the 'mate-backgrounds' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-backgrounds-lang-1.26.0-2.5.noarch.rpm"
-RPM_HASH = "5ce49f5daebf44bba4c240c8214d9150fed549f535f714f0931622fdab67f8493b4c0475864b4c7e6addc965817d80dac2222c5d39e8a5c393b002400bf3c732"
+RPM_NAME = "mate-backgrounds-lang-1.28.0-1.7.noarch.rpm"
+RPM_HASH = "c3468bde3a35ff054dfe7ef8d30fb6ac7dbdbf9acdd1371557c50253fefa9a39036d9afb00814ec55155abe3f48e564c33f216f9eb592cf401c68ca1b0b39d13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-backgrounds-af \

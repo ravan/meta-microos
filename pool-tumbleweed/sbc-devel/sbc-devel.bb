@@ -1,11 +1,11 @@
 SUMMARY = "Development files for libsbc1"
-DESCRIPTION = "Development files for the SBC library"
+DESCRIPTION = "Development files for the SBC library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5"
+PV = "2.2"
 
-RPM_NAME = "sbc-devel-1.5-2.12.aarch64.rpm"
-RPM_HASH = "43a6bd92c7b1999d2d1ac1a4b278281ec7841b332f1ea3829915db9dd01cf3ec55ca7c6abe6e249cecb22df15c0a2c525b0f30a24c74cea633aa67b3a0cb8b65"
+RPM_NAME = "sbc-devel-2.2-1.3.aarch64.rpm"
+RPM_HASH = "148fa1ca3a16b64fd0aaf18b79436c007b25abad7f0ea8d7e532c1565bb3d1f94040db705fd16cf4727683a6db110c1f5026c3a534b1b3e8809b4bb4e9c4cdab"
 
 RPROVIDES:${PN} += "pkgconfig-sbc \
 sbc-devel"

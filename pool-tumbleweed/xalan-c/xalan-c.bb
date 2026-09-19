@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.12"
 
-RPM_NAME = "xalan-c-1.12-1.12.aarch64.rpm"
-RPM_HASH = "77e8956157007090e1e1375795b20d83efec4b443df262c531f75f3b343377c28390bfee58ab4396ba60be41f135de1c7680479ceb03c152c370be0d14e98d53"
+RPM_NAME = "xalan-c-1.12-3.5.aarch64.rpm"
+RPM_HASH = "3c03ef25f309b9f2ccdffb65c6947c7740f446b7fce552bd70f977821205df704f9cab15c2e5a7503d8e3416324d2d67220d2b8cf9f98c8bc0b1e645c6145717"
 
 RPROVIDES:${PN} += "Xalan-C \
 xalan-c"
@@ -19,6 +19,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libxalan-c.so.112 \
-libxerces-c-3.2.so"
+libxerces-c-3.3.so"
 
 inherit rpm

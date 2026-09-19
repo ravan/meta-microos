@@ -2,16 +2,16 @@ SUMMARY = "Utility programs making use of libfido2, a library for FIDO U2F and F
 DESCRIPTION = "This package contains utilities to use FIDO U2F and FIDO 2.0 protocols."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.13.0"
+PV = "1.16.0"
 
-RPM_NAME = "libfido2-utils-1.13.0-1.3.aarch64.rpm"
-RPM_HASH = "412ca91355062dbb3b58b4ddccff912adc2a0d7a26d65e19802ed28a869934260ed5d1489a9060d06d8eb1ead92e54d7c0351bfb8db99353827a47b4f1024eff"
+RPM_NAME = "libfido2-utils-1.16.0-2.1.aarch64.rpm"
+RPM_HASH = "54a597cf27c242b35f576d332200785fca9dfd350a2c169240bc982837c64ba6612b99162811bb9af0874bdedd2de283839f878abed1b96b1a82597af75e575e"
 
 RPROVIDES:${PN} += "libfido2-utils"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcbor.so.0.10 \
+libcbor.so.0.14 \
 libcrypto.so.3 \
 libfido2.so.1 \
 libz.so.1"

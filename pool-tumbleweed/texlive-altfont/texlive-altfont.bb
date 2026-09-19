@@ -5,10 +5,10 @@ distributed together with the psfont package, by the same \
 author."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-altfont-2023.209.1.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "23b2f5db8df6dfbe241ae2a4c5b3c852731dcc40f16daf5b368ff56ed10401ac0c75b47b91b3dc7d76f45eb3aa2a378c536693d6df8d5e0b3f322d58cf8f7abf"
+RPM_NAME = "texlive-altfont-2026.226.1.1svn15878-61.2.noarch.rpm"
+RPM_HASH = "12f263d18f4dfb4781bc619611561fa197708e2e5eed5e70a3263ab645b5b1d4ca0bcc7508c9c70966ccdc5cca9d38a0114e164e4dd07dfc1faa4c81c1d282ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-altfont.cfg \

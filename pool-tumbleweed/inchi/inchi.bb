@@ -7,12 +7,12 @@ the period 2000-2004. Details of the project and the history of its \
 progress are available from the project web site. \
  \
 This package contains the command line conversion utility."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "MIT"
 
-PV = "1.06"
+PV = "1.07.5"
 
-RPM_NAME = "inchi-1.06-2.4.aarch64.rpm"
-RPM_HASH = "93f78482d9146f6db2b26563e9c2ab8bfd26a62b149f1e80a915ba17667577ebac1ebb745109bcfaf84a868fedf481a23a1fc5ac8e571f5a53311aaf5329a92f"
+RPM_NAME = "inchi-1.07.5-1.4.aarch64.rpm"
+RPM_HASH = "b520cb8b9c65f33ec9109908f72e53d36d82d478160ceaf720d60cf4ed7d2592887cece0302885ad4a4c11b9042dfe1266d6fe81fecb27cf3fc412a29093bb40"
 
 RPROVIDES:${PN} += "inchi"
 

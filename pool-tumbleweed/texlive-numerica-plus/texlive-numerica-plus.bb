@@ -2,15 +2,15 @@ SUMMARY = "Iteration and recurrence relations: finding fixed points, zeros and e
 DESCRIPTION = "The package defines commands to iterate functions of a single \
 variable, find fixed points, zeros and extrema of such \
 functions, and calculate the terms of recurrence relations. \
-numerica-plus requires the package numerica, version 2, which \
-in turn requires l3kernel , l3packages, and the amsmath and \
-mathtools packages."
+numerica-plus requires the package numerica, which in turn \
+requires l3kernel , l3packages, and the amsmath and mathtools \
+packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.0svn61289"
+PV = "2026.226.3.0.0svn76924"
 
-RPM_NAME = "texlive-numerica-plus-2023.209.2.0.0svn61289-55.1.noarch.rpm"
-RPM_HASH = "52bc9f53af969b242697f0df9e1a6b15d72796d35c80beb91937c9f991565539112a42342d379f868a5b08bbce9c6eed01c705284b0cf882e82f63d2ae2b513f"
+RPM_NAME = "texlive-numerica-plus-2026.226.3.0.0svn76924-61.2.noarch.rpm"
+RPM_HASH = "a63041576fdb7257a41810692462357f024802760237de91052b1933ed46a728310b55effa866ed13bfd4b6f3111865f851b45801956f188abe0cfd1adf0e04d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numerica-plus.sty \
@@ -22,7 +22,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-numerica.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

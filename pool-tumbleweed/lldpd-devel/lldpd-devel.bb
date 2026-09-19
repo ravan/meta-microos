@@ -8,10 +8,10 @@ inter-vendor compatible mechanism to deliver Link-Layer notifications \
 to adjacent network devices."
 LICENSE = "MIT"
 
-PV = "1.0.17"
+PV = "1.0.22"
 
-RPM_NAME = "lldpd-devel-1.0.17-1.2.aarch64.rpm"
-RPM_HASH = "79dc8d149e8cc158a75ac9f7407d7e7e762506ac0cefbfa6c8979acaa93d15b7a08a91e479cf4a04ef2970a706fc35fb7acfeadcd36d6c5d7b5e3544077b7759"
+RPM_NAME = "lldpd-devel-1.0.22-2.3.aarch64.rpm"
+RPM_HASH = "c442a853023c4994c23a27e71879d2d4877e0047a3c2c74088f8246011a6d9bfdc5a6559960f5da00501d8b548aaee8a25c34a62e2b234adbb28447e8f41fd50"
 
 RPROVIDES:${PN} += "lldpd-devel \
 pkgconfig-lldpctl"

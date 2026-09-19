@@ -2,10 +2,10 @@ SUMMARY = "Qt5 Script examples"
 DESCRIPTION = "Examples for libqt5-qtscript module."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.15.14"
+PV = "5.15.19"
 
-RPM_NAME = "libqt5-qtscript-examples-5.15.14-1.1.aarch64.rpm"
-RPM_HASH = "bdf19aee569f82104e8d2cb9fd80bb54b3b4095e24f65a0c43f461109eca74e1a186d42951440691b2e1b66a7080a884c2958249338345e6349c8dbf5c9403e0"
+RPM_NAME = "libqt5-qtscript-examples-5.15.19-1.3.aarch64.rpm"
+RPM_HASH = "fae15c122bb1c62f0fafb3fc5b1fcc5eb578630d2cb699c1e50153cfdfde0cfb302710d3ef762ddb99a651f2ba90afa3bb6ba9d8e350f3e690b981ca78e821de"
 
 RPROVIDES:${PN} += "libqt5-qtscript-examples"
 

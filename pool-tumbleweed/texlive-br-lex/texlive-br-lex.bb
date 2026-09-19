@@ -4,10 +4,10 @@ Its purpose is to be an easy-to-use implementation for the \
 end-user."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn44939"
+PV = "2026.226.svn44939"
 
-RPM_NAME = "texlive-br-lex-2023.209.svn44939-53.1.noarch.rpm"
-RPM_HASH = "127a56c95c788f95dc639a0579dd18137bc880e4abf125a2ed348e4cea760ec683d128324c4fc97323ed50e7fcd312132a3e17ebb441a1aa0d8c48a30d8d256a"
+RPM_NAME = "texlive-br-lex-2026.226.svn44939-59.2.noarch.rpm"
+RPM_HASH = "c2f2ed90fd6efe35d02c5dd01c43af8ad81e13eba40439a56ff794e82eee6753da2cf33a621b7a28ebc7eaa496296d5acab8bdb91decd7c43fcf49a11dc21610"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-br-lex.cls \

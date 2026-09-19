@@ -4,10 +4,10 @@ currently supports tar files and zip files. To support Bzip2- compressed \
 files, you should install IO::Uncompress::Bunzip2."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.37"
+PV = "0.370.0"
 
-RPM_NAME = "perl-Archive-Peek-0.37-1.10.noarch.rpm"
-RPM_HASH = "f167a44dea94b927aef928bc75f5fb5e70f9f4ce4595595b9dd7f6d49fa9d1137caa047879a9508e269be7df56b2e31ae3184fa8fbc6a387ccdc8e4920dba8e8"
+RPM_NAME = "perl-Archive-Peek-0.370.0-1.7.noarch.rpm"
+RPM_HASH = "9b381a79e94b5e17e39380c61d3e521c46d60c117a13bab2021580bc86367960ea5e856830165498289c1c1ba93416d86f8abd637490f8c6d7c61e5ce6ce5601"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Peek \
@@ -15,7 +15,7 @@ perl-Archive--Peek--Tar \
 perl-Archive--Peek--Zip \
 perl-Archive-Peek"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Tar \
 perl-Archive--Zip \
 perl-Moo \

@@ -2,15 +2,19 @@ SUMMARY = "Severed fonts for texlive-venturisadf"
 DESCRIPTION = "The  separated fonts package for texlive-venturisadf"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.005svn19444"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-venturisadf-fonts-2023.209.1.005svn19444-54.1.noarch.rpm"
-RPM_HASH = "be52199fd264f80d57080694abd605635086ae37f6d42ac9995b80c44fb947f6b6eb5c02269c9a63cd88a4ac21f52155b7ef9efa62835267fa49f48607932d94"
+RPM_NAME = "texlive-venturisadf-fonts-2026.226.2.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "93229f5aac76736ab2ce412a4bd40c2425ed8af5271309c5b3dd50f85143b53d7ba6eab68a5e5b37daf376646db6fbe7048ef199cf9a4979719c3865302fa617"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=aa \
+RPROVIDES:${PN} += "config-texlive-venturisadf-fonts \
+font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +48,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +83,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-venturisadf \
@@ -103,6 +114,7 @@ font-venturissansadf \
 font-venturissansadfcd \
 font-venturissansadfex \
 font-venturissansadfheavy \
+font-venturissansadflight \
 font-venturissansadflt \
 font-venturissansadfno2 \
 font-venturissansadfno2cd \

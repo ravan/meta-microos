@@ -13,10 +13,10 @@ WireGuard kernel module.  Currently, it provides only a single tool: \
 wg: set and retrieve configuration of WireGuard interfaces"
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.20210914"
+PV = "1.0.20260223"
 
-RPM_NAME = "wireguard-tools-1.0.20210914-6.4.aarch64.rpm"
-RPM_HASH = "04b852332cb5501da9e58b548f0a05d7ecc66e938ba04640698b7e8578e406a33e81f63d9a1797d5488d59c32c819d538a1a815f91187b6cc32c82faa7ff38df"
+RPM_NAME = "wireguard-tools-1.0.20260223-2.3.aarch64.rpm"
+RPM_HASH = "72ae8b80757c6e6e4cd668d968c08e27d3c4d9f01d951eacaae0c8aabf1bbe735b6aea7fb4b38588e1543fccc097d9a38421de8bac454e92f3bfa4542f751f9b"
 
 RPROVIDES:${PN} += "wireguard-tools"
 

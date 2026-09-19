@@ -5,10 +5,10 @@ code more readable and/or allow flexibility in typesetting \
 material."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn47109"
+PV = "2026.226.0.0.1svn47109"
 
-RPM_NAME = "texlive-jkmath-2023.209.0.0.1svn47109-56.1.noarch.rpm"
-RPM_HASH = "e8f9202c2b4156163d1f78627d3d45484b0a124f88642c01677c2d40ba57842a84f657ffd59537219397fba635d1dee8b4277ff9823ba9e711d873b72c84a4b4"
+RPM_NAME = "texlive-jkmath-2026.226.0.0.1svn47109-63.2.noarch.rpm"
+RPM_HASH = "242eef84b6fea6623090ffb0e92c8c89bb2bde09bdd3aaa5c0575979ca0f052b66ef3a25460abc958076f974e76dd198cc6cf75209999089f0026b3b1d9bc802"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jkmath.sty \

@@ -6,10 +6,10 @@ that did not fit in the other two categories (brasero-burn, \
 brasero-media)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "libbrasero-utils3-1-3.12.3-2.8.aarch64.rpm"
-RPM_HASH = "51dcaf00f0d1146888f0160b987fa9f304b36d3f2bf7ed5699bf26a7109c9d474dec346f85dd68376a63f094902f6395d3fc7ddba23b81d43457474e79334aff"
+RPM_NAME = "libbrasero-utils3-1-3.12.3+43-3.3.aarch64.rpm"
+RPM_HASH = "580a011ee3e380916b08de0f2e293a64fc5d8c95a46284c3608fd3595d86f975e4ca3713b6eabedc066d7d1cfcc3cb55b24537b7a6085d736e18d14a2e0df6b9"
 
 RPROVIDES:${PN} += "libbrasero-utils3-1 \
 libbrasero-utils3.so.1"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a wide range of abbreviations for terms \
 used in Telecommunications Engineering."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2svn28571"
+PV = "2026.226.3.2svn28571"
 
-RPM_NAME = "texlive-engtlc-2023.209.3.2svn28571-54.2.noarch.rpm"
-RPM_HASH = "7248454f98f47f01b1d2f2e48da956698e70e3c34332edebd620965e8801d2ce88f1cc9b1f93ab4973c2422ddc997c459976ca2977144393f4c8b9e644c346d8"
+RPM_NAME = "texlive-engtlc-2026.226.3.2svn28571-61.4.noarch.rpm"
+RPM_HASH = "6abd6c0ed0db436f8edbe14db118a624934bd008bfb359d3d3d0fb9a61f2536d9d277da4d72608f91caea0f7a31792404f22e016ec263cf594a377aa95078212"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-engtlc.sty \

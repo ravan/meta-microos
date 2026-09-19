@@ -15,10 +15,10 @@ binary packages of the most current Samba version, and a bug reporting \
 how to."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-client-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "e79f45302f32e2451f05bf96e6c7ffae4188c8c5160c6bd24162e3926c3863bdd91a0ee86d3180364966ea6e5b1c8b552307543fe164ce1e2772e5025e2cc67a"
+RPM_NAME = "samba-client-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "6c13429e98765e63a2652a83a5b6d8a502059215436dea8f5f2467da0bbc689dc971442a0fe432fb3f829ba74e54deca1fef802ef309e3ab2983fbb6d41e9742"
 
 RPROVIDES:${PN} += "config-samba-client \
 libnss-wins.so.2 \
@@ -28,91 +28,91 @@ smbfs"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/bash \
 /usr/bin/perl \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ld-linux-aarch64.so.1 \
-libCHARSET3-samba4.so \
-libaddns-samba4.so \
-libads-samba4.so \
+libCHARSET3-private-samba.so \
+libaddns-private-samba.so \
+libads-private-samba.so \
 libarchive.so.13 \
-libauth-samba4.so \
+libauth-private-samba.so \
 libc.so.6 \
-libcli-cldap-samba4.so \
-libcli-ldap-samba4.so \
-libcli-smb-common-samba4.so \
-libcli-spoolss-samba4.so \
-libcliauth-samba4.so \
-libcmdline-contexts-samba4.so \
-libcmdline-samba4.so \
+libcli-cldap-private-samba.so \
+libcli-ldap-private-samba.so \
+libcli-smb-common-private-samba.so \
+libcli-spoolss-private-samba.so \
+libcliauth-private-samba.so \
+libcmdline-contexts-private-samba.so \
+libcmdline-private-samba.so \
 libcom-err.so.2 \
-libcommon-auth-samba4.so \
-libdbwrap-samba4.so \
+libcommon-auth-private-samba.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdcerpc-samba-samba4.so \
-libevents-samba4.so \
-libflag-mapping-samba4.so \
+libdcerpc-samba-private-samba.so \
+libevents-private-samba.so \
+libflag-mapping-private-samba.so \
 libform.so.6 \
-libgenrand-samba4.so \
-libgensec-samba4.so \
+libgenrand-private-samba.so \
+libgensec-private-samba.so \
 libgnutls.so.30 \
-libgpo-samba4.so \
-libgse-samba4.so \
-libgssapi-krb5.so.2 \
+libgpo-private-samba.so \
+libgse-private-samba.so \
+libjansson.so.4 \
 libkrb5.so.3 \
-libkrb5samba-samba4.so \
+libkrb5samba-private-samba.so \
 libldap.so.2 \
 libldb.so.2 \
-libldbsamba-samba4.so \
-liblibcli-lsa3-samba4.so \
-liblibcli-netlogon3-samba4.so \
-liblibsmb-samba4.so \
-libmscat-samba4.so \
-libmsrpc3-samba4.so \
+libldbsamba-private-samba.so \
+liblibcli-lsa3-private-samba.so \
+liblibcli-netlogon3-private-samba.so \
+liblibsmb-private-samba.so \
+libmscat-private-samba.so \
+libmsrpc3-private-samba.so \
 libncurses.so.6 \
 libndr-krb5pac.so.0 \
 libndr-nbt.so.0 \
-libndr-samba-samba4.so \
-libndr-samba4.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
 libndr-standard.so.0 \
-libndr.so.3 \
-libnet-keytab-samba4.so \
+libndr.so.6 \
+libnet-keytab-private-samba.so \
 libnetapi.so.1 \
 libpanel.so.6 \
 libpopt.so.0 \
-libprinting-migrate-samba4.so \
+libprinting-migrate-private-samba.so \
 libreadline.so.8 \
-libregistry-samba4.so \
-libreplace-samba4.so \
+libregistry-private-samba.so \
+libreplace-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
 libsamba-passdb.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
+libsamba-sockets-private-samba.so \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
-libsamdb-common-samba4.so \
+libsamba3-util-private-samba.so \
+libsamdb-common-private-samba.so \
 libsamdb.so.0 \
-libsecrets3-samba4.so \
-libserver-id-db-samba4.so \
-libserver-role-samba4.so \
-libsmbclient-raw-samba4.so \
+libsecrets3-private-samba.so \
+libserver-id-db-private-samba.so \
+libserver-role-private-samba.so \
+libsmbclient-raw-private-samba.so \
 libsmbclient.so.0 \
 libsmbconf.so.0 \
-libsmbd-base-samba4.so \
-libsmbd-shim-samba4.so \
+libsmbd-base-private-samba.so \
+libsmbd-shim-private-samba.so \
 libsmbldap.so.2 \
-libsocket-blocking-samba4.so \
+libsocket-blocking-private-samba.so \
 libtalloc.so.2 \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtime-basic-samba4.so \
+libtime-basic-private-samba.so \
 libtinfo.so.6 \
-libtrusts-util-samba4.so \
-libutil-reg-samba4.so \
-libutil-tdb-samba4.so \
+libutil-reg-private-samba.so \
+libutil-tdb-private-samba.so \
 libwbclient.so.0"
 
 inherit rpm

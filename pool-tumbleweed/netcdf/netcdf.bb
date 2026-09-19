@@ -6,17 +6,17 @@ and sharing of array-oriented scientific data. \
 This package contains utility functions for working with NetCDF files."
 LICENSE = "NetCDF"
 
-PV = "4.9.2"
+PV = "4.10.1"
 
-RPM_NAME = "netcdf-4.9.2-1.2.aarch64.rpm"
-RPM_HASH = "69a79886a82a7fe061298b265521cf92766fe1c480e1a33cf270b4fcd65906dfed8814be0bc8563b8ccea2a8832e9e92b7b0730042248070080a285625518bc8"
+RPM_NAME = "netcdf-4.10.1-1.2.aarch64.rpm"
+RPM_HASH = "d0b0e92bec8152e2c01d9a8bcff2b95473061855576db8d2a2baae7b9b6d584ef0f46953346ef9688ed1889af5773a0b158468d8196d809228122c3dc6bcb0fb"
 
 RPROVIDES:${PN} += "netcdf"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libhdf5.so.200 \
-libnetcdf.so.19 \
-libnetcdf19"
+libhdf5.so.310 \
+libnetcdf.so.22 \
+libnetcdf22"
 
 inherit rpm

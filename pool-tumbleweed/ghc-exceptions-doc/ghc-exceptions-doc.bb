@@ -2,10 +2,10 @@ SUMMARY = "Haskell exceptions library documentation"
 DESCRIPTION = "This package provides the Haskell exceptions library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.10.5"
+PV = "0.10.12"
 
-RPM_NAME = "ghc-exceptions-doc-0.10.5-1.1.noarch.rpm"
-RPM_HASH = "e39f183ddb5c8249a72d67c2bea827998db7f08463b2c294f0f4d6f4b824fcbffc17bb184fee0a2297bb9b275cf28c922f6bba3d3fcf5a15af90ca7b5dc0f00d"
+RPM_NAME = "ghc-exceptions-doc-0.10.12-1.3.noarch.rpm"
+RPM_HASH = "a2166fda9c24eff088a5f369935fa4980150126fdd8264c5b9dd4bd3156e02989433c511cbd7dec05e9b65c91ad8a3e7f2a1087a11843fdcfff9519d4f048af7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-exceptions-doc"

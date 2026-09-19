@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-alg"
 DESCRIPTION = "This package includes the documentation for texlive-alg"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-alg-doc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "b4c7c212c1108aa4d00778cc956e69d0a907dce7c6945c91ca7b3b688d50b99776123fc6993c1d6375024609ff3129997fcbc7afd4cdc2fe431351fe564b1798"
+RPM_NAME = "texlive-alg-doc-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "3a626ec8c5d390fbc36d407212ce98584c19e8e2e09ff95d5acc02e7cfb66e6089feb47bd61fafc794ca8bf7ff5b983319e8ae812125456d8d39b3073691fade"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-alg-doc"

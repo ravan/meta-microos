@@ -4,19 +4,22 @@ You get more than 50 Qt related compiler warnings, ranging from unneeded memory 
 allocations to misusage of API, including fix-its for automatic refactoring."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.11"
+PV = "1.17.1"
 
-RPM_NAME = "clazy-1.11-3.7.aarch64.rpm"
-RPM_HASH = "ae89887f2f22dccc71204cc6a64a4fa2bc56a04c2e851d28af6e0462dda9af2a9ee4b73815da7e071a4195283cb182e40b1b37db6d404079cb06c2a95d90ee39"
+RPM_NAME = "clazy-1.17.1-1.13.aarch64.rpm"
+RPM_HASH = "393398eed12867f6e71e5153cb84962b61b0a4252156863b99ac089ef0b6d1c8f8bd81f792f16afb90ee987418d2fb65bfa75e8cdb904ef4efa246559aaecd6b"
 
 RPROVIDES:${PN} += "clazy"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-clang16 \
+clang \
 ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.23.1 \
+libLLVM23 \
 libc.so.6 \
-libclang-cpp.so.16 \
+libclang-cpp.so.23.1 \
+libclang-cpp23 \
+libclang13 \
 libstdc++.so.6"
 
 inherit rpm

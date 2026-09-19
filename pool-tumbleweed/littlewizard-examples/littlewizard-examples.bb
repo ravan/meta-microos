@@ -10,8 +10,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "20071206"
 
-RPM_NAME = "littlewizard-examples-20071206-15.16.noarch.rpm"
-RPM_HASH = "9e4521ca78468dedb93e9dd24e462677fc71e53888bc5dfac425ffbb6bc2015c48769aa7a4b92218559818d275758506effe09f1f19dab5e014b632f37e5e58f"
+RPM_NAME = "littlewizard-examples-20071206-15.24.noarch.rpm"
+RPM_HASH = "301f9dddc793d6aa11ebe357725faebb2b2eb2ba9544b26460c45d26780b7e18a1e7bd38dbf367c6facc7122e89c98fba29d4ac1b791f47409ab78f1140bc92b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "littlewizard-examples"

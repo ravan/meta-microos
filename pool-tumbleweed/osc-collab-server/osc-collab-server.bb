@@ -4,10 +4,10 @@ and tracks in a database the various versions in devel projects, Factory \
 and upstream."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.104+26"
+PV = "0.104+30"
 
-RPM_NAME = "osc-collab-server-0.104+26-1.1.noarch.rpm"
-RPM_HASH = "727bc7d499f18ae27a0730c63dff0e08109a3c7a6385002d1c1c5963b4aa54f099f7c9f88ef3156a1895558d38a4174c541f91d889e771116b1b4be7737d28e4"
+RPM_NAME = "osc-collab-server-0.104+30-1.9.noarch.rpm"
+RPM_HASH = "715dd1bd7a76072f7bd97256ad9ed55f23cb36c717541e4c64ab237b11e028214d54e0efebc7fc357ff46deb03bf70de48c910b631bf3269b7597f8f1487cd34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-osc-collab-server \

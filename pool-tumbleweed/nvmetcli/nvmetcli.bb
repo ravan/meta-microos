@@ -5,21 +5,20 @@ target interactively as well as saving / restoring the configuration \
 to / from a json file."
 LICENSE = "Apache-2.0"
 
-PV = "0.7"
+PV = "0.9"
 
-RPM_NAME = "nvmetcli-0.7-2.3.noarch.rpm"
-RPM_HASH = "a3bb30db4e3ab50421651c4360f215e331e973caa771a2a68f91b38b4d8ce20b66dc0f85bd10dfc64b7fa7fb16033c96208129df9df4290497a02b42213ef599"
+RPM_NAME = "nvmetcli-0.9-1.1.noarch.rpm"
+RPM_HASH = "75d6f8e50305f52e467e401a0d5aaa31762a81fb8c713e1666380881a2d39ca308975607e3fbfcc878ab09ef4df997a95cb8c2b904c71079862e80583c1e0c4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nvmetcli \
-python3.11dist-nvmetcli \
+python3.13dist-nvmetcli \
 python3dist-nvmetcli"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-configshell-fb \
-python3-kmod \
 systemd"
 
 inherit rpm

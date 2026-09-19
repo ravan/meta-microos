@@ -6,10 +6,10 @@ the graphicsrendering pipeline (building framegraphs and materials), \
 it is now possible to simply build up a 3D scene using high level primitives."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libQt5Quick3D5-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "a91e1d73df7a6da92fcb862f80244c7f5f43c7f8022b0336fe64cc8225cfacf940b8def4d37e286cc0cfcc30a3c91fdd2ca45e98e4066a20273086f224d18caa"
+RPM_NAME = "libQt5Quick3D5-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "8238b812d3ac4deda60f586f34528307c1b8748163e64a09c6b1c73cc6ad6d0559e58ad33dc3ca7e4cd5f9e010a1b2de35fe0e834f0b3143d92782415af410f5"
 
 RPROVIDES:${PN} += "libQt5Quick3D.so.5 \
 libQt5Quick3D5 \

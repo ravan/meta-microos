@@ -9,26 +9,28 @@ transactional dependency-based service control logic. It can work as a \
 drop-in replacement for sysvinit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "253.8"
+PV = "261.2"
 
-RPM_NAME = "systemd-253.8-1.2.aarch64.rpm"
-RPM_HASH = "d06869691defee7570ff4b49228d21ef7f591ee1ec35e749bec2e5ebf14a073cc0fae058aa74593dd91f352f2a617644a9dfe61be3d17722591006780b90269a"
+RPM_NAME = "systemd-261.2-1.2.aarch64.rpm"
+RPM_HASH = "1875395339d91fde09b417302ee2f0c5db2b4e8fe1ce77cd8d4600d395a36781e698386db0536f1a871595888c4c273eecbf2689c51f7750ddb30c670d362538"
 
 RPROVIDES:${PN} += "/sbin/shutdown \
 config-systemd \
+group-systemd-coredump \
+group-systemd-journal \
 libnss-myhostname.so.2 \
 libnss-systemd.so.2 \
-libsystemd-core-253.so \
-libsystemd-shared-253.so \
+libsystemd-core-261.2-1.2.so \
+libsystemd-shared-261.2-1.2.so \
 nss-myhostname \
 nss-systemd \
 pkgconfig-systemd \
 sbin-init \
 systemd \
-systemd-analyze \
+systemd-coredump \
 systemd-logger \
-systemd-sysvinit \
-sysvinit-/sbin/init"
+sysvinit-/sbin/init \
+user-systemd-coredump"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/env \
@@ -36,31 +38,18 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 aaa-base \
 coreutils \
-dbus-1 \
+dbus-service \
 findutils \
 kbd \
 ld-linux-aarch64.so.1 \
-libacl.so.1 \
-libapparmor.so.1 \
-libaudit.so.1 \
-libblkid.so.1 \
+libacl1 \
+libaudit1 \
 libc.so.6 \
-libcap.so.2 \
-libcrypt.so.1 \
-libcrypto.so.3 \
-libgcrypt.so.20 \
-libip4tc.so.2 \
-libkmod.so.2 \
-liblz4.so.1 \
-liblzma.so.5 \
 libm.so.6 \
-libmount.so.1 \
+libmount1 \
 libnss-usrfiles2 \
-libpam-misc.so.0 \
-libpam.so.0 \
-libseccomp.so.2 \
-libselinux.so.1 \
-libzstd.so.1 \
+libseccomp2 \
+libselinux1 \
 netcfg \
 pam-config \
 systemd-default-settings-branding \

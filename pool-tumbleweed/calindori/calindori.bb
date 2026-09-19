@@ -4,31 +4,33 @@ It has been designed for mobile devices but it can also run on desktop environme
 Users of Calindori are able to check previous and future dates and manage tasks and events."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "calindori-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "8dd5c83fd23a45afb9954ba2d9abf568e27da48ffaf7e6b007430f706163212a0b221cd7996d155b94b482b93bd073c94e77981bea34334b541940ba53d40e9f"
+RPM_NAME = "calindori-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "c5d41086af82c80d6a69ab467c41ef6b781617e084264d40d24d5e007f24d43c6b6253f36fdf68079314968dcf859b9bbc7fce4834cfa1a0f429548aa6b96c55"
 
 RPROVIDES:${PN} += "calindori"
 
-RDEPENDS:${PN} += "kirigami2 \
-kpeoplevcard \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kf6-kpeople-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5CalendarCore.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5People.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5Widgets.so.5 \
+libKF6CalendarCore.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6Notifications.so.6 \
+libKF6People.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-declarative-imports"
 
 inherit rpm

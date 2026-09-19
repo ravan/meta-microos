@@ -3,10 +3,10 @@ DESCRIPTION = "A simple PIN or passphrase entry dialog utilize the Assuan protoc
 as described by the Aegypten project, using FLTK libraries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.3.3"
 
-RPM_NAME = "pinentry-fltk-1.2.1-3.1.aarch64.rpm"
-RPM_HASH = "8f8e139e4634ba02dfefbc3d64e3674dfb40e0dc125212689a81592d718680c7fa29aeeb1ee4bb649876fc6cd8c55e12fe14559219cb9e01d2c2440515ee301d"
+RPM_NAME = "pinentry-fltk-1.3.3-1.1.aarch64.rpm"
+RPM_HASH = "66957e19d324d15cecb23de849d799335e508b69a4f921a6a2343db1714c5d02dade18461d1961db548bececd2b9ccc7440f26b74686cf7efb2d1870eb413496"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-fltk \
 pinentry-dialog \
@@ -14,7 +14,7 @@ pinentry-fltk \
 pinentry-gui"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libassuan.so.0 \
+libassuan.so.9 \
 libc.so.6 \
 libfltk.so.1.3 \
 libgcc-s.so.1 \

@@ -2,10 +2,10 @@ SUMMARY = "Library for the GNU Objective C Compiler"
 DESCRIPTION = "The library for the GNU Objective C compiler."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.2.1+git7683"
+PV = "16.2.0+git9497"
 
-RPM_NAME = "libobjc4-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "bb265984adbe34bfa07164cecdb478349468de0fe44ecf116be44536905e371f657f48ee45513b63c8f03648b6026acf12d18d5b92eac971320a5531aa82b8c6"
+RPM_NAME = "libobjc4-16.2.0+git9497-3.1.aarch64.rpm"
+RPM_HASH = "2e8cad993f6cfc56db57336a11b3e2f0f0e2c745db98b42ac6ab4fb177845c4251969a29f1a02f579cbbd33544b78aae0a4516e0ac070cac4886a8452a1389a4"
 
 RPROVIDES:${PN} += "libobjc.so.4 \
 libobjc4"

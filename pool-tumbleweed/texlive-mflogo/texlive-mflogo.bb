@@ -4,10 +4,10 @@ mflogo fonts described in 'The Metafontbook' and to typeset \
 Metafont logos in LaTeX documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn42428"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-mflogo-2023.209.2.0svn42428-55.1.noarch.rpm"
-RPM_HASH = "f2f1358dc7f8e6db957a82de5cba149fb94dfdbe92df99fd4512e4fb661aa5b9807b962ef17d7f00f5265d3303858dc6dd0649b271d35fab83f0f8881f4b30e6"
+RPM_NAME = "texlive-mflogo-2026.226.2.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "ab8331b8be15c70445a1d4a0b5be35f8f5af6b447716b57af26dfa0d68262e4fd0f8047f9192431502546c488af80163cb5b90dc961d8664f3031c8379e91ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-logosl8.tfm \

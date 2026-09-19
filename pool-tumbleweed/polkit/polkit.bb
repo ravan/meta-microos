@@ -4,17 +4,17 @@ It is used for allowing unprivileged processes to speak to privileged \
 processes."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "121"
+PV = "127"
 
-RPM_NAME = "polkit-121-4.3.aarch64.rpm"
-RPM_HASH = "b71eeab48dc517a4612f1bbb5b54b8bb03372e7404b9148c19afa00232c2fd55f1a2a15e6121d2494a4d1b4a7916c3c5e2a4103340f455b89da45f41b31ae353"
+RPM_NAME = "polkit-127-7.2.aarch64.rpm"
+RPM_HASH = "132d4dea9f0b28680b3b519accf9da7465a0a0cb93ed689c5f45b99d359da40bf291060c01229c3e995a67cf2091ffd193e0f57b987bd08fd3ff019d41b4bea7"
 
 RPROVIDES:${PN} += "group-polkitd \
 polkit \
 user-polkitd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-dbus-1 \
+dbus-service \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libduktape.so.207 \

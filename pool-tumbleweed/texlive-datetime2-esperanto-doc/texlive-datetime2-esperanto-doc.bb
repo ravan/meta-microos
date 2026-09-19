@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-datetime2-esperanto"
 DESCRIPTION = "This package includes the documentation for texlive-datetime2-esperanto"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47356"
+PV = "2026.226.1.1svn47356"
 
-RPM_NAME = "texlive-datetime2-esperanto-doc-2023.209.1.1svn47356-53.1.noarch.rpm"
-RPM_HASH = "6da9b8e044a7e1a68660c04f3990a0d88d4be9ca8c97258e8ebc29a3cf7f0a349e9299d10acc274c5e8eb146ce36561ef1820497d5c4bb2f3b2c2dc4ce84285e"
+RPM_NAME = "texlive-datetime2-esperanto-doc-2026.226.1.1svn47356-59.2.noarch.rpm"
+RPM_HASH = "6df9c0d9366ec6c9cbc201417d7fbe9c5f64affb74134b06fc34652006e27ad37f7179c0e8db2ac96e2ead9e0aeefcd1ff6e683a9ab49aac4b9f3f0548d9f6d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-datetime2-esperanto-doc"

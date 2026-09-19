@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-mgcv"
 DESCRIPTION = "This packages provides R-mgcv, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.8.42"
+PV = "1.9.4"
 
-RPM_NAME = "R-mgcv-1.8.42-46.1.aarch64.rpm"
-RPM_HASH = "38c671ed9a7adc5ee8ed317c367a4d9435dc2b8ccb3f89f22dcd1ba4f504888378f123ca20ccab6a9a49d5eb64a1e77d0825059540c9db63f45644a907d0d0ed"
+RPM_NAME = "R-mgcv-1.9.4-58.3.aarch64.rpm"
+RPM_HASH = "b1833fed921792bfc412a027e5939372904dda0d0949d0710bdc3e0848a6e88e05dfd40ee4c2b0dac2f476bdf51eefef3075fe1898e53765cff0f263cb0eb73d"
 
 RPROVIDES:${PN} += "R-mgcv"
 

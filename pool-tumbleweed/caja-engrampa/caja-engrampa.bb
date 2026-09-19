@@ -5,10 +5,10 @@ content of an archive; view and modify a file contained in the \
 archive; extract files from the archive."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "caja-engrampa-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "2021f63f467d27f329f101d70740ff256331fbd9c6f71309ddd2b655b1342f977d3db9a16ff32eb07c2878bd7cd7a79b50462521d0c6fcab48586f31dc88b006"
+RPM_NAME = "caja-engrampa-1.28.1-3.6.aarch64.rpm"
+RPM_HASH = "f4996afdcbbd2c8d30bbd3d537df1b75875cbf1bb4cf32297deec57969140f98b3ee02a16ad70a44b8ca72cd42f8c083633c54e58b355f35f40ff6b15e4b814b"
 
 RPROVIDES:${PN} += "caja-engrampa \
 libcaja-engrampa.so \

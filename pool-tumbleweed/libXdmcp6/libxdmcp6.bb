@@ -8,10 +8,10 @@ processor, network interface) is a prime example of an autonomous \
 display."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.1.5"
 
-RPM_NAME = "libXdmcp6-1.1.4-1.2.aarch64.rpm"
-RPM_HASH = "9772abc20b716af1ee44964d179133126417f4257feeee97e882e8f4ffc651b01240f2798dc162ca13208e2b265e578ce03f991971bb9d4f090b7e94b56deaad"
+RPM_NAME = "libXdmcp6-1.1.5-1.9.aarch64.rpm"
+RPM_HASH = "04cd50f710bdac897f82f942bc9d351c0f32b1b537835c086d13537beb9b6a05ad87d777b84e7903350b2e8ceb252c8280abba321c1cd921480d98d8af3660a5"
 
 RPROVIDES:${PN} += "libXdmcp.so.6 \
 libXdmcp6 \

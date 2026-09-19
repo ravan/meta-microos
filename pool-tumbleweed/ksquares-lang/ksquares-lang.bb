@@ -2,17 +2,17 @@ SUMMARY = "Translations for package ksquares"
 DESCRIPTION = "Provides translations for the 'ksquares' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksquares-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "40a5fc17753b6bccb2f34a3085c8e03efcc06bff4fecde5121ac831f29b3934ee74f8837ec062820e6e359b697150809ea38d32494b6ee623b31282817e5d61b"
+RPM_NAME = "ksquares-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "f5335b9fe79e8ca010309c506c0c506a31a832984ab1db4e340605ab03d2bdb02256a4c468d55d4085203a1c6859e2ea02076e866a1f603b3b700108f19c25a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ksquares-lang \
 ksquares-lang-all \
 locale-ksquares-ar \
+locale-ksquares-ast \
 locale-ksquares-be \
-locale-ksquares-bg \
 locale-ksquares-bs \
 locale-ksquares-ca \
 locale-ksquares-ca@valencia \
@@ -29,9 +29,11 @@ locale-ksquares-fi \
 locale-ksquares-fr \
 locale-ksquares-ga \
 locale-ksquares-gl \
+locale-ksquares-he \
 locale-ksquares-hi \
 locale-ksquares-hr \
 locale-ksquares-hu \
+locale-ksquares-ia \
 locale-ksquares-is \
 locale-ksquares-it \
 locale-ksquares-ja \

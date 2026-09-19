@@ -3,10 +3,10 @@ DESCRIPTION = "The WaveLAN plugin can monitor a wireless LAN interface and displ
 state, quality and the network name (SSID)."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3"
+PV = "0.7.0"
 
-RPM_NAME = "xfce4-wavelan-plugin-0.6.3-1.4.aarch64.rpm"
-RPM_HASH = "6870eb3105944164c848485c9049223af2f74fa34b59678f18defd597b830f857ba12205a328123e8c0414d7b9ac5100c4a57bae8607fc486a8b96414b62e659"
+RPM_NAME = "xfce4-wavelan-plugin-0.7.0-1.4.aarch64.rpm"
+RPM_HASH = "a794c1d07a9adabceb18855d780c41fe960899c3423b73d52859dce4bda08a5a55fe4d2c7a7c6ee35f76f148d2abc82cc132736bd79db9e463e3dd3f1edd4363"
 
 RPROVIDES:${PN} += "libwavelan.so \
 xfce4-panel-plugin-wavelan \

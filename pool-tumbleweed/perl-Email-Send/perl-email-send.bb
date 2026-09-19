@@ -2,12 +2,12 @@ SUMMARY = "Simply Sending Email"
 DESCRIPTION = "This module provides a very simple, very clean, very specific interface to \
 multiple Email mailers. The goal of this software is to be small and \
 simple, easy to use, and easy to extend."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.201"
+PV = "2.202.0"
 
-RPM_NAME = "perl-Email-Send-2.201-1.22.noarch.rpm"
-RPM_HASH = "0bde5f2975601b410797725e9a8fd499e696d5391d4abe6b33e1ebd69b41d2f730421bf731d9831d099f1304ba84eb4d330a32e30080f1edae87283fcabd7a37"
+RPM_NAME = "perl-Email-Send-2.202.0-1.10.noarch.rpm"
+RPM_HASH = "f06e9a11e731bf242cbfbed2c8aa94ab826985be2b403a8fd0708e33f655846d12ae676559c737d977509872e0c76bbd2736f06af3e37ee3bf48b0541808a71a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--Send \
@@ -18,7 +18,7 @@ perl-Email--Send--Sendmail \
 perl-Email--Send--Test \
 perl-Email-Send"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Email--Abstract \
 perl-Email--Address \
 perl-Email--Simple \

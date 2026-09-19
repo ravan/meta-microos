@@ -10,8 +10,8 @@ LICENSE = "X11"
 
 PV = "1.6.3"
 
-RPM_NAME = "tecla-1.6.3-3.16.aarch64.rpm"
-RPM_HASH = "8ae8bb59d38a8440d94b013cb59d71e69f79fb6d76711af0a1ed0593fd4015fb1da87bce7c84e1b4bdf31de29a41d867488662f3cd76d01e862eebd2de87261b"
+RPM_NAME = "tecla-1.6.3-4.9.aarch64.rpm"
+RPM_HASH = "057bb32c8cb0628ae4389db512305ec61e8f09834cca9dba323ca68a5712fd5e5b0eaf5a4e5de1dea3a3efacbe5988c80ecbe6fd767e706dffaeb7a2a8f3b16e"
 
 RPROVIDES:${PN} += "tecla"
 

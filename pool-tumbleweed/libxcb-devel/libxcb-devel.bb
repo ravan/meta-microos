@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libxcb1."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb-devel-1.16-1.1.aarch64.rpm"
-RPM_HASH = "6f21229463d342d80cdf1e3bfcb754c978632eace77718bd194a52fd5b264646eb7a955bc3ac8b0e77e284d288746c700a0c1e85650b9a4794a176db09769802"
+RPM_NAME = "libxcb-devel-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "e9c917cb5613550b466bbfb227dc73e73ab36e0b5e574457e93e65f3a442482f3d6e9aa35e809db9500b0773224a3d58ab02ffb5eb5393705f72b023b4596184"
 
 RPROVIDES:${PN} += "libxcb-devel \
 pkgconfig-xcb \
@@ -43,6 +43,7 @@ xorg-x11-libxcb-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libxcb-composite0 \
 libxcb-damage0 \
+libxcb-dbe0 \
 libxcb-dpms0 \
 libxcb-dri2-0 \
 libxcb-dri3-0 \
@@ -66,6 +67,7 @@ libxcb-xv0 \
 libxcb-xvmc0 \
 pkgconfig-xau \
 pkgconfig-xcb \
+pkgconfig-xcb-dri3 \
 pkgconfig-xcb-randr \
 pkgconfig-xcb-render \
 pkgconfig-xcb-shape \

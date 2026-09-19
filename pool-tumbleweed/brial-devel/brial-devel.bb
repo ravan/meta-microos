@@ -10,14 +10,17 @@ This subpackage contains the include files and library links for \
 developing with polybori/brial libraries."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.12"
+PV = "1.2.15"
 
-RPM_NAME = "brial-devel-1.2.12-1.4.aarch64.rpm"
-RPM_HASH = "a66545fb5d445c40faad46366e4a2c5a599c76e8d84168bfe0841cbdac03f2a1259da0127ff11717553cb7e51aa588ee5b586f445ed6287476b4d88d876b5b3b"
+RPM_NAME = "brial-devel-1.2.15-2.1.aarch64.rpm"
+RPM_HASH = "d67fe66d7ac2a4fabaff3448de5c57313c14e3a5296bb818f6f9d50f1622dd0ce7f6f6de75174cc817daeb80f9cdbac4c626207eb14dbaa4cf82d7138fc2b1a9"
 
-RPROVIDES:${PN} += "brial-devel"
+RPROVIDES:${PN} += "brial-devel \
+pkgconfig-brial"
 
-RDEPENDS:${PN} += "boost-devel \
-libbrial3"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+boost-devel \
+libbrial3 \
+pkgconfig-m4ri"
 
 inherit rpm

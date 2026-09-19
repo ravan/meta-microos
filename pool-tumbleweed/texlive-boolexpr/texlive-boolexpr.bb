@@ -12,10 +12,10 @@ such as: x=y, x<>y, x>y or x<y; - boolean switches: \\iftrue \
 expression>} ... ... \\otherwise ... \\endswitch"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.14svn17830"
+PV = "2026.226.3.14svn17830"
 
-RPM_NAME = "texlive-boolexpr-2023.209.3.14svn17830-53.1.noarch.rpm"
-RPM_HASH = "70a388f0a33274443a8ca2240f47afbaff9b0dc82719138a752f04a39078317c1b9240717144c4389e61f8158aec00c6f321debbdc0bc6c93d919bd68dde7bcf"
+RPM_NAME = "texlive-boolexpr-2026.226.3.14svn17830-59.2.noarch.rpm"
+RPM_HASH = "7fbeb459cee8d1b2c3bea0c392f125428a8a783b33511650d2e3039a81b368a2de46a76c5ebf2dfc9031feb0c28ea386acf08c621a10124a9b6f3b126f104184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boolexpr.sty \

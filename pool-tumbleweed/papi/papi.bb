@@ -7,10 +7,10 @@ engineers to see, in near real time, the relation between software \
 performance and processor events."
 LICENSE = "BSD-3-Clause"
 
-PV = "7.0.0"
+PV = "7.2.0"
 
-RPM_NAME = "papi-7.0.0-1.4.aarch64.rpm"
-RPM_HASH = "02f6a7390c03c3e7f733a5ecf2d5faae80a635056caeed26d83b9f7b1ffce8927146dce8a3a59a7817227165233d0377ee10da9f93349d86a3f8503c8c505086"
+RPM_NAME = "papi-7.2.0-1.6.aarch64.rpm"
+RPM_HASH = "6ca1f0209125ae293933656e44e1be16608a6dd9f608f2e62bb3391be91c49bcfcb8a765765e95e3eb5264fe29da24e2866a41d72e96709be429ef7aac416d00"
 
 RPROVIDES:${PN} += "papi"
 

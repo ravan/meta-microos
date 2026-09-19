@@ -5,13 +5,13 @@ It's designed to operate directly on etcd data files. \
 For operations over a network, please use `etcdctl`."
 LICENSE = "Apache-2.0"
 
-PV = "3.5.9"
+PV = "3.7.1"
 
-RPM_NAME = "etcdutl-3.5.9-1.2.aarch64.rpm"
-RPM_HASH = "d73fff3dd6dcdc56605b4c9bd83a596c9fc4de9586116e4d1cf16a6dc5c91ba0261c1077bd36c4c82099094a199559f3820256a44a5287f9c8e72de5f1817282"
+RPM_NAME = "etcdutl-3.7.1-1.2.aarch64.rpm"
+RPM_HASH = "b3d4ef6a21ae1ee17c6c95bdb7b0f12b5036023537022a25217f8ed425bddde199575a65534e6bc446bd2682008cfd4f30e784e86c868616694433e8a1f167e6"
 
 RPROVIDES:${PN} += "etcdutl"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

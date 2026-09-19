@@ -3,10 +3,10 @@ DESCRIPTION = "The X Window System Athena widget set implements simple user \
 interfaces based upon the X Toolkit Intrinsics (Xt) library."
 LICENSE = "MIT"
 
-PV = "1.0.15"
+PV = "1.0.16"
 
-RPM_NAME = "libXaw7-1.0.15-1.4.aarch64.rpm"
-RPM_HASH = "a80c45b1296f84adb3512b064dcb22c8f298ae9b47836edbfd3ccf5a2cb35f6bb3591c832422b13ce8b77afd65c3da05d89df0dea6d8a8913520c7e4c0343eb5"
+RPM_NAME = "libXaw7-1.0.16-1.9.aarch64.rpm"
+RPM_HASH = "17433e1a7d35ab5348182b98ff9c6728a2b4df67497c1ffb277e7fe8ec3623038d2de1708d94297318dda5346be8b0ebb9a0cd0aabeeaf2da775df9535a3fb04"
 
 RPROVIDES:${PN} += "libXaw.so.7 \
 libXaw7 \

@@ -3,10 +3,10 @@ DESCRIPTION = "BCUnit is a unit testing framework for C. \
 This package installs the BCUnit documentation files."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "3.0.2+git.20191119"
+PV = "5.4.102"
 
-RPM_NAME = "bcunit-doc-3.0.2+git.20191119-1.14.aarch64.rpm"
-RPM_HASH = "0c79fc56b4d4a44628143a5ca86ac9d0bd578bbe50d181eb1d1ae35a9d061ada8fc557662e5c1539bcd0d1394fe0804647eb28179f16b6360ae96a4d5ea9f290"
+RPM_NAME = "bcunit-doc-5.4.102-1.3.aarch64.rpm"
+RPM_HASH = "75e38b87dc80db544c03498d13444653f899dab0fc0d284b7cb415aad1796e080a206cebd10e4527af773f08ebc8263208e7bcc1231845f96c7cb4afe6f3cf83"
 
 RPROVIDES:${PN} += "bcunit-doc"
 

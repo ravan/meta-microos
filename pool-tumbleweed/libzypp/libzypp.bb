@@ -16,45 +16,47 @@ libzypp provides functionality for a package manager: \
     facilities for programs with an user interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.31.20"
+PV = "17.38.15"
 
-RPM_NAME = "libzypp-17.31.20-1.1.aarch64.rpm"
-RPM_HASH = "6e722ff59f7c167f56f0b078fcfade7ee02154f367f352e0589b3d0bdfc893a0a05c54b194617b3ee3fff6baad5123c28f2b6f1f84d73384b2947148e1d72d69"
+RPM_NAME = "libzypp-17.38.15-1.1.aarch64.rpm"
+RPM_HASH = "4274ee60fcec532a46c99a5524f7b7670d2a1e5616ea41d06043fa203fd808b5d626c6e5a445193eff7744a89e1c8e32d2db9e1958e5c88981cb0134c1e376d1"
 
 RPROVIDES:${PN} += "config-libzypp \
 libzypp \
+libzypp-econf \
 libzypp-plugin \
 libzypp-plugin-appdata \
 libzypp-plugin-commit \
 libzypp-plugin-repoverification \
 libzypp-plugin-services \
+libzypp-plugin-sigcheck \
 libzypp-plugin-system \
 libzypp-plugin-urlresolver \
 libzypp-repovarexpand \
-libzypp.so.1722 \
+libzypp.so.1735 \
 yast2-packagemanager"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libboost-thread.so.1.82.0 \
+libboost-thread.so.1.91.0 \
+libbz2.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
 libcurl4 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
-libgpgme.so.11 \
-libprotobuf-lite.so.23.4.0 \
-libproxy.so.1 \
-librpm.so.9 \
-librpmio.so.9 \
+libgpgme.so.45 \
+liblzma.so.5 \
+librpm.so.10 \
+librpmio.so.10 \
 libsigc-2.0.so.0 \
-libsolv-tools \
+libsolv-tools-base \
 libstdc++.so.6 \
 libudev.so.1 \
-libxml2.so.2 \
-libyaml-cpp.so.0.8 \
+libxml2.so.16 \
+libyaml-cpp.so.0.9 \
 libz.so.1 \
 libzck.so.1 \
 libzstd.so.1 \

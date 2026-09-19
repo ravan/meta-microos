@@ -4,10 +4,10 @@ tables in a chapter named 'List' that contains separate \
 sections for each list of figures, tables, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn20333"
+PV = "2026.226.svn20333"
 
-RPM_NAME = "texlive-smalltableof-2023.209.svn20333-58.1.noarch.rpm"
-RPM_HASH = "47a84da22ccea8817e96526b4fc6667fc800b8b623ec1240a9cbef88bef162fbe0df6850a5d8a56eca9fdead359bcb8f5b84b681f90d51c1da5c108851458504"
+RPM_NAME = "texlive-smalltableof-2026.226.svn20333-64.2.noarch.rpm"
+RPM_HASH = "83f6164d0c849f2eb491f39979383e8b2b52b473b242d71641c2712804e35bd085525ae49193c855c9fd55d5073d45f832d26461c60714991e048dfcb98ebf0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-smalltableof.sty \

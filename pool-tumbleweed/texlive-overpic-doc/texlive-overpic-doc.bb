@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-overpic"
 DESCRIPTION = "This package includes the documentation for texlive-overpic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn53889"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-overpic-doc-2023.209.1.3svn53889-52.1.noarch.rpm"
-RPM_HASH = "2f93c3d7c491c3a0f0de79f1ce736839050ddd0fed26cad8d7dcff3a38c958d01428dc961b2127a763346f10523233bd0b1661d5dd30baa68c30761d470c0f0c"
+RPM_NAME = "texlive-overpic-doc-2026.226.2.2svn77682-58.2.noarch.rpm"
+RPM_HASH = "17cf2e04ff9c805dfcfd324ba4ad88bafa60ee7979e64ae924e641b33356467e95e12a894934e78b9bd1f58ca9d6fa59a35d0a0d1e423fdb1dbf367941e2d145"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-overpic-doc-de;en \

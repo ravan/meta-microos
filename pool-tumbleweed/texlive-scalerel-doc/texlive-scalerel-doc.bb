@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-scalerel"
 DESCRIPTION = "This package includes the documentation for texlive-scalerel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn42809"
+PV = "2026.226.1.8svn77682"
 
-RPM_NAME = "texlive-scalerel-doc-2023.209.1.8svn42809-54.1.noarch.rpm"
-RPM_HASH = "224c9975fa121877bdfd18ec70b74dc256fab67cd166dfcb56617e8b47bd47a65f67cde8fdb400f5e7d9422016666ae4071b6407c09bf9d9d534b4db26e06e65"
+RPM_NAME = "texlive-scalerel-doc-2026.226.1.8svn77682-60.2.noarch.rpm"
+RPM_HASH = "cfed9c2db6412f79ff0ac7f5a7bec57d119aa64b420c1a93bdb74ca89c314940c7374175d73bb52508c3527fd20d3f18c9c2b31cff1d1731951e5a64885e23a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-scalerel-doc"

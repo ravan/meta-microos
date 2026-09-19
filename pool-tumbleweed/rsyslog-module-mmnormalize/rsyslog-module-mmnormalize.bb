@@ -5,10 +5,10 @@ package. \
 This module provides log normalizing support."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-mmnormalize-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "f86c5d2c443de943a254d8ed01d7fae1077ffc73adfe51e844440a58d1cbb61187c472e8e776c29c4af95e9881b3d9471cc16e127b6b38f255cea2fff6578afa"
+RPM_NAME = "rsyslog-module-mmnormalize-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "9b4c7535a65790cf71029530c15961d4497c0ba3220b94f28e322cf12a5a07fd604728c414264e1bae3cef6009ffd8096f87773952712c73949aa3d852757754"
 
 RPROVIDES:${PN} += "rsyslog-module-mmnormalize"
 

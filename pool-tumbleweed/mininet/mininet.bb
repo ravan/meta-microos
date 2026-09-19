@@ -8,14 +8,14 @@ LICENSE = "MIT & GPL-2.0-or-later"
 
 PV = "2.3.0"
 
-RPM_NAME = "mininet-2.3.0-1.3.aarch64.rpm"
-RPM_HASH = "5715f86897a5dfbb02171a5563c7b294c29d4a3b375f0ba93288a751ed66d815d9bfec1dfd52bc7b692915bcb554a39e3fea8ffb58e19bb586c2bc464716b7a4"
+RPM_NAME = "mininet-2.3.0-1.16.aarch64.rpm"
+RPM_HASH = "ff1195a12ea1b82805382770bd56643914bc4ad2b256fb4cee0c161f468f2d1dabbe2a363d7528152d293cdd6dd02ceb60cd28b9c294bac253519ba1f3cfe63e"
 
 RPROVIDES:${PN} += "mininet \
-python3.11dist-mininet \
+python3.13dist-mininet \
 python3dist-mininet"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ethtool \
 iperf \
 iproute2 \

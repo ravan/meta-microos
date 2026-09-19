@@ -7,16 +7,16 @@ many commands are identical. Configuration can be done in a \
 configuration file or directly from the client."
 LICENSE = "MIT"
 
-PV = "0.14"
+PV = "0.18"
 
-RPM_NAME = "poezio-0.14-1.4.aarch64.rpm"
-RPM_HASH = "0ee2ff5a735b884dcc3625b255bdd67c2e1682110ceeffba262b43a1b073719c03ad20bb9cd2163aadbeda00cbc44e227d681e0209d015d5e14d475e89ce18cb"
+RPM_NAME = "poezio-0.18-1.3.aarch64.rpm"
+RPM_HASH = "5404a449d6704e350976559a523c7ee031b569649977e1ea36ca180001003ab65ca45aac4afbbce2c2f21f6c31920c5c03950c0ec009a6101c73685336e77b47"
 
 RPROVIDES:${PN} += "poezio \
-python3.11dist-poezio \
+python3.13dist-poezio \
 python3dist-poezio"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 python-abi \

@@ -3,17 +3,17 @@ DESCRIPTION = "Audaspace (pronounced 'outer space') is a high-level audio librar
 This package contains the Sndfile plugin"
 LICENSE = "Apache-2.0"
 
-PV = "1.4.0"
+PV = "1.10.0"
 
-RPM_NAME = "audaspace-plugin-sndfile-1.4.0-1.5.aarch64.rpm"
-RPM_HASH = "5890ea6f917ae423eeb5b9694bb0131aa362bd6744f41b4917e6e0f674f4f4f90128624385ab09f11601cc6efc4da8e89fc5c66477b32fa756b733a0b851616e"
+RPM_NAME = "audaspace-plugin-sndfile-1.10.0-1.1.aarch64.rpm"
+RPM_HASH = "01d8f329664f5cbc3268c61b4cd8841c1fb8ef711bbfc3bfe4deb815da5efcb8307d3db29e05fa66ec226dce1613d58581eb0dc8871a139d36fc28c0903d92a1"
 
 RPROVIDES:${PN} += "audaspace-fileplugin \
 audaspace-plugin-sndfile \
 libaudlibsndfile.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libaudaspace.so.1.4 \
+libaudaspace.so.1.10 \
 libc.so.6 \
 libgcc-s.so.1 \
 libsndfile.so.1 \

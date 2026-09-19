@@ -2,19 +2,20 @@ SUMMARY = "Haskell zlib library development files"
 DESCRIPTION = "This package provides the Haskell zlib library development files."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3.0"
+PV = "0.7.1.1"
 
-RPM_NAME = "ghc-zlib-devel-0.6.3.0-4.2.aarch64.rpm"
-RPM_HASH = "9c65e3ca954aefa9fb2651d1e4020f1d7fde5176d247f26f2887fdd4d454c0dca052edd83ce148b7f21c05c0e2b42996729862d6d312ef86be1d8f2fffce24c6"
+RPM_NAME = "ghc-zlib-devel-0.7.1.1-1.9.aarch64.rpm"
+RPM_HASH = "4733d0913568a934e56af366bf71e7a55524c6a0209ecbd09c9131b0b440f841d610f8354340c719ae0d379dd3d25f7f3bb0ef53df1d05498b2cad206e166457"
 
-RPROVIDES:${PN} += "ghc-devel-zlib-0.6.3.0-ENQBvbHWSlQ4ss0TzRHRuj \
+RPROVIDES:${PN} += "ghc-devel-zlib-0.7.1.1-9wvDfX7JlnE99sTdZLYOpU \
 ghc-zlib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
 ghc-zlib \
-zlib-devel"
+pkgconfig \
+pkgconfig-zlib"
 
 inherit rpm

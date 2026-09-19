@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides development libraries and headers needed to
 software using FreeImage."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "3.18.0"
+PV = "3.18.0.1909"
 
-RPM_NAME = "freeimage-devel-3.18.0-6.4.aarch64.rpm"
-RPM_HASH = "333e0a28678e47794e78d728f11187579c5bbfd98f4ab5fe0e2891a423f7d61d789c551cbf28493ef4f7e5613ccbae3ed3b13304da3fc16c7df877420c4f4e60"
+RPM_NAME = "freeimage-devel-3.18.0.1909-2.17.aarch64.rpm"
+RPM_HASH = "48c607986d5b280cb4050101077273f5a330f1347ca5286885ac53443aba23beeefc9863d96b026599ad292588f6d9b9d34745a1d53fc4dae133d3eb026dd5e5"
 
 RPROVIDES:${PN} += "freeimage-devel \
 libfreeimage-devel"

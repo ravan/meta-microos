@@ -2,10 +2,10 @@ SUMMARY = "Kannada localization files for LibreOffice"
 DESCRIPTION = "Provides Kannada translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-kn-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "f2d8c57de9d2e10473337d40fc9c64fad8e6836116baa058335b56cf2ca17eb6380b4a21f96f5e1d22889186348e4c5075a2c58e6901024fa78ae0136aa1267b"
+RPM_NAME = "libreoffice-l10n-kn-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "a9633caea8fc321fba62914df4970414ff688dc33a12b811d68c86130ec12f8321db568d8170f1d8ab707c35c058d550152580a4ea5b55c5a4aca7c591237abe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-kn \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fixfoot"
 DESCRIPTION = "This package includes the documentation for texlive-fixfoot"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn17131"
+PV = "2026.226.0.0.3asvn77682"
 
-RPM_NAME = "texlive-fixfoot-doc-2023.209.0.0.3asvn17131-53.1.noarch.rpm"
-RPM_HASH = "30d06a04ed3f27cfcba7bb9d10cf7abf449e9120bb9c7f4a4631b70616d4ae1068855b5df6181a0bbfd24d2446a9f90c174b99e00a07990b83c108da1cb03f16"
+RPM_NAME = "texlive-fixfoot-doc-2026.226.0.0.3asvn77682-59.2.noarch.rpm"
+RPM_HASH = "2888cd84432f8f5917c295b43f133ce0c1d229ec7e70df4f09521c6e0810e6e1ff863029aae53daab0070dd5a94969282b793015335b7943920e494da51906d5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fixfoot-doc"

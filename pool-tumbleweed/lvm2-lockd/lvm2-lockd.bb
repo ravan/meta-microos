@@ -2,10 +2,10 @@ SUMMARY = "LVM locking daemon"
 DESCRIPTION = "LVM commands use lvmlockd to coordinate access to shared storage."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16"
+PV = "2.03.38"
 
-RPM_NAME = "lvm2-lockd-2.03.16-8.1.aarch64.rpm"
-RPM_HASH = "9a6552da89d124cdaa3307854010c1ea258c63df76493b5e99ea143098b3d33e3f125945d10c70e6a0839e4dc88fdc25df72308998daf0fe38e28cbef77d6806"
+RPM_NAME = "lvm2-lockd-2.03.38-2.6.aarch64.rpm"
+RPM_HASH = "5a37dd36fc35ed82864a95a74fedd4cf66a3d5259f43446a490ae550e8382b72b546ebe6a84f51b78bc05caae145447ffd69fd7fc68d5a2700800ad7de6134eb"
 
 RPROVIDES:${PN} += "lvm2-lockd"
 

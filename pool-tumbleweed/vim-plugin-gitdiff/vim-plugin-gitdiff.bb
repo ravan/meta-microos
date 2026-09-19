@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2"
 
-RPM_NAME = "vim-plugin-gitdiff-2-56.1.noarch.rpm"
-RPM_HASH = "569818b7658a93d08dcbe97cb70118935b631313759fe17fb1effe5baf57c1062a336fbc27184ffa1a65fd010ff131eb13f4dbf0dd4567c2b632e475809ccd86"
+RPM_NAME = "vim-plugin-gitdiff-2-64.2.noarch.rpm"
+RPM_HASH = "d21b850b550b5cba3c49dee0b7cd812451956bbbab5475b8089f4db4c6a5eaa22a7a7f7af43aa8e0a1d0c086ef7ef73a17cb9f2aaeed6989a0f47032ca39eb4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-gitdiff"

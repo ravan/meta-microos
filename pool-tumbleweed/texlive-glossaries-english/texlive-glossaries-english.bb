@@ -2,10 +2,10 @@ SUMMARY = "English language module for glossaries package"
 DESCRIPTION = "English language module for glossariesr package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn35665"
+PV = "2026.226.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-english-2023.209.1.0svn35665-54.2.noarch.rpm"
-RPM_HASH = "b32c02877238d2e30cea2d6f8fab9c76b0c8414b5d67bbad28de69eb28de4176d56f327fe93ab776bb500adbf439b143dbbfcad76aafbf14738cb7a04f2e9cae"
+RPM_NAME = "texlive-glossaries-english-2026.226.1.0svn35665-60.4.noarch.rpm"
+RPM_HASH = "65604e6a5be99116d1b02777419117c3782abfd8b952428aa80974290e1b6f41a6fb68e6c9c41d1fb48a05ca00f74dca47ce94861ecc56b88849701530eb25ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-english.ldf \

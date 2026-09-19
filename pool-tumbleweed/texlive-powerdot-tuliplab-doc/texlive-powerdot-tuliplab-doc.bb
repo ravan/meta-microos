@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-powerdot-tuliplab"
 DESCRIPTION = "This package includes the documentation for texlive-powerdot-tuliplab"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0svn47963"
+PV = "2026.226.1.0.0svn47963"
 
-RPM_NAME = "texlive-powerdot-tuliplab-doc-2023.209.1.0.0svn47963-53.1.noarch.rpm"
-RPM_HASH = "5c64a5efc7edd3bcf450e111e1d74ae7eebc7b9fcbfcdc2955a3874bf876659529b08304924b89c86ebd94b8c5ccb2d84af33dd6ebf988cc5aae8f12a982e2be"
+RPM_NAME = "texlive-powerdot-tuliplab-doc-2026.226.1.0.0svn47963-59.2.noarch.rpm"
+RPM_HASH = "ba3a6cd45cdca80719184a44093ab0fedd553353445490510d2755311f17a85640cce2a581076012410860dc6b8d5f6a0ee49bc6862cd743e95dd17b0c2ccee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-powerdot-tuliplab-doc"

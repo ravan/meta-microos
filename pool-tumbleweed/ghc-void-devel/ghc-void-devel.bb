@@ -2,17 +2,17 @@ SUMMARY = "Haskell void library development files"
 DESCRIPTION = "This package provides the Haskell void library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.3"
+PV = "0.7.4"
 
-RPM_NAME = "ghc-void-devel-0.7.3-6.3.aarch64.rpm"
-RPM_HASH = "948608ce3aac257de497b1bb3a6088b373fe41ca057e35dfa074f02baa173427bcc31bf2de47b1b2e77dc2824baa3a9fed59888b823ec6576ad683395a27d4f9"
+RPM_NAME = "ghc-void-devel-0.7.4-1.7.aarch64.rpm"
+RPM_HASH = "d9cc23a428cacb859d1b0038f000f68287f9629142a783df42c424e4f67cbfa75b2baa2d1c28409fb4938656be71bd050bb322c4de95e0249f92f8ce43b70c3c"
 
-RPROVIDES:${PN} += "ghc-devel-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0 \
+RPROVIDES:${PN} += "ghc-devel-void-0.7.4-18r3xgdXbMHk4AqCF5SgT \
 ghc-void-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
+ghc-devel-base-4.21.2.0-8844 \
 ghc-void"
 
 inherit rpm

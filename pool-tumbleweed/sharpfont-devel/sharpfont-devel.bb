@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "4.0.1"
 
-RPM_NAME = "sharpfont-devel-4.0.1-1.8.noarch.rpm"
-RPM_HASH = "555cd2d3a116a56715f9ece080e4b300b92aa5f1b2a6159aab6eb18aa7702e92d15edeedd3af8d93114ead78f38a2f64af7e8c901c310a9697fa4182e993650b"
+RPM_NAME = "sharpfont-devel-4.0.1-1.15.noarch.rpm"
+RPM_HASH = "1bb1cd38c291ddb3107fde1c74d0d8ca6efbccb1dee31aeabcb03886c78eaff2438f45d395a7950ce3278451e89c9f6ee5fd01852cf05bb0b83bd6af5d59931d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pkgconfig-sharpfont \

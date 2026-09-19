@@ -11,10 +11,10 @@ spelling of '16', '17', and '19'. The package requires expl3 \
 and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51640"
+PV = "2026.226.1.0svn76924"
 
-RPM_NAME = "texlive-numberpt-2023.209.1.0svn51640-55.1.noarch.rpm"
-RPM_HASH = "22cc99a34a8026ec6d6b44f47c309af195815829b411cf55107b78226bae543111ee67323564b507127a794c5c4a52c22da995a75af4c58f0c3d2de1199487ed"
+RPM_NAME = "texlive-numberpt-2026.226.1.0svn76924-61.2.noarch.rpm"
+RPM_HASH = "b0be4596240f25bfe4819a2f9651df6d562f548601a979671aa8ca98d8f4f7c5af4734a4119a18a071991d6bcc833375d15ff4f1eea6e23405c010e1ce8f0b57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-numberpt.sty \

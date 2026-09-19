@@ -3,10 +3,10 @@ DESCRIPTION = "Library to provide Windows NT data type support for the libyal fa
 libyal is typically used in digital forensic tools."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220105"
+PV = "20260703"
 
-RPM_NAME = "libcdirectory1-20220105-2.7.aarch64.rpm"
-RPM_HASH = "956dc045e433eac08587d34110213d640a2374ad03e6cf9e3335d0214d3c110efaf7a9b3de1503081150336b83c84ccd949f91cb8e994cb43189acf926f3a310"
+RPM_NAME = "libcdirectory1-20260703-1.2.aarch64.rpm"
+RPM_HASH = "91701033e980125c1ad00d980a2466bf65ccfd7a0f55d02d76b4f5d195562890cd69adad92f7d88c79e43b8236260930cb92f83ec591965b766cd1cd50c83d3c"
 
 RPROVIDES:${PN} += "libcdirectory.so.1 \
 libcdirectory1"

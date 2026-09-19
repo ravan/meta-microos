@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides the language definition file for support \
 of Latvian in babel."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0bsvn46681"
+PV = "2026.226.2.0csvn71108"
 
-RPM_NAME = "texlive-babel-latvian-2023.209.2.0bsvn46681-54.1.noarch.rpm"
-RPM_HASH = "d4235163e8eb7f5bce08679a005a72d14479d761183ede69ed99366f1e4a4feef5cf212accc5df45e0c7ac7c7f6fd4e159c21d46e749f527f72ec8cde3d79dfe"
+RPM_NAME = "texlive-babel-latvian-2026.226.2.0csvn71108-60.2.noarch.rpm"
+RPM_HASH = "12019677769a102bdb61b5fc9190e2e155d85468c1578e906041c6883426a73d7ece35e56e43dcf70e036471e758d9cd90473da6f7d62a78e4a20d70ea7156ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latvian.ldf \

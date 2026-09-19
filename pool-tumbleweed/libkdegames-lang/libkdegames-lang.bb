@@ -2,16 +2,17 @@ SUMMARY = "Translations for package libkdegames"
 DESCRIPTION = "Provides translations for the 'libkdegames' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkdegames-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0a7e60c236d464717c636e15fbc2db908abaa6542a01052d7068f996e24ee8a3a746ad08a5b014a80b8ac4047a53fc6c46bbd1060938fb53cee776e68c7333bf"
+RPM_NAME = "libkdegames-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "395e6fd1bb9dda2658f56b8450d990d926a271241de01231d5548e095b88b2f05e46522c267edcbdf7029742b8fbff6919c76e210f8cf780ecd53b19f9d31c21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkdegames-lang \
 libkdegames-lang-all \
 locale-libkdegames-af \
 locale-libkdegames-ar \
+locale-libkdegames-ast \
 locale-libkdegames-be \
 locale-libkdegames-bg \
 locale-libkdegames-bn \
@@ -38,6 +39,7 @@ locale-libkdegames-he \
 locale-libkdegames-hi \
 locale-libkdegames-hr \
 locale-libkdegames-hu \
+locale-libkdegames-ia \
 locale-libkdegames-id \
 locale-libkdegames-is \
 locale-libkdegames-it \

@@ -9,24 +9,22 @@ and query point cloud data. See Applications for more information. \
 This package provides tools & utilities using PDAL library libpdal"
 LICENSE = "Apache-2.0 & BSD-3-Clause & MIT & BSL-1.0"
 
-PV = "2.3.0"
+PV = "2.10.2"
 
-RPM_NAME = "PDAL-2.3.0-2.16.aarch64.rpm"
-RPM_HASH = "4760124e8d297bd8b81cb72bac73880e9179a4f3a67f3656a69017c500971702c040227ce9071d5025dd27fe7484f59a22fcfaea29f2c0522dae11253a565e41"
+RPM_NAME = "PDAL-2.10.2-1.1.aarch64.rpm"
+RPM_HASH = "b697822e37355a53df95b3e4e83b70b22cbb5bb42737cba521795c000405cfd0155687ec1a58017c138e5230fac2b49d08b6e1cc3eadd49be31c1315f27b8298"
 
 RPROVIDES:${PN} += "PDAL \
 bundled-PoissonRecon \
 bundled-arbiter \
 bundled-nanoflann \
-bundled-nlohmann \
 pdal"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libPDAL13 \
+libPDAL20 \
 libc.so.6 \
 libgcc-s.so.1 \
-libpdal-base.so.13 \
-libpdal-util.so.13 \
+libpdalcpp.so.20 \
 libstdc++.so.6"
 
 inherit rpm

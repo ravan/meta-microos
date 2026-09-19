@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides Linux kernel headers for m68k, the kernel A
 required for compilation of almost all programs."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "cross-m68k-linux-glibc-devel-6.4-1.1.noarch.rpm"
-RPM_HASH = "34c9601c575764d3d50f558c518821cc63aa927b901c68642af3260bd728a8c5daea09c46cf1622ed6341404122d9570291de51fd2d3bda878ce137ac960d0b8"
+RPM_NAME = "cross-m68k-linux-glibc-devel-7.2-2.1.noarch.rpm"
+RPM_HASH = "5772969f52570efa9c946f1726d548883ff30e66de94b6da6e6ac10d7551788ed7411e86290f6402aaeb2ca950fcc5da8e5f215db92fabfcf0109017eda0f746"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-m68k-linux-glibc-devel"

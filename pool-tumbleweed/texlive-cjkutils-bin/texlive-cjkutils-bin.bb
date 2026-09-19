@@ -2,10 +2,10 @@ SUMMARY = "Binary files of cjkutils"
 DESCRIPTION = "Binary files of cjkutils"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn65877"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-cjkutils-bin-2023.20230311.svn65877-93.2.aarch64.rpm"
-RPM_HASH = "9ac63bda5d4f560298eef52d8f0be7af285fcbb76f0dd8e34a492c5d57ee96406a30a3bf5e63afeeaa4a0b0ddb16615638734c3a87155df676d053267e5f0b3c"
+RPM_NAME = "texlive-cjkutils-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "3d3f5d111d4c632a3a070a4cdc6e26a6ab337d348d9554cf28d9257a132eebfb6488aaaf450778a3b19de6523bdfad5152544a463e06c45b62388f4eda9edcea"
 
 RPROVIDES:${PN} += "texlive-cjkutils-bin"
 

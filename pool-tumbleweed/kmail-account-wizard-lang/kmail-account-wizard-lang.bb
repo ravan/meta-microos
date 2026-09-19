@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kmail-account-wizard"
 DESCRIPTION = "Provides translations for the 'kmail-account-wizard' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmail-account-wizard-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "98f3c254c2f020cf7bdfd65508c2822fe06043766177b53b4c6206cb12b56d0f1aeb7d9530544224419bfef9a515837d45b176e9929bc55419daec78cc431528"
+RPM_NAME = "kmail-account-wizard-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "2dcba59822b40d9385204514ed95a92fc8c9c644129be35f4c2ccc5a3e0a6708b0fe0a45649f1c454be4d4f8994867385dc2bcafa99bbb0a6d49c355473efff4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmail-account-wizard-lang \
 kmail-account-wizard-lang-all \
 locale-kmail-account-wizard-ar \
+locale-kmail-account-wizard-ast \
 locale-kmail-account-wizard-az \
 locale-kmail-account-wizard-bg \
 locale-kmail-account-wizard-bs \
@@ -30,6 +31,7 @@ locale-kmail-account-wizard-fr \
 locale-kmail-account-wizard-ga \
 locale-kmail-account-wizard-gl \
 locale-kmail-account-wizard-he \
+locale-kmail-account-wizard-hi \
 locale-kmail-account-wizard-hu \
 locale-kmail-account-wizard-ia \
 locale-kmail-account-wizard-it \

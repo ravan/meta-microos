@@ -2,10 +2,10 @@ SUMMARY = "Check SMTP connections"
 DESCRIPTION = "This plugin will attempt to open an SMTP connection with the given host."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-smtp-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "e972898fc20882e3b64a02cc67e0bbaad70b868f5ce90ed303fa68ea6584e193b5ac0c8e898fa8252618f9990effa83c161bf9200c812d0aef741b6ca5fc724c"
+RPM_NAME = "monitoring-plugins-smtp-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "a384d78a07bad3d25b57918b46b632b7b333b51c17ddfd13fb581269b9771fac982225c4b7249ba42c9dd3669ac6a404a6db327fe927290da7979b3931d907f7"
 
 RPROVIDES:${PN} += "monitoring-plugins-smtp \
 nagios-plugins-smtp"

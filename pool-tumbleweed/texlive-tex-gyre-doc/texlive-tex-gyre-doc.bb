@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tex-gyre"
 DESCRIPTION = "This package includes the documentation for texlive-tex-gyre"
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.2.501svn65956"
+PV = "2026.227.2.501svn68624"
 
-RPM_NAME = "texlive-tex-gyre-doc-2023.209.2.501svn65956-55.1.noarch.rpm"
-RPM_HASH = "e781f23b830e9e4419a5fc3acf2b26d84e4c812683d378e280987ecea5e0abbf7c9acce54b05ff690c8d88636afad94694413656378bdd01b4abf9c4cf9ab944"
+RPM_NAME = "texlive-tex-gyre-doc-2026.227.2.501svn68624-62.2.noarch.rpm"
+RPM_HASH = "78e6a52a6d751ffbb9eee4f4f52a3fbc4a9656fe59c02c7df10874c3357f6213375dc9f3e216a402a6041717b6d4a12d0f7e661cec3866fe3e2d1ca098fa5a99"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-gyre-doc"

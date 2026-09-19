@@ -1,11 +1,12 @@
 SUMMARY = "SDR DSP primitives"
-DESCRIPTION = "A library with SDR DSP primitives"
+DESCRIPTION = "libosmo-dsp is a C language library for common DSP (Digital \
+Signal Processing) primitives for SDR (Software Defined Radio)."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.0"
+PV = "0.5.0"
 
-RPM_NAME = "libosmodsp0-0.4.0-1.19.aarch64.rpm"
-RPM_HASH = "c331b17804aeea749e7e9b4f0769bf9b533ecdc4b8e492c14b5548047da266fc7063d41f51abe9e773235884656ed94a784a78bf131ec74b5fdc01dc416eb733"
+RPM_NAME = "libosmodsp0-0.5.0-2.3.aarch64.rpm"
+RPM_HASH = "849ecc3324d2a6862e25ae8f5ec97a17e38b8632907be044cc71ecb6e301edc9fb80ea2152293a352f5fc25eb15b828eaeaa440ca1377c5c6a8b3d5402db9f61"
 
 RPROVIDES:${PN} += "libosmodsp.so.0 \
 libosmodsp0"
@@ -13,6 +14,8 @@ libosmodsp0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfftw3f.so.3"
+libfftw3f.so.3 \
+libm.so.6 \
+libmvec.so.1"
 
 inherit rpm

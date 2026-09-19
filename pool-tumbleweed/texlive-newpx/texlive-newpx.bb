@@ -8,18 +8,20 @@ packages newtxmath, pxfonts, and TeXGyrePagella be installed \
 and their map files enabled."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.505svn61806"
+PV = "2026.226.1.551svn77682"
 
-RPM_NAME = "texlive-newpx-2023.209.1.505svn61806-55.1.noarch.rpm"
-RPM_HASH = "60c2d55db2b92ab8c4c953dc151630f6b953bf10a75ab6fa34a63436ef2ff507914133b5d5fdcc3060881efb6c491a258e6bf84cb10f2cba40cb1bdd03de47d3"
+RPM_NAME = "texlive-newpx-2026.226.1.551svn77682-61.2.noarch.rpm"
+RPM_HASH = "ab68909a0e421144af51094ce31a654da8927c91857c234f6ffdd186ecb62f61a6877a6e0a26383574196b798fe2f4e959751043b81b4ca767edbda7faa403d1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-NewPXBMI-gnu.tfm \
+RPROVIDES:${PN} += "tex-NewPXBBMI.tfm \
+tex-NewPXBMI-gnu.tfm \
 tex-NewPXBMI.tfm \
 tex-NewPXMI-gnu.tfm \
 tex-NewPXMI.tfm \
 tex-lmsnpxsy.fd \
 tex-lmxnpxexx.fd \
+tex-ly1minzpl.fd \
 tex-ly1npxtt.fd \
 tex-ly1zpldnom.fd \
 tex-ly1zplinf.fd \
@@ -35,6 +37,7 @@ tex-ly1zpltlf.fd \
 tex-ly1zpltosf.fd \
 tex-newpx-subs.tex \
 tex-newpx.map \
+tex-newpx.sty \
 tex-newpxmath.sty \
 tex-newpxtext.sty \
 tex-npxdnom-LY1.enc \
@@ -61,7 +64,9 @@ tex-npxsups-Regular-ly1.tfm \
 tex-npxsups-Regular-ot1.tfm \
 tex-npxsups-Regular-t1.tfm \
 tex-npxsups-T1.enc \
+tex-npxsups-TS1.enc \
 tex-omlnpxmi.fd \
+tex-ot1minzpl.fd \
 tex-ot1npxtt.fd \
 tex-ot1zpldnom.fd \
 tex-ot1zplinf.fd \
@@ -75,10 +80,13 @@ tex-ot1zplth-tlf.fd \
 tex-ot1zplth-tosf.fd \
 tex-ot1zpltlf.fd \
 tex-ot1zpltosf.fd \
+tex-px-lms.enc \
+tex-pxb-lms.enc \
 tex-pxbmiaX.tfm \
 tex-pxbsys.tfm \
 tex-pxmiaX.tfm \
 tex-pxsys.tfm \
+tex-t1minzpl.fd \
 tex-t1npxtt.fd \
 tex-t1zpldnom.fd \
 tex-t1zplinf.fd \
@@ -97,6 +105,8 @@ tex-tgpdiff.enc \
 tex-ts1npxtt.fd \
 tex-ts1zpllf.fd \
 tex-ts1zplosf.fd \
+tex-ts1zplsups.fd \
+tex-ts1zplsups1.fd \
 tex-ts1zpltlf.fd \
 tex-ts1zpltosf.fd \
 tex-unpxexa.fd \
@@ -352,6 +362,9 @@ tex-zplTOsF-Italic-ts1.tfm \
 tex-zplTOsF-Regular-ts1.tfm \
 tex-zplTOsF-Slanted-ts1.tfm \
 tex-zplb-x.tfm \
+tex-zplbbmi.tfm \
+tex-zplbbmi.vf \
+tex-zplbbmi1.vf \
 tex-zplbexa.tfm \
 tex-zplbexa.vf \
 tex-zplbexx.tfm \
@@ -365,7 +378,6 @@ tex-zplbmi1.vf \
 tex-zplbmia.tfm \
 tex-zplbmia.vf \
 tex-zplbsy.tfm \
-tex-zplbsy.vf \
 tex-zplbsyc.tfm \
 tex-zplbsyc.vf \
 tex-zplbsym.tfm \
@@ -438,17 +450,29 @@ tex-zplsubs-Slanted-t1.tfm \
 tex-zplsups-Bold-ly1.tfm \
 tex-zplsups-Bold-ot1.tfm \
 tex-zplsups-Bold-t1.tfm \
+tex-zplsups-Bold-ts1.tfm \
 tex-zplsups-BoldItalic-ly1.tfm \
 tex-zplsups-BoldItalic-ot1.tfm \
 tex-zplsups-BoldItalic-t1.tfm \
+tex-zplsups-BoldItalic-ts1.tfm \
+tex-zplsups-BoldSlanted-ly1.tfm \
+tex-zplsups-BoldSlanted-ot1.tfm \
+tex-zplsups-BoldSlanted-t1.tfm \
+tex-zplsups-BoldSlanted-ts1.tfm \
 tex-zplsups-Italic-ly1.tfm \
 tex-zplsups-Italic-ot1.tfm \
 tex-zplsups-Italic-t1.tfm \
+tex-zplsups-Italic-ts1.tfm \
 tex-zplsups-Regular-ly1.tfm \
 tex-zplsups-Regular-ot1.tfm \
 tex-zplsups-Regular-t1.tfm \
+tex-zplsups-Regular-ts1.tfm \
+tex-zplsups-Slanted-ly1.tfm \
+tex-zplsups-Slanted-ot1.tfm \
+tex-zplsups-Slanted-t1.tfm \
+tex-zplsups-Slanted-ts1.tfm \
+tex-zplsups-ts1.enc \
 tex-zplsy.tfm \
-tex-zplsy.vf \
 tex-zplsyc.tfm \
 tex-zplsyc.vf \
 tex-zplsym.tfm \
@@ -564,14 +588,15 @@ findutils \
 grep \
 sed \
 tex-amsmath.sty \
+tex-amsthm.sty \
 tex-centernot.sty \
 tex-etoolbox.sty \
 tex-fontaxes.sty \
 tex-fontenc.sty \
 tex-fontspec.sty \
-tex-ifluatex.sty \
+tex-iftex.sty \
 tex-ifthen.sty \
-tex-ifxetex.sty \
+tex-kvoptions.sty \
 tex-mweights.sty \
 tex-ntxbexa.tfm \
 tex-ntxbexx.tfm \
@@ -583,16 +608,17 @@ tex-ntxsyc.tfm \
 tex-ntxsym.tfm \
 tex-pxbmi.tfm \
 tex-pxbmi1.tfm \
-tex-realscripts.sty \
 tex-scalefnt.sty \
 tex-stxscr.tfm \
 tex-textcomp.sty \
-tex-txbex-bar.tfm \
+tex-trimspaces.sty \
 tex-txbmiaSTbb.tfm \
-tex-txex-bar.tfm \
 tex-txmiaSTbb.tfm \
+tex-unicode-math.sty \
 tex-updmap.cfg \
+tex-xcolor.sty \
 tex-xkeyval.sty \
+tex-xpatch.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

@@ -6,13 +6,17 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.1"
 
-RPM_NAME = "octave-forge-level-set-0.3.1-1.10.noarch.rpm"
-RPM_HASH = "42fcc7cec2cec6cbdf09a95bc7783fb01cf9187cb44470edaa9bf3f6315fa97d421e345a3b6739a1393f75b4024b10d0269771024d6149369cc737bf142755c3"
-REPO_ARCH = "noarch"
+RPM_NAME = "octave-forge-level-set-0.3.1-2.6.aarch64.rpm"
+RPM_HASH = "cbaf8fbba279bf9db1f49a254ad01bf78a15da072ae89574061d9e976848c56405a812391af17d2e4fbe8c6968ddc8edf7534cf23c7672185a25ea881c2a160b"
 
 RPROVIDES:${PN} += "octave-forge-level-set"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+libc.so.6 \
+libgcc-s.so.1 \
+libm.so.6 \
+libstdc++.so.6 \
+octave-api-v61 \
 octave-cli \
 octave-forge-parallel"
 

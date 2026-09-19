@@ -10,10 +10,10 @@ used once, the command \
 used to provide several tables."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4csvn59837"
+PV = "2026.226.1.4dsvn77682"
 
-RPM_NAME = "texlive-tableof-2023.209.1.4csvn59837-58.1.noarch.rpm"
-RPM_HASH = "3eed3b2e3f5d86db0781f472c1c08ea1fc21b390c579023698aa311eb245cb7a8d64f411eec4c54011cb2fe536a1e99b0455563d0ac651e084095c3c38efd0ec"
+RPM_NAME = "texlive-tableof-2026.226.1.4dsvn77682-64.2.noarch.rpm"
+RPM_HASH = "f57aeace5ab9010bb6ccd10f901f1788815199541d3ca352c12f493579ee80419325e162505c97da5068fdafbd9a73fe67e9d7d1b97848abade32aa9332696c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tableof.sty \

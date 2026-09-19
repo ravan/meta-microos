@@ -5,10 +5,10 @@ poetry and balladry texts of the Diwany Vafaiy, Ahmedy Xani, \
 Naly, Mahwy,.... The package needs to be run under XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47518"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-kurdishlipsum-2023.209.1.1svn47518-56.1.noarch.rpm"
-RPM_HASH = "ceeb9341b2761d13d02b4a1c2ca7225eb505ab7caeabd26263fa772167b9c0b106677e407757cd528b9ec713c79e01e10d58822d4862aa2cf7c2b173f1563b98"
+RPM_NAME = "texlive-kurdishlipsum-2026.226.1.1svn77682-63.2.noarch.rpm"
+RPM_HASH = "0d52c1f8814229bfc2b8e2139856ab33c81f07d4f1cc45b3a515a7918805f80f7cbd320f4ad804d8f92faa9942421209eee89a9f2548285aeb9f20aeaf0db147"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kurdishlipsum.sty \

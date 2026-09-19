@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-grant"
 DESCRIPTION = "This package includes the documentation for texlive-grant"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.5svn56852"
+PV = "2026.226.0.0.0.5svn56852"
 
-RPM_NAME = "texlive-grant-doc-2023.209.0.0.0.5svn56852-54.2.noarch.rpm"
-RPM_HASH = "a7b80254aeff6e7a4e7d0b3ccccd46f157d147d1dab4e4f8c03428ef71b7b7d0b93fef68133b8a27285a617f0fdc3b2e80ae50566983820eb72daf0241006f77"
+RPM_NAME = "texlive-grant-doc-2026.226.0.0.0.5svn56852-60.4.noarch.rpm"
+RPM_HASH = "d0d39bbf30b8544851bb7553ec3e030410316de6b12e0175e531e591730883fae00e11b785e8442c75302d576680c6c21e85d8714c49ab3f4fdd0daa8dd10b74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-grant-doc"

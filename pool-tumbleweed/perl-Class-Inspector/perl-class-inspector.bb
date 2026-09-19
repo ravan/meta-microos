@@ -6,16 +6,16 @@ wizardry, or strange and unusual looking code. Class::Inspector attempts to \
 provide an easier, more friendly interface to this information."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.36"
+PV = "1.360.0"
 
-RPM_NAME = "perl-Class-Inspector-1.36-1.17.noarch.rpm"
-RPM_HASH = "5a80fff9474050d24af7f6ad8d88aa1d5efc9b6cfd7f89751668ebcd34ea14fb1ab2c13d5983865a6e8bbe0c69e6704c825df589245e9cd6b6b69393743ffc40"
+RPM_NAME = "perl-Class-Inspector-1.360.0-1.7.noarch.rpm"
+RPM_HASH = "5cb070cf50c7ab94043a427f4cbbb109f68b3e896f8d37121f78265fec8f2988973deae77350577f178cc0786c298dd06891c2276306146628a878a66db6fae2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Inspector \
 perl-Class--Inspector--Functions \
 perl-Class-Inspector"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

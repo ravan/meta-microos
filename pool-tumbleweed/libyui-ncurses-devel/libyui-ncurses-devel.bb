@@ -6,10 +6,10 @@ This package is not needed to develop libyui-based applications, \
 only to develop extensions for libyui-ncurses."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-ncurses-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "dd8ebd0f679b6cfa2df21c31d04c3d3fa11393db6f4187f07532000da5bb4b6942a9bdc6ce65b7a4272ae07565d481f4f16b1e9262df52819fc705993f51ad3d"
+RPM_NAME = "libyui-ncurses-devel-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "dbb6c8facf1069411544454eb2df1f3b9d1aa836ecfab26b1656769da4c9d7372f151c881938da47289be99398f870bcf5f100e71adb0ced2f78e3883a71c262"
 
 RPROVIDES:${PN} += "libyui-ncurses-devel \
 pkgconfig-libyui-ncurses"

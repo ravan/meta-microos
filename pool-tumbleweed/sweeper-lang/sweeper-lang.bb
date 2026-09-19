@@ -2,14 +2,15 @@ SUMMARY = "Translations for package sweeper"
 DESCRIPTION = "Provides translations for the 'sweeper' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "sweeper-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "89b956352fad22a678e65542dbfa168798fe555c460484bc029c1979f815c98dca11c3b2c432be2ec00c161f27aaca941f91397dad33f5960cecd15dbc3c1220"
+RPM_NAME = "sweeper-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "dd9cd1df058cc5c98ab8aa140ba7a578c128f4cb9da3aafa487dff8308567c593494f5340ea2342651f24f64be9106d169f69c0c5a3e6ae40a95d1534aa642bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sweeper-af \
 locale-sweeper-ar \
+locale-sweeper-ast \
 locale-sweeper-be \
 locale-sweeper-bg \
 locale-sweeper-bn \

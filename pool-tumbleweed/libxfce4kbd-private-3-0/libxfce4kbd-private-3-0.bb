@@ -2,10 +2,10 @@ SUMMARY = "XFCE keyboard library for xfwm"
 DESCRIPTION = "The libxfce4kbd-private library provides helper functions for xfwm4."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.4"
+PV = "4.20.2"
 
-RPM_NAME = "libxfce4kbd-private-3-0-4.18.4-1.1.aarch64.rpm"
-RPM_HASH = "677d42bd2eebddb7a70e98bbb432c89c497ff2498ff1d42fc933a4509e7350db5e75b10507e88517e61dbafef8cb3df92a5a342d9cff6e72b99c69102da6906b"
+RPM_NAME = "libxfce4kbd-private-3-0-4.20.2-1.5.aarch64.rpm"
+RPM_HASH = "215e813c8039afc13ad562f52942c78a0f704043d5e953c49af7cd2808ed6350c7553a8f898f5d4208084bea9aa7e548ac8a6a6fe63db6cc0d598a908b4fce1e"
 
 RPROVIDES:${PN} += "libxfce4kbd-private-3-0 \
 libxfce4kbd-private-3.so.0"

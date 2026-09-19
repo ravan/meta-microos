@@ -3,10 +3,10 @@ DESCRIPTION = "pdfArticle is simple document class dedicated for creating pdf \
 documents with LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51127"
+PV = "2026.226.1.0svn51127"
 
-RPM_NAME = "texlive-pdfarticle-2023.209.1.0svn51127-52.1.noarch.rpm"
-RPM_HASH = "637ccdc59254a8cf0e741d9d37341c5accb496c42f75aa7e8116f96040314164c5c6d8fb4743c82bc43ab55f5597b2f78d30317ced2c19432cf2a401769566c2"
+RPM_NAME = "texlive-pdfarticle-2026.226.1.0svn51127-58.2.noarch.rpm"
+RPM_HASH = "6efcc20b9accc5430ffc084e736e595f781295613ff1d8e4809399727732271c43d4c1b01c74b6512efbad266564f6800dd60be48679aab84e2d0aafdff635c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfArticle.cls \

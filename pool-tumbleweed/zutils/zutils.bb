@@ -9,12 +9,13 @@ C++ programs. In particular the '--recursive' option is very efficient \
 in those utilities supporting it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.12"
+PV = "1.16"
 
-RPM_NAME = "zutils-1.12-1.4.aarch64.rpm"
-RPM_HASH = "fecc91b6c0eed787e7cb45fb0de60ffca739e95753b6e4b3602a1a5e0ee8f7d2560e116d8564cbb8fee827deab10700f003ff57a97a099a0d0cbaef8f186c3c4"
+RPM_NAME = "zutils-1.16-1.3.aarch64.rpm"
+RPM_HASH = "400c97b4c346e9fb6566ec28dacebadc3bb77fe739355cc2decec8f7782f00bd3e48dd90f799f54991574c0ee48a20f3033077778710a954df184a6ad31a8e3e"
 
-RPROVIDES:${PN} += "zutils"
+RPROVIDES:${PN} += "config-zutils \
+zutils"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \

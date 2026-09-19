@@ -2,14 +2,14 @@ SUMMARY = "Documentation for texlive-jupynotex"
 DESCRIPTION = "This package includes the documentation for texlive-jupynotex"
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.0.0.1svn56715"
+PV = "2026.226.1.1svn75037"
 
-RPM_NAME = "texlive-jupynotex-doc-2023.209.0.0.1svn56715-56.1.noarch.rpm"
-RPM_HASH = "d502bca4796983773e7faf075f3e008931b4ebcee47fdf3f43561afcb89a0c62ebf0d258dd2c5075f386198c7cb696cff2cb4b543b8205594247585277f779bd"
+RPM_NAME = "texlive-jupynotex-doc-2026.226.1.1svn75037-63.2.noarch.rpm"
+RPM_HASH = "993a505916e7eba6a00ba764566a5f6df5633634dd5de9a12152a48234f51556b391fdda715c378036883b2f929d2bd785a86c73351a8ddaf377d980aff6f03e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jupynotex-doc"
 
-RDEPENDS:${PN} += "/usr/bin/sh"
+RDEPENDS:${PN} += ""
 
 inherit rpm

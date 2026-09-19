@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-simplivre"
 DESCRIPTION = "This package includes the documentation for texlive-simplivre"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-simplivre-doc-2023.209.svn65475-58.1.noarch.rpm"
-RPM_HASH = "cc373bdc7f5dd6ff7b38eb16a78fb9ed614229a2ad1d199eadced9614869fe4a58c2bfd1ef1c03ac3f6df3e95be7e761ff47d4e1511aea60e66070bfcdd09806"
+RPM_NAME = "texlive-simplivre-doc-2026.226.svn78004-64.2.noarch.rpm"
+RPM_HASH = "a534001c2737e6e72cb8478243f09026b2459d12a1d26db92494176cc6465dfc0291d15c8051e40539e855a6f9cdbdcfeda04b75d300ad621221eb5c2a21678c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-simplivre-doc"

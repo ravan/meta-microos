@@ -12,10 +12,10 @@ only distributed as part of TeX Live, which includes a Windows \
 executable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.6.0svn62186"
+PV = "2026.227.0.0.6.0svn62186"
 
-RPM_NAME = "texlive-texdoctk-2023.209.0.0.6.0svn62186-55.1.noarch.rpm"
-RPM_HASH = "05b4fe401d9cefb361e26bb74bab8e0d62c80dbbd8d7717fde9285089440e361c9106b05653bdcb1f49a0f9983f090ae8eedefd2d8e66e9def5066ced30140c8"
+RPM_NAME = "texlive-texdoctk-2026.227.0.0.6.0svn62186-62.2.noarch.rpm"
+RPM_HASH = "ffcb75f5914f3d6262f8462ea1e57e2b27fe383244877fd61ad46a6075bf1b030ac5c49c545e61f091ef307f67b7d750519b7d4b22350882b09f77bafff22b42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-texdoctk.dat \

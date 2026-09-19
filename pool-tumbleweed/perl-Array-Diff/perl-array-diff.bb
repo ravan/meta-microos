@@ -8,16 +8,16 @@ Algorithm::Diff. \
 And if you need more complex array tools, check Array::Compare."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.09"
+PV = "0.90.0"
 
-RPM_NAME = "perl-Array-Diff-0.09-1.11.noarch.rpm"
-RPM_HASH = "f068d8b524a7ff73522392497e7917c49c7de84457c3790e8c885bc80070facf6186fe9e96e5247143d24cbd22ed03a53acdb156cc62becc3ebe128484d26417"
+RPM_NAME = "perl-Array-Diff-0.90.0-1.7.noarch.rpm"
+RPM_HASH = "bf0af1ecf08b7217efd396e60ace6a074bfe2f6bf27449e9ce3a3613d4e4c1f2a730c5a1f6892762ce6362f7b5a9f15443b7eadce005f449900756db062d9e29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Array--Diff \
 perl-Array-Diff"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Algorithm--Diff \
 perl-Class--Accessor--Fast"
 

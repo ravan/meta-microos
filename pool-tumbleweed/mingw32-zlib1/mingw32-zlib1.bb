@@ -5,10 +5,10 @@ which is being used by, for example, gzip and the ZIP archive \
 format."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.2"
 
-RPM_NAME = "mingw32-zlib1-1.2.13-3.2.noarch.rpm"
-RPM_HASH = "1d5d8a847cac6dc34424378e022ee45b9bce88fa992d6138fc349afd7f66f58d32cb5e1fe96e494e69298dd5d751f655bbdcb6574231fbdc115f02be459ab08e"
+RPM_NAME = "mingw32-zlib1-1.3.2-1.6.noarch.rpm"
+RPM_HASH = "a15c4f6ff036153ced8ff2c386d140f4378a3fcb6cb63b67473b0ed2a6c8656787c78571f19be376bbfac0a3224651e402048a31f2670bd531a521285b4eadd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-zlib \

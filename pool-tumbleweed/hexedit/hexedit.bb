@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.6"
 
-RPM_NAME = "hexedit-1.6-1.4.aarch64.rpm"
-RPM_HASH = "9dd2639ef78ca425e592bd1d46e9547f1338cd10f66475832bc884f00c5afee2caccd296f2a7dfc98208dc760719cdb2be17acad1df715069ecbc10ffae0a789"
+RPM_NAME = "hexedit-1.6-1.14.aarch64.rpm"
+RPM_HASH = "e9f3402118c0d3b258bbef068302f0df6ed10fadc3d172a51e523ec2b71a23b24a6ad78e72790b7d70b6a3dc6e45332ada4581bd4fa038a067ae956676bb2897"
 
 RPROVIDES:${PN} += "hexedit"
 

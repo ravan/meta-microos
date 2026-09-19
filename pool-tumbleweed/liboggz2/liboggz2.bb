@@ -7,10 +7,10 @@ based Annodex formats, thus allows parsing (though not decoding) of \
 these files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.1.1"
+PV = "1.1.3"
 
-RPM_NAME = "liboggz2-1.1.1-15.29.aarch64.rpm"
-RPM_HASH = "bff7341ccc40dd1bc7d260d2b94bb4a98145cf051cc40af4b18862d23e414ffabaceff617d143e64d329828dc36ad93759cc49860e3532b43ab4bcfde4d2378f"
+RPM_NAME = "liboggz2-1.1.3-2.4.aarch64.rpm"
+RPM_HASH = "6e4716267415265e17805176e7424d0a70a129848fe72804b8074f0947b37f3313fcbfdec84d76a63eabb4309317d7c34d43ac36eb19e354059b158fb889d7bc"
 
 RPROVIDES:${PN} += "liboggz.so.2 \
 liboggz2"

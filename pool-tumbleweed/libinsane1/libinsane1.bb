@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "libinsane1-1.0.10-1.1.aarch64.rpm"
-RPM_HASH = "93bd22b16a6aa5513fffaf01d8676fd0a5e2cc589c997e86d685f1e03978b458e969b19ced02b22410197314630513b9ec08deabbdea73a33f056f34e1ac9c39"
+RPM_NAME = "libinsane1-1.0.10-1.14.aarch64.rpm"
+RPM_HASH = "7e21a71a823fa293bcd4ad61ac43a72e3e803482a4f21a695aff4392ec8ef6943824046f0d3b1ad7f9a034372df7f90307eeb084a7e558680da1e0aa0766906b"
 
 RPROVIDES:${PN} += "libinsane.so.1 \
 libinsane1"

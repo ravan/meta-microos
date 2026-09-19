@@ -6,10 +6,10 @@ order of preference. This is accomplished with only the help of config files \
 and without the need to maintain system symlinks states."
 LICENSE = "Apache-2.0"
 
-PV = "1.2+30.a5431e9"
+PV = "2.0+0.4f22c01"
 
-RPM_NAME = "alts-1.2+30.a5431e9-1.1.aarch64.rpm"
-RPM_HASH = "42b958cb164c1a930dc58e3030eaf9ac982b6cae88cef7ee5e10a5db3d5f5fee150be8ebd4a64dc713d2fe97e5d399411b99f1853597c7a5639fa2c9c3688324"
+RPM_NAME = "alts-2.0+0.4f22c01-1.1.aarch64.rpm"
+RPM_HASH = "876f2a724eef29aefed819e1669e46d0c763d2fcece584e0033f5b89226ffcfd0c3d74a3267433381a42af53bff4e020427ba133d92fa7da00b09458704d60bf"
 
 RPROVIDES:${PN} += "alts"
 

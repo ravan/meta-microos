@@ -8,10 +8,10 @@ This subpackage contains the static version of the library \
 used for development."
 LICENSE = "Zlib"
 
-PV = "1.2.13"
+PV = "1.3.1"
 
-RPM_NAME = "zlib-devel-static-1.2.13-4.2.aarch64.rpm"
-RPM_HASH = "a353833b33ffa033446c4078184b341b407937fad43041d82ce55f83c63486b23ee781ae5006c7c33b5d14395410933b0cd98083391ed1fc243302411ab38434"
+RPM_NAME = "zlib-devel-static-1.3.1-3.3.aarch64.rpm"
+RPM_HASH = "ba93e82a057f1b4f3a176d7cba8637b3f6016dfea200245a7767df24df20aab0af27169babecc20b5840ede4c1c2eaa3547d2d7766b1615529f437c2fba150c1"
 
 RPROVIDES:${PN} += "zlib-devel-/usr/lib64/libz.a \
 zlib-devel-static"

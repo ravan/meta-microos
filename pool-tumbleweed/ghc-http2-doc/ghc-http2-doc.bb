@@ -2,10 +2,10 @@ SUMMARY = "Haskell http2 library documentation"
 DESCRIPTION = "This package provides the Haskell http2 library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.0.3"
+PV = "5.3.10"
 
-RPM_NAME = "ghc-http2-doc-3.0.3-2.14.noarch.rpm"
-RPM_HASH = "0692a61104897914cd92485d0cb0f84c30e0330498dbdb3297dd1b0be2ff1d7ab4f2bf744111fadce44cc5f26d6ba5fd68cca5458d976c6655a70fa3cd61c6e8"
+RPM_NAME = "ghc-http2-doc-5.3.10-2.9.noarch.rpm"
+RPM_HASH = "020d820ab80a874a0d960639b45bcdfce7e944ba49261ae8a2da5c52a035c5679ac27eacf922046540627e90b67b5443e9661f9f7a8f594eee4167bed3ad3932"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http2-doc"

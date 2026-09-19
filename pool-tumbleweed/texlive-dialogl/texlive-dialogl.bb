@@ -3,10 +3,10 @@ DESCRIPTION = "Gathers together a bunch of code and examples about how to \
 write macros to carry on a dialogue with the user."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28946"
+PV = "2026.226.svn28946"
 
-RPM_NAME = "texlive-dialogl-2023.209.svn28946-53.1.noarch.rpm"
-RPM_HASH = "0dd677a5727d276f9d48e2f7040b0a92fc074fd526c3af88a0533c63fc547fe3b34b9e6ac81f2e68c4641182fd128ab1d4e32eb478ac51be82f8f8bb2caa4c75"
+RPM_NAME = "texlive-dialogl-2026.226.svn28946-59.2.noarch.rpm"
+RPM_HASH = "055c2122554bcc34729a21aef74a487271255702de1a7cf148f894c52cc7e5dad99a2034ea8be3a63ab0772cd72814a739a86b609971b527fe2e314547b7c0b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dialog.sty \

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "qmlpluginexports-qt6-1.0-1.14.aarch64.rpm"
-RPM_HASH = "02ababd9002afc5ba1deb282bd78c880f66e48374d2466d4391f9f593070fe97b2e1ecb426f2d37ee554f5a6521fb9fc42f3d545570636b4fc667e0546f09953"
+RPM_NAME = "qmlpluginexports-qt6-1.0-1.46.aarch64.rpm"
+RPM_HASH = "24d06e5cec429256246498457cc28d72589f89899bd53be9babd797b819a4288b6009352030a1fa06e7fcae8ece69341c291bb81304dcf765123baad1674ac42"
 
 RPROVIDES:${PN} += "qmlpluginexports-qt6"
 

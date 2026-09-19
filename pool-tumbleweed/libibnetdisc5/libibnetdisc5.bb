@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the Infiniband Net Discovery runtime librar
 mainly by infiniband-diags."
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "47.0"
+PV = "63.0"
 
-RPM_NAME = "libibnetdisc5-47.0-3.1.aarch64.rpm"
-RPM_HASH = "6ea1b9ee38cb49ee7b44590acab8396e7fc39c728928fde930a4fc74e1f0eb93c68420272a8c6f93c3281bd413253341d160d8dbed87461b8ccba1f636c32828"
+RPM_NAME = "libibnetdisc5-63.0-1.3.aarch64.rpm"
+RPM_HASH = "3cd89834aefade661339d17fcb7a7c6ed5ca1459699d9514dcfab7c43a87ec34af22dc848ad6472b63f6325f931ce5b1d04a9017e1a2098025e85cee92ed05df"
 
 RPROVIDES:${PN} += "libibnetdisc.so.5 \
 libibnetdisc5"

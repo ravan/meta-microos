@@ -8,10 +8,10 @@ heterogeneous styles, are also supported (and work with other \
 bibliography packages)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn30939"
+PV = "2026.226.1.03svn77682"
 
-RPM_NAME = "texlive-multibibliography-2023.209.1.03svn30939-55.1.noarch.rpm"
-RPM_HASH = "45620588f689a7bd1154a9baeb3a2a9f241d7c7f24db5c48ba2b9df49bdb72602a7231337cdfbe2012bc514a888d1fc10aaa80d23ddaafc05eabc873287b8f17"
+RPM_NAME = "texlive-multibibliography-2026.226.1.03svn77682-61.2.noarch.rpm"
+RPM_HASH = "02c37b02e035bf3c5a6956aabdaa55169378983a63dbdf84d1bc4d3aed130091fb51f4b5a8c5994eb2bfc08026d5e0cebdde24c2f69b1cf7e31aba5cf27ab520"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multibibliography.sty \

@@ -8,10 +8,10 @@ is currently not available. Check out \
 <http://hackage.haskell.org/package/cabal-rpm cabal-rpm> if you need this."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.0"
+PV = "2.8.0"
 
-RPM_NAME = "cabal2spec-2.7.0-1.5.aarch64.rpm"
-RPM_HASH = "f495234f04911f2a1303ccdce7cc65882ab1e03177c5c71ffb5ccfc7bf11a6bba56c6e02f025129e8e47250350ce259318e1503d205ec7117289f0e5637b7063"
+RPM_NAME = "cabal2spec-2.8.0-1.9.aarch64.rpm"
+RPM_HASH = "e9da2e02cff0e98f6c27fb890a0ea9fb9efabf6b54e40bb7fbd10d7848624f6deca6a02a2e463ef95194eea907b539dfffcdb3476419d26efa7bc8857c9d8f40"
 
 RPROVIDES:${PN} += "cabal2spec"
 

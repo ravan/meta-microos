@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.10.6"
 
-RPM_NAME = "libnma-devel-1.10.6-1.4.aarch64.rpm"
-RPM_HASH = "df9be751189297e3ca71295772c8ccf228d0e93c95782107758538cece8a525242598ce6fe364608b329174ebfcc95ff1db1c7f79f44840f26b1bfbd8317a6af"
+RPM_NAME = "libnma-devel-1.10.6-3.12.aarch64.rpm"
+RPM_HASH = "6f534986f656195bdf2e6b5834bcfb79a5e64d89690e512c933739aec6d202b5a4f14de657317625d30eb3613f6a426c4fd6caaa7d037371a4108f404e628743"
 
 RPROVIDES:${PN} += "libnma-devel \
 pkgconfig-libnma"

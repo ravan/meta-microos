@@ -4,15 +4,16 @@ extensible abstraction for dealing with different spell checking \
 libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.2.15"
+PV = "2.8.19"
 
-RPM_NAME = "enchant-2-backend-aspell-2.2.15-3.4.aarch64.rpm"
-RPM_HASH = "1b3379501bc21b2009f58c674105dead13439c9259b65712bf49c0fafc67562f3b43292d2b98d4d36bb23ae277b872120f283cc6b708f7d2f12c6e730ba3f7dc"
+RPM_NAME = "enchant-2-backend-aspell-2.8.19-1.1.aarch64.rpm"
+RPM_HASH = "482140776ecd65def7a15e150bddfe793bd75ac4c94a7131d64e7c4dbe2d18bd6bdf9556365168baf0434fd2b9a082ea9617d1293d32d8e343306a66631caf91"
 
 RPROVIDES:${PN} += "enchant-2-backend \
 enchant-2-backend-aspell"
 
-RDEPENDS:${PN} += "libaspell.so.15 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libaspell.so.15 \
 libc.so.6 \
 libenchant-2.so.2 \
 libglib-2.0.so.0"

@@ -6,10 +6,10 @@ the abstraction from graphical user interfaces (Qt, Gtk) and text \
 based user interfaces (ncurses)."
 LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
-PV = "4.6.0"
+PV = "4.7.7"
 
-RPM_NAME = "libyui-devel-4.6.0-1.1.aarch64.rpm"
-RPM_HASH = "d40eb07187bb6f0983e75b2df41113bf79ccfe425a4b266e6f3fba765a30364407bb0f75ee425c61b9ff90be000d35f64e0164513dd8f909d4eab4746db2ee8a"
+RPM_NAME = "libyui-devel-4.7.7-1.2.aarch64.rpm"
+RPM_HASH = "6b48761985183bacfa60986ad0467792dbe58452f9fa0c3540c60b376dd82e4b0d06828c9552ed3e6224712211351e9877b815544e951c6175614bad04d5648f"
 
 RPROVIDES:${PN} += "libyui-devel \
 pkgconfig-libyui"

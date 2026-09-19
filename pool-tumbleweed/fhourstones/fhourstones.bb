@@ -5,8 +5,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "3.1+git.20150122"
 
-RPM_NAME = "fhourstones-3.1+git.20150122-2.9.aarch64.rpm"
-RPM_HASH = "9ff6b663e179cd8ae22328fd4ab8b013f1d60b82e2374dab755125b8a4acf582d4b9189d61b1c0f3ab1f543de79574e705e8b11e199302912b8d47009cf8f36f"
+RPM_NAME = "fhourstones-3.1+git.20150122-2.19.aarch64.rpm"
+RPM_HASH = "b242cd25364f5e3e1fbe1e2ac19973d6db062cd75e85c61c28a857fceab5681a858d1434decdb6d39cc031b5e1ee66309eeba6964bdd60c79e9d3aa6a35431bb"
 
 RPROVIDES:${PN} += "fhourstones"
 

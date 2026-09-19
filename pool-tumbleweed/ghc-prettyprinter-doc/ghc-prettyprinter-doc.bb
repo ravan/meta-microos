@@ -2,10 +2,10 @@ SUMMARY = "Haskell prettyprinter library documentation"
 DESCRIPTION = "This package provides the Haskell prettyprinter library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.7.1"
+PV = "1.7.2"
 
-RPM_NAME = "ghc-prettyprinter-doc-1.7.1-2.3.noarch.rpm"
-RPM_HASH = "efc14d198424f264363d79cc3c27bfa1c344cd390c34ab0b445db79c6de1528c5c06b26c2e4288023a9e6417f3f8ee96c86fb33ad07589271362f7b39f6bb069"
+RPM_NAME = "ghc-prettyprinter-doc-1.7.2-1.3.noarch.rpm"
+RPM_HASH = "e20bbfdeccc5372dbc2beefee6b5dd80b6d4e115bc2d5db87ae075ca7fdd19799b0a380b18e40a90ae273581ccd3c2733431f3aa90c80738b2a61693e2ea9172"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-prettyprinter-doc"

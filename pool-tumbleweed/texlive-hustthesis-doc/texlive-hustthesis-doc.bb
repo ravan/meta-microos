@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-hustthesis"
 DESCRIPTION = "This package includes the documentation for texlive-hustthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn42547"
+PV = "2026.226.2.0.0svn76924"
 
-RPM_NAME = "texlive-hustthesis-doc-2023.209.1.4svn42547-54.1.noarch.rpm"
-RPM_HASH = "39f2fae8edb4c0ffb1c3f9de9a11b1ffeaa9d5f358c27dc5574222145070d61b96638efbdd2fdcedaec26ebc433878f6e5587591d00cd2abfd623933733f6a19"
+RPM_NAME = "texlive-hustthesis-doc-2026.226.2.0.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "8ef44576675506de87a745e5a4af33d4e6fcf0165f0131f48806bd14f139dbe6d24b6e4ceb262a32e025694dc66ddd0f1133210069469fcca56fd529a6b5c15f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-hustthesis-doc"
+RPROVIDES:${PN} += "locale-texlive-hustthesis-doc-zh \
+texlive-hustthesis-doc"
 
 RDEPENDS:${PN} += ""
 

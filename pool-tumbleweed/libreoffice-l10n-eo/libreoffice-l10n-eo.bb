@@ -2,10 +2,10 @@ SUMMARY = "Esperanto localization files for LibreOffice"
 DESCRIPTION = "Provides Esperanto translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-eo-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "57f361b2b9b4e47d849d6ba955630af981cd8cbd9524155db3b08c8d290030581cf00be4152698a18c44476fd33a0c3804e6c238a07ae02e5a9ff6a36ca89fb3"
+RPM_NAME = "libreoffice-l10n-eo-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "c0ebbaa31414c0113f694966c09aabe05a1aa942594567abf143bd641c8ecbbc5f7d31b3977fdc8d8e80183810e62630539a3bfbac8579133676c0322bc77c94"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-eo \

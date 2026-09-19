@@ -2,10 +2,10 @@ SUMMARY = "Library to read/write PixInsight XISF files"
 DESCRIPTION = "C++ library that can read and write XISF files produced by PixInsight."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.9"
+PV = "0.2.13+git5.7b70b6a"
 
-RPM_NAME = "libXISF0-0.2.9-1.1.aarch64.rpm"
-RPM_HASH = "0d6f6ebe3a7f4e81921c6baa20801a75d0db857a2a7962d0e6f127c661c82e6320df4ed070a5d908a203b01cdc639771410c3979968f7da6594db712cf0c926d"
+RPM_NAME = "libXISF0-0.2.13+git5.7b70b6a-1.4.aarch64.rpm"
+RPM_HASH = "1d1948f15b8cbc42e4b1a5cf3e4bf322071e585452653a4992391ab5734b39cba1e14f65ffc6bdc819748ce8eff32e1b25949d86db96bc2be71c91bc02fff65a"
 
 RPROVIDES:${PN} += "libXISF.so.0 \
 libXISF0"

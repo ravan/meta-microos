@@ -8,10 +8,10 @@ many of the conventional notations for illustrating the \
 its actual drawing operations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6dsvn65912"
+PV = "2026.226.1.71svn77682"
 
-RPM_NAME = "texlive-chemfig-2023.209.1.6dsvn65912-54.1.noarch.rpm"
-RPM_HASH = "988894121066cf7d3fb7b7a563a6f99bd630a8e4520ebe8a1b0c565c94fa10e5f37fd6f429c8e9a85b4cb7c8d71bb629c09a857312217e94b2275879485d984c"
+RPM_NAME = "texlive-chemfig-2026.226.1.71svn77682-60.2.noarch.rpm"
+RPM_HASH = "5b0131cea7beac76e7daa6cf97a4758c595a574eca88aa9e9719a982f0b4705b3df2fe92c67a2a3ddaa6c33c1e30a8a893a9713b284753fbdcf03925e6b2bc2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemfig-lewis.tex \

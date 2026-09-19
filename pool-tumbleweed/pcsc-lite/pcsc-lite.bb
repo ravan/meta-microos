@@ -11,14 +11,15 @@ an APDU like manner sent normally through the SCardTransmit() function. \
 This functionality is exercised in the driver."
 LICENSE = "BSD-3-Clause & GPL-3.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.3"
 
-RPM_NAME = "pcsc-lite-2.0.0-1.1.aarch64.rpm"
-RPM_HASH = "955e590196d40ab066ee3fe219500be1435a2888a7a1558aac41401f49c76ef920d5f9baaf3456f2fd5851f8c5919605b5c3489ceed106ff0f050daf73dba327"
+RPM_NAME = "pcsc-lite-2.3.3-2.4.aarch64.rpm"
+RPM_HASH = "64ea9450e6ceebde63312a4048dcce65a4253302c02feac33d5b0ea31bb70e92db16955bf7c9d1c042aba3440614002361312f2d9fb8fcf0083b108f253e974f"
 
 RPROVIDES:${PN} += "config-pcsc-lite \
 group-scard \
 pcsc-lite \
+pcscd \
 user-scard"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

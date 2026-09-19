@@ -2,10 +2,10 @@ SUMMARY = "Extra Chinese table input methods for Fcitx5"
 DESCRIPTION = "fcitx-table-extra provides extra table for Fcitx, including Boshiamy, Zhengma, Cangjie, and Quick."
 LICENSE = "GPL-3.0-or-later & SUSE-Public-Domain"
 
-PV = "5.1.0"
+PV = "5.1.10"
 
-RPM_NAME = "fcitx5-table-extra-5.1.0-1.1.noarch.rpm"
-RPM_HASH = "e2de0ec2785855d20443c768989c60297e6bdcc8ff0e08001147afbf0f1e4d5ead61107c7f06c4b255928db2054d31459968b92233dd1a5c6da0c327112274fe"
+RPM_NAME = "fcitx5-table-extra-5.1.10-1.3.noarch.rpm"
+RPM_HASH = "f3b5c56c94ad2d9f1001c2354f51df2da1c65ab101f2e81dc332de0d25b9f3bb23c00679ba9ea0c43115ba4266c39f33f6fdd0bdc7d5431efdd62969ae8c24d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fcitx-table-cn-cantonese \

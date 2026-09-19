@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.1.3.6"
 
-RPM_NAME = "ghc-pretty-devel-1.1.3.6-1.1.aarch64.rpm"
-RPM_HASH = "98a8b07c90340a8fa7a9bb6e6adbbf56335c325eebefeeef8ae044421f7291fd2b2d302ac4e98fb6c20fcbb7cbb2e8ac101b399bed7d260b56e85a067e480e13"
+RPM_NAME = "ghc-pretty-devel-1.1.3.6-1.3.aarch64.rpm"
+RPM_HASH = "4f2bd68b3a565adf419a63002d797d33cb35e84e93b429f1fee376342f399d8459d21e9ac768f166b7ba481ecbd05ae1a2890149cbf5a1d64aa179a6caec57d9"
 
-RPROVIDES:${PN} += "ghc-devel-pretty-1.1.3.6 \
+RPROVIDES:${PN} += "ghc-devel-pretty-1.1.3.6-b7fd \
 ghc-pretty-devel \
 ghc-pretty-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-deepseq-1.4.8.0 \
-ghc-devel-ghc-prim-0.9.1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-deepseq-1.5.1.0-1350 \
+ghc-devel-ghc-prim-0.13.0-f55c \
 ghc-pretty"
 
 inherit rpm

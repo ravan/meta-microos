@@ -1,12 +1,12 @@
 SUMMARY = "Equinox GTK+ Theme Engine"
 DESCRIPTION = "Equinox is a theme engine for GTK+. It is a heavily modified derivative \
 of the Aurora engine (version 1.40)."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.50"
 
-RPM_NAME = "gtk2-engine-equinox-1.50-10.29.aarch64.rpm"
-RPM_HASH = "595a4a715981eaf56bf7ac2b9a56290acc2ad63284f6c33b081d999781b65c606b83542fba942dfa8bd68c7ada3bb521941530c7ff71c759dfc92c5d5713c701"
+RPM_NAME = "gtk2-engine-equinox-1.50-11.8.aarch64.rpm"
+RPM_HASH = "446d8636ba7c8d0a07ec74f68a8604f776897d51b654822213f1a4dca667ae52fc8d404b8a670f4b01297f0b6efa49997362e973b4e15b203d0175c80132e236"
 
 RPROVIDES:${PN} += "gtk2-engine-equinox \
 libequinox.so"

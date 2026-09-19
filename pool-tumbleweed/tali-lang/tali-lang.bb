@@ -2,10 +2,10 @@ SUMMARY = "Translations for package tali"
 DESCRIPTION = "Provides translations for the 'tali' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "40.9"
+PV = "40.9+8"
 
-RPM_NAME = "tali-lang-40.9-1.3.noarch.rpm"
-RPM_HASH = "1f3e810871f9101d1d4c4dfee68a1c56e05fd2ab4ec04f8278d306a05ae255ebe07c4b3d9105a48080e57f5ad001179f974ed4f521103c8413a9ac028dd1788e"
+RPM_NAME = "tali-lang-40.9+8-1.3.noarch.rpm"
+RPM_HASH = "de619307aa9d6704b03c94da6acf303ecd7bf077bc14e8b4207ce7419ca6bd75fc9c2453004c19380d7ef1a7fecb69d4447006c312f620a4fa8bd0147670726b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tali-af \

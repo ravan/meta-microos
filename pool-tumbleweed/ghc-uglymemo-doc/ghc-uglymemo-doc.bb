@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.1.0.1"
 
-RPM_NAME = "ghc-uglymemo-doc-0.1.0.1-4.3.noarch.rpm"
-RPM_HASH = "f1aa7206182f517b2fbc5ea00d19e1bdb3b47f5f43a429e5df37a9c6a0a0b1a3747b38ff08bfcce735535378ac4190397dfabbcc67dfca17aa1c6fbafb87d2ec"
+RPM_NAME = "ghc-uglymemo-doc-0.1.0.1-4.19.noarch.rpm"
+RPM_HASH = "8a02963fd4e93cbe34b70b0a72529d8ab07a21f60bb81653295799da77b7507f8d64f8ab174b1bb4a9d8474fe953d70e01eb330053858e036f37eaea7b2fb449"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-uglymemo-doc"

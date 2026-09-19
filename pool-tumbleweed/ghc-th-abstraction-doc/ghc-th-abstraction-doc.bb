@@ -2,10 +2,10 @@ SUMMARY = "Haskell th-abstraction library documentation"
 DESCRIPTION = "This package provides the Haskell th-abstraction library documentation."
 LICENSE = "ISC"
 
-PV = "0.4.5.0"
+PV = "0.7.2.0"
 
-RPM_NAME = "ghc-th-abstraction-doc-0.4.5.0-2.8.noarch.rpm"
-RPM_HASH = "a3f3c3b61da916556d789f62495d3db22753cd4ea8735b4cafb38f3fe0edf883c1c3245747fbe124f124e45428bbc59a106c8281912fb8bb3331941deae98fdc"
+RPM_NAME = "ghc-th-abstraction-doc-0.7.2.0-1.3.noarch.rpm"
+RPM_HASH = "cf9e3290f57fc2c8e85d85906d2be7fa2b1bc48ed5fb166ceb063b04f5a2734ee7f70a52e3b6106f0ee24b1b14a506b70b526ceffab536e6277c572bf30744af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-th-abstraction-doc"

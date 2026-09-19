@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "libverto1-0.3.2-3.1.aarch64.rpm"
-RPM_HASH = "2686b6b2fbcdb3d3c715091541adea32893d79316555e1de939a4a6297a552a68fae1233db2398a93a1bf4a80d5c5e7a5f3ef3b02d99b8184b06fdb3d4175672"
+RPM_NAME = "libverto1-0.3.2-3.11.aarch64.rpm"
+RPM_HASH = "bceaea1f4c3029d17002b580c6450749efdefbf051db4f1b90c683e740951f7d9d69993aaf341c0d170065854998c9741e61aeedffd2a337cbb035da4b4029bb"
 
 RPROVIDES:${PN} += "libverto.so.1 \
 libverto1"

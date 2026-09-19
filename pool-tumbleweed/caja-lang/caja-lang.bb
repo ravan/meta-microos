@@ -2,10 +2,10 @@ SUMMARY = "Translations for package caja"
 DESCRIPTION = "Provides translations for the 'caja' package."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-lang-1.26.1-1.5.noarch.rpm"
-RPM_HASH = "383debfffb471d7a70cb21558d3a72e4a8d4dfddd3dc9c605be10e0efebc9ca258f2b9e9aea60491936202e1169454c0076a3e85b25aa6a213d081c258106d13"
+RPM_NAME = "caja-lang-1.28.0-1.14.noarch.rpm"
+RPM_HASH = "d53d049b631d2c0d6f2f42e0f249080880abe482cb755fab991fe8b1b088e8312b7b8df1ff46688e1cc83f98f7f52d0d6a5c30cb82ce537ffb71b686f41784c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "caja-lang \

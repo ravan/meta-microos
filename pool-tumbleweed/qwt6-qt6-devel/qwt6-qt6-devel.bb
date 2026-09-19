@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files of Qwt and its Qt designer
 in order to create Qt applications using the Qwt(Qt6) widgets."
 LICENSE = "SUSE-QWT-1.0"
 
-PV = "6.2.0"
+PV = "6.3.0"
 
-RPM_NAME = "qwt6-qt6-devel-6.2.0-2.2.aarch64.rpm"
-RPM_HASH = "8a8b557271627d98791599fab606cf77be4415fd502fefd040215cb7136427f735bce6253f25382b3a4f25fdc846c02eda29438aabbc014e09d9cada965a2bf5"
+RPM_NAME = "qwt6-qt6-devel-6.3.0-1.10.aarch64.rpm"
+RPM_HASH = "d0f908e04cee75ab6784cf689430af5bb9d740b64a4a93a1bfc53263d8e422ac862a48687f46618129e1ececb7cc942367061ef7e8a3ed54079ec2ca9b861dd5"
 
 RPROVIDES:${PN} += "pkgconfig-Qt6Qwt6 \
 qwt6-qt6-devel"
@@ -14,7 +14,7 @@ qwt6-qt6-devel"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 freetype2-devel \
 gcc-c++ \
-libqwt6-qt6-6-2 \
+libqwt6-qt6-6-3 \
 pkgconfig-Qt6Concurrent \
 pkgconfig-Qt6OpenGL \
 pkgconfig-Qt6PrintSupport \

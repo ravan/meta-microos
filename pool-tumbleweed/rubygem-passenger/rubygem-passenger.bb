@@ -3,10 +3,10 @@ DESCRIPTION = "A modern web server and application server for Ruby, Python and N
 optimized for performance, low memory usage and ease of use."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "6.0.17"
+PV = "6.2.0"
 
-RPM_NAME = "rubygem-passenger-6.0.17-1.6.aarch64.rpm"
-RPM_HASH = "0d2a5a291f4df9afae0af547407d53b16b67af0e0f52866be5e03d9a30707b273a95e64a529c20fca517369359bce1fce6cc7f8690a38d181bf290a73a0c8c23"
+RPM_NAME = "rubygem-passenger-6.2.0-1.1.aarch64.rpm"
+RPM_HASH = "b08d3d501fd7cb144f8ef20c38ced86c311e039ab84e7f2bf31d57f930085f7d898ffb4871a600202476cfcbb4f768550915ea9026a2b5c57230c731ba3a268d"
 
 RPROVIDES:${PN} += "config-rubygem-passenger \
 rubygem-passenger"
@@ -14,13 +14,13 @@ rubygem-passenger"
 RDEPENDS:${PN} += "/usr/bin/node \
 /usr/bin/ruby \
 /usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-rubygem-passenger \
-update-alternatives"
+rubygem-passenger"
 
 inherit rpm

@@ -4,10 +4,10 @@ simulation software package developed at MIT to model electromagnetic \
 systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "meep-1.26.0-1.4.aarch64.rpm"
-RPM_HASH = "f27e5aa76dc728a1d1b012c771f88489481a1dd7b8b750a53d940ffbde8422051b43a7ee726657fc3b8b8574dca61bb38c6835466d1a83fdff8a5d37cc7b9296"
+RPM_NAME = "meep-1.28.0-1.12.aarch64.rpm"
+RPM_HASH = "901cafa613e53a101f814ee2b8f15adfc8a3334314e9a6e44973fccc488e1de8a07c8de5de98ee12305b8808c6cd194613bfce3961e58a551bd82eb767683a15"
 
 RPROVIDES:${PN} += "meep"
 
@@ -19,7 +19,7 @@ libctl.so.7 \
 libgcc-s.so.1 \
 libguile-3.0.so.1 \
 libm.so.6 \
-libmeep.so.31 \
+libmeep.so.32 \
 libstdc++.so.6"
 
 inherit rpm

@@ -4,10 +4,10 @@ rasterization library. Xft uses fontconfig to locate fonts so it has \
 no configuration files."
 LICENSE = "MIT"
 
-PV = "2.3.8"
+PV = "2.3.9"
 
-RPM_NAME = "libXft2-2.3.8-1.1.aarch64.rpm"
-RPM_HASH = "21f4fe3b5fb7bc40794c434cca00a017e5ceaed1397caadd955366e50831c4a1325d8948ddc5b3ca8f545a4a63ebf45ee6e9269fd37969627645bd0fa6139197"
+RPM_NAME = "libXft2-2.3.9-1.5.aarch64.rpm"
+RPM_HASH = "41bf42bbf829b58c64af0b7528cda6322d66bbc43cb3ad5c6322a1c8fb57cddd95fa73b0ea575c070b62618cd11d730b0560a8fc4c2b45356d7e5b9a982743ed"
 
 RPROVIDES:${PN} += "libXft.so.2 \
 libXft2"

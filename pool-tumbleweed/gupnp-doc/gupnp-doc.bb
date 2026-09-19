@@ -2,10 +2,10 @@ SUMMARY = "Documentation for gupnp"
 DESCRIPTION = "Documentation for GUPnP."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.5"
+PV = "1.6.10"
 
-RPM_NAME = "gupnp-doc-1.6.5-1.1.noarch.rpm"
-RPM_HASH = "3f2fbc249a73aab662667dc0c186bbb01d8867312ed443c80fba088a826225abd6566ba8f7f4f75c5a7212acce7ca10833ad59fde864e768365fdb3ccd9dbbbd"
+RPM_NAME = "gupnp-doc-1.6.10-1.3.noarch.rpm"
+RPM_HASH = "61e1f22fe431f651f69f124e90af2528ffe104c1eaef48f07fae90d3bcf412d9c36cbcf2d75e714a3b67d82c62dc10d04fd02c05a4b95ec553c0598b0018c6ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gupnp-doc"

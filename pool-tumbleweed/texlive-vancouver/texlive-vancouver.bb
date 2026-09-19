@@ -7,10 +7,10 @@ style). The complete set of requirements may be viewed on the \
 ICMJE web site."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn59192"
+PV = "2026.226.1.0svn76790"
 
-RPM_NAME = "texlive-vancouver-2023.209.1.0svn59192-54.1.noarch.rpm"
-RPM_HASH = "1324df47da26ad904aa9a1c789a75706adf0e0dc018927cf9cc7f6901ed1fb1f3ca7a6b0d49f5113748014b528c28fabd5bfc44bf76456038ba859ac0a3e0455"
+RPM_NAME = "texlive-vancouver-2026.226.1.0svn76790-60.2.noarch.rpm"
+RPM_HASH = "36fb9acc70c1afa3bf89266828542cb8fe6bc10ee74432a4049a0a456ebe73e726106d4612deae008b63302c3729c7e6afde7cccd906f8e662eda5fd3fb21c43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vancouver"

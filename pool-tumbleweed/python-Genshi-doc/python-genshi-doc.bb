@@ -7,16 +7,15 @@ feature is a template language, which is heavily inspired by Kid. \
 This package contains documentation and examples."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.7"
+PV = "0.7.11"
 
-RPM_NAME = "python-Genshi-doc-0.7.7-3.3.noarch.rpm"
-RPM_HASH = "6bb0a9e28d3899c8eb83f1eddd6d768d18803f408d813ca8b955d56e003126c5181464ddce6e7afea5f9ff279238c49abe5ddf226d1e4bc63b0e06f160583f24"
+RPM_NAME = "python-Genshi-doc-0.7.11-2.2.noarch.rpm"
+RPM_HASH = "b00b73c07e7b34184512cbe64aa1f6d9fc594c17e9ef95db7730da3521d5bca2eea0f946f1f5d80463e6b84f6dc98277f18f928a2186393add1f32eb30a53929"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-Genshi-doc \
-python310-Genshi-doc \
-python311-Genshi-doc \
-python39-Genshi-doc"
+python313-Genshi-doc \
+python314-Genshi-doc"
 
 RDEPENDS:${PN} += ""
 

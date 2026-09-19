@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libt3key."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.10"
+PV = "0.2.11"
 
-RPM_NAME = "libt3key-devel-0.2.10-1.15.aarch64.rpm"
-RPM_HASH = "471496f1835440d49947c82a581a95a97f797e405df9a78432156538e476622d43635bba0a610f574b89d0f0da20efad674b480c8205f60bbd95243be3a32545"
+RPM_NAME = "libt3key-devel-0.2.11-1.8.aarch64.rpm"
+RPM_HASH = "252a079ddfc478a7fad39e39383d1ffb7738eef9b46d9e6645586243bca9ec3a6a661b5f8168fce0383440886a6f85da9c260be569dbf9badbb8fdee798a2fe4"
 
 RPROVIDES:${PN} += "libt3key-devel \
 pkgconfig-libt3key"

@@ -5,10 +5,10 @@ Make sure the `XDG_CURRENT_DESKTOP` env var is set in the D-Bus user session \
 to one of the UseIn values in wlr.portal"
 LICENSE = "MIT"
 
-PV = "0.7.0"
+PV = "0.8.4"
 
-RPM_NAME = "xdg-desktop-portal-wlr-0.7.0-1.2.aarch64.rpm"
-RPM_HASH = "bc354ffa329c0f7ac14c46b3cf2222e2e46c90a9aedb5256946ad42d5ab4425f18d570a09ad599efb432dd925c86c137cb02b317baa80e4865f7599de7c37f31"
+RPM_NAME = "xdg-desktop-portal-wlr-0.8.4-1.1.aarch64.rpm"
+RPM_HASH = "74d9395f66b219042b3cca173e90b7b4f2e7de67b50af9b0d906c43df6615ce73e53a914a1330ae7d541824966cbdd489a16de1c41b1f2026b37f20b6a107a4e"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-wlr"
 

@@ -7,10 +7,10 @@ Linear A script has not been deciphered yet and probably never \
 will be deciphered."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63169"
+PV = "2026.226.svn63169"
 
-RPM_NAME = "texlive-lineara-2023.209.svn63169-55.1.noarch.rpm"
-RPM_HASH = "fbe3e4ef62ca0b820fd138012a68a0cb0cf62581c4945296e0c32f670317033473709f956e0040b820b2ef6432e4496677d6337af99b6129c975b26182227518"
+RPM_NAME = "texlive-lineara-2026.226.svn63169-61.2.noarch.rpm"
+RPM_HASH = "d87e2d9eeb0996fbe6f63f4b456251a3533ff7239f17c1545283ff087d6c5ac2661d9687947a52204699f4e45699173fdcac75f66c3f4d28d3d1900b25e459f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LinearA.tfm \

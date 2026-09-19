@@ -2,10 +2,10 @@ SUMMARY = "Optional tool for libxmlb"
 DESCRIPTION = "This package provides the optional xb-tool for libxmlb."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.13"
+PV = "0.3.29"
 
-RPM_NAME = "xmlb-tool-0.3.13-1.1.aarch64.rpm"
-RPM_HASH = "0c7aebcba75cb90f5cb38f1ef11680ad3125b3f8f809a8a4bb7bf709dfe05afb43c6224c9a87f0ae170c291febbd2fefc912bb88795021de7a09031386467c39"
+RPM_NAME = "xmlb-tool-0.3.29-2.1.aarch64.rpm"
+RPM_HASH = "a1aba7bbc4217cc42419c4e44f8b68af8b6a6b90b9dc13ca91197c93e57e7e9710770fd9efa8f9d4e853334485320b8cd99deac9ed676a7308150296c50bfa9e"
 
 RPROVIDES:${PN} += "xmlb-tool"
 

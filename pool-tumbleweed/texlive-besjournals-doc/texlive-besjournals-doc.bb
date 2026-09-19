@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-besjournals"
 DESCRIPTION = "This package includes the documentation for texlive-besjournals"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45662"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-besjournals-doc-2023.209.svn45662-54.1.noarch.rpm"
-RPM_HASH = "2af8a12b57a44aeafa41f3756627aa62f0645f4a89340a754c0b21bddbc1b6152667fcd1dc4c13c53e532c220b0c9b9d6d2971d173bd117a3d090cbe0178d080"
+RPM_NAME = "texlive-besjournals-doc-2026.226.svn76790-61.2.noarch.rpm"
+RPM_HASH = "03d2d6935e06be78e751468e7b8d802b629c685f5b014654b60dafc7639fe5704030691eb2d144c265bd1538eaae9cb06a1330d9f0ed753c791150af3ea0b505"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-besjournals-doc"

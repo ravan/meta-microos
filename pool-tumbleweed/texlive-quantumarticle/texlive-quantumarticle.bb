@@ -16,10 +16,10 @@ esthetics of this document class can use it for their notes as \
 well."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.1svn65242"
+PV = "2026.226.6.1svn65242"
 
-RPM_NAME = "texlive-quantumarticle-2023.209.6.1svn65242-54.2.noarch.rpm"
-RPM_HASH = "b7652b073451fd273386c4061b7919657d0a69463f51d21993cf39d83882614c6d9044f8ea84676155926e1d9b5b800b54b19b8fa22c4b5e6c8242260c85511e"
+RPM_NAME = "texlive-quantumarticle-2026.226.6.1svn65242-60.4.noarch.rpm"
+RPM_HASH = "4d10f4c8a462edfa14be264a1245c86732e978619a44c24a40612a184a8f31e36f3132c660ba8217394314a551fb77677719e6d32bcf1eea627b9fd76834fbae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-quantumarticle.cls \

@@ -8,16 +8,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-proxy-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "04b6ab11681bb38aa7300fe8fe721b85874ab2e1c92b4c72a9dc7a97f06585f8b5a28bb826c2d8e49e1a262f4df47cdeb0e3eda690dc52ffc1db534e45ae4a76"
+RPM_NAME = "salt-proxy-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "5f47faa3e386e493b55f8f8cd411c2305d9495c49f22b9001d96bc76cf2e1bc69891d53ee5da43f9b58a96eb80bfb23d1fad7c989c9bf563abc6995adff18873"
 
 RPROVIDES:${PN} += "salt-proxy"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3 \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
+RDEPENDS:${PN} += "/usr/bin/sh \
 salt \
 systemd"
 

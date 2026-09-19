@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "2.16"
 
-RPM_NAME = "perl-Text-Hunspell-2.16-1.5.aarch64.rpm"
-RPM_HASH = "8b05098c52293dc40d9a447e577aac7998884fbcc233b2b45eebe91767b991ebee1e88a88d91d15ef2aad0fd54e475967587d0ca61ee5a995409c9efb51b6aa7"
+RPM_NAME = "perl-Text-Hunspell-2.16-1.22.aarch64.rpm"
+RPM_HASH = "20106388a9ba87a8476319176c131709a981668786b7e77f44fabd3016c485ab3107b82a9134a6c8872c41a94b6aa42c7ab02837474cd5a0ef9de884e967eaf2"
 
 RPROVIDES:${PN} += "perl-Text--Hunspell \
 perl-Text-Hunspell"
@@ -19,6 +19,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libhunspell-1.7.so.0 \
 libstdc++.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

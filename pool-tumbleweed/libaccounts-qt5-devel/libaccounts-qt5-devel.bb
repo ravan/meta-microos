@@ -1,11 +1,11 @@
-SUMMARY = "Development files for libaccounts-qt"
-DESCRIPTION = "This package contains the development files for the accounts-qt library."
+SUMMARY = "Development files for libaccounts-qt5"
+DESCRIPTION = "This package contains the development files for the accounts-qt5 library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.16"
+PV = "1.16git.20231124T162152~18557f7"
 
-RPM_NAME = "libaccounts-qt5-devel-1.16-1.19.aarch64.rpm"
-RPM_HASH = "463667a39cd87c5e7b4b6146ebbe7f2ac75416de38b6ad6d52174bd55c33d793fb275a432d9444a70acf73863ef335bf21c79efe4f616f9d1090a14a2727d917"
+RPM_NAME = "libaccounts-qt5-devel-1.16git.20231124T162152~18557f7-1.10.aarch64.rpm"
+RPM_HASH = "7f4d4d3a1c9b58a3718d7dc84e148881e690a1a1fff987bb8bd70c4c3fe90bb21a929c69ce40161589924515cffab4d185abeb47c1d4f3dc0bfc03d76338fd05"
 
 RPROVIDES:${PN} += "cmake-AccountsQt5 \
 libaccounts-qt5-devel \

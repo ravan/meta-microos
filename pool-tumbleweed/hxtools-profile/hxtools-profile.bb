@@ -4,10 +4,10 @@ the SUSE 6.x ls color scheme, and a reduced PS1 that shows only the \
 rightmost parts of a path."
 LICENSE = "GPL-2.0-or-later & WTFPL"
 
-PV = "20230411"
+PV = "20251011"
 
-RPM_NAME = "hxtools-profile-20230411-1.2.noarch.rpm"
-RPM_HASH = "b467ea35ba18a9c320b714237969b1bde3d2a869431bd7b07beefdafb8ccad9588fb0eab3e9105c4db5581e540da1b235075f09568b989b20d118867e87e0584"
+RPM_NAME = "hxtools-profile-20251011-1.6.noarch.rpm"
+RPM_HASH = "e39620342d6bd60b39aa66ed3455a65f4e89e489b7fffc8f6c8b08e38967a1f8bc74ce355db441f3623355884445779f5779f645cd7af3f13e7e3efeb5022a35"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-hxtools-profile \

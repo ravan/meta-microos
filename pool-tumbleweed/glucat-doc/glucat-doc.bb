@@ -8,10 +8,11 @@ up to a maximum number of dimensions. \
 This package provides the documentation for glucat-main."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.12.0"
+PV = "0.13.0"
 
-RPM_NAME = "glucat-doc-0.12.0-3.5.aarch64.rpm"
-RPM_HASH = "2e3d63e6fbf9c78f4387e5fbdf7916c975248a774b080e765c87fbd45ae3bf38fda9a1671b6e934ad75bd0cb5b20038ca5967039f32e29633e7eb16778085184"
+RPM_NAME = "glucat-doc-0.13.0-2.4.noarch.rpm"
+RPM_HASH = "717ce22aff5ed824718d80bb0fb3789d742cdb3ddc574723f3bb6b119e29f5ccec1cb18fbd0fb543ee2bbafd0031a3d3ba96694d4ff56942ba43126121af65f2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glucat-doc"
 

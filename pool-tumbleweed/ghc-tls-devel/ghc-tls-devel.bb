@@ -2,32 +2,38 @@ SUMMARY = "Haskell tls library development files"
 DESCRIPTION = "This package provides the Haskell tls library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.0"
+PV = "2.4.3"
 
-RPM_NAME = "ghc-tls-devel-1.6.0-2.9.aarch64.rpm"
-RPM_HASH = "f3d0ef387315b590bb7e185d69671c7bc59d7bab16761b9cadc734e4b8fa8e7d640d3d970bee678a8449c9f287cee3b39f7b0d45cd7844be2529567a69cf8023"
+RPM_NAME = "ghc-tls-devel-2.4.3-1.3.aarch64.rpm"
+RPM_HASH = "af8535bdecf5ed8f56f6e3bb6721e9f8033faae623fdb26604d63bf0188cc61fa4349bef7939a05d388f368c750b43dc83192287c274ffc4987b39c651a93b20"
 
-RPROVIDES:${PN} += "ghc-devel-tls-1.6.0-D0DtS2mRMN13yCvXOGSBsv \
+RPROVIDES:${PN} += "ghc-devel-tls-2.4.3-9EoJ6T6XUplFSFHrhcQuuh \
 ghc-tls-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-asn1-encoding-0.9.6-G74cB7z1f0LBAKbqoDvYt6 \
-ghc-devel-asn1-types-0.3.4-7Qw76BNtuiJIUHv1x3z9in \
-ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I \
-ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
-ghc-devel-data-default-class-0.1.2.0-HWomeRk5e2p3WGQsDTnuAN \
-ghc-devel-hourglass-0.2.12-DDTIHdRSu369xxYEqSFzho \
-ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
-ghc-devel-mtl-2.2.2 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-x509-1.7.7-2oKbMm4GXJUL45OKqbcDfn \
-ghc-devel-x509-store-1.6.9-LlMGA7EC0Rw1u8xijDLJr9 \
-ghc-devel-x509-validation-1.6.12-2BCfCxJkKCuIEN8YGAOqI4 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base16-bytestring-1.0.2.0-IiVu4f3aSfMH2rpDgRP1QL \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww \
+ghc-devel-crypton-1.1.4-CRp9zIWu5CJCaPWpwBhIPB \
+ghc-devel-crypton-asn1-encoding-0.10.0-DTeXuctQn7g1wG1ZsDTxi1 \
+ghc-devel-crypton-asn1-types-0.4.1-LmR9a0v0hFeGm5Drmsi7UB \
+ghc-devel-crypton-x509-1.9.1-haGktaKI8uFy9MudMqGII \
+ghc-devel-crypton-x509-store-1.9.0-El9KTdTEmh914oZcyIi6oh \
+ghc-devel-crypton-x509-validation-1.9.1-A5KE59wkqBYCYMNBGaEl3l \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-ech-config-0.0.1-Dq8pFxp7oP5KsTo31dxOND \
+ghc-devel-hpke-0.1.0-FWQ67GYIQQ2GKLielMsG9n \
+ghc-devel-mlkem-0.2.1.0-I3LOwjV1LZnU6D8hY2Ok5 \
+ghc-devel-mtl-2.3.2-37ef \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-ram-0.22.0-4Io46KcWliV5ncwh4lemlr \
+ghc-devel-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-devel-serialise-0.2.6.1-IhsMlR98JASD6tuC7PEMx7 \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-time-0.4.17-BauOeKKKj6kENMTfxOVI2q \
+ghc-devel-zlib-0.7.1.1-9wvDfX7JlnE99sTdZLYOpU \
 ghc-tls"
 
 inherit rpm

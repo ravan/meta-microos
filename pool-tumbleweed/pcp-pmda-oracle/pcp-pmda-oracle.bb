@@ -3,15 +3,16 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Oracle database."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-oracle-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "668f51ec80826727e88a300b3ceba33a752d57a04697aac81dd8b6534f1c86e032d7b9fd0790ec4ad27a21489159a9b3328c56607b800e5206b1fc1d3d607ab8"
+RPM_NAME = "pcp-pmda-oracle-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "d02d26c53737301c8b18c9aac9d391907bcf5f83a1351ba123476c8360ec683f797d1b7ea2d323af020ca7e11625c6646f747c2bcf100473176f594e10b0b354"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pcp-pmda-oracle \
 pcp-pmda-oracle"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
 perl-DBI \
 perl-PCP-PMDA"

@@ -8,10 +8,10 @@ in disordered semiconductors. \
 This package contains development headers and libraries for votca."
 LICENSE = "Apache-2.0"
 
-PV = "2022.1"
+PV = "2026"
 
-RPM_NAME = "votca-devel-2022.1-3.7.aarch64.rpm"
-RPM_HASH = "70538ac1c7bc7298ae586e4eef47cc8ababc494fa9271a50f554bd4f6bb0cd4669241a331a043e5a68093ec2737699ffa8b041d80e9fa8ecf6d94aaeeb916451"
+RPM_NAME = "votca-devel-2026-1.7.aarch64.rpm"
+RPM_HASH = "eb77464fac4ddd221a626c7ae587651a29b879410f0e9b63b26230cb5ab80e36581009855fcffae310a7915e482e4f63134eb58a6f2cdd82f631f59e5522ac07"
 
 RPROVIDES:${PN} += "cmake-VOTCA-CSG \
 cmake-VOTCA-TOOLS \
@@ -24,7 +24,7 @@ votca-xtp-devel"
 RDEPENDS:${PN} += "eigen3-devel \
 fftw3-devel \
 libexpat-devel \
-libvotca2022 \
+libvotca2026 \
 votca"
 
 inherit rpm

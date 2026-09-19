@@ -4,10 +4,10 @@ parser in which an application registers handlers for things the \
 parser might find in the XML document (like start tags)."
 LICENSE = "MIT"
 
-PV = "2.5.0"
+PV = "2.8.4"
 
-RPM_NAME = "expat-2.5.0-2.4.aarch64.rpm"
-RPM_HASH = "10856a43645c19bff7359438d5f5725c176b230347ca513bd8d6ad36cd3368683e23645355f274410624e21ad49c057e14e73fe3a4bdc1a9cba56f5cf1d0c368"
+RPM_NAME = "expat-2.8.4-1.1.aarch64.rpm"
+RPM_HASH = "7d61bd1ec2b8d262160ba35a47c6c193939cd8b90b6c6dfc5ff45ffb017ea497a113f2711e105746dde23f8d439eae3702514e576218b566f14a8ae43801cd23"
 
 RPROVIDES:${PN} += "expat"
 

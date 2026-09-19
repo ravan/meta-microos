@@ -15,14 +15,12 @@ LICENSE = "PostgreSQL"
 
 PV = "3.6.9"
 
-RPM_NAME = "pgloader-3.6.9-1.5.aarch64.rpm"
-RPM_HASH = "6c910b14d58953ae418c69c59a51ddd25772796a48176cdcc05a7aaf58967e8e7fd156c0d91b72366cfc6bb22a95c8cbc8707e6fae4da470fa514909307e0d81"
+RPM_NAME = "pgloader-3.6.9-4.7.aarch64.rpm"
+RPM_HASH = "c51c8c9eada1ee924d9d2104aeece9eb1036dedae9c0334388e0d7e9b2d8b2b8d17e46f7f36868ba1be20f11d9c69a30284447ad04bc37f4487df13554570f9c"
 
 RPROVIDES:${PN} += "pgloader"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libm.so.6 \
-libzstd.so.1"
+RDEPENDS:${PN} += "/usr/bin/sbcl \
+/usr/bin/sh"
 
 inherit rpm

@@ -6,10 +6,10 @@ to offer, generate CRUD queries from data structures, and manage your \
 database schema with migrations."
 LICENSE = "Artistic-2.0"
 
-PV = "3.009"
+PV = "4.0.0"
 
-RPM_NAME = "perl-Mojo-SQLite-3.009-1.9.noarch.rpm"
-RPM_HASH = "eaac7ef650bea648a36b9283799bd447bf36a7fa07b73f305a3327e585b986bcc4bc1bb4e9bad565a356c2bdced5542178d75b6568a70e4987f9e77738f45035"
+RPM_NAME = "perl-Mojo-SQLite-4.0.0-1.3.noarch.rpm"
+RPM_HASH = "07905b2ab4901263f0c320c3d87bb6d7d611375d41a65a38f37a70748fac76259eb9cc6ce4d16036b90874d76792bb34d98000f56c8031f34598b81d5b02dc2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--SQLite \
@@ -20,7 +20,7 @@ perl-Mojo--SQLite--Results \
 perl-Mojo--SQLite--Transaction \
 perl-Mojo-SQLite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--SQLite \
 perl-DBI \
 perl-Mojolicious \

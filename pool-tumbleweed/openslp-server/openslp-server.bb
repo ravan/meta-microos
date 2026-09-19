@@ -11,8 +11,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.0.0"
 
-RPM_NAME = "openslp-server-2.0.0-21.5.aarch64.rpm"
-RPM_HASH = "65fa5833674869b753ee9724d651dc1ada32706a4eef37ae290a34bd8469b83a5b1b8b4ca5b78904ff573bd6aaa1a60138dce78a4fb73747edd5ef1869d7875d"
+RPM_NAME = "openslp-server-2.0.0-22.9.aarch64.rpm"
+RPM_HASH = "ea7ce1aae06741782c3fa1ea26fe53fe73ba4989c756fa681ee89f1e7ef1fbec621d7e82e7caea8763a15f8d46a09606375a2a987daac9373232288f9985b76c"
 
 RPROVIDES:${PN} += "config-openslp-server \
 openslp-server"

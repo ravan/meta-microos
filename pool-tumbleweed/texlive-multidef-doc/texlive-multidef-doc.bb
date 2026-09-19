@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-multidef"
 DESCRIPTION = "This package includes the documentation for texlive-multidef"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn40637"
+PV = "2026.226.1.10svn40637"
 
-RPM_NAME = "texlive-multidef-doc-2023.209.1.10svn40637-55.1.noarch.rpm"
-RPM_HASH = "a6fe704da22798fb656f8688d64171570a4898d400e4086b53774bddb9a5bd945469c90aff32a3987c01299fe6d4d158e39d01d1118c1cb2022ebbaebed4faa8"
+RPM_NAME = "texlive-multidef-doc-2026.226.1.10svn40637-61.2.noarch.rpm"
+RPM_HASH = "c33a6e6c9a9d75cde373c15fd1b56ac23bc2cd80dc5674d0bfdb2d96d4028263de64b4f322a8379dda89fe27cf3e61d02e4e5d638d01a1639818adbe75def4ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multidef-doc"

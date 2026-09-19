@@ -7,10 +7,10 @@ implementation and is meant to be a direct replacement to the version \
 provided by the Xorg server."
 LICENSE = "MIT"
 
-PV = "0.1.2"
+PV = "0.1.3"
 
-RPM_NAME = "libxcvt-0.1.2-1.3.aarch64.rpm"
-RPM_HASH = "34d1327cc81f28fdfb87a36321e333585d8e857df9d5ed08ee42faab3f7e61dd380f89d360cd3e2a54c47f63798840e63f3bad8f3a86dbf5a3e560c2f7e8d3a8"
+RPM_NAME = "libxcvt-0.1.3-1.7.aarch64.rpm"
+RPM_HASH = "e7740871b25641756635cda9e1ac33f252cfadd47aa4f4136ca93b46835f086a9ff7b1d08049bff66502b11a03360d6fdf64d628336b1466881a0f51ee881ab3"
 
 RPROVIDES:${PN} += "libxcvt"
 

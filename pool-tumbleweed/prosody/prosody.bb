@@ -7,27 +7,29 @@ whilst allowing control over who they connect to, and who they share \
 data with."
 LICENSE = "MIT"
 
-PV = "0.12.4"
+PV = "13.0.6"
 
-RPM_NAME = "prosody-0.12.4-1.1.aarch64.rpm"
-RPM_HASH = "e8a458a2561d93ceacb29551d3d9041c4feec24299895700ddcb3227a0a259ce5fb71c849fb72371facaff36bb3c7d9a30aba5184b860591b46d9574a0adad43"
+RPM_NAME = "prosody-13.0.6-1.3.aarch64.rpm"
+RPM_HASH = "75ccdf793e39176dfdcc52c41a60b65f6b12d636295ba57b88cea3c0908931ecea6991f87647e5def5f1d496be2e10b296b6474e7c295a69da1dcdad853412ff"
 
 RPROVIDES:${PN} += "config-prosody \
-prosody"
+group-prosody \
+prosody \
+user-prosody"
 
-RDEPENDS:${PN} += "/usr/bin/lua5.1 \
+RDEPENDS:${PN} += "/usr/bin/lua5.4 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libicui18n.so.73 \
-libicuuc.so.73 \
-lua51 \
-lua51-BitOp \
-lua51-luaexpat \
-lua51-luafilesystem \
-lua51-luasec \
-lua51-luasocket \
+libicui18n.so.78 \
+libicuuc.so.78 \
+lua54 \
+lua54-luaexpat \
+lua54-luafilesystem \
+lua54-luasec \
+lua54-luasocket \
+lua54-readline \
 permissions \
 shadow \
 systemd"

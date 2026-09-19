@@ -4,10 +4,10 @@ and modify ELF binary files, find and handle DWARF debug data, \
 symbols, thread state and stacktraces for processes and core files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.189"
+PV = "0.194"
 
-RPM_NAME = "elfutils-0.189-5.1.aarch64.rpm"
-RPM_HASH = "d2c83e2a870d5e579c666fd5e3b2753cc1a450ac38329d7719f7118da84c79579bdd512b77552164264a48217fe436088ff9e4362b1cde6c98d06d0407e2c513"
+RPM_NAME = "elfutils-0.194-1.4.aarch64.rpm"
+RPM_HASH = "f04c542d587a01bd89227ac97437f8e4ebc8859eb5266bfaf3e4d267bd06674827b7585ef7656c7c4b5ebd94d237a98cc3d98e7b3a4f4fe9137b14a8903b7585"
 
 RPROVIDES:${PN} += "elfutils"
 
@@ -17,6 +17,7 @@ libasm.so.1 \
 libc.so.6 \
 libdw.so.1 \
 libelf.so.1 \
+libgcc-s.so.1 \
 libstdc++.so.6"
 
 inherit rpm

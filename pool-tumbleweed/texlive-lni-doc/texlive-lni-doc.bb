@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lni"
 DESCRIPTION = "This package includes the documentation for texlive-lni"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn58061"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-lni-doc-2023.209.1.7svn58061-55.1.noarch.rpm"
-RPM_HASH = "3fb6338002c36f6f27e7a1bccc59324bcfcad43f895913dd9e91939ba3017662c6eae366354f6903259dcc22c9129b9ceb43b0c6ede3791076bbf0c6a14f5e80"
+RPM_NAME = "texlive-lni-doc-2026.226.2.0svn77682-61.2.noarch.rpm"
+RPM_HASH = "fc52ed2c2aeb51cd90e58ef7160fbdef55364276ea965dbb41c6a7141e5ec54d5ebeb198c71af0d70be53fb7daa074a1275abd47452e1eb3e9bd452e6dfa77cd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lni-doc"

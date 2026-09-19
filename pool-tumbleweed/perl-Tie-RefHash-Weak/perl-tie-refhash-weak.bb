@@ -14,14 +14,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.09"
 
-RPM_NAME = "perl-Tie-RefHash-Weak-0.09-1.27.noarch.rpm"
-RPM_HASH = "85d38f45730dd8acbeeace90ab2c08d2e84d2624792d4886b6b0b5582a7a3cab4e0476622ff17182a8839eed69de5700627008fde40d3133732441292e2c499d"
+RPM_NAME = "perl-Tie-RefHash-Weak-0.09-1.41.noarch.rpm"
+RPM_HASH = "c18055c1c63b417281da6bab6a5db05ab5b6ddae9e412251c8f1e0d3687bab58518e5a86ea317ffe78a80f916dacca63daa175c2f13c2a41e619d45f2c9dd184"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--RefHash--Weak \
 perl-Tie-RefHash-Weak"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Task--Weaken \
 perl-Variable--Magic"
 

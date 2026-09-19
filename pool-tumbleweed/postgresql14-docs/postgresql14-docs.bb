@@ -10,10 +10,10 @@ Manual pages for the PostgreSQL SQL statements can be found in the \
 postgresql package."
 LICENSE = "PostgreSQL"
 
-PV = "14.8"
+PV = "14.24"
 
-RPM_NAME = "postgresql14-docs-14.8-1.6.noarch.rpm"
-RPM_HASH = "040de12f7d6c51778918996c0102dca83d4ca93e0078433a1d58f6013c4e5563d1c1c3c6d084f1e72c49c51f98fe8a841e6b0a2664d169d7dbd9a7860e18dd02"
+RPM_NAME = "postgresql14-docs-14.24-2.2.noarch.rpm"
+RPM_HASH = "dfb07e40320e848305e62d02bbe8a884e9d73f6220f3d0aed4103efd2d18b0aad216e705a1329ee37d5364bc35f0807f7e438c2da30a76c7005bbf4dc50ac9ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-docs-implementation \

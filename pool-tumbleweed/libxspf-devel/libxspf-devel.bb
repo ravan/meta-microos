@@ -27,8 +27,8 @@ LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
 
 PV = "1.2.1"
 
-RPM_NAME = "libxspf-devel-1.2.1-1.7.aarch64.rpm"
-RPM_HASH = "2ee80fa43f3a2e8fe76add6128683168edf6825c695908133fc7bb6b170276f74e73a32827d89a015c5c814ccac43c3d01720a5fa18d3566c0963f36850d4d6f"
+RPM_NAME = "libxspf-devel-1.2.1-2.3.aarch64.rpm"
+RPM_HASH = "0932ac4eb46c094dcf0f6cd278f5dd8b1c45af89ffd4c95389290d18ef6ce7c19acd95b258f4621757693c9431226d854a9ff9500ca166f84248eeea4cb5f91d"
 
 RPROVIDES:${PN} += "libxspf-devel \
 pkgconfig-xspf"

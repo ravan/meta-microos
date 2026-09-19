@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-good-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "abb04f5557683c6b28ddf4c516172baf8c5fc02598d8c3c1e510f4a111492b992db1b310ebf9cc289157181ca3bd32c3bcf8c8579d27ed18147d7b5547b56a76"
+RPM_NAME = "gstreamer-plugins-good-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "aced4c42c7bb9fd8b702eeaa0761222b11c802ae8319f6497ce66345e89795ed53e50a2249a98962aadb514c4a22ccbf14040049acec43f8ad5fd7100112c94c"
 
 RPROVIDES:${PN} += "gst-plugins-good \
 gstreamer-plugins-good \
@@ -18,6 +18,8 @@ libgstadaptivedemux2.so \
 libgstalaw.so \
 libgstalpha.so \
 libgstalphacolor.so \
+libgstamrnb.so \
+libgstamrwbdec.so \
 libgstapetag.so \
 libgstaudiofx.so \
 libgstaudioparsers.so \
@@ -77,23 +79,24 @@ libgstwavpack.so \
 libgstwavparse.so \
 libgstximagesrc.so \
 libgstxingmux.so \
-libgsty4menc.so"
+libgsty4m.so"
 
 RDEPENDS:${PN} += "gstreamer \
 gstreamer-plugins-base \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libX11.so.6 \
 libXdamage.so.1 \
 libXext.so.6 \
 libXfixes.so.3 \
+libXtst.so.6 \
 libbz2.so.1 \
 libc.so.6 \
+libcrypto.so.3 \
 libgcc-s.so.1 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstallocators-1.0.so.0 \
 libgstaudio-1.0.so.0 \
@@ -113,17 +116,19 @@ libjpeg.so.8 \
 libm.so.6 \
 libmp3lame.so.0 \
 libmpg123.so.0 \
+libopencore-amrnb.so.0 \
+libopencore-amrwb.so.0 \
 liborc-0.4.so.0 \
 libpng16.so.16 \
 libpulse.so.0 \
 libspeex.so.1 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 libtwolame.so.0 \
 libv4l2.so.0 \
-libvpx.so.8 \
+libvpx.so.12 \
 libwavpack.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

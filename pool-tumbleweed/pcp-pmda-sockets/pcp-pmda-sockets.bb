@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the PCP Performance Metric Domain Agent (PM
 collecting per-socket statistics, making use of utilities such as 'ss'."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-sockets-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "ae1ec4dbbe349156b966468dc0dc76bde5dae98ec19966ef2f8745cf9d4605657330ebdf66bca508fd1806cd4b4931564e7b5cce3874575d217e91bebc185f0f"
+RPM_NAME = "pcp-pmda-sockets-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "d129e7675a174c1ff5ab7ce5972d92bed9e78cf17333ee7d59001c310d6ab5245bd57a2a2c58cf13273da92c8fee9f6ec9159e0191596eccb179a0f252887400"
 
 RPROVIDES:${PN} += "pcp-pmda-sockets"
 

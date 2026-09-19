@@ -6,10 +6,10 @@ less memory to extract a tarball. On the other hand, this isn't pluggable \
 doesn't check mime types (at least as of this writing)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.11"
+PV = "0.110.0"
 
-RPM_NAME = "perl-Archive-Any-Lite-0.11-1.11.noarch.rpm"
-RPM_HASH = "e0add6f4d86f268bf92bc96b5e07814ce5d497c1448ffd4e9296fa84d5192fe443b0c66d8208c79bfeb16d28e2bb87b7efbf456d13ef26b6fc00036a9d640ec1"
+RPM_NAME = "perl-Archive-Any-Lite-0.110.0-1.7.noarch.rpm"
+RPM_HASH = "4357f725e4f24228b2aa91444d7aba4d0e9102d8e720ad56d84cb5a4bb776c78eacd44b0836a4fd4dcee438f5267e7ce84b5f6dbc8710730facee95532aa80ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Archive--Any--Lite \
@@ -17,7 +17,7 @@ perl-Archive--Any--Lite--Tar \
 perl-Archive--Any--Lite--Zip \
 perl-Archive-Any-Lite"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Tar \
 perl-Archive--Zip \
 perl-File--Temp \

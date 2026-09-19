@@ -2,10 +2,10 @@ SUMMARY = "Dateutils functions for matlab and octave"
 DESCRIPTION = "Dateutils can be used from within matlab or ocatave."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.10"
+PV = "0.4.11"
 
-RPM_NAME = "dateutils-octave-0.4.10-2.4.aarch64.rpm"
-RPM_HASH = "9adb7d98b71d783198cb4e4240001ea56b2122b617ab07b764cc21399ada91e9a1a2862d35b7838f67abd7fafd40a81d2ba24bbff9932116754b048b6eec2843"
+RPM_NAME = "dateutils-octave-0.4.11-1.8.aarch64.rpm"
+RPM_HASH = "35a23b6eb56f362f37f88218948ac6b7f9180cada4af0d5dbc2d86670e0b9a50ce6e05d4b219278761908754eb43a1a5d8fc014397c0ca74c7a9110fb5313410"
 
 RPROVIDES:${PN} += "dateutils-octave"
 

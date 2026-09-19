@@ -9,10 +9,10 @@ This package provides the GObject Introspection bindings for GStreamer \
 plug-ins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "typelib-1_0-GstAllocators-1_0-1.22.5-3.1.aarch64.rpm"
-RPM_HASH = "694b44114c11ba4f014a8b9f031058502b9cb94553aac891c4a8caed49909f4aff79fe786d4ecbc480ccb5950567dda73b73e7f089da187945a7177495703d52"
+RPM_NAME = "typelib-1_0-GstAllocators-1_0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "33c3374fd162029737649fb62c3a7b6ab009924e7c1168592571b51dddc5d9cecd9911aaff7af811de4810222f87f0766a4bff9665a547f14a2db8b974cf35cd"
 
 RPROVIDES:${PN} += "typelib-1-0-GstAllocators-1-0 \
 typelib-GstAllocators"

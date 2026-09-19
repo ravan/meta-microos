@@ -5,10 +5,10 @@ boards and games. The aim is a clean, clear design with \
 flexibility for drawing different sorts of Hex diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn62102"
+PV = "2026.226.1.0svn62102"
 
-RPM_NAME = "texlive-hexboard-2023.209.1.0svn62102-54.2.noarch.rpm"
-RPM_HASH = "000f39d33fab5a9601da4ed7583e12d41ebb33e87f78014f9695e3f6168fcc79af298d14166b7b1aee7a7e8eae40b622359b763ecae4a00ac09e2950cfaf9e99"
+RPM_NAME = "texlive-hexboard-2026.226.1.0svn62102-60.4.noarch.rpm"
+RPM_HASH = "080e357eb321ebd05e0e6ebe18944225ab433b66488524985f06efc1180bee345bbefa64771490b08c07541f53ddc27cd2b13789ebde61646a0b53713c2334c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hexboard.sty \

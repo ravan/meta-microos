@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains files needed to develop for the Heaptrack \
 API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.4.0"
+PV = "1.5.0"
 
-RPM_NAME = "heaptrack-devel-1.4.0-4.5.aarch64.rpm"
-RPM_HASH = "031e3020fbb5d9ce32635f5f9cf2493a375cc6b2df484793e6d264243191b0faccd681b7c706b67617be83974cd794fbd286f74acd568081891a8308bc8bf21a"
+RPM_NAME = "heaptrack-devel-1.5.0-6.8.aarch64.rpm"
+RPM_HASH = "b5a0784c8ae2bfc0f5d8b1a2f3708abbb73929cb8866687a3a27e2f42b72f54352d89249f131691b5f18554e3fae7736a3b851b4679b70d206dde5dc0bf84625"
 
 RPROVIDES:${PN} += "heaptrack-devel"
 

@@ -4,14 +4,14 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.0.1"
 
-RPM_NAME = "ghc-alsa-core-prof-0.5.0.1-4.4.aarch64.rpm"
-RPM_HASH = "a7403e678152b161ed490ee1c8ad66cc8eb6519b2d2a2945b5a8c6327b10a8f169d0fa213d2ca322d368b07157b93fb1014e2edca89e450e24f4b452a9203ed8"
+RPM_NAME = "ghc-alsa-core-prof-0.5.0.1-4.20.aarch64.rpm"
+RPM_HASH = "4153c8050d7508a609eca189f1d1aedb97f4f485880c074220b0a046ebffe01535b9617e9b5403a371582adc5e101db5822da41756da949825f5eeaa97461eed"
 
 RPROVIDES:${PN} += "ghc-alsa-core-prof \
-ghc-prof-alsa-core-0.5.0.1-5CJfdeELTf160s2ftizQdy"
+ghc-prof-alsa-core-0.5.0.1-5pqfH6YvvEZ2vsBkGGr8JL"
 
 RDEPENDS:${PN} += "ghc-alsa-core-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-extensible-exceptions-0.1.1.4-1hcTiYLx0LbAr3mhUvVP0e"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-extensible-exceptions-0.1.1.4-1DqJiZkXnDRHRXNZtok1ZU"
 
 inherit rpm

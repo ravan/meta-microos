@@ -23,15 +23,22 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.3.3"
 
-RPM_NAME = "pdftk-3.3.3-1.3.noarch.rpm"
-RPM_HASH = "13efea53f3db132f41b11a45de5cf5657c2ca07cd9be63d50b3595a59a26651005a004e2ecdf8ee1910e65294de8d5c6a2dbcedf030c695e327e513572a5539e"
+RPM_NAME = "pdftk-3.3.3-3.10.noarch.rpm"
+RPM_HASH = "4d8ba989f8b87d551e52210ee4d9ac76c2d49a1bbd28c2eb560c09d1db893ea0799cbedc9fee84c85a0b152c6306af8c6a7c0ec9b0985b76341dd0ccd9397313"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "pdftk"
+RPROVIDES:${PN} += "mvn-com.gitlab.pdftk-java-pdftk-java \
+mvn-com.gitlab.pdftk-java-pdftk-java-pom- \
+osgi-pdftk-java \
+pdftk"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
 apache-commons-lang3 \
 bouncycastle \
-jre"
+java-headless \
+javapackages-filesystem \
+javapackages-tools \
+mvn-org.apache.commons-commons-lang3 \
+mvn-org.bouncycastle-bcprov-jdk18on"
 
 inherit rpm

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Maori langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-mri-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ed13bccd7daebbaf88b973a7208b08bf6fbae7e9e2cc178e8f01f022c69029a7ce1b68821efb95d7c1ff819b39c2b6d153a21083b52bd450dcdd3ebea6bcdd0f"
+RPM_NAME = "tesseract-ocr-traineddata-mri-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "8ff1a74079d31860160254d906fec74a621c87445d01d46c584b03914e5e91505027a3e8b5dc0284cdc19e87606e7e22021398845a0648457ebc9fed7219143f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-maori \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-mi \
+tesseract-ocr-traineddata-maori \
 tesseract-ocr-traineddata-mri \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-maori"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

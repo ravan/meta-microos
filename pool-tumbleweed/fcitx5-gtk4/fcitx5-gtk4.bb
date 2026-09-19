@@ -2,10 +2,10 @@ SUMMARY = "GTK+ 4.0 im module for fcitx5"
 DESCRIPTION = "This package provides GTK+ 4.0 im module for fcitx5."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.1.0"
+PV = "5.1.5"
 
-RPM_NAME = "fcitx5-gtk4-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "3cf113f5ec9197a47b19f5b00c221017e42dec7edf140a4fe077e7cad2648519054721aca5feb980018ae6aa12cdde07e67a500bf04fd55557648aedb5339fb8"
+RPM_NAME = "fcitx5-gtk4-5.1.5-1.4.aarch64.rpm"
+RPM_HASH = "33b17b635f9a124ca56c62ee2e13e50762bbd6c22aef6fb9bc5634105b0571ffc8ab671f1553cf88083017ac0916c487614316159ef40fcbc41eaba7bf1d7e4b"
 
 RPROVIDES:${PN} += "fcitx5-gtk4 \
 libim-fcitx5.so"

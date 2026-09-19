@@ -6,10 +6,10 @@ and output libraries. \
 This package contains the plugin for Pulseaudio output support."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "mpg123-pulse-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "d5755849a9961fb8ef736ab202d830779b47c3a5e84a07ff5df0ce160ebea1cc6050212f1c5f8398376376400db682a672f5dedff06732221abe65016f0a91de"
+RPM_NAME = "mpg123-pulse-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "00158f06a843c3b7b969db4aa24640cd64dea5795a9c0f0e8efc517025a52ba6d78004dbe3f97583c169de3868a97d1199fd2de1d17665fe8c915938fad56340"
 
 RPROVIDES:${PN} += "mpg123-pulse"
 

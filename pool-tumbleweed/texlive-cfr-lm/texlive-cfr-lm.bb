@@ -22,10 +22,10 @@ fonts for mathematics is identical to that provided by Latin \
 Modern."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn36195"
+PV = "2026.226.1.9svn77682"
 
-RPM_NAME = "texlive-cfr-lm-2023.209.1.5svn36195-53.1.noarch.rpm"
-RPM_HASH = "877f700aa9340ef50c07840772900328b5b72b2ae59eda776b0ac9b15347c11017fa8de68518af19c082626e2d4565012fa14efcf005ff3875eb8f22d33d85e5"
+RPM_NAME = "texlive-cfr-lm-2026.226.1.9svn77682-59.2.noarch.rpm"
+RPM_HASH = "c20523b8de8eeb48cd84cfa65009668d7317c070a5d7fcebf9fbb56b0e52cd6561152aa00f59cd93e943fdcd8cc487be54d51f43ba9d19ab5b8f030098937310"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cfr-lm.sty \
@@ -921,10 +921,12 @@ findutils \
 grep \
 sed \
 tex-fontenc.sty \
+tex-l3keys2e.sty \
 tex-nfssext-cfr.sty \
+tex-svn-prov.sty \
 tex-textcomp.sty \
 tex-updmap.cfg \
-tex-xkeyval.sty \
+tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

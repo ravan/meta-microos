@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-caspervector"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-caspervector"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.6svn64866"
+PV = "2026.226.0.0.3.7svn76790"
 
-RPM_NAME = "texlive-biblatex-caspervector-doc-2023.209.0.0.3.6svn64866-54.1.noarch.rpm"
-RPM_HASH = "824eac83038b6e23e87021d35b45efc3dd884309c586acf2946a51e0a924ba9636770226d1c0abd08985e5bc7e0d7b4f90fe43160fbe2e7613e74c7e61c4600d"
+RPM_NAME = "texlive-biblatex-caspervector-doc-2026.226.0.0.3.7svn76790-61.2.noarch.rpm"
+RPM_HASH = "a8ccdf95b59d88153a1e478d8441097feaf0d50338c08beaeaaca026052b655d85be0548f0a7f7e347abeb10d7b1dcbed86dfefb6491d1ecd95ddeecff06d615"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-biblatex-caspervector-doc-zh \

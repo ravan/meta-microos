@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.12"
 
-RPM_NAME = "NetworkManager-pptp-lang-1.2.12-1.3.noarch.rpm"
-RPM_HASH = "1cc6142f4b2fc2115805b2888b6ffd612765cca1a06cac24a63d175d375d4f0b759daba80b1571af2d06d24e2a4bc7f29d2fc58d7c3eee515fdf5331674fb5af"
+RPM_NAME = "NetworkManager-pptp-lang-1.2.12-3.10.noarch.rpm"
+RPM_HASH = "f0120517329a955c9262a4104baae084210c3fa39d4d5b3c217768f8e4f5d1893daa0714295252c22a174667084682f944b4c29cce1cc6628bc51db627520816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-pptp-lang \

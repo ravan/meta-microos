@@ -5,10 +5,10 @@ pixel format conversion operations. \
 This subpackage contains the headers for FFmpeg libswscale."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "ffmpeg-4-libswscale-devel-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "f0b3c420d08422ad0d0ac6cffcf88501fb344aaee20378e132cc3852c7b2348369ddecfb3ca5af1e28f441db8f1bc3e105494833dc517d25fe1fcda7e197926a"
+RPM_NAME = "ffmpeg-4-libswscale-devel-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "20f350c23dc40ddde369dfcc54ef0c8eb0aec7fe516ad1139a75bd4b65275e3273300874767e85642739107b995cfa742a8901ca32299ee103b7e7f37441f097"
 
 RPROVIDES:${PN} += "ffmpeg-4-libswscale-devel \
 libswscale-devel \

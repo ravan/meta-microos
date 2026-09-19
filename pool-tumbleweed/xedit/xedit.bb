@@ -2,10 +2,10 @@ SUMMARY = "Simple text editor for X"
 DESCRIPTION = "Xedit is a simple text editor for X."
 LICENSE = "MIT"
 
-PV = "1.2.3"
+PV = "1.2.5"
 
-RPM_NAME = "xedit-1.2.3-2.5.aarch64.rpm"
-RPM_HASH = "21bc6366fbfebe7e24df5dbd08050bb55f92e5e17bf50b9f7223c4a6304c7d903940bb44e751116b1592343720e35a2aee35ac5c00d92f340894b1fb947cac2c"
+RPM_NAME = "xedit-1.2.5-1.3.aarch64.rpm"
+RPM_HASH = "8b7eefc5cb31e27b3d89730fb57a51ad01b13264c9cd80e757c000b941a4a850724e8c4ce6c0de6395ae722e247f63739e9dc23104c03d23eb2d546b6e9a9040"
 
 RPROVIDES:${PN} += "xedit"
 

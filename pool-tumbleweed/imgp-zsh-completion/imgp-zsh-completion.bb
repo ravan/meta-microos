@@ -2,10 +2,10 @@ SUMMARY = "ZSH Completion for imgp"
 DESCRIPTION = "ZSH command line completion support for imgp."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8"
+PV = "3.0"
 
-RPM_NAME = "imgp-zsh-completion-2.8-1.8.noarch.rpm"
-RPM_HASH = "a641c5eace5fdf15b7ab7436a287b8f9a7cda07901568160ad822d344e28386e5d524970034dd0519470355e43260b44dfdbe8531ac54c5f5f12609dbdbf29d0"
+RPM_NAME = "imgp-zsh-completion-3.0-1.1.noarch.rpm"
+RPM_HASH = "147efd8895af04a026e7fb883845e69667a12b5ecba61313340c4afd3f7076caea1938344ab1dfc1c5528d844a13e1f811836e05d269fe32b0af1952671ffc01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "imgp-zsh-completion"

@@ -5,10 +5,10 @@ launch them. It provides easy keyboard navigation and can be used as a \
 replacement for xfrun4."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "xfce4-appfinder-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "786a4dc936d40232a60eb27f469f9c6fde81e73ef9a35df7b80fc51e03cce488c884db9f27038f672e418a698f3b5226466fff8051768a94b384736e730acc59"
+RPM_NAME = "xfce4-appfinder-4.20.0-1.7.aarch64.rpm"
+RPM_HASH = "f27830d9eadcb44bd81b30e611f335f5ff003e98b0b86b1bc083015b615bb9f9b1545da43f3a9a0b96e5b8d6b64cb087f071630bc17a779658cdb1437e3f9ece"
 
 RPROVIDES:${PN} += "xfce4-appfinder"
 

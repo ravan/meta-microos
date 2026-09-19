@@ -5,10 +5,10 @@ requires the stdclsdv package. Users of the bookhands fonts may \
 find this package useful."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0bsvn15878"
+PV = "2026.226.1.0bsvn77682"
 
-RPM_NAME = "texlive-romannum-2023.209.1.0bsvn15878-54.1.noarch.rpm"
-RPM_HASH = "49bba6ad4573f2f11d8b95ed6c70a0d95f32041c89e055207e55d97995547a7718fe3e65b8b67281bd6f398fe6fbad15e83d765c14258e9acbc14d00f35ba172"
+RPM_NAME = "texlive-romannum-2026.226.1.0bsvn77682-60.2.noarch.rpm"
+RPM_HASH = "7b49c5068e27079f4b8d7ab7465ce5174ad6a9c26d2c112d4c16f390e87cdc1981cf59aaad2dcc1384133931f52d83e8227d54e56f5dafeb2c1536782eecec7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-romannum.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Prometheus Java Simpleclient Hotspot"
 DESCRIPTION = "Collectors of data from Java Hotspot."
 LICENSE = "Apache-2.0 & CC0-1.0"
 
-PV = "0.8.0"
+PV = "0.16.0"
 
-RPM_NAME = "prometheus-simpleclient-java-hotspot-0.8.0-7.1.noarch.rpm"
-RPM_HASH = "06878b75279bcc6d96c745b3090e513ab96291414ead985ffbb5e638c8a37c72e7821eaed90eca2b45ae042639a02c36f09e14058a2bc404bec246289f918b8e"
+RPM_NAME = "prometheus-simpleclient-java-hotspot-0.16.0-2.2.noarch.rpm"
+RPM_HASH = "27a4ef70e3c227ac5048f0ceeb0364dc1096d1dc9230647aed9d7c273445bc8f2510820ea4955e67b239ca883cee541bc1d2c86bb0934d809c7326c9048a4211"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-io.prometheus-simpleclient-hotspot \

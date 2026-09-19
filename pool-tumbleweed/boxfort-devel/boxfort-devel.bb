@@ -2,10 +2,10 @@ SUMMARY = "Development files for boxfort"
 DESCRIPTION = "Development files for boxfort."
 LICENSE = "MIT"
 
-PV = "0.1.4"
+PV = "0.1.8"
 
-RPM_NAME = "boxfort-devel-0.1.4-1.4.aarch64.rpm"
-RPM_HASH = "e9b64b8d03ca79cb85333e53509f08763b751345b4594cf4b2e7493905fc5fd6487bd83f83573dd0ad7cb98568ab3907d8ad2b908f8159fb370ab3ee759e2398"
+RPM_NAME = "boxfort-devel-0.1.8-1.1.aarch64.rpm"
+RPM_HASH = "a2c37260f6773803bd80568fd4319f816c6eacc36ae8045a365e88182b66e3e6d11e34cfcc4a15030d189de9ba0d9c218bf6b75c335609a377a13e0314e88df9"
 
 RPROVIDES:${PN} += "boxfort-devel \
 pkgconfig-boxfort"

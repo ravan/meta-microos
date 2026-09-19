@@ -11,10 +11,10 @@ implementation for shared-memory (non-distributed) systems, and \
 classes for managing asynchronous computations in GUI applications."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Concurrent5-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "3944b5a3ad41e41e192ec48b1a30c3e7cf3ec84b3ad305f2250c896d3662f7b6fe9a1dfd930d95c13022d333d9c03e1dd95f4beaaf58ac2d37b37bb8a2f9e271"
+RPM_NAME = "libQt5Concurrent5-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "8e827c88000af233f3a5b862d9507aca31ffb09e231566cfff56e27d841a62e049d61447275057469de0f6aa5d4763f86fb46ec9b920453c3bed4228b8d3f275"
 
 RPROVIDES:${PN} += "libQt5Concurrent.so.5 \
 libQt5Concurrent5"

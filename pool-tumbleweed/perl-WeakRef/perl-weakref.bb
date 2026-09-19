@@ -19,12 +19,12 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "0.01"
 
-RPM_NAME = "perl-WeakRef-0.01-149.38.aarch64.rpm"
-RPM_HASH = "2ba344104eca24ebc913dfa24f8c35af69678cef81516a3bcd566fa12e794a1eb7fb4506a2f09d13ffca34cde531e3144dd69360d114d38c8093989ed5f26d82"
+RPM_NAME = "perl-WeakRef-0.01-149.55.aarch64.rpm"
+RPM_HASH = "bdf52868081a10b406e6c064c84da184f6bf64ac6338215f3c9514a131f9c36cd345360ce8c76266246061810947cf9cb7200a76aec2a32bd94b35532ffcba60"
 
 RPROVIDES:${PN} += "perl-WeakRef \
 perl-Weakref"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

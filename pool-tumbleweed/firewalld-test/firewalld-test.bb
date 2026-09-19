@@ -2,10 +2,10 @@ SUMMARY = "Firewalld testsuite"
 DESCRIPTION = "This package provides the firewalld testsuite."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.0"
+PV = "2.3.2"
 
-RPM_NAME = "firewalld-test-2.0.0-2.1.noarch.rpm"
-RPM_HASH = "9acde88dd5790fe1aa19237dafbb385d057c0b2bd51c871c8e2f33389fa6b673856ca7cdea427f8360a915da1605099b59013c6f5dd6518c44d03e943ad98af9"
+RPM_NAME = "firewalld-test-2.3.2-2.1.noarch.rpm"
+RPM_HASH = "12f901d38cc610d001da6788339c170a1505ff3ad0b98f424ee5fea5cc977d60890cfc385fb12a578840b0888edbd5c0c4396b16cc2605d1ddcd9ce013fddc37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firewalld-test"

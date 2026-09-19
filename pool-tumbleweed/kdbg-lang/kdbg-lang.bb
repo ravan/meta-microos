@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kdbg"
 DESCRIPTION = "Provides translations for the 'kdbg' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.1"
+PV = "3.2.0"
 
-RPM_NAME = "kdbg-lang-3.0.1-1.18.noarch.rpm"
-RPM_HASH = "a43a4f622072eb6e868b4b387abccdd3130f85b7424f8b6a317a0d58df4be7e39691bb31b50fda038227447893b218d26d705487cd6c105f639084f998b094fd"
+RPM_NAME = "kdbg-lang-3.2.0-1.4.noarch.rpm"
+RPM_HASH = "8c38a8b3425c9c0b875677e0d8b685838102f554a6b9a141102eebbdac093d118e44e81c0e095a766764f31d1749ffc448c00f462a2bcf0fa4a37f53c932b1ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdbg-lang \

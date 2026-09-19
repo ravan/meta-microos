@@ -3,10 +3,10 @@ DESCRIPTION = "The class is for articles published in INGENIERIA review. It is \
 derived from the standard LaTeX class article."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn38741"
+PV = "2026.226.0.0.3svn38741"
 
-RPM_NAME = "texlive-articleingud-2023.209.0.0.3svn38741-54.1.noarch.rpm"
-RPM_HASH = "d420e21f251e1fe702d8ce5a89d459cec266494e867c95e2d55c0835f28cc8a27e06216161c8cd8caf0b0fba9511890203e5f6699654f52d24b4e503b288ccab"
+RPM_NAME = "texlive-articleingud-2026.226.0.0.3svn38741-60.2.noarch.rpm"
+RPM_HASH = "0604268b612b2231a7218ba1ff461838134ac7ab124ec30061af12fae1d0cb69d3a98b77ad134a3641129741bbaf28192df27d123628b0b63ef9c9b8cd9de6d1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-articleingud.cls \

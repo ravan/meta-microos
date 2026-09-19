@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "9.17"
 
-RPM_NAME = "gdouros-unidings-fonts-9.17-1.18.noarch.rpm"
-RPM_HASH = "fa6821a101d127469adf0c6c6062955fca8186b37939bb057ccca18db9e57090dd3c1d0744fbc78fbc7e40dc01bdc2ad1d273d7af0de5800192ba14903146fbc"
+RPM_NAME = "gdouros-unidings-fonts-9.17-1.26.noarch.rpm"
+RPM_HASH = "bbf28db24f013db4d1f28f12eaa4e7c4094cdba95becd86801ec8c3634cf54b18ee6bf1cb828454889c5c0c6884d29dda39d02ed8b08fb679f91e57d9c4f6890"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-unidings-fonts \

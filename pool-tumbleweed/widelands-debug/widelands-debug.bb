@@ -3,27 +3,25 @@ DESCRIPTION = "Additional debugging data for Widelands. This package is not need
 operation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1"
+PV = "1.3.1"
 
-RPM_NAME = "widelands-debug-1.1-3.2.aarch64.rpm"
-RPM_HASH = "69a1ffcfcc3d87744c34fe997dd75fe4acd38032e0a210433986fda71bd18849c78620e94358da1b744ebd713e370b3c07427a77d3f684b919dc76537e9792bf"
+RPM_NAME = "widelands-debug-1.3.1-1.5.aarch64.rpm"
+RPM_HASH = "d163d6b07ffba6c941f4e1e68062551fe6561eda3832d8c3ab695dae53e3a732d73d64b94add83fd921dfa8cf4f44da7cec600d5ed3f98ba3b491097edfbcf95"
 
 RPROVIDES:${PN} += "widelands-debug"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libGLEW.so.2.2 \
-libGLX.so.0 \
-libOpenGL.so.0 \
 libSDL2-2.0.so.0 \
 libSDL2-image-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
 libSDL2-ttf-2.0.so.0 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libglbinding.so.3 \
+libicuuc.so.78 \
 libm.so.6 \
+libminizip.so.1 \
 libpng16.so.16 \
-libstdc++.so.6 \
-libz.so.1"
+libstdc++.so.6"
 
 inherit rpm

@@ -2,28 +2,29 @@ SUMMARY = "Nonogram Logic game"
 DESCRIPTION = "A nonogram logic game by KDE"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "picmi-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "34c5c5f3f4273e46ccd9272d4306b2416e2b5470f9ed5e9fc9679f257a4d8c636b60ffa097333287d4803824fe82cfb6283a3915d819266318a4981d5616a0af"
+RPM_NAME = "picmi-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "77429f92ba190a8a8efaed30875f14bb937b979d8f6e4db788dbddd630efb2aebb94fb52f416e7835971b9fe67aebebc9960d27ec314fc54ebdcaa26a8d15083"
 
 RPROVIDES:${PN} += "picmi \
 picmi5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

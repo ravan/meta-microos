@@ -4,10 +4,10 @@ LaTeX. The simulator is able to calculate complex pictures, \
 like Mandelbrot sets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn35373"
+PV = "2026.226.0.0.1svn71991"
 
-RPM_NAME = "texlive-avremu-2023.209.0.0.1svn35373-54.1.noarch.rpm"
-RPM_HASH = "8b0ec65b99ac0e4bb2d0dc74e8d448d2e37902fffc22e6222ed1d535e24270d3a67dca7de96370dc6e8d4a7ef8a996591066de5aadf87eed88f527e61a539369"
+RPM_NAME = "texlive-avremu-2026.226.0.0.1svn71991-60.2.noarch.rpm"
+RPM_HASH = "a79e50527d3fa19215bebee06783249cc824baf575d5c593fa1888b9d28aaee1333fdba3a9751e2086db62c578020cfce34bc72850fe3dd5638905511f200931"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-avr.binary.tex \

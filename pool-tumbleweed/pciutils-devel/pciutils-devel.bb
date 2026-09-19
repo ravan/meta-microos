@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the files that are necessary for software \
 development using the PCI utilities."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.10.0"
+PV = "3.14.0"
 
-RPM_NAME = "pciutils-devel-3.10.0-1.1.aarch64.rpm"
-RPM_HASH = "c320115a0202ecc869dffe2e8b7303430601336e902215edf061257b4c218d523abf7deea9c2de451acf3f5d717060376b06adb1314603c45672865ca2b0a537"
+RPM_NAME = "pciutils-devel-3.14.0-2.4.aarch64.rpm"
+RPM_HASH = "93127944dead650a91d39c8eebc278a3d26c86dbc0b923ad3fe7017ddb637b12061a4465c52f00e4fd369cc0fbb106d178dc43412f7a6a1deb1186ada0b62859"
 
 RPROVIDES:${PN} += "pciutils-devel \
 pkgconfig-libpci"

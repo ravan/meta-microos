@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "4.15.2"
 
-RPM_NAME = "sharutils-lang-4.15.2-7.7.noarch.rpm"
-RPM_HASH = "fb2e1cc9c4838dc7977b223830a3fdb29d7fa5ffa8273000d07f4316b8411e63cefd5648db3ba8beab0f89aa9c44e24c7d7012f1a94d3f64cae24a13bd2a022d"
+RPM_NAME = "sharutils-lang-4.15.2-10.5.noarch.rpm"
+RPM_HASH = "3295203f6919f2b2ad6f0ce641a611beb8aa541bc4827c69aa27c64cd7795573768213f31321040e0275d1d102918c7f09a9ea721e79e8b7168a4ba4491bca29"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sharutils-bg \

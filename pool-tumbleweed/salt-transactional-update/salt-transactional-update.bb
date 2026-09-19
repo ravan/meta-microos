@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-transactional-update-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "6f628056bc7e09c103c4cb4e4406ecc70322254e772973f5905fb0a740b6cdb467e488c4e8b32014d6c2924a86fccf25ffbbe9b18d43816866d1503df33e9f34"
+RPM_NAME = "salt-transactional-update-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "1e4375558a8c0df81b85623022960e39121db76b17defd4db423cba6479486b55a327c0396f66e0bf84cc4137ba1059de96c4525848a62d2a950d5fd2ace4499"
 
 RPROVIDES:${PN} += "config-salt-transactional-update \
 salt-transactional-update"

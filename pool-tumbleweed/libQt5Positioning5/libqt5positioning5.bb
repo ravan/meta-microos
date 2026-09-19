@@ -6,10 +6,10 @@ example, determine a position on a map. In addition, satellite \
 information can be retrieved and area-based monitoring be performed."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde4"
+PV = "5.15.19+kde7"
 
-RPM_NAME = "libQt5Positioning5-5.15.10+kde4-1.1.aarch64.rpm"
-RPM_HASH = "8bd23f2d6939b1249cce8ef2e82a4422b598ea6d80919ddd19d0668cbc603d708fb823091f9f00d0e6d6007de1d4cc18cfe9693b9b8a94d4ea0868970ab5fff3"
+RPM_NAME = "libQt5Positioning5-5.15.19+kde7-1.2.aarch64.rpm"
+RPM_HASH = "283c5b9d8256c41a58faad407b7546a0ed70babecc57189c9a152eb2bd71d3ce4da881dc2e80adb41ba6c202f2f710c9b7b0b77c31847bed97eb429cdc8f543e"
 
 RPROVIDES:${PN} += "libQt5Positioning.so.5 \
 libQt5Positioning5 \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "0.9.6"
 
-RPM_NAME = "librttr_core0_9_6-0.9.6-4.17.aarch64.rpm"
-RPM_HASH = "67860ae30af6ae62c05fd20f25dc5d3c50014e7bdfec406a893e6b9ec700208a321970cb9bcd52b6d90af364eca96cfe7aee4940ed3143bff42add771f017a97"
+RPM_NAME = "librttr_core0_9_6-0.9.6-6.5.aarch64.rpm"
+RPM_HASH = "c135869b972ef6ef8ce615b0fce5124f18fe6c0e551ab766f1c2911150dd4e12eab5755e22341302b2e1e862b435b1fd1860399677735bb4379a12a903307b58"
 
 RPROVIDES:${PN} += "librttr-core.so.0.9.6 \
 librttr-core0-9-6"

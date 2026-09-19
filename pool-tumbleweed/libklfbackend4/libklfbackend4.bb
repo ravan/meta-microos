@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "libklfbackend4-4.1.0-1.14.aarch64.rpm"
-RPM_HASH = "4a1bccdffb11cace13ac023764b880d7d903a522b46a3868371c62189e86e6009b5dc79095100fbce2445c4d3a79a79e39e6ca9f1b1bf426b91a63b2dd0fb11d"
+RPM_NAME = "libklfbackend4-4.1.0-1.26.aarch64.rpm"
+RPM_HASH = "acc3012b1fa72c5393ec29eda0a90d956e0896fd59db3e78a32054ad55bba2f0e29fcdd41110115461767634ab6005cf06169e9a8c9333e47eb7028ac7391a4b"
 
 RPROVIDES:${PN} += "libklfbackend \
 libklfbackend.so.4 \

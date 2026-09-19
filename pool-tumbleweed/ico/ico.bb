@@ -5,10 +5,10 @@ polyhedron, with hidden lines removed, or a solid-fill polyhedron with \
 hidden faces removed."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "ico-1.0.6-1.3.aarch64.rpm"
-RPM_HASH = "3ea5c28a9f6a71b3a52e63c061bcde038bd4fd27fcb7dcbd4cc00a45ee98751f2d2f0dc478b14aa5deec68d88bc10277e083b2935d33107b6458d8175f685d7e"
+RPM_NAME = "ico-1.0.7-1.3.aarch64.rpm"
+RPM_HASH = "315ec90f068e49a13a1350998365d44e23a550dd6fdab97f56f839dc95cd221bb779f40b3d2057038a37bc59e75f36a476e56d370f9c0646b6ba357b6ab2825c"
 
 RPROVIDES:${PN} += "ico"
 

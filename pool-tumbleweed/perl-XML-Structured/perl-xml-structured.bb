@@ -8,8 +8,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "1.3"
 
-RPM_NAME = "perl-XML-Structured-1.3-1.21.aarch64.rpm"
-RPM_HASH = "143463545e18d69d870d04fcd348157943924c3d201486da010597de0dc48fadaf16aba667e9a6430e012c74bb31d32d9e1599d5fe8398fa031566e4e909fc5c"
+RPM_NAME = "perl-XML-Structured-1.3-1.38.aarch64.rpm"
+RPM_HASH = "8920a10ae84f498c720a38a314fb7adcabdfb8e81ff50b1fed9573e5affb745a71dd678417663bfa94890444bd23a89cf43675da5f981142883ee9a45c503ef3"
 
 RPROVIDES:${PN} += "perl-XML--Structured \
 perl-XML--Structured--saxparser \
@@ -18,6 +18,6 @@ perl-XML-Structured"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

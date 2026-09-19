@@ -4,10 +4,10 @@ world. It includes Klondike, Freecell, Yukon, Forty and Eight and many \
 more. The game has nice graphics and many different carddecks."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kpat-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "7bd007f8225701f26e877f90de6a720b712a74c0cd051649be2c4d9d7f5138203ec7747069d08882f71760ce5146e093742ef364b32d4f2d0ede399e94e7efdb"
+RPM_NAME = "kpat-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "373ba37c2cc54b3452aaae157d47577c40cfe5978f52689084553844f2e0caf961fa02a8c61268d09ff1ad57b7a9d64578e760678e9b9b0356920668a32ef503"
 
 RPROVIDES:${PN} += "kpat \
 kpat5 \
@@ -15,26 +15,25 @@ libkcardgame.so"
 
 RDEPENDS:${PN} += "kdegames-carddecks-default \
 ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KIOCore.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKDEGames6.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libblack-hole-solver.so.1 \
 libc.so.6 \
 libfreecell-solver.so.0 \

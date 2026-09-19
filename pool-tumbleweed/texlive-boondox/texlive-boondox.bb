@@ -6,10 +6,10 @@ double-struck alphabets. Virtual fonts with metrics suitable \
 for maths mode are provided, as are LaTeX support files."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.02dsvn54512"
+PV = "2026.226.1.02dsvn77682"
 
-RPM_NAME = "texlive-boondox-2023.209.1.02dsvn54512-53.1.noarch.rpm"
-RPM_HASH = "974ca84eed0c869869341433bd602b102972d33f8d9a94f40a3b45976acc8faf47e9c1f2d49085d9eb658b17c52ae87728bde9a6c1dfb006a4ca17de101375aa"
+RPM_NAME = "texlive-boondox-2026.226.1.02dsvn77682-59.2.noarch.rpm"
+RPM_HASH = "b2e166db9a1be06267b6fcb450d3b72ecdd1bd9a5d32c7bb9082e184dd34799642fee1a857f8eed4c9c446e19a92b2347864b653110a2149f95c0ee25d4793bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BOONDOX-b-cal.tfm \

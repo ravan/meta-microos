@@ -3,10 +3,10 @@ DESCRIPTION = "The package defines a pair of commands \\infer and \\deduce, that
 are used in constructing LK proof diagrams."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.1svn20021"
+PV = "2026.226.3.1svn20021"
 
-RPM_NAME = "texlive-lkproof-2023.209.3.1svn20021-55.1.noarch.rpm"
-RPM_HASH = "4797b9450b144a32a57f5f0bf28340decd71b2a3e3da236e6427110ba2c1a363384e8e16137622b954167548d207b2a7631bd831170c936353b14dd50ac6e18d"
+RPM_NAME = "texlive-lkproof-2026.226.3.1svn20021-61.2.noarch.rpm"
+RPM_HASH = "2f9454e10ae430f8ab2f940e8c719718eb38f929c2eb39716343e1595eab4650d96c0fa44552c1cc21112adb9dde24589a47d9823cd153c01c1974cf086be6e0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-proof.sty \

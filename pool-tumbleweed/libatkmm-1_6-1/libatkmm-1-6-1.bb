@@ -3,10 +3,10 @@ DESCRIPTION = "atkmm is the C++ binding for the ATK library. \
 This module is part of the GNOME C++ bindings effort."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.28.3"
+PV = "2.28.5"
 
-RPM_NAME = "libatkmm-1_6-1-2.28.3-1.3.aarch64.rpm"
-RPM_HASH = "df650b1255ad929b96bad7dbdb24f7dd09f293cdd6b0f35212b97fccc6e8a13def66e6c90579dcff868acf8f271e6082afe4b18512d6d11552171c34c90eae16"
+RPM_NAME = "libatkmm-1_6-1-2.28.5-1.3.aarch64.rpm"
+RPM_HASH = "6966079ac661e998b97ac7aad8c8a90c4bad25e97316dcf9f8eb5046981e1ad0f37761747e3df3de09606225c404e20c828f3d380f6dbebe960a817572362b85"
 
 RPROVIDES:${PN} += "libatkmm-1-6-1 \
 libatkmm-1.6.so.1"

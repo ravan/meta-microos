@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows compiler for C++ shared libraries"
 DESCRIPTION = "MinGW Windows compiler for C++ shared libraries"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw64-libstdc++6-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "61a47f163cd9a5e67e4e5136f82e59c4ddd2dce9a6486f1c808a621b43429202637534f74a135aa113ba64ebe80e0a0f563f695598054cacd757207dbc63893c"
+RPM_NAME = "mingw64-libstdc++6-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "2cdb374b250c3458e8a20b0df4f65a4ea3daf72191f861bee149ed3ca85d2c5a65c7bc4ebf5a03033853bf62237270dea79eb130be335d1c9e703718a2379bfb"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw64-libstdc++ \
 mingw64-libstdc++-6.dll \

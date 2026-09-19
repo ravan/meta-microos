@@ -31,8 +31,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.0.11b8"
 
-RPM_NAME = "ez-ipupdate-3.0.11b8-292.8.aarch64.rpm"
-RPM_HASH = "3c936aefa9915c048e4bded4ce3fa1f7e7e561a105a9dd426a03197ceff3bca4c85ba3b0badbebfa53bc423923fc9e934dc670b3d1b01d3f0c98e715078f9ad1"
+RPM_NAME = "ez-ipupdate-3.0.11b8-293.9.aarch64.rpm"
+RPM_HASH = "b38edb3004ae82cdc899fec0f22566389b27f80766b536fa3ab5126f9ea0ca6c8fdf3936c7542a20d316aa2ff242b3c3fe91cad3319d2c271d9b2f8b5f65db6a"
 
 RPROVIDES:${PN} += "config-ez-ipupdate \
 ez-ipupdate"

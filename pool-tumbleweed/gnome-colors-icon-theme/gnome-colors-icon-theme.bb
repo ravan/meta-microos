@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "5.5.1"
 
-RPM_NAME = "gnome-colors-icon-theme-5.5.1-18.16.noarch.rpm"
-RPM_HASH = "a9790d8371dacf84fed69b284721459ff66ac04c1017c5c864a48a9d421fcd5b0053defd8be791385cf76e3c1970c94187459f572b77d2b9189844a244a5a925"
+RPM_NAME = "gnome-colors-icon-theme-5.5.1-18.24.noarch.rpm"
+RPM_HASH = "17210d6b49c7b54fa3024899b6970277674b07b3d47e70b36b6caf572c8bcc3f45dac1da7fccab06aae4cc54c9960955840977814d438c22fab5f97aa064c9ca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-colors-icon-theme"

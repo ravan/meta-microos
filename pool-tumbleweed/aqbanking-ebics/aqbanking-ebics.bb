@@ -4,10 +4,10 @@ backends (currently HBCI) and multiple frontends  (e.g. KDE, GNOME, \
 console) to be used."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.5.4"
+PV = "6.9.2"
 
-RPM_NAME = "aqbanking-ebics-6.5.4-1.1.aarch64.rpm"
-RPM_HASH = "110a7c84e8c2ba2c1e4e02270fe934229c15bb481df561726990ac94f7324b91e8237e86b4c63f75904f1d89c50139d79d8b7b301fe68d3da481206afb4710f0"
+RPM_NAME = "aqbanking-ebics-6.9.2-1.2.aarch64.rpm"
+RPM_HASH = "55fdc6f169e4e363495f69fc559be925020f3f3b6b907f85820fa70ebda6b8e9901ffc8e49711e9174e0493d31cd98370ec1ccab84fcbbef07c7012d0448282c"
 
 RPROVIDES:${PN} += "aqbanking-ebics"
 

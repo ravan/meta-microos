@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pas-tableur"
 DESCRIPTION = "This package includes the documentation for texlive-pas-tableur"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.01svn39542"
+PV = "2026.226.2.06svn72283"
 
-RPM_NAME = "texlive-pas-tableur-doc-2023.209.2.01svn39542-52.1.noarch.rpm"
-RPM_HASH = "d4095ff576243c3426efc8434d1f17e3b38d882a89c49f1dc7c3ea19e2528792751c7bdea81e09baef148f0a3f0abdf636cda04bf7d758c0da4fc3dc052b8749"
+RPM_NAME = "texlive-pas-tableur-doc-2026.226.2.06svn72283-58.2.noarch.rpm"
+RPM_HASH = "3c6f9275ff199119470679b17abdfb37541fcf7836f1cc7a996fdfb596c179fc0dbe813aeb9b9f79dd850d58b567a3d1679c6597ab34a1c69cc9700d4957d63e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pas-tableur-doc"

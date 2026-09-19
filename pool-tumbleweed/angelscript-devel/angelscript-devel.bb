@@ -7,18 +7,18 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of the AngelScript library."
 LICENSE = "Zlib"
 
-PV = "2.35.1"
+PV = "2.38.0"
 
-RPM_NAME = "angelscript-devel-2.35.1-1.9.aarch64.rpm"
-RPM_HASH = "987497b2a020653d5a99557d3a88d29cc77a2c1158dfa3f7c271e4cd72def37e8ea34de51871b659d302e105a74312265282b532ec050a73ce1b3b80cbbbd22f"
+RPM_NAME = "angelscript-devel-2.38.0-2.5.aarch64.rpm"
+RPM_HASH = "1d5c08626b094ff4a40ea22a5e04c98319c5f5960392c3efbd3b5ed1998e4285c9182f12f022644c5ff2f8dca18857c9af41b3ff5c47040bd1807f5830c45317"
 
 RPROVIDES:${PN} += "angelscript-devel \
 pkgconfig-angelscript \
 pkgconfig-angelscript-addons"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libangelscript-addons2-35-1 \
-libangelscript2-35-1 \
+libangelscript-addons2-38-0 \
+libangelscript2-38-0 \
 pkgconfig-angelscript"
 
 inherit rpm

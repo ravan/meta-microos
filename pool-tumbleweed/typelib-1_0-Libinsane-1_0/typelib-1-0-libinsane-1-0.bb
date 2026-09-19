@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "1.0.10"
 
-RPM_NAME = "typelib-1_0-Libinsane-1_0-1.0.10-1.1.aarch64.rpm"
-RPM_HASH = "23d4d4fac1a03b08a2ee471ae41becb89e6b01271d77d6d9cd549427771bca8bb79ee6cffa05c6282bd370cc2f7ef872af2a6345a59db694e177d0e0279c2a30"
+RPM_NAME = "typelib-1_0-Libinsane-1_0-1.0.10-1.14.aarch64.rpm"
+RPM_HASH = "4740022cc79eefd4a88c8639ab6ec0ba728b0636ff32472b4b2647a410eb5d5fdada01c754162313065f44d85be41f723a6743e5b50ceabe0115f05364036b97"
 
 RPROVIDES:${PN} += "typelib-1-0-Libinsane-1-0 \
 typelib-Libinsane"

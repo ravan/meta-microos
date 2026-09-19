@@ -9,10 +9,10 @@ XeTeX based package, which is far preferable for users who can \
 type Unicode text."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.17.1svn66186"
+PV = "2026.226.2.17.1svn66186"
 
-RPM_NAME = "texlive-velthuis-2023.209.2.17.1svn66186-54.1.noarch.rpm"
-RPM_HASH = "e920c83e4db6f8ba0e76534523824c0e761c1aa0aa16b89bd21ffac9a434649cad684e829471208b6dea110c568fbbd4eea59031119a003445994dffa10371d2"
+RPM_NAME = "texlive-velthuis-2026.226.2.17.1svn66186-60.2.noarch.rpm"
+RPM_HASH = "2193eec111bf8fea072ffcf91ea670f6c1252a9f1753e55bf0b04511d54dd6866cc576914940f2d91d762cdfe23095c542e8e7cf605089f0c88dae97a63f719b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dev.sty \

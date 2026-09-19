@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "42.1"
 
-RPM_NAME = "gnome-menus-branding-openSUSE-42.1-1.10.noarch.rpm"
-RPM_HASH = "1433a94c327f7850ab64c4854d2d42a22b22b8ab03955df73de86a5b7b9c50e5c70e8f25586bab32e91d93897867feb3d8ed8b1feda9f49f5a99add69221af92"
+RPM_NAME = "gnome-menus-branding-openSUSE-42.1-2.9.noarch.rpm"
+RPM_HASH = "506be5dd31f958c9e220e33be49c5bd80a045f580bd4d3194c7e495589c849d458de1ccf378237e313a458b14cdab4348154b1f507ec663a67c071f53960ced6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-menus-branding \

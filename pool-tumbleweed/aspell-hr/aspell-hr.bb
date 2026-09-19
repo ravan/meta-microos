@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.51.0"
 
-RPM_NAME = "aspell-hr-0.51.0-2.14.aarch64.rpm"
-RPM_HASH = "d3f30f86c25c623e6c31c336d36788f8fcc242da168106b31fe9ae5bcc7f27af77223143440d4a0d5b0e9f4bd174b41d0f7408149b6e2a00e1f3378a6d00990a"
+RPM_NAME = "aspell-hr-0.51.0-4.7.aarch64.rpm"
+RPM_HASH = "40097c32c3dc8786aff1defba9e91935e12cee0190065d309ad7081f1a69963632af8ad853a48bc65f2e9d76b11e43dc4f64984a52f140f9b7abd60e14428796"
 
 RPROVIDES:${PN} += "aspell-hr \
 locale-aspell-hr"

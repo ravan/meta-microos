@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libolecf."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20221024"
+PV = "20260526"
 
-RPM_NAME = "libolecf-devel-20221024-4.1.aarch64.rpm"
-RPM_HASH = "359a83eec649e4f1b76a46307f15203d063346970c9dfda5e934d978c61cad5a7eca7942f3ab5e9b837de187c7d171d8e9e027530307ddfb97831e33a82c214e"
+RPM_NAME = "libolecf-devel-20260526-1.12.aarch64.rpm"
+RPM_HASH = "6cb44172fd3256fc2b144ba763eb8ad6ab5f6fcb119491d18bb977fa9865f2c443aabc48c6f8ef8fe93bc653cfe4e3e906a64e56255ee576e0e69b63e319079a"
 
 RPROVIDES:${PN} += "libolecf-devel \
 pkgconfig-libolecf"

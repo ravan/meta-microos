@@ -2,10 +2,10 @@ SUMMARY = "Connman reference man pages"
 DESCRIPTION = "Documentation in form of man pages for Connman (Connection Manager)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.41"
+PV = "1.42"
 
-RPM_NAME = "connman-doc-1.41-4.8.aarch64.rpm"
-RPM_HASH = "664451ed9e9ab9cd159a30021500368c25d74bb022ff92895896e123909b28276587ec350ed010414d3d4bb2d662c4b32851af5840fc1492a84b476cd329ff09"
+RPM_NAME = "connman-doc-1.42-2.16.aarch64.rpm"
+RPM_HASH = "16d54ff1a3c87dd2085458c457c3ffb7d834981dfae2bbd002e34acc730af9347de814a238f36742710d3395e4fffcd8a6880dbc276fdda09291fb838bf01349"
 
 RPROVIDES:${PN} += "connman-doc"
 

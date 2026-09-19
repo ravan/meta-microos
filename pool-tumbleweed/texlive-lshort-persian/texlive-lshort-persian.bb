@@ -3,10 +3,10 @@ DESCRIPTION = "A Persian (Farsi) translation of Oetiker's (not so) short \
 introduction."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.5.01svn31296"
+PV = "2026.226.5.01svn31296"
 
-RPM_NAME = "texlive-lshort-persian-2023.209.5.01svn31296-55.1.noarch.rpm"
-RPM_HASH = "6182e65a445f8275a4911cc62fa893f1f81a7bf84ee379d446d9243295beb6fbf6a02bbaa9afe2d2bb6903d98884ce5491f4f937a8d71e23a7d3f335e74d838b"
+RPM_NAME = "texlive-lshort-persian-2026.226.5.01svn31296-61.2.noarch.rpm"
+RPM_HASH = "092a8b4a6012248b2f0cf70019f2daa594c7d68f93da70081b62e5b6179fcff668cbba8fdb724fa755e9c2b5dc61b5cefec5b35742b8b16fe90c32a2dbed49ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lshort-persian"

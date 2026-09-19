@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-sha-devel package contains libraries and signature file
 developing applications that use ocaml-sha."
 LICENSE = "ISC"
 
-PV = "1.15.2"
+PV = "1.15.4"
 
-RPM_NAME = "ocaml-sha-devel-1.15.2-1.12.aarch64.rpm"
-RPM_HASH = "85dd5150985ed72690626c7dee9fe5bb6135fce329c46f26603ab6e38f055f32da2e367399a17fca4ce5c5c9b22815f91806a41c48c884938daa40727f15a681"
+RPM_NAME = "ocaml-sha-devel-1.15.4-2.2.aarch64.rpm"
+RPM_HASH = "85c082ee7dffc514ab9f5cf6b707724368580586c43d3b517526a23c8a556e6daaa418baead2945e6e165a0f8c83c6e8eb19fe2280e7b92aaf40ceb69a41aed7"
 
-RPROVIDES:${PN} += "ocaml-Sha1 \
+RPROVIDES:${PN} += "config-ocaml-sha-devel \
+ocaml-Sha1 \
 ocaml-Sha256 \
 ocaml-Sha512 \
 ocaml-sha-devel \

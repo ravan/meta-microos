@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.17.1"
 
-RPM_NAME = "realmd-lang-0.17.1-2.1.noarch.rpm"
-RPM_HASH = "32e09d48f936c7da1b62a4762643e2ff2954b5e19751ffdbd98e94e8349b4685905eb95ef2b64826a6469840c6f717681a7d65bf60a868cfb4c928eefbdb7629"
+RPM_NAME = "realmd-lang-0.17.1-4.8.noarch.rpm"
+RPM_HASH = "f6a8743c5d8cba5fbe0fcbcdcf2029d3e4d3864fefe013a0460348d4de047e097318eb9eb5432b962bd8e909c6f2e5c9b90d0e0d4968d35117dedeef779dfdc1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-realmd-ar \

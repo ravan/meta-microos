@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libmatekbd"
 DESCRIPTION = "Provides translations for the 'libmatekbd' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "libmatekbd-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "6836f1a2939c5fd5f4f6e57a93c13527f70ea1a92f202516e995574685e9ce344c995cc9214cf60a407aba17eb33919448ebf7b8389f2a5db359ee14d2f37db9"
+RPM_NAME = "libmatekbd-lang-1.28.0-2.5.noarch.rpm"
+RPM_HASH = "ae4648c80b5594ead5fdb6057c4c7465cbb5329696dc39e7b692df93945a4fa5ed49c0dd9cd328cfddc05fcec69615e217248af8f20822ea12c5a24214447df0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libmatekbd-lang \

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Help library - Development files"
 DESCRIPTION = "Development files for the Qt6 Help library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-help-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "55c14a76cfa521599412aab0c95290a27a51c7535982ff3843f91a730d28c53e5b5ea3ca127aacec4c0208a8bf64eb9af199d33d3a7447c5359a5e6d5f8f9200"
+RPM_NAME = "qt6-help-devel-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "675a0882c861e4ce0895aa6d5d3d0ab1a876180440fdb7514ba0877a10bd8c00462b83bc826b07463af75b7d9d9884b6ae571ed261e1a784c17bc148319096db"
 
 RPROVIDES:${PN} += "cmake-Qt6Help \
 pkgconfig-Qt6Help \
@@ -15,6 +15,7 @@ RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake-Qt6Gui \
 cmake-Qt6Network \
 cmake-Qt6Sql \
+cmake-Qt6Tools \
 cmake-Qt6Widgets \
 libQt6Help6 \
 pkgconfig-Qt6Core \

@@ -5,10 +5,10 @@ This package provides the GObject Introspection bindings for the \
 libbrasero-burn library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "typelib-1_0-BraseroBurn-3_2_0-3.12.3-2.8.aarch64.rpm"
-RPM_HASH = "7bf017c02a7327212b33b22d75bcf8597500413c94c7d6ce056f3b354793cbdb1243f3dacc6cce890577c7638b57472d93aed718b90b8baeebfcd63efdfc5ea8"
+RPM_NAME = "typelib-1_0-BraseroBurn-3_2_0-3.12.3+43-3.3.aarch64.rpm"
+RPM_HASH = "cc24c49d4b0cdeab78a1797af71ec196a498d3f63646a31b70529b77b540e1e82dfbd7b2defa71a712d7a7afbf40bc44eabbc6cb83c4cc1254ea695dd7ecfaab"
 
 RPROVIDES:${PN} += "typelib-1-0-BraseroBurn-3-2-0 \
 typelib-BraseroBurn"

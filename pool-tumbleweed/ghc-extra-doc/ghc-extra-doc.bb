@@ -2,10 +2,10 @@ SUMMARY = "Haskell extra library documentation"
 DESCRIPTION = "This package provides the Haskell extra library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.14"
+PV = "1.8.1"
 
-RPM_NAME = "ghc-extra-doc-1.7.14-1.3.noarch.rpm"
-RPM_HASH = "e352ca36d5756a65d154a0736e5f43d5867ed6ed978b20495fc2adb2af7a06a4306ca7786e892857aca2081d2e844e0c3bd341ddfce4a30e3493d171b1999120"
+RPM_NAME = "ghc-extra-doc-1.8.1-1.7.noarch.rpm"
+RPM_HASH = "c2bc57bed064662f999626c460203e9d6afe629db70852f860fc590cb4a318f64f17c0ef552426edd8293c561147b21148b0df849195754a05041a3661d72183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-extra-doc"

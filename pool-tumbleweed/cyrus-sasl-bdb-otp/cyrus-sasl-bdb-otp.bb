@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-otp-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "6a35f09058c7e40d1f23793fc74974064db784f83295599e8ba80f4667de9de2f8076060000911b9d8202a49871d067ba35caade5c42b71ed06cc31b57a84a95"
+RPM_NAME = "cyrus-sasl-bdb-otp-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "f7256c76de9f56e1ebcecbfd4d262b423d76860e9cd44d59e8f0035146c82dd9876a7c33b9b6b3ba7ad191993017e392f890eb77473c721aae98129209bb66ba"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb-otp \
 libotp.so.3"

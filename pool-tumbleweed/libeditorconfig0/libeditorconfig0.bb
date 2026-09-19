@@ -9,10 +9,10 @@ file format and supported text editors, see the EditorConfig website. \
 This package contains shared library."
 LICENSE = "BSD-2-Clause & BSD-3-Clause"
 
-PV = "0.12.6"
+PV = "0.12.11"
 
-RPM_NAME = "libeditorconfig0-0.12.6-1.1.aarch64.rpm"
-RPM_HASH = "8e18cc5a92bb285eca8bc086178195c166339d8acacde9ebf78a4f95135f4d29b8a7835d536c8468c64534f8fc4c69916e666a6edd13156d481122929ab0505c"
+RPM_NAME = "libeditorconfig0-0.12.11-1.3.aarch64.rpm"
+RPM_HASH = "236d3de32bda07422d09b47c79db94f1779c0c5052eb2c4b2e29d3f08f30a2c50212409a2697fa7660fffb1ef335297810459687879013d450231c370434dc1c"
 
 RPROVIDES:${PN} += "libeditorconfig.so.0 \
 libeditorconfig0"

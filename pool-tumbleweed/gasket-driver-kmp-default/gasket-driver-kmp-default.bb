@@ -2,24 +2,174 @@ SUMMARY = "Gasket Driver kernel modules"
 DESCRIPTION = "The Linux Kernel Module Package for the Coral Gasket Driver."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.18_k6.4.12_1"
+PV = "1.0.18_5815ee3_k7.2.5_1"
 
-RPM_NAME = "gasket-driver-kmp-default-1.0.18_k6.4.12_1-2.6.aarch64.rpm"
-RPM_HASH = "27fefccc84fd086dc21510ca23784ba631d7326bb27f9177897f946f7a883a884283578ad0df906fe3a12d9d427d528bec8d20c95c2fadb0dcc4fbcd6158085b"
+RPM_NAME = "gasket-driver-kmp-default-1.0.18_5815ee3_k7.2.5_1-6.16.aarch64.rpm"
+RPM_HASH = "29e46e8235e035506941b369d5676be7ae295dc7ab558596233aea97aacd9976ba56e011e7a3f07154d62e9a1bf43d460aa88226d85eb385d19f385e68f37fb8"
 
 RPROVIDES:${PN} += "gasket-driver-kmp \
 gasket-driver-kmp-default \
-gasket-driver-kmp-default-k6.4.12-1 \
+gasket-driver-kmp-default-k7.2.5-1 \
 kmod-apex.ko \
 kmod-gasket.ko \
+ksym-default-gasket-disable-device \
+ksym-default-gasket-enable-device \
+ksym-default-gasket-get-ioctl-permissions-cb \
+ksym-default-gasket-interrupt-init \
+ksym-default-gasket-interrupt-msix-cleanup \
+ksym-default-gasket-interrupt-reinit \
+ksym-default-gasket-mm-unmap-region \
+ksym-default-gasket-num-name-lookup \
+ksym-default-gasket-page-table-are-addrs-bad \
+ksym-default-gasket-page-table-is-dev-addr-bad \
+ksym-default-gasket-page-table-map \
+ksym-default-gasket-page-table-map-dmabuf \
+ksym-default-gasket-page-table-max-size \
+ksym-default-gasket-page-table-num-active-pages \
+ksym-default-gasket-page-table-num-entries \
+ksym-default-gasket-page-table-num-simple-entries \
+ksym-default-gasket-page-table-partition \
+ksym-default-gasket-page-table-unmap \
+ksym-default-gasket-page-table-unmap-all \
+ksym-default-gasket-page-table-unmap-dmabuf \
+ksym-default-gasket-pci-add-device \
+ksym-default-gasket-pci-remove-device \
+ksym-default-gasket-platform-add-device \
+ksym-default-gasket-platform-remove-device \
+ksym-default-gasket-register-device \
+ksym-default-gasket-reset \
+ksym-default-gasket-reset-nolock \
+ksym-default-gasket-set-dma-device \
+ksym-default-gasket-sysfs-create-entries \
+ksym-default-gasket-sysfs-get-attr \
+ksym-default-gasket-sysfs-get-device-data \
+ksym-default-gasket-sysfs-put-attr \
+ksym-default-gasket-sysfs-put-device-data \
+ksym-default-gasket-sysfs-register-store \
+ksym-default-gasket-unregister-device \
+ksym-default-gasket-wait-with-reschedule \
 multiversion-kernel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 coreutils \
-gasket-driver-ueficert \
 grep \
 kernel-default \
-kernel-uname-r \
+ksym-default---arch-copy-from-user \
+ksym-default---arch-copy-to-user \
+ksym-default---dma-sync-single-for-device \
+ksym-default---dynamic-dev-dbg \
+ksym-default---dynamic-pr-debug \
+ksym-default---folio-put \
+ksym-default---fortify-panic \
+ksym-default---ioremap-prot \
+ksym-default---kmalloc-cache-noprof \
+ksym-default---kmalloc-large-noprof \
+ksym-default---kmalloc-noprof \
+ksym-default---list-add-valid-or-report \
+ksym-default---list-del-entry-valid-or-report \
+ksym-default---msecs-to-jiffies \
+ksym-default---pci-register-driver \
+ksym-default---release-region \
+ksym-default---request-region \
+ksym-default---sg-page-iter-next \
+ksym-default---sg-page-iter-start \
+ksym-default---stack-chk-fail \
+ksym-default---warn-printk \
+ksym-default--dev-err \
+ksym-default--dev-warn \
+ksym-default--printk \
+ksym-default--raw-read-lock \
+ksym-default--raw-read-unlock \
+ksym-default--raw-write-lock-irqsave \
+ksym-default--raw-write-unlock-irqrestore \
+ksym-default-alt-cb-patch-nops \
+ksym-default-arm64-use-ng-mappings \
+ksym-default-cancel-delayed-work-sync \
+ksym-default-capable \
+ksym-default-cdev-add \
+ksym-default-cdev-del \
+ksym-default-cdev-init \
+ksym-default-class-create \
+ksym-default-class-destroy \
+ksym-default-d-path \
+ksym-default-delayed-work-timer-fn \
+ksym-default-device-create \
+ksym-default-device-create-file \
+ksym-default-device-destroy \
+ksym-default-device-remove-file \
+ksym-default-dma-alloc-attrs \
+ksym-default-dma-buf-attach \
+ksym-default-dma-buf-detach \
+ksym-default-dma-buf-get \
+ksym-default-dma-buf-map-attachment \
+ksym-default-dma-buf-put \
+ksym-default-dma-buf-unmap-attachment \
+ksym-default-dma-free-attrs \
+ksym-default-dma-map-page-attrs \
+ksym-default-dma-mmap-attrs \
+ksym-default-dma-set-coherent-mask \
+ksym-default-dma-set-mask \
+ksym-default-dma-unmap-page-attrs \
+ksym-default-dump-stack \
+ksym-default-dynamic-cond-resched \
+ksym-default-eventfd-ctx-fdget \
+ksym-default-eventfd-ctx-put \
+ksym-default-eventfd-signal-mask \
+ksym-default-free-irq \
+ksym-default-free-pages \
+ksym-default-get-device \
+ksym-default-get-user-pages-fast \
+ksym-default-get-zeroed-page-noprof \
+ksym-default-iomem-resource \
+ksym-default-iounmap \
+ksym-default-kernel-param-lock \
+ksym-default-kernel-param-unlock \
+ksym-default-kfree \
+ksym-default-kmalloc-caches \
+ksym-default-kstrtoint \
+ksym-default-kstrtoull \
+ksym-default-memcpy \
+ksym-default-memset \
+ksym-default-memstart-addr \
+ksym-default-module-layout \
+ksym-default-msleep \
+ksym-default-mutex-init-generic \
+ksym-default-mutex-lock \
+ksym-default-mutex-unlock \
+ksym-default-ns-capable \
+ksym-default-param-ops-bool \
+ksym-default-param-ops-int \
+ksym-default-pci-bus-assign-resources \
+ksym-default-pci-disable-device \
+ksym-default-pci-disable-msix \
+ksym-default-pci-enable-device \
+ksym-default-pci-enable-msix-range \
+ksym-default-pci-match-id \
+ksym-default-pci-set-master \
+ksym-default-pci-unregister-driver \
+ksym-default-prot-ns-shared \
+ksym-default-put-device \
+ksym-default-queue-delayed-work-on \
+ksym-default-random-kmalloc-seed \
+ksym-default-refcount-warn-saturate \
+ksym-default-register-chrdev-region \
+ksym-default-remap-pfn-range \
+ksym-default-request-threaded-irq \
+ksym-default-rsi-present \
+ksym-default-schedule-timeout \
+ksym-default-scnprintf \
+ksym-default-sized-strscpy \
+ksym-default-snprintf \
+ksym-default-strcmp \
+ksym-default-strnlen \
+ksym-default-sysfs-create-link \
+ksym-default-system-percpu-wq \
+ksym-default-task-active-pid-ns \
+ksym-default-timer-init-key \
+ksym-default-unregister-chrdev-region \
+ksym-default-vfree \
+ksym-default-vzalloc-noprof \
+ksym-default-zap-special-vma-range \
 suse-kernel-rpm-scriptlets"
 
 inherit rpm

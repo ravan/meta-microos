@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grsync"
 DESCRIPTION = "Provides translations for the 'grsync' package."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "grsync-lang-1.3.0-1.13.noarch.rpm"
-RPM_HASH = "49bb6eabe99bec12dcd5196e49d53ad24bba80aa353162c51ffce1c6ce95d0a33d851935c8f3ef211cdc3a5e64bd4a475f4e79bbb86ea532233146df147d81cc"
+RPM_NAME = "grsync-lang-1.3.1-1.14.noarch.rpm"
+RPM_HASH = "30df858069a8268cd35c3ea8d1e35d108b4af34edbd4fe4278febfc1fb4c09a70b206da91e5d0e1fd3042e3e3e76ec079f2277d7ea4db713518d9460f4c59246"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grsync-lang \

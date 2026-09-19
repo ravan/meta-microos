@@ -6,10 +6,10 @@ The library loads a hardware dependendent driver. \
 This package provides the development environment for libva gl packages."
 LICENSE = "MIT"
 
-PV = "2.19.0"
+PV = "2.24.1"
 
-RPM_NAME = "libva-gl-devel-2.19.0-1.1.aarch64.rpm"
-RPM_HASH = "fc981503abd9e553cf5013759a047a3c49469ae8f8a67ad813e8b64907e3068d1a65b12a0612dad6c4e57b5263f624923e5587eebcd9b8f9ce7dacf38e8e77f2"
+RPM_NAME = "libva-gl-devel-2.24.1-1.1.aarch64.rpm"
+RPM_HASH = "cec3e7981a4416dd6337add490b87908418ccf2e5ad943877f4da4147df7a684d6cd74c2b7aa5faad4417036dc523bcde9b3356d6ae28697bf79dfa3b389c858"
 
 RPROVIDES:${PN} += "libva-gl-devel \
 pkgconfig-libva-glx"

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1.0.0"
 
-RPM_NAME = "changelog-generator-data-1.0.0-1.11.noarch.rpm"
-RPM_HASH = "1026bd4a66d2237662670d1e9bea6faf250e8ae11e0e868995b6e94ef8404ca2cfcdf570236d146a6d80a612de25ee47c7fed0bddc451baeac82feda5421ef73"
+RPM_NAME = "changelog-generator-data-1.0.0-1.19.noarch.rpm"
+RPM_HASH = "251a93a48d8192472bc581aaa2611bf3de3d49bfdac8bd04c1459f94bd695e5f3000365c94995351c854fa35f690c9f755bdf5df247060b5bd9376110c5f0f8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "changelog-generator-data"

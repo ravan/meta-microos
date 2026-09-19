@@ -12,17 +12,17 @@ for this file (for both .cc and .h files), and replacing includes with \
 forward declarations when possible."
 LICENSE = "NCSA"
 
-PV = "0.20"
+PV = "0.26"
 
-RPM_NAME = "include-what-you-use-0.20-1.2.aarch64.rpm"
-RPM_HASH = "a7ce50f3d1aafc386228b79f4cb01c7ccf5e36c4f514a1f5091da1c7b14723ffc9e7c17403262483181b73e9557f47af35bd8f888e2e2f021a78611684a59258"
+RPM_NAME = "include-what-you-use-0.26-1.4.aarch64.rpm"
+RPM_HASH = "1a8f6660bf86be38492ba6288ac1da149397270c20d686bd12490a7f5e5951bfcf775bd3e73919eb5e80a523651d0fa171629db0776fb56dff8bdc6978c426e4"
 
 RPROVIDES:${PN} += "include-what-you-use"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.22.1 \
 libc.so.6 \
-libclang-cpp.so.16 \
+libclang-cpp.so.22.1 \
 libstdc++.so.6"
 
 inherit rpm

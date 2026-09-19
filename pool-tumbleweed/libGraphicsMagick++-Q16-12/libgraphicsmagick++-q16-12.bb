@@ -10,10 +10,10 @@ images, and to create thumbnail images. \
 This subpackage contains C++ interface to GraphicsMagick library."
 LICENSE = "MIT"
 
-PV = "1.3.40"
+PV = "1.3.48"
 
-RPM_NAME = "libGraphicsMagick++-Q16-12-1.3.40-5.1.aarch64.rpm"
-RPM_HASH = "28edbcb74fef34b33acc8422be6028d94ac1fdd18452c80534ab6e6ff766c4356a54e0b9cfc52aa4b218c7e5cec80b71c01f0aab39851f63ca012f5436028345"
+RPM_NAME = "libGraphicsMagick++-Q16-12-1.3.48-2.1.aarch64.rpm"
+RPM_HASH = "1ed23ef02751b65648aa9ec1c98d67463bb455ded6ba7bebbbcccf3e633a0f201195c8c5f8b941a963aeea4ea0d3713747c294af1101eaa2aa2dfe858e6c5c0f"
 
 RPROVIDES:${PN} += "libGraphicsMagick++-Q16-12 \
 libGraphicsMagick++-Q16.so.12"

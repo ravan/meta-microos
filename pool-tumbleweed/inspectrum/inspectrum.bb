@@ -2,24 +2,22 @@ SUMMARY = "A tool for analysing captured signals from SDRs"
 DESCRIPTION = "A tool for analysing captured signals, primarily from software-defined radio receivers"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.2.3"
+PV = "0.4.0"
 
-RPM_NAME = "inspectrum-0.2.3-1.11.aarch64.rpm"
-RPM_HASH = "5e242edeab1c1c18bdb1dc80b968290dc2414c1265f0a1827fd170f0a7692ca5d58423098ddeeecef6fd94b102e138e444b36a5c1d381da9de39b3f4ce9927db"
+RPM_NAME = "inspectrum-0.4.0-2.1.aarch64.rpm"
+RPM_HASH = "a51ad1ab68146eb4b3546ec08abeba30283d44618a1a05d7a0c1ca6345678b97687de6969feee13cab3605637c2ebde1ca232d10b84e2e6dae682e888139af67"
 
 RPROVIDES:${PN} += "inspectrum"
 
-RDEPENDS:${PN} += "hicolor-icon-theme \
-ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
-libliquid.so \
+libliquid.so.1 \
 libm.so.6 \
-libstdc++.so.6 \
-update-desktop-files"
+libstdc++.so.6"
 
 inherit rpm

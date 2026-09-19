@@ -9,16 +9,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.1"
 
-RPM_NAME = "ghc-network-info-0.2.1-2.4.aarch64.rpm"
-RPM_HASH = "66288762bc3e6f7d6e3890def3b8ce7ad9b535502237808ab920df431d011b2c23ae7f39cf663a81709316582e86cc81d76c29531d3e108c5aa004eb5718f56b"
+RPM_NAME = "ghc-network-info-0.2.1-2.21.aarch64.rpm"
+RPM_HASH = "bbeda6b1797c7be1ae332e5bf0d6cd06c87261fc8caad0ba69f1c1621d3b896aa8c04d28ff0194714c033254fa09a705fa7ac1c8f98ec9e62cfa6cb49487c8d1"
 
 RPROVIDES:${PN} += "ghc-network-info \
-libHSnetwork-info-0.2.1-EA7QwxKMOIgJxpSbEh9J66-ghc9.4.6.so"
+libHSnetwork-info-0.2.1-I1lcnyergC0DdfN7xa3e0a-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

@@ -15,10 +15,10 @@ binary packages of the most current Samba version, and a bug reporting \
 how to."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.18.6+git.320.cfda27bacb"
+PV = "4.24.6+git.488.e38f6c96c62"
 
-RPM_NAME = "samba-4.18.6+git.320.cfda27bacb-1.1.aarch64.rpm"
-RPM_HASH = "88c1fbd4588b50621ef9d1abe9c95b28f8178cba9d4e64f79bdacec8f7b69075dddc4c332a33dc07509a0323e218294d8b795bdb83afe1f9f04dd4ea3db30ce3"
+RPM_NAME = "samba-4.24.6+git.488.e38f6c96c62-1.1.aarch64.rpm"
+RPM_HASH = "3d8b19e52a1d5e6f9e2863d9667d8730c210b4da87b44ad7ef6ab8f0575ac8f38d366f4bb9ef8744b8c6e73610377b72d1c282233e63ac923980f901d7045272"
 
 RPROVIDES:${PN} += "config-samba \
 group-ntadmin \
@@ -31,83 +31,78 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/touch \
 coreutils \
 fillup \
+group-users \
 ld-linux-aarch64.so.1 \
-libCHARSET3-samba4.so \
-libMESSAGING-samba4.so \
-libREG-FULL-samba4.so \
-libRPC-SERVER-LOOP-samba4.so \
-libRPC-WORKER-samba4.so \
-libads-samba4.so \
-libauth-samba4.so \
-libauth4-samba4.so \
+libCHARSET3-private-samba.so \
+libMESSAGING-private-samba.so \
+libREG-FULL-private-samba.so \
+libRPC-SERVER-LOOP-private-samba.so \
+libads-private-samba.so \
+libauth-private-samba.so \
+libauth4-private-samba.so \
+libauthkrb5-private-samba.so \
 libc.so.6 \
-libcli-cldap-samba4.so \
-libcli-nbt-samba4.so \
-libcli-smb-common-samba4.so \
-libcli-spoolss-samba4.so \
-libcliauth-samba4.so \
-libcmdline-contexts-samba4.so \
-libcmdline-samba4.so \
-libcommon-auth-samba4.so \
+libcli-cldap-private-samba.so \
+libcli-nbt-private-samba.so \
+libcli-smb-common-private-samba.so \
+libcli-spoolss-private-samba.so \
+libcliauth-private-samba.so \
+libcmdline-contexts-private-samba.so \
+libcmdline-private-samba.so \
+libcommon-auth-private-samba.so \
 libcups.so.2 \
 libdbus-1.so.3 \
-libdbwrap-samba4.so \
+libdbwrap-private-samba.so \
 libdcerpc-binding.so.0 \
-libdcerpc-samba-samba4.so \
+libdcerpc-samba-private-samba.so \
 libdcerpc-server-core.so.0 \
-libevents-samba4.so \
-libgenrand-samba4.so \
-libgensec-samba4.so \
+libevents-private-samba.so \
+libgenrand-private-samba.so \
+libgensec-private-samba.so \
 libgnutls.so.30 \
-libgse-samba4.so \
-libiov-buf-samba4.so \
+libgse-private-samba.so \
 libldap.so.2 \
-liblibcli-lsa3-samba4.so \
-liblibcli-netlogon3-samba4.so \
-liblibsmb-samba4.so \
-libmessages-dgm-samba4.so \
-libmsghdr-samba4.so \
-libmsrpc3-samba4.so \
+liblibsmb-private-samba.so \
+libmessages-dgm-private-samba.so \
+libmsghdr-private-samba.so \
+libmsrpc3-private-samba.so \
 libndr-nbt.so.0 \
-libndr-samba-samba4.so \
-libndr-samba4.so \
+libndr-samba-private-samba.so \
+libndr-samba4-private-samba.so \
 libndr-standard.so.0 \
-libndr.so.3 \
-libnetapi.so.1 \
-libnpa-tstream-samba4.so \
+libndr.so.6 \
 libpopt.so.0 \
-libposix-eadb-samba4.so \
-libprinting-migrate-samba4.so \
-libreplace-samba4.so \
-libsamba-cluster-support-samba4.so \
+libposix-eadb-private-samba.so \
+libprinting-migrate-private-samba.so \
+libreplace-private-samba.so \
+libsamba-cluster-support-private-samba.so \
 libsamba-credentials.so.1 \
-libsamba-debug-samba4.so \
+libsamba-debug-private-samba.so \
 libsamba-errors.so.1 \
 libsamba-hostconfig.so.0 \
 libsamba-passdb.so.0 \
-libsamba-security-samba4.so \
-libsamba-sockets-samba4.so \
+libsamba-security-private-samba.so \
+libsamba-sockets-private-samba.so \
 libsamba-util.so.0 \
-libsamba3-util-samba4.so \
-libsamdb.so.0 \
-libsecrets3-samba4.so \
+libsamba3-util-private-samba.so \
+libsecrets3-private-samba.so \
 libsmbconf.so.0 \
-libsmbd-base-samba4.so \
-libsmbd-shim-samba4.so \
-libsocket-blocking-samba4.so \
-libsys-rw-samba4.so \
+libsmbd-base-private-samba.so \
+libsmbd-shim-private-samba.so \
+libsocket-blocking-private-samba.so \
+libsys-rw-private-samba.so \
 libtalloc.so.2 \
-libtdb-wrap-samba4.so \
+libtdb-wrap-private-samba.so \
 libtdb.so.1 \
 libtevent-util.so.0 \
 libtevent.so.0 \
-libtime-basic-samba4.so \
+libtime-basic-private-samba.so \
 liburing.so.2 \
-libutil-reg-samba4.so \
-libutil-tdb-samba4.so \
-libwbclient.so.0 \
-libxattr-tdb-samba4.so \
+libutil-reg-private-samba.so \
+libutil-tdb-private-samba.so \
+libxattr-tdb-private-samba.so \
 samba-client \
+samba-dcerpc \
 system-user-nobody \
 sysuser-shadow"
 

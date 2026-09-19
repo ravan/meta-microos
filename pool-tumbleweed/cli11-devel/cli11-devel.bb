@@ -8,10 +8,10 @@ limits by choice: \
  * No wide strings/Unicode"
 LICENSE = "BSD-3-Clause"
 
-PV = "2.3.2"
+PV = "2.7.2"
 
-RPM_NAME = "cli11-devel-2.3.2-1.2.noarch.rpm"
-RPM_HASH = "77df268cc19fe70c1c48a1d7873333eaa0dd481dac22922fe67d3c7ea88b70c776be5275a56db4a07751935561d59e8cdad7b38dab315695233c358b30f04e7d"
+RPM_NAME = "cli11-devel-2.7.2-1.1.noarch.rpm"
+RPM_HASH = "98752e82bc94cc6e58bedc393967001a05d6fb26bfe473946e575f4138af796ee1acc86a58698e0cbc2f58f7ad3d98d6420951643063e06deb22e6c9ab8f76b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cli11-devel \

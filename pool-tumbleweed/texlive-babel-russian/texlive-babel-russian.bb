@@ -5,10 +5,10 @@ The support is adapted for use both under 'traditional' TeX \
 engines, and under XeTeX and LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3msvn57376"
+PV = "2026.226.1.3msvn57376"
 
-RPM_NAME = "texlive-babel-russian-2023.209.1.3msvn57376-54.1.noarch.rpm"
-RPM_HASH = "ee0ab18df0e17cc15d8240b7c0ae697f65ba394221bfe17cd27db847c37c7a3738703d1735e69cea333f634378fcdd189cc9797c23c338d4380e17b0d8604698"
+RPM_NAME = "texlive-babel-russian-2026.226.1.3msvn57376-60.2.noarch.rpm"
+RPM_HASH = "c4e165393fb2529204b0fa51c517e75e784bd6f533df997f29a359d325e15225b6ad60e0e8b67d2580ec038c8a1ba03183dadf77bfce78c91bae50328e347841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-russianb.ldf \

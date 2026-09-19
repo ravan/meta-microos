@@ -6,13 +6,16 @@ gzip, tar, and more. BusyBox provides a fairly complete POSIX \
 environment for small or embedded systems. The utilities in BusyBox \
 generally have fewer options than their GNU cousins. The options that \
 are included provide the expected functionality and behave much like \
-their GNU counterparts."
+their GNU counterparts. \
+BusyBox is for emergency and special use cases. Replacing the standard \
+tools in a system is not supported. Some tools don't work out of the \
+box but need special configuration, like udhcpc, the dhcp client."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-1.36.1-2.1.aarch64.rpm"
-RPM_HASH = "845703ffdaa8bb90b338f940866a4d0a3a6fdb8316cfe38213299fb7b5c9eac043dbf1edbfd32d9ab63885ba3d654c6c5c8ecda1dfecf1abb77a922146da68e4"
+RPM_NAME = "busybox-1.38.0-2.1.aarch64.rpm"
+RPM_HASH = "695b67c05d93c1ef03c9785a318174839bdad1264434e7d2f7805dee99872cd1b9763199b7308e31f95047d9311b3b15252120d109a04975409b777cb27f3ca1"
 
 RPROVIDES:${PN} += "busybox \
 config-busybox \

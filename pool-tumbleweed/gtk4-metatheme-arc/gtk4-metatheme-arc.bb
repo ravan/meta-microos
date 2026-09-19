@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "20221218"
 
-RPM_NAME = "gtk4-metatheme-arc-20221218-1.1.noarch.rpm"
-RPM_HASH = "cc01c3342bfdbfff52c1c40e02118da444e850358d1fed21f58f8e348dbbb68ec2192b900c4c101332b67ab4dd2007c2d8289aedf6050d46155185d4eb2c5d42"
+RPM_NAME = "gtk4-metatheme-arc-20221218-1.8.noarch.rpm"
+RPM_HASH = "f78ba21a3d8d0dc7b6c4360797ce36ea4169cc4f41797d1c2efa22498afa6eea6b8186d5732244e6aa5cc76437a4529893f394d7dd1bd86f3026a9713fa177ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-metatheme-arc"

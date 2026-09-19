@@ -3,10 +3,10 @@ DESCRIPTION = "AbiWord is a multiplatform word processor with a GTK+ interface o
 UNIX platform."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.5"
+PV = "3.0.8"
 
-RPM_NAME = "libabiword-3_0-3.0.5-2.10.aarch64.rpm"
-RPM_HASH = "34d4c08670b4d4dd98508655aba959725a91b168d4fc2e50165e9acb9306b6f8ed0fa3a42a623caa77b4c87b61815409321d3f8707ba70688018a4308a55820a"
+RPM_NAME = "libabiword-3_0-3.0.8-1.5.aarch64.rpm"
+RPM_HASH = "46f1f2ea4efdd7f9a658e95a70168d992b71271f39064c8d9a85d124fd7c5698e0562c2b9a11843b5eefb6fd57aa2f8dbde7b7b93909976d2264140ea0c6b800"
 
 RPROVIDES:${PN} += "libabiword-3-0 \
 libabiword-3.0.so"
@@ -36,6 +36,7 @@ libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
+libreadline.so.8 \
 librevenge-0.0.so.0 \
 librsvg-2.so.2 \
 libstdc++.so.6 \
@@ -45,7 +46,7 @@ libwpd-0.10.so.10 \
 libwpg-0.3.so.3 \
 libwps-0.4.so.4 \
 libwv-1.2.so.4 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1 \
 libz.so.1"
 

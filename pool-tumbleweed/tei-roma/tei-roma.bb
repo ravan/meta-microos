@@ -1,12 +1,12 @@
 SUMMARY = "TEI Schema or DTD Generator"
 DESCRIPTION = "Roma is a shell script and XSL stylesheets for building a customized \
 TEI schema or DTD.  It uses xsltproc, trang, and Perl."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "2.11"
 
-RPM_NAME = "tei-roma-2.11-79.14.noarch.rpm"
-RPM_HASH = "429af9c092bda652e9ee8f2ea0673ba27efda9145d36c8087f49964e2558abbe1c82275543f65939657c53e18632cfdf868ccae09fed0b35e51c002dfd0c7d94"
+RPM_NAME = "tei-roma-2.11-81.7.noarch.rpm"
+RPM_HASH = "3a9999d209a4d3597e39275e6aa12cfeb71e430c7b7d00ff3efd9fd71269b065712a1893983ea033112ca51f524edc8073b2f40c2c89e6a868491a69d4a993a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tei-roma"

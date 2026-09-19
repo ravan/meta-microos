@@ -6,16 +6,16 @@ Iotop is a Python program with a UI similar to top to show on behalf of \
 which process is the I/O going on."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.6git.20220308"
+PV = "0.6git.20230403"
 
-RPM_NAME = "iotop-0.6git.20220308-1.3.aarch64.rpm"
-RPM_HASH = "cbdc2c31b557f2df554830ef2f8c80880b18cc5a44ba9ea445a07ee522def7a83c83c413b075daacf8c90c81325b2393c5f2ef6a66d9c0e0b3ea7923e2aabe8d"
+RPM_NAME = "iotop-0.6git.20230403-3.5.aarch64.rpm"
+RPM_HASH = "6909675b9e5db90bf80131ac56b42728eb8c0fa0a730dcac4e8ce7080fdd3797884cc874b36addae736e0db70e1b6959a0a3903c142678b8d59be2b3ad624b15"
 
 RPROVIDES:${PN} += "iotop \
-python3.11dist-iotop \
+python3.13dist-iotop \
 python3dist-iotop"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-curses"
 

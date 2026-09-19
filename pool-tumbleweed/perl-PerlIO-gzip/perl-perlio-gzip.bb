@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.20"
 
-RPM_NAME = "perl-PerlIO-gzip-0.20-1.24.aarch64.rpm"
-RPM_HASH = "ff7a0068a80f0536adb56fbfabaeb52a6a0982674d98dc9cd661eb654def4c49f77d8fdaeac1907b8f5c77f1813d485852b87f7578454aa743d900d82c924229"
+RPM_NAME = "perl-PerlIO-gzip-0.20-1.41.aarch64.rpm"
+RPM_HASH = "1240538944b3fa6a753405e2c3cb755156c18c4999b374dbecd08d2003bf08a6de671f0dcda3c75188db74c964b38a8bc5324f132a8ac192b8c9ce37529b293a"
 
 RPROVIDES:${PN} += "perl-PerlIO--gzip \
 perl-PerlIO-gzip"
@@ -16,6 +16,6 @@ perl-PerlIO-gzip"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

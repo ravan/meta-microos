@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-repltext"
 DESCRIPTION = "This package includes the documentation for texlive-repltext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56433"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-repltext-doc-2023.209.1.1svn56433-54.2.noarch.rpm"
-RPM_HASH = "0111b23522e299e627e28ab9a3f00abac66e7f8e87f3a36a74cbf889d7cd9004cd98dc6b03b6de44a0f6e6b66504d811505e120ac42f3599990a0f18659daca4"
+RPM_NAME = "texlive-repltext-doc-2026.226.1.1svn77682-60.4.noarch.rpm"
+RPM_HASH = "33071fa53e9c60650f4bcdc353d466e5151c251d0821e81ec2a9ee785c34c5ce265ab95d30ed51ac214b39d79a5f83270ad0210c430242068a66e1a510f0dd15"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-repltext-doc"

@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kdepim-runtime"
 DESCRIPTION = "Provides translations for the 'kdepim-runtime' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdepim-runtime-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "eee4bc5ed41e75474146817218f05dd9a607b26e2dbb119ba17bef9bccd019a6513683ff5c7272aa5da6e8800ab79ba0f89be3f0d4f7e1910df521dc25741285"
+RPM_NAME = "kdepim-runtime-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "674037b5eb47d252ba3721d3a28a6147427cb47473b15a7e0bd720fb853b15fccfa5d03299c10e68de13f5d4cf72f4ea496dfcd48dfe987938c40963dd7c0714"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdepim-runtime-lang \
 kdepim-runtime-lang-all \
 locale-kdepim-runtime-ar \
+locale-kdepim-runtime-ast \
 locale-kdepim-runtime-bg \
 locale-kdepim-runtime-bs \
 locale-kdepim-runtime-ca \
@@ -29,6 +30,7 @@ locale-kdepim-runtime-fr \
 locale-kdepim-runtime-ga \
 locale-kdepim-runtime-gl \
 locale-kdepim-runtime-he \
+locale-kdepim-runtime-hi \
 locale-kdepim-runtime-hr \
 locale-kdepim-runtime-hu \
 locale-kdepim-runtime-ia \
@@ -61,6 +63,7 @@ locale-kdepim-runtime-sr@ijekavian \
 locale-kdepim-runtime-sr@ijekavianlatin \
 locale-kdepim-runtime-sr@latin \
 locale-kdepim-runtime-sv \
+locale-kdepim-runtime-ta \
 locale-kdepim-runtime-th \
 locale-kdepim-runtime-tr \
 locale-kdepim-runtime-ug \

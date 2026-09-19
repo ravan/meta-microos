@@ -13,10 +13,10 @@ untrusted TeX sources. graphicscache supports pdfLaTeX and \
 LuaLaTeX; XeLaTeX is not supported."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.4svn65318"
+PV = "2026.226.0.0.4svn65318"
 
-RPM_NAME = "texlive-graphicscache-2023.209.0.0.4svn65318-54.2.noarch.rpm"
-RPM_HASH = "6df523ffad350fadef49cb0940567293e4f81ef421ca314aeecb72953cf88475974e0b6cb1e558a8542597b1adb38959157c552e70026df150e1bbbc75f4dc47"
+RPM_NAME = "texlive-graphicscache-2026.226.0.0.4svn65318-60.4.noarch.rpm"
+RPM_HASH = "144a653abb064f6c1372b79250bcdfd5e58033afbd3f0a18fdc55a47eefe24dc90f1f1bc994c041f46df6ad00221475e95198e241b47282c07ca6ccd2d2575ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicscache.sty \

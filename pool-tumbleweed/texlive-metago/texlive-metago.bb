@@ -5,10 +5,10 @@ programmatically, or using the package via a script (which may \
 produce several images)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn15878"
+PV = "2026.226.0.0.9svn78101"
 
-RPM_NAME = "texlive-metago-2023.209.0.0.9svn15878-55.1.noarch.rpm"
-RPM_HASH = "5925951ecbdbecd1197190cdf14e4c63edf9aa4595886e1adb54ff92459d11869f120ff7ef98f2e99e832f76fd710b2378fdddfdae8c06616fa0b2d09b99cc32"
+RPM_NAME = "texlive-metago-2026.226.0.0.9svn78101-61.2.noarch.rpm"
+RPM_HASH = "e54907f46fabf52056fef4290daf9d2b75454ba5db6d4dbef5754a8c9c70382940abb868224afbb76c4327c8cde17d9211507ef0bc90e0fced309111bc563443"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metago"

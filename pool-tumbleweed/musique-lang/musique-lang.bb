@@ -2,10 +2,10 @@ SUMMARY = "Translations for package musique"
 DESCRIPTION = "Provides translations for the 'musique' package."
 LICENSE = "GPL-3.0-only & LGPL-2.1-only"
 
-PV = "1.10.1"
+PV = "1.12"
 
-RPM_NAME = "musique-lang-1.10.1-1.18.noarch.rpm"
-RPM_HASH = "c43a7e8051cb0c9e4800e9eaae02f5164e59c76a3f04a60208ab1da134852ced7855da97c277610b9de8d0a79cc1971d038998988058dbae5406e38409f3877e"
+RPM_NAME = "musique-lang-1.12-3.4.noarch.rpm"
+RPM_HASH = "04efce3f29f309be4b2277486396cc40e5a3e8e5791345775fe99b578f2014fdb8797c51423fdbc2bbc994515571c4e1b2ddac2fa84d18ff6dfb6c0103b2680b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "musique-lang \

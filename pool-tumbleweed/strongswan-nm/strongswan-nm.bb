@@ -1,15 +1,15 @@
 SUMMARY = "NetworkManager plugin for strongSwan"
-DESCRIPTION = "StrongSwan is an OpenSource IPsec-based VPN solution for Linux. \
+DESCRIPTION = "StrongSwan is an IPsec-based VPN solution for Linux. \
  \
 This package provides the NetworkManager plugin to control the \
 charon IKEv2 daemon through D-Bus, designed to work using the \
 NetworkManager-strongswan graphical user interface."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.11"
+PV = "6.1.0"
 
-RPM_NAME = "strongswan-nm-5.9.11-2.1.aarch64.rpm"
-RPM_HASH = "d7e5cbd7a114ace884d19d6845f6c95a2c041d850f982da958fb13c5d12074e47f2e3afac6e7b51f0fb246a756d2040ff2cfe01ee5150e440d9921e6e38e448a"
+RPM_NAME = "strongswan-nm-6.1.0-1.1.aarch64.rpm"
+RPM_HASH = "7dc97cf97772bf9b659be8a093fdf44e330dcbd552aa01becd3326aeed28ecdd3777e633109ec01ade9765eb401d35ef0684b1c883bc374c4c8411f412b3553e"
 
 RPROVIDES:${PN} += "strongswan-nm"
 
@@ -21,6 +21,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libnm.so.0 \
 libstrongswan.so.0 \
-strongswan-libs0"
+strongswan"
 
 inherit rpm

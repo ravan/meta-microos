@@ -8,10 +8,10 @@ field, the editor of the volume in which the entry is \
 contained."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3.1svn43049"
+PV = "2026.226.1.3.1svn43049"
 
-RPM_NAME = "texlive-biblatex-morenames-2023.209.1.3.1svn43049-54.1.noarch.rpm"
-RPM_HASH = "d3dc2ec6b7595cfe916827fadd6592e5d8416df962df7e9cfe56c7672bad067932861c833f84a3c8840f01f1713e5bd3411c3e601e3bcc67b79ccfcf51b2251b"
+RPM_NAME = "texlive-biblatex-morenames-2026.226.1.3.1svn43049-61.2.noarch.rpm"
+RPM_HASH = "6797643cb381dfb083b42d10a00724e10cabe6d3ac53caa6f11ab07b7c7af5236ac7023a1320677a8adf4f6f10c34983385e609e298a85cde4525234b1c98462"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-morenames.bbx \

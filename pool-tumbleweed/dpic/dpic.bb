@@ -2,10 +2,10 @@ SUMMARY = "Pic language processor"
 DESCRIPTION = "Pic language processor for LaTeX documents or web sites."
 LICENSE = "BSD-2-Clause & CC-BY-3.0"
 
-PV = "2023.02.01"
+PV = "2025.08.01"
 
-RPM_NAME = "dpic-2023.02.01-2.1.aarch64.rpm"
-RPM_HASH = "6fb3961dd157b88539a96ae7ecf03512b9da972d4b13358ad1ae496f3afee18cdf8eec9e6d5541c4cb70e80a589419fe71fcfe2293541fcafc390ad0cbea58b9"
+RPM_NAME = "dpic-2025.08.01-1.3.aarch64.rpm"
+RPM_HASH = "408e9ff14415370f7a2b08c944f2f9a332b5a3ae705401633b8d6aba5ad1aa0b65d8635c4a3fe0d5b807d658a4716047ad78a24bd60f540e1b4fee79a53c0bfe"
 
 RPROVIDES:${PN} += "dpic"
 

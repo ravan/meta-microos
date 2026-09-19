@@ -6,10 +6,10 @@ This package provides userspace interface for Kernel DRM services \
 for AMD Radeon chips."
 LICENSE = "MIT"
 
-PV = "2.4.116"
+PV = "2.4.134"
 
-RPM_NAME = "libdrm_amdgpu1-2.4.116-1.1.aarch64.rpm"
-RPM_HASH = "5fe12c5e60f357709b963ce11333c684f1aee0a07e90480860a3d04d2989dedceab13ac2742d84eb9aa17017ceb4a9b0a3f0ade19de94873b7405d27f4efa5fb"
+RPM_NAME = "libdrm_amdgpu1-2.4.134-2.2.aarch64.rpm"
+RPM_HASH = "ecc25ce4ff0f04da22da7e57296e28e9668759b3c86ec48dab8e321b860a66bc886ca55a38b93dd8ac42cad2cbf506a7382b923e6c3c312695992c9e963a8991"
 
 RPROVIDES:${PN} += "libdrm-amdgpu.so.1 \
 libdrm-amdgpu1"

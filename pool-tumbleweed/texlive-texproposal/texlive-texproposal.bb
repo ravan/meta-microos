@@ -16,10 +16,10 @@ introduction of TeX and relevant resources to our university, \
 is proposed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn43151"
+PV = "2026.227.1.4svn43151"
 
-RPM_NAME = "texlive-texproposal-2023.209.1.4svn43151-55.1.noarch.rpm"
-RPM_HASH = "08359b10567ea6ae0d558e41818ff01ec6147784b06b02e11e83f9209072e3a8386f02f3e6b273714738cafbfd12544cbc1f4821e619cd0fa1e7dffb739cbf6c"
+RPM_NAME = "texlive-texproposal-2026.227.1.4svn43151-62.2.noarch.rpm"
+RPM_HASH = "534d471aaf242edbc6db5b860ecd4cafc99413126bfef83952daf953dc749a8072556e45e79c940ee816a82b9cef47350178ef83befaea4e7a04643ce4118e7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texproposal"

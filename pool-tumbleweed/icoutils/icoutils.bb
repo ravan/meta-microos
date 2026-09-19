@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.32.3"
 
-RPM_NAME = "icoutils-0.32.3-2.4.aarch64.rpm"
-RPM_HASH = "685550e5e5434f85af4802bc50f1b3a588bb28ffb16e66c9b05b31467f4e64c19f37ab69d4e17e6b714dd51d3db430c6c8270d0f986581a4b434fabcf4849048"
+RPM_NAME = "icoutils-0.32.3-3.9.aarch64.rpm"
+RPM_HASH = "5f2ebb3d5cbe6c1fd64a111d3b253f9172a0601fb25f1b1104834ff8cb9d53213ed8e5f0cc96b381c9f535916cd5eb5c9be5a4c71c5923f42ccf2ea7efb2630e"
 
 RPROVIDES:${PN} += "icoutils"
 

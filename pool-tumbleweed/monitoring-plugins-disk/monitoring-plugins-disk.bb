@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin checks the amount of used disk space on a mounted fil
 generates an alert if free space is less than one of the threshold values."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-disk-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "e25d73bfb814fa91f592b040f6ee21c4c3917b188569bdab6341150893ecf6d8c58e9139128bdce2ff631a7413d16877734cc539a15c1c5d0e82cb7ef8672897"
+RPM_NAME = "monitoring-plugins-disk-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "fd42965eec3161d8dcc4ddc5e7b79bdf514553a3bf736bcb616c5ae96ab44e991eedc524ae991c25d57a426ba1f8f438216985b06fdd70cd06d544270e3db7ec"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-disk \
 monitoring-plugins-disk \

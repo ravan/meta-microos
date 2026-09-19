@@ -6,20 +6,18 @@ images that are built to run withing the Microsoft Azure or \
 Microsoft Azure Stack framework."
 LICENSE = "Apache-2.0"
 
-PV = "2.8.0.11"
+PV = "2.14.0.1"
 
-RPM_NAME = "python-azure-agent-2.8.0.11-3.5.noarch.rpm"
-RPM_HASH = "d04418faedee6c044094bb9b0bc3e82842c8d9567619b8f03e7f5776615face779fe2cfff3b9933bddd8ae1acc3a83298c5c0575a728fccff69e8593fa37ecf7"
+RPM_NAME = "python-azure-agent-2.14.0.1-2.1.noarch.rpm"
+RPM_HASH = "d433a5e19db9f1169c398aa8c1e32aa7f29b605ede0493f7416447850fb636f3c03b44fbe85086fc27cb2a14645af781fc406a561c5f071f62a126b6d273b399"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "WALinuxAgent \
-config-python-azure-agent \
 python-azure-agent \
-python3.11dist-walinuxagent \
+python3.13dist-walinuxagent \
 python3dist-walinuxagent"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 eject \
 grep \
@@ -27,15 +25,14 @@ iptables \
 logrotate \
 openssh \
 openssl \
+procps \
 pwdutils \
 python-abi \
-python3-distro \
-python3-pyasn1 \
-python3-xml \
+python313-distro \
+python313-pyasn1 \
+python313-xml \
 sudo \
 systemd \
-sysvinit-tools \
-util-linux \
-wicked"
+util-linux"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Perl Documentation"
 DESCRIPTION = "Perl man pages and pod files."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.38.0"
+PV = "5.44.0"
 
-RPM_NAME = "perl-doc-5.38.0-1.1.noarch.rpm"
-RPM_HASH = "1c782ded9810cfe5a46c1b480c1c66fb3001e5f9548fb463405c0e0d677b8c4a7cc7081464224fb35535bb1b926d12e523d093b5fa038723f16d288acbf6ee20"
+RPM_NAME = "perl-doc-5.44.0-1.2.noarch.rpm"
+RPM_HASH = "459e2c22b19956d3a8f34664ee3f41d53a934969df0d5f6cab939bedc1c989a56428614a830f93cdae6e03b31bf99ed483de6f66999ecfe1304181ebd9002adf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-/usr/share/man/man3/CORE.3pm.gz \

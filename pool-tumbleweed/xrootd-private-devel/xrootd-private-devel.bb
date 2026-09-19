@@ -8,10 +8,10 @@ Backwards compatibility between versions is not guaranteed for \
 them."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.6.1"
+PV = "5.9.0"
 
-RPM_NAME = "xrootd-private-devel-5.6.1-1.1.aarch64.rpm"
-RPM_HASH = "11b40de6283758a6c2e8ced7045737d74a734d690f31b62d5792217a127ceb80a476aee36caed2aa3fd1afa7264689717d33426b139cdb1bfbdc77d653afaf88"
+RPM_NAME = "xrootd-private-devel-5.9.0-1.6.aarch64.rpm"
+RPM_HASH = "55e509643518d652aeff6ab0619f6577828e7194767e59ef83a15f14f7167da15844e0e02fad6435f00dc3de6e733efedd914e7ac1be08933367fa19f4b8d3c7"
 
 RPROVIDES:${PN} += "xrootd-private-devel"
 

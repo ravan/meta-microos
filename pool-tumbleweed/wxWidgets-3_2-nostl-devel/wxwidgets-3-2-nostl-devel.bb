@@ -13,10 +13,10 @@ Note: wxWidgets variant devel packages are mutually exclusive. Please \
 read /usr/share/doc/packages/wxWidgets-3_2-nostl/README.SUSE to pick a correct variant."
 LICENSE = "LGPL-2.1-or-later-with-WxWindows-exception-3.1"
 
-PV = "3.2.2.1"
+PV = "3.2.8"
 
-RPM_NAME = "wxWidgets-3_2-nostl-devel-3.2.2.1-3.1.aarch64.rpm"
-RPM_HASH = "349711a52338dfec31624d09ab1699033d2f2c1377c07e1c28ed69f1666c6e827321e0a18b8ed1ecbe85fdd2ea05c3b7ed064ff8af115615cac8f29c90ded85c"
+RPM_NAME = "wxWidgets-3_2-nostl-devel-3.2.8-4.6.aarch64.rpm"
+RPM_HASH = "a5389a8c41e1ef3806586b2589655ce3cc1d88ce5e2ef9859380a44fd8228e544ab06fb47a2cf5fd35bdff27ea752cd992730a591cb544863bfa4d4c4db21a51"
 
 RPROVIDES:${PN} += "wxWidgets-3-2-nostl-devel \
 wxWidgets-any-devel"
@@ -27,20 +27,20 @@ libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \
 libwx-base-suse-nostl-devel \
-libwx-baseu-suse-nostl.so.9.0.0 \
-libwx-baseu-xml-suse-nostl.so.9.0.0 \
-libwx-gtk3u-adv-suse-nostl9-0-0 \
-libwx-gtk3u-aui-suse-nostl9-0-0 \
-libwx-gtk3u-core-suse-nostl9-0-0 \
-libwx-gtk3u-gl-suse-nostl9-0-0 \
-libwx-gtk3u-html-suse-nostl9-0-0 \
-libwx-gtk3u-media-suse-nostl9-0-0 \
-libwx-gtk3u-propgrid-suse-nostl9-0-0 \
-libwx-gtk3u-qa-suse-nostl9-0-0 \
-libwx-gtk3u-ribbon-suse-nostl9-0-0 \
-libwx-gtk3u-richtext-suse-nostl9-0-0 \
-libwx-gtk3u-stc-suse-nostl9-0-0 \
-libwx-gtk3u-xrc-suse-nostl9-0-0 \
+libwx-baseu-suse-nostl.so.16.0.0 \
+libwx-baseu-xml-suse-nostl.so.16.0.0 \
+libwx-gtk3u-adv-suse-nostl16-0-0 \
+libwx-gtk3u-aui-suse-nostl16-0-0 \
+libwx-gtk3u-core-suse-nostl16-0-0 \
+libwx-gtk3u-gl-suse-nostl16-0-0 \
+libwx-gtk3u-html-suse-nostl16-0-0 \
+libwx-gtk3u-media-suse-nostl16-0-0 \
+libwx-gtk3u-propgrid-suse-nostl16-0-0 \
+libwx-gtk3u-qa-suse-nostl16-0-0 \
+libwx-gtk3u-ribbon-suse-nostl16-0-0 \
+libwx-gtk3u-richtext-suse-nostl16-0-0 \
+libwx-gtk3u-stc-suse-nostl16-0-0 \
+libwx-gtk3u-xrc-suse-nostl16-0-0 \
 pkgconfig-gl \
 pkgconfig-glu \
 pkgconfig-gtk+-3.0"

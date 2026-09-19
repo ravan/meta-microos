@@ -6,10 +6,10 @@ considers memory barrier semantics, and allows the construction of code \
 that involves minimum overhead across a variety of architectures."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "7.8.0"
+PV = "7.10.0"
 
-RPM_NAME = "libatomic_ops-devel-7.8.0-1.2.aarch64.rpm"
-RPM_HASH = "457e3e0ab95c608c1d0e595d31c08ce23ffe8b54da94c495f35f9297dfd703d4af8c6b41fd653bf437009b1bb4092ea7d9c3283959506c8165dfd33091f7ac0c"
+RPM_NAME = "libatomic_ops-devel-7.10.0-1.5.aarch64.rpm"
+RPM_HASH = "802d2de8cbcf57e00a3837510b55dbdf79a71c7779396825b1a9e62233f25d83ce3c861af102953ce57cc4ecd593c958016ac04a3cc5139ece1a62055675fc9e"
 
 RPROVIDES:${PN} += "libatomic-ops-devel \
 pkgconfig-atomic-ops"

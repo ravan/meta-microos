@@ -5,15 +5,15 @@ DESCRIPTION = "Bluefish is a HTML editor designed for the experienced Web design
 It is based on Gtk+."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.2.14"
+PV = "2.2.17"
 
-RPM_NAME = "bluefish-2.2.14-1.1.aarch64.rpm"
-RPM_HASH = "29a4d96a578646ca7eb578d6fd1882ae8df33dd4de86b63ed5305329b203c5c7b41a35c20ebea56043f384acf3ffa1376ccb9ca6a013a2d5303b4c59494cf6b6"
+RPM_NAME = "bluefish-2.2.17-1.9.aarch64.rpm"
+RPM_HASH = "1545eb52fcad784759ee34246363ac949221802eb3d32a684351f69ceab5598e665c80c5c3ed7a321d8112d9b2c950e0e2559e6c93080683b7389d9c85042e32"
 
 RPROVIDES:${PN} += "bluefish \
 bluefish-unstable"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
@@ -30,7 +30,8 @@ libgucharmap-2-90.so.7 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2 \
+libpython3.13.so.1.0 \
+libxml2.so.16 \
 sgml-skel"
 
 inherit rpm

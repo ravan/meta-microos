@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.0.1"
 
-RPM_NAME = "container-build-helpers-0.0.1-1.5.noarch.rpm"
-RPM_HASH = "235b882b9d77d40660631392677c9e6b409caadfb5c52c624f32e9fe5ecb50222e7d8e394ff0323033ace68a273624a20a3197538c4f24a18def4413de4ff0b9"
+RPM_NAME = "container-build-helpers-0.0.1-2.6.noarch.rpm"
+RPM_HASH = "406ddadb6d5fe4d86192157255d141282383b40aecdd35360da278aa16b19dcdb10400a621cb524555e7e532776c3a2a51d0ab41aa786ee85036c384782f0457"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "container-build-helpers"

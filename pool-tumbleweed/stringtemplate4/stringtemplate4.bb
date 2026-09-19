@@ -6,10 +6,10 @@ is particularly good at multi-targeted code generators, \
 multiple site skins, and internationalization/localization."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.3"
+PV = "4.3.3"
 
-RPM_NAME = "stringtemplate4-4.3-2.11.noarch.rpm"
-RPM_HASH = "b97d57da57a6473ec343c0b241fba5b5340735b4c7dc09535378d17a3447557a017ea2f65414d74c2ad7dcc8fea1a17e011725907bf5217ebced16dbea07f140"
+RPM_NAME = "stringtemplate4-4.3.3-3.6.noarch.rpm"
+RPM_HASH = "7f85ded16b5224c60cb6bf0244b60413069206757916fd2b4098bf009837044ca1b5c13759548dfdfbad48cf8b9e626507fe61c77d2ba77bf9d3a4e005f38a26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.antlr-ST4 \

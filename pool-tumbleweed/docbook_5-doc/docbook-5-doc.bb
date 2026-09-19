@@ -4,8 +4,8 @@ LICENSE = "SUSE-Oasis-Specification-Notice"
 
 PV = "5.2cr5"
 
-RPM_NAME = "docbook_5-doc-5.2cr5-2.1.noarch.rpm"
-RPM_HASH = "47f8665f640af21130b591c4f5633164e32a2e4443da7c151ce3db801e133cd04d3235295d2f97097c8f8e946e7f47f7bc57578d11872e1196f53ea6fbc1cb9e"
+RPM_NAME = "docbook_5-doc-5.2cr5-3.7.noarch.rpm"
+RPM_HASH = "f332e7aaf2ffb57e87775042cf6712d7f405f57c71a03465ce1f9252dab1db1747a5e6e6f4a814c5d8afd02c320faad4194458a2fbe19911705dc5dcb241854c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docbook-5-doc"

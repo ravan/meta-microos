@@ -2,10 +2,10 @@ SUMMARY = "Library to access storage media devices"
 DESCRIPTION = "libsmdev is a library to access and read storage media devices."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221028"
+PV = "20260902"
 
-RPM_NAME = "libsmdev1-20221028-3.1.aarch64.rpm"
-RPM_HASH = "716a5ffdc926665b0ccf3ad8240068b80b864994df688b2b975e980c0ad240ef51b49c0c691c1285cbb167d2d8fd962ab3c99f7c977bddffded6ad44f3ea89c1"
+RPM_NAME = "libsmdev1-20260902-1.1.aarch64.rpm"
+RPM_HASH = "02aff586ccf539bafe0467c58593a73886792dcffb301c06209c1db1945ba87d59365f6de304bc796bb5311b0aa7162aa096675a821ac5adf1947fcc01b7949a"
 
 RPROVIDES:${PN} += "libsmdev.so.1 \
 libsmdev1"

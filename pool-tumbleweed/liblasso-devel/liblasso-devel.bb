@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files, static libraries and deve
 documentation for Lasso."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.8.2"
+PV = "2.9.0"
 
-RPM_NAME = "liblasso-devel-2.8.2-1.4.aarch64.rpm"
-RPM_HASH = "233d639cac9867e27da5e8cb571890b722777097300356155cc3798df23470926e688139de4a9ef0c4395f340e13ff2e7206cec4ad2c0d1bb36e3c95c20d6993"
+RPM_NAME = "liblasso-devel-2.9.0-1.7.aarch64.rpm"
+RPM_HASH = "d03eaf620c408d964e967a0bbcfd7975e6bc5bbcbc8a3ed521550049c95514ebcb4377b259ff942b5bb33cda588bccdcc76f1452bcb5868fa97a1838192a12cc"
 
 RPROVIDES:${PN} += "liblasso-devel \
 pkgconfig-lasso"

@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Irish (Gaeilge) in T1/EC and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58609"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-irish-2023.209.svn58609-54.1.noarch.rpm"
-RPM_HASH = "4cc5b1557dcdfce7981b0411623e98f7e65a62c80b89fda69138e804c03a9079dbdab7c457e04fd2ad4656629782cd96d97bf6070547bbe39bcf2c53746b3677"
+RPM_NAME = "texlive-hyphen-irish-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "c890657d99c084355b7b3c8b1deaa13bd10de1441a3ddfb51f81e01bd2a11517373281489cf28ca2d93cb74baccf8dfb441889ab45ab4e3006f7e526c4840e3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-ga.ec.tex \

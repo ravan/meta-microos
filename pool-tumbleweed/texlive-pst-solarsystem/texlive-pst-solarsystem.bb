@@ -8,10 +8,10 @@ observed. Saturn and Jupiter are in the right direction, but \
 not in the correct size."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13svn45097"
+PV = "2026.226.0.0.15svn69675"
 
-RPM_NAME = "texlive-pst-solarsystem-2023.209.0.0.13svn45097-54.2.noarch.rpm"
-RPM_HASH = "fdbbb0375f6965bf7dcd3f0a66d89ee02948c1e23a2611818077d77ed3438e66ffaf7aa7fc75c3b28ca871d49c3b2026537246503dc930ee5c4a7867af9b3f08"
+RPM_NAME = "texlive-pst-solarsystem-2026.226.0.0.15svn69675-60.4.noarch.rpm"
+RPM_HASH = "d05106f9f8133da3d0adebcc09f585e3d0121f004be737096a51cfb9781390941433a2e8afe6b81222516f0de35320c9f120e4073be1c7b93196c380c5cb17f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-solarsystem.sty \

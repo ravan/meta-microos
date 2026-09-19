@@ -5,10 +5,10 @@ backend supporting many language models and frontends. \
 This package provides language model table data for libpinyin."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.8.1"
+PV = "2.10.3"
 
-RPM_NAME = "libpinyin-data-2.8.1-1.4.aarch64.rpm"
-RPM_HASH = "a06b988994dddd1c0e8e7c68826b93532a94108a804c851d1fc84d89b61bc9aaf3c1568712d3bb251472d4a294b208f848d9859fb8d9a11825f4931839b4a00f"
+RPM_NAME = "libpinyin-data-2.10.3-1.7.aarch64.rpm"
+RPM_HASH = "48c1a41fb7dd0718f4bb327ec1e77a30317e040e241dadc3df5fa20f54a1f3129ad9c89a09762a8d58727e361aad318acd32b203f8b61623adce6877610b47b2"
 
 RPROVIDES:${PN} += "libpinyin-data"
 

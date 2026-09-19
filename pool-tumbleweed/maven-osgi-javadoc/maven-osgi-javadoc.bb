@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-osgi"
 DESCRIPTION = "API documentation for maven-osgi."
 LICENSE = "Apache-2.0"
 
-PV = "0.2.0"
+PV = "0.3.0"
 
-RPM_NAME = "maven-osgi-javadoc-0.2.0-3.11.noarch.rpm"
-RPM_HASH = "a0b2dca8bc19b13954a27cd8971da0a8423fe9551030c3ab6a5878edd36890b7703d8561586743b68c359a9c932d29125d96f400b510599235be0be0682ad857"
+RPM_NAME = "maven-osgi-javadoc-0.3.0-1.11.noarch.rpm"
+RPM_HASH = "e1bfccc2d646443d182915b26d3a88953a272501141ec2193799d7a2ae9647e0391ebc5573bace52b8232715ea015d0c8081f2e0720e628e1cf1a91ff9c007eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-osgi-javadoc"

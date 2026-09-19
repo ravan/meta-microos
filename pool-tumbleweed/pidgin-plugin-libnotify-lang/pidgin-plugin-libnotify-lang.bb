@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "0.14"
 
-RPM_NAME = "pidgin-plugin-libnotify-lang-0.14-1.26.noarch.rpm"
-RPM_HASH = "d1796e1f976a3fa626057071c4662eaa47d69d7def541b8f09498de66f52087485dadf6aad375d52b2bcbf3af656cc96f243d9c90b994b0e117a5fccb1284684"
+RPM_NAME = "pidgin-plugin-libnotify-lang-0.14-2.8.noarch.rpm"
+RPM_HASH = "0838063af8825c5504ba8f2bb40042bad34a7c4084408251e4973bf407f7ed356e6d858a15c9808b270134e6da9eab2a2ce5560b43b4cdd98b8d55369c694f84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pidgin-plugin-libnotify-bg \

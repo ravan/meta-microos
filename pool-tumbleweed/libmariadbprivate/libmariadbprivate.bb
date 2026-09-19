@@ -5,10 +5,10 @@ C or C++ to MariaDB and MySQL databases. \
 This package holds the runtime components with private API."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3.5"
+PV = "3.4.9"
 
-RPM_NAME = "libmariadbprivate-3.3.5-1.1.aarch64.rpm"
-RPM_HASH = "ef85305ea78294d9e25b5482dbb72e442022eedc4e24c735887c09eaf99c0d3d3f3a7beba2761cb2330c6ecb926f6abd9603f67123eba47c5c2342f28d960e28"
+RPM_NAME = "libmariadbprivate-3.4.9-2.1.aarch64.rpm"
+RPM_HASH = "c28c919fd5f7178d46e33ab5f6681825cd82089eb5aa4b48cd4ba9c8291c969aab2f14aa2bab1a264de8d7e44c018f66818b82982adf4c35427de0776c691a7d"
 
 RPROVIDES:${PN} += "libmariadbprivate \
 libmariadbprivate.so"

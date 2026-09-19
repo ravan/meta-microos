@@ -5,10 +5,10 @@ a command line application that after being fed with a layout will emit the \
 cards to move."
 LICENSE = "MIT"
 
-PV = "1.12.0"
+PV = "1.14.0"
 
-RPM_NAME = "black-hole-solver-1.12.0-1.2.aarch64.rpm"
-RPM_HASH = "c200efc322db4691a32b2667d12b3fdde1112443036f76df6200336ba432a1d9f9199166861064bada3041e1063fa5c7ec55828ff6612c7496f938e61c42ccef"
+RPM_NAME = "black-hole-solver-1.14.0-1.5.aarch64.rpm"
+RPM_HASH = "2f6f975653ded4acb2ab12350f07fb1e248cea66b422dd4c0735329429a6e87c28ec7efe28a9b6e1d1dee200185ff509fa8fe848c2e56efdcdf831e77258915c"
 
 RPROVIDES:${PN} += "black-hole-solver"
 

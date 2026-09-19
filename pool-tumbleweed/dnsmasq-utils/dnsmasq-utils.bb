@@ -3,10 +3,10 @@ DESCRIPTION = "Utilities that use the standard DHCP protocol to query/remove a D
 server's leases."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "2.89"
+PV = "2.93"
 
-RPM_NAME = "dnsmasq-utils-2.89-4.2.aarch64.rpm"
-RPM_HASH = "2aac3eb817d15e235219b4d8494a94cccf89860e5fadf911e7158fe6118689d0f2e0f76f7adfcc25e105b6236433ae311938b82ba8f380d6c1dfd3249743f57f"
+RPM_NAME = "dnsmasq-utils-2.93-2.3.aarch64.rpm"
+RPM_HASH = "69e08005b0e555de0bda0b4a3a0ed29bb964d186ce1e301a47f4bed683a907b3b978dd96625fe61cb902a0999bfb9fa4a6b93a246c96f8e3cd73442760c80946"
 
 RPROVIDES:${PN} += "dnsmasq-utils"
 

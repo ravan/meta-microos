@@ -4,10 +4,10 @@ operating systems and Microsoft Windows. It is intended to be an \
 improved drop-in replacement for the Enlightened Sound Daemon (ESOUND)."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-16.1-4.1.aarch64.rpm"
-RPM_HASH = "1aeb76cd07df74e8a754c070aac5eddf847c2aeb43645254ff99d9a789aaf2b0f5deefac5f9ad66e5adc044f9c82e63b481c39dc950bb51e847381ee687cddec"
+RPM_NAME = "pulseaudio-17.0-7.5.aarch64.rpm"
+RPM_HASH = "fb6fbecd6505b0d4d9d7ae72ed2291b754e529d20a7c2b0211418ef02a381d1fbbe25e5fc4773e4d75fcfca70cff712403e22d26223c466f5635a525cf2fdbea"
 
 RPROVIDES:${PN} += "config-pulseaudio \
 libalsa-util.so \
@@ -17,7 +17,7 @@ libprotocol-cli.so \
 libprotocol-http.so \
 libprotocol-native.so \
 libprotocol-simple.so \
-libpulsecore-16.1.so \
+libpulsecore-17.0.so \
 libpulsecore7 \
 libpulsecore9 \
 librtp.so \
@@ -25,8 +25,7 @@ libwebrtc-util.so \
 pulseaudio \
 pulseaudio-daemon"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libX11-xcb.so.1 \
 libX11.so.6 \
@@ -47,17 +46,15 @@ libm.so.6 \
 liborc-0-4-0 \
 liborc-0.4.so.0 \
 libpulse.so.0 \
-libpulsecommon-16.1.so \
+libpulsecommon-17.0.so \
 libsndfile.so.1 \
 libsoxr.so.0 \
 libspeexdsp.so.1 \
-libstdc++.so.6 \
 libsystemd.so.0 \
 libtdb.so.1 \
 libudev.so.1 \
-libwebrtc-audio-processing.so.1 \
+libwebrtc-audio-processing-1.so.3 \
 libxcb.so.1 \
-pulseaudio-setup \
 rtkit \
 udev \
 user-pulse"

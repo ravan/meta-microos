@@ -9,10 +9,10 @@ programming languages. (Including Perl!!!) \
 For information on the YAML syntax, please refer to the YAML specification."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.30"
+PV = "1.321.0"
 
-RPM_NAME = "perl-YAML-1.30-1.15.noarch.rpm"
-RPM_HASH = "772ae9d4304494daa32da221d0593834e3b82833207e0091fbf37fc8f6b0d14a89c26e9587b3e42aaf07993e45af7c2c07e4bcd19e3a034712085b49ca853d01"
+RPM_NAME = "perl-YAML-1.321.0-1.1.noarch.rpm"
+RPM_HASH = "a3f8fe2b224212244091e719b9a26d0d51e2d27a875d7c0ab216fd55df0a44d477f123f91269eae080bb818e3009eb1d17f5708783189aae33ea932663253c53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-YAML \
@@ -38,6 +38,6 @@ perl-yaml-mapping \
 perl-yaml-scalar \
 perl-yaml-sequence"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

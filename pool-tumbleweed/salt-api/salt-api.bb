@@ -4,13 +4,12 @@ LICENSE = "Apache-2.0"
 
 PV = "3006.0"
 
-RPM_NAME = "salt-api-3006.0-4.1.aarch64.rpm"
-RPM_HASH = "6b92aa1108fd0ef0046891e70ac2e673234842e44b103398611093e4d04dbbb787816c2f14449a627ba085118b47d3da463b5c190a8db4f897bf09459640b0d5"
+RPM_NAME = "salt-api-3006.0-70.1.aarch64.rpm"
+RPM_HASH = "15619427ab14d59a79fd7b289b67801105f17a74bab180ca1473ce522c42b38fd089501971afa3059f02a250c18f671f07a801ae65f6114903b7e9ffdfbba127"
 
 RPROVIDES:${PN} += "salt-api"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/sh \
 python3-CherryPy \
 salt \
 salt-master"

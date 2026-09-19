@@ -2,17 +2,17 @@ SUMMARY = "Haskell polyparse profiling library"
 DESCRIPTION = "This package provides the Haskell polyparse profiling library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.13"
+PV = "1.13.1"
 
-RPM_NAME = "ghc-polyparse-prof-1.13-13.1.aarch64.rpm"
-RPM_HASH = "6bf0c85045061b42046dcdd7fc55f0be131fb712c8c427ebf51f3a915374f275dcd34c42490f1c8c1ef6bb2f3647508c4b19736731f1c8d56d7db0bfcdebc2d8"
+RPM_NAME = "ghc-polyparse-prof-1.13.1-1.9.aarch64.rpm"
+RPM_HASH = "9004d692c19cf82a0992f0625b8bc2cbb7775efe8d2866af87b0dfda84ca076a80e4017f9735234de429e1e6f775d4dcada9e5d77bff0482a0e59c902c6ae187"
 
 RPROVIDES:${PN} += "ghc-polyparse-prof \
-ghc-prof-polyparse-1.13-BLB26XAC1GDzZMBJpPaUe"
+ghc-prof-polyparse-1.13.1-3ls9uCOTvHD6q0HF7GLFSI"
 
 RDEPENDS:${PN} += "ghc-polyparse-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

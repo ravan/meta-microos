@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-harpoon"
 DESCRIPTION = "This package includes the documentation for texlive-harpoon"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.0svn21327"
+PV = "2026.226.1.0svn21327"
 
-RPM_NAME = "texlive-harpoon-doc-2023.209.1.0svn21327-54.2.noarch.rpm"
-RPM_HASH = "4581218c696c476b3cb6fe1357c3e95160ad4b880a85f5ab822ba3e0b04fe0adc8f26fd0cc8eebe415dbdf5adb86ac69b464101faa750ca31e04a40cb459fff7"
+RPM_NAME = "texlive-harpoon-doc-2026.226.1.0svn21327-60.4.noarch.rpm"
+RPM_HASH = "563cd7e2497bd40a90704bb6b953078a27d8e3afbd847a56ffe5d4f8f3fc7eb2c6cc3f824857c1c50382c3c579132a13496a6453097e43875ec9ca7d03a6bb7f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-harpoon-doc"

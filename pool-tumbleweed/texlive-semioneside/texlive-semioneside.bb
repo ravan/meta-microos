@@ -6,10 +6,10 @@ only special contents are output on left-hand pages on user \
 request, e.g., floating objects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.41svn15878"
+PV = "2026.226.0.0.41svn15878"
 
-RPM_NAME = "texlive-semioneside-2023.209.0.0.41svn15878-54.1.noarch.rpm"
-RPM_HASH = "28d9503775d93753c9cdbe5c3c4ea37c0fe9d936c6194c940a45895e4bf5c8a5b0bdfd4b41177ab08cd34f8fbba1aaa2f69e36077268c47f8510cf97e88f0267"
+RPM_NAME = "texlive-semioneside-2026.226.0.0.41svn15878-60.2.noarch.rpm"
+RPM_HASH = "3f6bd9e6a5e129934a0526461450a9449f0e7ecaea155dfbdfcc181b9beda4f1608e1d86a786d4ae69f625cebfbe8205d3d7ab50f97997b7452736c682d2198d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-semioneside.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-circledtext"
 DESCRIPTION = "This package includes the documentation for texlive-circledtext"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn63166"
+PV = "2026.226.1.1.2svn77682"
 
-RPM_NAME = "texlive-circledtext-doc-2023.209.1.1.0svn63166-54.1.noarch.rpm"
-RPM_HASH = "f4e2d94449b5335607c5e40a08e02252c301b396f103b059894e7d3d33fae975570413dc4f181895e964a45d378f588b7514b46e31356260f315fce295ab38c5"
+RPM_NAME = "texlive-circledtext-doc-2026.226.1.1.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "be965e596213880ba236e12c98d6da44bfd5beaeae687e9e3b95fc8372c4fa0eac65ee9743d2bf13c5ed4bf222a5446a2160ce246be0e7bb28d5f97f9c4246fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \

@@ -3,10 +3,10 @@ DESCRIPTION = "The libgsf library is an extensible I/O abstraction library for d
 with structured file formats."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.14.50"
+PV = "1.14.58"
 
-RPM_NAME = "libgsf-1-114-1.14.50-1.6.aarch64.rpm"
-RPM_HASH = "f9f41cd5c1e6f2865530d3252477bce2c583035dc675977dd9a6482a2381c218c0182e21bba8e64df4ef458f9c0ee8aa20683899bef4754a72a145576f55c23b"
+RPM_NAME = "libgsf-1-114-1.14.58-1.3.aarch64.rpm"
+RPM_HASH = "54caae1676cb441cdda9a9510dc2cfb537c926ccdc363e9b331fbf099fbc18fe5278743daa0a9cb315ba00c3ea104cc36d0b9a9c1fa5626ead088bf69a8568e1"
 
 RPROVIDES:${PN} += "libgsf \
 libgsf-1-114 \
@@ -19,7 +19,7 @@ libc.so.6 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

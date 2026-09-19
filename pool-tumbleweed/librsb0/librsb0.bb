@@ -8,10 +8,10 @@ librsb implements the Sparse BLAS standard, as specified in the BLAS \
 Forum documents."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.3.0.1"
+PV = "1.3.0.3"
 
-RPM_NAME = "librsb0-1.3.0.1-1.6.aarch64.rpm"
-RPM_HASH = "fa6bceecd6cb6fa1b69dd613d1b9748d48a0ca6e33854ea1165c180b042020c2b90a066a59bb5a9046d6ef3ab695e9799fc4787488bcc4971ed25c30ab7f7a74"
+RPM_NAME = "librsb0-1.3.0.3-1.3.aarch64.rpm"
+RPM_HASH = "4de7b25942a121291760ec790fef81e585ea83bc4f73cfd5f6b337a84bb3534f63a43d369df856322493b9b443376d0695df9518e64278b980e5652aec8b8b90"
 
 RPROVIDES:${PN} += "librsb.so.0 \
 librsb0"

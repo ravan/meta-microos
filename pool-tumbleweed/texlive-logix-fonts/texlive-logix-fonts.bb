@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-logix"
 DESCRIPTION = "The  separated fonts package for texlive-logix"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.13svn63688"
+PV = "2026.226.1.13svn63688"
 
-RPM_NAME = "texlive-logix-fonts-2023.209.1.13svn63688-55.1.noarch.rpm"
-RPM_HASH = "6981687f90d484ab9ee42166fa3e37a514ff39e67b59d1b292e3641ee5588a08a6d6e231bea2f0352e910832f178386b92e4dba257c5159fc1a8401119d86de9"
+RPM_NAME = "texlive-logix-fonts-2026.226.1.13svn63688-61.2.noarch.rpm"
+RPM_HASH = "e123eb227b19785de951bebd9a88024d41554a8abb22baf93ca3b4ece89eb18cbdbbab7b6aae42cf9e5db61dc2c2d69f057406a1b4c3a02345ae78d9d2b89895"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -46,7 +49,10 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -78,14 +84,18 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-logix \

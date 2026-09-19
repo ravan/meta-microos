@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.4.3"
 
-RPM_NAME = "libwapcaplet-devel-0.4.3-2.8.aarch64.rpm"
-RPM_HASH = "2db06643c4549c167ece148511d63299b4d8660324a696b22339ae5ffe5976e1260f8b36e9b4cef56be22d83b197b76e390cea47dc18a2326da5d9a1c81e0b68"
+RPM_NAME = "libwapcaplet-devel-0.4.3-2.18.aarch64.rpm"
+RPM_HASH = "31ad6e6018ffc303c113063166406d7560d07a09bbcadddb8409a7dd97c883572889129c57455a001a06707ed7cf63b82ecce72e1d6a87119a1ee33cb0a27bf3"
 
 RPROVIDES:${PN} += "libwapcaplet-devel \
 pkgconfig-libwapcaplet"

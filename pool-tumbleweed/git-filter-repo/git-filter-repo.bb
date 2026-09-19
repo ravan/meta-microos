@@ -6,10 +6,10 @@ performance, with far more capabilities, and with a design that scales \
 usability-wise beyond trivial rewriting cases."
 LICENSE = "GPL-2.0-only | MIT"
 
-PV = "2.38.0"
+PV = "2.47.0"
 
-RPM_NAME = "git-filter-repo-2.38.0-1.3.noarch.rpm"
-RPM_HASH = "b190c4755f15f4b4be7f5dc648c1a186b606b19b8f184c15a4e4eaebb0051b96170204106a53291fcf2d4c3a56d2cdcc0e97c3bfed31218214fac4524b03e513"
+RPM_NAME = "git-filter-repo-2.47.0-2.5.noarch.rpm"
+RPM_HASH = "e875c5095a431bbe177aa45926c0b2b57fa8c07a5754c5b49e585c06882a1eb0d458f77bcc7c02b972336c77d40602e1d2b0542a2372503d809080fa1ad7e92d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "git-filter-repo"

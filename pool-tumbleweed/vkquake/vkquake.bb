@@ -3,18 +3,19 @@ DESCRIPTION = "vkQuake is a Quake 1 port using Vulkan instead of OpenGL for rend
 Game data must be placed in ~/.vkquake/id1 ."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.30.1"
+PV = "1.36.0"
 
-RPM_NAME = "vkquake-1.30.1-1.2.aarch64.rpm"
-RPM_HASH = "8a45121d352754945933fe8911e7b74bb9dacffa8e0aa09f6a3ac806ff927a85c295d4487328ab2128a62ec98f7448b34854cc8dd3079c4c1d51fc2785cc80dd"
+RPM_NAME = "vkquake-1.36.0-1.1.aarch64.rpm"
+RPM_HASH = "e9baba6bcdb6f8db4c7329c0e958dc890dac4fac73bc3caf575e792fcdc60be30e8ce9f4318013878559895a9a51d3be917c03e6a3173ed8fcdac6cb74351552"
 
 RPROVIDES:${PN} += "vkquake"
 
-RDEPENDS:${PN} += "libFLAC.so.12 \
-libSDL2-2.0.so.0 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libFLAC.so.14 \
+libSDL3.so.0 \
 libc.so.6 \
 libm.so.6 \
-libmikmod.so.3 \
+libmpg123.so.0 \
 libopusfile.so.0 \
 libvorbisfile.so.3 \
 libvulkan.so.1"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-coursepaper"
 DESCRIPTION = "This package includes the documentation for texlive-coursepaper"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn15878"
+PV = "2026.226.2.0svn15878"
 
-RPM_NAME = "texlive-coursepaper-doc-2023.209.2.0svn15878-55.1.noarch.rpm"
-RPM_HASH = "5c0e5171e124b589014945c5c1989f29ce278e1f45a936b4adfe4ea7a74f188dd920863f84071fd9ec7a0270139a59ca2733ae55585334f90b56f3ab6d53085f"
+RPM_NAME = "texlive-coursepaper-doc-2026.226.2.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "05b2256d228b020356ffb9c0a4ce9375fcdb397aefd85b85a9a1fd553e1422f9bd8151f48ff167760acf82962e64edb2d33b43176bf24c2841d795e73d6c072c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-coursepaper-doc"

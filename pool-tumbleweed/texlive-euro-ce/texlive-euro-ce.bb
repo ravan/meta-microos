@@ -3,10 +3,10 @@ DESCRIPTION = "Metafont source for the symbols in several variants, designed \
 to fit with the Computer Modern-set text."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.3.0bsvn25714"
+PV = "2026.226.3.0bsvn25714"
 
-RPM_NAME = "texlive-euro-ce-2023.209.3.0bsvn25714-53.1.noarch.rpm"
-RPM_HASH = "8e6fcf282de008dc96c7792011b46c1e338169c5572809d7d885fb30f408f4d44070697079ef017a35b65515c9e82501b3580b148f4a35a5302ac62c9881be5f"
+RPM_NAME = "texlive-euro-ce-2026.226.3.0bsvn25714-59.2.noarch.rpm"
+RPM_HASH = "ff2dda98af32805da15e6a0ced4f76ef077ef273cb5b670070a05c2745cfe77a8c38a27ea7906d5a352e05974075b1891719649de4de795c45938e70396acb3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ceit.tfm \

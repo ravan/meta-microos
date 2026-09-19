@@ -6,10 +6,10 @@ compression and decompression speed. It belongs to the LZ77 \
 This subpackage contains the (de)compressor code as a shared library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.9.4"
+PV = "1.10.0"
 
-RPM_NAME = "liblz4-1-1.9.4-2.4.aarch64.rpm"
-RPM_HASH = "86564515250dca1262a76bed163f8329b01926bef9fa07d0d0dcf6d5b66ed16eff877c1a9690814c3856a45843b8bb77c923c20a3faca946246549b5c5d6d62e"
+RPM_NAME = "liblz4-1-1.10.0-2.10.aarch64.rpm"
+RPM_HASH = "46d028c96348d5d06012677f31c2d6771b483df7b51b9d5680af80dfca666d45a743ee71007cb791bebaea9b6dbf8903749c1b1909801d544fc0d6110454e83f"
 
 RPROVIDES:${PN} += "liblz4-1 \
 liblz4.so.1"

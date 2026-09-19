@@ -9,15 +9,14 @@ passwords) in the same repository as your code, without requiring you to lock \
 down your entire repository."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.7.0"
+PV = "0.8.0"
 
-RPM_NAME = "git-crypt-0.7.0-2.4.aarch64.rpm"
-RPM_HASH = "c42b65119778a7f14c432d7fcceae29405160f0e8103f779de5bcd5531967308b3836c5c696fe28f0851ab0586d5117f66b9613464179d1efa703222f8baf140"
+RPM_NAME = "git-crypt-0.8.0-1.5.aarch64.rpm"
+RPM_HASH = "23a6fc7ab66f167535d5382b33a31b00ff372b06f4a1806373df442f57a36239f280639b2cd1121d93ebe397a8c3e016d2fdf91abea425796111ac72655920be"
 
 RPROVIDES:${PN} += "git-crypt"
 
 RDEPENDS:${PN} += "git-core \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \

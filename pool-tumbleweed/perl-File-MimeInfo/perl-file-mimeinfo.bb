@@ -14,10 +14,10 @@ This module loads the various data files when needed. If you want to hash \
 data earlier see the 'rehash' methods below."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.33"
+PV = "0.370.0"
 
-RPM_NAME = "perl-File-MimeInfo-0.33-1.5.noarch.rpm"
-RPM_HASH = "2df576cce6a98f7d3ad7f35810e56e79e96a3428f3d3fdc1ffe21a752f3ab12e772b067cd26dfe24edcab4da2f2c7be8bb3192221e96fdf9ffe8fbafc8f092b3"
+RPM_NAME = "perl-File-MimeInfo-0.370.0-1.3.noarch.rpm"
+RPM_HASH = "165d051e4f0b93f92aeeec99f1036a94ca14b2590564be6e9ac53efad8795a69ae69a117493daba756a6c9c021d64ac65b459ac812ab76767549d07ab6388d5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--MimeInfo \
@@ -27,7 +27,7 @@ perl-File--MimeInfo--Rox \
 perl-File-MimeInfo"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Encode--Locale \
 perl-File--BaseDir \
 perl-File--DesktopEntry \

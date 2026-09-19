@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the AVTP AUdio Format (AAF) I/O plug-in \
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-aaf-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "b67abe4d0c08f6a9db81ae781cd51640f96aa097b0a02603e0feac3f8cf6696435cc2c889123e9b23b6cc3fc36c469f12c8124565dec8bb84180756fd8455de4"
+RPM_NAME = "alsa-plugins-aaf-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "6d659f9c757315407ac92ed1c431da6574642448c64084c87d1ed22bceb63df0524ec8e78b06fb4684b307beef924c4934872f3b9987440422839d0d5196cdee"
 
 RPROVIDES:${PN} += "alsa-plugins-aaf \
 libasound-module-pcm-aaf.so"

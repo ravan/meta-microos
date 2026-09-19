@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.27"
 
-RPM_NAME = "libclutter-gst-3_0-0-3.0.27-2.5.aarch64.rpm"
-RPM_HASH = "8099354a972958a85c6bc993ab4feb888032a5ecb9eca3bf3d6b4c382a75576dd49a9e4df7040461a3a6fcda4045ebad1302c13970c062d2d01da36ad2d5431b"
+RPM_NAME = "libclutter-gst-3_0-0-3.0.27-2.16.aarch64.rpm"
+RPM_HASH = "ecb0e447968135ecc893838f13275f7ff0117e93c80eea23c475b438a5fc570f3f485db1179d06d0442f5d219841dfa7e740fabb7b77ccfb0b62e528390d76b9"
 
 RPROVIDES:${PN} += "libclutter-gst-3-0-0 \
 libclutter-gst-3.0.so.0"

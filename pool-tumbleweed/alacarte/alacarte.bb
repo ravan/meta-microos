@@ -4,10 +4,10 @@ that lets you change your menus, simply and quickly. Just click and \
 type to edit, add, and delete any menu entry."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.44.3"
+PV = "3.58.0"
 
-RPM_NAME = "alacarte-3.44.3-1.1.noarch.rpm"
-RPM_HASH = "25cad1a706275d036ee1f00c5d820c1f33725054c5c3bf7de6064e0e8ef70aa08ec76d0b766d3cccb92046a290d0d32a6c4f34f268c3812d508cf19ac0c9732c"
+RPM_NAME = "alacarte-3.58.0-2.2.noarch.rpm"
+RPM_HASH = "76788ae1f5a211756b2eeafa99dd0b9121543aae81b13e74d914ba1405505a0214cb9b22509e249bb0859080c875dd88d641160220e3001aa65c0e6d0d9575cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "alacarte"

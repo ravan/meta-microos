@@ -8,10 +8,10 @@ model diagrams in the style of Lewis. The macros all make use \
 of TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn50810"
+PV = "2026.226.1.0svn50810"
 
-RPM_NAME = "texlive-ptolemaicastronomy-2023.209.1.0svn50810-54.2.noarch.rpm"
-RPM_HASH = "0235e4dd0b0ca14abfd144c5a2651d7c9bb90cfa899f3bfe04e713a200e703ad93450b5cf33c40dd32c67357e35419ba21b4852ebebb56228f59b602d825ace3"
+RPM_NAME = "texlive-ptolemaicastronomy-2026.226.1.0svn50810-60.4.noarch.rpm"
+RPM_HASH = "57cb5d0d1bd00899fbf65cab852362caf853a1d5ed7f907be30b8070397dfe17b6740f548e7675aa305ba931f10d45d85d2e618067b513fab0e65895e564a544"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ptolemaicastronomy.sty \

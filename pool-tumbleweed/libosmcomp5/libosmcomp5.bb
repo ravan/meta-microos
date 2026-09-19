@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "3.3.24"
 
-RPM_NAME = "libosmcomp5-3.3.24-3.8.aarch64.rpm"
-RPM_HASH = "95b4d2cfd74c8bb58a4b525c8293013287feeef60e0b5a2e576a9a4a6e901dcd174cf1f78b1537a1339457ea6fe4823f39fd075dd3f342f5a16890de69af2099"
+RPM_NAME = "libosmcomp5-3.3.24-5.4.aarch64.rpm"
+RPM_HASH = "beed3c420e17db3512bcec4ebac352150d48419bc4dc3a189345c43c821c9044568a885ea8e5007f664d8887aee3b918cfe7bfa68684247c8227670e20c9070a"
 
 RPROVIDES:${PN} += "libosmcomp.so.5 \
 libosmcomp5"

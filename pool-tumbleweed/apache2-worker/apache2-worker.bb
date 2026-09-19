@@ -6,10 +6,10 @@ is to provide a secure, efficient and extensible server that \
 provides HTTP services in sync with the current HTTP standards."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.57"
+PV = "2.4.67"
 
-RPM_NAME = "apache2-worker-2.4.57-2.1.aarch64.rpm"
-RPM_HASH = "6baa661f5e465547fc0d6352db7c458615d27cbb51661acd70e72487844e5043805549de8a47e269962d4fda02bb73c417c59f2edf09158bdf22ba1f0c9fb08b"
+RPM_NAME = "apache2-worker-2.4.67-1.3.aarch64.rpm"
+RPM_HASH = "23037d5f2cc9c246718da6cb7a5ade2681bca473bc9f9d67e29366677da66acd83a340fd62ae208924fef6b699bd0d1b5231c18067633769a9e5b6818f4a894e"
 
 RPROVIDES:${PN} += "apache2-MPM \
 apache2-worker"
@@ -17,6 +17,7 @@ apache2-worker"
 RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
+apache2 \
 fillup \
 grep \
 ld-linux-aarch64.so.1 \
@@ -35,9 +36,8 @@ libnghttp2.so.14 \
 libpcre2-8.so.0 \
 libssl.so.3 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
-permissions \
-update-alternatives"
+permissions"
 
 inherit rpm

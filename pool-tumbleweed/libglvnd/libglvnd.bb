@@ -4,10 +4,10 @@ multiple vendors on a per-screen basis, as described by Andy Ritger's \
 OpenGL ABI proposal."
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "1.7.0"
 
-RPM_NAME = "libglvnd-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "d1468172699814010b0c5eee93be65a025606e88cb31f5c13903ab2321575249e041cfccabe4f1ae73478123e29762e9716a677ea1154da8ce99022bf0383b53"
+RPM_NAME = "libglvnd-1.7.0-2.3.aarch64.rpm"
+RPM_HASH = "73ef0bbcb7eb782df4e2baed3e1f1049aa666a1989fd4eb21556c8d6cd1b81a79358b9f29c2c070e4b77308534e1489d2dfcfe507ee9d6bcfeff4c4443e198b5"
 
 RPROVIDES:${PN} += "Mesa-libGLESv1-CM1 \
 Mesa-libGLESv2-2 \
@@ -19,7 +19,8 @@ libGLX.so.0 \
 libGLdispatch.so.0 \
 libOpenGL.so.0 \
 libglvnd \
-libglvnd0"
+libglvnd0 \
+provide-gl-headers-for-mesa"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 Mesa-dri \

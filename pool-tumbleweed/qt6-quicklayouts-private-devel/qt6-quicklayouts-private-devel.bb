@@ -1,15 +1,26 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 QuickLayouts library"
-DESCRIPTION = "This package provides private headers of libQt6QuickLayouts that do not have \
-any ABI or API guarantees."
+DESCRIPTION = "Development files for the Qt 6 QuickLayouts library. \
+This library does not have any ABI or API guarantees."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quicklayouts-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "39a31b3b27ce935935f7003eb76df66f95c072e7cd167dfefc5c61eb2c8ffb60b061c0448d6a02aa51fe1ca67a70929b8d83b4249b9ccfe3c3a9df5494d862ce"
+RPM_NAME = "qt6-quicklayouts-private-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "ced482213845a1dbe97a0a99ed9bc0147f5fb95ec302b03f756585b36576081b68613a9d8a1b1b180315c69b1891546e3b98d8db678602a6c2b990984ff2bc76"
 
-RPROVIDES:${PN} += "qt6-quicklayouts-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6QuickLayouts \
+cmake-Qt6QuickLayoutsPrivate \
+pkgconfig-Qt6QuickLayouts \
+qt6-quicklayouts-devel \
+qt6-quicklayouts-private-devel"
 
-RDEPENDS:${PN} += "cmake-Qt6QuickLayouts"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+cmake-Qt6Gui \
+cmake-Qt6GuiPrivate \
+cmake-Qt6Qml \
+cmake-Qt6QuickPrivate \
+libQt6QuickLayouts6 \
+pkgconfig-Qt6Core \
+pkgconfig-Qt6Qml"
 
 inherit rpm

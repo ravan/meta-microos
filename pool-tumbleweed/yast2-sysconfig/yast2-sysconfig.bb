@@ -3,10 +3,10 @@ DESCRIPTION = "A graphical /etc/sysconfig/* editor with integrated search and co
 information."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-sysconfig-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "9c5a698bef763a5603da285e8e576a118eeacdf7bc1d593dc9b7fbc082c29d3708283e02482bc6c35725cb9fbbbda05b29f252e84cb3ea49af0d0c752ad18b7e"
+RPM_NAME = "yast2-sysconfig-5.0.0-1.15.noarch.rpm"
+RPM_HASH = "39459d8230d616677ee1f56d08b3994ff8d3ff85decd500bc0ba518e3215e96d9ae094f3073973d9dce99c059ae2c7ef28cd57b0a217994474109a7ab5a6f8cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-sysconfig"

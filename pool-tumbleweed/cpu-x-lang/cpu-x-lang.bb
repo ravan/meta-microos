@@ -2,14 +2,15 @@ SUMMARY = "Translations for package cpu-x"
 DESCRIPTION = "Provides translations for the 'cpu-x' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.5.3"
+PV = "5.4.0"
 
-RPM_NAME = "cpu-x-lang-4.5.3-1.2.noarch.rpm"
-RPM_HASH = "efc51ba48c1a4edf5007585487c2107190aebe573db388e6616866f3e2ebc1d3ab2cbd47c430b6c3131fe229ff7f0095a7081a51e1044b1e8eb1829d03ac88f9"
+RPM_NAME = "cpu-x-lang-5.4.0-1.1.noarch.rpm"
+RPM_HASH = "0ccea28f4fae091fab1ec54c16826d64313cebc778c0afc7c000fc4b73dc0a32c4a72e85fe69b8d97f2910148fa0637ad0c62afb70dcf37e19d2030ba199f499"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cpu-x-lang \
 cpu-x-lang-all \
+locale-cpu-x-af \
 locale-cpu-x-ar \
 locale-cpu-x-bg \
 locale-cpu-x-ca \
@@ -17,15 +18,19 @@ locale-cpu-x-cs-CZ \
 locale-cpu-x-da \
 locale-cpu-x-de \
 locale-cpu-x-el \
+locale-cpu-x-eo \
 locale-cpu-x-es \
 locale-cpu-x-fa \
 locale-cpu-x-fi \
 locale-cpu-x-fr \
+locale-cpu-x-ga \
+locale-cpu-x-gl \
 locale-cpu-x-hu \
 locale-cpu-x-id \
 locale-cpu-x-it \
 locale-cpu-x-ja \
 locale-cpu-x-ka \
+locale-cpu-x-kk \
 locale-cpu-x-ko \
 locale-cpu-x-lv \
 locale-cpu-x-ml \

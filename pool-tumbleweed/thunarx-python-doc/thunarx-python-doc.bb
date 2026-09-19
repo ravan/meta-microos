@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.2"
 
-RPM_NAME = "thunarx-python-doc-0.5.2-1.13.aarch64.rpm"
-RPM_HASH = "598271cbeb07e373b76381d882022cb772e3928225e83c0177ebf2208aa769ef42dd750dab159298cda7328e7dfbc662b5afd93b8e1bf4713a8a8450247bc8ee"
+RPM_NAME = "thunarx-python-doc-0.5.2-1.26.aarch64.rpm"
+RPM_HASH = "f618b24164d2e279c69053f5ce47c7d78c388ae6f4f94411bdbe2f512f9681655f9d81ccce53a054ade4bc351b817b32744459628f6c6cabc2aaf00271d26e1a"
 
 RPROVIDES:${PN} += "thunarx-python-doc"
 

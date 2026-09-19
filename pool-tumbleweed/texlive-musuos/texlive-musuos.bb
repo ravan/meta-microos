@@ -5,10 +5,10 @@ Osnabruck, Germany, according to the specifications of Prof. \
 Stefan Hahnheide. A BibLaTeX style is provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1dsvn24857"
+PV = "2026.226.1.1dsvn24857"
 
-RPM_NAME = "texlive-musuos-2023.209.1.1dsvn24857-55.1.noarch.rpm"
-RPM_HASH = "6ead1dea78b5cba05d9cad453b36634e6f34fa4f8bfbe83d05bb65e6a1a1fb59aeb7ec644ed41a6a765b0af98b70ec5e38a177e14eabe22d9a9b570f8a484e61"
+RPM_NAME = "texlive-musuos-2026.226.1.1dsvn24857-61.2.noarch.rpm"
+RPM_HASH = "badf3e4331171f625ccc1a557cf7b81d25838366926d5ab40dffc0dbb527f3c4092b3e6fed559c07ce0fb22cbb8e9c2ca686eb73ec6a1c5dc6ed69ee11e5365d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-musuos.cls \

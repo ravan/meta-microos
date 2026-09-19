@@ -3,15 +3,15 @@ DESCRIPTION = "Examples, scripts and helpers that are distributed with Neomutt b
 maintained by the Neomutt authors."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20230517"
+PV = "20260406"
 
-RPM_NAME = "neomutt-contrib-20230517-1.2.noarch.rpm"
-RPM_HASH = "c06716053090a84817ba2377903bcb4f8e06fe022f1f3420ae0d17bd20687711c49659c4c6d3ea35579d2a1989c5d6c9f7fb6884745734342a768f9b53c5de82"
+RPM_NAME = "neomutt-contrib-20260406-1.4.noarch.rpm"
+RPM_HASH = "fcf749446eb7a11e9df2cb0754a1cdd73916da557e0b22cb0146b9cdfbb0490856ee20d3e6737196829be0f28dc63d85d1af98e891de40134a774b8aa53227fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "neomutt-contrib"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 neomutt"
 
 inherit rpm

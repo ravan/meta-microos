@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.4.2"
 
-RPM_NAME = "openttd-openmsx-0.4.2-3.2.noarch.rpm"
-RPM_HASH = "6a1ec85f7b5432a39c9970f01ebddcbdf88ca39f67a7383dabad0275aab0a9b7a5143aa4c3b9965eef095174fe448552700dc011715666efecb6b8238d0189f6"
+RPM_NAME = "openttd-openmsx-0.4.2-3.10.noarch.rpm"
+RPM_HASH = "a36d56b964c902b899c9c1b1daa282201393080222de71472df37c5d2e830d87b3ebe0c9a89eeaabca955f501da5854dfb3a4a89d5a5e7022a2af3573c008622"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openttd-openmsx"

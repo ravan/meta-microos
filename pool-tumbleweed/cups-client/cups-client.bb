@@ -8,10 +8,10 @@ This package contains the traditional command line interfaces for the \
 System V and Berkeley print systems."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "cups-client-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "1c51479894a6ddc84c5120978d448fc5a8ab91ee55859ab2add148a05634b4767f19ca7777f54ea8aed7d96c78547355c161593ec79ae6a02907f8f4af617127"
+RPM_NAME = "cups-client-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "5528aa54a6ac3ae2ecbba1df926b9d8a9666af640508f6feed697e2250a547e6a4447487601af5282f93018f7fb2be70af6b5163e68b879b9cec2da7ef29c35a"
 
 RPROVIDES:${PN} += "cups-client"
 

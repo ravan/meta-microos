@@ -2,13 +2,15 @@ SUMMARY = "Translations for package template-glib"
 DESCRIPTION = "Provides translations for the 'template-glib' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.36.1"
+PV = "3.40.0"
 
-RPM_NAME = "template-glib-lang-3.36.1-1.4.noarch.rpm"
-RPM_HASH = "29c230c4043d18538c5699209393c271d6c2e8b1e57d6d1e7c39f45e3293eb52a604ce06f8af192175d289f9073426dec8e83da0184e9d9dd1dbec0bf298c74d"
+RPM_NAME = "template-glib-lang-3.40.0-1.4.noarch.rpm"
+RPM_HASH = "1e3ca89a964eb1e88b77f6cd73a0decfb80c191311de33cf5dd37b79b14dc126a6a6e2564baa67b15b5a0b338f0f08baeccd3538a97881b2b235f02fe3aebd24"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-template-glib-ca \
+RPROVIDES:${PN} += "locale-template-glib-ar \
+locale-template-glib-bg \
+locale-template-glib-ca \
 locale-template-glib-cs \
 locale-template-glib-da \
 locale-template-glib-de \
@@ -18,17 +20,20 @@ locale-template-glib-es \
 locale-template-glib-eu \
 locale-template-glib-fr \
 locale-template-glib-fur \
+locale-template-glib-hi \
 locale-template-glib-hr \
 locale-template-glib-hu \
 locale-template-glib-id \
 locale-template-glib-it \
 locale-template-glib-ka \
+locale-template-glib-kk \
 locale-template-glib-lt \
 locale-template-glib-nl \
 locale-template-glib-pl \
 locale-template-glib-pt \
 locale-template-glib-pt-BR \
 locale-template-glib-ro \
+locale-template-glib-ru \
 locale-template-glib-sl \
 locale-template-glib-sr \
 locale-template-glib-sv \

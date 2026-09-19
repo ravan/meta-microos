@@ -5,10 +5,10 @@ JFM (Japanese font metric) files for LuaTeX-ja / pLaTeX / \
 upLaTeX are provided."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn66362"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-jlreq-2023.209.svn66362-56.1.noarch.rpm"
-RPM_HASH = "62bfc16a948d874b5bbbb10b3fa23076769d855adcb9a6b1c1550ba454a858a3cedfaf94b7b371879de2a509a2284bed29da2153eebc1fb4b358ca67219ff842"
+RPM_NAME = "texlive-jlreq-2026.226.svn77682-63.2.noarch.rpm"
+RPM_HASH = "e367cc06a328bdcdc46366b51588ef0126382626d0c46fc3aeb08f2f92ca735dcd184609f1425e25747d66ad9201549e86849acbc7a3ea1f3f66f173246d5ee6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bjlreq-v.tfm \
@@ -123,17 +123,16 @@ ed \
 findutils \
 grep \
 sed \
-tex-etoolbox.sty \
 tex-everyhook.sty \
 tex-filehook.sty \
 tex-gbm.tfm \
 tex-gbmv.tfm \
-tex-l3keys2e.sty \
 tex-lmodern.sty \
 tex-luatexja-adjust.sty \
 tex-luatexja.sty \
 tex-rml.tfm \
 tex-rmlv.tfm \
+tex-stfloats.sty \
 tex-upgbm-h.tfm \
 tex-upgbm-hq.tfm \
 tex-upgbm-v.tfm \

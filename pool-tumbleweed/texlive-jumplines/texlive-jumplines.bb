@@ -6,10 +6,10 @@ list of articles. It requires lualatex for colour support in \
 split boxes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn37553"
+PV = "2026.226.0.0.2svn37553"
 
-RPM_NAME = "texlive-jumplines-2023.209.0.0.2svn37553-56.1.noarch.rpm"
-RPM_HASH = "b23af1e779409c713ff00dfc8b617b0d5ee79c2a0af0fffe63c26888a7ff25402ca20d1b1840932665ac0969cc0a7cb1f64a2d04fa80f696a6250fee2170c229"
+RPM_NAME = "texlive-jumplines-2026.226.0.0.2svn37553-63.2.noarch.rpm"
+RPM_HASH = "83609fa5a3b526f5e2f2d1d5f9b62c52f5716aa1316281d4d9ee2c646cab2db7cb9b1b7a670c7bbe1e00344684dc56c89973ebbbd5f0f9d06369b84a2d9eb41e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jumplines.sty \

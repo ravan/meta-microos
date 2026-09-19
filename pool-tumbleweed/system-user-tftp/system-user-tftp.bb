@@ -2,10 +2,10 @@ SUMMARY = "System user and group tftp"
 DESCRIPTION = "This package provides the system account and group 'tftp'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-tftp-20170617-24.16.noarch.rpm"
-RPM_HASH = "ede6aa016d70da05f466a0690d1e7d91ed915fc4a5248faa449aab715302d2dca754550ae36097904211f877d447be84b34273f787144c0601594f9b3a570aac"
+RPM_NAME = "system-user-tftp-20250822-2.3.noarch.rpm"
+RPM_HASH = "de1673948aa5764143ff7f2c1eeb92fceddf31c14b5b42212a717f3ab0fe5126d89b772cb25e968212a704a2d5a41338624a9a967bb668a69ad49c3d1038fc90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-tftp \

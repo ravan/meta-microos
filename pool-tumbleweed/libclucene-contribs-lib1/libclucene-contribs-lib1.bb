@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0 | LGPL-2.1-only"
 
 PV = "2.3.3.4"
 
-RPM_NAME = "libclucene-contribs-lib1-2.3.3.4-18.6.aarch64.rpm"
-RPM_HASH = "a797454975cc4a7226a5e1c54ef07634865cc0a736337405d4587dcd114d1d79238521f26054a6dd87cd2e6807813a5ea248cc185576988a4fafeaba38196801"
+RPM_NAME = "libclucene-contribs-lib1-2.3.3.4-19.10.aarch64.rpm"
+RPM_HASH = "9d60dae451c590c0dbd3af82741b4e736d49cebc3cb4c2a3a18a5aab3d332998dab5cb0588bff7384d51bc923eb8c11683cbcc463522429f2b68089694b7b429"
 
 RPROVIDES:${PN} += "libclucene-contribs-lib.so.1 \
 libclucene-contribs-lib1"

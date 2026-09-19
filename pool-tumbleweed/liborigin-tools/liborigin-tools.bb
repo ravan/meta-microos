@@ -3,12 +3,12 @@ DESCRIPTION = "Converter for OriginLab OPJ project files. \
 Features: \
 * reads any worksheets with all columns \
 * supports 4.1, 5.0, 6.0, 6.1, 7.0, 7.5 projects"
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.2"
+PV = "3.0.3"
 
-RPM_NAME = "liborigin-tools-3.0.2-1.1.aarch64.rpm"
-RPM_HASH = "33eb017aa7c870c543e4a419e1e42a090a6af8921ceda78e12bf4d5d932340a33ff4ee8fda1190d1d3e723b8312edb075b37f147a0671bcf92993d44a196006f"
+RPM_NAME = "liborigin-tools-3.0.3-1.5.aarch64.rpm"
+RPM_HASH = "4845c2417bc51777c88f23729c1c668c7852a477561afa1a644578c5c32645dca6be4d751b05e0992308fe2645335ba225c18d4e53b4b57ef47a49baa0c33890"
 
 RPROVIDES:${PN} += "liborigin-tools"
 

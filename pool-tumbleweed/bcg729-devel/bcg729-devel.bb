@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes the files necessary for compiling and linki
 application which will use libbcg729."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.1.1"
+PV = "1.1.2"
 
-RPM_NAME = "bcg729-devel-1.1.1-2.8.aarch64.rpm"
-RPM_HASH = "01465c915b0c7728adafaa40cc75b804de9ddeb998988cbb41f5137feacdc4a6488e6913d5dcec7d78c63036e709a58ca94365c39deb924f8da16d5426ef7d8c"
+RPM_NAME = "bcg729-devel-1.1.2-1.2.aarch64.rpm"
+RPM_HASH = "b6871bcd7f36178e6e697ce0eeb9cc3dfea0ba3efe0234091a543c45baedfadc5ca24aba9cbf4ae6158104ac4c9fdffac7efdc3b17803b23dd650832e7edc14d"
 
 RPROVIDES:${PN} += "bcg729-devel \
 pkgconfig-libbcg729"

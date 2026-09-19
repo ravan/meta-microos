@@ -4,10 +4,10 @@ cobc translates COBOL to executable using intermediate C sources, \
 providing full access to nearly all C libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "3.1.2"
+PV = "3.2"
 
-RPM_NAME = "libcob4-3.1.2-2.1.aarch64.rpm"
-RPM_HASH = "af4ab2d8fdb57caf7994ef0991f2670de5de92692785f736e1dc81351b319df6804870c26ceabc8b73b301ee3f418ba64fa0e32aa4602238c840f62c822263c7"
+RPM_NAME = "libcob4-3.2-4.2.aarch64.rpm"
+RPM_HASH = "018a2ff7039fb18a79e3c0667efbb90e5c16be07e65af960e684c6b5f2eefc75e6cd65913a843c0c54b253a83d9b1493094becac2b6d52a14d0eaa6b60436a83"
 
 RPROVIDES:${PN} += "libcob.so.4 \
 libcob4"
@@ -20,6 +20,6 @@ libgmp.so.10 \
 libjson-c.so.5 \
 libncursesw.so.6 \
 libtinfo.so.6 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

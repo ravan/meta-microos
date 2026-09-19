@@ -3,10 +3,10 @@ DESCRIPTION = "Cross desktop library for desktop integration of cloud storage \
 providers and sync tools."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.3.2"
+PV = "0.4.1"
 
-RPM_NAME = "libcloudproviders0-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "dec949d4e11a997c14da1e2b8447a53ad51e83206a27372df2afa7b9f4f1fa71ef0e5623e174553144b797b4024d4a5be9e29e0529b17e297d6497ccbd9bc079"
+RPM_NAME = "libcloudproviders0-0.4.1-1.1.aarch64.rpm"
+RPM_HASH = "b23aac8c3642e860cbd7bb6cde5f260da9afac44d67f1a9bbb72294197432e308be057e161a99ea462d029ab93d0c41128694efc3d220da0e06173e3686f4b7b"
 
 RPROVIDES:${PN} += "libcloudproviders.so.0 \
 libcloudproviders0"

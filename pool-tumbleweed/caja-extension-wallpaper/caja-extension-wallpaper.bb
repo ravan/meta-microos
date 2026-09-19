@@ -2,10 +2,10 @@ SUMMARY = "Allows to quickly set desktop background"
 DESCRIPTION = "Caja-share allows you to quickly set desktop background wallpaper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-wallpaper-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "62cffd41edd381a1d4a2bf96050abaf186ae90a7872ce424c9a373a16845899d7a4fc300965007d9612297625e58cdd4463f4d27f4942064fd00f4e618ddd5ae"
+RPM_NAME = "caja-extension-wallpaper-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "d870a2636882a97aab461f0764fc4f658bf3e49e61cf88586e954138c3f0478b5b946d97aa7d22a2cd3fd98958c24421ba8a340b6d288261b198a8b2e5480f8b"
 
 RPROVIDES:${PN} += "caja-extension-wallpaper \
 caja-wallpaper \

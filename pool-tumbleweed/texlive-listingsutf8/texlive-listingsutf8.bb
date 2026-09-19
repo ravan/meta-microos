@@ -7,10 +7,10 @@ e-TeX extensions under pdfTeX (in either PDF or DVI output \
 mode)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn53097"
+PV = "2026.226.1.5svn53097"
 
-RPM_NAME = "texlive-listingsutf8-2023.209.1.5svn53097-55.1.noarch.rpm"
-RPM_HASH = "f4a09408763d0a45cc28c61b48ae5328bd161a984bdc1242ca12e8be938e52c2c36189f80734191d3deaaf851d5d56695e2023229825378e9dd765e903d38e23"
+RPM_NAME = "texlive-listingsutf8-2026.226.1.5svn53097-61.2.noarch.rpm"
+RPM_HASH = "a3de20bebef0d8921fb78899fe02e6f85c11d296adaa339ccc4817f2c442d99a01537f346eebf30b206f39c6fffa3417deb5aaba0c64b0af7d2a94782403b5d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listingsutf8.sty \

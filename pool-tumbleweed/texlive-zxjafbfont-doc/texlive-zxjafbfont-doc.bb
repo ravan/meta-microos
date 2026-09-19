@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-zxjafbfont"
 DESCRIPTION = "This package includes the documentation for texlive-zxjafbfont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn28539"
+PV = "2026.226.0.0.2svn77682"
 
-RPM_NAME = "texlive-zxjafbfont-doc-2023.209.0.0.2svn28539-53.2.noarch.rpm"
-RPM_HASH = "23f54327462f0c7e74b204c708a0983df7f92019f2d61d6fc6db20e786c0b01a7f32eb96e02079292ddcc1e8896ee3bebb930f69b779a1324df0a10be1f621e9"
+RPM_NAME = "texlive-zxjafbfont-doc-2026.226.0.0.2svn77682-59.4.noarch.rpm"
+RPM_HASH = "fa38cd8abf7b1302aa5915dac15e3dc0bd563d437e62db8fd626defb74b1b34c541de9577ef8feda4c08084e78e2ad5d0f5809cc59fd14038f546527f9a3c00d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-zxjafbfont-doc"

@@ -6,8 +6,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-plain-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "98fc3c10630f632192baf94e35d7343c725c3baff4c85d4ab5c20b6721f0d2f9be77595e20930d1a9860f7d64859250024173bf6e4a8a6724400b1ee91c71a8a"
+RPM_NAME = "cyrus-sasl-plain-2.1.28-12.5.aarch64.rpm"
+RPM_HASH = "52a6c2504814d14b79eefdcb6777e5ccfea5eda0cfb846a56b8515e877fe15bd4169c98411b74113fd82c977efad4f59b6a8b7e11952f393d596c3144e778089"
 
 RPROVIDES:${PN} += "cyrus-sasl-plain \
 libplain.so.3"

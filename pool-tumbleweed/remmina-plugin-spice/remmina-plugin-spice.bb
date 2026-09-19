@@ -2,10 +2,10 @@ SUMMARY = "SPICE Protocol Plugin for Remmina"
 DESCRIPTION = "This package provides the SPICE protocol plugin for Remmina."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.31"
+PV = "1.4.43"
 
-RPM_NAME = "remmina-plugin-spice-1.4.31-1.1.aarch64.rpm"
-RPM_HASH = "ca94bd7a0d6925e39a7dc8bf368001be134b04b4f4fbea483d41a9c4b3a82d4d69f5b5dc90b75f0defc402a9b77ca96afad7dc6bb26fe536fff8bd1004acfb1a"
+RPM_NAME = "remmina-plugin-spice-1.4.43-2.2.aarch64.rpm"
+RPM_HASH = "67173319fb4b5970c42fa16071aa7cf9698ebfe60bc38f90d75fdbbc82635f97cd2cd041053b1706b7af23a28723d1d5ae5abf0d228664e5a3e7de77642bac29"
 
 RPROVIDES:${PN} += "remmina-plugin-spice"
 

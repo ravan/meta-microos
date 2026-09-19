@@ -5,19 +5,20 @@ from the MIDI input device and render them to the audio device. It \
 can also play MIDI files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.3.3"
+PV = "2.6.0"
 
-RPM_NAME = "fluidsynth-2.3.3-1.1.aarch64.rpm"
-RPM_HASH = "bc5cf6741ebc2c2eeff4c50be35c5ad2fce28fe075401063293e3569ed87dfda49ae79a77151270427897429f8bacb76f4f3d70f7dcd6bcafe36763455f22b5c"
+RPM_NAME = "fluidsynth-2.6.0-2.1.aarch64.rpm"
+RPM_HASH = "3073eb4061d6a299ade4adeabe2e9e3766ff778ebeedfeec45e54764eb22a6bd5d6c9372215f95e7af06c7dff4346bc1f37323f3a2eeadbb0239064a3dd47d8c"
 
 RPROVIDES:${PN} += "fluidsynth"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libSDL2-2.0.so.0 \
+libSDL3.so.0 \
 libc.so.6 \
 libfluidsynth.so.3 \
-libglib-2.0.so.0 \
+libpipewire-0.3.so.0 \
+libstdc++.so.6 \
 libsystemd.so.0"
 
 inherit rpm

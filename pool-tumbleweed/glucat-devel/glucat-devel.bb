@@ -9,10 +9,11 @@ This package contains the header files required for developing \
 applications using the glucat library."
 LICENSE = "LGPL-3.0-only"
 
-PV = "0.12.0"
+PV = "0.13.0"
 
-RPM_NAME = "glucat-devel-0.12.0-3.5.aarch64.rpm"
-RPM_HASH = "b2255b125cdbc130704c94f799deaee558b7a582cc3c7ddeb154542a4826ec9f17d681897057acf78475fc1a5aa42d1a63fc3a7f60de6483a047fed809e62249"
+RPM_NAME = "glucat-devel-0.13.0-2.4.noarch.rpm"
+RPM_HASH = "c8891e90a74065bf8e5a1de43df3e06509bfe50c997b9506b028f418b481d1d1ac52e13de46550356805e952fc080fb861e939f1a3036bdb76556dd7c317ca35"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glucat-devel"
 

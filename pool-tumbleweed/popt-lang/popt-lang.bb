@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.19"
 
-RPM_NAME = "popt-lang-1.19-1.4.noarch.rpm"
-RPM_HASH = "cc887f1ddbc6df31e750b2818958a4e66ccde67a69a6f8b16b7644c7046b9ffac14da154d3e7e044b49be339fa75b6ed08fcdea9b3ef1b19bcc0cf734f0feaf7"
+RPM_NAME = "popt-lang-1.19-2.3.noarch.rpm"
+RPM_HASH = "bd7b78ca6814cfca09235a3f3ffc46af3a3aa26a4583408f6533a05ea8d5bf58deb2c7ad276060ce43fafef27e632bfe053b87b157d0030e22401dbdfaf79f26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-popt-ca \

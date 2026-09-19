@@ -14,10 +14,10 @@ Main features are: \
    words, pseudoroots and homonyms."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.2"
+PV = "5.1.7"
 
-RPM_NAME = "libnuspell5-5.1.2-1.5.aarch64.rpm"
-RPM_HASH = "37eb9b5fbeb9e4e20b93310b5446bc8d66f244e5c8c98d066acacd0e94992d66505336ad43d8b1d96f126308fe64b46132dce5e4feb875998529ee86478f8a4b"
+RPM_NAME = "libnuspell5-5.1.7-1.4.aarch64.rpm"
+RPM_HASH = "4cf42144f3a55da353fc0b1fc13ccb32891f27c62d54895c53388c2d338683abbab061cc0069bf612eab79f06d2dc0ba2c0d5d32bea522e79772e0d5c4842e97"
 
 RPROVIDES:${PN} += "libnuspell.so.5 \
 libnuspell5"
@@ -26,7 +26,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libstdc++.so.6"
 
 inherit rpm

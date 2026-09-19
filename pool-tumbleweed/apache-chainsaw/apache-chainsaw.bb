@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.1.0"
 
-RPM_NAME = "apache-chainsaw-2.1.0-3.11.noarch.rpm"
-RPM_HASH = "165185364afaf6ed011d4431ef62b05434e7481efbb39b395233224fd69e656ad3454cdef797cdd72a048886fe470b4d6c30d6effde43f13d9c8818fbdb1a485"
+RPM_NAME = "apache-chainsaw-2.1.0-5.10.noarch.rpm"
+RPM_HASH = "9b70f9c4f61f436ffd0ffccc0c66ce6c73980dae3a06aa7cb97bd6c66ba27b11ee3501aebaead6e122191bc281359b2a1e7d950154cd66b125d997bf909ec94b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-chainsaw \

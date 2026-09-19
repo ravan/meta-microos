@@ -7,14 +7,18 @@ This package provides the official C++ headers for OpenCL, which are wrappers \
 around the C headers."
 LICENSE = "Apache-2.0"
 
-PV = "2023.04.17"
+PV = "2026.05.29"
 
-RPM_NAME = "opencl-cpp-headers-2023.04.17-1.1.noarch.rpm"
-RPM_HASH = "bcaf224da05d1bea60f04022f87b88c6d3c3f5bc7c41724062a848796dbc6c0a320bedbdb4797e3965cbb2652c37254b5238c01ef069c02d10cbfe772d324031"
+RPM_NAME = "opencl-cpp-headers-2026.05.29-1.1.noarch.rpm"
+RPM_HASH = "a1b528aeb67e604d8ab34df8893ecd0fb7811c30751a9c1eb3d065a31f8cb132c9dc04166c7846b46e137728adbabe4afcc2dfea9699b66872cf78ccd69a38f0"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "opencl-cpp-headers"
+RPROVIDES:${PN} += "cmake-OpenCLHeadersCpp \
+opencl-cpp-headers \
+pkgconfig-OpenCL-CLHPP"
 
-RDEPENDS:${PN} += "opencl-headers"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+opencl-headers \
+pkgconfig-OpenCL-Headers"
 
 inherit rpm

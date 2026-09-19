@@ -3,10 +3,10 @@ DESCRIPTION = "Library to run HackRF, an open source hardware project to build a
 Defined Radio (SDR) peripheral."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.01.1"
+PV = "2026.01.3"
 
-RPM_NAME = "libhackrf0-2023.01.1-1.3.aarch64.rpm"
-RPM_HASH = "5ea6f3b8e91a3ae00141b1e4414094743879b2a3ffa72063d86992c526ea262321bc923f05196b892af5575f15343988f08e9c63f0a2b900025719f3f6f8adad"
+RPM_NAME = "libhackrf0-2026.01.3-1.4.aarch64.rpm"
+RPM_HASH = "48b4e809bd09d231643469ef88a2bc0360b6495b04b6deb21b33eaa56d0989795b227a03d0421ba2585b315d4e3d9bbeb30c5dc18544f55d458663f70d9ef6f2"
 
 RPROVIDES:${PN} += "libhackrf.so.0 \
 libhackrf0"

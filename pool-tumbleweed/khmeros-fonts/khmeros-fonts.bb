@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "5.0"
 
-RPM_NAME = "khmeros-fonts-5.0-118.17.noarch.rpm"
-RPM_HASH = "d4000d8234a768c13e612e34dec9aed4d3288e4fd35e5824f9630036fac4fcd1dc4f2ade63f5a7585b17abe87fbbea9b488dfc1075a82557efadfc7428cdbe3a"
+RPM_NAME = "khmeros-fonts-5.0-118.25.noarch.rpm"
+RPM_HASH = "bcf9d5b4503ca9a2909a1a0e135e18de656e654d319350a55014bcc2b2b510b97043a839151ca9ce28bf10f28293b4375db0bd8b615b6d6eec83bad7856f8a57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "KhmerOS-fonts \

@@ -5,35 +5,37 @@ Also, Palapeli features real persistency, i.e. everything you do is saved on \
 your disk immediately."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "palapeli-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "750dd2b84409867efa75a75bf192aed9959881651ec5516cce946f03cf56d640425702a4dccf7e32b25c82b748b1c70d64784be84afe0029be1d80794efd0c9c"
+RPM_NAME = "palapeli-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "8cc748fad43ebbb73decff4d0653de82bb7a45ae69378c2fd676f25383fbe6991298a75d9190c34d8802016c92738931f9b9da066765698a3963b53ac6570e39"
 
 RPROVIDES:${PN} += "libpala.so.0 \
 palapeli"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6Archive.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6 \

@@ -1,4 +1,4 @@
-SUMMARY = "Working (Require 'Class::Name') and More"
+SUMMARY = "Working (require 'Class::Name') and more"
 DESCRIPTION = "'require EXPR' only accepts 'Class/Name.pm' style module names, not \
 'Class::Name'. How frustrating! For that, we provide 'load_class \
 'Class::Name''. \
@@ -13,17 +13,17 @@ any class for which the filename does not correspond to the package name. \
 For that, we provide 'is_class_loaded 'Class::Name''."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.25"
+PV = "0.250.0"
 
-RPM_NAME = "perl-Class-Load-0.25-1.18.noarch.rpm"
-RPM_HASH = "9e53b683e9a819d0b973ab7572906cd21f4983fdc93ae7b45b6ef7d47987b8b561ae14463cecff893d58d85bc35c03b1ea8c0afa78934566278635decb3b848b"
+RPM_NAME = "perl-Class-Load-0.250.0-1.7.noarch.rpm"
+RPM_HASH = "4fdc8731d0b12d30ad6ca23b7c5e20b69233996e0424a4d2c4298daea218a1ef8697d2c41b5ba544a8127b9d1ff5ad7d40359311c84330746f28d964e8ccd4a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Load \
 perl-Class--Load--PP \
 perl-Class-Load"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Data--OptList \
 perl-Module--Implementation \
 perl-Module--Runtime \

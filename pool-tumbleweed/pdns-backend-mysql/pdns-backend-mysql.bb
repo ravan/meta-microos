@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the MySQL backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-mysql-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "be4a28a2b694ad30505e8bc18810fb414ad4a9f4bed30530c263fc04fceca8b77dfd916e860e1028d6d0ca2faeb40cbddf7eecc1a4d41028665c09481a06a7b9"
+RPM_NAME = "pdns-backend-mysql-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "bf57b6ce05cc8805341d54c00feebfffa92f8e6fbe03bc29d439413ea72b27ccd8303ef39f47cf5e081c1b660978e50a77e9cac802c9e69e59379b70cf92ad02"
 
 RPROVIDES:${PN} += "libgmysqlbackend.so \
 pdns-backend-mysql"

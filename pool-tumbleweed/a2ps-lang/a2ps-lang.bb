@@ -2,10 +2,10 @@ SUMMARY = "Translations for package a2ps"
 DESCRIPTION = "Provides translations for the 'a2ps' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.15"
+PV = "4.15.8"
 
-RPM_NAME = "a2ps-lang-4.15-1.4.noarch.rpm"
-RPM_HASH = "09c8f0895508ffba3898b53c67fd7e2036e865d2af96b88ced62d4dbb2edd9b3aaa07749a61dd39cde6e5b8c243b123ea40b46772d02c9e7071166ab4dd10349"
+RPM_NAME = "a2ps-lang-4.15.8-1.1.noarch.rpm"
+RPM_HASH = "68f8daf44934c752d35d0a5c94852425eceefa35815cb18a99c97d09e97bdd07ae5fc60704d224c75966a45d8416abf8e38ee22da9ab31e193da4b02622ca785"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "a2ps-lang \

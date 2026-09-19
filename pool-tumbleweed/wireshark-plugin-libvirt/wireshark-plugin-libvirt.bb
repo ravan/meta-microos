@@ -2,10 +2,10 @@ SUMMARY = "Wireshark plugin for libvirt RPC protocol"
 DESCRIPTION = "Wireshark dissector plugin for better analysis of libvirt RPC traffic."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "wireshark-plugin-libvirt-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "5e9d9cfbf9354703b822ca9f2b38e986a4d83f5c1e469981b48a7b611e21a9250c7fd5ba0ac1555cf454ed0268ec7e5c97beea0f65c5a3e45c2bfd3010a6ba49"
+RPM_NAME = "wireshark-plugin-libvirt-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "4360b56d1da0d31f98ef082f3be82b7eee4946e098b8a8b413d5a69e02ee04af01e47a51bb4104eef18e951a4d6302b171986d8ce01a219926aac3b2ed3185c9"
 
 RPROVIDES:${PN} += "libvirt.so \
 wireshark-plugin-libvirt"
@@ -15,7 +15,8 @@ libc.so.6 \
 libglib-2.0.so.0 \
 libtirpc.so.3 \
 libvirt-libs \
-libwireshark.so.16 \
+libwireshark.so.19 \
+libwsutil.so.17 \
 wireshark"
 
 inherit rpm

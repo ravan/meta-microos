@@ -5,10 +5,10 @@ kernel and udev. MATE Power Manager listens for system events and \
 responds with user-configurable actions."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-power-manager-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "0c1c710d0c4b4e4ff60d841f33dd750bff7ae07f27ec23f7a14e1c91babc26e2862ed25c05dd5805c112f8d0f3f7403eb8429b20edbf8d54578e1b2048a1b56b"
+RPM_NAME = "mate-power-manager-1.28.1-3.6.aarch64.rpm"
+RPM_HASH = "be2317ee7f162e83b1fc7035cfeb72aa63340a08808a7e89cfea28a68a3f5dbed41514f66d833aa375bd81ae4d78eab0018c714a3b993d643fef52efc5305c18"
 
 RPROVIDES:${PN} += "mate-power-manager"
 
@@ -26,9 +26,11 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
+libgnome-keyring.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
+libmate-desktop-2.so.17 \
 libmate-panel-applet-4.so.1 \
 libnotify.so.4 \
 libpango-1.0.so.0 \

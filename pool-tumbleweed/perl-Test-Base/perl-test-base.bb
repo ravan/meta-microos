@@ -33,8 +33,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.89"
 
-RPM_NAME = "perl-Test-Base-0.89-1.19.noarch.rpm"
-RPM_HASH = "684a8269aed293f1b3efc32eec4b433b49765c27d216d0ad4dcad8c53896b7ef51760695c99769ff86c4315124e79c2af9b91bfa321ac4ae61a4cd4bd435067b"
+RPM_NAME = "perl-Test-Base-0.89-1.33.noarch.rpm"
+RPM_HASH = "53704224d94a80c2ba3a331d91a3292465d4b5f421f2f6b96c943d4d74597ab1cef3cb22a68fe05c0606466717cea78c0ee853633fa5385d1444cfee91a63170"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Base \
@@ -43,7 +43,7 @@ perl-Test--Base--Filter \
 perl-Test--Base--Handle \
 perl-Test-Base"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Spiffy \
 perl-Test--More"
 

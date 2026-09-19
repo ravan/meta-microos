@@ -1,18 +1,18 @@
-SUMMARY = "Dynamic Class Mixing"
+SUMMARY = "Dynamic class mixing"
 DESCRIPTION = "The 'mix_class' function provided by this module dynamically generates \
 `anonymous' classes with specified inheritance."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.006"
+PV = "0.6.0"
 
-RPM_NAME = "perl-Class-Mix-0.006-1.22.noarch.rpm"
-RPM_HASH = "bb278d1978e21fc39f4993c45de474198a61f384389cced8b050b1c06b3ac6f5fe8777abbdae9285cf27117c8245e5cd2686080cd11e6e4a2e888910f293e6a7"
+RPM_NAME = "perl-Class-Mix-0.6.0-1.7.noarch.rpm"
+RPM_HASH = "378489748bc2ebfdebd385bd8327d054187b7e9d2a016e41ce7ace5d63af57acfae48471263a43f4314734fce537e50bfce39a0b0d9815afe51393d07ab25b3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Mix \
 perl-Class-Mix"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Params--Classify \
 perl-parent"
 

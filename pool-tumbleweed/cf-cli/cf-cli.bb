@@ -2,14 +2,13 @@ SUMMARY = "Cloud Foundry command line client"
 DESCRIPTION = "This is the official command line client for Cloud Foundry."
 LICENSE = "Apache-2.0"
 
-PV = "6.51.0"
+PV = "8.18.4+git.0.3fcd823a1"
 
-RPM_NAME = "cf-cli-6.51.0-2.12.aarch64.rpm"
-RPM_HASH = "0019cd99815b9cf74f52ed54787d5629f1b16d72b5ddb6c659a073956f563cccbfe3e3a6a0ddaa6aead976c8718af139a93194f729769f40ebe3e80f242b6cdf"
+RPM_NAME = "cf-cli-8.18.4+git.0.3fcd823a1-1.1.aarch64.rpm"
+RPM_HASH = "6aa31019392cf566665ce7060c4705df8f128214852250408ae716b41ccb2e765e5fb2a68e5e8b6453b90e909914163c2740b31d81d7aee39bb2db251b06bbfd"
 
-RPROVIDES:${PN} += "cf-cli \
-config-cf-cli"
+RPROVIDES:${PN} += "cf-cli"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

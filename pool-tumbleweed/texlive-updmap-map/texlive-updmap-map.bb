@@ -4,10 +4,10 @@ There is no need to rebuild formats or update binaries because \
 of such updates, hence this separate package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54495"
+PV = "2026.222.svn54495"
 
-RPM_NAME = "texlive-updmap-map-2023.208.svn54495-60.1.noarch.rpm"
-RPM_HASH = "21bedefe034ac8c371e9aca14822dc8648925852323d0618624797b580b858e5adab198a427452a89918c8684a222f640687ad16513b2b0cc631674c461a962f"
+RPM_NAME = "texlive-updmap-map-2026.222.svn54495-68.2.noarch.rpm"
+RPM_HASH = "bd9e69ea9bb00262539fbae01acf7e2f1cfacdc8191510260d91ff5b42e0050f026283542777a4efd14bc893fb086328678414d6be347b101ebf54cb1f307133"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-builtin35.map \

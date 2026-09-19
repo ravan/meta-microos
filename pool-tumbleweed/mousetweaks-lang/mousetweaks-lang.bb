@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.32.0"
 
-RPM_NAME = "mousetweaks-lang-3.32.0-3.8.noarch.rpm"
-RPM_HASH = "bfe4c3789bef4f6d317cd77150e92db0a260609470a7414f8ee84e7175ebf31451202bbf774c7891e17b3149d04c6a39148c4ac9a63583a338b6d9e5c97f8374"
+RPM_NAME = "mousetweaks-lang-3.32.0-4.1.noarch.rpm"
+RPM_HASH = "1a0ae8a03825487c8d8ad1ebccd462d4f50d22b143f5ed54582f51cd43cb1e58bbd4dfb3b5f72d1a3843f8593c068c2b934769fe8feb81a00bf10d1b1a38e05c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mousetweaks-ar \

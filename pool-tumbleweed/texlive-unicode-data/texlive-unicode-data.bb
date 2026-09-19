@@ -15,10 +15,10 @@ co-ordinated by the LaTeX3 Project as a general resource for \
 TeX users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.16svn64423"
+PV = "2026.226.1.19svn76413"
 
-RPM_NAME = "texlive-unicode-data-2023.209.1.16svn64423-54.1.noarch.rpm"
-RPM_HASH = "57b2f5f3451fa4bf9059832988a55b1d3880df91dc6166ab3f3a437c04f8f84b227798039b57b7d4815457d7fd56e86140267fc742240e7a20470f69d0e35175"
+RPM_NAME = "texlive-unicode-data-2026.226.1.19svn76413-60.2.noarch.rpm"
+RPM_HASH = "09a9a5d8759aa65dcafa1b14de78f12eaf44776292fdff4067de3b65b5e77c02b148b3ac4d9911fcd3153dadf0b56b9103e2c57fd1c57a81a19beb63600de5cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-load-unicode-data.tex \

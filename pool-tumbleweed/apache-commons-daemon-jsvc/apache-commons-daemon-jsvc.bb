@@ -5,10 +5,10 @@ privileged operations as root (e.g. bind to a port < 1024), and then switch \
 identity to a non-privileged user."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.3"
+PV = "1.6.1"
 
-RPM_NAME = "apache-commons-daemon-jsvc-1.3.3-1.1.aarch64.rpm"
-RPM_HASH = "c8f2d3fc58d30adf98067586970cb3ff89442c1c00a930ebc7670f1d8ececa17d3068324e995b1ffae6e6dc79ad9e7ff8b9f78da2d34089ea99424d6e26a3d15"
+RPM_NAME = "apache-commons-daemon-jsvc-1.6.1-1.3.aarch64.rpm"
+RPM_HASH = "e807fae028ed55f426230b7a719d1cc6c6892ca8581a92d30eca52f8e0306f18a97fcce8ab9616aa54ac17191ad4378a5db014f7fed5f77b75a449ec61263855"
 
 RPROVIDES:${PN} += "apache-commons-daemon-jsvc \
 jakarta-commons-daemon-/usr/sbin/jsvc \

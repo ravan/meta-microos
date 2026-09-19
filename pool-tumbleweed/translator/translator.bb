@@ -1,12 +1,12 @@
 SUMMARY = "Translation program"
 DESCRIPTION = "This is a translator. It is suited only for small messages, not \
-big text. Google Translate is used as a backend."
+big text. Google Translate is used as the backend."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "1.4.1"
 
-RPM_NAME = "translator-1.4.1-1.20.aarch64.rpm"
-RPM_HASH = "f31689d23850d62e3e5fd7a78cfd622973050f62fa8e6f8a9bf892b7e2379702dacc4b159c6daf4ab9f8a04bc095cbdcd13a03d075a5a387acc79b3c18544f2b"
+RPM_NAME = "translator-1.4.1-2.9.aarch64.rpm"
+RPM_HASH = "28d131d2a2872c9b6465033d9d6ef53d006fb78899064b550b48ed5ee105dc2aea2d239191288de60f7abb35faa34a61a744fe24d41244c5f09a0fba9004defc"
 
 RPROVIDES:${PN} += "translator"
 

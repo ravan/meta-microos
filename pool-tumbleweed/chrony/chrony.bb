@@ -21,10 +21,10 @@ running on the same computer as the chronyd instance it is controlling \
 or a different computer."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.4"
+PV = "4.9"
 
-RPM_NAME = "chrony-4.4-1.1.aarch64.rpm"
-RPM_HASH = "ea858a04a68fdb471561ce2de23eca65db5d3966f22328c5cc6c34d39c78377c14d1d7e36903a5211d368b8965f514929712132e71a05cc61d7c8e933904e83f"
+RPM_NAME = "chrony-4.9-2.1.aarch64.rpm"
+RPM_HASH = "6796c061e05bbbe46e08b3fc233663ea5e33ba89b7cf59f1a573d867668210f046016471c76f2d7a59c67288dfad5d3b161e901e7cec77f85b4cf9b954c3eb89"
 
 RPROVIDES:${PN} += "chrony \
 config-chrony \

@@ -5,10 +5,10 @@ compatible with the original 3dxsrv daemon, and works perfectly with \
 any program that was written for the 3Dconnexion driver."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2"
+PV = "1.3.1"
 
-RPM_NAME = "spacenavd-1.2-1.3.aarch64.rpm"
-RPM_HASH = "4861f60adbfc00fed8568bf2b8495a5d64ac63c172a240ab5b7127fdd1e26c614a71b5236b3ca1b2fead87e062e97b8378fab230fe95c06eda16e3cd86690dea"
+RPM_NAME = "spacenavd-1.3.1-1.4.aarch64.rpm"
+RPM_HASH = "6e95b90f98cf5867e1c51be9d40967c9cc55baad40569715b3e366808484cd17a767fbd7317e5d51cebe45d1155620e0eef6bde2c4d8eb89b9312e4ee1a92a52"
 
 RPROVIDES:${PN} += "config-spacenavd \
 spacenavd"

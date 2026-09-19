@@ -5,10 +5,10 @@ the linguex package or the \\nextx, \\anextx, \\lastx, \\blastx, \
 and \\bblastx commands from the expex package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0svn56575"
+PV = "2026.226.0.0.0svn56575"
 
-RPM_NAME = "texlive-nnext-2023.209.0.0.0svn56575-55.1.noarch.rpm"
-RPM_HASH = "6590eb469f939b59534fdd46b99a156de3f60646bc280312fa53fde275b42f4180de6a29fd65759bedb2026a0fb927177cc9845946eb2b8498a51a439a3ff56b"
+RPM_NAME = "texlive-nnext-2026.226.0.0.0svn56575-61.2.noarch.rpm"
+RPM_HASH = "82435500c3985d6703169afa7dce242aa29aa8c4eb73c01064db01803682fe82cb59841115c40a81b5c08f95408cf40fa8b5753d80bda5ad8f63ceb91e7aa97b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nnext.sty \

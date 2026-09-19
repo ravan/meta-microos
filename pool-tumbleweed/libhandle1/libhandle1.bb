@@ -6,10 +6,10 @@ libhandle1 is always needed by xfsprogs. If you want to use this \
 library for your own new xfs tools install xfsprogs-devel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.4.0"
+PV = "6.19.0"
 
-RPM_NAME = "libhandle1-6.4.0-1.1.aarch64.rpm"
-RPM_HASH = "f6e483f46639f31536c5a28785deb7b3a258af7479e2a63001911f97186105e296d4219b1113427cb3d2c34b2809a9265f270690ce36b1543ea332f5921bc583"
+RPM_NAME = "libhandle1-6.19.0-1.5.aarch64.rpm"
+RPM_HASH = "9f80566b1265d259a44b062aebd485e1f9bc65bdeb1c1d56bdb08387fd1577c8d0946e6f2129d3b5ce8e84b8b202df1d14ed71047b8a4357d1b95cc1ea2e8981"
 
 RPROVIDES:${PN} += "libhandle.so.1 \
 libhandle1"

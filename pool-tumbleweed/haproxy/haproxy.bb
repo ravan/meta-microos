@@ -8,12 +8,12 @@ implementing all the tasks in user-space allows a finer resource and time \
 management. The down side is that those programs generally don't scale well on \
 multi-processor systems. That's the reason why they must be optimized to get \
 the most work done from every CPU cycle."
-LICENSE = "GPL-3.0+ & LGPL-2.1+"
+LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.8.3+git0.86e043add"
+PV = "3.4.4+git0.7f03ae65c"
 
-RPM_NAME = "haproxy-2.8.3+git0.86e043add-1.1.aarch64.rpm"
-RPM_HASH = "b2e470e1340ce268fdf12f2e0d6831cd879b6749f48c74f2fef4010ca931ef3d25ef0a56c76256a253899a710868510352f305a5a43f6d551b3348c09c2fba19"
+RPM_NAME = "haproxy-3.4.4+git0.7f03ae65c-1.1.aarch64.rpm"
+RPM_HASH = "c0ede2f7fd58d386bc2ef438e5ca988cc6e12b89dd63936d7a272964821e249a7172445b24484ebfe0f6850048656b069a9a72059291f5009254c271278371ca"
 
 RPROVIDES:${PN} += "config-haproxy \
 group-haproxy \
@@ -30,7 +30,6 @@ libcrypto.so.3 \
 liblua5.4.so.5 \
 libpcre2-8.so.0 \
 libssl.so.3 \
-libsystemd.so.0 \
 libz.so.1 \
 sysuser-shadow"
 

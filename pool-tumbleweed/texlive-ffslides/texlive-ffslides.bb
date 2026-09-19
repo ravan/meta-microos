@@ -11,10 +11,10 @@ documentation is itself an extensive example of the class's \
 capabilities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn38895"
+PV = "2026.226.svn38895"
 
-RPM_NAME = "texlive-ffslides-2023.209.svn38895-53.1.noarch.rpm"
-RPM_HASH = "2547dc12b74e7095073ddd29399e10dd076e9e1205d7aa5c577fe38bb9da1175ed21e4e790371313669f05a7aa978753eeae2762739913c6a9a04aab35cc55da"
+RPM_NAME = "texlive-ffslides-2026.226.svn38895-59.2.noarch.rpm"
+RPM_HASH = "13e037436abb549ec8df6b6f581fa1d23025f869a1b768a1526511a8e45baf8d637a3e11acff3c1120a17fb0fb99fb2dc6aed27ce565844ded699fcfaa023dd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ffslides.cls \

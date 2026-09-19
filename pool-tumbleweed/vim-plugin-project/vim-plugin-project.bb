@@ -11,8 +11,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.4.1"
 
-RPM_NAME = "vim-plugin-project-1.4.1-56.1.noarch.rpm"
-RPM_HASH = "bc903a9c829d0359019d2fbb99777b95d7287caf562ac77695ffa1970d05ec317fbefda3ba556aeff31555ca17c374027447b859439bb2a9defd278932e60529"
+RPM_NAME = "vim-plugin-project-1.4.1-64.2.noarch.rpm"
+RPM_HASH = "fd802bd8e6b5c95726446984ae9ea4e49a92c6d34accf049925f6b770ed5cadf06d25fa8190a1e43bebf7062e49c320e8198e92c0ee7d37a4c25b473fd7a3e71"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-project"

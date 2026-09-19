@@ -2,10 +2,10 @@ SUMMARY = "Stroke 5 input method"
 DESCRIPTION = "Stroke 5 input method."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-stroke5-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "9af9ee963312a92987a24ffcfa8d72d73bd3017f6c1fe532bbf2917cba8bba6e9712e6b5ea5733a8fb56266af351fbf1212fdc14f1f4863353fcf2432f568952"
+RPM_NAME = "ibus-table-chinese-stroke5-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "20ca1d499554e32a75558c1e1f54b7bde162d04514d52c6af8ea78e05778fc84217e001771c0579c707439d2b2a690417f814c564ea6f1ad50fed06fc521c316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-stroke5 \

@@ -5,10 +5,10 @@ intended to be used by any project which uses GLib and which wants \
 to write internal unit tests."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.1.1"
+PV = "0.2.0"
 
-RPM_NAME = "libglib-testing-devel-0.1.1-1.5.aarch64.rpm"
-RPM_HASH = "7097fec73e368a38cc9782735ed62c70848fa112d9ffa921042c2db0a56b2769258b6c5c307f9f7bdd30084ebd648e520d3d0b2986f72a139067d4f11e9d6230"
+RPM_NAME = "libglib-testing-devel-0.2.0-1.1.aarch64.rpm"
+RPM_HASH = "0a53ccb7182eeef11290ce3481b3cbb91d7e03fe192766be5f1c439f63d1efd51fec3ac46cc1a0cecf61651afce7aa941d833a159655f7cd5f262a8515779922"
 
 RPROVIDES:${PN} += "libglib-testing-devel \
 pkgconfig-glib-testing-0"

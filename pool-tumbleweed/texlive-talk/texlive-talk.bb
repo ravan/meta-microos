@@ -14,18 +14,20 @@ layout than the other slides. The talk class makes no \
 restrictions on the slide design whatsoever. The entire look \
 and feel of the presentation can be defined by the user. The \
 style definitions should be put in a separate sty file. \
-Currently the package comes with only one set of pre-defined \
-slide styles (greybars.sty). Contributions from people who are \
-artistically more gifted than the author are more than welcome!"
+Currently the package comes with two sets of pre-defined slide \
+styles (talk-simple.sty and talk-sidebars.sty). Contributions \
+from people who are artistically more gifted than the author \
+are more than welcome!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn42428"
+PV = "2026.227.2.0svn76392"
 
-RPM_NAME = "texlive-talk-2023.209.1.1svn42428-55.1.noarch.rpm"
-RPM_HASH = "80a2610635f25f5e5aab9d36b7eba202f80a681e6cebe139407736cdcd94538219b99b2760cda446e90b13224134338c127f438f532b994a367a5ed616616e65"
+RPM_NAME = "texlive-talk-2026.227.2.0svn76392-62.2.noarch.rpm"
+RPM_HASH = "5f8a1eab35b92b36107b8955ef88b9c3db20416e0492c929767dead83f492c0a18e41f4323d148ff9cd5875a7f890d92a41d2551dcf763ced7d73eba99d2056e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-sidebars.sty \
+RPROVIDES:${PN} += "tex-talk-sidebars.sty \
+tex-talk-simple.sty \
 tex-talk.cls \
 texlive-talk"
 
@@ -35,12 +37,14 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsmath.sty \
 tex-article.cls \
+tex-cmbright.sty \
+tex-environ.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
 tex-multido.sty \
 tex-pgf.sty \
+tex-xstring.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

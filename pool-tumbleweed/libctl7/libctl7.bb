@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.5.1"
 
-RPM_NAME = "libctl7-4.5.1-1.8.aarch64.rpm"
-RPM_HASH = "d15fe8075b9f6421120772b25b3ead2ae8ebf575c562090e9393b68c609619ebb6b9dfd8aedc2bc343f53b20d766ec5911f24ef30140e216773cd080d20aea34"
+RPM_NAME = "libctl7-4.5.1-1.18.aarch64.rpm"
+RPM_HASH = "41e0867b88ad6acfc8cf0850d3729dc942bd7e6efcca94b158eb94e5a3dfbb4ddfe7884c433834dc85b40d1a8042a8ccfea2050b7b4ff9b4a300086c43396de5"
 
 RPROVIDES:${PN} += "libctl.so.7 \
 libctl7 \

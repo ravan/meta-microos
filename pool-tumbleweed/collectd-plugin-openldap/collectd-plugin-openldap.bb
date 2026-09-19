@@ -3,10 +3,10 @@ DESCRIPTION = "This plugin for collectd reads monitoring information \
 from OpenLDAP's cn=Monitor subtree."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-openldap-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "c684cd7eae772fb2108b8c7c9920718d6df1c327f1ce4e91420833355e7a4dc63f7141cc280b705fd2d97872948fd1f50cde55be43e8ef3e21da9af7e6dc6aca"
+RPM_NAME = "collectd-plugin-openldap-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "d11920820a965d50bf5a4fa8c43e0938ace05fafde5981b7f2a21e6ed5b23635408ecd2ac10cc57f62937f15c13341ec790a2cee4ac5a85bc4daf37aed32162b"
 
 RPROVIDES:${PN} += "collectd-plugin-openldap"
 

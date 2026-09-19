@@ -1,13 +1,15 @@
 SUMMARY = "Data for the xonotic first person shooter"
-DESCRIPTION = "Xonotic is a free (GPL), fast-paced first-person shooter that works on Windows, OS X and Linux. The project is geared towards providing addictive arena shooter gameplay which is all spawned and driven by the community itself. Xonotic is a direct successor of the Nexuiz project with years of development between them, and it aims to become the best possible open-source FPS (first-person-shooter) of its kind. \
+DESCRIPTION = "Fast-paced first-person shooter. It provides arena shooter gameplay \
+and is a direct successor of the Nexuiz project. \
  \
-Data (textures, maps, sounds and models) required to play xonotic."
+This subpackage contains data (textures, maps, sounds and models) \
+required to play xonotic."
 LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.6"
 
-RPM_NAME = "xonotic-data-0.8.6-1.1.noarch.rpm"
-RPM_HASH = "6ea0f1dc074a0f516fcd4de4da61accfaa6f14b3e1ff9828303732fff34cbcff16e7d62cf241bd41a3d4e2df699a83e4c752f720fbb9fdcd2b8916c95127691a"
+RPM_NAME = "xonotic-data-0.8.6-6.8.noarch.rpm"
+RPM_HASH = "b6f8eb8fad4bdafb3d3567d9a9731e6bf7376ba32793bc09c12919ed75b6fb6341b7d807d8a2519a2f3a47595f7923b9d989889c1c23913515ffd63f834bcff0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xonotic-data"

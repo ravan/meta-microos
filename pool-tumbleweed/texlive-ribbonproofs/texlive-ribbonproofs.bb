@@ -6,10 +6,10 @@ diagrams are more human-readable, more scalable, and more \
 easily modified than the corresponding textual proofs."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn31137"
+PV = "2026.226.1.0svn31137"
 
-RPM_NAME = "texlive-ribbonproofs-2023.209.1.0svn31137-54.2.noarch.rpm"
-RPM_HASH = "d1714db9ddaff5ef3fbee0fc1d75368685b73924a55005f7039315f13dd432dbc4972f4619def69f852c40ad74fe6c5bec64c4f646837185c17d9acc9d82591a"
+RPM_NAME = "texlive-ribbonproofs-2026.226.1.0svn31137-60.4.noarch.rpm"
+RPM_HASH = "96db5d16d06d48b684fe3dc94e5dc0d7b7a4ff3cc82bd392104e2bc544abaac44ac23b81daebae656da3619801528af8f14fa94413a27dc7083da07764b2c1a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ribbonproofs.sty \

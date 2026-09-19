@@ -34,10 +34,10 @@ currently many statement attributes are not implemented or are limited by \
 the typeless nature of the SQLite database."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.72"
+PV = "1.780.0"
 
-RPM_NAME = "perl-DBD-SQLite-1.72-1.5.aarch64.rpm"
-RPM_HASH = "e5c86f4d973e2733c54000dd94ef558828262410c98d322832950ce579a3fde40631b67071921f8ee8bf040ee7faa516b8d6445e9be7bd80d5ae0f1b4a2521b4"
+RPM_NAME = "perl-DBD-SQLite-1.780.0-1.8.aarch64.rpm"
+RPM_HASH = "f9fc982645ea6cd15cfb6412afabf12dbdb7705290ad5b3a6a5f08834d404725e6e7b94cd06a08373419caaf893f10a77187db6dd92c8e82e0585614e30b4320"
 
 RPROVIDES:${PN} += "perl-DBD--SQLite \
 perl-DBD--SQLite--Constants \
@@ -53,8 +53,7 @@ perl-DBD-SQLite"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libsqlite3.so.0 \
-perl--MODULE-COMPAT-5.38.0 \
-perl-DBI \
-perl-Test--More"
+perl--MODULE-COMPAT-5.44.0 \
+perl-DBI"
 
 inherit rpm

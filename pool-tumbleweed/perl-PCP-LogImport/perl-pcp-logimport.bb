@@ -4,17 +4,19 @@ importing data in various 3rd party formats into PCP archives so \
 they can be replayed with standard PCP monitoring tools."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "perl-PCP-LogImport-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "777a4eaec3cc9274818fd790562a41660876635c6895d48eb12b8519c8d1c891443c449ebc8a0d8fb5ff5789f31f2558aac8c3e45aa8ab1f5394bc88f33293ae"
+RPM_NAME = "perl-PCP-LogImport-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "b6ce1f4d70491a425e2a8178c1d1c64cbbb4c2971a9d0af44029abfbd1ed446e3a90bc8d05823ec337343c4ad609b784290fdb973db7aa2694a5434e0829c2cf"
 
 RPROVIDES:${PN} += "perl-PCP--LogImport \
 perl-PCP-LogImport"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpcp-import.so.1 \
+libpcp.so.3 \
 libpcp3 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

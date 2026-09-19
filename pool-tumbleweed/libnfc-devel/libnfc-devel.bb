@@ -7,18 +7,19 @@ devices. The library currently supports modulations for ISO/IEC 14443 \
 target and as initiator. \
  \
 This package contains the libnfc development files."
-LICENSE = "LGPL-3.0-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
 PV = "1.8.0"
 
-RPM_NAME = "libnfc-devel-1.8.0-1.13.aarch64.rpm"
-RPM_HASH = "f3265d4d68b690afc50531d62b723f6a40c73500df7c2b19e71b456b6350d1a2b784f95b6e4987a277208bbc69b62d7541774c9918157e12ed9b028a832a22c1"
+RPM_NAME = "libnfc-devel-1.8.0-2.6.aarch64.rpm"
+RPM_HASH = "ed6f8b92c470b2b1b845a05edc37da8cb1dc382e0a9d583fef111d938dbdc22592326f4cb04506c8cc341e06dc5c07eca8bc8ef82581334bfb2c83bb1e7f2b10"
 
 RPROVIDES:${PN} += "libnfc-devel \
 pkgconfig-libnfc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 libnfc6 \
+pkgconfig-libpcsclite \
 pkgconfig-libusb"
 
 inherit rpm

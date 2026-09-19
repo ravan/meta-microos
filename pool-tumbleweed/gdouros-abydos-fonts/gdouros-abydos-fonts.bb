@@ -12,8 +12,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "1.96"
 
-RPM_NAME = "gdouros-abydos-fonts-1.96-2.7.noarch.rpm"
-RPM_HASH = "576bf8292ab90cc5b88d0923bc2cc451b46330fe906d3d45d8047c6ae454542b8c85bc84159243007cc9c147f66625d3f9960dfcb12f27e124f45820c97a161f"
+RPM_NAME = "gdouros-abydos-fonts-1.96-2.15.noarch.rpm"
+RPM_HASH = "e92bb0d5f56698113520499b9194025fcd102116dd6d1371fab3ee0aa4422656c623a6f5f4421338bdef95e7a9eb3fdce734d95f534a6921fbf33df085364d1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gdouros-abydos-fonts"

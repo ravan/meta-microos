@@ -2,10 +2,11 @@ SUMMARY = "MinGW Windows compiler for Fortran shared libraries"
 DESCRIPTION = "MinGW Windows compiler for Fortran shared libraries"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-libgfortran5-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "2d9d2335908a10b69c23151a84388dc213032fae7dcd0f1c167131cef63b90d006800eba70388af0fce06366a445f07e551c202677c63cf826ad75284fbda724"
+RPM_NAME = "mingw32-libgfortran5-16.2.0-1.1.noarch.rpm"
+RPM_HASH = "11b7cfd97845723f29be7407106f11205ce1cfb1fe4d6061b49a0326758292e3a5e4a261b0244bdea40d16b9f0f538dc140678c153da31b9479d3707aa180613"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-libgfortran \
 mingw32-libgfortran-5.dll \

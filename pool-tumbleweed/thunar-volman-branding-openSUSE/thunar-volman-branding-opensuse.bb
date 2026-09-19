@@ -2,10 +2,10 @@ SUMMARY = "openSUSE Branding of thunar-volman"
 DESCRIPTION = "This package provides the openSUSE look and feel for the Thunar Volume Manager."
 LICENSE = "CC-BY-SA-3.0 & GPL-2.0-or-later"
 
-PV = "4.18.0+git0.9a2f754"
+PV = "4.20.0+git1.d2555b3"
 
-RPM_NAME = "thunar-volman-branding-openSUSE-4.18.0+git0.9a2f754-1.6.noarch.rpm"
-RPM_HASH = "4ed314d502f009bceff91ca465858d5aa8121f0376e20c73a784eafff6887e3c20570b4a7d88c9dee251b92cd069827f75906874e43eec5c9df1d7a9a70a9980"
+RPM_NAME = "thunar-volman-branding-openSUSE-4.20.0+git1.d2555b3-3.10.noarch.rpm"
+RPM_HASH = "310c9c1d29ba178cd9df040952d5211be52f13abd74421f5b85995b8614fb24cc70de415bd0bbda7f5b270fa8ffda2510608b9ad19f7bb54561e9ba41c282141"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-thunar-volman-branding-openSUSE \

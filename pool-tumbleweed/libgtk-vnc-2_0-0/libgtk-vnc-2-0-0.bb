@@ -4,10 +4,10 @@ allowing it to be completely asynchronous while remaining single \
 threaded."
 LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
-PV = "1.3.1"
+PV = "1.5.0"
 
-RPM_NAME = "libgtk-vnc-2_0-0-1.3.1-1.6.aarch64.rpm"
-RPM_HASH = "6b2cc51e696233643e9d826ea16c51eb73c55690f8148f6941ab2cc5fb93519e0ce2cbd2a563c83445427a0e664dacd7ed5611957e5f9649f0a50dca5911e731"
+RPM_NAME = "libgtk-vnc-2_0-0-1.5.0-5.2.aarch64.rpm"
+RPM_HASH = "77e668ac8e246526eb48d490859ea29bf84e5a1e7d6e7b1adf14327fcfee0a0438ac4791bffb5fca96de79f6053f209256a5a0d462bc804f331c4d41636782fb"
 
 RPROVIDES:${PN} += "gtk-vnc \
 libgtk-vnc-2-0-0 \

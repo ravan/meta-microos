@@ -1,13 +1,13 @@
 SUMMARY = "Development files for Persistent Memory pool management library"
 DESCRIPTION = "The libpmempool library provides a set of utilities for off-line administration, \
 analysis, diagnostics and repair of persistent memory pools created \
-by libpmemlog, libpemblk and libpmemobj libraries."
+by libpmemobj libraries."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.11.1"
+PV = "2.1.1"
 
-RPM_NAME = "libpmempool-devel-1.11.1-1.9.aarch64.rpm"
-RPM_HASH = "479fe1a8915ada1e0bcfe52f9a42b022941bfa6816d9ccf515792567ecf96593adf236724b8df87e93b7fe7b998aab7b5ca39ced1bdc9043b0d5888cc4affafe"
+RPM_NAME = "libpmempool-devel-2.1.1-1.5.aarch64.rpm"
+RPM_HASH = "83caf76aa632f6e77cc0836a57e35193cf14eb10f859f90f01cccca7f62415f0b457e372a347b6d86939c83098dbbdb753669e97f403f596e3ff7bbab41ff293"
 
 RPROVIDES:${PN} += "libpmempool-devel \
 pkgconfig-libpmempool"

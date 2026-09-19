@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.8.2"
 
-RPM_NAME = "libsoc-devel-0.8.2-3.14.aarch64.rpm"
-RPM_HASH = "7bf37b063e0c58fbc3bb0f8ce49fb0722d15841f9d56e7a302f4cb6e6c8e2cd83f4589f8937a1d6a83a15343fdea819414bf63e09fda64c5f53dcc780439acb1"
+RPM_NAME = "libsoc-devel-0.8.2-4.3.aarch64.rpm"
+RPM_HASH = "3c66f347fe13a3e58a05a4770a170db79b1fa8057a5b23dd3b73ecabff9bb1b944cba62b0a8b0b840500e3a9bddb21c4afbed9c826e0b9c75611f5aa1bc99303"
 
 RPROVIDES:${PN} += "libsoc-devel \
 pkgconfig-libsoc"

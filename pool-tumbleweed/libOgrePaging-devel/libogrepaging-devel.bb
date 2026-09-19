@@ -10,16 +10,16 @@ This package contains the development headers for the Paging Scene Manager \
 component."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgrePaging-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "8b29772e2bfce1d1581e778865950ee5ff53e141b7616ee57268f75ef85c26ee6a0a6f6299f1f6831e17aea2e0921300e047693b755f0e94d7e8584923f07b1a"
+RPM_NAME = "libOgrePaging-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "bc2e080a8dedfefe18660bc2f7c21a29c4f6331eb14b9bed489624325fd8559f735931d3b1ec41026ce9bea961e768ddb8f88731334b4554545dfa92fed39883"
 
 RPROVIDES:${PN} += "libOgrePaging-devel \
 pkgconfig-OGRE-Paging"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgrePaging13-5 \
+libOgrePaging13-6 \
 pkgconfig-OGRE"
 
 inherit rpm

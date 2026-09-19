@@ -5,10 +5,10 @@ pictures, and control of media player on your home network. \
 This package provides the server library of rygel."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.4"
+PV = "45.2"
 
-RPM_NAME = "librygel-server-2_8-0-0.42.4-1.1.aarch64.rpm"
-RPM_HASH = "6d8761b58834a64fbbb8a3b2ba02a0b8b5c9ccd1cca2b62ffe2bd2c6e479c7ce1f6cf23f070f059ba2478e89e2e3e4b5bbb576116e66adfe802c3c4bc38a96f4"
+RPM_NAME = "librygel-server-2_8-0-45.2-1.2.aarch64.rpm"
+RPM_HASH = "64491d5934b36428e53ecbe9abdca12acefe9d73dc826cd05abca929cbd456c44fc1905703ccb5e8462ceb77b7a5e7b3e53b7357f1ca53abc0eb91cadb631004"
 
 RPROVIDES:${PN} += "librygel-server-2-8-0 \
 librygel-server-2.8.so.0"
@@ -27,6 +27,6 @@ libgupnp-av-1.0.so.3 \
 libmediaart-2.0.so.0 \
 librygel-core-2.8.so.0 \
 libsoup-3.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

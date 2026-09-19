@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.11"
 
-RPM_NAME = "libmspack-devel-0.11-1.4.aarch64.rpm"
-RPM_HASH = "c48c115d2caf508888b4d7157ffd85350803576a78e763b00324f7ea8485ffdb49d810ca47dac32a15a0a505fad219520c009a492c484d7d4d1419ab04b09599"
+RPM_NAME = "libmspack-devel-0.11-2.11.aarch64.rpm"
+RPM_HASH = "6e2986469aa97e1349ff0007acaab7bef4b014abe6ec4edf5e56c2d1b6c86d7b7d659e971086cc2e4b644d792d6b942b1398f469225e730e98afe6fe4e6c78c4"
 
 RPROVIDES:${PN} += "libmspack-devel \
 pkgconfig-libmspack"

@@ -7,10 +7,10 @@ package enumitem. Concrete examples are given in the \
 documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn44140"
+PV = "2026.227.0.0.2svn44140"
 
-RPM_NAME = "texlive-thaienum-2023.209.0.0.2svn44140-55.1.noarch.rpm"
-RPM_HASH = "b955ecb0d49495391f29e1399ae84aeee32589d17543f96f5abf905f14428329f4bda639495d0de87bd5e00dc615b8ae394add538415b5b55f2258b496256822"
+RPM_NAME = "texlive-thaienum-2026.227.0.0.2svn44140-62.2.noarch.rpm"
+RPM_HASH = "5db0f3b931125690c36ca594363d6fede336cd52ebc67966b6c76a92325b57a51faae2fe60794d0a8c836a30ee7dba2040d9ee95187d72cd6f1033ab3dcfd3d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-thaienum.sty \

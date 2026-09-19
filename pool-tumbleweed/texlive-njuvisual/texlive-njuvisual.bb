@@ -5,10 +5,10 @@ pictures and provides a user-friendly interface to display them \
 in documents and beamers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn65261"
+PV = "2026.226.0.0.3.0svn76924"
 
-RPM_NAME = "texlive-njuvisual-2023.209.0.0.3.0svn65261-55.1.noarch.rpm"
-RPM_HASH = "d672c2a328c3f60426ca9fa8d39db06d8f2175293422c1e2272abbcdf55ec35e39a91beb588b971ff2885c719c58f1f0eff9aec2f4c81b5381832250925d44c3"
+RPM_NAME = "texlive-njuvisual-2026.226.0.0.3.0svn76924-61.2.noarch.rpm"
+RPM_HASH = "d37ff07c0615ed638801061b02021368faeff0ec8e474ea0e59dc6aed3ca0bac3626056721240e165386546224fe352edcccfb1fcbea8489a5ad19644dc0d962"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-njuvisual-emblem-ai.def \

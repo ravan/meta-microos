@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxtexlogo"
 DESCRIPTION = "This package includes the documentation for texlive-bxtexlogo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn63231"
+PV = "2026.226.0.0.6svn63231"
 
-RPM_NAME = "texlive-bxtexlogo-doc-2023.209.0.0.6svn63231-53.1.noarch.rpm"
-RPM_HASH = "d62cad3a35252ecc1eca629accbd10d492eda27b3b54944a37d7ba1bba762168a5ff5a26d9ed94f43b7265448941c90f0398c86ee5296c4e38feca91fca18dce"
+RPM_NAME = "texlive-bxtexlogo-doc-2026.226.0.0.6svn63231-59.2.noarch.rpm"
+RPM_HASH = "01c53c608e62ba5bd8e8d309033e9f21075504355791321ffa9db0a3c526a5f3d7f736d747476c2773ccddf4347c8de87d22821c31025fdf68711c29164402fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxtexlogo-doc"

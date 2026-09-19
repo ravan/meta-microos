@@ -7,27 +7,31 @@ Sun under the Java Community Process. \
 ATTENTION: This tomcat is built with java 1.8.0."
 LICENSE = "Apache-2.0"
 
-PV = "9.0.75"
+PV = "9.0.121"
 
-RPM_NAME = "tomcat-9.0.75-1.2.noarch.rpm"
-RPM_HASH = "57591c5b41a196e44cf0a3765c93793d2688ce3dd2f9383eb3c9729f8b755503ef2b32aa929171ef674cfa6bef0c4a56f941b7e3d8c2d19d170a1d04fe8d3ba8"
+RPM_NAME = "tomcat-9.0.121-1.1.noarch.rpm"
+RPM_HASH = "f814516e982c9ea719725328475babd0665e3cfc893d7c1d7e15943ea49bf98864db3966565dba02ccede5d541ff12b66cc1a993743a1fc099a844ab812c8921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tomcat \
-tomcat"
+group-tomcat \
+tomcat \
+tomcat-implementation \
+user-tomcat"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/mkdir \
 /usr/bin/sh \
 /usr/bin/touch \
-/usr/sbin/groupadd \
-/usr/sbin/useradd \
 apache-commons-daemon \
 apache-commons-dbcp \
 apache-commons-logging \
 apache-commons-pool2 \
 fillup \
 java \
-tomcat-lib"
+libxslt-tools \
+shadow \
+tomcat-lib \
+util-linux"
 
 inherit rpm

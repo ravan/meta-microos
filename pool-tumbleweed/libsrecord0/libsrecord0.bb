@@ -1,12 +1,12 @@
 SUMMARY = "Srecord libraries"
 DESCRIPTION = "This package contains the shared libraries for programs that manipulate EPROM \
 load files."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "1.64"
+PV = "1.65.0"
 
-RPM_NAME = "libsrecord0-1.64-4.34.aarch64.rpm"
-RPM_HASH = "348c00ec9766925b4c0b375bc2bf7b31126124368ce762b58a7f7dad836e349bd0234d06a3c90e7dfb516fffee616c50c25b4075285d8d3cddb9982180a138b8"
+RPM_NAME = "libsrecord0-1.65.0-2.7.aarch64.rpm"
+RPM_HASH = "a131b32fa9eb28b8ac2514a99cba37b8b8857323a60c72165ae33d8a524fd0458714a3a571e99b4830dd78fdebed35140c563a7c4e8b296084be83eb548bd6e2"
 
 RPROVIDES:${PN} += "libsrecord.so.0 \
 libsrecord0"

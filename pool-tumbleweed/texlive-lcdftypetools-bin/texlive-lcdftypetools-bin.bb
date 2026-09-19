@@ -2,10 +2,10 @@ SUMMARY = "Binary files of lcdftypetools"
 DESCRIPTION = "Binary files of lcdftypetools"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn62210"
+PV = "2026.20260301.svn77900"
 
-RPM_NAME = "texlive-lcdftypetools-bin-2023.20230311.svn62210-93.2.aarch64.rpm"
-RPM_HASH = "7cdddaa328b029d73ed9691110eaa941eac34ce3215947338c02d503102b8b0978cd551d0d79bffcf839b03a511b835064d891ea856b60634df635e2b127d4e4"
+RPM_NAME = "texlive-lcdftypetools-bin-2026.20260301.svn77900-120.4.aarch64.rpm"
+RPM_HASH = "3075100d5f3b8fa8d8d46a3666b924f87196424f7530af89850c5b73beff08b1aaad8ec3124ff5a4d0172e282d62f6aa52a5a018047da05f6a4449452bf1f4d9"
 
 RPROVIDES:${PN} += "texlive-lcdftypetools-bin"
 

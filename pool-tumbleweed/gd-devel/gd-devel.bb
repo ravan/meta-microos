@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "2.3.3"
 
-RPM_NAME = "gd-devel-2.3.3-3.5.aarch64.rpm"
-RPM_HASH = "b40da87c3268b5163e05d1f831461461c34cffab57a4621564bb526b8bc08e897f3115cf0f063be7be8ad951d8aac6667f6ebd714fb227977348270c0814759a"
+RPM_NAME = "gd-devel-2.3.3-6.1.aarch64.rpm"
+RPM_HASH = "75a2d6bbec053c1d44f94371ab5c8ec4f76848588994bc456caacea142a0221200aaaa5766ead471803c25810f53e89ae15f2724746ec356c243aed9e52779fb"
 
 RPROVIDES:${PN} += "gd-devel \
 pkgconfig-gdlib"

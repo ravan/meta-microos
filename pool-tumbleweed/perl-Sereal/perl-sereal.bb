@@ -22,15 +22,15 @@ our benchmarks can be seen at \
 https://github.com/Sereal/Sereal/wiki/Sereal-Comparison-Graphs."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.004"
+PV = "5.10.0"
 
-RPM_NAME = "perl-Sereal-5.004-1.3.noarch.rpm"
-RPM_HASH = "48af5a104df764b99256ad0b60258c8afd3dcc4157134eca9c84b9b145b7a2d91a8e78f5d30255d617f43d38839bd89d99c1b80e5d6af94d206bf380369a0c24"
+RPM_NAME = "perl-Sereal-5.10.0-1.1.noarch.rpm"
+RPM_HASH = "e9bf3b020bdc1aa83c9b5635b7ad9fc333140a3b8323734bcdf9c830ab85b84e847be8ed757d5dde3aa28d97e5e63740891d083e774cda6dfdbef89fcf17c0aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sereal"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Sereal--Decoder \
 perl-Sereal--Encoder"
 

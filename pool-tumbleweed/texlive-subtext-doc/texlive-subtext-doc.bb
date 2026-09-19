@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-subtext"
 DESCRIPTION = "This package includes the documentation for texlive-subtext"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn51273"
+PV = "2026.226.1.1svn51273"
 
-RPM_NAME = "texlive-subtext-doc-2023.209.1.1svn51273-58.1.noarch.rpm"
-RPM_HASH = "4241a6fbd92e5e66064ad3e4ca21de99897977f8bc6fc84d703865667dec78daa9dea03b9ba2702badcc24252ad8c14f55422ea1ced048fbd619e5ced3073baa"
+RPM_NAME = "texlive-subtext-doc-2026.226.1.1svn51273-64.2.noarch.rpm"
+RPM_HASH = "3ad2e6927db3ab7dbda09c4401e650cb0cd65e436e97cb7ded18f64d4bb89b206fc907d49f516a7178f4e98c334f107a7747bfd9b3470288ddcbd0cc680db86e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-subtext-doc"

@@ -3,12 +3,13 @@ DESCRIPTION = "This package contains files and libraries needed for develeopment
 recastnavigation libraries."
 LICENSE = "Zlib"
 
-PV = "1.5.1+git20210305.c5cbd53"
+PV = "1.6.0"
 
-RPM_NAME = "recastnavigation-devel-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
-RPM_HASH = "3e8ed1a5a5583b3c8e4ad5bb3cb403448be42040e8bc408daf46039b151c044c9a23e9af3cd6a010a9fb752708c8c6548b2f4fed595b60f69efbb34bedab29cc"
+RPM_NAME = "recastnavigation-devel-1.6.0-1.9.aarch64.rpm"
+RPM_HASH = "c1cbd1965060fadfc71d3d989cceb92e3a37eb9adeacbd3b4745c404df10e1cf0e142b1d52d25d559f01332b2f0cd9dad97d816a1a7c6be13761351407415f76"
 
-RPROVIDES:${PN} += "pkgconfig-recastnavigation \
+RPROVIDES:${PN} += "cmake-recastnavigation \
+pkgconfig-recastnavigation \
 recastnavigation-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

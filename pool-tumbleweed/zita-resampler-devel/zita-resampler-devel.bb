@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.11.2"
 
-RPM_NAME = "zita-resampler-devel-1.11.2-1.1.aarch64.rpm"
-RPM_HASH = "ef2d7f53365d383e727da81ca89d7f5af0a8b531ed039220e2db7cd87a67a56efa7de93c4ece550f29bca810c69efa7063057a2d3f904e5f393271432d28eaad"
+RPM_NAME = "zita-resampler-devel-1.11.2-2.9.aarch64.rpm"
+RPM_HASH = "62ecc5fea1bc289bf88484da0f8a60e3d9c255f0e7f372fe1cdf0a1c12b140581fe5119a6ca65a49b22fd51c88056bc2ea54185ee88ab8a6db1d6e7428559342"
 
 RPROVIDES:${PN} += "zita-resampler-devel"
 

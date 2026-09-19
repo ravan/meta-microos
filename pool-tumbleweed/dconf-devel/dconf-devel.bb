@@ -4,10 +4,10 @@ provide a backend to GSettings on platforms that don't already \
 have configuration storage systems."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.40.0"
+PV = "0.49.0"
 
-RPM_NAME = "dconf-devel-0.40.0-3.4.aarch64.rpm"
-RPM_HASH = "488200ee9cd5c5c4f7a2db900647b045548292a68dbf3f10e13ce93d5f9de6fa6331f7b83b30e357cd9f53d3de83494c198f6379c55b1a506a06c4a5adfb774a"
+RPM_NAME = "dconf-devel-0.49.0-1.5.aarch64.rpm"
+RPM_HASH = "f0d63215087d86c911b861f82ea9b0f402c77a9cfb194507597908a78b6d01fd61fb94d3867fd671fb0ca9488cfa3eb9aadb1c4dc14f73354b79bf8917cb793c"
 
 RPROVIDES:${PN} += "dconf-devel \
 pkgconfig-dconf"

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.0.0+git20190314.f79a8a8"
 
-RPM_NAME = "golang-github-cpuguy83-go-md2man-2.0.0+git20190314.f79a8a8-1.16.aarch64.rpm"
-RPM_HASH = "b31526723724deac069ffc855764b8d6acc251a875614ee8de4d3006f4aa68f9562b5d41c61728377e4fec9c72d7d03a31bda79fa7919598cd60e795f13f1249"
+RPM_NAME = "golang-github-cpuguy83-go-md2man-2.0.0+git20190314.f79a8a8-2.12.aarch64.rpm"
+RPM_HASH = "dfee1301694c6c0c8b5a4f3f0caa16efdf16ae594246c2c8d9c1aa167093ed2dc47fc10ae2f84a6d1c752853a7400a7b164511e5be4fb3fbddd275179a32dcee"
 
 RPROVIDES:${PN} += "golang-github-cpuguy83-go-md2man"
 

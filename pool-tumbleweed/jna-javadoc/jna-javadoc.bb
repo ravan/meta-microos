@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0 | LGPL-2.1-or-later"
 
 PV = "5.13.0"
 
-RPM_NAME = "jna-javadoc-5.13.0-1.1.noarch.rpm"
-RPM_HASH = "12dc19dd4bf98636f6e4e0b3ef05d4da0894fdc44c3b497c9275ed14754618e1a59853cf7e7fd066b56af544dff7b15ae49f9690d25d7a193176558354614498"
+RPM_NAME = "jna-javadoc-5.13.0-5.6.noarch.rpm"
+RPM_HASH = "bb699711db8febb99f450bd35ae451dc20928e4ca18a1a261f9964a5564a52ae11b8027046c008d9b98ffaa6d5d037a47210250506d00fad5a389fb5ed13681b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jna-javadoc"

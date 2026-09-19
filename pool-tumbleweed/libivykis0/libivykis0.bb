@@ -1,14 +1,13 @@
 SUMMARY = "An event dispatching library"
-DESCRIPTION = "libivykis is a thin wrapper over various OS'es implementation of I/O \
-readiness notification facilities (such as poll(2), kqueue(2)) and is \
-mainly intended for writing portable high-performance network \
-servers."
+DESCRIPTION = "libivykis is a wrapper over various OS'es implementation of I/O \
+readiness notification facilities (such as poll(2), kqueue(2)) and \
+can be used for writing portable network servers."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.42.4"
+PV = "0.43.2"
 
-RPM_NAME = "libivykis0-0.42.4-1.9.aarch64.rpm"
-RPM_HASH = "99e02db0ec60b8b0e2d3c23b447640978587c01bae2bc52f9fd465851324fb0e68ae20da4399a2cad15617723804be35635a48c041ec1da0bb05c44bbcb79692"
+RPM_NAME = "libivykis0-0.43.2-1.5.aarch64.rpm"
+RPM_HASH = "9acacb370813fe477f709d927194144d0062b72154a4a7aa2a893ef01249332deb83de360b8cc51483509d640b7a9da564e7cac8bd319e249db24e90d46558bd"
 
 RPROVIDES:${PN} += "libivykis.so.0 \
 libivykis0"

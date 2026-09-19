@@ -10,10 +10,10 @@ you can define your own 'hooks' to be used by the /sbin/dhclient-script \
 (which is called by the daemon)."
 LICENSE = "MPL-2.0"
 
-PV = "4.4.2.P1"
+PV = "4.4.3.P1"
 
-RPM_NAME = "dhcp-client-4.4.2.P1-14.4.aarch64.rpm"
-RPM_HASH = "c0a3ee721d78a8d97c7cde17f63785553da5e248e0d7963e1d8294d4c6987b6a5001a9eab56025603b6b943751a663fa8af6e98668a59838f509a6c8e6c149fd"
+RPM_NAME = "dhcp-client-4.4.3.P1-1.2.aarch64.rpm"
+RPM_HASH = "dfc7d9f4e8a5414be249213d74d75f5b0d8bc58af73ef26c2b4b0f74ef20e0b1bb032b9b935d7aea1ecb9f058c795a29685d8294b36ca520a7ccb45941fd49a3"
 
 RPROVIDES:${PN} += "config-dhcp-client \
 dhcp-client"

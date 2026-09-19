@@ -6,10 +6,10 @@ applications are now capable of dealing with Type 1 fonts, \
 direct."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.19.2svn52851"
+PV = "2026.226.1.19.2svn52851"
 
-RPM_NAME = "texlive-gsftopk-2023.209.1.19.2svn52851-54.2.noarch.rpm"
-RPM_HASH = "8855a2da21fbd1ea71fd1a097cb15bac2d51df8d42d7aeafe35ef13cd8358abe8b3bdd0bb05344e6736e8582d1ab9f9847006728d3896cac7fa57144c697dc2e"
+RPM_NAME = "texlive-gsftopk-2026.226.1.19.2svn52851-60.4.noarch.rpm"
+RPM_HASH = "a65daa92d01b5a24733830bee6141ff3553a7fa09d10bd139f768657b7c5135e1d909dc55de1c412d67d30a821b8539f5cbf2e0d5aa2399f5471480caaa28d0e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gsftopk"

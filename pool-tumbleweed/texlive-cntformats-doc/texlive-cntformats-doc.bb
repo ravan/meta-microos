@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cntformats"
 DESCRIPTION = "This package includes the documentation for texlive-cntformats"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn34668"
+PV = "2026.226.0.0.7svn34668"
 
-RPM_NAME = "texlive-cntformats-doc-2023.209.0.0.7svn34668-54.1.noarch.rpm"
-RPM_HASH = "8d220415f1fc48a819ed7a04d864c6a5ba47a90c3103ffb50561529a6ba0a22b8f6eb0d9cc07b7a2fee73bddf00c5db67b4532250e94d35bba86bedfaea879fc"
+RPM_NAME = "texlive-cntformats-doc-2026.226.0.0.7svn34668-60.2.noarch.rpm"
+RPM_HASH = "dffeb044d32361ecc0936accf12a01fe4071ca25cad2bae2687c13bfe1915639ce5d5cff5a6cfc45f9b642a4e72294779138d726149028c3594c1ebe1758dda8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cntformats-doc"

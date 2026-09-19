@@ -8,10 +8,10 @@ domain' certificates. It is also use do highlight domain parts in a user interfa
 and sorting domain lists by site."
 LICENSE = "MIT"
 
-PV = "0.21.2"
+PV = "0.23.3"
 
-RPM_NAME = "psl-0.21.2-1.3.aarch64.rpm"
-RPM_HASH = "54f143c7d69c96a0be76255d20d43000642fa54eb4242dda45445b9360aa556886f5673c0e36c2ab409f3ba78b5ec2e4cac228cf1e7cc73050930247ecf66f89"
+RPM_NAME = "psl-0.23.3-1.1.aarch64.rpm"
+RPM_HASH = "93236f53a725f949b3f192d5b3587e1f7b73bc06296f39b05b84350929067d13358487ffbf0ce4f9d715710473e0314bed5b9e4820b9e41fe97d0d218fdb84d3"
 
 RPROVIDES:${PN} += "psl"
 

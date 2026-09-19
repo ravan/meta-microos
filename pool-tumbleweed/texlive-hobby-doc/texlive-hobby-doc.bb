@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-hobby"
 DESCRIPTION = "This package includes the documentation for texlive-hobby"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn44474"
+PV = "2026.226.1.12svn76924"
 
-RPM_NAME = "texlive-hobby-doc-2023.209.1.8svn44474-54.2.noarch.rpm"
-RPM_HASH = "4a101559cbfbbce82ebe7c8d89079a56bff8aff73f59ca6b19000d41d00accf94886082557895a9d26ca781c1af9258393d0127237f6957375c9b8b36681a1b5"
+RPM_NAME = "texlive-hobby-doc-2026.226.1.12svn76924-60.4.noarch.rpm"
+RPM_HASH = "d07507244b85a25a024e5be68fc169a93e60b376b7c5f92712d22803ef5c598efdd3202c60f22d0df15ed0f737b0eaf477be6708543c1495af13e4913e23e6af"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-hobby-doc"
+RPROVIDES:${PN} += "locale-texlive-hobby-doc-en \
+texlive-hobby-doc"
 
 RDEPENDS:${PN} += ""
 

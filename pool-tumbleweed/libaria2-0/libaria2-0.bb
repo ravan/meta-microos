@@ -6,12 +6,12 @@ to speed up downloads with certain networks. The engine in was \
 implemented in a single-thread model. \
  \
 This package contains the shared library."
-LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
+LICENSE = "LicenseRef-SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "1.36.0"
+PV = "1.37.0"
 
-RPM_NAME = "libaria2-0-1.36.0-1.12.aarch64.rpm"
-RPM_HASH = "f49b0f098305b87b07671b8aafdde2033903f00ff3d2f18036eeecade0440dae02f4c9a599c9cc94513e3e34e1e9cb4abbc2a3ea02e90d76b86be8f6da50eedb"
+RPM_NAME = "libaria2-0-1.37.0-2.2.aarch64.rpm"
+RPM_HASH = "eb972cc1699194102a828752a055f4eb4a9290613c35a87a1f48bbb8519b43083c59cb799fe37179174020078947b1e0bfac2e08c2c7de5edaab250b818aac12"
 
 RPROVIDES:${PN} += "libaria2-0 \
 libaria2.so.0"
@@ -29,7 +29,7 @@ libsqlite3.so.0 \
 libssh2.so.1 \
 libstdc++.so.6 \
 libuv.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

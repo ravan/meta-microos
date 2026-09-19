@@ -6,10 +6,10 @@ other existing free linguistic tools. \
 This package contains a test program for using Voikko spell checker."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.2"
+PV = "4.3.3"
 
-RPM_NAME = "voikkospell-4.3.2-2.1.aarch64.rpm"
-RPM_HASH = "07ad0bb7116d1994e5c817f0d47f68664fd5d725a2059717186324b3182719d8e67437bcb4df01a64bb2e1dd40c91643336fa7ab7921d64a23432672fa040298"
+RPM_NAME = "voikkospell-4.3.3-1.5.aarch64.rpm"
+RPM_HASH = "4947372d890f18b580a770e332d1155df116a0351cdeaefc2bba270e3d22bae7c51f5e25a757d5303448d5ce322f16d23796f4dd4295038da9038fa7d990bf84"
 
 RPROVIDES:${PN} += "voikkospell"
 

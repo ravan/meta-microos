@@ -4,10 +4,10 @@ It can employ all the dictionary files that belong to StarDict. \
 The word sdcv stands for StarDict under Console Version."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.5.4"
+PV = "0.5.5"
 
-RPM_NAME = "sdcv-0.5.4-1.2.aarch64.rpm"
-RPM_HASH = "24e711f1d9a58f0fdf1bb26e2c5095892692476873db91fefe66015cf833c59590a63d18477c88331610fb6266d8a74f61f7e276be87d1b49368d23a2a685650"
+RPM_NAME = "sdcv-0.5.5-1.10.aarch64.rpm"
+RPM_HASH = "2686a174e14078150b2f1663b03f61927372f3cdff248b31a698d5bec6cd0928d91f8ffc32a7cdf1947dd342f6f4668b2b943a0040f333ab80ffdc990f2f39e6"
 
 RPROVIDES:${PN} += "sdcv"
 

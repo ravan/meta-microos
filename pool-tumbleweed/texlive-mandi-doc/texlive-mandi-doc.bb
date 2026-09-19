@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mandi"
 DESCRIPTION = "This package includes the documentation for texlive-mandi"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.1.0svn61764"
+PV = "2026.226.3.2.2svn76924"
 
-RPM_NAME = "texlive-mandi-doc-2023.208.3.1.0svn61764-53.1.noarch.rpm"
-RPM_HASH = "4b8d49fb6731d8a39a97a5023027f04625bb5523b7bf5c85d780b3d5fdd2de6e68d4725ee898a7d763a5627ddef8816b0e10ec3554f2ef8037317068b0a42211"
+RPM_NAME = "texlive-mandi-doc-2026.226.3.2.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "8b0e81b3b3bcd5a31d3c2aa0e6a6cee9a535320acab2da062fa4fa04c92e7a85de41d02a3e9a900588705ccbf0883ba094be454c34b2402966473f0dc78ce52e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mandi-doc"

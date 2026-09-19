@@ -2,10 +2,10 @@ SUMMARY = "Package provides recommended R-MASS"
 DESCRIPTION = "This packages provides R-MASS, one of the recommended packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "7.3.60"
+PV = "7.3.65"
 
-RPM_NAME = "R-MASS-7.3.60-46.1.aarch64.rpm"
-RPM_HASH = "70e5ee4c4fd5f0720d764ae6018d27bae4ba07337e676094458e5bb9940524e2ccec33a40920df5be3a4cd5303236c3d62b4f409a6f518d978f262e03f7d2070"
+RPM_NAME = "R-MASS-7.3.65-58.3.aarch64.rpm"
+RPM_HASH = "61f6e9dd90c00055c8ac0cf506bbf783961d4f3ec4cd7dade1f92aa83b2afa0b53b6185e5fbe9a1feb2035bc9bae0e7f882881f523fe1916cce9c801947bca7f"
 
 RPROVIDES:${PN} += "R-MASS"
 

@@ -2,10 +2,10 @@ SUMMARY = "Java bindings for astyle"
 DESCRIPTION = "This package contains Java bindings for astyle."
 LICENSE = "MIT"
 
-PV = "3.4"
+PV = "3.6.14"
 
-RPM_NAME = "libastylej3-3.4-1.1.aarch64.rpm"
-RPM_HASH = "6ec4a5473afa166da8441faa6aac81348cf2a970a2b6fdbc1e38a260303d701aa98a8d8dfd464aef7152e2994a0c2d886aa9adfb4123d5910472892d96d797b0"
+RPM_NAME = "libastylej3-3.6.14-1.3.aarch64.rpm"
+RPM_HASH = "30a3ff767b950065dfe1c1914887a9cf3460f59308210a1f1d4613140935c2e23fcb499d557abc47bedcdbb403619ec6dbb366699b4966a7d47cdb8d42184d89"
 
 RPROVIDES:${PN} += "libastylej.so.3 \
 libastylej3"

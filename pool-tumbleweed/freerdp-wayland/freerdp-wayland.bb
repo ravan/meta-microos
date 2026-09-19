@@ -4,18 +4,19 @@ following the Microsoft Open Specifications. This package provides the \
 wayland-based client application."
 LICENSE = "Apache-2.0"
 
-PV = "2.11.0"
+PV = "3.31.0"
 
-RPM_NAME = "freerdp-wayland-2.11.0-1.1.aarch64.rpm"
-RPM_HASH = "c000ebec1eb9cff377c9a8e9d7b3b3bb15b77548b07e3b3c25f6d95091eae55762001b9f284dfe0511b4731bab90b2702e268f8631d6f9d9162ffca95598b78e"
+RPM_NAME = "freerdp-wayland-3.31.0-1.1.aarch64.rpm"
+RPM_HASH = "99480ac129a13cfd71527f791d7a47c4a34daac6f2b7751f73f7e2e810751fb0e050ca09db618a58f0d5a7f85da95df2db58b909d650ef97caeda9ee1ca8e143"
 
 RPROVIDES:${PN} += "freerdp-wayland"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfreerdp-client2.so.2 \
-libfreerdp2.so.2 \
+libfreerdp-client3.so.3 \
+libfreerdp3.so.3 \
+libm.so.6 \
 libuwac0.so.0 \
-libwinpr2.so.2"
+libwinpr3.so.3"
 
 inherit rpm

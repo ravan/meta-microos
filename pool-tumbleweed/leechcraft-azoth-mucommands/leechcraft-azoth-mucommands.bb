@@ -3,23 +3,24 @@ DESCRIPTION = "This package provides some common conference-oriented commands li
 /vcard, /time, /last, /subject, /kick, /ban and so on for LeechCraft Azoth."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-mucommands-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "c2cdbf64cf74fbfa6461353cc412c0760b15766918b3b822a542e5b3ce5cfca7c5e26328ef482fc3758ac066d6bcb963b3f0275496492f0e7f69779974c9d072"
+RPM_NAME = "leechcraft-azoth-mucommands-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "bbdb63be84fda03ae4e00e38db6ab4477e39bf662bfcab3a3ca27fd24c38a5b29843ae1f30548631ba345f2d5e049a3e01cf9596ed68898627deecb862e4f050"
 
 RPROVIDES:${PN} += "leechcraft-azoth-mucommands \
 libleechcraft-azoth-mucommands.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth-protocolplugin \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
+libleechcraft-azoth-util-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

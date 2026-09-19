@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "freealut-devel-1.1.0-237.20.aarch64.rpm"
-RPM_HASH = "7ed8a6e73a2f87835eec9958f7d062aed34affc7db74d4855f4a455ce24406213b3e93a076e04a0b51f3df61b77861311b6f1442ee7a8f568fdf849ce8cbd1dc"
+RPM_NAME = "freealut-devel-1.1.0-237.29.aarch64.rpm"
+RPM_HASH = "d301b1361988f7833cee731d155625a36a405857160b4b5493f653b350281227cef163179d75262c94899a023da431a4d04e051c8336272bec6816d2f2ea5085"
 
 RPROVIDES:${PN} += "freealut-devel \
 pkgconfig-freealut"

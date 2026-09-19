@@ -4,18 +4,17 @@ It is a simple editor for binary data, just like QPlainTextEdit is for text \
 data."
 LICENSE = "LGPL-2.0-only"
 
-PV = "0.8.9"
+PV = "0.9.0"
 
-RPM_NAME = "qhexedit2-0.8.9-1.16.aarch64.rpm"
-RPM_HASH = "4b5cfe8d7cdbe86fdbac228d81a44fd3cc2fab416867002868de4c133c1fe9042d4dab9109c68e9d2d683bfba8d0f8af1c535a398394487a730fda6964fbcfb8"
+RPM_NAME = "qhexedit2-0.9.0-1.6.aarch64.rpm"
+RPM_HASH = "9efe04d5a00930e8d4c54e80bb4d6fb2a2d16631e881ca40b5d8d7c78f379d6fbfdc3f5e149087639a931740e0109430e54c2621f04c50ce57fab64b9701a079"
 
 RPROVIDES:${PN} += "qhexedit2"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

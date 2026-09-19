@@ -5,17 +5,15 @@ and other modifications. The theme is available for GTK and KDE. \
  \
 This package contains the following icon themes: \
  \
-ePapirus \
-ePapirus-Dark \
 Papirus \
 Papirus-Dark \
 Papirus-Light"
 LICENSE = "GPL-3.0-only"
 
-PV = "20230601"
+PV = "20260801"
 
-RPM_NAME = "papirus-icon-theme-20230601-1.1.noarch.rpm"
-RPM_HASH = "7c0accb6befbf05a683a08912992e266339625e961bf73bb35e18645c3199a2c89965afd2d1f241e88deb11211ca58fddf636bdd35353eef2ee943c743c791c0"
+RPM_NAME = "papirus-icon-theme-20260801-1.1.noarch.rpm"
+RPM_HASH = "c7d5da1fa216353ea5ad0fc0c159d7e416cf4717214dd96adb27bba71ecadafb54f5af337b1e9f3d6cc9408f23a6651999a24c00e924e6792549b09dac0c885d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "papirus-icon-theme"

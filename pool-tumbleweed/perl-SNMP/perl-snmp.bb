@@ -2,10 +2,10 @@ SUMMARY = "Perl5 SNMP Extension Module"
 DESCRIPTION = "The Perl5 'SNMP' Extension Module v3.1.0 for the UCD SNMPv3 library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.9.3"
+PV = "5.9.5.2"
 
-RPM_NAME = "perl-SNMP-5.9.3-4.11.aarch64.rpm"
-RPM_HASH = "0cfd593eb479e1260f2ce715ecef3890d1916c4c0a7930d3e96b3ce2eeb42d06cd2a4695648faa65373d81e8f79b95dfb30a98ba235ff283842b6be9c81c7d0e"
+RPM_NAME = "perl-SNMP-5.9.5.2-2.4.aarch64.rpm"
+RPM_HASH = "0ed05795c5c48607d2201eeb5fcf0999018547c7483c3809032d1e9cccea965d00fca02b0dda72130b391cdbdf9f545e0ed631a8262073cc4c27a09401a5c471"
 
 RPROVIDES:${PN} += "perl-MakefileSubs \
 perl-NetSNMP--ASN \
@@ -33,9 +33,9 @@ perl-SNMP--Varbind"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libnetsnmp.so.40 \
-libnetsnmpagent.so.40 \
-libnetsnmptrapd.so.40 \
+libnetsnmp.so.45 \
+libnetsnmpagent.so.45 \
+libnetsnmptrapd.so.45 \
 net-snmp \
 perl-base"
 

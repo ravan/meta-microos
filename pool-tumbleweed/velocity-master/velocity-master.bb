@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "4"
 
-RPM_NAME = "velocity-master-4-2.4.noarch.rpm"
-RPM_HASH = "ba6c9c92d1dba3f105d29147e4ed953e0f0896dd279ae52e251661dda9fbaa3f45a614d9de249f0167ac7f561205e10e0f47e8492250b00368a86b304a3855eb"
+RPM_NAME = "velocity-master-4-2.11.noarch.rpm"
+RPM_HASH = "c024a219778693237e6721dc5e5ed30497efd75be5a5f6acc8018ecac9e0b9f70c187608c4c3d38e0404db652c61f58dee84b22fc0d87ad6e2cb2de1a002462e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-master-pom- \

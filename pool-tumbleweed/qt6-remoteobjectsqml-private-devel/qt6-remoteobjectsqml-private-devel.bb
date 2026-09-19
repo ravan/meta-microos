@@ -1,14 +1,15 @@
 SUMMARY = "Non-ABI stable API for the Qt 6 RemoteObjectsQml library"
 DESCRIPTION = "This package provides private headers of libQt6RemoteObjectsQml that do not have \
 any ABI or API guarantees."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-remoteobjectsqml-private-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "ac3b91ca31895c1cd3ba62823b65e218f67608f20a5093d2f07ed5100ecfb1a79522068dba8f1d14a190af0d99f9540853b37c3b8f8cbcf73339efb4fc51d39e"
+RPM_NAME = "qt6-remoteobjectsqml-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "95ff47a309fcd8463c8773c953f3a2babc1c3d880d7099836e8ed7e68d735239d2acdb748bc68811cd481dcd7055e18d697b112a5fed20af6a094b0054e1e059"
 
-RPROVIDES:${PN} += "qt6-remoteobjectsqml-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6RemoteObjectsQmlPrivate \
+qt6-remoteobjectsqml-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6RemoteObjectsQml"
 

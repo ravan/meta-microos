@@ -3,10 +3,10 @@ DESCRIPTION = "The libexttextcat-tools package contains the createfp program tha
 you to easily create your own document fingerprints."
 LICENSE = "BSD-4-Clause"
 
-PV = "3.4.6"
+PV = "3.4.7"
 
-RPM_NAME = "libexttextcat-tools-3.4.6-1.3.aarch64.rpm"
-RPM_HASH = "69114d60aa561ea8af1afcfb6e9ad66282301b02af4ba88cd9cdecde479a7b3563102f81afb98b63caf63ad930ec5e4d623723dacf6068dd3260bf80c4057480"
+RPM_NAME = "libexttextcat-tools-3.4.7-2.9.aarch64.rpm"
+RPM_HASH = "189e21ded6d57bc9243b9046b0d77e6132e6a71ba9a99812f30d1077dd90232e1a5c78d505dd145beeb4da6f970ebafd394b8c2cee42121ce21e2051b460b455"
 
 RPROVIDES:${PN} += "libexttextcat-tools"
 

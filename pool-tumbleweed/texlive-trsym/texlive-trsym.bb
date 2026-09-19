@@ -5,10 +5,10 @@ and a package providing commands for the symbols' use in \
 mathematics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn18732"
+PV = "2026.226.1.0svn18732"
 
-RPM_NAME = "texlive-trsym-2023.209.1.0svn18732-53.1.noarch.rpm"
-RPM_HASH = "f6f8929a455ac522e9b07990c51e790cfb0a6e7ae72f4e32bd5bb4e11487c711f4037e2a9b1756b2559877f1ea1073adac952dc9a2f24f50abc070c1d5c4a5ec"
+RPM_NAME = "texlive-trsym-2026.226.1.0svn18732-59.2.noarch.rpm"
+RPM_HASH = "498917966f0bbf3259cc9862bc5c24cd36dc022180a2863df290989f9c72d237af8b5dc7b8cd0295691f3fea18d032113708916ef491cedce2f6b9abb1473746"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-trsy10.tfm \

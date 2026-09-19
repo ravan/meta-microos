@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.0.16"
 
-RPM_NAME = "gtkspell-doc-2.0.16-23.9.aarch64.rpm"
-RPM_HASH = "b79969b187d7dac76a6c41711ed53e5aa0ea7c87533dc583a3947b7d60e5f6814c2961d8a524787ecc0cee58d492447560e57a827f7347b3f2a2ee74fffe40bd"
+RPM_NAME = "gtkspell-doc-2.0.16-25.4.aarch64.rpm"
+RPM_HASH = "f0e1fad8710d1d4131608ab1c83423882e7d2cdb43b0cab2e75aaaa4c1e8c7b6ae433d3332d832d6c048cc3efbd7d9eafe93407cbefb33e84543a029699dc958"
 
 RPROVIDES:${PN} += "gtkspell-doc"
 

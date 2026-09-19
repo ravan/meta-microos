@@ -2,10 +2,10 @@ SUMMARY = "Configuration files for nginx to serve docserv directory"
 DESCRIPTION = "This package contains example configuration files for nginx to act as web server for docserv manpages."
 LICENSE = "Apache-2.0"
 
-PV = "20230308.4ed55cf"
+PV = "20260707.78c4c29"
 
-RPM_NAME = "docserv-config-nginx-20230308.4ed55cf-1.5.noarch.rpm"
-RPM_HASH = "bb176ce9fc1d205da5f0e8fe312a1ba716a99c6542c1fa33b9db0d826a154929cea933c9153d154cbc4f9d4fcf2a1f58c5b8fcee40b2341236a17fae7e4ecb1a"
+RPM_NAME = "docserv-config-nginx-20260707.78c4c29-1.2.noarch.rpm"
+RPM_HASH = "f510447e4e37f2502222b4b338bf056e94a5a4c2354c159b0e0e0b220438684f0ab4c4537105f36157531f6e74b65c13ff04ca5753593c220e37b939e37714c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "docserv-config-nginx"

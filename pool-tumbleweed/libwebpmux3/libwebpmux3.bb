@@ -4,10 +4,10 @@ from WebP files. This API currently supports XMP/EXIF metadata, ICC \
 profile and animation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.6.0"
 
-RPM_NAME = "libwebpmux3-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "c8d1ed71d99beab9bd9cf1c1ad2628541315af79e66675cf04e81a362400f936cd8f919242cce3ee08b13ee4a191b60e2a800e2cff3fc2139edea742769c1427"
+RPM_NAME = "libwebpmux3-1.6.0-2.3.aarch64.rpm"
+RPM_HASH = "f161703431fd52659a335d97443833b250e8976d2a659915737d3a9b84ec6e121d1772c6d01aecdda739c54b9b958eec569890733b4ed2b62535ef589769f749"
 
 RPROVIDES:${PN} += "libwebpmux.so.3 \
 libwebpmux3"

@@ -5,15 +5,15 @@ interactive Jupyter widgets. \
 This package provides the jupyterlab extension."
 LICENSE = "Apache-2.0"
 
-PV = "0.5.32"
+PV = "0.5.46"
 
-RPM_NAME = "jupyter-bqplot-jupyterlab-0.5.32-3.31.noarch.rpm"
-RPM_HASH = "afefd19604b6fa157869d07b3d381a5d662eec41a7e58d3524d541a7264fb44d1dfdb9e25e4f7087b955dc19d5c1d2cb21eaf3141c1cf99431db7b09a16119d9"
+RPM_NAME = "jupyter-bqplot-jupyterlab-0.5.46-15.1.noarch.rpm"
+RPM_HASH = "4caf1601434970a27f197cdea722a99c4b194b2d99cc06bbccabbe718b7a5d62fcb60151e3fbc869780ef53c29b055950084599fe72b66ecee68b61386e2acb4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-bqplot-jupyterlab"
 
-RDEPENDS:${PN} += "jupyter-bqplot-notebook \
-jupyter-jupyterlab"
+RDEPENDS:${PN} += "jupyter-jupyterlab \
+python3dist-bqplot"
 
 inherit rpm

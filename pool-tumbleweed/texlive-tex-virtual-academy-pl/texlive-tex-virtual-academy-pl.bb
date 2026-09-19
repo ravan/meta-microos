@@ -4,10 +4,10 @@ format about TeX and Co. It contains information for beginners, \
 LaTeX packages, descriptions, etc."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.209.svn34177"
+PV = "2026.227.svn67718"
 
-RPM_NAME = "texlive-tex-virtual-academy-pl-2023.209.svn34177-55.1.noarch.rpm"
-RPM_HASH = "69470a9e3f756af7bad61807bc87102c207095737b493e24c48dc95b46184e195f3b3c630f293ee55af9d5ac3ae1a4b22419fa5074f7f7d28378915ceb1cbcea"
+RPM_NAME = "texlive-tex-virtual-academy-pl-2026.227.svn67718-62.2.noarch.rpm"
+RPM_HASH = "4f6882f809079333425a9911a3e3d3d349685665ddaa37f4c7dabce808cb441f604d7a8e155847f849550d2f46c82feacf2c9765028a5e4da18fa87d66c99bca"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tex-virtual-academy-pl"

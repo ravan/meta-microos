@@ -6,10 +6,10 @@ on the flip (back) side. Flash cards come in many sizes \
 depending on the nature of the information they contain."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0.2svn62104"
+PV = "2026.226.1.0.2svn62104"
 
-RPM_NAME = "texlive-flashcards-2023.209.1.0.2svn62104-53.1.noarch.rpm"
-RPM_HASH = "40fe184276407bfe13237969a291535946726cbaffe94268f32eaab514400bd3d2abbcaadc69dfd0a1eb8e39c225a238595f24612da71d95b1906bc55ca4b918"
+RPM_NAME = "texlive-flashcards-2026.226.1.0.2svn62104-59.2.noarch.rpm"
+RPM_HASH = "e63507081cefacf3d3ec7f5d221df4abc46e7a7c569a0bb621b35db6ed7e78ff2fd43a2df387aac7a637303ae19e919f84632803e8c325496a209bfdafed4029"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-avery5371.cfg \

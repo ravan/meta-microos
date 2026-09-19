@@ -9,10 +9,10 @@ This package contains Link Grammar's utility, its shared library and \
 some data files."
 LICENSE = "LGPL-2.1-only"
 
-PV = "5.10.5"
+PV = "5.12.5"
 
-RPM_NAME = "link-grammar-5.10.5-1.6.aarch64.rpm"
-RPM_HASH = "47dd194a0e893240fbfbd40fd91d218844b4154ffef4689ca5427fc7b8fccbfd784c8ff6e1970904332cb093de9e63dde1a42dfccb695dc2ca2c2eb68802a778"
+RPM_NAME = "link-grammar-5.12.5-1.6.aarch64.rpm"
+RPM_HASH = "5bf623456e09807661144a828f431054a0e174e6d1f61345bdda10c32c96cae033c6d43212c3b15aa0a78bef7a05c50b6d7c57061bc1c33aa369237b217d4483"
 
 RPROVIDES:${PN} += "link-grammar"
 

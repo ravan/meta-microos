@@ -6,10 +6,10 @@ align environment of amsmath. The package requires the array \
 package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.3svn20641"
+PV = "2026.226.1.3svn77682"
 
-RPM_NAME = "texlive-eqnarray-2023.209.1.3svn20641-54.2.noarch.rpm"
-RPM_HASH = "912a2eb2fb571ffeaebe758478c31f845094a530b981e4d9a4017cdff7a7b748f1307c700d518b53bd323719c9dae4ac6363b3cba65fb87b2a784568987939c8"
+RPM_NAME = "texlive-eqnarray-2026.226.1.3svn77682-61.4.noarch.rpm"
+RPM_HASH = "8a52226a8c6182a0caef0650a23e00efd96de279d60ea11875219ade9f09a68c7d8fb65899cbb8d06dc65df62427d18b9fc157c5a4d62d89f773d0016c18e318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqnarray.sty \

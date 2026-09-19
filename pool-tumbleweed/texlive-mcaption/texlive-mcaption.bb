@@ -6,10 +6,10 @@ classes scrartcl, scrreprt and scrbook. The package requires \
 the changepage package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.3.0svn15878"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-mcaption-2023.208.3.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "d4e90e80696a706ece8437feb8e5860b799975aaeab961581c6fcb6da41eafdf0a9901fc27f5fde547b91e29cece8a10af99641cd709d19c93361e4db1cbcf54"
+RPM_NAME = "texlive-mcaption-2026.226.3.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "6177845c55b94b8c0b0b0a81b4715f48886ea484af8d42bb08be6849794c0f1d7c60431b13442627e501830b81ef2b853532721d94f60c820ccda8ab48158afc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mcaption.sty \

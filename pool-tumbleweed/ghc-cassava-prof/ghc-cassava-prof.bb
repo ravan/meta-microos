@@ -2,28 +2,27 @@ SUMMARY = "Haskell cassava profiling library"
 DESCRIPTION = "This package provides the Haskell cassava profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.3.0"
+PV = "0.5.4.1"
 
-RPM_NAME = "ghc-cassava-prof-0.5.3.0-5.1.aarch64.rpm"
-RPM_HASH = "5592412d4d9419301126a54ca08f0b75e6ee1b50894f5117afdd41daefa9c373afeeec2bb7f38b05a100009d4e32ad36ef9fcdcfc0301b18a0928c5832d7146f"
+RPM_NAME = "ghc-cassava-prof-0.5.4.1-1.11.aarch64.rpm"
+RPM_HASH = "3037b784669d5ede7dfa8738ac61374c025112f098f79bec35cb53f1117ef0acb5e2269f0d03c7748a5ba30980c49f80c1863e23a756fae1264bfec0c312a318"
 
 RPROVIDES:${PN} += "ghc-cassava-prof \
-ghc-prof-cassava-0.5.3.0-3BxMB2hl3TbBsSJkTsXVLP"
+ghc-prof-cassava-0.5.4.1-8IyxQgBHHLo5YfhT4Ar4sR"
 
 RDEPENDS:${PN} += "ghc-cassava-devel \
-ghc-prof-Only-0.1-qCrN026ulaL2ZFxnlcrV1 \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-prof-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-prof-text-2.0.2 \
-ghc-prof-text-short-0.1.5-1JafpcPTh6A5I5aikDr3ez \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-prof-Only-0.1-JTlBo1y3Iulx07n0z4y7 \
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-prof-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-text-short-0.1.6.1-K3gVAGEPLemvxyg6g1yq \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

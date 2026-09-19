@@ -3,10 +3,10 @@ DESCRIPTION = "cepces is an application for enrolling certificates through CEP a
 It currently only operates through certmonger."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.3.7"
+PV = "0.3.16"
 
-RPM_NAME = "cepces-0.3.7-1.4.noarch.rpm"
-RPM_HASH = "9ef162b597e9970b625f37b066fbc04ced17f59bb476da5a4cefb9e16de24d3da9d218d45e2767ed09c0b2d18c1594702b4d854fc4b004992f0c0a2b3ed9580a"
+RPM_NAME = "cepces-0.3.16-1.4.noarch.rpm"
+RPM_HASH = "e3fdab19ee872762d3b089a5ca582a3537adaa10c5481ee1e2a007b73ee8e2e18834dcd8e89e08e4f50a3eb871991b01ff92189540f9bcb03f4ffca3f8760af6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cepces \

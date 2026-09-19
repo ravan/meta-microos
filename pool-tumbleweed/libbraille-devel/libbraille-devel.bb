@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.19.0"
 
-RPM_NAME = "libbraille-devel-0.19.0-24.9.aarch64.rpm"
-RPM_HASH = "9339806ad828d86e6465cf2d1509a0c58b3de1a75a7e5c6262c7893a1c9a2cc2f074bd065e77a615b0133ac6ef726ad4bf87cb54b3579fa751d7d19f84254f6f"
+RPM_NAME = "libbraille-devel-0.19.0-26.8.aarch64.rpm"
+RPM_HASH = "5d0895218b309d23dc1e73dbfb6bea204f73662435b1da362d2a2151e37b8895766289814045bee89221f4bacfa405bd39d9a657fc1623bc8b20890d65b39d77"
 
 RPROVIDES:${PN} += "libbraille-devel"
 

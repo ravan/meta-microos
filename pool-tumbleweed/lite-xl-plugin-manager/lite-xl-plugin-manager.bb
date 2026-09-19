@@ -6,24 +6,26 @@ DESCRIPTION = "* A standalone binary that provides an easy way of installing, an
 * Also contains a plugin_manager.lua plugin to integrate the binary with lite \
   in the form of an easy-to-use GUI. \
 * By default in releases, lpm will automatically consume the manifest.json in \
-  the latest branch of this repository, which corresponds to the most recent versioned release. \
+  the latest branch of this repository, which corresponds to the most recent \
+  versioned release. \
 * Conforms to SCPS3."
-LICENSE = "MIT"
+LICENSE = "Apache-2.0 & BSD-3-Clause & MIT & Zlib & SUSE-GPL-2.0-with-linking-exception"
 
-PV = "1.0.10+git20230827.2452630"
+PV = "1.4.7+git20260506.ece8d63"
 
-RPM_NAME = "lite-xl-plugin-manager-1.0.10+git20230827.2452630-1.1.aarch64.rpm"
-RPM_HASH = "146254a860f87b70e44efa9d951b14325c506f6e4879ecd54c4f2eeb62bece7e8aaa9ebc7d5a093fd211f37ac8143de333e11c92c6b6c58f8085fdd23e135420"
+RPM_NAME = "lite-xl-plugin-manager-1.4.7+git20260506.ece8d63-1.3.aarch64.rpm"
+RPM_HASH = "e73fedca5713b0a418e6b43dcadce6698389b11963050a9e8488b72e2f4050e42985e5d4bfe6b50412a0fef587bb99482290c25f6ed97d103df87fcfd89f591b"
 
 RPROVIDES:${PN} += "lite-xl-plugin-manager"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libgit2.so.1.7 \
+libgit2.so.1.9 \
 liblua5.4.so.5 \
-libmbedcrypto.so.7 \
-libmbedtls.so.14 \
-libmbedx509.so.1 \
+liblzma.so.5 \
+libmbedcrypto.so.16 \
+libmbedtls.so.21 \
+libmbedx509.so.7 \
 libz.so.1 \
 libzip.so.5 \
 lite-xl"

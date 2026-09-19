@@ -3,10 +3,10 @@ DESCRIPTION = "Foreign function interface for liburing, offering non-C/C++ langu
 integration."
 LICENSE = "(GPL-2.0-only & LGPL-2.1-or-later) | MIT"
 
-PV = "2.4"
+PV = "2.15"
 
-RPM_NAME = "liburing-ffi2-2.4-1.1.aarch64.rpm"
-RPM_HASH = "e93f7cf440b6b5ad033696fa164b9223eb839a6ff95500025c905912544c8761f4f9cb098f7c6045f5a600efac66b8549d603e4fe8ec2f307150db06323a84ff"
+RPM_NAME = "liburing-ffi2-2.15-1.1.aarch64.rpm"
+RPM_HASH = "1f97d5581ff9d70d76e0c071c2fe9620cf51d24ead92e2122783d4c03930570465c595c4ac0090b0cf9b7e5e81446522a3aa0da0c82ae749445b3143b93675d7"
 
 RPROVIDES:${PN} += "liburing-ffi.so.2 \
 liburing-ffi2"

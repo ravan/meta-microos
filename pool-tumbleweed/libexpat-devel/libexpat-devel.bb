@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libexpat."
 LICENSE = "MIT"
 
-PV = "2.5.0"
+PV = "2.8.4"
 
-RPM_NAME = "libexpat-devel-2.5.0-2.4.aarch64.rpm"
-RPM_HASH = "d02fdc933a446d34f5f7f1c44b5afce8543ebbbd465d65e9113495f7b7b76e1a924a5a9c5d48df3c9d697d64c254cdc71a343746e0bfc75fec460c173b1ad187"
+RPM_NAME = "libexpat-devel-2.8.4-1.1.aarch64.rpm"
+RPM_HASH = "2ac065dcb807adc47a640c700bf3f263fb9704faae732f67e270a8cfa1f803c68631f88de60aa05ce59362f26f2b9c56eb30b3429a3f0b1d7eddb80d10c46966"
 
 RPROVIDES:${PN} += "libexpat-devel \
 pkgconfig-expat"

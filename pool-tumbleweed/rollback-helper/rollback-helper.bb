@@ -4,10 +4,10 @@ after a successfull filesystem rollback with snapper, resets \
 registered products on SCC or SMT."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0+git20181218.5394d6e"
+PV = "1.0+git20260114.38e2a69"
 
-RPM_NAME = "rollback-helper-1.0+git20181218.5394d6e-1.12.noarch.rpm"
-RPM_HASH = "4862be979ba4f26d198ec76e237e94044179fac86c27e278e3503e85e865cd075a6d2c484dfd8dac37eda012abf8975bd1ca3c32ff5aafafed2912b5669c1379"
+RPM_NAME = "rollback-helper-1.0+git20260114.38e2a69-1.3.noarch.rpm"
+RPM_HASH = "b459aff5d341f547d82dff01924fddc835af90ebee5e21148243ec99dc4aa12142814ffd94fd812b2b4d363eaf15a3df84f9a23ab616d744afe532ea0427ee76"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rollback-helper"

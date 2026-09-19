@@ -3,10 +3,11 @@ DESCRIPTION = "This package allows libdnf and all consumers to be able to reuse 
 repository configuration files set for Zypper."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.2"
+PV = "0.75.0"
 
-RPM_NAME = "libdnf-repo-config-zypp-0.70.2-1.1.aarch64.rpm"
-RPM_HASH = "a4a4c2fd4809d82304160a609ab2e4e829529363fb5320dcff229803fa3497aee2865fc86bce3be7fc38aec3ac6c86bc45c258a20efc663b3b76a379895ed114"
+RPM_NAME = "libdnf-repo-config-zypp-0.75.0-1.3.noarch.rpm"
+RPM_HASH = "9ee9d69c403c3f945062a71a3a07f4f0979e2c49c640ffaa8659aa69227127343959ec15cb6ded0af3fa2584b44752ba1bace74ff7c8c20eaf05b83d403f8dbc"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libdnf-repo-config-zypp \
 rpm-repos-openSUSE"

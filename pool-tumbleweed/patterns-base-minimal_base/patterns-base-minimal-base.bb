@@ -2,10 +2,10 @@ SUMMARY = "Minimal Appliance Base"
 DESCRIPTION = "This is the minimal runtime system. It is really a minimal system. It is intended as base for Appliances."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-minimal_base-20200505-42.1.aarch64.rpm"
-RPM_HASH = "5ea3548d726feda41dff5b59313069e26fbe23375aa4f49de3afcf57d08572b15bc38e6ca6cf04dee2b7791b07ec5794a34266f0979839776374efff6a9c67ea"
+RPM_NAME = "patterns-base-minimal_base-20241218-34.1.aarch64.rpm"
+RPM_HASH = "f92313280782e5bad624a2b0310c7a8305c26d6f3d89f3b3dd09cc5401ecf198418d8cc2e7cee111890919de74bd462aabe1245c9cba79db1a272dc502c77d96"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

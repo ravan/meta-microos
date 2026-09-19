@@ -3,10 +3,10 @@ DESCRIPTION = "mcpp is a small and portable C/C++ preprocessor implementing all 
 C90, C99 and C++98."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.7.2"
+PV = "2.7.2.2"
 
-RPM_NAME = "mcpp-2.7.2-24.15.aarch64.rpm"
-RPM_HASH = "6832a92f5de41b9fe3925e1f1f55cf24214ecaa83956bf62fa4b2433e2044db238051e4dbbbfafb273ebe6027ab049578fa87158167bfdf8c9317727218cae0c"
+RPM_NAME = "mcpp-2.7.2.2-1.4.aarch64.rpm"
+RPM_HASH = "159d81c7f3944c22ea345c1d9abd92831b6c8eb6b5d693eadb800cddc4a7a4ebe6ff95a1287328da68ff69673ec2de7f09861129482661f909299a1710d6de0d"
 
 RPROVIDES:${PN} += "mcpp"
 

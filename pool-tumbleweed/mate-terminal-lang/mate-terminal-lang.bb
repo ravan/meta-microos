@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-terminal"
 DESCRIPTION = "Provides translations for the 'mate-terminal' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-terminal-lang-1.26.1-1.1.noarch.rpm"
-RPM_HASH = "d1ac8e0da6a6336127c8a37021689b3a664527ce586ce4785ba19ae4be7223ab57a7d83549f5948b8df4cc96d68ac10b552d71f74f59856a113596785959bd55"
+RPM_NAME = "mate-terminal-lang-1.28.1-1.10.noarch.rpm"
+RPM_HASH = "ca1dad933e8b9f334344ec483dae10871e216f437eeb308a60b3a85a925b7160a7362d8fa6630993b5b76996ef179256d7523ee9edc60ea25bde5e752b3de31a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-terminal-af \
@@ -30,7 +30,6 @@ locale-mate-terminal-el \
 locale-mate-terminal-en-AU \
 locale-mate-terminal-en-CA \
 locale-mate-terminal-en-GB \
-locale-mate-terminal-en-US \
 locale-mate-terminal-eo \
 locale-mate-terminal-es \
 locale-mate-terminal-es-AR \

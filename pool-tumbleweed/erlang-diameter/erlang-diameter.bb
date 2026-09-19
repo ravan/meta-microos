@@ -4,10 +4,10 @@ node that sends and receives messages using the Diameter protocol as defined in 
 RFC 6733."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-diameter-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "7da16bb65c18b5c36a771cd3da3fbafa7083200cf075bd055d0a54038c5c473aeffc7902c07fbf88aeac600e03a9dbfa22461a262707810e04c98e387dafb6db"
+RPM_NAME = "erlang-diameter-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "0435a4b2c3d07b2a7202db9fb73bc99287633d726c97f344e11378645fc00b45939f7c5e542863a06a493cb323cec39dc143b59f87b7717fda7f48750e422f16"
 
 RPROVIDES:${PN} += "erlang-diameter"
 

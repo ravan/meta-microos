@@ -3,10 +3,10 @@ DESCRIPTION = "This package makes Jupyter widgets available in the classic Jupyt
 It provides the Jupyter configuration files."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "4.0.8"
+PV = "4.0.15"
 
-RPM_NAME = "jupyter-widgetsnbextension-4.0.8-2.1.noarch.rpm"
-RPM_HASH = "ad0f2158d36c975fe4cc2058899053a45500af09d260551bee1f769cadf0831545ac7c0131d5ee33dfab6207f6fb8ce767c632ab3b3c1711c854bfdcfa53d518"
+RPM_NAME = "jupyter-widgetsnbextension-4.0.15-1.3.noarch.rpm"
+RPM_HASH = "742e47fc9fecb8a67982c3fa0d8c56c72d618a4bfe1c7460a58b885ccf11e8558d0d11e43c08dd5a98e694c9a56a7fee05a198c589cd48b3755b1358333b1800"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyter-js-widgets \

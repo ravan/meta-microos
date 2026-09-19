@@ -14,10 +14,10 @@ designed to be easy to modify or extend with new functionality. \
 This package contains development headers and libraries for LAMMPS."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "20201029"
+PV = "20250722.03"
 
-RPM_NAME = "lammps-devel-20201029-5.2.aarch64.rpm"
-RPM_HASH = "f1659484cdc3e1edfd910b0b6eb5bbfb9683c8415b082f57a6e4cdb9279ff339941ea487a6b103caa6aeb780da5f8a2b6c5c27f529d554caf1bf2b7079ce8af1"
+RPM_NAME = "lammps-devel-20250722.03-1.6.aarch64.rpm"
+RPM_HASH = "e9e7f834213a98f85ad4b5463063a01ad1343d3f73dabcdabf056dded0646afab52abb340a04041214ba8e6db96e6b2d478bb7c93f72bfb6df35477e62257631"
 
 RPROVIDES:${PN} += "cmake-LAMMPS \
 lammps-devel \

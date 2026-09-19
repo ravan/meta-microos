@@ -7,8 +7,8 @@ LICENSE = "MIT"
 
 PV = "3.7.1"
 
-RPM_NAME = "nunit3-3.7.1-1.7.noarch.rpm"
-RPM_HASH = "504d973a2ea1beec52b5f0eadec946f17643cbc8c2b298c858d9b21ab93183ce68614b3ea849b1b6729cd6ecb61a520a1d6b516fcf4a7eff63e54ddb807328e8"
+RPM_NAME = "nunit3-3.7.1-1.14.noarch.rpm"
+RPM_HASH = "590f503fac1a368c431a8df1daab648f869315b4a36a416f51f0d38b0c62da3526d5f1ef05df7486d5bf969f66946e3a3e2e8b9199f25843af0f9ebc68cf3554"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-mock-assembly \

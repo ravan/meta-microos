@@ -8,10 +8,10 @@ however had several shortcomings that made it difficult to use with larger \
 projects or with teams with users new to Erlang."
 LICENSE = "Apache-2.0"
 
-PV = "3.18.0"
+PV = "3.23.0"
 
-RPM_NAME = "erlang-rebar3-3.18.0-1.2.aarch64.rpm"
-RPM_HASH = "2e2d43705634de17cf1e4a449fe1935edddcb74c466b6cda98d96b4ee1d9f43e4473763e73e810b27f7699b7ea2a3d859ff126d0a3b527469d2417448e6821e7"
+RPM_NAME = "erlang-rebar3-3.23.0-2.9.aarch64.rpm"
+RPM_HASH = "1df3479ab0b78716f9465d2f1acdc1046716f7c6909de4b514464ed42220156adb51fdaa865f031ea0e9a99ee5b0a41ca7334c27ffd60a217b5f3c7ce7d08e07"
 
 RPROVIDES:${PN} += "erlang-rebar3"
 

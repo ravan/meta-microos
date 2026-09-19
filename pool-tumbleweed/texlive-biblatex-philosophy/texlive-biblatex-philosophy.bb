@@ -10,10 +10,10 @@ language recognized by babel, possibly with some simple \
 redefinitions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.8gsvn64414"
+PV = "2026.226.1.9.8gsvn64414"
 
-RPM_NAME = "texlive-biblatex-philosophy-2023.209.1.9.8gsvn64414-54.1.noarch.rpm"
-RPM_HASH = "78143e59d158aa588470a9059758d6b432017dd37cc6d55aa90179a504cf50f2f699cb5402f20827cddfea08d7be4576f3a79c675c7162dd85bc8b9c0a7847bf"
+RPM_NAME = "texlive-biblatex-philosophy-2026.226.1.9.8gsvn64414-61.2.noarch.rpm"
+RPM_HASH = "95b5a344cfbeb33f84d53857f9cf7f19fab7b00abcd464ea5b84fae1a57b44f193c8a27ceccb6ead881f52b8147c9f52fcd3729ee9d4cd0f46dc62dc6e17322c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-english-philosophy.lbx \

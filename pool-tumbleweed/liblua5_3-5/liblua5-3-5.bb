@@ -13,8 +13,8 @@ LICENSE = "MIT"
 
 PV = "5.3.6"
 
-RPM_NAME = "liblua5_3-5-5.3.6-2.4.aarch64.rpm"
-RPM_HASH = "86dd51d8506d3f1c0f465c85763914d3a8c255efc2f483df5a419570cdbb43724e52856cbe86e4b5f63e946f0dbb3a9af80896595da98a9e79793a69315f1a20"
+RPM_NAME = "liblua5_3-5-5.3.6-4.7.aarch64.rpm"
+RPM_HASH = "96bf5625cd22cf1a0fb1af5b7453999d9fc82f3590c308f22c46e8a06ee88d04a40e6e6f6ca84d0d6032f6abd33a9bb19f7dae6a04ac3e9a131e285c82f52e4f"
 
 RPROVIDES:${PN} += "liblua.so.5.3 \
 liblua5-3 \

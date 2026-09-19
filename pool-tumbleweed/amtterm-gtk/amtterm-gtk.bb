@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.7"
 
-RPM_NAME = "amtterm-gtk-1.7-1.7.aarch64.rpm"
-RPM_HASH = "284f6abcf4b5f71da3fd4cb53fb75447e9c1ac7a9006fce6f2b7d1d2a54693cf6d77abe77e35870988b5b1cbf39d0dd0e6ce4e555780f1fabfeec559cb6269f3"
+RPM_NAME = "amtterm-gtk-1.7-2.4.aarch64.rpm"
+RPM_HASH = "ab8f18c31cb337a82748865bf3736c40fe40319308fa40f581ee13d3f3e8f3dbdcf1ea1f9c49ede0682d337c9877134617f34cb53f197817bf655e105153f1ee"
 
 RPROVIDES:${PN} += "amtterm-gtk"
 

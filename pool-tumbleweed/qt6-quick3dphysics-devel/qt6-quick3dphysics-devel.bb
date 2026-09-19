@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Quick3DPhysics library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Quick3DPhysics library."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quick3dphysics-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a9862814ca77fa8a48f42cc9a9acef6c415672ee3f20cced90e3b7a9a8d4773f5fcc637be1b0c152b3394eff14a2f24828491736863de6b80031282c520e7fda"
+RPM_NAME = "qt6-quick3dphysics-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "2f03d8efa780a9ce9230c53fa152a7632819705d43b69169b443fdb203186adfd7f20b583243b255e0d11e18a98cdef5bcee4c87b059b6e190615cca189646b4"
 
 RPROVIDES:${PN} += "cmake-Qt6Quick3DPhysics \
 pkgconfig-Qt6Quick3DPhysics \

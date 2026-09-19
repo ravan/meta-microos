@@ -5,10 +5,10 @@ development of TeX82; as a result, some of the descriptions of \
 limitations look rather quaint to modern eyes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.35svn15878"
+PV = "2026.226.0.0.35svn69742"
 
-RPM_NAME = "texlive-psizzl-2023.209.0.0.35svn15878-53.1.noarch.rpm"
-RPM_HASH = "c9759df46aa9204adbf5987d976f1e997e8aff84d9ec1d16bf298e40f99ac53ff591fd3bd89aa1f66eedf0138cc99fceb0f6ebb29ab14aeaf991d9ca531ad96f"
+RPM_NAME = "texlive-psizzl-2026.226.0.0.35svn69742-59.2.noarch.rpm"
+RPM_HASH = "57420f82c6b72e7b0e903a846d794da5a420b7e4304fa75f1fecd233172cfe03b8a15c8291d33d003b81f81e5dbacf51b9940279ca2283ec968d35c308a5611c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mypsizzl.tex \

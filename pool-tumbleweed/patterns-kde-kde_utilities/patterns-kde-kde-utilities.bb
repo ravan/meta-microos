@@ -2,10 +2,10 @@ SUMMARY = "KDE Utilities"
 DESCRIPTION = "KDE Applications - Utilities"
 LICENSE = "MIT"
 
-PV = "20230801"
+PV = "20260830"
 
-RPM_NAME = "patterns-kde-kde_utilities-20230801-1.1.noarch.rpm"
-RPM_HASH = "18f0579c6bfb225bfce73a28ad76f252bd5787817fa1252b227a9afcbffe9f891544510a1fa46333789d3544d9a60a6f4793b9347626661a1f68ff639c0c987e"
+RPM_NAME = "patterns-kde-kde_utilities-20260830-1.1.noarch.rpm"
+RPM_HASH = "1230ec99a116b4c00765265308d91e11588fb1656f33e1a1d1ed1c6a1c8bb6d7e82d4c7999a9c77b06b59af1bb1c4a9aca9c874f05f38187c342b7c72adcd4fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pattern- \

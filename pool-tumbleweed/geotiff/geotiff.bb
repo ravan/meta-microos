@@ -4,10 +4,10 @@ DESCRIPTION = "This library is designed to permit the extraction and parsing of 
 GeoTIFF keys in new files."
 LICENSE = "MIT & SUSE-Public-Domain"
 
-PV = "1.7.1"
+PV = "1.7.4"
 
-RPM_NAME = "geotiff-1.7.1-2.3.aarch64.rpm"
-RPM_HASH = "84e22502891e3484c520e75ce5417383a34b706b6596e30a15717c2841535a5612ffa29ba0cfb554f50bc5d9b93360630672f2e10a4878dbe218a9c042a3a092"
+RPM_NAME = "geotiff-1.7.4-1.7.aarch64.rpm"
+RPM_HASH = "8f8ea8a0671b15b1a5d652277c4bc57ad82d5d835c95a311daea599027a66a8154d77c86fe58e731ee7da7fb877176678e9bded9957671a011de3f9f753a91cd"
 
 RPROVIDES:${PN} += "geotiff"
 

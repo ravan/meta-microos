@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-scm"
 DESCRIPTION = "Javadoc for maven-scm."
 LICENSE = "Apache-2.0"
 
-PV = "1.12.0"
+PV = "2.2.1"
 
-RPM_NAME = "maven-scm-javadoc-1.12.0-4.1.noarch.rpm"
-RPM_HASH = "455abc9fbdc6f987c1542821dfd4dbd0002f5eb0b2d44d45eb04d77ee52284596b32c728a68fb8283b34408c4f91cef67644c6badb66bc13f3fd5bd8a7a37351"
+RPM_NAME = "maven-scm-javadoc-2.2.1-1.6.noarch.rpm"
+RPM_HASH = "968485f499f902c7c8568a1d9d053f8fc0b17001c46a796bc24e6d1af0f6c1c50a44421ded0e9084204305318aedd3570a82208a716fb63ead1e150a77c04ece"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-scm-javadoc"

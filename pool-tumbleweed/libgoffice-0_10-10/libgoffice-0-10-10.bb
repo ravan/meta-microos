@@ -6,10 +6,10 @@ conceptually simple, but complex to implement fully: plug-ins, load and \
 save documents, undo and redo."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "0.10.55"
+PV = "0.10.61"
 
-RPM_NAME = "libgoffice-0_10-10-0.10.55-1.4.aarch64.rpm"
-RPM_HASH = "2b7eb0ae36530f01d28820d118aa73ea288195acc7c4961d19b737ac9482af64a14c4373ad86ad23afc109b419e70267baa948bc2730a8dc888af4830e05abfe"
+RPM_NAME = "libgoffice-0_10-10-0.10.61-1.3.aarch64.rpm"
+RPM_HASH = "825b67ced140a26c61f218c8b6632f821c2dda70460706a27ff9710cb86afba1ea1cdfe69566680a14506376e459b81eb77b6cae27ea6eaa503db24783aa2628"
 
 RPROVIDES:${PN} += "goffice \
 libgoffice-0-10-10 \
@@ -34,7 +34,7 @@ libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 librsvg-2.so.2 \
 libspectre.so.1 \
-libxml2.so.2 \
+libxml2.so.16 \
 libxslt.so.1"
 
 inherit rpm

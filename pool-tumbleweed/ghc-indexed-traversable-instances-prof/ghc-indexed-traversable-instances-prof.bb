@@ -2,20 +2,20 @@ SUMMARY = "Haskell indexed-traversable-instances profiling library"
 DESCRIPTION = "This package provides the Haskell indexed-traversable-instances profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.1.1.2"
+PV = "0.1.2.1"
 
-RPM_NAME = "ghc-indexed-traversable-instances-prof-0.1.1.2-1.6.aarch64.rpm"
-RPM_HASH = "b38543f50011138ff271efaedfeeae507acdac9c03cb19619da231c3d56a5d489ce2176bae9406a4d14e61876d8416322b7151f9601d55d4f8acfd87d7b5d83a"
+RPM_NAME = "ghc-indexed-traversable-instances-prof-0.1.2.1-1.3.aarch64.rpm"
+RPM_HASH = "ca2d80653444c2ff0b571a41c966e1b0f52ee2087979c48b87eaf41e3002796685bc0c91117a23c59bf8440f1a5d564ccd1dfe5b9c10e47de6348524b5eff063"
 
 RPROVIDES:${PN} += "ghc-indexed-traversable-instances-prof \
-ghc-prof-indexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ"
+ghc-prof-indexed-traversable-instances-0.1.2.1-6YpZT8gBjiD9ssAaPGVbKH"
 
 RDEPENDS:${PN} += "ghc-indexed-traversable-instances-devel \
-ghc-prof-OneTuple-0.4.1.1-5m1ALA0bqJEAQoyOrWBAgI \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-prof-OneTuple-0.4.3-6DcV56rVPgKHcnOuxvKUVo \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
+ghc-prof-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

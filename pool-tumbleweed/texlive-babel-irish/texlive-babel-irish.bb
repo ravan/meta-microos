@@ -4,10 +4,10 @@ of Irish Gaelic in babel. The principal content is translations \
 to Irish of standard 'LaTeX names'. (No shortcuts are defined.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn30277"
+PV = "2026.226.1.0hsvn77682"
 
-RPM_NAME = "texlive-babel-irish-2023.209.1.0hsvn30277-54.1.noarch.rpm"
-RPM_HASH = "da644c00d242dd2608c1584231183cdc688e23547e443bbca0918b970225e675e65f5a87df418ae07571ce4832ab0c832f09e96dc63e78ff5f8ff7537c634c18"
+RPM_NAME = "texlive-babel-irish-2026.226.1.0hsvn77682-60.2.noarch.rpm"
+RPM_HASH = "52f22c633b4c9e3d448e64295c8f8218042d3c6a94750c6f58ee7041b1b8cf2434ed7ec6ec4e778ba92505b85a56407300a491720c53eabb2d0544377a2511ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-irish.ldf \

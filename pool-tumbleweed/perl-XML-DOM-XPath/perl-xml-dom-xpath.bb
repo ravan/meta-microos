@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.14"
 
-RPM_NAME = "perl-XML-DOM-XPath-0.14-7.18.noarch.rpm"
-RPM_HASH = "53bd3c394ea5709ce26fca750a2ebaf5dc3721cb09141fb08e738c7cd4ea28b2733cbb4a1d639969807dac7e2e44ec42559df6b6fd21f97a2bd230477cb16e22"
+RPM_NAME = "perl-XML-DOM-XPath-0.14-8.9.noarch.rpm"
+RPM_HASH = "640f4a3875d258a97e3d2066be21475a5b1e9ea9a2fe500c3794ddf2278759934d5eb2226c6ab141958fca27dd6c1c17ffea11d7d8718becec0551fac6f99601"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--DOM--Attr \

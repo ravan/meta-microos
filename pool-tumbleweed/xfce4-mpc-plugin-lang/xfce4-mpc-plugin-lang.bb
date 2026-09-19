@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-mpc-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-mpc-plugin' package."
 LICENSE = "ISC"
 
-PV = "0.5.3"
+PV = "0.6.0"
 
-RPM_NAME = "xfce4-mpc-plugin-lang-0.5.3-1.1.noarch.rpm"
-RPM_HASH = "7ae20d489acafba47541c85a78049253e66b70a80cec928ef28737cee4cbba7f1d902047950c93fa917061f905886d34f444352978bd0c43ae0497a3612fc595"
+RPM_NAME = "xfce4-mpc-plugin-lang-0.6.0-1.4.noarch.rpm"
+RPM_HASH = "430a7488cfa564e917aac217d0ac36bd0707b7e1ccf9fc34a4826d2237f558810b90750853262fd22f3e374bebd4b7d22b0fe9065929af80f60c56eaedac2052"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-mpc-plugin-ar \
@@ -42,6 +42,7 @@ locale-xfce4-mpc-plugin-oc \
 locale-xfce4-mpc-plugin-pl \
 locale-xfce4-mpc-plugin-pt \
 locale-xfce4-mpc-plugin-pt-BR \
+locale-xfce4-mpc-plugin-ro \
 locale-xfce4-mpc-plugin-ru \
 locale-xfce4-mpc-plugin-sk \
 locale-xfce4-mpc-plugin-sl \

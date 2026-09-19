@@ -2,10 +2,10 @@ SUMMARY = "Haskell http-conduit library documentation"
 DESCRIPTION = "This package provides the Haskell http-conduit library documentation."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.3.8.2"
+PV = "2.3.9.1"
 
-RPM_NAME = "ghc-http-conduit-doc-2.3.8.2-2.6.noarch.rpm"
-RPM_HASH = "d8ee256d9b8abe1595a2483cab125bba77ddd8728d1fedf0a6403660f553ffbc006d444eccc9c5ae90c2666037145aaa1d02380b969c1f561375398f6308cd16"
+RPM_NAME = "ghc-http-conduit-doc-2.3.9.1-2.5.noarch.rpm"
+RPM_HASH = "a0d8e610b106c2cc071adcb62bf4f1f198d554e18d97b95caddcc2509f9a4a83f7fc7b375a3b6d05098c7b0d6bf0f6aff6f9a3fd39cc19fb4c83d0b52fd48534"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-http-conduit-doc"

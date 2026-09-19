@@ -4,17 +4,17 @@ Chinese and Simplified Chinese, which supports phrase-level conversion \
 and regional idioms among Mainland China, Taiwan and Hong kong."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.6"
+PV = "1.2.0"
 
-RPM_NAME = "opencc-1.1.6-1.4.aarch64.rpm"
-RPM_HASH = "d0be345af2efc6a572bc9401c9e77b12109a2e74027ee83d7dcd794e14bc2bda4816c298e801855a33d9cfb79cbfa34dbf991617ed00d7bc8d6483b5a1ddd106"
+RPM_NAME = "opencc-1.2.0-1.8.aarch64.rpm"
+RPM_HASH = "b78a7b535586a91d1398632028cdd76c433798b51d8b2cfadfc15eb0ebf156ed5a445870a5b2e7b9c3a60002d020db36cf2b4965198434ae3048d758c09a1277"
 
 RPROVIDES:${PN} += "opencc"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libopencc.so.1.1 \
+libopencc.so.1.2 \
 libstdc++.so.6"
 
 inherit rpm

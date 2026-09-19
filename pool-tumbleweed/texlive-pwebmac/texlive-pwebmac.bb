@@ -20,10 +20,10 @@ change the first line in the TeX file created by weave. From \
 there, all depends on the 'TeX engine' you use."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.4.8.1svn63731"
+PV = "2026.226.5.1svn74648"
 
-RPM_NAME = "texlive-pwebmac-2023.209.4.8.1svn63731-54.2.noarch.rpm"
-RPM_HASH = "5a87eec618922811922e74f24c361a9c04081a851432624a1f2750be9e9e23935591e5128fdf8e643c413161131f587ce43efefe50bd1865a948f189a389b582"
+RPM_NAME = "texlive-pwebmac-2026.226.5.1svn74648-60.4.noarch.rpm"
+RPM_HASH = "566ad34e238dbf41a3af78d3e73ee29845f2ea93adfa0f5b5e02bc21d668b4ecddff148d9cca154887a54a35ce230c2bc369ee5b85c72ee7bd18affafb120691"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pwebmac.tex \

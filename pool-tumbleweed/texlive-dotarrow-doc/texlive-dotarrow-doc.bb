@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dotarrow"
 DESCRIPTION = "This package includes the documentation for texlive-dotarrow"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01asvn15878"
+PV = "2026.226.0.0.01asvn15878"
 
-RPM_NAME = "texlive-dotarrow-doc-2023.209.0.0.01asvn15878-53.1.noarch.rpm"
-RPM_HASH = "d5b155d4593eb16d017ad21ec5b9c741b9007a404b7c739fb13c07b0a0e9265c43637658d2de33a39c6984c6bf5d1d62f14a5989d9f317905e6dfefb3ca8d925"
+RPM_NAME = "texlive-dotarrow-doc-2026.226.0.0.01asvn15878-59.2.noarch.rpm"
+RPM_HASH = "2a311e294c85e1bd02f638fcd0c9e2f84b1c864094fa1e310bb903da21a99be7ec317b0b23ae64354103def13c8d458fef5ef27cf14be061f47b55b6b8341612"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dotarrow-doc"

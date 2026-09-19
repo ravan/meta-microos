@@ -5,10 +5,10 @@ the PGF system. It provides the capability to arrange multiple \
 for arranging pages to make booklets."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.20svn54770"
+PV = "2026.226.1.20svn54770"
 
-RPM_NAME = "texlive-pgfmorepages-2023.209.1.20svn54770-52.1.noarch.rpm"
-RPM_HASH = "31d1c99e13d09b94aceeb8492cfef300a629f408e781da665282e481c1125eec7b925c0039a14c26b7399dbe74e3800bad8a185ff4375ab54447fc12205bedb0"
+RPM_NAME = "texlive-pgfmorepages-2026.226.1.20svn54770-58.2.noarch.rpm"
+RPM_HASH = "0a82ba4173a59b84a0fb4876b38b9b644394f7201d32c9e108b8f346d19767a3ed47e93485c5dabc921a969cadecce26566965354d696c4fd705eeabb9b7fe05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pgfmorepages.sty \

@@ -9,10 +9,10 @@ write \\begin{enumerate} \\item 1 \\iitem 2 \\iiitem 3 \\ivtem 4 \
 \\iitem 2.1 \\item 1.1 \\iitem 2 \\end{enumerate}"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn29613"
+PV = "2026.226.1.0svn29613"
 
-RPM_NAME = "texlive-iitem-2023.209.1.0svn29613-54.1.noarch.rpm"
-RPM_HASH = "9cca18ec0bd1494c9edd0ae3f55353b26fe021d22a8ac09468b0b4821c02dcb9317f248b4634fa2ae4e82d8a7c9183033a381182743123f88ba0d50cfda7d048"
+RPM_NAME = "texlive-iitem-2026.226.1.0svn29613-60.2.noarch.rpm"
+RPM_HASH = "282dc17a11613888ada6b65ba9857a893dfea98fcb7a9969bb5b62f16b555193f621c2eaff0d7359d15ae4bf51620044aefebbc2c589f62124768edd09ca4a93"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iitem.sty \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "infinoted-0.7.2-4.7.aarch64.rpm"
-RPM_HASH = "67b3e4b79bb515b3c4f0a84af14290d69fa5bf6186173ff958b1fdf6e26b244e5580a8c52f16c120fb02710e8b1a2d2da3ee9d13557db1f10a7a6c8be562c05e"
+RPM_NAME = "infinoted-0.7.2-4.20.aarch64.rpm"
+RPM_HASH = "17ddfefc6202ca81ab82b62cd9acfa71a86ed6b744b84f909eb70913e06dc7ca35d6e12d883e2941b294c1272620e841cbc81a3ac0c52088260a47daa5bbce96"
 
 RPROVIDES:${PN} += "config-infinoted \
 infinoted \
@@ -36,6 +36,6 @@ libinfinity-0.7.so.0 \
 libinfinoted-plugin-manager-0.7.so.0 \
 libinftext-0.7.so.0 \
 libpam.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

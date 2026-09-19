@@ -4,14 +4,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.21"
 
-RPM_NAME = "perl-Growl-GNTP-0.21-1.24.noarch.rpm"
-RPM_HASH = "21d6d99bdd179f37a96e3599d6bf8baa4878505e7fcad3150bfb9fc961ec76ff7fc19281f49f2b2fb50b6990f77fd38f32d67c77b31f8705ee5e6f734b9be0e0"
+RPM_NAME = "perl-Growl-GNTP-0.21-1.38.noarch.rpm"
+RPM_HASH = "e6a49b8f537e7df8956364fb93b01ee9f863519dca766debe9a2e8ae789bc1638daae4b5fc4a9d5adfe6e85c17a4e0aeb90c0104af5ca9bec372ab4f3942ec60"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Growl--GNTP \
 perl-Growl-GNTP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Crypt--CBC \
 perl-Data--UUID \
 perl-Digest--SHA"

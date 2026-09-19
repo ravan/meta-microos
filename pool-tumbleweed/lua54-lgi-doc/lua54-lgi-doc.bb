@@ -6,8 +6,9 @@ LICENSE = "MIT"
 
 PV = "0.9.2"
 
-RPM_NAME = "lua54-lgi-doc-0.9.2-4.4.aarch64.rpm"
-RPM_HASH = "aae33d95783afc87deb5f31e3cf0387b9d01a7148789a587a68ff83f7396356b03f57adfa97b0f6b32a719116f785561e48baa06a10d33bb4e6241b6b3862f05"
+RPM_NAME = "lua54-lgi-doc-0.9.2-7.2.noarch.rpm"
+RPM_HASH = "6e770cf93ef21da43cd37f190c23831ba6ffb1d1656dcde7e31c47c99fc1a356fda092c958f1499518ae4f93fc07e03d7dd4236db27665788828efa5319f18b2"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua54-lgi-doc"
 

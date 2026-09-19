@@ -6,8 +6,8 @@ LICENSE = "CC-BY-SA-3.0 & CC-BY-SA-4.0 & GPL-3.0-or-later"
 
 PV = "22.04.17"
 
-RPM_NAME = "gtk4-metatheme-yaru-mate-22.04.17-1.4.noarch.rpm"
-RPM_HASH = "e576c42000e2757261f85256cedd0ade0431f7508228b83048c0cedc9f595ed3c5f6e1e495f7c65bb9be05ff2e7824c152782ee09851da2802fe2753f09ea027"
+RPM_NAME = "gtk4-metatheme-yaru-mate-22.04.17-1.12.noarch.rpm"
+RPM_HASH = "ff6324a53d86f8d227a14e91b12dbbebf6a66af761d2e3ca97b50acc3d4ec5d2f0beb98cd6547a3934c319d439c60a81cde8f928c12894958cfbefccf8660db9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk4-metatheme-yaru-mate"

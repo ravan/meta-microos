@@ -8,10 +8,10 @@ This package provides the headers and devel files for building apps with \
 healpix in the C language."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.81"
+PV = "3.83"
 
-RPM_NAME = "chealpix-devel-3.81-1.8.aarch64.rpm"
-RPM_HASH = "9059e4d285295a229511cfdb3a563271deb1760b4a8fb69bfdec5191d47e3f2c029b502c7fc52f2168215e9b081e61821e6511650caf83ee7e177a0ab8ac102d"
+RPM_NAME = "chealpix-devel-3.83-1.9.aarch64.rpm"
+RPM_HASH = "7842e03e36f8fc98652dbe975c4a2eab5472b0b101192d2a9a024cfc959399615ee9ca9537a19cb8aec379f87101a3ecb12307001dc6296d1087c5f581d8488b"
 
 RPROVIDES:${PN} += "chealpix-devel \
 pkgconfig-chealpix"

@@ -5,10 +5,10 @@ package takes a language name as an option; accepted language \
 options are american, british, german and polish."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-logical-markup-utils-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "c10131288a7d834433082ea1bd53a917235520dbbf2c6216fcb73129fa38fcb357ddb89abe43b415890a326c060ed994f6039548546184e6c7dc270570a1a88b"
+RPM_NAME = "texlive-logical-markup-utils-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "3a1ee992dcbcfa8b859eecd1e2d4dbe682f348f59744bb062d3e8a1892dae76d874b8c60c82177c2d2bd84dcce22f26efef4cb9807dcc96e47894c7e574c116b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-onedash.sty \

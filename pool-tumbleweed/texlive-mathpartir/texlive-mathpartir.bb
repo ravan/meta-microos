@@ -4,18 +4,18 @@ mixed horizontal and vertical mode, automatically as best fit. \
 It provides an environment mathpar that behaves much as a loose \
 centered paragraph where words are math formulas, and spaces \
 between them are larger and adjustable. It also provides a \
-macro \\inferrule for typeseting fractions where both the \
+macro \\inferrule for typesetting fractions where both the \
 numerator and denominator may be sequences of formulas that \
 will be also typeset in a similar way. It can typically be used \
-for typeseting sets of type inference rules or typing \
+for typesetting sets of type inference rules or typing \
 derivations. A macro inferrule for typesetting type inference \
 rules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.3.2svn39864"
+PV = "2026.226.1.3.2svn77682"
 
-RPM_NAME = "texlive-mathpartir-2023.208.1.3.2svn39864-53.1.noarch.rpm"
-RPM_HASH = "5b2151bcae3d25d0b3b4b830454a55d05e18a764c9dfc9d88edac517c25c19ae799d6b3c5cc212482a13686bd6558f9820bab0373f1c28cad78217cc91ce729e"
+RPM_NAME = "texlive-mathpartir-2026.226.1.3.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "866a4522a3bafe507c2468e9b245a021e9f18d8bec6630aedbcf0ef5778190a60ff7d963731569c2830b3147362b1e614f8eebfbdc1b466248da0ecf6df2443a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mathpartir.sty \

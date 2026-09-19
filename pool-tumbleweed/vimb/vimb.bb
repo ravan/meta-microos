@@ -3,21 +3,20 @@ DESCRIPTION = "vimb is a WebKit-based web browser that behaves like the vimperat
 plugin for Firefox, and has usage paradigms from the editor vim."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.6.0"
+PV = "4.0.0"
 
-RPM_NAME = "vimb-3.6.0-2.10.aarch64.rpm"
-RPM_HASH = "68c97192b73615237ae674a6f911c93bbaf3f8432219cfa1d9d2d0beb56e316a2d5229878c97184dd8dc3159de38ae1ad5967e8f29d12157dba0382b34ba1ccf"
+RPM_NAME = "vimb-4.0.0-1.1.aarch64.rpm"
+RPM_HASH = "55f819c445afc56b1a46f1f06e644a183ea1a648bd035f6bd655061d96bc0505dcf32b5d175f9cfd044d972a5afcfa10e823be1f0e87578eb75202babc49ae32"
 
 RPROVIDES:${PN} += "vimb"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libjavascriptcoregtk-4.0.so.18 \
-libsoup-2.4.so.1 \
-libwebkit2gtk-4.0.so.37"
+libgtk-4.so.1 \
+libjavascriptcoregtk-6.0.so.1 \
+libsoup-3.0.so.0 \
+libwebkitgtk-6.0.so.4"
 
 inherit rpm

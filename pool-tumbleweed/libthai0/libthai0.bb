@@ -5,10 +5,10 @@ important Thai-specific functions, such as word breaking, input and \
 output methods, and basic character and string support."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.1.29"
+PV = "0.1.30"
 
-RPM_NAME = "libthai0-0.1.29-1.7.aarch64.rpm"
-RPM_HASH = "1e03b74d2bc2e00395c1d3b1e943860e625e3974807dbc5da2aa64ba5ce321b1e5d5df3e0f8c3e66471ff333b9c9e7347d44d2af33d2791345676b86e9d3f19f"
+RPM_NAME = "libthai0-0.1.30-1.4.aarch64.rpm"
+RPM_HASH = "3750d0cfada49bafc27a02c9cbf5f18775637fd324d3004f9b0655bd37007aa431e2ea886baa3f97697d601d6bfd0e942cae969b3ec5f431292bffc41f309057"
 
 RPROVIDES:${PN} += "libthai \
 libthai.so.0 \

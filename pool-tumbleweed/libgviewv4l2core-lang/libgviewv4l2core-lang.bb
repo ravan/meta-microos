@@ -1,11 +1,11 @@
 SUMMARY = "Languages for libgviewv4l2core"
 DESCRIPTION = "Provides translations to libgviewv4l2core."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.8"
+PV = "2.2.2"
 
-RPM_NAME = "libgviewv4l2core-lang-2.0.8-1.7.noarch.rpm"
-RPM_HASH = "9cab90887fe88255dc9d69688bed83e58f8703dc4dad8895212f41f30abf35fb0342a18cfafda520ffe887b54490a329254cc2061455354c45b1fb0337aa280f"
+RPM_NAME = "libgviewv4l2core-lang-2.2.2-1.7.noarch.rpm"
+RPM_HASH = "2850ef3149d268c08f0d6555d101bf12fce3808f8c3ac4c7dca1261e349d65690141eb01bdac60ffeeaee9a4ff1dcca91473ebe7dee94fdcbf9bce91287b08b0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgviewv4l2core-lang \
@@ -36,6 +36,6 @@ locale-libgviewv4l2core-tr \
 locale-libgviewv4l2core-uk \
 locale-libgviewv4l2core-zh-TW"
 
-RDEPENDS:${PN} += "libgviewv4l2core-2-1-2"
+RDEPENDS:${PN} += "libgviewv4l2core-2-2-2"
 
 inherit rpm

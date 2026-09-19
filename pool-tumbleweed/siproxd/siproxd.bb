@@ -8,11 +8,13 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.3"
 
-RPM_NAME = "siproxd-0.8.3-3.12.aarch64.rpm"
-RPM_HASH = "a3378c5f804f800659ceb5dd632e820185e4eaf87323241614c99316fc75bf8d97906956bb587b330630c36d6cfba7e1f4069d253ef03d1c0330d11ae50ad62c"
+RPM_NAME = "siproxd-0.8.3-7.8.aarch64.rpm"
+RPM_HASH = "770e514432b4c0135aa4cc670031d2b8965c22aea3a702afc113a3e420de8ff2d6dd4be0376e8e3fe68a5f95331cf07269256d8044cdf0a0ff80926875780d4d"
 
 RPROVIDES:${PN} += "config-siproxd \
-siproxd"
+group-siproxd \
+siproxd \
+user-siproxd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \

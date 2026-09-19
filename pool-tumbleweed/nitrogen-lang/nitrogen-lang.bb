@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only & CC-BY-SA-3.0"
 
 PV = "1.6.1"
 
-RPM_NAME = "nitrogen-lang-1.6.1-1.23.noarch.rpm"
-RPM_HASH = "5dd207bb7f04a9a801779abc726a5b679fe6b5227efb7329d3210e8320e2f7bbb2c7db5dc220a5f92e594432296683b841e111925a11b80bf1af87bf3ca5a0fb"
+RPM_NAME = "nitrogen-lang-1.6.1-1.35.noarch.rpm"
+RPM_HASH = "d7678952bd6873c9bc6bc48a91ec02a39c007fb8dc3ebc0ab4a7c94272524adcc2f5348ab705fa3acb03d30b35755c2b38fb3465d32780ce80511960dddc7413"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-nitrogen-bs \

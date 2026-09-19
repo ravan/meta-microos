@@ -2,14 +2,16 @@ SUMMARY = "Translations for package Fragments"
 DESCRIPTION = "Provides translations for the 'Fragments' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.1.1"
+PV = "3.0.1+git339.902a2b5"
 
-RPM_NAME = "Fragments-lang-2.1.1-1.1.noarch.rpm"
-RPM_HASH = "d8c0005b7e195991c30d3a611f56f86551b73ab1330a47d182162f702d50d7fc2d813995c78801aca594ed9101b42a08881184e516e090c5b26240325e83241a"
+RPM_NAME = "Fragments-lang-3.0.1+git339.902a2b5-2.4.noarch.rpm"
+RPM_HASH = "bbfab77eac7bc96bb490ffef6471bd397363ce826004f5158af292cd2d313f3ac14a3c69671ad989c0e9f59a7c9831e8d46c0bf0ee912e8797c852dba9f198ed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "Fragments-lang \
 Fragments-lang-all \
+locale-Fragments-be \
+locale-Fragments-bg \
 locale-Fragments-ca \
 locale-Fragments-cs \
 locale-Fragments-da \
@@ -19,11 +21,13 @@ locale-Fragments-en-GB \
 locale-Fragments-eo \
 locale-Fragments-es \
 locale-Fragments-eu \
+locale-Fragments-fa \
 locale-Fragments-fi \
 locale-Fragments-fr \
 locale-Fragments-fur \
 locale-Fragments-gl \
 locale-Fragments-he \
+locale-Fragments-hi \
 locale-Fragments-hr \
 locale-Fragments-hu \
 locale-Fragments-id \

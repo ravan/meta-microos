@@ -17,10 +17,10 @@ The flavour can be selected using a command line option, or via \
 the script name: latexdef will use LaTeX as default, etc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.9svn64967"
+PV = "2026.227.1.10svn74067"
 
-RPM_NAME = "texlive-texdef-2023.209.1.9svn64967-55.1.noarch.rpm"
-RPM_HASH = "da67d521bce89c33028146221690ecf5362fa9c2d9c927d2da9969628bc49c93316aef3fc271721266f077ba88e4e4406bc96d04ee88207c4be1effe6a443add"
+RPM_NAME = "texlive-texdef-2026.227.1.10svn74067-62.2.noarch.rpm"
+RPM_HASH = "6b2d3af769f99d3fd3053400c7ba71d19db1d3cd3cd96abfb9be586c1962d82df5ce46720c83dac4362ac1a48a2e58cc65e20051ad686f369bddde092445f45b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texdef"

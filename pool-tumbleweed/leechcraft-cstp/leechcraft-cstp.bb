@@ -9,10 +9,10 @@ Features: \
  * Support for continuing interrupted downloads."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-cstp-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "8cd0c1eb9700427c4ccd79fed4b61b44b7c37831feb0ee77e063a86839b986ab29e2ef4478f87eec7a73aaadf2b69f480d6eb7b166d8edfca54fb2fc071d882a"
+RPM_NAME = "leechcraft-cstp-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "22d181127821f0e9f624917e50a5b3bd5ec1ed01d6280758ad975349ad9575461ce3ebec1c45c26fee2afffa946006c0474c7558db3ea01ba36ebc86b17264b5"
 
 RPROVIDES:${PN} += "leechcraft-cstp \
 leechcraft-http \
@@ -20,15 +20,15 @@ libleechcraft-cstp.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

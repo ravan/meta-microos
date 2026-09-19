@@ -4,10 +4,10 @@ when a program tries to access to a region of memory that is currently not \
 available."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.14"
+PV = "2.15"
 
-RPM_NAME = "libsigsegv-doc-2.14-2.10.aarch64.rpm"
-RPM_HASH = "0c09e1480272c4d0e31ba5131464e4b2ede7c467bb1ba749ee68cb9da7329c90ec7679ddbaebeaaf86a9662bd7e10c2faa22eedefc9ee6f492ca5dbb76f7c24b"
+RPM_NAME = "libsigsegv-doc-2.15-1.1.aarch64.rpm"
+RPM_HASH = "452beaca5cbfaacf88c634346d5acf8a1d8ff0d6887bb481a05d8de23a39b8aee32412d6e5cf0d78b3c8cbacbffa4f446f0f4d933bdd44702719cd48e103c09e"
 
 RPROVIDES:${PN} += "libsigsegv-doc"
 

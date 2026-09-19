@@ -3,10 +3,10 @@ DESCRIPTION = "This is a modification of the author's chicago style, to \
 support an 'annotation' field in bibliographies."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn52567"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-chicagoa-2023.209.svn52567-54.1.noarch.rpm"
-RPM_HASH = "c5b3975d84970b323a8ab1014c6f91fa137717baddb141b2a6c34e0baff681cef34da432f1ae891222fff92c60e24e51b69307e8958e4a40ae0eb939a8edcfde"
+RPM_NAME = "texlive-chicagoa-2026.226.svn76790-60.2.noarch.rpm"
+RPM_HASH = "55e639615296efb949479c0600baef80f1a346b9b8eee57330d256a6a9eadb2ff2cef6943ac70b27a22012a1fb7e891d2bc2134e6b17ce77da6640ff5ee0ea13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chicagoa"

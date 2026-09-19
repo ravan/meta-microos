@@ -1,12 +1,12 @@
 SUMMARY = "Redland storage module for PostgresSQL"
 DESCRIPTION = "This store provides storage using the PostgreSQL open source database \
 including contexts."
-LICENSE = "LGPL-2.1-or-later & Apache-2.0"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later"
 
 PV = "1.0.17"
 
-RPM_NAME = "redland-storage-postgresql-1.0.17-2.21.aarch64.rpm"
-RPM_HASH = "72d6d1bb2135a17bb8ae0f3d42405f0dde1ce8ab031291879a9c20ebcaaffc7b13aaf8b41a2810158d69c4388b253b75432fc3cf415017b038de68c98478e1b8"
+RPM_NAME = "redland-storage-postgresql-1.0.17-6.8.aarch64.rpm"
+RPM_HASH = "b1541b9b0ccc6a845afea327c0e4be6cc9cc18a13b554edcdb42fb1be0d9045535e47969374ba0888378c5841d4091355f791026b2a297e266ae56e22ea30efb"
 
 RPROVIDES:${PN} += "librdf-storage-postgresql.so \
 redland-storage-postgresql"

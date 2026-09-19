@@ -5,16 +5,16 @@ computing finite and finitely presented semigroups, namely. \
 This subpackage provides the development headers for it."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.1"
+PV = "3.6.1"
 
-RPM_NAME = "libsemigroups-devel-2.7.1-1.2.aarch64.rpm"
-RPM_HASH = "af62faac0af29f6d0acd8fd8b0a0cedd136f4174845c4e4692669e10a4408bab3b68340f849d91a98e28b5d7633fd3e848e096f3fdc50b597626c3bd9a47646c"
+RPM_NAME = "libsemigroups-devel-3.6.1-1.3.aarch64.rpm"
+RPM_HASH = "a9683d03bdcd6a50b72313f5d81cddf340397bdf496ba7a77bde778a79c03ff82af1cc6d3ab52718dba986063ac45b87d297db702af99eb2937aa4a88c09de45"
 
 RPROVIDES:${PN} += "libsemigroups-devel \
 pkgconfig-libsemigroups"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsemigroups2 \
+libsemigroups3 \
 pkgconfig-eigen3 \
 pkgconfig-fmt"
 

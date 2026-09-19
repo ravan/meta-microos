@@ -9,8 +9,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "1.00"
 
-RPM_NAME = "parallel-printer-support-1.00-14.14.noarch.rpm"
-RPM_HASH = "d18449b1d999d33529eaec8db1412d9185d693245ccd1a1fd6f3969efdb069a47e19c228ca7013ea925869320b09a48cf806fb64265b47cc38c9f86175d39955"
+RPM_NAME = "parallel-printer-support-1.00-15.6.noarch.rpm"
+RPM_HASH = "84820350e641f1d8035298ca91f2cffb3eb7fc6936c087b8b0332e15070cbd6bdec316e2f615bcb730ea426c55d044073cc715cb6e4fb75dde4d870b514d21f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "parallel-printer-support"

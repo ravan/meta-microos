@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libscca."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230716"
+PV = "20260527"
 
-RPM_NAME = "libscca-devel-20230716-2.1.aarch64.rpm"
-RPM_HASH = "13cad7da741198fbaea627107ceba96ac550fc3710bae34b25ede3f4b51a5b6a007ccbde20c6fabad3e4d22173214605aeb3d43667670527a9a8fb6daa4bad3d"
+RPM_NAME = "libscca-devel-20260527-1.11.aarch64.rpm"
+RPM_HASH = "074f1cfc67a69e27307d1da12c6c53468e28c5de8ae5d677b433fa9b0adbca5660ee071f46495e82c6eb477fdcc062436c9e67dcc747ffd7926c69acd182d080"
 
 RPROVIDES:${PN} += "libscca-devel \
 pkgconfig-libscca"

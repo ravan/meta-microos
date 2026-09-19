@@ -11,8 +11,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.29"
 
-RPM_NAME = "adjtimex-1.29-8.13.aarch64.rpm"
-RPM_HASH = "08d5acc4a8caddf297a0f947497b93ff5cb7fd7590df39b1c908a08761bea888842d03cb6dd06290aa2cebde91bc1ce40cef02a278f6e4a5403bbbb1010b9339"
+RPM_NAME = "adjtimex-1.29-9.6.aarch64.rpm"
+RPM_HASH = "b1c491d25255762b63cf998bcf31bbca0161d5506599a12382e694861710ca0e3bb2a32ca7e137ac135dffb93ddaff7a747d4926b6ebdad3f206ff083ffe73e8"
 
 RPROVIDES:${PN} += "adjtimex \
 util-linux-/usr/sbin/adjtimex"

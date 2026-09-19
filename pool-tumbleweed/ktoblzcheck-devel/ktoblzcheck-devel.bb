@@ -2,10 +2,10 @@ SUMMARY = "KtoBLZCheck development files"
 DESCRIPTION = "Libraries, includes etc to develop with ktoblzcheck library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.53"
+PV = "1.59"
 
-RPM_NAME = "ktoblzcheck-devel-1.53-1.5.aarch64.rpm"
-RPM_HASH = "de2f784b09db89e46cd6d151faab207aae97969cdea1ced317f12efd73be62b951b08a81dac609b00cef1578af9715b771f85534ba397d2554b0d0bdfb4d11a1"
+RPM_NAME = "ktoblzcheck-devel-1.59-1.5.aarch64.rpm"
+RPM_HASH = "de317fd13fe333264077714f744a93a0743c559efd4bf7e28573205e4c472a857c9925b5b50d5c0d7f7e44aeac4b979d99964ff35ed71ff9776a1b0adc69750f"
 
 RPROVIDES:${PN} += "cmake-KtoBlzCheck \
 ktoblzcheck-devel \

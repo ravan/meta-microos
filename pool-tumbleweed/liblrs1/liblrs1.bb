@@ -6,10 +6,10 @@ cddlib package. Computations are done in multiprecision \
 arithmetic."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "7.2"
+PV = "7.3a"
 
-RPM_NAME = "liblrs1-7.2-1.4.aarch64.rpm"
-RPM_HASH = "b7974591d87b436b2f6432f30abb0fd4760b123b81f48e36dd41a7c14dd84a4d8ea0a01970c21b0eb2e7dd8d08df86cd523d3ad963ca5758888b7cd83a43a096"
+RPM_NAME = "liblrs1-7.3a-1.4.aarch64.rpm"
+RPM_HASH = "1ecb4b97dd95e91cc9c068c99e9e863c9df975a5278bc522d291071e6b36f5aec957b36f9667fa04ef54113f2134aa6a4ae584f4014f0b75c8887704a1022473"
 
 RPROVIDES:${PN} += "liblrs.so.1 \
 liblrs1"

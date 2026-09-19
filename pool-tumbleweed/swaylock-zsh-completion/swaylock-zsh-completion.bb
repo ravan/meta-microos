@@ -2,10 +2,10 @@ SUMMARY = "Zsh completion for swaylock"
 DESCRIPTION = "Zsh command line completion support for swaylock."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.8.6"
 
-RPM_NAME = "swaylock-zsh-completion-1.7.2-1.1.noarch.rpm"
-RPM_HASH = "824ec5b29f580e7ee82226e0cced4dc67f39f28d4def108d22eecaa02298be6d3e6e983193b198366d3b9a1da4ca26ed52a109c21181db406f3594080388b4b2"
+RPM_NAME = "swaylock-zsh-completion-1.8.6-1.2.noarch.rpm"
+RPM_HASH = "7a558147bcb13bcdedd49ec4f3250a241567b3d665492be70de1a5dfcc87ab7d94314c0d7a06a0fe9d8c17fb4ef5ff3199c2e5997e089362bb0c87beb5cfd7f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaylock-zsh-completion"

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.16"
 
-RPM_NAME = "pidgin-plugin-guifications-2.16-10.27.aarch64.rpm"
-RPM_HASH = "1585970cc0270a5ce5b173c87b8d3dd4332cfc0147eb24f0b067bdfadfb60974cfd966f2a140d7b1a26c0837d6f3dd92c6da876c3121f4de8c637cce69628177"
+RPM_NAME = "pidgin-plugin-guifications-2.16-10.37.aarch64.rpm"
+RPM_HASH = "07dc9fded591f1725c6a0384690e87c23e8a5b0091d09bc8826f9c8f1e9821d55caabf0a187564c300c54467e06d68961cb9f16a1473f949cea7dfcfc33a5864"
 
 RPROVIDES:${PN} += "pidgin-guifications \
 pidgin-plugin-guifications"

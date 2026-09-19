@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-crossrefenum"
 DESCRIPTION = "This package includes the documentation for texlive-crossrefenum"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0.2svn66014"
+PV = "2026.226.1.2svn76004"
 
-RPM_NAME = "texlive-crossrefenum-doc-2023.209.1.0.2svn66014-55.1.noarch.rpm"
-RPM_HASH = "853c2bd3087979137871286a73ad66dcaa8506d3815056eb411e9c3daa8f81eb5cdddd71dc129e4b79fcef2fc62c075495949eefad35c8084246e0ea91e12638"
+RPM_NAME = "texlive-crossrefenum-doc-2026.226.1.2svn76004-61.2.noarch.rpm"
+RPM_HASH = "1fc89711cff21cbc70190cde22528e37c8c3213eea6523d0a92b49c11fb006ee51c1b082b3a55a09d057a4c16267671cfdeed378aa46efd3dc4307031d1c41bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-crossrefenum-doc"

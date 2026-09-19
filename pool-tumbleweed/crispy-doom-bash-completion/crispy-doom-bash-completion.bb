@@ -2,10 +2,10 @@ SUMMARY = "Crispy Doom command line completion support for bash"
 DESCRIPTION = "Additions for bash-completion to support crispy-doom."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0"
+PV = "7.1"
 
-RPM_NAME = "crispy-doom-bash-completion-6.0-1.1.noarch.rpm"
-RPM_HASH = "68472b6672eb32e8129634adf2f13021f49f74a8082a2ca0427306d12334870aef007cba817f095278132049691cec81854b57045a86295e6e2ca34b195ef161"
+RPM_NAME = "crispy-doom-bash-completion-7.1-1.6.noarch.rpm"
+RPM_HASH = "6c34e386205431e2f9bcb5901b26696cb0b391f6e81e7e50f999f43dc67a10d25a721c9198d509a57ee56e9c0e9c648bcd972c9d65e24fabe1b8943f4dfa8f3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "crispy-doom-bash-completion"

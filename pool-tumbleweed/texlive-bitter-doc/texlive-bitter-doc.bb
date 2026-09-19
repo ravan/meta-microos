@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bitter"
 DESCRIPTION = "This package includes the documentation for texlive-bitter"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64541"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-bitter-doc-2023.209.svn64541-53.1.noarch.rpm"
-RPM_HASH = "c074ba66a67f7613cfc039490c808a20ca387a91de817a4384aa1e79921a717286117f98863858e1b82494ad9bf0a81bd104046bf723148f36288c4f28690a68"
+RPM_NAME = "texlive-bitter-doc-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "1a96196dd011397a691718eb545662e05a61cc77369df296b9a0ffb1cafaada1965278a70b84b205d3437a001bf73bd893cd9983bf61bd3955c24de48bd7e130"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bitter-doc"

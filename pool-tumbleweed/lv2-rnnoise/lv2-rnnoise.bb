@@ -15,10 +15,10 @@ Other sample rates may work, or not... \
 This package holds the lv2 plugin."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.03+git1.226f03b"
+PV = "1.21"
 
-RPM_NAME = "lv2-rnnoise-1.03+git1.226f03b-1.5.aarch64.rpm"
-RPM_HASH = "472ff229b212bfd217f5a8badaa56a23cf1586712cf9c212ae29f26961aca736fa3c00ef4fc74cc8edbef9917f55bee085b75a1469217605dd764eaef932adfe"
+RPM_NAME = "lv2-rnnoise-1.21-1.3.aarch64.rpm"
+RPM_HASH = "4c842da5b4c779ee691b26a0f26746762b6a90483b171e792451c5664037c1456dc5737d92aefe37bff72b435d47fb1f24374760fdca51f793d459fa0a31f705"
 
 RPROVIDES:${PN} += "librnnoise-mono.so \
 librnnoise-stereo.so \

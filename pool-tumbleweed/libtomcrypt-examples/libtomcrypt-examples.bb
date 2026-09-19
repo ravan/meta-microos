@@ -9,8 +9,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.18.2"
 
-RPM_NAME = "libtomcrypt-examples-1.18.2-3.2.aarch64.rpm"
-RPM_HASH = "c0b9a7a4d42645d629a0dc566fa8abb23ceb17f1caf2b1623962577a648ec326be43dff9d722f536352a82844ea165b83ac49adcaf5e4f4083615e56498487c5"
+RPM_NAME = "libtomcrypt-examples-1.18.2-3.12.aarch64.rpm"
+RPM_HASH = "c41d52801377115bd5db7a75878b62c9c977a7a775f975957ad72792eaf5204c4c083c354620ef80c1c36681d064faf85f5d91738077bed4c3c314091a08704e"
 
 RPROVIDES:${PN} += "libtomcrypt-examples"
 

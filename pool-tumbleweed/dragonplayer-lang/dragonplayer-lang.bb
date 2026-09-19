@@ -2,15 +2,16 @@ SUMMARY = "Translations for package dragonplayer"
 DESCRIPTION = "Provides translations for the 'dragonplayer' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "dragonplayer-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b81cce87ad15783c9bca3fc4a5b8abc299391c6a1189e31f58aaf4c5b581ad776f37ae1071f726c7667c30e9df3ad4742e4481c92909d1f23f3d59e3501480ae"
+RPM_NAME = "dragonplayer-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "d71f31a992f6b71cbc4ee025f4b65d2bc2dde480b477a0f79f2e4424d8d26a5aa358fb15ddcc343d64bdf6b745fa9567fa4c092e6659f77d9b3682e4f73137bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dragonplayer-lang \
 dragonplayer-lang-all \
 locale-dragonplayer-ar \
+locale-dragonplayer-ast \
 locale-dragonplayer-be \
 locale-dragonplayer-bg \
 locale-dragonplayer-bs \
@@ -30,6 +31,7 @@ locale-dragonplayer-fr \
 locale-dragonplayer-ga \
 locale-dragonplayer-gl \
 locale-dragonplayer-he \
+locale-dragonplayer-hi \
 locale-dragonplayer-hr \
 locale-dragonplayer-hu \
 locale-dragonplayer-ia \

@@ -7,10 +7,10 @@ the underlying platform. However, Allegro is not a game engine: \
 developers are free to design and structure the program as desired."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_video5_2-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "8da4981c4740af401d0f97a0317c4c76ded0eed28e2f89af721f7174380b02837f0359011fe6b273de0ed380b575f29e72e03fadef6e6962b5b27139240ece00"
+RPM_NAME = "liballegro_video5_2-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "e8d2b34d3124294bacf3e49368f26d32331c1db66f7008d83d365ded0f9dc234318db49a4d9953ca19d61b5adaa68c978b741e643ef18f8117a626ccc72ac62b"
 
 RPROVIDES:${PN} += "liballegro-video.so.5.2 \
 liballegro-video5-2"
@@ -21,7 +21,7 @@ liballegro-audio.so.5.2 \
 liballegro.so.5.2 \
 libc.so.6 \
 libogg.so.0 \
-libtheoradec.so.1 \
+libtheoradec.so.2 \
 libvorbis.so.0"
 
 inherit rpm

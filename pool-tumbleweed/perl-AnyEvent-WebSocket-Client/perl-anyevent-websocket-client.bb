@@ -12,18 +12,25 @@ using this module. The older version of the API has since been deprecated \
 and removed."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.55"
+PV = "0.550.0"
 
-RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.55-1.3.noarch.rpm"
-RPM_HASH = "f8114ca5b2f9652a03ec1632137c4f7db2fce7fe5afab8e4ff4c85d7b1190dd1e7cf27c65b716d2b1520a48b651b66ce8fb72d69e9ef0b1fe18409d7e6aa8604"
+RPM_NAME = "perl-AnyEvent-WebSocket-Client-0.550.0-1.7.noarch.rpm"
+RPM_HASH = "78c6fb333f08e003d921ca4af09bd678b13a01d6ae0118067b28bda8162459fe0fd3f8c6c6d9774d6e81c1a52a4603381901af0520dc7caf8b3381078ce20fa3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--WebSocket--Client \
 perl-AnyEvent--WebSocket--Connection \
 perl-AnyEvent--WebSocket--Message \
-perl-AnyEvent-WebSocket-Client"
+perl-AnyEvent-WebSocket-Client \
+perl-Test2--Plugin--AnyEvent--Timeout \
+perl-Test2--Plugin--EV \
+perl-Test2--Require--NotWindows \
+perl-Test2--Require--SSL \
+perl-Test2--Tools--WebSocket--Connection \
+perl-Test2--Tools--WebSocket--Mojo \
+perl-Test2--Tools--WebSocket--Server"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-AnyEvent \
 perl-AnyEvent--Connector \
 perl-Moo \

@@ -3,14 +3,15 @@ DESCRIPTION = "This small package realizes a poor man approximation of the ISO \
 regulations for physical sciences and technology. Contrary to \
 other more elegant solutions, it does not load any math \
 alphabet, since pdfLaTeX can use only a maximum of such \
-alphabets. The necessary user macros are defined for typsetting \
-common math symbols that require special ISO treatment."
+alphabets. The necessary user macros are defined for \
+typesetting common math symbols that require special ISO \
+treatment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2.00svn60368"
+PV = "2026.226.1.2.00svn76924"
 
-RPM_NAME = "texlive-pm-isomath-2023.209.1.2.00svn60368-53.1.noarch.rpm"
-RPM_HASH = "cb3d096abe1dd458f808127ce779a35e79ec18b0a902d770a5614ea9586376703ceaeb45a02beb3eebb81158ca5029cf7163829783a6749697faebee99ea48ba"
+RPM_NAME = "texlive-pm-isomath-2026.226.1.2.00svn76924-59.2.noarch.rpm"
+RPM_HASH = "c0f2c99d3b6d37fd0c20d11be2083b46deda3fb8a5ef1d65139a9302943df09773dfa83e71b6756278f1dd170f1fc20f9a76ebf55d365ac93b4f5f29914b5687"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pm-isomath.sty \

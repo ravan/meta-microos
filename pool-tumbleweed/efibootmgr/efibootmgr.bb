@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "18"
 
-RPM_NAME = "efibootmgr-18-1.2.aarch64.rpm"
-RPM_HASH = "f2a7a5e292cc3edf03ac19c6b690fd8960de182f52eea2b4d0d72b41975055fffe79c51780f7c75851a86b7b9839a83a7b4da6e582b641c766061a18dbd66205"
+RPM_NAME = "efibootmgr-18-1.12.aarch64.rpm"
+RPM_HASH = "b5089210b05a569013cad72c3b079223aab97c7a63c66f1ec9afdf5413a8afb0caa24b7ccbeca83e7c098ef45754d7490b2adb5c86642ba643915d595a2abd62"
 
 RPROVIDES:${PN} += "efibootmgr"
 

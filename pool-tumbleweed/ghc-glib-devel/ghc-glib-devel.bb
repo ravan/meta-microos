@@ -2,21 +2,21 @@ SUMMARY = "Haskell glib library development files"
 DESCRIPTION = "This package provides the Haskell glib library development files."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.13.10.0"
+PV = "0.13.12.0"
 
-RPM_NAME = "ghc-glib-devel-0.13.10.0-1.6.aarch64.rpm"
-RPM_HASH = "86cf737570f586e7d80f281910fd2ad7d4fa052bb8de30436b69634c62c97938e292de246f6d61935c32c694c8c357cc033db1e94b050f1aef36030de40aae2c"
+RPM_NAME = "ghc-glib-devel-0.13.12.0-2.3.aarch64.rpm"
+RPM_HASH = "086511448614ebe2e58873ac0e945a0f7e35a83d0c9fede6a8f4de4fbb765fac1d83b8186bdefee3b88d205a761ad5f7f8bf62455ab2cc8b2f0abf497b7dec09"
 
-RPROVIDES:${PN} += "ghc-devel-glib-0.13.10.0-FwtjszetdFF6KErN1CKeSg \
+RPROVIDES:${PN} += "ghc-devel-glib-0.13.12.0-ARZovtA2xnqKsDZ2Db5KU2 \
 ghc-glib-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-text-2.0.2 \
-ghc-devel-utf8-string-1.0.2-26mnfHz4IgtDU2rLQciXDs \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-utf8-string-1.0.2-FCJm07Id8m53KWoTjjdHEG \
 ghc-glib \
 pkgconfig \
 pkgconfig-glib-2.0 \

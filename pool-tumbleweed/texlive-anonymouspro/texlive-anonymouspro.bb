@@ -4,10 +4,10 @@ appear as a set of four TrueType, or Adobe Type 1 font files, \
 and LaTeX support is also provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn51631"
+PV = "2026.226.2.2svn51631"
 
-RPM_NAME = "texlive-anonymouspro-2023.209.2.2svn51631-55.1.noarch.rpm"
-RPM_HASH = "780903a53217cbf61c046e0da20d576a0dd191c44a0d91fa0d3a1afcdb737d46a5802327799752591fa0c35dcbe2d0a1f0ab8bcd2f58afe2ba85cd4cbc156241"
+RPM_NAME = "texlive-anonymouspro-2026.226.2.2svn51631-61.2.noarch.rpm"
+RPM_HASH = "b8429c251d8145e86fdf1e6b8c185e3b95f4a76726e0ebbf8c366f989bf32a9ae247a9d9961bddbf7d25a7092de8b904cb1967dfba200bc6c5943c527baeda3b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-AnonymousPro-01.enc \

@@ -6,13 +6,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.3.4+git10.d4909c9"
 
-RPM_NAME = "pssh-2.3.4+git10.d4909c9-3.6.noarch.rpm"
-RPM_HASH = "9840752e87594979b2e2cbe9c70f0ff892d1dc8a32b90f4d6cbbfecb8d8a5a9363d45b16629359122900c4c89fbe61aaf1902b7dcf857243f6a2c680533d3bce"
+RPM_NAME = "pssh-2.3.4+git10.d4909c9-5.3.noarch.rpm"
+RPM_HASH = "2ec66532a8601aebcdd319b905c5904951defeea185dc3e0b9386e2098264956ffe5fed0e2283ab48b19fb716cbf8fb42b951c2d9383d8f59e18bb5c8054e16c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pssh"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-pssh"
 
 inherit rpm

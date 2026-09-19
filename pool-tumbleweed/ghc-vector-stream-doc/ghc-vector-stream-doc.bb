@@ -2,10 +2,10 @@ SUMMARY = "Haskell vector-stream library documentation"
 DESCRIPTION = "This package provides the Haskell vector-stream library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.1.0.0"
+PV = "0.1.0.1"
 
-RPM_NAME = "ghc-vector-stream-doc-0.1.0.0-3.1.noarch.rpm"
-RPM_HASH = "753bebf55e5afc8176589d6ac81394a29c1e02caaac441e4c1d8fd56373a7f2e11b8ca5005367651ed800f4213f034ffada8b7ba8e0042da2134cb532c9fdf1f"
+RPM_NAME = "ghc-vector-stream-doc-0.1.0.1-5.9.noarch.rpm"
+RPM_HASH = "369786bac9d6017fd497ec74a16572191674f7c9e85fac7918dea98638e1f48607adb4eca030d934a58886d10cee5f131d2ac3692e3163d62025e47120ca605a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vector-stream-doc"

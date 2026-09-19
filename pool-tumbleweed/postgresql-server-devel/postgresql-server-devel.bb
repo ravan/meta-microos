@@ -6,13 +6,13 @@ types and functions. \
  \
 This package contains the header files and libraries needed to compile \
 C extensions that link into the PostgreSQL server. For building client \
-applications, see the postgresql15-devel package."
+applications, see the postgresql18-devel package."
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-server-devel-15-2.12.noarch.rpm"
-RPM_HASH = "240b36a4cf6d1431e2ba12bcfb2323a8c8f6693a49e436688ed0176cd3a5d8636f522854dcba624848925cb6f0f6befb51a687a7390c29258c07cea27055b377"
+RPM_NAME = "postgresql-server-devel-18-3.4.noarch.rpm"
+RPM_HASH = "d71010a4dafe26d20241e2abcad50afde09f7760abd9c427087d565e7a2ba144751d1cda4d01633f8f12ad0cb12538951f6328fc9256e1d7d94e74025b0613a5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-server-devel \
@@ -46,6 +46,8 @@ rpm-macro-pg-server-requires \
 rpm-macro-pg-version-from-name \
 rpm-macro-postgresql-has-llvm"
 
-RDEPENDS:${PN} += "postgresql-server-devel-implementation"
+RDEPENDS:${PN} += "postgresql \
+postgresql-noarch \
+postgresql-server-devel-implementation"
 
 inherit rpm

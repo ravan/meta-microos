@@ -7,10 +7,10 @@ MultiWriter may be useful for QA testing, to create a GNOME Live image \
 or a code sprint or to create hundreds of LiveUSB drives for a trade show."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.35.90"
+PV = "3.35.90+26"
 
-RPM_NAME = "gnome-multi-writer-3.35.90-1.15.aarch64.rpm"
-RPM_HASH = "dcc4797d76a84437afd4f595e52778bb038e24c22e5988b12b72011d72003654abc0ec7c373ccbb5e9b89394a6575b8560858b9249d2b1de2557329fb16530ec"
+RPM_NAME = "gnome-multi-writer-3.35.90+26-3.4.aarch64.rpm"
+RPM_HASH = "80ef14708db604e465c463c58a8d3675e4d0d12001598d165c56122213fe46e567cb74878a5a27090fbe97b1c93cb75c13a624335b91ca024b27f66c4a6e3c5f"
 
 RPROVIDES:${PN} += "gnome-multi-writer"
 

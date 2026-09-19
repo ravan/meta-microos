@@ -2,10 +2,10 @@ SUMMARY = "Example Programs for libsndfile"
 DESCRIPTION = "This package includes the example programs for libsndfile."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.0"
+PV = "1.2.2"
 
-RPM_NAME = "libsndfile-progs-1.2.0-2.1.aarch64.rpm"
-RPM_HASH = "9a4070b93d977e590d4aeaa0142c563fe9d3a7690b2012e203c50ec958e1ac9d643a11ef78c9bf085ebcc5936ac864fe49a04c91db65d800567638065e8b318e"
+RPM_NAME = "libsndfile-progs-1.2.2-5.3.aarch64.rpm"
+RPM_HASH = "3f462f022cadadcca1fb220b132e1a1fb09b4a48fd1550a78da5e3f2c1b0cd01ff558deeeb617ac989475d52c72671645760bd5eb7e30cfc0dcb8e098b5e610e"
 
 RPROVIDES:${PN} += "libsndfile-progs"
 

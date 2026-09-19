@@ -3,23 +3,23 @@ DESCRIPTION = "This package provides the necessary plugin libraries for the \
 Dolphin filemanager to display overlay icons."
 LICENSE = "GPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.9.3"
+PV = "34.0.3"
 
-RPM_NAME = "nextcloud-desktop-dolphin-3.9.3-1.1.aarch64.rpm"
-RPM_HASH = "341343ff4b07a9b6e4f0cbadb2d4f9e0ef49b949ee5d7171e1a67c456e52a6512a142a02a509aff4290bdfc9e904f49671f16236f0160ea2c19452ac076a9891"
+RPM_NAME = "nextcloud-desktop-dolphin-34.0.3-1.1.aarch64.rpm"
+RPM_HASH = "ae83c787667c6b8529c7a5e81a879da513649d55b9daf29129fe36fa29b7f5e8198b512f422f976ef8ea6027be3b75eacb14a3befc5d2b27b2aa00b2a182990e"
 
 RPROVIDES:${PN} += "libnextclouddolphinpluginhelper.so \
 nextcloud-desktop-dolphin"
 
 RDEPENDS:${PN} += "dolphin \
 ld-linux-aarch64.so.1 \
-libKF5CoreAddons.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOWidgets.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libKF6CoreAddons.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOWidgets.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6 \
 nextcloud-desktop"

@@ -7,10 +7,10 @@ correctly. All font bundles now contain virtual Unicode \
 subfonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42428"
+PV = "2026.226.svn42428"
 
-RPM_NAME = "texlive-wadalab-2023.209.svn42428-54.1.noarch.rpm"
-RPM_HASH = "55d9fa57c71afc4f80fdca4e168460daf108b78ead391eabdb2f7fbb6d2b5740a46c9c2bf1ed6428eb08b2891c6ca12b621927f1ab0fd3520d783fd8188a14f4"
+RPM_NAME = "texlive-wadalab-2026.226.svn42428-60.2.noarch.rpm"
+RPM_HASH = "7313b53532f099327b71548ccae4fdb558c33024eddb318f1c5f474d41e56aa1a0a4eb71b940d3d56cf05a9febcc93e3328b310963f834845af7199fb98083e3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dgj.map \

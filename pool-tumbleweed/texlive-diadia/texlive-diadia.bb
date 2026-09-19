@@ -11,10 +11,10 @@ supports medication charts and info boxes. Supported languages: \
 English, German. Feel free to provide other translation files!"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn37656"
+PV = "2026.226.1.1svn37656"
 
-RPM_NAME = "texlive-diadia-2023.209.1.1svn37656-53.1.noarch.rpm"
-RPM_HASH = "5f2137c146c89366952966e3b6886a0f2952827c686379014a315e1a4804a535d1fdf46d7010e928c399c538b92ef996b394c249e1d5626d9d9fbb287d8aa624"
+RPM_NAME = "texlive-diadia-2026.226.1.1svn37656-59.2.noarch.rpm"
+RPM_HASH = "61678cb55feee96ccee52ba7e1fab92e18f2edf54dd40b53c021b078e07022e412953671edc8688a8d7ca4b40c351f23e6c55492f1aad95b2c3be438939276eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-diadia.cfg \

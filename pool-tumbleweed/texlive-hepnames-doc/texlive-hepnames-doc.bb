@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hepnames"
 DESCRIPTION = "This package includes the documentation for texlive-hepnames"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn35722"
+PV = "2026.226.2.0svn76924"
 
-RPM_NAME = "texlive-hepnames-doc-2023.209.2.0svn35722-54.2.noarch.rpm"
-RPM_HASH = "4dcf3192ebe629f558c275a6ae256f70f185912e10214495d2ce08d358eea336d5e495667e6386599812c2eec1b8facca987807277b7c507bdb8b64b3ccee108"
+RPM_NAME = "texlive-hepnames-doc-2026.226.2.0svn76924-60.4.noarch.rpm"
+RPM_HASH = "c3a770832db3146c593da680f2aff94944c5b09247589419e5cf2968c373a4975b277677a6f1c7898942885497b3e450e04725ca9f53ef72128b0bfadc90ec16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hepnames-doc"

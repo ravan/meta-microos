@@ -4,10 +4,10 @@ Some of them are used as functional tests of the framework, others serve as \
 examples of how to write tests on your own."
 LICENSE = "GPL-2.0-only"
 
-PV = "69.0"
+PV = "113.0"
 
-RPM_NAME = "avocado-examples-69.0-6.11.noarch.rpm"
-RPM_HASH = "914ebfbdd1f14e4ee8335d774bee6afb3da10ca60eff190cda5978a6534e848f0d3d55cdc2713c094374bf29a61f3cdf2f67846619685dd19641b4e15f84ac7c"
+RPM_NAME = "avocado-examples-113.0-1.2.noarch.rpm"
+RPM_HASH = "689994635570c381a5cf6f14a3c3d90db9af42aced5df54feb1936ef4b203377781f878f73f853ee23eb5e16c51e41afd42ac9d3afe14fc985267d84d595362e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avocado-examples"

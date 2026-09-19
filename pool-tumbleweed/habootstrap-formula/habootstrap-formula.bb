@@ -10,13 +10,14 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.3+git.1625210910.7b0645d"
 
-RPM_NAME = "habootstrap-formula-0.4.3+git.1625210910.7b0645d-1.6.noarch.rpm"
-RPM_HASH = "60a562c439d2fcaa0d2ebe35ab2500ae5920e98bc5e815ce8b6bd34f89e759080665b01cbf357865013c1efd385b91984df54d561419246c9c23e83b53d4abce"
+RPM_NAME = "habootstrap-formula-0.4.3+git.1625210910.7b0645d-1.16.noarch.rpm"
+RPM_HASH = "31a2224d1cc697c64a373dc89de5f82c09896a98c10ea827a96bab9a5ae2df02707f4f427eccd6bc25129a3e9381fa6df6d91294bed5183020918ddf066ea7ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "habootstrap-formula"
 
-RDEPENDS:${PN} += "salt-formulas-configuration \
+RDEPENDS:${PN} += "group-salt \
+salt-formulas-configuration \
 salt-shaptools"
 
 inherit rpm

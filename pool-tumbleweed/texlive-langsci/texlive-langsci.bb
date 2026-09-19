@@ -1,16 +1,16 @@
 SUMMARY = "Typeset books for publication with Language Science Press"
 DESCRIPTION = "This package allows you to typeset monographs and edited \
 volumes for publication with Language Science Press \
-(http://www.langsci-press.org). It includes all necessary files \
-for title pages, frontmatter, main content, list of references \
-and indexes. Dust jackets for BoD and Createspace \
+(https://www.langsci-press.org). It includes all necessary \
+files for title pages, frontmatter, main content, list of \
+references and indexes. Dust jackets for BoD and Createspace \
 (print-on-demand service providers) can also be produced."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65793"
+PV = "2026.226.svn73027"
 
-RPM_NAME = "texlive-langsci-2023.209.svn65793-56.1.noarch.rpm"
-RPM_HASH = "dbf5091abc9f850da3eca8725472e665c3a989abbf10dd658afcc546b6fb3a4e6889f14c8a8154c42e7dd25e3d8a98f28ab7437b3c2ca3f096c44b48d7ed7308"
+RPM_NAME = "texlive-langsci-2026.226.svn73027-63.2.noarch.rpm"
+RPM_HASH = "fd2b3bea48da89fcf4ca987a3eda345d61c21c67e753b5133a2232bcbaea7c700b69f441fb9f32f3a3fc9ff8a7c6cf11993a5334144b26b4e3e37795e166b089"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-langsci-affiliations.sty \
@@ -18,6 +18,7 @@ tex-langsci-bidi.sty \
 tex-langsci-gb4e.sty \
 tex-langsci-lgr.sty \
 tex-langsci-optional.sty \
+tex-langsci-plot-templates.sty \
 tex-langsci-series.def \
 tex-langsci-subparts.sty \
 tex-langsci-tbls.sty \
@@ -46,7 +47,6 @@ tex-caption.sty \
 tex-chngcntr.sty \
 tex-colortbl.sty \
 tex-datetime.sty \
-tex-epigraph.sty \
 tex-etoolbox.sty \
 tex-fancyvrb.sty \
 tex-floatrow.sty \
@@ -58,7 +58,6 @@ tex-kvoptions.sty \
 tex-lineno.sty \
 tex-mdframed.sty \
 tex-microtype.sty \
-tex-newtxmath.sty \
 tex-pbox.sty \
 tex-pifont.sty \
 tex-pst-barcode.sty \
@@ -79,7 +78,6 @@ tex-url.sty \
 tex-xcolor.sty \
 tex-xeCJK.sty \
 tex-xparse.sty \
-tex-xpatch.sty \
 tex-xspace.sty \
 tex-xstring.sty \
 texlive \

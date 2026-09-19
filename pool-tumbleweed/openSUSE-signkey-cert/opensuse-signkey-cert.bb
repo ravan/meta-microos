@@ -5,10 +5,10 @@ to help user to enroll certificate to MOK. Then kernel module in openSUSE \
 KMP can be verified by kernel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "20220613"
+PV = "20230303"
 
-RPM_NAME = "openSUSE-signkey-cert-20220613-2.6.aarch64.rpm"
-RPM_HASH = "f1c6564463b81900723eb4d1c389bd90e6ddbc1db25cd19c708ae94a5a0a76149e6fd4cce1c81a45f80c9dabe785150fab5455b25907d5994aa1b417a1df35f8"
+RPM_NAME = "openSUSE-signkey-cert-20230303-3.2.aarch64.rpm"
+RPM_HASH = "b5864505839df65e378980786da694aa259ec726bbcd14fdc2fc421942855f2bdfeb084a21ab38cf0730709607daaeee5de5713eae62bdd0a2685486a1217ad6"
 
 RPROVIDES:${PN} += "openSUSE-signkey-cert"
 

@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for Marvell WiFi fullmac drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Marvell WiFi fullmac drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Marvell WiFi fullmac drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-mwifiex-20230829-1.1.noarch.rpm"
-RPM_HASH = "368a21f1054d5f8e69d21d294e01c44c8c420c712b56833ec20e552b4bc1940b4811f0f0a5e05bdce3ca401392c35d688cf056a78651b9debbff290807189509"
+RPM_NAME = "kernel-firmware-mwifiex-20260610-1.2.noarch.rpm"
+RPM_HASH = "6f8d234c0b0c8a3eb28af7c3d37717168b531aa952e008b866d06163a075be387c4f53f42043f75166879f265aa24c7ad0be152415fb215bc2db7e88b788acfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-mrvl/pcie8897-uapsta.bin \

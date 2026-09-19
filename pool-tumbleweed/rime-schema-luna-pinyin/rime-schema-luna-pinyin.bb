@@ -1,11 +1,11 @@
-SUMMARY = "luna-pinyin input schema for rime"
+SUMMARY = "Luna-pinyin input schema for rime"
 DESCRIPTION = "luna-pinyin input schema for rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-luna-pinyin-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "616aeda78ccbe048da642ea8e974e2e846ee9881a2a51557373f523f614edbb80e2510ee2dd4919fc47d888d5c82ee7bded804f37a19ab0282ac2f1912b71bb2"
+RPM_NAME = "rime-schema-luna-pinyin-20250315-1.4.noarch.rpm"
+RPM_HASH = "f569bdeb726318ac1abbf33591ef369fdf41bf234498c8a5463115dc197b09a004d6aae17f0fb98c8c1e8797e297a10e998213d79a9dc1b7c879a825195ac5df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-luna-pinyin"

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.7.0"
 
-RPM_NAME = "multiverse-0.7.0-3.11.noarch.rpm"
-RPM_HASH = "dc3806b7a210028336a363006b04961e3addca6cdcde4ced151aa0142ab49a3d284e999cbaaf1abe77335c21c15ae71f34f84c96d7e5cae0b2a5f01ce74ece53"
+RPM_NAME = "multiverse-0.7.0-3.21.noarch.rpm"
+RPM_HASH = "5ab07678c4e1216ef5622c1677356f660029bef1b102cdc276d0fab4eee06a6228d85184aa4b91b5be5fc58a1ba584f93ac5439b72a01a8a2814c3ee6e512ff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "multiverse \

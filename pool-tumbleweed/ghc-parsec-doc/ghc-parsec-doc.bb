@@ -2,10 +2,10 @@ SUMMARY = "Haskell parsec library documentation"
 DESCRIPTION = "This package provides the Haskell parsec library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.16.1"
+PV = "3.1.18.0"
 
-RPM_NAME = "ghc-parsec-doc-3.1.16.1-1.1.noarch.rpm"
-RPM_HASH = "e4b5254f11ebffb32add661c7b42b6b9404c9742ffb643939d962d4efa166a09ea02ecd9dca467c37dabeeb66acb0805480aeb48dc32ba57d4d05a80d1dc8d16"
+RPM_NAME = "ghc-parsec-doc-3.1.18.0-1.3.noarch.rpm"
+RPM_HASH = "94be101046bf1d396fee921a91b0701e0d853b588f701d5e03b1d2ae1e0acd6bcdffb777be4e04a99b14cf9da5f1689af60950ee7fee6a0b506a63c544f54b16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-parsec-doc"

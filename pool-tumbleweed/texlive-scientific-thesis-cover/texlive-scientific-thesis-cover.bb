@@ -3,10 +3,10 @@ DESCRIPTION = "Institutions require a cover page and an affirmation at the end \
 of a thesis. This package provides both."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0.2svn47923"
+PV = "2026.226.4.0.2svn47923"
 
-RPM_NAME = "texlive-scientific-thesis-cover-2023.209.4.0.2svn47923-54.1.noarch.rpm"
-RPM_HASH = "d802109786d98b4f3383fbb8653735b561fd62867f0c31e0dbc65ccccd1b603adc0273470fbfba1d796f57fa7cc721c923ef324604fcd0e28182278c380fcd7d"
+RPM_NAME = "texlive-scientific-thesis-cover-2026.226.4.0.2svn47923-60.2.noarch.rpm"
+RPM_HASH = "e856f6bb57ebfb7212c785949e9142249d41daf18b0e055bf5184f66fe8188a997ea9c0e034dd4312484060d290cac8dcd69129a72dddb81260bd44c11f620df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-scientific-thesis-cover.sty \

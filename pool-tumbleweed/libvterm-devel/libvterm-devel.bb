@@ -2,10 +2,10 @@ SUMMARY = "Development files of libvterm"
 DESCRIPTION = "This package contains the development files of libvterm."
 LICENSE = "MIT"
 
-PV = "0.3.2"
+PV = "0.3.3"
 
-RPM_NAME = "libvterm-devel-0.3.2-1.1.aarch64.rpm"
-RPM_HASH = "8d32c7a52fa133ff80ce7af46264ef1403e8f5a160aaf7d73abda8d4f4084bdaa6ef9a035b5b52166337bf3bb02bef7b97179277ea9f4d9bb461d6e9b3c41954"
+RPM_NAME = "libvterm-devel-0.3.3-1.11.aarch64.rpm"
+RPM_HASH = "4c2eae94b6f04dccde6839b4744d7aea263236020e1b03814532d5c299b3f0821f69d348cc5360fd642ca4479e5f9fad42493b2482992dc15af3dfeab2e83b74"
 
 RPROVIDES:${PN} += "libvterm-devel \
 pkgconfig-vterm"

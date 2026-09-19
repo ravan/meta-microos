@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.9"
 
-RPM_NAME = "kubic-pause-0.9-1.19.aarch64.rpm"
-RPM_HASH = "c16402acfbaafe75fd37202f5b59c6f37ac2b53b05ead578ba90d0eb149f7020baf7a90e92964bb0350f0876e6e821504e03ebc409b2c8aaad59d904f303e00f"
+RPM_NAME = "kubic-pause-0.9-1.30.aarch64.rpm"
+RPM_HASH = "c671afcaa64d3388e85d7850bce22ac875db8066725a6ac1d4f50796cc50aaa8699d60a37b6d0cf1f7667847057f016890b0305ba6e59c4a96748c74ca95fa67"
 
 RPROVIDES:${PN} += "kubic-pause"
 

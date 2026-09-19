@@ -2,10 +2,10 @@ SUMMARY = "Obsolete system groups"
 DESCRIPTION = "This package provides some obsolete system groups."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-group-obsolete-20170617-24.16.noarch.rpm"
-RPM_HASH = "05b441f8aebdf5b97ad74dc60abc67e3d2ee611579cde1f40f9ec95bbd49d0a76164bb66e415e419b6d7aee2d9e8299bfb47938500f16e9ab09bfeddaa5c95a9"
+RPM_NAME = "system-group-obsolete-20250822-2.3.noarch.rpm"
+RPM_HASH = "524917efaf89cc36b95879aa9acb1f2d5dd90e3d26eb34ff3353861dcb31f82122d8c0f8f89cfb7eb91e384f6e4e0bfc28fa225d636f5a4a0920f063a2ae95b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-console \

@@ -5,10 +5,10 @@ simplest case, with sufficient privileges, a run without \
 arguments should result in a complete setup of Ghostscript."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.20210625.0svn59705"
+PV = "2026.226.20210625.0svn59705"
 
-RPM_NAME = "texlive-cjk-gs-integrate-2023.209.20210625.0svn59705-54.1.noarch.rpm"
-RPM_HASH = "8e653bb055ed63a5d72457c8b72cf6af01f038c8b470cf87b786c5f1baaa28ff627e1fdec0e30f53d9714c59362b7686bc01bd05fc687420aa86c36bc96725cb"
+RPM_NAME = "texlive-cjk-gs-integrate-2026.226.20210625.0svn59705-60.2.noarch.rpm"
+RPM_HASH = "7be2af248451423e9297bc27ca9fe531eae957f45eac5ec74a08d900dbdf40cd7b6e9cadc55b5a54df93bac07673bd9adc1d7fbb67e1d2bf6b6211224bdb5b10"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cjkgs-adobe.dat \

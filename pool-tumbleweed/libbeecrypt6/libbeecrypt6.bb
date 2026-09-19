@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "4.1.2"
 
-RPM_NAME = "libbeecrypt6-4.1.2-28.12.aarch64.rpm"
-RPM_HASH = "7c98a8c4799967d9e41afa845f833afb241d1d017c461bb9a7e824c33264419a43adae7105b1cd930b1b0b654e5fc4a4291061ec655bc3433bd5a5ef33dbdd65"
+RPM_NAME = "libbeecrypt6-4.1.2-29.8.aarch64.rpm"
+RPM_HASH = "334d96357964a9aefe61435680fa83b9f7b0683cc9a660e1c2cad041a0fdc495af1504c92156a9d571f8973a5b1d35897a7ffd3c3f6f7378cb9816a02666a70f"
 
 RPROVIDES:${PN} += "libbeecrypt.so.6 \
 libbeecrypt6"

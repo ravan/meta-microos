@@ -1,11 +1,11 @@
 SUMMARY = "A personal dirty package for documenting packages"
-DESCRIPTION = "A personal dirty package for documenting packages."
+DESCRIPTION = "A personal dirty package for documenting classes and packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9.4svn66137"
+PV = "2026.226.0.0.9.6svn77982"
 
-RPM_NAME = "texlive-denisbdoc-2023.209.0.0.9.4svn66137-53.1.noarch.rpm"
-RPM_HASH = "f1ea21579bf86f6012616071a1ae718dc09eabd3c15de7dedf865ea26ca86b7bf3aa690cdecf1a2d4a3297adc2ea94861df5329678b3c63807b725bbef2273e4"
+RPM_NAME = "texlive-denisbdoc-2026.226.0.0.9.6svn77982-59.2.noarch.rpm"
+RPM_HASH = "96c582f3be7d715bc3f8c3e23c5167b80ce8d1802279450453f465457f5dff40d85d9a231fbb5e901241b8fe7b00f071734d31988df078afef460eaa009543c8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-denisbdoc.sty \
@@ -25,7 +25,6 @@ tex-babel.sty \
 tex-bookmark.sty \
 tex-booktabs.sty \
 tex-calc.sty \
-tex-cleveref.sty \
 tex-comment.sty \
 tex-csquotes.sty \
 tex-datetime2.sty \
@@ -33,7 +32,7 @@ tex-enumitem.sty \
 tex-etoolbox.sty \
 tex-expl3.sty \
 tex-fixfoot.sty \
-tex-fontawesome.sty \
+tex-fontawesome5.sty \
 tex-fontenc.sty \
 tex-fontspec.sty \
 tex-footmisc.sty \

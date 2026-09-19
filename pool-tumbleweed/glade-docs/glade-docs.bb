@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "glade-docs-3.40.0-2.4.noarch.rpm"
-RPM_HASH = "54649e7f7a0528fc1474dc76a2a505cd9a1da63568fc76738101af5006b53d9c5ad59b1f6d717bc3283a911d6622d05baf2a71c424889bce9767319d22355bb9"
+RPM_NAME = "glade-docs-3.40.0-4.11.noarch.rpm"
+RPM_HASH = "cfeeca164415e92b65073c44081a4b6fbe1ef92cee960391a79f736fbfc911da851d4ef01486e0a190f4d658880aa8a8e9f4153d9a5bd8c94c28e3b882bc4a4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glade-docs"

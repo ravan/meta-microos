@@ -4,10 +4,10 @@ This package contains the haveged implementation of the HAVEGE \
 algorithm and supporting features."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.9.18"
+PV = "1.9.21"
 
-RPM_NAME = "libhavege2-1.9.18-2.4.aarch64.rpm"
-RPM_HASH = "ddae791b90e280bff9f2eb2fe70bd4b216f9fd12bd4f48ca16175b9ce382a61aa1445dad77806c0f59dd03bee67f2d74c38845cb7d4cd487209f1ca9b1e7a2c9"
+RPM_NAME = "libhavege2-1.9.21-1.3.aarch64.rpm"
+RPM_HASH = "0cb9811c24a9a299e5ca7c6e155bbe831c51bb2b6750547a6de161b7423df760bed9f114ad181f3478846cf3435c7db54ab2d7fe6df63c1a45dbc363c00b753e"
 
 RPROVIDES:${PN} += "libhavege.so.2 \
 libhavege2"

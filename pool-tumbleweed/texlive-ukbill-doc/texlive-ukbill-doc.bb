@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ukbill"
 DESCRIPTION = "This package includes the documentation for texlive-ukbill"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn65485"
+PV = "2026.226.1.2.1svn69362"
 
-RPM_NAME = "texlive-ukbill-doc-2023.209.1.0.2svn65485-54.1.noarch.rpm"
-RPM_HASH = "eca0c5d3ed009701b2d42469dc9efc5081ec4741f63b0143bbf201ae78ca2e6ddda835c3b966f05641583838d48366a485413fc8627d3dfb5981ecb507065fef"
+RPM_NAME = "texlive-ukbill-doc-2026.226.1.2.1svn69362-60.2.noarch.rpm"
+RPM_HASH = "83f486b25e46132485e821badaacd9c85c26e6f92c96e35789771c9da045b87646efb96e07b5168eafdb3b0fd95b6db624a2981f49f8cbdf6c49c39ad47ccd31"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ukbill-doc"

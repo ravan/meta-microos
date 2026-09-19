@@ -1,22 +1,24 @@
 SUMMARY = "LXQt File Archiver"
-DESCRIPTION = "LXQt file archiver."
+DESCRIPTION = "A simple & lightweight Qt file archiver. The core I/O functions are ported \
+from Engrampa (a Gnome File Roller fork). This is only a front-end (a \
+graphical interface) to archiving programs like tar and zip."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.8.0"
+PV = "1.4.0"
 
-RPM_NAME = "lxqt-archiver-0.8.0-1.2.aarch64.rpm"
-RPM_HASH = "ba1fc53ac40fed232c0976b78b6af966cccf50d5a1fe9c556adc9a0963bd5a78aff606b26b2a5ccfcccbb205592c99e9d3c3b362b95462a569565ebc46f60d41"
+RPM_NAME = "lxqt-archiver-1.4.0-1.3.aarch64.rpm"
+RPM_HASH = "bb7257ba13aaab203d34091f7ffe6deaff4de370083e6154b5cbea907a72f96f75130d2dbe11f711d103531b5357531f47e32af754f68fbc3f446b5c37908061"
 
 RPROVIDES:${PN} += "lxqt-archiver"
 
 RDEPENDS:${PN} += "bsdtar \
 desktop-file-utils \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libfm-qt.so.13 \
+libfm-qt6.so.17 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

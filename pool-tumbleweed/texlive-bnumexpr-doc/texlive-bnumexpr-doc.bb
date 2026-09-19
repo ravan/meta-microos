@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bnumexpr"
 DESCRIPTION = "This package includes the documentation for texlive-bnumexpr"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn59244"
+PV = "2026.226.1.7bsvn77682"
 
-RPM_NAME = "texlive-bnumexpr-doc-2023.209.1.5svn59244-53.1.noarch.rpm"
-RPM_HASH = "b83772083939649e1ac82b36c2ad7b59b80e95e5497d9a0cf71d26fb86533160055a8fb544443085224598188e7109d06a68001392c42e967216f1e6fa1f8498"
+RPM_NAME = "texlive-bnumexpr-doc-2026.226.1.7bsvn77682-59.2.noarch.rpm"
+RPM_HASH = "a6e7b222b298d519b2ae1859c7fbbd9259cd3baf8a9db83363dc0e353fa77317fa31b030e53a7a23d99f778e8c4b1db79b8e387c34e7d7784558af603c3c8600"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bnumexpr-doc"

@@ -6,19 +6,19 @@ support of an interface that makes these implementations \
 interchangeable."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.13.1"
 
-RPM_NAME = "apache-commons-pool2-2.4.2-5.16.noarch.rpm"
-RPM_HASH = "2c1f313c646f8d1c747f1b0d1be3d9ffd6cd807f0d47450256e2ab3f10a3161f8dcea68fc670648cd465617ba0dbf9b797cf26e3a859b836d8af42cd2aeb1b99"
+RPM_NAME = "apache-commons-pool2-2.13.1-1.3.noarch.rpm"
+RPM_HASH = "359cca4d9a022c44848b2ca66e05aecbb9cdf8360cc3d7c8ad993f49346fc9632e88330f0fc4670bb2b1d1b58ff1a714e117cb758a542f524db60a0dde323cc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-pool2 \
 commons-pool2 \
 mvn-org.apache.commons-commons-pool2 \
-mvn-org.apache.commons-commons-pool2-pom-"
+mvn-org.apache.commons-commons-pool2-pom- \
+osgi-org.apache.commons.commons-pool2"
 
-RDEPENDS:${PN} += "cglib \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

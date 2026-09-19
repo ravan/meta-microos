@@ -6,10 +6,10 @@ This package provides all the necessary files for development with ATK \
 library's C++ bindings."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.36.2"
+PV = "2.36.4"
 
-RPM_NAME = "atkmm-devel-2.36.2-2.4.aarch64.rpm"
-RPM_HASH = "e2a81f81a94bad795c8b7ef47d64c2758727f898a7d6925492a217c78a820ae1005afae5458ed0da0ba774ec5f1ec0315d29f5083d7bac7a038188cc3e094c01"
+RPM_NAME = "atkmm-devel-2.36.4-1.3.aarch64.rpm"
+RPM_HASH = "125efbd96cbc064fd2474af9fe535ca6e029e48feeda01b5e9c66cfeede57e1d5b8ca66193249e99e61a32bbd822e573731b7ae75ef97f49ab6a224345d726fc"
 
 RPROVIDES:${PN} += "atkmm-devel \
 pkgconfig-atkmm-2.36"

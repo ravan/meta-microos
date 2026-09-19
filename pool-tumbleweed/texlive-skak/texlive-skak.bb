@@ -11,10 +11,10 @@ texmate, and a general mechanism for selecting chess fonts is \
 provided in chessfss."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.3svn61719"
+PV = "2026.226.1.5.3svn78101"
 
-RPM_NAME = "texlive-skak-2023.209.1.5.3svn61719-58.1.noarch.rpm"
-RPM_HASH = "88f5939028e274a8ea4897d093ab17ae39dc633732084c928838e37f14a90809ba6533fb9ae795980464f9c3b8367768eabe41d4c0edbaa76afb435fa76e47e5"
+RPM_NAME = "texlive-skak-2026.226.1.5.3svn78101-64.2.noarch.rpm"
+RPM_HASH = "60b8fb6b5bb940d6125292490634ac18c0ee3683234fdc5ece346d8c922e89e011907e00feb5393841aa35291086512601bd8b4f1d8ff7201c256663491d53a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skak.fd \

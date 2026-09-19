@@ -4,10 +4,10 @@ supertabular; its xtabular environment provides tables that \
 break across pages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3fsvn23347"
+PV = "2026.226.2.3fsvn77682"
 
-RPM_NAME = "texlive-xtab-2023.209.2.3fsvn23347-53.2.noarch.rpm"
-RPM_HASH = "70e3ab600ca56821520a5f3c12a072619078a7565155b354db74c523982568a2199d239821f85d36dcf35282a8c52632b0d527e0f1c7e10446a00fc40d8a0464"
+RPM_NAME = "texlive-xtab-2026.226.2.3fsvn77682-59.4.noarch.rpm"
+RPM_HASH = "50fcb5109cf0bdb97f92a803327a418e17ee7b42bb6a3acb426901a87a130fe8db74b153000b2b91a941fb34fd7f930bc07b8c86ed94e529b24e7b2acf3c1228"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xtab.sty \

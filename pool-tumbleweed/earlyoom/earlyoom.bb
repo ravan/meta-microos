@@ -3,10 +3,10 @@ DESCRIPTION = "earlyoom checks the amount of available memory and free swap, and
 below critical level, it will kill the largest process (highest oom_score)."
 LICENSE = "MIT"
 
-PV = "1.7"
+PV = "1.9.0"
 
-RPM_NAME = "earlyoom-1.7-1.4.aarch64.rpm"
-RPM_HASH = "8dc81d6869111cc5d77d855893452b450b3c21ee39903857f41ddc0fe756787a5299d5e5a83b4531e2c0324367803dd739d82ea785da7361d7f2bd786bd691e7"
+RPM_NAME = "earlyoom-1.9.0-1.5.aarch64.rpm"
+RPM_HASH = "0aa69e23c3989959ec2c059590676f6cc0e17f7d440694f7af4c5b09610ce479ef94d5b9dd5a89af71198fcba044fa82a43894fb9bef1e23b6389ee35e5c3e7b"
 
 RPROVIDES:${PN} += "earlyoom"
 

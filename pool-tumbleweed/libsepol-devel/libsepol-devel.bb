@@ -4,10 +4,10 @@ needed for developing applications that manipulate binary SELinux \
 policies."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsepol-devel-3.5-1.5.aarch64.rpm"
-RPM_HASH = "d7987adcace1ddb14ff3a2f4ef7e828b36b471a53eb017a83f232495d785119d35866b2735a4e24cab6a3b978cae24b78fa300715756d40f31b221b27c63bfad"
+RPM_NAME = "libsepol-devel-3.11-1.2.aarch64.rpm"
+RPM_HASH = "64736dd657408bc8d8c77cf31827933f8d587df96b8a561469ef1630586a814ff9729fd43e83a04fbeae7836da016890a31033acf3bb9e4fb1cece7044626123"
 
 RPROVIDES:${PN} += "libsepol-devel \
 pkgconfig-libsepol"

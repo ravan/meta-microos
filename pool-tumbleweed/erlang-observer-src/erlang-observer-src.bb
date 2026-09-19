@@ -3,10 +3,10 @@ DESCRIPTION = "Erlang sources for the observer application in the Erlang/OTP sys
 They are useful for educational purpose and as a base for creating embedded systems."
 LICENSE = "Apache-2.0"
 
-PV = "25.3.2.2"
+PV = "28.5.0.4"
 
-RPM_NAME = "erlang-observer-src-25.3.2.2-1.1.aarch64.rpm"
-RPM_HASH = "1fdd875d4bf1ada61caff10facd4fc4cbeebcee0b2ea9f82af1c1c008a385c83dcba31e851323c32021570ef9d4525a5b2d9a78750a491b99a1b9604c7293bc6"
+RPM_NAME = "erlang-observer-src-28.5.0.4-1.1.aarch64.rpm"
+RPM_HASH = "82cad4c2efc5282450ca05668388630e62fb1c2b567f83e6792fe273c9d925553b92d2755b28c89bfdb5e11ad7fb1cfe757e1f9e0c96083ed51fffc9dc0e28dd"
 
 RPROVIDES:${PN} += "erlang-observer-src"
 

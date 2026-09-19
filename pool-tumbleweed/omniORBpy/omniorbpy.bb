@@ -2,10 +2,10 @@ SUMMARY = "Python bindings for the omniORB CORBA implementation"
 DESCRIPTION = "omniORB is a robust high performance CORBA ORB for C++ and Python."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "4.3.2"
 
-RPM_NAME = "omniORBpy-4.3.0-1.10.aarch64.rpm"
-RPM_HASH = "54b707dd2620463b021b33b20f87180307fb31593ef5446f92b4621beb7822b32e69a01042ec921220ef2de4b86f0b300eb2d9fd7cd57df1b0ab34b8671155a8"
+RPM_NAME = "omniORBpy-4.3.2-1.10.aarch64.rpm"
+RPM_HASH = "a13f3d8902e018ca2d1ce65a5de8b858793d2aeaaa0a134c32e28dc3b1f2cae7057f2f7f4714b494ea2a8c5671644035f51a7bd383b7d61ed9d1c0ed2126aecc"
 
 RPROVIDES:${PN} += "omniORBpy"
 

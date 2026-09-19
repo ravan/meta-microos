@@ -4,10 +4,10 @@ and coverage, including the ability to re-encode Knuth's basic \
 mathematics fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn15878"
+PV = "2026.226.1.03svn77682"
 
-RPM_NAME = "texlive-mmap-2023.209.1.03svn15878-55.1.noarch.rpm"
-RPM_HASH = "9a5ddac91258cc42b63eb4a27532bda3c8199c580f5e3e4bbd767d9fb5baaffb4a35c3c4c1e20582b73618516d2e3619d54eadb6c9762f268982f7c1775ce333"
+RPM_NAME = "texlive-mmap-2026.226.1.03svn77682-61.2.noarch.rpm"
+RPM_HASH = "d6f9b43e067baac71dc524ec91241e5439e7c4ec28292ca7fdcccb3fbaf98eef78d998077aa8491f0705298493080643b2b7e1c85c6bda2d255ba5f331bdc2e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mmap.sty \

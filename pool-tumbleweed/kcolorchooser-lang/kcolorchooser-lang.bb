@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kcolorchooser"
 DESCRIPTION = "Provides translations for the 'kcolorchooser' package."
 LICENSE = "MIT"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcolorchooser-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "c41a67961b390916b937b7119d2048a6cbceef4545e3ec39b2e51d557af290c0b47cc1b0652b9a05d6c02ae0f58059f2ac74e049afc95570a6ac2fd9d6b0b250"
+RPM_NAME = "kcolorchooser-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "49411715c139ccb76d5bc9df78f0b4bad21def0c2812a383dfd0adc6501daa2d3ff7a9c5e6b6572df3144f7a14319ef81898e567fb83f5822cc53568e3c21c34"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kcolorchooser-lang \
 kcolorchooser-lang-all \
 locale-kcolorchooser-ar \
+locale-kcolorchooser-ast \
 locale-kcolorchooser-az \
 locale-kcolorchooser-be \
 locale-kcolorchooser-bg \
@@ -67,6 +68,7 @@ locale-kcolorchooser-sr@ijekavian \
 locale-kcolorchooser-sr@ijekavianlatin \
 locale-kcolorchooser-sr@latin \
 locale-kcolorchooser-sv \
+locale-kcolorchooser-ta \
 locale-kcolorchooser-th \
 locale-kcolorchooser-tr \
 locale-kcolorchooser-ug \

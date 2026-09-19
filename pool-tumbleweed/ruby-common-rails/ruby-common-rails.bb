@@ -5,10 +5,10 @@ automatic rpm provides and requires and macros that gem2rpm uses. \
 Rails packaging support files."
 LICENSE = "MIT"
 
-PV = "3.2.1"
+PV = "4.0.0"
 
-RPM_NAME = "ruby-common-rails-3.2.1-2.1.noarch.rpm"
-RPM_HASH = "333ddb5170fd654986e3a9ca3d3b36e6208707a53e05d009243ab187fbaed1efa51691e2c81b77838c9fc32c9e4f275c26ca02838b3d7645a27638228221c5af"
+RPM_NAME = "ruby-common-rails-4.0.0-4.2.noarch.rpm"
+RPM_HASH = "f2987af601f739e5c1b117cb5c693c993791ce8649864adff524a4dfd013067005673a4c3c73a1a3a403a47b46c1a485da1d65facd71a9a57336707b03947aae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rpm-macro-rails-fix-ruby-shebang \

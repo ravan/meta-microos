@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.6.5.1"
 
-RPM_NAME = "swingx-javadoc-1.6.5.1-1.11.noarch.rpm"
-RPM_HASH = "f8cc6f9ee20f6980669b6ae10bf00e406d410e388635da9d0e51ea63433e70b5d06c7ad6c863d5e8a132b055868ac960e3f7d0f1ac30fc1739c6f923779e6854"
+RPM_NAME = "swingx-javadoc-1.6.5.1-4.4.noarch.rpm"
+RPM_HASH = "212186e8cc96ad65faa5883e038f3c29d590aa4eca37d5663d9aed322caafe7ae510dc3f5962fe708d270759f722fc55e6df2ed829c8550e94f0945d8c477233"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swingx-javadoc"

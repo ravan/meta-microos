@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.0.5"
 
-RPM_NAME = "simple-obfs-0.0.5-4.16.aarch64.rpm"
-RPM_HASH = "db9fa13c38dc72bd0a8c421ec8e4eda9051837ce8f7def08eae3698a1e4f9b22d5f6f22774fccbdbf705e2821c88534104f5ec683ef8740bfbea62e4b13a3923"
+RPM_NAME = "simple-obfs-0.0.5-6.3.aarch64.rpm"
+RPM_HASH = "3ea9cf87acc31c54a16cd54c7e31cdbeef68a7dcd66743a9662e33642ec5fe5f214babb715ca98db36661c6b4f705b2c0c85f6ea9d68e69fc278339b851bcec4"
 
 RPROVIDES:${PN} += "simple-obfs"
 

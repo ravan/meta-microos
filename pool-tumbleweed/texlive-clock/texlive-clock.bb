@@ -6,10 +6,10 @@ LaTeX. The clock faces (appearances of the dial) are easily \
 expandable; the default uses a custom Metafont font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-clock-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "247344b54863f1bafc0265a2a6a31880b1a59ae44927951c63801f7c252f009170d45c4ad7c1300a23362d08ba90c8e29a26d89e1ae578d9ef1acc6c29fcfec1"
+RPM_NAME = "texlive-clock-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "e13983f487d9d2922c65599fba547ce26c14c05d611fca92bd00d7aeba4ca8a48d2b7a85c5859b4202e1ee0b542711695a33a7cdff94d1741d8c60f23dc34cd7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-clock.sty \

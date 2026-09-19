@@ -6,10 +6,10 @@ following other LaTeX packages: calc, fp, ifsym, multido, tikz, \
 xargs, and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn44906"
+PV = "2026.226.1.1svn44906"
 
-RPM_NAME = "texlive-scratchx-2023.209.1.1svn44906-54.1.noarch.rpm"
-RPM_HASH = "a0e559131e3a281f7d488b7df62ee5c2900bf19a86242a6ed625208c04e8e20ba0a94bc860b8cd9dc0a8dc185d5ccc20d80577612164d2a5c12e220d8338700c"
+RPM_NAME = "texlive-scratchx-2026.226.1.1svn44906-60.2.noarch.rpm"
+RPM_HASH = "46a082ecc0a04ed8f8cf6900c15f41bea14fa9359a71d9e1bd263c2ca3c46949d84debf5ee5730acf7606947999ed2a9acf31f576ac7b542c042db40c2e19b1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ScratchX.sty \

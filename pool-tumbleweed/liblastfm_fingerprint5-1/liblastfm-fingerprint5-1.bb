@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "liblastfm_fingerprint5-1-1.1.0-1.11.aarch64.rpm"
-RPM_HASH = "cda9c5497e9160f83a06ed7ab1ad44161834d7c36cca65b82103c24e19d8b77fbe5ce26e0d590ca77432e7ebf40a58b1aac3e22dc81567a1a5ee13b277cfe08e"
+RPM_NAME = "liblastfm_fingerprint5-1-1.1.0-2.7.aarch64.rpm"
+RPM_HASH = "cd42f89c7e90c3e91c11e215b00991cc419c4c538a21b078075172d032abf35f5fd08d8e47498b2ee523f50d733aa0bc7d6fd3d903f5d9ccb84ec95f7615acb6"
 
 RPROVIDES:${PN} += "liblastfm-fingerprint5-1 \
 liblastfm-fingerprint5.so.1"

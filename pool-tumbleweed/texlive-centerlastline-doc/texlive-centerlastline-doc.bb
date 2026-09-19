@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-centerlastline"
 DESCRIPTION = "This package includes the documentation for texlive-centerlastline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn56644"
+PV = "2026.226.1.0svn56644"
 
-RPM_NAME = "texlive-centerlastline-doc-2023.209.1.0svn56644-53.1.noarch.rpm"
-RPM_HASH = "7aab6a4a346a97464554faddfbbbdf3805c4f2e7af9291c8cd7ca7fdfbe516aaa2088e358c21d25fcc4074bb439cfab976c6ba6fac6eabc87a4debb10d594e41"
+RPM_NAME = "texlive-centerlastline-doc-2026.226.1.0svn56644-59.2.noarch.rpm"
+RPM_HASH = "e03c49dfab6ba5beadaa0426055109af726d77bb2ab172a1ed87be269f2b6db1cefbdc8a9302f01c59234a183d9ad1a92e4969368e7fe809d0377304745defe8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-centerlastline-doc"

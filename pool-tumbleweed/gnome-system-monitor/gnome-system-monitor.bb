@@ -4,35 +4,33 @@ Desktop. It shows you what programs are running and how much \
 processor time, memory, and disk space are being used."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-system-monitor-44.0-1.2.aarch64.rpm"
-RPM_HASH = "03cd2a8e4134b1aadd26393ff860378fdf64be98e15ec553a61ae14514a0d15e52e721879492161c4425fe313fc291d2d9b6b8a385aa662cdd2c8a4e0238224a"
+RPM_NAME = "gnome-system-monitor-50.0-1.3.aarch64.rpm"
+RPM_HASH = "3e25234367e3f803a09133b7b1af9b3329caf466aa64084f6db7dabf6ffd54285d7f8db3aa5bec579b1493984f1bf540a754d700db2c27fd259dd511dcc07446"
 
 RPROVIDES:${PN} += "gnome-system-monitor"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libadwaita-1.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libgcc-s.so.1 \
-libgdk-3.so.0 \
-libgdk-pixbuf-2.0.so.0 \
-libgdkmm-3.0.so.1 \
 libgio-2.0.so.0 \
-libgiomm-2.4.so.1 \
+libgiomm-2.68.so.1 \
 libglib-2.0.so.0 \
-libglibmm-2.4.so.1 \
+libglibmm-2.68.so.1 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0 \
-libgtkmm-3.0.so.1 \
+libgraphene-1.0.so.0 \
+libgtk-4.so.1 \
+libgtkmm-4.0.so.0 \
 libgtop-2.0.so.11 \
-libhandy-1.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 librsvg-2.so.2 \
-libsigc-2.0.so.0 \
+libsigc-3.0.so.0 \
 libstdc++.so.6 \
 libsystemd.so.0"
 

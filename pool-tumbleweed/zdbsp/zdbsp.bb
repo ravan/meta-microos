@@ -2,12 +2,12 @@ SUMMARY = "Nodebuilder for ZDoom"
 DESCRIPTION = "ZDBSP is ZDoom's (internal and external) node builder. This node \
 builder was written with two design goals in mind: speed and \
 minimization of polyobject bleeding."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.19"
 
-RPM_NAME = "zdbsp-1.19-1.26.aarch64.rpm"
-RPM_HASH = "fa3705d1a093ed1b61313138d5b04d343b6bd339d850ed3907cab33d63482758205b5b2521522d3a6d367eee74a20d1c0db98d8fc0a4dca8b424c2a26ad217f2"
+RPM_NAME = "zdbsp-1.19-3.5.aarch64.rpm"
+RPM_HASH = "72e5fea7bd3bc42b351a8c89859c05101e7896f4156d0bc5524047c0c28135cbe7c9e0bc77cd2787043614c56172b53f87152b475d4c631fd7a0d918234f65ab"
 
 RPROVIDES:${PN} += "zdbsp"
 

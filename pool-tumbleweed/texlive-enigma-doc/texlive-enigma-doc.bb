@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-enigma"
 DESCRIPTION = "This package includes the documentation for texlive-enigma"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.1svn29802"
+PV = "2026.226.0.0.1svn29802"
 
-RPM_NAME = "texlive-enigma-doc-2023.209.0.0.1svn29802-54.2.noarch.rpm"
-RPM_HASH = "c215440ec8bc4017eeddbc7ee623ae8fd321962ae652c87794a9f72a6f3a98ee75e7db4e8588e51db5c79355561bc9fdd6124e76704e79b1ef222636728b6a40"
+RPM_NAME = "texlive-enigma-doc-2026.226.0.0.1svn29802-61.4.noarch.rpm"
+RPM_HASH = "94a91c4c2e15920de095e3bd206ec593318c09bd4ff54a82216337cf9d36fc99b35a7bcccdc3a99739f1ab971de3aca15dc786f9865cd4ae64eaf26c20d079b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-enigma-doc"

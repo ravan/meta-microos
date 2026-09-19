@@ -2,12 +2,12 @@ SUMMARY = "Avogadro libraries for computational chemistry"
 DESCRIPTION = "Avogadro libraries provide 3D rendering, visualization, analysis \
 and data processing useful in computational chemistry, molecular \
 modeling, bioinformatics, materials science, and related areas."
-LICENSE = "BSD-3-Clause"
+LICENSE = "Apache-2.0 & BSD-3-Clause & CDDL-1.0 & GPL-3.0-or-later"
 
-PV = "1.97.0"
+PV = "1.100.0"
 
-RPM_NAME = "libAvogadro1-1.97.0-2.4.aarch64.rpm"
-RPM_HASH = "c917b52baf661bea4cc9821fdcfca53db2100e2e86bb7153416e9e4b414c79166e43e71b8aa9cbbd9fb638b46e6986f29afbf36273306f29a7e3988a2de4e55a"
+RPM_NAME = "libAvogadro1-1.100.0-3.6.aarch64.rpm"
+RPM_HASH = "2f3451f8328c6ba0f7859b4a255ac0576041b6dc8a4dcf0755d26cb3edef7f463775c0a1d797b0935dadd6f5aa95b57c4aef8a86ea6718a977865b129b14b972"
 
 RPROVIDES:${PN} += "libAvogadro1 \
 libAvogadroCalc.so.1 \
@@ -22,18 +22,20 @@ libAvogadroRendering.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libGLEW.so.2.2 \
-libGLX.so.0 \
+libGLEW.so.2.3 \
 libOpenGL.so.0 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Concurrent.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6OpenGLWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libhdf5.so.200 \
+libhdf5.so.310 \
 libm.so.6 \
+libpugixml.so.1 \
 libstdc++.so.6 \
-libsymspg.so.1"
+libsymspg.so.2"
 
 inherit rpm

@@ -4,10 +4,10 @@ for Android is software that implements part of the MPEG Advanced Audio Coding \
 ('AAC') encoding and decoding scheme for digital audio."
 LICENSE = "FDK-AAC"
 
-PV = "2.0.0"
+PV = "2.0.3"
 
-RPM_NAME = "libfdk-aac2-2.0.0-2.8.aarch64.rpm"
-RPM_HASH = "d5d75a4bfe53bef62ca41fec73ed687244975360f722575dc24731d266767ecdb17e7caf1ea5cee1ecada155dd58e97ea25980ed595a1d090ec10e07306436a9"
+RPM_NAME = "libfdk-aac2-2.0.3-1.2.aarch64.rpm"
+RPM_HASH = "6c3de68c5aad9f159ddd9395918f02fa68ad57135b4e603fc47f1004ab0d11e5e0c96ca952d7df8d4ebc460e3ca03b386d7326347cbea011e01d5cce6ffb2c7e"
 
 RPROVIDES:${PN} += "libfdk-aac.so.2 \
 libfdk-aac2"

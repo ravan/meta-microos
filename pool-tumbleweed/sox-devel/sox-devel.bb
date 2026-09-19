@@ -3,12 +3,12 @@ DESCRIPTION = "SOX is intended to be the Swiss Army knife of sound processing to
 It does many things, it just does not do them all well. Sooner or later \
 it will come in very handy. SOX is really only usable day-to-day if you \
 hide the wacky options with one-line shell scripts."
-LICENSE = "LGPL-2.1-or-later & GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "14.4.2"
 
-RPM_NAME = "sox-devel-14.4.2-7.1.aarch64.rpm"
-RPM_HASH = "eed8fd3a118e3b0e7e2aca55b2c943352c06e76146f7333f9207289279960fdbc8c8aed5d4a983076ece94683b3812ba70fd35d5a7446f967de13d29fb58ca64"
+RPM_NAME = "sox-devel-14.4.2-9.11.aarch64.rpm"
+RPM_HASH = "672e9c8452012a5b57a0fb91fc5244dc7fff3fb6ce1056c7ca8f283f7c06733ba81378d4a1389f703c66f1b0de2e0c052b4b8181a0d38d91164cecb25c5318bc"
 
 RPROVIDES:${PN} += "pkgconfig-sox \
 sox-devel"

@@ -4,10 +4,10 @@ DESCRIPTION = "Apache Ant is a Java-based build tool. \
 This package contains optional swing tasks for Apache Ant."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.14"
+PV = "1.10.18"
 
-RPM_NAME = "ant-swing-1.10.14-1.1.noarch.rpm"
-RPM_HASH = "7cf1e30ea88e8e6acdbb01436c9dc2f96a6d6eeb12af5905efd9a4fc87a4940b5841d70baa647363aa216cbf085941a912bd51685e7b78bbd87a700ce60b01d2"
+RPM_NAME = "ant-swing-1.10.18-1.1.noarch.rpm"
+RPM_HASH = "737779a18b632fbf089affdeec5b7208271328ad81c9cd53304d7709465d481961bf628e6d3d4c88fb13e16cce7fc90bf2d3c9db3a35586568ab79c23a7f532c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ant-swing \

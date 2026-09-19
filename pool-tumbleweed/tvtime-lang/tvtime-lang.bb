@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.11"
 
-RPM_NAME = "tvtime-lang-1.0.11-2.18.noarch.rpm"
-RPM_HASH = "066293991cf3618228625ba165b439cad4f8d17465fb1d11fb72c6ab3e048fbd834c81f5763639cc9e9f21f657ecf47639d2521f266daf827d2729f3905bc4f2"
+RPM_NAME = "tvtime-lang-1.0.11-4.6.noarch.rpm"
+RPM_HASH = "508fd9cd9e67c46aa6a235ef474c1718ba1d134982e1379201df56cb2ef50d0cdb4fc0f9c43dff61266527b6c110770f99e077a6caa15722a272160cb0d179e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-tvtime-ca \

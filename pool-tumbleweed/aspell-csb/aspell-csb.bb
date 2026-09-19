@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.02.0"
 
-RPM_NAME = "aspell-csb-0.02.0-2.14.aarch64.rpm"
-RPM_HASH = "c1d21764bea3eab6fb121f918b4933c7437a91f290825686c479e3e14b300294935327bd2e6273c0df70eb1ddf975466d4d6afab614a44cbdaa5b34b9a73878b"
+RPM_NAME = "aspell-csb-0.02.0-4.7.aarch64.rpm"
+RPM_HASH = "fa732b59c88389602748af05629c3eeb90964dde197e8565423744d84ada6c17d1408624fc65a17ad081850f2ee9b04d561ca579c172ae03bdce801dc2409878"
 
 RPROVIDES:${PN} += "aspell-csb \
 locale-aspell-csb"

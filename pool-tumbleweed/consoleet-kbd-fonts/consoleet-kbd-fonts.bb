@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "1.3"
 
-RPM_NAME = "consoleet-kbd-fonts-1.3-1.1.noarch.rpm"
-RPM_HASH = "3a541d5a30474a78e495ff1b46cd38aac82d1d4f09193a2f59bfb93694572c226bb11940705eb5e6cf642016045d093aa97d0300d593aec785a53877e5d4d905"
+RPM_NAME = "consoleet-kbd-fonts-1.3-1.9.noarch.rpm"
+RPM_HASH = "688149eee6d81f28f96dcf80f442700a6a3b5e798abced51e6320f64c158c8e801b335ae6acce28ff5d08a5f6c47899299336ec205b630028210fc9a2b2169e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-kbd-fonts"

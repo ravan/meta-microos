@@ -4,14 +4,15 @@ interface to manage the desktop, launch applications, and organise \
 access to data."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.3"
+PV = "1.28.1"
 
-RPM_NAME = "mate-panel-1.26.3-1.1.aarch64.rpm"
-RPM_HASH = "67c932ec7f7ca0576752f81526c6719efdac8a270f40ff13030618b2451c86ab622e08c2e71820dd558b00a434248aed9b177ed8bcd6b2c2dec3c52696fe5ec0"
+RPM_NAME = "mate-panel-1.28.1-2.14.aarch64.rpm"
+RPM_HASH = "5d87845f396adea448e8603f72586ddaafb0dee5b55bd858b9a5ea3fca6ab3413a99c643de4be812a39b5fc1a35d45f89d578eca4e1fac41df195905c76ab28e"
 
 RPROVIDES:${PN} += "mate-panel"
 
-RDEPENDS:${PN} += "gsettings-backend-dconf \
+RDEPENDS:${PN} += "dconf-editor \
+gsettings-backend-dconf \
 gvfs-backends \
 ld-linux-aarch64.so.1 \
 libICE.so.6 \
@@ -28,12 +29,14 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libm.so.6 \
 libmate-desktop-2.so.17 \
 libmate-menu.so.2 \
 libmate-panel-applet-4.so.1 \
 libmateweather.so.1 \
 libpango-1.0.so.0 \
+libwayland-client.so.0 \
 libwnck-3.so.0"
 
 inherit rpm

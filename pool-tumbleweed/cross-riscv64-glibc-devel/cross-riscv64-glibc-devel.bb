@@ -3,10 +3,10 @@ DESCRIPTION = "These libraries are needed to develop programs which use the stan
 library in a cross compilation setting."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0 & GPL-2.0-or-later"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "cross-riscv64-glibc-devel-2.38-2.1.noarch.rpm"
-RPM_HASH = "ad5abdb1129c65d863f7da4238059cb2797c324d99ed49a2458a03a379831256f1f9609d7473d8a46e42564b418704d1bf3dac501032bcfd02f9f340a176af27"
+RPM_NAME = "cross-riscv64-glibc-devel-2.44-2.1.noarch.rpm"
+RPM_HASH = "de65f178ce86cbb1e1ee846e2d50a9aa26a75bda496ac916930fb60525ada2b396ca9ecec308baab5f5fc5422af3aa27a5d11dc8f54eee49d51870450b470440"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cross-riscv64-glibc-devel"

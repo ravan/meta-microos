@@ -11,10 +11,10 @@ enables, extending to differentials (including simple line \
 elements) and jacobians."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.2svn65676"
+PV = "2026.226.5.6svn77682"
 
-RPM_NAME = "texlive-diffcoeff-2023.209.5.2svn65676-53.1.noarch.rpm"
-RPM_HASH = "6347175a572e86bec0ef0b48ea73055e10d2412a21514b23d4cb7d016298802779867b68a4c452d34e0a95ee75eca63cca8a0615457c2ca1db643718b1dd30df"
+RPM_NAME = "texlive-diffcoeff-2026.226.5.6svn77682-59.2.noarch.rpm"
+RPM_HASH = "54141fff1afe392a8e6b6edd9abc4fffdf59513ab9639f49de7d1aedbfa305aab60b7eacd526ff697f37d839f60b4c365405c4dd45a6ad6316fb063492d40619"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-diffcoeff-doc.def \

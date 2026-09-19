@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-svninfo"
 DESCRIPTION = "This package includes the documentation for texlive-svninfo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.4svn62157"
+PV = "2026.226.0.0.7.4svn62157"
 
-RPM_NAME = "texlive-svninfo-doc-2023.209.0.0.7.4svn62157-58.1.noarch.rpm"
-RPM_HASH = "125a6f3451c1002ebbdf437b41db4a5436c33d50bd76fc369e0106abdbdf54055f1b3ed3357894bfce3a91cd98f4231ff7a8f1b3848f41348edd79ebc8834077"
+RPM_NAME = "texlive-svninfo-doc-2026.226.0.0.7.4svn62157-64.2.noarch.rpm"
+RPM_HASH = "1f2747fe52031e8dfda254e7d06765a7018afedfae6cd01d97571ccde2848646daed41c01a388bf5e0cbddb728fd4cf04c80781cfa8fe1b2edaf4e249ea617db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svninfo-doc"

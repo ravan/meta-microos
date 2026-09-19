@@ -6,10 +6,10 @@ Please read \
 for details how to setup this check."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-dhcp-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "33472c9e63bf760baa9b2316de12173dc37c6581a5260e650ff03c2a27b918e9c046db578a393a219bc1181c619be88199ca15eec3cc8bd064b251914b7f1404"
+RPM_NAME = "monitoring-plugins-dhcp-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "7d09440576c5e157d06191e0c0a4f8e399906dd0fa74652ab78e3847f701c0302316dc0f65a7dabb9aa88ede3027054a795301b196a3d0cc246c07515356f56a"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-dhcp \
 monitoring-plugins-dhcp \

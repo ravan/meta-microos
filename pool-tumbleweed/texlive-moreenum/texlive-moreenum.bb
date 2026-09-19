@@ -19,10 +19,10 @@ enumitem (of course), binhex and nth, all of which are widely \
 available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn24479"
+PV = "2026.226.1.03svn77682"
 
-RPM_NAME = "texlive-moreenum-2023.209.1.03svn24479-55.1.noarch.rpm"
-RPM_HASH = "3f45ac1f9c5a4b4329c1cd7b6ddc4080adf72cdc2284667192b105ffe88db962946e0c98559779aa3bb91fd691d74157eea0de853e6194c93269c3e4c04d3f09"
+RPM_NAME = "texlive-moreenum-2026.226.1.03svn77682-61.2.noarch.rpm"
+RPM_HASH = "9acc527d9a97a8fb050729b39b4be4013b626f6b492f9075f93de5c4e4c0bdce91a09c664b30be119c6daa5d9c267b45903d2bc6aa4acc1d18e4b529f5b65a38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moreenum.sty \

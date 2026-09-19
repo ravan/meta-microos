@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QmlLocalStorage library"
 DESCRIPTION = "The Qt 6 QmlLocalStorage library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6QmlLocalStorage6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "d052fb92a5f8bf53c9a83e4f7817ed10c1f2236aee604495bc0d787b2958dbe526fc296df2f61b21ea5af13c0a81507963400c547a992dcf21eb40a6ecd03921"
+RPM_NAME = "libQt6QmlLocalStorage6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "d6188e4833c36a0aa7a1c9e2873e676a2ff9d4fc3317b0bf284cb3c0f7a91156a5c9302e5eb5b17b2c576d79cba55a90b5959c18098e313839f33f6cbe18ffa8"
 
 RPROVIDES:${PN} += "libQt6QmlLocalStorage.so.6 \
 libQt6QmlLocalStorage6"

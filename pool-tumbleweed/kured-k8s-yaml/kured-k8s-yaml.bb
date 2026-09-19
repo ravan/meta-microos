@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the yaml file requried to download and run 
 kured container in a kubernetes cluster."
 LICENSE = "Apache-2.0"
 
-PV = "1.10.2"
+PV = "1.21.0"
 
-RPM_NAME = "kured-k8s-yaml-1.10.2-1.5.noarch.rpm"
-RPM_HASH = "a224b3ed611c9aaf26e1e1071c4cc824321766bf55ae07aa0cc40924bd692fc7b2a3ec1725d2dc45e8c5bb63f153d95af6f3b8117e73e432597a6b2431b55d04"
+RPM_NAME = "kured-k8s-yaml-1.21.0-1.7.noarch.rpm"
+RPM_HASH = "14990a1cc8c42687bff5f47cef7c5c69a46f775092e27561174a30ee7984838d1b4ad7f89aea0826ada09f9dda8659740dfd996ad62caf1dce234cd4f66b128c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kured-k8s-yaml"

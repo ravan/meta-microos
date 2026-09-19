@@ -6,10 +6,10 @@ robustglossary.sty, which use the \\pageref mechanism to \
 maintain correct page numbers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn49877"
+PV = "2026.226.svn49877"
 
-RPM_NAME = "texlive-robustindex-2023.209.svn49877-54.1.noarch.rpm"
-RPM_HASH = "641c80c4bd05b84ec21e044bf7585215b7a8ca746f9514fda2bd893c021367c5036bf650a6b88b2b23633d685e79d922e65463546a24415533753f627fb03f87"
+RPM_NAME = "texlive-robustindex-2026.226.svn49877-60.2.noarch.rpm"
+RPM_HASH = "9738f1fb7e658875076347af8777a74b79d95774ad87711597d6d40fcfce5fb643b82a72f69e8b4102da7a94a82cff77efd2f3a26c0229eb37a3e895a066c7eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-robustglossary.sty \

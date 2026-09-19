@@ -4,10 +4,10 @@ colour-ways, and soton-beamer, which uses the colours to \
 produce compliant presentations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn16215"
+PV = "2026.226.0.0.1svn16215"
 
-RPM_NAME = "texlive-soton-2023.209.0.0.1svn16215-58.1.noarch.rpm"
-RPM_HASH = "27744ed80181340d1ce7746d42883a99c304cc1334e0ffcda53a3a99f97d6478ba536f5b84f2cbfadb09d13fbc1ad4da6822820e9c1d83cb5339b5e37c224a36"
+RPM_NAME = "texlive-soton-2026.226.0.0.1svn16215-64.2.noarch.rpm"
+RPM_HASH = "1177ab31f54de7ba14d96f348db48346e0dbc9840c391c855ba5de6c10c97ca31ef2460b76f850988fe300fd8e3afa53ccb332f7dbc807a49910ee9f66883123"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-soton-beamer.sty \

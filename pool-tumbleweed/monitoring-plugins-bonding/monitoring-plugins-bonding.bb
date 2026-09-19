@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later | Artistic-1.0"
 
 PV = "0.002"
 
-RPM_NAME = "monitoring-plugins-bonding-0.002-108.8.noarch.rpm"
-RPM_HASH = "1d90601528bcd58db00c49b9aec075f46d447f820a846c124683aa0dd435cce74680240c49c67c33e522bfa278cf79b6f406f7f395b37160c244fbf6ea6a02a5"
+RPM_NAME = "monitoring-plugins-bonding-0.002-108.16.noarch.rpm"
+RPM_HASH = "189d61bc181956a5254d755696f6eb0670486632c4a9b3c8928e67e467731e03be8f731989af9b615ef81f3a494d6791910a2f423dd5304942d3afc78ec68403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-bonding \

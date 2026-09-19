@@ -2,10 +2,10 @@ SUMMARY = "Git tools for importing CVS repositories"
 DESCRIPTION = "Tools for importing CVS repositories to the Git version control system."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.42.0"
+PV = "2.55.0"
 
-RPM_NAME = "git-cvs-2.42.0-1.1.aarch64.rpm"
-RPM_HASH = "7e2e340d9d7726a1d73d8ee3ad7e7953afcbf4e554381ef31c62e0e246f0082ae02913978528b9a01a51f01ee163eefde4432e32ff3a97ae7a4ebf15785d9824"
+RPM_NAME = "git-cvs-2.55.0-3.2.aarch64.rpm"
+RPM_HASH = "723cee00747fd5240d55b7e15500257a9153253095ff6328143a791ddbdac9b154f457e18ea46974c435641f90bb7516ad84a54c9f22905b33a9f7d1b2507eca"
 
 RPROVIDES:${PN} += "git-cvs"
 

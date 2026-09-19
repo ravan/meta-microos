@@ -6,10 +6,11 @@ man-in-the-middle attacks on the Open vSwitch network infrastructure. \
 Open vSwitch is a full-featured software-based Ethernet switch."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.0"
+PV = "3.7.1"
 
-RPM_NAME = "openvswitch-pki-3.1.0-15.1.aarch64.rpm"
-RPM_HASH = "afe1e185900ab8fef52bab19a80501ec5c8ff77289762e0572604e939c7bc4ca9eb29eb86b7485c83ced0ad3ddbe4b070bdc7c9a2baaa4218703ab07033885e2"
+RPM_NAME = "openvswitch-pki-3.7.1-37.1.noarch.rpm"
+RPM_HASH = "977658881824da2346222a5581d63628b7461153caa23020bded1818c966226376a4313804175a80ad22864088b39b11dc1ea3fa1cef8dd934739aae6f997733"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openvswitch-dpdk-pki \
 openvswitch-pki"

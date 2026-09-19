@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "liblbxutil-devel-1.1.0-13.14.aarch64.rpm"
-RPM_HASH = "6f3c871fa2822732d3cd1ee8a3ea709c13b5b7c9ff23617ce05ae08a822de4254cdb930c9cd5a0dc813b45cb7a300a1562f3d60be5b29c0de47628d7641695d3"
+RPM_NAME = "liblbxutil-devel-1.1.0-14.9.aarch64.rpm"
+RPM_HASH = "1806fa6a4d65732bdca0ab3a26dffd929c1edc6c5aceb0f5558ad67d01201e693fe0d3b37b969a661a612e5ad3e791a96a4a045afd2bf470ef6b3612963696c8"
 
 RPROVIDES:${PN} += "liblbxutil-devel \
 pkgconfig-lbxutil"

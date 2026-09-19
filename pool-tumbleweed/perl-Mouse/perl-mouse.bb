@@ -16,10 +16,10 @@ We're also going as light on dependencies as possible. Mouse currently has \
 without XS, although it has an XS backend to make it much faster."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.5.10"
+PV = "2.6.2"
 
-RPM_NAME = "perl-Mouse-2.5.10-1.19.aarch64.rpm"
-RPM_HASH = "9003ac9cbb1d721346cf3c21d8b3ec76c8d341208e57781d6c63716f7d54aa5b0e70a6a9b0e9e2a19910fdbadbcfd0b40a93ac69fbd2c589014cdb78edd0fa58"
+RPM_NAME = "perl-Mouse-2.6.2-1.5.aarch64.rpm"
+RPM_HASH = "0a8751dbaf0cf0eb3709862112a1f5db98199026ef829e4e11103e1041846f0bb6f0b46d020645d7eaa6f79709e7718760916fee36ed3471f3e68af42fac35da"
 
 RPROVIDES:${PN} += "perl-Mouse \
 perl-Mouse--Exporter \
@@ -53,6 +53,6 @@ perl-ouse"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

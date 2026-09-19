@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.7.2"
 
-RPM_NAME = "libinfinity-lang-0.7.2-4.7.noarch.rpm"
-RPM_HASH = "7f32d006de09a0e4e212767eb703c3908144437bc7b5a64a7af9daaa149e127fefed9f78eb2d4d72d57c0f8c6d046e45c31ee40210ce8cbd08ac6dd556543ca2"
+RPM_NAME = "libinfinity-lang-0.7.2-4.20.noarch.rpm"
+RPM_HASH = "15b7d94d2727449cfb2f612a2428e5e17abdf86046b1f3f21752699e304bd226a58a08c028c20f40f9e57ce7e6a859a2e7adcdf6542ebc4b2b408d200a4f2ba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libinfinity-lang \

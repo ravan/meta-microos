@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chapterfolder"
 DESCRIPTION = "This package includes the documentation for texlive-chapterfolder"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.1svn15878"
+PV = "2026.226.2.0.1svn15878"
 
-RPM_NAME = "texlive-chapterfolder-doc-2023.209.2.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "4bedf91802a10652c06de7b18b7fef95a64a4a04767eda5a5057466db66f8094bc1dd0b580783d66def9b83b0f0e57126d1c61e03a49d209f9d6a2179d2b179b"
+RPM_NAME = "texlive-chapterfolder-doc-2026.226.2.0.1svn15878-60.2.noarch.rpm"
+RPM_HASH = "063d5b96d83325e4de21461a81cf80c2207235c8d3cfa077613e1dfbf488d1f5257559b057480b0509b0859d943c32c0eb60bd2f2a66de05979864784f69b542"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-chapterfolder-doc"

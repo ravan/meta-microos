@@ -5,10 +5,10 @@ libwrc. This functionality is used in libevt and libevx to parse \
 EventLog messages from PE/COFF message files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20210424"
+PV = "20260705"
 
-RPM_NAME = "libexe1-20210424-5.1.aarch64.rpm"
-RPM_HASH = "af25b907694b03d2b9eccabc9ba3b7f7c591b09264115d67860b012e3cfe4e8c99c9040567cd78176f2f397a88c4110bea59499b8df7ac9feca18b204349b26d"
+RPM_NAME = "libexe1-20260705-1.2.aarch64.rpm"
+RPM_HASH = "a94df02065427e1083cfa80c3caf930a87534843cdd82f3244054b5c655ff88be712aefa6561abd8c587f08e3e164e43db3da7f7b3a8721b3cf7e46f64c0a21e"
 
 RPROVIDES:${PN} += "libexe.so.1 \
 libexe1"

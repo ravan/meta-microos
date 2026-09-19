@@ -5,18 +5,21 @@ SSL/TCP/IP, already implemented), local storage (mbox/MH/maildir) \
 and message / MIME parsing."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.9.4"
+PV = "1.10.1"
 
-RPM_NAME = "libetpan-devel-1.9.4-1.14.aarch64.rpm"
-RPM_HASH = "ebe64870359fb5b7fdd4e7fc1dd33cde78e59bb4503db9ed7a2bc1b380a787a679618d52188531919239c25db9e172a65c6e1edf81b6237f0c4a1e87e7236679"
+RPM_NAME = "libetpan-devel-1.10.1-1.3.aarch64.rpm"
+RPM_HASH = "edb77fed7ae741c3e4ef13afb249d0825d2a94fdf8537f5e14b1f3c30ce1e0af47db1da0d3e55cc0bc26250c4345d75a2fc9ec754dd271a489917ec47c4f87d5"
 
 RPROVIDES:${PN} += "libetpan-devel \
 pkgconfig-libetpan"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-cyrus-sasl-devel \
 db-devel \
-libetpan20 \
-openssl-devel"
+libetpan26 \
+pkgconfig-gnutls \
+pkgconfig-gpg-error \
+pkgconfig-libgcrypt \
+pkgconfig-libsasl2 \
+pkgconfig-zlib"
 
 inherit rpm

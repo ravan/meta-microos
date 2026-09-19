@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rednotebook"
 DESCRIPTION = "Provides translations for the 'rednotebook' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.29.6"
+PV = "2.42"
 
-RPM_NAME = "rednotebook-lang-2.29.6-1.2.noarch.rpm"
-RPM_HASH = "02e273804b9b9dd041950ef981f5f9fa3374d79837d66421c2b28b00f3d58e132ef0e66a7e6021a10435619f096e0cd40241c365f53dea6c03c4b0f9dfb72aa1"
+RPM_NAME = "rednotebook-lang-2.42-1.1.noarch.rpm"
+RPM_HASH = "033fa5f261e917c2c28131953296363496d884229aa4099a8d838c5b1f8041dfe59e89c7a07b034092f2c5b7b78be6b947822cab3ab1dd3a65a17bade6ef05fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rednotebook-ar \

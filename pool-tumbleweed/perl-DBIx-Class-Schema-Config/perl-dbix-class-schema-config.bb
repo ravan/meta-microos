@@ -13,14 +13,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.001014"
 
-RPM_NAME = "perl-DBIx-Class-Schema-Config-0.001014-1.11.noarch.rpm"
-RPM_HASH = "e0a953276aac0c65145d5c026eb1468b1830261c74cd228c7233f02f5606eb930e80cea8043f5eccb2969055f3f3cda7cbf974ef3f18cc99f15042c99ae27e1a"
+RPM_NAME = "perl-DBIx-Class-Schema-Config-0.001014-1.25.noarch.rpm"
+RPM_HASH = "42b5f16a6f2030c5a07964c7da6ae5fa884eaa12434fed9d14b05c2fbf59a595f195b81e81d7f12dadf98cecaecce1a5226c5ac459dc8e237d91c84d5fb70892"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--Schema--Config \
 perl-DBIx-Class-Schema-Config"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Config--Any \
 perl-DBD--SQLite \
 perl-DBIx--Class \

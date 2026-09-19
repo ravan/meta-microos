@@ -10,8 +10,8 @@ LICENSE = "BSL-1.0"
 
 PV = "4.0.2"
 
-RPM_NAME = "soci-devel-4.0.2-4.5.aarch64.rpm"
-RPM_HASH = "83189f550eeed9950843a31d59fe07086d17535d0f45f9ee7f94ac70a31e80938d8c3796b743cf1acbd6bcbae76ef765fcc122c08d52870d0f9377b2623a3a8f"
+RPM_NAME = "soci-devel-4.0.2-5.10.aarch64.rpm"
+RPM_HASH = "dadbefa46c796841734e86dc69947377eadf84b50b6c5405ed4540a4566bb9052f01ff6db8a96917beaf52cc2d050ef5830badcd19f0036095e4bf815fc667b1"
 
 RPROVIDES:${PN} += "cmake-SOCI \
 soci-devel"

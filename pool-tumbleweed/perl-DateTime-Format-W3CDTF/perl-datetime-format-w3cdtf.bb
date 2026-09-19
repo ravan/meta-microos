@@ -7,16 +7,16 @@ It can be used to parse these formats in order to create the appropriate \
 objects."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.08"
+PV = "0.90.0"
 
-RPM_NAME = "perl-DateTime-Format-W3CDTF-0.08-1.13.noarch.rpm"
-RPM_HASH = "0aa1c5b5818535490f168138b65c93625d27ff538c5eb7e3c24087511537b471a271953fb1a32c22faa76db2f12a5916c5f5b05c7fc912f18322d4727a11c714"
+RPM_NAME = "perl-DateTime-Format-W3CDTF-0.90.0-1.1.noarch.rpm"
+RPM_HASH = "f6cedf6e2e1a5f6f7c1bfb478abbf9418448f9e22e2bdf6ab12475227a2b8fa2637673ab5b5cd910baf24ee42b01d74ea337b4216d5a7354d511e592bbf6933a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--Format--W3CDTF \
 perl-DateTime-Format-W3CDTF"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DateTime"
 
 inherit rpm

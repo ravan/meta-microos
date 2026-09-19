@@ -8,8 +8,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "0.24"
 
-RPM_NAME = "libstfl0-0.24-3.16.aarch64.rpm"
-RPM_HASH = "4cd150de7a62c7d059ade97d1f17e476a1bdff484208855d27a03fa64398bd2c1e1a98c6a0369524b7a785511eaece87d07baf465da75474bfc9416d226e1309"
+RPM_NAME = "libstfl0-0.24-5.8.aarch64.rpm"
+RPM_HASH = "172080d30140f2915da8d7a9ca3bfb7429d86b8f9c43e81e5118a97a28733316f9a95202f1a7c8fc8c5cbc8399d48cedc8c916bc561a65c8184eb2ff9b278a7b"
 
 RPROVIDES:${PN} += "libstfl.so.0 \
 libstfl0"

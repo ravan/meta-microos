@@ -3,12 +3,12 @@ DESCRIPTION = "RADOS is a reliable, autonomic distributed object storage cluster
 developed as part of the Ceph distributed storage system. This is a \
 shared library allowing applications to access the distributed object \
 store using a simple file-like interface."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "librados2-16.2.13.66+g54799ee0666-4.1.aarch64.rpm"
-RPM_HASH = "93da4560aa0ce6279a73532c4798de30bd68f0ce73637faaeb367549aa423e55c19fc4ed9e780e31df2a5dbebd0c948526380fbe39f9e4f5180f7175090cb255"
+RPM_NAME = "librados2-18.2.7-8.1.aarch64.rpm"
+RPM_HASH = "83a91f825957118cc26d9f683b2d6133ce65311eb3b04107631dbc122130b2b2ca8e54a9cfb57fc107790515f5eda8ec943f248c3336c05332467916b80807d3"
 
 RPROVIDES:${PN} += "libceph-common.so.2 \
 librados-tp.so.2 \
@@ -20,7 +20,6 @@ ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
-libfmt.so.9 \
 libgcc-s.so.1 \
 libibverbs.so.1 \
 liblttng-ust.so.1 \

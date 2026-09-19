@@ -10,8 +10,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.2"
 
-RPM_NAME = "libt3widget-devel-1.2.2-1.6.aarch64.rpm"
-RPM_HASH = "623880c9fdc73f641d955699c9eb6a21b514c8926e99ff423dd8c85967c0a3b01343b2ef6810db73a27591a3890f56f60bc555159bb53c3f6d7c1010a9fff315"
+RPM_NAME = "libt3widget-devel-1.2.2-1.15.aarch64.rpm"
+RPM_HASH = "8dc7f40139b4ef18bb968c5e528c7276f7b84c2cb893b66f005aa4c8699f932d5e9772bdb6ba75a53bb9bea879a41ce768b36080221db8a2bb66993c39354db4"
 
 RPROVIDES:${PN} += "libt3widget-devel \
 pkgconfig-libt3widget"

@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause | GPL-2.0-or-later"
 
 PV = "1.4.5"
 
-RPM_NAME = "pam_pwquality-1.4.5-1.3.aarch64.rpm"
-RPM_HASH = "a81e9e5f67d290735c2824e9dee9d6ecfe0bee10c97829849c9f97cfe31f6bc91ed39dac01a57351e17678c70eed049bc4be911236f44218531d106817861658"
+RPM_NAME = "pam_pwquality-1.4.5-5.9.aarch64.rpm"
+RPM_HASH = "bf346e7796eab80947adf7934bc35acef43bd2f1df7655718ec6c5b62d67ce6c1374daebfda9863125bd35ca241f0bb9eda5cc494a8181288d80fb637dd0b8f2"
 
 RPROVIDES:${PN} += "pam-pwquality"
 

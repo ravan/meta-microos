@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides support for typesetting Albanian (as part \
 of the babel system)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0dsvn57005"
+PV = "2026.226.1.0dsvn77682"
 
-RPM_NAME = "texlive-babel-albanian-2023.209.1.0dsvn57005-54.1.noarch.rpm"
-RPM_HASH = "25535e8ba13e9d2592f11b44305659635d3516fda8da59bc37e318ed97e1f8dea1792939a0412af17c3753f46d9ae1c368f4b3c4fdf573111a864decd6ae2741"
+RPM_NAME = "texlive-babel-albanian-2026.226.1.0dsvn77682-60.2.noarch.rpm"
+RPM_HASH = "2659d794d0047c7a4ce0d3c45e2ce5d780b7238e25b6e1bea3b013bc3c6022d272e292ada3679f43fd552396063891208dc27af45bd65fe4a33175f96500a0f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-albanian.ldf \

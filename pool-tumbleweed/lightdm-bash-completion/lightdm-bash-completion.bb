@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.32.0"
 
-RPM_NAME = "lightdm-bash-completion-1.32.0-2.3.noarch.rpm"
-RPM_HASH = "76b90afaa3a89c3f820ffea2d43d62fbc11380cc325b23d7f2cf6308402ed907dfc5e0eeb76e120722bc4d5328a51b7dc71aa1e583b8238fb57b5f287d7a5339"
+RPM_NAME = "lightdm-bash-completion-1.32.0-9.4.noarch.rpm"
+RPM_HASH = "9278a75c2f6c25a246fe0165d7e8a0e1fb72b264c1d6e487348544bc84d994bc9148902f9f2fb677d9bce1cfa557ff33dc400ee416feff2605df3f7edf6544f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightdm-bash-completion"

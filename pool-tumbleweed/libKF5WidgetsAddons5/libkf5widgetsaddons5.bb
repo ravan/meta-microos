@@ -4,10 +4,10 @@ that use the Qt Widgets module. If you are porting applications from \
 KDE Platform 4 'kdeui' library, you will find many of its classes here."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "libKF5WidgetsAddons5-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "ac40d409f9b9915fca43524e58e2ed2b5035158cb30a3e94d0cce0783397ba732a2c468178d39125be058ced2d5128160062d691784a96479d8aa3bff1a897f5"
+RPM_NAME = "libKF5WidgetsAddons5-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "26dbf05cc3838584e98fc52e82ae16d79b7c5682aa0e37483bfeb80fa6e53dacfd3478799caceab0b26b1ecc0e0446b0df4997fa6b3f475de5883a3c15e61495"
 
 RPROVIDES:${PN} += "libKF5WidgetsAddons.so.5 \
 libKF5WidgetsAddons5"

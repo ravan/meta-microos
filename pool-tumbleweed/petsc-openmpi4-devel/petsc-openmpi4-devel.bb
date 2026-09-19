@@ -4,22 +4,23 @@ DESCRIPTION = "PETSc is a suite of data structures and routines for the scalable
 differential equations."
 LICENSE = "BSD-2-Clause"
 
-PV = "3.18.5"
+PV = "3.25.1"
 
-RPM_NAME = "petsc-openmpi4-devel-3.18.5-1.2.aarch64.rpm"
-RPM_HASH = "0d491506b8ed3acbb1f8409adfc6b65f33adcdc387053c3ba3daf04afda4077480a1f4b6c674c1d16a54e490a01991f0bd60db34d3e2b18139d09ec3d45949a4"
+RPM_NAME = "petsc-openmpi4-devel-3.25.1-1.2.aarch64.rpm"
+RPM_HASH = "414cf5d8bd4bb992b84250cc3e42f71ce7457e91380efe0e375b11cb324a99236f765351b0dc7a001fdbab82844175c627f8f2b28e8b3af7f9019519be3f638b"
 
 RPROVIDES:${PN} += "petsc-openmpi4-devel"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/python3 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
-Modules \
 blacs-openmpi4-devel \
 hdf5-openmpi4-devel \
-hypre-openmpi4-devel \
-libpetsc3-18-openmpi4 \
+libpetsc3-25-openmpi4 \
+petsc-openmpi4-data \
+pkgconfig-yaml-0.1 \
 ptscotch-openmpi4-devel \
-ptscotch-parmetis-openmpi4-devel \
 scalapack-openmpi4-devel \
 suitesparse-devel"
 

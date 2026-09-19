@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-modiagram"
 DESCRIPTION = "This package includes the documentation for texlive-modiagram"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3asvn56886"
+PV = "2026.226.0.0.3asvn76924"
 
-RPM_NAME = "texlive-modiagram-doc-2023.209.0.0.3asvn56886-55.1.noarch.rpm"
-RPM_HASH = "8dbab4b834c4751c563973acec6ef99dd92ba3954b679f1d1e58e58537cace564dd54ee4e8d025e07c78deec2337c911795312b1c7dcc3a539a7468b0d72f45c"
+RPM_NAME = "texlive-modiagram-doc-2026.226.0.0.3asvn76924-61.2.noarch.rpm"
+RPM_HASH = "35bbc885f714c594180864e50179f4cae279e88dfef617025f9e0578542e7d1324ef0add4119b351e208100628a78a9a4b1316f431f46c5427c250358091db4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-modiagram-doc-en \

@@ -2,10 +2,10 @@ SUMMARY = "Xwayland Xserver"
 DESCRIPTION = "This package contains the Xserver running on the Wayland Display Server."
 LICENSE = "MIT"
 
-PV = "23.2.0"
+PV = "24.1.13"
 
-RPM_NAME = "xwayland-23.2.0-1.1.aarch64.rpm"
-RPM_HASH = "246da14acda4b528e200257c75c198d653e62983f932f586ad5440bf3290ff878a32207982ffd26add3c1de200efc69efb1892c81de6565ab130dc352a564abc"
+RPM_NAME = "xwayland-24.1.13-1.2.aarch64.rpm"
+RPM_HASH = "08c5cebf0d375f33b2fe760d548f08e50f9d2228aa71cd565888d82f25e628004f66dd66589b991a7818dae75cb6fac6b41354578a9f4888edb1eaded4f74bf5"
 
 RPROVIDES:${PN} += "xorg-x11-server-wayland \
 xwayland"
@@ -29,7 +29,6 @@ libm.so.6 \
 liboeffis.so.1 \
 libpixman-1-0 \
 libpixman-1.so.0 \
-libsystemd.so.0 \
 libtirpc.so.3 \
 libwayland-client.so.0 \
 libxcvt.so.0 \

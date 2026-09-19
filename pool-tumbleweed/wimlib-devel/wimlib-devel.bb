@@ -2,10 +2,10 @@ SUMMARY = "Development files for wimlib"
 DESCRIPTION = "Development files for wimlib"
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.14.1"
+PV = "1.14.4"
 
-RPM_NAME = "wimlib-devel-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "d417edfe81adc86bead1f39271d1ccd6f113f6220a3be15b67cb8909c57e2e408cc9c4a2d1a2ab8617f2908e8d5f5655915ddefcd67010c10aa273d7db1e387c"
+RPM_NAME = "wimlib-devel-1.14.4-1.13.aarch64.rpm"
+RPM_HASH = "855f72791fae760ce1e47e351748c06d9411b809c4ba8e166e6f0ee3dada8c57086d5b6dbb79cf2032a0b0c092a09ed1a2b8da5812204eee1ae0443ae2caddf9"
 
 RPROVIDES:${PN} += "pkgconfig-wimlib \
 wimlib-devel"

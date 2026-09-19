@@ -4,10 +4,10 @@ to learn how to create .ins and .dtx files for distributing \
 their homebrewed classes and package files."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn38375"
+PV = "2026.226.2.4svn69587"
 
-RPM_NAME = "texlive-dtxtut-2023.209.2.1svn38375-53.1.noarch.rpm"
-RPM_HASH = "d2e5081dc0e92061072a2ccab8790b7550f6602de8fc66cef79142f863954dcd2d4bd61251c9f1ecdccd715169f6d57c7bd0726a2ab84260299f781f379e9a4e"
+RPM_NAME = "texlive-dtxtut-2026.226.2.4svn69587-59.2.noarch.rpm"
+RPM_HASH = "3545cc86b2f77c820f6c5ff4dd7adbafee307641cb886619014d94a054e165403b37389cc0ac1e4a102aeb3a3c7f232c9755cea34fbe70f22d3e1117c4f796e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxtut"

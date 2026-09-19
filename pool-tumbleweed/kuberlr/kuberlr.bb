@@ -3,10 +3,10 @@ DESCRIPTION = "kuberlr (kube-ruler) is a simple wrapper for kubectl. Its main pu
 make it easy to manage clusters running different versions of kubernetes."
 LICENSE = "Apache-2.0"
 
-PV = "0.4.1"
+PV = "0.6.1"
 
-RPM_NAME = "kuberlr-0.4.1-1.9.aarch64.rpm"
-RPM_HASH = "735de350bfb921beaf0d1fd59206cf8994be63c7e1491303547cb7be8ccc74a13b3b0e039f1bb9f5a45ebd35158e0d58c0bf1e7412f89b7dfd057536ae71ae29"
+RPM_NAME = "kuberlr-0.6.1-1.7.aarch64.rpm"
+RPM_HASH = "5742f1ddd5d50a295773cbf0dfce4b528092bdfd04bb04e35dfa9e849415504b25ed1ab431c250f06db02cc811e613421fed89ddc3a544a54e1b7e07c4fd424c"
 
 RPROVIDES:${PN} += "kuberlr \
 kubernetes-client-provider"

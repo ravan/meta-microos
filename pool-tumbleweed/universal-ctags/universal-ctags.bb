@@ -4,16 +4,19 @@ files from source code for various languages to be used with Editors like \
 Emacs, Vim and several others."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.0.0"
+PV = "6.2.1"
 
-RPM_NAME = "universal-ctags-6.0.0-1.3.aarch64.rpm"
-RPM_HASH = "2de2b2395fd17f0172fdf3f8a5dbf6e860a9c763d41ca220751e8bde4f23b18d967969b28c61485cadc23a8beaf8a266678f0c4751bbd342511e6849997f41ba"
+RPM_NAME = "universal-ctags-6.2.1-1.3.aarch64.rpm"
+RPM_HASH = "8fc5eb5c35da630afb64fd1db0952477ea5589c6c2b807b230958bb943d5bcc1396e6c41cd00dd906d887cb7132510cd068b97a29c0f8e386e0199161b2d625d"
 
 RPROVIDES:${PN} += "universal-ctags"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "alts \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-update-alternatives"
+libjansson.so.4 \
+libpcre2-8.so.0 \
+libseccomp.so.2 \
+libyaml-0.so.2"
 
 inherit rpm

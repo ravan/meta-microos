@@ -6,10 +6,10 @@ need to laboriously construct pipelines using lower-level primitives \
 such as fork(2) and execve(2)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.5.7"
+PV = "1.5.8"
 
-RPM_NAME = "libpipeline1-1.5.7-1.3.aarch64.rpm"
-RPM_HASH = "4b61fbca412610ff1f54cc24eb4826c32db59377dab1681f8f67caba2c93e119027df23870660be5f07fd3d5b33d26216fac04aad808ec4b087cbb066675962d"
+RPM_NAME = "libpipeline1-1.5.8-1.8.aarch64.rpm"
+RPM_HASH = "f96cb8af6c8a1c90594f9a959f498ff74c7cbd800d5f353918dfb82c6e1328bf98f95c97bf905fd999ca3d1f53d955f0d9e3aa57bb0f0dfd55f6e3a436418996"
 
 RPROVIDES:${PN} += "libpipeline.so.1 \
 libpipeline1"

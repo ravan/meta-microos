@@ -1,18 +1,17 @@
-SUMMARY = "Development Files for Threading Building Blocks (TBB)"
-DESCRIPTION = "Threading Building Blocks (TBB) offers a rich and complete approach to \
-expressing parallelism in a C++ program. It is a library that helps you take \
-advantage of multi-core processor performance without having to be a threading \
-expert. Threading Building Blocks is not just a threads-replacement library. It \
-represents a higher-level, task-based parallelism that abstracts platform \
-details and threading mechanism for performance and scalability. \
+SUMMARY = "Development Files for oneAPI Threading Building Blocks (oneTBB)"
+DESCRIPTION = "oneTBB (previously known as TBB) is a flexible C++ library that simplifies the \
+work of adding parallelism to complex applications. The library lets you easily \
+write parallel programs that take full advantage of the multi-core performance. \
+oneTBB provides you with functions, interfaces, and classes to parallelize and \
+scale the code. \
  \
-This package contains the header files needed for development with tbb."
+This package contains the header files needed for development with oneTBB."
 LICENSE = "Apache-2.0"
 
-PV = "2021.10.0"
+PV = "2023.0.0"
 
-RPM_NAME = "tbb-devel-2021.10.0-1.1.aarch64.rpm"
-RPM_HASH = "b016d977c4252a4a263c81afbab3d04dc523a6c6e75c1a240115f5b32989cf14e368dc8bb223db972c1085be9865c164c300c28e65fa339d1624e27661a64024"
+RPM_NAME = "tbb-devel-2023.0.0-1.3.aarch64.rpm"
+RPM_HASH = "23855aa0614424ca2e05fbfc6841bad602039112723d1dfacf7ef124fdbfb87ca5358a59e4534bab9d99539eba69a229feaa97ae2c9d8f104d423e35d8be7db2"
 
 RPROVIDES:${PN} += "cmake-TBB \
 pkgconfig-tbb \

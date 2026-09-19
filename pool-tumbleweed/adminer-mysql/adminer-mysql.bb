@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only | Apache-2.0"
 
 PV = "4.8.1"
 
-RPM_NAME = "adminer-mysql-4.8.1-1.6.noarch.rpm"
-RPM_HASH = "6931f72b53a2a5e4b9ba1d38a1ebe14db709553d1cfa92d31947860a4c87fee805f4cf62ad80bb0e20d97362742da41a3bc6f2e2f0bb2bfdd6ac0dd4beb1999c"
+RPM_NAME = "adminer-mysql-4.8.1-1.13.noarch.rpm"
+RPM_HASH = "6a22fb2e9a16b19a98236dde1659baa53749914bf3071353dd8851015a8ce77dfd9e710e1ea3ee61d68b5dc9480c3383df8a46d1e0d533852f527f9c7f5863b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "adminer-database-support \

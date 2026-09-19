@@ -2,13 +2,13 @@ SUMMARY = "Kubernetes etcd daemon for container images"
 DESCRIPTION = "This subpackage contains the etcd binary for Kubic images"
 LICENSE = "Apache-2.0"
 
-PV = "3.5.6"
+PV = "3.6.5"
 
-RPM_NAME = "kubernetes-etcd-minus3-3.5.6-34.1.aarch64.rpm"
-RPM_HASH = "83a58d2a3a52c9ee76814f8237bef9baa1378ab6d87821447938b4bbad26829dd3b03ae8dfee5f901d03c3d6fa8f2e55b42cee9519e4d62c0d9a1f0d5640448e"
+RPM_NAME = "kubernetes-etcd-minus3-3.6.5-72.1.aarch64.rpm"
+RPM_HASH = "a5371972f54b36eae52ee8e22bd27cb0ca64a0f8672d9dcf89813da46853dfb4d5ba4c23c7c76739b466b9e7b6b7a91a37f955fad06802d3aab35e1ca783f7ba"
 
 RPROVIDES:${PN} += "kubernetes-etcd-minus3"
 
-RDEPENDS:${PN} += "etcd-for-k8s1.24"
+RDEPENDS:${PN} += "etcd-for-k8s1.34"
 
 inherit rpm

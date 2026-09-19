@@ -9,13 +9,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "libpurple-plugin-pack-2.8.0-1.3.aarch64.rpm"
-RPM_HASH = "f0bb00490d2bb8853e9e950d2c8ec4fa6e3e44be487949df0ec6aac981c21cd1332f11063291143f93c3d1ad4c816be4b0ca2ed5a84e98c076f9e38cbe6f784f"
+RPM_NAME = "libpurple-plugin-pack-2.8.0-2.3.aarch64.rpm"
+RPM_HASH = "c65674acc3f8335394a9b5c29042d50b4073d1553c72d86cc744f26d9cfcbb4ec3a94f18e43742683a470b7fd2c7d46010c8dec507574fc50c6a00cae4013add"
 
 RPROVIDES:${PN} += "libpurple-plugin-pack \
 purple-plugin-pack"
 
-RDEPENDS:${PN} += "libc.so.6 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
 libglib-2.0.so.0 \
 libpango-1.0.so.0 \
 libpurple.so.0"

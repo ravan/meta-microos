@@ -6,10 +6,10 @@ libnfnetlink_conntrack and libctnetlink. This library is currently \
 used by conntrack-tools among many other applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.9"
+PV = "1.1.1"
 
-RPM_NAME = "libnetfilter_conntrack3-1.0.9-1.7.aarch64.rpm"
-RPM_HASH = "623cb9650035c08bc232f6a5412743703e13ecb6afde98fb0841a8f39a02266e675d97b63721fe1062c83066e84fb182d2e39c3a21c00c6609d803664712ff78"
+RPM_NAME = "libnetfilter_conntrack3-1.1.1-1.4.aarch64.rpm"
+RPM_HASH = "7fc0382a47e3d4a3d12a1b72f53c27ba18e5df85776c5429e523cd49dba1d6c85e58f9b01801575e8cb3099cfa92fd7e7fecc667347cac2c5300714c5702f42f"
 
 RPROVIDES:${PN} += "libnetfilter-conntrack.so.3 \
 libnetfilter-conntrack3"

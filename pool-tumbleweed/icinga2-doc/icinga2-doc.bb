@@ -1,11 +1,11 @@
 SUMMARY = "Documentation for Icinga 2"
 DESCRIPTION = "This subpackage provides documentation for Icinga 2."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.13.8"
+PV = "2.16.5"
 
-RPM_NAME = "icinga2-doc-2.13.8-2.1.aarch64.rpm"
-RPM_HASH = "8b98d1a86606c012682a2c0fdde385141ad52ba0966dcdb75469bcabbb3c6472219c8ec6040ac2e9cccee49031b3b4f7420fb63a8b341f2c36f22ab6cb158296"
+RPM_NAME = "icinga2-doc-2.16.5-1.2.aarch64.rpm"
+RPM_HASH = "c6b1973b7b2ccb7ec65dc1d556629679fe1ca1e98b1610968f4bfb88d131b12da10696290f87e8fc1c5ea3819383e9e3f912528267f91d7f9b8b07d83b658595"
 
 RPROVIDES:${PN} += "icinga2-doc"
 

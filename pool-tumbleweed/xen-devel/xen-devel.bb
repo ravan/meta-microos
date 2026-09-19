@@ -13,10 +13,10 @@ Authors: \
     Ian Pratt <ian.pratt@cl.cam.ac.uk>"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.17.2_02"
+PV = "4.22.0_04"
 
-RPM_NAME = "xen-devel-4.17.2_02-1.1.aarch64.rpm"
-RPM_HASH = "3286f8262ea80ebf232274707655e1ecfa543991eeb215c98be4078b6f08269bfde7ce0b07a1492e20c15696e841a7fcca6ca99f4b9d9913ba5e89166716498f"
+RPM_NAME = "xen-devel-4.22.0_04-1.1.aarch64.rpm"
+RPM_HASH = "01a22ebea8d890966ab5751e959f040be9f6f4c99f87872e7d24e9021812f514b3fdab388c201ef36855f79436bfe29730d34a42c22faa4cce3898b85d654634"
 
 RPROVIDES:${PN} += "pkgconfig-xencall \
 pkgconfig-xencontrol \
@@ -27,6 +27,7 @@ pkgconfig-xengnttab \
 pkgconfig-xenguest \
 pkgconfig-xenhypfs \
 pkgconfig-xenlight \
+pkgconfig-xenmanage \
 pkgconfig-xenstat \
 pkgconfig-xenstore \
 pkgconfig-xentoolcore \

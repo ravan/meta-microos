@@ -4,10 +4,10 @@ solution style environments for typesetting university \
 assignments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn38459"
+PV = "2026.226.1.01svn38459"
 
-RPM_NAME = "texlive-uassign-2023.209.1.01svn38459-53.1.noarch.rpm"
-RPM_HASH = "c962de9775e7f288b52125da91a64c7743893b22e0488391a16abc8f965ac1f69f22c05b5dbfe03762d2779e67e602a56d47b9a5405ad0ffb325cd734696c8ab"
+RPM_NAME = "texlive-uassign-2026.226.1.01svn38459-59.2.noarch.rpm"
+RPM_HASH = "a8d46808669eda6c8873cee9effc414410abf79d8f249cf742929e1b8b5223bc9a357b0792c6158f1ccc0adae5347cff713934a09ee51870e3c201935a528b0a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uassign.sty \

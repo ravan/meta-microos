@@ -3,10 +3,10 @@ DESCRIPTION = "Crispy Doom is a limit-removing enhanced-resolution Doom source p
 based on Chocolate Doom."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0"
+PV = "7.1"
 
-RPM_NAME = "crispy-doom-6.0-1.1.aarch64.rpm"
-RPM_HASH = "56281b23074af14a17b4039fcd19d569dc03ac20668d672e17818429bd44f4f05298a20224ddb0642f27e7356eacdd43e638b0037958493c51dee866bfd9679c"
+RPM_NAME = "crispy-doom-7.1-1.6.aarch64.rpm"
+RPM_HASH = "468f228e34c593a5a25a0977f50a95cc4ee4ba26ad30643e3edfd02392542015f5dddf25d9e5e02e33c52034094399b3a7dc30fe9387591a8fa1350e7594c08b"
 
 RPROVIDES:${PN} += "crispy-doom \
 crispy-heretic \

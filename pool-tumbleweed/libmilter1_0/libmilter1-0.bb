@@ -9,17 +9,16 @@ configuration file. \
 'sendmail' is a trademark of Sendmail, Inc."
 LICENSE = "Sendmail"
 
-PV = "8.17.2"
+PV = "8.18.2"
 
-RPM_NAME = "libmilter1_0-8.17.2-1.1.aarch64.rpm"
-RPM_HASH = "4f418ffa26d48240d62af4269370919c5408deae12a212f497f46bf449ce3c2b84d3dbd07ac7429b3a0d45422fa4222f89ebdd448001adee5941923b8d8520f2"
+RPM_NAME = "libmilter1_0-8.18.2-3.3.aarch64.rpm"
+RPM_HASH = "b44de9d2a62f6a86704e3cdcfeea5e3de8c4345f88eabfb8f420faa999a5428478c6876e9c2ebec4e8a35724b83f87289e2a5833c846cc769ac3acaa0c803b9c"
 
 RPROVIDES:${PN} += "libmilter.so.1.0 \
 libmilter1-0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libc.so.6 \
-smtp-daemon"
+libc.so.6"
 
 inherit rpm

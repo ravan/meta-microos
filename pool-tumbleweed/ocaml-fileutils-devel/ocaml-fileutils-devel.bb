@@ -3,10 +3,10 @@ DESCRIPTION = "The ocaml-fileutils-devel package contains libraries and signatur
 developing applications that use ocaml-fileutils."
 LICENSE = "SUSE-LGPL-2.0-with-linking-exception"
 
-PV = "0.6.4"
+PV = "0.6.6"
 
-RPM_NAME = "ocaml-fileutils-devel-0.6.4-1.4.aarch64.rpm"
-RPM_HASH = "822f981d6ed2c76393e8b5558f6d7dbbcff25d131683b6d41a5115cc946c05c871935501f53fdd657037d5c254b58aac82091bcf6967e309353736af121da9e9"
+RPM_NAME = "ocaml-fileutils-devel-0.6.6-2.1.aarch64.rpm"
+RPM_HASH = "7b62cdbac761a82077fbd7185a8b02515b23d6f50a8a9c47d6720d61f0bb2d07414c3ac14d9d98ab0fe71cdf8310b538004806bee2994e4cbd31134c91005a20"
 
 RPROVIDES:${PN} += "ocaml-CommonPath \
 ocaml-ExtensionPath \
@@ -97,8 +97,7 @@ ocaml-Stdlib--Uchar \
 ocaml-Str \
 ocaml-Unix \
 ocaml-fileutils \
-ocamlfind-seq \
-ocamlfind-stdlib-shims \
+ocamlfind-fileutils \
 ocamlfind-str \
 ocamlfind-unix \
 ocamlx-Stdlib \

@@ -8,10 +8,10 @@ the actual set up of the mainboard and the BIOS used on that specific \
 mainboard!"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.6.0"
+PV = "3.6.2"
 
-RPM_NAME = "sensors-3.6.0-8.8.aarch64.rpm"
-RPM_HASH = "d61910e4a8e0751b8b4b8b36c7f553f80a023c209d26f4df87046b60d1905663bc1635e0c2f8b91c04799dc62af64fe28d371865d819cb5a3f0367faee474f0d"
+RPM_NAME = "sensors-3.6.2-5.4.aarch64.rpm"
+RPM_HASH = "7a9e47920d70ec7e7d4dcf04c2af633fcce3200e327834455251813c38b73318b49577fb6820a02b16ef0e91aa60af60a647146bb39913278cb21cf6027509b2"
 
 RPROVIDES:${PN} += "sensors"
 

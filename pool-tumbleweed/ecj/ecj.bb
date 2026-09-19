@@ -5,11 +5,14 @@ LICENSE = "EPL-2.0 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "4.23"
 
-RPM_NAME = "ecj-4.23-2.1.noarch.rpm"
-RPM_HASH = "63bf6900cd7aa8b539a6edc9f6b215e992be719662a8056c2f1460b03245712273b0a70f273a7e1890ce08c3c4a5f421dabe1b53fc42a580d5cc793ddf324275"
+RPM_NAME = "ecj-4.23-4.8.noarch.rpm"
+RPM_HASH = "194aeb46606ae4ca3c0383908e9d02a51ae6e17374a43f4f2e071b2438358eba0cc06ab9812339fde0cb9558128317f901bbd95bbef0314d1f66ecb1ab4dea4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ecj \
+mvn-org.eclipse-java10api \
+mvn-org.eclipse-java9api \
+mvn-org.eclipse-javax17api \
 mvn-org.eclipse.jdt-core \
 mvn-org.eclipse.jdt-core-pom- \
 mvn-org.eclipse.jdt-ecj \

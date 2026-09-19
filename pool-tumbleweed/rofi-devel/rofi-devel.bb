@@ -2,10 +2,10 @@ SUMMARY = "Development files for rofi"
 DESCRIPTION = "Development files and headers for rofi"
 LICENSE = "MIT"
 
-PV = "1.7.5"
+PV = "2.0.0"
 
-RPM_NAME = "rofi-devel-1.7.5-2.4.aarch64.rpm"
-RPM_HASH = "2ff7420d0ccc07727c696e8b8cc26d76106e5374b3fd7dd4a82da54ddb9cd8437aa5ba225580fd9996b4bb4ef5850fe05ba898d2e3e86bda07f7ff96e86bce46"
+RPM_NAME = "rofi-devel-2.0.0-1.7.aarch64.rpm"
+RPM_HASH = "4de096b134fa569f15b46032d3873e776fcb716a7e6de5f25d0408773d2c36df48275a7d2ea0cb1520a0e697cfff5efb9b7e4f9a4ba2e9047695160ccd426729"
 
 RPROVIDES:${PN} += "pkgconfig-rofi \
 rofi-devel"

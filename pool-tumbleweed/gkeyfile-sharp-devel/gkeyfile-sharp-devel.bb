@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.2"
 
-RPM_NAME = "gkeyfile-sharp-devel-0.2-18.21.aarch64.rpm"
-RPM_HASH = "aaadcd31a5637e04a7bc4860b8b6ccacc0a9f11075157e2d445e5871a8d44f4f7945c3462cbcd92bc496d9bd32d55f1651fb6a2aa539937c5946ea307e8230e7"
+RPM_NAME = "gkeyfile-sharp-devel-0.2-18.28.aarch64.rpm"
+RPM_HASH = "766715b35c65e1bd6c30b8204f2a8df6f0acafb3aaf27cb4433f6d0edc4c915b928403f9c70274623ed2dff7d3bef01a2d9e5e6d3d201b00565f71a94f5c1c60"
 
 RPROVIDES:${PN} += "gkeyfile-sharp-devel \
 pkgconfig-gkeyfile-sharp"

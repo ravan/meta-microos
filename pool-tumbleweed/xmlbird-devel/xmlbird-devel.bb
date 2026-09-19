@@ -5,10 +5,10 @@ This package contains the pkgconfig, header files and libraries needed to \
 develop application that use xmlbird."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.2.12"
+PV = "1.2.14"
 
-RPM_NAME = "xmlbird-devel-1.2.12-1.4.aarch64.rpm"
-RPM_HASH = "d46f2106abf7e06a6ef0b5e23e25b99cd2165bc7b8ffdf8bd8ad63b62afaf2b25d892288f39bab0979d0efe599cade52d07d59c933962b94dab658b7284cde7c"
+RPM_NAME = "xmlbird-devel-1.2.14-1.12.aarch64.rpm"
+RPM_HASH = "9cbceb7e601189fcc4db85866663c07571e8408d08f0cfa1fd7d4f59f4a361f974eabf19f704cb3329ad378724de6d77c295fe404c84a3ad59ad08c1ed84ce55"
 
 RPROVIDES:${PN} += "pkgconfig-xmlbird \
 xmlbird-devel"

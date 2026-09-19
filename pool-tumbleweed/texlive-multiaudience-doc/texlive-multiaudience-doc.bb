@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-multiaudience"
 DESCRIPTION = "This package includes the documentation for texlive-multiaudience"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.04svn60688"
+PV = "2026.226.1.04svn77682"
 
-RPM_NAME = "texlive-multiaudience-doc-2023.209.1.04svn60688-55.1.noarch.rpm"
-RPM_HASH = "c16941407f2a1ca0c639ece66cbed6a32a2575a2c82245df64bc8c037a94787ca7f5a81cc2550e82245e9f62e04690443fb57342627b4b8e0854b51d9231a5ac"
+RPM_NAME = "texlive-multiaudience-doc-2026.226.1.04svn77682-61.2.noarch.rpm"
+RPM_HASH = "eeb7eab76af33cd7eb6d13386a461e14907e9b0993082fbdba0daa1a8742d1628c0f73ebfd7c574cc60f7a970e79a5c29d3f1d246cd13655d47f4f7d39a6372b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-multiaudience-doc"

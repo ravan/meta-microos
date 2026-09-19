@@ -2,25 +2,25 @@ SUMMARY = "Plugin for Psi"
 DESCRIPTION = "OMEMO Multi-End Message and Object Encryption."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-omemoplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "b3179e37d02353557a593d01959be037ba9c4dbcd1a608423f446ef2f31d7c11d2cff8f30d07909b1ba611b3be00ec00e4487a295f4ba7567f30b025cf4bd7b1"
+RPM_NAME = "psi+-plugins-omemoplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "771a6ba1a41b5f6915c6c85c1427d7dd2473b1a0c4d492bd784de57cd99a409b30fb49dbacedc434286051d73637b4e5fbdc7a763f19c84d20c4424090b0df62"
 
 RPROVIDES:${PN} += "libomemoplugin.so \
 psi+-plugins-omemoplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
-libsignal-protocol-c.so.2 \
+libomemo-c.so.0 \
 libstdc++.so.6 \
 psi+"
 

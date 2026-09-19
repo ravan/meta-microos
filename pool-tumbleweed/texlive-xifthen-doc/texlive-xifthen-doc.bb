@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-xifthen"
 DESCRIPTION = "This package includes the documentation for texlive-xifthen"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4.0svn38929"
+PV = "2026.226.1.4.0svn77682"
 
-RPM_NAME = "texlive-xifthen-doc-2023.209.1.4.0svn38929-53.2.noarch.rpm"
-RPM_HASH = "a3c5458941391cd85b2b2329869336866e1fc92cb6922f8639e60b9895991f793d33f1adf4d3cd38d088e21b80299f3d1fb526c459387506efa6e0372d6c76b0"
+RPM_NAME = "texlive-xifthen-doc-2026.226.1.4.0svn77682-59.4.noarch.rpm"
+RPM_HASH = "c335a9930fa1f9e000a3e7325cae10e707dabd127ee5007d49ffd7004a2b1f366d51c39005736c1282679327cd98b574543f777b799ba9d5220bfdf26394fd65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xifthen-doc"

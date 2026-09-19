@@ -7,10 +7,10 @@ tools. Some target drivers uses all of them and some use only \
 user-space daemon and tools (i.e. they completely runs in user space)."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.0.85"
+PV = "1.0.97"
 
-RPM_NAME = "tgt-1.0.85-1.5.aarch64.rpm"
-RPM_HASH = "c8a874999576b129bd13b70e3a0789c422116f3092fa675db6c074d3a9fce3f37908bf17d158739cb97892822151c3935070346a9c431c2d6cb2ffcbb5216bac"
+RPM_NAME = "tgt-1.0.97-1.3.aarch64.rpm"
+RPM_HASH = "8ce28b291c87905622f0a70fde9551094c6bda0695acb305c5afadfbd7191dd2a91b4a4c540edb53a7ea33b8f28dbd66bf050a8c38a5b2d06150300bd910b5f3"
 
 RPROVIDES:${PN} += "config-tgt \
 tgt"

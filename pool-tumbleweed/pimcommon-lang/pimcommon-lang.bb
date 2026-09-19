@@ -2,13 +2,14 @@ SUMMARY = "Translations for package pimcommon"
 DESCRIPTION = "Provides translations for the 'pimcommon' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "pimcommon-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0fcc1c156098c6bc1ba7a6d3fbd6c5b2d0b4b2fd5af862283befcc3fda5727d7a4d1050fbd2e0e0f8d5a4623055547fc80a8482025eb1318bf70b07ad9e6d44f"
+RPM_NAME = "pimcommon-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c1626073345b5685f9638fded0b8e0f73363a88bb872b91ecdf3039fd649ac7ac7698ee27622c6f8a09b86562810e04bdbca79237e10a8e750877df939f8af38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pimcommon-ar \
+locale-pimcommon-ast \
 locale-pimcommon-bs \
 locale-pimcommon-ca \
 locale-pimcommon-ca@valencia \
@@ -25,6 +26,8 @@ locale-pimcommon-fi \
 locale-pimcommon-fr \
 locale-pimcommon-ga \
 locale-pimcommon-gl \
+locale-pimcommon-he \
+locale-pimcommon-hi \
 locale-pimcommon-hu \
 locale-pimcommon-ia \
 locale-pimcommon-it \
@@ -33,6 +36,7 @@ locale-pimcommon-ka \
 locale-pimcommon-kk \
 locale-pimcommon-ko \
 locale-pimcommon-lt \
+locale-pimcommon-lv \
 locale-pimcommon-mr \
 locale-pimcommon-nb \
 locale-pimcommon-nds \
@@ -49,6 +53,7 @@ locale-pimcommon-sr@ijekavian \
 locale-pimcommon-sr@ijekavianlatin \
 locale-pimcommon-sr@latin \
 locale-pimcommon-sv \
+locale-pimcommon-ta \
 locale-pimcommon-tr \
 locale-pimcommon-ug \
 locale-pimcommon-uk \

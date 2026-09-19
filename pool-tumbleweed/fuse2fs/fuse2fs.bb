@@ -4,10 +4,10 @@ writing from devices or image files containing ext2, ext3, and \
 ext4 file systems."
 LICENSE = "MIT"
 
-PV = "1.47.0"
+PV = "1.47.3"
 
-RPM_NAME = "fuse2fs-1.47.0-1.1.aarch64.rpm"
-RPM_HASH = "c2dffd3fad3626a69179b6fa48a93a8ee042d83b126c8b7e0e46cc4ff0ff3192db9eaa1fc3db0c4de3d1952edc0e79d75be00e147f5f3834812a401e11b85397"
+RPM_NAME = "fuse2fs-1.47.3-2.2.aarch64.rpm"
+RPM_HASH = "efa67216c0628c8a97b5fa4fc2309c35ee7d964d91982716a6fe2cd8de4d3eb71bc3c459ada44e42f863a9a11bdf608eeea2363f6feb09a1d64c95a8985d426e"
 
 RPROVIDES:${PN} += "fuse2fs"
 
@@ -15,8 +15,9 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libblkid.so.1 \
 libc.so.6 \
 libcom-err.so.2 \
+libe2p.so.2 \
 libext2fs.so.2 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libuuid.so.1"
 
 inherit rpm

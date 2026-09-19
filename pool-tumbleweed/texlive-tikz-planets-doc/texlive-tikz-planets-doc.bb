@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikz-planets"
 DESCRIPTION = "This package includes the documentation for texlive-tikz-planets"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.2svn55002"
+PV = "2026.226.1.0.4svn75210"
 
-RPM_NAME = "texlive-tikz-planets-doc-2023.209.1.0.2svn55002-53.1.noarch.rpm"
-RPM_HASH = "0bb50847ba2fea0230e84b16e67aa10e554acdf54ce3e7d3c3788b4fe6c65f53a0f8c4cd7cfb4506686dcf697164eafb4f61b70e68312211eb79a3d149e9dc4f"
+RPM_NAME = "texlive-tikz-planets-doc-2026.226.1.0.4svn75210-59.2.noarch.rpm"
+RPM_HASH = "fc3c2d962059c0469d599cebbc0423034d9bb878e57170c8e369144a5ab8354ebf5a5fa3d5f837c18c7a74cbad2165e9a78758070b50903c26a50b0f5c1683e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikz-planets-doc"

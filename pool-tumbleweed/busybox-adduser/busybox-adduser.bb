@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the symlinks for adduser and some tools fro
 shadow suite."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-adduser-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "b31ab58c384fa7f5af75ac56cc187b38b88921fb6e32682962e5cff9f1d95072e40f194bad2c59af4b90d08095ed13205594ca7a850c116d1163f755790fe503"
+RPM_NAME = "busybox-adduser-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "d693435543670036d8ecd446ab6d5e0adac9db9d113d73da4a2ec3fdedb895c6ac9f8e58b612f068108fb8cb9d16863d994ea88645c37511e42039140fa7c309"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-adduser"

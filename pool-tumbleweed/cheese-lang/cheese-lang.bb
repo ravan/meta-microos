@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cheese"
 DESCRIPTION = "Provides translations for the 'cheese' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "44.1+12"
 
-RPM_NAME = "cheese-lang-44.1-1.1.noarch.rpm"
-RPM_HASH = "e694ee0d2303412036ec373534431d9430b276a37e06817f940cd91a7b202bca2dfec0852927b8fe4afbd5490d4e6c35de1acf79a97a22bac53fab7e11ab86cc"
+RPM_NAME = "cheese-lang-44.1+12-1.6.noarch.rpm"
+RPM_HASH = "ecc3dcd3879697a38420728b04497dc9836e2ba0c0865eb8104ddf2c88fd76544d784f565c0fb46470444750e981b9583181f2778219a879a903c71a4da678d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cheese-lang \
@@ -14,6 +14,7 @@ locale-cheese-af \
 locale-cheese-ar \
 locale-cheese-as \
 locale-cheese-ast \
+locale-cheese-az \
 locale-cheese-be \
 locale-cheese-be@latin \
 locale-cheese-bg \

@@ -42,8 +42,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.38"
 
-RPM_NAME = "perl-MouseX-Getopt-0.38-1.12.noarch.rpm"
-RPM_HASH = "3cb4d83bf2981c12e3204eb2aa5ce6ca4d10076d5774a605b8a97f8d48c046ce6bde6bf81380c980d3df1dbdbdbb2fc765fa59bd82fc0093cafdfee73ab03ab6"
+RPM_NAME = "perl-MouseX-Getopt-0.38-3.10.noarch.rpm"
+RPM_HASH = "0b5834336a1528c30c39d908d15006ba76aa0fc829633341e0672c1ad6fc1ae5de84070becaf3bf33ee9a9300a115581f7e4d30e8554f5f5452df2fcd637f4d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MouseX--Getopt \
@@ -56,10 +56,9 @@ perl-MouseX--Getopt--Meta--Attribute--Trait \
 perl-MouseX--Getopt--Meta--Attribute--Trait--NoGetopt \
 perl-MouseX--Getopt--OptionTypeMap \
 perl-MouseX--Getopt--Strict \
-perl-MouseX-Getopt \
-perl-mousex-getopt"
+perl-MouseX-Getopt"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Getopt--Long \
 perl-Getopt--Long--Descriptive \
 perl-Mouse \

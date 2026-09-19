@@ -2,10 +2,10 @@ SUMMARY = "Haskell lukko library documentation"
 DESCRIPTION = "This package provides the Haskell lukko library documentation."
 LICENSE = "GPL-2.0-or-later & BSD-3-Clause"
 
-PV = "0.1.1.3"
+PV = "0.1.2"
 
-RPM_NAME = "ghc-lukko-doc-0.1.1.3-5.8.noarch.rpm"
-RPM_HASH = "ab8c8e23f9b44bd4082bb709167fb8b23721ce3f93c0a14c79f0eb91a91e88848a03a00561f421a006f15d5f5e2215e5bd98ee33a0bb42d1c7402a81465bffb7"
+RPM_NAME = "ghc-lukko-doc-0.1.2-2.14.noarch.rpm"
+RPM_HASH = "8c02ee886cf795514df371876ac93f51ec08e585e6a8696c0f3026db71b113cd92b4c8027465c89eba59db3e396a31dd7995427edd5dbf84f1b4afa3febdaff4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-lukko-doc"

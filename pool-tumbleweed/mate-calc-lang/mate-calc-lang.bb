@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-calc"
 DESCRIPTION = "Provides translations for the 'mate-calc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-calc-lang-1.26.0-1.10.noarch.rpm"
-RPM_HASH = "55bed40ad9e95f0bed810e2bc4e28ffa9ecb54ec37a8121b5d0e8e088769bbffeae89268b0aef39e704c5f8facf57e52f0f5b0d751bbdcd0e20561791d62e3f0"
+RPM_NAME = "mate-calc-lang-1.28.0-2.6.noarch.rpm"
+RPM_HASH = "24cffa35b79140d37dbce8f1052b3a34cd12a5a3558845b2b943f869e95c16e5aa629ba70746e49f4b53ec779b81ce62cf093b1116cf24ad5c30a98b88060fa9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-calc-af \

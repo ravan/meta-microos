@@ -3,10 +3,10 @@ DESCRIPTION = "AsciiDoc can generate pdf from asciidoc format through dblatex. F
 latex dependencies that we don't want to have by default. So this package is optional."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "10.2.0"
+PV = "10.2.1"
 
-RPM_NAME = "asciidoc-latex-backend-10.2.0-1.5.noarch.rpm"
-RPM_HASH = "095586bc7da99afc13f531d11c3b1dc8c8a2c757aa6193660355636892ed3c13b1fc9da01aec20e948076e384750e3c241009d05cbb7c76ab080f237b954bf29"
+RPM_NAME = "asciidoc-latex-backend-10.2.1-2.1.noarch.rpm"
+RPM_HASH = "53131bce7ed7a45521b4acdecf58b39c88156e2c8cf317e4b7c14c659aa8e3d0b279f7849ac03a83a38cab0e29406c4adf686e4a667d02169a82c7402ef74a64"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc-latex-backend"

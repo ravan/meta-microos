@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "44.0.alpha1"
 
-RPM_NAME = "krb5-auth-dialog-lang-44.0.alpha1-1.1.noarch.rpm"
-RPM_HASH = "426e9120e00d61a6e986935b9ac169293ad13ff6a1e814531d8ac0b858cd12c412836bafd01b0057ee63c740fc97175eef71fe2942c6c422bca54f1b4ddcff2d"
+RPM_NAME = "krb5-auth-dialog-lang-44.0.alpha1-1.11.noarch.rpm"
+RPM_HASH = "6f1af24ae1aaee8256448a12325a1cbea43226cb39d4c635cae6ca78b08cdec2a178653d5c00cd3017c73babf372c1663b6b434b3d72e4209a0e6c3334c13dea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "krb5-auth-dialog-lang \

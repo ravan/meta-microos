@@ -2,10 +2,10 @@ SUMMARY = "Translations for package simple-scan"
 DESCRIPTION = "Provides translations for the 'simple-scan' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "simple-scan-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "1e5c94652b57f4075f298f179ffe25947811387138dcb1e5fab91198983a49edf1c161aafa8f98c4c11a38455ee9529adf0b77b4dab1381455af3a95fbdde256"
+RPM_NAME = "simple-scan-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "1ffacbd235eed38cef139cda6ea0179286d52baad52543a807f6508842d3f697e3a6a6f11de6d8c036b2badc80b23c55078c4f9985954eb6ec7594d4763d72ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-simple-scan-af \
@@ -14,6 +14,7 @@ locale-simple-scan-ast \
 locale-simple-scan-az \
 locale-simple-scan-be \
 locale-simple-scan-bg \
+locale-simple-scan-bn \
 locale-simple-scan-ca \
 locale-simple-scan-ca@valencia \
 locale-simple-scan-cs \
@@ -32,6 +33,7 @@ locale-simple-scan-fur \
 locale-simple-scan-gd \
 locale-simple-scan-gl \
 locale-simple-scan-he \
+locale-simple-scan-hi \
 locale-simple-scan-hr \
 locale-simple-scan-hu \
 locale-simple-scan-id \

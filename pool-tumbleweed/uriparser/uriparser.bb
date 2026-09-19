@@ -2,14 +2,17 @@ SUMMARY = "A strictly RFC 3986 compliant URI parsing library"
 DESCRIPTION = "uriparser is a strictly RFC 3986 compliant URI parsing library \
 and supports Unicode. \
  \
+ \
+ \
+ \
 There is a command line tool, uriparse, which allows parsing URIs and \
 show how the liburiparser splits it into components."
-LICENSE = "BSD-3-Clause & LGPL-2.1-or-later"
+LICENSE = "Apache-2.0 & BSD-3-Clause & LGPL-2.1-or-later"
 
-PV = "0.9.7"
+PV = "1.0.2"
 
-RPM_NAME = "uriparser-0.9.7-1.4.aarch64.rpm"
-RPM_HASH = "48da0737d10e15007db8755101a96b6a16fb82e04d4138a3105799e8ef02117a58951782e8abf2c8bf3be93c31c4d75babb992535baba7aa16a943b83b70f2c9"
+RPM_NAME = "uriparser-1.0.2-2.2.aarch64.rpm"
+RPM_HASH = "e02cef37c2b1f356d3624be6f6e6a2a68514d4447c11e77c1ea3e30a089d2c23b465aab31315088d93a987b07477b1597099c744996ea86458e70fef06beb1c2"
 
 RPROVIDES:${PN} += "uriparse \
 uriparser"

@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.2.40"
 
-RPM_NAME = "aytests-tests-1.2.40-1.11.noarch.rpm"
-RPM_HASH = "7f24b6bdde8bad6291db2d0e4fe27019934c910ce3bfbdf0e6fdf150e16a9181247bda18f069fbd38a2b5532c57e58c209167b79bf94ef4a442b1a6681d3b8bc"
+RPM_NAME = "aytests-tests-1.2.40-1.19.noarch.rpm"
+RPM_HASH = "8f47e03f7d8d5455c0119731dd641d3cd8603c567cf282b0c234e79c4ffbb2187bfaab4c8e45ca04e8c8f94480e6df4248524c8345837ecd66129ee4c5f943fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aytests-tests"

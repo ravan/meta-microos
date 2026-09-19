@@ -3,10 +3,10 @@ DESCRIPTION = "This is the MATE Seach Tool as shipped with the MATE utilities. I
 command-line tools such as find and locate to get results."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-search-tool-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "7416556ff556802568b1f7272f28aaac969efc43855faff7c2fa74528a396545b6c651de7ce908c02118bd64350159a3c91f9b50b1e6721f9e54042a664fe79d"
+RPM_NAME = "mate-search-tool-1.28.0-2.6.aarch64.rpm"
+RPM_HASH = "d8d5cfbc2d8e2addf3a3dd87fbcad4fd14444ec9850e9e3f30d13ad681ea958a9d135fa46192b1eab4ce33372b6a20cec7170473f27af4acd87a2e8ae44cf1d8"
 
 RPROVIDES:${PN} += "mate-search-tool"
 

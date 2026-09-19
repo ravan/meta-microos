@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-onedown"
 DESCRIPTION = "This package includes the documentation for texlive-onedown"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn59010"
+PV = "2026.226.1.7svn69067"
 
-RPM_NAME = "texlive-onedown-doc-2023.209.1.6svn59010-55.1.noarch.rpm"
-RPM_HASH = "4ded9acb7acd9b5cbea376296e27b30238c982e55fba8c74e22e5642705271ee30cb45d3e16c597c38fb6d1ddf2b27b96f34bd972576cf010f8c8bbb3b4d4946"
+RPM_NAME = "texlive-onedown-doc-2026.226.1.7svn69067-61.2.noarch.rpm"
+RPM_HASH = "cf719ac41bd6aa50d6c9bdef0f75de982c8ac48ea18db7b90e79e5e1136c6d2c6925902444e6053e806f68427291da1049ad0c9062b9dca55ba771567701e739"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-onedown-doc"

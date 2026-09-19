@@ -2,13 +2,13 @@ SUMMARY = "Prometheus Utility Tool"
 DESCRIPTION = "The Prometheus Utility Tool is used by the Prometheus project to build other components."
 LICENSE = "Apache-2.0"
 
-PV = "0.15.0"
+PV = "0.20.0"
 
-RPM_NAME = "golang-github-prometheus-promu-0.15.0-3.1.aarch64.rpm"
-RPM_HASH = "6af43015fdcd3b5e408e6a9b99b05762acac10d370da73a35576f78de6c38d96a6a13d5eb942e19a156d8cf814483455fe9c920f7462ac561ef99e1ec4b05faf"
+RPM_NAME = "golang-github-prometheus-promu-0.20.0-1.3.aarch64.rpm"
+RPM_HASH = "2fabae0543439e62c1ac11ddc1d75e2ff32e6267133911ccc89b49856f718e14eec97902ae5e772ac61ab85cde6e8da4b2361a4298e81738c30a4e030803823f"
 
 RPROVIDES:${PN} += "golang-github-prometheus-promu"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libc.so.6"
 
 inherit rpm

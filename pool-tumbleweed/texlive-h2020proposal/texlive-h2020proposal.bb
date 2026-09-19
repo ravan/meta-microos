@@ -5,10 +5,10 @@ generating automatically the many cross-referenced tables that \
 are required."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0svn38428"
+PV = "2026.226.1.0svn38428"
 
-RPM_NAME = "texlive-h2020proposal-2023.209.1.0svn38428-54.2.noarch.rpm"
-RPM_HASH = "538806b25e855a31035eb25417b80760bbaab5121d171394900046c5681593314c76c3387f2444fc9aeb5857478f1a3eca11c7f8fefed6a369764dcf35e17904"
+RPM_NAME = "texlive-h2020proposal-2026.226.1.0svn38428-60.4.noarch.rpm"
+RPM_HASH = "3f344603c3ce914d2a186101f06c47d33e513571db5a3b151a68fee3b60cf22eb6c5cb0cbbf3e9d53971ac6532a692e91ea2fbb6d3dab80b94b2939a8a2dcf63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-h2020proposal.cls \

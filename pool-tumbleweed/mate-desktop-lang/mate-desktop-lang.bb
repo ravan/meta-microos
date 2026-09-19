@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-desktop"
 DESCRIPTION = "Provides translations for the 'mate-desktop' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "mate-desktop-lang-1.26.1-1.2.noarch.rpm"
-RPM_HASH = "be3c4a83a7ecac5f82c164cce210551daa9ad28d801ba4435034f0824eaa823700a3eca5f1a83d6859374864b1b6f2511ddb0cb8bb6792a286567a3bb8246536"
+RPM_NAME = "mate-desktop-lang-1.28.2-1.13.noarch.rpm"
+RPM_HASH = "c9341e85010aeec276eaa1cdb86f4c74f555710488134b0f53755af2dc85c51ae775f30224278c0c20f9dd966651f768cf84e98e3499c54c32aec5fcf832f73a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-desktop-af \

@@ -12,10 +12,10 @@ in telecommunications. libcorrect uses a Viterbi algorithm decoder to decode \
 convolutional codes."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.0+git.20180109"
+PV = "20181010"
 
-RPM_NAME = "libcorrect0_0_0-0.0.0+git.20180109-3.9.aarch64.rpm"
-RPM_HASH = "926d68ea2f28294b1c5f19b22fca5fe838d806ebd8c66e9ed77ea082743cc655097fe589d42995103da50825f8b0a58a365fc2681e205b7df42aa99584cff2fe"
+RPM_NAME = "libcorrect0_0_0-20181010-1.6.aarch64.rpm"
+RPM_HASH = "d56ca17e8a85a4ab1b3f1f86f11b50d96462a2d6f40ae8cfd0a7d707d1e865b5dc13a4e6c17900c61be563930563ad2e4ae2d8eee83db62c1e9fc90ac9e25cd7"
 
 RPROVIDES:${PN} += "libcorrect.so.0.0.0 \
 libcorrect0-0-0"

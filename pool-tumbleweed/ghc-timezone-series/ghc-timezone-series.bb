@@ -8,18 +8,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.13"
 
-RPM_NAME = "ghc-timezone-series-0.1.13-2.3.aarch64.rpm"
-RPM_HASH = "90b9d3d7cd0584e40d9947fb448f34f568047294b8411b922d2dda4d6d5167a4c22a78fe7a0cd3d5842182cb03faca693de20c4b7f14a5dce70a230557e0e91f"
+RPM_NAME = "ghc-timezone-series-0.1.13-4.3.aarch64.rpm"
+RPM_HASH = "2d2f2cdad70edcee1f3c1b3632733ccb15f6ce2e21d388df8b29ae849cb689fd8c5a0802deeee4773dad77a064ce93251766b5e306edb69389fc8795155ab5d8"
 
 RPROVIDES:${PN} += "ghc-timezone-series \
-libHStimezone-series-0.1.13-IHWQx2h4brT4vl06IuBnhA-ghc9.4.6.so"
+libHStimezone-series-0.1.13-B1H9AY16C4DSLWHEx9hhA-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHStime-1.12.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
+libHStime-1.14-a7dc-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

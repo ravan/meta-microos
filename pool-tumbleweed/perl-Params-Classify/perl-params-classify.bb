@@ -22,15 +22,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.015"
 
-RPM_NAME = "perl-Params-Classify-0.015-1.30.aarch64.rpm"
-RPM_HASH = "94083fbabb4a79591ef36307e6ce87938d93f12365e01584a8af2444bd888281077a17a4bf49252535b0652de3551fd2131744ecd844c4fd7803eee6aa246a53"
+RPM_NAME = "perl-Params-Classify-0.015-1.47.aarch64.rpm"
+RPM_HASH = "b690d29273c921dc07e455cfc869e3250d57738ead80b4d421d3d394a7c1e8fa49acff1b5def1adb36b53b5d2bc6c6d691d54e9c23a11f46bcd4510eed2805c5"
 
 RPROVIDES:${PN} += "perl-Params--Classify \
 perl-Params-Classify"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

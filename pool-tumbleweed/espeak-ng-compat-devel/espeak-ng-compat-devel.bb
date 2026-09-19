@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains development files for espeak-ng \
 compatible with the original espeak."
 LICENSE = "Apache-2.0 & BSD-2-Clause & GPL-3.0-or-later & Unicode-DFS-2015"
 
-PV = "1.51"
+PV = "1.52.0"
 
-RPM_NAME = "espeak-ng-compat-devel-1.51-1.9.aarch64.rpm"
-RPM_HASH = "da4519ce276713028dd82fae2065e28a38b8aab205c01c2cd7e22ed02c99c49336ae03599a60dc4b6530cb0df12f1855db33b0d021861445629805c23afe943f"
+RPM_NAME = "espeak-ng-compat-devel-1.52.0-2.6.aarch64.rpm"
+RPM_HASH = "8075b47a644cb7263b67379477ea4ff1586b2bfa3f04b9bd92f274bb08c52f1d79cf73b056fe89d359c9371c115846f10fcbc765089e4bf821ff97987bdba948"
 
 RPROVIDES:${PN} += "espeak-ng-compat-devel"
 

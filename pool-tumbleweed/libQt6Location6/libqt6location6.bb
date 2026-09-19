@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Location library"
 DESCRIPTION = "The Qt 6 Location library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Location6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "69803e9dbd5249d0c7d73cdea1e12079a57e39b18d6b672156a884e44a176e05081f8548d32b6a0108be1dd39fbc98354fcc4c92317a867346396fd4187fb184"
+RPM_NAME = "libQt6Location6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "7eac7df9db325f08825faac7be32c99b65301fe15fc26faa6e9e978eb48821fe5ea66e1796be4ec7e5fe33250c65ff860c4bfbd02526a28cb2238a4e06028597"
 
 RPROVIDES:${PN} += "libQt6Location.so.6 \
 libQt6Location6"

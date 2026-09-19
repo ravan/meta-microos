@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 QuickWidgets library - Development files"
 DESCRIPTION = "Development files for the Qt 6 QuickWidgets library."
 LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quickwidgets-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "2c1dac066fc1fc984fb86ae8e1dbd849de674741fbd51bdc3bd22f8f4fc047ca384873944c44bf646595594c00c1a416c5587b3b5bc65d2864d031335db2445c"
+RPM_NAME = "qt6-quickwidgets-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "989d21bc30473f60566147976226933a28bc65bd4b30a20fd50b7ba550b4d8e81297b0fd96d27cb88462fea258d2d20e5121b1e921da72a9915f263216b04481"
 
 RPROVIDES:${PN} += "cmake-Qt6QuickWidgets \
 pkgconfig-Qt6QuickWidgets \

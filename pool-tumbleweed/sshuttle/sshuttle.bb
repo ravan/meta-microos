@@ -13,21 +13,22 @@ sshuttle is a program that solves the following case: \
   TCP-over-TCP, which has terrible performance."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.1.1"
+PV = "1.3.2"
 
-RPM_NAME = "sshuttle-1.1.1-3.1.noarch.rpm"
-RPM_HASH = "e6e115b86271ec412bdb6f293f872c58a30520234d9e0f189f78c588289a4597a4d55fd6d3e69b1752c2e0f0925474c0d6ddceb644e801459b245e6495712e31"
+RPM_NAME = "sshuttle-1.3.2-1.5.noarch.rpm"
+RPM_HASH = "939325fb21675c828e72e131ea5de5e24a0faa6020ee95d29fdc572baf2fb4fbb6228e13e6d9e4ff7629615cc5ee05df50cb0b03ba2987198101b52a3f816667"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sshuttle \
+RPROVIDES:${PN} += "python3.13dist-sshuttle \
 python3dist-sshuttle \
 sshuttle"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/python3.11 \
+/usr/bin/python3.13 \
 /usr/bin/sh \
 /usr/bin/touch \
 fillup \
-python-abi"
+python-abi \
+sysuser-shadow"
 
 inherit rpm

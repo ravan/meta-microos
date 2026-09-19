@@ -2,10 +2,10 @@ SUMMARY = "Haskell brick library documentation"
 DESCRIPTION = "This package provides the Haskell brick library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6"
+PV = "2.12"
 
-RPM_NAME = "ghc-brick-doc-1.6-2.12.noarch.rpm"
-RPM_HASH = "476970feb59eb7087ea09ecf04d10b6d3e0f659498ae8602e48d43dc063b6497cc1a16f38dc1fe6f4178bafd7bf0456eddcf77710921cf1e3feb754a6fba213b"
+RPM_NAME = "ghc-brick-doc-2.12-1.4.noarch.rpm"
+RPM_HASH = "85b8d5b285e0e6f96cae30c2db3ab6085b662dff2804e25d248e63f1f23974ea261433007f469b01d1eb9c59f3735319b186f7c9cadc23f23b3f944b63017adf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-brick-doc"

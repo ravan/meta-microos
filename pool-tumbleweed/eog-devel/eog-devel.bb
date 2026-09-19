@@ -6,10 +6,10 @@ This subpackage contains all the necessary files and documentation for \
 developing eog plugins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "44.3"
+PV = "50.3"
 
-RPM_NAME = "eog-devel-44.3-1.1.aarch64.rpm"
-RPM_HASH = "dec394ac3b7b69c2d692e00fa505e6108c582fccb758b0ac32a6623e9934352ca9b0ebd291e4e8f831039ec33579c3280a519f1003cd588508f814bb8f11a977"
+RPM_NAME = "eog-devel-50.3-1.1.aarch64.rpm"
+RPM_HASH = "0399b75fe4a83b420c20bb373a6e907a604aff791a517516cde7e88a9e02a96b3134a039c32aa4d0ec6b464f45b8d54b487c563731517d51834cd48b83053618"
 
 RPROVIDES:${PN} += "eog-devel \
 pkgconfig-eog"

@@ -2,13 +2,16 @@ SUMMARY = "LaTeX additional packages"
 DESCRIPTION = "A very large collection of add-on packages for LaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66548"
+PV = "2026.222.svn78205"
 
-RPM_NAME = "texlive-collection-latexextra-2023.208.svn66548-60.1.noarch.rpm"
-RPM_HASH = "22bc64e6d5410cceb985a6f3690602c59e281500221c102bbdc5581a3f2745fedcc3b368bf29a05a19630ace80a57ba8a0e448bfbf65d541459bb67b2ab17d8b"
+RPM_NAME = "texlive-collection-latexextra-2026.222.svn78205-68.2.noarch.rpm"
+RPM_HASH = "b31977ead2721c36a77f43fa8f70a59c9101d78e31869a0a028fea98cf4076013320a73e77a1518a198b247ed16b2b36b0d271b46890853d8ee7faacf07352e6"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-latexextra"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-latexextra \
+texlive-collection-latexextra"
 
 RDEPENDS:${PN} += "texlive-2up \
 texlive-a0poster \
@@ -31,6 +34,8 @@ texlive-adjmulticol \
 texlive-adjustbox \
 texlive-adrconv \
 texlive-advdate \
+texlive-affilauthor \
+texlive-afperpack \
 texlive-akktex \
 texlive-akletter \
 texlive-alchemist \
@@ -41,6 +46,7 @@ texlive-alterqcm \
 texlive-altfont \
 texlive-altsubsup \
 texlive-amsaddr \
+texlive-anima \
 texlive-animate \
 texlive-anonchap \
 texlive-answers \
@@ -50,6 +56,7 @@ texlive-appendixnumberbeamer \
 texlive-apptools \
 texlive-arabicfront \
 texlive-arcs \
+texlive-argumentation \
 texlive-arraycols \
 texlive-arrayjobx \
 texlive-arraysort \
@@ -71,13 +78,17 @@ texlive-autonum \
 texlive-autopdf \
 texlive-autopuncitems \
 texlive-avremu \
+texlive-awesomebox \
 texlive-axessibility \
 texlive-background \
 texlive-bankstatement \
 texlive-bashful \
 texlive-basicarith \
 texlive-bchart \
+texlive-beamer-reveal \
 texlive-beamer-rl \
+texlive-beamer-theme-albi \
+texlive-beamer-varbox \
 texlive-beamer2thesis \
 texlive-beamerappendixnote \
 texlive-beameraudience \
@@ -87,28 +98,41 @@ texlive-beamerdarkthemes \
 texlive-beamerposter \
 texlive-beamersubframe \
 texlive-beamertheme-arguelles \
+texlive-beamertheme-bilkent-econ \
+texlive-beamertheme-cleaneasy \
+texlive-beamertheme-csh \
 texlive-beamertheme-cuerna \
 texlive-beamertheme-detlevcm \
+texlive-beamertheme-durham \
 texlive-beamertheme-epyt \
 texlive-beamertheme-focus \
+texlive-beamertheme-gotham \
 texlive-beamertheme-light \
 texlive-beamertheme-metropolis \
+texlive-beamertheme-mirage \
 texlive-beamertheme-npbt \
 texlive-beamertheme-phnompenh \
 texlive-beamertheme-pure-minimalistic \
+texlive-beamertheme-rainbow \
 texlive-beamertheme-saintpetersburg \
 texlive-beamertheme-simpledarkblue \
 texlive-beamertheme-simpleplus \
+texlive-beamertheme-spectrum \
 texlive-beamertheme-tcolorbox \
 texlive-beamertheme-trigon \
 texlive-beamertheme-upenn-bc \
 texlive-beamerthemeamurmaple \
+texlive-beamerthemecelestia \
+texlive-beamerthemeconcrete \
 texlive-beamerthemejltree \
 texlive-beamerthemelalic \
 texlive-beamerthemenirma \
 texlive-beamerthemenord \
+texlive-beamertools \
 texlive-bearwear \
 texlive-beaulivre \
+texlive-beautybook \
+texlive-beautynote \
 texlive-beton \
 texlive-bewerbung \
 texlive-bez123 \
@@ -152,6 +176,7 @@ texlive-bxtexlogo \
 texlive-calcage \
 texlive-calctab \
 texlive-calculator \
+texlive-calculatoritems \
 texlive-calrsfs \
 texlive-cals \
 texlive-calxxxx-yyyy \
@@ -167,6 +192,7 @@ texlive-catchfile \
 texlive-catchfilebetweentags \
 texlive-catechis \
 texlive-catoptions \
+texlive-catppuccinpalette \
 texlive-cbcoptic \
 texlive-ccaption \
 texlive-cclicenses \
@@ -195,13 +221,17 @@ texlive-chkfloat \
 texlive-chletter \
 texlive-chngcntr \
 texlive-chronology \
+texlive-chronos \
 texlive-circ \
 texlive-circledsteps \
 texlive-circledtext \
+texlive-cistercian \
 texlive-classics \
 texlive-classpack \
 texlive-clefval \
 texlive-cleveref \
+texlive-cleveref-forward \
+texlive-cleveref-usedon \
 texlive-clicks \
 texlive-clipboard \
 texlive-clistmap \
@@ -215,6 +245,7 @@ texlive-cnltx \
 texlive-cntformats \
 texlive-cntperchap \
 texlive-codebox \
+texlive-codedescribe \
 texlive-codedoc \
 texlive-codehigh \
 texlive-codepage \
@@ -225,6 +256,7 @@ texlive-collection-latexrecommended \
 texlive-collection-pictures \
 texlive-colophon \
 texlive-color-edits \
+texlive-colorblind \
 texlive-colordoc \
 texlive-colorframed \
 texlive-colorinfo \
@@ -239,6 +271,7 @@ texlive-combelow \
 texlive-combine \
 texlive-comma \
 texlive-commado \
+texlive-commalists-tools \
 texlive-commedit \
 texlive-comment \
 texlive-commonunicode \
@@ -264,6 +297,8 @@ texlive-coordsys \
 texlive-copyedit \
 texlive-copyrightbox \
 texlive-coseoul \
+texlive-count1to \
+texlive-counterz \
 texlive-counttexruns \
 texlive-courseoutline \
 texlive-coursepaper \
@@ -272,6 +307,7 @@ texlive-cprotect \
 texlive-cprotectinside \
 texlive-crbox \
 texlive-create-theorem \
+texlive-creationboites \
 texlive-crefthe \
 texlive-crossreference \
 texlive-crossreftools \
@@ -283,7 +319,9 @@ texlive-csvsimple \
 texlive-cuisine \
 texlive-currency \
 texlive-currfile \
+texlive-curriculum-vitae \
 texlive-currvita \
+texlive-customenvs \
 texlive-cutwin \
 texlive-cv \
 texlive-cv4tw \
@@ -293,9 +331,12 @@ texlive-cybercic \
 texlive-darkmode \
 texlive-dashbox \
 texlive-dashrule \
+texlive-dashrulex \
 texlive-dashundergaps \
 texlive-dataref \
 texlive-datatool \
+texlive-datatool-english \
+texlive-datatool-regions \
 texlive-datax \
 texlive-dateiliste \
 texlive-datenumber \
@@ -348,7 +389,9 @@ texlive-dblfloatfix \
 texlive-dbshow \
 texlive-debate \
 texlive-decimal \
+texlive-decimalcomma \
 texlive-decorule \
+texlive-defoldfonts \
 texlive-delimtxt \
 texlive-democodetools \
 texlive-denisbdoc \
@@ -357,6 +400,8 @@ texlive-diagbox \
 texlive-diagnose \
 texlive-dialogl \
 texlive-dichokey \
+texlive-didactic \
+texlive-didec \
 texlive-dimnum \
 texlive-dinbrief \
 texlive-directory \
@@ -371,6 +416,7 @@ texlive-doctools \
 texlive-documentation \
 texlive-docutils \
 texlive-doi \
+texlive-doibanner \
 texlive-dotarrow \
 texlive-dotlessi \
 texlive-dotseqn \
@@ -411,6 +457,9 @@ texlive-efbox \
 texlive-egplot \
 texlive-ehhline \
 texlive-einfart \
+texlive-elegantbook \
+texlive-elegantnote \
+texlive-elegantpaper \
 texlive-elements \
 texlive-ellipsis \
 texlive-elmath \
@@ -421,6 +470,8 @@ texlive-emarks \
 texlive-embedall \
 texlive-embedfile \
 texlive-embrac \
+texlive-emo \
+texlive-emotion \
 texlive-emptypage \
 texlive-emulateapj \
 texlive-endfloat \
@@ -430,11 +481,17 @@ texlive-endnotes-hy \
 texlive-engpron \
 texlive-engrec \
 texlive-enotez \
+texlive-ensps-colorscheme \
+texlive-enumext \
 texlive-enumitem \
 texlive-enumitem-zref \
+texlive-enumsub \
 texlive-envbig \
+texlive-envelope-letter \
+texlive-enverb \
 texlive-environ \
 texlive-envlab \
+texlive-epcqrcode \
 texlive-epigraph \
 texlive-epigraph-keys \
 texlive-epiolmec \
@@ -452,12 +509,14 @@ texlive-esieecv \
 texlive-esindex \
 texlive-esint \
 texlive-esint-type1 \
+texlive-essaykit \
 texlive-etaremune \
 texlive-etextools \
 texlive-etl \
 texlive-etoc \
 texlive-eukdate \
 texlive-eulerpx \
+texlive-euromoney \
 texlive-europasscv \
 texlive-europecv \
 texlive-everyhook \
@@ -469,12 +528,14 @@ texlive-exam-randomizechoices \
 texlive-examdesign \
 texlive-example \
 texlive-examplep \
+texlive-examz \
 texlive-exceltex \
 texlive-excludeonly \
 texlive-exercise \
 texlive-exercisebank \
 texlive-exercisepoints \
 texlive-exercises \
+texlive-exercisesheets \
 texlive-exesheet \
 texlive-exframe \
 texlive-exp-testopt \
@@ -483,8 +544,10 @@ texlive-export \
 texlive-exsheets \
 texlive-exsol \
 texlive-extract \
+texlive-ezedits \
 texlive-facsimile \
 texlive-factura \
+texlive-fail-fast \
 texlive-familytree \
 texlive-fancyhandout \
 texlive-fancylabel \
@@ -503,11 +566,14 @@ texlive-ffslides \
 texlive-fgruler \
 texlive-fifo-stack \
 texlive-figsize \
+texlive-figureversions \
 texlive-filecontents \
 texlive-filecontentsdef \
 texlive-filedate \
 texlive-fileinfo \
 texlive-filemod \
+texlive-fillpages \
+texlive-fillwith \
 texlive-fink \
 texlive-finstrut \
 texlive-fistrum \
@@ -516,6 +582,7 @@ texlive-fixcmex \
 texlive-fixfoot \
 texlive-fixme \
 texlive-fixmetodonotes \
+texlive-fixtounicode \
 texlive-fjodor \
 texlive-flabels \
 texlive-flacards \
@@ -525,7 +592,9 @@ texlive-flashmovie \
 texlive-flexipage \
 texlive-flipbook \
 texlive-flippdf \
+texlive-floatbytocbasic \
 texlive-floatrow \
+texlive-floatrowbytocbasic \
 texlive-flowfram \
 texlive-fmp \
 texlive-fmtcount \
@@ -539,6 +608,7 @@ texlive-fnumprint \
 texlive-foilhtml \
 texlive-foliono \
 texlive-fontaxes \
+texlive-fontscale \
 texlive-fontsetup \
 texlive-fontsize \
 texlive-fonttable \
@@ -556,6 +626,7 @@ texlive-formular \
 texlive-fragments \
 texlive-frame \
 texlive-framed \
+texlive-framedsyntax \
 texlive-frankenstein \
 texlive-frege \
 texlive-froufrou \
@@ -568,6 +639,7 @@ texlive-functional \
 texlive-fundus-calligra \
 texlive-fundus-cyr \
 texlive-fundus-sueterlin \
+texlive-futharksymb \
 texlive-fvextra \
 texlive-fwlw \
 texlive-g-brief \
@@ -576,6 +648,7 @@ texlive-gauss \
 texlive-gcard \
 texlive-gcite \
 texlive-gender \
+texlive-genealogy-profiles \
 texlive-genmpage \
 texlive-gensymb \
 texlive-getfiledate \
@@ -602,12 +675,14 @@ texlive-glossaries-german \
 texlive-glossaries-irish \
 texlive-glossaries-italian \
 texlive-glossaries-magyar \
+texlive-glossaries-norsk \
 texlive-glossaries-nynorsk \
 texlive-glossaries-polish \
 texlive-glossaries-portuges \
 texlive-glossaries-serbian \
 texlive-glossaries-slovene \
 texlive-glossaries-spanish \
+texlive-glossaries-ukrainian \
 texlive-gmdoc \
 texlive-gmdoc-enhance \
 texlive-gmiflink \
@@ -621,6 +696,7 @@ texlive-graphicscache \
 texlive-graphicx-psmin \
 texlive-graphicxbox \
 texlive-graphpaper \
+texlive-gratzer-color-scheme \
 texlive-grayhints \
 texlive-grfpaste \
 texlive-grid \
@@ -643,6 +719,7 @@ texlive-harnon-cv \
 texlive-harpoon \
 texlive-hc \
 texlive-he-she \
+texlive-hebdomon \
 texlive-hep-acronym \
 texlive-hep-float \
 texlive-hep-math \
@@ -652,11 +729,13 @@ texlive-hereapplies \
 texlive-hhtensor \
 texlive-hideanswer \
 texlive-highlightlatex \
+texlive-highlightx \
 texlive-histogr \
 texlive-hitec \
 texlive-hitreport \
 texlive-hletter \
 texlive-hobsub \
+texlive-homework \
 texlive-hpsdiss \
 texlive-href-ul \
 texlive-hrefhide \
@@ -692,8 +771,10 @@ texlive-imakeidx \
 texlive-import \
 texlive-incgraph \
 texlive-indextools \
+texlive-indextra \
 texlive-inline-images \
 texlive-inlinedef \
+texlive-inlinegraphicx \
 texlive-inlinelabel \
 texlive-inputenx \
 texlive-inputtrc \
@@ -704,6 +785,7 @@ texlive-inversepath \
 texlive-invoice \
 texlive-invoice-class \
 texlive-invoice2 \
+texlive-ipsum \
 texlive-iso \
 texlive-iso10303 \
 texlive-isodate \
@@ -711,13 +793,16 @@ texlive-isodoc \
 texlive-isonums \
 texlive-isopt \
 texlive-isorot \
+texlive-isosigns \
 texlive-isotope \
 texlive-issuulinks \
-texlive-iwhdp \
+texlive-iwonamath \
 texlive-jlabels \
 texlive-jmsdelim \
 texlive-jobname-suffix \
+texlive-joinbox \
 texlive-jslectureplanner \
+texlive-jsonparse \
 texlive-jumplines \
 texlive-jvlisting \
 texlive-kalendarium \
@@ -737,23 +822,31 @@ texlive-koma-moderncvclassic \
 texlive-koma-script-sfs \
 texlive-komacv \
 texlive-komacv-rg \
+texlive-korigamik \
+texlive-ktbox \
 texlive-ktv-texdata \
+texlive-l3backend-dev \
 texlive-l3build \
+texlive-l3kernel-dev \
 texlive-labbook \
 texlive-labels \
 texlive-labels4easylist \
 texlive-labelschanged \
 texlive-lambdax \
+texlive-lastbib \
 texlive-lastpackage \
 texlive-lastpage \
 texlive-latex-amsmath-dev \
 texlive-latex-base-dev \
 texlive-latex-bin-dev \
+texlive-latex-context-ppchtex \
 texlive-latex-firstaid-dev \
 texlive-latex-graphics-dev \
 texlive-latex-lab-dev \
+texlive-latex-tagging-status \
 texlive-latex-tools-dev \
 texlive-latex-uni8 \
+texlive-latex2pydata \
 texlive-latexcolors \
 texlive-latexdemo \
 texlive-latexgit \
@@ -765,12 +858,14 @@ texlive-lcg \
 texlive-leading \
 texlive-leaflet \
 texlive-lebhart \
+texlive-lecturenotes \
 texlive-lectures \
 texlive-lectureslides \
 texlive-leftidx \
 texlive-leftindex \
 texlive-leipzig \
 texlive-lengthconvert \
+texlive-leporello \
 texlive-lettre \
 texlive-lettrine \
 texlive-lewis \
@@ -786,17 +881,22 @@ texlive-listingsutf8 \
 texlive-listlbls \
 texlive-listliketab \
 texlive-listofsymbols \
+texlive-listparskip \
+texlive-litetable \
 texlive-lkproof \
 texlive-lmake \
 texlive-locality \
 texlive-logbox \
 texlive-logical-markup-utils \
+texlive-logoetalab \
 texlive-logpap \
 texlive-longfbox \
 texlive-longfigure \
 texlive-longnamefilelist \
+texlive-longtwocolumn \
 texlive-loops \
 texlive-lsc \
+texlive-lscapeenhanced \
 texlive-lstaddons \
 texlive-lstfiracode \
 texlive-lt3graph \
@@ -827,6 +927,7 @@ texlive-makecmds \
 texlive-makecookbook \
 texlive-makedtx \
 texlive-makeglos \
+texlive-makegobbler \
 texlive-makelabels \
 texlive-makerobust \
 texlive-mandi \
@@ -842,6 +943,7 @@ texlive-mathastext \
 texlive-mathexam \
 texlive-mathfam256 \
 texlive-mathfont \
+texlive-mathgreeks \
 texlive-maybemath \
 texlive-mcaption \
 texlive-mceinleger \
@@ -854,11 +956,13 @@ texlive-media9 \
 texlive-medstarbeamer \
 texlive-meetingmins \
 texlive-memexsupp \
+texlive-memoize-ext \
 texlive-memory \
 texlive-mensa-tex \
 texlive-menu \
 texlive-menucard \
 texlive-menukeys \
+texlive-metacapture \
 texlive-metalogox \
 texlive-metanorma \
 texlive-metastr \
@@ -868,6 +972,7 @@ texlive-mfirstuc \
 texlive-mftinc \
 texlive-mi-solns \
 texlive-midpage \
+texlive-milestonetimeline \
 texlive-mindflow \
 texlive-minibox \
 texlive-minidocument \
@@ -877,6 +982,7 @@ texlive-minipage-marginpar \
 texlive-minitoc \
 texlive-minorrevision \
 texlive-minted \
+texlive-minted-code \
 texlive-minutes \
 texlive-mla-paper \
 texlive-mleftright \
@@ -885,10 +991,12 @@ texlive-mmap \
 texlive-mnotes \
 texlive-moderncv \
 texlive-modernposter \
+texlive-modernruler \
 texlive-moderntimeline \
 texlive-modref \
 texlive-modroman \
 texlive-modular \
+texlive-moloch \
 texlive-monofill \
 texlive-moodle \
 texlive-moreenum \
@@ -897,6 +1005,7 @@ texlive-morehype \
 texlive-moresize \
 texlive-moreverb \
 texlive-morewrites \
+texlive-movement-arrows \
 texlive-movie15 \
 texlive-mparhack \
 texlive-mpostinl \
@@ -914,8 +1023,10 @@ texlive-multienv \
 texlive-multiexpand \
 texlive-multifootnote \
 texlive-multilang \
+texlive-multinotes \
 texlive-multiple-choice \
 texlive-multirow \
+texlive-multitoc \
 texlive-mversion \
 texlive-mwe \
 texlive-mycv \
@@ -927,6 +1038,7 @@ texlive-namespc \
 texlive-ncclatex \
 texlive-ncctools \
 texlive-needspace \
+texlive-neoschool \
 texlive-nestquot \
 texlive-newcommand \
 texlive-newenviron \
@@ -945,19 +1057,23 @@ texlive-nidanfloat \
 texlive-ninecolors \
 texlive-nlctdoc \
 texlive-noconflict \
+texlive-nodepthtext \
 texlive-noindentafter \
 texlive-noitcrul \
 texlive-nolbreaks \
 texlive-nomencl \
 texlive-nomentbl \
+texlive-non-decimal-units \
 texlive-nonfloat \
 texlive-nonumonpart \
 texlive-nopageno \
 texlive-normalcolor \
+texlive-notebeamer \
 texlive-notes \
 texlive-notespages \
 texlive-notestex \
 texlive-notoccite \
+texlive-novabeamer-theme \
 texlive-nowidow \
 texlive-nox \
 texlive-ntheorem \
@@ -971,6 +1087,7 @@ texlive-ocgx2 \
 texlive-ocr-latex \
 texlive-octavo \
 texlive-oldstyle \
+texlive-onepgnote \
 texlive-onlyamsmath \
 texlive-opcit \
 texlive-opencolor \
@@ -985,6 +1102,7 @@ texlive-outlines \
 texlive-outlining \
 texlive-overlays \
 texlive-overpic \
+texlive-packdoc \
 texlive-padcount \
 texlive-pagecolor \
 texlive-pagecont \
@@ -994,6 +1112,7 @@ texlive-pagenote \
 texlive-pagerange \
 texlive-pageslts \
 texlive-palette \
+texlive-panda \
 texlive-pangram \
 texlive-paper \
 texlive-papercdcase \
@@ -1002,6 +1121,7 @@ texlive-papertex \
 texlive-paracol \
 texlive-parades \
 texlive-paralist \
+texlive-paramcalc \
 texlive-paresse \
 texlive-parnotes \
 texlive-parsa \
@@ -1009,6 +1129,7 @@ texlive-parselines \
 texlive-pas-cours \
 texlive-pas-cv \
 texlive-pas-tableur \
+texlive-passopt \
 texlive-patch \
 texlive-patchcmd \
 texlive-pauldoc \
@@ -1018,6 +1139,7 @@ texlive-pbalance \
 texlive-pbox \
 texlive-pbsheet \
 texlive-pdf14 \
+texlive-pdfannotations \
 texlive-pdfcol \
 texlive-pdfcolmk \
 texlive-pdfcomment \
@@ -1028,6 +1150,7 @@ texlive-pdfpagediff \
 texlive-pdfpc \
 texlive-pdfpc-movie \
 texlive-pdfprivacy \
+texlive-pdfrender \
 texlive-pdfreview \
 texlive-pdfscreen \
 texlive-pdfslide \
@@ -1035,6 +1158,7 @@ texlive-pdfsync \
 texlive-pdfwin \
 texlive-pdfx \
 texlive-pecha \
+texlive-pegmatch \
 texlive-perltex \
 texlive-permute \
 texlive-petiteannonce \
@@ -1054,6 +1178,7 @@ texlive-photo \
 texlive-photobook \
 texlive-picture \
 texlive-piff \
+texlive-pkginfograb \
 texlive-pkgloader \
 texlive-placeins \
 texlive-plantslabels \
@@ -1079,10 +1204,12 @@ texlive-prettytok \
 texlive-preview \
 texlive-printlen \
 texlive-probsoln \
+texlive-profmaquette \
 texlive-program \
 texlive-progress \
 texlive-progressbar \
 texlive-projlib \
+texlive-pronunciation \
 texlive-proofread \
 texlive-properties \
 texlive-prosper \
@@ -1093,8 +1220,10 @@ texlive-pstool \
 texlive-pstring \
 texlive-pxgreeks \
 texlive-pygmentex \
+texlive-pynotebook \
 texlive-python \
 texlive-pythonimmediate \
+texlive-q-and-a \
 texlive-qcm \
 texlive-qstest \
 texlive-qsymbols \
@@ -1103,7 +1232,10 @@ texlive-quiz2socrative \
 texlive-quotchap \
 texlive-quoting \
 texlive-quotmark \
+texlive-rainbowbrackets \
 texlive-ran-toks \
+texlive-randexam \
+texlive-randintlist \
 texlive-randtext \
 texlive-rccol \
 texlive-rcs-multi \
@@ -1111,6 +1243,7 @@ texlive-rcsinfo \
 texlive-readablecv \
 texlive-readarray \
 texlive-realboxes \
+texlive-realscripts \
 texlive-recipe \
 texlive-recipebook \
 texlive-recipecard \
@@ -1130,17 +1263,20 @@ texlive-repeatindex \
 texlive-repltext \
 texlive-rescansync \
 texlive-resmes \
+texlive-responsive \
 texlive-returntogrid \
 texlive-rgltxdoc \
 texlive-rjlparshap \
 texlive-rlepsf \
 texlive-rmpage \
+texlive-robust-externalize \
 texlive-robustcommand \
 texlive-robustindex \
 texlive-romanbar \
 texlive-romanbarpagenumber \
 texlive-romanneg \
 texlive-romannum \
+texlive-rorlink \
 texlive-rotfloat \
 texlive-rotpages \
 texlive-roundbox \
@@ -1159,17 +1295,21 @@ texlive-savetrees \
 texlive-scale \
 texlive-scalebar \
 texlive-scalerel \
+texlive-scaletextbullet \
 texlive-scanpages \
 texlive-schedule \
 texlive-schooldocs \
 texlive-scontents \
 texlive-scrambledenvs \
+texlive-scrhack \
 texlive-scrlayer-fancyhdr \
 texlive-scrlttr2copy \
+texlive-scrwfile \
 texlive-sdaps \
 texlive-sdrt \
 texlive-secdot \
 texlive-secnum \
+texlive-secretx \
 texlive-sectionbox \
 texlive-sectionbreak \
 texlive-sectsty \
@@ -1186,6 +1326,7 @@ texlive-semtex \
 texlive-sepfootnotes \
 texlive-seqsplit \
 texlive-sesstime \
+texlive-setspaceenhanced \
 texlive-sf298 \
 texlive-sffms \
 texlive-sfmath \
@@ -1206,6 +1347,7 @@ texlive-sidenotes \
 texlive-sidenotesplus \
 texlive-silence \
 texlive-sillypage \
+texlive-sim-os-menus \
 texlive-simplecd \
 texlive-simplecv \
 texlive-simpleinvoice \
@@ -1219,6 +1361,7 @@ texlive-skeyval \
 texlive-skills \
 texlive-skrapport \
 texlive-slantsc \
+texlive-slixte \
 texlive-smalltableof \
 texlive-smart-eqn \
 texlive-smartref \
@@ -1230,6 +1373,7 @@ texlive-soulpos \
 texlive-spacingtricks \
 texlive-spark-otf \
 texlive-sparklines \
+texlive-spelatex \
 texlive-splitindex \
 texlive-spot \
 texlive-spotcolor \
@@ -1242,10 +1386,13 @@ texlive-sslides \
 texlive-stack \
 texlive-stackengine \
 texlive-standalone \
+texlive-standardsectioning \
+texlive-starray \
 texlive-stdclsdv \
 texlive-stdpage \
 texlive-stealcaps \
 texlive-stex \
+texlive-stocksize \
 texlive-storebox \
 texlive-storecmd \
 texlive-stringstrings \
@@ -1261,7 +1408,6 @@ texlive-subfigmat \
 texlive-subfigure \
 texlive-subfiles \
 texlive-subfloat \
-texlive-substitutefont \
 texlive-substr \
 texlive-supertabular \
 texlive-suppose \
@@ -1272,8 +1418,10 @@ texlive-svn-multi \
 texlive-svn-prov \
 texlive-svninfo \
 texlive-swfigure \
+texlive-switch \
 texlive-swungdash \
 texlive-syntax \
+texlive-synthslant \
 texlive-syntrace \
 texlive-synttree \
 texlive-tabbing \
@@ -1281,12 +1429,14 @@ texlive-tabfigures \
 texlive-tableaux \
 texlive-tablefootnote \
 texlive-tableof \
+texlive-tablericons \
 texlive-tablists \
 texlive-tabls \
 texlive-tablvar \
 texlive-tabstackengine \
 texlive-tabto-ltx \
 texlive-tabu \
+texlive-tabular2 \
 texlive-tabularborder \
 texlive-tabularcalc \
 texlive-tabularew \
@@ -1297,14 +1447,18 @@ texlive-tagpair \
 texlive-tagpdf \
 texlive-talk \
 texlive-tamefloats \
+texlive-tangocolors \
 texlive-tasks \
+texlive-tblr-extras \
 texlive-tcldoc \
 texlive-tcolorbox \
 texlive-tdclock \
 texlive-technics \
 texlive-ted \
+texlive-telprint \
 texlive-templatetools \
 texlive-termcal \
+texlive-terminalcode \
 texlive-termlist \
 texlive-termsim \
 texlive-testhyphens \
@@ -1325,7 +1479,6 @@ texlive-textualicomma \
 texlive-texvc \
 texlive-theoremref \
 texlive-thinsp \
-texlive-thmtools \
 texlive-threadcol \
 texlive-threeparttable \
 texlive-threeparttablex \
@@ -1333,6 +1486,7 @@ texlive-thumb \
 texlive-thumbs \
 texlive-thumby \
 texlive-ticket \
+texlive-timeop \
 texlive-tipauni \
 texlive-titlecaps \
 texlive-titlefoot \
@@ -1349,15 +1503,19 @@ texlive-todo \
 texlive-todonotes \
 texlive-tokcycle \
 texlive-tokenizer \
+texlive-tokglobalstack \
+texlive-tokgroupmark \
 texlive-toolbox \
 texlive-topfloat \
 texlive-topiclongtable \
 texlive-totalcount \
 texlive-totcount \
 texlive-totpages \
+texlive-traffic-light-protocol \
 texlive-tramlines \
 texlive-translations \
 texlive-transparent \
+texlive-treesvr \
 texlive-trfsigns \
 texlive-trimspaces \
 texlive-trivfloat \
@@ -1365,6 +1523,7 @@ texlive-trsym \
 texlive-truncate \
 texlive-tucv \
 texlive-turnthepage \
+texlive-tutodoc \
 texlive-twoinone \
 texlive-twoup \
 texlive-txgreeks \
@@ -1372,23 +1531,29 @@ texlive-type1cm \
 texlive-typed-checklist \
 texlive-typeface \
 texlive-typoaid \
+texlive-typog \
 texlive-typogrid \
 texlive-uassign \
 texlive-ucs \
 texlive-uebungsblatt \
+texlive-ullrcorners \
 texlive-umoline \
 texlive-underlin \
 texlive-underoverlap \
 texlive-undolabl \
 texlive-uni-titlepage \
+texlive-unicode-math-input \
 texlive-unicodefonttable \
+texlive-unifront \
 texlive-unisc \
 texlive-unitconv \
 texlive-units \
 texlive-unravel \
+texlive-updatemarks \
 texlive-upmethodology \
 texlive-upquote \
 texlive-uri \
+texlive-useclass \
 texlive-ushort \
 texlive-uspace \
 texlive-utf8add \
@@ -1405,6 +1570,7 @@ texlive-verbatimcopy \
 texlive-verbdef \
 texlive-verbments \
 texlive-verifiche \
+texlive-verifycommand \
 texlive-version \
 texlive-versions \
 texlive-versonotes \
@@ -1415,6 +1581,7 @@ texlive-vmargin \
 texlive-volumes \
 texlive-vpe \
 texlive-vruler \
+texlive-vscodeicons \
 texlive-vtable \
 texlive-vwcol \
 texlive-wallcalendar \
@@ -1423,6 +1590,7 @@ texlive-warning \
 texlive-warpcol \
 texlive-was \
 texlive-webquiz \
+texlive-whatsnote \
 texlive-widetable \
 texlive-widows-and-orphans \
 texlive-williams \
@@ -1451,20 +1619,30 @@ texlive-xfakebold \
 texlive-xfor \
 texlive-xhfill \
 texlive-xifthen \
+texlive-ximera \
 texlive-xint \
+texlive-xint-regression \
 texlive-xkcdcolors \
+texlive-xkeymask \
 texlive-xltabular \
+texlive-xmeaning \
 texlive-xmpincl \
 texlive-xnewcommand \
 texlive-xoptarg \
 texlive-xpatch \
 texlive-xpeek \
+texlive-xpeekahead \
 texlive-xprintlen \
 texlive-xpunctuate \
+texlive-xreview \
 texlive-xsavebox \
 texlive-xsim \
+texlive-xsipa \
+texlive-xstacks \
+texlive-xstix2 \
 texlive-xstring \
 texlive-xtab \
+texlive-xtufte \
 texlive-xurl \
 texlive-xwatermark \
 texlive-xytree \
@@ -1482,6 +1660,7 @@ texlive-zref \
 texlive-zref-check \
 texlive-zref-clever \
 texlive-zref-vario \
+texlive-zugferd \
 texlive-zwgetfdate \
 texlive-zwpagelayout"
 

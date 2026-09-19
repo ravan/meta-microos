@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-itnumpar"
 DESCRIPTION = "This package includes the documentation for texlive-itnumpar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-itnumpar-doc-2023.209.1.0svn15878-56.1.noarch.rpm"
-RPM_HASH = "45c529369702ec204f5ccc6c81eb294c50e44d458389f49eac46af1abbfe9302b49deca2ab3f36cfc1c0d2341140625e51bdb5fa1d93bd46cbcff121e7799c93"
+RPM_NAME = "texlive-itnumpar-doc-2026.226.1.0svn15878-63.2.noarch.rpm"
+RPM_HASH = "dac9f9288e134503cb74b22b6162e06e7574344b0b77a886c7815ae283cb15e8ab0c204b1e0573a19d5f722fd568b8af0002c3e2bbac8e701acb55d746fcc4de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-itnumpar-doc"

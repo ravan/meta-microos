@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-is-bst"
 DESCRIPTION = "This package includes the documentation for texlive-is-bst"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.03svn52623"
+PV = "2026.226.2.03svn76790"
 
-RPM_NAME = "texlive-is-bst-doc-2023.209.2.03svn52623-56.1.noarch.rpm"
-RPM_HASH = "654f606b9369f0635a84b81da3e1803f5b2ea11569c9b8dfbc2d485ed3e2ec205678a1e7d6cf341c6e5bb8ec5e1b5f56879df692a221a5b9c3777234941c3c1f"
+RPM_NAME = "texlive-is-bst-doc-2026.226.2.03svn76790-63.2.noarch.rpm"
+RPM_HASH = "d5e9d9375cc0ec2e7550e0c3da87832947983af17b870be353ed73705c90a9ebf1ef2f8bae81cdc2f69d4924d08662861310bca852b9037a69c3d71f5ae8b2cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-is-bst-doc"

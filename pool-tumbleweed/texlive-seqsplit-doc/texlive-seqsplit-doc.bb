@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-seqsplit"
 DESCRIPTION = "This package includes the documentation for texlive-seqsplit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn15878"
+PV = "2026.226.0.0.1svn77682"
 
-RPM_NAME = "texlive-seqsplit-doc-2023.209.0.0.1svn15878-54.1.noarch.rpm"
-RPM_HASH = "92fe2f714fe51b0ee07503d66a140530e3080095d222d161da8b9a2c71c72a2a8e38f595511b5a7f47ae7f668b8efb57213b87114641c4bfe1215b2871d05438"
+RPM_NAME = "texlive-seqsplit-doc-2026.226.0.0.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "fe0618edf14a5cce5ec288dcc8f12826df899adc42281782dfc0fbc04d4afb1d340519722cf516b7714b9126a137b49fe7fad7588dfb4e7d002560ed07e98ba6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-seqsplit-doc"

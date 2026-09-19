@@ -5,8 +5,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-devel-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "77ff4cf1f5e72d0c9942a75ac0cf41ac9924d6e1719ad914552f552610cc4844e2908c3077f8d44a7945ce30ab49e5a9bf7f0d0ae4ca15af5297169d6645f09b"
+RPM_NAME = "cyrus-sasl-bdb-devel-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "b63d331345f86c8bc07da293c67cd301eeb2bfb2bb1ae01485e8216a34fe87061fdadbe2e96e00cc49f446f0f373a23a9dca3270a54800de9011dcc12289cee3"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb-devel \
 pkgconfig-libsasl2"

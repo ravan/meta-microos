@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-varisize"
 DESCRIPTION = "This package includes the documentation for texlive-varisize"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-varisize-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "34002fd48b3971468c40cbb5377be82a9087a8a1d43c336bdc4604008a4cb7352560af5be9f69d3fe76257093fe812adca902f009b58b7c4328e1c2efa9a04bb"
+RPM_NAME = "texlive-varisize-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "d702140ef3061a5f7d53d0668e226868d934a870c135bf893fce93aedf2eedea15949be9677bfec96d40800190a6a26815f83085e2338742f16daebffab6708e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-varisize-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "Typesets tensors with dots filling gaps and fine tuning of \
 index placement."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn51481"
+PV = "2026.227.1.1svn77682"
 
-RPM_NAME = "texlive-tensind-2023.209.1.1svn51481-55.1.noarch.rpm"
-RPM_HASH = "933a1f093f4413605d0925ceb19c74bf2d8b050bc68fdc3b16bda5c6c801cd4e06ba428b1e151129803208caad53e0bf501609506a1d0b1b54a3447b1b78c4bf"
+RPM_NAME = "texlive-tensind-2026.227.1.1svn77682-62.2.noarch.rpm"
+RPM_HASH = "ace240896681dd5bdaa840f167dc6db153688b6cf032151b8233b5e576510c69de78d9192edc34af100dcf05ed3590a15e307f6aaef480886693f1cdf3cdbf58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tensind.sty \

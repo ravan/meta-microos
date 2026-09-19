@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "1.0"
 
-RPM_NAME = "arabic-bitmap-fonts-1.0-18.15.noarch.rpm"
-RPM_HASH = "49a0aa138b7a34f568e333c21e71575353c0a026d121e01de589b530ec16535d4a6a7b9d09713b0a9436a9d285810d505ddeb3513e38afdf943a3adeabb7e367"
+RPM_NAME = "arabic-bitmap-fonts-1.0-18.23.noarch.rpm"
+RPM_HASH = "58d3417aae768fdb3cf5c903c64dc72f6f0ec984fd8ebe70f888299fd0b611c224eb207a3834af411b98888a56be0d14e22a41e5c431eaad1cd89e40b9aebc2d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arabic-bitmap-fonts \

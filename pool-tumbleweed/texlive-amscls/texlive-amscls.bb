@@ -8,10 +8,10 @@ distributed separately. The user documentation can be found in \
 the package amscls-doc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.20.6svn55378"
+PV = "2026.226.2.20.6svn77682"
 
-RPM_NAME = "texlive-amscls-2023.209.2.20.6svn55378-55.1.noarch.rpm"
-RPM_HASH = "0ce5f2a7339f02fffdafd2a3479a8de90724a1fcda731f5d60c3e36a1337aec84383f4d3910cfc841be8d035a7af5c17a3104521431445b01bc46274e5173e5b"
+RPM_NAME = "texlive-amscls-2026.226.2.20.6svn77682-61.2.noarch.rpm"
+RPM_HASH = "df2159128ddb0da3cb76262f01fd7bf2fedc13fbce997f77a921c4609cb981da1e828baffaa6793860e0ec74460c124ff910985c2ec4a6277debf8f98bc048f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-amsart.cls \

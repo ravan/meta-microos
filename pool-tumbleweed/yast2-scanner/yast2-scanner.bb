@@ -11,10 +11,10 @@ http://www.sane-project.org/ and the documentation in the package \
 'sane-backends'."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-scanner-4.6.0-1.2.aarch64.rpm"
-RPM_HASH = "2f80f6adc53101ab92b79e255c3dfbd9b4db1777444f2fca42cd7c466e1b414de4339582869bd7bba770c5555a6f4c146233130ab628a71e5837ba2cdc260961"
+RPM_NAME = "yast2-scanner-5.0.1-1.2.aarch64.rpm"
+RPM_HASH = "05253c1e07afae929d009271c44bd74f8a65ad34d9213702db01691adafc3110ced647819fd5983f6030ac7072c1b11a3fbc306592112db2bb72822a25f979ec"
 
 RPROVIDES:${PN} += "yast2-scanner"
 

@@ -12,10 +12,10 @@ and class diagrams) as well as classes for written exams \
 worksheets, and answer keys)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.3svn60210"
+PV = "2026.226.0.0.11.0svn77551"
 
-RPM_NAME = "texlive-schule-2023.209.0.0.8.3svn60210-54.1.noarch.rpm"
-RPM_HASH = "ffb946dfefd18e290242fc25659923d0d9d84d9250f97317dbe351d6d8295f45daea2b1d6dd5b54f854fe0f6ac315cb509ff02d009171ba76bd25f3548ef90e6"
+RPM_NAME = "texlive-schule-2026.226.0.0.11.0svn77551-60.2.noarch.rpm"
+RPM_HASH = "28c1a6136c5e705108fbcb547b09502412d7655aec733f8b490e62eddc3add45125829382fbfe05d42afbb7239636f861b33ec7755ae39a6f13ce1d9497333fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-relaycircuit.sty \
@@ -29,6 +29,8 @@ tex-schule.fach.Physik.pakete.tex \
 tex-schule.mod.Aufgaben.code.tex \
 tex-schule.mod.Aufgaben.optionen.tex \
 tex-schule.mod.Aufgaben.pakete.tex \
+tex-schule.mod.Aufgabenpool.code.tex \
+tex-schule.mod.Aufgabenpool.pakete.tex \
 tex-schule.mod.Bewertung.code.tex \
 tex-schule.mod.Bewertung.optionen.tex \
 tex-schule.mod.Bewertung.pakete.tex \
@@ -117,6 +119,7 @@ tex-fontenc.sty \
 tex-forarray.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
+tex-iftex.sty \
 tex-ifthen.sty \
 tex-inputenc.sty \
 tex-listings.sty \
@@ -143,7 +146,6 @@ tex-textcomp.sty \
 tex-tikz.sty \
 tex-units.sty \
 tex-varwidth.sty \
-tex-warning.sty \
 tex-wrapfig.sty \
 tex-xargs.sty \
 tex-xcolor.sty \

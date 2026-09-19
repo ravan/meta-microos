@@ -6,12 +6,12 @@ set of ebooks. Download books for free or for a fee. Add your own \
 catalog. Highly customizable. Choose colors, fonts, page turning \
 animations, dictionaries, bookmarks, etc. to make reading as \
 convenient as you want."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.99.4"
 
-RPM_NAME = "fbreader-0.99.4-3.28.aarch64.rpm"
-RPM_HASH = "2b8c47e8111089c16edc72b661b149dfb67e553a8b45fc3d251fe3f316a24d414501bc6b691a42c0269dc8c22bf027a17d7c8bb7b1c2e1b1dc3f9216c32fa4c0"
+RPM_NAME = "fbreader-0.99.4-5.4.aarch64.rpm"
+RPM_HASH = "012c5afacaa2222e9536ca89e481458d34cea2b2bc78583695daec18a21341ea677c49c61486fbc36c029aad94f08af4e01a1f5a1c889917fcee356a15679a5c"
 
 RPROVIDES:${PN} += "fbreader"
 

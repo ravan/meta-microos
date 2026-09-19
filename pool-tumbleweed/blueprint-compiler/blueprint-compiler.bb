@@ -2,20 +2,19 @@ SUMMARY = "A markup language for GTK user interfaces"
 DESCRIPTION = "A markup language for GTK user interface files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.0"
+PV = "0.22.2"
 
-RPM_NAME = "blueprint-compiler-0.6.0-1.2.noarch.rpm"
-RPM_HASH = "48baa45032c3f28c61d03ec6ba7dd9427edb20974c89a8a214b581b9083b018749ddc97eba2ee23ddc0d19a5f02e8ae451c17c3e6f7724952587366b468c924a"
+RPM_NAME = "blueprint-compiler-0.22.2-1.1.noarch.rpm"
+RPM_HASH = "5d42d24f6b432bd0bba499824b32966293414aace8ccb3dc0772f121ecb8ce7c8214651eb7afc91f2167e59eb15a552c16dc7345d21f244a28d6dc7d5c73fb6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blueprint-compiler"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-gobject-introspection-devel \
-gtk4-devel \
-libadwaita-devel \
 python-abi \
 python3-gobject \
-typelib-GIRepository"
+typelib-GIRepository \
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

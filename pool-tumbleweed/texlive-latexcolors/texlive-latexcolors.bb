@@ -4,10 +4,10 @@ defines the set of colors shown on latexcolor.com for use in \
 documents typeset with LaTeX & friends."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1asvn49888"
+PV = "2026.226.0.0.1asvn49888"
 
-RPM_NAME = "texlive-latexcolors-2023.209.0.0.1asvn49888-55.1.noarch.rpm"
-RPM_HASH = "cbb6be76dca4cb2fd30663e7828ae210c692a8b413fb3d4dc880fabb7ca4ef07ad2f4b673684c5ccf5f5fdfa6baf0b43895bc713fb178ef9c4a35711b29959a5"
+RPM_NAME = "texlive-latexcolors-2026.226.0.0.1asvn49888-61.2.noarch.rpm"
+RPM_HASH = "04fee28916a2fb82e0c975b99de6bde9b90053aac4d2469066904cb1487754dafd24ed880582ac727e701ce5ec2a87cb4e890955cd267bed6494b36863049e1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latexcolors.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Tibetan scr
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-tibetan-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "c98d5ed654b45b8f55b997cac89f0302e82d5d9eb8c64b0d7cfd22a456bec1881c5c588010803f7e4387cd6a993edb1c01fc39808b5946e3e88f756b29fdec30"
+RPM_NAME = "tesseract-ocr-traineddata-script-tibetan-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "47b814bc4415fe4b65decd59ff458a0474dde4521e40e2eb50c760ca48286461fcf14ef4c5c1c22b67d61240ef20d2af166b8c253c9a9f2e52bf25f999a9421b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-tibetan"

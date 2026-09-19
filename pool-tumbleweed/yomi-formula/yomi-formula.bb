@@ -12,14 +12,15 @@ LICENSE = "Apache-2.0"
 
 PV = "0.0.1+git.1630589391.4557cfd"
 
-RPM_NAME = "yomi-formula-0.0.1+git.1630589391.4557cfd-2.6.noarch.rpm"
-RPM_HASH = "0034f8fc14920cd8947d372d3c1631951928a7562d8d7dd248740c8b1ea537ac95ce18a4238bd8a1578b94fdd9d7264c7f60d4e4df4ef103e74acff93f32aaf4"
+RPM_NAME = "yomi-formula-0.0.1+git.1630589391.4557cfd-2.15.noarch.rpm"
+RPM_HASH = "2d021d160540104ba5212afd6a47d4dbfd167b20114705e5f7e4d94b5748cab5c910c53bb8215ccbd8e7ff2c0b4d4e1f715bc2dc918e9d74418e85f63583703c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-yomi-formula \
 yomi-formula"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+group-salt \
 python3-base \
 salt-formulas-configuration"
 

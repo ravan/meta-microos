@@ -11,10 +11,10 @@ fetchmailconf, an interactive GUI configurator suitable for end-users, \
 is included in the fetchmailconf package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.4.37"
+PV = "6.6.1"
 
-RPM_NAME = "fetchmail-6.4.37-1.5.aarch64.rpm"
-RPM_HASH = "132d1eae6764f7332f7e6417f0d290683423a7c72e1c6040f0391dce7064f111cb69ff09b25aa3865df0ee6f812c5f08b7554dda7f398fc25324b8cf4dabac88"
+RPM_NAME = "fetchmail-6.6.1-3.3.aarch64.rpm"
+RPM_HASH = "30d1cf13a2bbccb6779ba3a2764a1b673ae6d3f0638358f1147db5aceae4ff7f69cbe0dec350a307bac41713f99eed2a9d21a3508373bc758e9c957fecc042f3"
 
 RPROVIDES:${PN} += "config-fetchmail \
 fetchmail \

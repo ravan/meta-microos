@@ -3,10 +3,10 @@ DESCRIPTION = "This package lets you forward NBD connections from nbdkit \
 to another NBD server."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.32.2"
+PV = "1.48.0"
 
-RPM_NAME = "nbdkit-nbd-plugin-1.32.2-1.4.aarch64.rpm"
-RPM_HASH = "e4fa39f5f3cae92954111160c13feadbe22929db90b4bd98f848e51fd9d309903b5be0f977848bcbda281f2676225faccb08ed4d910d4b941a0f78a20debbc52"
+RPM_NAME = "nbdkit-nbd-plugin-1.48.0-1.1.aarch64.rpm"
+RPM_HASH = "da188ecab63dcd4e35afce671f9a75e5597c0798aea570eca46179acbfb85441b22fad030624a84258d425498d78b69918376a99fd89595694093a8d9d0c1d61"
 
 RPROVIDES:${PN} += "nbdkit-nbd-plugin"
 

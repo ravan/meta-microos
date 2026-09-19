@@ -2,10 +2,10 @@ SUMMARY = "APT module for maven-doxia"
 DESCRIPTION = "This package provides APT module for maven-doxia."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.1"
+PV = "2.1.0"
 
-RPM_NAME = "maven-doxia-module-apt-1.9.1-6.8.noarch.rpm"
-RPM_HASH = "2401c38c4503b300657af06df751882f72ee439ea8c31adcf5882f4a5e001514d667fd3799ed68f0749e6084877ffc5850fd5fcb087c39534f805208aea9927d"
+RPM_NAME = "maven-doxia-module-apt-2.1.0-1.3.noarch.rpm"
+RPM_HASH = "9c7660185f8da1167ed0b538912ec6fc76819b908e1f4a66a6fab92eed69534cfbea3fe320fd5de609695955376e8cdad5899024e38c703600a1c60fb223bd28"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-doxia-module-apt \
@@ -14,9 +14,10 @@ mvn-org.apache.maven.doxia-doxia-module-apt-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
+mvn-commons-io-commons-io \
+mvn-javax.inject-javax.inject \
 mvn-org.apache.maven.doxia-doxia-core \
 mvn-org.apache.maven.doxia-doxia-sink-api \
-mvn-org.codehaus.plexus-plexus-component-annotations \
-mvn-org.codehaus.plexus-plexus-utils"
+mvn-org.slf4j-slf4j-api"
 
 inherit rpm

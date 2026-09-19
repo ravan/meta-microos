@@ -26,8 +26,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "perl-MooseX-Role-Parameterized-1.11-1.17.noarch.rpm"
-RPM_HASH = "d4e0ec655262b1e7a89630d44945f5ebd4f32ea31c0d9a176ffc87413e8db57df750796b494c1540cb59d326b0e09e3472852a1b1c1e5ea3ec10d0b5741dc49e"
+RPM_NAME = "perl-MooseX-Role-Parameterized-1.11-1.31.noarch.rpm"
+RPM_HASH = "73b8f91c0bbd68fe4d707d3f19be2f4656c158d70d15ce999a861003b2cfd35ef94dfa62b2a9d06be5658ee2dbb7ebf65a09a3f7bd4fc4794ad3d92586a82923"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Role--Parameterised \
@@ -38,7 +38,7 @@ perl-MooseX--Role--Parameterized--Meta--Trait--Parameterized \
 perl-MooseX--Role--Parameterized--Parameters \
 perl-MooseX-Role-Parameterized"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Module--Runtime \
 perl-Moose \
 perl-Moose--Exporter \

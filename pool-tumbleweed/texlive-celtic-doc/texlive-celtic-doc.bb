@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-celtic"
 DESCRIPTION = "This package includes the documentation for texlive-celtic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn39797"
+PV = "2026.226.1.1svn39797"
 
-RPM_NAME = "texlive-celtic-doc-2023.209.1.1svn39797-53.1.noarch.rpm"
-RPM_HASH = "b457943f5510cde4820105f22dcecaeb0ea2edc0b7e9ed10cf8634a1796aad304ba491456bc970347adb09d966f7f402e2cdd9adfd9a530ba4da5060ca50fe9b"
+RPM_NAME = "texlive-celtic-doc-2026.226.1.1svn39797-59.2.noarch.rpm"
+RPM_HASH = "985f16e17fbb48ace8a728c48e6557843a3337437322dc6ab8a3b6f05c290b91d08ad2d494b6eb555619a63080ae3cf4260a61bc78f35969d77f91eaf402cc7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-celtic-doc"

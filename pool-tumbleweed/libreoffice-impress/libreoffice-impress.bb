@@ -3,10 +3,10 @@ DESCRIPTION = "This module allows you to create and edit presentations for slide
 meeting and Web pages by using LibreOffice office suite."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-impress-7.6.1.1-1.1.aarch64.rpm"
-RPM_HASH = "1615918f47bb3691401dca052a3288184d081daa239ba91be8e6a192ea7179d283fa5c6ba02024959cdb7645846639934abb248f998e21860da374fda0f6a62c"
+RPM_NAME = "libreoffice-impress-26.8.0.3-1.1.aarch64.rpm"
+RPM_HASH = "ea86441e0e8836fa653f6a5b9e219e334f6c187ad512f4ce596cd47abaab8203ee09a8b4bc020db0305faf7dc343c0f4e49fabd90059c9de58f3f00675659f50"
 
 RPROVIDES:${PN} += "libOGLTranslo.so \
 libPresentationMinimizerlo.so \

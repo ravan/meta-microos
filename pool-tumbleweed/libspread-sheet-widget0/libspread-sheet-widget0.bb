@@ -11,10 +11,10 @@ Features commonly found in graphical user interfaces such as cut and paste, \
 drag and drop and row/column labelling are also included."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.8"
+PV = "0.10"
 
-RPM_NAME = "libspread-sheet-widget0-0.8-1.11.aarch64.rpm"
-RPM_HASH = "4cb654e482b995cb7574b93b3a742eb6a9b7f7cf9abf92e80e9e981e142bb09009af2414df185e575ffde392117fb546265de2847975f243119d0ffd67ce8cc3"
+RPM_NAME = "libspread-sheet-widget0-0.10-1.10.aarch64.rpm"
+RPM_HASH = "75a8935a622d363238f8a3578244cf3940d57633a9852d0e8fb93e4a3e7bfaf56caedf4d3f45e69aa033ae3fcea25d59d794dec3a5365071f1579f88ab9e3ff3"
 
 RPROVIDES:${PN} += "libspread-sheet-widget.so.0 \
 libspread-sheet-widget0"

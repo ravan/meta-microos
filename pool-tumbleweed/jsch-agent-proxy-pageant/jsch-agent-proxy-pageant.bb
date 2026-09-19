@@ -2,10 +2,10 @@ SUMMARY = "Pageant connector for jsch-agent-proxy"
 DESCRIPTION = "Pageant connector for jsch-agent-proxy."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.0.7"
+PV = "0.0.9"
 
-RPM_NAME = "jsch-agent-proxy-pageant-0.0.7-4.7.noarch.rpm"
-RPM_HASH = "9cd188f9babdd55af26382b5df1834ca3e8489b4d4bda11c00d1970caaa71a0c5a390e76ce3f5a47a1299e4e54cb9749f9a195716df17b04f6c4d33a8e2c02bc"
+RPM_NAME = "jsch-agent-proxy-pageant-0.0.9-2.8.noarch.rpm"
+RPM_HASH = "ea7d085ea3ab6a02b1fde40170c3d21fed4a904bb65175706e2bb9d036133b6976c53e3c87f98da1aab2d43f7c697d2874122c2bfaccabe90b73809e2e3bce2e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsch-agent-proxy-pageant \
@@ -17,6 +17,6 @@ RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
 mvn-com.jcraft-jsch.agentproxy.core \
 mvn-net.java.dev.jna-jna \
-mvn-net.java.dev.jna-platform"
+mvn-net.java.dev.jna-jna-platform"
 
 inherit rpm

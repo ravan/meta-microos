@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-venn"
 DESCRIPTION = "This package includes the documentation for texlive-venn"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-venn-doc-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "9f2edba9205a95f10148f6093f1d04f71a64bb48671cd8c17ff7e91d0cc398ee88395065ad1b3566d7f3c2610e916eba590edcb53b581bf37b6ee8d1029b89a3"
+RPM_NAME = "texlive-venn-doc-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "6c7f4d56a05652a0d061bdabd1a38291f49f2a51589f84fcfdc83dce6d81ddc9320b1180892497c9fdd48b06a3392379d3ce0c49d4401ec45c83a6f48e6f947f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-venn-doc"

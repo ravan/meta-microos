@@ -3,10 +3,10 @@ DESCRIPTION = "This adds rsync support to libguestfs.  Install it if you want to
 rsync to upload or download files into disk images."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "libguestfs-rsync-1.50.1-4.2.aarch64.rpm"
-RPM_HASH = "b84191df606bd878d43dabbfea127b224942a304f56572da687fc6e9e600a38e7fb63296ba157b26b95d4fa2c75a5e2b900355483459840a864f2a3cb6d766d8"
+RPM_NAME = "libguestfs-rsync-1.60.1-1.1.aarch64.rpm"
+RPM_HASH = "f939dc665110af2a060c250670aaae7552f9d40b933f45c1547ce2d17296a59fd9fb9811456c05e0bd26d4a784217e5e22fa4cd5f0c1cd7c0730df622e23794b"
 
 RPROVIDES:${PN} += "libguestfs-rsync"
 

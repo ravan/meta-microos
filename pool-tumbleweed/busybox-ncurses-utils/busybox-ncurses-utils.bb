@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing ncurses-utils"
 DESCRIPTION = "This package contains the symlinks to replace ncurses-utils with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-ncurses-utils-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "2886e71d62724cb917b2eaaea6681d31eaa76f27e44202ca867c25f815c581879076be89f61d2f9b4603342a4875535ae4beee875b9dbda6306284c4aae2b873"
+RPM_NAME = "busybox-ncurses-utils-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "e1db93831b7e5a1498cba4436f44907bd2c437652acc85d5a7ec7729e546cee069e03258f3b9efba253a3415cdbf82b193776cdfaf2cb7120b4b492d5e9c0f9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-ncurses-utils"

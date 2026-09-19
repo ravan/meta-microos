@@ -7,15 +7,14 @@ on-the-fly conversion of media to format that client devices are \
 capable of handling."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.42.4"
+PV = "45.2"
 
-RPM_NAME = "rygel-0.42.4-1.1.aarch64.rpm"
-RPM_HASH = "29de0baca9346fe058c67bd9328da80104b42172a0cf217a85fbec8dfb71d5d02e6600c3c1f4ca8ed7859e40f78a7bd03dc431e0ed86c4947ed3260e41a62621"
+RPM_NAME = "rygel-45.2-1.2.aarch64.rpm"
+RPM_HASH = "c0f21a0f8e0c715e6b80de264c8f2b00644eedae1ea5acf2a2c1da9f173e7be6d76702e485af5405fcbe5ba5c2abe6f7bce5a44e64d42a5069851d637e23d2fa"
 
 RPROVIDES:${PN} += "config-rygel \
 librygel-external.so \
 librygel-gst-launch.so \
-librygel-lms.so \
 librygel-media-engine-gst.so \
 librygel-media-engine-simple.so \
 librygel-media-export.so \
@@ -38,7 +37,7 @@ libgstbase-1.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgsttag-1.0.so.0 \
-libgtk-3.so.0 \
+libgtk-4.so.1 \
 libgupnp-1.6.so.0 \
 libgupnp-av-1.0.so.3 \
 libgupnp-dlna-2.0.so.4 \
@@ -52,6 +51,6 @@ librygel-ruih-2.8.so.0 \
 librygel-server-2.8.so.0 \
 libsoup-3.0.so.0 \
 libsqlite3.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

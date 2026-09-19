@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-power-manager"
 DESCRIPTION = "Provides translations for the 'gnome-power-manager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "43.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-power-manager-lang-43.0-1.4.noarch.rpm"
-RPM_HASH = "930d3dd3ca682a2448cb18126b6a0822fe79b8d4a982855f843d581c979adbb3134b26babc7ed349e5cf6ffd50134110e6d2a4f6aeae31202b389c3d0eb4d59b"
+RPM_NAME = "gnome-power-manager-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "0a6ba1952f29594a351d11eee18a961875bcee073a420183830d78270ec11df20d4bc2352b4a4ab3cd37707771f56ad11d493771cecf89427e009c2df9699835"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-power-manager-lang \

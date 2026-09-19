@@ -13,10 +13,10 @@ supported browser. To use this module, you need to have already downloaded \
 and started the Selenium Server (Selenium Server is a Java application)."
 LICENSE = "Apache-2.0"
 
-PV = "1.49"
+PV = "1.500.0"
 
-RPM_NAME = "perl-Selenium-Remote-Driver-1.49-1.3.aarch64.rpm"
-RPM_HASH = "d767e415cbef50b2e79bbab8962c2f7c82307b501f61a136652bee3cbaed12da78200f79a52834f081e615f755e2d988d223963b6d6664c8216b7f2cd3fef67b"
+RPM_NAME = "perl-Selenium-Remote-Driver-1.500.0-1.5.aarch64.rpm"
+RPM_HASH = "cadd0f8fd9f4bb71e927531eb7a31360692fccf1beca8205967a51dad74951f85e23a48dd1d9d6f3f7d13ac3f27e94f498d4039b0caeda8fabea6347867b56d1"
 
 RPROVIDES:${PN} += "perl-Selenium--ActionChains \
 perl-Selenium--CanStartBinary \
@@ -53,7 +53,7 @@ perl-Test--Selenium--Remote--Role--DoesTesting \
 perl-Test--Selenium--Remote--WebElement"
 
 RDEPENDS:${PN} += "lsof \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Archive--Zip \
 perl-Clone \
 perl-File--Which \

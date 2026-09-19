@@ -23,12 +23,12 @@ somebody sends a HUP to all running processes spawned by your app (e.g. by \
 If the server detects a broken pipe while writing output to the client, it \
 ignores the signal. Otherwise, a client closing the connection early could \
 kill the server."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.52"
+PV = "0.520.0"
 
-RPM_NAME = "perl-HTTP-Server-Simple-0.52-1.25.noarch.rpm"
-RPM_HASH = "5f039540ae3af5fc5465f0bcbf836486be981d9659da3611646d825aab5773cab1a020a845e42717acf035acb0c566da5cf4c8fc8ef6bad55370a3f1379e966c"
+RPM_NAME = "perl-HTTP-Server-Simple-0.520.0-1.3.noarch.rpm"
+RPM_HASH = "5f1fa696e12442c3fa4f91ffe2f4add882fa21fcf574fb729335e198e816af20a27578f001921527f82fdb8bed5c2744220d1cadc0a10e3139737658fe8ec269"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Server--Simple \
@@ -36,7 +36,7 @@ perl-HTTP--Server--Simple--CGI \
 perl-HTTP--Server--Simple--CGI--Environment \
 perl-HTTP-Server-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CGI \
 perl-Socket"
 

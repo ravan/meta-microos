@@ -5,13 +5,14 @@ The typical usage is to give access to file-based ones. \
 This package contains libraries used by XRootD clients."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.6.1"
+PV = "5.9.0"
 
-RPM_NAME = "xrootd-client-libs-5.6.1-1.1.aarch64.rpm"
-RPM_HASH = "60a23cbcc4ec596826ea7aaea01f55f9fc5408e25a598bac43940e6feea096b4eba8669cf17143915c7dd813d83a3d64799f44d4a8a4301553c2153a52d5a916"
+RPM_NAME = "xrootd-client-libs-5.9.0-1.6.aarch64.rpm"
+RPM_HASH = "f0a0848ee78903cd8c1ddc4e8abe9fafcdd107f12d12f5bdc779f50a6c459ba698c87095fe0427b707499a48fbbd0e94409678808541a6269cf2f04fc3805ad7"
 
 RPROVIDES:${PN} += "config-xrootd-client-libs \
 libXrdCl.so.3 \
+libXrdEc.so.1 \
 libXrdFfs.so.3 \
 libXrdPosix.so.3 \
 libXrdPosixPreload.so.2 \
@@ -23,6 +24,7 @@ libXrdUtils.so.3 \
 libXrdXml.so.3 \
 libc.so.6 \
 libgcc-s.so.1 \
+libisal.so.2 \
 libstdc++.so.6 \
 libuuid.so.1 \
 libz.so.1 \

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 Sensors library - Development files"
 DESCRIPTION = "Development files for the Qt 6 Sensors library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-sensors-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "b17468087d3459d3465802b3ec72e8b85a8ce8b8b224d0ca7bcff3b7cbceead7d44507e7a2fb3ef1b38b20250f6d63462823be92ea12c14b1b9419612f21e4f0"
+RPM_NAME = "qt6-sensors-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "50a89885409fb32ef5c1ee9eeda197e31da6a10d48cb99ee5497078a05707e1844f6cdd16f42334b870d7c338d79567bd170a774d7396cf769ddee801a592a32"
 
 RPROVIDES:${PN} += "cmake-Qt6Sensors \
 pkgconfig-Qt6Sensors \

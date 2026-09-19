@@ -3,27 +3,25 @@ DESCRIPTION = "The Personal Health Information Management System for Desktop and
 for the GNU Health ecosystem"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.5"
+PV = "2.2.1"
 
-RPM_NAME = "mygnuhealth-1.0.5-2.7.aarch64.rpm"
-RPM_HASH = "88c90b2289f003e3274f2605006a73827439855a71b972d82393ce241be0bba15ce1879d1f3e34826e551e42edde912604bf95265a5c68bd3772e5dcde455c9b"
+RPM_NAME = "mygnuhealth-2.2.1-1.8.aarch64.rpm"
+RPM_HASH = "58d9b526fa0ca250edd1a49bd23bef470806f2771609224eed7722ad5fc6ee334e3e2032daa08fd4485cc6783aa75ccdbb81da8c90e3a645f5f2c679f1023734"
 
 RPROVIDES:${PN} += "mygnuhealth \
-python3.11dist-mygnuhealth \
+python3.13dist-mygnuhealth \
 python3dist-mygnuhealth"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
-kirigami2 \
 python-abi \
+python3-CairoSVG \
+python3-Kivy \
 python3-bcrypt \
-python3-matplotlib \
-python3-pyside2 \
+python3-bleak \
+python3-dateutil \
+python3-pygal \
 python3-requests \
-python3-tinydb \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kirigami.2"
+python3-tinydb"
 
 inherit rpm

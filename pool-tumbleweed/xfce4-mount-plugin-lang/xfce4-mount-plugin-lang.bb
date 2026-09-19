@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-mount-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-mount-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.6"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-mount-plugin-lang-1.1.6-1.1.noarch.rpm"
-RPM_HASH = "1a305a3f878e3ad36acb935ad02cb31d7302d632d76d1bb8d3674a58dc069aa99bb2915de3f6c1cd519ed75e70e22552b1a5452861276585d915d4ebfb934cb7"
+RPM_NAME = "xfce4-mount-plugin-lang-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "b8cb56a3a20596ed53955e9ffe34f8ec8cfe0160a0c0fa3e2c2e6e35eab23acc89afe09f5b93304a29cf7517bbcba221b874baeb1495d29439b834fd39d72e51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-mount-plugin-ar \
@@ -42,6 +42,7 @@ locale-xfce4-mount-plugin-pa \
 locale-xfce4-mount-plugin-pl \
 locale-xfce4-mount-plugin-pt \
 locale-xfce4-mount-plugin-pt-BR \
+locale-xfce4-mount-plugin-ro \
 locale-xfce4-mount-plugin-ru \
 locale-xfce4-mount-plugin-sk \
 locale-xfce4-mount-plugin-sq \

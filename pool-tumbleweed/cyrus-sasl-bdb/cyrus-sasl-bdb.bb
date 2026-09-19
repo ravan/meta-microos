@@ -5,8 +5,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "9b2802bee11ceb1b85d4a0f7a937ed409e9e7e892f17d4f87133be3f4cd71eaf0fa0e300b0a46b131097acd3927981e86f2ec3109a37ff5b98ce0f5e6fa7074d"
+RPM_NAME = "cyrus-sasl-bdb-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "d177e24f79d41e70f7843085d6d67e7b8824b65579176cd7bb87f21fea3338982a4ef740828f5083753c947a02dc31e68161995fcbff26caba4030ee18c856ff"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb \
 libanonymous.so.3 \

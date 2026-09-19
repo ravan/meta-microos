@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-afm2pl"
 DESCRIPTION = "This package includes the documentation for texlive-afm2pl"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66186"
+PV = "2026.226.svn71515"
 
-RPM_NAME = "texlive-afm2pl-doc-2023.209.svn66186-55.1.noarch.rpm"
-RPM_HASH = "8c7cee795983812cf0d185ab8e3ec885b80982d722b579df6e24b8ef9351ed76c4d11f2c72b8b4736216a34e05758a0c6f304bd45d6d2ae11a9d603a49db15e9"
+RPM_NAME = "texlive-afm2pl-doc-2026.226.svn71515-61.2.noarch.rpm"
+RPM_HASH = "6c60d3fe5ff20d4bfb989a9cb7c19c3102d5880869a3d8fa0232fe3c630bb6327db3f7731f9c467b7c84cb9390806668d5434a4a16d81b72e45f348ee749b15d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-afm2pl.1 \

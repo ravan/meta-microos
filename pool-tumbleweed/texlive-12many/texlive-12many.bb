@@ -8,10 +8,10 @@ provides an interface that makes changing from one to another a \
 one-line change."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn15878"
+PV = "2026.226.0.0.3svn15878"
 
-RPM_NAME = "texlive-12many-2023.209.0.0.3svn15878-55.1.noarch.rpm"
-RPM_HASH = "98f00ac4220c1b0b96f9e0d6b75f48ff614ed50150742105b375bf2f326971d6944893bc990a5553ec30af3e12d34052f8840666f2cdb672e8bf63bda5a7a286"
+RPM_NAME = "texlive-12many-2026.226.0.0.3svn15878-61.2.noarch.rpm"
+RPM_HASH = "cbe543364f2009d4e7d0e0112a36e053da00e74d1bfd0037e68ca6dab634195cae88d68358a21a9438e1586e5a2157b6e204899b75f3627efa9d477597b52eb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-12many.sty \

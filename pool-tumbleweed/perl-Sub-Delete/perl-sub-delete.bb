@@ -10,15 +10,15 @@ from the symbol table (though there may be references to it elsewhere, \
 including in compiled code)."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.00002"
+PV = "1.00003"
 
-RPM_NAME = "perl-Sub-Delete-1.00002-1.17.noarch.rpm"
-RPM_HASH = "30191ca60245a3ac4ec1ff4c9b980365780cf5081892cc0eb8b4d5ed8d6b2340b1ed3ca68202b99c5c8753f26b7a819736393b8b9f1d44eddfa3f523bd95a323"
+RPM_NAME = "perl-Sub-Delete-1.00003-1.5.noarch.rpm"
+RPM_HASH = "90ef77c98d3c405402ea65717370afe8b6cf90f037043924daf8de0c71548310982f508aa96050a84c8efa963cb40457a8f6855256b0447978490dd28a7e83a7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Delete \
 perl-Sub-Delete"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

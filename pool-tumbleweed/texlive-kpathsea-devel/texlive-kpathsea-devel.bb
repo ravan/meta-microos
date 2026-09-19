@@ -7,10 +7,10 @@ separately, but rather is released and maintained as part of \
 the TeX-live sources."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "6.3.5"
+PV = "6.4.2"
 
-RPM_NAME = "texlive-kpathsea-devel-6.3.5-93.2.aarch64.rpm"
-RPM_HASH = "32ce6371463c8612da54231586e249e4cb5bb558026dc522cf235bf77c58f6f6a640b9abe848af3a352045e881b86bd6f96aa89b08e72fd821af8a53960b4278"
+RPM_NAME = "texlive-kpathsea-devel-6.4.2-120.4.aarch64.rpm"
+RPM_HASH = "e7b594c7e12986a3cc0ed6dc7f1f8d5f8d29068120a2078c2bd9274eba3deae7ec54db1f0142cb6772280b03e6d4b9a097c2bfc73aacb3aec40b8374056315c2"
 
 RPROVIDES:${PN} += "pkgconfig-kpathsea \
 texlive-kpathsea-devel"

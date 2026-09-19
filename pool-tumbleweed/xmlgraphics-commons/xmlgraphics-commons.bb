@@ -8,10 +8,10 @@ Graphics2D implementations that let you generate PDF & \
 PostScript files, and much more."
 LICENSE = "Apache-2.0"
 
-PV = "2.8"
+PV = "2.11"
 
-RPM_NAME = "xmlgraphics-commons-2.8-1.3.noarch.rpm"
-RPM_HASH = "546161d9e02ac6d6bbad0ce36fc7c7ae59cab52c5b86978cbace75f07c68ec577a53b6a59cbe29cfcfc434c6e02dbdd5653d7a84d7e25d509d2a563b424aecb5"
+RPM_NAME = "xmlgraphics-commons-2.11-1.2.noarch.rpm"
+RPM_HASH = "dd07d24d5ea2a47824fe2af93aac6f8e29e1bbc56c33b038f6a55b29eb164dfae88ebce0705b3ac166300235178006d9a3bf78b9c2e216deaa480f16b0cf973c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.xmlgraphics-xmlgraphics-commons \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for qt6-location in QCH format"
 DESCRIPTION = "This package contains documentation for qt6-location in QCH format."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-location-docs-qch-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "bf8ee56d0e893e6738170e008fe2cc1d078bfcf0427f68a1690ad813ae12ad07a0aaefaf0bf5f7f30a86c8a25669a89e5e12da789dacfdbc9b5e71a20310961b"
+RPM_NAME = "qt6-location-docs-qch-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "855b4964ddd953cbeabe3def311fb9d4249983d6c0ad3fc0c8ce19409c0b5fb72b61bc6e25bac593634bc8600cbc670de487ecd57adfe78b98b83d5e86ddf92f"
 
 RPROVIDES:${PN} += "qt6-location-docs-qch"
 

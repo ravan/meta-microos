@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the YaST2 component for the Fibre Channel o
 Ethernet (FCoE) configuration."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-fcoe-client-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "2f2d6a7a1b7a0a6bc45e0f79962b5c0680313e3ca55b2a554db78d5730ad9158e80b3eb2fd7005418c28c1ece9a96579a191d4e5f38cf7d089218ee45c01e74a"
+RPM_NAME = "yast2-fcoe-client-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "ab85e74835544b3f0780378e7e104582fd94cc6840038b627775c004d8541d92dd42f3235c59dc2f33ab02c4a64aef0fdf6bddda9467190bcc3ceba4c07948fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-fcoe-client"

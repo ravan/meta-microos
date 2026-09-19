@@ -1,16 +1,17 @@
 SUMMARY = "Translations for package kuiviewer"
 DESCRIPTION = "Provides translations for the 'kuiviewer' package."
-LICENSE = "GPL-2.0-only & GFDL-1.2-only & LGPL-2.0-only"
+LICENSE = "GFDL-1.2-only & GPL-2.0-only & LGPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kuiviewer-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "8b0d33be632dae771d48050d60e48608383f28b963f5c1c1ef3692c1f7ddaa3b8d7fba43c962aa935e10d77661b86bb3c41bedf7f60eed6ce2c00f2a1871d774"
+RPM_NAME = "kuiviewer-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "cb36d7060587d7f6c4768828e2ae5ccac3535720717f533b9c780d18cbdc56461b67f8c1b50b3f0c072987a7d9159acd63dffa07ecde02ee436455e0726ff85a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kuiviewer-lang \
 kuiviewer-lang-all \
 locale-kuiviewer-ar \
+locale-kuiviewer-ast \
 locale-kuiviewer-az \
 locale-kuiviewer-be \
 locale-kuiviewer-bg \
@@ -33,6 +34,7 @@ locale-kuiviewer-fi \
 locale-kuiviewer-fr \
 locale-kuiviewer-ga \
 locale-kuiviewer-gl \
+locale-kuiviewer-he \
 locale-kuiviewer-hi \
 locale-kuiviewer-hu \
 locale-kuiviewer-ia \

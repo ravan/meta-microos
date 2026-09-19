@@ -2,10 +2,10 @@ SUMMARY = "osloversionedobjects library - Documentation"
 DESCRIPTION = "This package contains documentation files for python-oslo.versionedobjects."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.0"
+PV = "3.11.0"
 
-RPM_NAME = "python-oslo.versionedobjects-doc-3.1.0-1.3.noarch.rpm"
-RPM_HASH = "c5bd718f6c46191e6f06277f6342e60b641d49a8fd1b9c7aa16b781c02c30ed3c210c631c246e2c0224e667fa4bb2e5bae3601a0d60ffe551dcdecffcaba69de"
+RPM_NAME = "python-oslo.versionedobjects-doc-3.11.0-1.1.noarch.rpm"
+RPM_HASH = "5dc93976eead589062ab5e2dbf2f75e9a8980afb9a1ecccbd93ef47a19a9f80c96eaa05dfb5e5e874eae666bc4c4f67f4f297ee066dc87ba9c632c25406b2231"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-oslo.versionedobjects-doc"

@@ -12,17 +12,18 @@ does not deal with embossers' drivers. What's new in version \
 1.1 In this version, the support of the user level commands of \
 the amsmath package was added, as described in its user guide, \
 with the exception of commutative diagrams (amscd package) as \
-well as structures that are irrelevant to visually impared \
+well as structures that are irrelevant to visually impaired \
 persons. Also, the Unicode mathematics symbols of the \
 unicode-math package that are represented by the Nemeth code \
 are now supported by latex2nemeth. We would like to acknowledge \
-support by the TUGfund for this project (TUGfund project 33)."
+support by TUG's TeX development fund for this project \
+(development fund project 33)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1.3svn65269"
+PV = "2026.226.1.1.3svn76924"
 
-RPM_NAME = "texlive-latex2nemeth-2023.209.1.1.3svn65269-55.1.noarch.rpm"
-RPM_HASH = "0960a9b016f30bedcc61d7c8db410c7c1302f6697da7f0e7a152605290cdde9f587421fa207ff14b414e2c263c99e42d573fffffc853c596c449732e079cbcf0"
+RPM_NAME = "texlive-latex2nemeth-2026.226.1.1.3svn76924-61.2.noarch.rpm"
+RPM_HASH = "a30b646cfefefac3206ece6c5d41307a7eda379688e9560c2726e312aa82df9b36327dd5e510a53fd24ca1ca90a9bafd81d50940b720fc7d7b72ce34dc8bf64b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-latex2nemeth.jar \

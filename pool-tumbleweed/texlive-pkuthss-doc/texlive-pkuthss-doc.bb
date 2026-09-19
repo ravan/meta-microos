@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pkuthss"
 DESCRIPTION = "This package includes the documentation for texlive-pkuthss"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.3svn64869"
+PV = "2026.226.1.9.4svn70491"
 
-RPM_NAME = "texlive-pkuthss-doc-2023.209.1.9.3svn64869-52.1.noarch.rpm"
-RPM_HASH = "f42f0087660b83af350dc97d740681e7236e83e1bedee0a2c376f7ae78ec4f890df967c9d4055d47ee9f0196e916b7f7f78be3374e2452b0aeab776a5eb084fe"
+RPM_NAME = "texlive-pkuthss-doc-2026.226.1.9.4svn70491-58.2.noarch.rpm"
+RPM_HASH = "7b5b0a712e58bb43745e75ec04f8daf4913c0326ef5ae157fc468556ebaf0067356ec015006abcec092851321bcd9afc81da2ac7360a6d6c51ff3975cd39e095"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pkuthss-doc-zh \

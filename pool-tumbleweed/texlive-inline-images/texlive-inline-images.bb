@@ -5,10 +5,10 @@ decoded and included in the source file. Requirements LaTeX \
 must be run with option --shell-escape. Program base64."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.0svn61719"
+PV = "2026.226.1.0svn61719"
 
-RPM_NAME = "texlive-inline-images-2023.209.1.0svn61719-54.1.noarch.rpm"
-RPM_HASH = "6f4d8132c671d31588288c160092178487431ee2594faa653788024996af561e4ee0aeeaac00e3860c61709759a14deafad34726b73bce5af0dbb81c5d283b24"
+RPM_NAME = "texlive-inline-images-2026.226.1.0svn61719-60.2.noarch.rpm"
+RPM_HASH = "2aee6fd2f386a624df67a572f156f42796d7230bc0f37d355f57c57828eca8a9d66bcf792ca7025a4f078fd08288dcfe24022505f7600d33426e05d8d40e0012"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-inline-images.sty \

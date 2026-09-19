@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & BSD-3-Clause"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-xmlgen-2013.6.1-3.11.noarch.rpm"
-RPM_HASH = "0e9ab97c02a4002d1b8eee1c42ba014ada08150318b368629bfc198ffab328220939af3c3e707ab17a38f5918a3d1413ac7c5c76d8cc830e6191a8b87b0e333a"
+RPM_NAME = "msv-xmlgen-2013.6.1-7.2.noarch.rpm"
+RPM_HASH = "fc7d31710d4202448c37fd122a9c6a418f98117cd5612214d1d145ed57dc57db817395c463d40c0cb05845ff6ddd59947daeeb7ab18b210e22fbc628c3667b07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-xmlgen \

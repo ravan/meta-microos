@@ -2,10 +2,10 @@ SUMMARY = "Translations for package soundconverter"
 DESCRIPTION = "Provides translations for the 'soundconverter' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.0.3"
+PV = "4.0.5"
 
-RPM_NAME = "soundconverter-lang-4.0.3-1.5.noarch.rpm"
-RPM_HASH = "584c9d35487968b8bef6e6004e917befc954bf6007efc2fc7b0b00ad23c83efa8811b7dcf3f1f31de85849851aace2845b740cc5d128e1c7a711bc9014b268cf"
+RPM_NAME = "soundconverter-lang-4.0.5-2.2.noarch.rpm"
+RPM_HASH = "882ef0748b9f6dc75a985e6a2a0a9bf1783aba5351daabb5b45db2e7faf2b908f19bec4ea324afff3f08548f36e74ad0c5227a67a5593a493591b2740d4b03b5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-soundconverter-ar \
@@ -35,6 +35,7 @@ locale-soundconverter-hi \
 locale-soundconverter-hu \
 locale-soundconverter-it \
 locale-soundconverter-ja \
+locale-soundconverter-ka \
 locale-soundconverter-ko \
 locale-soundconverter-lt \
 locale-soundconverter-lv \
@@ -42,6 +43,7 @@ locale-soundconverter-ml \
 locale-soundconverter-ms \
 locale-soundconverter-nb \
 locale-soundconverter-nl \
+locale-soundconverter-oc \
 locale-soundconverter-pl \
 locale-soundconverter-pt \
 locale-soundconverter-pt-BR \

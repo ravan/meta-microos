@@ -8,10 +8,10 @@ To save time, this is done for all the peers in parallel. \
 The output is colored (if writing to a tty or explicitly requested) using terminal sequences, HTML or be just plain text."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "20230623.60ceb5c"
+PV = "20240702.9b5c479"
 
-RPM_NAME = "wg-info-20230623.60ceb5c-1.1.noarch.rpm"
-RPM_HASH = "4fa835db8a9bd6e4caf975bf8519b2da93d0300957280543f07c628aa54a3a74c787d31f4f5f459056c6961bb1a34505fd6a54aa3e5a62c66e5adb1b32c69268"
+RPM_NAME = "wg-info-20240702.9b5c479-1.7.noarch.rpm"
+RPM_HASH = "fae870ce546c633fac9a0d521f510bf68c37d4069e6facf1bb04ab082d1c85d3863b7759ebf25314c2db96e23c4385370dff8aa2a654e4827ca54a0fc38b89f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wg-info"

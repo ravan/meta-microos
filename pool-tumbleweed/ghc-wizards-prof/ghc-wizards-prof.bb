@@ -4,18 +4,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.3"
 
-RPM_NAME = "ghc-wizards-prof-1.0.3-6.5.aarch64.rpm"
-RPM_HASH = "f2a9904d835674c759d3f0b9c38b97f899641e732d95d1a58be277d68ae66ec0740f8449fd807892598d1975e4e83e0bcec4f7b639e95df2b8bdf7c0dcbbc337"
+RPM_NAME = "ghc-wizards-prof-1.0.3-7.16.aarch64.rpm"
+RPM_HASH = "794b7ea70dcf51d014b0ce5c269fedad3a60366186b75f28dd7d10a1797a0611d7953e8dd05a7621520ae1626b2bf4a7ee96a5c3872c5751b2023543b65ada52"
 
-RPROVIDES:${PN} += "ghc-prof-wizards-1.0.3-4dF6xVc0i30CRerGIMRP2J \
+RPROVIDES:${PN} += "ghc-prof-wizards-1.0.3-4fQKmsLBMwT4qK3PkBwApR \
 ghc-wizards-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-control-monad-free-0.6.2-14mRW5Z3hOW3y0QtFAGsp6 \
-ghc-prof-haskeline-0.8.2 \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-transformers-0.5.6.2 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-control-monad-free-0.6.2-INrHbxo4qSqC5LftAQgJHR \
+ghc-prof-haskeline-0.8.4.1-767e \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-transformers-0.6.3.0-4709 \
 ghc-wizards-devel"
 
 inherit rpm

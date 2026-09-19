@@ -15,10 +15,10 @@ listings are also available, using either \\lstinline|...| or \
 command)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9svn66222"
+PV = "2026.226.1.11bsvn77682"
 
-RPM_NAME = "texlive-listings-2023.209.1.9svn66222-55.1.noarch.rpm"
-RPM_HASH = "4ecfe9a03747f37d9c29729c77e3bb14a6e7db10db574b046e43c395d92a2f432421d7c78a419212cb690d9db221ea76d43aa14015cf37aeb4cf79eb4d63bcc5"
+RPM_NAME = "texlive-listings-2026.226.1.11bsvn77682-61.2.noarch.rpm"
+RPM_HASH = "971746d59bba24d2bf20f56fcd92c986429eb3fb519269e9ec91ad932fbd4922921d4199772c3aac6fa53a6cf1a41f2782bf68128a352c0c10a1e6bb899fb1fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listings.cfg \
@@ -28,6 +28,7 @@ tex-lstlang1.sty \
 tex-lstlang2.sty \
 tex-lstlang3.sty \
 tex-lstmisc.sty \
+tex-lstpatch.sty \
 texlive-listings"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -44,7 +45,7 @@ tex-keyval.sty \
 tex-nameref.sty \
 tex-textcomp.sty \
 tex-upquote.sty \
-tex-url.sty \
+tex-xurl.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

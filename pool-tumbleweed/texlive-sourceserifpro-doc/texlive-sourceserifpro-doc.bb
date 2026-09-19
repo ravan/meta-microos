@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sourceserifpro"
 DESCRIPTION = "This package includes the documentation for texlive-sourceserifpro"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.4svn54512"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-sourceserifpro-doc-2023.209.1.4svn54512-58.1.noarch.rpm"
-RPM_HASH = "ff90b3484ae5905a63bb749abe3f6b90fe3676d1af3102cd887be70da4f42e3c06383055c705aa89344e1fc6e1de815420ff8b8d023106c37a69de39cd974ef4"
+RPM_NAME = "texlive-sourceserifpro-doc-2026.226.1.4svn77682-64.2.noarch.rpm"
+RPM_HASH = "6416b3f3e1d2e91eccaabb7f4dc925f93613871f161e183ffb10001b813791e155a3a2c75a9968e3c11fd91d06b17e470cc36154d2001d6c291e69a474a5e681"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sourceserifpro-doc"

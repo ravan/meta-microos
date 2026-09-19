@@ -8,21 +8,19 @@ modification – across Arm Cortex CPUs and Arm Mali GPUs. \
 This package contains the development libraries and headers for armnn."
 LICENSE = "MIT"
 
-PV = "23.08"
+PV = "26.07"
 
-RPM_NAME = "armnn-devel-23.08-1.1.aarch64.rpm"
-RPM_HASH = "1f0add40791cebb5a7643a5e1c3c38017bb85edc43bb5e6eb528e583c063c2dd71f370c3b9af63efbc3d72b1685d44f625030e03abac23b20fb67f996efd73e8"
+RPM_NAME = "armnn-devel-26.07-1.1.aarch64.rpm"
+RPM_HASH = "a4aee7a8f87d07cb02889532eeac49acf6da19b4c90b91ee317ce342780e331aeab7b7e482582da885ecbe6d7b9dc6d82d4dc778dca227867d8c46d90d172b16"
 
 RPROVIDES:${PN} += "armnn-devel \
 cmake-Armnn"
 
 RDEPENDS:${PN} += "armnn \
-libarmnn33 \
-libarmnnBasePipeServer33 \
-libarmnnSerializer33 \
+libarmnn36 \
+libarmnnBasePipeServer36 \
 libarmnnTestUtils3 \
-libarmnnTfLiteParser24 \
-libtimelineDecoder33 \
-libtimelineDecoderJson33"
+libtimelineDecoder36 \
+libtimelineDecoderJson36"
 
 inherit rpm

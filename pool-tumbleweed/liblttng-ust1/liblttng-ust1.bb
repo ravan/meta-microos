@@ -3,10 +3,10 @@ DESCRIPTION = "This library may be used by user space applications to generate \
 tracepoints within the kernel LTT subsystem."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.13.5"
+PV = "2.14.0"
 
-RPM_NAME = "liblttng-ust1-2.13.5-1.4.aarch64.rpm"
-RPM_HASH = "08711f8b039574d5fde9de42114ee4040447493148ef8e60b742e530e06b4bc15f387937365f2eb9e34a8b2f0aa3d26b523423bb22c1dc86426c29db00c43770"
+RPM_NAME = "liblttng-ust1-2.14.0-1.3.aarch64.rpm"
+RPM_HASH = "0e37662bf86e73ae7559fc6d29206654b63e4dc520d2aba8036d41b1360d88cb6a521d4a049f9650350d86ab6dfdde50263c0aff62c4d00a59a4716bed010abe"
 
 RPROVIDES:${PN} += "liblttng-ust-common.so.1 \
 liblttng-ust-cyg-profile-fast.so.1 \

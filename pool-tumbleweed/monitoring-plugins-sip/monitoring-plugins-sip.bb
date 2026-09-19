@@ -11,12 +11,12 @@ The following optional variables are also available: \
   -w Seconds after which to respond with a warning \
   -s Switch off standard behavior: after this, all SIP-responses are counted \
       as success"
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3"
 
-RPM_NAME = "monitoring-plugins-sip-1.3-100.16.noarch.rpm"
-RPM_HASH = "2a2f5fb8e84c54dbf8852a2e65c9788c731a23995d0fa3b1ccc4a76984aa14071fafb89c38046412f212f079228f8af5cd319bd56bf232b0250a0945212f614b"
+RPM_NAME = "monitoring-plugins-sip-1.3-101.7.noarch.rpm"
+RPM_HASH = "b291d0c1b53f2306f13628391300d76666923a569c8568382a1ad41ce4372c5ae2cad6227cb96ca9ee910549c2b585a31e005dd66404626fea29922c13ada38e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-sip \

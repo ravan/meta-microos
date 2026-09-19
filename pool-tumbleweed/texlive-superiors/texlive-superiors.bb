@@ -1,21 +1,16 @@
 SUMMARY = "Attach superior figures to a font family"
 DESCRIPTION = "The package allows the attachment of an arbitrary superior \
 figures font to a font family that lacks one. (Superior figures \
-are commonly used as footnote markers.) Two superior figures \
-fonts are provided--one matching Times, the other matching \
-Libertine."
+are commonly used as footnote markers.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.06svn51909"
+PV = "2026.226.2.0svn77682"
 
-RPM_NAME = "texlive-superiors-2023.209.1.06svn51909-58.1.noarch.rpm"
-RPM_HASH = "4adcb2b3875446ca572c362c7429492611577803a92b4d8c978ba57f44f9aac79079cf33ed2e4ccd974a136f1f0f342c609e84d7dffa6153c0b2b6acf02ab6d9"
+RPM_NAME = "texlive-superiors-2026.226.2.0svn77682-64.2.noarch.rpm"
+RPM_HASH = "34da1151cc78b9daaa5680e96390909c97cbfd0af17ddc6c8bb317871bd33bc44d568e233518271cc5fa8a44e8f82ef73ebfcd164359aa23bb340a4b348fd8ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-libertinesups.tfm \
-tex-superiors.map \
-tex-superiors.sty \
-tex-sups.enc \
+RPROVIDES:${PN} += "tex-superiors.sty \
 texlive-superiors"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -24,16 +19,17 @@ ed \
 findutils \
 grep \
 sed \
-tex-fontenc.sty \
-tex-pgffor.sty \
-tex-updmap.cfg \
+tex-etoolbox.sty \
+tex-iftex.sty \
+tex-ifthen.sty \
+tex-trace.sty \
+tex-xcolor.sty \
 tex-xkeyval.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-scripts \
-texlive-scripts-bin \
-texlive-superiors-fonts"
+texlive-scripts-bin"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of purifyeps"
 DESCRIPTION = "Binary files of purifyeps"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn13663"
+PV = "2026.20260301.svn13663"
 
-RPM_NAME = "texlive-purifyeps-bin-2023.20230311.svn13663-93.2.aarch64.rpm"
-RPM_HASH = "20b8c90aeb3f71718fc1a9b5a55296e27c42add7c3f87a42689a2216cb897f0b00120ca2c966b16e555aed01de02c57b18e1ea2980373658942fdcb8adbd63cf"
+RPM_NAME = "texlive-purifyeps-bin-2026.20260301.svn13663-120.4.aarch64.rpm"
+RPM_HASH = "25e6640954bbed1cc63028e9d6b7f031481805fa0e210f4324a0aef34c94304ef6ad1df3f84824f49ffc9a21bcf9928dc3ae2ba15d47675fd8a237822ee38058"
 
 RPROVIDES:${PN} += "texlive-purifyeps-bin"
 

@@ -2,10 +2,10 @@ SUMMARY = "Support for Internationalized Domain Names (IDN)"
 DESCRIPTION = "An implementation of the IDNA2008 specifications (RFCs 5890, 5891, 5892, 5893)"
 LICENSE = "GPL-2.0-or-later | LGPL-3.0-or-later"
 
-PV = "2.3.4"
+PV = "2.3.8"
 
-RPM_NAME = "libidn2-0-2.3.4-1.4.aarch64.rpm"
-RPM_HASH = "ed2a521d1abb40678b485d9b309d014564f53abdb9a9869b501671f3a03aeb86ef60f9fc092b29e2a7810d65ddbc354821a2bdaee98d08c60d04d9b301fe02c7"
+RPM_NAME = "libidn2-0-2.3.8-1.5.aarch64.rpm"
+RPM_HASH = "109d023768cc2b860e8efd6f9a625ee6b5afc4693ce1006382b8a484ee228d45d3576d4fa0a652cbf873272675c1776fed81348e2b31ff05e10740eee29d9230"
 
 RPROVIDES:${PN} += "libidn2 \
 libidn2-0 \

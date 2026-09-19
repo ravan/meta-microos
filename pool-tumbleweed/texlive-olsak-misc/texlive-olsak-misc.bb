@@ -2,7 +2,8 @@ SUMMARY = "Collection of plain TeX macros written by Petr Olsak"
 DESCRIPTION = "This is a collection of various single-file plain TeX macros \
 written by Petr Olsak. The documentation is included in each \
 file separately. booklet.tex: re-orders PDF pages and collects \
-them for booklet printing cnv.tex: conversion of texts \
+them for booklet printing circu.tex: features from \
+circuitikz.sty enableda cnv.tex: conversion of texts \
 cnv-pu.tex: example of usage of cnv.tex --- pdf outlines in \
 Unicode cnv-word.tex: example of usage of cnv.tex --- word to \
 word conversion eparam.tex: Full expansion during parameter \
@@ -14,10 +15,10 @@ format seplist.tex: macros with alternative separators of a \
 parameter xmlparser.tex: parser of XML language"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.aug._2022svn65631"
+PV = "2026.226.apr._2025svn74906"
 
-RPM_NAME = "texlive-olsak-misc-2023.209.aug._2022svn65631-55.1.noarch.rpm"
-RPM_HASH = "f135a0d9ec3152bd6f75f31e465f75445712735acfe26e16a6667b339e7c7034730c3f20f833fe7cb0e2ac38f1eb642a5c541769eb7457caa2788d7ba35f8a47"
+RPM_NAME = "texlive-olsak-misc-2026.226.apr._2025svn74906-61.2.noarch.rpm"
+RPM_HASH = "7922e9979d26aea8f0251d14cc94634c727b2c295046fd283b8a5808db7836168a81ff7e3d158b578a2481092ed863a9fb5f8519808f0b8321f54b9e3cfe36e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-booklet.tex \

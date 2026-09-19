@@ -8,10 +8,10 @@ easy to script from command line and has already been used to find a slew \
 of bugs in programs that actually matter."
 LICENSE = "MIT"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "radamsa-0.6-2.1.aarch64.rpm"
-RPM_HASH = "7d364c001f9b498e07c55508e0949dc4e8a48c3bc60365094001976e898c2b0c3d271111b454b2ec96840b8e547227fa3aed86f19c2f519f2359128d88246856"
+RPM_NAME = "radamsa-0.7-1.11.aarch64.rpm"
+RPM_HASH = "426e5f91a9fbf56499e6d2bdee162582d92fa8b9d72abe67af6ce0110ea141583d3f8e9a0393777694ae1d0224b810f21930b2747d819bc5b6a889c35a81c654"
 
 RPROVIDES:${PN} += "radamsa"
 

@@ -16,15 +16,15 @@ after the tie, the elements of the cycle will change as well. See the \
 included _test.pl_ script for an example of this effect."
 LICENSE = "Artistic-2.0"
 
-PV = "1.227"
+PV = "1.233.0"
 
-RPM_NAME = "perl-Tie-Cycle-1.227-1.9.noarch.rpm"
-RPM_HASH = "55f3c5d510c6a6d638cb264bc719d85fba342545ae452fdcfbae097a7cb4709480634fad363c7c44e4fd3298ebd80283ff99a615f911b7c623cd321bb064fb2e"
+RPM_NAME = "perl-Tie-Cycle-1.233.0-1.5.noarch.rpm"
+RPM_HASH = "b3cec0df11479296b3a8bc3d912cf283561462d5e0383b3cef448100bdd1e6ca79ba345e1739a883cd681a3366f0fae582aa89cba6a879dea188e73ab684075c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Cycle \
 perl-Tie-Cycle"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

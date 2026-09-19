@@ -5,10 +5,10 @@ This library is used by many programs accessing FTDI USB-to-RS232 converters. \
 This package provides the python binding for libftdi."
 LICENSE = "LGPL-2.1-only & GPL-2.0-only & GPL-2.0-with-classpath-exception"
 
-PV = "1.5.12+git.0684c1b"
+PV = "1.6rc1.2+git.92d657b"
 
-RPM_NAME = "python3-libftdi1-1.5.12+git.0684c1b-2.2.aarch64.rpm"
-RPM_HASH = "c4113fdc4df98d7c307b504492756b538d3539b97dd0ff74ae2e2caa91418054041ae434fa7931440db9307fe5001313ad545da809f1d270d02634c7e7b4050f"
+RPM_NAME = "python3-libftdi1-1.6rc1.2+git.92d657b-2.1.aarch64.rpm"
+RPM_HASH = "1acabdb9b25121450c244eed1703f8dd7fedb04d2e2ce93486d381716c50de3065aa7bc3cf43383c2447d63a2f23f898ff11a60c4baa4c3ed8a642a6a157f14c"
 
 RPROVIDES:${PN} += "python3-libftdi1"
 

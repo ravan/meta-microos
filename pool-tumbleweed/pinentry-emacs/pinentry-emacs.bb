@@ -3,10 +3,10 @@ DESCRIPTION = "A simple PIN or passphrase entry dialog utilize the Assuan protoc
 as described by the Aegypten project, integrated into Emacs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.1"
+PV = "1.3.3"
 
-RPM_NAME = "pinentry-emacs-1.2.1-3.1.aarch64.rpm"
-RPM_HASH = "1f715d3c0b833f123735465b6fce813e64f3ba113e8d4efe0841e6c380de149b1159139c039e179271d32478f8b7d9b53761072cbde8ea6872e2880ac0b5deb7"
+RPM_NAME = "pinentry-emacs-1.3.3-1.1.aarch64.rpm"
+RPM_HASH = "7c8e235fc13a5b5da277434f3bf94c4798360c700d20d925372e20bc1ca6cba485f0b38b6d8e89e3ce582f4236a65538244b174282c8a3bde151b70fd1de2ec5"
 
 RPROVIDES:${PN} += "pinentry-/usr/bin/pinentry-emacs \
 pinentry-dialog \
@@ -15,7 +15,7 @@ pinentry-gui"
 
 RDEPENDS:${PN} += "emacs \
 ld-linux-aarch64.so.1 \
-libassuan.so.0 \
+libassuan.so.9 \
 libc.so.6 \
 libglib-2.0.so.0 \
 libgpg-error.so.0 \

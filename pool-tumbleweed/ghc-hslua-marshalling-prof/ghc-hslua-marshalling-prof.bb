@@ -2,20 +2,19 @@ SUMMARY = "Haskell hslua-marshalling profiling library"
 DESCRIPTION = "This package provides the Haskell hslua-marshalling profiling library."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.3.2"
 
-RPM_NAME = "ghc-hslua-marshalling-prof-2.3.0-1.8.aarch64.rpm"
-RPM_HASH = "110db28de61ee00989f0c7e17beb5256468984981adcbc2e984445ed9e57768823e76b257648629d6baee4ea131b60a2e80b3a87c448873574c6da4b42477054"
+RPM_NAME = "ghc-hslua-marshalling-prof-2.3.2-1.3.aarch64.rpm"
+RPM_HASH = "568b1f50f74c91aef00f95be43206b8bde89a65259afea12b3b0afd147f3292802f0e24df8b7a769f8977165564276589fe086220db58cb2502c46398be7f178"
 
 RPROVIDES:${PN} += "ghc-hslua-marshalling-prof \
-ghc-prof-hslua-marshalling-2.3.0-7mBSxD4mqSw36NR9RXD4Dj"
+ghc-prof-hslua-marshalling-2.3.2-4wJit3DV8Bh1LNaOjZB33o"
 
 RDEPENDS:${PN} += "ghc-hslua-marshalling-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-hslua-core-2.3.1-H6EUAt4RUpl9ClgBncvABk \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-hslua-core-2.3.2.1-GIcwwMIDhKVEx4MlcixfFr \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

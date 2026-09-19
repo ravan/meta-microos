@@ -3,10 +3,10 @@ DESCRIPTION = "This package allows you to easily display network packets \
 graphically."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn55827"
+PV = "2026.226.1.0svn55827"
 
-RPM_NAME = "texlive-tikzpackets-2023.209.1.0svn55827-53.1.noarch.rpm"
-RPM_HASH = "a00658b88cd3e1ec46d0ff6333b0307056dd932bb46cdc3df4b9bb8689ce9f35858b2d9de9e84d8e063beb742a462eb4afd4f776c89bd8cf4a3f396f061312ef"
+RPM_NAME = "texlive-tikzpackets-2026.226.1.0svn55827-59.2.noarch.rpm"
+RPM_HASH = "243f64b03f1e595298b2def5fc0d40ee032424451f94350732c98b63f96dba5eda68fac0c72fa7f02e6f40d53de28a4af37f850094df70857f26aa535b405ff3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzPackets.sty \

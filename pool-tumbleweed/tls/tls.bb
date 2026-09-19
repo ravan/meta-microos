@@ -5,12 +5,13 @@ exactly the same as channels created using Tcl's built-in socket \
 command with additional options for controlling the SSL session."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.22"
+PV = "2.0"
 
-RPM_NAME = "tls-1.7.22-2.7.aarch64.rpm"
-RPM_HASH = "2664c0455713debecf72f36dc1dbf02491e976f5e054528b0c7692f5ef7baef3b96cef4365a692c2b484f294d10872726bf944b2b0eef692e46d7a5b4c32c22f"
+RPM_NAME = "tls-2.0-1.3.aarch64.rpm"
+RPM_HASH = "ae9995184c09a54251b53070f834626997495cf77daa649aac0e375271e2ed91c2f661d6fa03760a35a1112a2400768290f532c535df998bc07df727b75431b3"
 
-RPROVIDES:${PN} += "tls"
+RPROVIDES:${PN} += "libtls2.0.so \
+tls"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \

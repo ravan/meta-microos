@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn48266"
+PV = "2026.226.1.1svn48266"
 
-RPM_NAME = "texlive-datetime2-magyar-2023.209.1.1svn48266-53.1.noarch.rpm"
-RPM_HASH = "8767975f7e441c88c71dfc4b9c7872c780fd22c4ea3c07161c07c264dafcb87f89c0418620b89be8ab098748cceadb12b99a725f426a387944654465bdcb0bfd"
+RPM_NAME = "texlive-datetime2-magyar-2026.226.1.1svn48266-59.2.noarch.rpm"
+RPM_HASH = "b2ae5a7f710695f2f8ba67d553692d61e7968f2cdffcad14bbf5c1e1e3a384b279e3f1dca820f55f7abd0d67a901127df25066fe3bb42c2f5e370ae52eaf758f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-magyar-ascii.ldf \

@@ -4,10 +4,10 @@ DESCRIPTION = "A sidecar output widget for JupyterLab. \
 This package provides the JupyterLab extension."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.6.2"
+PV = "0.8.1"
 
-RPM_NAME = "jupyter-sidecar-jupyterlab-0.6.2-6.1.noarch.rpm"
-RPM_HASH = "513c7ef7f518bb5a316dfdb0d2f35072050e3fe2dacb4e8d4177a2d3c919f23bd1583aedca911e131bdc46af30937dd8549ecd0f8629e15cb396ab98162ea98e"
+RPM_NAME = "jupyter-sidecar-jupyterlab-0.8.1-1.3.noarch.rpm"
+RPM_HASH = "580cc1b9489902cf6d9233547d7d25f786684f251a01c48a4f56ca197ee9134ab259b3213c4180e544f1da9c4054b71fa632f4b6fe0f0b39670f3523408a77f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-sidecar-jupyterlab"

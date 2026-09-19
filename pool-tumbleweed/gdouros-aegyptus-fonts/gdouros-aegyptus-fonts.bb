@@ -9,8 +9,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "6.17"
 
-RPM_NAME = "gdouros-aegyptus-fonts-6.17-1.16.noarch.rpm"
-RPM_HASH = "aa747d407ecb8e712c3a29f4cb1cede5ca638c60a71238b29d192b72c39216be17dc6f3ff01653b361c8874f6f3ef0ca4e6d7b9d1ca024788513444d498912b9"
+RPM_NAME = "gdouros-aegyptus-fonts-6.17-1.24.noarch.rpm"
+RPM_HASH = "fc02335dca68ad7752660dae3265eae65187f0df2ee94b9f5d4532d4698a8af1feb8ea33b66c1ee9dad5d5891c6b2f7bd82acb8068ac663dbf9e9ad2e3832fe2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aegyptus-fonts \

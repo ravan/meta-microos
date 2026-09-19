@@ -3,10 +3,10 @@ DESCRIPTION = "appx is a tool which creates and optionally signs \
 Microsoft Windows APPX packages."
 LICENSE = "BSD-3-Clause & MPL-2.0"
 
-PV = "0.4"
+PV = "0.5"
 
-RPM_NAME = "appx-util-0.4-2.5.aarch64.rpm"
-RPM_HASH = "86e17cbab033f24a379a171848e3caca3ddb932c90b0f783128a62bb5594f9ef21ca955fe6e942005b07afaf3d8d22aa048495439fd80325b1e74bf962c82f02"
+RPM_NAME = "appx-util-0.5-1.11.aarch64.rpm"
+RPM_HASH = "f688b6685eeb354f46047951324099f087c5c6d27de23d130fd01d4030aa82c227fe28ecba9f5d72f686baffd34ed108706839581032008a488929be830a3743"
 
 RPROVIDES:${PN} += "appx-util \
 fb-util-for-appx"

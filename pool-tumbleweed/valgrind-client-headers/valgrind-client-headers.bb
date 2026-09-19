@@ -5,10 +5,10 @@ detect if it is running under Valgrind and interact with the \
 Valgrind core and plugins."
 LICENSE = "GFDL-1.2-only & GPL-2.0-or-later"
 
-PV = "3.21.0"
+PV = "3.27.1"
 
-RPM_NAME = "valgrind-client-headers-3.21.0-2.1.noarch.rpm"
-RPM_HASH = "bf6a28e9d853380bb0267a16aa73154db503585fa3d09f3c23e18eea8b1006ae9bb16d03cc7c14dc650f5a21c4c3b14e4f3f63c143da8a5238d693ded6bba6f7"
+RPM_NAME = "valgrind-client-headers-3.27.1-1.2.noarch.rpm"
+RPM_HASH = "ec4a67d34426b66cdee5ee938a8a65ac77fcf9c05194cc9eb440931f317b2e8fa5947b7849d978007c65da37149931d002db284b0f9c1d62f467b48e9ad3743e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "valgrind-client-headers \

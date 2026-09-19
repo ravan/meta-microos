@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.3"
 
-RPM_NAME = "libe-book-devel-0.1.3-2.21.aarch64.rpm"
-RPM_HASH = "a493405c097b4e75a03c3beea2adc90a74905587383ac7007f29ffe81c09a7b4aba000649557b73fe42fcdc85908a1982f3fd73169c3f9b1ae50832685fffbdf"
+RPM_NAME = "libe-book-devel-0.1.3-4.14.aarch64.rpm"
+RPM_HASH = "32b584d849a7006631421c79a9ff98662493253038816d9f6f86da03de06f02ac87f0bfe818eb49603929f9f4ffdb74b52001593839ccd42eb4a0e30b3afaa76"
 
 RPROVIDES:${PN} += "libe-book-devel \
 pkgconfig-libe-book-0.1"

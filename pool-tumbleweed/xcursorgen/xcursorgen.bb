@@ -2,10 +2,10 @@ SUMMARY = "Utility to create an X cursor file from a collection of PNG images"
 DESCRIPTION = "xcursorgen prepares X11 cursor sets for use with libXcursor."
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.0.9"
 
-RPM_NAME = "xcursorgen-1.0.8-1.2.aarch64.rpm"
-RPM_HASH = "f04b8bf9a5afb5901f20a77812334a77e4456abe9d607fbb64852c74c2dad8a696294312c9143bd849b3572a242652ba043c542f8c2082bc16b1a75c09ed85c2"
+RPM_NAME = "xcursorgen-1.0.9-1.7.aarch64.rpm"
+RPM_HASH = "a68e863ad4c8a5b589d64e2a3940d46e8595e94347f667807ec0bff116ccc144846c792a84bdf4759ecec2646252ffefeae5f5bbcb15646bb148a318ef5d706e"
 
 RPROVIDES:${PN} += "xcursorgen"
 

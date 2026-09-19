@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-concmath-otf"
 DESCRIPTION = "This package includes the documentation for texlive-concmath-otf"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.25svn65683"
+PV = "2026.226.0.0.73svn78172"
 
-RPM_NAME = "texlive-concmath-otf-doc-2023.209.0.0.25svn65683-54.1.noarch.rpm"
-RPM_HASH = "28e36201a55eddc7aebb35ccf5fcfe61845e43ae411aeebe39105cf1300cf5f20901f6c0d11005a19c2db8c12a6bc9cfff0b4eabaa367e7559c963a9bdbc4265"
+RPM_NAME = "texlive-concmath-otf-doc-2026.226.0.0.73svn78172-60.2.noarch.rpm"
+RPM_HASH = "97f238ed936fa9f2357f5ea5666485d6dc72b5cc8dda4be9524261c44673f95d58b98f233ef76999444be43af4d18ad88b5d20550e1389aa6aea1a362ea256a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-concmath-otf-doc"

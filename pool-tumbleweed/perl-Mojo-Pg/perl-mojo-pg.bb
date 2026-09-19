@@ -9,10 +9,10 @@ schema with migrations and build scalable real-time web applications with \
 the publish/subscribe pattern."
 LICENSE = "Artistic-2.0"
 
-PV = "4.27"
+PV = "5.0.0"
 
-RPM_NAME = "perl-Mojo-Pg-4.27-1.9.noarch.rpm"
-RPM_HASH = "6094e20ac38350e958ad2e053208632e62065ffdcde97e978eb0ce08a320f73877dd46126fd1018b07721f167e45e30078c22ecf3a5625ad9f48252673a5a864"
+RPM_NAME = "perl-Mojo-Pg-5.0.0-1.3.noarch.rpm"
+RPM_HASH = "04fcc598ce92f4a6bfa4d93bcaa4eca1058e5a5657fcc45c6b2de31c7b668926988b26d7ef246e25716ae947a5b62b7ad50abcf61c30338cf4564d194b14b9ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Pg \
@@ -23,8 +23,9 @@ perl-Mojo--Pg--Results \
 perl-Mojo--Pg--Transaction \
 perl-Mojo-Pg"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--Pg \
+perl-Mojo--SQL \
 perl-Mojolicious \
 perl-SQL--Abstract--Pg"
 

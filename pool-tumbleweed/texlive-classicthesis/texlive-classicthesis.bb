@@ -6,13 +6,15 @@ using TeX. Included in the bundle are templates to make thesis \
 writing easier."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.6svn48041"
+PV = "2026.226.4.8svn73676"
 
-RPM_NAME = "texlive-classicthesis-2023.209.4.6svn48041-54.1.noarch.rpm"
-RPM_HASH = "d47a9874023d0a1626b4e17852157590435c64b47ec1d45f1ac0e0ce9f6ce6c002f1e4f152df052ef5cf5cbe684983ca2fc7867d3c983183c16407c35c679f0e"
+RPM_NAME = "texlive-classicthesis-2026.226.4.8svn73676-60.2.noarch.rpm"
+RPM_HASH = "c7b26d54dda3d3108aaa301065c01537adf432c552f9eab349d59e0e815d7246560055a4fc09d5a16079cdb242702ddcd7ffb068bb75b0f2ba8f40b72e7b5e41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-classicthesis-arsclassica.sty \
+tex-classicthesis-linedheaders.sty \
+tex-classicthesis-plain.sty \
 tex-classicthesis.sty \
 texlive-classicthesis"
 
@@ -25,6 +27,7 @@ sed \
 tex-beramono.sty \
 tex-booktabs.sty \
 tex-caption.sty \
+tex-euler-math.sty \
 tex-eulervm.sty \
 tex-fontspec.sty \
 tex-footmisc.sty \
@@ -39,7 +42,6 @@ tex-mathpazo.sty \
 tex-microtype.sty \
 tex-mparhack.sty \
 tex-prelim2e.sty \
-tex-remreset.sty \
 tex-scrlayer-scrpage.sty \
 tex-scrtime.sty \
 tex-textcase.sty \

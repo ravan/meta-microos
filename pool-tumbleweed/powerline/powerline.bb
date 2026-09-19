@@ -4,18 +4,18 @@ for several other applications, including zsh, bash, tmux, IPython, Awesome and 
 Qtile."
 LICENSE = "MIT"
 
-PV = "2.8.3"
+PV = "2.8.4"
 
-RPM_NAME = "powerline-2.8.3-3.1.aarch64.rpm"
-RPM_HASH = "3f62325a814cd143c41004723bde673003bf6cd1237002c9a6f80bf37d50f0aacd5bcc64b8a4b16b4f4a331ef70467cbd8d5b627cd9b2b9244575a128e42732b"
+RPM_NAME = "powerline-2.8.4-3.5.aarch64.rpm"
+RPM_HASH = "b8164562e913651d956969c2ba599eb5adbc428c925375ee26ce0c2a897f5057e7e91c2f1af65eaa604784cf5ccef5edf583e87d94b9397bf04466135d000a79"
 
 RPROVIDES:${PN} += "config-powerline \
 powerline \
 python3-powerline-status \
-python3.11dist-powerline-status \
+python3.13dist-powerline-status \
 python3dist-powerline-status"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 libc.so.6 \
 powerline-fonts \

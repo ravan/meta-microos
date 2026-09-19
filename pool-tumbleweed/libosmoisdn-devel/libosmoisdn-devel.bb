@@ -5,10 +5,10 @@ inside the Osmocom family of projects. It includes an I.460 \
 sub-channel multiplex and a generic LAPD core."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmoisdn-devel-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "0175dced96887f66f1c85f983a75154902ed49e114a344f09938c58248b9cb3a30851362f9b6f18175287ab183239e85b8e33c0ee124dd6e97935f321dc1b051"
+RPM_NAME = "libosmoisdn-devel-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "511784ac4726b4b3df1bcedfe82e5525796036aa42177032cf1852a926de775b14d3111c0584b118ac5a63065d2ef4b0b2f51d09adbc4853c0a76e9afd868101"
 
 RPROVIDES:${PN} += "libosmoisdn-devel \
 pkgconfig-libosmoisdn"

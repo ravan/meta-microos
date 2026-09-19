@@ -1,11 +1,11 @@
-SUMMARY = "quick input schema for rime"
-DESCRIPTION = "quick input schema for rime."
+SUMMARY = "Quick(er than canjie) input schema for rime"
+DESCRIPTION = "quick input schema for rime, based on cangjie, but input quicker."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-quick-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "1d2046b7c2d54fe030c01e772dd28409d91cf1cbec7b6b13417d5fa86e28889d3ee5f44de794954922192d9e9c23920863a2793be07f9a616910567179def482"
+RPM_NAME = "rime-schema-quick-20250315-1.4.noarch.rpm"
+RPM_HASH = "cbb9014e56fea8ba71d225bab18507d639fcee760eee1e335ffc69bc779501bedde17875eff74c450072ee223762069a77bec668bbc0c4dd4402617dc20f1ea1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-quick"

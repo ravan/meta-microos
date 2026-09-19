@@ -5,10 +5,10 @@ zoned block device and will prepare and write on-disk dm-zoned metadata \
 according to the device capacity, zone size, etc."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.2.0"
+PV = "2.2.2"
 
-RPM_NAME = "dm-zoned-tools-2.2.0-1.8.aarch64.rpm"
-RPM_HASH = "b5240b6c362dcf33c8a2e865c339bd2c353bb0206132234dc0f9e2ce6a55aa5b24b7682b8deb00a514f4e673a299dc1bf535dea1cbd376d215f9359ee05c1e97"
+RPM_NAME = "dm-zoned-tools-2.2.2-1.11.aarch64.rpm"
+RPM_HASH = "672344b33c98e12087f45fe57366f1100d7556b942c92d739b86e64afc592eab87b1c694405d81880277341ee385f12086c60537a0f02087fcb5a07a6ac4d476"
 
 RPROVIDES:${PN} += "dm-zoned-tools"
 

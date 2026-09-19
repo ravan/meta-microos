@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "libavahi-glib1-0.8-23.1.aarch64.rpm"
-RPM_HASH = "7ffb9557721b2d47320ff2bd596e9bcf945123ff4c531aefe9f5734f91cadf22a100aedb634c0f7a8481647fb8ecf66f31d440f11b1af511560f7ab27c6c0d9a"
+RPM_NAME = "libavahi-glib1-0.8-45.2.aarch64.rpm"
+RPM_HASH = "a8d5bacc0cd4ae2933fe77ebeab061f08e1ce0207cb2b8a96b95b3fc00657a26871f32f6f76b6178d305de739051036eff7c146de63502ef813da7461802f1a7"
 
 RPROVIDES:${PN} += "avahi-glib \
 libavahi-glib.so.1 \

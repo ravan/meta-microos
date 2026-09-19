@@ -6,23 +6,25 @@ alphabets and includes glyphs that correspond to all the Latin ranges \
 of Unicode."
 LICENSE = "OFL-1.1"
 
-PV = "6.200"
+PV = "7.000"
 
-RPM_NAME = "sil-gentium-fonts-6.200-1.1.noarch.rpm"
-RPM_HASH = "996ab5ee348b25c5174095692b6f5c9d82636b16a5a5b5fc8e2e97451d64ffe03768d5d1d0ec8c75a10aecd1bc24d319e568f9d07b3b1fde063739d563ab0776"
+RPM_NAME = "sil-gentium-fonts-7.000-1.4.noarch.rpm"
+RPM_HASH = "5510b53cc03b0cade98d6c052aeba4465dce3944e12dad565d398f7560aa5bc6105132e7083761cb9d9cb0fca59a77d0749a5c87697346661e88777499cdd36d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-sil-gentium-fonts \
-font--lang=aa \
+RPROVIDES:${PN} += "font--lang=aa \
 font--lang=ab \
+font--lang=agr \
 font--lang=ak \
 font--lang=an \
 font--lang=ast \
 font--lang=av \
 font--lang=ay \
+font--lang=ayc \
 font--lang=az-az \
 font--lang=ba \
 font--lang=be \
+font--lang=bem \
 font--lang=ber-dz \
 font--lang=bg \
 font--lang=bi \
@@ -43,6 +45,7 @@ font--lang=cv \
 font--lang=cy \
 font--lang=da \
 font--lang=de \
+font--lang=dsb \
 font--lang=ee \
 font--lang=el \
 font--lang=en \
@@ -100,12 +103,17 @@ font--lang=lb \
 font--lang=lez \
 font--lang=lg \
 font--lang=li \
+font--lang=lij \
 font--lang=ln \
 font--lang=lt \
 font--lang=lv \
+font--lang=mfe \
 font--lang=mg \
 font--lang=mh \
+font--lang=mhr \
 font--lang=mi \
+font--lang=miq \
+font--lang=mjw \
 font--lang=mk \
 font--lang=mn-mn \
 font--lang=mo \
@@ -115,6 +123,8 @@ font--lang=na \
 font--lang=nb \
 font--lang=nds \
 font--lang=ng \
+font--lang=nhn \
+font--lang=niu \
 font--lang=nl \
 font--lang=nn \
 font--lang=no \
@@ -131,6 +141,7 @@ font--lang=pl \
 font--lang=pt \
 font--lang=qu \
 font--lang=quz \
+font--lang=rif \
 font--lang=rm \
 font--lang=rn \
 font--lang=ro \
@@ -142,6 +153,7 @@ font--lang=sco \
 font--lang=se \
 font--lang=sel \
 font--lang=sg \
+font--lang=sgs \
 font--lang=sh \
 font--lang=shs \
 font--lang=sk \
@@ -160,11 +172,13 @@ font--lang=st \
 font--lang=su \
 font--lang=sv \
 font--lang=sw \
+font--lang=szl \
 font--lang=tg \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
 font--lang=to \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
 font--lang=tt \
@@ -172,21 +186,29 @@ font--lang=tw \
 font--lang=ty \
 font--lang=tyv \
 font--lang=uk \
+font--lang=unm \
 font--lang=uz \
 font--lang=ve \
 font--lang=vi \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=wen \
 font--lang=wo \
 font--lang=xh \
 font--lang=yap \
 font--lang=yo \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
-font-gentiumbookplus \
-font-gentiumplus \
+font-gentium \
+font-gentiumbook \
+font-gentiumbookmedium \
+font-gentiumbooksemibold \
+font-gentiumextrabold \
+font-gentiummedium \
+font-gentiumsemibold \
 locale-vi \
 sil-gentium-fonts"
 

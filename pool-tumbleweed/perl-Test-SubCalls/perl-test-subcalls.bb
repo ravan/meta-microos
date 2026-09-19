@@ -6,18 +6,18 @@ times. \
  \
 This module provides a number of functions for doing testing in this way in \
 association with your normal Test::More (or similar) test scripts."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.10"
+PV = "1.100.0"
 
-RPM_NAME = "perl-Test-SubCalls-1.10-1.21.noarch.rpm"
-RPM_HASH = "815d165cba299238deec683d2d7adc2205e2de22b943c5614006e4187a66b1b69dc780e65c824bbf1256af9ffc5c7b21a282b68e27cfda2104a4ec8c1374e687"
+RPM_NAME = "perl-Test-SubCalls-1.100.0-1.7.noarch.rpm"
+RPM_HASH = "b8ed19a501e9c00536847e7d96953c49cdb101bd78d37f21f36b4e72720bad4553137b42baf4a5e7ec021c11615bae5aec1741c9bca57a92e7759ebaf47d6706"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--SubCalls \
 perl-Test-SubCalls"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Hook--LexWrap"
 
 inherit rpm

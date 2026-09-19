@@ -9,10 +9,10 @@ directory as far as any mounted/unmounted device. Disk Usage Analyzer \
 also provides a full graphical treemap window for each selected folder."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "baobab-44.0-1.2.aarch64.rpm"
-RPM_HASH = "473f940fd759d5c360653b0b92f1bd05f64ed09f9838778472994289cf5c1a2f3eda2d2206be99a708f1e8ce747797f8147e5d34fdb8f974a52aac35fb96d9fd"
+RPM_NAME = "baobab-50.0-1.3.aarch64.rpm"
+RPM_HASH = "17d1ab71ceee4eee46bad1557631d0cc181e59aa71491fcc5edd48cc506e4d0e8c7acc68ac78fcebb39b95f3125b5dd8703eaad26dc0adf6d9fd24d1e2199973"
 
 RPROVIDES:${PN} += "baobab"
 
@@ -23,6 +23,7 @@ libcairo.so.2 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgraphene-1.0.so.0 \
 libgtk-4.so.1 \
 libm.so.6 \
 libpango-1.0.so.0"

@@ -9,10 +9,10 @@ objects and other intuitive classes. \
 This package contains the source of the demo applications."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-demos-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "5c2f6d62dcfce20d740d042da413df7a79b3240dbea6f433f9526df0fbd9f31428a06307ec1d967f1ac34b1025a47a0ff8f8caaf62a1cdbe4f721cc8f4e9f03f"
+RPM_NAME = "ogre-demos-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "1151928d3d77b5a4a97615e6ef6a54bae2dc80e21d6ce9205641674c80ef82fd46de6ebeb4860a3feef23e10049c1b8ab60add25868c7c0f1092d04919da473a"
 
 RPROVIDES:${PN} += "ogre-demos-devel"
 

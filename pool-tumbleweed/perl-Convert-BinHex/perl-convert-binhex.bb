@@ -7,8 +7,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.125"
 
-RPM_NAME = "perl-Convert-BinHex-1.125-1.27.noarch.rpm"
-RPM_HASH = "5a3562b5be5096c2116ed0c6e59b6c095e4307e713f37663b4873201043335cf33d909d6857ea362654165887ed02ee7bf27a0e39ac5e672e4b5d7d02bee3c62"
+RPM_NAME = "perl-Convert-BinHex-1.125-1.42.noarch.rpm"
+RPM_HASH = "1f2903a99275f79d2d2e7ab69f70009aeba3ebf10249473b8805f1d0c31ce00612584aa4db8cdec211c8c7b08a894921e340519d39ca7fef41005a27197e90d4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Convert--BinHex \
@@ -20,6 +20,6 @@ perl-Convert--BinHex--IO-Scalar \
 perl-Convert-BinHex"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

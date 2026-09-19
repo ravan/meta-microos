@@ -4,10 +4,10 @@ DESCRIPTION = "Logs provides a logging infrastructure for OCaml. Logging is perf
 A few optional log reporters are distributed with the base library and the API easily allows to implement your own."
 LICENSE = "ISC"
 
-PV = "0.7.0"
+PV = "0.10.0"
 
-RPM_NAME = "ocaml-logs-0.7.0-3.6.aarch64.rpm"
-RPM_HASH = "d7554f690c5af7bcfbf881d759bf35a07a0d668c34db5ed9ac198a9b007363f4d96f6efc8725dfac38b13befaf4c0312e60ac6ed742bf0506cc5a03b251ee969"
+RPM_NAME = "ocaml-logs-0.10.0-1.3.aarch64.rpm"
+RPM_HASH = "b346c92d8631822e4c187ebee6e133c3a19213d234b9a624196dc2aec1cf6fb2581575e54eed9a52902710a77e40f10192b32c9ae755d82c22628a2c8acb33a6"
 
 RPROVIDES:${PN} += "ocaml-logs"
 

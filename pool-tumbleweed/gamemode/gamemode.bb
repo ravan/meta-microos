@@ -15,13 +15,16 @@ you can toggle the GameMode by running them via the gamemoderun command. \
  \
 For Steam games this can be done by editing the launch options: \
  \
-    gamemoderun %command%"
+    gamemoderun %command% \
+ \
+Note that some functionalities, like modifying the CPU governor, require \
+the user to be in the priviledged 'gamemode' group."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7"
+PV = "1.8.2"
 
-RPM_NAME = "gamemode-1.7-3.1.aarch64.rpm"
-RPM_HASH = "230df9c5776531ec074732d00b3d4bc5fbcb186d5fcf73deffa4c6d3b64de971734a745e2f4071471ff7aa30c73953d381d1c14af8fe6dfa6c794a621dd2dc4b"
+RPM_NAME = "gamemode-1.8.2-1.9.aarch64.rpm"
+RPM_HASH = "a2bc01b3d596e5b6d071e38da927aa449cef2c5e965ea3f0891f5857657a420b5ad9d5746e3ea8683692f07d2c5e039968d39bc7f8b53660579de0c4127aa16b"
 
 RPROVIDES:${PN} += "gamemode \
 gamemoded-/usr/bin/gamemodelist \

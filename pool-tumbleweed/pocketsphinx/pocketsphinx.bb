@@ -3,19 +3,17 @@ DESCRIPTION = "Pocketsphinx is a version of the open-source CMU Sphinx II speech
 recognition system which is able to recognize speech in real-time."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.8"
+PV = "5.0.3+git20241211.69167fb"
 
-RPM_NAME = "pocketsphinx-0.8-5.16.aarch64.rpm"
-RPM_HASH = "1b27df72c1a176346fa99d77d777a3ea606f70dd26fe9ef242382d296e145b9e3aa917c54619c4a339dedc622652f6f8be89cd9b8bd3d21b750a9fe431d68415"
+RPM_NAME = "pocketsphinx-5.0.3+git20241211.69167fb-1.7.aarch64.rpm"
+RPM_HASH = "dcb7bb182ce9109f508e23cf7a8015f222abe9dbcb5324f9fea37eef734b613c40ceaae2308e486ff21f5801732b028bd88fac90c9378fa42dd649bb1f8ecc2f"
 
-RPROVIDES:${PN} += "pocketsphinx"
+RPROVIDES:${PN} += "pocketsphinx \
+pocketsphinx5"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpocketsphinx.so.1 \
-libsphinxad.so.0 \
-libsphinxbase.so.1 \
-update-alternatives"
+libm.so.6 \
+libpocketsphinx.so.5"
 
 inherit rpm

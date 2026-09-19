@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-vak"
 DESCRIPTION = "This package includes the documentation for texlive-vak"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23431"
+PV = "2026.226.svn75878"
 
-RPM_NAME = "texlive-vak-doc-2023.209.svn23431-54.1.noarch.rpm"
-RPM_HASH = "b2d032e7c63d0d040af299c7364c5549ff62e8f037be7199d3240087e3df766b7d33b76c44fcf443a22d93e1b8ae20170d5221753ea7479aa1c1414a0d7dc219"
+RPM_NAME = "texlive-vak-doc-2026.226.svn75878-60.2.noarch.rpm"
+RPM_HASH = "1514755fc1279d7f10cb94b75fd071b23ad78f4d57daf91378dc7a528f7b04ea103962996498844d967695f7822072642b27433323ac612b903f3fd90196330d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-vak-doc-en \

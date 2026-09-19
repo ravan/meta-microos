@@ -12,10 +12,10 @@ commands to typeset a large selection of symbols of life \
 contingencies. This package requires actuarialangle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54080"
+PV = "2026.226.1.1svn67201"
 
-RPM_NAME = "texlive-actuarialsymbol-2023.209.1.1svn54080-55.1.noarch.rpm"
-RPM_HASH = "8fa63125b597295149cf96449cdb2033b9095ef1cb57cf5a50853749e73dfcee0c1ed9ee198e2b0c1f0f149aec72dfb52f31305f7d030266fbd471aad3fc16b6"
+RPM_NAME = "texlive-actuarialsymbol-2026.226.1.1svn67201-61.2.noarch.rpm"
+RPM_HASH = "251c27dd32c1f0a3d139decf37c086e9254d066199c3bff56c27aefa74727931cb1cf6bf05bb554715865be00d24b33d3210b86dd4a66a74cf7090663334e48c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-actuarialsymbol.sty \

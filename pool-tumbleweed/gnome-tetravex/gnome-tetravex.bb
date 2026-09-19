@@ -5,10 +5,10 @@ each other, during which you are being timed. The times are then \
 stored in a system-wide scoreboard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.38.2"
+PV = "3.38.3"
 
-RPM_NAME = "gnome-tetravex-3.38.2-2.8.aarch64.rpm"
-RPM_HASH = "132016bc7d9b1e113a726deab7552d61aabb3f1e732fa6ffd893955b09b0bd8e9026065384c20d23885ff683b50b766fe099ceda56ef8cb463024d2eda71f07d"
+RPM_NAME = "gnome-tetravex-3.38.3-1.7.aarch64.rpm"
+RPM_HASH = "ac0c217e6c82522781a16f203fd03c07823404452de03f544703ea5546ee621a940c7abf683988c6debc52332a10658fc38070f90a9f804320ec3034900b2283"
 
 RPROVIDES:${PN} += "gnome-tetravex"
 
@@ -19,6 +19,7 @@ libgdk-3.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-3.so.0"
+libgtk-3.so.0 \
+libm.so.6"
 
 inherit rpm

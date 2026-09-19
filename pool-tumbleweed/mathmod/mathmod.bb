@@ -11,10 +11,10 @@ Features: \
  * Large set of scripted examples"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "11.1"
+PV = "12.0"
 
-RPM_NAME = "mathmod-11.1-1.8.aarch64.rpm"
-RPM_HASH = "1ca0c1ad7adc1a1cc7be18d3ee48d20017dc119208dbde1e39b0e0d082af6ec2c0d678a496f08adc7884a4d1b8e77081065cc91204fbd6fda6b9049c47a05856"
+RPM_NAME = "mathmod-12.0-1.8.aarch64.rpm"
+RPM_HASH = "6da87fdd14176bbdbc52eb32247c559281aa172d0edc25df57b2fe730b2f5a0d0704be6e022bf0283730a5b081c1e30330b670774071b29fb63b3d27b64e15fc"
 
 RPROVIDES:${PN} += "mathmod"
 

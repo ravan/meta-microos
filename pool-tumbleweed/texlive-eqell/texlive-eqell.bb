@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides commands that give a well-spaced ellipsis \
 after !, ?, !? or ?!."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn22931"
+PV = "2026.226.svn22931"
 
-RPM_NAME = "texlive-eqell-2023.209.svn22931-54.2.noarch.rpm"
-RPM_HASH = "539026ff8e945e61a656672a2ea0a12602f2684ceddbd78f58f44398cea95922c90692f3b973eaaf209ead9df3f40a933a05069ff050539e9a8d44b9a78c4c81"
+RPM_NAME = "texlive-eqell-2026.226.svn22931-61.4.noarch.rpm"
+RPM_HASH = "7b35ac3d85d41cde9ea96d26d2369a8e00d72eba43ee7c30505926d10ca72becf0099fa794484b1e0e291e3a5b27563c7808406c6d07ace2e4ae2e250531cb80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-eqell.sty \

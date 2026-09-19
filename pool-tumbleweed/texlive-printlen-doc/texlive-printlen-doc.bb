@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-printlen"
 DESCRIPTION = "This package includes the documentation for texlive-printlen"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn19847"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-printlen-doc-2023.209.1.1asvn19847-53.1.noarch.rpm"
-RPM_HASH = "f8becc89a2e02f0b819e3517a9def95481d098d35aa300f9ee092ad4d2b7fa380770ceb32c51e6a02faa8e697842c449737d09ccfeb35ca40eeae2064ab0a7f6"
+RPM_NAME = "texlive-printlen-doc-2026.226.1.1asvn77682-59.2.noarch.rpm"
+RPM_HASH = "96374ddcee62c2a3b9b0d257da9f5ad86f83e132bd7b97350dd418e8705833bfa6bb1de06b58e0c0dc93fed28af48ddda4ec0852cbd936a5f4a91ce2acf8a02a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-printlen-doc"

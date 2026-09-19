@@ -10,8 +10,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "4.33"
 
-RPM_NAME = "libev4-4.33-1.11.aarch64.rpm"
-RPM_HASH = "389622e6cd43d15ff479b5adf811bcef86ba0151b87822b3d8f0a49f16848bf793a3b4ddb9e64f61ab38dfd433448ec0baeee3c3014997732bca3deb8bfc8791"
+RPM_NAME = "libev4-4.33-6.5.aarch64.rpm"
+RPM_HASH = "a56dac68701ccaf1de66803ac948cef8e7aec091117f591d02a798500d9dc7a4a65eacf781695ac7217d39fe8ae480e810f658b43ce1ba3007b5b8e5039fcfb1"
 
 RPROVIDES:${PN} += "libev.so.4 \
 libev4"

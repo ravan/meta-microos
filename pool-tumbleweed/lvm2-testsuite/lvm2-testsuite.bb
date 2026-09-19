@@ -2,16 +2,16 @@ SUMMARY = "LVM2 Testsuite"
 DESCRIPTION = "An extensive functional testsuite for the LVM2 Logical Volume Manager."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.03.16"
+PV = "2.03.38"
 
-RPM_NAME = "lvm2-testsuite-2.03.16-8.1.aarch64.rpm"
-RPM_HASH = "e27a07bda0cb1dfa07c66409c9dac6c9e53037ba2cd504b80caf9931e1b10e464fcd4e34e4fde0b41ead524bc181df07283f0374a7a5fc27866afdb31283f380"
+RPM_NAME = "lvm2-testsuite-2.03.38-2.5.aarch64.rpm"
+RPM_HASH = "dadc0a2628f6738b279a505f607dd80e5fb5f05d0c0ca8daaadf627833cb624e60a30a6357cae42b1784d0e392d3e553ea7e195a639af2d4eb567d606813425f"
 
 RPROVIDES:${PN} += "lvm2-testsuite"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/env \
 /usr/bin/python3 \
-/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libaio.so.1 \
 libc.so.6 \

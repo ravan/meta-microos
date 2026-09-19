@@ -6,16 +6,16 @@ configuration. This package provides agents suitable only for \
 development."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "4.12.1+git.1690196437.64f62dbb"
+PV = "4.17.0+git.1786356985.d90bec5f"
 
-RPM_NAME = "fence-agents-devel-4.12.1+git.1690196437.64f62dbb-1.1.aarch64.rpm"
-RPM_HASH = "9f49ddefe7a14ad8552498c1e93c2f5afe0f9143fbf6e7533ea6389a4b488863f5ee55ab72d0f48594429e23aaedb720d2b56174b9c610136c1d47d3dfa4a998"
+RPM_NAME = "fence-agents-devel-4.17.0+git.1786356985.d90bec5f-1.1.aarch64.rpm"
+RPM_HASH = "6b36b63254bfe7f110c6594bfc2a630fbbca5cdcbb250e0541240202b3d11ca7c06fbacc3c66f748e749dd46822ce4efcd84f184164036087d312cd2fb631a27"
 
 RPROVIDES:${PN} += "fence-agents-devel \
 pkgconfig-fence-agents"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/python3 \
-fence-agents"
+/usr/bin/python3.13 \
+fence-agents-common"
 
 inherit rpm

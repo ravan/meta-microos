@@ -7,10 +7,10 @@ together various instances of an application and have them act as a \
 highly-availablity cluster."
 LICENSE = "LGPL-3.0-only-with-LGPL-3.0-linking-exception"
 
-PV = "1.15.1"
+PV = "1.18.6"
 
-RPM_NAME = "libdqlite0-1.15.1-1.1.aarch64.rpm"
-RPM_HASH = "b472d94fc1dd70a4a6e8ddc0fa411c3ffff3a4021ef103753bc2c674565748d4df71a145765bd9a401df064c1b91e3a06b9747e4335c2ce331d7aee66b37edc0"
+RPM_NAME = "libdqlite0-1.18.6-1.3.aarch64.rpm"
+RPM_HASH = "9c0980fbb6417e456c327afd471e479b19298fb5f95443e8fc7eb7834e4a0f46c53836c053ef3ade73461397f198c56d25b94dd83778fa696520f28303b412c6"
 
 RPROVIDES:${PN} += "libdqlite.so.0 \
 libdqlite0"
@@ -18,7 +18,7 @@ libdqlite0"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libraft.so.3 \
+liblz4.so.1 \
 libsqlite3.so.0 \
 libuv.so.1"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "The jxrlib-devel package contains libraries and header files for 
 developing applications that use jxrlib."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1"
+PV = "1.3.2"
 
-RPM_NAME = "jxrlib-devel-1.1-4.10.aarch64.rpm"
-RPM_HASH = "3658d4bfed930ffcf21c9919ea21fd0e41f8de26455a8b7f7ce72b89e81bfb2e454c5c138d271f2ca92116c69af9b0c00a4ea5d8de060c59b79d673b37969f65"
+RPM_NAME = "jxrlib-devel-1.3.2-1.3.aarch64.rpm"
+RPM_HASH = "5bde5f49684cfb6bda6c00c20442d214103386e787f4597a4f497ef4893074a32f8b43040b1fa20ef0369438c1250d478849660881dd089c7cc1b2ff5d569df4"
 
 RPROVIDES:${PN} += "jxrlib-devel"
 

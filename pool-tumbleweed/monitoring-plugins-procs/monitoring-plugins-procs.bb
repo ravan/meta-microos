@@ -7,10 +7,10 @@ The process count can be filtered by process owner, parent process PID, current 
 state (e.g., 'Z'), or may be the total number of running processes."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-procs-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "7e70d5ad87fade95482f014fb62301677f626bf68907fabeb0137d8b90e7c72e9677030ddf3e4a033e1d5362e343cea02af6ca9c81f1213d74fa1ff593bd217f"
+RPM_NAME = "monitoring-plugins-procs-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "3ac861213d3ebce3e1c6025c280321fca046922f958410ba386196127750582dbafb7ee5b7becca4e0f98f605ba9ed6a0931232377f8d7506ef9ef526ffc2d6f"
 
 RPROVIDES:${PN} += "config-monitoring-plugins-procs \
 monitoring-plugins-procs \

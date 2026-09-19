@@ -2,10 +2,10 @@ SUMMARY = "Translations for package grep"
 DESCRIPTION = "Provides translations for the 'grep' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.11"
+PV = "3.12"
 
-RPM_NAME = "grep-lang-3.11-2.1.noarch.rpm"
-RPM_HASH = "b28d28f1da94fa96b13f3b58d472003c44ff9eaddfdf6f8df955fb536795889830e4d9aa10fe63ba095b20d9c6d4277f5eb3dc43140f167c4a185188af43b450"
+RPM_NAME = "grep-lang-3.12-1.5.noarch.rpm"
+RPM_HASH = "b43c5630b91f67632ba30ed98df931c93bb2113a3f724effc91da777c6b2c76c6277d6ca549c8df1acd78f5ff642b2089b93a0cee85a8851f897002921f5ca8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "grep-lang \

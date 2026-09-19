@@ -4,10 +4,10 @@ the various parameters of a MATE session and the applications that \
 run under it."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-settings-daemon-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "1c196a93ff22587ab882953b823a63b946f72b64a595abb4adbde93fa163897e7c1ed72238a512f6127a96fe45bcc3dd3066276dbd83932883f5cf93979422f3"
+RPM_NAME = "mate-settings-daemon-1.28.0-1.9.aarch64.rpm"
+RPM_HASH = "e9dbd42b3d0b535775b4643b3e463809c6f3d2e75dadb79bae4cdaadefb27bdde35233c254e35ce5ff53b3c64d8e441e3c4d924e82aa674f34d43820218af072"
 
 RPROVIDES:${PN} += "liba11y-keyboard.so \
 liba11y-settings.so \
@@ -35,8 +35,6 @@ libatspi.so.0 \
 libc.so.6 \
 libcairo.so.2 \
 libcanberra-gtk3.so.0 \
-libdbus-1.so.3 \
-libdbus-glib-1.so.2 \
 libdconf.so.1 \
 libfontconfig.so.1 \
 libgdk-3.so.0 \
@@ -48,8 +46,8 @@ libgobject-2.0.so.0 \
 libgtk-3.so.0 \
 libm.so.6 \
 libmate-desktop-2.so.17 \
-libmatekbd.so.4 \
-libmatekbdui.so.4 \
+libmatekbd.so.6 \
+libmatekbdui.so.6 \
 libmatemixer.so.0 \
 libnotify.so.4 \
 libnspr4.so \

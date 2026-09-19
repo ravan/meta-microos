@@ -1,17 +1,17 @@
-SUMMARY = "Library to identify wacom tablets -- Tools"
-DESCRIPTION = "libwacom is a library to identify wacom tablets and their model-specific \
-features. It provides easy access to information such as 'is this a \
-built-in on-screen tablet', 'what is the size of this model', etc."
-LICENSE = "MIT"
+SUMMARY = "Command-line tools for libwacom"
+DESCRIPTION = "libwacom is a library to identify graphics tablets and their model-specific \
+features. \
+This subpackage provides command-line utilities to query/update the database."
+LICENSE = "HPND"
 
-PV = "2.5.0"
+PV = "2.19.1"
 
-RPM_NAME = "libwacom-tools-2.5.0-1.4.aarch64.rpm"
-RPM_HASH = "4d8d1663e126af0238c8b51e050354d9cda21c4f039d669f270f5a8af6424a85dbe6034fae1c5c8ae39857794fd35a34074630babd5e0557bc122d8b55b67c44"
+RPM_NAME = "libwacom-tools-2.19.1-1.1.aarch64.rpm"
+RPM_HASH = "c67c4c855750119bbbafd2f723ead5883559ebdb5e24d8325ac1ef6f5205c5ed83110b1c7f06fba8d504b3a46bd61fcfb048bae0636830b9bea4e9c5627cbc6b"
 
 RPROVIDES:${PN} += "libwacom-tools"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libglib-2.0.so.0 \

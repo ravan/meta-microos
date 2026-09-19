@@ -15,8 +15,8 @@ LICENSE = "(GPL-1.0+ | Artistic-1.0) & SUSE-Redistributable-Content"
 
 PV = "2.28"
 
-RPM_NAME = "perl-IP-Country-2.28-1.28.noarch.rpm"
-RPM_HASH = "a3b436c675259e2654fbc7d2713479706f69d213f9f18fb7760ce99e3aacb5135ea9253dc2503237b5142e786900cebe0bf740e83a8fb100cdf1eb469d3c8e27"
+RPM_NAME = "perl-IP-Country-2.28-1.42.noarch.rpm"
+RPM_HASH = "0acf60a46f34e8c6f12c14581588098ea79d8943d4e072972907b5ea96bc6f66209525a0a4ccb1e61d919406d7accea29961749c665b459aeb5f80a09ba09322"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-IP--Authority \
@@ -28,7 +28,7 @@ perl-IP--Country--Slow \
 perl-IP-Country"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Geography--Countries"
 
 inherit rpm

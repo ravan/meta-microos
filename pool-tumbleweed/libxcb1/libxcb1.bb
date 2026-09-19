@@ -4,10 +4,10 @@ featuring a small footprint, latency hiding, direct access to the \
 protocol, improved threading support, and extensibility."
 LICENSE = "MIT"
 
-PV = "1.16"
+PV = "1.17.0"
 
-RPM_NAME = "libxcb1-1.16-1.1.aarch64.rpm"
-RPM_HASH = "42e84d58c148b0762ca7f8682185e1173c735dea072d551813f94a428c02c223727a809a25377b621ebd5b06d3729b9022ab4fe8c5b5c3a4373fb5441e38c5da"
+RPM_NAME = "libxcb1-1.17.0-2.7.aarch64.rpm"
+RPM_HASH = "e067c3e06936998891f808851f4cf6c5fcff5b564b0777a9ded0059b97949629c1c9f45402820e2ed868363d83ba66ebb08748abebe27e48bb84fd0fe77b323c"
 
 RPROVIDES:${PN} += "libxcb.so.1 \
 libxcb1 \

@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics from the SLURM Workload Manager."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-slurm-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "534391e5dbb9d238782a85e71eb1e498699f213e3bd4d2e3d25db93d312ff280fb1f3dd1c94482cc17a4324bc3b3eef73381c4453fed84a5e4d6cb6786869819"
+RPM_NAME = "pcp-pmda-slurm-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "462065b98db9956aebfe7dd3006276829d540d9517ffbda995308b63f71e57fa9cacb80aedf9bcf04164967b529f2b3f587886eec18b050633e9d4abe8695847"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-slurm"
 

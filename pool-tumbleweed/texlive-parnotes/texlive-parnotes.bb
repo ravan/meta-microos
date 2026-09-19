@@ -4,10 +4,10 @@ DESCRIPTION = "The package provides the \\parnote command. The notes are set as 
 paragraph, or manually, using the \\parnotes command."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3bsvn51720"
+PV = "2026.226.3csvn77682"
 
-RPM_NAME = "texlive-parnotes-2023.209.3bsvn51720-52.1.noarch.rpm"
-RPM_HASH = "86f1d276219113abceaed12beec76f9bbea5a2f301432b5607eb689e2f264b097b165749a3bee75d2b1e864fdee8d003d332947886442fb3d71cf8ce134c9c3c"
+RPM_NAME = "texlive-parnotes-2026.226.3csvn77682-58.2.noarch.rpm"
+RPM_HASH = "58ab228a43542f86e67fab77c89bdcd07c9a8be52a51d3a209e5ec8bd5c10c2fc42d98f7bc9349541370ef6cc7b81f705227e6e05d92d78741fa2384a7d92cef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-parnotes.sty \

@@ -13,10 +13,10 @@ Supported image types: \
 * Note that an undo disk image (.vud) is also a differential image"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221124"
+PV = "20260901"
 
-RPM_NAME = "libvhdi1-20221124-4.1.aarch64.rpm"
-RPM_HASH = "df1367342baf369616cdee2a4f699ce4a1715d0a910340f7b0a10610ece16059d8afd1b4e4041b956d4b6e5d25c00b917df03df7c18c3d916e831993dad780e4"
+RPM_NAME = "libvhdi1-20260901-1.1.aarch64.rpm"
+RPM_HASH = "867432bbe5c3392a6a8c683c9cbf9f7e9a3fbcfe02104436a94ce04fcd5bf628f2465fc05498a55304e68f294e2950ed2be478241ffc3665c02ae9bc7238f965"
 
 RPROVIDES:${PN} += "libvhdi.so.1 \
 libvhdi1"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package seahorse"
 DESCRIPTION = "Provides translations for the 'seahorse' package."
 LICENSE = "GFDL-1.1-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "47.0.1+6"
 
-RPM_NAME = "seahorse-lang-43.0-3.6.noarch.rpm"
-RPM_HASH = "d1f44c3dfbbee04b0b1225007b2668fca27143dbd059b9e6b52828466a092cbc74c0689f3b7382ae224fef95584aaf0e6f78bd9c59b30c4121902248359b32d0"
+RPM_NAME = "seahorse-lang-47.0.1+6-3.4.noarch.rpm"
+RPM_HASH = "0dff0438fa4691f836d39d844751c76e6f45530849324ac314f5db1fc314a5f626e0f7d1729d30e44ba8200b33846385fda541bab6777ddf2d4cf35f15d8f2b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-seahorse-ar \

@@ -2,10 +2,10 @@ SUMMARY = "LeechCraft Network Monitor Module"
 DESCRIPTION = "This package provides another Network Monitor plugin for Leechcraft."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-lemon-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "0c176cf62bcf5cecc808bf8dda1042b90795952f95889f111a66763d4eb765a3a6ddcbbbbcc02bc7eb8abfa107611df67cf46eb91106e64e22d7f1134ae82518"
+RPM_NAME = "leechcraft-lemon-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "f53cf93102fff89d5ff918c1bfbfeaf8737177259c5c88d0268da22b74268f0bc838b45b4383c854b5767696ea3d1c603f424070274ae7334f334b693b6c3ad1"
 
 RPROVIDES:${PN} += "leechcraft-lemon \
 libleechcraft-lemon.so"
@@ -13,21 +13,22 @@ libleechcraft-lemon.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
 leechcraft-sb \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libnl-3.so.200 \
 libnl-route-3.so.200 \
-libqwt-qt5.so.6.2 \
+libqwt-qt6.so.6.3 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Window.2"
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Window.2"
 
 inherit rpm

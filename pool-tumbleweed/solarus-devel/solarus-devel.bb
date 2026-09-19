@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.6.5"
 
-RPM_NAME = "solarus-devel-1.6.5-2.16.aarch64.rpm"
-RPM_HASH = "11309631d47fe2f55e8a5872a8b9e9857359183817d98d523e0f310bd5ec236e923ef4e099033e30d7b8b0ec64e9456d9ac78fb2859ffbb2bb0f8e19cf8967cc"
+RPM_NAME = "solarus-devel-1.6.5-3.3.aarch64.rpm"
+RPM_HASH = "fd7d51de9e54f0e06e8a776cba07e278778e78b060ab394956ba768e85be1393226fc964af3f1d47ce9c06809db8fd414dced69105e909533625541ee743ab30"
 
 RPROVIDES:${PN} += "solarus-devel"
 

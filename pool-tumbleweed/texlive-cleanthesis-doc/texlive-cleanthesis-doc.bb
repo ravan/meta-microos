@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cleanthesis"
 DESCRIPTION = "This package includes the documentation for texlive-cleanthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.0svn51472"
+PV = "2026.226.0.0.4.0svn51472"
 
-RPM_NAME = "texlive-cleanthesis-doc-2023.209.0.0.4.0svn51472-54.1.noarch.rpm"
-RPM_HASH = "7b42b858804b1647d0b87669a4c82028bac85fa63dcc60606519c59ef8b5fff06c6d8b9567f1b1cb73feb6e9fd85265557ee29d290cfefb05ee498b50b28650f"
+RPM_NAME = "texlive-cleanthesis-doc-2026.226.0.0.4.0svn51472-60.2.noarch.rpm"
+RPM_HASH = "9d74b3411342b7074f8ca7832981eb1e4cdc1b9b6b9bc4593713e37ea9d8b07f9fba8b2b9d54eba226578576f3bdb0502c1b00ddd3e96be559f7ec745a2dce57"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cleanthesis-doc"

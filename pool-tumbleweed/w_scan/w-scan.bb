@@ -6,10 +6,10 @@ It's based on the utility scan from linuxtv-dvb-apps, but meanwhile it was \
 heavily changed and has different features."
 LICENSE = "GPL-2.0-only"
 
-PV = "20170107"
+PV = "20210218"
 
-RPM_NAME = "w_scan-20170107-2.13.aarch64.rpm"
-RPM_HASH = "5cfc9ec1b5796e1e6a81df1f9905b2c0fb8898520dc3efb434a146dc1c1760ca72ad5c9d2afbd1423a079b017cbc75e17bf1a20219ceafcb28aa4123e06e8f12"
+RPM_NAME = "w_scan-20210218-1.3.aarch64.rpm"
+RPM_HASH = "ee51512d6bffbf39565507fd07d80f675016d98dd04fd762a8365a6e407d90d5f9c63495facc310e38c56635c5c40824d5a02bfd0f4f4895d18bae0f1d1592bd"
 
 RPROVIDES:${PN} += "w-scan"
 

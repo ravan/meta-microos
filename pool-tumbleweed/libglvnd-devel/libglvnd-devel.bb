@@ -5,10 +5,10 @@ OpenGL ABI proposal. This package contains the required files for \
 development."
 LICENSE = "MIT"
 
-PV = "1.6.0"
+PV = "1.7.0"
 
-RPM_NAME = "libglvnd-devel-1.6.0-1.3.aarch64.rpm"
-RPM_HASH = "02415ee497a6421a1691f612be7ca48e33da9e44984ed52386c7488cedd9dcc31e7383eb5e079305ae9c6803a472d30f8eef1607e1d9fb37bc40d1bbf29c12a5"
+RPM_NAME = "libglvnd-devel-1.7.0-2.3.aarch64.rpm"
+RPM_HASH = "0a502705a385dca5274e10f78ff9b47abef37e6e0b5384ce96cdbb3e2f1b110bf180ebbdd85d30af794003c12bad3b15c27509be5921e3978419528daec8bc2b"
 
 RPROVIDES:${PN} += "libglvnd-devel \
 pkgconfig-glx \

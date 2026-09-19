@@ -3,10 +3,10 @@ DESCRIPTION = "Nulloy is a opensource, simple and clean music player with a Wave
 Progressbar. It is written in C++ using QT."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.9.5"
+PV = "0.9.9"
 
-RPM_NAME = "nulloy-0.9.5-1.11.aarch64.rpm"
-RPM_HASH = "8a59a960f463b11bbda1c0ffaeaf7691e83b290f7b99fe393fdb282d89b5429978e5818c1ed6370b74fd8bf83a6f9307d2ab48f4ad351e78abc0b06ff270489d"
+RPM_NAME = "nulloy-0.9.9-1.3.aarch64.rpm"
+RPM_HASH = "4f6a81d856bebfe54c0f7ef1a1322b71055fa01b4b78c41b01d3262d8015651b792494ede2ca107a6d165cc4719b8edf76d6c0900733f7abad8357c7aa8ca76e"
 
 RPROVIDES:${PN} += "nulloy"
 

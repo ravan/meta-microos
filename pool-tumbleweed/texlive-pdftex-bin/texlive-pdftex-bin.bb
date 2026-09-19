@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pdftex"
 DESCRIPTION = "Binary files of pdftex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn66084"
+PV = "2026.20260301.svn78082"
 
-RPM_NAME = "texlive-pdftex-bin-2023.20230311.svn66084-93.2.aarch64.rpm"
-RPM_HASH = "3f0d9eed03fe9c34065eed2469bf063a868a86c15888daab3470267f58d3f95659a9fed4004cedfc4ea881566de7945b6baa61d7bfe1f91810c35d7b7079cfb8"
+RPM_NAME = "texlive-pdftex-bin-2026.20260301.svn78082-120.4.aarch64.rpm"
+RPM_HASH = "fa67fb9534cecba60695f70ee63706081fb09a4dffafb36de5e27d509770f6698e15e7e937e3facdae2a3349cc6645bceea0c3278a8cde02252b07999286cd73"
 
 RPROVIDES:${PN} += "texlive-pdftex-bin"
 

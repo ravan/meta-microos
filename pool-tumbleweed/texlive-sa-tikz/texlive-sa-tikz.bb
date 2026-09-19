@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a library that offers an easy way to draw \
 switching architectures and to customize their aspect."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7asvn32815"
+PV = "2026.226.0.0.7asvn32815"
 
-RPM_NAME = "texlive-sa-tikz-2023.209.0.0.7asvn32815-54.1.noarch.rpm"
-RPM_HASH = "20a07570116c9040219375b60d379d25af4f50d9d490c9fb628445572287ecc55b695608e1966c0d4ecd7a28acc188aaa67b7adf492f7132883da7184a0c7ebc"
+RPM_NAME = "texlive-sa-tikz-2026.226.0.0.7asvn32815-60.2.noarch.rpm"
+RPM_HASH = "eefbafbea7f17dcb439b2a2eadea2182f3e370fa1b36a9c9a49f9f1fdc6e6173430cebd108d3f50bc8fb5569c99c93c953487eec0001de08f3659a868e2f568e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sa-tikz.sty \

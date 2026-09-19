@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.1"
 
-RPM_NAME = "cloud-init-config-MicroOS-1.1-3.1.noarch.rpm"
-RPM_HASH = "cca3c38706b5f87e173edfd0a84e4b9676cabe23d6757ef3fb10dcac34da5bc81bfaa2403b8140376f29263b5a8f840b2674aae180e35f0c85cb725de27b174e"
+RPM_NAME = "cloud-init-config-MicroOS-1.1-3.8.noarch.rpm"
+RPM_HASH = "13543fa4bd29edc13aa4ead84aa9cf54d6716aba3523c91f813bc433e59bdbf27698a22304e79a01472d6ea91b4d0e17faaaf8349128345c0327e7b4f391d74f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cloud-init-config \

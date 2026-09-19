@@ -7,10 +7,10 @@ PAGES fields, the PERIODICAL entry, and extended citation label \
 suffixing."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.03svn52623"
+PV = "2026.226.2.03svn76790"
 
-RPM_NAME = "texlive-is-bst-2023.209.2.03svn52623-56.1.noarch.rpm"
-RPM_HASH = "af5b3decbc900554b7afd806272045d2b9ad5b8773eeaeb3add7f68b7908329d65052fd419acb55150f001ba46fd09b9450dc86e105e9b8dede634654550ab10"
+RPM_NAME = "texlive-is-bst-2026.226.2.03svn76790-63.2.noarch.rpm"
+RPM_HASH = "7a94002c8768dd7dbbdc7b1428b7bbf3384ff4a912bd6577f77a10d12897e85c1a3598036e390dce1a8222ccfc356d11fed9b6b9a19bfdaa74eb7d5981e1bdfe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-is-bst"

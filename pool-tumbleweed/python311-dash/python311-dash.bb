@@ -7,28 +7,31 @@ elements like dropdowns, sliders, and graphs directly to your \
 analytical python code."
 LICENSE = "MIT"
 
-PV = "2.6.2"
+PV = "3.2.0"
 
-RPM_NAME = "python311-dash-2.6.2-1.5.noarch.rpm"
-RPM_HASH = "f3e120faf7c3757d4fe46e5953bdfeaa4553ae12de107530ea94bc652e6176c44f7ac76f8add80e22ddd6c75c50a8153364c8a655fbb896cbffb884775bd64bb"
+RPM_NAME = "python311-dash-3.2.0-1.1.noarch.rpm"
+RPM_HASH = "a22b718477d33d72c84c0c25ee07120420d74478d834ff9ca8ca94f22fce846f60d0546447f1c0788f9c2cbaa0e5d2f1c9af290d68991e07952190c7ac114905"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-dash \
-python3.11dist-dash \
+RPROVIDES:${PN} += "python3.11dist-dash \
 python311-dash \
 python3dist-dash"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
+jupyter-dash \
 python-abi \
 python311-Flask \
-python311-Flask-Compress \
+python311-Werkzeug \
 python311-beautifulsoup4 \
-python311-dash-core-components \
-python311-dash-html-components \
-python311-dash-table \
+python311-importlib-metadata \
+python311-nest-asyncio \
 python311-percy \
 python311-plotly \
+python311-requests \
+python311-retrying \
+python311-setuptools \
+python311-typing-extensions \
 update-alternatives"
 
 inherit rpm

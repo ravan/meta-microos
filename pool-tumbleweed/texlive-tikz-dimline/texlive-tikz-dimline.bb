@@ -4,10 +4,10 @@ picture environments. Its usage is similar to some \
 contributions posted on stackexchange."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn35805"
+PV = "2026.226.1.0svn35805"
 
-RPM_NAME = "texlive-tikz-dimline-2023.209.1.0svn35805-53.1.noarch.rpm"
-RPM_HASH = "8046193261b1772258dee303e2ab0598e8cd81be209617dbc46d66cdd520fff34906ff503c02c3d8321694139beadb825ff31f7321a3d91de6345e5ef028aee9"
+RPM_NAME = "texlive-tikz-dimline-2026.226.1.0svn35805-59.2.noarch.rpm"
+RPM_HASH = "f4c1703ce6fd67b163e3c315270195bcaeb127c074606e7f33852b69056dc3321090061b8c4c26d09bfbec19c98134493ab5423261dc9db2a7849839de93623d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-dimline.sty \

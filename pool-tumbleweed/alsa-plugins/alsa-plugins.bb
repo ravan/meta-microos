@@ -3,10 +3,10 @@ DESCRIPTION = "This is a meta package installing a few sub-packages for extra pl
 for ALSA library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.2.7.1"
+PV = "1.2.12"
 
-RPM_NAME = "alsa-plugins-1.2.7.1-4.5.aarch64.rpm"
-RPM_HASH = "3845199ed0b9e1e69e4fdacf5d55005cf46f9aebe6c46bbb3d1ec676ec2dd1b0149736c077a198cacbd95395f967672e114dabfc8d05bd119829759fa5f59a70"
+RPM_NAME = "alsa-plugins-1.2.12-1.16.aarch64.rpm"
+RPM_HASH = "1d9b52dcc588671c688b322bd3be7c1d51b753b3881ac760659de061f2446eac3c1d9775a239048cff31ee63268c7498b6043dab7de45943ef3c3c50a2eaec60"
 
 RPROVIDES:${PN} += "alsa-plugins"
 

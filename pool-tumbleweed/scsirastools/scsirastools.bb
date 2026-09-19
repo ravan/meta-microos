@@ -15,8 +15,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.6.6"
 
-RPM_NAME = "scsirastools-1.6.6-1.4.aarch64.rpm"
-RPM_HASH = "3a97d69d93999067f5c8c180df6ba25ec131006b2549cba360c842c18dffa1beb11f3fe0739af5d51c2eb6b3233d1400f353a2bcfb5d7e018ffcbd41fe9a7823"
+RPM_NAME = "scsirastools-1.6.6-1.15.aarch64.rpm"
+RPM_HASH = "abe4e1cdcbce77b44a8de0698c1d2c05c7530c6a2846e2e7e626f4081278d2923b6d488bd977fde5d162fcb878220ab286613a73ca77dfdfe802508836876675"
 
 RPROVIDES:${PN} += "config-scsirastools \
 scsirastools"

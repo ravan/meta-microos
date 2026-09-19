@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "levmar-devel-2.6-2.4.aarch64.rpm"
-RPM_HASH = "beedf0c0fa3af29520bcb44136170b08ae42cca2efc89b37eab020aa33fc0e8f1c001478ea89d53f4bd6984af7fbfb19173b41c9a54ca4bfcd26b06633b1b263"
+RPM_NAME = "levmar-devel-2.6-2.15.aarch64.rpm"
+RPM_HASH = "5264564271bdd6784a8fe9b5a7686a1cb87dd13ecd81d8074fd46b51ea0ad7760d48f2b4233854378c3cffd1f763f00573959769a15d9ff27e8bd03049edafea"
 
 RPROVIDES:${PN} += "levmar-devel"
 

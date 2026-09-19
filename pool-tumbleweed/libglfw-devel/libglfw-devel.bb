@@ -5,10 +5,10 @@ operating system specific tasks such as opening an OpenGL window, and \
 reading keyboard, time, mouse and joystick input."
 LICENSE = "Zlib"
 
-PV = "3.3.8"
+PV = "3.5.1"
 
-RPM_NAME = "libglfw-devel-3.3.8-2.1.aarch64.rpm"
-RPM_HASH = "b026df39447e1ac16ecce78b68177adbb3f2093d68d0571df637133d7382085a1627948fab5f821eb60843291cb99af9e8b065f7375e30cb952627e705acd9ef"
+RPM_NAME = "libglfw-devel-3.5.1-1.1.aarch64.rpm"
+RPM_HASH = "9e5328445078419e595162b109f8a113ec7d9edb28052a4391b1ef62e90320ff7a7db61235b49fbc112f6462bc0c3416b34e79096936e8b61d1b4dcc9e2a18ff"
 
 RPROVIDES:${PN} += "cmake-glfw3 \
 libglfw-devel \
@@ -17,7 +17,6 @@ pkgconfig-glfw3"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 cmake \
 libglfw3 \
-pkgconfig-gl \
-pkgconfig-x11"
+pkgconfig-gl"
 
 inherit rpm

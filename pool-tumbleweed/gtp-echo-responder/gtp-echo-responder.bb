@@ -3,10 +3,10 @@ DESCRIPTION = "Small program answering GTP ECHO Request with GTP ECHO Response f
 and GTPCv2."
 LICENSE = "MIT"
 
-PV = "1.10.1"
+PV = "1.15.0"
 
-RPM_NAME = "gtp-echo-responder-1.10.1-1.2.aarch64.rpm"
-RPM_HASH = "ace2a0b85f07c223f9879fcce79ab446f99944bf1e452a40103ea95b758784f1ba7e1c5a572c59ab1af68fc53fdd0efb497bcb32b758162e1e6d2aecbe562249"
+RPM_NAME = "gtp-echo-responder-1.15.0-1.1.aarch64.rpm"
+RPM_HASH = "8ba032426f21672d87841afef56bde98b4aff27e805b0848c42490e0302237edd5f96af7d0070a5c85a92a1bdf077fa67552c8b1b2ca50c99f3e3e821143927b"
 
 RPROVIDES:${PN} += "gtp-echo-responder"
 

@@ -5,8 +5,8 @@ LICENSE = "Unlicense"
 
 PV = "22.11"
 
-RPM_NAME = "pcapplusplus-devel-22.11-1.4.aarch64.rpm"
-RPM_HASH = "757d005eda34b0fd614dbe028ebc77b71a2b560ed87f5e90c535e9a476157a91df6cf2d13bed0599c7665719c0aa2b0e23fabbdcc8011ed962c10e6fb8ec2464"
+RPM_NAME = "pcapplusplus-devel-22.11-2.9.aarch64.rpm"
+RPM_HASH = "1670fb783e86f133db7feee92712699574812381fd599278e0944bfa6d92731062690073127ff954a827b981439ffb9e64eea329a126cef4099485e435db7689"
 
 RPROVIDES:${PN} += "pcapplusplus-devel \
 pkgconfig-PcapPlusPlus"

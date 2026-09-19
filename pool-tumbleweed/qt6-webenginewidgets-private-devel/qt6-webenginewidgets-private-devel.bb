@@ -3,12 +3,13 @@ DESCRIPTION = "This package provides private headers of libQt6WebEngineWidgets t
 ABI or API guarantees."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-webenginewidgets-private-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "490d43c1e3d5c0b2dfb3b8423dd9d2d84d81398cfd77de6a3bcf496a22fefabea0d0209996ae0944ee7ff7c25f0d846c724d5a479cffe8112a4714ef4f1795d1"
+RPM_NAME = "qt6-webenginewidgets-private-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "5464fc56c77247e53185022c08299fc567411863fd970eb7f58e408be1000dc9570f394ddb4bd600502378ab61f37e875b5bb785f6feae529e8857d926fbb5c0"
 
-RPROVIDES:${PN} += "qt6-webenginewidgets-private-devel"
+RPROVIDES:${PN} += "cmake-Qt6WebEngineWidgetsPrivate \
+qt6-webenginewidgets-private-devel"
 
 RDEPENDS:${PN} += "cmake-Qt6WebEngineWidgets"
 

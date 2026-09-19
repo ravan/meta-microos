@@ -7,10 +7,10 @@ and generation of words. Analysis is the process of splitting a word \
 This subpackage contains the development files for lttoolbox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.7.1"
+PV = "3.8.3"
 
-RPM_NAME = "lttoolbox-devel-3.7.1-1.5.aarch64.rpm"
-RPM_HASH = "bb07646ea9b5a8a93258c0ed5788acfd8fd6823b2b636bb7bb3f45b3378f8d43a3c04ce2eaaf301392d6e02a8a0179bfc7c700ae4719f23d730e81271b1ced1a"
+RPM_NAME = "lttoolbox-devel-3.8.3-1.3.aarch64.rpm"
+RPM_HASH = "65a5a88b305de183db72686060f702a1a4023123659d3cd8e941c723a61899df6fd254bb465cb07ff4e170e0f70422e5831bbbc5e5db05699b1ee6fda2f8a0e2"
 
 RPROVIDES:${PN} += "lttoolbox-devel \
 pkgconfig-lttoolbox"

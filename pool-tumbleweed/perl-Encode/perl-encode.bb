@@ -24,10 +24,10 @@ This document mostly explains the _how_. perlunitut and perlunifaq explain \
 the _why_."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.19"
+PV = "3.24"
 
-RPM_NAME = "perl-Encode-3.19-1.4.aarch64.rpm"
-RPM_HASH = "e0321b3161c6646e5f0d3b83f5221f75ba88758ad0a333830695613e9526d1afd36106622c141e570fc2ae36e2b76a8e99144585cfbc92d4db5e0a15fc77fda1"
+RPM_NAME = "perl-Encode-3.24-1.4.aarch64.rpm"
+RPM_HASH = "c268a0c8b809f3b08145d212b537abdb6d891548692ec8388636dcee61c4dab95a4c31a93ed650e7883775fabed0ebb4b67b63451302379fa659489335e05849"
 
 RPROVIDES:${PN} += "perl-Encode \
 perl-Encode--Alias \
@@ -60,7 +60,7 @@ perl-encoding"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

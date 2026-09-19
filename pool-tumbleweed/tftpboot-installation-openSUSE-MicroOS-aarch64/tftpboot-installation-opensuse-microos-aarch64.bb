@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the kernel, initrd and installation images 
 to install SUSE CaaS Platform with PXE boot/tftpboot on x86-64."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "17.91"
+PV = "17.178"
 
-RPM_NAME = "tftpboot-installation-openSUSE-MicroOS-aarch64-17.91-1.98.noarch.rpm"
-RPM_HASH = "00382709020bc5f7d014b64de74eca3ce1fefe0649d409977872163ae6b0f210e55d9807e8e5c3b3dfc16e1031a9e2e5b5be3bc2427700e6ebb3e163ad437ce9"
+RPM_NAME = "tftpboot-installation-openSUSE-MicroOS-aarch64-17.178-1.9.noarch.rpm"
+RPM_HASH = "643527c5dfd4bfd929f53ce60304e884c107616324c1c319958cde0bbab45a8acaee62cf2e9a1f28d08bddf701744f197e6788ee23527613c94b2338dcf40152"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tftpboot-installation-openSUSE-MicroOS-aarch64"

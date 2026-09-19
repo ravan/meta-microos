@@ -6,10 +6,10 @@ space) remains flexible. Most common cases are handled here \
 macros or { } can still create break-points."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.2svn26786"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-nolbreaks-2023.209.1.2svn26786-55.1.noarch.rpm"
-RPM_HASH = "ba9bcd76b76450344dae710943bd726a8b2f5655c9f0a017f21b0e4305bebc5e22ebdd3257cefee70a3ee05d1b16f0d7eb5b89e1e0e632c410ed07b1999bd97a"
+RPM_NAME = "texlive-nolbreaks-2026.226.1.2svn77682-61.2.noarch.rpm"
+RPM_HASH = "967051ab6ba02728ebe0bbbe08fa20ad171c5aea916bf1ee5d4260008f72b6fc0bd7e5fa4b12fc9ad1f4ecf93d0a82b22eec847a7161044e3985b83ee9ced198"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-nolbreaks.sty \

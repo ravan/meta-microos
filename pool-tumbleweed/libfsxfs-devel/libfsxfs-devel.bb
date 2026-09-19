@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfsxfs."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220829"
+PV = "20260901"
 
-RPM_NAME = "libfsxfs-devel-20220829-4.1.aarch64.rpm"
-RPM_HASH = "8b59ad38372f893f1eaf07ca9ab4271ad2d6e9cbdd7c59d5733737560ceab6daf068257c423e2f5782a14fbfd59feab7aaee3b249382b79b777c72304bc461ed"
+RPM_NAME = "libfsxfs-devel-20260901-1.1.aarch64.rpm"
+RPM_HASH = "016d0cab15654fc22a756c29f1e6bc98de70a171f1863591d98a632dbc888797048caa31d666c1516a605a676ddd3dbfbbb4ba074d73dd9bf3952a61564deffc"
 
 RPROVIDES:${PN} += "libfsxfs-devel \
 pkgconfig-libfsxfs"

@@ -23,10 +23,10 @@ applications to be developed according to a true MVC model. \
 This packages contains a parent pom needed for maven build"
 LICENSE = "Apache-2.0"
 
-PV = "2.3"
+PV = "2.4.1"
 
-RPM_NAME = "velocity-engine-parent-2.3-3.10.noarch.rpm"
-RPM_HASH = "bcfc604d68b2fb407a6c850885b86ab4c26f17ae9b85330e106adfad3c20fd99c0045f444deef528bd2e0a6197039d7963ccae2c07a60fb93d620ec0206a5efd"
+RPM_NAME = "velocity-engine-parent-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "32db0209b05ae22ffbf2a23224b21db0d6dd26f9b76336b490b79f95254d21ed9cadc8aa1eccd3ec29a0048a1c75e746088ac8432fbefa11113b7a329970bdd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-engine-parent-pom- \
@@ -34,8 +34,6 @@ velocity-engine-parent"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-org.apache.maven.plugins-maven-compiler-plugin \
-mvn-org.apache.maven.plugins-maven-javadoc-plugin \
 mvn-org.apache.velocity-velocity-master-pom-"
 
 inherit rpm

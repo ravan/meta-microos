@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-zarith-devel package contains libraries and signature f
 developing applications that use ocaml-zarith."
 LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
-PV = "1.13"
+PV = "1.14"
 
-RPM_NAME = "ocaml-zarith-devel-1.13-1.1.aarch64.rpm"
-RPM_HASH = "f7527b56a5a456cad4eb64745c6d2b03d042bc353d5e8b7e4082b72cd2be23a9058fc508bd7ac755867b59ed135b8e16f0881f22b29e15cd60c8fcaadce66e61"
+RPM_NAME = "ocaml-zarith-devel-1.14-2.3.aarch64.rpm"
+RPM_HASH = "91be835c5218d2ee28cd35905c2e0bce52e67f6633baa0008a1b4f43e8549ce1733e0d7a2bb31b2d99bb162380ffd88d7bd212ec9dc0383a7ada699dde0611f7"
 
-RPROVIDES:${PN} += "ocaml-Big-int-Z \
+RPROVIDES:${PN} += "config-ocaml-zarith-devel \
+ocaml-Big-int-Z \
 ocaml-Q \
 ocaml-Z \
 ocaml-Zarith-top \
@@ -30,13 +31,16 @@ ocaml-Build-path-prefix-map \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
 ocaml-Cmi-format \
+ocaml-Data-types \
 ocaml-Env \
+ocaml-Format-doc \
 ocaml-Ident \
 ocaml-Identifiable \
 ocaml-Load-path \
 ocaml-Location \
 ocaml-Longident \
 ocaml-Misc \
+ocaml-Oprint \
 ocaml-Outcometree \
 ocaml-Parsetree \
 ocaml-Path \
@@ -47,6 +51,7 @@ ocaml-Stdlib--Buffer \
 ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Callback \
 ocaml-Stdlib--Digest \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Format \
 ocaml-Stdlib--Hashtbl \
@@ -60,6 +65,7 @@ ocaml-Stdlib--Nativeint \
 ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Random \
+ocaml-Stdlib--Result \
 ocaml-Stdlib--Seq \
 ocaml-Stdlib--Set \
 ocaml-Stdlib--String \
@@ -69,14 +75,17 @@ ocaml-Subst \
 ocaml-Toploop \
 ocaml-Type-immediacy \
 ocaml-Types \
+ocaml-Unit-info \
 ocaml-Warnings \
 ocaml-zarith \
 ocamlfind-compiler-libs.toplevel \
+ocamlfind-zarith \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Buffer \
 ocamlx-Stdlib--Bytes \
 ocamlx-Stdlib--Callback \
 ocamlx-Stdlib--Format \
+ocamlx-Stdlib--Hashtbl \
 ocamlx-Stdlib--Int64 \
 ocamlx-Stdlib--Lexing \
 ocamlx-Stdlib--List \

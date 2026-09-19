@@ -14,10 +14,10 @@ discussion of Metafont usage; the tex-k@tug.org list is best \
 for bug reports about building the software, etc."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.2.71828182svn66186"
+PV = "2026.226.2.71828182svn77830"
 
-RPM_NAME = "texlive-metafont-2023.209.2.71828182svn66186-55.1.noarch.rpm"
-RPM_HASH = "beac085e921927d013e42d477e8ecf3376ded2ec919461a64f740b2bf099213906a365ab83ed61f6a690bfae5a729d62f813efa75d54eddc9ef0a7ca517324d5"
+RPM_NAME = "texlive-metafont-2026.226.2.71828182svn77830-61.2.noarch.rpm"
+RPM_HASH = "7ab73ea41302e2931588c72f03e770eb32f840da837a5d379bc17bc16d0f0fcf6f6ac608f8181e320bbb563abb7ac0bbcb8763b56c650d0ee44fe588776a0bb6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metafont"

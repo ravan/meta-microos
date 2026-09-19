@@ -9,13 +9,13 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.18"
 
-RPM_NAME = "perl-String-Format-1.18-1.19.noarch.rpm"
-RPM_HASH = "e647039b58605c853ca3d2320d61d19b8c85ba3e2e3fc898927fdb27d33e57da90ce23fb331b736945715f563407b7604119a62c9c7b37d97bc0822a14281a77"
+RPM_NAME = "perl-String-Format-1.18-1.33.noarch.rpm"
+RPM_HASH = "2d1c6c862e1db22364fc393b21a795646adc316a42a6bbecdcb66e8fb8e46d34ea6b0380622d957019d100b474684c9c3fb74b131a65afe00dc4b6a6eded2b3a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--Format \
 perl-String-Format"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

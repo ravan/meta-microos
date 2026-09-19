@@ -2,35 +2,37 @@ SUMMARY = "Sound Mixer"
 DESCRIPTION = "KMix is a fully featured audio mixer by KDE."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmix-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "a2edc0a5d4d072cfd0d86c8cb6bb81c8da6305fe4bb9526c6b16c7e143dc6152c584bf6e0fe9abf8c5c3ade2c2a2d5146d92502a223e4096b647979824033ccd"
+RPM_NAME = "kmix-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "1f395dcb4f1c3b84e9e3fa6dd5afccb79e5d367ff4fdf9148667114ce5e6a9a4ea4c3f2ca7a3c6cc122b9e64435e6e3554876427a5d6ca508a87f340bc97a3ad"
 
 RPROVIDES:${PN} += "config-kmix \
 kmix \
 kmix5 \
-libkmixcore.so.5"
+libkmixcore.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GlobalAccel.so.5 \
-libKF5I18n.so.5 \
-libKF5Notifications.so.5 \
-libKF5Solid.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GlobalAccel.so.6 \
+libKF6I18n.so.6 \
+libKF6Notifications.so.6 \
+libKF6Solid.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libasound.so.2 \
 libc.so.6 \
 libcanberra.so.0 \

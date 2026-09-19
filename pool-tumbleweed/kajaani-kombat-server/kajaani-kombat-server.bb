@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.7"
 
-RPM_NAME = "kajaani-kombat-server-0.7-4.7.aarch64.rpm"
-RPM_HASH = "04d478405a9584a8be3502a969891924a93f5260a9be9825eb599e581d4aae6b3ce4bbfb9a5424ce3a22188acd8effaceb97e1f2e00cb8c97274f853132d2fda"
+RPM_NAME = "kajaani-kombat-server-0.7-5.4.aarch64.rpm"
+RPM_HASH = "eddd7038f536b99d3d0548c2ee7f2328dfa15a5fdf77becf9b7709b91e57504654a7a779b8b04b1ac1b82a8beda6fceac115c9ed69b8c406b8574c8e807ca143"
 
 RPROVIDES:${PN} += "kajaani-kombat-server"
 

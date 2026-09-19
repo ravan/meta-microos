@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uhhassignment"
 DESCRIPTION = "This package includes the documentation for texlive-uhhassignment"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn44026"
+PV = "2026.226.1.0svn44026"
 
-RPM_NAME = "texlive-uhhassignment-doc-2023.209.1.0svn44026-54.1.noarch.rpm"
-RPM_HASH = "1d0e21bbc21b09155acaadf38250ee8120a4558c6fbafbdd5fa275b2efd95010440277ede4a004d10d8939b87622d41e7369cbe99a876c096d98c0f2fc6609dc"
+RPM_NAME = "texlive-uhhassignment-doc-2026.226.1.0svn44026-60.2.noarch.rpm"
+RPM_HASH = "faa791234caf7763fa7108e2794e4051f9de5bdff0b527a85fb6edf4a3bbbf2f3f55dd36d6ca0dc628f80bb12955c9973b2b7dc95f6282033d3e3888f6304d39"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-uhhassignment-doc"

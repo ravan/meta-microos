@@ -5,29 +5,28 @@ configuration, management and troubleshooting of Pacemaker-based \
 clusters, by providing a powerful and intuitive set of features."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.0+20230809.ddb17a0b"
+PV = "5.1.0+20260828.be794583"
 
-RPM_NAME = "crmsh-4.5.0+20230809.ddb17a0b-1.1.noarch.rpm"
-RPM_HASH = "e9d93ca2b1bb23d2497560d08630d9298cd3e92d5c8bfe4e28f0e8823d42227b568ecd9a34393e6fa4f2db6cdbe6eaf35a7927cfa4fe412dc1df923ab6b54091"
+RPM_NAME = "crmsh-5.1.0+20260828.be794583-1.1.noarch.rpm"
+RPM_HASH = "26da98362a33704e71a69bf896f9f6b91d68fe3673b2467f0cb62858908954619fd751d7b9bfae89ef4289b1f2ac97865b7b15130d6ad6e0cc361db2d8f7835b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-crmsh \
-crmsh \
-python3.11dist-crmsh \
-python3dist-crmsh"
+crmsh"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
-/usr/bin/python3.11 \
 /usr/bin/sh \
 /usr/bin/which \
 crmsh-scripts \
-csync2 \
+group-haclient \
 pacemaker \
 python-abi \
 python3 \
 python3-PyYAML \
 python3-curses \
 python3-lxml \
-python3-python-dateutil"
+python3-packaging \
+python3-python-dateutil \
+user-hacluster"
 
 inherit rpm

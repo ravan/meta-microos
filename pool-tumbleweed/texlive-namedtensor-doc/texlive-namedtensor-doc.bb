@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-namedtensor"
 DESCRIPTION = "This package includes the documentation for texlive-namedtensor"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn65346"
+PV = "2026.226.0.0.4svn65346"
 
-RPM_NAME = "texlive-namedtensor-doc-2023.209.0.0.4svn65346-55.1.noarch.rpm"
-RPM_HASH = "3dc4240455259eadf01d352ec12a006a610946f298212059060b7ed2397e559576020d81265ab920764d970ab229bffec36fb96e23cc876debac1236cd67bba0"
+RPM_NAME = "texlive-namedtensor-doc-2026.226.0.0.4svn65346-61.2.noarch.rpm"
+RPM_HASH = "aa2b5d89ba3f1d4f6d43fd5d65786854b8748dcbc0dcdd1971239e57bb41dfe23a8d6f6429209b2d17b01216df69ae445c0c4ded2619daa7c7e9fe4d1acebeeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-namedtensor-doc"

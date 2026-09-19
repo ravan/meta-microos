@@ -9,8 +9,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "20160806"
 
-RPM_NAME = "perl-URI-Find-20160806-1.24.noarch.rpm"
-RPM_HASH = "fee4a6698642b8b42845c849bbdb9e4ed5c1b6ebd73d0ef42dc06ece04d4ba5ec2fbb152b9502b2c3d6fc6303eb0f58b97ac329bcd85b85b32e0344fb4019296"
+RPM_NAME = "perl-URI-Find-20160806-1.38.noarch.rpm"
+RPM_HASH = "f4db3fbbba06591a92333da68482f694b083e2b80b546df25e0e31e9dcc688028ec35399d5f8b6fc934207f8626aa4e9136bb27df218698fe7e74a5c055a1b5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI--Find \
@@ -18,7 +18,7 @@ perl-URI--Find--Schemeless \
 perl-URI-Find"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-URI"
 
 inherit rpm

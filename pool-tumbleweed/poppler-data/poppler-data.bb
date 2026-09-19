@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only"
 
 PV = "0.4.12"
 
-RPM_NAME = "poppler-data-0.4.12-1.1.noarch.rpm"
-RPM_HASH = "c1da22af324ece3bacc094bf074ff9138ba6b09f7bef45530c3a44664a1e2cf17d411466b6ef8942a78541c3cba513139d0a053285b38b702e507c41c4c9726f"
+RPM_NAME = "poppler-data-0.4.12-1.9.noarch.rpm"
+RPM_HASH = "2ff37b07758341838dbde8c9021f020adb35e987675bdf69aabe19f316ee85c8804a378b02cf4ca09ef1b12bc4f537d3c5c9fa74c18f10838fca48790cb34fc3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "poppler-data"

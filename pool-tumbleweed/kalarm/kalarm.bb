@@ -2,64 +2,67 @@ SUMMARY = "Personal Alarm Scheduler"
 DESCRIPTION = "Personal alarm message, command and email scheduler by KDE."
 LICENSE = "GPL-2.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kalarm-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "173dbcdd6bd5de650cc385ff41238df03ef3ea92ae05396cefef5e7d063dcb688fa51a9d2c25c12bf1eb59e5db9d41561094232d1e16faff21d1f328980c0b3c"
+RPM_NAME = "kalarm-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "9d7eb10a4eea2c4cc3a5dfd88f1335b59975603bac7aed5466d032ebdd101b2ebdf4579c22edbfc64bad35d9ef66d8f89e8d020f1187421c2ec3dc822f21a1e9"
 
 RPROVIDES:${PN} += "config-kalarm \
 kalarm \
 kalarm5 \
-libkalarmcalendar.so.5 \
-libkalarmplugin.so.5"
+libkalarmcalendar.so.6 \
+libkalarmplugin.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5AuthCore.so.5 \
-libKF5CalendarCore.so.5 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5Contacts.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GlobalAccel.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5Holidays.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemModels.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5TextEditTextToSpeech.so.1 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5AkonadiContact.so.5 \
-libKPim5AkonadiCore.so.5 \
-libKPim5AkonadiMime.so.5 \
-libKPim5AkonadiWidgets.so.5 \
-libKPim5CalendarUtils.so.5 \
-libKPim5IdentityManagement.so.5 \
-libKPim5IdentityManagementWidgets.so.5 \
-libKPim5MailTransport.so.5 \
-libKPim5Mime.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libKF6AuthCore.so.6 \
+libKF6CalendarCore.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6Contacts.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GlobalAccel.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6Holidays.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemModels.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Mime.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6TextEditTextToSpeech.so.1 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6WindowSystem.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6AkonadiContactCore.so.6 \
+libKPim6AkonadiContactWidgets.so.6 \
+libKPim6AkonadiCore.so.6 \
+libKPim6AkonadiMime.so.6 \
+libKPim6AkonadiWidgets.so.6 \
+libKPim6CalendarUtils.so.6 \
+libKPim6IdentityManagementCore.so.6 \
+libKPim6IdentityManagementWidgets.so.6 \
+libKPim6MailTransport.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libphonon4qt5.so.4 \
-libstdc++.so.6"
+libmpv.so.2 \
+libstdc++.so.6 \
+libvlc.so.5"
 
 inherit rpm

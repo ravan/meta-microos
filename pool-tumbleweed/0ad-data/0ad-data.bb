@@ -11,15 +11,14 @@ hobbyist game developers, since 2001. The code and data are available under the 
 license, and the art, sound and documentation are available under CC-BY-SA."
 LICENSE = "CC-BY-SA-3.0 & LPPL-1.3c+ & GPL-3.0-or-later"
 
-PV = "0.0.26"
+PV = "0.28.0"
 
-RPM_NAME = "0ad-data-0.0.26-1.2.noarch.rpm"
-RPM_HASH = "638c11cf46d36bb4fc661997226542add4d1dad1a9d3177c84de38425e01a993f1fa1ec20dedde356d6e7a646a2521090a33743ed9be5befd9a08fc4d90ccc80"
+RPM_NAME = "0ad-data-0.28.0-1.2.noarch.rpm"
+RPM_HASH = "7db9932dfe49b22cabf8b68d0db660e18a6b8fccf418d3f79e32ae6e9e82802ea5e8416f8bf6e39d26bcc6ae5cb05ec9b65b9eceaa7d27d6c073660eb497da74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "0ad-data"
 
-RDEPENDS:${PN} += "dejavu-fonts \
-gnu-free-fonts"
+RDEPENDS:${PN} += ""
 
 inherit rpm

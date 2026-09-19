@@ -12,10 +12,10 @@ XMPP are included. Punycode and ASCII Compatible Encoding (ACE) via \
 IDNA is supported."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.41"
+PV = "1.44"
 
-RPM_NAME = "libidn-devel-1.41-1.3.aarch64.rpm"
-RPM_HASH = "f3d8dba137385ba0795b002d6380c9b0e58f5b4dec6a4190d39b293d807988dd93950ab8f3ca037e857e269e65787d2223ba77dc9000b8aa0b2fe86e7a963337"
+RPM_NAME = "libidn-devel-1.44-1.3.aarch64.rpm"
+RPM_HASH = "e9826ab54eef415900da4f13b2b7299700e219c14a465d0879620c8a79e65f9766210a59bf8411bd06c6597ee1632454fcd72a8058f87dcbc0dd99332cb6d029"
 
 RPROVIDES:${PN} += "libidn-devel \
 pkgconfig-libidn"

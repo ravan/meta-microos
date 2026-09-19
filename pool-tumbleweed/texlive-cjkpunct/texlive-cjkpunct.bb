@@ -2,10 +2,10 @@ SUMMARY = "Adjust locations and kerning of CJK punctuation marks"
 DESCRIPTION = "The package serves as a companion package for CJK."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.8.4svn41119"
+PV = "2026.226.4.8.4svn41119"
 
-RPM_NAME = "texlive-cjkpunct-2023.209.4.8.4svn41119-54.1.noarch.rpm"
-RPM_HASH = "a674358cb911203c736f6cf65cb10f4b91331da201671021c2b588239efa2edc857ae700c5ab8a0bda3032ddc7305d782fdee755268e19e07ddfec23bc926d52"
+RPM_NAME = "texlive-cjkpunct-2026.226.4.8.4svn41119-60.2.noarch.rpm"
+RPM_HASH = "0c4499e1149f0500182fa8a2d3dd19905739da85e1890ce4879992c80b2daf7b0acc75c41829b237ac399c92d4366520c1a34e1488bd4e7e0ff66fb61c8e987a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CJKpunct.sty \

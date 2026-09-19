@@ -8,10 +8,10 @@ graphics programmed in the TeX language. The package supersedes \
 the arrayjob package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.04svn18125"
+PV = "2026.226.1.04svn18125"
 
-RPM_NAME = "texlive-arrayjobx-2023.209.1.04svn18125-54.1.noarch.rpm"
-RPM_HASH = "3a62c3a13630d3ea2d80fccb78de45ff294ab0fefc692977024c2526dcd70be5c3f40d0a26cf838dc489a7e0832b09fde35b8edd177261824c0e7379f9c8c342"
+RPM_NAME = "texlive-arrayjobx-2026.226.1.04svn18125-60.2.noarch.rpm"
+RPM_HASH = "7de3cb61ca242878f40369ae989e2e9dc41e1c73fb71a5d2d07d0ca7bb3a8f29f484f195fa109808bf09e30e469cf80495fec171f34171796b3c1c26e253e39e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arrayjob.sty \

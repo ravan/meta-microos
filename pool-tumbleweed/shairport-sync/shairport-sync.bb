@@ -12,24 +12,25 @@ Shairport Sync runs on Linux, FreeBSD and OpenBSD. It does not support AirPlay \
 video or photo streaming."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.2"
+PV = "4.3.7"
 
-RPM_NAME = "shairport-sync-4.2-3.1.aarch64.rpm"
-RPM_HASH = "1b66e4f719911cb62cef2764f8ebe4f01d245d264097081c77b4b36f77c16b0fa1960a4c285fd1146fdd2ed02c17b8a47eb99654fd462d0c6c1e4e74410ebadb"
+RPM_NAME = "shairport-sync-4.3.7-2.8.aarch64.rpm"
+RPM_HASH = "72b867609a56162e869186ea0274ae025bd427022c2f1c84999970d118d7ea2e868311ee55bde167d835427045d28308bc2ba6a9ea5648407bb2b22510ab0d6d"
 
 RPROVIDES:${PN} += "config-shairport-sync \
 shairport-sync"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+avahi \
 firewalld \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \
-libavcodec.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavutil.so.60 \
 libc.so.6 \
-libconfig.so.11 \
+libconfig.so.15 \
 libcrypto.so.3 \
 libgcc-s.so.1 \
 libgcrypt.so.20 \
@@ -39,10 +40,10 @@ libplist-2.0.so.4 \
 libpopt.so.0 \
 libpulse.so.0 \
 libsndfile.so.1 \
-libsodium.so.23 \
+libsodium.so.26 \
 libsoxr.so.0 \
 libstdc++.so.6 \
-libswresample.so.4 \
+libswresample.so.6 \
 libuuid.so.1 \
 nqptp \
 shadow"

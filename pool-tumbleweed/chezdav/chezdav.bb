@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "chezdav-3.0-1.4.aarch64.rpm"
-RPM_HASH = "f3f338f61794df9963d994e74ea8c896f1fc707c0d7a138682890773a5f9d3c429a94fb323cf6b345c35f3025a747de4bccf7dfa9ba4fd49bb0a436e86edcd37"
+RPM_NAME = "chezdav-3.0-3.13.aarch64.rpm"
+RPM_HASH = "7ef6a069a007087d13166adb93fa792e767214de2733071adc3ede1daf6f5d87a19417433fed8c12614beaf17b1ab83a006ee1b0179eeb21fc4739a3acd19093"
 
 RPROVIDES:${PN} += "chezdav"
 

@@ -6,14 +6,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.7.2"
 
-RPM_NAME = "amavisd-milter-1.7.2-1.8.aarch64.rpm"
-RPM_HASH = "c5824ae91fcd5b5deaa516359b5dfddf7f26640e4d7e85c17e01eb0f6a7339e05c03a5d7b1203971bfcfa94c8accabaf6abd696307ee60470f1fd0c399f25bf8"
+RPM_NAME = "amavisd-milter-1.7.2-2.5.aarch64.rpm"
+RPM_HASH = "0cded3d97ada85b1455eb62e10b50892caeb56c681e7051b0a31a3addcbe1c432070e140840dd9a15c2219cba470bebfe63cbeb6cded30c86c016452af2040aa"
 
 RPROVIDES:${PN} += "amavisd-milter"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 amavisd-new \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmilter.so.1.0"
 

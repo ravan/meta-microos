@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-versonotes"
 DESCRIPTION = "This package includes the documentation for texlive-versonotes"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn55777"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-versonotes-doc-2023.209.0.0.4svn55777-54.1.noarch.rpm"
-RPM_HASH = "33eb6b3f57d9dc867f28a5ca5703359a60c1e87c235f81b3016f97ebee2531399a67069cec0e37dee1738d8ec27f35b6604548790dd3251c75dad955d2dee335"
+RPM_NAME = "texlive-versonotes-doc-2026.226.0.0.5svn77682-60.2.noarch.rpm"
+RPM_HASH = "79aaa313e1fd8e5306e70bee7d749c38c0fab0ced19767f11b0baf1e2df6120c8db9ae847f6ebeeaac9b61a935929027b0311ca1499ae4cfcccab69587612ef4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-versonotes-doc"

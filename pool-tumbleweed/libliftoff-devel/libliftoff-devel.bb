@@ -3,10 +3,10 @@ DESCRIPTION = "The libliftoff-devel package contains libraries and header files 
 developing applications that use libliftoff."
 LICENSE = "MIT"
 
-PV = "0.4.1"
+PV = "0.5.0"
 
-RPM_NAME = "libliftoff-devel-0.4.1-1.2.aarch64.rpm"
-RPM_HASH = "6b5fa45854f5563af102a814d9b57916ffc39a31b81a6a8b12aa2368d21290393392143248d8fee1f4d057ad9c7ca4317559ef4299536bc551d24ac88e1ce4d7"
+RPM_NAME = "libliftoff-devel-0.5.0-1.9.aarch64.rpm"
+RPM_HASH = "65ae891ed4cf99f5b5e9aaf21532e0dbecece5163431371739420ee050dea6defeefeb1d56f15ba7dc1d10b46585e9fbdf33ba8694fa1ecdc36645eb16e0b826"
 
 RPROVIDES:${PN} += "libliftoff-devel \
 pkgconfig-libliftoff"

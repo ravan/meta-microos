@@ -4,17 +4,16 @@ DESCRIPTION = "An AV1 encoder for video streams from Intel. \
 This package contains the header files for svt-av1."
 LICENSE = "BSD-3-Clause-Clear"
 
-PV = "1.6.0"
+PV = "4.2.0"
 
-RPM_NAME = "SVT-AV1-devel-1.6.0-1.1.aarch64.rpm"
-RPM_HASH = "0b682e0a06c8e6c8475c7c854c26d0dd711e4f0334f586662b0df3d1a7a2492d7f906a77111b03b1f72e69913ebff5a889ccc4b0aaec22c4ea2ba4931f74590e"
+RPM_NAME = "SVT-AV1-devel-4.2.0-1.2.aarch64.rpm"
+RPM_HASH = "0239dc6932c579d2b87cacc353bc4f0be7b289716e00cae1891beaf9b3f5585732ea053ef4282e77f16f0e5d2cd585236f69d372412e502e7e726e6bc2eeb335"
 
 RPROVIDES:${PN} += "SVT-AV1-devel \
-pkgconfig-SvtAv1Dec \
+cmake-SVT-AV1 \
 pkgconfig-SvtAv1Enc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libSvtAv1Dec0 \
-libSvtAv1Enc1"
+libSvtAv1Enc4"
 
 inherit rpm

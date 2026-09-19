@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "0.4.41"
 
-RPM_NAME = "libzen-devel-0.4.41-1.1.aarch64.rpm"
-RPM_HASH = "104e78db61baf7a671ee6e8f4bac2cbf0d248bfa82f30e6974da5b4c54c2f253da334fc34301bbe6f1d90afd11c025ebb4576a2746340324ce3bb879ee745570"
+RPM_NAME = "libzen-devel-0.4.41-1.11.aarch64.rpm"
+RPM_HASH = "2400917f2001d9029a01bd27c1da9c30985c4524f6c6700d2190fc1f1d6a4aba660cbeaa0831a262ec1b75d66ecfe7edfd9a558fda28a8cf2a393f1532aa57c2"
 
 RPROVIDES:${PN} += "libzen-devel \
 pkgconfig-libzen"

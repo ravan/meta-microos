@@ -10,10 +10,10 @@ central point for joints, and start and end points for some \
 links."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn61392"
+PV = "2026.226.1.0svn61392"
 
-RPM_NAME = "texlive-kinematikz-2023.209.1.0svn61392-56.1.noarch.rpm"
-RPM_HASH = "e78a8e675be9c37ca9f2c1e56bb11a686546ad1a37188e9213e3f9562ffbc6f94dc10cb1c61f62ecdfa1ca328fcb812618ec4161654ed0dc856e8bc74c41b74f"
+RPM_NAME = "texlive-kinematikz-2026.226.1.0svn61392-63.2.noarch.rpm"
+RPM_HASH = "49097793b7ed2ec848a5a81904de045c186db0db83157942d16f39666c6ed0498bc55c3adfb777b42c8b2b2c016c5dfb633c129e9e6fb9c964563b0825469d7c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kinematikz.sty \

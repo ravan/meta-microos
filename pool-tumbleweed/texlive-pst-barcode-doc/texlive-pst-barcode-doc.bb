@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-barcode"
 DESCRIPTION = "This package includes the documentation for texlive-pst-barcode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.19svn64182"
+PV = "2026.226.0.0.20svn77682"
 
-RPM_NAME = "texlive-pst-barcode-doc-2023.209.0.0.19svn64182-53.1.noarch.rpm"
-RPM_HASH = "86123baa254529a7cc16669647fee118ce18f0dc25f1f410fa55aee2db0160ea2e098c3549d75cbe4ba5d4b419759c941fcd83d621a6476f42902927c206d6b7"
+RPM_NAME = "texlive-pst-barcode-doc-2026.226.0.0.20svn77682-59.2.noarch.rpm"
+RPM_HASH = "10e1e5822d67502fa5fa75f507878303a0bdb12ee96ccd80ea23081c4e6a76bb5b6112cf8d7bfcc00ac1103d5fe149671fc7d27331c2228b9a6a3ab32aa4c53f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-barcode-doc"

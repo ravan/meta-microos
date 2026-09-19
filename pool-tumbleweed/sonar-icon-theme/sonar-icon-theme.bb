@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "11.3.1"
 
-RPM_NAME = "sonar-icon-theme-11.3.1-30.17.noarch.rpm"
-RPM_HASH = "48ac1ed7f369b3ae3f56879d5e1b746f712cba798dc5508d1e4cb286e75fae583f538df0e2864f4b4da7e4a311cae93ca685c6e4c5bd8442cfa39b73c1a397e4"
+RPM_NAME = "sonar-icon-theme-11.3.1-31.9.noarch.rpm"
+RPM_HASH = "8fbb500bc45386aa60e23c8addf78ae02060c910c90662ce7cde895d55631c7a87cb3dd2ef614bcf751785ef3fe50026e1b6221f439ab2410d1ba1e43a95ab97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icon-theme-sonar \

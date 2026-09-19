@@ -3,10 +3,10 @@ DESCRIPTION = "The service provider interface for repository system implementati
 repository connectors."
 LICENSE = "Apache-2.0"
 
-PV = "1.9.12"
+PV = "2.0.22"
 
-RPM_NAME = "maven-resolver-spi-1.9.12-1.1.noarch.rpm"
-RPM_HASH = "6b2aed9e475ee1bc903db84269ed0e60da7091523710757b2b335fa2b7cf66f3e1eff06b7d6d9da0d5eb1a935a5d4beaac422d22a535889c5390671218257a9d"
+RPM_NAME = "maven-resolver-spi-2.0.22-1.1.noarch.rpm"
+RPM_HASH = "7f936037aef0690760cc94e997a7e11b266001792fa0429d2c257bac601347231e4529e4702ec39e4de80b7060508eb9d731b0eda6b42afd96a78bd02230687a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-resolver-spi \
@@ -18,6 +18,7 @@ osgi-org.apache.maven.resolver.spi"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
+mvn-com.google.code.gson-gson \
 mvn-org.apache.maven.resolver-maven-resolver-api"
 
 inherit rpm

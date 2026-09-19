@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-prof-0.8.4-1.2.aarch64.rpm"
-RPM_HASH = "dc68a0f78a7d41a0ef51bbe2c15e2a27744134abe40cccf954b41bf66913eda2033a7df03356aaa1a7b9ef8f4c1ef2971f2ed29acf3a6857acd475a831bd4963"
+RPM_NAME = "ghc-clock-prof-0.8.4-1.19.aarch64.rpm"
+RPM_HASH = "6d3633251493f2d97f65b5b14497be0a6925ae08498ab8bba5441d8a6b0be2361453f53c5d01c2921c607b01043082d46fd8380a5504405b642be2208c6066c4"
 
 RPROVIDES:${PN} += "ghc-clock-prof \
-ghc-prof-clock-0.8.4-FaEd7XcSjZTFKcoXlUaX3W"
+ghc-prof-clock-0.8.4-Jabd1gSnpD77RKirxFCoTK"
 
 RDEPENDS:${PN} += "ghc-clock-devel \
-ghc-prof-base-4.17.2.0"
+ghc-prof-base-4.21.2.0-8844"
 
 inherit rpm

@@ -4,10 +4,10 @@ used in place of pkgconfig. This ensures that pkgconf is used as \
 the system provider of pkg-config."
 LICENSE = "ISC"
 
-PV = "1.8.0"
+PV = "2.5.1"
 
-RPM_NAME = "pkgconf-pkg-config-1.8.0-2.5.aarch64.rpm"
-RPM_HASH = "e7b4f5ba4ebc4774d42fa366d13875ef00de63f499f3238ea869e3c4121aecc9d6bd06c5b6612401a0c095a90e24de6c7691ea68749620a5f5a63496c847d146"
+RPM_NAME = "pkgconf-pkg-config-2.5.1-1.5.aarch64.rpm"
+RPM_HASH = "34717299bf96126a16d1bf24c9bb44c161eb2f3c97dd46c633fc47a95923ca4ba2a6f9d9ff53168291b8296c53dc50e3fa2d99626d9e8d1f6c655a9bf84bb8fd"
 
 RPROVIDES:${PN} += "pkg-config \
 pkgconf-pkg-config \

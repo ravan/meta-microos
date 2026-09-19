@@ -2,27 +2,27 @@ SUMMARY = "Haskell haskeline library development files"
 DESCRIPTION = "This package provides the Haskell haskeline library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.2"
+PV = "0.8.4.1"
 
-RPM_NAME = "ghc-haskeline-devel-0.8.2-1.1.aarch64.rpm"
-RPM_HASH = "1d40805b0ebc22edfe995a1eec6231ca678e0b977ef9ccc5661b6d5718cf00375d4b52fbf5c185170fe2becfd947fe4a63edeed261ec2703b472171c8389c69a"
+RPM_NAME = "ghc-haskeline-devel-0.8.4.1-1.3.aarch64.rpm"
+RPM_HASH = "6786ab8c7dd6d184a582b3e66531865cabff2dd87c55a53ad69dcdc6a464b56f544de25edecdb3fea40228cd6ca9961e081f675d54e0bc86d89343ea0474731f"
 
-RPROVIDES:${PN} += "ghc-devel-haskeline-0.8.2 \
+RPROVIDES:${PN} += "ghc-devel-haskeline-0.8.4.1-767e \
 ghc-haskeline-devel \
 ghc-haskeline-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-containers-0.6.7 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-terminfo-0.4.1.5 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-2.7.3 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-terminfo-0.4.1.7-3afa \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-haskeline"
 
 inherit rpm

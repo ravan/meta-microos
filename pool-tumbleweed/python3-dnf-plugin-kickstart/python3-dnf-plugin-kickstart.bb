@@ -3,10 +3,10 @@ DESCRIPTION = "Kickstart Plugin for DNF, Python 3 version. Install packages list
 Kickstart file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.0.17"
+PV = "4.1.2"
 
-RPM_NAME = "python3-dnf-plugin-kickstart-4.0.17-2.2.noarch.rpm"
-RPM_HASH = "9b1672c0defc2a7ef19c187ad9ef06eb9b7049f295650162e6ac5f71a077cc387970e9f826375080e5b84bad8b421713d6894d0b9d4e608007f4225f3a1ea16d"
+RPM_NAME = "python3-dnf-plugin-kickstart-4.1.2-1.8.noarch.rpm"
+RPM_HASH = "43afb77378218c49272834193c0aeeb7c0a2b17a6184f19da24ac1f90bee74d199b4defa93fc8f657b64c448fde6fe3d5bd4ada8e62e583cab79190b519fbd8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dnf-command-kickstart \

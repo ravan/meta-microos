@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Serbian)"
 DESCRIPTION = "The texlive-sr package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54594"
+PV = "2026.227.svn54594"
 
-RPM_NAME = "texlive-texlive-sr-2023.209.svn54594-55.1.noarch.rpm"
-RPM_HASH = "fe90e1c943f7a4106113c773121faaa945b3380fc4ad52a50dcb0c8b8d9b28fca66fcb5a9b94c57511c39b1c80e6d8f3a45280eb2eeed7131e3541c861786384"
+RPM_NAME = "texlive-texlive-sr-2026.227.svn54594-62.2.noarch.rpm"
+RPM_HASH = "f617b7681bae79ec22fd0399739174347c8f108005f8876b682b0812233543da889e0a4fdcc850401f319673c790f2e938c01e9f0bf8a68f217caa8e06e57a8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-sr"

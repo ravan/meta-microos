@@ -10,10 +10,10 @@ on colorist.sty from the colorist package. The package name \
 combined with the first three letters of 'Artikel' ('article')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-lebhart-2023.209.svn65475-55.1.noarch.rpm"
-RPM_HASH = "a437459d7351d4534903f32f8afdf977b8808866b98c924c7e6c77c8fef8e5fa913a8e50695d31a769a7e68f3b3ee877bb73c947a1c9fe79d6eb804369ecbe54"
+RPM_NAME = "texlive-lebhart-2026.226.svn78004-61.2.noarch.rpm"
+RPM_HASH = "604bfe8517aa266d9c90bbac840a581425d3d4d31a054430cb1d8c9a911cd6204972d338bb1e868f11c07b263606c9a09990b0eeffeac783ff0db7324708a1fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lebhart.cls \
@@ -44,7 +44,7 @@ tex-regexpatch.sty \
 tex-silence.sty \
 tex-tikz-cd.sty \
 tex-unicode-math.sty \
-tex-wrapfig.sty \
+tex-wrapfig2.sty \
 texlive \
 texlive-colorist \
 texlive-filesystem \

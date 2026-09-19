@@ -8,10 +8,10 @@ recipient addresses, for refusing mail from specified hosts, networks, \
 or senders, and for controlling mail relaying."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.96"
+PV = "4.98.2"
 
-RPM_NAME = "exim-4.96-5.3.aarch64.rpm"
-RPM_HASH = "6c4b45c5db1c317e763b82dcad471aab399fa5680f37c78e90df748b0fad0b9da33c7dbb15a7998b7182deb67d0709ad476737f92b94e0636522a45cf63eaa6a"
+RPM_NAME = "exim-4.98.2-4.7.aarch64.rpm"
+RPM_HASH = "6add1e8258bc2ee0e05a7f2ef577cf6344002a7e60db3a9f71ee33f1df3db325da21d7b51eaea802f386acef4ab254c92b1992e63f24e531d61a49ce67e78df6"
 
 RPROVIDES:${PN} += "config-exim \
 exim \
@@ -41,6 +41,7 @@ libspf2.so.2 \
 libsqlite3.so.0 \
 libssl.so.3 \
 logrotate \
+perl-File-FcntlLock \
 permissions \
 systemd \
 textutils \

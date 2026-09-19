@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for timoni"
 DESCRIPTION = "Bash command line completion support for timoni."
 LICENSE = "Apache-2.0"
 
-PV = "0.12.1"
+PV = "0.33.0"
 
-RPM_NAME = "timoni-bash-completion-0.12.1-1.1.noarch.rpm"
-RPM_HASH = "7c0847e03c724532cfc87cc378d397409512f26294f83e1f54295692777c59cd337c0ecda5e8960a3853de0939ee44c46498315f1f6f80f1c15162129305f2c9"
+RPM_NAME = "timoni-bash-completion-0.33.0-1.1.noarch.rpm"
+RPM_HASH = "715fec1d188a9b4547fe698be9a6c1689bf36e0bfc9b0dd809b37c5d215bc0227143b6f8bb45613e95f22966c288f3d9646712fef912e2e8681d7f25e1ffbdaf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "timoni-bash-completion"

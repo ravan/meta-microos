@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "1.3"
 
-RPM_NAME = "urxvt-font-size-1.3-1.4.aarch64.rpm"
-RPM_HASH = "674e262be06f1ad498716e596cb64f635dfba430d6a05f06493b2a924cca45a911a13bd236030570f648b41b8c085fb272c72a1a82e58e0f7f2804eb4c266ca8"
+RPM_NAME = "urxvt-font-size-1.3-1.12.aarch64.rpm"
+RPM_HASH = "5e9172e3b681c97114f2b239af75bb5528f8a3c1d49462feced36434836c7d1861cb607f86c7a7571f5b18c4749fe9c5a4dcd7ff9bc2338420ef86fa748fbf05"
 
 RPROVIDES:${PN} += "urxvt-font-size"
 

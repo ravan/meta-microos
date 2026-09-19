@@ -1,21 +1,22 @@
 SUMMARY = "An exam class for mathematics teachers in China"
-DESCRIPTION = "This exam class is specially designed for mathematics teachers \
-in China. It is used by mathcrowd.cn (an opensource math exam \
-database) as the default class for exporting exam papers to \
-pdf. Using BHCexam you can separate the format and the content \
-very well; export both teacher paper and student paper; typeset \
-multiple choice questions with 3-6 options keeping adaptively \
-neat alignment; typeset cloze questions with a customizable \
-underline; typeset questions with subquestions in lists; group \
-questions in a list to control whether to show score, leave \
-spacing, initialize question number; and more (see BHCexam \
-Documentation)."
+DESCRIPTION = "BHCexam.cls is a LaTeX document class designed for typesetting \
+exams. It is currently used by the Mathcrowd Problem Database \
+to generate exam PDF files. The class supports the following \
+features: Support for configuring whether to display answers. \
+Ability to set whether the document is formatted in multiple \
+columns. Alignment customization options. Automatic alignment \
+of option lengths to a grid. Ability to adjust the width of \
+blank lines based on the length of fill-in-the-blank answers. \
+Option to display or hide scores for question groups. \
+Customizable answer space for each question. Ability to restart \
+numbering in question groups. Support for sub-questions and \
+nested sub-questions in short-answer questions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn64093"
+PV = "2026.226.1.8svn72638"
 
-RPM_NAME = "texlive-bhcexam-2023.209.1.7svn64093-54.1.noarch.rpm"
-RPM_HASH = "ac7449358a91d4c02a1b2c766dd20f8dc5b78d91a2f7a2b72ace9b08bfa358cb0db7f6120880696d20748492cb9d6663f1130ee1c63c9dc78510f3b3983d591d"
+RPM_NAME = "texlive-bhcexam-2026.226.1.8svn72638-61.2.noarch.rpm"
+RPM_HASH = "dfdb226bb267bdbd98b564043f36946c01a667596db63765123e0a069d152faf87bbebfbc342debb423164b9669670850c331177d42f45c0408df64aafde2acd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-BHCexam.cls \

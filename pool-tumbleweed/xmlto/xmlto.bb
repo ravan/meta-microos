@@ -4,10 +4,10 @@ stylesheets.  As a processor it depends on xsltproc and as a formatter \
 for print output it makes use of passivetex."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.28"
+PV = "0.0.29"
 
-RPM_NAME = "xmlto-0.0.28-3.15.aarch64.rpm"
-RPM_HASH = "8785eecd934f9097fd1e68e76365acb1e51e46006f3c4480885bb13265ba2a8159ac8c7f4aaa0db841a1cac1299a9563991486f4ea56fe09168223b9c1513832"
+RPM_NAME = "xmlto-0.0.29-1.4.aarch64.rpm"
+RPM_HASH = "4b6fe9fd633244bf1d08f5a212625719c58dfe727ba78ce85875873d06f43917faf91e1fb87de54ed5975b8113a0fc332d9736bb2c03e6162cac5dfb62d57c31"
 
 RPROVIDES:${PN} += "xmlto"
 

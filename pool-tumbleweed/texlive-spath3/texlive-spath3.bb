@@ -5,10 +5,10 @@ that make use of the methods provided. These are libraries for \
 drawing calligraphic paths and for drawing knot diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn64818"
+PV = "2026.226.2.8svn76924"
 
-RPM_NAME = "texlive-spath3-2023.209.2.7svn64818-58.1.noarch.rpm"
-RPM_HASH = "fb73cf0e73ddefd49307ab164b82bc31641a10ae420d17033b75bd2836191096ae1e567b8de0d82a9cc90b1b8794a9870bad02ccd6f46bd717e6019a0d4b1cdf"
+RPM_NAME = "texlive-spath3-2026.226.2.8svn76924-64.2.noarch.rpm"
+RPM_HASH = "efd6adb14fc1f927a98a0f9bd23b4bccc82b1718570511bfdf9bb7e796686b27439d0e6eaa5b2ec3bfc388319e832e57631266ba3b6b9192e6ba2da5461c2927"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spath3.sty \

@@ -4,10 +4,10 @@ may be used: simply to print successive rows of the triangle, \
 or to print the rows inside an array or tabular."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-binomexp-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "132d42d8267f5d416d6199c5e2ae13423bd923109c5d94be8ee43f386df696a21e815e620a56507275787f8b93699a0ed4feb68dae673ecd9bd2b898393b162e"
+RPM_NAME = "texlive-binomexp-2026.226.1.0svn15878-61.2.noarch.rpm"
+RPM_HASH = "2a724a577f8bf62734883503d3d0b501225ee4c0cc5c65f7b6cfc75cacb2008b1720cedd2273bb8fbdc2f77841065625b66b8a08e993d2ad5e35b03635c96962"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-binomexp.sty \

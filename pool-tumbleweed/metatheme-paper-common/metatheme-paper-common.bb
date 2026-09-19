@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "2.1.0"
 
-RPM_NAME = "metatheme-paper-common-2.1.0-2.16.noarch.rpm"
-RPM_HASH = "dc15565a987150b5309abdd24008aadc4fdc03a539551e89ea85dca1522a026f078e0947e06b1693b4776d3ad7edd747172cfdb79fce9ee81681f1ba5ee3e64d"
+RPM_NAME = "metatheme-paper-common-2.1.0-2.24.noarch.rpm"
+RPM_HASH = "068644a8c9027910f4aa59abaccd10b5b6de7d58af0ff8113987b5788a54d2323e7ab8a6842ab3026559413186fb4cc1db8420cc4a2de25f8484f63b840b1e07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-paper-common \

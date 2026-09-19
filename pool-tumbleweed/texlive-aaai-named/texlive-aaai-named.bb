@@ -3,10 +3,10 @@ DESCRIPTION = "A BibTeX style derived from the standard master, presumably for \
 use with the aaai package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn52470"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-aaai-named-2023.209.svn52470-55.1.noarch.rpm"
-RPM_HASH = "c620234cea2bda37ce0198debd1b5a5402703628b56fca163b25b0988f50944f454ea3082e221e63384457bdcf3c41d1e3577ab3bd9b0417ef607ad5da9f7188"
+RPM_NAME = "texlive-aaai-named-2026.226.svn76790-61.2.noarch.rpm"
+RPM_HASH = "4fcf03adf86648c2a200e62df68114ca863f5a0866ef6d0770b263ffce78e7ce11b6670232b80a544f1b90d595f5ba81898ce1dc2b284df801e0c4b47b35d44e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-aaai-named"

@@ -3,10 +3,10 @@ DESCRIPTION = "libnftnl is a userspace library providing a low-level netlink \
 programming interface (API) to the in-kernel nf_tables subsystem."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.6"
+PV = "1.3.2"
 
-RPM_NAME = "libnftnl11-1.2.6-1.1.aarch64.rpm"
-RPM_HASH = "f10930f574bc0a392d85888b81840cdd60e8c39f24c17e50b8eea71b86662803723bfca0dd3463cd4f905aa80b499b60d869eb15753d0bdb8985209ed1a404dd"
+RPM_NAME = "libnftnl11-1.3.2-1.1.aarch64.rpm"
+RPM_HASH = "3931f6807c1064e6b678dd95e5b7d86a0e887b5f024230f0b39845caaa9d593cc1a4fffbed17a3fa4dfbad9ba63f510d21884b1961647bc4ffe013021cd381d2"
 
 RPROVIDES:${PN} += "libnftnl.so.11 \
 libnftnl11"

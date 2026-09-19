@@ -7,10 +7,10 @@ Parallel netCDF (PnetCDF) maintains file-format compatibility with NetCDF. \
 This package contains the documentation for PnetCDF."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-doc-1.12.3-1.5.noarch.rpm"
-RPM_HASH = "3364255c8751c0671199695b053092c3f2d15b88c1f6091cd9984fadaf67e61b5a4ffe7eee0bd0ca7a514c5c9b7547771ac3cc8bff924afe413d3262c5da308f"
+RPM_NAME = "pnetcdf-doc-1.14.1-1.3.noarch.rpm"
+RPM_HASH = "5d31b3b24f01b529f37c28a1ad7ef50ae98dbdd7fb1bd8123f744de61c3405905cf32eabe1066b6e1b762c25c54f641a841611405dca0c6846637f9edd6ee98b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pnetcdf-doc"

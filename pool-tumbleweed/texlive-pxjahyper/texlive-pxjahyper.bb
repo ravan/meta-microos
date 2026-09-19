@@ -4,10 +4,10 @@ that authors can properly create PDF documents that contain \
 document information in Japanese."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn66272"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-pxjahyper-2023.209.1.3svn66272-54.2.noarch.rpm"
-RPM_HASH = "22137556440cdf143fe397f36b1de4dd68a7ec7d473715cf4a71506b9ab9567c1a1df92ba9cd57b1524311ddefe3a9026392ff888c9876895517a9ff9c36da19"
+RPM_NAME = "texlive-pxjahyper-2026.226.1.5svn77682-60.4.noarch.rpm"
+RPM_HASH = "35074724e4a8f6c9b241f16839e0f594eff3e68b37005dcdca405d4b5a555fbb9467a54fb82366e9a64f43d5d0aa56665382ef45e5758ac0c466485a4326d4b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pxjahyper-ajm.def \

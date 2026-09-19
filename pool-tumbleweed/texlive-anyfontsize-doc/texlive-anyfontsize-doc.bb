@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-anyfontsize"
 DESCRIPTION = "This package includes the documentation for texlive-anyfontsize"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn17050"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-anyfontsize-doc-2023.209.svn17050-55.1.noarch.rpm"
-RPM_HASH = "334c48ba115d5cb6dcd2b77d050ca6e010b54460c0a55bd9913fe02b2e785f03f77b158a05275341ea424ceb2503a6ed04db203c0b700dc8d4f799c5f2a6797d"
+RPM_NAME = "texlive-anyfontsize-doc-2026.226.svn78101-61.2.noarch.rpm"
+RPM_HASH = "3ce018cc94393de663f3fa0baa5e1fd92221fc36fc474530ff081eb084893435ed7a69a52a6df0bab5342972fadd5bd8d9ebd4f9c1396039998732c5cdc8870c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-anyfontsize-doc"

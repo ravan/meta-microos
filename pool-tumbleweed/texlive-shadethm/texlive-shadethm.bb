@@ -17,10 +17,10 @@ be available to help people who are working with an old \
 project.'"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn53350"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-shadethm-2023.209.svn53350-54.1.noarch.rpm"
-RPM_HASH = "608436bd3c6afb4503b5b6a5a57efa27813a8ffa9b44303bf8d057d004a28d46e6c9f90d6bb16605ab28bce6dc17220827d1c5c650d519566e5b6ee2ec021dfe"
+RPM_NAME = "texlive-shadethm-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "feda762cea632189e6d347d374f840174456a76a8e89c1843d6718320869c5ccb18de00deb984cd78b0ab9433661c907d37e11a3306531f6a1f6c73dc52086e1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-shadethm.sty \

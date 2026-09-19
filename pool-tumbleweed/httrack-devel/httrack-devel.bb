@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.49.2"
 
-RPM_NAME = "httrack-devel-3.49.2-2.9.aarch64.rpm"
-RPM_HASH = "7ca5723c40d154295224361a7103cd2dc82e15f9011a7a2b0de9dae6b0effa78cebbb3db74f43b3aa1f04af38ddff9a019249f7446fcb7ea6ac061ab073a7bcf"
+RPM_NAME = "httrack-devel-3.49.2-3.11.aarch64.rpm"
+RPM_HASH = "f6690a8f35391cbc84f0657fa275aeb23bca42f6dec950058973d5ff582ed85567c87fdce20c9f2e84a5dd2659d37505896fe192d6ca2601ffd035b9f8cd41d7"
 
 RPROVIDES:${PN} += "httrack-devel"
 

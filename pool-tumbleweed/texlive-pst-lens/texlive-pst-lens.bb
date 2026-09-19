@@ -4,10 +4,10 @@ DESCRIPTION = "This PSTricks package provides a really rather simple command \
 remarkable range of effects."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn15878"
+PV = "2026.226.1.02svn15878"
 
-RPM_NAME = "texlive-pst-lens-2023.209.1.02svn15878-53.1.noarch.rpm"
-RPM_HASH = "8f5e41ce008985063a859d15159ecd821de8e6f58b570f2a95ab2c0115bb44eca2a341d7e95f28a1a55a9626a5c6ba09d26e90543285512e78df051336476414"
+RPM_NAME = "texlive-pst-lens-2026.226.1.02svn15878-59.2.noarch.rpm"
+RPM_HASH = "757a05219d6f228001c2e30a40c97fe31966e61a7eed2ffa4656d053b487b63f52ed4fbf49c95cf826efd9314efbc7d3f8c62d9da3397519986cdf015a3e191b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-lens.sty \

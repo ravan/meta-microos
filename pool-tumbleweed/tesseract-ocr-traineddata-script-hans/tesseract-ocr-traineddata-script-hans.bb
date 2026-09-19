@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Han (Simpli
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-hans-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "da7e3a434690f279e35e330c1c58a90150ca5d20bee3aea5e0daec86a26fcee01ab36b5a11d7608256c99223c564483d23a27e2a9334f91425d759eb33b34fb9"
+RPM_NAME = "tesseract-ocr-traineddata-script-hans-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "146456b94659b58ee8e669a8ffe90c8fc60f54426543f71806b3a4d5eb05b0bec3a0f0211cb36c74bc49f0c8d7e0cc5ab4fb114aaead7195fa68832218621f5b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-hans"

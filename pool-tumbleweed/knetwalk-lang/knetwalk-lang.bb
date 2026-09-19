@@ -2,17 +2,17 @@ SUMMARY = "Translations for package knetwalk"
 DESCRIPTION = "Provides translations for the 'knetwalk' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "knetwalk-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "d29b33c0fb0e904c5c4c262b531f7970b3a2aa739fa1b42fc02ca0e5aab0a9eaf324444a33a152c68484375c20cdda49319867b9e61c3a8629a066f8a9e9ef0a"
+RPM_NAME = "knetwalk-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "4c2c0eb1a10b355b451614bc6671c004401ac4dbce422abfe80eed4cc6b9dd3fa953d822f6db13370756087e3cb6783710b23ccd6b2616893f0595611a16a227"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "knetwalk-lang \
 knetwalk-lang-all \
 locale-knetwalk-ar \
+locale-knetwalk-ast \
 locale-knetwalk-be \
-locale-knetwalk-bg \
 locale-knetwalk-br \
 locale-knetwalk-bs \
 locale-knetwalk-ca \
@@ -36,6 +36,7 @@ locale-knetwalk-he \
 locale-knetwalk-hi \
 locale-knetwalk-hr \
 locale-knetwalk-hu \
+locale-knetwalk-ia \
 locale-knetwalk-id \
 locale-knetwalk-is \
 locale-knetwalk-it \

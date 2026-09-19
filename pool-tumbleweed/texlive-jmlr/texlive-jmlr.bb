@@ -9,10 +9,10 @@ editors can use makejmlrbookgui to help build the proceedings \
 from the articles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.30svn61957"
+PV = "2026.226.1.30svn61957"
 
-RPM_NAME = "texlive-jmlr-2023.209.1.30svn61957-56.1.noarch.rpm"
-RPM_HASH = "ebfc6258b9aa0033688d38c78bc853f4ab731f2575696095839660924ea7be7094256c0b804438d3252a2596e8decb73a67f14293ebb2b7174cc81f6137f9618"
+RPM_NAME = "texlive-jmlr-2026.226.1.30svn61957-63.2.noarch.rpm"
+RPM_HASH = "92a9c6cd9f5d27662f32594d42a458be2d67e87c24a20518b67fd7d8422c48d75e502aa53c5366197409a5e28c1c6d2b684ba855ef20ce0755500c84cd831823"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jmlr.cls \

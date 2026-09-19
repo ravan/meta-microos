@@ -7,54 +7,60 @@ Konqueror integration for adding news feeds and with an internal \
 browser for news reading."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akregator-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "588d224472a9144f997349d8560196a30148d95b099d20721f28a37eea1eb453d61b51834d94ea4d69b5c93299436c24c5290aaa4725b9fc84ecf3d3649484d8"
+RPM_NAME = "akregator-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "299135691482029fbdb6a2ceb424d627e87c78dc5b07a9822401782d0e3d1780b75b4473dad1f2b379fc0768f20c470a4c1b60074937791db839d4512e999f58"
 
 RPROVIDES:${PN} += "akregator \
 akregator5 \
-libakregatorinterfaces.so.5 \
-libakregatorprivate.so.5"
+libakregatorinterfaces.so.6 \
+libakregatorprivate.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Codecs.so.5 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libKF5NotifyConfig.so.5 \
-libKF5Parts.so.5 \
-libKF5Syndication.so.5 \
-libKF5TextEditTextToSpeech.so.1 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libKPim5GrantleeTheme.so.5 \
-libKPim5KontactInterface.so.5 \
-libKPim5Libkdepim.so.5 \
-libKPim5MessageViewer.so.5 \
-libKPim5MimeTreeParser.so.5 \
-libKPim5PimCommon.so.5 \
-libKPim5TextEdit.so.5 \
-libKPim5WebEngineViewer.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libKF6NotifyConfig.so.6 \
+libKF6Parts.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6Syndication.so.6 \
+libKF6TextAddonsWidgets.so.1 \
+libKF6TextEditTextToSpeech.so.1 \
+libKF6TextTemplate.so.6 \
+libKF6TextUtils.so.1 \
+libKF6UserFeedbackCore.so.6 \
+libKF6UserFeedbackWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKPim6GrantleeTheme.so.6 \
+libKPim6KontactInterface.so.6 \
+libKPim6Libkdepim.so.6 \
+libKPim6MessageViewer.so.6 \
+libKPim6MimeTreeParser.so.6 \
+libKPim6PimCommon.so.6 \
+libKPim6PimCommonActivities.so.6 \
+libKPim6WebEngineViewer.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

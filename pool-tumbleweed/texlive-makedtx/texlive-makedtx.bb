@@ -6,13 +6,13 @@ automatically generates the character table, and also writes \
 the associated installation (.ins) script."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn46702"
+PV = "2026.226.1.3svn77871"
 
-RPM_NAME = "texlive-makedtx-2023.208.1.2svn46702-53.1.noarch.rpm"
-RPM_HASH = "f444c7cc4286c1dedf858e45705ac782ff2d29296da25d34ceb03533f305c829d028e57e54d6cb8d65e925e6631736b2a92419c8d24ab64cb1d285df8c0d46db"
+RPM_NAME = "texlive-makedtx-2026.226.1.3svn77871-59.2.noarch.rpm"
+RPM_HASH = "6abc1bca4e75781989787a44fe71fa1de034763f1133b033934f260dd016fee6c27d1277b529fc6450015c489e03a8c3e4d9e131dfe8d5ce7a0f82741f24c9c9"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-createdtx.sty \
+RPROVIDES:${PN} += "tex-creatdtx.sty \
 texlive-makedtx"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
@@ -22,6 +22,8 @@ ed \
 findutils \
 grep \
 perl-Getopt--Long \
+perl-strict \
+perl-warnings \
 sed \
 texlive \
 texlive-filesystem \

@@ -1,19 +1,21 @@
 SUMMARY = "Files for Wine development"
 DESCRIPTION = "This RPM contains the header files and development tools for the WINE \
-libraries."
+libraries. \
+ \
+%_win_debug_package"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "8.15"
+PV = "11.17"
 
-RPM_NAME = "wine-devel-8.15-1.2.aarch64.rpm"
-RPM_HASH = "65ebe5bf504aed082523f3bdeeafd41c0a360ed46ad4c3be8f3fc9c30ecc8dadedcea0299c678528ca95e4b2b25dbd8daf591705dc59830067a4dc43bc10b53e"
+RPM_NAME = "wine-devel-11.17-1.1.aarch64.rpm"
+RPM_HASH = "14b6ea069ae805212ab069c38025c0418dbcc66867559fa438d189631b76eddf7c14c73da254934d9463897196da9b412b044c6b8615b94f04999389abafaa33"
 
 RPROVIDES:${PN} += "wine-devel"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
+libEGL.so.1 \
 libGL.so.1 \
-libOSMesa.so.8 \
 libSDL2-2.0.so.0 \
 libX11.so.6 \
 libXcomposite.so.1 \
@@ -33,7 +35,10 @@ libfreetype.so.6 \
 libgnutls.so.30 \
 libgssapi-krb5.so.2 \
 libkrb5.so.3 \
+libnetapi.so.1 \
+libodbc.so.2 \
 libv4l2.so.0 \
-libvulkan.so.1"
+libvulkan.so.1 \
+libxkbregistry.so.0"
 
 inherit rpm

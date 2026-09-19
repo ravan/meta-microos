@@ -7,10 +7,10 @@ cookies may and may not be set, protecting the user from being \
 tracked across sites."
 LICENSE = "MPL-2.0"
 
-PV = "20230826"
+PV = "20260902"
 
-RPM_NAME = "publicsuffix-20230826-1.1.noarch.rpm"
-RPM_HASH = "f23643ec10d788144769a81563bbb0a3963287963f52907df1d863583da108c668f6911bada40272f27cecc38d6036cfd49f9d9dd4e6fc940b9cbaf01b331ee9"
+RPM_NAME = "publicsuffix-20260902-1.1.noarch.rpm"
+RPM_HASH = "bc1745e7f39d8c90e1321926a07ab6c63482c7f3132628379f5e0177dd8c1e719d7234fa1038e2644e475d62caf1f8ac58ad7aa678d80da86bcb3ac3c7b089cf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "publicsuffix"

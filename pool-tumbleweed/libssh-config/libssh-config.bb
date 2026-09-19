@@ -2,14 +2,14 @@ SUMMARY = "SSH library configuration files"
 DESCRIPTION = "Configuration files for the SSH library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.10.5"
+PV = "0.11.5"
 
-RPM_NAME = "libssh-config-0.10.5-2.1.aarch64.rpm"
-RPM_HASH = "391461f50312ff43e358c591598b954e6b6ec90d0cbcae069894e3e62d9899bdaa6ffc6c4680f9dfad221e52d4d8e0d963bc672f95355f5c55bed34c9cc05f27"
+RPM_NAME = "libssh-config-0.11.5-2.1.noarch.rpm"
+RPM_HASH = "a44c858fa4c824972908df2aad77ae0c0d4bfd88653a8d3c6eff481997b49e4e0da3d7e582ae63b59b2d4e480397c59e1959f23c84ebaee32ab810a9d673d939"
+REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-libssh-config \
-libssh-config"
+RPROVIDES:${PN} += "libssh-config"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

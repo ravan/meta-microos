@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-deadbeef-2.1.5-3.3.aarch64.rpm"
-RPM_HASH = "c24a81cec89401c6d1338d3c60aca103e6e775fd3d20b060f6ec73e28201728b73516409ffeab5b90da0a3945d3feeb7416891d5e20a09bdf5c8eeebfd6a7b0b"
+RPM_NAME = "bumblebee-status-module-deadbeef-2.1.5-4.7.aarch64.rpm"
+RPM_HASH = "dc1b43899b98368cccbd3087e448402876485094872b919884d94970bd8cb121df6e8bdc26b09f0c4c0ce82b9f74fd4f7d04ef09398c0ac8c62ad8366da6baf3"
 
 RPROVIDES:${PN} += "bumblebee-status-module-deadbeef"
 

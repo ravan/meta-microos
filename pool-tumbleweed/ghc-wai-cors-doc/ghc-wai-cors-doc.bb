@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.2.7"
 
-RPM_NAME = "ghc-wai-cors-doc-0.2.7-1.5.noarch.rpm"
-RPM_HASH = "6341fa27da13cd6da987dd21f35b0fdd47c9c809c24a5a31c62b1337090ca311eb4ae32e6127dcf1fd8134a77291aed49d17df5bcbf0afa6051ce9bb11586bd8"
+RPM_NAME = "ghc-wai-cors-doc-0.2.7-1.36.noarch.rpm"
+RPM_HASH = "ef0f3abca41c910b6c3b0d9979ddd5c72c4bdab8d5f71847dedc117544253e927a9c129270ef0b2f6149a700d6357c3cc68c6505440e20a80d856c2270bef8eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-wai-cors-doc"

@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "entangle-3.0-2.8.aarch64.rpm"
-RPM_HASH = "454a4515fdd6397127f99bd033e74a0857083b46cd76930654fb0fec0132d3bcc141929a62a1f23972715514bc7ed7051a19a8677d425640f996f2cc9deff76f"
+RPM_NAME = "entangle-3.0-3.2.aarch64.rpm"
+RPM_HASH = "7273c9e576519e765e66612842825426846a82ff8bf5e46e9d1dc3ac278e969d552611d862e4282e225cebc62803eccb9db2ddc20ec182117f71999bb043e6c1"
 
 RPROVIDES:${PN} += "entangle \
 libentangle-backend.so.0 \
@@ -24,7 +24,7 @@ libgdk-3.so.0 \
 libgdk-pixbuf-2.0.so.0 \
 libgexiv2.so.2 \
 libgio-2.0.so.0 \
-libgirepository-1.0.so.1 \
+libgirepository-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgphoto2-port.so.12 \
@@ -37,8 +37,8 @@ liblcms2.so.2 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libpeas-1.0.so.0 \
-libpeas-gtk-1.0.so.0 \
-libraw-r.so.23"
+libpeas-1.0.so.1 \
+libpeas-gtk-1.0.so.1 \
+libraw-r.so.25"
 
 inherit rpm

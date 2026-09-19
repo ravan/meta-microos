@@ -18,10 +18,10 @@ Some of the features of Commons VFS are: \
 * A set of VFS-enabled Ant tasks."
 LICENSE = "Apache-2.0"
 
-PV = "2.2"
+PV = "2.10.0"
 
-RPM_NAME = "apache-commons-vfs2-2.2-1.18.noarch.rpm"
-RPM_HASH = "eb3b30d2e651ecad2500ab10ca5d36622e4956155522094c7e92f13dcdb673e030eb42efdcbae31eee757121edba29b732f329621d57fda2b83b65dec21ed84f"
+RPM_NAME = "apache-commons-vfs2-2.10.0-1.6.noarch.rpm"
+RPM_HASH = "7a4d3b5ee2d9f2e0f1d38bb8ef0024a4f6cd3b32d428185979f9874dec84ee28fa368f2e33b04a5473155ed6b5c9a98f518eb61ca24797e079f02fc3f0fd77f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-vfs2 \
@@ -31,6 +31,8 @@ osgi-org.apache.commons.commons-vfs2"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-commons-logging-commons-logging"
+mvn-commons-io-commons-io \
+mvn-commons-logging-commons-logging \
+mvn-org.apache.commons-commons-lang3"
 
 inherit rpm

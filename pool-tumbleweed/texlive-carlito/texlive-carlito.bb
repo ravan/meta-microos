@@ -6,10 +6,10 @@ for ChromeOS as a font-metric compatible replacement for \
 Calibri."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64624"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-carlito-2023.209.svn64624-53.1.noarch.rpm"
-RPM_HASH = "3ca4a1114e8aa98531219b5c1604e97a0d390554b2c19b01f1e09b572b964e1a68be53b4b042e58e70d1c65a1ccbdb76feea4c6f19d7c83cf596e0e702f24b62"
+RPM_NAME = "texlive-carlito-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "f8b8d3d45d5c49b444845cd92582f56a396329e05b770dab0710a14ad374f4e94a6200c5e7c05ca03008262431dc6a44160b4d5263e90b021c9ae23c2049fd7a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Crlt-Bold-inf-ly1.tfm \

@@ -5,10 +5,10 @@ the outer vertical mode like page breaking, floats, marginpars, \
 etc. are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn43752"
+PV = "2026.226.1.0svn43752"
 
-RPM_NAME = "texlive-minidocument-2023.209.1.0svn43752-55.1.noarch.rpm"
-RPM_HASH = "b8d39f1e65a8098aa3528fd2388408ef411375cae9d9139baab0d8b3b4cb8674ffd4b57e91da4b4e515c2200a9759fc7fe58a18222c3ea683a4aad09f85b1a16"
+RPM_NAME = "texlive-minidocument-2026.226.1.0svn43752-61.2.noarch.rpm"
+RPM_HASH = "84272e958a358025e85b702d7cbd43c74aa31ec92238491750d16147e98371848c0a40f3e2f069d0c43fd7eb972d867e65c78fecb3a10c3ce4c1a1824ee59a86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minidocument.sty \

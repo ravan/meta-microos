@@ -4,10 +4,10 @@ diagrams possible and easy in LaTeX. The BarDiag package is \
 inspired by and based on PSTricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4asvn22013"
+PV = "2026.226.0.0.4asvn22013"
 
-RPM_NAME = "texlive-bardiag-2023.209.0.0.4asvn22013-54.1.noarch.rpm"
-RPM_HASH = "aaec320f0f06354b5541932da0c44775ce6a71c3fc2946a7d9448c062968a1462867b92ae57d559c3391a630c0d0390598a761f4782989fd00330fb73927dfbb"
+RPM_NAME = "texlive-bardiag-2026.226.0.0.4asvn22013-60.2.noarch.rpm"
+RPM_HASH = "085bea7bbdfd102ef37ad0212c5ffb17e473f5cfcc9f22e29ca42bfad18d23d06b3ecb9499e8514ce352887768ae2c542a07f074f74470da258e98ea6ed432f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-barddoc.sty \

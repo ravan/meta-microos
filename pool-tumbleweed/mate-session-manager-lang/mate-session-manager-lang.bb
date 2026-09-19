@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-session-manager"
 DESCRIPTION = "Provides translations for the 'mate-session-manager' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "mate-session-manager-lang-1.26.1-2.1.noarch.rpm"
-RPM_HASH = "e0890d88a00f03057cf6a8e5c2ba15c1564e8f09ca077a1168de35165b5a9d6e2cdf47b3f7873043636e8f8a2dfa2e441ff95adb2936ba29984bd588fc81c41d"
+RPM_NAME = "mate-session-manager-lang-1.28.0-1.13.noarch.rpm"
+RPM_HASH = "62d92a174f03b16ed293b167a55e278d374db653a702845322744d7b52c992310f1af44c607041a3ed86b2ee2bd093b530891fca35bed283fb16f055ef47ac51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-session-manager-af \
@@ -30,7 +30,6 @@ locale-mate-session-manager-el \
 locale-mate-session-manager-en-AU \
 locale-mate-session-manager-en-CA \
 locale-mate-session-manager-en-GB \
-locale-mate-session-manager-en-US \
 locale-mate-session-manager-eo \
 locale-mate-session-manager-es \
 locale-mate-session-manager-es-AR \

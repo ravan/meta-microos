@@ -4,8 +4,8 @@ LICENSE = "EPL-2.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.1.6"
 
-RPM_NAME = "glassfish-jax-rs-api-javadoc-2.1.6-2.1.noarch.rpm"
-RPM_HASH = "3eb9ab68cf5dc3e44fcc2266e0179db74aad9656a54c1b341c2cc5674fb638fc3ee3ae8a6d888593bcc081aa66428d50b17ccd6bda2480d195d0e26f00ccfd52"
+RPM_NAME = "glassfish-jax-rs-api-javadoc-2.1.6-2.10.noarch.rpm"
+RPM_HASH = "75630d42c5a430d2121b655225b4649c546e1d7d8de28a40115d87a575b665bb5e5c483803c17c2ae33bf4cab3160e0db58b4328afe7672a70f79b059e4cf198"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jax-rs-api-javadoc"

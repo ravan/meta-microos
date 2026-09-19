@@ -6,10 +6,10 @@ the corresponding path are stored in macros. This packages \
 depends on simplekv."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.13svn64580"
+PV = "2026.226.0.0.13svn64580"
 
-RPM_NAME = "texlive-dijkstra-2023.209.0.0.13svn64580-53.1.noarch.rpm"
-RPM_HASH = "d6cd9497a8ca5bd3959f30e228461ab3f542bd297e588114edd87356c48a83af5472664818339ea89275c669732a4d7deaa1322a0ce47323080f819ace4e547b"
+RPM_NAME = "texlive-dijkstra-2026.226.0.0.13svn64580-59.2.noarch.rpm"
+RPM_HASH = "b2cac015c35ae5cbc30eb7ebbffcb8551b2a675805324cb3078a50ed73c8568eaea1cc729aac7ba1c0a79c3c03501ae9584a110dbcb806b82708bd38a3b87d9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dijkstra.sty \

@@ -6,10 +6,10 @@ by a number of linguistics conference proceedings (e.g., \
 WCCFL)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8.2svn25144"
+PV = "2026.226.1.8.2svn25144"
 
-RPM_NAME = "texlive-cascadilla-2023.209.1.8.2svn25144-53.1.noarch.rpm"
-RPM_HASH = "4315851ed449f20c8dbddbdfe46ad826e974b4dcc7aea582463736a39daa3af00427278c68c049107266da9c679a0ecc8b289cb92d09a4464f692b64408d1b26"
+RPM_NAME = "texlive-cascadilla-2026.226.1.8.2svn25144-59.2.noarch.rpm"
+RPM_HASH = "387e1b08eecbbc31a2be588c7798574543ce00a0c8de09f53d20755936238a6fd1bc4bcec82398eb30523a85ee0c80a622b274f5dcdeeb62b0485d9c2c4e0ab0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cascadilla.cls \

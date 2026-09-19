@@ -3,10 +3,10 @@ DESCRIPTION = "The gauss package provides configurable tools for producing row \
 and column operations on matrices (a.k.a. Gaussian operations)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32934"
+PV = "2026.226.svn32934"
 
-RPM_NAME = "texlive-gauss-2023.209.svn32934-53.1.noarch.rpm"
-RPM_HASH = "60931af8b3db95520cad5122af233eadce5197caa7bd0b8814aa8192d81a841da4d6434ae90e464e2ce7ef75cb7d3f38e2907a14305a138fff3e91988725c269"
+RPM_NAME = "texlive-gauss-2026.226.svn32934-60.2.noarch.rpm"
+RPM_HASH = "005a4c9c0c9797d5a4c0cba6fe4d0665639c7f2d6312166712bad3b796f47b4796753c57cac66d91d6b30112ed5fcaf25b9af18decdb306df4feeda13346da84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gauss.sty \

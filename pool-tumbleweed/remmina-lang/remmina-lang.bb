@@ -2,14 +2,15 @@ SUMMARY = "Translations for package remmina"
 DESCRIPTION = "Provides translations for the 'remmina' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.31"
+PV = "1.4.43"
 
-RPM_NAME = "remmina-lang-1.4.31-1.1.noarch.rpm"
-RPM_HASH = "42093cb70d3575152adbf0a31377a7b33820727762506b8bc40248f22919cbce5f6c96db0da8b70fbec566503c19f9bf2dd05051d395d0adc8490a964b40aadc"
+RPM_NAME = "remmina-lang-1.4.43-2.2.noarch.rpm"
+RPM_HASH = "471ff036bdd784e2ad189290df03a57758de8796c2f0d1c5be8573250c05f8d7158c8b4b34f8ebf37c7aeaa744dfc7bc57827244fce89c43643c5b488d263356"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-remmina-ar \
 locale-remmina-ast \
+locale-remmina-be \
 locale-remmina-bg \
 locale-remmina-bn \
 locale-remmina-br \
@@ -64,6 +65,7 @@ locale-remmina-sl \
 locale-remmina-sq \
 locale-remmina-sr \
 locale-remmina-sv \
+locale-remmina-ta \
 locale-remmina-te \
 locale-remmina-th \
 locale-remmina-tr \

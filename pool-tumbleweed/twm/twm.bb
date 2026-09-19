@@ -5,10 +5,10 @@ user-defined macro functions, click-to-type and pointer-driven \
 keyboard focus, and user-specified key and pointer button bindings."
 LICENSE = "HPND"
 
-PV = "1.0.12"
+PV = "1.0.13.1"
 
-RPM_NAME = "twm-1.0.12-1.7.aarch64.rpm"
-RPM_HASH = "b07a671852802eaad44fd659ced680f1cf1b792a3a38942e2aa1be7237ec1ebd2367a844651fecf283f8744e5b268716ef3f44cb9cda1d0c88e7078dc5765680"
+RPM_NAME = "twm-1.0.13.1-1.6.aarch64.rpm"
+RPM_HASH = "22f48a051aaa9f8eaeedb7e9fa35a8f712a61af2b8c63b715dc1428055368b59555c25c82fc39355bbdfe5e444a5eb5b43e65a0b6ac536858d19144526660142"
 
 RPROVIDES:${PN} += "twm \
 windowmanager"

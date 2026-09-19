@@ -10,10 +10,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libsgutils."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.48~20221101+1.142dace"
+PV = "1.48+36.936c7ae"
 
-RPM_NAME = "libsgutils-devel-1.48~20221101+1.142dace-1.4.aarch64.rpm"
-RPM_HASH = "9cde7f70897f5b3290f19cea42d255acba60b30a3ffe220dc7dd1dfe77ba746c4876ff5b1819c531cef7bd4610b8e55a8c177c9f58b6d3e692359f3387ff2fbc"
+RPM_NAME = "libsgutils-devel-1.48+36.936c7ae-1.1.aarch64.rpm"
+RPM_HASH = "df42d3e6b40164f06d10175038d37abf11a741331cfaf84e8bda0722d2c45319fe65e9b14696eb59bde2ec8539b75223b06456510402341555f3d6788465dad0"
 
 RPROVIDES:${PN} += "libsgutils-devel \
 sg3-utils-devel"

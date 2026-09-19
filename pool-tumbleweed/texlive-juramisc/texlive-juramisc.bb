@@ -4,10 +4,10 @@ opinions, books and dissertations for German lawyers. A \
 jurabook class is also provided, which may not yet be complete."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn15878"
+PV = "2026.226.0.0.91svn15878"
 
-RPM_NAME = "texlive-juramisc-2023.209.0.0.91svn15878-56.1.noarch.rpm"
-RPM_HASH = "b5c221cabfb4f54ba727b54a26ffaebe939a84b4efaf40065b377f629c70dacc771559bb146dd58f617ddba46d4a0fd2a24f45e9daa4783460a518158a62a75a"
+RPM_NAME = "texlive-juramisc-2026.226.0.0.91svn15878-63.2.noarch.rpm"
+RPM_HASH = "4083e0501c0b4607ac6eefaccc7ce5eb4e257d252a8f0f867c062dba13aa6d2f578e735af53ea1baa76e3418c8684463f81f7ed011312adefb7d1d463f826927"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jbgoe.clo \

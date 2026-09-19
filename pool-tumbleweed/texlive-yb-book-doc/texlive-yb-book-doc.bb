@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-yb-book"
 DESCRIPTION = "This package includes the documentation for texlive-yb-book"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.0svn64586"
+PV = "2026.226.0.0.6.5svn74649"
 
-RPM_NAME = "texlive-yb-book-doc-2023.209.0.0.2.0svn64586-53.2.noarch.rpm"
-RPM_HASH = "4a5dd10d68f9b33de5a7867179946ebe340628d5135af3da81c07bff96699af55baef893c1bb6ed9bfab60f1316b2bae54e699b4cb99e655831f723fd01b2eab"
+RPM_NAME = "texlive-yb-book-doc-2026.226.0.0.6.5svn74649-59.4.noarch.rpm"
+RPM_HASH = "3dce4c31f487ac80ed90e3cf21cfaa3ab6376d18191b15183ba2c47026de516a973dc4371d20ea569e9016be65c6212eab2179fad408c581cb0528dd62d9a95f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-yb-book-doc"

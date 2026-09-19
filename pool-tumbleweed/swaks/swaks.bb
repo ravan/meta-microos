@@ -11,15 +11,17 @@ tool. Features include: \
   environment variables, configuration files, and command line"
 LICENSE = "GPL-2.0-only"
 
-PV = "20201014.0"
+PV = "20240103.0"
 
-RPM_NAME = "swaks-20201014.0-2.7.noarch.rpm"
-RPM_HASH = "73f939ea838c4e42586585436b568b6a1b41bae66ab685a8bbf24c28067e6584d3bc8c343d03c18bda298ac9ded601c0ddbac3075e97e262b359273885307627"
+RPM_NAME = "swaks-20240103.0-2.8.noarch.rpm"
+RPM_HASH = "1a7b0bf5205474ca87ec7097f8155057b0925ec8895907b572fde322a2c52dc3517bdb421651c49bac2650b0cf1d7d89aaffd6f4ce59c8206c25963cb053420a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaks"
 
-RDEPENDS:${PN} += "/usr/bin/perl \
-perl-Net-SSLeay"
+RDEPENDS:${PN} += "/usr/bin/env \
+perl-IO--Socket--IP \
+perl-Net--DNS \
+perl-Net--SSLeay"
 
 inherit rpm

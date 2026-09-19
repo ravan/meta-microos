@@ -2,17 +2,21 @@ SUMMARY = "Translations for package net-tools"
 DESCRIPTION = "Provides translations for the 'net-tools' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.10"
+PV = "3.14~alpha~git.20260718.4f5bfb2"
 
-RPM_NAME = "net-tools-lang-2.10-2.2.noarch.rpm"
-RPM_HASH = "7cc1389fcafe84c8310aa01501ca0f71c47b06c856df26f52291d269e5727283ee822e6fbde3aa12e1526600db2b2a326cb1a6128d6824bbf920151b60429b09"
+RPM_NAME = "net-tools-lang-3.14~alpha~git.20260718.4f5bfb2-1.1.noarch.rpm"
+RPM_HASH = "755558cbc6b3b0a4de702453b64afafbf2c66eb0805c856e9a194e4d740c433a1d19fca127afab96f725b0f17c2fbd4f358d4961716936270d919eed12d6cfdf"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-net-tools-cs \
+RPROVIDES:${PN} += "locale-net-tools-ca \
+locale-net-tools-cs \
 locale-net-tools-de \
 locale-net-tools-et \
 locale-net-tools-fr \
+locale-net-tools-ja \
+locale-net-tools-ka \
 locale-net-tools-pt-BR \
+locale-net-tools-sv \
 net-tools-lang \
 net-tools-lang-all"
 

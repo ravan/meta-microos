@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.0"
 
-RPM_NAME = "awesome-branding-openSUSE-4.0-2.7.noarch.rpm"
-RPM_HASH = "18717537dd6a1f115d5ea38fe6a4ed4ace34e447ba651aa68e109c77c08c04781fa9056bad6c113053c106a637468e309345a6b87312a20d15a82a31da2a4107"
+RPM_NAME = "awesome-branding-openSUSE-4.0-2.15.noarch.rpm"
+RPM_HASH = "ae919b25f693e6c54d36a32fbf95b31cdea9fcdaed53aa741d7384fc218384c099b09893ea0b42888d22130cf0df43ce079a3ef6a18ec9692eca72c488df3955"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "awesome-branding \

@@ -10,10 +10,10 @@ the user did not enter any text into the field. The package \
 works for dvips/Distiller, pdfLaTeX, LuaLaTeX, and XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn49052"
+PV = "2026.226.svn49052"
 
-RPM_NAME = "texlive-grayhints-2023.209.svn49052-54.2.noarch.rpm"
-RPM_HASH = "890a7d9f1db97af9950e221a7e2050f3b5cd0cbbc9d2ce256e0720cc4b0fdd3d4cf9b8f64bb61be28018187548a3d4bc4a6ba9454a5610ce2ab67ba9b48be0ef"
+RPM_NAME = "texlive-grayhints-2026.226.svn49052-60.4.noarch.rpm"
+RPM_HASH = "d92d77bcc5861ff9b7b6b6af1fb412652791b76968980a317ecd8f27b9ed49eaa9e4ecc6d64e95ce0565d40da9381ad4fff4703ae7a81661b716066b094fa724"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grayhints.sty \

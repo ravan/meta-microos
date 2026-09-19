@@ -8,10 +8,10 @@ sets are based on (and require) the harvard package, and all \
 provide variations of author-date styles of presentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32639"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-economic-2023.209.svn32639-54.2.noarch.rpm"
-RPM_HASH = "ba2deb097f2408e786bf8de84c8b2f032085815984cadc47204c2988a972e26b7bdc4b3edb01a5d7ab30e9f9e4b55074ec40a0226d717b4644277cba8c573a9a"
+RPM_NAME = "texlive-economic-2026.226.svn76790-61.4.noarch.rpm"
+RPM_HASH = "bed50a6da817f47a48bb9092a78137154e08aac8f2d2a6acf64434d820e4b25feedac4a072b1214b02f2b1f12cc666984f2a9c52f66b41241eda47084308ddfa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aer.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "An ADS-B Mode S decoder specifically designed for RTLSDR devices.
 Flightaware fork."
 LICENSE = "GPL-2.0-only"
 
-PV = "8.2"
+PV = "11.1"
 
-RPM_NAME = "dump1090-fa-8.2-1.4.aarch64.rpm"
-RPM_HASH = "076f615237b698491ba54645744379f6a263c844232fbc20c0f3541b277e59edb2c5f0b715ae403a56e9cbc314c141ba0f2a9814cb14a07ae49f089a6c2a6d83"
+RPM_NAME = "dump1090-fa-11.1-1.2.aarch64.rpm"
+RPM_HASH = "6fafab7fc9885f7b4803ad1ff1aa06f3c9ff806212f60dfbb8797cf5fd5e7a03433b38240e8dd58ad99bd8269a4ee8acdfdf0322820e4b9707974e3df7346179"
 
 RPROVIDES:${PN} += "dump1090-fa"
 

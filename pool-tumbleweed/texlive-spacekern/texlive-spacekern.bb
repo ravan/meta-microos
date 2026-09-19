@@ -5,10 +5,10 @@ kerning against space are correctly applied. Additionally, \
 interword kerning can be applied."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1asvn63552"
+PV = "2026.226.0.0.3svn67604"
 
-RPM_NAME = "texlive-spacekern-2023.209.0.0.1asvn63552-58.1.noarch.rpm"
-RPM_HASH = "756d91a3a15805ce56749d1d8687f5597f7b091004693ef27c1a414ebeee7542cecf24b0b2b0411878b9f06ecac18304a7942c48995a5477d50a470132c0ba52"
+RPM_NAME = "texlive-spacekern-2026.226.0.0.3svn67604-64.2.noarch.rpm"
+RPM_HASH = "44b435958a4bcbd687f4a3e1a24566cbcdfc1904387a1dfbc0fba5c8ef1a675a91db7a721541b460b287c4af838a57ba7e82eafb59fdb63951c12a5ec84349b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spacekern.sty \

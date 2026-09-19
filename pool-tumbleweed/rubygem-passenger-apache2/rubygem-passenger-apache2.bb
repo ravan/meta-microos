@@ -6,10 +6,10 @@ optimized for performance, low memory usage and ease of use. \
 This package holds the apache2 sub package for passenger"
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "6.0.17"
+PV = "6.2.0"
 
-RPM_NAME = "rubygem-passenger-apache2-6.0.17-1.6.aarch64.rpm"
-RPM_HASH = "301760a07613cad1647006a198679f7801a5ebf74574c7e634096da50d15cf3b52d80dc40c13bc01f06fced3206aa9c46c21cdb979493321bb99d43b10d92a69"
+RPM_NAME = "rubygem-passenger-apache2-6.2.0-1.1.aarch64.rpm"
+RPM_HASH = "8aaaacc414d9314e1e720cdf98c1e5b57fb94d87644f46c92cdbecadf5619a466a4b6ef7a73cd0b66c8c01a3cc2ecfb82f7e92e08333c1aa31daf2c2faacde3d"
 
 RPROVIDES:${PN} += "config-rubygem-passenger-apache2 \
 rubygem-passenger-apache2"

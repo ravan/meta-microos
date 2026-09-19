@@ -6,10 +6,10 @@ threaded. \
 This package contains the Pulse audio bridge for VNC client connections."
 LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
-PV = "1.3.1"
+PV = "1.5.0"
 
-RPM_NAME = "libgvncpulse-1_0-0-1.3.1-1.6.aarch64.rpm"
-RPM_HASH = "9d9616021b46ad4a01ecd69fb242216118a476d13be297dd84ec76aad8bcde9cbb1f792a195171adbff17ecf0a02b0eabff99022977876bea8e340b18187ec89"
+RPM_NAME = "libgvncpulse-1_0-0-1.5.0-5.2.aarch64.rpm"
+RPM_HASH = "62960b1dc827c3d9d5927e445b75471093354a2825746443b6ea4d1257b2d5b2ef7e2149813edb4d024e0de0d4d83b63bd7af642ad2af0ed574e581c8f3b2aec"
 
 RPROVIDES:${PN} += "libgvncpulse-1-0-0 \
 libgvncpulse-1.0.so.0"

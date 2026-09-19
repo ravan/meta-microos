@@ -4,10 +4,10 @@ conglomeration of several library parts, all under free software licenses \
 that make them easily usable on embedded products."
 LICENSE = "BSD-3-Clause & MIT & LGPL-2.0-or-later & ISC"
 
-PV = "4.3.0.20230120"
+PV = "4.6.0.20260123"
 
-RPM_NAME = "cross-pru-newlib-devel-4.3.0.20230120-2.2.aarch64.rpm"
-RPM_HASH = "88ffa0668e0c3b830b8d25175701e6c2c379b46667fecb87a810be4bf372974f287fc739a23bc12219382a89589e98afa7505c3bf5c2d8b91498a9ad841896ca"
+RPM_NAME = "cross-pru-newlib-devel-4.6.0.20260123-1.4.aarch64.rpm"
+RPM_HASH = "44b9c9f366257574e5653fe22c2a4ce85c17dcf8f30326a05f18743855482353df994743cf42c75ea37f5b9e3b08a5966b0c25e3e9bead86ddc51ad291c0f544"
 
 RPROVIDES:${PN} += "cross-pru-newlib-devel"
 

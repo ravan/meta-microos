@@ -2,10 +2,10 @@ SUMMARY = "LDAS (LIGO Data Analysis System) tools abstraction toolkit language b
 DESCRIPTION = "This provides different language bindings for the LDAS tools abstaction library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.6.7"
+PV = "2.6.10"
 
-RPM_NAME = "ldas-tools-al-swig-2.6.7-3.8.aarch64.rpm"
-RPM_HASH = "191b54d257ec06c171ab7780b4c828df2955a65e1764217bd94df3784a20cc079ef5e1db3a877ee058a70abeabac279c6f0e37146c03f88ec38bd85beaa3a362"
+RPM_NAME = "ldas-tools-al-swig-2.6.10-1.8.aarch64.rpm"
+RPM_HASH = "7287b24149114560fa77d4a6632db3b112ef8139656a045c32afc00310135f4d254287af6d04112d79a5e6b7905a1b3ad4b6b1d4a00d1b81e0e23ff6974739b3"
 
 RPROVIDES:${PN} += "ldas-tools-al-swig \
 python2-ldas-tools-al-swig"

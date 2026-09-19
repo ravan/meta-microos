@@ -13,20 +13,19 @@ for your argument/option values (for example, if the user is browsing \
 resources over the network)."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.1"
+PV = "3.6.3"
 
-RPM_NAME = "python311-argcomplete-3.1.1-1.1.noarch.rpm"
-RPM_HASH = "b920fcb55f4c8e29fe78583a69195e9cc86ff7be56d49d19a53e5045a0111fbc407098ef4a1da60318f323c9d6f02a02f1171c484a12eaf76750ed72390ef135"
+RPM_NAME = "python311-argcomplete-3.6.3-1.7.noarch.rpm"
+RPM_HASH = "7d483996caaa5dcd052a6800905ca0a0d753394ff20aa9c429a619f0df5d8625c64fa09ffbb3ce9e9667442e139ebd3befe0aedfbb62f40e5b165b8163b53045"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-argcomplete \
-python3.11dist-argcomplete \
+RPROVIDES:${PN} += "python3.11dist-argcomplete \
 python311-argcomplete \
 python3dist-argcomplete"
 
 RDEPENDS:${PN} += "/usr/bin/python3.11 \
 /usr/bin/sh \
-python-abi \
-update-alternatives"
+alts \
+python-abi"
 
 inherit rpm

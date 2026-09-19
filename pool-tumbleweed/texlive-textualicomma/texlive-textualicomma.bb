@@ -1,15 +1,15 @@
 SUMMARY = "Use the textual comma character as decimal separator in math mode"
 DESCRIPTION = "The package is based on the icomma package, and intended as a \
 solution for situations where the text comma character discerns \
-from the math comma character, e. g. when fonts whithout math \
+from the math comma character, e.g. when fonts without math \
 support are involved. Escaping to text mode every time a comma \
 is used in math mode may slow down the compilation process."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn48474"
+PV = "2026.227.1.1svn76924"
 
-RPM_NAME = "texlive-textualicomma-2023.209.1.1svn48474-55.1.noarch.rpm"
-RPM_HASH = "0873c3f1f7d557966946c2d5cbae3e7348f73127e3af804d211f265be43c29f4a8b99680656fc1f19fc30eb67d354b893ee7b7303f2091630af376ee8e74ffe5"
+RPM_NAME = "texlive-textualicomma-2026.227.1.1svn76924-62.2.noarch.rpm"
+RPM_HASH = "72bfd942eedb7a3ed51bb7ebeaf200d69a49bddfd28fb3c43822184d9248dbdcc4e99ea31bac8c11659e6db3fe44904717b73ac308faeac033909d161f93e31d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-textualicomma.sty \

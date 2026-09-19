@@ -6,10 +6,10 @@ constructions by D. E. Knuth. The glyphs Y and 1 imitate the \
 shapes of the corresponding glyphs in the METATYPE1 logo."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn43812"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-fetamont-2023.209.svn43812-53.1.noarch.rpm"
-RPM_HASH = "fe6002a90fc6854f3ffbf02a1418c00c4bf3c5394f86b37f04aa4f2fb46cf883ad8d0442322d9ccecf2f7fe26f459c29a2b4c80ad1da8e9abda1f57518e88316"
+RPM_NAME = "texlive-fetamont-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "6a7976d233233e612bf06a4b5e2fcb8f3e0167b72d66bf19481747fa4e8f4abf439d06e6ffebf243956b0f15d20e63726d38bf1a06dd6b7a2d6a0b7911902b42"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-T1ffm.fd \

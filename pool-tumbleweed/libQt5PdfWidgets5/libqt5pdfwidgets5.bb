@@ -2,10 +2,10 @@ SUMMARY = "Qt5 PDF library for Qt Widgets"
 DESCRIPTION = "Library of the Qt PDF module with support for Qt Widgets."
 LICENSE = "LGPL-3.0-only | GPL-2.0-only | GPL-3.0-only"
 
-PV = "5.15.15"
+PV = "5.15.19"
 
-RPM_NAME = "libQt5PdfWidgets5-5.15.15-1.1.aarch64.rpm"
-RPM_HASH = "ef6713a66974001686c17dfdc221289fadf9602127c4b0d3670f1e5a482207be216223d21685092d2b8d393036a5006880ce107915f76907d054c052edae17e4"
+RPM_NAME = "libQt5PdfWidgets5-5.15.19-3.3.aarch64.rpm"
+RPM_HASH = "7b6295d8f2fee09b714e0e514a5f1c828693d0dc3e87c6d6278e5998f98ec759375cc32a427995a8cd2f131d24082a277efd2a80d2b83c2606b146d94384a4de"
 
 RPROVIDES:${PN} += "libQt5PdfWidgets.so.5 \
 libQt5PdfWidgets5"

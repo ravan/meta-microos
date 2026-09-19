@@ -9,10 +9,10 @@ into a plain text file, it becomes possible to change the \
 configuration of a cluster by modifying only one file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.28.1"
+PV = "1.32"
 
-RPM_NAME = "genders-1.28.1-2.6.aarch64.rpm"
-RPM_HASH = "ddf9df3c90b93dca0e9925fc797e73447cff9264aaa98cd11b29af4bfa743dd6d2ee57bb429798f7ffb5121e622b53d136c7c64d6fb1c50ed6c756b87c287350"
+RPM_NAME = "genders-1.32-1.10.aarch64.rpm"
+RPM_HASH = "896a0800d98c9115f5956df8e660a8d1a791d87f1ab3c638432b901e8600cf753a4a58fd4dbf466c8382f276b6e7dc3ceb195290057e90bf1009c5d751aeb054"
 
 RPROVIDES:${PN} += "genders"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-present"
 DESCRIPTION = "This package includes the documentation for texlive-present"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.1svn50048"
+PV = "2026.226.2.2.1svn50048"
 
-RPM_NAME = "texlive-present-doc-2023.209.2.2.1svn50048-53.1.noarch.rpm"
-RPM_HASH = "483fa3717780ac08f52920f0f400b7f0d930a0c21aee0850938287cda7cf062ada44053e1d49e40089f318065892dff2169f449f2d5b805ef00c4da687423049"
+RPM_NAME = "texlive-present-doc-2026.226.2.2.1svn50048-59.2.noarch.rpm"
+RPM_HASH = "364e80bc1e5b5b432f9f008d05d49323af623f626dcc6cf26d9835885090a35d19587cd1419ae6e159797b45a09b297058aa7b9789f31e49b6f32986bd1151c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-present-doc"

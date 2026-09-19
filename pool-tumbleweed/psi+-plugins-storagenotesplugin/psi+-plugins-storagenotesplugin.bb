@@ -2,19 +2,19 @@ SUMMARY = "Plugin for Psi"
 DESCRIPTION = "This plugin is an implementation of XEP-0049: Private XML Storage."
 LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
-PV = "1.5.1615+0"
+PV = "1.5.2112+0"
 
-RPM_NAME = "psi+-plugins-storagenotesplugin-1.5.1615+0-3.2.aarch64.rpm"
-RPM_HASH = "f41e99d9cc7e2e9f277951ae189313ff52f3a6d29ee71daf1d28a1520442f2c5d9fc4c31bb8b11ca0feefc514bba3a4550cc4f2054d63a9558c7b26b9a282fc9"
+RPM_NAME = "psi+-plugins-storagenotesplugin-1.5.2112+0-1.6.aarch64.rpm"
+RPM_HASH = "4a754d0358e9f1f25ee92798f6428d3116b2baa70eefb88b313480ddd3953ee43107274a3eb6e0852aefd8a2aca4e4cf70f93c5de686e010139818f72b8996da"
 
 RPROVIDES:${PN} += "libstoragenotesplugin.so \
 psi+-plugins-storagenotesplugin"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

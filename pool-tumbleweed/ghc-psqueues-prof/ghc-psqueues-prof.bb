@@ -2,18 +2,17 @@ SUMMARY = "Haskell psqueues profiling library"
 DESCRIPTION = "This package provides the Haskell psqueues profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.7.3"
+PV = "0.2.8.3"
 
-RPM_NAME = "ghc-psqueues-prof-0.2.7.3-2.9.aarch64.rpm"
-RPM_HASH = "b4bab0e198464999b4f0bab9a7a7e32916d27d939780cecc092f90e09e4bdff3a07a8c27d2dec5c1e80def20531c50e594b8e75a73ad751c9a70a5e831cdcf52"
+RPM_NAME = "ghc-psqueues-prof-0.2.8.3-2.3.aarch64.rpm"
+RPM_HASH = "8a44515a3a07ff6b3918c68a72e28d2a280d7bd74a951070a675f8d2747778b7637513bbb39d82527ea72a2cbe2e735741af2118564e5da3dab6f97958cebd9b"
 
-RPROVIDES:${PN} += "ghc-prof-psqueues-0.2.7.3-HjZq7FmM1u5AN66Kt7is6C \
+RPROVIDES:${PN} += "ghc-prof-psqueues-0.2.8.3-LV1BnLV5SZeHAyWb6kEDRu \
 ghc-psqueues-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-ghc-prim-0.9.1 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
 ghc-psqueues-devel"
 
 inherit rpm

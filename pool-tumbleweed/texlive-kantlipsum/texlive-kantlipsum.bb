@@ -5,10 +5,10 @@ described in the book 'Dive into Python'. The package is \
 modelled on lipsum, and may be used for similar purposes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8asvn51727"
+PV = "2026.226.0.0.8csvn77682"
 
-RPM_NAME = "texlive-kantlipsum-2023.209.0.0.8asvn51727-56.1.noarch.rpm"
-RPM_HASH = "da199089c210eee8a167feadaff39aa4fe37b8b4f4b18147e945fab9f069afc1a5b2f43410a28d6f05af4ed8804c24a3d0f6e810c1cd6c5a546e29e38b8a6a56"
+RPM_NAME = "texlive-kantlipsum-2026.226.0.0.8csvn77682-63.2.noarch.rpm"
+RPM_HASH = "4b9d369cf6037f327128d5a6f91ae3832d847c56db70608fdf13d6e746ac8a0d7fd659cb6cc3c716fc8d70b9b6fdfadba8c5856f1df97692be1115e20b85b194"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kantlipsum.sty \
@@ -20,8 +20,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-expl3.sty \
-tex-xparse.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

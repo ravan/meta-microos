@@ -4,10 +4,10 @@ classes with macros for a preprint, affiliation, editors, and \
 endorsers. The package is loaded with \\usepackage{hep-title}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64907"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-title-2023.209.1.1svn64907-54.2.noarch.rpm"
-RPM_HASH = "d36a3c3f2f5f67a125eaf263c226d6365c257c2fa88114bd27886a04a04cc45a88ebae2f070f2463a618ac5a1276b7d7fac3130cc3f76e8752421a7fa4c0d0a8"
+RPM_NAME = "texlive-hep-title-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "9d9d29f152c0cf8ccb061e0eab2205046f2ba4c61f0c9da374f3ef88075a6bd643a1e3b4a835502cc68753f438dc2e0753cf6db14b8c30ccb6590774d399204d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-title.sty \
@@ -24,6 +24,7 @@ tex-atbegshi.sty \
 tex-authblk.sty \
 tex-calc.sty \
 tex-environ.sty \
+tex-etoolbox.sty \
 tex-picture.sty \
 tex-titling.sty \
 tex-varwidth.sty \

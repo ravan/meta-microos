@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "0.02"
 
-RPM_NAME = "perl-NetxAP-0.02-722.31.aarch64.rpm"
-RPM_HASH = "ba8e0a4d0d43204990a4ed6435295db64d212ff9e140d757ecc61650c2f52c9e017fbf0aeaf24e48afe1b3dc39fbdf06786a6b692fd7604b974a62dcfa717631"
+RPM_NAME = "perl-NetxAP-0.02-723.12.aarch64.rpm"
+RPM_HASH = "18df00c99e68268a338e830ead37caabe3b142c5ce5e9ee5bd1da8d02ddf64f6cd85f27eae189f878b399f9324e82cad038b8551efdf1f1f07ddb1ea511f1219"
 
 RPROVIDES:${PN} += "p-netxap \
 perl-Net--IMAP \
@@ -43,7 +43,7 @@ perl-Net--xAP \
 perl-Net--xAP--Response \
 perl-NetxAP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Digest-HMAC"
 
 inherit rpm

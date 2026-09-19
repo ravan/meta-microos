@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "gcc7-devel-7.5.0+r278197-14.6.aarch64.rpm"
-RPM_HASH = "00c68c77f01c0aabf8bf65bd0c2baf0b688a005f73ca256243fd03d18781bfa2fad82ac729178de75d3ac6e81ebac28602bc5ddc435be48fb5a5aa4de38daf16"
+RPM_NAME = "gcc7-devel-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "fbad0ae27e3808170c731d3269449863fb1d2c5155bb1dee0de9f992aa0846e3d200a8118cb5051e947c19fe72624ac1e40b1d2ec56c19c114f05db1cd6792b8"
 
 RPROVIDES:${PN} += "gcc7-devel"
 

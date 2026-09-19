@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-akshar"
 DESCRIPTION = "This package includes the documentation for texlive-akshar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn56277"
+PV = "2026.226.0.0.2svn76924"
 
-RPM_NAME = "texlive-akshar-doc-2023.209.0.0.2svn56277-55.1.noarch.rpm"
-RPM_HASH = "1673790d0cb16ae3333ce061947e8bc91cb02920ff0a9216d3e5163bdea57330fc00d3f071260d2e0b0067dfade3b240e0f5b6e6760c0c5eaa6d243f70ea02b2"
+RPM_NAME = "texlive-akshar-doc-2026.226.0.0.2svn76924-61.2.noarch.rpm"
+RPM_HASH = "a611b3bf27488d32eaf7868bc995d39d5a91f0069c2cc34b102373b994d94ab4c0412398866169b3da6ac9979355707d71527f3e470e5f8b81185136177c84f5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-akshar-doc"

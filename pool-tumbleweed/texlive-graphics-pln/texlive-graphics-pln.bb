@@ -7,10 +7,10 @@ largest part of the bundle). The bundle also contains a file \
 provides the LaTeX picture mode to Plain TeX users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65187"
+PV = "2026.226.svn71575"
 
-RPM_NAME = "texlive-graphics-pln-2023.209.svn65187-54.2.noarch.rpm"
-RPM_HASH = "92307d7c91cab622f1371a86f72fbeb95a28b6c651b80274cd3e7b63812026c5904e5ed69f3b8d723f7619a0589fdaa73be5dbc6d0e94a288d1640bf860c1d36"
+RPM_NAME = "texlive-graphics-pln-2026.226.svn71575-60.4.noarch.rpm"
+RPM_HASH = "f83add53fc3f3b48977a41e74a995197bbd9483a2e4e2a000f0c05b5cf17b1484bb672e71e330b29442dbe1454cf9cc7fdc63941d3c798bccbeec130e1b38845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-autopict.sty \

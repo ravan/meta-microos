@@ -5,8 +5,8 @@ LICENSE = "AGPL-3.0"
 
 PV = "9.0.1"
 
-RPM_NAME = "libfunambol-devel-9.0.1-16.25.aarch64.rpm"
-RPM_HASH = "3fd853832b1b4f0c59dbd98cc7d77d15429b2845c60c0eba0ea827974c6aa964848486e43ce69a368f1b8e6c3740559fc333270a3b082a587afa1902077cb803"
+RPM_NAME = "libfunambol-devel-9.0.1-16.35.aarch64.rpm"
+RPM_HASH = "34339ab550fec73ada6dc935d3f7c3ec73a2bec5586d151c65d892b08705fd429426706238b7b070f01a536f3cc87531d20e0348fb488e74925542b2853251bd"
 
 RPROVIDES:${PN} += "libfunambol-devel \
 pkgconfig-libfunambol"

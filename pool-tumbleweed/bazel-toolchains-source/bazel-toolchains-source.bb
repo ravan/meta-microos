@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.0"
 
-RPM_NAME = "bazel-toolchains-source-2.0.0-1.9.noarch.rpm"
-RPM_HASH = "2e3c92920e61e03d6fdec2cfe02a31035a0028a9c56c6f3ba120489d6d984c2367aa9f1b4da2fa165371d930917cc5f8f09c90d2cc8ea36cef9c0933015b2838"
+RPM_NAME = "bazel-toolchains-source-2.0.0-1.17.noarch.rpm"
+RPM_HASH = "e78a337bebc5531ebcfe72219a99a7b5ffb4721d90976798e12d6bdb90dfda83602a4e6723bd1cd246451f003a3cd55d2bbdf59189fc949a5526f83511426bef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-toolchains-source"

@@ -13,13 +13,15 @@ probably better not to move the package to obsolete because \
 users may need it to rebuild old documents. Version 1.5 \
 provides full functionality when run with an older kernel but \
 issues a warning message and disables itself when run with a \
-newer kernel.'"
+newer kernel.' Supply the overwrite option to LaTeX's built-in \
+filecontents environment to mimic this package's behavior: \
+\\begin{filecontents}[overwrite]{my-file}...\\end{filecontents}"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn52142"
+PV = "2026.226.1.5asvn77682"
 
-RPM_NAME = "texlive-filecontents-2023.209.1.5svn52142-53.1.noarch.rpm"
-RPM_HASH = "0b95a4f3c0ba0c42234661c81868b43945746369aaf990b55fd88ef7072c31ba5a65bf01337db3ded6425a8fcdaae88eb81203d527d89eea95b3ac806ad69160"
+RPM_NAME = "texlive-filecontents-2026.226.1.5asvn77682-59.2.noarch.rpm"
+RPM_HASH = "e243ea45621f75c0c410470c79f4b7fa3ab462c6273fea9cc778b2e6240e374792d1927e11b06368570bab400b982f4d9506ffea908294fb8c8fbd07f2e23bfd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-filecontents.sty \

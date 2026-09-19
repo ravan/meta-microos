@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.9.0"
 
-RPM_NAME = "gcin-qt5-2.9.0-4.18.aarch64.rpm"
-RPM_HASH = "82d6e4a2c2397a9fc80f1041512cb49419fd32bf3d579b01cbaab914e68468ba21a85dd53d940308a1f1ba4ff2b13e1dc4a8190ec47b67eec0279f97eda6303b"
+RPM_NAME = "gcin-qt5-2.9.0-7.9.aarch64.rpm"
+RPM_HASH = "7bb09292d8d05bd8f4457566cd668a8a5a09c3d3ea95bc6b1de88108ee6a44de36f45a7d2e695d7802833336569bb3ecf5eccb0a5468609f5fd0158ffce134c1"
 
 RPROVIDES:${PN} += "gcin-qt5 \
 gcin-qt5-immodule \

@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & (CDDL-1.1 | GPL-2.0-only-with-Classpath-exception-2.0)"
 
 PV = "2.3.3"
 
-RPM_NAME = "glassfish-jsp-api-2.3.3-4.4.noarch.rpm"
-RPM_HASH = "677dd192305ad608f138478bd2c1ef5026f40f492d7d2d02e1489d8950c3b2b5533ab964aa010a14518000f06564ebff8394b2f29467ec6aaf22bb6717ca288d"
+RPM_NAME = "glassfish-jsp-api-2.3.3-6.8.noarch.rpm"
+RPM_HASH = "43a25d4cac126b3fde3c917fbd49a42ead3d784c8f8273d178165f0d346e5c1a526c73afb2e2dfc43633fbd6f7dba5db86fc054b883c9b99f6d1306792e5f2f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-jsp-api \

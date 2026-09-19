@@ -5,10 +5,10 @@ It provides an abstract API allowing access to mixer functionality \
 available in the PulseAudio, ALSA and OSS sound systems."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "libmatemixer0-1.26.0-1.8.aarch64.rpm"
-RPM_HASH = "5ed74fd4a8637f689c0925791c350f0f9e0743e93ee38fc0204ade289dea06a56043b328acc7592f1064cbd64a5570cdf90b8645c2fcd56d836a6203174fd1f4"
+RPM_NAME = "libmatemixer0-1.28.0-1.10.aarch64.rpm"
+RPM_HASH = "e28bb1f9ea23bc4dc9270e6720976e1b56dc6238cdf990280f1a18d489fbae525400f1b53263ebb5bf4bbbd3d409ca437315820ca018f2ee44657508bf180cf2"
 
 RPROVIDES:${PN} += "libmatemixer \
 libmatemixer-alsa.so \

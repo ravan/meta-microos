@@ -7,10 +7,10 @@ mechanisms of LaTeX 3 (see, for example, the interface \
 documentation of the experimental LaTeX 3 kernel)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn45943"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-multiexpand-2023.209.1.5svn45943-55.1.noarch.rpm"
-RPM_HASH = "ef408358fbfe04188078fd6f93df9fa75f8e568a8d060cbe285fff513329e44f46c5734a866e173d28d33c37bfb2b5574fe907b8a83998f0628ec5555981a6ee"
+RPM_NAME = "texlive-multiexpand-2026.226.1.5svn77682-61.2.noarch.rpm"
+RPM_HASH = "a796345dff7342704edeef28227d30f30ec3d1b0e4d2db686d0627e4f713758005fc86e455fc189f0244691585058713fde7d908f510751a130c127ea8ce334f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-multiexpand.sty \

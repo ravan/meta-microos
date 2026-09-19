@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "1.3.2"
 
-RPM_NAME = "glassfish-annotation-api-1.3.2-3.7.noarch.rpm"
-RPM_HASH = "9281d8b54be2c85c36996e97f10b475f6e227fb39483c1696d20f23dd160952fe383472c646a1ebf7d7b4f473133db8628dd0e41c3a65c65529ce2553b087835"
+RPM_NAME = "glassfish-annotation-api-1.3.2-4.8.noarch.rpm"
+RPM_HASH = "baaf5fef4e521b32a971913c2ce5b33e882f35fecd3c3a08b5152d859ac3d294d718e6ae63a45ee8a3fafc0d86a80fcdc2ebe1656a4a5fce6d614c54238f92c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "glassfish-annotation-api \

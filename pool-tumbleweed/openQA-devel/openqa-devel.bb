@@ -2,10 +2,10 @@ SUMMARY = "Development package pulling in all build+test dependencies"
 DESCRIPTION = "Development package pulling in all build+test dependencies."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1694101660.598baea"
+PV = "5.1788605562.29b45941"
 
-RPM_NAME = "openQA-devel-4.6.1694101660.598baea-1.1.aarch64.rpm"
-RPM_HASH = "db1152355671be0201e4842702a438d65de98ec77e6926f37818600f354fa063edec94b815d30c80af49b4d53d1d487b13340f52a408a9af425411ddb211a9d0"
+RPM_NAME = "openQA-devel-5.1788605562.29b45941-1.1.aarch64.rpm"
+RPM_HASH = "d2bd83f0b983c4d8506618d0aa98170e3822cf5d92668cfb03d87cb3c7cd7c8a32e3212ed26437f3438a6d9d5882427e6fa3dd3c4366207a52a7cfecf43d3da0"
 
 RPROVIDES:${PN} += "openQA-devel"
 
@@ -13,25 +13,33 @@ RDEPENDS:${PN} += "ShellCheck \
 bsdtar \
 chromedriver \
 curl \
+file \
 git-core \
 hostname \
 jq \
+make \
+npm \
 ntp-daemon \
 openQA-client \
+openssh-clients \
+openssh-common \
 optipng \
 os-autoinst \
-os-autoinst-devel \
+pandoc \
 perl \
 perl-App--cpanminus \
+perl-Archive--Zip \
 perl-BSD--Resource \
 perl-CSS--Minifier--XS \
+perl-CSS--Sass \
 perl-Capture--Tiny \
 perl-Carp \
 perl-Carp--Always \
+perl-Code--TidyAll \
 perl-CommonMark \
 perl-Config--IniFiles \
-perl-Config--Tiny \
 perl-Cpanel--JSON--XS \
+perl-CryptX \
 perl-Cwd \
 perl-DBD--Pg \
 perl-DBI \
@@ -53,6 +61,7 @@ perl-Devel--Cover--Report--Codecovbash \
 perl-Digest--MD5 \
 perl-Exporter \
 perl-Fcntl \
+perl-Feature--Compat--Try \
 perl-File--Basename \
 perl-File--Copy \
 perl-File--Copy--Recursive \
@@ -63,11 +72,14 @@ perl-Filesys--Df \
 perl-FindBin \
 perl-Getopt--Long \
 perl-Getopt--Long--Descriptive \
+perl-HTTP--Status \
 perl-IO--Handle \
+perl-IO--Interactive \
 perl-IPC--Run \
 perl-JSON--Validator \
 perl-JavaScript--Minifier--XS \
 perl-LWP--UserAgent \
+perl-MCP \
 perl-Minion \
 perl-Minion--Backend--SQLite \
 perl-Module--Load--Conditional \
@@ -91,8 +103,9 @@ perl-Mojolicious--Static \
 perl-Net--OpenID--Consumer \
 perl-POSIX \
 perl-Perl--Critic \
-perl-Perl--Critic--Freenode \
+perl-Perl--Critic--Community \
 perl-Perl--Tidy \
+perl-Pod--Markdown \
 perl-Pod--POM \
 perl-Regexp--Common \
 perl-SQL--Translator \
@@ -101,23 +114,27 @@ perl-Selenium--Remote--Driver \
 perl-Selenium--Remote--WDKeys \
 perl-Sort--Versions \
 perl-Storable \
+perl-TAP--Harness--JUnit \
+perl-Test--CheckGitStatus \
+perl-Test--Compile \
 perl-Test--Exception \
 perl-Test--Fatal \
+perl-Test--Mock--Time \
 perl-Test--MockModule \
 perl-Test--MockObject \
 perl-Test--Mojo \
 perl-Test--Most \
 perl-Test--Output \
+perl-Test--Perl--Critic \
 perl-Test--Pod \
-perl-Test--Strict \
 perl-Test--Warnings \
 perl-Text--Diff \
+perl-Text--Glob \
 perl-Time--HiRes \
 perl-Time--Moment \
 perl-Time--ParseDate \
 perl-Time--Piece \
 perl-Time--Seconds \
-perl-Try--Tiny \
 perl-URI--Escape \
 perl-YAML--PP \
 perl-YAML--XS \
@@ -130,13 +147,18 @@ perl-warnings \
 postgresql-devel \
 postgresql-server \
 psmisc \
+python3-argparse-manpage \
 python3-base \
+python3-gitlint \
 python3-requests \
+python3-ruff \
 python3-setuptools \
+python3-typer \
+python3-weasyprint \
 python3-yamllint \
 qemu \
 rsync \
-rubygem-sass \
+shfmt \
 sqlite3 \
 sudo \
 tar \

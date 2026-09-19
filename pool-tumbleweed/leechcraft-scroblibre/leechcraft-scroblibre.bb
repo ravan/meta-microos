@@ -12,10 +12,10 @@ latter is still the recommended one because of all the social \
 features it offers which Scroblibre lacks."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-scroblibre-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "e4932add730a4df8d6800e9e76e9f229592867b2f399e40fc7b73a54f35dc74f2126a53c82da759b057fbde7e135928ffa45a75baec058701f45798738451df3"
+RPM_NAME = "leechcraft-scroblibre-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "57fc55c3c437425e4b8d7f3569e3511af1b14bd2509937c09e8259f9672899044fee37e6d934df56d44c048610c987622dff676ea1b75d4da19ac83e42927ec6"
 
 RPROVIDES:${PN} += "leechcraft-scrobbler \
 leechcraft-scroblibre \
@@ -23,15 +23,14 @@ libleechcraft-scroblibre.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-lmp \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

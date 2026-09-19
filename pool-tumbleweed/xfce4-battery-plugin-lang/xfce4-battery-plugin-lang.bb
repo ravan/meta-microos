@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-battery-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-battery-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.5"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-battery-plugin-lang-1.1.5-1.1.noarch.rpm"
-RPM_HASH = "5a44f9a9185b58c127d85f7a0f8e66695303838a363f96ef21242e677e47ed2c81594bc0d54f84053cd1411110652303b4bdca1c65816f9de6af93fa428bbad0"
+RPM_NAME = "xfce4-battery-plugin-lang-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "ab1cde13f5123b507770278fecceb5f25c8f828c44a71c818294e28f631297aa4b7a588fe3d93858b0ff185801ae5142f8815bc041138d75a1d3d277a22b5485"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-battery-plugin-ar \
@@ -45,6 +45,7 @@ locale-xfce4-battery-plugin-pa \
 locale-xfce4-battery-plugin-pl \
 locale-xfce4-battery-plugin-pt \
 locale-xfce4-battery-plugin-pt-BR \
+locale-xfce4-battery-plugin-ro \
 locale-xfce4-battery-plugin-ru \
 locale-xfce4-battery-plugin-sk \
 locale-xfce4-battery-plugin-sl \

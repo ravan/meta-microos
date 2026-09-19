@@ -1,16 +1,17 @@
 SUMMARY = "Translations for package libkcompactdisc"
-DESCRIPTION = "Provides translations for the 'libkcompactdisc' package."
+DESCRIPTION = "Provides translations for package libkcompactdisc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "25.12.3"
 
-RPM_NAME = "libkcompactdisc-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "0f79b0652098ad65ae3fa9a0c5b6a1f5f49189aa92e406b1fdc7fb5201a1cbfaae629faf8f2d84b96062cea0bc0f8ad91d0ae1c338da1ec42eef70d951ba7242"
+RPM_NAME = "libkcompactdisc-lang-25.12.3-1.3.noarch.rpm"
+RPM_HASH = "b07e32c0bab59b8986668ab9b06da2683ade5f9af8eb2dc85ae25bf7098ca1f27d7665eace7d06b6ba5b215a52c4f84ce51ac7b16f523c03250326c3178792f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkcompactdisc-lang \
 libkcompactdisc-lang-all \
 locale-libkcompactdisc-ar \
+locale-libkcompactdisc-ast \
 locale-libkcompactdisc-be \
 locale-libkcompactdisc-bg \
 locale-libkcompactdisc-bs \
@@ -73,6 +74,6 @@ locale-libkcompactdisc-wa \
 locale-libkcompactdisc-zh-CN \
 locale-libkcompactdisc-zh-TW"
 
-RDEPENDS:${PN} += "libkcompactdisc"
+RDEPENDS:${PN} += ""
 
 inherit rpm

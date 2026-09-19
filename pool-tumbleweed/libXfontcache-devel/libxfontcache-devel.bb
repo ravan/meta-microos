@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.0.5"
 
-RPM_NAME = "libXfontcache-devel-1.0.5-13.1.aarch64.rpm"
-RPM_HASH = "7540099020e066fc3e56313bc5ba51ffcbc7e5015c48202be15d1f560e82d4c18e485a90b241af2f69e0cf8f322012a9c65c631c71897fbdafd2afba01836c6c"
+RPM_NAME = "libXfontcache-devel-1.0.5-13.11.aarch64.rpm"
+RPM_HASH = "23b1948c30ceb1dedf1f2f50fb835f26a9eea641f8012fdb5e81f79fedb843db5bae32ec55339a428b5093ac0ba808ebe5b44790ca1a2ab69d5bfa8579d76b1b"
 
 RPROVIDES:${PN} += "libXfontcache-devel \
 pkgconfig-xfontcache"

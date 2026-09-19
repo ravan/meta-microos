@@ -2,10 +2,10 @@ SUMMARY = "Standard conforming typesetting of Japanese, for XeLaTeX"
 DESCRIPTION = "The zxjatype package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn53500"
+PV = "2026.226.0.0.7svn77682"
 
-RPM_NAME = "texlive-zxjatype-2023.209.0.0.7svn53500-53.2.noarch.rpm"
-RPM_HASH = "156041ae730e22c0c6aa4a6f12e9abd4e4e71df899858109dbb58d5805820b6967af55afaded9e9175a437ec1a32d66a03668f3625f7f8c5cbf2add08f531ffe"
+RPM_NAME = "texlive-zxjatype-2026.226.0.0.7svn77682-59.4.noarch.rpm"
+RPM_HASH = "f7f2dc5f885b4bc4651357caa6f772c6af55d435d756fafefca00dc208f4fa2645e960da63c5910be3bf5a61d20b69ff99befaa7ae9173e79d3fb795d302eb9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zxjatype.sty \

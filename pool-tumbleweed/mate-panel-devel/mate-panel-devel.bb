@@ -4,10 +4,10 @@ interface to manage the desktop, launch applications, and organise \
 access to data."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.3"
+PV = "1.28.1"
 
-RPM_NAME = "mate-panel-devel-1.26.3-1.1.aarch64.rpm"
-RPM_HASH = "b99b0bfd2e6c5d34cfeff571e0fab80a7fe1dd07576349ddaab3c7215cb802bc4cc3d0bb0206cc0126412467e5c354a530ae9985970acddcea6fbd2769ee21af"
+RPM_NAME = "mate-panel-devel-1.28.1-2.14.aarch64.rpm"
+RPM_HASH = "5d7f9dc88b0488d6b28cc30c1f3ac8b292789017c16577357809fb6e9d59754c2363cad65db9fa585612235f2dfd206830a60bd608f558a17f256807f83decc4"
 
 RPROVIDES:${PN} += "mate-panel-devel \
 pkgconfig-libmatepanelapplet-4.0"

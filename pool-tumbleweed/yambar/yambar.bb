@@ -2,10 +2,10 @@ SUMMARY = "Modular statusbar for X11 and Wayland"
 DESCRIPTION = "Simplistic and highly configurable status panel for X and Wayland."
 LICENSE = "MIT"
 
-PV = "1.10.0"
+PV = "1.11.0"
 
-RPM_NAME = "yambar-1.10.0-1.1.aarch64.rpm"
-RPM_HASH = "aaeb04e4dea53e04fd030b8294fe85999d8f00d90691cb8b0c8b612c9382705f7bf0de246a51dc71563fe212278bfda20981667870c35103406bb746b2c1f4b1"
+RPM_NAME = "yambar-1.11.0-3.2.aarch64.rpm"
+RPM_HASH = "ed83bc37145ccdc0875bc6513603d902426a22de983ba7795335fe6dd83fab46af8c75fc5fda529a4cc506dc5e7dd666ace3e993ac83e1daa87f328da579d6ed"
 
 RPROVIDES:${PN} += "yambar"
 

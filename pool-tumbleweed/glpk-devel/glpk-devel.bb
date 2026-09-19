@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "5.0"
 
-RPM_NAME = "glpk-devel-5.0-1.14.aarch64.rpm"
-RPM_HASH = "e3fda91e3dd19f15c1583587e9d59672404a59333175fdbccc4104837ac39258f79149f0afa2ad1e8298f0c64b66ef1ff00f0db45565fa6af0e1eff43ed1fbd4"
+RPM_NAME = "glpk-devel-5.0-5.3.aarch64.rpm"
+RPM_HASH = "bb41d2d204334bc378b7fcc173a095e43584e39e6eef330a99d13b1a4686f0abad3da8d420d9cbe56e79f45c6c51ba00077f7bcb779b673dbae3c76018383dda"
 
 RPROVIDES:${PN} += "glpk-devel \
 pkgconfig-glpk"

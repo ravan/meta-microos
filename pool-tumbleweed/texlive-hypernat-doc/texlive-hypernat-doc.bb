@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-hypernat"
 DESCRIPTION = "This package includes the documentation for texlive-hypernat"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.0bsvn17358"
+PV = "2026.226.1.0bsvn17358"
 
-RPM_NAME = "texlive-hypernat-doc-2023.209.1.0bsvn17358-54.1.noarch.rpm"
-RPM_HASH = "2be21adcc0cd4e976faefc829f9861a3a2ab3d90eff3ac104db5e5d9e8a43c9953a1552c6caf402ee336cc8477a26645bdcc7b7ee6814d77ba9f9533dfaaa1eb"
+RPM_NAME = "texlive-hypernat-doc-2026.226.1.0bsvn17358-60.2.noarch.rpm"
+RPM_HASH = "e04fac27ebb23620d933aa87775cd88011b335cac9fa44d51b253e4f073490cb879d2706f4d9cdee98d487339ff9a9be85172cb441eed2e9265aea11d154daac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hypernat-doc"

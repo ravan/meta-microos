@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the header files for developing \
 applications that want to make use of cairomm."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.16.1"
+PV = "1.18.1"
 
-RPM_NAME = "cairomm-devel-1.16.1-2.4.aarch64.rpm"
-RPM_HASH = "d159d3126af435dbc1be4c4f7939292f458ca88b80641a495e4cb2002e544e31667f9af6fbff476058680e8b1036bea9a933dd439c684fb884e5b97ac3b630ea"
+RPM_NAME = "cairomm-devel-1.18.1-1.1.aarch64.rpm"
+RPM_HASH = "cdccabc60fb9d962483a5b9d6ca869d1f64a000056cf1203c38e263115cdced964d92110be49bd09a4136a0ad4fce94e47f1a9a2b62bbe14ed4a27bc96564058"
 
 RPROVIDES:${PN} += "cairomm-devel \
 pkgconfig-cairomm-1.16 \

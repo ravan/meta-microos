@@ -3,10 +3,10 @@ DESCRIPTION = "Functionality to handle YAML input/output for JAX-RS implementati
 (like Jersey and RESTeasy) using standard Jackson data binding."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-jaxrs-yaml-provider-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "62d6f515c9389e99f2461bead0d0b4f9bd42d31f366b3dfef087bc7f22763a47a87c70d6984a3b6083c79d099d17e096640c50651ee3807dfa090e0c57975771"
+RPM_NAME = "jackson-jaxrs-yaml-provider-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "2f71bf2f43e3ec75688bf05101b51a4f161c85248b52c8a41a83f0f172a5b0adfc510a0a54cfde1add49760b7cf1486a59b3f9e0a87b1cf380e10a93fd1fe455"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-yaml-provider \

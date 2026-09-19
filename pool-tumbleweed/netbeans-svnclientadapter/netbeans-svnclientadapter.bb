@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "6.7.1"
 
-RPM_NAME = "netbeans-svnclientadapter-6.7.1-22.7.noarch.rpm"
-RPM_HASH = "67cb37396146052ae85389decc4655eedfbfadbd54f384c556f993b65a246101bacf1e45cb108ad73f81db50403084dfbaea538708dacdeaec9583ac5ec45068"
+RPM_NAME = "netbeans-svnclientadapter-6.7.1-23.9.noarch.rpm"
+RPM_HASH = "862ec28c0a6d89ddc4c81449a897c14e416238ebecc6880eaa27be83c03e2d1917137bf3d17a4f8c69a1a1b6124689ecc94d2ef7b96a4b4678f09dd320a9c92b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netbeans-svnclientadapter"

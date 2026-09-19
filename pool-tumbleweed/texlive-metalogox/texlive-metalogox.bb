@@ -4,13 +4,13 @@ adjust the appearance of the logos TeX, LaTeX, LaTeX2e, \
 XeLaTeX, and LuaLaTeX, depending on the font detected or the \
 option given to metalogox. Most of the serif and sans fonts \
 listed at The LaTeX Font Catalogue are supported. The package \
-depends on metalogo, xparse, and etoolbox."
+also supports the hologo and hvlogos packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn65448"
+PV = "2026.226.1.07svn77682"
 
-RPM_NAME = "texlive-metalogox-2023.209.1.01svn65448-55.1.noarch.rpm"
-RPM_HASH = "f8c7585d9219db317164d7e84328a14f199c0da2fce2802e19d3b7db5d0d3fc67a67f79a4aa9ef7d37b681a5f660b403f2f7ffdf97cf0964d8043ac5d83be975"
+RPM_NAME = "texlive-metalogox-2026.226.1.07svn77682-61.2.noarch.rpm"
+RPM_HASH = "77707a0e95f925464fc73cc8513ff8c2dfce58e4a3a61b91c5f92bdbdcdfbde59376f30d4dbbd376147044a1dbd2d901c35007f37ade32ca1bcc3f9934e92b21"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metalogox.sty \

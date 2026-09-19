@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.10.7+git.20211009"
 
-RPM_NAME = "libcli-devel-1.10.7+git.20211009-1.6.aarch64.rpm"
-RPM_HASH = "aac521cb632ebfe2c74ccda5d5329ac5814b6878a98d30848ba2651948569298c2b81bed6a8cc64033494bfab030a115b813f7a3464b1f26cf23c3eb7b30f175"
+RPM_NAME = "libcli-devel-1.10.7+git.20211009-3.8.aarch64.rpm"
+RPM_HASH = "be2e56d09fa4c9299ab605ba05c9166f82bb494694f98d2ab6a5d649a87b62247749dc2d79cef13af0ff20d3766931fed4c2cc7e37f9e05c9c122e8a4b44dbd5"
 
 RPROVIDES:${PN} += "libcli-devel"
 

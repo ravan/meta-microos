@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.1"
 
-RPM_NAME = "liblrdf-devel-0.6.1-1.12.aarch64.rpm"
-RPM_HASH = "05caffae73cad36f9b7e1e3172eb64524e7c066d2d89f02c1ee20c64d3cfd46db10ccad9b5d6bc17a188b49b5c73a2e10714ff5503b0cb8d74cf62edae35087c"
+RPM_NAME = "liblrdf-devel-0.6.1-1.22.aarch64.rpm"
+RPM_HASH = "5333851761b5dbe3ca7ebe6c9d91909036112dd3f42d46abbe1c6a4cfc42e806d155dee72b363e2b17a8c18896b4c6349fe5e8f939a949c6975a12eae043dcee"
 
 RPROVIDES:${PN} += "liblrdf-devel \
 pkgconfig-lrdf"

@@ -7,19 +7,19 @@ Features: \
  * Custom Date alarms"
 LICENSE = "GPL-3.0-only"
 
-PV = "2.4.0"
+PV = "3.1.0"
 
-RPM_NAME = "QTalarm-2.4.0-1.3.aarch64.rpm"
-RPM_HASH = "3467a9d7fda3257b0efba550cda709e023dd43f71d5d27ea748c8fe64aced4a4feb8550f4205a0d8d9552e9e218b837a6aa42a79ba065fbd10fcd3ca115e08fa"
+RPM_NAME = "QTalarm-3.1.0-1.1.aarch64.rpm"
+RPM_HASH = "894fdf5718fec5597462ee732376eb1d5718562d13f032b0727ef612a0153211b4ed71939a2d3c60ba0c1660ea6b1487131de236c0723fc44bac7e2d6499b34d"
 
 RPROVIDES:${PN} += "QTalarm"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

@@ -6,10 +6,10 @@ package uses lcg for its 'random' numbers and PGF/TikZ for its \
 graphical output."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn49513"
+PV = "2026.226.0.0.6svn76924"
 
-RPM_NAME = "texlive-randomwalk-2023.209.0.0.6svn49513-54.2.noarch.rpm"
-RPM_HASH = "ac574413796b4aab7755bc14bad920427e1a42e00ac7a4f8fbb4ae1f85d84db39ea5d80316778c084656efd9c10777daf7f5bf2a9e20b2447467cb6c483f7bd1"
+RPM_NAME = "texlive-randomwalk-2026.226.0.0.6svn76924-60.4.noarch.rpm"
+RPM_HASH = "b0039a07d1f25876688d9200a3f5d5229416b5a7eefda381c9033d1c64f767a2c3d73c5130671c97f68c9f40052ecc718f3ba13a2255adad472058294179fd6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randomwalk.sty \

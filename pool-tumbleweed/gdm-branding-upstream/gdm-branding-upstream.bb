@@ -5,10 +5,10 @@ providing graphical log-ins and managing local and remote displays. \
 This package provides the upstream default configuration for gdm."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.1"
+PV = "50.3"
 
-RPM_NAME = "gdm-branding-upstream-44.1-3.1.noarch.rpm"
-RPM_HASH = "17f4a29ece5a941299ac57c40de26675732e8dfc1bd8c02e0712f45cefa1d4c405c27ff0d1732280acbae9b34e223608b8c5b04c184fa70a28760c021aac34b3"
+RPM_NAME = "gdm-branding-upstream-50.3-1.1.noarch.rpm"
+RPM_HASH = "a224a788703d5c356ba149e6c550b58fad54c76e563f4f64f1585f25cdc09faf2d3a7e114932dae90917caf5031b44fb13096802a052e07d298b159ed6cedd66"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gdm-branding-upstream \

@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2"
 
-RPM_NAME = "libtcmu2-1.6.2-1.1.aarch64.rpm"
-RPM_HASH = "c254ba46aab860a60b323362087c7ceb88fb9360cb82c3540699a68a68bfc98f133e8b6e9ac6daf5dca83a32cb7bc1df28b02eb5010cd437b91c47e31faef748"
+RPM_NAME = "libtcmu2-1.6.2-4.6.aarch64.rpm"
+RPM_HASH = "2da981bc0a35f0b552b232650fcccb6a85afd6ac4db8ee0ff5a77420b69ba0860c8968ba9ae1e38b79edf7eddd2118a3761fef2512fd4dfe57a06589699a0318"
 
 RPROVIDES:${PN} += "libtcmu.so.2 \
 libtcmu2"

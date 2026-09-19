@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Slovakian l
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-slk-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ebd9cb7de183af44b36611f11397239b09d61551ed4697c1bdbf15c7695a565b830094468ae9a58bdd439aba9b7b07df8c4178b71accd3860ead63469a07447a"
+RPM_NAME = "tesseract-ocr-traineddata-slk-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "9716e5b7e84396658062c0d005bf65026ed77f567ebdfff90aa15946c4dbe7e223a26b02802f90a56347a759244d306e93477bd3f210048998a230363085fe96"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-slk \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-sk \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-slk \
 tesseract-ocr-traineddata-slovak \
 tesseract-traineddata-slovak"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

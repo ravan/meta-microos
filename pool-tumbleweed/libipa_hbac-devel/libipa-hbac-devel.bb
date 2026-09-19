@@ -3,10 +3,10 @@ DESCRIPTION = "Utility library to validate FreeIPA HBAC rules for authorization 
 requests."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.2"
+PV = "2.13.1"
 
-RPM_NAME = "libipa_hbac-devel-2.9.2-1.1.aarch64.rpm"
-RPM_HASH = "7dce811421ebf5e9bc6d31e129ca826522fb391100efa08544ba03da4dd7c4d99d9ae44a13f76aa09a971c67416cd48eeb71137bd4f9d12f828e1bbdc4bfc87a"
+RPM_NAME = "libipa_hbac-devel-2.13.1-2.1.aarch64.rpm"
+RPM_HASH = "35edb210f2b1564a936e5c6f691f6092629798893f99f4d5da97533b5e10010d303b60b363c4bca68ab13c01d0cf5b57c12237cf5040bd24adc425eaed4d8b6d"
 
 RPROVIDES:${PN} += "libipa-hbac-devel \
 pkgconfig-ipa-hbac"

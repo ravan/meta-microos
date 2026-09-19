@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.9.1"
 
-RPM_NAME = "spice-up-lang-1.9.1-1.8.noarch.rpm"
-RPM_HASH = "67b1165aa281f2d98dbb9925f604eea5165d0f238a3aee6993f022ba202070d55b0c84c9c18c510f59b2b52de640eb5b113bb2de06caa1c93fd88e9db1729a77"
+RPM_NAME = "spice-up-lang-1.9.1-2.9.noarch.rpm"
+RPM_HASH = "59f703d20c49a899f8fb9d441fa1a0e13d3dacddc106aa0cded84d7c3007195ca301e686e94e6732ae1e8b03b5132a6e5fdeeb186a8ccefec21f257ab069809c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spice-up-ca \

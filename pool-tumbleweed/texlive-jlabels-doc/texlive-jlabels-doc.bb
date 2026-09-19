@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jlabels"
 DESCRIPTION = "This package includes the documentation for texlive-jlabels"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24858"
+PV = "2026.226.svn24858"
 
-RPM_NAME = "texlive-jlabels-doc-2023.209.svn24858-56.1.noarch.rpm"
-RPM_HASH = "564f7ede2405c058c36fff17fa21896a74183355e80972c59b48af823376fd10f309609020cc733721b93608130a4109233d2e818c91686aa2362e45bca335ca"
+RPM_NAME = "texlive-jlabels-doc-2026.226.svn24858-63.2.noarch.rpm"
+RPM_HASH = "3709470a66914b33a869e61ddaa112deb23ac5c1355f5fd8e85a8f2550586e12733a4ff76b28d5fdde53a0742d78488ede5471202a21854ff9be770c503c6b58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-jlabels-doc"

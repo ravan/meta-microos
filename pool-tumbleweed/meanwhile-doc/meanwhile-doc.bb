@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "meanwhile-doc-1.1.1-1.17.aarch64.rpm"
-RPM_HASH = "82d95ad82828166209df460437850367fbc2a62320fcee9da8302b9e3b92e8fdb10683f8b4112e90d7c0e0683f74d08e6f4354a156d71394dad18f3ec4ace6ce"
+RPM_NAME = "meanwhile-doc-1.1.1-2.10.aarch64.rpm"
+RPM_HASH = "6f84a5a7690e188b8e5b82e000db469ef2e3530f7e69cbf76676201b5ced8e2c07acdcb0eebe1c6af070b153362c4279373628b2804023fe4dfb0d086ddeb9cd"
 
 RPROVIDES:${PN} += "meanwhile-doc"
 

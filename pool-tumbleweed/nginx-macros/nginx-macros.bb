@@ -2,10 +2,10 @@ SUMMARY = "Just some macros to make packaging nginx and modules easier"
 DESCRIPTION = "Just some macros to make packaging nginx and modules easier."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.0.1"
+PV = "0.0.2"
 
-RPM_NAME = "nginx-macros-0.0.1-3.7.noarch.rpm"
-RPM_HASH = "7c4580e9475b7cf454596f28562c4dbbebcd12e68a26634a78e2fab45ba44182c541233d041bdf9223d349f7c9baae6527ea9803e2b952c5312b66a484861968"
+RPM_NAME = "nginx-macros-0.0.2-1.2.noarch.rpm"
+RPM_HASH = "d21d240725358255ee5f490ec23142fbe912ed80083f8d7f69466f4a42748f05130f9e17892ce2df3517bea4c67270ae03cdc3ccd7017c36de23bdb25ef59ff1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nginx-macros \

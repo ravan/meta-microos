@@ -4,10 +4,10 @@ software for Armv7-A and Armv8-A, including a Secure Monitor executing at \
 Exception Level 3 (EL3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-poplar-2.8.6-1.2.noarch.rpm"
-RPM_HASH = "df1c7b05a8ed7c75f9c47ef07be150b6055b80070bd41803c84ae77684d8c9bc224a9b60acd8f8847784349225320fa5da6191a16deee6219505dcf777ee06dd"
+RPM_NAME = "arm-trusted-firmware-poplar-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "3c2dee31e1b91c4589cfe5fe246c9cb0b598549e3786e97610f1a2a93c985a017a5b58a6ff14cdb03b6bfb633602bb296d6a948a45935a7d9ac206cebecf4b9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-poplar"

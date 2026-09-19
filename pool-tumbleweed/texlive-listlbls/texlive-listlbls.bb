@@ -8,10 +8,10 @@ TeX/Stackexchange in the thread 'List of all labels with \
 hyperlinks'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn34893"
+PV = "2026.226.1.04svn77682"
 
-RPM_NAME = "texlive-listlbls-2023.209.1.03svn34893-55.1.noarch.rpm"
-RPM_HASH = "a0eb3d9b189c837de924982a019cc9417dcc54d8d327a435504602b27e12a15bc511af0a2e1c7714b820cfe4c137ad6f50cbfaf9283845b3163b67b090af8ddd"
+RPM_NAME = "texlive-listlbls-2026.226.1.04svn77682-61.2.noarch.rpm"
+RPM_HASH = "15dec7c7ebd9bc863145a9784460b753d77e9c40519aaf935c919abb2068053a1c9057cbd25ca918ea2d43552e831dcfaaf622a633d05362f408df4f293516d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listlbls.sty \

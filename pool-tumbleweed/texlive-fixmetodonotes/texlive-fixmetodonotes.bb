@@ -5,10 +5,10 @@ outstanding notes, with links to the pages on which they \
 appear."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.0.0.2.2svn30168"
+PV = "2026.226.0.0.2.2svn30168"
 
-RPM_NAME = "texlive-fixmetodonotes-2023.209.0.0.2.2svn30168-53.1.noarch.rpm"
-RPM_HASH = "52afd5858b6aa1a86010efbb292bd8f52063de10ec46ea477dff7c292d698bdff62a1caa3ab4ff21a3867ab1c50f0b16f726e0ecb03eea152ae455ef71fe086e"
+RPM_NAME = "texlive-fixmetodonotes-2026.226.0.0.2.2svn30168-59.2.noarch.rpm"
+RPM_HASH = "b7eb6b4df97f27cec7e71fa4f1bc7b82ded394d835971ee6a3cccc8aceb3efcf193e04e10244d0a409ea6dcf246f48426feb4abbbc46394b375d1917ef4377f1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fixmetodonotes.sty \

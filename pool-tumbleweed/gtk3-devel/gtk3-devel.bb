@@ -6,10 +6,10 @@ ranging from small one-off projects to complete application suites. \
 This package contains the development files for GTK+ 3.x."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.38"
+PV = "3.24.52+git59.b30343717d"
 
-RPM_NAME = "gtk3-devel-3.24.38-2.1.aarch64.rpm"
-RPM_HASH = "6a45ae544739a680226a9c7ea6bb289b78d3ef50cde11dcf75b86218da904a4f50fc60194fc64e50a7b572763c37c7261929e57e7412c60ecb6a63dca9c0510b"
+RPM_NAME = "gtk3-devel-3.24.52+git59.b30343717d-1.1.aarch64.rpm"
+RPM_HASH = "a3307e186a3ded4bacce2322280bb47e48e8014d408350607fb80b678dd7b45c702c2bff27b124e074943d4a7b53e4d07b6239d2bb0f55ff84e469478f5f93d4"
 
 RPROVIDES:${PN} += "gtk3-devel \
 pkgconfig-gail-3.0 \
@@ -73,6 +73,7 @@ pkgconfig-xi \
 pkgconfig-xinerama \
 pkgconfig-xkbcommon \
 pkgconfig-xrandr \
+pkgconfig-zlib \
 typelib-1-0-Gtk-3-0"
 
 inherit rpm

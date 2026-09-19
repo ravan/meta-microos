@@ -4,8 +4,8 @@ LICENSE = "APSL-2.0"
 
 PV = "20211008"
 
-RPM_NAME = "consoleet-darwin-fonts-20211008-1.6.noarch.rpm"
-RPM_HASH = "74df6993888e227808ede307963f70e01dec58d0d0323b6113c0d4c28880b878b89b58a7647e1086c2a022146b57625b0f08c06466e64315c8c21bc8118075c2"
+RPM_NAME = "consoleet-darwin-fonts-20211008-1.14.noarch.rpm"
+RPM_HASH = "9c77c4ea34a56f5d88df65e5e1c45aed5c9138352c27ff40ea3ee16e2a6fcdc4587bc8b716b2fa84319f13dee85e055744ffebea7b373c1498a813bc32def950"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "consoleet-darwin-fonts"

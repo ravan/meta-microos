@@ -4,39 +4,41 @@ The media can be pushed to some web services such as Facebook and \
 YouTube."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kamoso-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "cff2dedf244640ffd683ed339dfbdb4fd837e831d0f11ae30615ea6a986bb91ab32dd70157058782753e39f0c317673d957a47d838f71877304a327761820d66"
+RPM_NAME = "kamoso-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "07380988465cc83b2cfbe78f60d4fb07a0ecd9482eb1f26c9fba3256357dd50a2a95cc082cec37b34a24f1c0f449358616ce7148847b4eea816ecfbd5979de78"
 
 RPROVIDES:${PN} += "kamoso"
 
 RDEPENDS:${PN} += "gstreamer-plugins-bad \
 gstreamer-plugins-base \
 gstreamer-plugins-good \
-kirigami2 \
+gstreamer-plugins-good-qtqml6 \
+kf6-kirigami-imports \
+kf6-purpose \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5ItemViews.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Notifications.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Notifications.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgstreamer-1.0.so.0 \
-libgstvideo-1.0.so.0 \
-libm.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6-declarative-imports"
 
 inherit rpm

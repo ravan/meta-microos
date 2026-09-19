@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.3"
 
-RPM_NAME = "udev-browse-0.3-9.32.aarch64.rpm"
-RPM_HASH = "3d1c5d448f8f8404c11541ef5ad2c43dbba569b20f31a04030a1be80d7c0a3d15d0a886bfef86f805af879d005d0efe415a5bbabbe33c6f1199cb14ee2abf757"
+RPM_NAME = "udev-browse-0.3-10.10.aarch64.rpm"
+RPM_HASH = "0f41fdd5fd85e32fb4bd598abf54dd2604d5c4cc31fb8d96cded9c6d60fa15ecb1a4861ae5248476a3a4698b75bbcef7c322ca4ee092ea54bf55142ccfb5f5e7"
 
 RPROVIDES:${PN} += "udev-browse"
 

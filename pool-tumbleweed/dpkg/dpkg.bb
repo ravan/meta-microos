@@ -7,10 +7,10 @@ This package contains the following Debian packages: dpkg, dselect, \
 dpkg-doc, dpkg-dev."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.21.22"
+PV = "1.22.22"
 
-RPM_NAME = "dpkg-1.21.22-1.2.aarch64.rpm"
-RPM_HASH = "21cce801bb08646b4f06142d35fa37e2aaf089ef4ddc5beffd4f0098a6d43aa3bbf73c2e27c3f63edad69113f8af3ffd3a32a70c92303c887ebd5eb9d2ce26ab"
+RPM_NAME = "dpkg-1.22.22-1.4.aarch64.rpm"
+RPM_HASH = "60f98a808cd8862792fecbbdc880e51c1876f9aeb0f8e3ca6295670fa1d965f9b2b9e5ae72f8cc9e39fcf71722d982eb92f3281f86f7072584e14ba309c80b82"
 
 RPROVIDES:${PN} += "deb \
 dpkg \
@@ -19,12 +19,17 @@ dpkg-doc \
 dselect \
 perl-Dpkg \
 perl-Dpkg--Arch \
+perl-Dpkg--Archive--Ar \
 perl-Dpkg--Build--Info \
+perl-Dpkg--BuildAPI \
+perl-Dpkg--BuildDriver \
+perl-Dpkg--BuildDriver--DebianRules \
 perl-Dpkg--BuildEnv \
 perl-Dpkg--BuildFlags \
 perl-Dpkg--BuildInfo \
 perl-Dpkg--BuildOptions \
 perl-Dpkg--BuildProfiles \
+perl-Dpkg--BuildTree \
 perl-Dpkg--BuildTypes \
 perl-Dpkg--Changelog \
 perl-Dpkg--Changelog--Debian \
@@ -94,14 +99,15 @@ perl-Dpkg--Source--Package--V3--Quilt \
 perl-Dpkg--Source--Patch \
 perl-Dpkg--Source--Quilt \
 perl-Dpkg--Substvars \
-perl-Dpkg--Vars \
 perl-Dpkg--Vendor \
 perl-Dpkg--Vendor--Debian \
 perl-Dpkg--Vendor--Default \
 perl-Dpkg--Vendor--Devuan \
+perl-Dpkg--Vendor--PureOS \
 perl-Dpkg--Vendor--Ubuntu \
 perl-Dpkg--Version \
-perl-Dselect--Ftp"
+perl-Dselect--Method \
+perl-Dselect--Method--Ftp"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 /usr/bin/sh \
@@ -118,8 +124,7 @@ libtinfo.so.6 \
 libz.so.1 \
 make \
 patch \
-perl--MODULE-COMPAT-5.38.0 \
-perl-Date--Parse \
-update-alternatives"
+perl--MODULE-COMPAT-5.44.0 \
+perl-Date--Parse"
 
 inherit rpm

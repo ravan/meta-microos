@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-vectorian"
 DESCRIPTION = "This package includes the documentation for texlive-pst-vectorian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.41svn60488"
+PV = "2026.226.0.0.42svn78101"
 
-RPM_NAME = "texlive-pst-vectorian-doc-2023.209.0.0.41svn60488-54.2.noarch.rpm"
-RPM_HASH = "d62e9521143c3d2318c4f36331231d75c01035cb502ab4d3974287d59aee8e67e03c8106d9b65fb133e4a112eb496d15c21e42e8b9d727e4d1df86ec2a4ad3bd"
+RPM_NAME = "texlive-pst-vectorian-doc-2026.226.0.0.42svn78101-60.4.noarch.rpm"
+RPM_HASH = "f6533039e512b1b28796ecb66ec1d322f826260eb12d9f35cc16937473e2975c59caf49f823fafc8907ec91dbf8587b8671848c9626bf538e4e0a66227d6fd6b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-vectorian-doc-fr \

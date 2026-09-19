@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-shell-extensions-common"
 DESCRIPTION = "Provides translations for the 'gnome-shell-extensions-common' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.3"
 
-RPM_NAME = "gnome-shell-extensions-common-lang-44.0-1.1.noarch.rpm"
-RPM_HASH = "6662fb7da5bc3e84865c1c9cb239da9fe26ff44a782132d6b59e01b202371ac9cf797092d3d3da49ed2ceaf5a6c0fc2a029a81ad19505c3e2bf2473923217606"
+RPM_NAME = "gnome-shell-extensions-common-lang-50.3-1.1.noarch.rpm"
+RPM_HASH = "608ed2b4b3640e6fdfaafb65d0c74d688997f2f4feebe1fe05f0c98c6f946dba8a384239ad6ba9af799bc009ea7574b1f8dceec8b4d77c7ef043c2616044107f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-extensions-common-lang \
@@ -39,6 +39,7 @@ locale-gnome-shell-extensions-common-he \
 locale-gnome-shell-extensions-common-hi \
 locale-gnome-shell-extensions-common-hr \
 locale-gnome-shell-extensions-common-hu \
+locale-gnome-shell-extensions-common-ia \
 locale-gnome-shell-extensions-common-id \
 locale-gnome-shell-extensions-common-is \
 locale-gnome-shell-extensions-common-it \

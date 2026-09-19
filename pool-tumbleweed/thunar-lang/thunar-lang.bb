@@ -2,10 +2,10 @@ SUMMARY = "Translations for package thunar"
 DESCRIPTION = "Provides translations for the 'thunar' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.6"
+PV = "4.20.10"
 
-RPM_NAME = "thunar-lang-4.18.6-1.1.noarch.rpm"
-RPM_HASH = "4cff9c1c1c945bb67951429e490c2180f48f78fc2a301f2332b154f1ad5a790e6ca871e0e0c4c4e6b5315de247fa7b291b5b7ea3a4ba9747f750d657d55fb164"
+RPM_NAME = "thunar-lang-4.20.10-1.1.noarch.rpm"
+RPM_HASH = "427d5119e5f1dac11334818ee63287e1a0b603f383c84e1dbb64fe329438581ed2916e2ed35e55be01e237531e578fd7d25f44fb95971ebbfaf775702071da16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-thunar-ar \
@@ -34,6 +34,7 @@ locale-thunar-id \
 locale-thunar-is \
 locale-thunar-it \
 locale-thunar-ja \
+locale-thunar-ka \
 locale-thunar-kk \
 locale-thunar-ko \
 locale-thunar-lt \

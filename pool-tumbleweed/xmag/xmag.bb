@@ -2,10 +2,10 @@ SUMMARY = "Screen magnifier"
 DESCRIPTION = "xmag displays a magnified snapshot of a portion of an X11 screen."
 LICENSE = "X11"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "xmag-1.0.7-1.3.aarch64.rpm"
-RPM_HASH = "9c93c62e3eda43a295e9f986eb5971c2980199b83751046198159ddd5e0a33b3367d97def61239d2b7d17208ce0328ccdcb21a4d897409feeb0365249a65a89f"
+RPM_NAME = "xmag-1.0.8-1.12.aarch64.rpm"
+RPM_HASH = "e0e11cf5cb2f92974fe02861ff0ff7b9067fac4fa9c72b39a32be987bb6e1e65bd36d784071b23f44799af7e611b7b724f648b1e965b3ded0857c4a5a09da5d7"
 
 RPROVIDES:${PN} += "xmag"
 

@@ -18,10 +18,10 @@ following C++ features are not used: new, delete, virtual inheritance, \
 and exceptions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.6"
+PV = "1.3.7"
 
-RPM_NAME = "cln-devel-1.3.6-2.13.aarch64.rpm"
-RPM_HASH = "52dd252d1b4f2db958fcbc249b71c1ea7a47e3bfe52fb1067249b1bd6dcf30c6e7564d1e30a0b8fe8b3dea56c20537f98275af216915f2b59d551b2d834c3fec"
+RPM_NAME = "cln-devel-1.3.7-1.10.aarch64.rpm"
+RPM_HASH = "ae3efae9dbe81567c192e3ff9deb12c59cb3f1c7a253107319780c6dc74db629ad5bccb9ed94eefab7c289702eb1c655443c2b5fc9aa458b0d5bfb2a5b31c240"
 
 RPROVIDES:${PN} += "cln-devel \
 pkgconfig-cln"

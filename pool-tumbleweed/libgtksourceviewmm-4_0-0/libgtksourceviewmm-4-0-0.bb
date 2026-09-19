@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.91.1"
 
-RPM_NAME = "libgtksourceviewmm-4_0-0-3.91.1-1.17.aarch64.rpm"
-RPM_HASH = "d224381c86de3ebf884489cd2c09e31c8ce9837abb2c834cae58b527a58121f0a0a818094bd97085f8236e1b8fdcafc28a64764b99662e0649906fad03619f2c"
+RPM_NAME = "libgtksourceviewmm-4_0-0-3.91.1-1.27.aarch64.rpm"
+RPM_HASH = "28925853290a5ff01665cedad5b070c532b8aefce5066c1f1b9972de539010ece1f385fcf4ce684cea517bbb22776af21fa2fb1346d759eae31503f844d64bba"
 
 RPROVIDES:${PN} += "libgtksourceviewmm-4-0-0 \
 libgtksourceviewmm-4.0.so.0"

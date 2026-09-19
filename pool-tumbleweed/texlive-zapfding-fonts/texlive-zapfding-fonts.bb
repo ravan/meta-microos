@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-zapfding"
 DESCRIPTION = "The  separated fonts package for texlive-zapfding"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn61719"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-zapfding-fonts-2023.209.svn61719-53.2.noarch.rpm"
-RPM_HASH = "413b5a45e3a2e8462f215bb9d4d1de98c0275546d66e5792df21229d88d3b1bc0c0ac65e2ea08664cd118166c661581d42a9ab4892abad674e2c8180768ae3c4"
+RPM_NAME = "texlive-zapfding-fonts-2026.226.svn77161-59.4.noarch.rpm"
+RPM_HASH = "c7aefb372f1ae02592c762ac7e9afdbee235af05395c30e107203e3ebc5f44f3d2a2799de8a91c2d416ff0b4e6ebdc850bc519fd20b772ac3422f182c6f054c5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-dingbats \

@@ -6,10 +6,10 @@ applications. \
 This subpackage contains the header files for the library."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.21"
+PV = "1.4.27"
 
-RPM_NAME = "libxapian-devel-1.4.21-1.4.aarch64.rpm"
-RPM_HASH = "c6dc7e12a7e31ddd380c28fbec75bef2af2476eea8b7be2c324369e1555ee2f5817fa546776dd68ec135e71ccd1e71c387d035b43461a05e1757297f8a5e027c"
+RPM_NAME = "libxapian-devel-1.4.27-1.6.aarch64.rpm"
+RPM_HASH = "0248d6a5013818294d3f7c25aa3c28827ad5c646767aa6de595afd334d6a46677936726a40518289621a48a6567c51eea7582de5a4241c9a3d1bd31193410c47"
 
 RPROVIDES:${PN} += "libxapian-devel \
 pkgconfig-xapian-core"

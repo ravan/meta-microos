@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the ruby interface to AppArmor. It is used 
 applications interfacing with AppArmor."
 LICENSE = "GPL-2.0-only & LGPL-2.1-or-later"
 
-PV = "3.1.6"
+PV = "5.0.2"
 
-RPM_NAME = "ruby-apparmor-3.1.6-4.1.aarch64.rpm"
-RPM_HASH = "49d4fcd3cdc0d975bfe502ab171d77513744c249b6a79a5676a37824756a48e8324191f7fc4ebb0d380dd725cada373bae8110db82c97320b25c3d283e11011f"
+RPM_NAME = "ruby-apparmor-5.0.2-2.1.aarch64.rpm"
+RPM_HASH = "bef87f3eb0b4ccc446d99f740a8a37840d3eecd6203e663fc51db364885e65c466e742529edd86d6b10a7be0925247fdf3beeb010cff628240d745fce358380d"
 
 RPROVIDES:${PN} += "ruby-apparmor \
 ruby-libapparmor"
@@ -16,7 +16,7 @@ libapparmor.so.1 \
 libapparmor1 \
 libc.so.6 \
 libm.so.6 \
-libruby3.2.so.3.2 \
+libruby4.0.so.4.0 \
 ruby"
 
 inherit rpm

@@ -4,10 +4,10 @@ University. It can make it easy to write theses both in Chinese \
 and English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn66188"
+PV = "2026.226.0.0.9asvn67231"
 
-RPM_NAME = "texlive-fduthesis-2023.209.0.0.9svn66188-53.1.noarch.rpm"
-RPM_HASH = "58f123d452ab83c4547e3f370e57a8f77df60c629dd83ef76f08d5fe60b33f05e0b8b530b6d15fdb5619844805282c150a3e5993b1507ccf5f84bd516205c373"
+RPM_NAME = "texlive-fduthesis-2026.226.0.0.9asvn67231-59.2.noarch.rpm"
+RPM_HASH = "82e352177f29da4fcd2ffec890a5c6301d71dd29160053332abed759a5929d82a6d2d7e5f4f77c6f90d8ef72ab413ad6ae523d81d112301bb01f87c09720b6b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fdudoc.cls \

@@ -5,10 +5,10 @@ with most symbols taken from newtxmath (which must of course be \
 installed and its map file enabled)."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.054svn59227"
+PV = "2026.226.1.056svn77682"
 
-RPM_NAME = "texlive-newtxsf-2023.209.1.054svn59227-55.1.noarch.rpm"
-RPM_HASH = "da0c226da141b8c5d8437db1ca343304ed3a06bd596995491c90c8d9c37c820bbfb06d1bc4b6492c5cacc11c67c9649e1f048839206dbdfeddfe7c30e785d983"
+RPM_NAME = "texlive-newtxsf-2026.226.1.056svn77682-61.2.noarch.rpm"
+RPM_HASH = "390763f6d4fbdb8e50082fbf930a863d4d4d2c598d8c54a3b4c7a00319aaefddf7ded24920170866ec236cda4da4d6ba4a8d7354cbe0b6cd60d5c3d8d4a9a801"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-newtxsf.map \

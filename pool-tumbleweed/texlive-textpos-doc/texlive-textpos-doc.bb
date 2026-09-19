@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-textpos"
 DESCRIPTION = "This package includes the documentation for texlive-textpos"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10.1svn63967"
+PV = "2026.227.1.10.1svn77682"
 
-RPM_NAME = "texlive-textpos-doc-2023.209.1.10.1svn63967-55.1.noarch.rpm"
-RPM_HASH = "07102175443bf2357a79d91ccfd1363cf6ddfc11078671843d6713f51a14354c06c7914a7124dc4a9463763d373cfe71985b325094920efc28b146a9bdee1277"
+RPM_NAME = "texlive-textpos-doc-2026.227.1.10.1svn77682-62.2.noarch.rpm"
+RPM_HASH = "520c8a33f667d7b4264f0f56e89171b168ebce382a3c14c84898140ec049b361edd679a2b8ea72832fd382af561810884abfc712d649ef7cb95bfed6b25bd5fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-textpos-doc"

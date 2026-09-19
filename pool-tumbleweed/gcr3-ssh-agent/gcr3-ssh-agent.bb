@@ -3,10 +3,10 @@ DESCRIPTION = "gcr-ssh-agent as a standalone binary, so that it can easily be \
 managed through systemd."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.41.0"
+PV = "3.41.2"
 
-RPM_NAME = "gcr3-ssh-agent-3.41.0-3.4.aarch64.rpm"
-RPM_HASH = "c9bacb09c2766ea71587339d0cfe4cb269414b4e6fce96b9888d85fa5bc7b3574276293859b918f99cf882394892ebebfbde521e9728a6418c01ddbb8b057161"
+RPM_NAME = "gcr3-ssh-agent-3.41.2-5.4.aarch64.rpm"
+RPM_HASH = "41d060e63837afc980edf9edadbc063a2d07e525ef4686c2409679d9ae2a2b6be0cde5d38f608fd476eb7f73913ec0040aef4dc0ffb15f067fca4896ab30e4d2"
 
 RPROVIDES:${PN} += "gcr-ssh-agent \
 gcr3-ssh-agent"

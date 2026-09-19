@@ -5,10 +5,10 @@ generating a continuous stream of samples by avoiding the HSYNC and \
 VSYNC blanking intervals."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.1+git.20200602"
+PV = "0.2.1+git.20250902"
 
-RPM_NAME = "osmo-fl2k-0.1.1+git.20200602-1.12.aarch64.rpm"
-RPM_HASH = "deb5c9e63722058f4b927623bb5ff312fdbdb9140534fc9270e03359002b4beb6a4d3d31e7e9cf0196e0c9033bc7fbd51a857eb5d314b3b261d5e3392c9c627f"
+RPM_NAME = "osmo-fl2k-0.2.1+git.20250902-1.6.aarch64.rpm"
+RPM_HASH = "f27d45ecc8ea5af47ed45f1c1f1027117a4966d95ed3a08e4f4c547cd5172a00af81e5e2ca9c365c0ce61249a17336f526d44050071bffe9968b5ef4618647aa"
 
 RPROVIDES:${PN} += "osmo-fl2k"
 

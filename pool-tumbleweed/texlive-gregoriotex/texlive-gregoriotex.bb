@@ -6,10 +6,10 @@ GregorioTeX file, which makes TeX able to create a PDF of your \
 score."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.6.0.0svn58331"
+PV = "2026.226.6.1.0svn74348"
 
-RPM_NAME = "texlive-gregoriotex-2023.209.6.0.0svn58331-54.2.noarch.rpm"
-RPM_HASH = "8b3bb69d1311544a78edea857fe076510c85834243567c66356d17699798de2553c295f94244d2d3563509498b234cd92abb281bd6d842ce3eb41b0081775e49"
+RPM_NAME = "texlive-gregoriotex-2026.226.6.1.0svn74348-60.4.noarch.rpm"
+RPM_HASH = "38b4f0d5cf3c7361b85ee10d63ca540fb6d9972a764aeee313d1eda95f0366794976b14d97a588fd6e66fcf50bb271310a3120e262334881f16dbfb035bd7cf7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gregorio-vowels.dat \

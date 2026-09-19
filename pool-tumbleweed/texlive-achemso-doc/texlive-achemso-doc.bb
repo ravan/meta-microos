@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-achemso"
 DESCRIPTION = "This package includes the documentation for texlive-achemso"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.13fsvn65103"
+PV = "2026.226.3.14svn76790"
 
-RPM_NAME = "texlive-achemso-doc-2023.209.3.13fsvn65103-55.1.noarch.rpm"
-RPM_HASH = "f5c13645da1145e0d16fcfbf1fff1f0e24f32293db476f5205fcbe175e66662f6be5a9ffaefaa05ef3de997670f68b0a8f7ca62a5fb5d17a9d2aad5745d795e0"
+RPM_NAME = "texlive-achemso-doc-2026.226.3.14svn76790-61.2.noarch.rpm"
+RPM_HASH = "714b6ebc5b9a9a0a8344387b79181f46f822b1c98c5999e2166b06cdd05fa4e1d47c05814381ec64cf83b9a6faf8b26261c928b3521d071dd8895099d328a72f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-achemso-doc"

@@ -3,10 +3,10 @@ DESCRIPTION = "Qt Quick Effect Maker is a hybrid editor for creating shader effe
 Quick applications and offers both a node editor and a code editor."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-quickeffectmaker-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "a42681d9b11369c7312315954cbec507b13d3e7523e4ee95f79e20435570e8e5f270f2d194662bd0a12bd0ae4a36e3f072653677dba6ea8d98fd0b8ac954bab0"
+RPM_NAME = "qt6-quickeffectmaker-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "f69473f96347621f54a5cc3b13f2ccfe0c5d2ae41cdab886c4cfb4521196ea16abd34a9056024cbfc566a8db7e0d89910ff773b00bf9f043859c31f8dc7e5db7"
 
 RPROVIDES:${PN} += "qt6-quickeffectmaker"
 
@@ -18,6 +18,7 @@ libQt6Quick.so.6 \
 libQt6Quick3DGlslParser.so.6 \
 libQt6ShaderTools.so.6 \
 libc.so.6 \
-libstdc++.so.6"
+libstdc++.so.6 \
+qt6qmlimport-QtQuick"
 
 inherit rpm

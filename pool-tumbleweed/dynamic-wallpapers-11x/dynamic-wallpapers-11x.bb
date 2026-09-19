@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0 & CC-BY-SA-2.5"
 
 PV = "11.4"
 
-RPM_NAME = "dynamic-wallpapers-11x-11.4-13.16.noarch.rpm"
-RPM_HASH = "61bf20db957b79c5168067b4ab5e2cf8ba81349c7331af78ad3a51c31cfa5a3538ec03437cf94294b201cacd197dfdc6d2527320f140cc333ddf239420876de7"
+RPM_NAME = "dynamic-wallpapers-11x-11.4-13.24.noarch.rpm"
+RPM_HASH = "4591f4c552dbaffe7f8e54064c704e8d70801097bfa9a115c66ae68e230f08fa4b6d07f6455e5f00ec339eaf4ff963cfcb3e51fe044d057bdaa49f2d8a010ed8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dynamic-wallpapers-11x \

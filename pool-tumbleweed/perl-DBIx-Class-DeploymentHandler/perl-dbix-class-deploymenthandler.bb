@@ -27,10 +27,10 @@ That's really just a taste of some of the differences. Check out each role \
 for all the details."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.002233"
+PV = "0.002235"
 
-RPM_NAME = "perl-DBIx-Class-DeploymentHandler-0.002233-1.17.noarch.rpm"
-RPM_HASH = "eb964649a6f5e199bee9cbe874077b2a8aaeade2953417694ba2cf085eae798e96522729c706045f34b319bf0ad754f9362ec7d2097c11cab4250f4cb29754aa"
+RPM_NAME = "perl-DBIx-Class-DeploymentHandler-0.002235-1.5.noarch.rpm"
+RPM_HASH = "fcb9141d171aa7da5cc82b2dd56e70af54991b5402a1da51a4de76921999a6b3f51f867aadf34295cc84f45b9d7aecd927ba330ac51fca48bc0c1d847efd8cc4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBIx--Class--DeploymentHandler \
@@ -61,7 +61,7 @@ perl-DBIx--Class--DeploymentHandler--WithApplicatorDumple \
 perl-DBIx--Class--DeploymentHandler--WithReasonableDefaults \
 perl-DBIx-Class-DeploymentHandler"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp--Clan \
 perl-Context--Preserve \
 perl-DBIx--Class \

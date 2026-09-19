@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-ukrainian"
 DESCRIPTION = "This package includes the documentation for texlive-babel-ukrainian"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4esvn56674"
+PV = "2026.226.1.4esvn56674"
 
-RPM_NAME = "texlive-babel-ukrainian-doc-2023.209.1.4esvn56674-54.1.noarch.rpm"
-RPM_HASH = "02bf3cc7eae32a18e262f97750f2ee13fe4c5a3ce84ed3a41a586c85d539652a4752e5f94d4883b517a5f00fab433732df818807c82d860ccd843bb447977848"
+RPM_NAME = "texlive-babel-ukrainian-doc-2026.226.1.4esvn56674-60.2.noarch.rpm"
+RPM_HASH = "f383a84f98e7fe765eb1b54136afa135b2844e6ccda3e3e9529c2f75861e462d2c6c0e50b7c6b5fd0b9f651134bd3080157d868bf724415949019d65b260535b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-ukrainian-doc"

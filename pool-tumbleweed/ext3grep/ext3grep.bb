@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.10.2"
 
-RPM_NAME = "ext3grep-0.10.2-9.18.aarch64.rpm"
-RPM_HASH = "1cd6def3f3c7a227ac17b39dc8b96126939bf425e64adf5fa61aeb7f95a0e37152c92f0c255a8817f1d1a35a1224755549d547de4df9da823ffbd46f8f77bffe"
+RPM_NAME = "ext3grep-0.10.2-9.28.aarch64.rpm"
+RPM_HASH = "f2718cbed6cd72cb4e57bb3a48f89f64941fa40844e97f8db71ef6adcc35510980bb506de300382add0b0e80a36cf86924bf00f642571aebeff4a21f890a7f7f"
 
 RPROVIDES:${PN} += "ext3grep"
 

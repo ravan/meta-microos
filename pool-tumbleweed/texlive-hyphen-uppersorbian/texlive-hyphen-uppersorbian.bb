@@ -3,10 +3,10 @@ DESCRIPTION = "Hyphenation patterns for Upper Sorbian in T1/EC and UTF-8 \
 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58609"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-uppersorbian-2023.209.svn58609-54.1.noarch.rpm"
-RPM_HASH = "7347f5e822d5880bb6361ea13abf0352d80549e158fdb2c82774cc6e3714bc7ec5ab5a05618b2cb503fc2c5b2d290335e9819dad6e9c2481e9775ccffb168fe7"
+RPM_NAME = "texlive-hyphen-uppersorbian-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "1aa71f6823d4162b9b5e324d7fd1d8b5f9ea3b9f1035367dc601ea50aed7c94405337704103f07614117316970f8028862e4296e52e084313462ea4c3ab67716"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-hsb.ec.tex \

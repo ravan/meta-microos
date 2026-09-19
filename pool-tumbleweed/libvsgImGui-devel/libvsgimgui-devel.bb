@@ -8,10 +8,10 @@ Vulkan. \
 This package contains the header and development files for vsgImGui."
 LICENSE = "MIT"
 
-PV = "0.1.0"
+PV = "0.3.0"
 
-RPM_NAME = "libvsgImGui-devel-0.1.0-1.2.aarch64.rpm"
-RPM_HASH = "b77ae044d5f9d3589306dbb07baf1d7448cc70acf37e7841a22f3f1c6da66336f5633f510ca67a31fb712aea97a253713fb89061848d558d0b8af8be12c86230"
+RPM_NAME = "libvsgImGui-devel-0.3.0-1.10.aarch64.rpm"
+RPM_HASH = "72792b5d497ed6e3778018018dda7093a45187caf1052705a6b19d723b547d3c920f0dd3c5104c48ec1778a6f6726772b8e8aa3024c99459c51fbb5b93428806"
 
 RPROVIDES:${PN} += "cmake-vsgImGui \
 libvsgImGui-devel"

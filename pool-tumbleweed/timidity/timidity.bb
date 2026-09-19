@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.15.0"
 
-RPM_NAME = "timidity-2.15.0-3.11.aarch64.rpm"
-RPM_HASH = "4a3a6ad8921f3b50a99212a2520f63a3265502c3f7814cacee7f1f444b0f8f25c944415e89c76fcad7d1eb64ea44c17cc225735ca7f2d0adca92c52c2c4d18e8"
+RPM_NAME = "timidity-2.15.0-5.6.aarch64.rpm"
+RPM_HASH = "5e0299bfc8e5f19cb3af665cddbf2fc5633dfe00ceb09a997b9b563a73888db6cd2820336e8b1db6ea2c16c34405f18b1722717e33cccb4f6852265d8c41248c"
 
 RPROVIDES:${PN} += "config-timidity \
 timidity"
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/usr/bin/mkdir \
 /usr/bin/touch \
 fillup \
 ld-linux-aarch64.so.1 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libX11.so.6 \
 libXext.so.6 \
 libao.so.4 \

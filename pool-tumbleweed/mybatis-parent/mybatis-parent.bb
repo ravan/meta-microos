@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "31"
 
-RPM_NAME = "mybatis-parent-31-2.5.noarch.rpm"
-RPM_HASH = "a80ac3d5e5156f74de788481ac1572e79d403fd35444835b650ac0de8e593596df5e513ebfbb14ff7523534063098daef1ba93bb3aa2dd6f0bc6d0bf72f6d0ad"
+RPM_NAME = "mybatis-parent-31-2.13.noarch.rpm"
+RPM_HASH = "397607d66c19405b571ec19aa7b128b5c087eac2d499c3bbc235c2c9ab08840a6e5fd1bdb52e9b8371faa11566aad85f59bad687c12db6859dd7bc735af23f63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.mybatis-mybatis-parent-pom- \

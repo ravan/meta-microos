@@ -1,17 +1,17 @@
 SUMMARY = "Adds self-archiving information to scientific papers"
 DESCRIPTION = "This is a LaTeX style for producing author self-archiving \
 copies of (academic) papers. The following layout-styles are \
-pre-defined: ACMfor the two-column layout used by many ACM \
+pre-defined: ACM for the two-column layout used by many ACM \
 conferences IEEE for the two-column layout used by many IEEE \
 conferences LNCS for the LNCS layout (as used by Springer) LNI \
 for the Lecture Notes in Informatics, published by the GI ENTCS \
 for the Elsevier ENTCS layout"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3.0svn65777"
+PV = "2026.226.1.3.1svn77171"
 
-RPM_NAME = "texlive-authorarchive-2023.209.1.3.0svn65777-54.1.noarch.rpm"
-RPM_HASH = "28b0a199725d69d5d22166f8b0b6b4bb88b9f1894ae1cf7f4d2401ebac50de961ecdc70be529edd2c8d0f10c095af2f2ffe07bf11258b8ab2615e98ebbf8add1"
+RPM_NAME = "texlive-authorarchive-2026.226.1.3.1svn77171-60.2.noarch.rpm"
+RPM_HASH = "765001734b4a04f01cdcdb39b2b2aaec4d3f8ff1b5b31b9550305f3163015df1532c56744dd8a1fbdddcaa53460f1373f1dfd9163d87fe43d4e9f866e78b8571"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-authorarchive.sty \
@@ -27,6 +27,7 @@ tex-calc.sty \
 tex-enumitem.sty \
 tex-eso-pic.sty \
 tex-etoolbox.sty \
+tex-hologo.sty \
 tex-hyperref.sty \
 tex-ifthen.sty \
 tex-intopdf.sty \

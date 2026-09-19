@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "4.1.0"
 
-RPM_NAME = "libklftools4-4.1.0-1.14.aarch64.rpm"
-RPM_HASH = "8587f7a7565e6f04fd53746481011135d76d7d873dd094ed776d3ef417e37f69a3852b50b38098352095c5c02b0773082754fd2f96232f80e4fd1eadf7712761"
+RPM_NAME = "libklftools4-4.1.0-1.26.aarch64.rpm"
+RPM_HASH = "d4ad5bbb129a58150e52e0a3785eb679c64dfeb7c5d3a6116ceb4000c92a1c56cbae8556c8bf9170963b77a85511da45f8c2e0a8705eafe39e5598218abbb6c6"
 
 RPROVIDES:${PN} += "libklftools \
 libklftools.so.4 \

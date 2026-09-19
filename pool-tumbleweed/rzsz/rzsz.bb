@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.12.21~rc"
 
-RPM_NAME = "rzsz-0.12.21~rc-4.9.aarch64.rpm"
-RPM_HASH = "39d226c63a78ff29aa531c5abc833629b80f13374e4df5e9d3e2df98499588e784a36a0011c273727ed110cbf6788848eba845f75fbf049e050bdc7f9b1fa1c2"
+RPM_NAME = "rzsz-0.12.21~rc-9.3.aarch64.rpm"
+RPM_HASH = "724d84b17cffb0848d09669552b962d714adc0546b9f28bc7659c63f3f8644c240c91275b7d12f8847e863d363c442e24b5a1b54bfbf3f6abedcf1aed8ea292d"
 
 RPROVIDES:${PN} += "lrzsz \
 rzsz"

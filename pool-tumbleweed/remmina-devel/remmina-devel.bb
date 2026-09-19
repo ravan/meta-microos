@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains header files needed for developing plugins 
 Remmina."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.31"
+PV = "1.4.43"
 
-RPM_NAME = "remmina-devel-1.4.31-1.1.aarch64.rpm"
-RPM_HASH = "d02561bfc7f6c81085fe5d341567aecf0b9e0f3ab6b8ef20348b70f22dcff68363eaa06f95698c5c74d04668d49b2813caeac29966df3d566eeb80340ffa58b1"
+RPM_NAME = "remmina-devel-1.4.43-2.2.aarch64.rpm"
+RPM_HASH = "081025263c304ea82ec65aa82edd8591b05a8bbd5771c9cab835f9986f73e66a65ccf0d60c50f0df8a56dc444f29801a511619ee6c2432c5599f35eaec4d969b"
 
 RPROVIDES:${PN} += "pkgconfig-remmina \
 remmina-devel"

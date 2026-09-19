@@ -7,18 +7,29 @@ the interesting performance data in a system, and allows client \
 applications to easily retrieve and process any subset of that data."
 LICENSE = "GPL-2.0+ & LGPL-2.0+ & CC-BY-SA-3.0"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "969307625a6d9e0ef722bbbcd300749ae43eb3b73c0d12b11405943ad41e63f7eeea65276df872b1e6e82b49b0c6d88b8247d69fe6ed75c68d6fd041c15c4519"
+RPM_NAME = "pcp-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "21a3003996fcceae34f2aa812e0e1e811ba7125a6d176905d81a3ba5b32ca84f0f6961a986c1af5440a982d8ee8765a583907b396ae4ebe9d797eb6dec83ecba"
 
 RPROVIDES:${PN} += "config-pcp \
+group-pcp \
+libpcp-archive.so.1 \
 pcp \
+pcp-manager \
+pcp-manager-debuginfo \
 pcp-pmda-kvm \
-pcp-webapi"
+pcp-pmda-nvidia \
+pcp-webapi \
+pcp-webapi-debuginfo \
+pkgconfig-libpcp-archive \
+user-pcp"
 
-RDEPENDS:${PN} += "/usr/bin/hostname \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/hostname \
+/usr/bin/pkg-config \
 /usr/bin/sh \
+/usr/bin/which \
 bash \
 cpp \
 cyrus-sasl \
@@ -43,10 +54,9 @@ libreadline.so.8 \
 libssl.so.3 \
 libtinfo.so.6 \
 libuv.so.1 \
+libz.so.1 \
 perl \
-permissions \
 sed \
-systemd \
-which"
+systemd"
 
 inherit rpm

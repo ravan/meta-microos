@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "0.0.0+git.20190830"
 
-RPM_NAME = "xtrxdsp-tests-0.0.0+git.20190830-2.7.aarch64.rpm"
-RPM_HASH = "d85c7c2c080a6077f79b69794f81ae60b1b55933b784fc4fb80681011ec3c5a2ea91e969779d1f8f39f8df240b51a8679b8007d2ea0b8c5dde307afc3f6f5084"
+RPM_NAME = "xtrxdsp-tests-0.0.0+git.20190830-2.16.aarch64.rpm"
+RPM_HASH = "41c682fab0f5e05e07057fe3f0fc046484a9ba464e0a6248ad49cf39b8ed3e8f089c4359bcb3b5e8b75b09c9dfab64b8938bd568d9267e18ba4b43a2549ecb4a"
 
 RPROVIDES:${PN} += "xtrxdsp-tests"
 

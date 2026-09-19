@@ -5,10 +5,10 @@ The title page does not handle short dissertations for \
 diplomas."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn51323"
+PV = "2026.226.svn51323"
 
-RPM_NAME = "texlive-aucklandthesis-2023.209.svn51323-54.1.noarch.rpm"
-RPM_HASH = "fc50eea4647476b61a2c8ece774fb1be2887f2383b56faed67e6f1aeb094ea0e3ece0e8db88993753c9734ad9fffc210f03566aa1f30754fc21fea84b102ee97"
+RPM_NAME = "texlive-aucklandthesis-2026.226.svn51323-60.2.noarch.rpm"
+RPM_HASH = "b499154e2855d9abc0703d1ea364e8df073251971638711d5b969942eaf5f2400d3d17eeccff48df6d232b42e483f52758305638a9d6c76f74b4561af5bab107"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aucklandthesis.cls \

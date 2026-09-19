@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Gudea family of fonts designed by \
 Agustina Mingote, with support for LaTeX and pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.0.1svn57359"
+PV = "2026.226.0.0.0.1svn57359"
 
-RPM_NAME = "texlive-gudea-2023.209.0.0.0.1svn57359-54.2.noarch.rpm"
-RPM_HASH = "2aa9b4a5a773b912d0eec04ce147b610cc4506610d77d3a65f46b6a748fe6bd2a73d3f249927cb56a114fe0baf363ebf0f03a77beae6692a2f34ddbdcc3f75c3"
+RPM_NAME = "texlive-gudea-2026.226.0.0.0.1svn57359-60.4.noarch.rpm"
+RPM_HASH = "e848b4dbb27be2519e3bae8ec90b741a174ec9f5c8eee26ae37296fa732e97288433156340b08859e781929770620d8f6931e048e01f9b9dfa69a8a84a60869e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Gudea-Bold-tlf-ly1--base.tfm \

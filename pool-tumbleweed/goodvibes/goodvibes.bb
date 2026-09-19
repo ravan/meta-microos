@@ -3,10 +3,10 @@ DESCRIPTION = "A lightweight radio player written in C and GTK+. It offers a sim
 to have your favorite radio stations at easy reach."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.7.6"
+PV = "0.8.4"
 
-RPM_NAME = "goodvibes-0.7.6-1.4.aarch64.rpm"
-RPM_HASH = "0baa88f455b39c69c4df1f8305f4b4a6a8933fa91edd138b3004eaa2544d0de0c0287fad10d39ee13687be00ea43949e135c51f8f840f8ba9310a33b480e9e15"
+RPM_NAME = "goodvibes-0.8.4-1.3.aarch64.rpm"
+RPM_HASH = "7b24f439e46ad7bfc7fbb2bf5fea5452531abe1774a8409022756b8f65dd631889ba9afe588a0b44a09bbd39048deb9fc0fd1250144048bb8d3b7124b1da30a6"
 
 RPROVIDES:${PN} += "goodvibes"
 
@@ -21,6 +21,6 @@ libgtk-3.so.0 \
 libkeybinder-3.0.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
-libsoup-2.4.so.1"
+libsoup-3.0.so.0"
 
 inherit rpm

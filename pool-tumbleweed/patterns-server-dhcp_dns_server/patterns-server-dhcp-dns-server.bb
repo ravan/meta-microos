@@ -2,10 +2,10 @@ SUMMARY = "DHCP and DNS Server"
 DESCRIPTION = "Software to set up a server for the Dynamic Host Configuration Protocol (DHCP) and the Domain Name System (DNS) services. DHCP provides configuration parameters to client computers to integrate them into a network, whereas DNS delivers information associated with domain names, in particular, the IP address."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-dhcp_dns_server-20210330-5.1.aarch64.rpm"
-RPM_HASH = "7bfcd12059cdc2641ef7e4f82589e5d528cb21d4176a953d3506937e40968105eab88c7c9356ad16c4c05532b569a0665d4a2fb2e87f3ad63990c0eef7c0087a"
+RPM_NAME = "patterns-server-dhcp_dns_server-20250313-5.2.aarch64.rpm"
+RPM_HASH = "f754e22a5f694af8e5ba2fd9102dddfd2189251a22f64d71065e77c2aa993a4bbfeed84ed8cb189e6149a658c98b99c796c20c282d4674128dc2a4067eea8b27"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

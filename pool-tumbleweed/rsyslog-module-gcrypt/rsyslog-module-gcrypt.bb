@@ -6,10 +6,10 @@ This module provides log file encryption support using libgcrypt and \
 a rsgtutil utility to manage the files."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-gcrypt-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "7224fd68e1922c5d74c1140a7ce887e5660dce14c136c106e484cb535dff99290cfab660578ef5d926d7a43fe91890763c665b4c90524e67612d4c526ed324c7"
+RPM_NAME = "rsyslog-module-gcrypt-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "f071deaf7d8e2341311f383f5691475b01a81381f3b4e921968c21fb2d87b6fd132e7ef8bdcf536b009b7c93e12740712f864d0722f183811ddaf87a2c5f64e1"
 
 RPROVIDES:${PN} += "rsyslog-module-gcrypt"
 

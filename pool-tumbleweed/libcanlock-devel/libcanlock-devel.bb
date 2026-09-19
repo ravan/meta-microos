@@ -5,12 +5,12 @@ Section 4 with HMAC based on the same hash function as <scheme>. \
  \
 This subpackage contains libraries and header files for developing \
 applications that want to make use of libcanlock."
-LICENSE = "MIT"
+LICENSE = "MIT & NLPL"
 
-PV = "3.3.0"
+PV = "3.3.3"
 
-RPM_NAME = "libcanlock-devel-3.3.0-1.3.aarch64.rpm"
-RPM_HASH = "9c92510dd50229cc6a643eb06bfee22b1bfb8ed915e43ab5038966dfa1e567f0f394391dc0d037ab98e9d4e6c7a68718889008ade609d009964dd9b83674ad2b"
+RPM_NAME = "libcanlock-devel-3.3.3-1.2.aarch64.rpm"
+RPM_HASH = "aed2c5f11bfd1d87eab43a7f757b2fea2a5d47de4885b68aff4ff635fa2d5e58631c3d01692de1290235e769380d9032eaa1a62a76ae7580adeebaffb48ffcd5"
 
 RPROVIDES:${PN} += "libcanlock-devel \
 pkgconfig-libcanlock-3 \

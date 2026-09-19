@@ -3,10 +3,10 @@ DESCRIPTION = "These libraries are needed to develop programs which use the stan
 library."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & LGPL-2.1-or-later-with-GCC-exception-2.0 & GPL-2.0-or-later"
 
-PV = "2.38"
+PV = "2.44"
 
-RPM_NAME = "glibc-devel-2.38-2.1.aarch64.rpm"
-RPM_HASH = "90942a5483de7b734a4e4384e9b550c6b9811c11955a1c56ea8ea5a04b215c72b5c6d0f559bece2a9c03e6f332a46055ea6116abacf1216058137a9ff25a68d0"
+RPM_NAME = "glibc-devel-2.44-2.1.aarch64.rpm"
+RPM_HASH = "167186ff43b98d8ea12268df647b90940728b58331d161cf82b17b8fc2e0759922f4822927f33e011b2117cceb33ba1c4433c64119390df5d827927b02a08d4f"
 
 RPROVIDES:${PN} += "epoll \
 glibc-devel"

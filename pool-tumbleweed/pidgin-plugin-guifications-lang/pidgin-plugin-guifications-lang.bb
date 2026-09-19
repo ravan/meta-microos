@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.16"
 
-RPM_NAME = "pidgin-plugin-guifications-lang-2.16-10.27.noarch.rpm"
-RPM_HASH = "73e78c57dd30463b6c2b4d81d760569241a31b9bc20c68e9ec6f90c25d9407818e856233f1be779e625a525f163e448dfa98850762ca2cd5d4368d6386f819a1"
+RPM_NAME = "pidgin-plugin-guifications-lang-2.16-10.37.noarch.rpm"
+RPM_HASH = "431ed3288fdba5ead15cf751a609200f5bb50ce23528cee132ef74a2dbea9eec5bf52bd63ceaa0e6c1dac153c452de7ea34af81bfd9e64932d523413cc5b4c26"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-pidgin-plugin-guifications-bn \

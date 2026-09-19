@@ -6,10 +6,10 @@ and sharing of array-oriented scientific data. \
 This package contains the openmpi4 version of the static libraries for NetCDF."
 LICENSE = "NetCDF"
 
-PV = "4.9.2"
+PV = "4.10.1"
 
-RPM_NAME = "netcdf-openmpi4-devel-static-4.9.2-1.2.aarch64.rpm"
-RPM_HASH = "3f8c34b4cb124f65bc17733c7fcb4623482af95afd43043ec553850c11c9bcf5c52d7e4367589a55185c02b4d8ac5fe48b3376eb80700ba5063e916d75bf5966"
+RPM_NAME = "netcdf-openmpi4-devel-static-4.10.1-1.1.aarch64.rpm"
+RPM_HASH = "f05ba5a8fc5c7260c65fd34f48317b3538a31a4df6832c098de1ecdc58a28a9a8ffab3f189df407c5e98e195f4da32f24c138d343afbbf3deeabb006db4b3170"
 
 RPROVIDES:${PN} += "netcdf-openmpi4-devel-static"
 

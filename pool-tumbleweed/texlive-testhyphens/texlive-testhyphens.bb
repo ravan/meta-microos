@@ -8,10 +8,10 @@ It also works with xelatex, where \\showhyphens requires a \
 workaround."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn38928"
+PV = "2026.227.1.0svn73486"
 
-RPM_NAME = "texlive-testhyphens-2023.209.0.0.7svn38928-55.1.noarch.rpm"
-RPM_HASH = "1210aa99ae9ef94154ed0ba1fc8e83321563d938a67dd0e544d2d876d923ebb4ec95ea5b2c48025f414f426f3ed59ba653ee72e84512ed799c7fec38efcade33"
+RPM_NAME = "texlive-testhyphens-2026.227.1.0svn73486-62.2.noarch.rpm"
+RPM_HASH = "00943183fddbd44e692e39931dc86d0d21b6044abc6dd0bd03a0be8045a6b0386f09c1a02419a8341091afb8cfaac89cac2c45b5ba777912266fe094ab9b1b1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-testhyphens.sty \

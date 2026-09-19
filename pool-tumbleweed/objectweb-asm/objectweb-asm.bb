@@ -10,10 +10,10 @@ ASM offers similar functionalities as BCEL or SERP, but is much \
 smaller."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.5"
+PV = "9.10.1"
 
-RPM_NAME = "objectweb-asm-9.5-1.2.noarch.rpm"
-RPM_HASH = "3a0c7b7db938a41585a594474e8ad416d13806c8cd57396c227e320d286a1c109f1e87fa15d8ca89ede69eb57af2dacb9affc4dc53c46fec0562511609cd05ba"
+RPM_NAME = "objectweb-asm-9.10.1-1.3.noarch.rpm"
+RPM_HASH = "8078368726fab641ef872b3834387f85f18cdd6470980efe36eb0d2a9069896149ad86f2b7a01b09f34e96ec3612b36644c0f355e06144f2e6cdc0717e57d3ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.ow2.asm-asm \
@@ -38,7 +38,8 @@ osgi-org.objectweb.asm.tree \
 osgi-org.objectweb.asm.util"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-java-headless \
-javapackages-filesystem"
+java \
+javapackages-filesystem \
+javapackages-tools"
 
 inherit rpm

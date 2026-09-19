@@ -2,10 +2,10 @@ SUMMARY = "A plug-in framework for C++"
 DESCRIPTION = "C-Pluff is a plug-in framework for C++ programs."
 LICENSE = "MIT"
 
-PV = "0.2.0"
+PV = "0.2.1"
 
-RPM_NAME = "libcpluffxx0-0.2.0-2.9.aarch64.rpm"
-RPM_HASH = "936801c9aa94b9cc866a8e31d56e217cd33dbe6c70550be264b6c03aac880a768f148a4640013cfed1a915997ddff11f676e3e85525024a5e9e0e743d15350b5"
+RPM_NAME = "libcpluffxx0-0.2.1-1.5.aarch64.rpm"
+RPM_HASH = "d69f9295b2ebe8fd4f86c5031d6e0c1288cdbf4c228c7c5d574286a7db1df0260393059ac72d5f809d1a7798b9991cbf13382ac1fcb50f1f804fd6406a11ab46"
 
 RPROVIDES:${PN} += "libcpluffxx.so.0 \
 libcpluffxx0"

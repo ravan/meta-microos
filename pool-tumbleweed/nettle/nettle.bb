@@ -7,10 +7,10 @@ This package contains a few command-line tools to perform cryptographic \
 operations using the nettle library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.9.1"
+PV = "3.10.2"
 
-RPM_NAME = "nettle-3.9.1-2.1.aarch64.rpm"
-RPM_HASH = "11a0db56af3c2460eb3ecbbb260593dca845fc335bbfb6108d4819658a605848f45621e5c5510ac6c4e5029cb9e867241133e804fef02dd56ffe8bdde1e74b13"
+RPM_NAME = "nettle-3.10.2-1.6.aarch64.rpm"
+RPM_HASH = "f81d1963f9521ca2f622ddf5a65207c29ec847153188d8ffc82ae32d6376e5ca71c254eebb1f711469a411be8c7868a1d56ca826e7be0e2cd2bb7eda3d658578"
 
 RPROVIDES:${PN} += "nettle"
 

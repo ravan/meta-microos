@@ -8,10 +8,10 @@ This package contains the javadoc documentation for the Apache Commons \
 Pool 2.x Package."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.13.1"
 
-RPM_NAME = "apache-commons-pool2-javadoc-2.4.2-5.16.noarch.rpm"
-RPM_HASH = "4ed9ce4fec27fa6bbb503263ca9a7b3bd801658122632b670ffb065df81de02e392a769ad8508ce6fab33e4042b2e772105ec71189de0f1a1f1c1e5b4d4f8e7d"
+RPM_NAME = "apache-commons-pool2-javadoc-2.13.1-1.3.noarch.rpm"
+RPM_HASH = "2de20ba5c9897a1df87277bdbc904cdba4c393bc6e49796f93f40583282dbb69ec9e8bb889ea2188920d6074489249277c757ea5c980fbbc5b68daa741936187"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-pool2-javadoc"

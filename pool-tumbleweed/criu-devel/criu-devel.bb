@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications with CRIU library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.18"
+PV = "4.2.1"
 
-RPM_NAME = "criu-devel-3.18-1.2.aarch64.rpm"
-RPM_HASH = "b2eefadc6a8cff3f51ac66c615c17b1df263e3fd06e12b6d20cd4712e52954c098fba79d2163176832642f24c7c459e7c52876f5de843fe5e4f00d76291c170f"
+RPM_NAME = "criu-devel-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "f1772e24619be2d576652c701e68fbe8eaec53c84601ba7d2b3092ce0b71ebb6bc0d83f26f8b6d56128e1f438c5e429bb08d03c2de9e061b008f95ba2e42f2b1"
 
 RPROVIDES:${PN} += "criu-devel \
 pkgconfig-criu"

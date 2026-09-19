@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later & BSD-2-Clause"
 
 PV = "3.20200202.3"
 
-RPM_NAME = "ikiwiki-w3m-3.20200202.3-2.15.noarch.rpm"
-RPM_HASH = "f3d6dc3d725fff66d0cb08cc3316c2a31e06f806e81ec8d78a54b00d0c01eee1501b29b678b94fc7ffee550785ef9403677b4a6b6a9b430e1fc024324bbd7cc0"
+RPM_NAME = "ikiwiki-w3m-3.20200202.3-2.28.noarch.rpm"
+RPM_HASH = "2923aad2bae3f9b9f7d610cdf3484b69c21bfa81085cc78de5e9ab559c3962928235da08021e17d459b88c8b6d0856c7ec244a9604f7bad919f4e02ce01a4015"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ikiwiki-w3m"

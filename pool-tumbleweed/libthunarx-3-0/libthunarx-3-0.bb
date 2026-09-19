@@ -2,10 +2,10 @@ SUMMARY = "Thunar Extension Library"
 DESCRIPTION = "This package contains the Thunar extension library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.6"
+PV = "4.20.10"
 
-RPM_NAME = "libthunarx-3-0-4.18.6-1.1.aarch64.rpm"
-RPM_HASH = "20c837899700188af9452fdfd6cf4d6fba9a19059c92db48da5d6f65e52d1cdfe07744bd73c7f322efbb3bcfc46b0fbc1b80b4a28f641af67f65dc2c6cb64976"
+RPM_NAME = "libthunarx-3-0-4.20.10-1.1.aarch64.rpm"
+RPM_HASH = "0ebb2d45c218c6e089819677235ef6e7c1221a0becbb38576ce25b27602e5acca79b620a16e3976a195309dc0b083387ab5917381e473c6e12a521194454cc6c"
 
 RPROVIDES:${PN} += "libthunarx-3-0 \
 libthunarx-3.so.0"

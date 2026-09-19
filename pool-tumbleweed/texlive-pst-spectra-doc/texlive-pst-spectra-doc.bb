@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-spectra"
 DESCRIPTION = "This package includes the documentation for texlive-pst-spectra"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn15878"
+PV = "2026.226.0.0.91svn15878"
 
-RPM_NAME = "texlive-pst-spectra-doc-2023.209.0.0.91svn15878-54.2.noarch.rpm"
-RPM_HASH = "85347961970d0c1f1864fc2699316aa95d83181b4ef2da512eb2f6c661ab36568af119292291b24ea3de59b1899cc72eee0957bc9104e013006a53e010edd10b"
+RPM_NAME = "texlive-pst-spectra-doc-2026.226.0.0.91svn15878-60.4.noarch.rpm"
+RPM_HASH = "8ff132d9ef8a0355aa16e490757604f67d5f6435b12c1bd37760df5f22fb3ca9000e3c8c802aa97fcb0a44b07c98c7afb7ae49b8d4dc6ea0b38a9ad4c2ac486e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-pst-spectra-doc-fr;en \

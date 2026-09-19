@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-asana-math"
 DESCRIPTION = "The  separated fonts package for texlive-asana-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.000.958svn59629"
+PV = "2026.226.0.000.962svn76895"
 
-RPM_NAME = "texlive-asana-math-fonts-2023.209.0.000.958svn59629-54.1.noarch.rpm"
-RPM_HASH = "3d17361574c61986a1253f84a537fb1dd288f2c019a4c578dfc0f4e8aed2914004c36174b3db45d621eecc0d2607428447a08d052f322c94b49d2809d890a85b"
+RPM_NAME = "texlive-asana-math-fonts-2026.226.0.000.962svn76895-60.2.noarch.rpm"
+RPM_HASH = "2dc99acfe41ff150c59b8e97095d4b7d34ebb6bda2cf2aa34148de5ae198a2f4b81b5a5316255c2375421959dba68c4038327c7b365a1e379d437656a6e89574"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -42,7 +45,9 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -72,13 +77,17 @@ font--lang=su \
 font--lang=sv \
 font--lang=sw \
 font--lang=tl \
+font--lang=tpi \
 font--lang=ts \
 font--lang=und-zmth \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-asanamath \

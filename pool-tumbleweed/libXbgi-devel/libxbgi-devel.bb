@@ -11,13 +11,12 @@ LICENSE = "MIT"
 
 PV = "365"
 
-RPM_NAME = "libXbgi-devel-365-1.12.aarch64.rpm"
-RPM_HASH = "5a06565b9d00ead9f9ccb144e7698560385a8f6e3b8c1b615dd714a2fc23598ca9a5ffcdfd64f0c0d0d8d1025b91f1a65f36989427de317b6c91c6451f263acb"
+RPM_NAME = "libXbgi-devel-365-4.5.aarch64.rpm"
+RPM_HASH = "cf3ca3f9037a531d833c3ad7a39487030bab8998a828bb71e45b017c4c0b4d2bdd5916301115b4cc66eba25a0dbc0069071d6f20dbf96a8c20b4f6ee8c35a464"
 
 RPROVIDES:${PN} += "libXbgi-devel"
 
 RDEPENDS:${PN} += "libX11-devel \
-libXbgi1 \
-xorg-x11-proto-devel"
+libXbgi1"
 
 inherit rpm

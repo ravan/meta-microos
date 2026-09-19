@@ -7,10 +7,10 @@ distributed separately, but rather is released and maintained \
 as part of the TeX Live sources."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn66209"
+PV = "2026.226.svn77861"
 
-RPM_NAME = "texlive-kpathsea-2023.209.svn66209-56.1.noarch.rpm"
-RPM_HASH = "9b52528360b523a65096a9d7109628e9c33c69364d0033aa27eca6f7f65a5a8084a2c2baf7ea828e241be652d576dcf168ac01ccc7df53ff75eb4837148fc4ce"
+RPM_NAME = "texlive-kpathsea-2026.226.svn77861-63.2.noarch.rpm"
+RPM_HASH = "30eff24a53c4540b69b26360562b247de7dc56a329a29bd911c65782cca85813fc17b2f45a50552936fa5e23bba43baa57374dba3aa24bdc5d36a9ff0296005f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-kpathsea \

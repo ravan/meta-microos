@@ -1,4 +1,4 @@
-SUMMARY = "Low-Level Interface to lzma compression library"
+SUMMARY = "Low-Level Perl Interface to lzma compression library"
 DESCRIPTION = "'Compress::Raw::Lzma' provides an interface to the in-memory \
 compression/uncompression functions from the lzma compression library. \
  \
@@ -15,10 +15,10 @@ parameter. If you want to compress/uncompress to a single buffer, and have \
 when you create the compression/decompression object."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.206.0"
+PV = "2.224.0"
 
-RPM_NAME = "perl-Compress-Raw-Lzma-2.206.0-1.2.aarch64.rpm"
-RPM_HASH = "47a21d6a00da97b2aafe8aed8233e381f54a2b64c70031eccac4997bf757c8086a9f2f097190811b035abbf3372c74ba159148ee52311c36142e264f24c70214"
+RPM_NAME = "perl-Compress-Raw-Lzma-2.224.0-1.1.aarch64.rpm"
+RPM_HASH = "c8ea274695dc6c62fba869c2628e0b7674e4e2612b6f719b9eb1b9f3ca2313ba99c08b9226a968dd9a62376b4ad58ac20f807aca9898ab122cc15d21a345633e"
 
 RPROVIDES:${PN} += "perl-Compress--Raw--Lzma \
 perl-Compress-Raw-Lzma"
@@ -26,6 +26,6 @@ perl-Compress-Raw-Lzma"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 liblzma.so.5 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

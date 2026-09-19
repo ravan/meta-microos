@@ -7,10 +7,10 @@ well as IO handles, the loop also supports timers and signal handlers, and \
 includes more higher-level functionality built on top of these basic parts."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.802"
+PV = "0.805.0"
 
-RPM_NAME = "perl-IO-Async-0.802-2.3.noarch.rpm"
-RPM_HASH = "0730ea1294307fb884f5ee8afe61fa9b510c07a2cae9bfc9d7d0a1dbca93e50c2566a61f3fdc7a294959e9e12755fd93a7285afad8d357042c8e18280842cf44"
+RPM_NAME = "perl-IO-Async-0.805.0-1.3.noarch.rpm"
+RPM_HASH = "e4dc808a819eda6740fe9c0c3070a1c9bd3854a54d7513094a2c607ecc21f20417ebcf97b3965c14b7947db088b5125ca445afc81884a522d6c02fa8a61b5bcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Future--IO--Impl--IOAsync \
@@ -52,7 +52,7 @@ perl-IO--Async--Timer--Countdown \
 perl-IO--Async--Timer--Periodic \
 perl-IO-Async"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Future \
 perl-Future--Utils \
 perl-Socket \

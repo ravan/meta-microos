@@ -13,24 +13,26 @@ by iTunes and friends to share/stream media libraries over the network. \
 owntone is a complete rewrite of mt-daapd (Firefly Media Server)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "28.6"
+PV = "29.0"
 
-RPM_NAME = "owntone-28.6-1.4.aarch64.rpm"
-RPM_HASH = "125346c1a0d556d2123d080659327c057699fddd0f74b54ae2ccb40e4b800bbfa41106ac219eb5f776cebe02e986406bca489d3c37428907113495d8b62181d3"
+RPM_NAME = "owntone-29.0-2.8.aarch64.rpm"
+RPM_HASH = "79262b29360a68af618873b1d66c60658870e25e9e8e7be17a16714c8bc76aed3cc5d125acbfefff5b063583040ed10bd5b07bbdabd944b561a3b5d19ce9ffab"
 
 RPROVIDES:${PN} += "config-owntone \
 forked-daapd \
-owntone"
+group-owntone \
+owntone \
+user-owntone"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libasound.so.2 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \
-libavcodec.so.60 \
-libavfilter.so.9 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavfilter.so.11 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libconfuse.so.2 \
 libcurl.so.4 \
@@ -41,14 +43,15 @@ libgnutls.so.30 \
 libgpg-error.so.0 \
 libjson-c.so.5 \
 libm.so.6 \
-libmxml.so.1 \
+libmount.so.1 \
 libplist-2.0.so.4 \
 libprotobuf-c.so.1 \
 libpulse.so.0 \
-libsodium.so.23 \
+libsodium.so.26 \
 libsqlite3.so.0 \
 libunistring.so.5 \
-libwebsockets.so.19 \
+libwebsockets.so.22 \
+libxml2.so.16 \
 libz.so.1 \
 logrotate \
 pwdutils"

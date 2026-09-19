@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamertheme-trigon"
 DESCRIPTION = "This package includes the documentation for texlive-beamertheme-trigon"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.0svn65985"
+PV = "2026.226.0.0.7.0svn65985"
 
-RPM_NAME = "texlive-beamertheme-trigon-doc-2023.209.0.0.7.0svn65985-54.1.noarch.rpm"
-RPM_HASH = "642e35fc51543ec8d52c687ce079e6ab01a60bd0cea31632d947efdbfd01665df8e150f242203a4b29334fbbfbedb112d12db9581a9a2fd510b9c912ab70bdb6"
+RPM_NAME = "texlive-beamertheme-trigon-doc-2026.226.0.0.7.0svn65985-61.2.noarch.rpm"
+RPM_HASH = "703c29bea01f75252f1a5d97a29138c592c743c6dcc9754bbf5849486f75daefe073645de2e32f96ee81fd07e2d8558b1cedd04cd71af15763a88a29ad2b50ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamertheme-trigon-doc"

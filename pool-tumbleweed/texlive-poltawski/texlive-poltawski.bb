@@ -4,7 +4,7 @@ in the PostScript Type 1 and OpenType formats. The original \
 font was designed in the twenties of the XX century by the \
 Polish typographer Adam Poltawski(1881-1952). Following the \
 route set out by the Latin Modern and TeX Gyre projects \
-(http://www.gust.org.pl/projects/e-foundry), the Antykwa \
+(https://www.gust.org.pl/projects/e-foundry), the Antykwa \
 Poltawskiego digitisation project aims at providing a rich \
 collection of diacritical characters in the attempt to cover as \
 many Latin-based scripts as possible. To our knowledge, the \
@@ -22,10 +22,10 @@ The preliminary version of Antykwa Poltawskiego (antp package) \
 released in 2000 is rendered obsolete by this package."
 LICENSE = "LPPL-1.3c"
 
-PV = "2023.209.1.101svn20075"
+PV = "2026.226.1.101svn77682"
 
-RPM_NAME = "texlive-poltawski-2023.209.1.101svn20075-53.1.noarch.rpm"
-RPM_HASH = "8aa297919eadb4ab7137c39d811f8469fb64941bdcafb4d9790806005582aedba39d45e1270edca2cf23847dd19164a8c84354de8cf7a9792a2216c68b50a6f5"
+RPM_NAME = "texlive-poltawski-2026.226.1.101svn77682-59.2.noarch.rpm"
+RPM_HASH = "c13680f08aead32c570346e5b305a9629689dcf58fc1763c3a728ffc3e5645e04e6f1161076cd86432d2df260a540651803154b9188a9fc59a80a872d4a92183"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-antpolt.sty \

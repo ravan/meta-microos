@@ -5,10 +5,10 @@ electrotechnics as: <modulus>;<argument or phase inside an \
 angle symbol> The package makes use of pict2e."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-steinmetz-2023.209.1.0svn15878-58.1.noarch.rpm"
-RPM_HASH = "7ec580e08cc34953be23524100678cbf0eb396ab3ba773dbb519ee43140d5347b38a815ed1cee4a21873a15b1c6d55aa5518a163cbfc9954ba252dcfeb66188a"
+RPM_NAME = "texlive-steinmetz-2026.226.1.0svn77682-64.2.noarch.rpm"
+RPM_HASH = "bbb409067f4c409a24111b967b0e0f28ca5266f334db25aa3c43b3525c427e87d47c450dddddcf20664585229a7c951b1433ad1ca3a5771e7822f84984a4fd78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-steinmetz.sty \

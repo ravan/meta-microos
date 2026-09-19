@@ -7,10 +7,10 @@ This package contains libraries and header files for developing \
 applications that use MathGL."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "mathgl-devel-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "2910f93cb56ad436a4fc5c3ef4386b44bf52567bf219f88d6f26415f30bc4e34b6bf468e97d2cb51f6f09e1da52d3ff18cfd8e4aa37e069d8bf05c07f4922d5f"
+RPM_NAME = "mathgl-devel-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "3b651aac4beedd4a0c816fa34709a3c917986883aeb22f614ca606e8cfd910ed1bc0cbf74fc61ebc8cb43739f2745ac02a79dc51ba15878cf413ab72d97d1ed8"
 
 RPROVIDES:${PN} += "cmake-MathGL2 \
 cmake-mathgl2 \
@@ -20,7 +20,7 @@ RDEPENDS:${PN} += "cmake \
 libmgl-fltk8 \
 libmgl-glut8 \
 libmgl-mpi8 \
-libmgl-qt5-8 \
+libmgl-qt-8 \
 libmgl-wnd8 \
 libmgl-wx8 \
 libmgl8"

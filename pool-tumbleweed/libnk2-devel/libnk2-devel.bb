@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libnk2."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221122"
+PV = "20260526"
 
-RPM_NAME = "libnk2-devel-20221122-3.6.aarch64.rpm"
-RPM_HASH = "382ea9fa95661e75866ee9eae7c3a5d9b444a7452e08870d239731b08da7936e1b38e5326c8ff37828ae5ce34b5bed0f2bc1598a0ec8ce7e749f7f80fa65bf43"
+RPM_NAME = "libnk2-devel-20260526-1.12.aarch64.rpm"
+RPM_HASH = "c61aa22da27c846039c5b79614e4598c2810f02a50c0754d718dd24a3a4c11176d87c5ae25e2d653d2552bfab3950079a6c5aab84cac3376a11790aace3e7da8"
 
 RPROVIDES:${PN} += "libnk2-devel \
 pkgconfig-libnk2"

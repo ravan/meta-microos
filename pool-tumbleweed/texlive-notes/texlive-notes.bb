@@ -5,10 +5,10 @@ box and adding an icon in the margin. (The icons are provided \
 as 'fig' sources, processable by xfig.)"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn42428"
+PV = "2026.226.1.0.1svn42428"
 
-RPM_NAME = "texlive-notes-2023.209.1.0.1svn42428-55.1.noarch.rpm"
-RPM_HASH = "ee27151acd9ad6459e8e4bb7fbaa6390f9285cbc7e9062c441b8d3371ddbaf0e1bf13f5ab71aa7dbc4392ef120328b4a5ef8512bce86a94e9993d3b18d6af285"
+RPM_NAME = "texlive-notes-2026.226.1.0.1svn42428-61.2.noarch.rpm"
+RPM_HASH = "1e95f3d519e9fa3644f1ac398d9d3197a5b56c6c28d11718d457c2838b75f758a150ba4e49fdb877f7bc76136899dbbb4bb3dca02031092de59454306e69b04b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-notes.sty \

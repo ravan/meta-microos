@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Malay langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-msa-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "c2000def5d9c81fe0744204e9cc11da55fc3368d4752e0536395a6f5b1b7356f4bf282b31ad324baca88b56fd1e2c8f0ab45dc7f2990b9d9569b3016ac610909"
+RPM_NAME = "tesseract-ocr-traineddata-msa-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "c3240271f60e8f81ea9aabeda5db4f90b00c84b6757d87500d6b51b68390276e8f86de6936f257ac1aedaeb13e9858c408d112a06e13baa1a8ce3b4eb57daec4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-malay \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ms \
+tesseract-ocr-traineddata-malay \
 tesseract-ocr-traineddata-msa \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-malay"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

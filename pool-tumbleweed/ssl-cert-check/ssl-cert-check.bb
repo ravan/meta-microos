@@ -4,10 +4,10 @@ SSL certificates. The script was designed to be run from cron and can e-mail \
 warnings or log alerts through nagios."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.11git.1556282902.f3fc941"
+PV = "5.0"
 
-RPM_NAME = "ssl-cert-check-4.11git.1556282902.f3fc941-1.10.noarch.rpm"
-RPM_HASH = "cd253e7052235e82e76dc8a4eccc9e6c9f5fb13d166f1d432a83b0b2eb1504aef547ce132959c6d0bddacb52047d67fe001e098c22313ea29b7165fe051798b7"
+RPM_NAME = "ssl-cert-check-5.0-1.1.noarch.rpm"
+RPM_HASH = "7ba099c0eb2b28718f946c112d290b7410f72831fb474da1cd79a53f89604f7a32d46976e8bbbc02ca61253c2e4b6f6c50cc43c581e74ba0d5fd1e25e618d5c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "monitoring-plugins-ssl-cert-check \

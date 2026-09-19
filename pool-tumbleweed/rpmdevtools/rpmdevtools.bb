@@ -18,8 +18,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later"
 
 PV = "8.10"
 
-RPM_NAME = "rpmdevtools-8.10-7.9.noarch.rpm"
-RPM_HASH = "73735047c8b9893925a2e09feb1e6c3ca6c9bd7ed1daa9f192131ae5e714af024cb67da4e20f2dda99143f734829650ed7e2e7a3185fd3a2f07fca5bd5b0ea50"
+RPM_NAME = "rpmdevtools-8.10-7.18.noarch.rpm"
+RPM_HASH = "3982536f2f1fbc57186b63571bc39d690a5d3953260b5899020aa68092a6ddc3d8529f0e9c8d41594a6a779d4269ca2d42ad40d0a528e0918b1b3a0ad00aad7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-rpmdevtools \

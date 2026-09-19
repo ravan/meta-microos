@@ -3,10 +3,10 @@ DESCRIPTION = "This library contains various utility functions to FRRouting, suc
 data types, buffers and socket handling."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "8.4"
+PV = "10.6.1"
 
-RPM_NAME = "libfrrcares0-8.4-5.1.aarch64.rpm"
-RPM_HASH = "7e0ca3e9ee01f527814ed03d786472c82828a136afccb6100a52143c9f19ff094b80f95a2ade6860757026c9dc4fa10294d8c76cf30c545f31912f60d6ecfe10"
+RPM_NAME = "libfrrcares0-10.6.1-1.3.aarch64.rpm"
+RPM_HASH = "60d029dd4ea6556ba5a0f1406be73b3fef9be942b5cc7bea45590432970dc4e974276e9d23b9a6f71828a5dd2a510f2e4f43cd97fc1387d0f2f8e77ae4f408b3"
 
 RPROVIDES:${PN} += "libfrrcares.so.0 \
 libfrrcares0"

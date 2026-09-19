@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "libexif-gtk5-0.5.0-1.13.aarch64.rpm"
-RPM_HASH = "4a2200f456fcb22b67a61e85827277ee62ee0f3d4d55704286750f5a483f962dc6527f30f284bdc3297d9dc9af3fb714f935a5b76c16bfd5b7b21d1a218507d7"
+RPM_NAME = "libexif-gtk5-0.5.0-2.6.aarch64.rpm"
+RPM_HASH = "35e17b0257fde5982cbb51575830a1a6567c8f89da825e35f88878486dab927d9799bcf2c24f4bb3b2780dce110a2bb835e86f201c3f5db6e008651ef0f62c88"
 
 RPROVIDES:${PN} += "libexif-gtk.so.5 \
 libexif-gtk5"

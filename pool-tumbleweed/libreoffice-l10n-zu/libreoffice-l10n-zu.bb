@@ -2,10 +2,10 @@ SUMMARY = "Zulu localization files for LibreOffice"
 DESCRIPTION = "Provides Zulu translations and additional resources (help files, etc.) for LibreOffice."
 LICENSE = "LGPL-3.0-or-later & MPL-2.0+"
 
-PV = "7.6.1.1"
+PV = "26.8.0.3"
 
-RPM_NAME = "libreoffice-l10n-zu-7.6.1.1-1.1.noarch.rpm"
-RPM_HASH = "ae3ac0fc1ec97a46d0dd3543118f967c40256816eb8f333a6e909f44a1c40d3fac65268844d1cc4bbf7d40aa04dbdd6204ea02352cfc44abb635cd09ff9609c6"
+RPM_NAME = "libreoffice-l10n-zu-26.8.0.3-1.1.noarch.rpm"
+RPM_HASH = "fbdef6775e097f9d3c0d75919325806e6284866e5fcca1987521d25695aeed97df53bdbab34e0cf8a4953e9d0eb9fd975357807f1243c6fcef8b91c82114a1fd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libreoffice-help-zu \

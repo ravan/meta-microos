@@ -6,10 +6,10 @@ that uses Unicode input in a native way: current examples are \
 XeTeX and LuaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.92svn22357"
+PV = "2026.226.0.0.92svn22357"
 
-RPM_NAME = "texlive-unisugar-2023.209.0.0.92svn22357-54.1.noarch.rpm"
-RPM_HASH = "493c0ad397bc21e525c5e4742262040c3e1f8dc09a18631010cee9d74649ca9914d327ff8b4ff9ad38b94ce59e03dc02830336944c8291d16b49e7c64c41dbbc"
+RPM_NAME = "texlive-unisugar-2026.226.0.0.92svn22357-60.2.noarch.rpm"
+RPM_HASH = "bf8074576ed178ad7e62234395251f376df0d490958689a08d0fe52fddcb0cdaa843f4f0be1b0eea66fe21be936462a2adccceed61418ed5f21ce3f7ba92f6fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unisugar.sty \

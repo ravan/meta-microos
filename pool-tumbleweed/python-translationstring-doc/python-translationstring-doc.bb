@@ -4,14 +4,13 @@ LICENSE = "SUSE-Repoze"
 
 PV = "1.4"
 
-RPM_NAME = "python-translationstring-doc-1.4-3.3.noarch.rpm"
-RPM_HASH = "e20d33d9dbcc9804b74289fd255060c31003a606c2f2dd10ad29959793b4b2a5271cf2ed7578c6a6db7298c87c44bf688893447e4337f9ebfeefb184cb3413c8"
+RPM_NAME = "python-translationstring-doc-1.4-4.5.noarch.rpm"
+RPM_HASH = "ab78635da92a9a178e9285e21ec2b818a84b445744225f4cfe5ba83eb72fecd93198a59dde508b29ba04f58a8328a7baa4ade2f00475fa3a9f50af2a57779f8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-translationstring-doc \
-python310-translationstring-doc \
-python311-translationstring-doc \
-python39-translationstring-doc"
+python313-translationstring-doc \
+python314-translationstring-doc"
 
 RDEPENDS:${PN} += ""
 

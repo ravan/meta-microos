@@ -2,10 +2,10 @@ SUMMARY = "SELinux policy module for rke2"
 DESCRIPTION = "This package installs and sets up the SELinux policy security module for rke2."
 LICENSE = "Apache-2.0"
 
-PV = "0.14.stable.1"
+PV = "0.23.stable.1"
 
-RPM_NAME = "rke2-selinux-0.14.stable.1-1.1.noarch.rpm"
-RPM_HASH = "750d83614bf83307346aa4bb1d401f4ed8cb8e7ed1714e17f317c8f8596e30becd5078805ec9c3d22e02ee8ec1d330c9c056cb0ad0ba76fd2006c96c45ce0e58"
+RPM_NAME = "rke2-selinux-0.23.stable.1-1.3.noarch.rpm"
+RPM_HASH = "983d71f0c790ae35c11be5a795d8a3fb510f174fe54bc09f42082652dfd2524dcebf51698231602247377e1a11088ecc4466d201da7e19ae4e1890bbf4d097d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rke2-selinux"

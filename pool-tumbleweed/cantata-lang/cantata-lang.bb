@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cantata"
 DESCRIPTION = "Provides translations for the 'cantata' package."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.5.0"
+PV = "3.5.0"
 
-RPM_NAME = "cantata-lang-2.5.0-3.1.noarch.rpm"
-RPM_HASH = "394059b7acf9b89ffc960c8add0b4b58794edb32350f7bccaa771f89da76335e4119cb2833ff47a3da5391e4316084db0cd02cc9c9a2589963ccef36214a8a93"
+RPM_NAME = "cantata-lang-3.5.0-1.2.noarch.rpm"
+RPM_HASH = "42ddd8b561b1cd6d5507283baaf3a8d7389b2aa74263b6d84b1ffa118bd46ff8a2f4882fe6c0f51931844c7fb3dede34b7cd0423d83d31949b022081c92ce191"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cantata-lang \

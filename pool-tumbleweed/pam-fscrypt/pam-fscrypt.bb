@@ -6,10 +6,10 @@ provides a uniform interface for creating and modifying encrypted directories. \
 This package holds the pam module for fscrypt."
 LICENSE = "Apache-2.0"
 
-PV = "0.3.4"
+PV = "0.3.7"
 
-RPM_NAME = "pam-fscrypt-0.3.4-3.5.aarch64.rpm"
-RPM_HASH = "4313b4fd047eca49e53a4953d895e71dccf072358527378a21f3a2586bfa91c7f1e6a521006f36ee6952f8e006b141b97a44b6cfcc4dcb5dadc409005e0dfe27"
+RPM_NAME = "pam-fscrypt-0.3.7-1.1.aarch64.rpm"
+RPM_HASH = "62509d845948879a81a67c78b7ac9e7e5835a8493febc190b61529ef3b34674709b8ee8a1c21b85a58e7b28ca3d999731051c174cc108eebec1da40e37e6b29a"
 
 RPROVIDES:${PN} += "pam-fscrypt"
 

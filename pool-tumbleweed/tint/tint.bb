@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.07"
 
-RPM_NAME = "tint-0.07-1.6.aarch64.rpm"
-RPM_HASH = "bb36d98a37d9ce3ef64435373c5ca5bbf0518ee7d439c0432adb6753f765c3a9db6600efbcd98144a2f22ca8cc95ddc95b26f09881cad9bf0dc15516b59dc676"
+RPM_NAME = "tint-0.07-1.16.aarch64.rpm"
+RPM_HASH = "fcf310a12ad1bbca136c5333bf3d962806ef33db6c1b739a099a9085716392c2ff76867ca20ae4f484e4c6feb9b2c2bb7ced36749e21f9c2ed5b02f47f0d46aa"
 
 RPROVIDES:${PN} += "tint"
 

@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Danish"
 DESCRIPTION = "This package provides translations of man pages in Danish."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-da-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "ff8b52b618f073fb1ce7e41d7ebb96f0e6ddd76b6b300287ba8d3fa4261c60e13ece0fc9b426c1b91cadcfab4621dfbb1dd35a8d9fbe3f5f66082cc62e400114"
+RPM_NAME = "man-pages-da-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "def0867c999f05be9ba2bc6c09c53d5eec7d806705219c89f629969fb9da4bf0c20b0a6023bdaa39404d1183ba714e33ebe03b2b341e41798f9db439588c57d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-da \

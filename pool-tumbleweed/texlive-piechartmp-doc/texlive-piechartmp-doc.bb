@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-piechartmp"
 DESCRIPTION = "This package includes the documentation for texlive-piechartmp"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn19440"
+PV = "2026.226.0.0.3.0svn19440"
 
-RPM_NAME = "texlive-piechartmp-doc-2023.209.0.0.3.0svn19440-52.1.noarch.rpm"
-RPM_HASH = "a774ca898c9b4c3a5ea8402e8f5d63731f6755b0426c5b08771d0b8f498d564f168ec1230951ef4dae3d5b4ac43c6c7b77e394283d4f9f67682ee7cf93ce69a7"
+RPM_NAME = "texlive-piechartmp-doc-2026.226.0.0.3.0svn19440-58.2.noarch.rpm"
+RPM_HASH = "028c0fb2afeaa36074954907f0dc7348aaf5908a0846072338b6100cb56eb5619b960cbcfea5831da8c0c99cc4650e73e35d7472c036c2beb1233b47f410bc62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-piechartmp-doc"

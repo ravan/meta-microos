@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lcyw"
 DESCRIPTION = "This package includes the documentation for texlive-lcyw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-lcyw-doc-2023.209.1.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "9217db2df42a61afed9af00caae802b0f4fbd7e25d4c3b5ab64269fd067e297df7aa086ac937345a0a21ab5147f83105e608c041ceba9f633c88629d0a38dd59"
+RPM_NAME = "texlive-lcyw-doc-2026.226.1.1svn15878-61.2.noarch.rpm"
+RPM_HASH = "78e5a4fbfed7dc2480275a01193be99a75f43b612b4eb6b284da818d40d20b601698408c6365cbb38702249be7f6fed9d32196f4f8cb9a26709c20c2fe92940f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lcyw-doc"

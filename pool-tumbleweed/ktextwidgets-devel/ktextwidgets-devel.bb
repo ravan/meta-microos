@@ -3,10 +3,10 @@ DESCRIPTION = "KTextWidgets provides widgets for displaying and editing text. It
 rich text as well as plain text. Development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "ktextwidgets-devel-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "fc6943831be4c683451f48fe53b7ea34296c77814080e571d44dd1a4d426a2a808a0664d27483369eef5210f4094dc42734d21eb86fb21e5ce466621f3d711b5"
+RPM_NAME = "ktextwidgets-devel-5.116.0-1.8.aarch64.rpm"
+RPM_HASH = "e843aba687c8d0f1401dce85bcc579bac7265229872fd1dd9ccb2ba702071bfb3d1ba2074df4d86b8afba1735e746f4c9822a30346abceaffc7f1bfe92103ce2"
 
 RPROVIDES:${PN} += "cmake-KF5TextWidgets \
 ktextwidgets-devel"
@@ -14,7 +14,6 @@ ktextwidgets-devel"
 RDEPENDS:${PN} += "cmake-KF5I18n \
 cmake-KF5Sonnet \
 cmake-Qt5Widgets \
-extra-cmake-modules \
 ld-linux-aarch64.so.1 \
 libKF5TextWidgets.so.5 \
 libKF5TextWidgets5 \

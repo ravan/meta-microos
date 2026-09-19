@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.3.0"
 
-RPM_NAME = "octave-forge-data-smoothing-1.3.0-1.23.noarch.rpm"
-RPM_HASH = "e01a766f049fbfd86d4255726f30086ba72ce8f67e476fefcea2369196a713472e61cafee7dd5d97c54fe2b78ee6e7a3fa48e1eb0fe6744667b36ba3c57617ec"
+RPM_NAME = "octave-forge-data-smoothing-1.3.0-1.32.noarch.rpm"
+RPM_HASH = "384dcd103d5b36ac28f8f393ce0aa174141c222371f1b31f4aa6ba12631ab3ecf25999fcbf30938569510f5fb3d905fb6522b39ed3911eb3b1e7c893f39a7313"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-data-smoothing"

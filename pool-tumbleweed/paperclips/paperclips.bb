@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "1.0.4"
 
-RPM_NAME = "paperclips-1.0.4-3.7.noarch.rpm"
-RPM_HASH = "1f9508f5be4445ba518963c516dc43c7cc8ffb628a164237ad68939c3373f2aa8172c818817e66ee25abdb6815974a318ae3e1ab2e95babef626995d8fb64f2c"
+RPM_NAME = "paperclips-1.0.4-7.6.noarch.rpm"
+RPM_HASH = "4344913ba8c2a7a373deeaffd2afef4597c8926c0a1e840c751e9eaa49bc3a6506e55ff02cf9c3bb9882fb9b3b50d2e1b7d396bc0cc1ff7dc0d40a3f9ec7aae3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "paperclips"

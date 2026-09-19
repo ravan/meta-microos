@@ -3,10 +3,10 @@ DESCRIPTION = "Development files for hivex. Hivex is a Windows Registry Hive ext
 library."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.3.23"
+PV = "1.3.24"
 
-RPM_NAME = "hivex-devel-1.3.23-2.6.aarch64.rpm"
-RPM_HASH = "82fa1c19b9fa43f714e9f2e476e8acb25c883a8e82def40de5d66813f0f0e0589ba619594ccf7278e39b48b46057a5b1fadbeb936d5fa1990dcc71fe0b6f6499"
+RPM_NAME = "hivex-devel-1.3.24-3.3.aarch64.rpm"
+RPM_HASH = "30d8bfc30088a7fe0246911c739b943b9d0f1220df4bf8a9cd47aca77e053e052473054680f79a60edad7907d2a8d46308b7fadc0485c2aedea477602142cac4"
 
 RPROVIDES:${PN} += "hivex-devel \
 pkgconfig-hivex"

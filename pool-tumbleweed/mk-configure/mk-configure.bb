@@ -4,10 +4,10 @@ NetBSD make) and a number of executables. It is intended to aid cross-platform \
 development and software building."
 LICENSE = "BSD-2-Clause & MIT & ISC"
 
-PV = "0.38.2"
+PV = "0.40.0"
 
-RPM_NAME = "mk-configure-0.38.2-1.3.noarch.rpm"
-RPM_HASH = "29561a18f3e9c7d39aebdc21c0f2e36ee1397fd0de79a846f8e9e868a91a9b56cb87eb9f5df517e63331a29262bb9f8ebb5e2eb27e37589e96a74c9228c125b8"
+RPM_NAME = "mk-configure-0.40.0-1.4.noarch.rpm"
+RPM_HASH = "01220b3d878182c8a48778cd825e3ae655ca758a86d8fd02887c9903cb3d1e4b0d2d3812ea0d916750427c7801877eb7cd47fabcb2e46bebe760fb3dd2901470"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mk-configure \

@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.2~git20180504"
 
-RPM_NAME = "imx-usb-loader-0.2~git20180504-1.20.aarch64.rpm"
-RPM_HASH = "a34cbcda0d44ab92dba76e0bd9d88dc4fa6a82278a8afddec5ca9eb639fd542b20f3c7a428d88b82ccfaf53efba5b0c987358f25d161813a1d05165eb0d7193e"
+RPM_NAME = "imx-usb-loader-0.2~git20180504-1.30.aarch64.rpm"
+RPM_HASH = "0b89a401dd6ccd962061371cce9d7880204739ed6e1d40a31eb02afe9d02c46a3d376f5cf5f9c3d3343fe4c510ee0a764eea142a9b6b70ed372a97b7244c5aae"
 
 RPROVIDES:${PN} += "config-imx-usb-loader \
 imx-usb-loader"

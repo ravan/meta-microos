@@ -5,16 +5,16 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.6.2"
 
-RPM_NAME = "ghc-control-monad-free-devel-0.6.2-4.8.aarch64.rpm"
-RPM_HASH = "dcb106dff16b5adc9a8e59d3211fafe8a7a4b4043aded895dc0c009afa62abaa44dd03a51a40603c12f82a82828dbe9bd63c9fdb7ce7edc17558ba2c94336a40"
+RPM_NAME = "ghc-control-monad-free-devel-0.6.2-4.35.aarch64.rpm"
+RPM_HASH = "daee18564568385a685ccfaa906186a2ce7b066016e62ebab7263b0be867a361b1d9badc35b7e97e187edad04be0d80efba0a43af6e9c33af399a09469ca9fe5"
 
 RPROVIDES:${PN} += "ghc-control-monad-free-devel \
-ghc-devel-control-monad-free-0.6.2-14mRW5Z3hOW3y0QtFAGsp6"
+ghc-devel-control-monad-free-0.6.2-INrHbxo4qSqC5LftAQgJHR"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
 ghc-control-monad-free \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-transformers-0.5.6.2"
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-transformers-0.6.3.0-4709"
 
 inherit rpm

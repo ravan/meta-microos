@@ -8,19 +8,17 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1"
 
-RPM_NAME = "gswrap-0.1-9.6.noarch.rpm"
-RPM_HASH = "1351033159c355aab82dccdb1f18536d9c573e604d3c255e05efac7347bb0986e37e5bb8b8b59ec53eded1acb40a7975d6f1cc8f7707fc41432b0e1eed00210c"
+RPM_NAME = "gswrap-0.1-12.3.noarch.rpm"
+RPM_HASH = "31f870003d5cd0989b538076625b695bc5e32b7f6b2955f5a674dafce2de39595d5d89fbb09c7182aa120b7136fd6ee786c8edea5387b613cf9c9b12f59d5f7e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "config-gswrap \
-gswrap"
+RPROVIDES:${PN} += "gswrap"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/gs.bin \
-/usr/bin/sh \
+alts \
 bubblewrap \
 coreutils \
-sed \
-update-alternatives"
+sed"
 
 inherit rpm

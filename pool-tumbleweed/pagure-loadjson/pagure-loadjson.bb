@@ -4,10 +4,10 @@ information provided in the JSON blobs that are stored in the tickets (and \
 in the future pull-requests) git repo."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-loadjson-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "f292d7db56620f3e1d3bc2125c467dca5fd2f3e4fa3a60252fa8074b37726c603baf10994fb16410aa81a276c57632f90f52f9d9a58789bc3a4e604d29102a1e"
+RPM_NAME = "pagure-loadjson-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "6f1cf8486385718bb9d6a147ee6886eb1b090e6b17580179b33733c8fb25705de1da117f93a107f6eefa66938cb1e397ef8514f3ce37f2d97678285ac2a36872"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-loadjson"

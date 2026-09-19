@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2.0"
 
-RPM_NAME = "qmltermwidget-0.2.0-2.17.aarch64.rpm"
-RPM_HASH = "d0ad7cd13484992e2fe718161d40c5bdf59607383b9bcb6c331c793bdcdcb690bba58b9e9f2dcc69cc17852f73b14cfde45401e08a4fe7cc6e7d1f2e5f65fae4"
+RPM_NAME = "qmltermwidget-0.2.0-2.26.aarch64.rpm"
+RPM_HASH = "31a59b65d26b6357a601e8e9b34c6f6305db901ef165976370beac0aa191b6c4f1e6ad0447d149d28e2247f23c0cc8c7ee13b676551855de21942b4b67eea445"
 
 RPROVIDES:${PN} += "libqmltermwidget.so \
 qmltermwidget \

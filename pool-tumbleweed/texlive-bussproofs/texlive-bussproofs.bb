@@ -9,10 +9,10 @@ in LaTeX; an exposition of the commands available is given in \
 the package file itself."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn54080"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-bussproofs-2023.209.1.1svn54080-53.1.noarch.rpm"
-RPM_HASH = "fe71d98f8a7e2dd8f515a4a80cd7de0daecdbb1bfa6a9cbba50a7a402d4ac1f272e3acdca8c3b2840127ac3244d6c1d1587fbd36a8583c3c2c957f00e1b56a1c"
+RPM_NAME = "texlive-bussproofs-2026.226.1.1svn77682-59.2.noarch.rpm"
+RPM_HASH = "6da8bd9cf74debd8ccdf4124de77580722c922321c5f0620eb5f0bbcc650338339069a9a691c7ba52533d2ff3f35ecc4506c467fa25555402ceb6f8efe89b5ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bussproofs.sty \

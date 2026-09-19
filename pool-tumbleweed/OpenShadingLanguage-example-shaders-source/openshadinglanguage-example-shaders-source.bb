@@ -6,10 +6,11 @@ materials, lights, displacement, and pattern generation. \
 This package contains some OSL example shaders."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.10.0"
+PV = "1.15.4.0"
 
-RPM_NAME = "OpenShadingLanguage-example-shaders-source-1.12.10.0-2.1.aarch64.rpm"
-RPM_HASH = "c5c004c386adb2b620d4656b29f5e01a10b32cbb5aa3ead8e79f0de1116773b43cbe6394bbfc043bc853b10ab66b87de9884fcdf366c89e347657b86cb95d375"
+RPM_NAME = "OpenShadingLanguage-example-shaders-source-1.15.4.0-3.1.noarch.rpm"
+RPM_HASH = "3b3dfe65bfe78ec54bade98c62b8e6b8dc1423671071277cb30a8aec05df729d9863d623a27fa1638e240d42e40a52f227359c8f931cc62bc30433156bbffd9c"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "OpenShadingLanguage-example-shaders-source"
 

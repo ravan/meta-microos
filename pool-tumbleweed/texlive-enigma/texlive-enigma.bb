@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides historical encryption (Enigma cipher) for \
 LuaTeX-based formats."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.1svn29802"
+PV = "2026.226.0.0.1svn29802"
 
-RPM_NAME = "texlive-enigma-2023.209.0.0.1svn29802-54.2.noarch.rpm"
-RPM_HASH = "578a5ed37782e46f52aa1b620dc3e3ae5ced4c353aa9862d7ce21e6546bd5d0992ed213ea10d880cc50d8abe9b6914075154f7f66c9e7e29560f2b1bc93c7432"
+RPM_NAME = "texlive-enigma-2026.226.0.0.1svn29802-61.4.noarch.rpm"
+RPM_HASH = "fd160ea9240e948a6d61a42b2c726d3c59aca557538f7111a8b1ffe216d882cfdd515c1f0ebdf288b7a2147cab71151360c8237eb003a53caaf0c686bc9eb080"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-enigma.sty \

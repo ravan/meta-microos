@@ -8,10 +8,10 @@ common controls like dialog windows, push buttons, check boxes, \
 radio buttons, input lines, list boxes, status bars and so on."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.9.0"
+PV = "0.9.1"
 
-RPM_NAME = "libfinal-devel-0.9.0-1.2.aarch64.rpm"
-RPM_HASH = "2396d54ea69049dca682399b85e0927c494ae1d3a8eb740b2caa51f44bcc2176ea4712a0676715c271004173c0ce59cb359903d4428136e0d4b57b349ea44488"
+RPM_NAME = "libfinal-devel-0.9.1-1.10.aarch64.rpm"
+RPM_HASH = "8409fe068d4fd0ada313088420745f5a2da9a43b8b235137fe954d8f766116241099df2bf40ed87e49dc4d65010945481b00014cdd576bb09d5277f9436715bf"
 
 RPROVIDES:${PN} += "libfinal-devel \
 pkgconfig-finalcut"

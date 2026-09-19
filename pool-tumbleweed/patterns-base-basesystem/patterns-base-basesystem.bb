@@ -2,10 +2,10 @@ SUMMARY = "Base System (alias pattern for base)"
 DESCRIPTION = "This is the base runtime system.  It contains only a basic multiuser booting system. For running on real hardware, you need to add additional packages and pattern to make this pattern useful on its own."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-basesystem-20200505-42.1.aarch64.rpm"
-RPM_HASH = "971f05c55cb091f0671cab5a80276843588ba22de99b3b042fb5a6b44d596286e97fca1ada82414fcbc791891b25e72e1d3ec7ad80de96fe11755f33beed3a50"
+RPM_NAME = "patterns-base-basesystem-20241218-34.1.aarch64.rpm"
+RPM_HASH = "ebf0cb0b617c7a0c1debc01498b5a983578913698a80dcacf5963cbf992e5372216ec00643f837223dd32f951f9ab710110910143de6f28430534b7da5438645"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

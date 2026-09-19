@@ -6,10 +6,10 @@ that text will be placed on the opposite (ie, 'verso') page, \
 lined up with the macro call."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4svn55777"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-versonotes-2023.209.0.0.4svn55777-54.1.noarch.rpm"
-RPM_HASH = "54ca3661d333f9349297bb0bf61a9f183837b1e923bedd81ddfd6d9fdd6adffbfda290ccdbda3168f786de46e351794539e6c974e5210587e8de38adf53fa2ed"
+RPM_NAME = "texlive-versonotes-2026.226.0.0.5svn77682-60.2.noarch.rpm"
+RPM_HASH = "4b8dd307b07d10ea285a502032414b597cd2ab2d847a95de2234c4c293f727b209cf46930085aaa615368a2124f3d59b6a8c9e312834b8b8074f0f66e1a4db44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-versonotes.sty \
@@ -21,6 +21,7 @@ ed \
 findutils \
 grep \
 sed \
+tex-iftex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

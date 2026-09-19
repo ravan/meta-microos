@@ -5,10 +5,10 @@ and other utilities that can be used to develop \
 printer drivers for CUPS."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.2"
+PV = "2.4.19"
 
-RPM_NAME = "cups-ddk-2.4.2-6.1.aarch64.rpm"
-RPM_HASH = "ff3eeb40320b8286fe7342af5f988c07afd5e67385bc24c331fcb7e74a44e1ba3feaf8db2983ef98694126954d90772841bb6b1ae4857bdb118ec1ce69c0a6c5"
+RPM_NAME = "cups-ddk-2.4.19-3.1.aarch64.rpm"
+RPM_HASH = "334bc34bc8d9fc55e7913aaccfa96dd9a12400e58df2057ed16e5c384cee61a31adbf4ef02600823f2d881add39bf8998e5f0ec539eaf60de2cb5c9a4946912d"
 
 RPROVIDES:${PN} += "cups-ddk \
 cupsddk"

@@ -2,10 +2,10 @@ SUMMARY = "TeX Live manual (Russian)"
 DESCRIPTION = "The texlive-ru package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58426"
+PV = "2026.227.svn58426"
 
-RPM_NAME = "texlive-texlive-ru-2023.209.svn58426-55.1.noarch.rpm"
-RPM_HASH = "0b858cf4425bbf72a210314b9f6cc15fa3742745f8ba84a8677eccb53d93ea4dad541bb9ab51fe9538c426e600f6a1136ea3c91bde6d4016452b3b8ec8d2e258"
+RPM_NAME = "texlive-texlive-ru-2026.227.svn58426-62.2.noarch.rpm"
+RPM_HASH = "06b8c2d9c26505bd9821bcaf7ad959aaf348f650209db390a360394b6c45032be65a1c03a206dae14644598f781de572cd1cf981637dae5ddb586804fb8d30f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texlive-ru"

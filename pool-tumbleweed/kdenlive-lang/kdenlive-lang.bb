@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kdenlive"
 DESCRIPTION = "Provides translations for the 'kdenlive' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdenlive-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "01e744fdd8790b8451c6126d69f7de5fc9adfa1a978f9e8484ea852a62bac4994f1fc82bb4c0c2a123a3663bc84a9789fcff5d4331b9ddd478dd699c84c72b7f"
+RPM_NAME = "kdenlive-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "52f535939dab3e4d26bc7635ff3e625e56d6944cbe94f66514768301f95e281927320c53c35d4d0aa3e70cadc323cc2c283699aacb280390b182c9b6544d018d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdenlive-lang \
 kdenlive-lang-all \
 locale-kdenlive-ar \
+locale-kdenlive-ast \
 locale-kdenlive-az \
 locale-kdenlive-bs \
 locale-kdenlive-ca \
@@ -29,6 +30,7 @@ locale-kdenlive-fr \
 locale-kdenlive-ga \
 locale-kdenlive-gl \
 locale-kdenlive-he \
+locale-kdenlive-hi \
 locale-kdenlive-hr \
 locale-kdenlive-hu \
 locale-kdenlive-id \
@@ -37,6 +39,7 @@ locale-kdenlive-ja \
 locale-kdenlive-ka \
 locale-kdenlive-ko \
 locale-kdenlive-lt \
+locale-kdenlive-lv \
 locale-kdenlive-mr \
 locale-kdenlive-nb \
 locale-kdenlive-nds \

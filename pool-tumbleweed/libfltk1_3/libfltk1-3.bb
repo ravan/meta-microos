@@ -5,10 +5,10 @@ OpenGL, and Microsoft Windows NT 4.0, 95, or 98. The \
 installation of this package requires a 3D library such as Mesa."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.3.8"
+PV = "1.3.11"
 
-RPM_NAME = "libfltk1_3-1.3.8-3.9.aarch64.rpm"
-RPM_HASH = "ffac23821d23be36c5044e4dc207fbbc6e28fcb62dea4054b4e3ce4dcbbfbbc955c47a8bb15d459b0cdacbaf7ef83840343cf87f75e3b055627a619ea1f7189d"
+RPM_NAME = "libfltk1_3-1.3.11-1.9.aarch64.rpm"
+RPM_HASH = "2aff0b77608d088cae7b19b41a951f015b4d789efae89fe14bb10d3bef06b6d649946319028ef4009a41a314e3130879addd08c3790d94ec875d2987c4493f15"
 
 RPROVIDES:${PN} += "libfltk-forms.so.1.3 \
 libfltk-gl.so.1.3 \

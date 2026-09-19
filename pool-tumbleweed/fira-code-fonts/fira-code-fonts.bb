@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "6.2"
 
-RPM_NAME = "fira-code-fonts-6.2-1.5.noarch.rpm"
-RPM_HASH = "9318c3a845d125216a55e4569080c3d8e68a6da633986f984afb9e38cb4d57a3af0f736feb34b061446c79d09c0df152f0c37af2f2dd4c9c21719e1c29fa0363"
+RPM_NAME = "fira-code-fonts-6.2-1.13.noarch.rpm"
+RPM_HASH = "7d9df42ff96d228a29755a7bab81673dbb7d6f6714ca503a2f634182983ff0302b533738230a6ab163de4723d5809eb5842a54c00c42c51e08ad58afb9fe4006"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fira-code-fonts"

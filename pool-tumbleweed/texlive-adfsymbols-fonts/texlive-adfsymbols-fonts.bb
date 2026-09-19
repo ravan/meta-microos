@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-adfsymbols"
 DESCRIPTION = "The  separated fonts package for texlive-adfsymbols"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2bsvn54512"
+PV = "2026.226.1.5svn78141"
 
-RPM_NAME = "texlive-adfsymbols-fonts-2023.209.1.2bsvn54512-55.1.noarch.rpm"
-RPM_HASH = "a5c380fea93f10cd2a3367cc03cca9b21577992e3ec8e964b0b5f5872eee548e74038fbd050d1d3ec1e34442f4bd011613fc2954aa7add82b9114dea8d537f4d"
+RPM_NAME = "texlive-adfsymbols-fonts-2026.226.1.5svn78141-61.2.noarch.rpm"
+RPM_HASH = "baac6153a2cecb63a4115625620e08f4a57290f0478f969352124e3e461a00e73870f32b64cb2119656c63f913a8a1857ee78890cbab667f92faa8f5789c3676"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

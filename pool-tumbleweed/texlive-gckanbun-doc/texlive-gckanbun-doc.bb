@@ -2,13 +2,14 @@ SUMMARY = "Documentation for texlive-gckanbun"
 DESCRIPTION = "This package includes the documentation for texlive-gckanbun"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn61719"
+PV = "2026.226.2.2.7svn77307"
 
-RPM_NAME = "texlive-gckanbun-doc-2023.209.1.2svn61719-53.1.noarch.rpm"
-RPM_HASH = "8e8605c64eadb112206a45ecaddac32eec23b390c0942cf95c77b6811ab27ee1a1f0dbf5d6ec74fe3a57fb2754bd427b1378c0e9df480cda8227b6cc7c76af22"
+RPM_NAME = "texlive-gckanbun-doc-2026.226.2.2.7svn77307-60.2.noarch.rpm"
+RPM_HASH = "e062062880bb1355120ac0d499f751e26210ee538a1072f6c7392e184a35738233c9fb13bec4f6ed705d40e8d087db6e073d0a70724ae4edfa47a05456811f1c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-gckanbun-doc"
+RPROVIDES:${PN} += "locale-texlive-gckanbun-doc-ja \
+texlive-gckanbun-doc"
 
 RDEPENDS:${PN} += ""
 

@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.1 & GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "3.0.7"
 
-RPM_NAME = "import-properties-plugin-3.0.7-4.5.noarch.rpm"
-RPM_HASH = "c8b3cc7ab3145fe0774136c20f09ff5f04917aeb600223b24467dba5dde74c22b88ac66ce2906729a78d2c564cb20c0b44d9db0273cbcfa47fd2181342bc8d05"
+RPM_NAME = "import-properties-plugin-3.0.7-8.10.noarch.rpm"
+RPM_HASH = "2bcd7bf97d68d2396b8847391f1f9ebe4d18d128bd3482d3b7aa2ade098db202592d5fcb1973897cd5bb1f7fc6581aa80d9bffcc4fa792c6df0b738cf85ac13d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "import-properties-plugin \

@@ -8,10 +8,10 @@ This package contains all files necessary for development using \
 Jsonrpc-GLib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.44.0"
+PV = "3.44.2"
 
-RPM_NAME = "jsonrpc-glib-devel-3.44.0-1.2.aarch64.rpm"
-RPM_HASH = "a93723a670dd365852e8ccf3cad1c4ec40a40a32fea50ba17cf296045941c25ba708b37257a305f1d24a7b43f1b2ac16a75c1c1481be557fa52ff275dbcf8359"
+RPM_NAME = "jsonrpc-glib-devel-3.44.2-1.6.aarch64.rpm"
+RPM_HASH = "cdbb0862b2b9d19a4fc10078b35069621a612f39ccb2edafa1295acf4bc0aaf373b5c026e29f18bcdeb722776e4eb487fe424b37b7610fa1218a55809e2c00a8"
 
 RPROVIDES:${PN} += "jsonrpc-glib-devel \
 pkgconfig-jsonrpc-glib-1.0"

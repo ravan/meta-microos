@@ -7,14 +7,14 @@ OCaml versions between 3.10.0 and 4.02.3. Starting from OCaml \
 4.03, it is now released separately."
 LICENSE = "LGPL-2.0-only-with-OCaml-LGPL-linking-exception"
 
-PV = "0.14.2"
+PV = "0.16.1"
 
-RPM_NAME = "ocaml-ocamlbuild-0.14.2-1.5.aarch64.rpm"
-RPM_HASH = "40b90b43a709b898b44a2cf6ea9d9b983c5322c6d4472195a51052ee0f8e1644bfe829596ce60af755bcb3a0b97156d6ac96a13bdb1c62cbffc5b55900914550"
+RPM_NAME = "ocaml-ocamlbuild-0.16.1-2.2.aarch64.rpm"
+RPM_HASH = "b5142f7ea5667616e013932976dac09b5ebdec56d33e5605374af4d218697adffd0d86413e5d3425f8b479e0eb35a810259dd1676e76845afb3de5c38c007f52"
 
 RPROVIDES:${PN} += "ocaml-ocamlbuild"
 
-RDEPENDS:${PN} += "/usr/bin/ocamlrun \
+RDEPENDS:${PN} += "/usr/bin/ocamlrun-a100 \
 libc.so.6 \
 libm.so.6 \
 ocaml-ocamlbuild-devel"

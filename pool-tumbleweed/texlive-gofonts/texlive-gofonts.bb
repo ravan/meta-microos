@@ -8,10 +8,10 @@ bold, with italics. Notes on the design may be found at \
 https://blog.golang.org/go-fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64358"
+PV = "2026.226.svn78101"
 
-RPM_NAME = "texlive-gofonts-2023.209.svn64358-54.2.noarch.rpm"
-RPM_HASH = "c5b345e509bbde6ecad8ea0c02e55b940fd6332123e267bdb3c16d344cba40784a13119642bfc2442abd189a414ea20d7c8db6999f235d1d37095ab925fa8426"
+RPM_NAME = "texlive-gofonts-2026.226.svn78101-60.4.noarch.rpm"
+RPM_HASH = "d0fb75844e169f80f6c4c65b74e694992dd5b5a0ea451b7015a249a70f81433f41fc1e1890b4fd79c64ea2f8e75324d2ddad5b3e9b6c296a56f7553ef57e93b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Go-Bold-Italic-tlf-lgr--base.tfm \

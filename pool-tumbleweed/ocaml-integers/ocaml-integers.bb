@@ -4,10 +4,10 @@ signed and unsigned integer types, together with aliases such as long \
 and size_t whose sizes depend on the host platform."
 LICENSE = "MIT"
 
-PV = "0.7.0"
+PV = "0.8.0"
 
-RPM_NAME = "ocaml-integers-0.7.0-1.12.aarch64.rpm"
-RPM_HASH = "cf7a9bf9cce60387ca4a2310c0284ea4aa2d29419ff0f83fc296946a597c6a0a6bd3316ed12808a7f928c55019f98b2b0d3692e0f3e77d3cfc6ab7bbb45320ef"
+RPM_NAME = "ocaml-integers-0.8.0-1.2.aarch64.rpm"
+RPM_HASH = "7c8b767818b4dc63595bf74a30057c8e564f521d2f51ebac7527e09068968be55535356394260fe79f05dd9bf38e4a039287426839f838cbf06a320f82890a0e"
 
 RPROVIDES:${PN} += "ocaml-integers"
 

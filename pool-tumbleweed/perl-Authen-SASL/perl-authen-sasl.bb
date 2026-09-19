@@ -34,10 +34,10 @@ or if you have another plugin module that supports the Authen::SASL API \
  use Authen::SASL qw(My::SASL::Plugin);"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.170.0"
+PV = "2.210.0"
 
-RPM_NAME = "perl-Authen-SASL-2.170.0-1.1.noarch.rpm"
-RPM_HASH = "1eb60170cb2326a833301e07189dc11987df926e51790eb7650b07197453568f2dbdb299bba2f28fc4619f35e230a6d78a5daee834145ec663c23b744ac5da30"
+RPM_NAME = "perl-Authen-SASL-2.210.0-1.1.noarch.rpm"
+RPM_HASH = "c54b650c6cfccccd0fc76f2f9c95465f95e56ff5afa9762bbdb0771081469e162babe1ac7d89c19a031df71f512f7097bec45f71b55b5cbdb05bcb2dfe543aed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Authen--SASL \
@@ -50,10 +50,13 @@ perl-Authen--SASL--Perl--DIGEST-MD5 \
 perl-Authen--SASL--Perl--EXTERNAL \
 perl-Authen--SASL--Perl--GSSAPI \
 perl-Authen--SASL--Perl--LOGIN \
+perl-Authen--SASL--Perl--OAUTHBEARER \
 perl-Authen--SASL--Perl--PLAIN \
+perl-Authen--SASL--Perl--XOAUTH2 \
 perl-Authen-SASL"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Crypt--URandom \
 perl-Digest--HMAC-MD5"
 
 inherit rpm

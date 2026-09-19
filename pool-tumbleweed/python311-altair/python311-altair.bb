@@ -6,24 +6,22 @@ specification. For convenience, Altair can optionally use `ipyvega`_ to \
 seamlessly display client-side renderings in the Jupyter notebook."
 LICENSE = "BSD-3-Clause"
 
-PV = "4.2.2"
+PV = "5.2.0"
 
-RPM_NAME = "python311-altair-4.2.2-1.6.noarch.rpm"
-RPM_HASH = "a4a9351bf543019135d2e3f5b4da566d7410ba41dfbba7db104518088dd952938381572ffb009711043b2238c5662eff2cf28b501404607cfda9b121811c397b"
+RPM_NAME = "python311-altair-5.2.0-3.4.noarch.rpm"
+RPM_HASH = "356e36eac8236b8ac1148ed6b1c469a8c1bfb93a25a1a8328a87a1ae307f4d1cf42810ae354882e17314c589b9bd717486d806c9a5a8ac2e0677b3328fcddce2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-altair \
-python3.11dist-altair \
+RPROVIDES:${PN} += "python3.11dist-altair \
 python311-altair \
 python3dist-altair"
 
 RDEPENDS:${PN} += "python-abi \
 python311-Jinja2 \
-python311-entrypoints \
 python311-jsonschema \
 python311-numpy \
+python311-packaging \
 python311-pandas \
-python311-toolz \
-python311-typing"
+python311-toolz"
 
 inherit rpm

@@ -8,10 +8,10 @@ gradually simplified and made more uniform and all architecture specific \
 -currently Intel- #ifdefs will be removed and abstracted away."
 LICENSE = "BSD-3-Clause"
 
-PV = "5.4.9"
+PV = "5.4.12"
 
-RPM_NAME = "libhs5-vectorscan5-5.4.9-2.2.aarch64.rpm"
-RPM_HASH = "9e0cf87d3bfdfd0d5579a2e3d75bff0edcf0306c0bdaa670ac10d3edb5042d2eca4837b5724b23aafee37d2172ccc38c1ab5f0f7f5306af65f8c1ab1785f3998"
+RPM_NAME = "libhs5-vectorscan5-5.4.12-1.4.aarch64.rpm"
+RPM_HASH = "ae9d5716e883c64c12610cd2bd59dc45d76bc0ac373d54bcf3001c3b11cff09194f51508c97047e8f9fb9635dc2e01f8a2ad99d15ff2d39ec78077a3f0bc0c6e"
 
 RPROVIDES:${PN} += "libhs-runtime.so.5 \
 libhs.so.5 \

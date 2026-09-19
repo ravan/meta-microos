@@ -1,11 +1,11 @@
-SUMMARY = "basic schema to customize rime"
+SUMMARY = "Basic schema to customize rime"
 DESCRIPTION = "basic schema to customize rime."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "20230603+git.5fdd2d6"
+PV = "20250315"
 
-RPM_NAME = "rime-schema-custom-20230603+git.5fdd2d6-1.2.noarch.rpm"
-RPM_HASH = "bf262f0afb4b4193c356ee5feaf09c42813407a95a9c1b1ef22f31dac30454799a1e61fe8cf0228476328fe85bebc5f33f857fdaa6f0cbb4dfd567f358157b44"
+RPM_NAME = "rime-schema-custom-20250315-1.4.noarch.rpm"
+RPM_HASH = "40e45140aa0e22d3c90cf1a8bcf51a31c92295308ad8908ce0a0ea89d0ffe4dd43619e8e9c1f936ca6265e82ce33efb5a4bc2f7ef4019c4729c935899119d1ad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rime-schema-custom"

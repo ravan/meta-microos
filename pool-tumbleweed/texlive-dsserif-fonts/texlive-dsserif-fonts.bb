@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-dsserif"
 DESCRIPTION = "The  separated fonts package for texlive-dsserif"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.031svn60898"
+PV = "2026.226.1.031svn77682"
 
-RPM_NAME = "texlive-dsserif-fonts-2023.209.1.031svn60898-53.1.noarch.rpm"
-RPM_HASH = "1da8d8c8db652aa44f1f9daf4e6d9f8cb9d2f3d48862d466d7bc4179dc49df4ab8667b78f9025a97e1fb5110a0f249d65088999a0af122e46a30dff5701eda9c"
+RPM_NAME = "texlive-dsserif-fonts-2026.226.1.031svn77682-59.2.noarch.rpm"
+RPM_HASH = "043d5aff8ffb943277f1306a2e686fbf421f084840d71c44c8383f7df0d4d407c7e89fcd1647572cd73f18c3594270b95ff332d8c8985a1646685537308d5e86"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

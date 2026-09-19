@@ -9,16 +9,18 @@ the system, it moves the log file to /var/log/boot.old and appends all log \
 messages upto to point at which the file systems becomes unavailable."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.27"
+PV = "2.48"
 
-RPM_NAME = "blog-plymouth-2.27-1.1.aarch64.rpm"
-RPM_HASH = "71bbae9b6065a5288b046ed8f2123c571080549be4ded4e140d5dd12b59a203813f780047608efd3f207ff87b36b9f0c850d5acf07ec95507eeafcfce4c20895"
+RPM_NAME = "blog-plymouth-2.48-1.1.noarch.rpm"
+RPM_HASH = "659c1b26bd811824e8b6784d111cde99ec83c0a0340da3ec1d8187730b2398aab265096e4de2783ad3bc14fab7027ff75fd2e1ecb3a68bcfecabd70067932c74"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "blog-plymouth"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
 blog \
-systemd"
+systemd \
+udev"
 
 inherit rpm

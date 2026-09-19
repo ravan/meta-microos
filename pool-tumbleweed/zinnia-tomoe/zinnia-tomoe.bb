@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.6.0"
 
-RPM_NAME = "zinnia-tomoe-0.6.0-7.16.noarch.rpm"
-RPM_HASH = "cabe9bd80dad7f374da619c18deb506df3bd6afd5b7cd61e667de60acad66f4e3b0c5c14f08f36c11ddd5f290460008a46b8375f2a4e28193df6a6cf18750b22"
+RPM_NAME = "zinnia-tomoe-0.6.0-8.7.noarch.rpm"
+RPM_HASH = "68d08feb46026ae0c0b87d61260e62725d17647eba150805660784e1cc23725632b0410c610b5d8af24c5cef3b609dd280a843b88320079f17e73e030238745e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "zinnia-tomoe"

@@ -9,10 +9,10 @@ the notes sections, index of titles and first lines, and \
 automatic generation of a table of contents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1415926svn56082"
+PV = "2026.226.3.1415926svn56082"
 
-RPM_NAME = "texlive-poemscol-2023.209.3.1415926svn56082-53.1.noarch.rpm"
-RPM_HASH = "0a35c4ef52bfb05ebf85b7301bb59beeae20ad51678b85eb4edb59b1474500a455c37dfd07ef027696ff39eb008c154b6228eaf3d683e3b91f77b6ef142d53e6"
+RPM_NAME = "texlive-poemscol-2026.226.3.1415926svn56082-59.2.noarch.rpm"
+RPM_HASH = "59579cd4a5d6ea254c8bc57c9855c0d27798e274e47e0a0b00f66e8850daaec699979a2764879f2961591ad14355b4fb4815a98a8223952b058654a88d8dbb37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poemscol.sty \

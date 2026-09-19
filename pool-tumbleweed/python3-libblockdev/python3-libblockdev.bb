@@ -1,18 +1,19 @@
-SUMMARY = "Python3 gobject-introspection bindings for the LibBlockDev library"
-DESCRIPTION = "This package contains enhancements to the gobject-introspection bindings for \
-LibBlockDev in Python3."
+SUMMARY = "Python 3 GI bindings for the LibBlockDev library"
+DESCRIPTION = "This package contains enhancements to the GObject Introspection bindings for \
+LibBlockDev, in Python 3."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "python3-libblockdev-2.28-1.6.aarch64.rpm"
-RPM_HASH = "33d7ff0259a8a7e4566f63d21c44a635c3969090fdaedd8a9ffd2717f9ca64d3b1d50b80f01e312c04cc649b8e2a84ad7c662cca9d02506168e5e7811c1e1cb3"
+RPM_NAME = "python3-libblockdev-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "da2082f101d402a9ba630ca96408b50edaa53a1866b4747cd12dbd31ff5420d470b7c8553c303d04ffd79645607946602cddb7e0b6bc11a4b630538b0c7af186"
 
 RPROVIDES:${PN} += "python3-libblockdev"
 
-RDEPENDS:${PN} += "libblockdev2 \
-python-abi \
+RDEPENDS:${PN} += "python-abi \
+python3-bytesize \
 python3-gobject \
-typelib-GLib"
+typelib-GLib \
+typelib-GObject"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "2.0"
 
-RPM_NAME = "libpurple-plugin-gnome-keyring-2.0-1.23.aarch64.rpm"
-RPM_HASH = "f0d97ced18e7763fef866991fcffcf9100b07aac771ec048b21c2fa1239529584238048e597bc17e6301db33fee60a613c920f4a81fd3efb0fa360a6c34580c3"
+RPM_NAME = "libpurple-plugin-gnome-keyring-2.0-2.8.aarch64.rpm"
+RPM_HASH = "378e101a365430969419e6d8973a70fc7270a3d278d12c12bb77c729aa9af9f59b290cf5573d55e64ba3374a19fb308c93a334704781d684536c3cdd611c32dc"
 
 RPROVIDES:${PN} += "libpurple-plugin-gnome-keyring"
 

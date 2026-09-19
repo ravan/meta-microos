@@ -13,10 +13,10 @@ intermediate files have to be written. No placeholders have to \
 be inserted."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6.1svn65855"
+PV = "2026.226.0.0.6.3svn77682"
 
-RPM_NAME = "texlive-pyluatex-2023.209.0.0.6.1svn65855-54.2.noarch.rpm"
-RPM_HASH = "22aba5679d0b0f988a6d2e5c28865df3dfc16477d33967cd8714a818e66334248f9f956329deec1ac011cb8dd24bc1512724ee8d80ca7f78291ca66b7c6706d1"
+RPM_NAME = "texlive-pyluatex-2026.226.0.0.6.3svn77682-60.4.noarch.rpm"
+RPM_HASH = "f3cfefe13ffab3d3dd894e29c5a6cbb327bd30cae35f78cb7adfad48212df170d7e0edb08e9d9c1e11ee09d2a04ec44a24638e5c2c567e8de913c2c29607da3f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pyluatex.sty \
@@ -28,7 +28,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-atveryend.sty \
 tex-expl3.sty \
 tex-kvoptions.sty \
 texlive \

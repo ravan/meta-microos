@@ -2,10 +2,10 @@ SUMMARY = "Devel files for libQt5XdgIconLoader"
 DESCRIPTION = "Development files for QtXDG icon loader libraries used in LXQt"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.11.0"
+PV = "3.12.0"
 
-RPM_NAME = "libQt5XdgIconLoader-devel-3.11.0-1.3.aarch64.rpm"
-RPM_HASH = "c15f1c47bed3ecd91362595fb94e35826f013f91832e17b3dcb44d4523cdef460ab97a2e4c1ee72e626e88de066e8b1a8c5e4af8f4a6ce5ba07a267bcb12e5c1"
+RPM_NAME = "libQt5XdgIconLoader-devel-3.12.0-3.12.aarch64.rpm"
+RPM_HASH = "90458c605831db930d5b7c6a32c24e0c84846f9c21f15c01f28d7ed76b1b51850655202425f18584f7679ce210e1874867b87caebe12dace8ae437e878fb8214"
 
 RPROVIDES:${PN} += "cmake-qt5xdgiconloader \
 libQt5XdgIconLoader-devel \

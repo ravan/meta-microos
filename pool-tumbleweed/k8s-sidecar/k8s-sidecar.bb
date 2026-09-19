@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.1.144"
 
-RPM_NAME = "k8s-sidecar-0.1.144-1.7.noarch.rpm"
-RPM_HASH = "7b805f1726292bc80cdc2bbcf43ecbebe5d1eb44d2a26c2cae82c8fbe524b06948d5f51d344a2dda46d1e3ce11b6328cf28d9cca2ad7d8c0610ad01e7c2f03ee"
+RPM_NAME = "k8s-sidecar-0.1.144-1.15.noarch.rpm"
+RPM_HASH = "b288d23b41cbc7bc748366989c6e2cf87689a4d9eace8314db5b968ce797836feb5fbce87849c655d9039f58ee1bca45a07e8e3aebb409d42f9f2a7555d263a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "k8s-sidecar"

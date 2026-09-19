@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "0"
 
-RPM_NAME = "systemd-generator-cron2timer-0-1.1.noarch.rpm"
-RPM_HASH = "d02f0fbc12f816fb3d8247ddc4d82edda1c2b02abe026333293b49c3f30e120711977c08da74ba2c239186e800fce10b17520fd9282aa86b8e63173199912c33"
+RPM_NAME = "systemd-generator-cron2timer-0-1.9.noarch.rpm"
+RPM_HASH = "e26d1370b730e99a0143af9a03bdac2f398afb8f56f812ceadeb7a1eca6542ab027d997aefbeae78fc1f648391dcd539d6cd26f5bc67c705c7a7229545539033"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-generator-cron2timer"

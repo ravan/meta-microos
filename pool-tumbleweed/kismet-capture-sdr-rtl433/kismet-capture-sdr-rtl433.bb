@@ -2,24 +2,20 @@ SUMMARY = "Kismet SDR rtl433 capture helper"
 DESCRIPTION = "Kismet is a wireless network and device detector, sniffer, wardriving \
 tool, and WIDS (wireless intrusion detection) framework. \
  \
-This subpackage contains Kismet SDR rtl433 capture helper. \
-https://kismetwireless.net/docs/readme/datasources_sdr_rtl433/"
+This subpackage contains Kismet SDR rtl433 capture helper."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023_07_R1"
+PV = "2025_09_R1"
 
-RPM_NAME = "kismet-capture-sdr-rtl433-2023_07_R1-1.1.noarch.rpm"
-RPM_HASH = "a8f4d3680c599a16f97ee32f8b8d127309be033e5ef09461bab079450b5f8095d7d56b47615b3d6bc24f537f0497e95e93ece11d8ae868fa529b0ff0659839af"
-REPO_ARCH = "noarch"
+RPM_NAME = "kismet-capture-sdr-rtl433-2025_09_R1-2.3.aarch64.rpm"
+RPM_HASH = "04dcbad1313133b79631cfe0b9983f48c25bdb244d3a0f884265bc01ad207d57a392ade1a8ca0d0ac69f41b6574492196cd9fd83aa8acf16eee55c7d19c10458"
 
-RPROVIDES:${PN} += "kismet-capture-sdr-rtl433 \
-python3.11dist-kismetcapturertl433 \
-python3dist-kismetcapturertl433"
+RPROVIDES:${PN} += "kismet-capture-sdr-rtl433"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
-python-abi \
-python3-protobuf \
-python3-websockets \
-rtl-433"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libcap.so.2 \
+librtlsdr.so.0 \
+libwebsockets.so.22"
 
 inherit rpm

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 MultimediaWidgets library"
 DESCRIPTION = "The Qt 6 MultimediaWidgets library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6MultimediaWidgets6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "54157d1b319e785c8cbf6de38d03593f6981438e37d9aa5570e1f527d9826416b23e7ce67a72379979f3396038dd816f04ee2a437aa78c1b44742de197e74ece"
+RPM_NAME = "libQt6MultimediaWidgets6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "1ef721b3a1ee7e69fabb4b65e5c28b81cf6d6db3ffd0fe03e1a433ec3aa0d19cfe2adee19307a6fd8e555e22d397777c63117ed14f92305760eed56ed10f9b89"
 
 RPROVIDES:${PN} += "libQt6MultimediaWidgets.so.6 \
 libQt6MultimediaWidgets6"

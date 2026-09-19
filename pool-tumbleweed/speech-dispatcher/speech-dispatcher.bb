@@ -9,10 +9,10 @@ devices directly nor to handle concurrent access, sound output and other \
 tricky aspects of the speech subsystem."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.11.5"
+PV = "0.12.1"
 
-RPM_NAME = "speech-dispatcher-0.11.5-1.1.aarch64.rpm"
-RPM_HASH = "faf038e50d4f59ca58f7e9ffde61476f1b14628958d40cfef31ee4c0a48b4b86349b16ed6f3300b41c157bfe798d6b07e2df971eb8a387dbb25a38a1fe247abf"
+RPM_NAME = "speech-dispatcher-0.12.1-1.6.aarch64.rpm"
+RPM_HASH = "94a56624d72caaed04d6c3cde0632e813d29521180825fb0e2f9386b1e7a57b389ff655470ed00fbb76c7ec8db5578f9e18db42684c9954d681982622a8825c3"
 
 RPROVIDES:${PN} += "config-speech-dispatcher \
 speech-dispatcher \
@@ -27,10 +27,11 @@ libdotconf.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libltdl.so.7 \
-libpulse-simple.so.0 \
+libpipewire-0.3.so.0 \
 libpulse.so.0 \
 libsndfile.so.1 \
+libspeechd-module.so.0 \
 libspeechd.so.2 \
-python3-speechd"
+libsystemd.so.0"
 
 inherit rpm

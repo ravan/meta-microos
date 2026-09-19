@@ -8,10 +8,10 @@ using LPeg (Parsing Expression Grammars for Lua). LPeg is much \
 more powerful and faster than l3regex."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2023asvn65787"
+PV = "2026.226.2025csvn77682"
 
-RPM_NAME = "texlive-codehigh-2023.209.2023asvn65787-54.1.noarch.rpm"
-RPM_HASH = "59740f3da8dc0d1b6447d89ccd8a95903abce488697679b0061b65d97c147a4d7746f58a5970d2a19fcd850a487dcf0b1429f112202093683283cd1b5ea86665"
+RPM_NAME = "texlive-codehigh-2026.226.2025csvn77682-60.2.noarch.rpm"
+RPM_HASH = "0d56c992aba2ce19747cc3721caba5a113ffd90a3921cef00cf164d3c2d57a1380a6450324bcc99999984e7d6510825841c394decb841a7502904e7c93fec8bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-codehigh.sty \

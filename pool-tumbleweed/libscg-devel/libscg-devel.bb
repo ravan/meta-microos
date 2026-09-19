@@ -6,10 +6,10 @@ This subpackage contains the header files for developing applications \
 that want to make use of libscg."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "libscg-devel-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "6def82a5b8045e1bcb3e398fd87a1a8d2d2d1369f69e327209da1b39ba7c12a9a7ff1ae7da715ca3cdc93f454aaa24efe1c723521ec930091a94d99e62b4c447"
+RPM_NAME = "libscg-devel-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "4a8a7100772aadbb6a6171991dfa83a60a003a072e494c128e12638744b1c0d314e7211e5b4d9b840248036302f3cfb9382ac021ea12d94bcaeef9fa6f188a91"
 
 RPROVIDES:${PN} += "libscg-devel"
 

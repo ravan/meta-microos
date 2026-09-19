@@ -1,17 +1,16 @@
 SUMMARY = "Kernel firmware files for Realtek wireless drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-Realtek wireless drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for Realtek wireless drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware"
 
-PV = "20230829"
+PV = "20260731"
 
-RPM_NAME = "kernel-firmware-realtek-20230829-1.1.noarch.rpm"
-RPM_HASH = "f4c028937a8dc3ebffd737cb8f4c3e3df82a429460d232fd340e1f5ef085036d2017c019c2cafeb86d298c75ff780a54450b45f46a1521aa5f2cf8329ad7c19f"
+RPM_NAME = "kernel-firmware-realtek-20260731-1.1.noarch.rpm"
+RPM_HASH = "fbca4629521548e7d0e053b80e1e82c9f0820b848a01b4cab4902fa8977397dd6fac3b180114d724943c3f9aec2e7ed3a26700d104a601088ae060bffb915048"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "firmware-RTL8192E/boot.img \
-firmware-RTL8192E/data.img \
-firmware-RTL8192E/main.img \
+RPROVIDES:${PN} += "firmware-realtek/rt1320/rt1320-patch-code-vab.bin \
+firmware-realtek/rt1320/rt1320-patch-code-vc.bin \
+firmware-realtek/rt1320/rt1321-patch-code-va.bin \
 firmware-rt2860.bin \
 firmware-rt2870.bin \
 firmware-rt3070.bin \
@@ -26,6 +25,14 @@ firmware-rtl-nic/rtl8107e-2.fw \
 firmware-rtl-nic/rtl8125a-3.fw \
 firmware-rtl-nic/rtl8125b-1.fw \
 firmware-rtl-nic/rtl8125b-2.fw \
+firmware-rtl-nic/rtl8125bp-2.fw \
+firmware-rtl-nic/rtl8125cp-1.fw \
+firmware-rtl-nic/rtl8125d-1.fw \
+firmware-rtl-nic/rtl8125d-2.fw \
+firmware-rtl-nic/rtl8125k-1.fw \
+firmware-rtl-nic/rtl8126a-2.fw \
+firmware-rtl-nic/rtl8126a-3.fw \
+firmware-rtl-nic/rtl8127a-1.fw \
 firmware-rtl-nic/rtl8153a-2.fw \
 firmware-rtl-nic/rtl8153a-3.fw \
 firmware-rtl-nic/rtl8153a-4.fw \
@@ -46,9 +53,11 @@ firmware-rtl-nic/rtl8168g-2.fw \
 firmware-rtl-nic/rtl8168g-3.fw \
 firmware-rtl-nic/rtl8168h-1.fw \
 firmware-rtl-nic/rtl8168h-2.fw \
+firmware-rtl-nic/rtl8261c.bin \
 firmware-rtl-nic/rtl8402-1.fw \
 firmware-rtl-nic/rtl8411-1.fw \
 firmware-rtl-nic/rtl8411-2.fw \
+firmware-rtl-nic/rtl9151a-1.fw \
 firmware-rtlwifi/rtl8188efw.bin \
 firmware-rtlwifi/rtl8188eufw.bin \
 firmware-rtlwifi/rtl8188fufw.bin \
@@ -60,6 +69,7 @@ firmware-rtlwifi/rtl8192cufw-B.bin \
 firmware-rtlwifi/rtl8192cufw-TMSC.bin \
 firmware-rtlwifi/rtl8192cufw.bin \
 firmware-rtlwifi/rtl8192defw.bin \
+firmware-rtlwifi/rtl8192dufw.bin \
 firmware-rtlwifi/rtl8192eefw.bin \
 firmware-rtlwifi/rtl8192eu-ap-wowlan.bin \
 firmware-rtlwifi/rtl8192eu-nic.bin \
@@ -90,16 +100,36 @@ firmware-rtlwifi/rtl8821aefw-29.bin \
 firmware-rtlwifi/rtl8821aefw-wowlan.bin \
 firmware-rtlwifi/rtl8821aefw.bin \
 firmware-rtlwifi/rtl8822befw.bin \
+firmware-rtw88/rtw8703b-fw.bin \
+firmware-rtw88/rtw8703b-wow-fw.bin \
+firmware-rtw88/rtw8723b-fw.bin \
 firmware-rtw88/rtw8723d-fw.bin \
+firmware-rtw88/rtw8812a-fw.bin \
+firmware-rtw88/rtw8814a-fw.bin \
+firmware-rtw88/rtw8821a-fw.bin \
 firmware-rtw88/rtw8821c-fw.bin \
 firmware-rtw88/rtw8822b-fw.bin \
 firmware-rtw88/rtw8822c-fw.bin \
 firmware-rtw88/rtw8822c-wow-fw.bin \
+firmware-rtw89/rtw8851b-fw-1.bin \
 firmware-rtw89/rtw8851b-fw.bin \
+firmware-rtw89/rtw8852a-fw-1.bin \
 firmware-rtw89/rtw8852a-fw.bin \
 firmware-rtw89/rtw8852b-fw-1.bin \
+firmware-rtw89/rtw8852b-fw-2.bin \
 firmware-rtw89/rtw8852b-fw.bin \
+firmware-rtw89/rtw8852bt-fw-1.bin \
+firmware-rtw89/rtw8852bt-fw.bin \
+firmware-rtw89/rtw8852c-fw-1.bin \
+firmware-rtw89/rtw8852c-fw-2.bin \
 firmware-rtw89/rtw8852c-fw.bin \
+firmware-rtw89/rtw8922a-fw-1.bin \
+firmware-rtw89/rtw8922a-fw-2.bin \
+firmware-rtw89/rtw8922a-fw-3.bin \
+firmware-rtw89/rtw8922a-fw-4.bin \
+firmware-rtw89/rtw8922a-fw.bin \
+firmware-rtw89/rtw8922d-fw.bin \
+firmware-rtw89/rtw8922ds-fw.bin \
 kernel-firmware-realtek"
 
 RDEPENDS:${PN} += "/usr/bin/mkdir \

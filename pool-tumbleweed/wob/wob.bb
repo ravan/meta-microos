@@ -2,16 +2,18 @@ SUMMARY = "A lightweight overlay volume/backlight/progress/anything bar for Wayl
 DESCRIPTION = "A lightweight overlay volume/backlight/progress/anything bar for Wayland"
 LICENSE = "ISC"
 
-PV = "0.14.2"
+PV = "0.16"
 
-RPM_NAME = "wob-0.14.2-1.3.aarch64.rpm"
-RPM_HASH = "d77769807362bd4c3611725aedcf87534e1cfbf6849256893843bc37dcfef5f4347f2dbb2591a1f56e3a43bb1632bdd1397c77dff2f63328d0ee39f808c302db"
+RPM_NAME = "wob-0.16-1.6.aarch64.rpm"
+RPM_HASH = "3eabf73396598f3899e5cdd2daa5c858726756ad40ac44b0db46495b421edf1d9f7c9a2cf9668aa34d5838a9b58cac5df6d8212310fa324c8ef5c0b6dc88cd82"
 
 RPROVIDES:${PN} += "wob"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
 libinih.so.0 \
+libm.so.6 \
 libseccomp.so.2 \
 libwayland-client.so.0"
 

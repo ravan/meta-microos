@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.0"
 
-RPM_NAME = "lomoco-1.0-127.21.aarch64.rpm"
-RPM_HASH = "656725ad899451f309aaa1a9222a0e42f775d341fbc73a691f611d1c07fb840c9cfbc6719da7c49ac046cca6564879ba5ccc671c2ff680604d561d19c1e2eb2a"
+RPM_NAME = "lomoco-1.0-128.9.aarch64.rpm"
+RPM_HASH = "bc8c3c77577504395d29bd0ed53712f3ad17269351648524198d7ff7eb5cacc7d117b6f614c06576bdbbcad237987e3b0322e9d6edda140bf741bbca938950e3"
 
 RPROVIDES:${PN} += "lmctl-/usr/bin/lmctl \
 lomoco"

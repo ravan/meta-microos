@@ -18,16 +18,16 @@ other high-level protocol details for which this module offers only limited \
 support."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.25"
+PV = "2.250.0"
 
-RPM_NAME = "perl-AnyEvent-HTTP-2.25-1.15.noarch.rpm"
-RPM_HASH = "2fdfafd4908071059780a84ce58a1674611810de83b13ab76bea7a7e3fc5f99d397371d88e5c8bc902e238a259158e1b8a3a48bb62c98e774573161d9964947c"
+RPM_NAME = "perl-AnyEvent-HTTP-2.250.0-1.7.noarch.rpm"
+RPM_HASH = "1f2b4f0435f0bbe36f71db76c2c8f712bdfe7a280c5225a43e04aeb86df47c04e4c58d695f3056e9f87f22ca5ffcf01ea03b6fa4d7ab52c86f7da389e4017ab4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-AnyEvent--HTTP \
 perl-AnyEvent-HTTP"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-AnyEvent \
 perl-common--sense"
 

@@ -16,10 +16,10 @@ It's also modular: you only need to put on CPAN a \
 App::Nopaste::Service::Foo module and anyone can begin using it."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.013"
+PV = "1.13.0"
 
-RPM_NAME = "perl-App-Nopaste-1.013-1.17.noarch.rpm"
-RPM_HASH = "94407dcd662e81cc9429b10d19ac449c0acc9bcbef75211a64746c6e3c753d896da59c881e9356f401586fe30d3a681a33dcd93ef3fb8c3025dc8b9210b64ae9"
+RPM_NAME = "perl-App-Nopaste-1.13.0-1.7.noarch.rpm"
+RPM_HASH = "98361b4ac264b116655765a1264fde64171f1afa8dac737ebf33457a7a84ba04d855e1fa2f40b1c841030f0ca1f1ceef090c1ed7cffe343b4d65cf3dfae6280f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-App--Nopaste \
@@ -34,14 +34,12 @@ perl-App--Nopaste--Service--PastebinCom \
 perl-App--Nopaste--Service--Pastie \
 perl-App--Nopaste--Service--Shadowcat \
 perl-App--Nopaste--Service--Snitch \
-perl-App--Nopaste--Service--SusePaste \
 perl-App--Nopaste--Service--Ubuntu \
 perl-App--Nopaste--Service--ssh \
 perl-App-Nopaste"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
-perl-Browser--Open \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Load \
 perl-Getopt--Long--Descriptive \
 perl-JSON--MaybeXS \

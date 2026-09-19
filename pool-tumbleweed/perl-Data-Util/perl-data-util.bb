@@ -12,8 +12,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.67"
 
-RPM_NAME = "perl-Data-Util-0.67-1.10.aarch64.rpm"
-RPM_HASH = "2db8e803813a6f59c88712d3fc62613f2592c0fc55f8346fe3a1cc397b6b8828f86ed9417f5ba5a6020019dba68918e672f7184ac3adaa53a7080de5edfa9130"
+RPM_NAME = "perl-Data-Util-0.67-1.27.aarch64.rpm"
+RPM_HASH = "e1c0693a5c14ee429dcc5dd5bdb3438c216074d718d908106e78b3810606c4a7c24144408de7d6143ec5e61cb542ea31099af29f51b4ab8ead63291d8d5ae8ac"
 
 RPROVIDES:${PN} += "perl-Data--Util \
 perl-Data--Util--Error \
@@ -22,6 +22,6 @@ perl-Data-Util"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

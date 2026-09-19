@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides upstream defaults for settings stored with 
 GSettings and applications used by the MIME system."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "gio-branding-upstream-2.76.5-1.1.noarch.rpm"
-RPM_HASH = "cb1208765b802354bd1d27cd9ebd56792eae37ce0c871cc255668993c6a0c9ea3e005bb4d502c3b82a115064aae016a259d2099d209c8ef591da18a6f80a280c"
+RPM_NAME = "gio-branding-upstream-2.88.3-1.1.noarch.rpm"
+RPM_HASH = "88df64d1db243d0a2d68f7901d75de1b250ee5d2c65b9d69f157fdfa33c3f5c3579f00b729eaf82c9208505ec0aac3cfa9ddd954cd51c43dfcbcb5731c8186bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-gio-branding-upstream \

@@ -2,10 +2,10 @@ SUMMARY = "Headers and documentation for the Bobcat library"
 DESCRIPTION = "Headers and documentation of classes defined in the Bobcat library."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.02.02"
+PV = "6.15.01"
 
-RPM_NAME = "libbobcat-devel-6.02.02-2.4.aarch64.rpm"
-RPM_HASH = "1ccfe6032a7cfbbcd515dba5e3977eeddce6dcb4a95a13d81ed110fced325d0c2dcbb0e31acd7c8c84693d1b2e8dcc1ddba35830a12a935a3b113f8dd922aca9"
+RPM_NAME = "libbobcat-devel-6.15.01-1.1.aarch64.rpm"
+RPM_HASH = "7f9cb4315da16d6cd9288d49ef13bde24d4e2f427ee97198143dc431db77263efa891b6764549c78873714dbddff0c02c2cd7e680c1bfefd2b3a30f733507971"
 
 RPROVIDES:${PN} += "libbobcat-devel"
 

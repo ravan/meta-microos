@@ -5,10 +5,10 @@ menu application. Includes support for the Harvard style of \
 citations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.33svn24729"
+PV = "2026.226.4.33svn76790"
 
-RPM_NAME = "texlive-custom-bib-2023.209.4.33svn24729-55.1.noarch.rpm"
-RPM_HASH = "ba64372ff57de9b053b56fc5ed6be0f94f13bbc60934d575803de9b9d73d10b005329fc5ea821508a7f28a13c7990ecc7e38956f485a3e82732e95f82c071170"
+RPM_NAME = "texlive-custom-bib-2026.226.4.33svn76790-61.2.noarch.rpm"
+RPM_HASH = "e5f95599c6f26388dd174fb0aec18ebeb404552fa9d0bcf997d9575f7c1d7aaf298391bc52dd2ab8beefc7c153ccf4db8f7dbc83f1f2c8067d3deb766398700f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-geophys.tex \

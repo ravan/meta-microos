@@ -4,10 +4,10 @@ flexible facility for generating various HTTP workloads and for measuring \
 server performance."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "0.9.0+git.20180712"
+PV = "0.9.0+git.20201206"
 
-RPM_NAME = "httperf-0.9.0+git.20180712-1.19.aarch64.rpm"
-RPM_HASH = "3fd2cba34ff5daccb6ea5268a56adff34b96b7e45088017400bb17c4fbe1ca68c6450ce65172eea1ad775d5b098079c91e14f4ca5525efe3614bdb31addb1531"
+RPM_NAME = "httperf-0.9.0+git.20201206-2.7.aarch64.rpm"
+RPM_HASH = "f3cfc15262012c55f1b9442c6a87c6a48d27b21553d270712a255fe1edc1fad231fa7a673ba9facaaf1367e6ce52eb621ce1323bfc600f74f5ab6a99a901d1d0"
 
 RPROVIDES:${PN} += "httperf"
 

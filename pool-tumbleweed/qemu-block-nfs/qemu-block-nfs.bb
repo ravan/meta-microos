@@ -3,15 +3,15 @@ DESCRIPTION = "This package contains a module for directly accessing nfs based i
 for QEMU."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-block-nfs-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "f29bd6d850cc4d21673f9778042ecd0092269bb8d335d4f27e64ffc908ed08019a193b17d7c0d394aec9259311ecd55b3fd7ac2686fc33324f69d575c8903d22"
+RPM_NAME = "qemu-block-nfs-11.1.1-1.1.aarch64.rpm"
+RPM_HASH = "896a9afa4679e5855accce7f0ac1a46df2439ea927c8cc2769647795c8e76234dd43cc5bddd05e50f9c7ec428e560114305f40eada7cd8374a038d7bf77d528d"
 
 RPROVIDES:${PN} += "qemu-block-nfs"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libnfs.so.14"
+libnfs.so.16"
 
 inherit rpm

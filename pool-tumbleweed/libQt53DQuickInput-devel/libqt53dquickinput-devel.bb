@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 5 QuickInput 3D library"
 DESCRIPTION = "Development files for the Qt 5 Quick Input 3D library."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt53DQuickInput-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "7d39f43eeb73b6c39fe71486b2a18d080fb4ab7217dfb0c474501d849ad74716df0b92abad925707dd65fe580635dfe34b48769bc10fc1d957e0e9665278b17c"
+RPM_NAME = "libQt53DQuickInput-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "521125c62a702076caedf6ea47f2b2b7c38bb91986c1658489bbe382f55b9fe0f2dcfedbc80123212a5131a716fb2d556477eacc6a7187c6a4c4128a9fc50c6d"
 
 RPROVIDES:${PN} += "cmake-Qt53DQuickInput \
 libQt53DQuickInput-devel \

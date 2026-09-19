@@ -2,10 +2,10 @@ SUMMARY = "NETGEN examples"
 DESCRIPTION = "Various example geometry data for NETGEN."
 LICENSE = "LGPL-2.1-only"
 
-PV = "6.2.2301"
+PV = "6.2.2602"
 
-RPM_NAME = "netgen-examples-6.2.2301-1.5.noarch.rpm"
-RPM_HASH = "0e86d824bc9e930812e3ce3a9f405549e36aca02bc2ed8ec0249c970db168a14210e67c00397571655630a3a615c2a267dc4a7c2bfbef78d52c7d15eb5173d17"
+RPM_NAME = "netgen-examples-6.2.2602-3.5.noarch.rpm"
+RPM_HASH = "ca136b4d6e5e6a24238de25b0d024018646a504af430237140480de5dc7912e4ec6373f820ccec2d486e9e12a403288a555673a4243b73d3f6b4b0d27763b8b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "netgen-/usr/share/netgen/cube.geo \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a search provider to enable GNOME Shell to 
 search results from GNOME Characters."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-shell-search-provider-gnome-characters-44.0-2.2.noarch.rpm"
-RPM_HASH = "e64d4c079d597ae39f68cd1fdaf3576ec8a3134769a1ec0518db839c7d1f91520831bd2628ba94b8cf7fc4df09490511d1a36d3cc2b1c4c9d1d735f1d64d6431"
+RPM_NAME = "gnome-shell-search-provider-gnome-characters-50.0-2.1.noarch.rpm"
+RPM_HASH = "a8d0ee2800fd2b1cfc86b50edd6fe280ef820414989634ddefaf5bdbf037eb579d5165a3be40d5290417cd36fb338a94064a8a9630464a5d6f4e0d16f283224f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-gnome-characters"

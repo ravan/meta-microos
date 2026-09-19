@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kmousetool"
 DESCRIPTION = "Provides translations for the 'kmousetool' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmousetool-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "a65693177300d36c2878769a11ec20306008a339af211ad53cf4e9e95390a3bce22ba30e3a120307765fe45c057df0ff203ef50d22dcff59c87130e9b785f0b7"
+RPM_NAME = "kmousetool-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "44771eb59cd99716df7f5c01379fd15b7fe0d9d33f33276f5ee87ccb264698177017e7226247284137cb9be4563bfa763e67a34349bedd8749f76717312ddd91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmousetool-lang \
 kmousetool-lang-all \
 locale-kmousetool-ar \
+locale-kmousetool-ast \
 locale-kmousetool-be \
 locale-kmousetool-bg \
 locale-kmousetool-br \

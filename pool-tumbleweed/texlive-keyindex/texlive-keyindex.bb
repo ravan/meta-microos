@@ -7,10 +7,10 @@ corresponding index entry. The standard use case is the \
 production of an index of names."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn50828"
+PV = "2026.226.1.0svn50828"
 
-RPM_NAME = "texlive-keyindex-2023.209.1.0svn50828-56.1.noarch.rpm"
-RPM_HASH = "a0f2d1543c006677f910cb56b70a37235c218d2e6875625329f875160095a76b9fccdfc2cd793db73a2cb25a405f918b3bf263862feabbe89495c3ca881e75d2"
+RPM_NAME = "texlive-keyindex-2026.226.1.0svn50828-63.2.noarch.rpm"
+RPM_HASH = "c241ca02812f283341145e20a5ed05d518fb157c44098b9a41d0181067de208b5b4436955687ed053e82fe5caac85e398879e615af6d7ad00ae5cf917c010e8d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-keyindex.sty \

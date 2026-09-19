@@ -2,10 +2,10 @@ SUMMARY = "Tools to access the Extended File System (ext)"
 DESCRIPTION = "Tools to access the Extended File System.  See libfsext for additional details."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230603"
+PV = "20260821"
 
-RPM_NAME = "libfsext-tools-20230603-2.1.aarch64.rpm"
-RPM_HASH = "40eb53d63ad6622e5407bd50b3c4a0d92a4e63d2785c494fd1124f6b2d0bf9b0ae74e031ab9eda2d3f4109e03db9e01e9f2b48f33b5ccb559c82720b76d405cb"
+RPM_NAME = "libfsext-tools-20260821-1.1.aarch64.rpm"
+RPM_HASH = "44de22c50ce4f04c05b63ed07b6b29737ea37eb7d04949681e170879b10a002a69f25358211eef6570a5e8f6e961ade51e9cecc1b413a16b63547363fe9b66f3"
 
 RPROVIDES:${PN} += "libfsext-tools"
 

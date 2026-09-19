@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Burmese lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-mya-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "2499ffbc36e6ca249122b9bdf6ccc39a491967ab50ea86fdc97e6464415cc29234a57dba6b6ad41938bd607a120bac8c666006e54525a64266af16f924da81f5"
+RPM_NAME = "tesseract-ocr-traineddata-mya-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "57da5ac2918f864943c241760a586d7b405575f0a740a2d027efb55e73a5ef7d394e582a192ae521fd3550c7dfc8e00b774763a3151969a5b4e4951419dbe49a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-burmese \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-my \
+tesseract-ocr-traineddata-burmese \
 tesseract-ocr-traineddata-mya \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-burmese"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

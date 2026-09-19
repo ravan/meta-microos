@@ -4,16 +4,15 @@ simultaneous compiler installations, flexible package constraints, and a \
 Git-friendly development workflow."
 LICENSE = "LGPL-2.1-only-with-OCaml-LGPL-linking-exception"
 
-PV = "2.1.5"
+PV = "2.5.2"
 
-RPM_NAME = "opam-2.1.5-1.3.aarch64.rpm"
-RPM_HASH = "d9beaf6f79f7fc5c8a11cfc1a7fc095e566a560e1573ab44c03e1b397e391323d587d96ba9bcde70fd904ff604e0b383747c4efa8d2aa00abe58db0447e3f041"
+RPM_NAME = "opam-2.5.2-1.3.aarch64.rpm"
+RPM_HASH = "4c58c69c0a358151128f56b5680767430e9e7e92ba9916980056d573719d78e9b1fbc1e86cba49840b44ff8455a35c4e5eda609db6d1f370db5bcba67e95438a"
 
 RPROVIDES:${PN} += "opam"
 
-RDEPENDS:${PN} += "/usr/bin/ocamlrun \
+RDEPENDS:${PN} += "/usr/bin/ocamlrun-a100 \
 bubblewrap \
-bzip2 \
 curl \
 diffutils \
 gzip \

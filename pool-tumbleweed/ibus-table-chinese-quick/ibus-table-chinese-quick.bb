@@ -8,10 +8,10 @@ Quick3, Quick5 and Quick-Classic, \
 and Smart Cangjie 6."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-quick-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "1d9dee43828fc94922b08c13b5f8aca3250e2efd1760ab46a04568ba5a82771bb1aaf49fdf14e841600fff640c6fc6adafed4e9c8203536cff6b23d01a656d05"
+RPM_NAME = "ibus-table-chinese-quick-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "0eb0b0b88ecceb1bb06dddc022fde9802ab6f962c9dd006b2d86eddf37c3c5b41886377abed314358ae1d01ead9c41ead981562206915e1521e3fbea69d9cd92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-chinese-quick \

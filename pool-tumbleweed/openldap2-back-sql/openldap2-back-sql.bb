@@ -1,13 +1,13 @@
-SUMMARY = "OpenLDAP SQL Back-End"
+SUMMARY = "OpenLDAP SQL backend"
 DESCRIPTION = "The primary purpose of this OpenLDAP backend is to present information \
 stored in a Relational (SQL) Database as an LDAP subtree without the need \
 to do any programming."
 LICENSE = "OLDAP-2.8"
 
-PV = "2.6.4"
+PV = "2.6.13"
 
-RPM_NAME = "openldap2-back-sql-2.6.4-2.2.aarch64.rpm"
-RPM_HASH = "ed4ea0574355aa8eae11bc06d0a1fc8415e8cea74a2712373944a2fc8704b9f689c65c2785160993c3b0e56f1f5c2966f29bcc00c86ecbfb9c6e2da73c8ccc1d"
+RPM_NAME = "openldap2-back-sql-2.6.13-1.6.aarch64.rpm"
+RPM_HASH = "4cfa98f126be0c2501a90367cefc1c0b5cc7627efc93b4cd8948af49185e74bf16ba4a46b9229a33c7147b51a07fdb7a7a65d846827c7bbb9bac13c26cbbd838"
 
 RPROVIDES:${PN} += "openldap2-back-sql"
 

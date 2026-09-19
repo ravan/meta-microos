@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a macro \\kv@define@key (analogous to \
 keyval's \\define@key, to define keys for use by kvsetkeys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn53193"
+PV = "2026.226.1.6svn77682"
 
-RPM_NAME = "texlive-kvdefinekeys-2023.209.1.6svn53193-56.1.noarch.rpm"
-RPM_HASH = "56027a4f2d5ea5bdaffb1ec107f3b8ee8b2b5f4864139162ba0ad4d744249778d573b3d2dfc6c3cd0ee550192ee4b9d65fe427cab7f0dec6064e0fe2a9ac02e3"
+RPM_NAME = "texlive-kvdefinekeys-2026.226.1.6svn77682-63.2.noarch.rpm"
+RPM_HASH = "f8e95980d2b88f64fd113493aadd435750744ec422d59e5d276cda5bb7f6ef14f77be3daef3c1619e1f914ed13f64fe7ae242e2dda4ebd1da7a41189ad092d79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-kvdefinekeys.sty \

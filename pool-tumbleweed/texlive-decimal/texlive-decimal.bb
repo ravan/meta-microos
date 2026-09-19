@@ -4,10 +4,10 @@ traditional English raised decimal point, instead of the \
 American-style period."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23374"
+PV = "2026.226.svn23374"
 
-RPM_NAME = "texlive-decimal-2023.209.svn23374-53.1.noarch.rpm"
-RPM_HASH = "1f2ce8a1ce0e46459e3e681970b5bc3da5adf1cafc80e5890f2534847e6760c83c4cdffc55ff3217b883856c63432b567b9499ce4281d0ee0816f8e8c5d0cc89"
+RPM_NAME = "texlive-decimal-2026.226.svn23374-59.2.noarch.rpm"
+RPM_HASH = "27fb3f944ccf5396c596cda342fe79ad0df65e8ecfa85116f4c90545a72b1e284148e3cce3cff08168bf0d09a60ced5d04a0311d39de3e723db2c4bfac64390d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-decimal.sty \

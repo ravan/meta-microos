@@ -1,29 +1,28 @@
-SUMMARY = "Console-based BitTorrent Client"
-DESCRIPTION = "rTorrent is a console-based BitTorrent client. It aims to be a \
-fully-featured and efficient client with the ability to run in the \
-background using screen. It supports fast-resume and session \
-management."
+SUMMARY = "Console-based BitTorrent client"
+DESCRIPTION = "rTorrent is a text-based BitTorrent client written in C++ and with \
+ncurses. It supports fast resume and session management, and can be \
+run in the background with the help of e.g. GNU screen."
 LICENSE = "SUSE-GPL-2.0+-with-openssl-exception"
 
-PV = "0.9.8"
+PV = "0.16.22"
 
-RPM_NAME = "rtorrent-0.9.8-6.5.aarch64.rpm"
-RPM_HASH = "9cc98aa88dc522b2fb4069f39cf679f630af78660e4f73cd73c6b5c036fd18a958d3bdcebaa9806286eb912b7d2c76cc302f08af70ad3035f7025805beaf4e23"
+RPM_NAME = "rtorrent-0.16.22-1.1.aarch64.rpm"
+RPM_HASH = "1a84b89ee04ebb21ca9313b58b4402b130876682e2f735869ba84dc4c3a458c644710af5e5802b175d12ab272ee9d9eb9b9f92cefad24415e1a0d6bf7e48aa44"
 
-RPROVIDES:${PN} += "rtorrent"
+RPROVIDES:${PN} += "bundled-tinyxml2 \
+group-rtorrent \
+rtorrent \
+user-rtorrent"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcurl.so.4 \
 libgcc-s.so.1 \
 libncursesw.so.6 \
 libstdc++.so.6 \
 libtinfo.so.6 \
-libtorrent.so.21 \
-libxmlrpc-server.so.3 \
-libxmlrpc-util.so.4 \
-libxmlrpc.so.3 \
-shadow"
+libtorrent.so.50 \
+libz.so.1 \
+sysuser-shadow"
 
 inherit rpm

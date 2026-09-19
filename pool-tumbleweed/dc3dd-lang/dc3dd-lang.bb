@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "7.3.1"
 
-RPM_NAME = "dc3dd-lang-7.3.1-1.1.noarch.rpm"
-RPM_HASH = "562113f967030cf60b38d2874b84ad5e1fa39e2ad1dc052a8c508e91a225dc0c8b584297a9c81042eedb5334bbcac8314cc7f7ffb5b74ca4688bedea79e94b49"
+RPM_NAME = "dc3dd-lang-7.3.1-3.6.noarch.rpm"
+RPM_HASH = "fd28c3e99691cc213c8580c6bd4043eca85a4aad5fcafc7ed7d9292da0d487ef57dcacef7bfcb91575dea24986d27f331c6de7d7d6787069c39dd61a3db9e30f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dc3dd-lang \

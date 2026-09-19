@@ -14,13 +14,12 @@ This package provides shared libraries for SISCone plugin for \
 fastjet."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.0"
+PV = "3.5.1"
 
-RPM_NAME = "fastjet-plugin-siscone-3.4.0-2.9.aarch64.rpm"
-RPM_HASH = "627779787783d6b002d1e071dbfd6041ac96d0448ee788f2679acdc7dea9db12a26e3cbf3280e405a49066cece5e680b289279597e4e27273d9901ccef7b6d10"
+RPM_NAME = "fastjet-plugin-siscone-3.5.1-2.1.aarch64.rpm"
+RPM_HASH = "e40b7a59ed4ca390f8e64e5ad19918912a57e9997df53a5157c663a90f062f3ecb7abbc0e877850792681c39815ba982cc8566e99e64720037eec66a29d34294"
 
 RPROVIDES:${PN} += "fastjet-plugin-siscone \
-libsiscone-spherical.so.0 \
 libsiscone.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

@@ -7,14 +7,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.06"
 
-RPM_NAME = "perl-HTTP-Parser-0.06-1.12.noarch.rpm"
-RPM_HASH = "1673a89aa77bfb893f40694251b77fd2fe9d5144235ef4f3047fbf91135e8dfbb00115b01043191012686bfb327d78392e6b1f21423db06dfb7fb4c25e2392d0"
+RPM_NAME = "perl-HTTP-Parser-0.06-1.26.noarch.rpm"
+RPM_HASH = "22929485ebe8e8fc16f1657ed9efca2dd75f0f1b9ab615fc1d70e5e99f4fa985d511a8f65ca5815ef5d8e5883170c7f89febe930266c5db701ef070664956ab3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Parser \
 perl-HTTP-Parser"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-HTTP--Request \
 perl-HTTP--Response \
 perl-URI"

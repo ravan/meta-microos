@@ -2,10 +2,10 @@ SUMMARY = "Example programs using Qwt(Qt6)"
 DESCRIPTION = "This package contains example programs demonstrating the Qwt(Qt6) widgets."
 LICENSE = "SUSE-QWT-1.0 | BSD-3-Clause"
 
-PV = "6.2.0"
+PV = "6.3.0"
 
-RPM_NAME = "qwt6-qt6-examples-6.2.0-2.2.aarch64.rpm"
-RPM_HASH = "246fcc3d5f4f8a2849c0b6ed42dfb588d37f219e5e37986ece773eb24abd1868076e36b43f8309a15e1eb1e0ff4547bb8f542a2490337e80fe2a517788a241c5"
+RPM_NAME = "qwt6-qt6-examples-6.3.0-1.10.aarch64.rpm"
+RPM_HASH = "2834455b5d10d82e9c0a4ff3e3bcfa2a0074001eb669eb2c3a35212d588f4f12f9544c8e6442468bb63b4fed598d6d81f58ce6671a2f92e207f4a3d133fdb0da"
 
 RPROVIDES:${PN} += "qwt6-qt6-examples"
 
@@ -17,7 +17,7 @@ libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libqwt-qt6.so.6.2 \
+libqwt-qt6.so.6.3 \
 libstdc++.so.6 \
 qwt6-qt6-devel"
 

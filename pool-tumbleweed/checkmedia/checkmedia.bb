@@ -2,15 +2,15 @@ SUMMARY = "Check installation or Live media"
 DESCRIPTION = "The program checks installation or Live media for errors."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.2"
+PV = "7.1"
 
-RPM_NAME = "checkmedia-6.2-1.1.aarch64.rpm"
-RPM_HASH = "6e1401225d4260b2e76accee94243dbf02a03d0a17b13411744625d5ca63f0c0b19c5b4b9c02ba5b19544379bb8d9c616f7b477facccdd5559e4e393fad163ff"
+RPM_NAME = "checkmedia-7.1-1.3.aarch64.rpm"
+RPM_HASH = "da9caf3978faf22e6465b54c6f119380b89e4e552aacf3b8c300bd4a59c1c8a215fe1a7671550f9a846a968d8912b766c2a707bd68944601acc179f7b8e73b7e"
 
 RPROVIDES:${PN} += "checkmedia"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 libc.so.6 \
-libmediacheck.so.6"
+libmediacheck.so.7"
 
 inherit rpm

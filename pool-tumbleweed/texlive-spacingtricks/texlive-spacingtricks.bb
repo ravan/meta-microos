@@ -1,14 +1,14 @@
-SUMMARY = "Dealing with some spacing issues"
-DESCRIPTION = "This package provides macros for dealing with some spacing \
-issues, e.g. centering a single line, making a variable strut, \
-indenting a block, typesetting a compact list, placing two \
-boxes side by side with vertical adjustment."
+SUMMARY = "Addressing various spacing issues"
+DESCRIPTION = "This package provides macros for addressing various spacing \
+issues, including: centering a single line creating a variable \
+strut indenting a block typesetting a compact list placing two \
+boxes side by side with vertical adjustment"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn66393"
+PV = "2026.226.1.8svn69048"
 
-RPM_NAME = "texlive-spacingtricks-2023.209.1.6svn66393-58.1.noarch.rpm"
-RPM_HASH = "aa9ae2b78401ee61c1e731bf539795f1a5f3ba297f2c5836b2e171072c5d78c2881eb91cac7a922dadd34e9713cc389091a321d2295ad858be08d2f3b9aab2f8"
+RPM_NAME = "texlive-spacingtricks-2026.226.1.8svn69048-64.2.noarch.rpm"
+RPM_HASH = "c4db2c5fcf39b719de0ae62f94a70791cc365df58dd338565234426d9602a11ee46edde0316f112a62ca33eaa743174c1071f40cc032e4923d5fc2f2228d003e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-spacingtricks.sty \

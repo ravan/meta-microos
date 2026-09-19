@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.9.20110826"
 
-RPM_NAME = "ibus-table-extraphrase-1.3.9.20110826-9.9.noarch.rpm"
-RPM_HASH = "f4ec33a543ee02e0b99d2a9c0593a36e26118494ec56a32cd617497e5b6034bd2a53506ebcfc27b15f66c0247380e7c1680bd45c10aebd9f63e98bd194b1759c"
+RPM_NAME = "ibus-table-extraphrase-1.3.9.20110826-9.17.noarch.rpm"
+RPM_HASH = "01eb38c4289fbfb6bf1bd9372cb007e22b2bed66e48a3cf4718b24c428183fe26675492d809e49ce15b31fcec1c99175fef22af1f5587697939b49bf1934c2a4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-extraphrase"

@@ -5,10 +5,10 @@ numbering format to arabic.arabic.arabic and the depth to 3. \
 The package uses LaTeX3."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn61813"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-secnum-2023.209.svn61813-54.1.noarch.rpm"
-RPM_HASH = "be95a8685f60967963661012a9c4a6a0d8f57dbb992c8958147d8b64471446b58b6593d4435f4aefd0ccacbcc615c8cccf7974abd7008e2538c672f68b01b47f"
+RPM_NAME = "texlive-secnum-2026.226.svn76924-60.2.noarch.rpm"
+RPM_HASH = "9002bbf2d25a550bf1cc6409d8acb86d2f603f8f66d2454a1f90adbca1adee955a17c4a925a78d12719a615dee81d71515f56a638b430fae8626388b08bb1c70"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-secnum.sty \

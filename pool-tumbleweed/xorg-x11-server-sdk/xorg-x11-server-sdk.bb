@@ -2,10 +2,10 @@ SUMMARY = "X"
 DESCRIPTION = "This package contains the X.Org Server SDK."
 LICENSE = "MIT"
 
-PV = "21.1.8"
+PV = "21.1.24"
 
-RPM_NAME = "xorg-x11-server-sdk-21.1.8-1.3.aarch64.rpm"
-RPM_HASH = "2624b576049d4fc73ad5ccd4b195dbf823c18bcee68676d30540eaaf2ba61915d7f1efc1f34926693e608e19073aa0bd332a5b42dc0335fffd80f552fbef0e24"
+RPM_NAME = "xorg-x11-server-sdk-21.1.24-1.2.aarch64.rpm"
+RPM_HASH = "103e3626ae04f74e46e74c6c0da3a54db74e8a7621583b1af316edd7bd3dcd275d3195a2812d668fcf5c2378f499d367f77e9a1df7376357e7ca627bf7b632d5"
 
 RPROVIDES:${PN} += "glamor-devel \
 pkgconfig-xorg-server \
@@ -36,7 +36,6 @@ pkgconfig-kbproto \
 pkgconfig-libdrm \
 pkgconfig-libevdev \
 pkgconfig-libudev \
-pkgconfig-libxcvt \
 pkgconfig-mtdev \
 pkgconfig-pciaccess \
 pkgconfig-pixman-1 \
@@ -58,9 +57,7 @@ pkgconfig-xineramaproto \
 pkgconfig-xkbfile \
 pkgconfig-xmu \
 pkgconfig-xorg-macros \
-pkgconfig-xp \
 pkgconfig-xpm \
-pkgconfig-xprintutil \
 pkgconfig-xproto \
 pkgconfig-xrender \
 pkgconfig-xt \

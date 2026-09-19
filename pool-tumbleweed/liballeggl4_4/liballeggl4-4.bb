@@ -4,8 +4,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "4.4.3.1"
 
-RPM_NAME = "liballeggl4_4-4.4.3.1-1.16.aarch64.rpm"
-RPM_HASH = "7387173e812336957ad1efb4d6656a3ae03b594bbcf16642b246709085aa9bedc4f2ac285d20723aa7f9f68feaf1cf6a9484c79f9ec03a52a172997ebfe2e7a8"
+RPM_NAME = "liballeggl4_4-4.4.3.1-1.29.aarch64.rpm"
+RPM_HASH = "3559df2068f6625ff75690b70f9368ab8504542141890de19f57d5794185b27ba3dd4817ac47075cc6d370b0fcc98e444c9ff1444ebded4dfe57fd027cf41f12"
 
 RPROVIDES:${PN} += "liballeggl.so.4.4 \
 liballeggl4-4"

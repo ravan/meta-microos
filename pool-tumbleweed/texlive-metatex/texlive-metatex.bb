@@ -8,10 +8,10 @@ Only standard features of TeX and Metafont are used, but two \
 runs of TeX and one of Metafont are needed."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.1svn15878"
+PV = "2026.226.1.1svn15878"
 
-RPM_NAME = "texlive-metatex-2023.209.1.1svn15878-55.1.noarch.rpm"
-RPM_HASH = "ca028b0b7f9b74d5f8f2232fef23b135c56d54a6cfee1f8b7c752efa9ee133ff9adce432daea8d9ff8bee266e251c2ff21ebcbdea516c5f6dc4e4554c0109d64"
+RPM_NAME = "texlive-metatex-2026.226.1.1svn15878-61.2.noarch.rpm"
+RPM_HASH = "4d98c78ba7fe59065a2cb58978d934862913efefb1a414e504fcadb027635798b3a1d46047aa0a50a2b4d0ebd740fb8f1f46aba69db0dffefc20244817444f23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-metatex.tex \

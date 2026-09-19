@@ -3,10 +3,10 @@ DESCRIPTION = "Library to access the Windows Event Log (EVT) format. \
 For the Windows pre-XML Event Log (EVT) format, see libevt."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221101"
+PV = "20260705"
 
-RPM_NAME = "libevtx1-20221101-4.1.aarch64.rpm"
-RPM_HASH = "f6782d0ee9bf5f22c8b1b5f851e7107778558890e565809a4590cfd7fac0de2035b14af10a1f44fc7ec6ff28b1d2adfc6a59ed67d19c30a34cdb2704523fbaf1"
+RPM_NAME = "libevtx1-20260705-1.2.aarch64.rpm"
+RPM_HASH = "864bbfe95e16c9fa5a73edc7574cd19588b3a7bcc2667f7fa0bff923a12b496b1788e96d66a0e8b001be56943928674ad54d53652ab1b1ad4f5d2898e685ba48"
 
 RPROVIDES:${PN} += "libevtx.so.1 \
 libevtx1"
@@ -21,7 +21,6 @@ libclocale.so.1 \
 libcnotify.so.1 \
 libfcache.so.1 \
 libfdata.so.1 \
-libfvalue.so.1 \
 libfwevt.so.1"
 
 inherit rpm

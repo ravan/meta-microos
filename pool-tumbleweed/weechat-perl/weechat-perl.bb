@@ -2,10 +2,10 @@ SUMMARY = "Perl Scripting Support for weechat"
 DESCRIPTION = "Support for weechat scripts written in the Perl language."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.0.2"
+PV = "4.10.1"
 
-RPM_NAME = "weechat-perl-4.0.2-1.1.aarch64.rpm"
-RPM_HASH = "3b0c539683ca965e38f00e51bbe95a5921a2708d9843ca735f1e8a04691c40797956e8dbbdfbc8d9b63ede407dee638497b338772d47976e83d0c3f2cdde3c14"
+RPM_NAME = "weechat-perl-4.10.1-1.1.aarch64.rpm"
+RPM_HASH = "453de47f845cb1fcbe9a04291d8fbd2bf280f48660f451345e4f86e34b8bf5872723e6ac4848c7b82c335bf8c9fadaba09d356414af2938a49240028ed3b6b03"
 
 RPROVIDES:${PN} += "weechat-perl"
 

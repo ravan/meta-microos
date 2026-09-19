@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "5.11.0"
 
-RPM_NAME = "jgit-5.11.0-7.2.noarch.rpm"
-RPM_HASH = "aaa1ee0a15e41495a620b8bb88a23a5ca35378fb416c74cd05103ec2dd4223aba1bb197334dc52189f58948983e4d60115d4256d57e52a16bd027b041efa74b7"
+RPM_NAME = "jgit-5.11.0-2.4.noarch.rpm"
+RPM_HASH = "89d8f7147aaba63da61b10d27c042ff2fe72ee63dbf9d55e22ac7bcdf12b7f6996ee71f0919c2372a6852a1a92b3d66f6bd07bf3605cd10c3218d6657ba98ea9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-jgit \
@@ -57,9 +57,21 @@ osgi-org.eclipse.jgit.ssh.apache \
 osgi-org.eclipse.jgit.ssh.jsch \
 osgi-org.eclipse.jgit.ui"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
+RDEPENDS:${PN} += "/usr/bin/bash \
+apache-commons-codec \
+apache-commons-compress \
+apache-commons-logging \
+apache-sshd \
+args4j \
+ed25519-java \
+httpcomponents-client \
+httpcomponents-core \
 java-headless \
+javaewah \
 javapackages-filesystem \
+javapackages-tools \
+jsch \
+jzlib \
 mvn-args4j-args4j \
 mvn-com.google.code.gson-gson \
 mvn-com.googlecode.javaewah-JavaEWAH \
@@ -79,6 +91,7 @@ mvn-org.eclipse.jetty-jetty-servlet \
 mvn-org.osgi-osgi.core \
 mvn-org.slf4j-slf4j-api \
 mvn-org.slf4j-slf4j-simple \
+slf4j \
 xz-java"
 
 inherit rpm

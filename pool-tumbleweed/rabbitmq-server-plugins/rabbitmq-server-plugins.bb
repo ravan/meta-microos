@@ -5,10 +5,10 @@ standard for messaging. \
 This package includes some plugins for the RabbitMQ server."
 LICENSE = "MPL-2.0"
 
-PV = "3.12.0"
+PV = "4.2.9"
 
-RPM_NAME = "rabbitmq-server-plugins-3.12.0-2.1.aarch64.rpm"
-RPM_HASH = "2fbeea955d82e51ca6037ecff9a316670105f54cbd96d41abc825fe31ff235573bdbc3564f312f59272e58812cfd956e52b13473cf1f6003ad10b19e598c500c"
+RPM_NAME = "rabbitmq-server-plugins-4.2.9-1.1.aarch64.rpm"
+RPM_HASH = "3690d6a3127b1a9473a47ecc55fcffa7221aeb666ba88ecaf9534ea8ba7fd996d1a674fa64a1c18aa580083995f5f473c95517c7250b23d7266b5f034105abc7"
 
 RPROVIDES:${PN} += "rabbitmq-server-plugins"
 

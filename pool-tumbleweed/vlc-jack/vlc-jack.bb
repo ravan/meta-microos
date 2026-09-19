@@ -2,10 +2,10 @@ SUMMARY = "Jack integration for the VLC media player"
 DESCRIPTION = "This package adds jack support to vlc via plugins."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-jack-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "496c2f2124ff60f62034344ebabfbcf25a98d81a8f3d5611b85bf271045929492d824de53fa2c45ea8e390932cc7e99ad869d098ba6f8438c6542fbf69e81707"
+RPM_NAME = "vlc-jack-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "af961694b12b4e38c2ec85b32f1239d6196a8825a7d1efc09654af820f7e95d565069e1ca70dbdf097e67f9d083d624ef94509d56da32b2b9cd139d02107fd2d"
 
 RPROVIDES:${PN} += "libaccess-jack-plugin.so \
 libjack-plugin.so \

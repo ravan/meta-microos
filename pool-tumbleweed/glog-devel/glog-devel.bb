@@ -1,21 +1,21 @@
-SUMMARY = "Header files for libglog0"
+SUMMARY = "Header files for libglog2"
 DESCRIPTION = "The glog library implements application-level logging. \
 This library provides logging APIs based on C++-style \
 streams and various helper macros. \
  \
-This package provides development files for libglog0."
+This package provides development files for libglog2."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.5.0"
+PV = "0.7.1"
 
-RPM_NAME = "glog-devel-0.5.0-1.9.aarch64.rpm"
-RPM_HASH = "41576da8cebbab2bb1e448295473dc637940039e8b9d3a1d17944f411a5e20331ff5662dde76e0e9261fe618ca7e3a27d9713eba2604efcb7fad000b9b0d5c9b"
+RPM_NAME = "glog-devel-0.7.1-1.7.aarch64.rpm"
+RPM_HASH = "de1a5c99160f2046ce2688f244baa1c53cc10fbf07f1448934f85f0773371218391e7852be3b1d09e78d3e85aff0e1016c98e3810566eb0dfb3aa97fc98b945c"
 
 RPROVIDES:${PN} += "cmake-glog \
 glog-devel \
 pkgconfig-libglog"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libglog0"
+libglog2"
 
 inherit rpm

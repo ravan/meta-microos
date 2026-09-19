@@ -7,10 +7,10 @@ security implications of the flag; users should exercise due \
 caution."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn52257"
+PV = "2026.226.1.2svn52257"
 
-RPM_NAME = "texlive-download-2023.209.1.2svn52257-53.1.noarch.rpm"
-RPM_HASH = "63b699761e21e9ef46a19bc6551773e47e8ceed99de7912a4fbdc27260b13dbca37b8b253a26826fa811f744f4f7864c672c3bcd22c27b68cbdc20b2bfe5e583"
+RPM_NAME = "texlive-download-2026.226.1.2svn52257-59.2.noarch.rpm"
+RPM_HASH = "190ba01732fb18df641a2995d8bdf8ec9352996d6e5c9c89fc874601a134613e7a8993d43cd5899ca1905022981ecf52969bf80e7f075189ccc1755e2976ae53"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-download.sty \

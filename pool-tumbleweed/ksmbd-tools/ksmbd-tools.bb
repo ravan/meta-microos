@@ -3,10 +3,10 @@ DESCRIPTION = "Set of utilities for creating and managing SMB3 shares for the ks
 module."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.9"
+PV = "3.5.3"
 
-RPM_NAME = "ksmbd-tools-3.4.9-1.1.aarch64.rpm"
-RPM_HASH = "7fed4eef5917646a73ae179bedda389dcb22374c5bf08a765511de994885f1b87a3ddcbf8529897830e1a0beab54e2019dd05da6c8cf861199ae8eb9b992044d"
+RPM_NAME = "ksmbd-tools-3.5.3-2.9.aarch64.rpm"
+RPM_HASH = "4885f82f9b57d730f7be752221300579ee4cace6dd7bdf0e3e1a80a9cf5c8a1c22b20926f8fb8bc2691dbef7bdd360a177c666aecfd203e29a461f584c6b1fa7"
 
 RPROVIDES:${PN} += "ksmbd-tools"
 

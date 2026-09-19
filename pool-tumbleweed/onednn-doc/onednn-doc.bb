@@ -3,10 +3,10 @@ DESCRIPTION = "The reference documentation for the Intel Math Kernel Library can
 with this package."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.7.3"
 
-RPM_NAME = "onednn-doc-3.0.1-1.3.noarch.rpm"
-RPM_HASH = "ac7bfdfcb1e4f122f1627340b00f49cffd1f10ccca83eafca406d4453f9b9148057be5eadf79534c5ae19c5e191b099a06863cc2f4d80b5e1d0ec014c80936f5"
+RPM_NAME = "onednn-doc-3.7.3-2.1.noarch.rpm"
+RPM_HASH = "a8cf9678fc7e46ef39a22ef7de058b0d18568a2b7249bfaa5332686688e2c3a2be22c736c21a909420db1aa3019d4c29479e16af956686c01b787ca76ab0c435"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "onednn-doc"

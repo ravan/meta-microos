@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.20131130"
 
-RPM_NAME = "libquvi-scripts-nsfw-0.9.20131130-4.7.aarch64.rpm"
-RPM_HASH = "4c8ea47f3b24a980b3074cb25b855469cf636fc4e50892763b1ff918c73e605f501c619eabbf4e9089c6f5638bbffc5d7c525ff9028d532b9916a855b1fe1b3c"
+RPM_NAME = "libquvi-scripts-nsfw-0.9.20131130-4.15.aarch64.rpm"
+RPM_HASH = "aa55ef502e9a1a3e3f46dd47e5434a40ff29a4e4f71c38b15cc932a73a789e199418a5d7cdde666a37cda5ffe32ba5f5f758ce770c97b6193340d32c85ac6852"
 
 RPROVIDES:${PN} += "libquvi-scripts-nsfw"
 

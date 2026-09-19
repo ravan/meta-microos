@@ -5,10 +5,10 @@ Detailed information (including a User's manual), source code, and pre-compiled 
 binaries are available at: http://potassco.org/"
 LICENSE = "MIT"
 
-PV = "5.6.2"
+PV = "5.8.0"
 
-RPM_NAME = "lua-clingo-5.6.2-2.1.aarch64.rpm"
-RPM_HASH = "389b641d86d1d88dcaf9cb31f8c61fbc83a1cd5d91f51124992f9697c7c6fa756cdace924ee04151c5092d6516d91f068c0b38853423442958a6871c943c0d70"
+RPM_NAME = "lua-clingo-5.8.0-2.4.aarch64.rpm"
+RPM_HASH = "7d005d21df64b70f1907157c8c47f452cc926b2afea70c0096e18496b602c8686368686899a8e9b192a63dbc041607eff18c1bd29b6ac8b5bb4da2c8c5548c85"
 
 RPROVIDES:${PN} += "lua-clingo"
 

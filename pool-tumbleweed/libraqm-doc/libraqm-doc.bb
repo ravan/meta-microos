@@ -2,10 +2,10 @@ SUMMARY = "Libraqm documentation"
 DESCRIPTION = "This package contains documentation files for raqm."
 LICENSE = "MIT"
 
-PV = "0.10.1"
+PV = "0.11.0"
 
-RPM_NAME = "libraqm-doc-0.10.1-1.1.noarch.rpm"
-RPM_HASH = "fee7f5c368e94728bc790df852063210b920a4d656d9a49e979ab5b2edca7b2ecb99306cfbf6789b802918e9af95d6e86d37931624b0b11105a799d62d11c574"
+RPM_NAME = "libraqm-doc-0.11.0-1.1.noarch.rpm"
+RPM_HASH = "3c4aa940b018c51390dcd9a1179a2972804f31426cfc58a7f994e968be94e5dc98a02af448ed11c28561da30d42869f76deecc85809a1041f35228e7b498447c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libraqm-doc"

@@ -4,10 +4,10 @@ DESCRIPTION = "Class and package files building on iso for typesetting the ISO \
 packages have been published by ISO."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn15878"
 
-RPM_NAME = "texlive-iso10303-2023.209.1.5svn15878-56.1.noarch.rpm"
-RPM_HASH = "68bc8bfe25ea2657677afe06348198cd003997ebf51be247061e541309480301761ece1072342d543ded84b7e29844258d458a87d318fda99ad4e0fc9413b784"
+RPM_NAME = "texlive-iso10303-2026.226.1.5svn15878-63.2.noarch.rpm"
+RPM_HASH = "210faace68d2320052899b1f3560abde5265947f1c538e3f8ea68eb3b8cb55d1f9f1c56cf51748c3b29e81cbadec42a9225e8e11349c3080fbf8eab89726c0d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-aicv1.sty \

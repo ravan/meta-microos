@@ -7,10 +7,10 @@ support files allow their use as calligraphic, fraktur and \
 double-struck (blackboard bold) in maths mode."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.0svn22426"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-esstix-2023.209.1.0svn22426-53.1.noarch.rpm"
-RPM_HASH = "64491aeb39c36f261f3b82b9290f256626ca56844d8458b27864a5c023be3bd972a8057d49a57ca0125cb0c3cb7e81389ab09203ac90321c76f785e6c9cb29e2"
+RPM_NAME = "texlive-esstix-2026.226.1.0svn77682-59.2.noarch.rpm"
+RPM_HASH = "dc01f1c7810086bd231c183376d2db255555fc9e5067656b4499ca05e573b01139f58b7830fc9972c6c492a2e4091e83d733721a689c4c6e6465ecf25f16cfdd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ESSTIX.map \

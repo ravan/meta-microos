@@ -2,13 +2,16 @@ SUMMARY = "Chinese"
 DESCRIPTION = "Support for Chinese; additional packages in collection-langcjk."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn63995"
+PV = "2026.222.svn77432"
 
-RPM_NAME = "texlive-collection-langchinese-2023.208.svn63995-60.1.noarch.rpm"
-RPM_HASH = "2d096f9f950089148f6a2a7b17f17071e4d494a73d0db23012f4190fde33c40a05a7eb91e84ac2525b1d4ea3eda18077efecf229fceee15ce21f561e82d9bb2e"
+RPM_NAME = "texlive-collection-langchinese-2026.222.svn77432-68.2.noarch.rpm"
+RPM_HASH = "739e00cd7f1640149927aa9fab33403c9f56b4c5d5c4b4c48508834af88edf5339c4876cb7a947c8a5944370e805bf98c2c97acf72154173ef92106fcfbea770"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langchinese"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-chinese \
+texlive-collection-langchinese"
 
 RDEPENDS:${PN} += "texlive-arphic \
 texlive-arphic-ttf \
@@ -28,10 +31,14 @@ texlive-impatient-cn \
 texlive-install-latex-guide-zh-cn \
 texlive-latex-notes-zh-cn \
 texlive-lshort-chinese \
+texlive-luatex-cn \
+texlive-lxgw-fonts \
 texlive-nanicolle \
 texlive-njurepo \
 texlive-pgfornament-han \
 texlive-qyxf-book \
+texlive-sjtutex \
+texlive-suanpan-l3 \
 texlive-texlive-zh-cn \
 texlive-texproposal \
 texlive-tlmgr-intro-zh-cn \

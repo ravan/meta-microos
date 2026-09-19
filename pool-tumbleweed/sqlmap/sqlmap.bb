@@ -9,16 +9,15 @@ file system, and executing commands on the operating system via out-of-band \
 connections."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.7"
+PV = "1.10.9"
 
-RPM_NAME = "sqlmap-1.7.7-1.1.noarch.rpm"
-RPM_HASH = "2973603bb4f4de1774b9f0a6fa98aa0a0702f621883f68b1f9e5f022d5201abca27ba71e44eb93c061e311156a714f6a60c84b065105741acf4a23dfc203e954"
+RPM_NAME = "sqlmap-1.10.9-1.1.noarch.rpm"
+RPM_HASH = "e3ba37a3a9316977c73d259f958b8a46e1ac7ee536a75d7a18c07b3f9e1c0d4b8e43dc7914cca42afac990c247c60e749f3409cc9550e5d2dfdd62b0eb2ca3fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sqlmap"
 
-RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3 \
 /usr/bin/sh \
 python3"
 

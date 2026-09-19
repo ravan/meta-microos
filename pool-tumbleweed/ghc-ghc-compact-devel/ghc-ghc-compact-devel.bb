@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.0.0"
 
-RPM_NAME = "ghc-ghc-compact-devel-0.1.0.0-1.1.aarch64.rpm"
-RPM_HASH = "c81ede2708cb7630fe68ea7d9f9948985f39366dbab31874a18a4f7116f919602fda9823d8d80938493d50065a49a8187eafb0b59ced2bc31fce5bbf55ab40a9"
+RPM_NAME = "ghc-ghc-compact-devel-0.1.0.0-1.3.aarch64.rpm"
+RPM_HASH = "0e20da710006d3f1a681a3a8fb9dc289938c1ec7e4b53d28d49ce830c310eeec25269efcb21a51228765a122349da484421a172ded2253d61f1e1a393cc85830"
 
-RPROVIDES:${PN} += "ghc-devel-ghc-compact-0.1.0.0 \
+RPROVIDES:${PN} += "ghc-devel-ghc-compact-0.1.0.0-bdec \
 ghc-ghc-compact-devel \
 ghc-ghc-compact-static"
 
 RDEPENDS:${PN} += "ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-ghc-prim-0.9.1 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-ghc-prim-0.13.0-f55c \
 ghc-ghc-compact"
 
 inherit rpm

@@ -6,14 +6,15 @@ this class. Methods which are related to folders is implemented in the \
 Mail::Box::Message extension."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "3.013"
+PV = "4.50.0"
 
-RPM_NAME = "perl-Mail-Message-3.013-1.2.noarch.rpm"
-RPM_HASH = "2cb55f33233fe0eaf3b625d58286dd09f467bfd9efb7511a522f9b3f9bb804bac6459d383085d65de07575791904e17a6bd951ec1dbcf4c1d675949fcbcf149f"
+RPM_NAME = "perl-Mail-Message-4.50.0-1.3.noarch.rpm"
+RPM_HASH = "cd18bb7e499baf842f15a8ac272044ccaed7872f64d4d7d2e883d37eec5fa9cf3b0eedf1a064d32c4076e77b08867d33b73b3182674b2855e4ea62bf886fbad7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mail--Box--FastScalar \
 perl-Mail--Box--Parser \
+perl-Mail--Box--Parser--Lines \
 perl-Mail--Box--Parser--Perl \
 perl-Mail--Message \
 perl-Mail--Message--Body \
@@ -64,13 +65,17 @@ perl-Mail--Message--TransferEnc--SevenBit \
 perl-Mail--Reporter \
 perl-Mail-Message"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Date--Format \
 perl-Date--Parse \
 perl-Encode \
+perl-Hash--Case \
+perl-IO--Lines \
 perl-IO--Scalar \
+perl-Log--Report \
 perl-MIME--Types \
 perl-Mail--Address \
+perl-String--Print \
 perl-Time--Zone \
 perl-URI \
 perl-User--Identity"

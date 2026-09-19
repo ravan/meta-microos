@@ -10,10 +10,10 @@ The current MiniSat v2 supports variable elimination style \
 simplification, too."
 LICENSE = "MIT"
 
-PV = "2.2.1+20200902"
+PV = "2.2.1+20230206"
 
-RPM_NAME = "minisat-2.2.1+20200902-3.5.aarch64.rpm"
-RPM_HASH = "a7c426e04915267f1bfc7558728f73ce9d3a6e85912c94dbae803a9cdb25691bcb2324a6434ffef345af70302e7b49934288459c485f8b7f36e5a5a04f450f16"
+RPM_NAME = "minisat-2.2.1+20230206-1.5.aarch64.rpm"
+RPM_HASH = "97ceb51c39e399e7760cf12885b619692fed2f246f05307a5ece47c1cc36dfc077110137c8700f24bcaa11fc09c8c6a74c44b5143e170be348759d9d9de26910"
 
 RPROVIDES:${PN} += "minisat"
 

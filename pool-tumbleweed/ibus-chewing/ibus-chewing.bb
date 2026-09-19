@@ -4,21 +4,21 @@ libchewing. \
 新酷音輸入法"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.6.1"
+PV = "2.1.7"
 
-RPM_NAME = "ibus-chewing-1.6.1-2.17.aarch64.rpm"
-RPM_HASH = "8adb5a92bc74afa58671a1b71511613ba7e48d2fd5fe2ff7d680d5120d04f06ea01aec4e5bf58e3dcbcf1310515cbba84f9b814050ca6a07cacfae9d6fff9b4f"
+RPM_NAME = "ibus-chewing-2.1.7-1.3.aarch64.rpm"
+RPM_HASH = "68325bb562b8eeb813025683dcd2aabd7c4b77539473703491bc535e185370b37520318374fa84df4e3770ea73d8f032d8a2f80a529926481cc79d6e4973cee5"
 
 RPROVIDES:${PN} += "ibus-chewing"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libX11.so.6 \
+libadwaita-1.so.0 \
 libc.so.6 \
 libchewing.so.3 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
+libgtk-4.so.1 \
 libibus-1.0.so.5"
 
 inherit rpm

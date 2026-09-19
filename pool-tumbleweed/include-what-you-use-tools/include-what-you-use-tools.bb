@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains additional scripts for using include-what-y
 refactoring tool."
 LICENSE = "NCSA"
 
-PV = "0.20"
+PV = "0.26"
 
-RPM_NAME = "include-what-you-use-tools-0.20-1.2.noarch.rpm"
-RPM_HASH = "ba73a3f685cd24f00c18f47deb60058fbe0f658a1c56f7bf4fe80b7093998b543df980da2e6e7b1b3322b04343772c6e1560d958594706d535f918a6a54e79f9"
+RPM_NAME = "include-what-you-use-tools-0.26-1.4.noarch.rpm"
+RPM_HASH = "eaf842b10df3027b29be1c9c834797f3402ce0a2e3acb6295d10aa68a29fe90f00903e8cc735a2c2f5412fc2cf4278f408f5ae1077fb89b7b68199624e229fc9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "include-what-you-use-tools"

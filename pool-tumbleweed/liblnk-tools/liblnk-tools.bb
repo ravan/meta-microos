@@ -2,10 +2,10 @@ SUMMARY = "Tools to access the Windows Shortcut File (LNK) format"
 DESCRIPTION = "liblnk is a library to access Windows Shortcut File (LNK) files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230716"
+PV = "20260525"
 
-RPM_NAME = "liblnk-tools-20230716-2.1.aarch64.rpm"
-RPM_HASH = "087064e158fb5e065b02e778aa5de6387aa074586fc8ef400499d157574d45b7e5f396c6b183f88a458d672a2a088246ac5a8e7dfd7aad9b9e17bd28f87f792e"
+RPM_NAME = "liblnk-tools-20260525-1.10.aarch64.rpm"
+RPM_HASH = "a78cc0303da18378ed73ee38258254cc054c04907d7520b412b30dbe445b851163817ce4e00f4fe954efa474880f78a424544085a406f8e03ecb2b2e3f754e28"
 
 RPROVIDES:${PN} += "liblnk-tools"
 

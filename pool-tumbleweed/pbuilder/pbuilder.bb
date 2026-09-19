@@ -12,17 +12,13 @@ testing/unstable/whatever \
 image. \
  \
 pdebuild is a wrapper for developers, to allow running pbuilder \
-just like 'debuild', as a normal user. \
- \
-Authors: \
--------- \
-    Junichi Uekawa"
+just like 'debuild', as a normal user."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.231"
+PV = "0.231.1"
 
-RPM_NAME = "pbuilder-0.231-1.4.noarch.rpm"
-RPM_HASH = "f258f3b4af74c1cd327af811f35aede380bcd48cf2fae5df02787c2a6b9c6d38492e38bc276278f56e1339e73a4ea59382ade6d58a7634d0565641d2bc821188"
+RPM_NAME = "pbuilder-0.231.1-1.3.noarch.rpm"
+RPM_HASH = "a6ff907afc65240afa14e086980aa5f7cfcd5b70e0e380ecc25d82134c316ebb5211a2f36b8cbea436b8ac36d0936698d5cf7c1415e7f837e389842119fbc341"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-pbuilder \

@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.6.7.1617863126.0d6b4c8"
 
-RPM_NAME = "metatheme-numix-common-2.6.7.1617863126.0d6b4c8-2.6.noarch.rpm"
-RPM_HASH = "e2f2390b9eac85d1cadb77ea8308aa23bffbf95fc9a104ad61a36c8a2b93dbeebe397a6c8a09c64d4257e8b5d37000a5aa91ded48de7fcd08e9202898ba3a0ec"
+RPM_NAME = "metatheme-numix-common-2.6.7.1617863126.0d6b4c8-4.2.noarch.rpm"
+RPM_HASH = "af61e9f993bfab4bc468bd323c5ede5b0c804082cbf605b26218578a34048bc36dc8c28180568a9beaa9f9347426cc907de89b165bcde50e6baeeb43fe7fbcab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "metatheme-numix-common"

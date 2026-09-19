@@ -5,10 +5,10 @@ XeLaTeX. Everything else remains the same and users should \
 consult the original documentation for usage information."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn54080"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-xechangebar-2023.209.1.0svn54080-53.2.noarch.rpm"
-RPM_HASH = "7f6973fe2c7effe83b4da80a3ef3a7f54ed61c567362cad6e67accbd1863fbb6668b3d6a5305afc84d2ae59c459c24fc809ef682c83deaec2230880a36aab902"
+RPM_NAME = "texlive-xechangebar-2026.226.1.0svn77682-59.4.noarch.rpm"
+RPM_HASH = "d59f612f4c1ce78cdc094230e69334d10571739694db91a9d6b78a82b1354a4bcf4c29586298d763983415eb59691d50276234cb1b947923a488c097c5ca380d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xechangebar.sty \

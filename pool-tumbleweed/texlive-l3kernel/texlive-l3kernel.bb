@@ -7,10 +7,10 @@ TeX programmers. The packages are set up so that the LaTeX3 \
 conventions can be used with regular LaTeX2e packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66094"
+PV = "2026.226.svn77438"
 
-RPM_NAME = "texlive-l3kernel-2023.209.svn66094-56.1.noarch.rpm"
-RPM_HASH = "f44ac475b55b2574939a070ba0852c3537b98f13b6e52f71008ce08e74cc6c84621d525f174d7a8222fa63938deb17707bd0ea69e3904adbe2e51b19e260abd0"
+RPM_NAME = "texlive-l3kernel-2026.226.svn77438-63.2.noarch.rpm"
+RPM_HASH = "24595dc09867317f983e3558985c38875abad15db2b478dff76453078cc7a6cf92b746c907d7e8516cae51c90c170dfa3b4ab2b48cd528e4e75ed16a749e2ac5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-expl3-code.tex \
@@ -53,6 +53,7 @@ texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
+texlive-lua-uni-algos \
 texlive-scripts \
 texlive-scripts-bin"
 

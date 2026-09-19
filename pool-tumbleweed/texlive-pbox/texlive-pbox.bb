@@ -5,10 +5,10 @@ given. The package also defines some associated length \
 commands."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.2svn24807"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-pbox-2023.209.1.2svn24807-52.1.noarch.rpm"
-RPM_HASH = "32c244110035e14e4fa2e13dd16a8688967ec923a7fb220acb04720b59a1034db8a9d649f0523014a6e1b133462a2e3e452a438a8140db6b29832e0520e61150"
+RPM_NAME = "texlive-pbox-2026.226.1.2svn77682-58.2.noarch.rpm"
+RPM_HASH = "85e0bbf34dcf2f2152799f44d7c25ac1f7566a4f0602ab09f23b35adeae1eab59551209f2768c7d89cb441467dfb72149940efde6940ec0eb806ccf739059abe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pbox.sty \

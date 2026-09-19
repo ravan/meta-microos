@@ -9,10 +9,10 @@ With File::Find::Object you can get the next file by calling the next() \
 function, but setting a callback is still possible."
 LICENSE = "Artistic-2.0"
 
-PV = "0.3.8"
+PV = "0.3.9"
 
-RPM_NAME = "perl-File-Find-Object-0.3.8-1.2.noarch.rpm"
-RPM_HASH = "a9363754bce274ea54bf9b7b47ad1b76ac8e776c2445110356f340bd726ff6c5e2b64b4249f88486d25f35ff1f5b420959892ad57a1a440ee2a13c68224c81df"
+RPM_NAME = "perl-File-Find-Object-0.3.9-1.10.noarch.rpm"
+RPM_HASH = "119f732bae798a9a467ea2bc961c096bde3381de0d24d2514012837a3659587d98123fa301a1489fee39ed69c19a95f4c94e10788f6a66cd19acddfefbc106eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Find--Object \
@@ -23,7 +23,7 @@ perl-File--Find--Object--Result \
 perl-File--Find--Object--TopPath \
 perl-File-Find-Object"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--XSAccessor \
 perl-parent"
 

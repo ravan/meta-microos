@@ -6,18 +6,22 @@ fast integer and polynomial arithmetic and linear algebra. \
  \
 This subpackage contains the include files and library links for \
 developing against the FLINT library."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "LGPL-3.0-or-later"
 
-PV = "2.9.0"
+PV = "3.6.0"
 
-RPM_NAME = "flint-devel-2.9.0-2.2.aarch64.rpm"
-RPM_HASH = "eae15be547d98a45de685465a25902484fea47a6020ba8f285bcbf5e4d08ae254545289747a8fa12dba43e55d16d10c59ecf66cbcad0899e4323af1f4cf5c548"
+RPM_NAME = "flint-devel-3.6.0-1.2.aarch64.rpm"
+RPM_HASH = "8f8e426b9ee550fb20551dae49e08bcbe46987c242164d881dbb571d1a0b677dc7fed95aee838ebd4fec1b9fafcab24250c9f9e8ef8564cd2befb4bafd623da5"
 
-RPROVIDES:${PN} += "flint-devel"
+RPROVIDES:${PN} += "flint-devel \
+pkgconfig-flint"
 
-RDEPENDS:${PN} += "gmp-devel \
-libflint17 \
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+gmp-devel \
+libflint24 \
 mpfr-devel \
-ntl-devel"
+ntl-devel \
+pkgconfig-gmp \
+pkgconfig-mpfr"
 
 inherit rpm

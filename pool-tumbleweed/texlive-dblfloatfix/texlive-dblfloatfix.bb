@@ -5,10 +5,10 @@ come out in the right order and allowed float positions are now \
 stfloats."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn28983"
+PV = "2026.226.1.0asvn77682"
 
-RPM_NAME = "texlive-dblfloatfix-2023.209.1.0asvn28983-53.1.noarch.rpm"
-RPM_HASH = "98890a272f6ab9c7f62b91d161c416c10543456b1b38202fb0b8e8bcb0b24fa34ebba1fc342f19ab5497fb9ec474e95559f08e858336be1209fdb1703d61595a"
+RPM_NAME = "texlive-dblfloatfix-2026.226.1.0asvn77682-59.2.noarch.rpm"
+RPM_HASH = "57c17f1671a2eec3e204da08f3c6ef4ad822b5730e3ea555c1c15767e90547c9349275faa58856a19e79db16e5701efb68549bcd9375f6cf31c502b326bbd721"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dblfloatfix.sty \

@@ -28,43 +28,49 @@ interface) is now very different to that of QtMPC. For more detailed \
 information, please refer to the main README."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.5.0"
+PV = "3.5.0"
 
-RPM_NAME = "cantata-2.5.0-3.1.aarch64.rpm"
-RPM_HASH = "87e8233f640f3364712591c7c3c6b8320b068677e0131e45de66a245ed776397159e6af17a61ed0062a86627c7ced103459bebc401b9affdc1acc21e43a488d4"
+RPM_NAME = "cantata-3.5.0-1.2.aarch64.rpm"
+RPM_HASH = "38d32803959fdb1d32d1240c9755e4d191dbad7a93b2ed59a0248bc30a4d7f148461fd348162e20752b38abbd771da7dd3cdec1940ffdf410125ca76878efcb9"
 
 RPROVIDES:${PN} += "cantata"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/perl \
+/usr/bin/env \
+fontawesome-fonts \
 hicolor-icon-theme \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5Sql.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libKF6Archive.so.6 \
+libKF6ItemViews.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6Sql.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
+libavahi-client.so.3 \
+libavahi-common.so.3 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcddb.so.2 \
 libcdio-cdda.so.2 \
 libcdio-paranoia.so.2 \
+libebur128.so.1 \
 libgcc-s.so.1 \
 libm.so.6 \
 libmpg123.so.0 \
 libmtp.so.9 \
 libmusicbrainz5.so.1 \
 libstdc++.so.6 \
-libtag.so.1 \
+libtag.so.2 \
 libudev.so.1 \
-libz.so.1 \
 media-player-info \
-update-desktop-files"
+mpd \
+qt6-sql-sqlite"
 
 inherit rpm

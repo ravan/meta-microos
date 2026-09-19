@@ -2,10 +2,10 @@ SUMMARY = "Documentation files for python bindings libcomps library"
 DESCRIPTION = "Documentation files for python bindings libcomps library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.1.19"
+PV = "0.1.21"
 
-RPM_NAME = "python-libcomps-doc-0.1.19-2.4.noarch.rpm"
-RPM_HASH = "082591aa4762b2d847611484efd3ad2bf3dc922ef735cbf6f78e279a9818ae63e164651120116c6cf9cff484cdb2e813385d0857d5d7ff8ca1f3959fa465794a"
+RPM_NAME = "python-libcomps-doc-0.1.21-2.7.noarch.rpm"
+RPM_HASH = "215c7a1f9a684c642cef50284dd1e32bdceca0684f9a299bd14223ed109f6d67ca4bb8662dca5fc74a0465f6ef55cfeaa086392f8dc6cbc04ed7202bb407d2e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-libcomps-doc"

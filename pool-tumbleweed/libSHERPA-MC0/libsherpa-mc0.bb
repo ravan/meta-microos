@@ -10,10 +10,10 @@ written in C++. \
 This package provides the shared libraries for Sherpa."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.2.12"
+PV = "2.2.16"
 
-RPM_NAME = "libSHERPA-MC0-2.2.12-3.4.aarch64.rpm"
-RPM_HASH = "18631a0ab6445ca578c52be6d30ae7c01ff47797b5c988850688c1d2d27f8c628d86dcb5fc99f3db58078f125df584e4d58d99ca23817e7f340e9ebbb4d2c2c1"
+RPM_NAME = "libSHERPA-MC0-2.2.16-1.5.aarch64.rpm"
+RPM_HASH = "a14437144d23f327226f131b91b7daf9d5e40520a72c2d1ab6566862c89016644b3e5197a8ddc4a427fa9d634f5cf1529281e994002b2474baa372d8edbebbac"
 
 RPROVIDES:${PN} += "libAhadicDecays.so.0 \
 libAhadicFormation.so.0 \
@@ -125,12 +125,12 @@ libZfunctions.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libHepMC3.so.3 \
+libHepMC3.so.4 \
 libHepMC3search.so.5 \
-libLHAPDF-6.5.4.so \
-libRivet-3.1.8.so \
+libLHAPDF-6.5.5.so \
+libRivet-4.1.2.so \
 libSHERPA-MC-config \
-libYODA-1.9.8.so \
+libYODA-2.1.2.so \
 libc.so.6 \
 libfastjet.so.0 \
 libfastjetcontribfragile.so \
@@ -139,8 +139,10 @@ libfastjettools.so.0 \
 libgcc-s.so.1 \
 libgfortran.so.5 \
 libgmp.so.10 \
+libhdf5-hl.so.310 \
+libhdf5.so.310 \
 libm.so.6 \
-libsiscone-spherical.so.0 \
+libsiscone-spherical.so \
 libsiscone.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

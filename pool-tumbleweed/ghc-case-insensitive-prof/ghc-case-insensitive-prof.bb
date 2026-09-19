@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.1.0"
 
-RPM_NAME = "ghc-case-insensitive-prof-1.2.1.0-6.4.aarch64.rpm"
-RPM_HASH = "4c760b5a43ad6dc9d5217a8d4a9e2489f10321a9b7325184b91f5bd87cd5fdaa9adc39358e2c1039004030c1b5fe4fe9a43ead4933d152c5956147eb4355ff01"
+RPM_NAME = "ghc-case-insensitive-prof-1.2.1.0-6.29.aarch64.rpm"
+RPM_HASH = "61c4bd019a7e9df93d9247b10c5512ce60c14a2e5595b099674956ee8ee31f6ef7c340fcfb447d7b8c9ce512023bde265833f723b4adc477fec6963af4f9c714"
 
 RPROVIDES:${PN} += "ghc-case-insensitive-prof \
-ghc-prof-case-insensitive-1.2.1.0-1a748JZqftHHwwFVz8QP9"
+ghc-prof-case-insensitive-1.2.1.0-8WhhA2fjmpX8lBECkgmLqC"
 
 RDEPENDS:${PN} += "ghc-case-insensitive-devel \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-prof-text-2.0.2"
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-prof-text-2.1.4-cf23"
 
 inherit rpm

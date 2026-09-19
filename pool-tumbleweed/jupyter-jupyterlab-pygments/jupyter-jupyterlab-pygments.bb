@@ -2,14 +2,14 @@ SUMMARY = "Pygments theme for jupyterlab -- Jupyterlab extension files"
 DESCRIPTION = "This package contains the Jupyterlab extension files for python-jupyterlab-pygments"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.2"
+PV = "0.3.0"
 
-RPM_NAME = "jupyter-jupyterlab-pygments-0.2.2-3.5.noarch.rpm"
-RPM_HASH = "1ea6aaf8a5f8ac81574a660e96fdc2bfec74bd90768da87509e71487f50967d6d975a83dbe2e6d4282611f5aa98cf24b8f029f5730a64f9c74dac5e42a0c4a1d"
+RPM_NAME = "jupyter-jupyterlab-pygments-0.3.0-4.7.noarch.rpm"
+RPM_HASH = "65d402fe35025749e17c3bdb0440bc0cfc3c7b7e5dbdeabfe27d2c10c046a8a626a28fbd1dbc35373a32630318495ee5ccd586622103963aaae6be344742ccc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-jupyterlab-pygments"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "python3dist-jupyterlab-pygments"
 
 inherit rpm

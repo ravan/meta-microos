@@ -2,10 +2,10 @@ SUMMARY = "Translations for package cinnamon-control-center"
 DESCRIPTION = "Provides translations for the 'cinnamon-control-center' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.8.2"
+PV = "6.6.2"
 
-RPM_NAME = "cinnamon-control-center-lang-5.8.2-1.1.noarch.rpm"
-RPM_HASH = "dd83ccdacbc25c3c989d652c5a2c5e72c3b3b6b54eebe5d271eca03ac1ef47620d17026dec3cd5082be009213ddb31cb7052ba448495012422bb295b5ea25fbc"
+RPM_NAME = "cinnamon-control-center-lang-6.6.2-1.2.noarch.rpm"
+RPM_HASH = "fa091aaf7691a58dcf7a33bbdff39a266deac6278f4eb4900c0231b1bf2df76aa3fea256357752955c3b1629641e06c79116b92a05323121dd6f3a3f48773ba5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "cinnamon-control-center-lang \

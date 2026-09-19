@@ -2,10 +2,10 @@ SUMMARY = "SCSI command function library"
 DESCRIPTION = "A library to create and parse SCSI commands (at the byte level)."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "libscgcmd1_0-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "c726bc66fa0985d91247d81d9a8d03956ccaf91bd398b9f7ad7f8f0acf8d647645b07be4ba72c8d1a5f85712c0e52f9831dd460d8f449a0447e5fd643030caab"
+RPM_NAME = "libscgcmd1_0-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "9253e84f9106e2bbe8f8c59490aeec9b84fd198d989afd3f48b2ed91f94144ff76ff946d79f5f9e5b69d594387d107bc0943da19e63e27706cf0317c1e25e6ec"
 
 RPROVIDES:${PN} += "libscgcmd.so.1.0 \
 libscgcmd1-0"

@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-bangla"
 DESCRIPTION = "The  separated fonts package for texlive-bangla"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn65786"
+PV = "2026.226.2.1svn76924"
 
-RPM_NAME = "texlive-bangla-fonts-2023.209.2.1svn65786-54.1.noarch.rpm"
-RPM_HASH = "94bad64eaca35d7a585919b964dc32b20065d70e6b0894daa386e952abdfadc2fac9804dc0b702c227cf771314f8494ae16ba6c8227c3921ce6e92fc2d07ed3d"
+RPM_NAME = "texlive-bangla-fonts-2026.226.2.1svn76924-60.2.noarch.rpm"
+RPM_HASH = "45b12f01c9d115d2accee3fee5eea9cfaa3330d5c95976d9d5bb54066fdaf4a61802c7b83d0de9aeb8c01095fe2445826ecea595e95df0afcc27efc6eb8974ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=as \
+font--lang=bem \
 font--lang=bn \
 font--lang=fj \
 font--lang=ho \

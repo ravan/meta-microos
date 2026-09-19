@@ -1,17 +1,15 @@
 SUMMARY = "OCaml bindings for Augeas configuration API"
 DESCRIPTION = "Augeas is a unified system for editing arbitrary configuration \
 files. This provides complete OCaml bindings for Augeas."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.6"
+PV = "0.7"
 
-RPM_NAME = "ocaml-augeas-0.6-1.4.aarch64.rpm"
-RPM_HASH = "55d127b52ee407d00e2c2bf6832aa7cb0ba8c1b718a774a024e8e90fd7c0478fee7da2cd7a2c108f00989cfe18ca34263f1ed6831a50556968d960dd280481e7"
+RPM_NAME = "ocaml-augeas-0.7-3.2.aarch64.rpm"
+RPM_HASH = "7dc3e2843737df32a6b70d730a2b3fbd150ef59862d1c2c719ae600d96b9bf68e0560c7573b7958697a0b1ed928407a2f00f4ca09e390522828ab509f367a087"
 
 RPROVIDES:${PN} += "ocaml-augeas"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libaugeas.so.0 \
-libc.so.6"
+RDEPENDS:${PN} += ""
 
 inherit rpm

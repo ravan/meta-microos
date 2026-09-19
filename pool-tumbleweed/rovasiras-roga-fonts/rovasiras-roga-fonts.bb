@@ -5,8 +5,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20230908"
 
-RPM_NAME = "rovasiras-roga-fonts-20230908-1.1.noarch.rpm"
-RPM_HASH = "bdb12955d8b29fc4d4036e9280b360e53bc207a45c846d40b5416d45bd4bcf33c17334e5e0e1f60b0fe8b71b7da60b73d44a9d1a7465b6b311905a3fec5502ab"
+RPM_NAME = "rovasiras-roga-fonts-20230908-1.9.noarch.rpm"
+RPM_HASH = "54b4948fa62c637e90df483d5950df00c89ae3cb6e8d26e613c8d8af85547b03e9e09a950ecfe2175257ee9c34c143da14b2ca83599d1dd042ddfb561ef766ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rovasiras-roga-fonts"

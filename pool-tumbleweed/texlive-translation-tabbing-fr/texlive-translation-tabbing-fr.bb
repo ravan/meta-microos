@@ -3,10 +3,10 @@ DESCRIPTION = "A translation to French (by the author) of the documentation of \
 the Tabbing package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24228"
+PV = "2026.226.svn24228"
 
-RPM_NAME = "texlive-translation-tabbing-fr-2023.209.svn24228-53.1.noarch.rpm"
-RPM_HASH = "67e62bb572313459df94800f54aeeb100ac209b44069ba8c10311bb1c8338304b809b85b575fda08ff313057a6c3d889ba840bbcc3dabe21189a2cc870b5e4a3"
+RPM_NAME = "texlive-translation-tabbing-fr-2026.226.svn24228-59.2.noarch.rpm"
+RPM_HASH = "84ca87915c7ae0ae415e3873749f2defd4da4a8732685741c982664028a79148a12e1b15b192cc227db16e0558f96c02859cf7b45c7551565e5644dac4695365"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-tabbing-fr"

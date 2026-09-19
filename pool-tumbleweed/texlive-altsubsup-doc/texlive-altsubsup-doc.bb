@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-altsubsup"
 DESCRIPTION = "This package includes the documentation for texlive-altsubsup"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn62738"
+PV = "2026.226.1.1svn62738"
 
-RPM_NAME = "texlive-altsubsup-doc-2023.209.1.1svn62738-55.1.noarch.rpm"
-RPM_HASH = "85a0c612c556d7b333721f040e5c40c34189f16ab3f5e0ac11502dbf5265e94b90c1840f89cf2c1a6ee826b5f7a0c69cde29384bc9092b5a155198022787d315"
+RPM_NAME = "texlive-altsubsup-doc-2026.226.1.1svn62738-61.2.noarch.rpm"
+RPM_HASH = "5af5098f1bf04b4adf3285b9d11125acb416ceb0bb7f26f56e997e3dc3e7f2122f075a617cd7728339480c0b94436e9bb0090133193b6f49b2930d933b590ec1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-altsubsup-doc"

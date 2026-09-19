@@ -4,12 +4,12 @@ digital negatives in a database and can show them through a zoomable \
 lighttable. It also enables developing raw images and enhance them. \
  \
 This package provides the noise profiling tools to add support for new cameras."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "AGPL-3.0-or-later & GPL-3.0-or-later"
 
-PV = "4.4.2"
+PV = "5.6.1"
 
-RPM_NAME = "darktable-tools-noise-4.4.2-1.1.aarch64.rpm"
-RPM_HASH = "2a55c4db47d32ffd492af04604dd49cd57c7b65131e0aa9ac01327f7e244337e98037164f93b194736bac0a64aead75171f45ecc1463ac80b91f7a54b32f63a8"
+RPM_NAME = "darktable-tools-noise-5.6.1-1.1.aarch64.rpm"
+RPM_HASH = "16e232be63e46cea105e3c8c2def2818865d68fe02934df45bdeb2d24af845b4e2e0a12145fdf54b31fde77a568de7a564832051f7c77e2a1f2291524ffe370a"
 
 RPROVIDES:${PN} += "darktable-tools-noise"
 

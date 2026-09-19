@@ -21,8 +21,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.5.0"
 
-RPM_NAME = "jedit-5.5.0-5.10.noarch.rpm"
-RPM_HASH = "c688155a24e2b6e55f16eab6989495f9c14aa343e2352cfd2c1ed6491f2b085442ad66f024842ffa008c664fe9fab00edb43e26fed19b4c8e6363e8ba2f44f38"
+RPM_NAME = "jedit-5.5.0-7.9.noarch.rpm"
+RPM_HASH = "7ae497c457a7eacabe4a4e4f3904014d0dd1f045f73307ebe1971b7f8dc74ff3177ba4bf427a6f2472ebde9d94ad792e7b0da26ab2ba075c8e8bc6d82a5dc051"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jedit"

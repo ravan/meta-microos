@@ -4,8 +4,8 @@ LICENSE = "MIT & X11"
 
 PV = "0.3.2"
 
-RPM_NAME = "keybinder-3.0-devel-0.3.2-1.25.aarch64.rpm"
-RPM_HASH = "26f355be4d017e77130b588e3b38a7836096c06aa786ff12ac0dc70096d730655fb6961ea2aad3a19ed981ed82adff68c9df1d41dcea8989ab896b9fcbf426fc"
+RPM_NAME = "keybinder-3.0-devel-0.3.2-1.36.aarch64.rpm"
+RPM_HASH = "44c8957a5495daddb3a0bb30b88a8c80aaf5a79ef32b77a5a6fb0c7e18e5853ce0d57b0f9f881372ab845818b6713fc3cbf4e428d9191e792859c86883e75521"
 
 RPROVIDES:${PN} += "keybinder-3.0-devel \
 pkgconfig-keybinder-3.0"

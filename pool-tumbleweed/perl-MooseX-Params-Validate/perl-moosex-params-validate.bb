@@ -9,15 +9,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.21"
 
-RPM_NAME = "perl-MooseX-Params-Validate-0.21-1.27.noarch.rpm"
-RPM_HASH = "b24f97fd93866d7b32fc6d7246e375091d69b52e9fb2fee5462fc7c60fee56cb10bb2f97346f37cda4c059b85ae0b3bd9e4148954b0ad64147ad363f22aa5286"
+RPM_NAME = "perl-MooseX-Params-Validate-0.21-1.41.noarch.rpm"
+RPM_HASH = "6014c2db0526087a2986e15d944a2ccbc1259177aacf9772469fe33c3b9b6c4d3e2f8bf2cb83f263899e483b3d023d02085904da8429a04b2f915c6daa6674a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Params--Validate \
 perl-MooseX--Params--Validate--Exception--ValidationFailedForTypeConstraint \
 perl-MooseX-Params-Validate"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Devel--Caller \
 perl-Moose \
 perl-Moose--Exception \

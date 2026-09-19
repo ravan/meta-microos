@@ -7,10 +7,10 @@ and does not require ncurses. \
 This package provides the completion file for bash"
 LICENSE = "MIT & MPL-2.0"
 
-PV = "4.66.1"
+PV = "4.70.0"
 
-RPM_NAME = "python-tqdm-bash-completion-4.66.1-2.1.noarch.rpm"
-RPM_HASH = "38428212c052c13f3ef31b436357949f2d9646b36d3668cce87a6b2a423fdce24a0b1163b8b96557b677d55955bb75d71f925a61d92b19933635dad463d00c21"
+RPM_NAME = "python-tqdm-bash-completion-4.70.0-1.1.noarch.rpm"
+RPM_HASH = "c0ed3b15bede715471f611d1d1065a9f2f09873c3579068fa14bebbfb62d88a5b0c05a2a99a434eb72e6a144885c1edb044a6ee0c4242724a042c59169cce897"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-tqdm-bash-completion"

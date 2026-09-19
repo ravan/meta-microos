@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-m68k-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "51116a7f711ad56c89d25081f2d1892c762de02b5f24320f3f5eef220282e7b6199e1269a709dcb2e92f07b689d44436b4b45e87d136cf7a99b94f68fe34b698"
+RPM_NAME = "cross-m68k-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "ee01c7956b465b6da4b3cbf020b0c5e97016260467f7962d490b2886fb4a8fe4fd6fa6e8604004fbc666c30461f1ad460af226f672ef87bcd9cd128445097801"
 
 RPROVIDES:${PN} += "cross-m68k-gcc7 \
-liblto-plugin.so.0"
+liblto-plugin.so.0 \
+m68k-suse-linux-gcc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 cross-m68k-binutils \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "1.22.8"
 
-RPM_NAME = "typelib-1_0-CoglPango-1_0-1.22.8-2.12.aarch64.rpm"
-RPM_HASH = "1f9577498f8a52f5d7d112cefda9a9df927c5a15ca0906d640d22271cfe3c549333d3b3f2ad82ff9b3219f3ddf2c454897d1231194170af4e7ad5d3b3e34c4bd"
+RPM_NAME = "typelib-1_0-CoglPango-1_0-1.22.8-3.7.aarch64.rpm"
+RPM_HASH = "6877848b3efe095a41a59aa9b9c110d49a2cbce2cd0a6fdc02b1d26f99a9fbe6ac18a210fc4ac72d4fbf04345794e3fda1d331a1a1966c12d58fe71de5c84188"
 
 RPROVIDES:${PN} += "typelib-1-0-CoglPango-1-0 \
 typelib-CoglPango"
@@ -19,6 +19,7 @@ libcogl.so.20 \
 typelib-Cogl \
 typelib-GL \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-HarfBuzz \

@@ -3,13 +3,14 @@ DESCRIPTION = "Configuration file for libsemanage. Moved to a separate package t
 parallel installation"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.5"
+PV = "3.11"
 
-RPM_NAME = "libsemanage-conf-3.5-2.1.aarch64.rpm"
-RPM_HASH = "60551e26e3bc2b015b07a31e406a7514ddba1b3b058f282ce1c04e1339e71dbc7bdd47c58145ed21f83e6361816f5beea00f2085288152bdb5b33a94cb282219"
+RPM_NAME = "libsemanage-conf-3.11-1.2.aarch64.rpm"
+RPM_HASH = "28dfac37a3ea4bd70a88485b7a74651027cd364c6e6769a5c54eb701dd1c73e6979f25645f485b905732523f23fd0dc3872eff855c51560be032f09e10fc0ab0"
 
 RPROVIDES:${PN} += "config-libsemanage-conf \
-libsemanage-conf"
+libsemanage-conf \
+libsemanage-conf-storeroot-etc"
 
 RDEPENDS:${PN} += ""
 

@@ -3,10 +3,10 @@ DESCRIPTION = "Plexus IO is a set of plexus components, which are designed for u
 in I/O operations."
 LICENSE = "Apache-2.0"
 
-PV = "3.4.1"
+PV = "3.6.0"
 
-RPM_NAME = "plexus-io-3.4.1-1.1.noarch.rpm"
-RPM_HASH = "0395c71a3704ce690753490a8e747a724b83b427e0ffa5ced9358d26993def17563979f7b8038f97ff4816993a9d65bb71ba698bdc8c72e370216237db453c13"
+RPM_NAME = "plexus-io-3.6.0-1.3.noarch.rpm"
+RPM_HASH = "ea2c75e1d1523c0d988ef498d270f209b453946a09191cf4dc003fc670e1d251c11da097c61ac98039327b6c8063ff16bd62ac0be0b86e746fc7d5e900c4c58e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.codehaus.plexus-plexus-io \

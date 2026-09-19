@@ -2,10 +2,10 @@ SUMMARY = "Simple DirectMedia Layer 2 – Networking library"
 DESCRIPTION = "This is a networking library for use with SDL."
 LICENSE = "Zlib"
 
-PV = "2.2.0"
+PV = "2.4.0"
 
-RPM_NAME = "libSDL2_net-2_0-0-2.2.0-1.3.aarch64.rpm"
-RPM_HASH = "252db1d5205b38088ff248bb75423b5a0ee6dfb3ce431c778bbde22425f46348d425961a8f5d3c9a8ed114b7f629507b86d1b4e11bba08985bccb6578380d525"
+RPM_NAME = "libSDL2_net-2_0-0-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "12f0bf94320fba9d356b2b4df9d3f78454fe90b3fec0e0cb6dcc7a73ffb40c342b7722b401c334c0f4ed920d65ea389693073f740b32037852c2e84336536d5f"
 
 RPROVIDES:${PN} += "SDL2-net \
 libSDL2-net-2-0-0 \

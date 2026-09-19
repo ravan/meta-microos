@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0"
 
 PV = "20010312"
 
-RPM_NAME = "efont-serif-fonts-20010312-678.17.noarch.rpm"
-RPM_HASH = "b2d337059aee2f633a1adc9986695b9b275b5c5fd95b202f79d31a7199d60d78dbeb8929ed83b2124565cf62831ccd793039847c5441a16d57c49a4beca9f757"
+RPM_NAME = "efont-serif-fonts-20010312-678.25.noarch.rpm"
+RPM_HASH = "c94f5235cbeb5dcfe57d96738395b7942ca2b25356b4c509142473d6e1c97601cc3bc9814f9125fc5d6ff3843af972e1ec97b208da6f4ec8a5d9fe261500ed41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-efont-serif-fonts \

@@ -5,8 +5,8 @@ LICENSE = "ISC"
 
 PV = "0.0.5"
 
-RPM_NAME = "omping-0.0.5-2.7.aarch64.rpm"
-RPM_HASH = "fc5bdd36129a02e29a49ab77e963ca8a690ed297aec5098e3a39c94b2388c6e77468d21bfadc43fd3c9255783843d05cbe4b243fbfffd4c320a53cd85e609f39"
+RPM_NAME = "omping-0.0.5-2.18.aarch64.rpm"
+RPM_HASH = "fe26c2e3bf650fecb06831e30914de0dd66f746396f3fefc68c74fc0d928d0d453a8af6016304e5aa1f895aaf7bafbe0032639ac7bb6db60942837da0efa9031"
 
 RPROVIDES:${PN} += "omping"
 

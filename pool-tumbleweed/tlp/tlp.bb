@@ -1,13 +1,24 @@
 SUMMARY = "Tools to save battery power on laptops"
-DESCRIPTION = "TLP implements advanced power management for Linux. \
-TLP is a pure command line tool with automated background tasks. \
-It does not contain a GUI."
+DESCRIPTION = "TLP is a feature-rich command-line utility, saving laptop battery power \
+without the need to delve deeper into technical details. \
+ \
+TLP’s default settings are already optimized for battery life and implement \
+Powertop’s recommendations out of the box. Moreover TLP is highly \
+customizable to fulfill specific user requirements. \
+ \
+Settings are organized into two profiles, allowing to adjust between \
+savings and performance independently for battery (BAT) and AC operation. \
+In addition TLP can enable or disable Bluetooth, NFC, Wi-Fi and WWAN radio \
+devices on boot. \
+ \
+For ThinkPads and selected other laptops it provides a unified way \
+to configure charge thresholds and re-calibrate the battery."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "1.5.0"
+PV = "1.10.2"
 
-RPM_NAME = "tlp-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "0af13c71eec48a8c99bd5c95567ba1db26da994b9ae29927090a34b6551cc564ec6d8964c3338000d80fba4c5d4e8fa4391007df60ba428d93946b5849637584"
+RPM_NAME = "tlp-1.10.2-1.1.noarch.rpm"
+RPM_HASH = "f0a6146e74df5a6a8a026adefafeeb779574c330cd6111bb6caf4924cf5c541df0287985fff245c6f7efa3e4f298e15f9ee437096e459610197b17729c9e5fd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-tlp \

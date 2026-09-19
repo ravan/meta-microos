@@ -2,10 +2,10 @@ SUMMARY = "Sametime Plugin for Pidgin using the Meanwhile Library"
 DESCRIPTION = "IBM Sametime plugin for Pidgin using the Meanwhile library."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple-plugin-sametime-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "96c0424b7848acd52bc80368b31b5fef36d258c48bb47e4c1a7f64169343f7fc8230414ac119d7f55ad3a850b813a081b31e558f7bccae6c33ce82f9cfb62784"
+RPM_NAME = "libpurple-plugin-sametime-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "b685f4d6ab2b35a9472425aecd1f64996ceea43b04158ff320d93b117706449d611edea3970c1944652779563b5a819f018f71db97ad8506e41eef559919bb48"
 
 RPROVIDES:${PN} += "libpurple-meanwhile \
 libpurple-plugin-sametime \

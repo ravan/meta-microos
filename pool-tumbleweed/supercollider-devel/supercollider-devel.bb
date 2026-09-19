@@ -3,10 +3,10 @@ DESCRIPTION = "This package includes include files and libraries neede to develo
 SuperCollider applications"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.13.0"
+PV = "3.14.1"
 
-RPM_NAME = "supercollider-devel-3.13.0-1.4.aarch64.rpm"
-RPM_HASH = "e86de00929236346fbff96d3d67252cfd79041e7e9f03423e7e60064d69f3a3d3ebfae4a1e40c4715e189174a985014507f2228a4c9a5de3fa61074cf68bcffb"
+RPM_NAME = "supercollider-devel-3.14.1-1.5.aarch64.rpm"
+RPM_HASH = "f300424cb6ec852fd2df4cedc0acdc60b78582dc9bc0f2fcd8d39fd615998de4fc00bc9df38fd945482bd03c86e40b0f6d449b1643f7a1f3135f9b2f1f6a1229"
 
 RPROVIDES:${PN} += "supercollider-devel"
 

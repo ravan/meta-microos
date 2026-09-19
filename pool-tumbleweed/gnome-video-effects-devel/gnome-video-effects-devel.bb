@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.0"
 
-RPM_NAME = "gnome-video-effects-devel-0.6.0-1.1.noarch.rpm"
-RPM_HASH = "6dc1b3a6dadfb32d023c962a2748f339abc09aa4ca09b8f91a49c17c8083ea8a4d450103fe7967b52dbf099a477f431ee06b78a6fab96cab4a7880d0701f3c06"
+RPM_NAME = "gnome-video-effects-devel-0.6.0-1.9.noarch.rpm"
+RPM_HASH = "87225bfeb07b69fdebb75c5730a56c4ce2e72b30e0c86e6433d578b7d08b71496f679ef61fa5e02e32ac0c2ca9a0b0f176ffcb09d6f2abe2fb5689ea55fc0af8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-video-effects-devel \

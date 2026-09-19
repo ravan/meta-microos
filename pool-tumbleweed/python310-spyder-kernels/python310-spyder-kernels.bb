@@ -9,10 +9,10 @@ file-based execution of Python code in different environments, \
 all inside the IDE."
 LICENSE = "MIT"
 
-PV = "2.4.4"
+PV = "2.5.0"
 
-RPM_NAME = "python310-spyder-kernels-2.4.4-1.1.noarch.rpm"
-RPM_HASH = "0f1c5cc03c1e74bdfed8f2512e68b6ddd037f20dbe5f02d09d49a0e10dff8795acbbba658b847ca58fda00cd527a9591f6837099089fcc720aef1b64c36db5c7"
+RPM_NAME = "python310-spyder-kernels-2.5.0-1.1.noarch.rpm"
+RPM_HASH = "aa5784d48a133c5441d5d04b827de0642fd1a84304d5b60e82b9d379527c3d80de31c27579bb9ee8629bc1b3b00b670617a12c6e7a2b2157dbbb6fc755a2ca1a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-spyder-kernels \
@@ -20,7 +20,7 @@ python310-spyder-kernels \
 python3dist-spyder-kernels"
 
 RDEPENDS:${PN} += "-python310-ipykernel >= 6.23.2 with python310-ipykernel < 7 \
--python310-ipython >= 7.31.1 with python310-ipython < 9 \
+-python310-ipython >= 8.13 with python310-ipython < 9 \
 -python310-jupyter-client >= 7.4.9 with python310-jupyter-client < 9 \
 python-abi \
 python310-cloudpickle \

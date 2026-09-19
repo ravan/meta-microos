@@ -3,10 +3,10 @@ DESCRIPTION = "The package allows inline use of graphviz code, in a LaTeX \
 document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.94svn31517"
+PV = "2026.226.0.0.94svn31517"
 
-RPM_NAME = "texlive-graphviz-2023.209.0.0.94svn31517-54.2.noarch.rpm"
-RPM_HASH = "37c3878f15631c94fcaa4fba88399f28fb2ca1257726522cffda6fa85717c9faa4bcc521ec8fdb05eb558ca7d22af3627e417b3786068b3caa96ec612f193c94"
+RPM_NAME = "texlive-graphviz-2026.226.0.0.94svn31517-60.4.noarch.rpm"
+RPM_HASH = "fd5a854b60f3e09518fa69bdd518a8175070c3faa50cecfd230a15d28a124bc5d6ee7fdc5f38be5eee7d91d05e3768579ad3e01f249d2f4cb7a82cb2627cadad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphviz.sty \

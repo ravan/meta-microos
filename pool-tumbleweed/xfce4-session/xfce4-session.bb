@@ -2,10 +2,10 @@ SUMMARY = "Xfce Session Manager"
 DESCRIPTION = "xfce4-session is the session manager for the Xfce desktop environment."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.18.3"
+PV = "4.20.4"
 
-RPM_NAME = "xfce4-session-4.18.3-1.1.aarch64.rpm"
-RPM_HASH = "90abde2a35783afc6329c4aad138c0e5e178b38a73b4b9842365d8d4a6129ab58f3274ea29a6bcfdbed16eab72007a8348eac3dcef10edea343f6c0cca85fce0"
+RPM_NAME = "xfce4-session-4.20.4-1.3.aarch64.rpm"
+RPM_HASH = "f9aec8daa9b35e3e551301b2e61a547f302706d629f1dbd9d2b978685515cca53ef2cbcf8bfee8e879ceeeaee547f8982524736c9d40be1878b8faf98aafc1a0"
 
 RPROVIDES:${PN} += "config-xfce4-session \
 xfce4-session"
@@ -26,11 +26,13 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
+libgtk-layer-shell.so.0 \
 libpango-1.0.so.0 \
 libpolkit-gobject-1.so.0 \
 libwnck-3.so.0 \
 libxfce4ui-2.so.0 \
 libxfce4util.so.7 \
+libxfce4windowing-0.so.0 \
 libxfconf-0.so.3 \
 systemd \
 update-alternatives \

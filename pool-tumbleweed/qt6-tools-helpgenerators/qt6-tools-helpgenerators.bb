@@ -1,11 +1,11 @@
 SUMMARY = "Qt Help files generator"
 DESCRIPTION = "Qt 6 tool for generating .qch help catalogs."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-tools-helpgenerators-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "853d623a0b23b7000fc48af30cf4cdab30a79899a8baad0f8b42799ce914a6c449ed161885c72e417615f86cada5a41e619af7033a4fafb4bb2ae8a1cb488fcc"
+RPM_NAME = "qt6-tools-helpgenerators-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "87736b7d047c6c6c4df7718b1d5f745b32ef72b362ab114322183ce9312e1fadf56559cc02ab9c57a71af1266c6abb346cd1a35974923c3871e4a54f6b536d04"
 
 RPROVIDES:${PN} += "qt6-tools-helpgenerators"
 

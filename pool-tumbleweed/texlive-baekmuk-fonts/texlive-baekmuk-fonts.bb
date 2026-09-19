@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-baekmuk"
 DESCRIPTION = "The  separated fonts package for texlive-baekmuk"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2.1svn56915"
+PV = "2026.226.2.2.1svn56915"
 
-RPM_NAME = "texlive-baekmuk-fonts-2023.209.2.2.1svn56915-54.1.noarch.rpm"
-RPM_HASH = "64a84b83ca87e035ca7346a17093fca5e0da124a19ab48dcae9a72e49d8f50e662d6ba81e474d20f241be672b4bd5d2f194029bf7b0276f866b64c5d60caa0af"
+RPM_NAME = "texlive-baekmuk-fonts-2026.226.2.2.1svn56915-60.2.noarch.rpm"
+RPM_HASH = "a6649a23157c6388c109c1adf5522112858af51d1258d34de2f6f56f96523472525c4a329712499b0e4c746c40f93483431e495b6aa497176133198563000b51"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=bg \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=bg \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \
@@ -18,6 +19,7 @@ font--lang=ko \
 font--lang=kum \
 font--lang=kwm \
 font--lang=lg \
+font--lang=mhr \
 font--lang=ms \
 font--lang=ng \
 font--lang=nr \

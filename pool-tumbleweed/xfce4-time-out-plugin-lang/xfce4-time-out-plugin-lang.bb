@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-time-out-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-time-out-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.3"
+PV = "1.2.0"
 
-RPM_NAME = "xfce4-time-out-plugin-lang-1.1.3-1.1.noarch.rpm"
-RPM_HASH = "b38dfe676147506442a845d51d3e8dc4c417cf1d2458e4fdc7073cddb7304e7943bb8d327ff4593d3c6f3acac90cfa4778638ed1eba3d753d69d066a6c93d15b"
+RPM_NAME = "xfce4-time-out-plugin-lang-1.2.0-1.4.noarch.rpm"
+RPM_HASH = "0d9ddcad0be9639222b4d8b6689c434b018e60ba87850a3f3fc302d0d9091938474e30c42115f9016e97753781df77ab396f160a63eeb95f56f1fe9297e4375d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-time-out-plugin-ar \
@@ -43,6 +43,7 @@ locale-xfce4-time-out-plugin-oc \
 locale-xfce4-time-out-plugin-pl \
 locale-xfce4-time-out-plugin-pt \
 locale-xfce4-time-out-plugin-pt-BR \
+locale-xfce4-time-out-plugin-ro \
 locale-xfce4-time-out-plugin-ru \
 locale-xfce4-time-out-plugin-sk \
 locale-xfce4-time-out-plugin-sl \

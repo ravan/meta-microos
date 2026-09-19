@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-centeredline"
 DESCRIPTION = "This package includes the documentation for texlive-centeredline"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn64672"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-centeredline-doc-2023.209.1.2svn64672-53.1.noarch.rpm"
-RPM_HASH = "c56f71a52a0217070445c611f0c8f7d3547b2caab6547e570d4d5a2402c5fac2dda6b0b234fad7782ab9860cb736c572e63cb50b2f186fdb82ad5b622639995a"
+RPM_NAME = "texlive-centeredline-doc-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "d9b04a71659614c489acbf343843f7012336711a6e4863748096a85374dd21b349efb0c493bcb166b5862116f05d608cd58938583e4fe303444487e63d2787e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-centeredline-doc"

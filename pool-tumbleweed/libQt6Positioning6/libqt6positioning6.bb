@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 Positioning library"
 DESCRIPTION = "The Qt 6 Positioning library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Positioning6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "95aeb11949d9d2d59ef71f3f6cf35b5e366bfd243a6fa6faa5bdb65c4603f1ec42af77e143177a05a765d9914081d95d33bc73760af1dbcd777069590f2f2cc0"
+RPM_NAME = "libQt6Positioning6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "f901cdde8e5462e5138d2229c697971828a72ec490662fe2d15dd8db1b0469b25ff3ce32c565fb97417f146744c521e4c11661cf9dc012dd05cf4979c413c248"
 
 RPROVIDES:${PN} += "libQt6Positioning.so.6 \
 libQt6Positioning6"

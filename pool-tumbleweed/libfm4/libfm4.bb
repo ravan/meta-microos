@@ -2,10 +2,10 @@ SUMMARY = "Libfm libraries"
 DESCRIPTION = "libfm main library"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.2"
+PV = "1.4.1"
 
-RPM_NAME = "libfm4-1.3.2-1.13.aarch64.rpm"
-RPM_HASH = "f6e05828c9fd8897314d0dd29387135c4f9a96d7d3cb13e66681a90db58fea67495fcd24e6d25f0d6ad58d9138cf52e31fbf38c785ff28204f092a48c4837de1"
+RPM_NAME = "libfm4-1.4.1-2.5.aarch64.rpm"
+RPM_HASH = "a4e1b571917de9af6c43359caee53881dcc252c660d4846d0009c9d4a28fac1e4f9bc7597435821f234bfda5468caed937e7e0410c334d89e1931c73eb93cedc"
 
 RPROVIDES:${PN} += "libfm.so.4 \
 libfm4"

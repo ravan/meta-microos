@@ -2,10 +2,10 @@ SUMMARY = "Documentation for python module name to package name map library"
 DESCRIPTION = "Documentation for python module name to package name map library."
 LICENSE = "Apache-2.0"
 
-PV = "0.26.0"
+PV = "0.28.0"
 
-RPM_NAME = "python-pymod2pkg-doc-0.26.0-2.1.noarch.rpm"
-RPM_HASH = "240c2899cc37a48892c28672963b876da78508de717a941cecaf9f569e2447ee2bbdf8e84f6f430bcba0ea3796c3256c6f9625bc96e7f0012c899ce6c16e43a5"
+RPM_NAME = "python-pymod2pkg-doc-0.28.0-1.8.noarch.rpm"
+RPM_HASH = "183a1a01000797f59b63652223f6710260837ffe62037fe9650dc3e385d5253012db369a8549540b458d8be0aa324bc8cf97cea15f0d49670f60357c22633483"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-pymod2pkg-doc"

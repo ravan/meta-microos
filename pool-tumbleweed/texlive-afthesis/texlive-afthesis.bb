@@ -3,10 +3,10 @@ DESCRIPTION = "LaTeX thesis/dissertation class for US Air Force Institute Of \
 Technology."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.7svn15878"
+PV = "2026.226.2.7svn15878"
 
-RPM_NAME = "texlive-afthesis-2023.209.2.7svn15878-55.1.noarch.rpm"
-RPM_HASH = "f970b86489a5ef0ad89afeb5b19d476d27f488d96e80f21284fc9d7449405622fa8e896e1281103e1bfc75affd5d01843cf744878ee126b5197058c8a610ac1e"
+RPM_NAME = "texlive-afthesis-2026.226.2.7svn15878-61.2.noarch.rpm"
+RPM_HASH = "27ae63bb7251f0413226e0f4e7d9d6478bed384d2465cd25e642d5536507e712434011909d9a67afc19859ea102a2b0ff6de0e0bf98f24f3028a0e77cc5b7463"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-afthes10.sty \

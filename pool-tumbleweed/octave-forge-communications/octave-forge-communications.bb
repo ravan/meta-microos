@@ -4,10 +4,10 @@ Source Code functions, Modulation and Galois Fields. \
 This is part of the Octave-Forge project."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.4"
+PV = "1.2.7"
 
-RPM_NAME = "octave-forge-communications-1.2.4-1.9.aarch64.rpm"
-RPM_HASH = "b74b9405e4a204b5d2fa3ad7b28b9e0e63dbeb57a4b8bcd5baac2477e07f40c74705b2d4c56ae52cc90dcafb946f5a03ba4bee0a59c9d76c3ab6e5a4e15fff37"
+RPM_NAME = "octave-forge-communications-1.2.7-2.1.aarch64.rpm"
+RPM_HASH = "2ffaaea6964572f9d9e636abf2736ace1c965f66c5be5b79e7f133b8a3e0be10c0ff8661a17bfa032ad4ffd49d5e15e8a9e9810f1a6ac621f9debfbf4fd54b90"
 
 RPROVIDES:${PN} += "octave-forge-communications"
 
@@ -18,6 +18,7 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
+octave-api-v61 \
 octave-cli \
 octave-forge-signal"
 

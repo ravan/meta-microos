@@ -4,16 +4,16 @@ DESCRIPTION = "ryml is a C++ library to parse and emit YAML. \
 This package contains development headers and examples."
 LICENSE = "MIT"
 
-PV = "0.5.0"
+PV = "0.8.0"
 
-RPM_NAME = "rapidyaml-devel-0.5.0-1.4.aarch64.rpm"
-RPM_HASH = "8f5c2ea1577c3dc03aa73232cc36563882985b0debaf1a6aa59a753e9eb4d137452c625554f7f5085510f3f11376418e4d0c7b8fdb85a58d384a5e56fb1c32ce"
+RPM_NAME = "rapidyaml-devel-0.8.0-1.5.aarch64.rpm"
+RPM_HASH = "f71fb75b72c65fa067a61dd147b018547834ceffbbb7e05552f5bb3c6f93b5305935b654e5c9448c820138860aa0cfdc168e463ee6528eff08971fabb9538a11"
 
 RPROVIDES:${PN} += "cmake-c4core \
 cmake-ryml \
 rapidyaml-devel"
 
-RDEPENDS:${PN} += "libc4core0-1-11 \
-libryml0-5-0"
+RDEPENDS:${PN} += "libc4core0-2-5 \
+libryml0-8-0"
 
 inherit rpm

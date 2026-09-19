@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides emulation of pdfTeX primitives for LuaTeX \
 v0.85+."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.4svn41456"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-luatex85-2023.208.1.4svn41456-53.1.noarch.rpm"
-RPM_HASH = "64c3a4186afe8b0ddd9e2cb2c1af4f165cb8cdd9d091a6646c375c6cbbc78fd6860a870c23a253edc88f1313b12b8b47dc01523e104baab563cc38d968aa0639"
+RPM_NAME = "texlive-luatex85-2026.226.1.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "6230b5a894d3b726c04b89bc6202d5680baff1acd61e3f7479cd90f0a39190059d788f72c47cb389373bb385265ef551368aec35ee228f066863c4fdce8bbfcb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luatex85.sty \

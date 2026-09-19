@@ -2,10 +2,10 @@ SUMMARY = "Tools to Create and Apply deltarpms"
 DESCRIPTION = "Python 3 bindings for deltarpm"
 LICENSE = "BSD-3-Clause"
 
-PV = "3.6.3"
+PV = "3.6.5"
 
-RPM_NAME = "python3-deltarpm-3.6.3-2.7.aarch64.rpm"
-RPM_HASH = "ec13c32a412d18f5db44dd83d6e77e19b439aa766a8d394d01dc6ad2c7f7050435c21b6a5b98bdaa46795a880474b7ef1fa7cf7fadce499f84fa5b080f3e3ee5"
+RPM_NAME = "python3-deltarpm-3.6.5-1.10.aarch64.rpm"
+RPM_HASH = "bb965fe8374eb89290a60bd27704a9baa7384c0a08335716dcf9886d4f4a0b789d24f89686ff923ec91c45678f737257b5c8b7057eda1f0ecca38d67010d4508"
 
 RPROVIDES:${PN} += "python3-deltarpm"
 

@@ -6,17 +6,16 @@ of running 3D and video applications. TigerVNC also provides \
 extensions for advanced authentication methods and TLS encryption."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "1.13.1"
+PV = "1.16.1"
 
-RPM_NAME = "tigervnc-1.13.1-3.3.aarch64.rpm"
-RPM_HASH = "9228a9f173ab0578b73ef928d7ba99d27f6b5e0ad0c33b7c07a88f41314b8b3c5210bec2d589de050d2f35f2af32749cd6aaa6258955f2edf30bc4f1b265f152"
+RPM_NAME = "tigervnc-1.16.1-3.1.aarch64.rpm"
+RPM_HASH = "9239d05657df5e1184bf27797d2b9088e62f47bbc1f45276b68cd52eccba675b2292aa8a6a1f64ad474e59108d1861107d58bbc154e3521b3d132f3c35431f90"
 
 RPROVIDES:${PN} += "tigervnc \
 tightvnc \
 vnc"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
 libXext.so.6 \
 libXi.so.6 \
@@ -34,7 +33,6 @@ libm.so.6 \
 libnettle.so.8 \
 libpixman-1.so.0 \
 libstdc++.so.6 \
-libz.so.1 \
-update-alternatives"
+libz.so.1"
 
 inherit rpm

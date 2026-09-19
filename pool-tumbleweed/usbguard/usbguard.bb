@@ -4,10 +4,10 @@ devices by implementing basic whitelisting/blacklisting capabilities based on \
 USB device attributes."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.2"
+PV = "1.1.4"
 
-RPM_NAME = "usbguard-1.1.2-3.2.aarch64.rpm"
-RPM_HASH = "9982284c476751031acedc7fe3fc9866f619a9804c25d6c3e752357145ab9979af6525b48d506c0c18ef1d534bf1d13478489ba7a775685916c19d1ffbe41969"
+RPM_NAME = "usbguard-1.1.4-3.9.aarch64.rpm"
+RPM_HASH = "e566c1d47d4f7767f97777c0e68b697da8bf744a035eda3f47e1944d3ad2025f7cf80d6696ac89ffadba57b88d0ee8a835ab14ed87e78e1e0a26da7f6e53bd8b"
 
 RPROVIDES:${PN} += "config-usbguard \
 usbguard"
@@ -25,6 +25,7 @@ libpolkit-gobject-1.so.0 \
 libseccomp.so.2 \
 libstdc++.so.6 \
 libusbguard.so.1 \
+logrotate \
 systemd"
 
 inherit rpm

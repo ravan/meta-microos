@@ -25,10 +25,10 @@ later version. \
 See Git::Repository::Tutorial for more code examples."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.325"
+PV = "1.326.0"
 
-RPM_NAME = "perl-Git-Repository-1.325-3.3.noarch.rpm"
-RPM_HASH = "2b2271fc402d03262dd4634876d90493aa317fa5f0b65d8bc145d0e78099768e7c41520870c7b3e253ffe4a4757e50e57f3b7137773cada1e2fed2121a245924"
+RPM_NAME = "perl-Git-Repository-1.326.0-1.3.noarch.rpm"
+RPM_HASH = "3921f19f378a2524e7f495a5679827a93e4a12ba144a60d8fcdd85883c2a286959300e176baa99a0ebdb9e4d3888ad486645284044896232855b5f0a43f6229d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Git--Repository \
@@ -37,7 +37,7 @@ perl-Git--Repository--Plugin \
 perl-Git-Repository \
 perl-Test--Git"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Git--Version--Compare \
 perl-System--Command \
 perl-namespace--clean"

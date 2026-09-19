@@ -14,16 +14,16 @@ lattice polytopes, and rational cones. It supports, \
   polynomials over rational polytopes via NmzIntegrate"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.9.4"
+PV = "3.11.1"
 
-RPM_NAME = "normaliz-3.9.4-1.5.aarch64.rpm"
-RPM_HASH = "8e23d5a4e33409cc6798c6d3d233aae65e6ccf0b420d716c9a20440f7b39d12f6b55d0136647c58f0c485a339fadcf585cc2dec3d267bcb2f70a6df2c46b62da"
+RPM_NAME = "normaliz-3.11.1-1.5.aarch64.rpm"
+RPM_HASH = "75e81c07abdd2cca2b9128e8a2ed62f2dc60a57e81c64be194d8753e58a7faa72b45bffe65e765a795c1008765931763acab3d4150caf2478492292c6b26d8eb"
 
 RPROVIDES:${PN} += "normaliz"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libeanticxx.so.1 \
+libeanticxx.so.3 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libnormaliz.so.3 \

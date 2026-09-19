@@ -4,10 +4,10 @@ The cxpm tool will check whether an XPM file is correct or not with \
 regard to its format."
 LICENSE = "MIT"
 
-PV = "3.5.16"
+PV = "3.5.18"
 
-RPM_NAME = "libXpm-tools-3.5.16-1.1.aarch64.rpm"
-RPM_HASH = "8a2fd938e43b3688c3dccdc6da256e342d6690e1b560e504c2342a801c5d14ea053696248cf2ceffd4cc7502b323d1fddcf371044a6c978cc3afb2ed240897a9"
+RPM_NAME = "libXpm-tools-3.5.18-2.3.aarch64.rpm"
+RPM_HASH = "dd2c0e6785db7e3a9e0ebcc7e36fb9b68b5edf5f1cb0474425b2c578087ea118101cd8699f98bf3b72ce7675d5d45a813c78ee61e76af95602757dc71913abe4"
 
 RPROVIDES:${PN} += "libXpm-tools \
 xorg-x11-libXpm"

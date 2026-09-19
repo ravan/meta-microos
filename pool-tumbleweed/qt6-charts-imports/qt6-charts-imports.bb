@@ -1,14 +1,15 @@
 SUMMARY = "Qt 6 Charts QML files and plugins"
 DESCRIPTION = "QML files and plugins from the Qt 6 Charts module."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-charts-imports-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "59b3149d3af43dbf839a1909311191a46b679bcec124dc661b27ac86aa6f6a6099742b9d72eae108df65ea388708702788c9b0cb9ff1ea03dbe6ef131178bee0"
+RPM_NAME = "qt6-charts-imports-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "a09f91b7f87d1f5daef5b0b5b7fc3ae1ccb03c136fcb42c345991f516e36e25e7a194ce034162714667360b413736e3544cff19a6d722600cef91ced10bfe40a"
 
 RPROVIDES:${PN} += "libqtchartsqml2plugin.so \
 qt6-charts-imports \
+qt6qmlimport-QtCharts \
 qt6qmlimport-QtCharts.1 \
 qt6qmlimport-QtCharts.2 \
 qt6qmlimport-QtCharts.6"

@@ -8,10 +8,10 @@ pictures. DjVu content is often smaller and consumes less client \
 resources than competing formats."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.5.28"
+PV = "3.5.30"
 
-RPM_NAME = "djvulibre-3.5.28-6.1.aarch64.rpm"
-RPM_HASH = "dbdceb189e81c9ab345be23de19fbe7d5d7d790e0320be29c493623ceb37106c5d515125e40c539e0aa26d2214ee5684eceb8c82268c0abbee1811c005dfcf5c"
+RPM_NAME = "djvulibre-3.5.30-1.3.aarch64.rpm"
+RPM_HASH = "b1f698d6a7d3b5e2eedf0618440859ce03abdada425cc2367dbb9ef8b8183724d0f6cf47a8824ab94dfa561683a75cf9340c7c5fc6ef445bd6536d6563f74d6a"
 
 RPROVIDES:${PN} += "djvulibre"
 

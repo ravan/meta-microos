@@ -4,10 +4,10 @@ The library is based on the ADLMIDI, a multiplatform MIDI player with OPL3 emula
 https://bisqwit.iki.fi/source/adlmidi.html"
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "1.5.1"
+PV = "1.6.2.1"
 
-RPM_NAME = "libADLMIDI1-1.5.1-1.4.aarch64.rpm"
-RPM_HASH = "ff98cb6b01ddd603a8170c84cee75d9e86dbb1cb1f1bbc486aad0161a180a3fb958fb07fbade83966cd6bdb36bb8aeb38784aafdad1f0768ed89f565b765d8ea"
+RPM_NAME = "libADLMIDI1-1.6.2.1-1.1.aarch64.rpm"
+RPM_HASH = "68f51c92e08b281f5a1d867f5d63939fed38963219868df69f47a049693c3d4c1dfdd1e4ed280e8ec504f2d8d8c118c00ff63d7cb420d902aec82002c8c7e7f0"
 
 RPROVIDES:${PN} += "libADLMIDI.so.1 \
 libADLMIDI1"

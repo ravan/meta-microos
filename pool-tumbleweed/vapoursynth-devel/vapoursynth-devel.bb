@@ -1,21 +1,17 @@
 SUMMARY = "Development files for VapourSynth"
-DESCRIPTION = "Header files and pkg-config headers for VapourSynth."
+DESCRIPTION = "Header files and pkg-config files for VapourSynth."
 LICENSE = "LGPL-2.1-only"
 
-PV = "63"
+PV = "79"
 
-RPM_NAME = "vapoursynth-devel-63-1.1.aarch64.rpm"
-RPM_HASH = "8a9a79468d19f1a61047839e5d017240541832f6cb40d1bcf80d8fd9104c7211af6609febce5d0fa1cff1c40e1714ce8bf96783018fba5357af6e737e9526565"
+RPM_NAME = "vapoursynth-devel-79-1.1.aarch64.rpm"
+RPM_HASH = "60e5fb68c053721ceaf9b669c76d86dc5ba25519ea2f5043b34334bf39e3af8d9f67b9b44605d472b8164967a00f4dd512d9f2807fbcbf1b11ea274c313f7aff"
 
 RPROVIDES:${PN} += "pkgconfig-vapoursynth \
-pkgconfig-vapoursynth-script \
 vapoursynth-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libvapoursynth-63 \
-libvapoursynth-script0 \
-pkgconfig-python-3.11 \
-pkgconfig-vapoursynth \
-pkgconfig-zimg"
+libvapoursynth4 \
+libvsscript0"
 
 inherit rpm

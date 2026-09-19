@@ -3,10 +3,10 @@ DESCRIPTION = "Virt-win-reg lets you look at and modify the Windows Registry of 
 Windows virtual machines."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.56.0"
 
-RPM_NAME = "virt-win-reg-1.50.1-1.2.noarch.rpm"
-RPM_HASH = "d769c0da5d9e8f1669ec32887743c5aecf8a6c4689ae8a4a0967466db8cf095d12f2be23952ec7d6fce0ad97256847b7c7410f4b5cf55ee390388255cf33c8c6"
+RPM_NAME = "virt-win-reg-1.56.0-1.2.noarch.rpm"
+RPM_HASH = "95f99ac12f3e109197bdf976aff23efe17a668d4ae9232e6098c2b8d06d1ad1dc233ecd4c93141710735676e81b0f5e2a427d4f865afeff6d6d2f57e42be8666"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "virt-win-reg"

@@ -6,10 +6,10 @@ if you're using a debugger, things aren't going your way. With that \
 in mind, Delve should stay out of your way as much as possible."
 LICENSE = "MIT"
 
-PV = "1.21.0"
+PV = "1.27.2"
 
-RPM_NAME = "delve-1.21.0-2.1.aarch64.rpm"
-RPM_HASH = "2219f7d90eeabbaac090b0b985ec38d473fca8af9fe5b2a4acb66660a4c4fbd176456d617560881471ecdea9866447dcb6350754170f459f4fa56911c1eaec9d"
+RPM_NAME = "delve-1.27.2-1.1.aarch64.rpm"
+RPM_HASH = "07407cb5f4e1c9371ea20511bcc2e02d65f81cbb830f6cd64dca658c1746847a810c2af77a4bcd822a18a46e8bd352fb399a4c898bdad10609f2f1e936e97e20"
 
 RPROVIDES:${PN} += "delve"
 

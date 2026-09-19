@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.2.3"
 
-RPM_NAME = "uncommons-maths-1.2.3-2.1.noarch.rpm"
-RPM_HASH = "7c458a2fbf9ce0e49a778446a9a340d7cbf0d23410d89097b2f384446db4ae280a62e895b253323845a06031a896bafd883c336313eba40a3834c2a12e572506"
+RPM_NAME = "uncommons-maths-1.2.3-3.7.noarch.rpm"
+RPM_HASH = "8087d4d0a4647e4400cb1069861a734695e25dad5e8626ae716e9d3f1d461094c9addb191c6710cd0e7a66d3d36d9fee0cc9cc2eccf0d7a471a3fdec2a5b8dd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.uncommons.maths-uncommons-maths \

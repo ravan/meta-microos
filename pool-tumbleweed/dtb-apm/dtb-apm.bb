@@ -2,10 +2,10 @@ SUMMARY = "AppliedMicro based arm64 systems"
 DESCRIPTION = "Device Tree files for AppliedMicro based arm64 systems."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4.12"
+PV = "7.2.5"
 
-RPM_NAME = "dtb-apm-6.4.12-1.1.aarch64.rpm"
-RPM_HASH = "4f0af86e558e024a0e1881b97230363b6b9edad8209d59d3730f43708211d8daf85cfe202645b8dadded80fe5c647983a656654b919508c8d72107d4c314b7a2"
+RPM_NAME = "dtb-apm-7.2.5-1.1.aarch64.rpm"
+RPM_HASH = "17efd005154d03a163a1fe8182bd890db3c13ff3d8e7a7bb571a1b4d559ced6d53265db9a53c13536c01625113c798dd55bf0cd128de01dd33ec12144210a2cb"
 
 RPROVIDES:${PN} += "dtb-apm \
 dtb-apm-mustang \

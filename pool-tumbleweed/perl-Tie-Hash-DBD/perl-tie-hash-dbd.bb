@@ -14,17 +14,17 @@ I think it would make sense to merge the functionality that this module \
 provides into 'Tie::DBI'."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.24"
+PV = "0.260.0"
 
-RPM_NAME = "perl-Tie-Hash-DBD-0.24-1.3.noarch.rpm"
-RPM_HASH = "12f18d3e58ed5ffdc179d4c6e35c2495c0286a1c683f130f989dbd80fe5fc15f7172bf9395c63985b5ca9922215c1d0404c1efdedd2ba1d1b2478c2d30d5af6e"
+RPM_NAME = "perl-Tie-Hash-DBD-0.260.0-1.5.noarch.rpm"
+RPM_HASH = "fa85fe91d85d714fcb5a161b36d2ba1a1107b6726adb535bbdd429153a138e2ff898dfa58c1d5870589b15069cd639d4c56cbdc16eebf5c0e380e9c48f96c65e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Tie--Array--DBD \
 perl-Tie--Hash--DBD \
 perl-Tie-Hash-DBD"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBI \
 perl-Test--More"
 

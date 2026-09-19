@@ -3,25 +3,26 @@ DESCRIPTION = "Text editor with support for multiple programming languages, \
 multiple encodings, and plugins."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.0.0~20201022T180930.03cdde0"
+PV = "2.1.1"
 
-RPM_NAME = "notepadqq-2.0.0~20201022T180930.03cdde0-1.10.aarch64.rpm"
-RPM_HASH = "ddfa416c96c8b7ae3a97a40470b50afec8eca62e2c25b522168a3333cf481de44434d4dd024c9974e12bae3a7ba728f49079ea1d733e89ae92c311cf71fe70eb"
+RPM_NAME = "notepadqq-2.1.1-1.1.aarch64.rpm"
+RPM_HASH = "6edc871e1dc8aa4cf2aff2467045aaa9018ea08dbe8980b279478c340f0b5e83a54a194723beab12887162c8fad7f17a63309b8e03d3a6eb8fdbaa2a3dd513b6"
 
 RPROVIDES:${PN} += "notepadqq"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/node \
-/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5WebChannel.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6WebChannel.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6 \

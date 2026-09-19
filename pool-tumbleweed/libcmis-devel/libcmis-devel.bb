@@ -1,18 +1,18 @@
 SUMMARY = "Development files for libcmis"
 DESCRIPTION = "Development files for libcmis. libcmis is a C++ client library for \
 the CMIS interface."
-LICENSE = "MPL-1.1 | GPL-2.0-or-later | LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later | MPL-1.1 | LGPL-2.1-or-later"
 
-PV = "0.5.2"
+PV = "0.6.2"
 
-RPM_NAME = "libcmis-devel-0.5.2-1.25.aarch64.rpm"
-RPM_HASH = "3613f28de97eae1e65ef2b567abfc891748d0e07e1c32c91dcffeaa1dade73fb4c0a351861a2e4aaabf64e70126e31eae07388bab376efa18014540f6f10b23c"
+RPM_NAME = "libcmis-devel-0.6.2-3.16.aarch64.rpm"
+RPM_HASH = "66ec2ec91e55f65702f7e5e956eff98aa6463c42851dac806f1b75037294605a23fed2bd91f7527444383e0031e735147c2d0c74890bb8ccb9d0b0ab23c2986b"
 
 RPROVIDES:${PN} += "libcmis-devel \
-pkgconfig-libcmis-0.5"
+pkgconfig-libcmis-0.6"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcmis-0-5-5 \
+libcmis-0-6-6 \
 pkgconfig-libcurl \
 pkgconfig-libxml-2.0"
 

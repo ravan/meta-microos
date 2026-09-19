@@ -9,10 +9,10 @@ calls made to the package. The output to be post-processed uses \
 macros from the widely-available ProTeX package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn19614"
+PV = "2026.226.1.2svn19614"
 
-RPM_NAME = "texlive-rvwrite-2023.209.1.2svn19614-54.1.noarch.rpm"
-RPM_HASH = "a324736116bdc47b4b84c47b2d90fa4d948866e8ecfebcbde2063b0943c9dc21e0ccc9e787fa0c8a9a6ea2e6f106172fd1625fa8e1f6366b4840e0a5cf7fd6f4"
+RPM_NAME = "texlive-rvwrite-2026.226.1.2svn19614-60.2.noarch.rpm"
+RPM_HASH = "b96ba3078baf979d2752550871da11df1db9209fda0b2f4cea99e64c156756c1873064771ad4a77d18817384a00fc17b86cd188444261391b4e60f8fa3803e19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rvwrite.sty \

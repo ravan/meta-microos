@@ -6,13 +6,12 @@ comments to images, organise images in catalogs, print images, view \
 slide shows, set your desktop background, and more."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.2"
+PV = "3.4.7"
 
-RPM_NAME = "pix-3.0.2-1.1.aarch64.rpm"
-RPM_HASH = "5be36d67b2f7d3e57459811688ca17fe0b25b45eb7866e4f310bd09959c7c4bfc28b7f175cb350ac6c302eec114f9c0e2837226377124704cc638ce415a396f0"
+RPM_NAME = "pix-3.4.7-1.8.aarch64.rpm"
+RPM_HASH = "3eb10a663bbfae2b0c872906753e20d32334e6375f8c33e5fbbdc24f3c2ab1db8b07530b68364911ad2d564d983232b9836aa46dc0e0990840caf181acf3183d"
 
-RPROVIDES:${PN} += "lib23hq.so \
-libbookmarks.so \
+RPROVIDES:${PN} += "libbookmarks.so \
 libburn-disc.so \
 libcairo-io.so \
 libcatalogs.so \
@@ -28,8 +27,6 @@ libfile-manager.so \
 libfile-tools.so \
 libfile-viewer.so \
 libfind-duplicates.so \
-libflicker-utils.so \
-libflicker.so \
 libgstreamer-tools.so \
 libgstreamer-utils.so \
 libimage-print.so \
@@ -38,7 +35,6 @@ libimage-viewer.so \
 libimporter.so \
 libjpeg-utils.so \
 liblist-tools.so \
-liboauth.so \
 libphoto-importer.so \
 libraw-files.so \
 libred-eye-removal.so \
@@ -72,20 +68,17 @@ libgstvideo-1.0.so.0 \
 libgtk-3.so.0 \
 libheif.so.1 \
 libjpeg.so.8 \
-libjxl-threads.so.0.8 \
-libjxl.so.0.8 \
+libjxl-threads.so.0.11 \
+libjxl.so.0.11 \
 liblcms2.so.2 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
 libpng16.so.16 \
-libraw.so.23 \
+libraw.so.25 \
 librsvg-2.so.2 \
-libsecret-1.so.0 \
-libsoup-2.4.so.1 \
 libstdc++.so.6 \
 libtiff.so.6 \
-libwebkit2gtk-4.0.so.37 \
 libwebp.so.7 \
 libxapp.so.1 \
 libz.so.1"

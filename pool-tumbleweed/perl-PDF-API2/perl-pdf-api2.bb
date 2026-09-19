@@ -2,10 +2,10 @@ SUMMARY = "Create, modify, and examine PDF files"
 DESCRIPTION = "Create, modify, and examine PDF files"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.044"
+PV = "2.48.0"
 
-RPM_NAME = "perl-PDF-API2-2.044-1.4.noarch.rpm"
-RPM_HASH = "dce17d3777d48a720c4ebbc09c0fbcfe646c4a9aa4e3c064b84ea5c96fbdf8ed89ddb9dc8ed0d7921ed7e2ab9a7a136f7bd7bd9ae3871ed8bfde4fd73ee453dc"
+RPM_NAME = "perl-PDF-API2-2.48.0-1.5.noarch.rpm"
+RPM_HASH = "2284fb52968a39b0c273242fedeb904f0f531d4f6660f998f0d11b8c512554df7c1ec512a15a6e2cb486523d51b87ea9d6075096d86904571e6cf7250da90daa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-PDF--API2 \
@@ -115,7 +115,7 @@ perl-PDF--API2--ViewerPreferences \
 perl-PDF--API2--Win32 \
 perl-PDF-API2"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Compress--Zlib \
 perl-Font--TTF"
 

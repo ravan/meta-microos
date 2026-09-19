@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.1.5"
 
-RPM_NAME = "fifechan-devel-0.1.5-1.20.aarch64.rpm"
-RPM_HASH = "e2ee233b85cbe360b915513b21e4ab6f5fb5ffbaa881979d67e985b5f23406197787880c58baa256e1c6d8f231141e1468e22ef8680a7111ec6d5f8b8c138fd1"
+RPM_NAME = "fifechan-devel-0.1.5-1.28.aarch64.rpm"
+RPM_HASH = "55926d84bfdad3c245e4d69073a6506176664621a43b82a4c38cb372d81defbb69de8e638fc31a746fc63200813d8b0e78f400e744c749b754424ff75f4c8b23"
 
 RPROVIDES:${PN} += "fifechan-devel"
 

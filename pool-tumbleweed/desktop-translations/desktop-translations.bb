@@ -2,10 +2,10 @@ SUMMARY = "Desktop Files Translations"
 DESCRIPTION = "This package provides the translations for installed desktop files."
 LICENSE = "MIT"
 
-PV = "84.87.20230128.350400f"
+PV = "84.87.20241104.9505069"
 
-RPM_NAME = "desktop-translations-84.87.20230128.350400f-1.1.noarch.rpm"
-RPM_HASH = "bbafe95b727802bc957f79f04a97fe5fd23dde120d484e37f24158f5dd9132a999d6d60767e9d009754891369a615b168ec0f14435807b8a05bc9c9f51d2d256"
+RPM_NAME = "desktop-translations-84.87.20241104.9505069-1.6.noarch.rpm"
+RPM_HASH = "c7b2db9e76fef47d17fcf0a82f757dad11093022cc13732a0bef1cd164890c61949a24bee327598d404481c749d08a1c89b2626e16823b1a2391872fb6b85b65"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "desktop-translations \

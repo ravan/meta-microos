@@ -5,10 +5,10 @@ interaction mode), and LuaTeX (pdfliteral mode) by a \
 hierarchical name system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.7svn52983"
+PV = "2026.226.1.7svn77682"
 
-RPM_NAME = "texlive-magicnum-2023.208.1.7svn52983-53.1.noarch.rpm"
-RPM_HASH = "4386051df16b9d4d47bc60146e0b9e120cd32deed32c2ee8c9f2a95c395d11f05fea47bdb3673d23c394bf253dc7be5f0b63a3472344fa8f1eea52e2b64570c9"
+RPM_NAME = "texlive-magicnum-2026.226.1.7svn77682-59.2.noarch.rpm"
+RPM_HASH = "7114494a7003ccfa3d2c38b878623d6280a11618d44828dd9223585a0ef9f1459f5ee1470b106c521999557165b4dad3b0767e2460135c2fa436140e9d0cffdc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-magicnum.sty \

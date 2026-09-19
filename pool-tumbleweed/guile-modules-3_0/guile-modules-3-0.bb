@@ -5,10 +5,10 @@ linked in as a library when building extensible programs. This package \
 contains guile modules."
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "3.0.9"
+PV = "3.0.11"
 
-RPM_NAME = "guile-modules-3_0-3.0.9-1.1.aarch64.rpm"
-RPM_HASH = "1dbbcd96252d66aa212f3ff9607f779e3403f513f3b17947d6326e93115d5502d6bde61844706143e57d295128f5662205d873828a1d7347d43b9b90fa1a204c"
+RPM_NAME = "guile-modules-3_0-3.0.11-1.1.aarch64.rpm"
+RPM_HASH = "402bed799330c67db20552d44176fb5ab84ff62e409d9bf61c5bcf67f2473a131e4f24cb3fccaffd0b5eb0f160835cc05456a3481cb5fb177e5bb87f4f5f5aa8"
 
 RPROVIDES:${PN} += "guile-modules-3-0"
 

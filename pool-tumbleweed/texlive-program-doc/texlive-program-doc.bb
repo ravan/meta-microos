@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-program"
 DESCRIPTION = "This package includes the documentation for texlive-program"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.3.14svn44214"
+PV = "2026.226.3.3.14svn44214"
 
-RPM_NAME = "texlive-program-doc-2023.209.3.3.14svn44214-53.1.noarch.rpm"
-RPM_HASH = "9cd9589b046288f85aba56ec8528748fc75d80d9f58b974926ccc345e30d038d32021e83876282914c40edf69b8f505ed944021a5be42edd2e7ac725089b4fce"
+RPM_NAME = "texlive-program-doc-2026.226.3.3.14svn44214-59.2.noarch.rpm"
+RPM_HASH = "183047a451f692a7a63d6be4c93646cecd6daf0663c712225605a63262a0760de7c8c2a1a968abd6e25f9a5b31660c3c7d50c4f727b546b1b89ba0dfe7741983"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-program-doc"

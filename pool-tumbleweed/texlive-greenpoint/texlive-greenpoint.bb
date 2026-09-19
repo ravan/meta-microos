@@ -5,10 +5,10 @@ on nearly every bottle. It should not be confused with the \
 'Recycle'-logo, implemented by Ian Green."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-greenpoint-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "9c9e43a082fb2899d52b22c39a3d47bb6dc7c0d644ec85f7ae27779fb135e1cbab9234471bd448d7d1a3bd1fa46d1eb5debdb41833682b22b2bc97095b049b0f"
+RPM_NAME = "texlive-greenpoint-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "8bae300f420c8f7391a71fa65e216a9fb0ed947aeb5028c990eae95f59d8cbf8893320b9a6aba29de3cabde73898571847f21a906cca5672da34b5a3f42253b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-greenpoint.tfm \

@@ -7,25 +7,25 @@ rather than having to put them all on the command-line, and handles \
 common errors."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.8.0"
+PV = "1.9.5"
 
-RPM_NAME = "borgmatic-1.8.0-1.1.noarch.rpm"
-RPM_HASH = "1d651a2ecf8dbc9668f0668e4b2c4d714d1eb242ad2b99b89b387f529cad1b26889c21fb24d83e9c8753678984dc4d4dfcecec43619f2d935580b468f44987bd"
+RPM_NAME = "borgmatic-1.9.5-3.1.noarch.rpm"
+RPM_HASH = "a990f3a780f8629bc8ec9eb80e0fd32c98511297f916a0df221333a85a00a5319ce1fce2ae78223ec0ed8f73e9668abe299217767bbf4dada886a92fcb1ffff4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgmatic \
 config-borgmatic \
-python3.11dist-borgmatic \
+python2-borgmatic \
+python3.13dist-borgmatic \
 python3dist-borgmatic"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 borgbackup \
 python-abi \
-python3-colorama \
 python3-jsonschema \
+python3-packaging \
 python3-requests \
-python3-ruamel.yaml \
-python3-setuptools"
+python3-ruamel.yaml"
 
 inherit rpm

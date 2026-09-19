@@ -5,8 +5,8 @@ LICENSE = "Zlib"
 
 PV = "0.1.17"
 
-RPM_NAME = "pnglite-devel-0.1.17-1.23.aarch64.rpm"
-RPM_HASH = "39df0f60bb47e0e52ba1bc4bf281cbd57e681092b44081b8a831608f4611534a753de9374226ca7d54cd4c327963bafe6ee9df58e2986643056316bd05700789"
+RPM_NAME = "pnglite-devel-0.1.17-2.9.aarch64.rpm"
+RPM_HASH = "664a8d01f2433dd7462e1425b6a7fb2a15a2ff6da25eb797b8df15c5d8ceaccd08637a552dd371524b66b28fb756d11e5cc5c960553d4e0a9cb592f1c27a5a1e"
 
 RPROVIDES:${PN} += "pnglite-devel"
 

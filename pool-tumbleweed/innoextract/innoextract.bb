@@ -8,15 +8,15 @@ LICENSE = "Zlib"
 
 PV = "1.9"
 
-RPM_NAME = "innoextract-1.9-1.22.aarch64.rpm"
-RPM_HASH = "38a144489f1d3a655f16bb39c693dce2631d0bc83be93244c42621ccece487423cb0b3fbd66b6b9d52eebb2fab798465ce2ed084469017a1438cfa03acc3db39"
+RPM_NAME = "innoextract-1.9-4.8.aarch64.rpm"
+RPM_HASH = "269d944844ce0bf3bc909c276c9932cdba26e0d5e82d8deb0487d0f7f065d2c94b01a465820a5be563f63509e9c80505359d92d8cc83872c72220ea905db19ba"
 
 RPROVIDES:${PN} += "innoextract"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libboost-filesystem.so.1.82.0 \
-libboost-iostreams.so.1.82.0 \
-libboost-program-options.so.1.82.0 \
+libboost-filesystem.so.1.91.0 \
+libboost-iostreams.so.1.91.0 \
+libboost-program-options.so.1.91.0 \
 libc.so.6 \
 libgcc-s.so.1 \
 liblzma.so.5 \

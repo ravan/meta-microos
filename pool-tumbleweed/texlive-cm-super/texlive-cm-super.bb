@@ -7,10 +7,10 @@ many ameliorations in typesetting quality. The fonts exhibit \
 the same metrics as the Metafont-encoded originals."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-cm-super-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "d872c0208c693166d18f4240d1b9d8957594b59759c24122698f0c7ce1901baa3fc080a5374695f21fd4473d6fee04bbe12452aaec007fe2ab2c1d2328d20568"
+RPM_NAME = "texlive-cm-super-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "6b8e793a906a8950473dfca1c0ba1c0075d879bb28f4b5742720eb13fb177e5912eaf588d2a8c344f372479c624b585c85e659d68e20ded1a7ceb1c6862e9a13"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cm-super-t1.enc \

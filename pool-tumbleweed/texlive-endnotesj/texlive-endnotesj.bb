@@ -4,10 +4,10 @@ with Japanese documents. It can be used on pLaTeX, upLaTeX, and \
 LuaLaTeX (LuaTeX-ja)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.3.0svn47703"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-endnotesj-2023.209.3.0svn47703-54.2.noarch.rpm"
-RPM_HASH = "03840e9283fcd000e6eea2e99b840f032214f94e84b70c2179cf15a838a05cd8c4021b09ee7f788f57092f7a23003244a863a5b44d40fdf1630ff3e8bf9f7473"
+RPM_NAME = "texlive-endnotesj-2026.226.3.0svn77682-61.4.noarch.rpm"
+RPM_HASH = "ba740dd1896ee71be2df2eb8972f7ac8af4ed69b4fb84cdd03b340fc6db0e3355d3419aa97fcf55b2cba75ab2f9be6c3cc25e3c1ba4e5efb95a6b5d3f52190c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-endnotesj.sty \

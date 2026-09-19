@@ -10,10 +10,10 @@ DNSSEC (secure DNS) validation and stub-resolvers (that do not run \
 as a server, but are linked into an application) are easily possible."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.18.0"
+PV = "1.26.0"
 
-RPM_NAME = "libunbound-devel-mini-1.18.0-1.1.aarch64.rpm"
-RPM_HASH = "e3be25f9ac8101d752a63a6d1d3a0f047e2e34988b0286fa50b425eb73bb6e57a755cff695fbd2ea2cb151ccb58b4014e4c77bd984e19ca2971f269512b550e7"
+RPM_NAME = "libunbound-devel-mini-1.26.0-2.1.aarch64.rpm"
+RPM_HASH = "03db8fc97a70ea10f550fd763e5e3899d30addaa8a2e99852d9c0952bfc61ce356d22c4f4f748ece17de5ab90412e5c8016863f9496f47916699a3b274d25996"
 
 RPROVIDES:${PN} += "libunbound-devel \
 libunbound-devel-mini \
@@ -26,7 +26,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libevent-2.1.so.7 \
-libsodium.so.23 \
+libsodium.so.26 \
 libssl.so.3 \
 pkgconfig-libevent \
 this-is-only-for-build-envs"

@@ -7,10 +7,10 @@ This package contains a search provider to enable GNOME Shell to get \
 search results from Boxes."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "44.3"
+PV = "50.0"
 
-RPM_NAME = "gnome-shell-search-provider-boxes-44.3-1.1.aarch64.rpm"
-RPM_HASH = "c3570af433a0b02f033f88c813a7f254e969c622aa3b7b2ff6ae6f7e92b5ba18e05e39f2899853732e06399b4abf7b8bf27a87fcf3b525fdbbbc2affd951329b"
+RPM_NAME = "gnome-shell-search-provider-boxes-50.0-2.2.aarch64.rpm"
+RPM_HASH = "1f716c641e056a819529522ad2a06cbbcac436a08c8eeb36e5d6ff60a105ab3285ee3f5822797dae6d99a1a2ec03d27737ba457c3e6ddee2be0025002a5ea783"
 
 RPROVIDES:${PN} += "gnome-shell-search-provider-boxes"
 

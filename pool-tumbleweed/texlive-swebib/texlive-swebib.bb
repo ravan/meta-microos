@@ -1,15 +1,15 @@
 SUMMARY = "Swedish bibliography styles"
 DESCRIPTION = "The bundle contains Swedish versions of the standard \
 bibliography styles, and of the style plainnat. The styles \
-should be funtionally equivalent to the corresponding original \
+should be functionally equivalent to the corresponding original \
 styles, apart from the Swedish translations. The styles do not \
 implement Swedish collation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn76924"
 
-RPM_NAME = "texlive-swebib-2023.209.svn15878-58.1.noarch.rpm"
-RPM_HASH = "d54eb16b3113bc6da4441b414bfe10e02e2631d1e7ada1836a071dc139a1c9bc7a3a1549d570b6e944d6fa1686a5ccf63aaa30697c3ebd543f58adbafebcc126"
+RPM_NAME = "texlive-swebib-2026.226.svn76924-64.2.noarch.rpm"
+RPM_HASH = "dbabd3f97ee4afe495d4a928646943994a62a4340a732859a15dae3f49e5c5dc7b237552ac8460fb4e259dc92592682c86deb95132086fb976d33ed05a0ceb8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-swebib"

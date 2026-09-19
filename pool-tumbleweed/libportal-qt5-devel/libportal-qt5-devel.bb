@@ -1,12 +1,12 @@
-SUMMARY = "A GIO-style async APIs for most Flatpak portals -- Development files"
+SUMMARY = "Headers for libportal Qt5 integration library"
 DESCRIPTION = "The libportal-qt5-devel package contains libraries, build data, and \
-header files for developing applications that use libportal."
+header files for developing applications that use libportal-qt5."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.7"
+PV = "0.10.0"
 
-RPM_NAME = "libportal-qt5-devel-0.7-1.1.aarch64.rpm"
-RPM_HASH = "316298fe29c077357c236fda453dca1f27d6a9c8624111b4f11a00f330daf2c4656ce5c8b5cd26c96a2a73a8497eb8c05518eb04a2db53dccdc6a491dd610498"
+RPM_NAME = "libportal-qt5-devel-0.10.0-1.3.aarch64.rpm"
+RPM_HASH = "f60a387fe8f56327aa0872c860036810ca247257cb44e6f445077ed0277460b6fa1fe786597df40c9091310b21e95cf1c33408df7429bfb597f50a5dbdb8aa75"
 
 RPROVIDES:${PN} += "libportal-qt5-devel \
 pkgconfig-libportal-qt5"

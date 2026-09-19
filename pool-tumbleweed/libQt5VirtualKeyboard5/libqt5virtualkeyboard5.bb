@@ -2,10 +2,10 @@ SUMMARY = "Qt5 Virtual Keyboard library"
 DESCRIPTION = "Internal library used by Qt for providing Hunspell support."
 LICENSE = "GPL-3.0"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libQt5VirtualKeyboard5-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "5d6d6371f2e36af2f53cfd5df9c481c4660b5d94000e17d96ece0dd98bad2d52cbdc4b7121c6996baf7b2486df8ece43d4a5cad7cfef60811f0018b1be075450"
+RPM_NAME = "libQt5VirtualKeyboard5-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "3abeb5bcc537121b4302823d2ebcfacdfc593f65d9c9f64aa0fc0da5d367f54e5179552e3e04a67aba5263005920955e41de3008630681120148694b3db6d543"
 
 RPROVIDES:${PN} += "libQt5VirtualKeyboard.so.5 \
 libQt5VirtualKeyboard5"
@@ -18,8 +18,6 @@ libQt5Qml.so.5 \
 libQt5Quick.so.5 \
 libc.so.6 \
 libm.so.6 \
-libstdc++.so.6 \
-libxcb-xfixes.so.0 \
-libxcb.so.1"
+libstdc++.so.6"
 
 inherit rpm

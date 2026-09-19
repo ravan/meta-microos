@@ -2,10 +2,10 @@ SUMMARY = "Translation of man pages in Swedish"
 DESCRIPTION = "This package provides translations of man pages in Swedish."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.20.0"
+PV = "4.31.0"
 
-RPM_NAME = "man-pages-sv-4.20.0-1.1.noarch.rpm"
-RPM_HASH = "141b3e24b6ba6003f1ce30f5954b55e92f6f97678e7c86504cb06561d4697a8f8212f68b496167c5825af83fa59cac08f428a7be7e0f99e938d9f5b4676bf797"
+RPM_NAME = "man-pages-sv-4.31.0-1.2.noarch.rpm"
+RPM_HASH = "cac19d85a914deb52b212ae0c8955e80aa5d43afe23ab93416e0e3c302d14760646fcc0eb4e9d1a6a1bf94fe4cc1ab28b16884f21a32b3f4753eb2c9a4fe8d02"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-man-pages-sv \

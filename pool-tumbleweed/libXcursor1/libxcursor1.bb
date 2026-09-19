@@ -5,10 +5,10 @@ exists which map to the standard X cursor names.Cursors can exist in \
 several sizes and the library automatically picks the best size."
 LICENSE = "MIT"
 
-PV = "1.2.1"
+PV = "1.2.3"
 
-RPM_NAME = "libXcursor1-1.2.1-1.6.aarch64.rpm"
-RPM_HASH = "59f125b0f38b50499e029ac10daf2508384e527014bd98317e76cffd502f117c7aee39dd2ff9b770aa058ae3e839f848b47bb452bc0395ed51ad0ea7e263c163"
+RPM_NAME = "libXcursor1-1.2.3-1.8.aarch64.rpm"
+RPM_HASH = "000b4c948b49362cb9fb6edff01732d3921cd717e46f2e3a7d783b552aa206e9fa617bd294f315ef0c7df72023369c1a44fd4faaa93ec9aca825ae4350613444"
 
 RPROVIDES:${PN} += "libXcursor.so.1 \
 libXcursor1"

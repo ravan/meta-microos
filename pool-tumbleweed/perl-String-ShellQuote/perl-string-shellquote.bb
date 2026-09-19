@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "1.04"
 
-RPM_NAME = "perl-String-ShellQuote-1.04-6.20.noarch.rpm"
-RPM_HASH = "bbcb9c6723c4e53c311a32ee2432b05f64b1d9c006b3ad9599e44541183b671860d3046be8ba0907a220c3cac4189c3428fcb6332631baf1fbf46a2c5ae996d3"
+RPM_NAME = "perl-String-ShellQuote-1.04-6.34.noarch.rpm"
+RPM_HASH = "9118dfcabb9ecff98b096ba02c22779f7d06d78bdf7602811057526df1dbc613163685846bfe76f48034cc21b2535e02ff01e6338e4bf52553985d7de7869316"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-String--ShellQuote \
 perl-String-ShellQuote"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

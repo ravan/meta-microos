@@ -2,10 +2,10 @@ SUMMARY = "Translations for package eog-plugins"
 DESCRIPTION = "Provides translations for the 'eog-plugins' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "eog-plugins-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "4424e95b7bc6472ef76f33d11fb1f0da6b4722b6299825cc7981ad4822e1745687a0d06f8d9bc93c9e9e119352f072ba495b42300fc2b3ba85d23bba8ae3880b"
+RPM_NAME = "eog-plugins-lang-44.1-2.3.noarch.rpm"
+RPM_HASH = "7459d6b87dcef90193be080bbf4dc6a00ecaf2d13d29b8771ab66d8fcd7767014007d816387a51c102f187c83b3bab119cf7b303fae9dc2f6f3e1325208d08cc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eog-plugins-lang \
@@ -32,6 +32,7 @@ locale-eog-plugins-fur \
 locale-eog-plugins-gl \
 locale-eog-plugins-gu \
 locale-eog-plugins-he \
+locale-eog-plugins-hi \
 locale-eog-plugins-hr \
 locale-eog-plugins-hu \
 locale-eog-plugins-id \

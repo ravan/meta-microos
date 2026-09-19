@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the scanner, parser, and interpreter runtim
 library for the YCP scripting language used in YaST2."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "5.0.4"
 
-RPM_NAME = "yast2-core-4.6.0-1.5.aarch64.rpm"
-RPM_HASH = "455e9f7abae4edcb4eec8209c8886316561ca71fae805c1c9d0925840ae3feff63d3492c8a026e24887b0fc60d2f7c7948d1370c94a17dfacca8936c2c6fa035"
+RPM_NAME = "yast2-core-5.0.4-1.6.aarch64.rpm"
+RPM_HASH = "2e8f684b797f94ea6f17893444effe06c6064ed379f01911f378560a91b5e327acfb5cdbfbc5a558808b8951447831594257d1a82189bb51b8a4bf8791aad6bf"
 
 RPROVIDES:${PN} += "libpy2ag-anyagent.so.2 \
 libpy2ag-dummy.so.2 \

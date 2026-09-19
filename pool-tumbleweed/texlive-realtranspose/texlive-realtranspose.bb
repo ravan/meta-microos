@@ -1,13 +1,13 @@
 SUMMARY = "The 'real' way to transpose a Matrix"
 DESCRIPTION = "With realtranspose you can notate the transposition of a matrix \
-by rotating the symbols 90 degrees. This is a hommage to the \
+by rotating the symbols 90 degrees. This is an homage to the \
 realhats package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn56623"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-realtranspose-2023.209.1.1svn56623-54.2.noarch.rpm"
-RPM_HASH = "94f425cba31e0876c5a8df22c7a85a3b56299ef9756e37f0191f210ed06976e8a498acbe94f37300066e794f1174a162c1cf40272d9ad20fb46f97c9ba589caf"
+RPM_NAME = "texlive-realtranspose-2026.226.1.1svn76924-60.4.noarch.rpm"
+RPM_HASH = "e8a0badf9d6e244cd831964adb153a351862dd7b0125e4d4d067a60b455fd49010854d6b42d261a400ea9c048f5735b7a1fa389d88c1b5f6dfbf6bb0003d1db8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-realtranspose.sty \

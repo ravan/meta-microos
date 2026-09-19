@@ -6,10 +6,10 @@ usually needed for Membrane Computing research. The package \
 depends on ifthen and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.2.1svn64627"
+PV = "2026.226.0.0.2.1svn64627"
 
-RPM_NAME = "texlive-membranecomputing-2023.208.0.0.2.1svn64627-53.1.noarch.rpm"
-RPM_HASH = "80ae53928695a6ddd3a405339448b5beee3f6db7d40208b4887672d2267d5e4604835de66facc6c265ad09b2ae08657831946e437a71daca6ea7e42f8f26d165"
+RPM_NAME = "texlive-membranecomputing-2026.226.0.0.2.1svn64627-59.2.noarch.rpm"
+RPM_HASH = "d14abf908acea7126c81b5d6b0cac9c14318d2bda1761ef53d6848e6d05ac503049c8b609a0ffcbf344b5eb568aab03e303bbf1ef4a338cd4333539b18efb065"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-membranecomputing.sty \

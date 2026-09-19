@@ -13,80 +13,91 @@ https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp or \
 https://f-droid.org/en/packages/org.kde.kdeconnect_tp/"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdeconnect-kde-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "ab13584cc60ed46505673f4161f1d16d336feebf5fde5bd395fb0ef060e1b8290695b5b11c3dbe7ea1e2f1ffb410b2d360e91f1add8ed7554c3d11e88fa2847c"
+RPM_NAME = "kdeconnect-kde-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "afd68137de6b7c31fae4397df1546a75076d06cbd7adea8696759d768be39e16b857618df14ed489ed3ad1a2ca60e0205648a6c56580d4f1ffe0fdd15a151604"
 
 RPROVIDES:${PN} += "kdeconnect-kde \
-libkdeconnectcore.so.23 \
+kdeconnect-kde-zsh-completion \
+libkdeconnect-findthisdevice-qmlhelper.so \
+libkdeconnectcore.so.26 \
 libkdeconnectdeclarativeplugin.so \
-libkdeconnectinterfaces.so.23 \
-libkdeconnectpluginkcm.so.23 \
-qt5qmlimport-org.kde.kdeconnect.1"
+qt6qmlimport-org.kde.kdeconnect \
+qt6qmlimport-org.kde.kdeconnect.1 \
+qt6qmlimport-org.kde.kdeconnect.private.findthisdevice \
+qt6qmlimport-org.kde.kdeconnect.private.findthisdevice.254"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-kirigami-addons \
-kirigami2 \
+kf6-kirigami-imports \
+kf6-kpeople-imports \
+kf6-qqc2-desktop-style \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5GuiAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5KCMUtils.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5ModemManagerQt.so.6 \
-libKF5Notifications.so.5 \
-libKF5People.so.5 \
-libKF5PulseAudioQt.so.3 \
-libKF5Service.so.5 \
-libKF5Solid.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Multimedia.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5WaylandClient.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6ModemManagerQt.so.6 \
+libKF6Notifications.so.6 \
+libKF6People.so.6 \
+libKF6PulseAudioQt.so.5 \
+libKF6Service.so.6 \
+libKF6Solid.so.6 \
+libKF6StatusNotifierItem.so.6 \
+libKF6WindowSystem.so.6 \
+libQt6Bluetooth.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6QuickControls2.so.6 \
+libQt6WaylandClient.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
 libXtst.so.6 \
 libc.so.6 \
+libcrypto.so.3 \
+libdbus-1.so.3 \
+libei.so.1 \
+libevdev.so.2 \
 libfakekey.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libqca-qt5.so.2 \
-libqt5-qtquickcontrols2 \
 libstdc++.so.6 \
 libwayland-client.so.0 \
 libxkbcommon.so.0 \
-plasma-framework-components \
-qt5qmlimport-Qt.labs.platform.1 \
-qt5qmlimport-QtQml.2 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.2 \
-qt5qmlimport-QtQuick.Dialogs.1 \
-qt5qmlimport-QtQuick.Layouts.1 \
-qt5qmlimport-org.kde.kdeconnect.1 \
-qt5qmlimport-org.kde.kirigami.2 \
-qt5qmlimport-org.kde.kquickcontrolsaddons.2 \
-qt5qmlimport-org.kde.plasma.components.2 \
-qt5qmlimport-org.kde.plasma.components.3 \
-qt5qmlimport-org.kde.plasma.core.2 \
-qt5qmlimport-org.kde.plasma.extras.2 \
-qt5qmlimport-org.kde.plasma.plasmoid.2 \
+qt6-declarative-imports \
+qt6-multimedia-imports \
+qt6qmlimport-QtCore \
+qt6qmlimport-QtQml \
+qt6qmlimport-QtQml.Models \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick.Controls \
+qt6qmlimport-QtQuick.Controls.2 \
+qt6qmlimport-QtQuick.Dialogs \
+qt6qmlimport-QtQuick.Layouts \
+qt6qmlimport-QtQuick.Layouts.1 \
+qt6qmlimport-org.kde.config \
+qt6qmlimport-org.kde.kcmutils \
+qt6qmlimport-org.kde.kdeconnect.1 \
+qt6qmlimport-org.kde.kirigami \
+qt6qmlimport-org.kde.kirigami.2 \
+qt6qmlimport-org.kde.kitemmodels \
+qt6qmlimport-org.kde.kquickcontrolsaddons \
+qt6qmlimport-org.kde.plasma.components \
+qt6qmlimport-org.kde.plasma.core \
+qt6qmlimport-org.kde.plasma.extras \
+qt6qmlimport-org.kde.plasma.plasmoid \
 sshfs"
 
 inherit rpm

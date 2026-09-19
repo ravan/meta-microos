@@ -6,14 +6,14 @@ development but is also useful as a general purpose language. \
 This package provides HTML documentation for the C++ API for the Qore library."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MIT"
 
-PV = "1.18.1"
+PV = "2.2.1"
 
-RPM_NAME = "qore-devel-doc-1.18.1-1.1.noarch.rpm"
-RPM_HASH = "6000748c753f63fd2ed07c5fcdd2a8047045981dc6629f3b4a229b0615c89f78f34e611efae4a93ef1e4c671aff6a8756d5c8ef2c55b2a2774788c0303f038e7"
+RPM_NAME = "qore-devel-doc-2.2.1-1.1.noarch.rpm"
+RPM_HASH = "3d7a7f8c4dbfee20e875148838e4774ddfebb894dfb0e9dfc4f8d45c6b82456a5d857a08d08c310eb6e3081242466998b7092e238fb5e547e2180ef0f7c5b964"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "qore-devel-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "libqore12"
 
 inherit rpm

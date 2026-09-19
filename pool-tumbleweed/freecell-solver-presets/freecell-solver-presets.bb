@@ -3,10 +3,10 @@ DESCRIPTION = "Command line programs which can be used to solve Freecell and oth
 This package contains the presets used to solve the games."
 LICENSE = "MIT"
 
-PV = "6.8.0"
+PV = "6.16.0"
 
-RPM_NAME = "freecell-solver-presets-6.8.0-1.4.noarch.rpm"
-RPM_HASH = "79a23477f123f91a32371751d57ebe1b7393c2393cb845784e7addb90c4f0381e6648f3c19d494f2dce7251801157d45de5e361f86ccb9e95bb45b65b03307ea"
+RPM_NAME = "freecell-solver-presets-6.16.0-1.5.noarch.rpm"
+RPM_HASH = "c1db8d4c2e3ffb1d3e36c401da15d29aef5a0b1070911dd8a93e1d1a9e2649dc9b938fa071f9f2e6a48391b8e9dd4f2b409b15c0c424f1008ef35d5b80553ca4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "freecell-solver-presets"

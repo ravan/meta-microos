@@ -1,15 +1,17 @@
-SUMMARY = "Support multiple lines pseudocode"
+SUMMARY = "Support multiple lines of pseudocode"
 DESCRIPTION = "This package extends the package algorithmicx to support long \
 text which spans over multiple lines."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.91svn56006"
+PV = "2026.226.0.0.99.2asvn76924"
 
-RPM_NAME = "texlive-algxpar-2023.209.0.0.91svn56006-55.1.noarch.rpm"
-RPM_HASH = "1a0386151b6fa0de76acf9ac5c0b31c772bcf92b7ee96e08c88275e57442010a00d9072d60e72921d4bd991c35bb02ffc1216e67fecc021c9378d0215033b7ca"
+RPM_NAME = "texlive-algxpar-2026.226.0.0.99.2asvn76924-61.2.noarch.rpm"
+RPM_HASH = "551b4c682c72bac724d9f8aad6ef1677155c7632dc3750370c90fed77a4455d12c892e4cdddbe0b25d1474efab475fed26b59f1a77f434e5f326ffc894946d03"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-algxpar.sty \
+RPROVIDES:${PN} += "tex-algxpar-brazilian.kw.tex \
+tex-algxpar-english.kw.tex \
+tex-algxpar.sty \
 texlive-algxpar"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -20,18 +22,27 @@ grep \
 sed \
 tex-algorithmicx.sty \
 tex-algpseudocode.sty \
-tex-amsmath.sty \
 tex-amssymb.sty \
-tex-fancyvrb.sty \
-tex-listings.sty \
+tex-etoolbox.sty \
+tex-pgfmath.sty \
+tex-pgfopts.sty \
 tex-ragged2e.sty \
-tex-tcolorbox.sty \
+tex-tikz.sty \
+tex-varwidth.sty \
 tex-xcolor.sty \
 texlive \
+texlive-algorithmicx \
+texlive-amsfonts \
+texlive-etoolbox \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-pgf \
+texlive-pgfopts \
+texlive-ragged2e \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-varwidth \
+texlive-xcolor"
 
 inherit rpm

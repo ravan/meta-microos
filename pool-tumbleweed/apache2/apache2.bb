@@ -6,10 +6,10 @@ is to provide a secure, efficient and extensible server that \
 provides HTTP services in sync with the current HTTP standards."
 LICENSE = "Apache-2.0"
 
-PV = "2.4.57"
+PV = "2.4.67"
 
-RPM_NAME = "apache2-2.4.57-2.1.aarch64.rpm"
-RPM_HASH = "da479b84efcbdf364276cd7987ba49c32390dbd1c680ff1a2402b829543a37344f98629de46c3111256ac151e2008f72f4d2153c6bd1c30cbaee598630060c41"
+RPM_NAME = "apache2-2.4.67-1.3.aarch64.rpm"
+RPM_HASH = "59727ae50ec6752c474e5cd8b9baaf90e8a2873c3b8fa4827941479649fe7dce00450c329905d7e4128b29e30c5f0f6c061f57e142cc76c04f14a69e1147d942"
 
 RPROVIDES:${PN} += "apache-mmn-20120211 \
 apache2 \

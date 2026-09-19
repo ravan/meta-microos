@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-catchfilebetweentags"
 DESCRIPTION = "This package includes the documentation for texlive-catchfilebetweentags"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn21476"
+PV = "2026.226.1.1svn21476"
 
-RPM_NAME = "texlive-catchfilebetweentags-doc-2023.209.1.1svn21476-53.1.noarch.rpm"
-RPM_HASH = "f6fa33469491ff50a6ea6d2c79916baf9f6af53c0742395cac7db2a42ce9a31763b8dd98dee7c7a813d8400778ce28d90bae43ca95a3f82b06e78f1cb3bbe0da"
+RPM_NAME = "texlive-catchfilebetweentags-doc-2026.226.1.1svn21476-59.2.noarch.rpm"
+RPM_HASH = "b498a84094ac222aeb1c56b5bff790083d671c1bf9a9fa637274c11112b8c8fccfa638c3407e8c683e3ec5e325b637b0cac70ee2eceb35cd670398a1bbec1669"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-catchfilebetweentags-doc"

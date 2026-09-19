@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-boxes"
 DESCRIPTION = "Provides translations for the 'gnome-boxes' package."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "44.3"
+PV = "50.0"
 
-RPM_NAME = "gnome-boxes-lang-44.3-1.1.noarch.rpm"
-RPM_HASH = "0138978a5f3868642485d4fbc7aa61d5a78db8880672c2b33917af0aa112de2c75938dcad2e340971e82191cd57fd9cdd68f1919544e2a9410a8c6d1916ecb82"
+RPM_NAME = "gnome-boxes-lang-50.0-2.2.noarch.rpm"
+RPM_HASH = "611de6ae8f98cab3b8e04cba05e1678f30720ec916d8c9cff82b7481352292814d2968a8baa828b5a7cc93f6d1ca20142da4a7b842c8ae239c03fe20211201a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-boxes-lang \
@@ -39,6 +39,7 @@ locale-gnome-boxes-he \
 locale-gnome-boxes-hi \
 locale-gnome-boxes-hr \
 locale-gnome-boxes-hu \
+locale-gnome-boxes-ia \
 locale-gnome-boxes-id \
 locale-gnome-boxes-it \
 locale-gnome-boxes-ja \

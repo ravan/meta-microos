@@ -4,17 +4,16 @@ activated in the slurm configuration. Includes also utility the program \
 sh5utils to merge this hdf5 files or extract data from them."
 LICENSE = "SUSE-GPL-2.0-with-openssl-exception"
 
-PV = "23.02.4"
+PV = "25.11.2"
 
-RPM_NAME = "slurm-hdf5-23.02.4-2.1.aarch64.rpm"
-RPM_HASH = "e873db420d7930df54e964a70e5038a14feb8d5cf62759b9e6173caffa4dcc89fcd61a4e2ec266a7551881a23104778fa223823d358a914a8f79590caa4ecfbf"
+RPM_NAME = "slurm-hdf5-25.11.2-1.6.aarch64.rpm"
+RPM_HASH = "f72725367f91acf6c39185be22f5ae3d22c829b84df93d45d0acc9d2b891181a9ec58aefe54b3fc4e276450c5047f384412d952a499260dd1ab99771651debb1"
 
 RPROVIDES:${PN} += "slurm-hdf5"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
-libhdf5-hl.so.200 \
-libhdf5.so.200 \
+RDEPENDS:${PN} += "libc.so.6 \
+libhdf5-hl.so.310 \
+libhdf5.so.310 \
 libslurmfull.so \
 slurm-plugins"
 

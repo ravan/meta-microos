@@ -4,10 +4,10 @@ package and provides some text macros. The package is loaded \
 with \\usepackage{hep-text}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64906"
+PV = "2026.226.1.4svn76220"
 
-RPM_NAME = "texlive-hep-text-2023.209.1.1svn64906-54.2.noarch.rpm"
-RPM_HASH = "7c924176e86392e5fc3f915c067acb489723cd748062c088e65cf043bc00d45ad6c4f75616834b724cc09325f2ac23241286d759f517bed67183d81fecdb9d14"
+RPM_NAME = "texlive-hep-text-2026.226.1.4svn76220-60.4.noarch.rpm"
+RPM_HASH = "326f38f153e10c9ed4247aa304942aa6d4f90e8de6f50a075f02805afd283c528708cc899345c61df52a2551c20ac86270d6221e1619f92b1b7c6565ce729281"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hep-text.sty \
@@ -26,7 +26,7 @@ tex-foreign.sty \
 tex-kvoptions.sty \
 tex-pdftexcmds.sty \
 tex-relsize.sty \
-tex-soulutf8.sty \
+tex-soul.sty \
 tex-xparse.sty \
 texlive \
 texlive-filesystem \

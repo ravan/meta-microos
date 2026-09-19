@@ -16,10 +16,10 @@ OPmac macros can generate and bibliography without any external \
 program."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.mar._2022svn62771"
+PV = "2026.226.mar._2022svn76924"
 
-RPM_NAME = "texlive-csplain-2023.209.mar._2022svn62771-55.1.noarch.rpm"
-RPM_HASH = "d6f5fd3681b44eb37b6ed8168a276e83972b03353fa0caa7df5afcba33367d9ac11c321135495bd4cfeb3125d5379a9a572dbd7da273c129078e0152ebfb3fe6"
+RPM_NAME = "texlive-csplain-2026.226.mar._2022svn76924-61.2.noarch.rpm"
+RPM_HASH = "4afb4a07173bf0548605314a6bef822dec92447f84d7ff7832b06de2d1f9285d4c0a7a95b9f41dff4f9fee4b0d2bb789ce8daaf461212edbd42403496cfa8740"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ams-math.tex \
@@ -115,10 +115,12 @@ texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-luatex \
 texlive-luatex85 \
+texlive-pdftex \
 texlive-plain \
 texlive-scripts \
 texlive-scripts-bin \
 texlive-tex \
-texlive-tex-ini-files"
+texlive-tex-ini-files \
+texlive-xetex"
 
 inherit rpm

@@ -27,15 +27,15 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.48"
 
-RPM_NAME = "perl-Sysadm-Install-0.48-1.25.noarch.rpm"
-RPM_HASH = "1c961b57fe22526cfc05b82f7877636dcd424a8937b5fbcdba4cb157c5fda087c241b1c6dd709cd6986d404fd31ea13a89f25bf6c7bd606e2f3d33b3fac02f14"
+RPM_NAME = "perl-Sysadm-Install-0.48-1.39.noarch.rpm"
+RPM_HASH = "7c1f3177a52fc665dbc98231a5727ccf8244f90406d417332fedc2c5c6b8dd81c749b6b668a1042e02716f578c3f680c0b104f54dd5aadae31b924ce178dd8e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sysadm--Install \
 perl-Sysadm-Install"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-LWP--Simple \
 perl-Log--Log4perl \

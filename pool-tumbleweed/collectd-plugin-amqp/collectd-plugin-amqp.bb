@@ -3,10 +3,10 @@ DESCRIPTION = "The AMQP plugin transmits or receives values collected by collect
 Advanced Message Queuing Protocol (AMQP)."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-amqp-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "39a2f44500bd96c33ae7bf6c81827d3823f83826966efe0ccef8d5014bc481f0d663b1e7b305e9e2898f8af792ed91276dc380ca5d6b072e757ff461b371a97d"
+RPM_NAME = "collectd-plugin-amqp-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "acd909da8b542e0243270bd3b51317d5bbb7f27264856ebeeaa18b99ad835ac235cb576ddaeb2727ff6e65e1a11c8f079bd02f9064a7cc0b20dea38df30914bb"
 
 RPROVIDES:${PN} += "collectd-plugin-amqp"
 

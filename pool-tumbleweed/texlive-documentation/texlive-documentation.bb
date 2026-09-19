@@ -4,10 +4,10 @@ programs such that the result is acceptable for inclusion in \
 reports, etc."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn34521"
+PV = "2026.226.0.0.1svn34521"
 
-RPM_NAME = "texlive-documentation-2023.209.0.0.1svn34521-53.1.noarch.rpm"
-RPM_HASH = "b1685fb281fed46060a8ff3bcd6a65f6d7d41ed4ed0e51c459e5a311f8ac4032937b92f00e98c2665438f899b291e08b46168213f9415e632264b636922e7f5d"
+RPM_NAME = "texlive-documentation-2026.226.0.0.1svn34521-59.2.noarch.rpm"
+RPM_HASH = "f3a4dff68bd671b3c961366b779c85c0e9ae5a61c7926602b922e131635ea2876a64c2bbdd3813ca8a6783a6fb7a113ab1e6b1c454e4dec8041aa44802f0793d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-documentation.sty \

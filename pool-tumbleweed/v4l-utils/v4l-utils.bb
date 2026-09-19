@@ -2,10 +2,10 @@ SUMMARY = "Utilities for video4linux"
 DESCRIPTION = "v4l-utils is a collection of various video4linux (V4L) utilities."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.24.1"
+PV = "1.32.0"
 
-RPM_NAME = "v4l-utils-1.24.1-1.4.aarch64.rpm"
-RPM_HASH = "79bdb8b90730ce2125c2d381f69ab26b81406c4db6b51ade223e8d43eb36c5caaf17edbda3110563e3d488a526be24a69bb1a420cd2ccc682a73d4d6cb96879b"
+RPM_NAME = "v4l-utils-1.32.0-2.4.aarch64.rpm"
+RPM_HASH = "4a149cde8ede86c127c91e02df69e8138467dc0a1326a8f79c9e85a38671473211525cb449e7d623eb42d31a71c8d7c3b5134d24ba672be554275f9883c50032"
 
 RPROVIDES:${PN} += "config-v4l-utils \
 v4l-utils"

@@ -2,16 +2,16 @@ SUMMARY = "Translations for package killbots"
 DESCRIPTION = "Provides translations for the 'killbots' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "killbots-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "de13d0e82d9b964fc2300429b8c503ca88929dc737de3da1896802a61a2ddcc61a3d921b386c3f6f27e360feccd23de24e68c4f8331cedd411687e1e6aa491cc"
+RPM_NAME = "killbots-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "0f76c9fb87109b6d4dd693bd5e98e23cebcae69398b957e6a91363171ccf01a08ece3bab0afed227b6d6cac6abe80a77334b4daa7f47ed0ea55b6758168f10eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "killbots-lang \
 killbots-lang-all \
 locale-killbots-ar \
-locale-killbots-bg \
+locale-killbots-ast \
 locale-killbots-bs \
 locale-killbots-ca \
 locale-killbots-ca@valencia \
@@ -28,8 +28,11 @@ locale-killbots-fi \
 locale-killbots-fr \
 locale-killbots-ga \
 locale-killbots-gl \
+locale-killbots-he \
+locale-killbots-hi \
 locale-killbots-hr \
 locale-killbots-hu \
+locale-killbots-ia \
 locale-killbots-id \
 locale-killbots-is \
 locale-killbots-it \

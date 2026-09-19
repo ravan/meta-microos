@@ -9,10 +9,10 @@ etextools. Basic support for using TikZ decorations is also \
 provided."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.6svn26807"
+PV = "2026.226.1.5.6svn26807"
 
-RPM_NAME = "texlive-mycv-2023.209.1.5.6svn26807-55.1.noarch.rpm"
-RPM_HASH = "aa03b9ef5da14ce6a788bf49a0a4f5a3b0b7dbaabc6af1f24f53f17efcd98fb95fcf9e9a8472e0259401f2b51d77712f02a32be8f63899bd9b245d3321804b54"
+RPM_NAME = "texlive-mycv-2026.226.1.5.6svn26807-61.2.noarch.rpm"
+RPM_HASH = "735a7ae65f1b1cc2b8eae345e1a980e84fc4bb093b7d0630ddd33f936724e5dd1294af2bc214558326bcf81b7e51cde34462f8ca9e811a348cc697d7f72c3e9e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mycv-base.def \

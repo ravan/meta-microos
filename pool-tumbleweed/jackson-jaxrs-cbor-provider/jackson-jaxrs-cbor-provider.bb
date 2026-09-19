@@ -3,10 +3,10 @@ DESCRIPTION = "Functionality to handle CBOR encoded input/output for JAX-RS impl
 (like Jersey and RESTeasy) using standard Jackson data binding."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-jaxrs-cbor-provider-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "e4adc94e8ff4ee4d5bfc5b9b4e6101f6f53257f099a69f8f9dac5b82369b7a6c64c7bc4f58561135d2fae04b936be4b08341861f1552115b180865ccb71cd9ac"
+RPM_NAME = "jackson-jaxrs-cbor-provider-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "97e75ffa6827dd8af576a5dadf30eebade43522b04ce7bd54c1be3a72cb01ad8f8cbf1767a9db2f5b509a2b9b50e4d162931de791eb8e10548ebdb2487c41230"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-cbor-provider \

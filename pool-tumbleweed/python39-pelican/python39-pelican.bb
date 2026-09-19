@@ -20,10 +20,10 @@ Pelican currently supports: \
 * Integration with external tools: Twitter, Google Analytics, etc. (optional)"
 LICENSE = "AGPL-3.0-only"
 
-PV = "4.8.0"
+PV = "4.5.4+git.1610713159.8bb5f1b7"
 
-RPM_NAME = "python39-pelican-4.8.0-2.7.noarch.rpm"
-RPM_HASH = "892d23130653db95ac62f7f588d7074c777f6657f2c53d4620e9333853635e2ac1620bc677c7062ea421abbf256798a4d5a97a124c8cb9e633f45b99760a00ad"
+RPM_NAME = "python39-pelican-4.5.4+git.1610713159.8bb5f1b7-1.4.noarch.rpm"
+RPM_HASH = "0f151dc8f87aa1aef17f0d1744135173b42aebf82cd594785241d5babe8fa9be1b183c0ed7233401920528515aa73294cffaedc1f00fedc38b79e4a1badbc2df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.9dist-pelican \
@@ -41,7 +41,6 @@ python39-docutils \
 python39-feedgenerator \
 python39-python-dateutil \
 python39-pytz \
-python39-rich \
 update-alternatives"
 
 inherit rpm

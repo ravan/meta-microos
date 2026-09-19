@@ -5,14 +5,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.04"
 
-RPM_NAME = "perl-Devel-CheckBin-0.04-1.28.noarch.rpm"
-RPM_HASH = "66f3092178318829e7fe580553667668566fe5747b07197c22055ff63cdc119a5cea980a0880bc775c26bdcf658e2d0e282a2be35eb683872a88e776ebf8af77"
+RPM_NAME = "perl-Devel-CheckBin-0.04-1.42.noarch.rpm"
+RPM_HASH = "6afcab1faa10be5dd951c9e86b464ae8bcba64dfa357d109dea1f6ed7c435a6aec76492642fc11c305d97c81e9377886bb34698e67ae2c5c85575a7e9bb00502"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--CheckBin \
 perl-Devel-CheckBin"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--MakeMaker \
 perl-parent"
 

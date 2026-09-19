@@ -11,10 +11,10 @@ better if you want to set page layout parameters to particular \
 measurements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.92svn54080"
+PV = "2026.226.0.0.92svn54080"
 
-RPM_NAME = "texlive-rmpage-2023.209.0.0.92svn54080-54.2.noarch.rpm"
-RPM_HASH = "e3f636d3dd4126ccec5efa052c6daf5a7d123fdacb194b494c26fcc713ab28930b55f13d1005820d497b919fc2536730c2c8982e81c7bab89410c22e18ece7f9"
+RPM_NAME = "texlive-rmpage-2026.226.0.0.92svn54080-60.4.noarch.rpm"
+RPM_HASH = "a58b44fb4402a1176268082a12bdbdc9904c1cc6e3161da142540658dcc21815a52e11b2d925e441f98a95af09b0a85471c3e626350cf1fd2f4aa91fd1a57f04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rmpage.sty \

@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "2.2.28"
 
-RPM_NAME = "udunits2-devel-2.2.28-1.9.aarch64.rpm"
-RPM_HASH = "a6a24ea70b74e5cfd316946a0103debe51ae1ecbf056ec0269845f4630464154eccb309896cc2bca043eeda70ab5bddf2ed13d12ea61535ee1a1cab2bf6c7ce9"
+RPM_NAME = "udunits2-devel-2.2.28-2.8.aarch64.rpm"
+RPM_HASH = "8b30e20adffea2767a5e80243cac08c3cbe743cacd65cc86576eac51a1cbee9e349cf4d74ea7ba3a9e5ffee979362e324fefe2b7b6f84bf025c48bc4f73e8f8e"
 
 RPROVIDES:${PN} += "udunits2-devel"
 

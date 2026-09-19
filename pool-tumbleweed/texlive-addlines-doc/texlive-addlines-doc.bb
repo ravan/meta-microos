@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-addlines"
 DESCRIPTION = "This package includes the documentation for texlive-addlines"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn49326"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-addlines-doc-2023.209.0.0.3svn49326-55.1.noarch.rpm"
-RPM_HASH = "e6545cc61ccf75176dd1cf89b353922a5af86bf110138d8d517a9e662e6118f5992a2ac7ea3007c069423b57aa624853d9e97e49c8d9a1feb7e5cb0faeefff85"
+RPM_NAME = "texlive-addlines-doc-2026.226.0.0.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "a72252ca59804c192e794f5193133041738bdacf17d02d30ac1aed99395bc174a39e522e4a65f85c517c091af1fa61bc0f696435f55bc2e13ea3be2a9c4633de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-addlines-doc"

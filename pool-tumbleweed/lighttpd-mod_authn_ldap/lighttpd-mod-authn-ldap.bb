@@ -2,10 +2,10 @@ SUMMARY = "LDAP authentication in lighttpd"
 DESCRIPTION = "A module to provide LDAP authentication in lighttpd."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.71"
+PV = "1.4.85"
 
-RPM_NAME = "lighttpd-mod_authn_ldap-1.4.71-1.2.aarch64.rpm"
-RPM_HASH = "f38e533384e5e155caabc76369cd4b9253afaab95cff4b52b028810535754952a6a617c9f9c8b57d26bc003267cd2de4f76e5beebffc0283cde5a47a3a90d896"
+RPM_NAME = "lighttpd-mod_authn_ldap-1.4.85-1.2.aarch64.rpm"
+RPM_HASH = "3169ccb07bad5b9f4b6e11ddc254064f6839b88e5f24991df9faaabcd1cc8a62e4c8fbd90395ab4763331b0ae6bb633b920a059a17dcf98d9149ea61a0946cc5"
 
 RPROVIDES:${PN} += "lighttpd-mod-authn-ldap"
 

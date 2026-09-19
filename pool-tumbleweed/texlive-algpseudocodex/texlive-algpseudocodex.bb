@@ -9,10 +9,10 @@ support for long code lines spanning several lines and improved \
 comments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn65860"
+PV = "2026.226.1.2.0svn74973"
 
-RPM_NAME = "texlive-algpseudocodex-2023.209.1.1.0svn65860-55.1.noarch.rpm"
-RPM_HASH = "f01bc7a87c31b22ee5068288ddbb1cf72205d5027d32f9898fd23be5cef6bc0f8859c6180020d9827efe176ffad8e45d54ed5c630f1c2c9428054443a95aa3ad"
+RPM_NAME = "texlive-algpseudocodex-2026.226.1.2.0svn74973-61.2.noarch.rpm"
+RPM_HASH = "dda3522b6cd2fed4ce049442e862f2adb44ef2ce59465820ceb0ad5c7e9d981a2b990b6dc3a72e05d4e3023414e5cebf2c566ba62a7226f4f4c1407ce9d6f72d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-algpseudocodex.sty \

@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.8"
 
-RPM_NAME = "viewnior-lang-1.8-2.1.noarch.rpm"
-RPM_HASH = "70f4fc881be8fe78903a4fcfff43ec592ce29bf923919a9d93629ca1b320e61a82e72ea721ce1516a90b253e608f403d9b3ca347be15c35b33b67f5b16ad1355"
+RPM_NAME = "viewnior-lang-1.8-2.13.noarch.rpm"
+RPM_HASH = "51759d8c004c6f2ea7dd8d1f8d6764b249c1e5796b3243eae458754101d22cdcd581456d7f9e4755e6aad10eeb76f74759b7a138232c7ad99e2a40411cd11492"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-viewnior-ar \

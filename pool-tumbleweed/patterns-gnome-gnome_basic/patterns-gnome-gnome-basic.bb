@@ -4,19 +4,22 @@ This pattern installs GNOME desktop environment with only essential graphical \
 applications installed (File Manager, Web Browser)."
 LICENSE = "MIT"
 
-PV = "20201210"
+PV = "20250310"
 
-RPM_NAME = "patterns-gnome-gnome_basic-20201210-16.1.aarch64.rpm"
-RPM_HASH = "1dbff871a74076d06b0722a643be971d63e25b9125d3070d2d1195d5d684ff4614567f8f236e4594c1ca3b364d005e192baa4f89aa32a4fe8cc69b2a45ecd784"
+RPM_NAME = "patterns-gnome-gnome_basic-20250310-10.2.aarch64.rpm"
+RPM_HASH = "9c70aadd4cfb05e4666a8dfccd262bc881f897f9a3b69f963542423bc96e5d1916f4a71d8035f1ebd1e141b9ea5fddb662abd6691ad6fe7694a481421b767103"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
 pattern-icon- \
 pattern-order- \
 pattern-visible- \
-patterns-gnome-gnome-basic"
+patterns-gnome-gnome-basic \
+patterns-openSUSE-gnome"
 
-RDEPENDS:${PN} += "gsettings-backend-dconf \
-pattern-"
+RDEPENDS:${PN} += "gnome-user-share \
+gsettings-backend-dconf \
+pattern- \
+seahorse"
 
 inherit rpm

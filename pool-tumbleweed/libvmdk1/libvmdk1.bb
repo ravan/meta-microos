@@ -19,10 +19,10 @@ VMDK format features not supported at the moment: \
 * changed block tracking (CBT) (supported by VMDK version 3 (sparse)) / change tracking files"
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221124"
+PV = "20260714"
 
-RPM_NAME = "libvmdk1-20221124-4.1.aarch64.rpm"
-RPM_HASH = "a145ba226ccc0c9fcc1e9195c4ac692b64578c893a828d26d832e69a4449fb98c470b54ca44cf5976dcdbc873d78298b5fda951400df3aff32ccfba94c3c1101"
+RPM_NAME = "libvmdk1-20260714-1.2.aarch64.rpm"
+RPM_HASH = "26835e8983acbe0a74d9173c93e50b0bf119b4abb20059d43382ace737914fec9e19e3b1110c20693d4fbbb85c7573c9c0d263711707832327cf09afb0ec57ab"
 
 RPROVIDES:${PN} += "libvmdk.so.1 \
 libvmdk1"

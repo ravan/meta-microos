@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "1.0.20"
 
-RPM_NAME = "sysbench-1.0.20-1.17.aarch64.rpm"
-RPM_HASH = "44762bf74dae01dcb10be02ad43710d7ed1d4506fdf0b83dd6a2041671e26a7ae0d73a6b9844bc6d835b67d6b9e8821b72e1dab11c3ee392be6e8927efe5c326"
+RPM_NAME = "sysbench-1.0.20-1.30.aarch64.rpm"
+RPM_HASH = "db8406bb840876a795a636abd0a51f05b73e128c944407b687c897857fa971a3475cc4ecdd1a02a6d0a1f4a26f46a1e7e712d94007d88d46feefdeb7345c1ff7"
 
 RPROVIDES:${PN} += "sysbench"
 

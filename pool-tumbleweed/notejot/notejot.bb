@@ -3,10 +3,10 @@ DESCRIPTION = "A sticky notes application for any type of short term notes \
 or ideas."
 LICENSE = "GPL-3.0-only"
 
-PV = "3.4.9"
+PV = "3.5.1"
 
-RPM_NAME = "notejot-3.4.9-1.8.aarch64.rpm"
-RPM_HASH = "00a058449eca0d872c16f0e2a71af2300fde279d5db1354f2b808a75cebb6983ae4903e38fa1373d210caacd6d9bb52efea4e1c394e9722b44648e1db72f8276"
+RPM_NAME = "notejot-3.5.1-1.7.aarch64.rpm"
+RPM_HASH = "46f3abc37658097639b48322bc32bc5a5be432ba8bbe00be4bbd19440ea89312ff728abdfb14c1eb29c93efe48315e8270e8913dffe7ce6fe01a1089e72a7875"
 
 RPROVIDES:${PN} += "notejot"
 

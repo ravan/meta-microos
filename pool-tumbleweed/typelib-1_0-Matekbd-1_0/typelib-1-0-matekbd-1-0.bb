@@ -3,16 +3,16 @@ DESCRIPTION = "This package provides libmatekdb, an API to manage the keyboard i
 MATE Desktop applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "typelib-1_0-Matekbd-1_0-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "a7025681cddf64ae2d22ae7ded4b363f13e95b16701f3a4b7edf3e566be836e591d3825b50457fa99453c7ebcf96e1fe41b750836655b2502d13eeb4986bcc10"
+RPM_NAME = "typelib-1_0-Matekbd-1_0-1.28.0-2.5.aarch64.rpm"
+RPM_HASH = "c51c8effda6643e6b801dcfba8c02c911dd26c49caef8b0847ebdaeef68722641998e0e40a8e998f3cdebe5cb7e1451b4bc142f45b79a9cd2c24fd7d526ab770"
 
 RPROVIDES:${PN} += "typelib-1-0-Matekbd-1-0 \
 typelib-Matekbd"
 
-RDEPENDS:${PN} += "libmatekbd.so.4 \
-libmatekbdui.so.4 \
+RDEPENDS:${PN} += "libmatekbd.so.6 \
+libmatekbdui.so.6 \
 typelib-Atk \
 typelib-GLib \
 typelib-GModule \

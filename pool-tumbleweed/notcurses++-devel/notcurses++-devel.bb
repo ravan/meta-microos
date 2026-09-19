@@ -9,10 +9,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libnotcurses."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.9"
+PV = "3.0.17"
 
-RPM_NAME = "notcurses++-devel-3.0.9-1.8.aarch64.rpm"
-RPM_HASH = "d413286017f777c5a1cb334de08cbc77b82cd60159a04efcd3e58183658797c59a5d8facdaed62dcd80c259bf23d1392922af5466f36244315238d3009141efb"
+RPM_NAME = "notcurses++-devel-3.0.17-1.6.aarch64.rpm"
+RPM_HASH = "8071b0b535fe1800e8e2005554c2f8b177ba7ab6f0d65cf408152c2d3163b68795f9d2a738c83b44e4b1da8ba8e08efcbe72ae9414529c285154a182b68f6c08"
 
 RPROVIDES:${PN} += "cmake-Notcurses++ \
 notcurses++-devel \

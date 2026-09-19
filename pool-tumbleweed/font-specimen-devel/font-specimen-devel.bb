@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "20150202"
 
-RPM_NAME = "font-specimen-devel-20150202-3.18.aarch64.rpm"
-RPM_HASH = "58e53cb2652748755d7a308353fa5b679032c4f2b9b3d57117f7b754cdea35928c5f3892a89ceaf8585f24c4751dd94473e78a38b5bf8237dd1f6270d87a74bb"
+RPM_NAME = "font-specimen-devel-20150202-3.30.aarch64.rpm"
+RPM_HASH = "6f119d1e7725345fcefef97b7a89bec7f0b6dba07c8ee07593a747281fe2a81d868d9aed1a368120afb4283e6c4e18274eb08874d0a11b15e9be37da910d5aa2"
 
 RPROVIDES:${PN} += "font-specimen-devel \
 pkgconfig-font-specimen"

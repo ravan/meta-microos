@@ -2,10 +2,10 @@ SUMMARY = "Busybox applets replacing unzip"
 DESCRIPTION = "This package contains the symlinks to replace unzip with busybox."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.36.1"
+PV = "1.38.0"
 
-RPM_NAME = "busybox-unzip-1.36.1-30.1.noarch.rpm"
-RPM_HASH = "2dd70c7bcdd043b9a0c861ceeea584d21845bb52c157a89a60be5e1f6672afff6f2446846bf6547fc64560e0459533b535e8b153461ccf9bed2f6aa7f37445d5"
+RPM_NAME = "busybox-unzip-1.38.0-42.2.noarch.rpm"
+RPM_HASH = "5468eee666d036ee16a1eb6245b54bab37ead2beace9e5f52f8e183e4f1872fa4a219996ed1eb3755654a200574b47e2476fdf170e3a054396b934329f455c4c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "busybox-unzip"

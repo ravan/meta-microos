@@ -4,8 +4,8 @@ LICENSE = "Zlib"
 
 PV = "1.3"
 
-RPM_NAME = "icc-profiles-openicc-rgb-1.3-16.21.noarch.rpm"
-RPM_HASH = "668c7fd857815bc25ce59615728b6d15a152cea2d489e99b3c4aaba5e353587a0b3e8ebc7bafb7dc25e3c8db9dcff1ca898347fbc55ac12160121f664de46868"
+RPM_NAME = "icc-profiles-openicc-rgb-1.3-16.29.noarch.rpm"
+RPM_HASH = "c8a201667b533f8555c924fe3fafb07cf6af083cd62d6a36704dd96d81bf80e77804c0bc15111f6cbb70ec0c69c53fee0003106188d00557c24bdd87dd9b2f1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icc-profiles-openicc-rgb"

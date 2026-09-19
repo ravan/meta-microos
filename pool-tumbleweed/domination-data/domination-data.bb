@@ -9,12 +9,12 @@ network play, single player, hotseat, 5 user interfaces and many more features, 
 it works in all OSs that run java. \
  \
 Data files (cards, maps and images) for Domination."
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 
 PV = "20140921"
 
-RPM_NAME = "domination-data-20140921-1.18.noarch.rpm"
-RPM_HASH = "c9a3cc1e5e596f91ab8a867cc190664d21089cdea00b5b6ac7d6a03909c7a09c10a6fffa34060491a665cd56c288369b937e3f4c2ce8664f3b0af7d8cbd6bb20"
+RPM_NAME = "domination-data-20140921-2.2.noarch.rpm"
+RPM_HASH = "5a1c2a88852e867910d00de3ccaf56c6307ef90d3210525b2e7ad29251056b3c801df5a57f07d99378f9bcd17df40b43c1a3591d5eabd400c7c0e2f7b3c38b16"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "domination-data"

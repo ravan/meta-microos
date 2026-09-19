@@ -2,15 +2,15 @@ SUMMARY = "Haskell void profiling library"
 DESCRIPTION = "This package provides the Haskell void profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.3"
+PV = "0.7.4"
 
-RPM_NAME = "ghc-void-prof-0.7.3-6.3.aarch64.rpm"
-RPM_HASH = "99d1b10c27238b7dcf6aff3af0a58b6009458a1459398ad0a590c6fa4a1034734b1ea8298d8105c3220d45b8ea12e9be4d46446accbb1a4ebca8effb7abea158"
+RPM_NAME = "ghc-void-prof-0.7.4-1.7.aarch64.rpm"
+RPM_HASH = "e8691a6c30be575e0aac7cbea29236de4ade3dc665c72a0f9ffd1b8a9f797a953407f6489f9f1b56dd3277acdcd6d0470dffab349ad34238e1fdcdbd50fdb3bb"
 
-RPROVIDES:${PN} += "ghc-prof-void-0.7.3-GhXmDKlBHl0LbXoxVMxAU0 \
+RPROVIDES:${PN} += "ghc-prof-void-0.7.4-18r3xgdXbMHk4AqCF5SgT \
 ghc-void-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
 ghc-void-devel"
 
 inherit rpm

@@ -4,10 +4,10 @@ bring it to a local machine, without having the remote server do \
 anything special."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "4.3.4"
+PV = "4.3.5"
 
-RPM_NAME = "suck-4.3.4-1.30.aarch64.rpm"
-RPM_HASH = "79e722c5bd0f1d6c4175100ab57ae21825f301f2954afdfb316116ed497876529a792e28396c768116b07db409e5825e809a5e0e0b44d17a99a7c805567f383b"
+RPM_NAME = "suck-4.3.5-1.15.aarch64.rpm"
+RPM_HASH = "37253adf28a7120e1896d311562dc7076e711047255342cb1042ad218cf1948f37190f03ce661d5924540e9f47a7c3b4219c2366a2f02eaa18b21f791b8af4c5"
 
 RPROVIDES:${PN} += "suck"
 

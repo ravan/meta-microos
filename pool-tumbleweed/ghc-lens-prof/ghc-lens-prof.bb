@@ -2,48 +2,46 @@ SUMMARY = "Haskell lens profiling library"
 DESCRIPTION = "This package provides the Haskell lens profiling library."
 LICENSE = "BSD-2-Clause"
 
-PV = "5.2.3"
+PV = "5.3.6"
 
-RPM_NAME = "ghc-lens-prof-5.2.3-1.1.aarch64.rpm"
-RPM_HASH = "4e8918d4b3e1a3b50161aa4f30f66d2a9f3fcc60b438615be45e7a2609e5d0827e476a96aa6207d0dc19db991b8a9c5bae66b8555cddd5939d7fe91d18ed44b0"
+RPM_NAME = "ghc-lens-prof-5.3.6-1.3.aarch64.rpm"
+RPM_HASH = "cb2ef037c2e627a8bd4db45ba896f8f37760d2e081fdd4c3d605dd32ac85323c496daba85c89f73c9468552fae8c4b90f82cf5cffc57611c115f9a37de3866b9"
 
 RPROVIDES:${PN} += "ghc-lens-prof \
-ghc-prof-lens-5.2.3-77wBUrzlfuWHQNAaqkfvdZ"
+ghc-prof-lens-5.3.6-J5P8ydEQLUbA8WXxD5pRjA"
 
 RDEPENDS:${PN} += "ghc-lens-devel \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-assoc-1.1-J44kuPbAMT5GyespKCFdbT \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
-ghc-prof-bifunctors-5.5.15-KUw4gCd9iBfLph9IFStYJY \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-call-stack-0.4.0-nQZfFxinEdIa1BWxMyadt \
-ghc-prof-comonad-5.0.8-56nFbOwllOwBl7FMfSy83E \
-ghc-prof-containers-0.6.7 \
-ghc-prof-contravariant-1.5.5-35YFLB0uIuz5cknUjKLNnT \
-ghc-prof-distributive-0.6.2.1-7gHlNDSCz3vFkde299iroS \
-ghc-prof-exceptions-0.10.5 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-free-5.1.10-8DOWW3JiZaX7obxPZwBWX0 \
-ghc-prof-ghc-prim-0.9.1 \
-ghc-prof-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-prof-indexed-traversable-0.1.2.1-4MWkBnFErvq3PVvZRvlACO \
-ghc-prof-indexed-traversable-instances-0.1.1.2-4xmEkkFhOqh6ApH5IPswPQ \
-ghc-prof-kan-extensions-5.2.5-8EOcrvzPSBS2QFPhIHEfWy \
-ghc-prof-mtl-2.2.2 \
-ghc-prof-parallel-3.2.2.0-4HmomK1BnRHCRUDqhNxOgQ \
-ghc-prof-profunctors-5.6.2-GfNUFxHNpLn859duquR0iv \
-ghc-prof-reflection-2.1.7-1WygFxHmxkcEQBv8T6gHut \
-ghc-prof-semigroupoids-5.3.7-H606qAbQOgNCZ5aAzkCf0g \
-ghc-prof-strict-0.5-430Uicv2DUP1jZqwf2ycOP \
-ghc-prof-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-prof-template-haskell-2.19.0.0 \
-ghc-prof-text-2.0.2 \
-ghc-prof-th-abstraction-0.4.5.0-CynkUuS8OuAKbGjDnje1Fs \
-ghc-prof-these-1.2-5fSFdT8DGhg7GQONqvd4MR \
-ghc-prof-transformers-0.5.6.2 \
-ghc-prof-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
-ghc-prof-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-prof-vector-0.13.0.0-2UZsZW2LfoDoE4x89R5ku"
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-assoc-1.1.1-7ZKlIzFkmc1FQCJcpfYrTi \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-base-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO \
+ghc-prof-bifunctors-5.6.3-9Dfko6C8LIIe8HG4zoeag \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-call-stack-0.4.0-5oZIckzxOZr1eMyD6xWtI3 \
+ghc-prof-comonad-5.0.10-Adp50yscRn74SK6wUdL7QP \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-contravariant-1.5.6-7FVTzec2jegEwzkeRkQOi4 \
+ghc-prof-distributive-0.6.3-9lg1Hxwh2KlJVxh3zQCgyL \
+ghc-prof-exceptions-0.10.12-f655 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-free-5.2-4eWU5ydqIMF46nGJ3OnruR \
+ghc-prof-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-prof-indexed-traversable-0.1.5-JylwuAInS9n4ImeZ4JChDW \
+ghc-prof-indexed-traversable-instances-0.1.2.1-6YpZT8gBjiD9ssAaPGVbKH \
+ghc-prof-kan-extensions-5.2.8-BhPXqlF7GPZ4azZSK3TJ3I \
+ghc-prof-mtl-2.3.2-37ef \
+ghc-prof-parallel-3.2.2.0-DHmdQd1fQsJFTMvpGLTdNS \
+ghc-prof-profunctors-5.6.3-CPqBm5VgzT9DSAiXWxFcrG \
+ghc-prof-reflection-2.1.9-D6RNqRhT9cGDEmA5fjQvJF \
+ghc-prof-semigroupoids-6.0.2-B6Y5GIvJ2JI8mXJpMQTJaF \
+ghc-prof-strict-0.5.1-9s5NAvHzvkrI18NRIQgFhz \
+ghc-prof-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-prof-template-haskell-2.23.0.0-358a \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-th-abstraction-0.7.2.0-LVMuWnluhDI5se4FHUInw7 \
+ghc-prof-these-1.2.1-IItOvRyyn8cFsXxaqiOQHG \
+ghc-prof-transformers-0.6.3.0-4709 \
+ghc-prof-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-prof-vector-0.13.2.0-F8givqpU8HnLN0O3dVdeWE"
 
 inherit rpm

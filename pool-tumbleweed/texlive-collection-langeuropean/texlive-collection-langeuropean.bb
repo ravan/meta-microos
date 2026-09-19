@@ -4,13 +4,16 @@ German, French, ...) have their own collections, depending \
 simply on the size of the support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn66432"
+PV = "2026.222.svn73414"
 
-RPM_NAME = "texlive-collection-langeuropean-2023.208.svn66432-60.1.noarch.rpm"
-RPM_HASH = "816d2f780c9dce449a7a6928defa01f9f816054227e13a176a0a84836f9dcc2e7b64dc6d501661d3ed75f138adedc9217483b84784b1961f8f2b0fa5ffe9edfe"
+RPM_NAME = "texlive-collection-langeuropean-2026.222.svn73414-68.2.noarch.rpm"
+RPM_HASH = "77b51758808a4d810b56cd02800fd1a228e0d96dba96c9721c6f5b6cfa33de57228dd289f89d35c5d6b43183594811d6fbb512850b1b9eb09c1343601bf6d381"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langeuropean"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-european \
+texlive-collection-langeuropean"
 
 RDEPENDS:${PN} += "texlive-armtex \
 texlive-babel-albanian \
@@ -47,6 +50,7 @@ texlive-gloss-occitan \
 texlive-hrlatex \
 texlive-huaz \
 texlive-hulipsum \
+texlive-hyphen-albanian \
 texlive-hyphen-croatian \
 texlive-hyphen-danish \
 texlive-hyphen-dutch \

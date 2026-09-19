@@ -2,10 +2,10 @@ SUMMARY = "Configure Hypervisor and Tools for Xen and KVM"
 DESCRIPTION = "This YaST module installs the tools necessary for creating VMs with Xen or KVM."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.1"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-vm-4.6.1-1.1.aarch64.rpm"
-RPM_HASH = "85c5cf10731fce59e0fccc63796f59b950894674422440be6c0e04d3d2823b19e739c5138c22aab9f693aea366deb9d90ba54108341cb1dde80bddabd664d4f1"
+RPM_NAME = "yast2-vm-5.0.1-1.2.aarch64.rpm"
+RPM_HASH = "46d638fe159857782745c4e0d0200d4f8cc71d7c66f83fd448b62831ba9ee4ae37f35226bfafb60834552971e50b74de37c2788175146b13ec64796df4ce9aa1"
 
 RPROVIDES:${PN} += "yast2-vm"
 

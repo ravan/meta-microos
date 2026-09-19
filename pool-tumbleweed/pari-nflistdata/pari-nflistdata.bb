@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20220729"
 
-RPM_NAME = "pari-nflistdata-20220729-1.2.noarch.rpm"
-RPM_HASH = "c0215a071c8f16950fe465d04b4ccba974995aa38f70e9e065abe360534eb1a738bb099a54e83012c5002947433a9d45e88feb60abe8922fc2748cde141deaa1"
+RPM_NAME = "pari-nflistdata-20220729-1.10.noarch.rpm"
+RPM_HASH = "6ef1b9c45d5df53f8e4a9a1f31c1637cd1fbf6b179d114cae12e30a8b6e5afda74aaa29e60dc043a9e440a7ead7fa3bbefcac5e8fd3327e9325e39b1365bb50c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-nflistdata"

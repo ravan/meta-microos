@@ -2,10 +2,10 @@ SUMMARY = "Binary files of pkfix"
 DESCRIPTION = "Binary files of pkfix"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn13364"
+PV = "2026.20260301.svn13364"
 
-RPM_NAME = "texlive-pkfix-bin-2023.20230311.svn13364-93.2.aarch64.rpm"
-RPM_HASH = "ef6cb1e9f0ef3237f9b8133add62308c265eaea8620c967a65e83bf6ad0b6e0234b3e8d1c1c882bb6868fd7b13b6f4cf94aa1fe68691bf3c67ceab6de15167b6"
+RPM_NAME = "texlive-pkfix-bin-2026.20260301.svn13364-120.4.aarch64.rpm"
+RPM_HASH = "76d809a10ac39851feb018da9b3d69a32c912be3b87ab4ab3ab0559e1d2dec94642d928e18758dc8da02bff052cb4b8dc346d9d2183610eeedb960132db5020a"
 
 RPROVIDES:${PN} += "texlive-pkfix-bin"
 

@@ -12,10 +12,10 @@ character sets. Another Unicode-aware alternative is the \
 package to typeset its output."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.0.0.99dsvn66186"
+PV = "2026.226.0.0.99esvn77830"
 
-RPM_NAME = "texlive-bibtex-2023.209.0.0.99dsvn66186-54.1.noarch.rpm"
-RPM_HASH = "6163f22333cf39939c425bac3211957830e324ed42de7257a6b64937e066ada213a2492e2cc331509003774a0d36736180cdc9854e831aa74bd63467d8539c58"
+RPM_NAME = "texlive-bibtex-2026.226.0.0.99esvn77830-61.2.noarch.rpm"
+RPM_HASH = "92add08e65fb084dfd9b37fcacb53903be862e48a2c2d746a3febaba4f508283402e3e5ae32f3271faf7ccec596439f1dfb954265608d563ec54a947bc9314da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-apalike.sty \

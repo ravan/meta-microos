@@ -34,8 +34,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.4.4"
 
-RPM_NAME = "simplescreenrecorder-0.4.4-2.8.aarch64.rpm"
-RPM_HASH = "5c0755161be3a369ac9e38143c7394ffa57f75c4076eb7818ab6500e7572998357694a922e7141c8895475af5fcf0e5f0cb61eac7848de9e6a13cc99807c1e4d"
+RPM_NAME = "simplescreenrecorder-0.4.4-5.6.aarch64.rpm"
+RPM_HASH = "e30d4c8ac7b696c60f425fcd800447f7ee903a8077c488ee0a85bd8ba1b03275488809a74adedbfbce00f07756477ad1ce7677499f24325f4f30c436c3a5477a"
 
 RPROVIDES:${PN} += "simplescreenrecorder"
 
@@ -51,16 +51,16 @@ libXfixes.so.3 \
 libXi.so.6 \
 libXinerama.so.1 \
 libasound.so.2 \
-libavcodec.so.60 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libgcc-s.so.1 \
 libjack.so.0 \
 libm.so.6 \
 libpulse.so.0 \
 libstdc++.so.6 \
-libswscale.so.7 \
+libswscale.so.9 \
 libv4l2.so.0"
 
 inherit rpm

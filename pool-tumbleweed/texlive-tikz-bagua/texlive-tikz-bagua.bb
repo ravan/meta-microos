@@ -5,10 +5,10 @@ fonts for showing these symbols. The package relies on TikZ, \
 bitset, xintexpr, xparse, and xstring."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn64103"
+PV = "2026.227.1.01svn64103"
 
-RPM_NAME = "texlive-tikz-bagua-2023.209.1.01svn64103-55.1.noarch.rpm"
-RPM_HASH = "7cfaaa7b7d57564b6925777415dad7ed9c72f54cb1bad9e86e235eb7ec38cceb4f78abc2b60381e3d683a0ef16fbc1c8ab0573fd9a9dd1c15626135effdbc8bc"
+RPM_NAME = "texlive-tikz-bagua-2026.227.1.01svn64103-62.2.noarch.rpm"
+RPM_HASH = "67afd5c7a9007cc39680635c5613a48dc19a329eb163c5d5104c594250167d018aa71b1a6f86a04e4605ababe9b49d85841a79fd6491b06f36885a02351fca06"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikz-bagua.sty \

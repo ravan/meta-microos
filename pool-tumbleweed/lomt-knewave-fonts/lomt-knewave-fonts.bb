@@ -4,8 +4,8 @@ LICENSE = "OFL-1.1"
 
 PV = "0.20121218"
 
-RPM_NAME = "lomt-knewave-fonts-0.20121218-8.7.noarch.rpm"
-RPM_HASH = "66d2ca9797dabe8633cd702a01ede60e408dc9c80222d6905b4856f87537de921ddbc08aa9c488c8d4fc556908724fbab384afe0ee9a9d90ba60363f1936306b"
+RPM_NAME = "lomt-knewave-fonts-0.20121218-8.15.noarch.rpm"
+RPM_HASH = "94b7a90e7ab19bba978384af945d0564b03f8fab78265d6235091de9c1fe5c0b52e0d1fcae6c78084c04fb1d3512cb071dc9fbca195abf0ff05177e31de3ee50"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lomt-knewave-fonts"

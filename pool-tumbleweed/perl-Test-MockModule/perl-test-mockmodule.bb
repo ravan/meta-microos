@@ -8,16 +8,16 @@ restored. This happens automatically when all MockModule objects for the \
 given module go out of scope, or when you 'unmock()' the subroutine."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.177.0"
+PV = "0.185.3"
 
-RPM_NAME = "perl-Test-MockModule-0.177.0-1.11.noarch.rpm"
-RPM_HASH = "cfb7a0b0eb6d0ede100f89beae4c7a48ebd6c79df6126ccc3d22db3ca8e9bf0ffefd8fef165e7e8f71e6067291d063620d0d294af46325fc72e5105e60cb76f8"
+RPM_NAME = "perl-Test-MockModule-0.185.3-1.3.noarch.rpm"
+RPM_HASH = "9a6bca6e0f3f2d1cedc2a341f5faaef97fbd4e51339a935648ea8f9e23bc0d00288ea1753a65f01a0f48cd62392ee86db73020adec54b1337dfd2b2c95f00811"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--MockModule \
 perl-Test-MockModule"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-SUPER"
 
 inherit rpm

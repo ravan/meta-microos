@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "gontributions-0.7.1-1.6.aarch64.rpm"
-RPM_HASH = "313271e4eb968f1d4c0a6bf4463d613e166f1cae8a2701f08f69817318c6388b9caf93ce7e80c6c17617462e3f22941e9045b4c9f88cdeb9670913d87d12969b"
+RPM_NAME = "gontributions-0.7.1-1.24.aarch64.rpm"
+RPM_HASH = "f41ee9f303104dfa6f2b8d45f84c5a590b5c45a4c2d8670885151d62cbf23c7975ab4b2cf06741dcf9fdbef9655bc7a77ad3f5097fb129bf5ea59fdf38281eb4"
 
 RPROVIDES:${PN} += "gontributions"
 

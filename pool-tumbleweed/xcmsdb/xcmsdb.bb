@@ -5,10 +5,10 @@ specified in section 7, Device Color Characterization, of the \
 X11 Inter-Client Communication Conventions Manual (ICCCM)."
 LICENSE = "MIT"
 
-PV = "1.0.6"
+PV = "1.0.7"
 
-RPM_NAME = "xcmsdb-1.0.6-1.4.aarch64.rpm"
-RPM_HASH = "79d99f8bfa069156b30b365f59142f212d8d5d6a59773a19fe8cfc08f365f021e756044c054c8c2897754bb288df7f815df94dedc19423e3d0400bf4cba2a1f8"
+RPM_NAME = "xcmsdb-1.0.7-1.8.aarch64.rpm"
+RPM_HASH = "d7c7064017f3451284c6c830f10385fe11af5bdd928e7a2b5eb5fa587272d0c0dbd67ae84ec060b5900ab02a9c4a17b8d8789a7ec71c416af6d8a3f7d3e8a76a"
 
 RPROVIDES:${PN} += "xcmsdb"
 

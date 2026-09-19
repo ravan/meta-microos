@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-merriweather"
 DESCRIPTION = "This package includes the documentation for texlive-merriweather"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64452"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-merriweather-doc-2023.209.svn64452-55.1.noarch.rpm"
-RPM_HASH = "ad09e616042f25e231404e68164e3dfae7416b2a17fe3d3e25be8884bbfbae835872f277892b818d985bb5222a469f588bd1dab75465761dab72ed212df0ed89"
+RPM_NAME = "texlive-merriweather-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "790424101292bbea9f437ec58b0429c3a6c41d5ba2a107b82e17047d68fe4ac1723cd0eedd2c975a71f9028ca34482af79b8cdb1133c1c11ac7d65a6bd616227"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-merriweather-doc"

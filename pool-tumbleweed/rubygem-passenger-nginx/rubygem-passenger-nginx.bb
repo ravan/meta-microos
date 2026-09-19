@@ -6,10 +6,10 @@ optimized for performance, low memory usage and ease of use. \
 This package holds the nginx sub package for passenger"
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "6.0.17"
+PV = "6.2.0"
 
-RPM_NAME = "rubygem-passenger-nginx-6.0.17-1.6.aarch64.rpm"
-RPM_HASH = "fd3b16acc9a37a988de0bd402e8054d3b81fdb025033883ca40b8caaba926293685ff006035dd0d15350e1c2b4cdf4c5b2ef19a88db765653b0d7b1aef1e5522"
+RPM_NAME = "rubygem-passenger-nginx-6.2.0-1.1.aarch64.rpm"
+RPM_HASH = "bac7cc66e1b415fc923d558450ceb21f7de9f16061049732902d4384b9cfdbfeb768f1d2d29f2a5eec117bcfbb6ad5c4401514bc6933c18183aa9268d0f2d80d"
 
 RPROVIDES:${PN} += "config-rubygem-passenger-nginx \
 rubygem-passenger-nginx"

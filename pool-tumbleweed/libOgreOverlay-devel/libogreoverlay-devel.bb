@@ -4,16 +4,16 @@ DESCRIPTION = "OGRE (Object-Oriented Graphics Rendering Engine) is a scene-orien
 This package contains the development headers for the overlay component."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "libOgreOverlay-devel-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "7ca6f793a027b3e9259dd0270adb403d1502dc8eb8609f28f91fcc0e07d571771c52a90576741f0a680d19ac7fede755578ddc5ae6aff2b06b466f3927f48b12"
+RPM_NAME = "libOgreOverlay-devel-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "396201317a4cefee853077d8c2dc8e4324378011186d6b6f1ee9148eef99053af348d3ab853b71ecc04d9729ff182b4c58017999db1c721f2ca4c1ea6d34bc5e"
 
 RPROVIDES:${PN} += "libOgreOverlay-devel \
 pkgconfig-OGRE-Overlay"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libOgreOverlay13-5 \
+libOgreOverlay13-6 \
 pkgconfig-OGRE"
 
 inherit rpm

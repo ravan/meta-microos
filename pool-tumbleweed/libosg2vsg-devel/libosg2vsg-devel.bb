@@ -10,8 +10,8 @@ LICENSE = "MIT"
 
 PV = "0.1.0"
 
-RPM_NAME = "libosg2vsg-devel-0.1.0-1.2.aarch64.rpm"
-RPM_HASH = "e80d7e78b582ff6acb301c9dc909c9afb364cdc736cd2aa23bec91e1fd7953433680d9c89768b291f1c2bb250c69ddb4a1798ee0b869764e70096698562c472c"
+RPM_NAME = "libosg2vsg-devel-0.1.0-1.10.aarch64.rpm"
+RPM_HASH = "aff08226b689c2e5b11e2da8510016c0173560376649f696ea5b0bcb9586755c686a7a40e2b086f3916751b7e9d35e5ea4d5769761b36e1e3d2dcc504fc423ba"
 
 RPROVIDES:${PN} += "cmake-osg2vsg \
 libosg2vsg-devel"

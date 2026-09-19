@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.01"
 
-RPM_NAME = "aspell-tk-0.01-2.14.aarch64.rpm"
-RPM_HASH = "4334db14546522b6eaa5f98623a57361250d6fd0e6550b542596abfc23c7cbe5c1172e3692ca4e6fb07c78967c524c8af1a9f740ca5562df41b14ec7a8b17ecd"
+RPM_NAME = "aspell-tk-0.01-4.7.aarch64.rpm"
+RPM_HASH = "f14e3176f5b76fe8c69544d8f770e0d898e34c8daa4957c6ecfc878a2f6be70506c78b92f3be37197beda33b809d6dd4885943c17b5a2b0f9a07ef425d99ef91"
 
 RPROVIDES:${PN} += "aspell-tk \
 locale-aspell-tk"

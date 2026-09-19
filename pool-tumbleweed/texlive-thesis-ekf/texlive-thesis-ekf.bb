@@ -1,16 +1,17 @@
 SUMMARY = "Thesis class for Eszterhazy Karoly Catholic University"
-DESCRIPTION = "This is a class file for theses and dissertations at the \
-Eszterhazy Karoly Catholic University (Eger, Hungary). The \
-documentation is in Hungarian."
+DESCRIPTION = "This bundle provides a LaTeX class for theses and dissertations \
+at Eszterhazy Karoly Catholic University (Eger, Hungary). The \
+documentation is written in Hungarian."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.2svn60228"
+PV = "2026.227.5.0svn77332"
 
-RPM_NAME = "texlive-thesis-ekf-2023.209.4.2svn60228-55.1.noarch.rpm"
-RPM_HASH = "0efe7816af14478e4df81b9598318ea9539357dcd146ffe0c5ab01f55024ee9faeba2babff762b7eed06bfe44342192cb0ab517f877a5268346711c51e7d5f48"
+RPM_NAME = "texlive-thesis-ekf-2026.227.5.0svn77332-62.2.noarch.rpm"
+RPM_HASH = "ce56d39bcca5f0fbdca4a4738fa8ab0000118feb429caa54c72f721aa3fc1dcc05a8d2cc6181fc6ff3b857a3c9233c785b4b729c8bf0692459f75443f83e8da1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-thesis-ekf.cls \
+RPROVIDES:${PN} += "tex-thesis-ekcu.cls \
+tex-thesis-ekf.cls \
 texlive-thesis-ekf"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
@@ -19,9 +20,7 @@ ed \
 findutils \
 grep \
 sed \
-tex-cmap.sty \
 tex-cmupint.sty \
-tex-etoolbox.sty \
 tex-fixcmex.sty \
 tex-fontsize.sty \
 tex-geometry.sty \

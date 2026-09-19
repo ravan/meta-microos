@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-colorwav"
 DESCRIPTION = "This package includes the documentation for texlive-colorwav"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.0svn15878"
+PV = "2026.226.1.0svn67012"
 
-RPM_NAME = "texlive-colorwav-doc-2023.209.1.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "9834f716cf4f1e4b3927926c43ec7ff39cbbd366180398a025a2a1343d567459e4212a4117d7b33d3022c823bb5a7dc104401c77aa6f945b15ee2d0281e59d18"
+RPM_NAME = "texlive-colorwav-doc-2026.226.1.0svn67012-60.2.noarch.rpm"
+RPM_HASH = "d6e43a9bfb0204567ccb36c38f6f90946e19fdeb5686d5f1c1b1611bb117ac2f2b9903a99473fb21c5018429c77431b8d0bb073a21d4623407a8659d762ae088"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-colorwav-doc"

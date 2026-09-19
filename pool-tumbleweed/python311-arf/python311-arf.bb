@@ -11,10 +11,10 @@ other languages (e.g. MATLAB, Python, etc). ARF comprises a set of \
 specifications on how different kinds of data are stored."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.6.1"
+PV = "2.6.4"
 
-RPM_NAME = "python311-arf-2.6.1-4.6.noarch.rpm"
-RPM_HASH = "7e242ac943e711aad790dd8bea15cf4d6b95651583c44e2cd2fd2404a4a7acc2500626a352386f64453ed3c41728f799118014639261a29c4a02a3fcfd8a7e31"
+RPM_NAME = "python311-arf-2.6.4-1.1.noarch.rpm"
+RPM_HASH = "5254e15cc82154ccd5b7408213b007f88b7828fb6f8eda364b8dc58bbd6f0002895d6865ea2b765f7f138c5c1b6c316ecb902991f4922c4a8e0232ed4f2129bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-arf \

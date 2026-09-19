@@ -10,10 +10,10 @@ Ocrad can be used as a stand-alone console application, or as a backend to \
 other programs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.28"
+PV = "0.29"
 
-RPM_NAME = "ocrad-0.28-1.8.aarch64.rpm"
-RPM_HASH = "9ed95e33ac1ec2fdad980e900f682c95e45ce2c8230f39225ce61fb1a142b1b6fcd0b2dc84e545c5b38edc3230e8049b33c66b0753bc780e653730a4ab7002f4"
+RPM_NAME = "ocrad-0.29-1.11.aarch64.rpm"
+RPM_HASH = "617dfbca637d5ffa14a74e6ebbd9266e03365cca3f517bdd8071515c7a580c8aad210ed882a1cfe0908843435f04694a29e6c08f07034e1b3acb8799c1fb1a05"
 
 RPROVIDES:${PN} += "ocrad"
 

@@ -10,10 +10,10 @@ customizable, both globally and locally. The package is based \
 on zref's extensible referencing system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.6svn66021"
+PV = "2026.226.0.0.5.1svn77682"
 
-RPM_NAME = "texlive-zref-clever-2023.209.0.0.3.6svn66021-53.2.noarch.rpm"
-RPM_HASH = "b7139fe9b01cc0bfb54b02707e299d9fa3dd9ee613bf2b2532a2ebe81ee537cf26ff1da777c9fb8558a9435bdad4f1ceca22eb52981383b953177b4bd136a786"
+RPM_NAME = "texlive-zref-clever-2026.226.0.0.5.1svn77682-59.4.noarch.rpm"
+RPM_HASH = "3f36539cb5bb996412a2763f12cdf2260498c821422567cfbc4cdaf33beb5f73c1f9c7c3ea779b673d2e878ade67d10e22fed813bac6e28da6d4ff2536d761f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-zref-clever.sty \
@@ -34,7 +34,9 @@ texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-oberdiek \
 texlive-scripts \
-texlive-scripts-bin"
+texlive-scripts-bin \
+texlive-zref"
 
 inherit rpm

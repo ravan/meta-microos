@@ -2,10 +2,10 @@ SUMMARY = "Java JWT"
 DESCRIPTION = "Java implementation of JSON Web Token (JWT)"
 LICENSE = "MIT"
 
-PV = "3.8.3"
+PV = "4.4.0"
 
-RPM_NAME = "java-jwt-3.8.3-1.19.noarch.rpm"
-RPM_HASH = "2907f5cc0ff4c96681a18518b9d10255db568d3446b2cfe43e121b7018bd684df27937affefc4e901b5851f56956ec5a8f40e1b71ade4117fc650690eece9774"
+RPM_NAME = "java-jwt-4.4.0-1.8.noarch.rpm"
+RPM_HASH = "f0c9227cb625495e6b98e8cbb71c9f8a545f6ad96f3c7d9c6499d47d52a311ef86bec2d65498a48f7ef0402f68d84fec9298908e308f87c8d1d8571376782fbd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-jwt \
@@ -14,7 +14,6 @@ mvn-com.auth0-java-jwt-pom-"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-com.fasterxml.jackson.core-jackson-databind \
-mvn-commons-codec-commons-codec"
+mvn-com.fasterxml.jackson.core-jackson-databind"
 
 inherit rpm

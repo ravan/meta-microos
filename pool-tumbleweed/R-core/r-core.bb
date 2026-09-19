@@ -2,10 +2,10 @@ SUMMARY = "The core components of R"
 DESCRIPTION = "This package provides the core of R, i.e. all that is in base."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-core-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "c0a60f944eed5dbe087e7c9ff15dc7f7f18b692e5c7c398bb2af7a70116518f2df662aaab78dfed1d4f3a1657a4953087b911b0bdf50247b83c772baf06368ea"
+RPM_NAME = "R-core-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "1bb8bf98822974a1766f19567cf49a4df0f0af5758d89adbde2d0908fc6ec4c4f4817eba4599f0e35b50ba5957f255d3d58bcddc614d783c4daddcb6163b9542"
 
 RPROVIDES:${PN} += "R-core"
 

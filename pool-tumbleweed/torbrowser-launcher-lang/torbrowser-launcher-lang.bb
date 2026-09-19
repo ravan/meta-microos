@@ -2,10 +2,10 @@ SUMMARY = "Translations for package torbrowser-launcher"
 DESCRIPTION = "Provides translations for the 'torbrowser-launcher' package."
 LICENSE = "MIT"
 
-PV = "0.3.6"
+PV = "0.3.9"
 
-RPM_NAME = "torbrowser-launcher-lang-0.3.6-1.3.noarch.rpm"
-RPM_HASH = "507bbdd96516942405194d8b86cfabb19b12a85f23d9b91663914c3d904c4cdb9768e4006f5b02810789b225928ca67467558708b9a0560586be1c204e428fc4"
+RPM_NAME = "torbrowser-launcher-lang-0.3.9-1.3.noarch.rpm"
+RPM_HASH = "a33cd9385b874bea73247e527a33e946178917bfe0c9f647df5fe3437be71e7aa65a50dc5a18e63c37eadab3a25c1a7645533fc05c6dc0036fb1ae3a05355f1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-torbrowser-launcher-be \

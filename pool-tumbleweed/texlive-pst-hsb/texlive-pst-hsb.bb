@@ -1,13 +1,13 @@
 SUMMARY = "Curves with continuous colours"
 DESCRIPTION = "This is a PSTricks-related package. It can plot lines and/or \
 curves with continuous colours. Only colours defined in the hsb \
-model are supported"
+model are supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn61322"
+PV = "2026.226.0.0.03svn66739"
 
-RPM_NAME = "texlive-pst-hsb-2023.209.0.0.02svn61322-53.1.noarch.rpm"
-RPM_HASH = "4e87b9ee67dc2b1973ddabe4de82f8821c785c5986ed69fe02e8614ec46f870ee0d313686134c63d6f222b6eaa108299d5aa5653cb41f96da3e8b66c6515854d"
+RPM_NAME = "texlive-pst-hsb-2026.226.0.0.03svn66739-59.2.noarch.rpm"
+RPM_HASH = "ddd4b9487c6a1361ebddc54306cf5d121bd8599be5a1c31e4e96c455838bba6eec8cc7bd7532b256c089c37468cf526d9c95b0e612e0bfafca546107f659f531"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-hsb.sty \

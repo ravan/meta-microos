@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later & Apache-2.0 & BSD-3-Clause & MIT"
 
 PV = "4.0.4.0"
 
-RPM_NAME = "libKSeExpr4-4.0.4.0-1.11.aarch64.rpm"
-RPM_HASH = "e7c511efa24180174773fb7d8a6d3fcb0272b04f1644ac2deb4dcad8ee955a8e1f1c88496b4b8ce3eab4866289b8a71714bc59506998f8cd1ffaac4b5e5644f5"
+RPM_NAME = "libKSeExpr4-4.0.4.0-1.20.aarch64.rpm"
+RPM_HASH = "0595758c4802ae9198e7659f8650d52a4ac45b77e2ad900e5d3b95a0e079d53224fc2fc55ed94a7ddc9f4b1945b35369583933ef84bfbccafdefbe6d664ab8ec"
 
 RPROVIDES:${PN} += "kseexpr \
 libKSeExpr.so.4 \

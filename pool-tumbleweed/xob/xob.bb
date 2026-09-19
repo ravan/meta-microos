@@ -4,14 +4,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "0.3"
 
-RPM_NAME = "xob-0.3-1.7.aarch64.rpm"
-RPM_HASH = "801181be1ecba25f59942398cf3a76694798d7092e65d1850a2087a897ceeaa65eacc509a9a949c99513d6b43eb353e05039be872a00ddbb2a7e8c0d6e7332f8"
+RPM_NAME = "xob-0.3-1.19.aarch64.rpm"
+RPM_HASH = "926a0334c704fe02bfa37dc824892a0a8a24e0e19e7b23b0752b3d54de7ee062f4b725c1dcb3542a30f51d94c210ca8a413e8278a329c426be03f8873bbe73b0"
 
 RPROVIDES:${PN} += "xob"
 
 RDEPENDS:${PN} += "libX11.so.6 \
 libXrender.so.1 \
 libc.so.6 \
-libconfig.so.11"
+libconfig.so.15"
 
 inherit rpm

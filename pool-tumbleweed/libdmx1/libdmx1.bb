@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.1.5"
 
-RPM_NAME = "libdmx1-1.1.5-1.1.aarch64.rpm"
-RPM_HASH = "326ba89aaced2c02cbf84fc4c163f51006d6227bf3b037b1c2a9dad571217a34f372f7c7c6db82c39d115c3a6785e7220361eb2fa2c21f7174097e19911b9ccc"
+RPM_NAME = "libdmx1-1.1.5-1.11.aarch64.rpm"
+RPM_HASH = "9b88310df6ae3c94f8a42bf5d68c3e9ffc981f4aa60334d203db5aecfe3d777a71eee1d8e297fa9270eae42bbe1ffa5e1e74cf5471c1c84d8ced91e20912d515"
 
 RPROVIDES:${PN} += "libdmx.so.1 \
 libdmx1"

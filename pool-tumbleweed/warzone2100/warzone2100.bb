@@ -16,15 +16,15 @@ working on it. \
 This package provides the binaries for Warzone 2100."
 LICENSE = "BSD-3-Clause & CC-BY-SA-3.0 & GPL-3.0-or-later & CC0-1.0 & LGPL-2.1-only"
 
-PV = "4.3.5"
+PV = "4.7.0"
 
-RPM_NAME = "warzone2100-4.3.5-2.1.aarch64.rpm"
-RPM_HASH = "a16be47feff842f866febc7fa4a3524aba6f7fbe08653bac67e70464c91d585680dc8ae1e24c463e968e374c96816b545dbbe63f884fe3ab80af4f23d55e32e5"
+RPM_NAME = "warzone2100-4.7.0-1.4.aarch64.rpm"
+RPM_HASH = "1a6c7373fa49b374900dc600545754d72eb626f1dcd360c6c3477cdb55d50ef39dc02de0432ea527993d854d03858d034cc3f7e030738847f477f0cc71c72ae1"
 
 RPROVIDES:${PN} += "warzone2100"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libSDL2-2.0.so.0 \
+libSDL3.so.0 \
 libc.so.6 \
 libcurl.so.4 \
 libfreetype.so.6 \
@@ -32,19 +32,22 @@ libfribidi.so.0 \
 libgcc-s.so.1 \
 libharfbuzz.so.0 \
 libm.so.6 \
-libminiupnpc.so.17 \
+libminiupnpc.so.21 \
 libogg.so.0 \
 libopenal.so.1 \
 libopus.so.0 \
 libphysfs.so.1 \
 libpng16.so.16 \
-libsodium.so.23 \
+libprotobuf.so.36.1.0 \
+libsodium.so.26 \
 libsqlite3.so.0 \
 libstdc++.so.6 \
-libtheoradec.so.1 \
+libtheoradec.so.2 \
+libturbojpeg.so.0 \
 libvorbis.so.0 \
 libvorbisfile.so.3 \
 libz.so.1 \
+libzip.so.5 \
 warzone2100-data"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 Speech library"
 DESCRIPTION = "You need this package if you want to compile programs with qtspeech."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libqt5-qtspeech-devel-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "6535441773bca45644bddf81118c23f84e9b27d64f1fd562d2e7c4d480934fec82ac6f34c7a829c93f9f2c1ee5baf0c2840676bdeeb57fad880d453e7248ca27"
+RPM_NAME = "libqt5-qtspeech-devel-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "9d552b6ac3ee39115e88cf1b3045945508430c56023bef0c46554bc6c2d6967e41e69ff150a279c60c278b89bb9a60101c98569603a84b209d90740b3f547202"
 
 RPROVIDES:${PN} += "cmake-Qt5TextToSpeech \
 libqt5-qtspeech-devel \

@@ -7,10 +7,10 @@ almost trivial, but will hopefully offer less cluttered \
 preambles as well as a welcome help for novice users."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn46925"
+PV = "2026.226.0.0.1svn46925"
 
-RPM_NAME = "texlive-statmath-2023.209.0.0.1svn46925-58.1.noarch.rpm"
-RPM_HASH = "d38864612b39c2c8d94bf41bc83629e84959e9de6d7b281e74ca0723fb67ee11833d60babf512c73ad70ad15b54e04ec4f0c5c0300fb578197dea3c8de8baff5"
+RPM_NAME = "texlive-statmath-2026.226.0.0.1svn46925-64.2.noarch.rpm"
+RPM_HASH = "f42bfaff7d837ab40e251d94ebd6b0000f2e8e9f70d1fb79e6453676f63f4de4b935ff105d9fb53fab3f005836f0f58d1c0bebdeb6c81c1b49c1ba9023c38c9b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-statmath.sty \

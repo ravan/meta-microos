@@ -7,10 +7,10 @@ straightforward LaTeX class for composing papers almost \
 perfectly adherent to the MLA style guide."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn60508"
+PV = "2026.226.1.1svn72271"
 
-RPM_NAME = "texlive-mlacls-2023.209.1.0svn60508-55.1.noarch.rpm"
-RPM_HASH = "932874dad790269d7e46630120eb030decfb40bfd245ef8da85b20ceac5a4b9c96dbd1954b89408982021afd662fc1058fa02c2bcdc663f5daa6b49f7863b7e9"
+RPM_NAME = "texlive-mlacls-2026.226.1.1svn72271-61.2.noarch.rpm"
+RPM_HASH = "27421e2f8736995ea30f840564962e00da1b4f61aa2ab77efe2f34b7c0d16bf252846824c3619dd93616d77fafcb676d6fbbb38363ce5019605b9052370a739c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mla.cls \

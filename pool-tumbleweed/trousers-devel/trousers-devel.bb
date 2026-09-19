@@ -10,8 +10,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.15"
 
-RPM_NAME = "trousers-devel-0.3.15-6.1.aarch64.rpm"
-RPM_HASH = "d4f01e50cb6b630b68669a73daf86f1932a0f6b411dbdf4d5e67bdaaf9d6120e6b1a98b3a5d82c3801987c25dcf3d8f69924de9806b6368a420a7d8d35dc9431"
+RPM_NAME = "trousers-devel-0.3.15-9.4.aarch64.rpm"
+RPM_HASH = "18037bc3d6a71e53549219cd999c930029813f083bd02f3e6e8a56c4ed2096674193c82e6c03df4bd32dacd6d95da1442ad16f362dd1cc19f43699410f1688b4"
 
 RPROVIDES:${PN} += "trousers-devel"
 

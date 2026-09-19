@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-uebungsblatt"
 DESCRIPTION = "This package includes the documentation for texlive-uebungsblatt"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.0svn15878"
+PV = "2026.226.1.5.0svn15878"
 
-RPM_NAME = "texlive-uebungsblatt-doc-2023.209.1.5.0svn15878-54.1.noarch.rpm"
-RPM_HASH = "2ff7d064c20acbe222f13fc923767ae9b329b8bc3ffa13c021de1a822ac1bde4bf46a6c3b3cc7574d8be92267057ae5d1167a8de83a046f4f1419615ff16142e"
+RPM_NAME = "texlive-uebungsblatt-doc-2026.226.1.5.0svn15878-60.2.noarch.rpm"
+RPM_HASH = "8a7c401ef284cc1299b5d3137a93b34da577a82ddaa018c2fb3df57d768de92005cf1a60e80340141766c4c7cd0cba6739247dd977e2eab43e8a738af9d2894d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-uebungsblatt-doc-de \

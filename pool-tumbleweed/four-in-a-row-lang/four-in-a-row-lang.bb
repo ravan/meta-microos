@@ -2,10 +2,10 @@ SUMMARY = "Translations for package four-in-a-row"
 DESCRIPTION = "Provides translations for the 'four-in-a-row' package."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "3.38.1"
+PV = "3.38.1+62"
 
-RPM_NAME = "four-in-a-row-lang-3.38.1-1.15.noarch.rpm"
-RPM_HASH = "beacef495d808a2f009ef4de4c6c97e34b902978c547b7e7f2c21477e971df35ced0a8b2c03e25445a97d08b32b2cb3aaa362258b239bdb33fadd4fda42eb0e8"
+RPM_NAME = "four-in-a-row-lang-3.38.1+62-1.2.noarch.rpm"
+RPM_HASH = "66e5c8698a7f6c6ab10ba412e127d92ef482be618db1136ac2a1feb333b224e0317f2c06aa49d6347224cf31076d0ea89c6f8e647399337b4a6e2f8abb173b84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "four-in-a-row-lang \

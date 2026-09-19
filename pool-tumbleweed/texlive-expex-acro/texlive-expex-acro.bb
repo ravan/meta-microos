@@ -5,10 +5,10 @@ provides commands to refer to examples, as well as some inline \
 formatting commands commonly used in linguistics."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.2svn63319"
+PV = "2026.226.0.0.0.3svn68046"
 
-RPM_NAME = "texlive-expex-acro-2023.209.0.0.0.2svn63319-53.1.noarch.rpm"
-RPM_HASH = "f045ee55596edd2727d74c208bde5c9171bc7840328292946bba00077a9cecaaf90f60fefbbba0a4a35ac5390000b9e09183d6563b3c820b373bdb10b29c0231"
+RPM_NAME = "texlive-expex-acro-2026.226.0.0.0.3svn68046-59.2.noarch.rpm"
+RPM_HASH = "1a2dafb41a776763c78886fcb81bf3db9e39d2ca52d140546dda4400902429b1aa5377a63ad5c8d5f3c4ac643a3c2cb8a6b2761b7d1adca2517f04918e23c442"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-expex-acro.sty \

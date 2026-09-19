@@ -6,30 +6,30 @@ Some of these, such as the ability to run scripts, extend the Console's \
 functionality."
 LICENSE = "Apache-2.0"
 
-PV = "3.30.2"
+PV = "3.83.0"
 
-RPM_NAME = "oci-cli-3.30.2-1.1.noarch.rpm"
-RPM_HASH = "eb6a2cc6b28698568e3a5bd1b44afc00b09435fe228ffc9b2d854365b9bf410d4068b705b549d85bb09127e7eae20ae33fe37944a829306915d8c09ca6039ee6"
+RPM_NAME = "oci-cli-3.83.0-1.2.noarch.rpm"
+RPM_HASH = "148bec0cf0450d76c1f458e31f103dfd920c1c2d241e2cf51dd721b60b89437f1fdd58808fe56faab48693b8c3dc2c85fb75a3608d724c90caea0b879d5c9049"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "oci-cli \
-python3.11dist-oci-cli \
+python3.13dist-oci-cli \
 python3dist-oci-cli"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
-python3-PyYAML \
-python3-arrow \
-python3-certifi \
-python3-click \
-python3-cryptography \
-python3-jmespath \
-python3-oci-sdk \
-python3-prompt-toolkit \
-python3-pyOpenSSL \
-python3-python-dateutil \
-python3-pytz \
-python3-six \
-python3-terminaltables"
+python313-PyYAML \
+python313-arrow \
+python313-certifi \
+python313-click \
+python313-cryptography \
+python313-jmespath \
+python313-oci-sdk \
+python313-prompt-toolkit \
+python313-pyOpenSSL \
+python313-python-dateutil \
+python313-pytz \
+python313-six \
+python313-terminaltables"
 
 inherit rpm

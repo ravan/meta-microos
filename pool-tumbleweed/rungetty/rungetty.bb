@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2"
 
-RPM_NAME = "rungetty-1.2-9.10.aarch64.rpm"
-RPM_HASH = "2db1851b0acbf9b44bab9aa30de528411f2c371936a7869dd4483d490a0bd620e0073004b2a107f74ea58b61a438f9d449267aa86e86a0b3615b69f4067aa1e7"
+RPM_NAME = "rungetty-1.2-9.20.aarch64.rpm"
+RPM_HASH = "9365c1ac497d4b83fd8d43ac0ba333962d2927639ec539b2d828104ba12bf7b296395693daf70489b849161c7a834e20d2d27f45e3e74dfd2221baf3f4e9a391"
 
 RPROVIDES:${PN} += "rungetty \
 sysvinit-/sbin/mingetty"

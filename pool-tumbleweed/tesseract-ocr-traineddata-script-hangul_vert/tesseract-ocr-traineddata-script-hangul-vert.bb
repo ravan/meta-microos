@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Hangul (Ver
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-hangul_vert-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ec4750c37faf622b3ceed1d057a2bdfadca850bf5fd7453807bd2f0ce47d6b55be2ef7cf6d4e9e21546f2690e65c126d5f839572c393815e6ef9eb9652d7c246"
+RPM_NAME = "tesseract-ocr-traineddata-script-hangul_vert-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "aa48d31ccb331cdf3bec57d9294cb04e2231d78e7fb189281f575ddba3c779804224865850efe97bae386d78248f26742bb8c7b761348886fe364f65f3760403"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-hangul-vert"

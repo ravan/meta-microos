@@ -2,15 +2,15 @@ SUMMARY = "libgedit-gtksourceview's GObject introspection bindings"
 DESCRIPTION = "The GObject introspection bindings for libgedit-gtksourceview library."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "299.0.3"
+PV = "299.7.1"
 
-RPM_NAME = "typelib-1_0-GtkSource-300-299.0.3-1.1.aarch64.rpm"
-RPM_HASH = "22d4b2dbf362e8dcd279045839e4a3a5410d992e789f8a2130060377b6a7cb2bf7d50f3ba2dc1596a2f1e78aa9c4247d89ecc8539f8469324ac30bf890653c95"
+RPM_NAME = "typelib-1_0-GtkSource-300-299.7.1-1.1.aarch64.rpm"
+RPM_HASH = "7c89bc4e3d8eef3b710630fe396c2ae41a351a39721b94d49455edbc3ebbc25113eb7622b594d90192e9c2a22c11167a50cf74121577dcc81aa8c9e4869c7279"
 
 RPROVIDES:${PN} += "typelib-1-0-GtkSource-300 \
 typelib-GtkSource"
 
-RDEPENDS:${PN} += "libgedit-gtksourceview-300.so.0 \
+RDEPENDS:${PN} += "libgedit-gtksourceview-300.so.5 \
 typelib-Atk \
 typelib-GLib \
 typelib-GModule \

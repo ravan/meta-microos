@@ -7,10 +7,10 @@ conversions, and as such they are highly pipe-able and modeled after \
 their well-known cousins (e.g. dtest vs. test, or dgrep vs. grep)."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.10"
+PV = "0.4.11"
 
-RPM_NAME = "dateutils-0.4.10-2.4.aarch64.rpm"
-RPM_HASH = "3bcdc6dcdf788e9c8fcedc48fe31a6c7e78cbfa15f952699239b70c5a4d0b92d23958d5aeb6d020eff2820aa2279c95a06c835f974add9efe22a7e028c1ba5a6"
+RPM_NAME = "dateutils-0.4.11-1.8.aarch64.rpm"
+RPM_HASH = "64488c43d23fe5b79ff4af9418de9addea7a0a9dc14c5d4f9b231b59a6e598e03f7cd98df636ad377d156fa1ec035177b4076999177894c24fd81dcfcee452ab"
 
 RPROVIDES:${PN} += "dateutils"
 

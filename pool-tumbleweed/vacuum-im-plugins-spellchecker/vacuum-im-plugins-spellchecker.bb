@@ -2,10 +2,10 @@ SUMMARY = "Vacuum-IM spellchecker plugin"
 DESCRIPTION = "Highlights words that may not be spelled correctly."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.3.0+git1571036065.9f3952b2"
+PV = "1.3.0+git1639054987.g0abd5e1"
 
-RPM_NAME = "vacuum-im-plugins-spellchecker-1.3.0+git1571036065.9f3952b2-1.21.aarch64.rpm"
-RPM_HASH = "514dbc315c40b0cdb2cf08a88b27e191485094f151ef1046d21cb9985c466019bd4e414fd285ae3130105de1a5f93b76f3335e09ec156ceea7f1300f8e056800"
+RPM_NAME = "vacuum-im-plugins-spellchecker-1.3.0+git1639054987.g0abd5e1-1.9.aarch64.rpm"
+RPM_HASH = "927cc122938064c3d112f9ba31542e48cd932aef5db3af7e1c636cd9454182f0f8e5e6a79c1e22e6e64d944216a64f58bee81fd8edb737ab3d7a88f990a8180d"
 
 RPROVIDES:${PN} += "libspellchecker.so \
 vacuum-im-plugins-spellchecker"

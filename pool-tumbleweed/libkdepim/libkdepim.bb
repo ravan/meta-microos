@@ -2,18 +2,13 @@ SUMMARY = "Base package of kdepim"
 DESCRIPTION = "This package contains the libkdepim library."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkdepim-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "3311de3e6d51cab3ef8659d85d6852ab09da444ffe59d686a1cb536fcf08bb5d045e2082bdbe609fcf16e761eeb102fd371f8bec6b42fdef29e96f45edc656e5"
+RPM_NAME = "libkdepim-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4321cea9f77e9cf0a7dc9bc8eb9765387ccc94cb0c6b8bda4ac0457f59212a10c035a8e4dea71c8f080f497f21e37f48099f63f642efc424ad416ffcb07a46c1"
 
 RPROVIDES:${PN} += "libkdepim"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKPim5Libkdepim.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libc.so.6 \
-libstdc++.so.6"
+RDEPENDS:${PN} += ""
 
 inherit rpm

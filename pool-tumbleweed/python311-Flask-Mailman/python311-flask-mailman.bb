@@ -5,14 +5,13 @@ It was meant to replace unmaintained Flask-Mail with a better warranty and \
 more features."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.0"
+PV = "1.0.0"
 
-RPM_NAME = "python311-Flask-Mailman-0.3.0-2.3.noarch.rpm"
-RPM_HASH = "197e02829a8c33b3120a789a11e0cf6ecf33c15c22ab3897c97fa74bc47302536ec18b4bf961db29f5edb313d20a4ee58f2f27259808118333d9ef95b2e98e9a"
+RPM_NAME = "python311-Flask-Mailman-1.0.0-1.10.noarch.rpm"
+RPM_HASH = "98affc3dd67056882c2768a2b4957e3a3caed75aa4c5f73a98f7dcf41ac4087f4ae6d1b075c04cae488111df5338e929a62c8f07f29541b045fd6ea9824fa94e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-Flask-Mailman \
-python3.11dist-flask-mailman \
+RPROVIDES:${PN} += "python3.11dist-flask-mailman \
 python311-Flask-Mailman \
 python3dist-flask-mailman"
 

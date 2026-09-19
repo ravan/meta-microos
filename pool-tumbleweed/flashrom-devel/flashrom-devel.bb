@@ -8,15 +8,20 @@ program flash chips. \
 This package contains the headers needed to compile against libflashrom."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.2"
+PV = "1.8.0+git0.90b6b437"
 
-RPM_NAME = "flashrom-devel-1.2-4.6.aarch64.rpm"
-RPM_HASH = "edc83e0c5fdd16f9e508e6aa88fd8135f02a78a97a262d1813c71d5ff95621eaabe904424e738eec92a69d902ddf7b47a17eb03e3a22a3a97320ae6ccf4e85ec"
+RPM_NAME = "flashrom-devel-1.8.0+git0.90b6b437-1.1.aarch64.rpm"
+RPM_HASH = "e805101acd2fe94d3d651725e9eda0bd2221ce6d14e792fd2e886759b9f312ee919063e2449267dce069638617ab43bcd393a92961ab67618e4baa0553826c44"
 
 RPROVIDES:${PN} += "flashrom-devel \
 pkgconfig-flashrom"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libflashrom1"
+libflashrom1 \
+pkgconfig-libcrypto \
+pkgconfig-libftdi1 \
+pkgconfig-libjaylink \
+pkgconfig-libpci \
+pkgconfig-libusb-1.0"
 
 inherit rpm

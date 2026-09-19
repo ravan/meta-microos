@@ -12,10 +12,10 @@ prompt or write custom scripts that use these commands in flexible \
 ways."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.1"
+PV = "1.8"
 
-RPM_NAME = "nmh-1.7.1-1.19.aarch64.rpm"
-RPM_HASH = "5d09a06d2244dd33b7093bb0d58a229e796cf7e92f2855336c8cd6785e0b66d711d3694afd46a56f3b4a2d13dba09d4b2b4f2db7a2b4c3ff3501bc07615b63ad"
+RPM_NAME = "nmh-1.8-1.10.aarch64.rpm"
+RPM_HASH = "0dfc9b1d766adb613660b5cdebcd8fa55e32f451e26034fe24fae87841c2842ca4f4009ef9571493fe58ea6c2c20bf839f16af0615a164e8fb52d7ddbda80314"
 
 RPROVIDES:${PN} += "config-nmh \
 mh \

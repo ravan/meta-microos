@@ -1,14 +1,15 @@
 SUMMARY = "Translations for package setroubleshoot-plugins"
 DESCRIPTION = "Provides translations for the 'setroubleshoot-plugins' package."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3.14"
+PV = "3.3.15"
 
-RPM_NAME = "setroubleshoot-plugins-lang-3.3.14-1.3.noarch.rpm"
-RPM_HASH = "e428de9aa0ce31bdafa26a6542b2f5ec12fb01a13d094d29964c22e8254cdb90bf40e11533158c7e33ef99277b2faed07f67582389bf9a9d1a7b3e86562c2227"
+RPM_NAME = "setroubleshoot-plugins-lang-3.3.15-2.1.noarch.rpm"
+RPM_HASH = "ceb1cbc506b771cba85f8867675dcca97470f0cb0a6f41b1b0a038366e3e676c6b772a7528da0b3c272ade504b99d630828647482ab95a7043350e91e37152f4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "locale-setroubleshoot-plugins-as \
+RPROVIDES:${PN} += "locale-setroubleshoot-plugins-ar \
+locale-setroubleshoot-plugins-as \
 locale-setroubleshoot-plugins-bg \
 locale-setroubleshoot-plugins-bn \
 locale-setroubleshoot-plugins-bn-IN \
@@ -31,6 +32,7 @@ locale-setroubleshoot-plugins-hr \
 locale-setroubleshoot-plugins-hu \
 locale-setroubleshoot-plugins-it \
 locale-setroubleshoot-plugins-ja \
+locale-setroubleshoot-plugins-ka \
 locale-setroubleshoot-plugins-kn \
 locale-setroubleshoot-plugins-ko \
 locale-setroubleshoot-plugins-mai \

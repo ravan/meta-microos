@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require libacl."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "libacl-devel-2.3.1-2.13.aarch64.rpm"
-RPM_HASH = "08d8d9da4d129eed0e57d5bde30afa6e0505f02ce7187b30d893e207c801bbe7db76ca6256bd8d1dbdbfd9f479c5fe47ba70cc7ccab1b6c3e0f84a988d56a3ec"
+RPM_NAME = "libacl-devel-2.4.0-1.2.aarch64.rpm"
+RPM_HASH = "cb098d3850dbe779995a94675237c68e36252313476f64849ef4d16891d3f9fafaefb1f245de899513de1c5de601f9df7c6f355e1d69fd45661031e029510401"
 
 RPROVIDES:${PN} += "acl-devel \
 libacl-devel \

@@ -7,10 +7,10 @@ This package contains the files needed to compile programs that use the \
 pulseaudio library."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "libpulse-devel-16.1-4.1.aarch64.rpm"
-RPM_HASH = "5d5a597b19407e5c75d64dc1b5efb1cfd4efb3598b77d5f3d13a78747b2db1429c239d16a2b8235002ee1b447a132e4965916cdd5fd01ac9f7b1d962f1940022"
+RPM_NAME = "libpulse-devel-17.0-7.5.aarch64.rpm"
+RPM_HASH = "b4249bd4336214639537345f454ecff0b4b9c5d19678805cedd2cf30af9e71b577637a0bcd0859f66476ea068cf8ed9cb8c8a0810dfe6b23dd15caf6d5b04715"
 
 RPROVIDES:${PN} += "libpulse-devel \
 pkgconfig-libpulse \

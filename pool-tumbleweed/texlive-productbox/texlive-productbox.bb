@@ -7,10 +7,10 @@ will lead to a physical product box. The package requires pgf \
 and TikZ."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn20886"
+PV = "2026.226.1.1svn20886"
 
-RPM_NAME = "texlive-productbox-2023.209.1.1svn20886-53.1.noarch.rpm"
-RPM_HASH = "2279ccbfc570a7043a8b2d8eff1a6d7fb27826f43a3e0649a2f7a68fdedf23cfc82fc198c360abd955777e6344631e30f6a843d335ba0c23e96768fb7b911f57"
+RPM_NAME = "texlive-productbox-2026.226.1.1svn20886-59.2.noarch.rpm"
+RPM_HASH = "a7a5dbed0e4c702d3033a1a28242f6dd34bdd1d061554aa61e0942e883a4de9e578a318d033ad429d5082d471e5a0bb967006f073122003200843b253c69e1b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-productbox.sty \

@@ -1,12 +1,12 @@
-SUMMARY = "Perl module for TrueType Font hacking"
+SUMMARY = "TTF font support for Perl"
 DESCRIPTION = "This module allows you to do almost anything to a TrueType/OpenType Font \
 including modify and inspect nearly all tables."
 LICENSE = "Artistic-2.0 & OFL-1.1"
 
-PV = "1.06"
+PV = "1.60.0"
 
-RPM_NAME = "perl-Font-TTF-1.06-1.25.noarch.rpm"
-RPM_HASH = "04626ca7e0e7b22d413f3f282cff1d175b1be89073cbcb562a67664e2456665aea6bdec16a6a4c88fc58784bad751bafa348bda437065f2b918b74445ff162ea"
+RPM_NAME = "perl-Font-TTF-1.60.0-1.7.noarch.rpm"
+RPM_HASH = "c3654f319de2d4a94ca6bc808005174c512a6e0afc8e5de61f5b82fdd645ab16afd670e1823e69005f57479c6124b91f1da7688b6d8a90c8b176ff4fc24b23a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Font--TTF \
@@ -85,7 +85,7 @@ perl-Font--TTF--Woff--PrivateData \
 perl-Font--TTF--XMLparse \
 perl-Font-TTF"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--String"
 
 inherit rpm

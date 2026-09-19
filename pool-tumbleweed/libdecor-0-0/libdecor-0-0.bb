@@ -2,10 +2,10 @@ SUMMARY = "Library for client-side Wayland decorations"
 DESCRIPTION = "A client-side decorations library for Wayland client."
 LICENSE = "MIT"
 
-PV = "0.1.1"
+PV = "0.2.5"
 
-RPM_NAME = "libdecor-0-0-0.1.1-1.3.aarch64.rpm"
-RPM_HASH = "246fd1f12d98b2a2998fd550f5f9c82c7a86392011367b3647d66e44d492e13640720b7414f21350cc4a874d7ac04475713ec3011d33e7f5bba396de3461c4ee"
+RPM_NAME = "libdecor-0-0-0.2.5-1.6.aarch64.rpm"
+RPM_HASH = "a88192ccb243d79452062106690fc6bd09d9e17c28b66f6a4ca29707bbfaf803d6584ea95935fe1be675befb44a382867d67ba55d483b79dbf967a404a3ae2ca"
 
 RPROVIDES:${PN} += "libdecor-0-0 \
 libdecor-0.so.0"

@@ -5,12 +5,12 @@ Authors: \
 _______ \
 Manu Gupta \
 Michal Hrusecky"
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-only"
 
 PV = "0.1.2"
 
-RPM_NAME = "sax3-0.1.2-6.42.aarch64.rpm"
-RPM_HASH = "80e2e169f7a023406ec6d63a9a93182853f3338034fac937db39814ed52cfbebfed2b93e3f15cd27749346dd93bea1dc27a1ec7958cd9abe3c45214255ee2e61"
+RPM_NAME = "sax3-0.1.2-10.5.aarch64.rpm"
+RPM_HASH = "4b72d4793577ff47b3affaf0095a9c0a2b610d6bc2f33f84649db865bd481ded73a48f3edde31ca497a88b020e46f8544db33838dc26a3f2a0e1ae540b53ccfb"
 
 RPROVIDES:${PN} += "libsax3-yuif.so \
 sax3"

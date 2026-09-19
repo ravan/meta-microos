@@ -2,10 +2,10 @@ SUMMARY = "Perl bindings for ldns"
 DESCRIPTION = "Perl bindings for the ldns library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.8.3"
+PV = "1.9.2"
 
-RPM_NAME = "perl-DNS-LDNS-1.8.3-1.8.aarch64.rpm"
-RPM_HASH = "8c0392d0f0a3df0818eebafb5d0cce222b8c7f273e5fe30b49e3c07e3eecb9789d46ad4f54be03d859556ee8568fead160e1516e47760cd4bce0c48a4b3b61bb"
+RPM_NAME = "perl-DNS-LDNS-1.9.2-1.4.aarch64.rpm"
+RPM_HASH = "f55ff994d6b506723d6fd5ac3789e2fd9b2429ff3646055bb15e76be22279937e0b3fd342d815d4b4fc24909f19bc9630633e37234cfe63cd583ab73e6bb8d04"
 
 RPROVIDES:${PN} += "perl-DNS--LDNS \
 perl-DNS--LDNS--DNSSecDataChain \

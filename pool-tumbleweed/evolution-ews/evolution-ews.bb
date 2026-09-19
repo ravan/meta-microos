@@ -10,29 +10,31 @@ Provides exchange connectivity for exchange server 2007 and later \
 using exchange web services protocol."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.48.2"
+PV = "3.60.2"
 
-RPM_NAME = "evolution-ews-3.48.2-1.1.aarch64.rpm"
-RPM_HASH = "2da1ff65c23a4a40bcffb7355f3df1e718a86769384c746e770716d36c7e8df7fece09e308e7b64bbe9f791f783fbf261055550ea169ca7737115306da453e89"
+RPM_NAME = "evolution-ews-3.60.2-1.2.aarch64.rpm"
+RPM_HASH = "6a6ddab1e5fdcb70c8ecc05d3b29886148545a478fdf747b044a69cd0553dc57c23559f24843de66f0ca314104ea5b2b6f5a01f02c3c90eef759ab1cfc91cee6"
 
 RPROVIDES:${PN} += "evolution-ews \
 libcamelews-priv.so \
 libcamelews.so \
+libcamelmicrosoft365-priv.so \
 libcamelmicrosoft365.so \
 libebookbackendews.so \
 libebookbackendmicrosoft365.so \
 libecalbackendews.so \
 libecalbackendmicrosoft365.so \
+libevolution-ews-common.so \
 libevolution-ews.so \
 libevolution-microsoft365.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcamel-1.2.so.64 \
+libcamel-1.2.so.67 \
 libebackend-1.2.so.11 \
 libebook-1.2.so.21 \
-libebook-contacts-1.2.so.4 \
-libecal-2.0.so.2 \
+libebook-contacts-1.2.so.5 \
+libecal-2.0.so.3 \
 libedata-book-1.2.so.27 \
 libedata-cal-2.0.so.2 \
 libedataserver-1.2.so.27 \
@@ -53,6 +55,6 @@ libjson-glib-1.0.so.0 \
 libmspack.so.0 \
 libpango-1.0.so.0 \
 libsoup-3.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package remake"
 DESCRIPTION = "Provides translations for the 'remake' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.3_1.5"
+PV = "4.3_1.6"
 
-RPM_NAME = "remake-lang-4.3_1.5-1.11.noarch.rpm"
-RPM_HASH = "7d3060dcaf70a1fc525fba70e6f21246619497890ad712238c3788881c3509774c429750bf417102789c8f462db240f17fbc214c50c8ae10e15cfec6beae81e3"
+RPM_NAME = "remake-lang-4.3_1.6-1.3.noarch.rpm"
+RPM_HASH = "58ad3cfe38c72f5054077307c6666b26273e5f98f60a693171913b3c6dd5c018daa6a66ce914f969fce07e3bf5d171670581ecf3aa60b2f3cc86c79f9bd954f8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-remake-be \

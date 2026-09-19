@@ -6,10 +6,10 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "libgstisoff-1_0-0-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "be2ecc955e139806c03e7921b909f2619593b6efef66c51356f815ac894303d837c4b1771f0b28809d7cbdf68f83d81e753bf2180d6ebc29fd13d6b516feefe2"
+RPM_NAME = "libgstisoff-1_0-0-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "6749fe4ad8a3512800377b387a47f79292d1bda076c1c67c53b6139d0fb851f0e609d6c2748bcead56a8acc29dbc6cd711f5daac994d7eba2767acc1c54d6342"
 
 RPROVIDES:${PN} += "libgstisoff-1-0-0 \
 libgstisoff-1.0.so.0"

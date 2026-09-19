@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Elasticsearch Service"
 DESCRIPTION = "The AWS Java SDK for Amazon Elasticsearch Service module \
 holds the client classes that are used for communicating \
 with Amazon Elasticsearch Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-elasticsearch-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "ea485053e69fd40d56d2a665308ca48a344925a0263511b33dcd98422947223710732bb61b77b5267433c52d14a76f3839cace2c6064a7cc70fa8d2ae5d54d6c"
+RPM_NAME = "aws-sdk-java-elasticsearch-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "28dfb97607d109513784f590c889ad4b771fa89f70b89952d0dc178515bcdc5052ada20b556309e5acf6ee4c298e72b428f5491d859732ea7623f9f71cd8902f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-elasticsearch \

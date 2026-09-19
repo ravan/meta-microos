@@ -4,10 +4,10 @@ monitoring system behaviour and to track down rogue processes that are spawning 
 off processes and potentially abusing the system."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.03.01"
+PV = "0.04.00"
 
-RPM_NAME = "forkstat-0.03.01-1.2.aarch64.rpm"
-RPM_HASH = "31429db39c38a4ac5ea770eb551b34da3294f2854cd412799e97df849010255e2a248eda26edba170a321d257335407e7392e565d185cb4376a98ec7b13bc999"
+RPM_NAME = "forkstat-0.04.00-1.3.aarch64.rpm"
+RPM_HASH = "381b202cf0d03df6d7902f67abf82560f72f6f01a775bba4332138c6189fff91ab52be60c638a7fd62b0b4ab7311d7112a6efa44e8cebe53545e784ab4df5636"
 
 RPROVIDES:${PN} += "forkstat"
 

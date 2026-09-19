@@ -4,10 +4,10 @@ DESCRIPTION = "The libexttextcat is a library implementing N-gram-based text cat
 This package contains the libexttextcat development files."
 LICENSE = "BSD-4-Clause"
 
-PV = "3.4.6"
+PV = "3.4.7"
 
-RPM_NAME = "libexttextcat-devel-3.4.6-1.3.aarch64.rpm"
-RPM_HASH = "839766f1dce1144ce70c91f4be980c02d1b8cff11a4be21fd29416bdf7de462bf0d13c11f4142174fa130517eba8e8ed5d255cd0d1a604c81e55f3d2be7ea9d1"
+RPM_NAME = "libexttextcat-devel-3.4.7-2.9.aarch64.rpm"
+RPM_HASH = "e1db9de7465bc9b74eb0d966b309ce05fe730b244e2d2299d07b4b539dc9f71173bf7c9d140be65db3e2628d8dd137d0ed5246939139dd184b3353b5292a4f9d"
 
 RPROVIDES:${PN} += "libexttextcat-devel \
 libtextcat-devel \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-layout"
 DESCRIPTION = "This package includes the documentation for texlive-pst-layout"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.95svn29803"
+PV = "2026.226.0.0.95svn29803"
 
-RPM_NAME = "texlive-pst-layout-doc-2023.209.0.0.95svn29803-53.1.noarch.rpm"
-RPM_HASH = "53162271ab0fff3605f161a4acffb26402341042b14f9cf8363910d60295390a4d411f80de1b1fa71530f32c719649928521f9878c4c7bfd6cf214c13c1865b4"
+RPM_NAME = "texlive-pst-layout-doc-2026.226.0.0.95svn29803-59.2.noarch.rpm"
+RPM_HASH = "476f062da741908086215a9dbf9d031eb0f8b6d54be9f7fd07441949c5085efa8d0bae0c45dfd0d69260c257c1115130e47ba002da2e810047c5ddfab0f7b8c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-layout-doc"

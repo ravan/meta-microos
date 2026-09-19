@@ -4,10 +4,10 @@ list items. In addition, it defines environments for labeled \
 paragraphs and list items."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1svn43280"
+PV = "2026.226.2.1svn43280"
 
-RPM_NAME = "texlive-hang-2023.209.2.1svn43280-54.2.noarch.rpm"
-RPM_HASH = "1d88092124e8d4d5bf7fecf50768aad99492959a34f794f396b2c5e429631034a211a7f0576f90bdecc33bafe37b430c516b862a5bd912c607746af573b75e00"
+RPM_NAME = "texlive-hang-2026.226.2.1svn43280-60.4.noarch.rpm"
+RPM_HASH = "1c6e3fc81c38bec2a679e80b1fcc68df0aecfe687bb702f3249f449dfa67580b79267331f484318b27099be85028a65f96f97cdb607a862af7e3b5adaf1565fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hang.sty \

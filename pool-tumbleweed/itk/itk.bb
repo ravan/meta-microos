@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "4.1.0"
 
-RPM_NAME = "itk-4.1.0-2.17.aarch64.rpm"
-RPM_HASH = "7109b96a2290858eb7aaee296af6b3ca5dd38274582c9d3cafbdee0ae8cdcb9aa163edff76c5e17dad28dafbf78d32d91f27c8e4821abda2c057f75b7be023cb"
+RPM_NAME = "itk-4.1.0-2.27.aarch64.rpm"
+RPM_HASH = "c2056544e03235b0495713aad0db7094b61e8bceb4d199480c1407514004491ed730864bacb8df2cb00a6dfe667e86efeed6197636712d70b02971395ebb53ad"
 
 RPROVIDES:${PN} += "itcl-/usr/share/man/mann/itk.n.gz \
 itk \

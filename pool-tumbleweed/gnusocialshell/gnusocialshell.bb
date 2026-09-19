@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.0"
 
-RPM_NAME = "gnusocialshell-1.3.0-1.20.aarch64.rpm"
-RPM_HASH = "eb42d84d5d4b8326f3263d19d215084b43c6f5f8fb3ba749e68406e56efaf6dedf48560d54506693a2e1a664dbaa8a69078548140543d8a2ba8bea2337111eff"
+RPM_NAME = "gnusocialshell-1.3.0-2.8.aarch64.rpm"
+RPM_HASH = "f8241357072bd954cfcb22796da51c5c84f801272a1ad9a781c9c216c132f5aeb232343b95ffaa65d31dbdc34ea1dad30f59ebe6b43fb9925cdb1fe96015719c"
 
 RPROVIDES:${PN} += "gnusocialshell"
 

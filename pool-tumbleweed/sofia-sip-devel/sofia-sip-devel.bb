@@ -9,10 +9,10 @@ at the Nokia Research Center. \
 This package holds the development files."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.12.11+20110422"
+PV = "1.13.18"
 
-RPM_NAME = "sofia-sip-devel-1.12.11+20110422-1.15.aarch64.rpm"
-RPM_HASH = "a9584cd90c62a3920a53c492412ef7a9f9c7b1ac7c17cbbd5a00d2129e5ed89b11a81ed95089a2fb1c55cbe7a4367a9010dc6865d232ba111cb324b020c7751c"
+RPM_NAME = "sofia-sip-devel-1.13.18-1.1.aarch64.rpm"
+RPM_HASH = "6f36d161c46b9eb1255750a61e89eb36746fc9445b3c61bf1fbbb4db489f916b16c729dee43c257b7dc20ffc99ef30c8bf3fa087b8d4aa199628dc5465c005ae"
 
 RPROVIDES:${PN} += "pkgconfig-sofia-sip-ua \
 pkgconfig-sofia-sip-ua-glib \

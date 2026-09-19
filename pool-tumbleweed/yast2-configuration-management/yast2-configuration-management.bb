@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - YaST Configuration Management"
 DESCRIPTION = "This package contains the YaST2 component for Configuration Management Provisioning."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.1"
 
-RPM_NAME = "yast2-configuration-management-4.6.0-1.1.noarch.rpm"
-RPM_HASH = "f5ddc687a0de4d143000f28f45e29d781e09635bb76a6884559a9e07ca1db554176e7d4dabfa7cb3708e72f8feab8a69f408f5aa687541aa94bec55d3d850b7d"
+RPM_NAME = "yast2-configuration-management-5.0.1-1.2.noarch.rpm"
+RPM_HASH = "cab33e0b4cacabbc55b94efcc19afd2eb7b0a998e96149523d210c1306523ec91bab6e22045060d504811139b7588bedf2ec6f7697c28f68872f98284f205a1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-configuration-management"

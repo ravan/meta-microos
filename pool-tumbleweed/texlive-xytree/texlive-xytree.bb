@@ -5,10 +5,10 @@ that the linguist may need. The package (of course) depends on \
 the XY-Pic package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn15878"
+PV = "2026.226.1.5svn15878"
 
-RPM_NAME = "texlive-xytree-2023.209.1.5svn15878-53.2.noarch.rpm"
-RPM_HASH = "2f54f86d65a41b6e3259f4a6f93e1bcb4133b48c7addd67cd9cc67a59ca2d49f365bf485367af3c7cfaee5fc86d6e5da24e44e867ad0b6d66fc19f6ff6efef96"
+RPM_NAME = "texlive-xytree-2026.226.1.5svn15878-59.4.noarch.rpm"
+RPM_HASH = "e96f0a10a16cb4d3b6224a8aad2c02f1aa27e110b283302c3256e3816f06968841b2333e5c6cbdfd91129aff67e45aa084b7fc292989af98d8b967b1fcbc9ada"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xytree.sty \

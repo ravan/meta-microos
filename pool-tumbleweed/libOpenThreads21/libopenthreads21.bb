@@ -10,14 +10,13 @@ LICENSE = "LGPL-2.1-only-with-WxWindows-exception-3.1"
 
 PV = "3.6.5"
 
-RPM_NAME = "libOpenThreads21-3.6.5-8.7.aarch64.rpm"
-RPM_HASH = "7584b1c90825e5237ee3ee61c0c7329282ea5a6d0e6f052df39b9202b98ea488a1da86c3c54940cb5b57ba53fc202227868b2aa8013dcd3481f729fca456c002"
+RPM_NAME = "libOpenThreads21-3.6.5-12.8.aarch64.rpm"
+RPM_HASH = "7f8758a2dbcf3504c6a2b05f36edf340e7ec63c2e9870eb7d75e0a392ec4402c9706e0e57cd274e778d4438d8c323e0cb6ca693666c6fe33853bb96aa574ba14"
 
 RPROVIDES:${PN} += "libOpenThreads.so.21 \
 libOpenThreads21"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

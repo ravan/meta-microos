@@ -4,10 +4,10 @@ boxes, glues, kerns and penalties in the PDF output. The \
 package is known to work in LaTeX and Plain TeX documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.9svn65464"
+PV = "2026.226.1.0svn77803"
 
-RPM_NAME = "texlive-lua-visual-debug-2023.208.0.0.9svn65464-53.1.noarch.rpm"
-RPM_HASH = "ff3ea4b976fddac225a542ce3d70748bbe4881d2a949a6e45e9b3a8dfbb27875b21f61fa121b8f025db41ef6b2f5bf0dd0130ff0c321964adbfdbde563731a7a"
+RPM_NAME = "texlive-lua-visual-debug-2026.226.1.0svn77803-59.2.noarch.rpm"
+RPM_HASH = "3d2b7a91e28a38756609b2bc98ab1515117c376ca2cc37b5dd130c3c4abf0a73fdbc28106843b27753c27a1ed298ba8bf3302eb7c54d4f21bd9c10f76158eba2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lua-visual-debug.sty \
@@ -19,12 +19,12 @@ ed \
 findutils \
 grep \
 sed \
-tex-atbegshi.sty \
 tex-ifluatex.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-luakeyval \
 texlive-scripts \
 texlive-scripts-bin"
 

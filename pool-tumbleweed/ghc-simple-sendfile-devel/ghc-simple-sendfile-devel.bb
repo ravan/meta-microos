@@ -5,18 +5,18 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.2.32"
 
-RPM_NAME = "ghc-simple-sendfile-devel-0.2.32-1.4.aarch64.rpm"
-RPM_HASH = "13c7b3fdd37725d97b366746a6a454417a8cf1b37747c8358e9c871f3c700ffd3a33e950c45f35303440da03bf96f901c3c5e081f4dae5c2a3c76d8cb974d51f"
+RPM_NAME = "ghc-simple-sendfile-devel-0.2.32-1.27.aarch64.rpm"
+RPM_HASH = "32657fac47abc9fad04943c312352ec0ed9d19cddb2456dac1ffcbf6ba3a6026d2c06632d003ce09ecd9e9ef7a502c52c44ab39cc0553574c95a98bad2f474e0"
 
-RPROVIDES:${PN} += "ghc-devel-simple-sendfile-0.2.32-Jkz6BAomm8GAcovJHWebTs \
+RPROVIDES:${PN} += "ghc-devel-simple-sendfile-0.2.32-1TxnJXytdne4UoBrRdi39p \
 ghc-simple-sendfile-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-unix-2.7.3 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-simple-sendfile"
 
 inherit rpm

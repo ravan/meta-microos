@@ -2,10 +2,10 @@ SUMMARY = "Documentation for wcslib library"
 DESCRIPTION = "This package contains documentation and help files for wcslib library."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "7.12"
+PV = "8.6"
 
-RPM_NAME = "wcslib-doc-7.12-1.7.noarch.rpm"
-RPM_HASH = "1f3d08b81def9900ef423fef2e501e0b16efd22e39545f7d6104776a5a9cb2846c6fca5e3076870e86e44e1713b73daa2685ff010b29891f9f3cd7ec90ebb32c"
+RPM_NAME = "wcslib-doc-8.6-1.3.noarch.rpm"
+RPM_HASH = "b66d4f40e0f8697475274e8868c850ef45115ae89e4e85e93eafc9aa166468a05ac584b451f1e4cb2e3dad58b8284c97f6d0df471dc3a2c60fd4b48453af3cef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libwcs-doc \

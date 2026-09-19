@@ -2,10 +2,10 @@ SUMMARY = "Languages for Mutt"
 DESCRIPTION = "Provides translations to the package mutt."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.10"
+PV = "2.4.2"
 
-RPM_NAME = "mutt-lang-2.2.10-2.2.noarch.rpm"
-RPM_HASH = "62f14fd092c1c33b516896c84e199e4903e33d82d1593947aca3d7547f5bfaebdb54baa2644b8cff2d1c0efe38c4f13ece37d8f11f1851f9f4d5badea81547e0"
+RPM_NAME = "mutt-lang-2.4.2-1.1.noarch.rpm"
+RPM_HASH = "156ace162943b95feeb88dee51de1fc16862e91c6d65cc66507496b867130f9e47e17ce53842e41eabdcdec97b203d352ac45d83df42e371d90393f079cf543c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mutt-bg \

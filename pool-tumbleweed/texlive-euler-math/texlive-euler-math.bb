@@ -7,10 +7,10 @@ provided as a replacement of the eulervm package for LuaLaTeX \
 and XeLaTeX users."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.0.31svn65685"
+PV = "2026.226.0.0.75svn77952"
 
-RPM_NAME = "texlive-euler-math-2023.209.0.0.31svn65685-53.1.noarch.rpm"
-RPM_HASH = "aa51a6a0ac3b25bf532b6701dce111d93ea727fbc93a237fceb31fa75e428eca73f0434cd884292b7283c7f2dafec36c4606cf28b1832d7ef37b37bff6db6c87"
+RPM_NAME = "texlive-euler-math-2026.226.0.0.75svn77952-59.2.noarch.rpm"
+RPM_HASH = "674ca1e4a6d1ebae01515843819ae3b003141bfa20b95daa0a3234d798375ab138d3d618bcc7f5619a92031e0fc020ecf46e8fff360a89f101def3d973534e0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-euler-math.sty \
@@ -25,7 +25,6 @@ grep \
 sed \
 tex-iftex.sty \
 tex-unicode-math.sty \
-tex-xkeyval.sty \
 texlive \
 texlive-euler-math-fonts \
 texlive-filesystem \

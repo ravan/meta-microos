@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-basicarith"
 DESCRIPTION = "This package includes the documentation for texlive-basicarith"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn35460"
+PV = "2026.226.1.1svn35460"
 
-RPM_NAME = "texlive-basicarith-doc-2023.209.1.1svn35460-54.1.noarch.rpm"
-RPM_HASH = "8f64483cf39e928d7b3713e9fbdd18bb775c0ec207112066a0572f07997316452beea406bf75969a6822a783eb65afbd27e1a50fc597401da3ea90e7d2a4ddb3"
+RPM_NAME = "texlive-basicarith-doc-2026.226.1.1svn35460-60.2.noarch.rpm"
+RPM_HASH = "ee77813b71d0b4e2ae59dc03003e00abc7cb6461b1db7cd7a01e5a63747f713d058125b517e75544fd446d52bba988879468cd0d284dca4b837b0e54554c524a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-basicarith-doc"

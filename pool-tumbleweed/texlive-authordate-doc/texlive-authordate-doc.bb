@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-authordate"
 DESCRIPTION = "This package includes the documentation for texlive-authordate"
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.svn52564"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-authordate-doc-2023.209.svn52564-54.1.noarch.rpm"
-RPM_HASH = "fc0b54df384d9a0b90cf9de9391b68b95b6418ba4afcfeb978d55dd634b6699ddc2b422cea292cc968462bb5afc5af41277b2a3d6f183381a5e6777f8c207e2e"
+RPM_NAME = "texlive-authordate-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "83ef359e8a7c7fd6e1a561bcc5a50f47f25da5f0ac8b79f65d06bd734a7b656f2e2605b57a620f4a20002fc1d9941d7a27589ab1eab5dfa031617aaa2ca74322"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-authordate-doc"

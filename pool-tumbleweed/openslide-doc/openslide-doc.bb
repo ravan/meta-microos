@@ -2,10 +2,10 @@ SUMMARY = "Documentation for openslide"
 DESCRIPTION = "This package contains documentation for developing with openslide library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.4.1"
+PV = "4.0.1"
 
-RPM_NAME = "openslide-doc-3.4.1-2.26.noarch.rpm"
-RPM_HASH = "a9a71647c2323889e5703316498ccb4d7bd5f3ed97c2031caf697c5f3686d46b963365abf0023f2ce222246c65e0ef7e98061b64721e84c22bf2c5b33818a81a"
+RPM_NAME = "openslide-doc-4.0.1-1.1.noarch.rpm"
+RPM_HASH = "a5fb571e8b7057571e3e585e080b804452f75073d2022069229b9d4acdf6094ae7abe98c3c0e6f3c6edd01180f94e12837857881d38dec8b493acee0c31130cb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openslide-doc"

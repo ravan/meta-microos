@@ -10,15 +10,15 @@ This package provides shared libraries and header files for development \
 with googletest."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.1"
+PV = "1.17.0"
 
-RPM_NAME = "gtest-1.12.1-1.4.aarch64.rpm"
-RPM_HASH = "63119d0866616183e8bf89d742e723e67e3a49023283de8963e28d2d3b62953c85947a2608823d4ead9e374c0f5b0f2107f73eeb5b44f7bd59bdddecf3159355"
+RPM_NAME = "gtest-1.17.0-1.5.aarch64.rpm"
+RPM_HASH = "cb6f449aa68d1c8a4d4c8f36f74f5eb433aec464aa4cf1f99b44433ad7a20400ba2c67b8bf1cee5e230c56fd54a19e1f8bd17cda0be864c16300d772c10a5f4a"
 
 RPROVIDES:${PN} += "googletest-devel \
 gtest \
-libgtest-main.so.1.12.1 \
-libgtest.so.1.12.1 \
+libgtest-main.so.1.17.0 \
+libgtest.so.1.17.0 \
 pkgconfig-gtest \
 pkgconfig-gtest-main"
 

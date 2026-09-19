@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-bundle-plugin"
 DESCRIPTION = "API documentation for maven-bundle-plugin."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.9"
+PV = "6.2.0"
 
-RPM_NAME = "maven-bundle-plugin-javadoc-5.1.9-1.1.noarch.rpm"
-RPM_HASH = "a6246fc04ea7c66d860b33866d9982683375a72c33ae95d3f79f2da82583a1e605221d2791d5567e8bd3a9d233ec47f82dc2de665c6da7ba8c986418af663135"
+RPM_NAME = "maven-bundle-plugin-javadoc-6.2.0-1.1.noarch.rpm"
+RPM_HASH = "abff6a751b5340dcdf5749eae60f5259be3f7e5eb35ddf20b9b8d2aa1e777d606c2cf3a92b08a4870350a862d53a923aecc14ad903dcfc77949ec0493a7a1a6e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-bundle-plugin-javadoc \

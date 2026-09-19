@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-ode"
 DESCRIPTION = "This package includes the documentation for texlive-pst-ode"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.18svn65096"
+PV = "2026.226.0.0.19svn69296"
 
-RPM_NAME = "texlive-pst-ode-doc-2023.209.0.0.18svn65096-53.1.noarch.rpm"
-RPM_HASH = "9c96ad662c0d991ae7975c0aa517eda93a207f965869f0265f7f36c5d7758ca4cf1eba35e536d38a30f6d6a679a1db652aafc772771884edd0f4c51509dc84ab"
+RPM_NAME = "texlive-pst-ode-doc-2026.226.0.0.19svn69296-59.2.noarch.rpm"
+RPM_HASH = "8a1ab9dd11c2bb32f6b4833ca012fc727dc7e0baaf84a7746753cfeb1bc8902ef90ec7991dc2477071f186a776201f20ba10842e9c167c57e6d2ce9d864eb0a8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-ode-doc"

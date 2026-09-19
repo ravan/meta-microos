@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lato"
 DESCRIPTION = "This package includes the documentation for texlive-lato"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.3svn54512"
+PV = "2026.226.3.3svn77682"
 
-RPM_NAME = "texlive-lato-doc-2023.209.3.3svn54512-55.1.noarch.rpm"
-RPM_HASH = "2894571b2ef4ca0cee5f037fa313324321e8ffac3c3328c6da2c2afd9a759beda19eeea48719838a4a56912f789254202989a81a7ad5f07c336d0193e8c36a86"
+RPM_NAME = "texlive-lato-doc-2026.226.3.3svn77682-61.2.noarch.rpm"
+RPM_HASH = "cf86c81e1fcee8ce8fd2a2df75cadc838e9ddf56351bba16d39c44d81b9f371e5654491926549a2093d21983d72f03ed233a9c7ea864c757553c24e8204451f2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lato-doc"

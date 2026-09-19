@@ -2,10 +2,10 @@ SUMMARY = "Development headers for libalternatives"
 DESCRIPTION = "This package contains development headers and library for libalternatives."
 LICENSE = "Apache-2.0"
 
-PV = "1.2+30.a5431e9"
+PV = "2.0+0.4f22c01"
 
-RPM_NAME = "libalternatives-devel-1.2+30.a5431e9-1.1.aarch64.rpm"
-RPM_HASH = "e24b17108ebcb332f269a13f9fb3e2136812321397ceadfde95c250b5cfd19dd1e249acc2dd7e8c36c61ced3ed4ab71b744abd2654e16181763e373508ea507d"
+RPM_NAME = "libalternatives-devel-2.0+0.4f22c01-1.1.aarch64.rpm"
+RPM_HASH = "e8b578249e196a7742453b6788fba580c612b8e59f47a909cb793b447ea0a42ac83d1dfa1b621dceaec9e61cc1673caf842361766ac042e7e0ebff8e3c5b7e00"
 
 RPROVIDES:${PN} += "cmake-libalternatives \
 libalternatives-devel \

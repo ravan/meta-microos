@@ -9,10 +9,10 @@ authorization purposes. \
 This package provides header files for programming with the VOMS libraries."
 LICENSE = "Apache-2.0"
 
-PV = "2.1.0~rc3"
+PV = "2.1.3"
 
-RPM_NAME = "voms-devel-2.1.0~rc3-1.4.aarch64.rpm"
-RPM_HASH = "eb0d9be0dad2adc3a6b3a9e2e96edfc0556dd01bfe2e3b3e25725f0469f68df999bd706d35cf4663cccaa2f33f2d6b2280b28281e786332afaf3fa59438e7c67"
+RPM_NAME = "voms-devel-2.1.3-1.3.aarch64.rpm"
+RPM_HASH = "53cb7a63e920c8ddd180bc5c0b9cfb1b9c890eca8499508e706e43203f8a2342317fa1c7abb57677ed4cb28896ff5cfac244b0638089222881ea62346f43665c"
 
 RPROVIDES:${PN} += "pkgconfig-voms-2.0 \
 voms-devel"

@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.1.10"
 
-RPM_NAME = "lxtask-lang-0.1.10-1.11.noarch.rpm"
-RPM_HASH = "2900fa095307fe883092b150f79861fc78b85f169f622844e944e03ea1df5ea571e7c8bfa16e5795f0e0ad743ef46c3832d6398c3009dfb8767660fa2c71f53d"
+RPM_NAME = "lxtask-lang-0.1.10-1.24.noarch.rpm"
+RPM_HASH = "2b38d1f9c8dcccbfc6aac1dcb1dc52009679436f03c0e9c99e86d5690d8e342917b442d268b486c1164787d340268ff7aca2f7540356731829e5ac52a3381f1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lxtask-af \

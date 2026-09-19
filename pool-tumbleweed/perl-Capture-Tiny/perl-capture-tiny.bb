@@ -7,15 +7,15 @@ even works on Windows (usually). Stop guessing which of a dozen capturing \
 modules to use in any particular situation and just use this one."
 LICENSE = "Apache-2.0"
 
-PV = "0.48"
+PV = "0.500.0"
 
-RPM_NAME = "perl-Capture-Tiny-0.48-1.19.noarch.rpm"
-RPM_HASH = "0cd2ee6ffb69b7bfbe90a3c1427e27408869d0a1cf5554cc4208c9129a1042088754a1eb3a86e8a2be9a3cda60eb3093eb75aa40fe3b810541aff3eb58f32f25"
+RPM_NAME = "perl-Capture-Tiny-0.500.0-1.10.noarch.rpm"
+RPM_HASH = "3e069d3cb316524cef2cf304c05e6c5d5530aac787830f554bac7f7f00f6f3caa3e5181e53078bb1390d3f5d5a1cafff31ce5663f313f9781d67d502fd99da1d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Capture--Tiny \
 perl-Capture-Tiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Create glossaries using BibTeX"
 DESCRIPTION = "A glossary package using BibTeX with \\cite replaced by \\gloss."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5.2svn15878"
+PV = "2026.226.1.5.2svn75240"
 
-RPM_NAME = "texlive-gloss-2023.209.1.5.2svn15878-54.2.noarch.rpm"
-RPM_HASH = "fc42e016f426fd761926bd6d02b927aba89740d0b4e9a7814b80b865debf177fa31c7f0f8b29ea1881a47962eeed2beed9380b048b5721505fccd865bf129f64"
+RPM_NAME = "texlive-gloss-2026.226.1.5.2svn75240-60.4.noarch.rpm"
+RPM_HASH = "ea8a325dc9db1ac73ae86a83f71f7117d6b5257555723091e6cfdc57dc773d1f603784d020980475ecf2f533b96d46e65e9c936a4f862b91bccc5c0cdbcb1cf3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-gloss.sty \

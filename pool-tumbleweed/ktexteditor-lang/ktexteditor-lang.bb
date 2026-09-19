@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ktexteditor"
 DESCRIPTION = "Provides translations for the 'ktexteditor' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "ktexteditor-lang-5.109.0-1.1.noarch.rpm"
-RPM_HASH = "bdd19c2cff4c779de7b261f6e61d833568e7f254ea3df2575bbed21595493dd29bd15b310a461ead813d4016c2d351e2fe9bc613ff18bca908c56ee5fe9d448e"
+RPM_NAME = "ktexteditor-lang-5.116.0-1.8.noarch.rpm"
+RPM_HASH = "05b82eba057041b0979c987a76741391fa103ce5523fc9af4e055fde796435ec5d68097d5edc53b214efce77d5b90b4d5e1552a986d139f0796c1138bed0c162"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktexteditor-lang \

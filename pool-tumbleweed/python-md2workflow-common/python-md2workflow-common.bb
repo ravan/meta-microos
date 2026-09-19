@@ -4,14 +4,14 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.4.18"
 
-RPM_NAME = "python-md2workflow-common-1.4.18-4.13.noarch.rpm"
-RPM_HASH = "6ce1272500eb2036dea9353f3721c5240e8306e8d7297c9790552572473e22fbc8b902b2fdb3c2244ac3fe4cd2eba9a094362fab106959bc0a941dfd03c5e161"
+RPM_NAME = "python-md2workflow-common-1.4.18-6.5.noarch.rpm"
+RPM_HASH = "8231b04c9032eaf3265fbe8e9b433f476aef0499d7ede993ecc252ad1f1aa00ddec6276c175dd0850fed0749f30b5eaac08f5834d1dd636d504488d4b66aea69"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python-md2workflow-common \
-python310-md2workflow-common \
-python311-md2workflow-common \
-python39-md2workflow-common"
+RPROVIDES:${PN} += "config-python-md2workflow-common \
+python-md2workflow-common \
+python313-md2workflow-common \
+python314-md2workflow-common"
 
 RDEPENDS:${PN} += ""
 

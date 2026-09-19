@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfsporson"
 DESCRIPTION = "This package includes the documentation for texlive-gfsporson"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.01svn18651"
+PV = "2026.226.1.01svn77682"
 
-RPM_NAME = "texlive-gfsporson-doc-2023.209.1.01svn18651-53.1.noarch.rpm"
-RPM_HASH = "6438a578c42e587f93deeb6bd715f397854b56614b005266e24bcc2d80b74c7385e2576f14889a18c91b31c8f2bc6b1080d1d5bca8d803b8759f3613e491d114"
+RPM_NAME = "texlive-gfsporson-doc-2026.226.1.01svn77682-60.2.noarch.rpm"
+RPM_HASH = "6e2d64a1054cce89b30d41a1e989e0117eb04afab14234b64ac6301233ba637fd2815da2bf0067f4494164a804628434877abd57bc6daac4e0ce8bae0dcfecfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsporson-doc"

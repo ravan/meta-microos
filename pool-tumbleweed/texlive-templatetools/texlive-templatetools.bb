@@ -5,10 +5,10 @@ code execution are required. All the commands work both in the \
 preamble and in the document."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn34495"
+PV = "2026.227.0.0.2svn67201"
 
-RPM_NAME = "texlive-templatetools-2023.209.svn34495-55.1.noarch.rpm"
-RPM_HASH = "c3e6cb378afa056ace32af7e4590ccbd47d98fb132f58b2de124fc29a6c4b467e9c8e5af1f677d29db1f86db6ae8cbe14dd94903b6b260110cd0800167aa7c62"
+RPM_NAME = "texlive-templatetools-2026.227.0.0.2svn67201-62.2.noarch.rpm"
+RPM_HASH = "e96e5b5fa181d159783bd5e29d0a59290a7dedf4a5f971e3df991dab3261d35b94b2d0328b13f01b8f0d1318d73a5b371c901ed01271e6ed7f9681ba0df9a168"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-templatetools.sty \
@@ -23,7 +23,7 @@ sed \
 tex-array.sty \
 tex-etoolbox.sty \
 tex-ifdraft.sty \
-tex-ifpdf.sty \
+tex-iftex.sty \
 tex-ltxcmds.sty \
 tex-scrlfile.sty \
 texlive \

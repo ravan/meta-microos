@@ -2,10 +2,10 @@ SUMMARY = "Emoji dictionary for IBus"
 DESCRIPTION = "This package contains data of emoji dictionary for IBus and other applications"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.5.28"
+PV = "1.5.34"
 
-RPM_NAME = "ibus-dict-emoji-1.5.28-2.2.noarch.rpm"
-RPM_HASH = "ac911f9adeacb3c81c5f590ac433d5a06c066b7c358651b49199a4ed7ae0cc746dbafaf6d56dd89124620abe6d8ff5b78efe4c512d91e3d046c5d8c2704af577"
+RPM_NAME = "ibus-dict-emoji-1.5.34-2.1.noarch.rpm"
+RPM_HASH = "b12b533f56576d0c1b350af500396df517cb4d8bbc3ffb93442764856e951a67d9a1e1acce5dcde0a4c062c299431aaf5f87d19060660f14269704039834ec23"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-dict-emoji"

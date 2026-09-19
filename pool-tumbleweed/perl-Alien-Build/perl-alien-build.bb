@@ -4,10 +4,10 @@ for CPAN. It is mainly designed to be used at install time of a CPAN \
 client, and work closely with Alien::Base which is used at runtime."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.80"
+PV = "2.840.0"
 
-RPM_NAME = "perl-Alien-Build-2.80-1.3.aarch64.rpm"
-RPM_HASH = "0a57ca90df5fc13c8ce52cfe8f17ceb9ebf928ac52282211c260cd10ce672fedaf64015c45119923fc36c6f4534e947075e65ef204e5878bc05124fc129181bd"
+RPM_NAME = "perl-Alien-Build-2.840.0-1.10.aarch64.rpm"
+RPM_HASH = "919ca08ae4278892b7447fcd13da8a484edeea5eb1f497ba049349eecf75ef61b2ae8735d9bbb2c44fb0a9d9aa8bb48ada71f0d687474394020509c7b39625e9"
 
 RPROVIDES:${PN} += "perl-Alien--Base \
 perl-Alien--Base--PkgConfig \
@@ -90,7 +90,7 @@ perl-Test--Alien--Run \
 perl-Test--Alien--Synthetic \
 perl-alienfile"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Capture--Tiny \
 perl-Digest--SHA \
 perl-ExtUtils--CBuilder \

@@ -4,10 +4,10 @@ libnk2, libolecf and libpff. It is used to chain I/O to support \
 file-in-file access."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221025"
+PV = "20260623"
 
-RPM_NAME = "libbfio1-20221025-2.8.aarch64.rpm"
-RPM_HASH = "ca9d1b418131e98aaf75c36278e5a6210ae6a0321477c33b84ad000aaf1e8c1ac6cfc9b583d3d33a80f494dc420cb359d19aca49e7a39300d0161f39c9ca6783"
+RPM_NAME = "libbfio1-20260623-1.4.aarch64.rpm"
+RPM_HASH = "6a5195548da815d01c5b5e87218777e522f41276fe0b779069dada1c3bd802df848be16b3753a834ce21d9d7c464e5a5966fb3ac0478c30482280936f4d4df1e"
 
 RPROVIDES:${PN} += "libbfio.so.1 \
 libbfio1"

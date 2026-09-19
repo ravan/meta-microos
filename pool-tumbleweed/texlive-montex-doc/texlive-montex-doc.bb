@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-montex"
 DESCRIPTION = "This package includes the documentation for texlive-montex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.ivu.04.092svn29349"
+PV = "2026.226.ivu.04.092svn29349"
 
-RPM_NAME = "texlive-montex-doc-2023.209.ivu.04.092svn29349-55.1.noarch.rpm"
-RPM_HASH = "2da79090eddba3984178a5614f4d46fb6bcf0bcc6c5e132629610c4351f32b92cf2f52a385dbfea8f488349f396f479947160f3b7622e30d1705a2b91df13d8b"
+RPM_NAME = "texlive-montex-doc-2026.226.ivu.04.092svn29349-61.2.noarch.rpm"
+RPM_HASH = "0d640f656f08885ba06c06991031b64d03cc1eaf511aee4954c234cbf4aaa437524b9e05da6e99a5032ddf4c9b2355d33572d5517005604cf60b5a696c2ff921"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-montex-doc"

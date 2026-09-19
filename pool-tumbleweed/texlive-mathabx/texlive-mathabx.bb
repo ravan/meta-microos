@@ -8,10 +8,10 @@ support macros. A version of the fonts, in Adobe Type 1 format, \
 is also available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-mathabx-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "b77a73c09e054f7b3fba1e3dfab359ec0104129867ca867c782883940cd4b08aae02a2dcadce9f054deeabdcd4769055dcfa6b34d7c49963d179f73c64c4c502"
+RPM_NAME = "texlive-mathabx-2026.226.svn77682-59.2.noarch.rpm"
+RPM_HASH = "4cb287893446e4bda70923b953ad1e23bd873e78ba9b06439330aa45c6477496125a6d4c4002d1a363db1012db54cca4040ec5cb5bb707ede38e90da4148b292"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-matha10.tfm \

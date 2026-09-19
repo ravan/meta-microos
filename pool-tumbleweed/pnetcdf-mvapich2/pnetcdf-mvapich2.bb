@@ -10,10 +10,10 @@ This package contains the mvapich2 version of utility functions for \
 working with NetCDF files."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-mvapich2-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "1ee9d926995e6a62115eb15e712072cfaf006a13b418fb4a21655a9d817fc63f122089f80913ae0e051fa961eb6ce6412ff9412d9199399eb1258847c3ee15fa"
+RPM_NAME = "pnetcdf-mvapich2-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "4c7c4d20e3a86f1ec43198bec5d40b54bc3b2c790512fe3e5b2d7961c084d8858259c18fe38ae9e5fcbfb66e7a9671466b96d1138dad906c0eb3cc1cde07647f"
 
 RPROVIDES:${PN} += "parallel-netcdf-mvapich2 \
 pnetcdf-mvapich2"
@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12 \
-libpnetcdf.so.4 \
+libpnetcdf.so.7 \
 libpnetcdf4-mvapich2 \
 mvapich2"
 

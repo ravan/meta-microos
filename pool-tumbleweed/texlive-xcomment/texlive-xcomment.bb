@@ -10,14 +10,13 @@ environments. The package was previously part of the seminar \
 bundle for typesetting presentations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn20031"
+PV = "2026.226.1.40svn77682"
 
-RPM_NAME = "texlive-xcomment-2023.209.1.3svn20031-53.2.noarch.rpm"
-RPM_HASH = "1c53ceef1158d8cabaacbdf3b077a07e5dcd6b614ea37f6b24941df96a09b6786871c02b5ca82ce6c05e10a28e25075559a0a62259e11d195f39d4f811de5da9"
+RPM_NAME = "texlive-xcomment-2026.226.1.40svn77682-59.4.noarch.rpm"
+RPM_HASH = "009f01912d5db2470e69726812cbd307efa9a55361692eb68d11496e56afc70f1a6084f016b762d07e0914483b08c6c3c93aa6c232376a6c3c59b779e764516a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xcomment.sty \
-tex-xcomment.tex \
 texlive-xcomment"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

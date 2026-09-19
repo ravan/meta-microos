@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 UiTools library"
 DESCRIPTION = "This package contains the Qt 6 UiTools library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
+LICENSE = "(GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only) & GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6UiTools6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "37b1016140753b706f4608128132b3f5238a36e62f089c1b9aa809d491c735a1b3c0b983cc107409863bf0e18c8f5abef2a13faa99ac55dabe3defaff3e6fa97"
+RPM_NAME = "libQt6UiTools6-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "859ce1446b64a3965ff8904f190e4d8770488f9a9809669c4f9ad4be0dbf1155ed583023c8595e8b83ff9b526af47036356f664a36b9250e18b63e8dcaa8d7bf"
 
 RPROVIDES:${PN} += "libQt6UiTools.so.6 \
 libQt6UiTools6"

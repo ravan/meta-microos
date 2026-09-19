@@ -83,8 +83,8 @@ LICENSE = "Artistic-1.0"
 
 PV = "2.03"
 
-RPM_NAME = "perl-Quantum-Superpositions-2.03-1.18.noarch.rpm"
-RPM_HASH = "9088ec726013432bed1440f123017af01ef5863156fb17bdf2843119a177148c1f4de17ada0795b871bb71659f97eea85d694449fe221aa1e8ab5f2bdf787589"
+RPM_NAME = "perl-Quantum-Superpositions-2.03-1.32.noarch.rpm"
+RPM_HASH = "d19960f56e38953437a7373f473678c6bfa695b8a56f53f9b5596c10e45407c506ac318fa0e8010c0b1b9f3580fc256f892776b04ea3d5967e841948bc47bde2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Quantum--Superpositions \
@@ -93,7 +93,7 @@ perl-Quantum--Superpositions--Conj--True \
 perl-Quantum--Superpositions--Disj \
 perl-Quantum-Superpositions"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Multimethods"
 
 inherit rpm

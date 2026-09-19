@@ -6,14 +6,15 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.0.3"
 
-RPM_NAME = "typelib-1_0-GSound-1_0-1.0.3-2.9.aarch64.rpm"
-RPM_HASH = "6a8c681bd0e3d838ac9acc01bfe62a4accfe94f7f393e0748f2cb877da38f6084e45d2cd2a7736498c2686ab3f5e3ecd4633c6a27d6d87208c89e6b1087edb07"
+RPM_NAME = "typelib-1_0-GSound-1_0-1.0.3-2.21.aarch64.rpm"
+RPM_HASH = "f560f0b02aa6f12dd9ec3e6d6200108f66da9811965b60098002d447d3abe61daf8db856a1b2578ae3457d7cd022f8fd47c789a39082dab4e6b1430fad6ab699"
 
 RPROVIDES:${PN} += "typelib-1-0-GSound-1-0 \
 typelib-GSound"
 
 RDEPENDS:${PN} += "libgsound.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio"
 

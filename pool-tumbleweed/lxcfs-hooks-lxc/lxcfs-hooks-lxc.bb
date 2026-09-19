@@ -3,10 +3,10 @@ DESCRIPTION = "Configuration to add hooks for lxcfs so that it automatically int
 with LXC for all containers."
 LICENSE = "Apache-2.0"
 
-PV = "5.0.4"
+PV = "7.0.0"
 
-RPM_NAME = "lxcfs-hooks-lxc-5.0.4-1.1.noarch.rpm"
-RPM_HASH = "bca108be34f8b6faedb2c270b96e439e22c0bac3fa3584071f450b4d1adc7da8cdee517d4abf2dd868af123af3c4f0411a77f1b40be1874f8662c4f62ae93865"
+RPM_NAME = "lxcfs-hooks-lxc-7.0.0-1.3.noarch.rpm"
+RPM_HASH = "9d62006b73bc853bad3c235e2e5f6335d04139989ef4d774243a1644879699e8f39cfe018260d212fbc93b7252b0433c8cc44acaa17ca45a9914450e80ffc610"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lxcfs-hooks-lxc"

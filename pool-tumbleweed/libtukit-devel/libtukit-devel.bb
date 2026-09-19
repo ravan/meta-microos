@@ -1,19 +1,19 @@
 SUMMARY = "Development files for tukit library"
 DESCRIPTION = "This package contains the files required to develop programs to do \
 transactional updates using btrfs snapshots."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "4.3.0"
+PV = "6.1.3"
 
-RPM_NAME = "libtukit-devel-4.3.0-1.1.aarch64.rpm"
-RPM_HASH = "cc3883c3e6cccd47125a64b61ad2fd9f58919baf5e486c29261e639610fe55517289d5c5bb836c63c90f8b71659d20da04402d5c1257773c838ba1d84d88dd31"
+RPM_NAME = "libtukit-devel-6.1.3-1.2.aarch64.rpm"
+RPM_HASH = "c0f4b6bc98a0bc581bc7cf2733c36e14b78ab32d664240e7e9104827906ae155ba5b4a21f077c5b04ab2f3d4b5163b1656509ff1ff935061183cb8c6b12f37da"
 
 RPROVIDES:${PN} += "libtukit-devel \
 pkgconfig-tukit \
 tukit-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libtukit4 \
+libtukit8 \
 pkgconfig-libeconf \
 pkgconfig-mount \
 pkgconfig-rpm"

@@ -1,20 +1,22 @@
 SUMMARY = "IDO PostgreSQL database backend for Icinga 2"
 DESCRIPTION = "Icinga 2 IDO PostgreSQL database backend. Compatible with Icinga 1.x \
 IDOUtils schema >= 1.12"
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.13.8"
+PV = "2.16.5"
 
-RPM_NAME = "icinga2-ido-pgsql-2.13.8-2.1.aarch64.rpm"
-RPM_HASH = "d14f2bd08b312c449140bac197872c6b1cb1e7b6ba089afd644568729666df05a503a44030f9c797b66d030c7d25689a10e22dbbb5c7f091a945111d14560d1a"
+RPM_NAME = "icinga2-ido-pgsql-2.16.5-1.2.aarch64.rpm"
+RPM_HASH = "aa71c532bb6826bcefa285ab4e22c10bcb0fb0c96ee1f53f088c0a0c46d9e24d139cb990d62c987474da686c8c17ee4d694cce7d32d9b86fc463d143d0c29897"
 
 RPROVIDES:${PN} += "config-icinga2-ido-pgsql \
 icinga2-ido-pgsql \
-libpgsql-shim.so.2.13.8"
+libpgsql-shim.so.2.16.5"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-icinga \
 icinga2-bin \
 libpq.so.5 \
-libstdc++.so.6"
+libstdc++.so.6 \
+user-icinga"
 
 inherit rpm

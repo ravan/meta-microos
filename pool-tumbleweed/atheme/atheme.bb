@@ -6,11 +6,13 @@ LICENSE = "MIT"
 
 PV = "7.2.12"
 
-RPM_NAME = "atheme-7.2.12-2.10.aarch64.rpm"
-RPM_HASH = "577833044bbda8a2c4c6b0a366516d6137fee2ea1ee235296483b3afa0dcfa0c84ea5e19b2587d98b0ed98fcc319aaa2ba7dc6026278ec1472047ebb62e8591d"
+RPM_NAME = "atheme-7.2.12-5.6.aarch64.rpm"
+RPM_HASH = "7858d7c06ebe8fb151ec7fa3c10fa073f8ec947893c5706239015f259c2f1d51fc05c6e7a2a2d2253d9d65b49b8ad6199fcffefdf64d0182254fe0b24adf9164"
 
 RPROVIDES:${PN} += "atheme \
-config-atheme"
+config-atheme \
+group-atheme \
+user-atheme"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
@@ -22,6 +24,6 @@ libcrypto.so.3 \
 libldap.so.2 \
 libm.so.6 \
 libmowgli-2.so.0 \
-shadow"
+sysuser-shadow"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.4.1"
 
-RPM_NAME = "libbox2d-devel-2.4.1-2.9.aarch64.rpm"
-RPM_HASH = "1755aefba0fc06b3da11f9e2d473f58ccb4436321c6af67aff5c8310d7f375a3ef2cf6883676cefb85b39e76b0ebae1202b29af310c9fa11b0aa15709bc52385"
+RPM_NAME = "libbox2d-devel-2.4.1-3.6.aarch64.rpm"
+RPM_HASH = "37b8d8357be66af36b16817954dd0c9dd60c1806055ce9368c916e75798cd21f88c29dcbeccad370146ea83384645126ce001537d2ef1689983cca70ff31b269"
 
 RPROVIDES:${PN} += "cmake-box2d \
 libbox2d-devel"

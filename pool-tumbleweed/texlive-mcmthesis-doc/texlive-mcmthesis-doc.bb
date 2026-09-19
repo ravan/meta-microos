@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mcmthesis"
 DESCRIPTION = "This package includes the documentation for texlive-mcmthesis"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.6.3.1svn57333"
+PV = "2026.226.6.3.3svn69538"
 
-RPM_NAME = "texlive-mcmthesis-doc-2023.208.6.3.1svn57333-53.1.noarch.rpm"
-RPM_HASH = "60638c082e4b3584e873ef1e476fcab1bba0cb070d29ed170aa28c98621b3e0920d4a8a29142c2239e6d3d3eee863cacc011f8aff24a073e77b96f29fc807b33"
+RPM_NAME = "texlive-mcmthesis-doc-2026.226.6.3.3svn69538-59.2.noarch.rpm"
+RPM_HASH = "6d7de8ed427ab374ca342d82b6c60f35cbbe266fdb25ebab277dd6b526fa0cdbce10170ddf7e24ac2d2f2c6a67fee9687959a5c3e442a073ccfd3ea9cc05ac37"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "en) \

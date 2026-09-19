@@ -15,8 +15,8 @@ LICENSE = "MIT"
 
 PV = "0.1"
 
-RPM_NAME = "gude-mouseclock-udev-0.1-1.8.noarch.rpm"
-RPM_HASH = "a48dab164842b41a876ba91719904269b3040fcb027fa9b192afb9de98354e29a3a18e60118fe9b0430754ae4a06a15cc7d0772a8808e14d4fa74e98444acb3d"
+RPM_NAME = "gude-mouseclock-udev-0.1-1.16.noarch.rpm"
+RPM_HASH = "eecae22ae4e6c4b4ab3e48e98f35ca931fd4f1982916d1ca2dc231717cf275a5e9e04e9c0a2fb874443e1d10301b6a5a7db3795d01637b3d7a91f1caacf81a49"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gude-mouseclock-udev"

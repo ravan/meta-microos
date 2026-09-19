@@ -6,10 +6,10 @@ GCK is a library for accessing PKCS#11 modules like smart cards, in a \
 (G)object oriented way."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.1.0"
+PV = "4.4.0.1"
 
-RPM_NAME = "gcr-viewer-4.1.0-1.2.aarch64.rpm"
-RPM_HASH = "88a18230390a721fe6e8823f720c71c8b0b1b99a60aef1607d0175f5b99a43a891b37c706156e1195cce9f154812b2684747417213b0011c0280d2dc3161360d"
+RPM_NAME = "gcr-viewer-4.4.0.1-3.3.aarch64.rpm"
+RPM_HASH = "e1697bd92d13672c860ef2c709ba3cfd74e07464c879d9edb848b04400b0ac7208ccecaf7425ebfd7df378cd4845bda1eec3e31d604819a4ef19400d1c88ca2c"
 
 RPROVIDES:${PN} += "gcr-viewer"
 

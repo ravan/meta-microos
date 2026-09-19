@@ -14,10 +14,10 @@ conversion. Device color gamuts can also be viewed and compared using a VRML \
 viewer."
 LICENSE = "AGPL-3.0-only & GPL-2.0-or-later & MIT"
 
-PV = "2.3.1"
+PV = "3.4.1"
 
-RPM_NAME = "argyllcms-2.3.1-2.6.aarch64.rpm"
-RPM_HASH = "15fea9fab0be7a5ebccb6b4b8895fe2e688fbd505872a59d99dd1316166bdb09025063628fe50c6f9c7fe2751f3124c69be38d67a59bbb010a59cd8671aa3180"
+RPM_NAME = "argyllcms-3.4.1-1.7.aarch64.rpm"
+RPM_HASH = "fc5d56e323b893c94e6160b5f99605f70f0dfc8f10302bd93a7682c661eedb7286fcd35f5555579f5a401ae0a38c96f61c356f10d7031841c9fd76e3a9a64fcd"
 
 RPROVIDES:${PN} += "argyllcms"
 

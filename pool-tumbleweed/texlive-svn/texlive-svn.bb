@@ -6,10 +6,10 @@ Subversion (a replacement for CVS) is available from the \
 project's home site."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.43svn15878"
+PV = "2026.226.43svn15878"
 
-RPM_NAME = "texlive-svn-2023.209.43svn15878-58.1.noarch.rpm"
-RPM_HASH = "aeb16ee01a8472cdf564458e7e7cb89ffc8b0d9e3bb9cd05546588f56cc5f03282dacef41cb50c969a7f9a033a5d2d6b32b06e3cbfc052916a09df69aeadfff3"
+RPM_NAME = "texlive-svn-2026.226.43svn15878-64.2.noarch.rpm"
+RPM_HASH = "d38934a2f16f8a0ff0c92e189ec43298e0f653e0c31622d3ce2b95f284ea82444d80e7b68a831acdd214460192dc0db635ac10d4bc0f6b83829b8427606deecb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-svn.sty \

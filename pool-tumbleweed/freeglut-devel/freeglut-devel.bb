@@ -18,8 +18,8 @@ LICENSE = "MIT"
 
 PV = "3.2.2"
 
-RPM_NAME = "freeglut-devel-3.2.2-1.8.aarch64.rpm"
-RPM_HASH = "dde5d6011faf0ddfb126a1579f8cafb1590135d95c1306750e54088374643be29f7d1eecb25df160d2a744ef6ecb213603180898b08556c82cf3ed456fb63687"
+RPM_NAME = "freeglut-devel-3.2.2-2.6.aarch64.rpm"
+RPM_HASH = "3dab6ea0b2e5b3bcc524bd4189418c0182c0774c356630d839b12bd19042bdf213e710da63dccbbbee2749032e5f57555ca281b1456f6b563fa0a8847a14b03b"
 
 RPROVIDES:${PN} += "cmake-FreeGLUT \
 freeglut-devel \

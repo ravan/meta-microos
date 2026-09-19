@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.18.3"
 
-RPM_NAME = "libnxml0-0.18.3-1.25.aarch64.rpm"
-RPM_HASH = "fed53487984e66d6122a5d9d4fddfaa8fd7f1b59a2eb798a2d793f414eab3060858518d8fcbce2a965602d448ddc1ab6dbe95d80aceb99dda1a02467951f8e74"
+RPM_NAME = "libnxml0-0.18.3-2.9.aarch64.rpm"
+RPM_HASH = "9db65329b0b8edae19547a441e81fdd42173707aa8eb55bb067c7686fb7f3157661f04144ad46aadd21fd1fa5a4a1875344bf3af0d36fb2008828524339dac24"
 
 RPROVIDES:${PN} += "libnxml.so.0 \
 libnxml0"

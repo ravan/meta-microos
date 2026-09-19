@@ -11,10 +11,10 @@ dedicated service (nslcd) that queries the LDAP server with persistent \
 connections, authentication, attribute translation, etc."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.9.12"
+PV = "0.9.13"
 
-RPM_NAME = "nss-pam-ldapd-0.9.12-1.9.aarch64.rpm"
-RPM_HASH = "ca103d33b3a0eaa89692917c3e23133566fef1c84c98be8d9c91d2f26c1c4205e93f7bd07c2659068ece97be04abbe6a5c7daff9a75a0965c0a60fcf27875ea5"
+RPM_NAME = "nss-pam-ldapd-0.9.13-2.1.aarch64.rpm"
+RPM_HASH = "b513fb04e634c0da8f910c23fdfd3f500b8e1c7137bee70081f06a4ac8ef9a7bfd0f5fde4aacec79c32c87ed164017a961a662dfe0bb82c2005b5c71b849b230"
 
 RPROVIDES:${PN} += "config-nss-pam-ldapd \
 libnss-ldap.so.2 \

@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "libpurple-plugin-sipe-1.25.0-2.12.aarch64.rpm"
-RPM_HASH = "79656f6b7c623c4b39fd36de0e3ef732840e738cf4e3cad961437bd105aa916f93b66870cc43bbf55f48bf373763674c0a843dbccd72f4de47976d8f1c9872cc"
+RPM_NAME = "libpurple-plugin-sipe-1.25.0-4.8.aarch64.rpm"
+RPM_HASH = "986a7ac4d21a800435bed6585164b769999e4ca9b83b4be87bd089a33f351744699ec2208bf023a5444b27f274d642bea761e5fe6a716a6a2a8d1f995c6de61b"
 
 RPROVIDES:${PN} += "libpurple-plugin-sipe \
 libsipe.so"
@@ -37,6 +37,6 @@ libnss3.so \
 libpurple.so.0 \
 libsmime3.so \
 libwinpr2.so.2 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

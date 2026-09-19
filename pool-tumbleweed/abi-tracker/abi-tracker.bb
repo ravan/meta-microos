@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
 PV = "1.11"
 
-RPM_NAME = "abi-tracker-1.11-2.10.noarch.rpm"
-RPM_HASH = "2a3e7b8dc526aa5191dada45d575294e1a3718fd124c5f25e5b364f75c16307df8d113f20749528f26e86f67c5cebbc12da69b9700ea67a3e07a007121c9efcf"
+RPM_NAME = "abi-tracker-1.11-2.18.noarch.rpm"
+RPM_HASH = "ba32f08783a86ce98767a52b14cfcbdf39d5a75f398a08e3e5aa990b5745a60e8d9c831597110a93be044b31b7b95838438208e5353e247d7881f5bc56776f96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "abi-tracker \

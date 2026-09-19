@@ -2,15 +2,15 @@ SUMMARY = "Documentation for texlive-struktex"
 DESCRIPTION = "This package includes the documentation for texlive-struktex"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3c_0_g7d3fc5bsvn47931"
+PV = "2026.226.3.0asvn75565"
 
-RPM_NAME = "texlive-struktex-doc-2023.209.2.3c_0_g7d3fc5bsvn47931-58.1.noarch.rpm"
-RPM_HASH = "fb96549c25cc7a44175549ce062555de9ed27e44a9bd354dbd13e1d2c8d8240968c9948d52bd1e10f64dbf127faca0668792174166de6f754f59dd5583918fea"
+RPM_NAME = "texlive-struktex-doc-2026.226.3.0asvn75565-64.2.noarch.rpm"
+RPM_HASH = "e40e697eb94561b28a3e1b693f87ff146a2a6bafd3d360023c25076d2d235e9274c02389434466e001239fc3129696549e7aa5fec92372a70b06e197884b1dcc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-struktex-doc-de;en \
 texlive-struktex-doc"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "/usr/bin/texlua"
 
 inherit rpm

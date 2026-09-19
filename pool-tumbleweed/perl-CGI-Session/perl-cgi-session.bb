@@ -1,12 +1,12 @@
-SUMMARY = "Persistent Session Data in Cgi Applications"
+SUMMARY = "Persistent session data in CGI applications"
 DESCRIPTION = "CGI::Session provides an easy, reliable and modular session management \
 system across HTTP requests."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "4.48"
+PV = "4.490.0"
 
-RPM_NAME = "perl-CGI-Session-4.48-15.25.noarch.rpm"
-RPM_HASH = "5a3088ecff6b0dfcc03868cea03fb3c255ad64e16eefc2900e6ced85a6c03a0e885e30037a10c24fb9c9aa3599e3fe744b3a46ad33d14e5a2e4277f04ecd1d8e"
+RPM_NAME = "perl-CGI-Session-4.490.0-1.3.noarch.rpm"
+RPM_HASH = "3bacb411ad50b60555c73cd9c3221e581eaee47ca7d2cc0f211ab37aff46bae7a15b767a99ac24e22449023f20896fade597e66bc1184a0a0a179805782d357b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Session \
@@ -30,7 +30,8 @@ perl-CGI--Session--Tutorial \
 perl-CGI-Session \
 perl-OverloadedClass"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
-perl-CGI"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-CGI \
+perl-Crypt--SysRandom"
 
 inherit rpm

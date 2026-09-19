@@ -2,10 +2,10 @@ SUMMARY = "MinGW Windows cross-compiler for Objective-C and Objective-C++"
 DESCRIPTION = "MinGW Windows cross-compiler for Objective-C and Objective-C++"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-objc-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "ee5ce1c3d3bc780cd21c58f136dc11fe2c68051e344ee1f42d6740d5d0390c0faee2f778f5a5aa4030be39d3412d97ed053c30c45029483be18585376c8a9b23"
+RPM_NAME = "mingw32-cross-gcc-objc-16.2.0-1.1.aarch64.rpm"
+RPM_HASH = "250ed3dd6be81654f62a5ca441ea2a2a96ccbd84bc5ad1a03aa7e967475f220a3051a336fe0e2652cb8e15f5daded646cd75e3143cf933db2a99427740bce2d4"
 
 RPROVIDES:${PN} += "mingw32-cross-gcc-objc"
 

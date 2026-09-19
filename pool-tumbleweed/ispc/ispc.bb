@@ -3,18 +3,18 @@ DESCRIPTION = "A compiler for a variant of the C programming language, with exte
 'single program, multiple data' (SPMD) programming."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.18.1"
+PV = "1.31.0"
 
-RPM_NAME = "ispc-1.18.1-2.2.aarch64.rpm"
-RPM_HASH = "b82eb7a872f4ba960b092d5945b97d3f0e68a0a189b7876b76004e5582da2bf82fd143b270061c5aa8f8fb78e528e422bab618ae07aac3a5c39a586aa5054f47"
+RPM_NAME = "ispc-1.31.0-2.3.aarch64.rpm"
+RPM_HASH = "501539340e02836dc595196b2659d327e41f8ac01bca2f0888963aa2861fa99378a89c319b31b83b9ebc3658be0a2800b894d0e947ed877e83bfaa2e92bd5921"
 
 RPROVIDES:${PN} += "ispc"
 
 RDEPENDS:${PN} += "ispc-devel \
 ld-linux-aarch64.so.1 \
-libLLVM.so.14 \
+libLLVM.so.22.1 \
 libc.so.6 \
-libclang-cpp.so.14 \
+libclang-cpp.so.22.1 \
 libgcc-s.so.1 \
 libstdc++.so.6"
 

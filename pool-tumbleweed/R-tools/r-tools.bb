@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-tools"
 DESCRIPTION = "This package provides R-tools, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-tools-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "d2d8065bc4f8d1286d3a68a4b92756140e10973e5b901e0d327953feca40a3b946e41d9d63e716f0f55f2d8451d34ce03810b57efaaf35eec7f57560e57109ee"
+RPM_NAME = "R-tools-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "a13aee21f1b131fd98df871067b210919dadd027859eff18ad37f126daa0f896a574f1312ac2d2268192a35f2c4ca8fe8cdbaf156c7d04eda65ab38a286864a3"
 
 RPROVIDES:${PN} += "R-tools"
 

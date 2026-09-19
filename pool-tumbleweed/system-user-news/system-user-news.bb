@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the system account and group 'news' \
 and their corresponding directories."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-user-news-20170617-24.16.noarch.rpm"
-RPM_HASH = "bfa3bf5d18c33ad56cfa7b2d442dea672d0a81440fbf4fe1b040ec0297782d73beaec9f7009e8fb4fb362c7f3893292b94666d313843e5cb267c3924f9a5d84b"
+RPM_NAME = "system-user-news-20250822-2.3.noarch.rpm"
+RPM_HASH = "4339b84a5f7a58be7c7d52c739769e281f294f721de358cdf4655c7fff409042717c4998eb09a6beeedd871eeef9123a6f1a797dea43e6f4909b9b86ee3b70f9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-news \

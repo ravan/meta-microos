@@ -7,10 +7,10 @@ floating body together with a header, a caption, etc. \
 \\listofalgorithms is defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-alg-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "353282af06f171a40cc32d00d55d59305225056223d186ba45fc2e2f57b08b4e8d29650a92681eb6d0c79a0c6b3d4ab2d0842f323eee86c3c03c00be3b2836c0"
+RPM_NAME = "texlive-alg-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "63c990d6df9d957e1e132f429c89f50c4d1584d34776402a9fb093fce448abd39796a191dc096177b2e75218337a0795cd659da0d4c9067a650c7a4a9c9fd3e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alg.sty \

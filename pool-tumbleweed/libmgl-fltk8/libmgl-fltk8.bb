@@ -4,10 +4,10 @@ plotting and handling of large data arrays, as well as window and \
 console modes and for embedding into other programs."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "libmgl-fltk8-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "9698356d368aedc0c2977744805592117bdec1d92700d7db146a68af96c324a4e8b5681cb134e7406f8edcba6823b8a5110fec93b546c07d16ff379074912ff9"
+RPM_NAME = "libmgl-fltk8-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "12b1ebfe15dc70eb14258b3a0327a83661c9a80c1cc4ec0f9fc0fde3c14e50068ee9ab45c166049a5c19f1f9ff549a2e721f9b980bbed9bce6c97989cad3b1e0"
 
 RPROVIDES:${PN} += "libmgl-fltk.so.8 \
 libmgl-fltk8"

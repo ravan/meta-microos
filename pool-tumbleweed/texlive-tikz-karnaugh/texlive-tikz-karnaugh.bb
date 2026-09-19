@@ -22,10 +22,10 @@ Original order, as the values appear in the truth table, still \
 being supported."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn62040"
+PV = "2026.226.1.5svn62040"
 
-RPM_NAME = "texlive-tikz-karnaugh-2023.209.1.5svn62040-53.1.noarch.rpm"
-RPM_HASH = "20c4b57104d40fce4e32f7e90bf491d5b43396df5f525d6100a2474db6855d4afa0982e7d440d3d6ee988b01b77e9657d18842d0afb3a7a3ec399a1635d9ea06"
+RPM_NAME = "texlive-tikz-karnaugh-2026.226.1.5svn62040-59.2.noarch.rpm"
+RPM_HASH = "658755635a0ebc3ff8df9196eaa86018d5a4fa9aa0d56295eb0224218d44a8fa37c38ca46de47c5c5a487c868ac167e8b7980574e99939f0d592bad95bd858bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzlibrarykarnaugh.code.tex \

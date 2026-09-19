@@ -2,10 +2,10 @@ SUMMARY = "SQLite Module for ProFTPD"
 DESCRIPTION = "This is the SQLite Module for ProFTPD"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-sqlite-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "1c5f40aac63a51618303ee948aaf66228423e7eb21315bcccd2f132e1d51f174a64e925b1c19646d67d30e617f8b6549f0c5970720fd836b7835bbd1d85bbf6a"
+RPM_NAME = "proftpd-sqlite-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "6e475743e01b338b6ab0b87a930f4399ea93b16e2cb0a29a122ab5543c700755c25460e54ff150daa831ce7bfa8ff7310d6317f3e5439fb7c7af3e41fc4f01c6"
 
 RPROVIDES:${PN} += "proftpd-sqlite"
 

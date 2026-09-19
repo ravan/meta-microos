@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-droid"
 DESCRIPTION = "This package includes the documentation for texlive-droid"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2svn54512"
+PV = "2026.226.3.2svn77682"
 
-RPM_NAME = "texlive-droid-doc-2023.209.3.2svn54512-53.1.noarch.rpm"
-RPM_HASH = "9ceb5ad5a4b893189b4c76d8e2fe52edefffff7b64ff022195ab9495c41ce6023fcba1bc028bf9c69a3d1e85216621c3fa1199319eeb5dda93a96166d4d25505"
+RPM_NAME = "texlive-droid-doc-2026.226.3.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "5b9a7d2f7262dc76fd621c5b12a27ad0f36c2e7a5f68bb74bda63f7eba5a686f0aec96947e1cf95a2adac4625cd9a48fa32dfb30e37be6fcb4e162c4fbeb33c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-droid-doc"

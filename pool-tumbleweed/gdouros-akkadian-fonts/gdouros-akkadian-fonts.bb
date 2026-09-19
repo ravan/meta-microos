@@ -7,8 +7,8 @@ LICENSE = "SUSE-Permissive"
 
 PV = "7.17"
 
-RPM_NAME = "gdouros-akkadian-fonts-7.17-1.16.noarch.rpm"
-RPM_HASH = "c5f2bac3f58867e8656882144f2ec38e9f3e78791f5e88f62c198d11f2f758400dcdab58d240b4992d60d73d7d2c7a2ee43081edc979ccddcafe70621e8e564c"
+RPM_NAME = "gdouros-akkadian-fonts-7.17-1.24.noarch.rpm"
+RPM_HASH = "ed625a5c27ff15492d9d19b86fd27c40117ed9fbae069f16ec0630b374c7dcd89f7814b090d0635cfa061118fae144c04f539452860af9451ba16f4141de2e4e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "akkadian-fonts \

@@ -3,10 +3,10 @@ DESCRIPTION = "This program is used to set various user preference options of th
 display."
 LICENSE = "MIT"
 
-PV = "1.2.5"
+PV = "1.2.6"
 
-RPM_NAME = "xset-1.2.5-2.1.aarch64.rpm"
-RPM_HASH = "a244cc6deb2cd64675faa8bf12c424d569c233bd3443dfe12e30f41a27081f01a531a077b2b15baa76df12ab13a96d3284ba9de02335c86bf8d00fd5beefba60"
+RPM_NAME = "xset-1.2.6-1.2.aarch64.rpm"
+RPM_HASH = "7a0da6ec476dbe1b166f7ff2c335dba9257cb3bcacca9351953cc051f1b62eaacfd1ec56091b5188c5b10aeee826ca3ceb686378b2f5dd010c4285a8bfc65ce0"
 
 RPROVIDES:${PN} += "xset"
 

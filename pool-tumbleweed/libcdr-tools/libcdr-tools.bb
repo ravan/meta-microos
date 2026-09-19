@@ -2,10 +2,10 @@ SUMMARY = "Tools to work with documents in Corel Draw file format"
 DESCRIPTION = "Tools to work with documents in Corel Draw file format."
 LICENSE = "MPL-2.0"
 
-PV = "0.1.7"
+PV = "0.1.9"
 
-RPM_NAME = "libcdr-tools-0.1.7-1.18.aarch64.rpm"
-RPM_HASH = "b4e7c02ff11e0da65246a93524d940f2e03d4da15a79c3b99b0c9192a7e64fb52100441a003e0debacaf8093c8437a6699e67d07f544d2a8278047008dfd6502"
+RPM_NAME = "libcdr-tools-0.1.9-1.3.aarch64.rpm"
+RPM_HASH = "903f22e58fd4275ff733a940a5cbccf28946195876a8c9e21639649c2110dcf23ea2db093b2bf8fbe3c067f1ea0285f2deb571220270232183067ef0d7916369"
 
 RPROVIDES:${PN} += "libcdr-tools"
 

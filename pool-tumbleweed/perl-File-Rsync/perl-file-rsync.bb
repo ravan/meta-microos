@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.49"
 
-RPM_NAME = "perl-File-Rsync-0.49-1.26.noarch.rpm"
-RPM_HASH = "cd3f2d7e844c244a7595766b7dc44f982dd5575f1d1a679ed102af48c9a02c8869213f0b1a9f12612d049ed859a77827a7b3243473a0560d7348c0434c88a3e4"
+RPM_NAME = "perl-File-Rsync-0.49-1.40.noarch.rpm"
+RPM_HASH = "ab889ea06a505a4998ba65014e6dacfd7081e7683f6583204b7a8245b46d0b6adebd79710ae434029202d17bc187b0d4c64b58b5c17fc83888968e8b17a071a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Rsync \
 perl-File-Rsync"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IPC--Run3 \
 rsync"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-proba"
 DESCRIPTION = "This package includes the documentation for texlive-proba"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-proba-doc-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "6c0e471ced67b67154f6e71c102da407b0e95a8076a80577c500fa14a1b1b017e843513126365aa472588c98007c28ab05a5dd357659c81e7cfd5a5edf5bc710"
+RPM_NAME = "texlive-proba-doc-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "f17c13b08e1df20845b87f741bd0c58a4fb42771f52441ecd03b65745673c1c443c0c68f2b25a784472babc96352b37dd99a96cafcb37dd2ee7df51f60030794"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-proba-doc"

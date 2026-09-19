@@ -3,15 +3,17 @@ DESCRIPTION = "This package contains the fast integer version of the Lao languag
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-lao-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "7e0c2908308ceb441aac1aab86fb328f5e445ed46d05f7942191b4e048f1f8a3d51cc2077e51e43307c8e334c02225d79ae4a6ce3501296b08eaa5cda05b7103"
+RPM_NAME = "tesseract-ocr-traineddata-lao-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "d3d26f8570bcd46d72a858a38c8ce95e9c8cf2ce5e6dc4b1f1af8f6005b20ee656cf7192efa53471097d1e61a4ae133dfd1982189735d924336b93f8b746038d"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-lao \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-lo \
+tesseract-ocr-traineddata-lao \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-lao"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

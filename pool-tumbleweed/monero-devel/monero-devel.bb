@@ -7,10 +7,10 @@ Untraceability: By taking advantage of ring signatures, a special property of a 
 The monero-devel package contains libraries and header files for developing applications that use monero."
 LICENSE = "MIT"
 
-PV = "0.18.2.2"
+PV = "0.18.5.1"
 
-RPM_NAME = "monero-devel-0.18.2.2-1.1.aarch64.rpm"
-RPM_HASH = "a470e30eb8095f7855fb0e912facccfe29c289be1f123ba955e0b692984a21c423fb3430c3cb0e92bd3bfdd2a679f66a5290add7838065b8733e7c04a19d614b"
+RPM_NAME = "monero-devel-0.18.5.1-1.2.aarch64.rpm"
+RPM_HASH = "b9dc29fa7cf62154203373b627571479a4e8cc3b8611eb48c0ab8536931f2f184c33ced0cf7a182c487e18f976c0e97b4187e1181ae96a6370c531dbd89bbd02"
 
 RPROVIDES:${PN} += "monero-devel"
 

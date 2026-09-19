@@ -6,15 +6,14 @@ emulators, to key symbols. \
 This subpackage contains the t3learnkeys and t3keyc programs."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.2.10"
+PV = "0.2.11"
 
-RPM_NAME = "libt3key-utils-0.2.10-1.15.aarch64.rpm"
-RPM_HASH = "7f69f4cd4380a9c9f0ab565196b5c6363878baa6a2439bd54de2a4f989db986b1524e082dda5a0880065091325b733d199100e63be8412b0424a771e3f2d08d5"
+RPM_NAME = "libt3key-utils-0.2.11-1.8.aarch64.rpm"
+RPM_HASH = "71534f263cab24213435932218955ac0a3d728abdf2a238f84dca4ca84ab7e053cbf8834e20af0ed716a06ed7e09bb29823ec25154334e6eef48a544692ff683"
 
 RPROVIDES:${PN} += "libt3key-utils"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libc.so.6 \
+RDEPENDS:${PN} += "libc.so.6 \
 libt3config.so.0 \
 libtinfo.so.6 \
 libxcb.so.1"

@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-cairo-devel package contains libraries and signature fi
 developing applications that use ocaml-cairo."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "0.6.4"
+PV = "0.6.5"
 
-RPM_NAME = "ocaml-cairo-devel-0.6.4-2.4.aarch64.rpm"
-RPM_HASH = "02cd7822525eed6b06dc40212931ec64e7c4e9eec8cffc73d186079b42568bc7428717d52bd5131cd226aefdf936b0f7aa640a87d39d3aa4b090fa318585a097"
+RPM_NAME = "ocaml-cairo-devel-0.6.5-2.2.aarch64.rpm"
+RPM_HASH = "21f135a3aae61d90d5e8e83a5a0c4d1207cf3cf5a93104f2b5aeacfe9c4e95ed6df31131ada469b55c077c97963010b5d7c114f82e81cb0a2db6397744d9aa4f"
 
-RPROVIDES:${PN} += "ocaml-Cairo \
+RPROVIDES:${PN} += "config-ocaml-cairo-devel \
+ocaml-Cairo \
 ocaml-cairo-devel \
 ocamlfind-cairo2 \
 ocamlx-Cairo"
@@ -26,6 +27,7 @@ ocaml-Stdlib--Complex \
 ocaml-Stdlib--Either \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--List \
+ocaml-Stdlib--Obj \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
 ocaml-Stdlib--Seq \

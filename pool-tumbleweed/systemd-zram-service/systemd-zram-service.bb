@@ -14,14 +14,15 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.2.1"
 
-RPM_NAME = "systemd-zram-service-0.2.1-4.3.noarch.rpm"
-RPM_HASH = "13f347fd6a050aef3e386d9c1481205495e85e0df2c360f2eb2e780334b985f2026323ba9bd04396ed8625c750504333eddf24e761a84f99ab2265f77d4306dd"
+RPM_NAME = "systemd-zram-service-0.2.1-5.7.noarch.rpm"
+RPM_HASH = "b4240463ee1a2cae7d1c584dadfe4d72aedaa191082479e4cc71206047630c3064cdec1141e5d0ed760a0268ec3d63ae0fe2f60fad3706e3e0e4c1e0c2a8e787"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "systemd-zram-service"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
+kmod-zram.ko \
 systemd"
 
 inherit rpm

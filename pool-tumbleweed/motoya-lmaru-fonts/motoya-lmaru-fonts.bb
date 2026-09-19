@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.0.0"
 
-RPM_NAME = "motoya-lmaru-fonts-1.0.0-11.17.noarch.rpm"
-RPM_HASH = "a9a3dc2cd461767301698b1842e285a11dfb37d52e470669f8de087abc3281790c0df17ebec1a4301745f91b50cfbac2e18372de9d006f41cdaa17a65f063bef"
+RPM_NAME = "motoya-lmaru-fonts-1.0.0-11.25.noarch.rpm"
+RPM_HASH = "9021a7010515178bd0b92285f034980d68dde7b4e5b1a08b406160a42fb09b04e79279b5043e9b08aa7ab01c0508ae526c7d184a4677e1dbb4ea17513fe1fbbb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "motoya-lmaru-fonts"

@@ -20,14 +20,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.05"
 
-RPM_NAME = "perl-Feature-Compat-Try-0.05-1.6.noarch.rpm"
-RPM_HASH = "4e1552cbc7f3ebaf452c6606f809d5b73f25c7b6fdf9139b80d3a538c496fa6fe5c4925b2d3315b6c582526f596091ceb6e3364206e7caeb7a26b8d75e72908c"
+RPM_NAME = "perl-Feature-Compat-Try-0.05-1.20.noarch.rpm"
+RPM_HASH = "d3f492892f6b9109b31185759812aac059782e025ae727ea8921b616344684b335172ec7c41d9090555eb714bdb1ab2e72f504e871587a5313865109ee5f5cbf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Feature--Compat--Try \
 perl-Feature-Compat-Try"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Syntax--Keyword--Try"
 
 inherit rpm

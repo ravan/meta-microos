@@ -2,10 +2,10 @@ SUMMARY = "ATI Mach64 series video driver for the Xorg X server"
 DESCRIPTION = "mach64 is an Xorg driver for ATI Mach64 series video cards."
 LICENSE = "MIT"
 
-PV = "6.9.7"
+PV = "6.10.0"
 
-RPM_NAME = "xf86-video-mach64-6.9.7-1.5.aarch64.rpm"
-RPM_HASH = "542bb3dd41f8c52d6891c17828d8895951696112596c7318ab346e386caec67d75e1fb86ab6958cdfb3bbe662c7229437c592e6d932eda5f9f541330f4fafed3"
+RPM_NAME = "xf86-video-mach64-6.10.0-1.9.aarch64.rpm"
+RPM_HASH = "88125a0feb57b2b7d6a383ff84352b4a9b8aabf71c6b49b4335ff9d17789df08f1e5bd2cb85f47fa94f509be670a01a90b2793a416acccb8d848e947c92c2f09"
 
 RPROVIDES:${PN} += "xf86-video-mach64"
 

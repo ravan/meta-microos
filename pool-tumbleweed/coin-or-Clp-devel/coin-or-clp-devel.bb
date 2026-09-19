@@ -4,10 +4,10 @@ DESCRIPTION = "Clp (Coin-or linear programming) is an open-source linear program
 This package contains the development headers for coin-or-Clp."
 LICENSE = "EPL-2.0"
 
-PV = "1.17.7"
+PV = "1.17.10"
 
-RPM_NAME = "coin-or-Clp-devel-1.17.7-1.4.aarch64.rpm"
-RPM_HASH = "4918a6e395572674aa8cfea201653c50f40dc62ba8235b028df5d0420915fbacf11bedf3e339985cb792158f2bc9eb0753dc00d733599547929fb00cab6d8d97"
+RPM_NAME = "coin-or-Clp-devel-1.17.10-1.7.aarch64.rpm"
+RPM_HASH = "85becca8a0ad75bdf4673db5e137de1b4a9771781c5976a5e1cd8451277b1c876254226d3240e899fa1512ac4fac3e0352777ebac6470d448d0d5bd36d250ad3"
 
 RPROVIDES:${PN} += "coin-or-Clp-devel \
 pkgconfig-clp \

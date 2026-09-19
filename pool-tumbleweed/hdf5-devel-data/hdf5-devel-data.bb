@@ -6,10 +6,11 @@ This package contains generic files needed to create projects that use \
 any version of HDF5."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.2"
+PV = "1.14.6"
 
-RPM_NAME = "hdf5-devel-data-1.12.2-5.3.aarch64.rpm"
-RPM_HASH = "fa34618e32514ac6012c7d654f468d5dbbcf5ef4f46dffb5d4bb49a0ca10119b77fa5b75266afcaad9e119762252a29d659a12bfb8addc8034694d9771db83ad"
+RPM_NAME = "hdf5-devel-data-1.14.6-2.7.noarch.rpm"
+RPM_HASH = "bef9158cdcecc40ea44999a54b68b1fd5dfd3bf79b493f32be2cb6a4b60de28df6eebf3c0a549d4741a529e4fc5d821ef81eb3f02ad107bb8d1ee589be65ee83"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-devel-data \
 rpm-macro--hdf5-sonum \

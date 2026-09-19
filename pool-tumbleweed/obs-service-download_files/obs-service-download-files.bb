@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "obs-service-download_files-0.9.2-1.2.noarch.rpm"
-RPM_HASH = "cfd297770fe85bdcd9455a52d2c96d12b81ccee6abe669af1214bffdf10ac7e6253aa0e66e8bd744fb14c05060e35d4f136e2cc1054cd2e9a14760f0ae93422b"
+RPM_NAME = "obs-service-download_files-0.9.2-2.3.noarch.rpm"
+RPM_HASH = "78fc39f1d639c67d8580dca998d55a8414235b8d4e16d9a2f5075ded086e677cd41550cb145377f2cae2af0822d8e62ed1713cf6acfd62ebb179dd06380c1f83"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-obs-service-download-files \

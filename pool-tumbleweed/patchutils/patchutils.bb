@@ -9,10 +9,10 @@ based on modified files matching shell wildcards. Lsdiff lists modified \
 files in a patch. Rediff corrects hand-edited patches."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.4.2"
+PV = "0.4.5"
 
-RPM_NAME = "patchutils-0.4.2-1.12.aarch64.rpm"
-RPM_HASH = "54fa340e7685f8313c967c186b03336229055185c1d4d654c5f1cf40e2af76c2dcea2c83173a2786f1eeffaa5171ea4d62c2f679d8112ae16f6e06e9660007cb"
+RPM_NAME = "patchutils-0.4.5-1.3.aarch64.rpm"
+RPM_HASH = "3ded9674d3df4ee3ca5041ba349d1f73190ee66f79976e9e3467063d5f41381d5c14f85d5bd92f86d2df89465df8ce29284997d186823ed37e7a7590988aa29a"
 
 RPROVIDES:${PN} += "patchutils"
 
@@ -23,6 +23,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 diffutils \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libpcre2-posix.so.3 \
 patch"
 
 inherit rpm

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.g26"
 
-RPM_NAME = "cttop-0.3.g26-3.14.aarch64.rpm"
-RPM_HASH = "f54defcd2c2dfe1acae94dbe8b7f3e305bddc229fb5987c25e895b9c961280b93f9e128d175eaf1fefe67435a01e700d49b29ef9afaf889c393ac1e3abf152fa"
+RPM_NAME = "cttop-0.3.g26-3.25.aarch64.rpm"
+RPM_HASH = "dba8109624b384a03f51b076e592ef77eb742b9247c3a3a5b0c64bcbd75f4852e4160a6558034dee716890adb344b4ddfeac474e15418a9b3bb253f442878682"
 
 RPROVIDES:${PN} += "cttop"
 

@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.1"
 
-RPM_NAME = "libfilteraudio0-0.0.1-2.14.aarch64.rpm"
-RPM_HASH = "57aa2c0a045a3dfd33feb454264e3dc942c3140c33c70350ab0b3c7139f48437aec347e58e34054e217aa42c7c91eb0a33efc58ca79176d9a586b1a48ddb0590"
+RPM_NAME = "libfilteraudio0-0.0.1-2.23.aarch64.rpm"
+RPM_HASH = "ceed19f32e62f86f3b71045f68b970269c14716c63d431f5b6c6f15ce7f1a5a18d7c84da3cf8c602b251b9e73690bfb8e1bf51c51fdece73f28290c97ec24f4c"
 
 RPROVIDES:${PN} += "libfilteraudio.so.0 \
 libfilteraudio0"

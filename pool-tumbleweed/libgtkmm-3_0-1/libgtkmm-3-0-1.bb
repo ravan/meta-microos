@@ -5,10 +5,10 @@ inheritance and a comprehensive set of widget classes that can be \
 freely combined to quickly create complex user interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.24.7"
+PV = "3.24.11"
 
-RPM_NAME = "libgtkmm-3_0-1-3.24.7-2.4.aarch64.rpm"
-RPM_HASH = "7b2b1e453a8f925c51a2b14df801913d34d767ff6de739a6b34a2b60b69d1e45d96e510ec79bfaed8ccd4f2c5901e1d689ea503b2a808a0bea5933319ba57c89"
+RPM_NAME = "libgtkmm-3_0-1-3.24.11-1.3.aarch64.rpm"
+RPM_HASH = "51112266e3592b5b0542289bfdb26879c62d8dc032375cdcef7799010b7764ba7d12a16f3ad6ba07cfe51d35bd3ffc7b988fea298b457baa5557cbe85b515961"
 
 RPROVIDES:${PN} += "libgdkmm-3.0.so.1 \
 libgtkmm-3-0-1 \

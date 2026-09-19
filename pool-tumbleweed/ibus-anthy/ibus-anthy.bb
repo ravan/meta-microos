@@ -3,10 +3,10 @@ DESCRIPTION = "The Anthy engine for IBus platform. It provides Japanese input me
 libanthy."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.14"
+PV = "1.5.17"
 
-RPM_NAME = "ibus-anthy-1.5.14-1.7.aarch64.rpm"
-RPM_HASH = "f54ae99b4cc254b9aa08123673fe6aa6d8fb27ef54ee89d81776b8c376c572327e4e8e394fa3346ad351b5bf4e53d58e84a0ac0faf5ec368907679bf75fd26f9"
+RPM_NAME = "ibus-anthy-1.5.17-2.4.aarch64.rpm"
+RPM_HASH = "b702a4f59b02a2fba7670ab2d740318a0b0174a2544374a02bad8b95e71789883bf08df475aa3f19ac7686cf4fe9ad25612e1080492bf4a0382ce6f01f4c7b8a"
 
 RPROVIDES:${PN} += "ibus-anthy \
 libanthygobject-1.0.so.5 \

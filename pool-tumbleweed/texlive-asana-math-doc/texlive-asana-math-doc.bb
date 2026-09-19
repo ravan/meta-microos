@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-asana-math"
 DESCRIPTION = "This package includes the documentation for texlive-asana-math"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.0.000.958svn59629"
+PV = "2026.226.0.000.962svn76895"
 
-RPM_NAME = "texlive-asana-math-doc-2023.209.0.000.958svn59629-54.1.noarch.rpm"
-RPM_HASH = "002b0dadb92851f462a1d70b47c5a8dd352cf3f6551f768031dab72a459b7a075f6812a72d8392ee26a2812c20c7ca88d9eea443ede966a6f15b2e62ff6e84fe"
+RPM_NAME = "texlive-asana-math-doc-2026.226.0.000.962svn76895-60.2.noarch.rpm"
+RPM_HASH = "1e5d75e4080a7caea1ef717d667f236f6d1a8da39ecf7bbce93182c4dcd13fe853fe6a58cc220ac41df6fd55684e68847709132a137145e8a23e994f14cedc92"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-asana-math-doc"

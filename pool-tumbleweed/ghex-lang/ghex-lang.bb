@@ -2,10 +2,10 @@ SUMMARY = "Translations for package ghex"
 DESCRIPTION = "Provides translations for the 'ghex' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.3"
 
-RPM_NAME = "ghex-lang-44.2-1.1.noarch.rpm"
-RPM_HASH = "2ef8196437fa9db27c3b3f312345ebc0a08263b2cfa6c288334389c68ad744820563095dbad3ec39f895816c05ba5011cb81947dfaad99fcf8e0bcf38c216917"
+RPM_NAME = "ghex-lang-50.3-1.1.noarch.rpm"
+RPM_HASH = "5c2667939e91a6c7b18b351ac25f31f4572a069027daa17f6828caa7ad65a475aadcd78f527f0bbaeff60151c7ee533e5bbfe02a81e7f1c2ef22a5e54e21fe12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghex-lang \
@@ -33,11 +33,14 @@ locale-ghex-fur \
 locale-ghex-ga \
 locale-ghex-gl \
 locale-ghex-he \
+locale-ghex-hi \
 locale-ghex-hr \
 locale-ghex-hu \
 locale-ghex-id \
 locale-ghex-it \
 locale-ghex-ja \
+locale-ghex-ka \
+locale-ghex-kk \
 locale-ghex-ko \
 locale-ghex-lt \
 locale-ghex-lv \

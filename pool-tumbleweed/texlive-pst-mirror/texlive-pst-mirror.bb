@@ -4,10 +4,10 @@ material for drawing images as if reflected by a spherical \
 mirror."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn60506"
+PV = "2026.226.1.02asvn71294"
 
-RPM_NAME = "texlive-pst-mirror-2023.209.1.02svn60506-53.1.noarch.rpm"
-RPM_HASH = "f8a4f86e1572a477f21751364493f1769a34e5754ebbd7146003cc3eb0e8df9a9a715b504b5bb0511385f240378606b87365b23ddd8f8c271ecefc324de095d0"
+RPM_NAME = "texlive-pst-mirror-2026.226.1.02asvn71294-59.2.noarch.rpm"
+RPM_HASH = "e0f02fde0c2bf04fd66c74952da2b0d342169c294a5accc03770589df1a97841ace1fe66a411c942702b86527d42d44250e412fb4142e19b62c899877b672649"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-mirror.sty \

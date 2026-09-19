@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the GObject Introspection typelib interface
 for applications to use libmodulemd."
 LICENSE = "MIT"
 
-PV = "2.14.0"
+PV = "2.15.2"
 
-RPM_NAME = "typelib-1_0-Modulemd-2_0-2.14.0-1.4.aarch64.rpm"
-RPM_HASH = "872b5cddb917ec109960b62d549a5e9a484ea08e2d4be414ca6105ff4c9aa4d59e0f0097c1186d556a103d3ba86ad80a69d7040a3c52634100d264debc7fb911"
+RPM_NAME = "typelib-1_0-Modulemd-2_0-2.15.2-2.3.aarch64.rpm"
+RPM_HASH = "15b987735e84091f36d1588b7ecd8ba597707877e1b4f95df4bc81849700adceca5abf4f939c5ae55e99d80334079599a32975abb2358f17ba8f75164a5bcd13"
 
 RPROVIDES:${PN} += "typelib-1-0-Modulemd-2-0 \
 typelib-Modulemd"

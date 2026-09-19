@@ -1,12 +1,12 @@
-SUMMARY = "Another powerful grep with interesting features"
-DESCRIPTION = "agrep is another powerful grep which has the  ability to search for \
+SUMMARY = "Another grep with approximate matching and block search"
+DESCRIPTION = "agrep is a grep utility which has the ability to search for \
 approximate patterns as well as block oriented search."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.8.0_git201402282055"
+PV = "0.9.0"
 
-RPM_NAME = "agrep-0.8.0_git201402282055-7.2.aarch64.rpm"
-RPM_HASH = "171c6ccad0bc549374c46ab428609a6f4714be0ecb48a49193d3e0a87e5a91487d7447440d783a34768823c237895e96cb21e793e5d36b49abda169c15f9b0d6"
+RPM_NAME = "agrep-0.9.0-1.8.aarch64.rpm"
+RPM_HASH = "abc44595ef0b4ca08b66431b3d5e1f997a9f078b482f1b7cc481833a21366eab2fb55f147e6a4d384c5cdc19554ad1d740edd952f79b42492705e24127c18bd9"
 
 RPROVIDES:${PN} += "agrep"
 

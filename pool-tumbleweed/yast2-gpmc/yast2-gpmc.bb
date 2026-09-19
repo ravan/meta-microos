@@ -3,10 +3,10 @@ DESCRIPTION = "The Group Policy Management console for YaST provides tools for c
 modifying Group Policy Objects in Active Directory."
 LICENSE = "GPL-3.0-only"
 
-PV = "1.5.1"
+PV = "1.5.2"
 
-RPM_NAME = "yast2-gpmc-1.5.1-1.10.noarch.rpm"
-RPM_HASH = "19807e828a06e4360f1cb1db9bd8289275a9db8d8f57aefb5b21cfe35062ad2776d97c9a8b7ec0567c735127ece2807ab6f2088f3f65f5bd42f8f27bbc371941"
+RPM_NAME = "yast2-gpmc-1.5.2-1.2.noarch.rpm"
+RPM_HASH = "78895fe01469913b18ca7b9db4883280381be1b1336143baa381d8ef170c5e4e5f728a2cdda1cfa29ed0fbe4fe357f706467729a56d491147efca0e005650c5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast-gpmc \

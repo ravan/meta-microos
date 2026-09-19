@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "libosmo-gsup-client-devel-1.4.0-1.12.aarch64.rpm"
-RPM_HASH = "0ac7fb175952e40a29d573894f6867492eecade3b681f974ac29e0d4787e3f85525590c1dc8369b6c3c51bd7f06aadee11ceb79b5a6904465ae8876c660c350e"
+RPM_NAME = "libosmo-gsup-client-devel-1.4.0-2.14.aarch64.rpm"
+RPM_HASH = "886d56260c6a1d90cf5af4afbde388c00e2ab59ffa1ba6c0cc9e343f7058159917f2c79018fa95d815b93adb62609447459fcc5dd103abda8905fb2daa40b2b4"
 
 RPROVIDES:${PN} += "libosmo-gsup-client-devel \
 pkgconfig-libosmo-gsup-client"
@@ -20,8 +20,8 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmo-gsup-client.so.0 \
 libosmo-gsup-client0 \
-libosmocore.so.20 \
-libosmogsm.so.18 \
+libosmocore.so.22 \
+libosmogsm.so.20 \
 libtalloc.so.2"
 
 inherit rpm

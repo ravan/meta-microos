@@ -4,10 +4,10 @@ DESCRIPTION = "libopenmpt is a C++ and C library to decode tracker music files \
 the OpenMPT project, a descendant of the original ModPlug Tracker."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.7.2"
+PV = "0.8.9"
 
-RPM_NAME = "libopenmpt0-0.7.2-1.1.aarch64.rpm"
-RPM_HASH = "dc8a541b9a501ec0926e091eaddf40d5b07d48b0b648350713b63d3b9ecd0ee90d86c63b33f2c092724029587bbfe8ee034683ba0590b1dc92d55c6e8612a482"
+RPM_NAME = "libopenmpt0-0.8.9-1.1.aarch64.rpm"
+RPM_HASH = "5bcde3ae9056dc9c6758dc121523b07ec0fd18809d1a3ffdb17abab401043768f044900a3280cf8a9c4965c56ab6ed16cdcc4359c2f72e3de551f28ce5aa4e7b"
 
 RPROVIDES:${PN} += "libopenmpt.so.0 \
 libopenmpt0"

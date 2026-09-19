@@ -6,10 +6,10 @@ such as text-to-speech, which is useful for end-users who are visually \
 challenged or cannot access the application for whatever reason."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde1"
+PV = "5.15.19+kde1"
 
-RPM_NAME = "libQt5TextToSpeech5-5.15.10+kde1-1.1.aarch64.rpm"
-RPM_HASH = "067e257ebfd3f069ac8e7433237e38908209e09a3730126182a194b6195eaed5f2ea9c3144d30ca16e98dd08ab57fd06bfd95a70174903c6faaf1f659f650931"
+RPM_NAME = "libQt5TextToSpeech5-5.15.19+kde1-1.2.aarch64.rpm"
+RPM_HASH = "df4dd38aeaec22678e414ed6c1c4a74232fe7abe9e23d8a4016396eb60f7ffa72e38b1eca0c27785a2cba3a7b2d005885057e1e1a29cd0b998e78c51365e1de2"
 
 RPROVIDES:${PN} += "libQt5TextToSpeech.so.5 \
 libQt5TextToSpeech5"

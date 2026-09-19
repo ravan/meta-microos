@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.9.2"
 
-RPM_NAME = "xclass-0.9.2-188.7.aarch64.rpm"
-RPM_HASH = "db5c72a1a73d96602ac142f6dd561db15855de88f7e180cabee03997d07d0d9b049cae15d657f1bdcc5d40ede41e28838378f77fe2ecc89316945b332cf3a0ea"
+RPM_NAME = "xclass-0.9.2-189.10.aarch64.rpm"
+RPM_HASH = "734f338a45493b0d8c85a76e7936f4e04868eed940d11d97b7aeec78a987f2b027501d0611b285f50ec75064db6832ff42d4e3ee4db0a27eada9ec94c2a5386b"
 
 RPROVIDES:${PN} += "config-xclass \
 xclass"

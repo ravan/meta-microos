@@ -12,12 +12,12 @@ Unicode and internationalization support, focusing on improving \
 performance, keeping current with the Unicode standard, and providing \
 richer APIs, while remaining as compatible as possible with the original \
 Java text and internationalization API design."
-LICENSE = "BSD-3-Clause & MIT & Unicode & SUSE-Public-Domain"
+LICENSE = "BSD-3-Clause & MIT & Unicode & LicenseRef-SUSE-Public-Domain"
 
 PV = "73.1"
 
-RPM_NAME = "icu4j-73.1-1.1.noarch.rpm"
-RPM_HASH = "54cff71e7bdd58b83cf5972e59a1da4f4b48dccf05eb4dbbcac493e40b0ff0c4b9827cbd533472d1e121af3fda809eda3cf3b123675c63af2c8ab410c5a2aa39"
+RPM_NAME = "icu4j-73.1-5.3.noarch.rpm"
+RPM_HASH = "66a263de530f10504f742188602f4871f6e398c616cb713d0e84778383ac82df32e775334a349c9d34f99a753d25a1e0054ad134e51326e97ce128f8667ec487"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "icu4j \

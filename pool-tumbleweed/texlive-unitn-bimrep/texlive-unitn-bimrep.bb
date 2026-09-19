@@ -6,10 +6,10 @@ participation to school and congress, and the publication \
 performed by a student."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45581"
+PV = "2026.226.svn45581"
 
-RPM_NAME = "texlive-unitn-bimrep-2023.209.svn45581-54.1.noarch.rpm"
-RPM_HASH = "65511c3313e55cc2d3b11b09e87dca2febba945636f0854790724d273754e16feb10ff92963fddc19da9a9a37a0dc2a401c83b1065fdc5b38919ce71036ec8b3"
+RPM_NAME = "texlive-unitn-bimrep-2026.226.svn45581-60.2.noarch.rpm"
+RPM_HASH = "50ce8a5514eb344554565e5c2123dfa7ed45d89fbb93f3bc07250be4831d76df4df7cd7c61c5f9559fc7f746efb1061306a701408bf69d921a001fbc53ee06d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-unitn-bimrep.cls \

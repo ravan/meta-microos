@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the library with common API for various \
 MATE modules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.2"
 
-RPM_NAME = "typelib-1_0-MateDesktop-2_0-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "856857f5c6a27e79ad917559c6071d0280d0c6b9c77e179be65269762a6c53db08a5aca1d2a585a36b80ce823328c9e44f87c20b7803261db7884181e0442664"
+RPM_NAME = "typelib-1_0-MateDesktop-2_0-1.28.2-1.13.aarch64.rpm"
+RPM_HASH = "8706eac34c35a054fe9ded3306d3a878a42d07e56f55a276ea1251951c08694ace1551bc7271fea1b4122aa29f02d8a19b654c6dd240e88b55d2b5c193e0c064"
 
 RPROVIDES:${PN} += "typelib-1-0-MateDesktop-2-0 \
 typelib-MateDesktop"

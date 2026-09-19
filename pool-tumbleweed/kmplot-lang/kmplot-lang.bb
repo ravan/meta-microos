@@ -2,10 +2,10 @@ SUMMARY = "Translations for package kmplot"
 DESCRIPTION = "Provides translations for the 'kmplot' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kmplot-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "53c41838223e64ad4bcf63556e3cbd264f3eecebbf22cb9e73c4434125c7a7371eb1808c6047e771bfd1bc0ab8a0e695f875b60226db045979bd39a5733c8f58"
+RPM_NAME = "kmplot-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "bd12ddd9c2cea4225457fe7dc7fa22a53ece64e7478cb5a1aa5df479a9948baa1bfcaa4ac105767a288610f5db50c745a13be1534d16feb633b6fac29079da91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kmplot-lang \
@@ -13,7 +13,6 @@ kmplot-lang-all \
 locale-kmplot-af \
 locale-kmplot-ar \
 locale-kmplot-be \
-locale-kmplot-bg \
 locale-kmplot-bn \
 locale-kmplot-br \
 locale-kmplot-bs \
@@ -38,6 +37,7 @@ locale-kmplot-he \
 locale-kmplot-hi \
 locale-kmplot-hr \
 locale-kmplot-hu \
+locale-kmplot-ia \
 locale-kmplot-is \
 locale-kmplot-it \
 locale-kmplot-ja \

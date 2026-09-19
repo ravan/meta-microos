@@ -3,16 +3,19 @@ DESCRIPTION = "Files needed to develop applications using the library for filesy
 detection."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.39.1"
+PV = "2.42.2"
 
-RPM_NAME = "libfdisk-devel-2.39.1-3.1.aarch64.rpm"
-RPM_HASH = "6ce7c08170eb8b5ac9b9d0b1ae1bce1eaec410e1d90dae90b2d2798c59ed9743ef27b140f1875f87f87fe3905c6ed42c01ba8a5a3f59e56a64c51ec4019c045a"
+RPM_NAME = "libfdisk-devel-2.42.2-2.1.aarch64.rpm"
+RPM_HASH = "76a4247fadf353d393e89d0f30ec81140a2b4b77502c666dc5af0739797f4c3f5d37c49e71c76ca958bb6d3a8ff28fc3fd54001022c059d68627f124003202d5"
 
 RPROVIDES:${PN} += "libfdisk-devel \
 pkgconfig-fdisk"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
+glibc-devel \
+libblkid-devel \
 libfdisk1 \
+libuuid-devel \
 pkgconfig-blkid \
 pkgconfig-uuid"
 

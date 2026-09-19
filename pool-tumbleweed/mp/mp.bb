@@ -26,19 +26,19 @@ Features \
     * Multilingual. \
     * Password-protected, encrypted text files (using the ARCFOUR algorithm). \
     * It helps you abandon vi, emacs and other six-legged freaks definitely."
-LICENSE = "GPL-2.0"
+LICENSE = "GPL-2.0-only"
 
-PV = "5.2.13"
+PV = "5.62"
 
-RPM_NAME = "mp-5.2.13-1.27.aarch64.rpm"
-RPM_HASH = "67e38ac0f5a1e54386ff52f7ee07c8de890827961f9eba14d812760bac207cc2f7d457e904f5b28c39953ee1588f956a01e8fd51f48ee32d2874c2283fd9c1d0"
+RPM_NAME = "mp-5.62-2.7.aarch64.rpm"
+RPM_HASH = "88d0c1e0e6c1cf82fe7f85ee33144fcec3aaf7ead251c45f651c9d8967862f43e4aa16fae206272e03f45a5de7869eb83449d385400ea743898512de48ea9ec7"
 
 RPROVIDES:${PN} += "mp"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pdfextra"
 DESCRIPTION = "This package includes the documentation for texlive-pdfextra"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn65184"
+PV = "2026.226.0.0.3svn65184"
 
-RPM_NAME = "texlive-pdfextra-doc-2023.209.0.0.3svn65184-52.1.noarch.rpm"
-RPM_HASH = "1a38cceffdd8869909de0a85d7d59d35aded1b89b153ced5623d62d9aee37355bc14f28ba88cfac4e93af3f86eb64c9d26e61e0bf44404b2da87305ef0fbae14"
+RPM_NAME = "texlive-pdfextra-doc-2026.226.0.0.3svn65184-58.2.noarch.rpm"
+RPM_HASH = "78472ae0db1034ea1209847b726373c2a7f3b1ff8f8aea31027954844ac12b70f1ae90e0665a6fa8b8700db04795165d5ffc4ce6300f7e7866e63ab9444011b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pdfextra-doc"

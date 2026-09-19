@@ -5,10 +5,10 @@ ordinary differential equation. The results are illustrated in \
 a fragment of lecture notes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn34363"
+PV = "2026.226.1.2svn34363"
 
-RPM_NAME = "texlive-pstricks_calcnotes-2023.209.1.2svn34363-54.2.noarch.rpm"
-RPM_HASH = "608d54d3255b0a22ba147c1c12394ddf52d87f83bbf7a5b13fecadf41d1c48d788a0d78f006df2dd19d3e04ed75c7c1622ff28b457b17c213754fcfaef0c3dd2"
+RPM_NAME = "texlive-pstricks_calcnotes-2026.226.1.2svn34363-60.4.noarch.rpm"
+RPM_HASH = "5b73b791498fbbd0eaa93c5895c79186acda5caf1a8d9766d12c23e3bf9f1098e0ac1a04bc2f0ce62d35e014843214b7ac81af93013e5c7da54aff5f23672cf2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pstricks-calcnotes"

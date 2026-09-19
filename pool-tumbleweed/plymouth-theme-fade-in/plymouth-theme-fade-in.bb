@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "22.02.122+94.4bd41a3"
 
-RPM_NAME = "plymouth-theme-fade-in-22.02.122+94.4bd41a3-10.1.noarch.rpm"
-RPM_HASH = "b73acaed2133c486ca7b2798c659ad11f3b4a69ba9e971333bc643f7d816796af0e865896cddd9f9679771f3c0ee8bb2a98c9e12603ab8ed33a880921f38d7a7"
+RPM_NAME = "plymouth-theme-fade-in-22.02.122+94.4bd41a3-20.6.noarch.rpm"
+RPM_HASH = "b54dc3e4aae52244c986894d1d7e150801961a8145e0c434fda07b70da89e11146a8eef176debdc091b125f00a21cd51c3b6394d663984dc1ab56b2a393c1105"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plymouth-theme-fade-in"

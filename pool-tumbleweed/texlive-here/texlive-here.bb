@@ -8,10 +8,10 @@ float package, which has long provided the option in an \
 acceptable framework."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.svn16135"
+PV = "2026.226.svn16135"
 
-RPM_NAME = "texlive-here-2023.209.svn16135-54.2.noarch.rpm"
-RPM_HASH = "65e4577f166522b9de23f64673b458ae0210de027a1a0f9438ceb28b0931d4a5636cecb5b25d0fbdf349b1cbe232b7aed23cd181300c8cf221459739e63254d0"
+RPM_NAME = "texlive-here-2026.226.svn16135-60.4.noarch.rpm"
+RPM_HASH = "bb6266a3e6a7a4d039d117d11f9be3389a659dbd86decc5c2b982254ba29bf2473e8d5026da4a2e762d849870ef91ad838af437d0b9ef5700ab6ae8bb26f97c4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-here.sty \

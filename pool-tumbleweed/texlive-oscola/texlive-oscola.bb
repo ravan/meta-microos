@@ -7,10 +7,10 @@ constructing tables of cases and legislation from citations (in \
 conjunction with appropriate indexing packages)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.7svn54328"
+PV = "2026.226.1.7svn77682"
 
-RPM_NAME = "texlive-oscola-2023.209.1.7svn54328-55.1.noarch.rpm"
-RPM_HASH = "03f9ec8575a449a181aec54138838df80d9502e5528efc07bb1db18d99ff6b995113b2a6b3603fb6349e85a1c6218ca3ac5cd8cab024e3f5d33e06347cbeb7e2"
+RPM_NAME = "texlive-oscola-2026.226.1.7svn77682-61.2.noarch.rpm"
+RPM_HASH = "46114218dc5ea76926210ffadbdf5a7555ee5f9231ce26dba83100a20cbcb412ffdb98df7152005747c35fab792b77b0853476b0701b6ad9fbe49be0460e4266"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-american-oscola.lbx \

@@ -3,10 +3,10 @@ DESCRIPTION = "This is a conversion (using mf2pt1) of Peter Vanroose's \
 handwriting font."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.001.000svn24302"
+PV = "2026.226.001.000svn24302"
 
-RPM_NAME = "texlive-calligra-type1-2023.209.001.000svn24302-53.1.noarch.rpm"
-RPM_HASH = "e7515125d9d94900596c2480a404a679a2790162a46632b4cf77d38fb902474e05a1d1cadf51a344d2d5dfa9df10539470f342f6e8992d3dcf2f7c4a024744c8"
+RPM_NAME = "texlive-calligra-type1-2026.226.001.000svn24302-59.2.noarch.rpm"
+RPM_HASH = "28cdcb3128ead8df5705a3de430937951d08762a81afc5fd7629e7fa04a7ed56fd9b3ff5e85468ee78a117ce56036d823fdfae211e5a6e2a1b240aa89bdb6022"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-calligra.map \

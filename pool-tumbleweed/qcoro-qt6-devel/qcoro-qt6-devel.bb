@@ -5,10 +5,10 @@ This package provides development headers to use QCoro in Qt based \
 applications."
 LICENSE = "MIT"
 
-PV = "0.9.0"
+PV = "0.13.0"
 
-RPM_NAME = "qcoro-qt6-devel-0.9.0-1.3.aarch64.rpm"
-RPM_HASH = "84e91e9524e90578c493df317e9c8bedcde63358fb211c1beeb6a6e08d3a5cf18bf0a957e64f04a603679ffc402062f6d6f8dc11e7f443f3f79ec9b5fb4945c0"
+RPM_NAME = "qcoro-qt6-devel-0.13.0-1.6.aarch64.rpm"
+RPM_HASH = "e217a626c84176e162462e50436b928ffcc92c2de87da88bbb8df8f82afdef33804d3d07ee0b164d5402ff24729791fd817a66b06e60749a46c1f2156927f5e4"
 
 RPROVIDES:${PN} += "cmake-QCoro6 \
 cmake-QCoro6Core \

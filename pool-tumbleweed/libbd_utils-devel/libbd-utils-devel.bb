@@ -1,19 +1,20 @@
-SUMMARY = "Development files for libbd_utils"
+SUMMARY = "Development files for libblockdev-utils"
 DESCRIPTION = "This package contains header files and pkg-config files needed for development \
 with the libbd_utils library."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_utils-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "252e2bbb1c575829deeb60410836ec87708472357cf35e97590e31d65bc853e9f7efbadf5b0288a840f74788a92f0628fa7a52851c2fecc40db56183c049b572"
+RPM_NAME = "libbd_utils-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "8a8aefed5408f4c83c86fdcba148cf01f778e6bc7a54fea7cf0b9d9329d536bebe195ab7bd6008c826040245a45557793d9b57a7044abc2f8fec8942af141202"
 
 RPROVIDES:${PN} += "libbd-utils-devel \
+libblockdev-utils-devel \
 pkgconfig-blockdev-utils"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glib2-devel \
-libbd-utils2 \
+libbd-utils3 \
 pkgconfig-glib-2.0"
 
 inherit rpm

@@ -6,10 +6,10 @@ label for a \\section would be expected to be of the form \
 'sec:foo': the package would recognise the 'sec:' part."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.9csvn15878"
+PV = "2026.226.0.0.9csvn77682"
 
-RPM_NAME = "texlive-fancyref-2023.209.0.0.9csvn15878-53.1.noarch.rpm"
-RPM_HASH = "cf184816ac764929535ce009a1e7b7ec73b45cb3a5f683e75a00884452e1bb803846570a88c116144977da24e2865f56830b6dc06a97dc77b153a2200e898d4a"
+RPM_NAME = "texlive-fancyref-2026.226.0.0.9csvn77682-59.2.noarch.rpm"
+RPM_HASH = "f51d7b65e418bca7716e306cd35dc1218c79a0aebb7142e0a8af4a06e7e7ebfd6683c887b2d86c2b4fde9d6a0b021c2f722d8085e23d5a0d74b5a34c3e3ed842"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fancyref.sty \

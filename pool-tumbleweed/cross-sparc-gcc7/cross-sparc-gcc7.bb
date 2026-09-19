@@ -7,11 +7,12 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "7.5.0+r278197"
 
-RPM_NAME = "cross-sparc-gcc7-7.5.0+r278197-14.2.aarch64.rpm"
-RPM_HASH = "b9b9f8cdf1d29903c3dc15c2d77d54d20fbc66c818dd5a997bb662d26faca5d46479c7d05419d80d82107666cd68716db02661786ecc8fe2ea40cf20dac4ff04"
+RPM_NAME = "cross-sparc-gcc7-7.5.0+r278197-24.3.aarch64.rpm"
+RPM_HASH = "e8d2c8b5a6cebda5438cdf52012b5f18fcdbe34c19c4b3ca0b785738ad90a104b8a7569ff8a48406727c130b14c2180fce6a42d47b941b2734a64b1d96d9d228"
 
 RPROVIDES:${PN} += "cross-sparc-gcc7 \
-liblto-plugin.so.0"
+liblto-plugin.so.0 \
+sparc-suse-linux-gcc"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 cross-sparc-binutils \

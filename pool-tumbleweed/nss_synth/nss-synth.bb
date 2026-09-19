@@ -6,8 +6,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.1.0~git2.ed6985d"
 
-RPM_NAME = "nss_synth-0.1.0~git2.ed6985d-2.3.aarch64.rpm"
-RPM_HASH = "4f765f80c4e47c49f6eb8e90728a0edbd34d949947e2710a9eb3465e9c11ea6e702d5bd8e53ab7652c09533cde96a78e276745b4f0fe8da936e9ca94b4c1697c"
+RPM_NAME = "nss_synth-0.1.0~git2.ed6985d-2.16.aarch64.rpm"
+RPM_HASH = "9976dbca761ee69487364f1fb8e72568e8082c3641ad01395693f37a4b7baca2a1f1c62148e991d5b917703b52799ce12fc986e8feacaa7f85feb08d4a89afa7"
 
 RPROVIDES:${PN} += "bundled-rust-crate-lazy-static \
 bundled-rust-crate-libc \

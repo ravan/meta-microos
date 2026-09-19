@@ -6,8 +6,8 @@ LICENSE = "CPAL-1.0"
 
 PV = "1.9.3"
 
-RPM_NAME = "projectlibre-1.9.3-2.7.noarch.rpm"
-RPM_HASH = "6f9435dcf7647ab86adc2a7e65c355fbc5cb95967bb7ab2c3d71df7348018b9fd626b9cb77e0e3a9aeb0fccd077ed230cd5f042eacde399b1e742cc23793e622"
+RPM_NAME = "projectlibre-1.9.3-3.10.noarch.rpm"
+RPM_HASH = "b28af40e13f01577a49b0e62a56398abe91e551644194bceefa4b08a3d74a14f2e92e6ddfc6b44e58509d6f564cb32d18c686de80dc0f33687b979934f20a675"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "projectlibre"

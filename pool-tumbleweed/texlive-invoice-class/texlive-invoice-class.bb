@@ -4,10 +4,10 @@ from a CSV file. Invoices can span multiple pages. The class is \
 configurable for different shipping addresses."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn49749"
+PV = "2026.226.1.0svn49749"
 
-RPM_NAME = "texlive-invoice-class-2023.209.1.0svn49749-54.1.noarch.rpm"
-RPM_HASH = "a6f120155f2c7d272949c09821985d04b2df09677fa93763a7c89956c8053d451fed98e8ffb6e503cea37d98a94a8adcf93c5d78a765ddf8edbb9dc306b7505a"
+RPM_NAME = "texlive-invoice-class-2026.226.1.0svn49749-60.2.noarch.rpm"
+RPM_HASH = "f69b9382a6e9fa514ef0f360ea154b881d8749baba96d5ca903ea4f099d690b2b5dc23789998319956f9ea18ab89d162a72a918de0756ba7532e03228d5a2943"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-invoice-class.cls \

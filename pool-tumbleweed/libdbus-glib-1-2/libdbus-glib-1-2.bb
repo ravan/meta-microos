@@ -5,10 +5,10 @@ GLib thread abstraction and main loop. \
 This package contains the shared library files."
 LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
-PV = "0.112"
+PV = "0.114"
 
-RPM_NAME = "libdbus-glib-1-2-0.112-3.4.aarch64.rpm"
-RPM_HASH = "abf527b8d6953282a05220ea4ad4c3816c1615695e830e8f559610c894554a6bc03f68de48627287d54614c4ed178934c2fcf751f12b4e8393babed3bc4c7d1c"
+RPM_NAME = "libdbus-glib-1-2-0.114-1.3.aarch64.rpm"
+RPM_HASH = "cef0d636f615e3d0b0ca24740dfd8b5e5bdca9bedfb6439492186886815abe98df3892df4501e8f44aac8ab00e90d097a89bacc87bef2781eeeddb1a3c28dfe7"
 
 RPROVIDES:${PN} += "dbus-1-glib \
 dbus-1-glib-/usr/lib64/libdbus-glib-1.so.2 \

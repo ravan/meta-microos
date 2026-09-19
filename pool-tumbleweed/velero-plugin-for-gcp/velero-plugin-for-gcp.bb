@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4.0"
 
-RPM_NAME = "velero-plugin-for-gcp-1.4.0-1.7.aarch64.rpm"
-RPM_HASH = "3681124df4e402ae35dbaf2c76f00ad710fb7bd01e952b2cae70303042f81f131b6138bdd876d7a8a3493849e8d6837235e5af619ce8fa64a2dbd1609315171e"
+RPM_NAME = "velero-plugin-for-gcp-1.4.0-2.8.aarch64.rpm"
+RPM_HASH = "c71b9e95eb399f97804b0b69eb09d37a1e1a10049e7fc8ec4c050d53a0fef3de357832dc4f08566f8c1142c43969c14f9cff45e7549d32a0279cf75716399e81"
 
 RPROVIDES:${PN} += "velero-plugin-for-gcp"
 

@@ -1,20 +1,19 @@
-SUMMARY = "KDE PIM Libraries: Build Environment"
+SUMMARY = "Development files for kimap"
 DESCRIPTION = "This package contains development headers to add IMAP support to PIM \
 applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kimap-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "85bde54928e79ff89ba867eae77d6977c2a744be1dc6f808bacfa9af9a4f2074b5cc8c2faeb367d926052d89fffcfc834bf3f751ef8d931bdde835d77a73fbff"
+RPM_NAME = "kimap-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "6536ffba5c4a1159a0644df965f4bc16c02acd37aa54801b3df7f203ba27ee3e972bd05ca65b889936780b1542b4c82bbb819f3b6422b3154a668208da8d9a54"
 
-RPROVIDES:${PN} += "cmake-KF5IMAP \
-cmake-KPim5IMAP \
+RPROVIDES:${PN} += "cmake-KPim6IMAP \
 kimap-devel"
 
-RDEPENDS:${PN} += "cmake-KF5CoreAddons \
-cmake-KPim5Mime \
+RDEPENDS:${PN} += "cmake-KF6CoreAddons \
+cmake-KF6Mime \
 cyrus-sasl-devel \
-libKPim5IMAP5"
+libKPim6IMAP6"
 
 inherit rpm

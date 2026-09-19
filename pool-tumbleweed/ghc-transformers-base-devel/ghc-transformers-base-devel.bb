@@ -3,21 +3,21 @@ DESCRIPTION = "This package provides the Haskell transformers-base library devel
 files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.6"
+PV = "0.4.6.1"
 
-RPM_NAME = "ghc-transformers-base-devel-0.4.6-2.3.aarch64.rpm"
-RPM_HASH = "b70ed431a5cb79bff04da563826df0588d60f3473a83e6c2d4f060293096f36e2d9fe2585c4d7c97f30af584ce45274a371c066e1fac7f611c96f9aa51e424c9"
+RPM_NAME = "ghc-transformers-base-devel-0.4.6.1-1.3.aarch64.rpm"
+RPM_HASH = "53cd8e8bc23a60bce08a63b4ea71a35cc13838ff622d4b291e65488235ecfecafd92e63fd03040d96cdf3241df085ce3fd93d12de3d65883ae973ee254ff1934"
 
-RPROVIDES:${PN} += "ghc-devel-transformers-base-0.4.6-FmWhyTNhU3u3qYTd28DG44 \
+RPROVIDES:${PN} += "ghc-devel-transformers-base-0.4.6.1-AexBYmHB9CZDEWAojzlCzB \
 ghc-transformers-base-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base-orphans-0.8.8.2-Ace67bhQsJ1lQVihVIKZ5 \
-ghc-devel-stm-2.5.1.0 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-transformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base-orphans-0.9.4-2vMgOxDXOniBrPCxqNGyGO \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-transformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW \
 ghc-transformers-base"
 
 inherit rpm

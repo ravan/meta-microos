@@ -8,10 +8,10 @@ indexes for each cited Act. The package is still under \
 development, and should be treated as an 'alpha'-release."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn36026"
+PV = "2026.226.1.1asvn36026"
 
-RPM_NAME = "texlive-lexref-2023.209.1.1asvn36026-55.1.noarch.rpm"
-RPM_HASH = "ed40b2f0ffd96465ad245c21f256bd9a723716ef0408a36ea984b67a727f26be0bf0162638783bb63aded77e265b8f030fb23f02b17767ceb06015f6bf731d5d"
+RPM_NAME = "texlive-lexref-2026.226.1.1asvn36026-61.2.noarch.rpm"
+RPM_HASH = "35ff17f229b919a5abae79f25193f9a682e73649f8dca231b20c71368c80fec6b9c7773d8198feedc8a175653d1bfcdd766ba695fe39f828ba913401fbf40a73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lexref.sty \

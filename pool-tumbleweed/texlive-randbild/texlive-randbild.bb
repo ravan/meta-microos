@@ -5,10 +5,10 @@ DESCRIPTION = "Provides environments randbild to draw small marginal plots \
 system)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-randbild-2023.209.0.0.2svn15878-54.2.noarch.rpm"
-RPM_HASH = "7a5119f947d51063dfc2329a2ba86b7b68e6cf48d25191e014c59f1c842bca950778622f332d58bccd079bbf84eaa700cd550cc6208fa053157c4788a8a418ec"
+RPM_NAME = "texlive-randbild-2026.226.0.0.2svn15878-60.4.noarch.rpm"
+RPM_HASH = "4b24e2005e196d862919ea1dc87661373d9871e62ab7b161a5aa5772e537117fa4b5cb5e9be11c22ac944e8b691036202ea9dabdd3f0f1dcc1695477541ebfeb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-randbild.sty \

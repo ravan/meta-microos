@@ -4,10 +4,10 @@ system as known from CSS grid systems. The facility is useful \
 for creating box layouts as used in brochures."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.0.0.3.0svn32981"
+PV = "2026.226.0.0.3.0svn32981"
 
-RPM_NAME = "texlive-grid-system-2023.209.0.0.3.0svn32981-54.2.noarch.rpm"
-RPM_HASH = "a3b2a52684d62bacd5158a998fe0175652122d1a06908261e113bf824341569f306d064d7330cd79776d9346e204ed45a6606d53369fa8cff9672bec93f8e59a"
+RPM_NAME = "texlive-grid-system-2026.226.0.0.3.0svn32981-60.4.noarch.rpm"
+RPM_HASH = "76a04fd0e9ee0117bffd6eb820f00503c1e48669470efced1eda8a6b7c3fd7d837179e9c1a300239dee1ecf1a486ad1f029fc4d57f23c5523b58a2aedab77a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grid-system.sty \

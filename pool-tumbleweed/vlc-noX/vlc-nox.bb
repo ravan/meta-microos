@@ -7,13 +7,12 @@ Should you decide to install the GUI modules, vlc-noX will stay \
 installed as a dependency."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.0.18"
+PV = "3.0.23"
 
-RPM_NAME = "vlc-noX-3.0.18-9.2.aarch64.rpm"
-RPM_HASH = "83f52add77a1b65e08e43e134b17846d20ebab8a93f3a8ec5f28005e89e0b7d0b820f63adc08a9be48691516bc934615400bfbd0f4e742d6270bd326d9ccb106"
+RPM_NAME = "vlc-noX-3.0.23-7.12.aarch64.rpm"
+RPM_HASH = "a4ae30c5f6e63f3a9c8c5d72d5cd68748713473b739545f32e6f678a8dff9d6ae79a6cca7bbff3029ee488ce052bdeb06dcfb751c60bd91f0ef32a3d4b45e4c6"
 
-RPROVIDES:${PN} += "liba52-plugin.so \
-libaccess-alsa-plugin.so \
+RPROVIDES:${PN} += "libaccess-alsa-plugin.so \
 libaccess-concat-plugin.so \
 libaccess-imem-plugin.so \
 libaccess-mms-plugin.so \
@@ -87,6 +86,7 @@ libdemux-stl-plugin.so \
 libdemuxdump-plugin.so \
 libdiracsys-plugin.so \
 libdirectory-demux-plugin.so \
+libdmxmus-plugin.so \
 libdolby-surround-decoder-plugin.so \
 libdtv-plugin.so \
 libdummy-plugin.so \
@@ -103,7 +103,9 @@ liberase-plugin.so \
 libes-plugin.so \
 libexport-plugin.so \
 libextract-plugin.so \
+libfaad-plugin.so \
 libfb-plugin.so \
+libfdkaac-plugin.so \
 libfile-keystore-plugin.so \
 libfile-logger-plugin.so \
 libfilesystem-plugin.so \
@@ -153,7 +155,6 @@ libkaraoke-plugin.so \
 libkate-plugin.so \
 libkwallet-plugin.so \
 liblibbluray-plugin.so \
-liblibmpeg2-plugin.so \
 liblinsys-hdsdi-plugin.so \
 liblinsys-sdi-plugin.so \
 liblirc-plugin.so \
@@ -219,7 +220,6 @@ libplaylist-plugin.so \
 libpng-plugin.so \
 libpodcast-plugin.so \
 libposterize-plugin.so \
-libpostproc-plugin.so \
 libprefetch-plugin.so \
 libps-plugin.so \
 libpsychedelic-plugin.so \
@@ -355,28 +355,30 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 /usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libBasicUsageEnvironment.so.2 \
-libFLAC.so.12 \
+libFLAC.so.14 \
 libUsageEnvironment.so.3 \
 libX11.so.6 \
-liba52.so.0 \
-libabsl-log-internal-check-op.so.2308.0.0 \
-libabsl-log-internal-message.so.2308.0.0 \
+libabsl-log-internal-check-op.so.2608.0.0 \
+libabsl-log-internal-message.so.2608.0.0 \
 libaom.so.3 \
 libarchive.so.13 \
 libasound.so.2 \
 libavahi-client.so.3 \
 libavahi-common.so.3 \
 libavc1394.so.0 \
-libbluray.so.2 \
+libavutil.so.60 \
+libbluray.so.3 \
 libc.so.6 \
 libcddb.so.2 \
-libdav1d.so.6 \
+libdav1d.so.7 \
 libdbus-1.so.3 \
 libdc1394.so.26 \
 libdvbpsi.so.10 \
 libdvdnav.so.4 \
 libdvdread.so.8 \
 libebml.so.5 \
+libfaad.so.2 \
+libfdk-aac.so.2 \
 libgcc-s.so.1 \
 libgcrypt.so.20 \
 libgio-2.0.so.0 \
@@ -385,27 +387,25 @@ libgme.so.0 \
 libgnutls.so.30 \
 libgobject-2.0.so.0 \
 libgpg-error.so.0 \
-libgroupsock.so.30 \
-libixml.so.11 \
+libgroupsock.so.33 \
+libixml.so.22 \
 libjpeg.so.8 \
 libkate.so.1 \
 liblirc-client.so.0 \
-libliveMedia.so.107 \
+libliveMedia.so.120 \
 liblua5.3.so.5 \
 libm.so.6 \
 libmad.so.0 \
 libmatroska.so.7 \
-libmpeg2.so.0 \
 libmpg123.so.0 \
 libmtp.so.9 \
 libncursesw.so.6 \
-libnfs.so.14 \
+libnfs.so.16 \
 libogg.so.0 \
 libopus.so.0 \
 libplacebo.so.264 \
 libpng16.so.16 \
-libpostproc.so.55.9 \
-libprotobuf-lite.so.23.4.0 \
+libprotobuf-lite.so.36.1.0 \
 libraw1394.so.11 \
 librom1394.so.0 \
 libsamplerate.so.0 \
@@ -420,13 +420,14 @@ libsrt.so.1.5 \
 libssh2.so.1 \
 libstdc++.so.6 \
 libsystemd.so.0 \
-libtag.so.1 \
-libtheoradec.so.1 \
-libtheoraenc.so.1 \
+libtag.so.2 \
+libtheoradec.so.2 \
+libtheoraenc.so.2 \
 libtinfo.so.6 \
 libtwolame.so.0 \
 libudev.so.1 \
-libupnp.so.17 \
+libupnp.so.22 \
+libutf8-range.so.36.1.0 \
 libva-drm.so.2 \
 libva-x11.so.2 \
 libva.so.2 \
@@ -436,9 +437,9 @@ libvlccore.so.9 \
 libvlccore9 \
 libvorbis.so.0 \
 libvorbisenc.so.2 \
-libvpx.so.8 \
+libvpx.so.12 \
 libwayland-client.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 libzvbi.so.0"
 

@@ -20,13 +20,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.14"
 
-RPM_NAME = "perl-Test-CheckChanges-0.14-16.24.noarch.rpm"
-RPM_HASH = "84ecf072ddfe1500be2b16ec5e5adbf973e34b7423cb353fc748aa35078c9a3f1d0f4dbd37a965dd90454845476210aeb1d00cd5fcbbfb7119689d59054718a3"
+RPM_NAME = "perl-Test-CheckChanges-0.14-16.38.noarch.rpm"
+RPM_HASH = "e0ab67ccfb6d95b0a6378ad45e4562fab18236bdac28f133652382e30fbf3b0253d69dfbef0ed1c7d5b799ec816588bb4fb276da77278f1801c540a6cb716718"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--CheckChanges \
 perl-Test-CheckChanges"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

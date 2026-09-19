@@ -3,10 +3,10 @@ DESCRIPTION = "Module that uses Paranamer library to auto-detect names of Creato
 (constructor, static factory method, annotated with @JsonCreator) methods."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-module-paranamer-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "6c7a54540392e84fbd02791ec29febbd9394033314d09c0d1caf6b190591b1c104a0f55e7f86646634826d969af156ca8a6a7769060601fb0c870a7048a2423a"
+RPM_NAME = "jackson-module-paranamer-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "955446450e92d82a7e3028a99dffe0026a12038f688058f9183fc22d12b5bc879690a299a4081169ea5bc36ccc92d3fd719231c7b7698edf0196c1b621df6d7b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-paranamer \

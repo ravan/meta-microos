@@ -8,15 +8,15 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.0"
 
-RPM_NAME = "simtrace2-0.8.0-1.8.aarch64.rpm"
-RPM_HASH = "e0eb86ae1cd94d4b7fdb3674a53ebbd4194a59e9745a3a3c9873f81ce8a11afe63696edb8183659c2e9cb9455d1b3af7b4381c0e6b97de1069adbfb5479c0fec"
+RPM_NAME = "simtrace2-0.8.0-1.19.aarch64.rpm"
+RPM_HASH = "31854adfe013e81688f3b201f84f2a9a9177be7b6d33270fa8fe657c0cbfc2aa5160131e5c7afdbd7e9c7844adab5998534220d605c4304eca0f131fda3d8585"
 
 RPROVIDES:${PN} += "simtrace2"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libosmo-simtrace2.so.1 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libosmosim.so.2 \
 libosmousb.so.0 \
 libusb-1.0.so.0"

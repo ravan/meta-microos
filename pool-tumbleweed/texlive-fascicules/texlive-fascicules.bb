@@ -6,10 +6,10 @@ consist of three sections: the lesson, the exercises and the \
 activities."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn54080"
+PV = "2026.226.1svn54080"
 
-RPM_NAME = "texlive-fascicules-2023.209.1svn54080-53.1.noarch.rpm"
-RPM_HASH = "09c69c3c7dcc39d7906994223ace030164f38c762f0ffe0195e27e4a221ee812cbdd051615023cca47826618a8e31272cbffeb480f02d6ea11a5dd395966053b"
+RPM_NAME = "texlive-fascicules-2026.226.1svn54080-59.2.noarch.rpm"
+RPM_HASH = "30c8e5250a92daa904b4d638229b52125afa51a8f0a93087abd54888f5d43e327d4ee24c8ac237f91bf6e25e28c356eb9553e62b5ab3e836e7d75af67cd0e526"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fascicules.sty \

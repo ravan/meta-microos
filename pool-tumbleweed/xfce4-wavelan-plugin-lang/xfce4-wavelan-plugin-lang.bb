@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-wavelan-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-wavelan-plugin' package."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.6.3"
+PV = "0.7.0"
 
-RPM_NAME = "xfce4-wavelan-plugin-lang-0.6.3-1.4.noarch.rpm"
-RPM_HASH = "b0305349fd41aa7df590463b93ddb8f72cf12cdeb596f9d5b30af8f95264e5ad6c57c4f8728052ea8102a7e9ec48af609cf81607eae72d98fa4f0446b0974488"
+RPM_NAME = "xfce4-wavelan-plugin-lang-0.7.0-1.4.noarch.rpm"
+RPM_HASH = "5b57cc639644d0518ccef918b474add9aad4392a8d98e41cd5887d545d20e3cb7bda5f0c4be6f7c9a9318e5052caed1c61a79b2e785ba84516216987173fe01e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-wavelan-plugin-ar \
@@ -24,6 +24,7 @@ locale-xfce4-wavelan-plugin-et \
 locale-xfce4-wavelan-plugin-eu \
 locale-xfce4-wavelan-plugin-fi \
 locale-xfce4-wavelan-plugin-fr \
+locale-xfce4-wavelan-plugin-ga \
 locale-xfce4-wavelan-plugin-gl \
 locale-xfce4-wavelan-plugin-he \
 locale-xfce4-wavelan-plugin-hr \
@@ -42,6 +43,7 @@ locale-xfce4-wavelan-plugin-oc \
 locale-xfce4-wavelan-plugin-pl \
 locale-xfce4-wavelan-plugin-pt \
 locale-xfce4-wavelan-plugin-pt-BR \
+locale-xfce4-wavelan-plugin-ro \
 locale-xfce4-wavelan-plugin-ru \
 locale-xfce4-wavelan-plugin-sk \
 locale-xfce4-wavelan-plugin-sl \

@@ -7,8 +7,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.0.14"
 
-RPM_NAME = "gnu-getopt-1.0.14-1.14.noarch.rpm"
-RPM_HASH = "69500d6578c75f1e0a32a435f9b47eb681cefec081ed450f097293198f2d7e7086e2bec962bf39e9d718f47eba2f226cc0a9dce516662d352509515699416115"
+RPM_NAME = "gnu-getopt-1.0.14-2.9.noarch.rpm"
+RPM_HASH = "47da059dfebae8b46284a9d8e3dc4fb948dba0fa9d0844239f755e61e961a801fb37381894cd56b24d6d332a59a8bc2ed83bc9e2477691e7459e3ce05b75d821"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnu-getopt"

@@ -8,10 +8,10 @@ to test firefox and openoffice operation on top of a newly \
 installed OS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1693332527.fb060dc"
+PV = "5.1788768889.879c500"
 
-RPM_NAME = "os-autoinst-4.6.1693332527.fb060dc-1.1.aarch64.rpm"
-RPM_HASH = "32430266817ac13c09fd37713da50564ed6d6abb4de5e4fb57c7470264158f9ba50e801b706f1f3c2849c699ed6fc125eac70029b249bb7f998088efdb3533ff"
+RPM_NAME = "os-autoinst-5.1788768889.879c500-1.1.aarch64.rpm"
+RPM_HASH = "9eb53d7dc88f06c2eb9ae7b38a250cb168eeddd4d901d0d84bd36de2a2a4f738671cb9c96d2f33d76b8edc5459b00cd2c8c919572217364ca21ede9bb5f3f4b6"
 
 RPROVIDES:${PN} += "os-autoinst \
 perl-OpenQA--Benchmark--Stopwatch \
@@ -19,7 +19,9 @@ perl-OpenQA--Commands \
 perl-OpenQA--Exceptions \
 perl-OpenQA--Isotovideo--Backend \
 perl-OpenQA--Isotovideo--CommandHandler \
+perl-OpenQA--Isotovideo--Dewebsockify \
 perl-OpenQA--Isotovideo--Interface \
+perl-OpenQA--Isotovideo--LLMAnalysis \
 perl-OpenQA--Isotovideo--NeedleDownloader \
 perl-OpenQA--Isotovideo--Runner \
 perl-OpenQA--Isotovideo--Utils \
@@ -37,7 +39,6 @@ perl-OpenQA--Qemu--Snapshot \
 perl-OpenQA--Qemu--SnapshotConf \
 perl-OpenQA--Test--RunArgs \
 perl-autotest \
-perl-backend--amt \
 perl-backend--baseclass \
 perl-backend--console-proxy \
 perl-backend--driver \
@@ -57,7 +58,6 @@ perl-bmwqemu--tiedvars \
 perl-commands \
 perl-consoles--VMWare \
 perl-consoles--VNC \
-perl-consoles--amtSol \
 perl-consoles--console \
 perl-consoles--ipmiSol \
 perl-consoles--localXvnc \
@@ -96,21 +96,25 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/perl \
 /usr/sbin/useradd \
 git-core \
+iproute2 \
+iputils \
+jq \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
 libogg.so.0 \
-libopencv-core.so.407 \
-libopencv-highgui.so.407 \
-libopencv-imgcodecs.so.407 \
-libopencv-imgproc.so.407 \
+libopencv-core.so.413 \
+libopencv-highgui.so.413 \
+libopencv-imgcodecs.so.413 \
+libopencv-imgproc.so.413 \
 libsndfile.so.1 \
 libstdc++.so.6 \
-libtheoradec.so.1 \
-libtheoraenc.so.1 \
-perl--MODULE-COMPAT-5.38.0 \
+libtheoradec.so.2 \
+libtheoraenc.so.2 \
+openssh-clients \
+perl--MODULE-COMPAT-5.44.0 \
 perl-B--Deparse \
 perl-Carp \
 perl-Carp--Always \
@@ -127,11 +131,12 @@ perl-Exception--Class \
 perl-Exporter \
 perl-ExtUtils--testlib \
 perl-Fcntl \
+perl-Feature--Compat--Try \
 perl-File--Basename \
 perl-File--Find \
+perl-File--Map \
 perl-File--Path \
 perl-File--Temp \
-perl-File--Touch \
 perl-File--Which \
 perl-File--chdir \
 perl-IO--Handle \
@@ -167,7 +172,6 @@ perl-Thread--Queue \
 perl-Time--HiRes \
 perl-Time--Moment \
 perl-Time--Seconds \
-perl-Try--Tiny \
 perl-XML--LibXML \
 perl-XML--SemanticDiff \
 perl-YAML--PP \
@@ -178,6 +182,9 @@ perl-constant \
 perl-integer \
 perl-strict \
 perl-version \
-perl-warnings"
+perl-warnings \
+rsync \
+sshpass \
+virt-firmware"
 
 inherit rpm

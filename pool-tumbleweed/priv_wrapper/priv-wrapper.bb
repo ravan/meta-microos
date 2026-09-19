@@ -16,8 +16,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "priv_wrapper-1.0.1-3.2.aarch64.rpm"
-RPM_HASH = "e864240ae7632de632be25512ebd9d1fe2fcfb78d07cdeefdf6bea8ff170d83b04a875626426328dfe423f4de5ddd6cd516b1c4a99ce62d18dcbba2c2e34f3ce"
+RPM_NAME = "priv_wrapper-1.0.1-3.12.aarch64.rpm"
+RPM_HASH = "8392a5d706c6ba1ee15b9d6cb0f57fc417075157d99fe2d47a21a5ffccc4b1333fdca3959a656079daf722a29a25b9977959ae6e5e329c5e3b54474e5ce2e42e"
 
 RPROVIDES:${PN} += "cmake-priv-wrapper \
 libpriv-wrapper.so.0 \

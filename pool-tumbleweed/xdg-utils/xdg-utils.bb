@@ -16,18 +16,14 @@ This means that: \
    environment."
 LICENSE = "MIT"
 
-PV = "1.1.3+20230830"
+PV = "1.2.0+20251025"
 
-RPM_NAME = "xdg-utils-1.1.3+20230830-1.1.noarch.rpm"
-RPM_HASH = "4d1f9b3f2bcb4be070e6a91e2d4e7be64b702fade5d2c403eddfa1e8f8612f4b3a46c5e8d242536127d0cfcd37db1f2d46f4ede7339f72079318b1b2919e2ea8"
+RPM_NAME = "xdg-utils-1.2.0+20251025-1.2.noarch.rpm"
+RPM_HASH = "eb8e4ecd54ee0a11adeaa1e929985d05dacf66a567cfa95cd9d26310068589a943b97cb54c5e98466081cd24629c444e21e9ca7b0251fd36d69bbc585d8b7c08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xdg-utils"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-perl \
-perl-Net-DBus \
-perl-X11-Protocol \
-which"
+RDEPENDS:${PN} += "/usr/bin/sh"
 
 inherit rpm

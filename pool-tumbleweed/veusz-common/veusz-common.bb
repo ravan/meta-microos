@@ -6,10 +6,10 @@ This package provides datafiles, examples, and icons used by all \
 python flavours of veusz."
 LICENSE = "GPL-2.0-or-later & Python-2.0"
 
-PV = "3.6.2"
+PV = "4.2.1"
 
-RPM_NAME = "veusz-common-3.6.2-1.2.noarch.rpm"
-RPM_HASH = "7284fd917cec4ffb778a2cd20fad0aaaad171af26b83d4b18bc3d4b864032b8cf8422440a58bd69cd9844d4a94667b57027e425748cd3319fc5c80535317a208"
+RPM_NAME = "veusz-common-4.2.1-1.3.noarch.rpm"
+RPM_HASH = "fc9568d40a6eea3bcfcefc23cfdf3b400a75c5759d3da9189c4662afcaf5d2c072bebd7a2a30979c9828f020e2406bcfa2dec27a4d01b400f0fa052fc35d9848"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "veusz-common"

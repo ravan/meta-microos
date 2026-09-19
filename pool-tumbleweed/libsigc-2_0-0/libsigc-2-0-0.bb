@@ -7,10 +7,10 @@ adaptor classes for connection of dissimilar callbacks and has an ease \
 of use unmatched by other C++ callback libraries."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.12.0"
+PV = "2.12.1"
 
-RPM_NAME = "libsigc-2_0-0-2.12.0-1.2.aarch64.rpm"
-RPM_HASH = "99523c317dd94534d21fe5902978a308fa1872ae2c070108d3ed2bdd050272bf0f3c08ab91150dae6c08f0762edf697d879847cf48db19af1dba2d4aef279c27"
+RPM_NAME = "libsigc-2_0-0-2.12.1-2.11.aarch64.rpm"
+RPM_HASH = "3475bdee2924e5b2c6482835acf4e5de8c82b8d26b39acedea83ba89a0c6c7819fff4c25da38644ee95b3171e05fa6e99fb029b273fd64ebbb03698029c66e11"
 
 RPROVIDES:${PN} += "libsigc++2 \
 libsigc-2-0-0 \

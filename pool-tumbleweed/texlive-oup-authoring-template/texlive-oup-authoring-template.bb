@@ -9,10 +9,10 @@ https://academic.oup.com/journals/pages/authors/preparing_your_ \
 manuscript."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn64491"
+PV = "2026.226.1.2svn78219"
 
-RPM_NAME = "texlive-oup-authoring-template-2023.209.1.1svn64491-55.1.noarch.rpm"
-RPM_HASH = "f83536b54c3933c812f0eccb427ee53479f9748292670dca8b4e32003225929b42c93cf9ad7f2c150c8a70515602924ecd4732d7a4e8f191f9d3b9c9e5c51721"
+RPM_NAME = "texlive-oup-authoring-template-2026.226.1.2svn78219-61.2.noarch.rpm"
+RPM_HASH = "d67ecc634b124ed39b84ed26a8aa0829abbbc3ca83040cc59d1d49e286d0099e5e900c430eede9dd4a4290f23437c20b9a9d57958b4febbc08cb2250a257544b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-oup-authoring-template.cls \
@@ -32,12 +32,14 @@ tex-amssymb.sty \
 tex-amsthm.sty \
 tex-anyfontsize.sty \
 tex-array.sty \
+tex-arydshln.sty \
 tex-caption.sty \
 tex-chngpage.sty \
 tex-color.sty \
 tex-crop.sty \
 tex-fix-cm.sty \
 tex-flushend.sty \
+tex-footmisc.sty \
 tex-footnote.sty \
 tex-graphicx.sty \
 tex-hyperref.sty \
@@ -46,6 +48,7 @@ tex-mathrsfs.sty \
 tex-multirow.sty \
 tex-natbib.sty \
 tex-rotating.sty \
+tex-silence.sty \
 tex-stfloats.sty \
 tex-subfloat.sty \
 tex-tikz.sty \

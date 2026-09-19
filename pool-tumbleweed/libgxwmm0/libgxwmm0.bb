@@ -3,10 +3,10 @@ DESCRIPTION = "guitarix is a simple mono amplifier to jack with one input and tw
 outputs."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.44.1"
+PV = "0.47.0"
 
-RPM_NAME = "libgxwmm0-0.44.1-2.3.aarch64.rpm"
-RPM_HASH = "b274224e43898dae2f2c05544abb48052e89a5fb36d4052df8e1fe41b1f8dbea5a32f0ef488b85b0e8bd347895e465993e4938bb27371e5e8b7c4d55d53425e7"
+RPM_NAME = "libgxwmm0-0.47.0-2.3.aarch64.rpm"
+RPM_HASH = "6dc22893c5557a0ca567acaa82bc3101fe5338dc0d63a73786fa0f36ad836e3860ab46f68b9f2de8e667ce39925ab994b20585a07faa93f0f34937e1762d56b7"
 
 RPROVIDES:${PN} += "libgxwmm.so.0 \
 libgxwmm0"

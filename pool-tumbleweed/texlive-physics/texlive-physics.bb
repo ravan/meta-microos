@@ -4,10 +4,10 @@ equations in the languages of vector calculus and linear \
 algebra, using Dirac notation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn28590"
+PV = "2026.226.1.3svn74247"
 
-RPM_NAME = "texlive-physics-2023.209.1.3svn28590-52.1.noarch.rpm"
-RPM_HASH = "ed881f0f00824ba5364cbf6a0b7b8afc0561e2f539fa57da99615338eee20ea5d548fe3080887c36455b30b9dd20d211b9ae425627d4ba1c63e3768b9085ba57"
+RPM_NAME = "texlive-physics-2026.226.1.3svn74247-58.2.noarch.rpm"
+RPM_HASH = "621a9343e2174ec71013a0ebf5a452e2b3a8fce3c686f0313f5a5edbd24db37b720410c03da8384489953551e40c26554724fc0a42c453df26b6877b229b04ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-physics.sty \

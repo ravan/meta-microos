@@ -7,10 +7,10 @@ crash on platform-unsupported properties (e.g. 1.2 properties on 1.1 \
 platforms)."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "3.0.23.01.25"
+PV = "3.0.25.02.14"
 
-RPM_NAME = "clinfo-3.0.23.01.25-1.2.aarch64.rpm"
-RPM_HASH = "fe224a495d0aed0a70a46fafc75edf528064e9a80c503c97d351ebdd5f2c434ef55f567b822cc27b9bf07eaf25844d007419d727d3db2dce82614251c9c7e7f9"
+RPM_NAME = "clinfo-3.0.25.02.14-1.5.aarch64.rpm"
+RPM_HASH = "a694ef6fb96c8fefeb7e8a27686845c30ae88fb71aa2bb704fdac20f52c63a77e144e00cf3432223d66dd3fe533d8157a8ece60e823b553c08c46ff3fc0cd3b1"
 
 RPROVIDES:${PN} += "clinfo"
 

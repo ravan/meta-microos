@@ -5,10 +5,10 @@ however. This version is based on NeoMutt, that is it includes many \
 enhancements."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.2.10"
+PV = "2.4.2"
 
-RPM_NAME = "mutt-2.2.10-2.2.aarch64.rpm"
-RPM_HASH = "805d399d515a80a321ca08ab5fb31214dcc30eb093374bbdd77de36667d8226166c95343a39d3668dc3783b1f444e021c9318c9b02f5bfeb275aa45703fca1fc"
+RPM_NAME = "mutt-2.4.2-1.1.aarch64.rpm"
+RPM_HASH = "7ac200792e81990befdf226a4da1ca4a6cb33a959d1300874f287669018ff69110b2362c5a75694fe17124c77560bb209a3ad9569bd1377d0d6a6de987ba9205"
 
 RPROVIDES:${PN} += "config-mutt \
 mutt"
@@ -20,17 +20,20 @@ RDEPENDS:${PN} += "/usr/bin/cat \
 /usr/bin/rm \
 /usr/bin/sh \
 /usr/bin/zcat \
+cyrus-sasl-gssapi \
+cyrus-sasl-plain \
 glibc-locale \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgnutls.so.30 \
 libgpg-error.so.0 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libgssapi-krb5.so.2 \
 libidn2.so.0 \
 libkyotocabinet.so.16 \
 libncursesw.so.6 \
 libsasl2.so.3 \
+libsqlite3.so.0 \
 libtinfo.so.6 \
 libz.so.1 \
 shared-mime-info"

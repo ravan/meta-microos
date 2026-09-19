@@ -6,16 +6,18 @@ resources on a Web server without knowing anything about HTTP or WebDAV. \
 davfs2 runs as a daemon in userspace. It uses the kernel file system 'coda', or \
 FUSE. To connect to the WebDAV server, it makes use of the neon library, \
 supporting TLS/SSL and access via proxy servers."
-LICENSE = "GPL-3.0-only"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "1.7.0"
+PV = "1.7.3"
 
-RPM_NAME = "davfs2-1.7.0-2.2.aarch64.rpm"
-RPM_HASH = "5ce2ebaef326a4ef09e7996097984a75bf919abc26d8c857622bd5eb74336604382824e849e0379b84464d492caa717d3af2c0ee88fe841c7d37685d32c3d98d"
+RPM_NAME = "davfs2-1.7.3-1.3.aarch64.rpm"
+RPM_HASH = "5f91d0479d1dc5ae05b6ad31782421763cc5d2e6fd0f61223f747ce168784d95af301b65a050ea0be9dc2706e4cec9da2df3033a14f8ab4def849db494fec892"
 
 RPROVIDES:${PN} += "config-davfs2 \
 davfs2 \
-fuse-davfs2"
+fuse-davfs2 \
+group-davfs2 \
+user-davfs2"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 /usr/sbin/groupadd \
@@ -23,6 +25,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 fuse \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libneon.so.27"
+libneon.so.27 \
+sysuser-shadow"
 
 inherit rpm

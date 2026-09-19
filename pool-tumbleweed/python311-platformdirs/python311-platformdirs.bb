@@ -2,14 +2,13 @@ SUMMARY = "Module for determining appropriate platform-specific dirs"
 DESCRIPTION = "A small Python module for determining appropriate platform-specific dirs, e.g. a 'user data dir'."
 LICENSE = "MIT"
 
-PV = "3.5.1"
+PV = "4.11.7"
 
-RPM_NAME = "python311-platformdirs-3.5.1-1.3.noarch.rpm"
-RPM_HASH = "f3d221554b8881c6f986a4288d4cf5e701d8c73818264d670e3be90b9ae5043086405d98e27d35ce4567841662fc09e1e31401789831471733a0168e23bcf6dd"
+RPM_NAME = "python311-platformdirs-4.11.7-1.1.noarch.rpm"
+RPM_HASH = "372e7f68dd82186eff44d9b0b0a970e87a31f8e6b1dcafe71328bb72088c29a1ecf6936b4d9df201d1e75d05b41373063b5a5dcebc22faadabe27a5778a54ac8"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3-platformdirs \
-python3.11dist-platformdirs \
+RPROVIDES:${PN} += "python3.11dist-platformdirs \
 python311-platformdirs \
 python3dist-platformdirs"
 

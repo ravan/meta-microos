@@ -3,14 +3,16 @@ DESCRIPTION = "RabbitMQ is an implementation of an AMQP broker. AMQP is an emerg
 standard for messaging."
 LICENSE = "MPL-2.0"
 
-PV = "3.12.0"
+PV = "4.2.9"
 
-RPM_NAME = "rabbitmq-server-3.12.0-2.1.aarch64.rpm"
-RPM_HASH = "3b6f5671dd8aadd34a5664376bae542c556b20ed5759dab1918433013dd84b69a4b0592b7cd9128453c5ad2572f12da48aec429857117d60a9a93eb1747ce48c"
+RPM_NAME = "rabbitmq-server-4.2.9-1.1.aarch64.rpm"
+RPM_HASH = "aace72161441417b03a0f2e363fe8b55de648096b1a230b89ef7cbc7bcb5cb0a43fd69a45862dc88c4be6e9404313e413e5609efdc895356d447dbe2183d4e29"
 
 RPROVIDES:${PN} += "AMQP-server \
 config-rabbitmq-server \
-rabbitmq-server"
+group-rabbitmq \
+rabbitmq-server \
+user-rabbitmq"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/mkdir \

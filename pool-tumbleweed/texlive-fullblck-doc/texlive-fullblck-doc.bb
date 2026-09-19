@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-fullblck"
 DESCRIPTION = "This package includes the documentation for texlive-fullblck"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn25434"
+PV = "2026.226.1.03svn25434"
 
-RPM_NAME = "texlive-fullblck-doc-2023.209.1.03svn25434-53.1.noarch.rpm"
-RPM_HASH = "559954559e6cc07976331cce204df0a4bde66f8848025573cf17ee695085943aa0bc24d3a4e6b0c23fa04d893978510c407e8b572ffed78f579353ca88b3b040"
+RPM_NAME = "texlive-fullblck-doc-2026.226.1.03svn25434-60.2.noarch.rpm"
+RPM_HASH = "0e9e7d1130c7483251b14cb1657fc83002969fa899ae58661e4a97994ad3ccfaea0521e71cf93d8d0ebe4c1fc089f92b16d541d1f3eb63263c77e17edff4ad51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-fullblck-doc"

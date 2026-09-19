@@ -7,10 +7,10 @@ sets. \
 This package provides the Vc static library."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.3"
+PV = "1.4.5"
 
-RPM_NAME = "Vc-devel-static-1.4.3-1.7.aarch64.rpm"
-RPM_HASH = "27f97108854fdc748c32122e60f9632d879c12d929cc597808e551c9b8b1e00f672cc243ae593f932e2f50ebe31424354abcac4787b43f690b2aa34c5079f531"
+RPM_NAME = "Vc-devel-static-1.4.5-1.10.aarch64.rpm"
+RPM_HASH = "31aec6319cbe00884b5f48801bac6f431d7c98293cb46d3ca7344466ad2743b449bbdcf83423da6cc4335dbccae47ff2f42eee7fa94cad22b5d71d6d61aa622b"
 
 RPROVIDES:${PN} += "Vc-devel-static"
 

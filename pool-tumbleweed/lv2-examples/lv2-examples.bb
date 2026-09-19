@@ -9,8 +9,8 @@ LICENSE = "ISC"
 
 PV = "1.18.10"
 
-RPM_NAME = "lv2-examples-1.18.10-2.1.aarch64.rpm"
-RPM_HASH = "0ae41983e2dfe2bea7f5dcf9315140486f245fd93ee322689ceca8114f4e84dce2e27372e7becadb1813d2192d550f405428cc0f63f65b49c5b159f864d78749"
+RPM_NAME = "lv2-examples-1.18.10-3.11.aarch64.rpm"
+RPM_HASH = "d4338e36ae9d26bfd4c2d86b765af86ac7c4992e4cae7446ad476b4d2dcec57aeeea080551cb08beecb0cf344588206157f15a292e301796c1ac29473ad8edf7"
 
 RPROVIDES:${PN} += "lv2-examples"
 

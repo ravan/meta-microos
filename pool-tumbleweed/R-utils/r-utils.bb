@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-utils"
 DESCRIPTION = "This package provides R-utils, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-utils-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "12a1099a4dfc0f548130bc09b15c50f5e13874cfe3e459b4ccab7eb8c244538b364e85e425365670b2906a5482e723fab7e43afaf89a6ecd80ea0078581aa237"
+RPM_NAME = "R-utils-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "dfc039204dd23208225e84427b6205ffa84fd419d8f5a4827fda590b72f9c1da91740b6c6c74a89d64b4c104e8e807a57550f1597d9ba824906ecf2da98a4653"
 
 RPROVIDES:${PN} += "R-utils"
 

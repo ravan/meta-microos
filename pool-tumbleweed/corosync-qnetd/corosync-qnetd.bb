@@ -1,15 +1,16 @@
 SUMMARY = "The Corosync Cluster Engine Qdevice Network Daemon"
-DESCRIPTION = "This package contains the Corosync Cluster Engine Qdevice Network Daemon, script for creating \
-NSS certificates and an init script."
+DESCRIPTION = "This package contains the Corosync Cluster Engine Qdevice Network Daemon, \
+script for creating NSS certificates and an init script."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.4.6"
+PV = "3.0.4"
 
-RPM_NAME = "corosync-qnetd-2.4.6-1.4.aarch64.rpm"
-RPM_HASH = "163b252ad08af1c7c8d49e6ccb53d2fe27a71d588e3eba6572567af9c5a5768091c48407670240b11295295dc23d29b950da167b61a376e03395a95775760a52"
+RPM_NAME = "corosync-qnetd-3.0.4-4.3.aarch64.rpm"
+RPM_HASH = "36caa0f9011a000bc6eb99591db924dc27338717c0c412a844734cda8313fcf7e60cd4df6af445af528f10112afe7a345e1ad9df0f33efd494566f16a48c7316"
 
-RPROVIDES:${PN} += "config-corosync-qnetd \
-corosync-qnetd"
+RPROVIDES:${PN} += "corosync-qnetd \
+group-coroqnetd \
+user-coroqnetd"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
@@ -19,6 +20,9 @@ libc.so.6 \
 libnspr4.so \
 libnss3.so \
 libssl3.so \
-mozilla-nss-tools"
+libsystemd.so.0 \
+mozilla-nss-tools \
+shadow \
+systemd"
 
 inherit rpm

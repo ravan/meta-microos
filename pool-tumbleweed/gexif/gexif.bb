@@ -1,12 +1,12 @@
 SUMMARY = "GTK Tool for Viewing EXIF Information"
 DESCRIPTION = "This tool contains simple GTK interface for viewing EXIF information \
 within JPEG images created by some digital cameras."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.5"
 
-RPM_NAME = "gexif-0.5-204.31.aarch64.rpm"
-RPM_HASH = "9b29da298250d5d5d5e06b909a34220e4255f1f88194afe65027d02685136144c7555e048dbe897d3d6b1ac6570214dc54b87b29c26e5b8df03d29ecb6721007"
+RPM_NAME = "gexif-0.5-208.7.aarch64.rpm"
+RPM_HASH = "85addecf3bca13c39bd95079af0d090f60513431d425ddab1e9201f98e340c7e4faba3ef498c2c2b317307b1695db738bfe43774ba18baee6001fad88ba82438"
 
 RPROVIDES:${PN} += "gexif"
 

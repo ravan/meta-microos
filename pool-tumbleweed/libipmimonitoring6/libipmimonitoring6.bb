@@ -6,10 +6,10 @@ Platform Management Interface specification. \
 This package contains the libipmimonitoring library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.6.11"
+PV = "1.6.18"
 
-RPM_NAME = "libipmimonitoring6-1.6.11-1.1.aarch64.rpm"
-RPM_HASH = "3f34dccacdf8bae0a2591badb6ce9d0d23b0f87b53076966a5317bfdb7c759bc868dc0c1804492c8067e5483761aefecdb9a2a79d1726f2ac1b66eb911cf0fcb"
+RPM_NAME = "libipmimonitoring6-1.6.18-1.3.aarch64.rpm"
+RPM_HASH = "b73f1024b08045ac4860b80930ee9d3f28226383f46c4a9ec46273a7b4e5daf1afcb968c2c03e646681cfb670fa79dc44918cdbbe02e9d59e6a6137a6cee6e0f"
 
 RPROVIDES:${PN} += "libipmimonitoring.so.6 \
 libipmimonitoring6"

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.7"
 
-RPM_NAME = "yudit-3.0.7-1.13.aarch64.rpm"
-RPM_HASH = "adc978787848b68b8d3deb2f82044e6c5831367aec82a6fee2bac3a775f2ae4f849c5a89f4f23a8d98b2607a5485f4bce1b3484c2aad3c886d171c4fcf4672f7"
+RPM_NAME = "yudit-3.0.7-2.12.aarch64.rpm"
+RPM_HASH = "802734ec673f26dd1e401b1c42fbedfffb9c33966f388b9b81297d2c4fa47143a24d9572e90da03dfd29c57479a25cc6e633afb8e00433ec1f4f92f52222308f"
 
 RPROVIDES:${PN} += "config-yudit \
 yudit"

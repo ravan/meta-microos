@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-economic"
 DESCRIPTION = "This package includes the documentation for texlive-economic"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32639"
+PV = "2026.226.svn76790"
 
-RPM_NAME = "texlive-economic-doc-2023.209.svn32639-54.2.noarch.rpm"
-RPM_HASH = "5c207cb8cc126831867ba1713f0b326324797caeb8a1578ff93acf4e0d1dfb38f9dde790296722acfb34d720a897fe3a66f6e0191562593a09ad9042fafc57eb"
+RPM_NAME = "texlive-economic-doc-2026.226.svn76790-61.4.noarch.rpm"
+RPM_HASH = "848f81f53f40efaf87a704f441173ff51cadef069a7c3d6785986d5e12122ebc0696173765b2d14a63d64493aa1b79d273a1d9bcf7b5b7bce193948b63b0f9d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-economic-doc"

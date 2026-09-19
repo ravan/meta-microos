@@ -7,12 +7,12 @@ the Text Encoding Model, Graphite handles the 'Rendering' aspect of writing \
 system implementation. \
  \
 This package contains the graphite2 development files."
-LICENSE = "LGPL-2.1-or-later | MPL-2.0"
+LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later | MPL-2.0"
 
-PV = "1.3.14"
+PV = "1.3.15"
 
-RPM_NAME = "graphite2-devel-1.3.14-3.8.aarch64.rpm"
-RPM_HASH = "218eb36bcfd44b2cda94a83e3f1783a34369eefdb46151f45ce440d12ce585f7735fc63de6cdc1fc7ffc585addae4f17550fef0789cd18e4b6bd12803979849c"
+RPM_NAME = "graphite2-devel-1.3.15-1.3.aarch64.rpm"
+RPM_HASH = "aeb5a2eda5effff8faa414f76d3ebd09bbdee1e46a187ac7c044f1ee8944c7a14b677f56abf57942705669661fff7745f7bff9c5ac67bacf80d8b8c871800928"
 
 RPROVIDES:${PN} += "graphite2-devel \
 pkgconfig-graphite2"

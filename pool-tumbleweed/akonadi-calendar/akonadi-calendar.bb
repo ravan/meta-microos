@@ -2,10 +2,10 @@ SUMMARY = "Akonadi calendar integration"
 DESCRIPTION = "This library provides calendar integration for Akonadi based Applications."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "akonadi-calendar-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5df0f1ca4ca9bc951808d5ab3b66308d44aaa482ec05bb123a8ad591277803429a5f3e0ea6ea0a7cd700794df117890ba44eeaa208d96e46957c50d21833805a"
+RPM_NAME = "akonadi-calendar-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "19f5ede2e18451d56cdbdaefdd181adb9a92bd4547b7e14eb22685c6da49f3b5405c75554b7ee9802626fedf1537cbc172720c550e95e2cbf48831dbf59aa736"
 
 RPROVIDES:${PN} += "akonadi-calendar"
 

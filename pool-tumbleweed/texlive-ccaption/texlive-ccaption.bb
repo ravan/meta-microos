@@ -7,10 +7,10 @@ and to define new float environments and Lists of Floats. Tools \
 are provided for specifying your own captioning styles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.2csvn23443"
+PV = "2026.226.3.2csvn77682"
 
-RPM_NAME = "texlive-ccaption-2023.209.3.2csvn23443-53.1.noarch.rpm"
-RPM_HASH = "97c804be4d40002fcd9da2d122e79cb16fe3a231b6b8a584aceb3a06a82f320a8d1ba86bfcafcc076e8e52b3032ba32348d49512b50c080255cc77969f1c159a"
+RPM_NAME = "texlive-ccaption-2026.226.3.2csvn77682-59.2.noarch.rpm"
+RPM_HASH = "a3bbc2d1da2dd2fe7f12f8a0b21cb97630c85fdc43e7b3135af8bbd84da253e57ec36a7fae2a556297cca8c0f151f79186b02d2f34863e40689bcf0c39104bfc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ccaption.sty \

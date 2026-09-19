@@ -2,10 +2,10 @@ SUMMARY = "Haskell filepath library documentation"
 DESCRIPTION = "This package provides the Haskell filepath library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.2.2"
+PV = "1.5.5.0"
 
-RPM_NAME = "ghc-filepath-doc-1.4.2.2-1.1.noarch.rpm"
-RPM_HASH = "c188a0a876af283a0938ad3985e9e636c619f8bdb209fd6f6441564c8017b116ab9f1a4059e3d11e914989090eb61ac0852a440b22d753fcd4d868e923044ba9"
+RPM_NAME = "ghc-filepath-doc-1.5.5.0-1.3.noarch.rpm"
+RPM_HASH = "79535729875fc15d02fd481b0d09a3a028caaab6a5d95bc01bd41a0a846f3a015c3d68a0ec7b9d9023d797efd313863fc5ca179d78a454fec68efd66df442550"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-filepath-doc"

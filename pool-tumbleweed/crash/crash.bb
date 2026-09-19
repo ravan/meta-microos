@@ -11,10 +11,10 @@ Authors: \
     David Anderson <anderson@redhat.com>"
 LICENSE = "GFDL-1.2-only & GPL-3.0-or-later"
 
-PV = "8.0.3"
+PV = "9.0.2"
 
-RPM_NAME = "crash-8.0.3-2.3.aarch64.rpm"
-RPM_HASH = "b1bdff436b4e718386769e662b3adfeb47be4e2b3cc414ae583177c05c584d55e6c18f8a10ee64867206d7ccb552b2922d37517a91422a5bb7550305ba924f0c"
+RPM_NAME = "crash-9.0.2-1.6.aarch64.rpm"
+RPM_HASH = "381cca340306002c80deafe109d51b46095cf02ec638b033d88eaf45d5cc64c102ffb7a382772b718721d857752554b1c8cee64eaefca02ca2766b22bb7dd227"
 
 RPROVIDES:${PN} += "crash"
 
@@ -22,8 +22,10 @@ RDEPENDS:${PN} += "/usr/bin/nm \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
+libgmp.so.10 \
 liblzo2.so.2 \
 libm.so.6 \
+libmpfr.so.6 \
 libncursesw.so.6 \
 libsnappy.so.1 \
 libstdc++.so.6 \

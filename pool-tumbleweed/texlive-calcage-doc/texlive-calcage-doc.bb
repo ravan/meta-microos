@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-calcage"
 DESCRIPTION = "This package includes the documentation for texlive-calcage"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.90svn27725"
+PV = "2026.226.0.0.90svn27725"
 
-RPM_NAME = "texlive-calcage-doc-2023.209.0.0.90svn27725-53.1.noarch.rpm"
-RPM_HASH = "f9dfe5abfca5a3df1d2e16d3368ff50fb357178adb8c216191b7d7236ccc79800a18d57756098a33e43806d9a119f0868fd124644b7a328e79a0a0f224d92f42"
+RPM_NAME = "texlive-calcage-doc-2026.226.0.0.90svn27725-59.2.noarch.rpm"
+RPM_HASH = "992870416539bb18ebd8370a846ac168c375a670f3ac5e6f2aa72acf966de74452665d01133232e0b765f89b11428b2d1f680531cc9fb70844ed13669429f82e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-calcage-doc"

@@ -6,10 +6,10 @@ external 'screen saver' client to detect when the alternate image is \
 to be displayed and to provide the graphics."
 LICENSE = "MIT"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "libXss1-1.2.4-1.2.aarch64.rpm"
-RPM_HASH = "8ea1e7c5c2eb18483ac4756dde4ea0f43b70176e4292c245d0db98ab9699566b6b37e0b95e0d7f25054f91216253e5ca487c142e4a81d78b2ef3397685c8c75c"
+RPM_NAME = "libXss1-1.2.5-1.5.aarch64.rpm"
+RPM_HASH = "fdda5f791a7e16a852f1181d3c49134b059193961c97ae84a93cf7d7a4df7657f12dd786d71934a5927c8b7ddcb4413aa94783b4997c1b0be5512283165b1733"
 
 RPROVIDES:${PN} += "libXScrnSaver \
 libXss.so.1 \

@@ -6,10 +6,10 @@ same high-quality level of typesetting that LaTeX does for \
 scientific text."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "2023.209.2.85svn65952"
+PV = "2026.226.3.09svn78154"
 
-RPM_NAME = "texlive-asymptote-2023.209.2.85svn65952-54.1.noarch.rpm"
-RPM_HASH = "1b94d6d852ebc7cd8901dc2c5f0d22c29a6b5cbfe7dcb8b16d4297fd00590e32000c706619a7c951b6e91b8fd2dd180c3bac99bc8622a09bec947cc5b70ac9fd"
+RPM_NAME = "texlive-asymptote-2026.226.3.09svn78154-60.2.noarch.rpm"
+RPM_HASH = "ea63ae14e7b28cf926ffd1b589a8a9c4c4d657fd799664e675226b2f88e534223cd178762fd62085b0e65053a1654370ac67327bebfb322d8f4782167dbdc700"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asycolors.sty \
@@ -18,7 +18,7 @@ tex-colo-asy.tex \
 tex-ocg.sty \
 texlive-asymptote"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

@@ -4,10 +4,10 @@ deserialization of High-Performance Primitive Collections \
 data-types."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-datatype-hppc-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "a04337c65632000665885790ba745673d0d97c2b2f84a9e85a2c27882ca370929f9c78bf3f84eec719b2009aacf9782f64f728fbb877e7800aa9d56d07cc89a0"
+RPM_NAME = "jackson-datatype-hppc-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "5ebc92eb5d11119842b012704d1c19abe9021b936fd1155cccda3e8316de945830c36640e9a803df99c43b579b61195279474271181849bba804ba34597357f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-datatype-hppc \

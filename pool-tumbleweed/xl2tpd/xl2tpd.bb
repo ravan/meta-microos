@@ -24,17 +24,16 @@ Xl2tpd is based on the 0.69 L2TP by Jeff McAdams <jeffm@iglou.com> \
 It was de-facto maintained by Jacco de Leeuw <jacco2@dds.nl> in 2002 and 2003."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.18"
+PV = "1.3.20"
 
-RPM_NAME = "xl2tpd-1.3.18-1.4.aarch64.rpm"
-RPM_HASH = "56e86b12a4f5de7464e7fa673d3c911493f62ae933f539c7e6d9896e3342da8669193319757d87673f671ab09f685e09958849388d0c97318886905207abf7f0"
+RPM_NAME = "xl2tpd-1.3.20-2.3.aarch64.rpm"
+RPM_HASH = "f5279bd2967b6bf13cd34238ba9173b68eda12a6eab14a57ec49109bc391673d45415790336512e95278453d19771e11d645830070e80443c0beda8d348c5bfa"
 
 RPROVIDES:${PN} += "config-xl2tpd \
 l2tpd \
 xl2tpd"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-ld-linux-aarch64.so.1 \
 libc.so.6 \
 libpcap.so.1 \
 ppp"

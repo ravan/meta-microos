@@ -6,10 +6,10 @@ target is typically a program that is to be built from the known \
 rules."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "smake-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "6957c13579af86bc516e88501c956bb576407b0a8c789ffb1925f1a8e0e7ce7b5c33cfa9ba7fe6839a2cb6fb3aa437610488c9ea69352e015433ef376fcbaca5"
+RPM_NAME = "smake-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "a3c69f5ec39f7b4a23388e00bfe1e788d5d316a26a50436644933cd45bf81395770600cc5c22dcd253782754b421df31e0010c0c420c600da9b02ae3a4e17444"
 
 RPROVIDES:${PN} += "smake"
 

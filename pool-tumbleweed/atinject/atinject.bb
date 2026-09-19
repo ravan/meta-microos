@@ -6,15 +6,13 @@ locators (e.g., JNDI). This process, known as dependency injection, is \
 beneficial to most nontrivial applications."
 LICENSE = "Apache-2.0"
 
-PV = "1+20160610git1f74ea7"
+PV = "1+20211017gitd06ce18"
 
-RPM_NAME = "atinject-1+20160610git1f74ea7-2.7.noarch.rpm"
-RPM_HASH = "74c9d1990279a769ccc9229d596bb452f6f1c53425bc3b154d7363935d34997b45fac86aaa94eae128bb73c6a2fa681ad4d8b5a75ff94589bdaf5c59156a7aeb"
+RPM_NAME = "atinject-1+20211017gitd06ce18-2.1.noarch.rpm"
+RPM_HASH = "6832bc194674d939c953923e28384dee4e5612043aaae9b04e26606173fe487c94583a20da2c34ee7efcc523f5a5c32767788e0efe8918a5bcf4a4a006ad8117"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atinject \
-mvn-jakarta.inject-jakarta.inject-api \
-mvn-jakarta.inject-jakarta.inject-api-pom- \
 mvn-javax.inject-javax.inject \
 mvn-javax.inject-javax.inject-pom- \
 osgi-javax.inject"

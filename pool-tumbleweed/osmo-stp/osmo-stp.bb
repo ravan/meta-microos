@@ -6,10 +6,10 @@ implementation, missing lots of the functionality usually present in \
 a STP, such as Global Title Routing, Global Title Translation."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.7.0"
+PV = "2.3.0"
 
-RPM_NAME = "osmo-stp-1.7.0-1.2.aarch64.rpm"
-RPM_HASH = "f7ff234990b86173d0fa3e17e1d1d86391df51efad1d47eab9448b4b0864006a6d29973f4bc068797cd6e17e979851f2ccc9316417a7208e382c2c432692b972"
+RPM_NAME = "osmo-stp-2.3.0-1.1.aarch64.rpm"
+RPM_HASH = "987cda35722e1d7954f163f8c7e638faadbab53e8eccd0178d21d34bad3238112ee591a4f4926ade6034b0de828f6e98fd4b00769dc6b70a3a27c13e69ea3177"
 
 RPROVIDES:${PN} += "config-osmo-stp \
 osmo-stp"
@@ -17,9 +17,9 @@ osmo-stp"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmo-sigtran.so.7 \
-libosmocore.so.20 \
-libosmovty.so.9 \
+libosmo-sigtran.so.12 \
+libosmocore.so.22 \
+libosmovty.so.13 \
 libtalloc.so.2"
 
 inherit rpm

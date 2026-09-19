@@ -2,15 +2,15 @@ SUMMARY = "Development files for Singular's 'Singular' library"
 DESCRIPTION = "(Upstream has not provided any description.)"
 LICENSE = "BSD-3-Clause & GPL-2.0-only & GPL-3.0-only & LGPL-2.1-only"
 
-PV = "4.3.1.p3"
+PV = "4.4.1"
 
-RPM_NAME = "libsingular_resources-devel-4.3.1.p3-1.4.aarch64.rpm"
-RPM_HASH = "6f2bbd4a461c4d0d207650fa0f03722f73858273c076c5272a22c94b0d74fda3a1b9c7cf2ad455a2318af67ff5dc78a2acacc800b55b9c9e436cd4179a12add3"
+RPM_NAME = "libsingular_resources-devel-4.4.1-2.9.aarch64.rpm"
+RPM_HASH = "a913807a6cf588b11a5b0b1f01b7eee78f9e4aad5e9047c4554e2aeca00bfd9742b4bb944e225cecf1539ebd8c2384602091f20d73d328cdc17598ae4dce8f8e"
 
 RPROVIDES:${PN} += "libsingular-resources-devel \
 pkgconfig-singular-resources"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libsingular-resources-4-3-1"
+libsingular-resources-4-4-1"
 
 inherit rpm

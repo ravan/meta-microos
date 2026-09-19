@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "5.0"
 
-RPM_NAME = "texi2html-lang-5.0-5.2.noarch.rpm"
-RPM_HASH = "a7929fdd8617ff9e62eebe3c01affe54c6ee61b3816c8ae32e28aaa8933b2df6115405b54ab8e66ebb8cc0d95cb11fc9b91b0ab35e1be8d4349b2516c8f63908"
+RPM_NAME = "texi2html-lang-5.0-6.7.noarch.rpm"
+RPM_HASH = "8dc6750cecf41fe49634b6dd8529d23637ebfb154b2bc3c0699606a91e622f77939af75b8c7ccd78d1c97a2d348204e385c71215e355bbedd5c8df3db8fb66b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texi2html-cs \

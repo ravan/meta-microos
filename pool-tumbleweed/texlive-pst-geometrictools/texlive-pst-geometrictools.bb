@@ -3,10 +3,10 @@ DESCRIPTION = "This PSTricks package facilitates the drawing of protractors, \
 rulers, compasses and pencils."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn61430"
+PV = "2026.226.1.4svn70953"
 
-RPM_NAME = "texlive-pst-geometrictools-2023.209.1.3svn61430-53.1.noarch.rpm"
-RPM_HASH = "4c04bf1253908e0d107f9debd2f962ffd1053ac215a061663f40118cd4594b1c3f1bea3fd1a1a62ca02610e3450d0cacf52e02c78adc30bb4867b23cbcfcbcfe"
+RPM_NAME = "texlive-pst-geometrictools-2026.226.1.4svn70953-59.2.noarch.rpm"
+RPM_HASH = "b98816768458ab2f4bddf52961b5a0a9605ef41c532c5655846538e6631eadc48d035536b1a6bb384d1296511165cd545bc2412f273ec5451494b24f75f263a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-geometrictools.sty \

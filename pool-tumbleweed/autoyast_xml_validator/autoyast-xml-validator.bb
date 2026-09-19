@@ -12,8 +12,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.9+gite8164d1"
 
-RPM_NAME = "autoyast_xml_validator-1.0.9+gite8164d1-1.6.noarch.rpm"
-RPM_HASH = "96ae83ebdb1ad4417fe328f8a4086f3c340ce201ce6ae45dfbc41c4a5dfabe708b6845ead3957b7c0c303ef1fd2cbff3095ddbb5ebaf61bb50a6190e4b4a4179"
+RPM_NAME = "autoyast_xml_validator-1.0.9+gite8164d1-1.14.noarch.rpm"
+RPM_HASH = "4b2debb7198b64adb07280dd733654a75069a3d5e57193c7709abd92b6226655069a4a37810063be5b225a09e69e21be355ccc679b32f4527e2512fac90b1c1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast-xml-validator"

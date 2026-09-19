@@ -6,8 +6,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.23"
 
-RPM_NAME = "leveldb-devel-1.23-2.4.aarch64.rpm"
-RPM_HASH = "804d99806d3d19a8d599fd0c5dda5dd25050d6a91b999713d467819f65ac7fa9f85f76360b4806b3f234e85179d707d3828c081d4af25bcb879e6cd74b7237e1"
+RPM_NAME = "leveldb-devel-1.23-6.7.aarch64.rpm"
+RPM_HASH = "f660fc85cba3d70938c38df6403a5cf3ca8ed491865c065d0c9a19bc963930078b31e56db8cf2d37bfeb4c12dfa6eb26a6c428defcb1ac432806ca6e1e33b1e5"
 
 RPROVIDES:${PN} += "cmake-leveldb \
 leveldb-devel"

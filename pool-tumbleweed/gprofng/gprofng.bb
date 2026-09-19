@@ -2,10 +2,10 @@ SUMMARY = "The next generation profiling tool for Linux"
 DESCRIPTION = "The next generation profiling tool for Linux"
 LICENSE = "GFDL-1.3-only & GPL-3.0-or-later"
 
-PV = "2.40"
+PV = "2.45"
 
-RPM_NAME = "gprofng-2.40-5.3.aarch64.rpm"
-RPM_HASH = "05a4298e5acf70dda0ace171cb06bb12a709d706be3b46c2ce0dbecc01c8874d15eb34a4529347cff3c51216fca744b4b336ee38e7fada5e8e2ef0e1a82b522c"
+RPM_NAME = "gprofng-2.45-4.3.aarch64.rpm"
+RPM_HASH = "8515cbf24341cc49722500b395ead59effbdebab8907e1c2ebfd06d2cf8404e03e32d4dd0181bebb28ff0e621dcde285f2017a81210d706e4d62c5856d44f7cf"
 
 RPROVIDES:${PN} += "gprofng \
 libgp-collector.so \

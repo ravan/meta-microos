@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for ongres-scram"
 DESCRIPTION = "This package contains javadoc for ongres-scram"
 LICENSE = "BSD-2-Clause"
 
-PV = "2.1"
+PV = "3.2"
 
-RPM_NAME = "ongres-scram-javadoc-2.1-2.11.noarch.rpm"
-RPM_HASH = "80f7c0d99953597466ff45434c4c251c947b9dac8c96c9f28b4b13ff0eafb4303a4200a8561bad045569f3525f43579a1f69d7b84ef4cf28aafcda28117ecf9e"
+RPM_NAME = "ongres-scram-javadoc-3.2-7.3.noarch.rpm"
+RPM_HASH = "5befaba51dff7fa6337272b72bcb96abc5b816b374265136a058cdb6e2b2a32ca8abfb263a34ad606af4ab31952232064c5e21db4cdee2a9ca5cf981eb22ce5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ongres-scram-javadoc"

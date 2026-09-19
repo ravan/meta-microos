@@ -2,10 +2,10 @@ SUMMARY = "Manual page display program for the X Window System"
 DESCRIPTION = "xman is a graphical manual page browser."
 LICENSE = "MIT"
 
-PV = "1.1.5"
+PV = "1.2.0"
 
-RPM_NAME = "xman-1.1.5-2.4.aarch64.rpm"
-RPM_HASH = "70fe2f135e63543384d94bfda436a86b15ba61ce3afe1e807284f939e05589d4645a887c6fef4729ac36abd5df30f1abfecae5cc452a61165dfa45d8d00d9925"
+RPM_NAME = "xman-1.2.0-1.9.aarch64.rpm"
+RPM_HASH = "2eb6f8f127e8d2da3f7e6d18898c90585101f56477fd74075d875f65aaa9f2528558ba8b1ba32727b6adf65ec9817f03f1ed4a7b776a43cc00082512189b22b8"
 
 RPROVIDES:${PN} += "xman"
 

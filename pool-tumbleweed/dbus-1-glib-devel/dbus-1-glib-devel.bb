@@ -5,10 +5,10 @@ GLib thread abstraction and main loop. \
 This package contains the devel and header files."
 LICENSE = "AFL-2.1 | GPL-2.0-or-later"
 
-PV = "0.112"
+PV = "0.114"
 
-RPM_NAME = "dbus-1-glib-devel-0.112-3.4.aarch64.rpm"
-RPM_HASH = "308355a126172bac9686b3dfb5a3a827db7d7b42975ca8ecd57bf27e09314b467df9d34a430a2e173bc2e86d4b5a81ae66a4d11a6ef07b54b7de33b171e3221e"
+RPM_NAME = "dbus-1-glib-devel-0.114-1.3.aarch64.rpm"
+RPM_HASH = "aed004b4bc76b74faf73a1d4bc0ccea2c5ff126b68cb96677d19668c9bae67e080171c1cd53ee746c422e64cb682d9477246dc8af2e9449f5acf4fc45d8f3e5a"
 
 RPROVIDES:${PN} += "dbus-1-glib-devel \
 pkgconfig-dbus-glib-1"

@@ -11,10 +11,10 @@ This package provides the source and header files for development with \
 Sherpa."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.2.12"
+PV = "2.2.16"
 
-RPM_NAME = "SHERPA-MC-devel-2.2.12-3.4.aarch64.rpm"
-RPM_HASH = "ae9d2e720122dae0b5ad8235b3786ce3eaa5f30644bf55c4fd3dc23efd5889a4505f3d9202fdd91824794aa3dd833c8671fd3b62486ae66c464e7e8ba13c7f26"
+RPM_NAME = "SHERPA-MC-devel-2.2.16-1.5.aarch64.rpm"
+RPM_HASH = "808ce9bd9b3f743a08feb7e0f1cbf95d0e6648236267bfd8796b2a7824874317f76fa71b4dec37eeb3e26e8a669383a7edf6be6e30c1d98ae15ef43977e15db3"
 
 RPROVIDES:${PN} += "SHERPA-MC-devel"
 
@@ -57,8 +57,8 @@ libHadronsCurrents.so.0 \
 libHadronsMEs.so.0 \
 libHadronsMain.so.0 \
 libHadronsPSs.so.0 \
-libHepMC3.so.3 \
-libLHAPDF-6.5.4.so \
+libHepMC3.so.4 \
+libLHAPDF-6.5.5.so \
 libLundTools.so.0 \
 libMCatNLOCalculators.so.0 \
 libMCatNLOMain.so.0 \
@@ -110,9 +110,8 @@ libfastjetplugins.so.0 \
 libfastjettools.so.0 \
 libgcc-s.so.1 \
 libgfortran.so.5 \
-libgmp.so.10 \
 libm.so.6 \
-libsiscone-spherical.so.0 \
+libsiscone-spherical.so \
 libsiscone.so.0 \
 libsqlite3.so.0 \
 libstdc++.so.6 \

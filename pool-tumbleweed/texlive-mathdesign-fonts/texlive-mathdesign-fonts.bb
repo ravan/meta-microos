@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-mathdesign"
 DESCRIPTION = "The  separated fonts package for texlive-mathdesign"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.2.31svn31639"
+PV = "2026.226.2.31svn31639"
 
-RPM_NAME = "texlive-mathdesign-fonts-2023.208.2.31svn31639-53.1.noarch.rpm"
-RPM_HASH = "a18329a08f88ee486cf49143322bd2bacbfdcddac7b13ba273c7f808ee6aa782c6b8b841ebf74f1e1f2392ff10328ce844a9488610aa67b9f4f1b1bc77e52378"
+RPM_NAME = "texlive-mathdesign-fonts-2026.226.2.31svn31639-59.2.noarch.rpm"
+RPM_HASH = "0860fb3f221231a21b897ff97cc0732978921e42754561b851c50675dcc1b07fc8042d598c227ef2c222a6ceb82ad8294628b02d7fb288d7f81b32a308649539"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-mathdesign-ch \

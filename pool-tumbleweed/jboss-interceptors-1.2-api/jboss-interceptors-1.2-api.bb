@@ -2,10 +2,10 @@ SUMMARY = "Java EE Interceptors 1.2 API"
 DESCRIPTION = "The Java EE  Interceptors 1.2 API classes from JSR 318."
 LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
-PV = "1.0.0"
+PV = "1.0.1"
 
-RPM_NAME = "jboss-interceptors-1.2-api-1.0.0-2.7.noarch.rpm"
-RPM_HASH = "2963507a5de7b24369f04d8f48017eff6c57b24754cf87af1429e1222eba5d3cbbd9c05e63b2e8de8eef88733c27c6ee5d19d8be55fbc4d5950a0ca4a8997df1"
+RPM_NAME = "jboss-interceptors-1.2-api-1.0.1-2.8.noarch.rpm"
+RPM_HASH = "9e82b3c5e55905359c8bece7eceefe8d5a9c047d2aa250ca03b7a9335245403a2e4af7b300b8c6b6b5a0454b4086a0ed5ba65225083a98a186d071c6db7ff7c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jboss-interceptors-1.2-api \

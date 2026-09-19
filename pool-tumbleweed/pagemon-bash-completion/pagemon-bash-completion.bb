@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for pagemon"
 DESCRIPTION = "Bash completion script for pagemon."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.02.01"
+PV = "0.02.06"
 
-RPM_NAME = "pagemon-bash-completion-0.02.01-1.3.noarch.rpm"
-RPM_HASH = "1624fa023171d277d0823ce337d0da6c841d2f160d78ad227a496b678026e361e465abaae8ce64018e98906966e331856918c5225238273ecb91c8590d8fb313"
+RPM_NAME = "pagemon-bash-completion-0.02.06-1.4.noarch.rpm"
+RPM_HASH = "0858e2b8f4ae6f6c229f0f6ce54c3422d77e6c053c88308ec45698891d50c5dbb8d86163fd36e2f520152f4acaa25be0d50227916869a4adceb22d8a4b20b31a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagemon-bash-completion"

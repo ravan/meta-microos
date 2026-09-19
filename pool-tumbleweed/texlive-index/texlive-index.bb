@@ -8,15 +8,13 @@ robust \\index command. It supplies short hand notations for the \
 well as creating an index entry for it."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.1betasvn24099"
+PV = "2026.226.4.04svn77682"
 
-RPM_NAME = "texlive-index-2023.209.4.1betasvn24099-54.1.noarch.rpm"
-RPM_HASH = "f5b0ddc001dd05db511a904d87194bd24800bbb5d9a2d55cc9ae873dad89528616683cd86bb2410d19fcb915a751c7ff6422de128ea2a1f94b28ad7620ca1758"
+RPM_NAME = "texlive-index-2026.226.4.04svn77682-60.2.noarch.rpm"
+RPM_HASH = "04a3c39ca97e65d0f271e7314d29cd82a119c626eb1977461482ade9c4ebf4dbade95e3afe6c126a23fc9e6678453450117695ec2b7e108e2fd28907e05afdd3"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-autind.sty \
-tex-bibref.sty \
-tex-index.sty \
+RPROVIDES:${PN} += "tex-index.sty \
 texlive-index"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

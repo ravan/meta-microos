@@ -1,5 +1,5 @@
-SUMMARY = "Qt5-based plaintext editor"
-DESCRIPTION = "FeatherPad is a Qt5-based plain-text editor. It is independent of any desktop environment and has: \
+SUMMARY = "Qt-based plaintext editor"
+DESCRIPTION = "FeatherPad is a plain-text editor. It is independent of any desktop environment and has: \
 * Drag-and-drop support, including tab detachment and attachment; \
 * X11 virtual desktop awareness (using tabs on current desktop but opening a new window on another); \
 * An optional permanent search bar with a different search entry for each tab; \
@@ -13,21 +13,20 @@ DESCRIPTION = "FeatherPad is a Qt5-based plain-text editor. It is independent of
 * Non-interrupting prompts;"
 LICENSE = "GPL-3.0-only"
 
-PV = "1.4.1"
+PV = "1.6.4"
 
-RPM_NAME = "featherpad-1.4.1-1.1.aarch64.rpm"
-RPM_HASH = "6f0f9aff0dd75263e71cb047946a1a182f59955a79e5d2c1d0575c07735af8de14aed199ece50c6caec8fa064c05d3bacb4d62aea18f97c546229dbb48fb0938"
+RPM_NAME = "featherpad-1.6.4-1.2.aarch64.rpm"
+RPM_HASH = "31db678a8bc6b9f6cc09ced61987ab1d14ff30676555a478a43429ffe52a209e31722a7b4214502c14ac0b49fbdc58b24216805834be018268b98fbb7e8a2479"
 
 RPROVIDES:${PN} += "featherpad"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5X11Extras.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \

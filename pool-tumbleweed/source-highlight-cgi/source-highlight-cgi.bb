@@ -12,8 +12,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "3.1.9"
 
-RPM_NAME = "source-highlight-cgi-3.1.9-5.8.aarch64.rpm"
-RPM_HASH = "7ba6e5673e394597eee099cff3f33c82510b3dae8d79319e1a5f4159f6b30f6279f44dd0e49981b2b9da16d4065713d79faba245e713eff3396978d1a7caaf31"
+RPM_NAME = "source-highlight-cgi-3.1.9-5.22.aarch64.rpm"
+RPM_HASH = "ac142969122d84308a21daf74379750a006bbea0216fa0f39b703846222a8908b2f69d62983ff675e1a2dbf58588ad28e32c2b7bc9be5fd7992edde3a03b475b"
 
 RPROVIDES:${PN} += "config-source-highlight-cgi \
 source-highlight-cgi"

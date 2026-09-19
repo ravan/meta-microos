@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & Zlib"
 
 PV = "1.26.3"
 
-RPM_NAME = "efl-testsuite-1.26.3-30.8.aarch64.rpm"
-RPM_HASH = "3aa400681bdd973fe72cd25e7793a063bf8ba910fd5a2449453ff072bf9d1f87362d8030e8044464d08147372c9c7bcb21f9e5a15b5a7b2db2f97332f94744bc"
+RPM_NAME = "efl-testsuite-1.26.3-37.1.aarch64.rpm"
+RPM_HASH = "9e1ee82cb627a233193b8216a444d0b21545ccaf34ef53407e34d3b7dda51978b7075453544ce639ddc57a0b0e4008688b466eafa669c9776590d938a15b46da"
 
 RPROVIDES:${PN} += "efl-testsuite"
 

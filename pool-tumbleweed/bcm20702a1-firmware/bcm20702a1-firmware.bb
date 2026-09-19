@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "1201650"
 
-RPM_NAME = "bcm20702a1-firmware-1201650-9.4.noarch.rpm"
-RPM_HASH = "d52c666941363c8b9ecf45423d43c7bf79fff54e332c8f923c78d6c72cec4317ec132949ae4bbcb723a909bb3af7f5cc884b919d2112dfdf2dbbcac9c34a0b58"
+RPM_NAME = "bcm20702a1-firmware-1201650-9.13.noarch.rpm"
+RPM_HASH = "f3bd51ea8d70f20b4b61c45b46a0b4f310fc5d40b46f2af844a08fbc858a6f68b1ca1c1da3e5fb5865ca33f0d6aa3b336728993f26f51a4758fac5be7f08ae58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bcm20702a1-firmware"

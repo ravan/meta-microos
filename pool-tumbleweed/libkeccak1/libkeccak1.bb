@@ -7,10 +7,10 @@ sensitive data, and HMAC. \
 A subset of Keccak was specified by NIST as SHA-3 (Secure Hash Algorithm 3)."
 LICENSE = "ISC"
 
-PV = "1.4"
+PV = "1.4.3"
 
-RPM_NAME = "libkeccak1-1.4-1.1.aarch64.rpm"
-RPM_HASH = "c0a5427632bba0d43d56ce52e13398b03d2a8cf673acba50eabedeaccac413204787ec20365a9db6b077aedd56b021644a6397ee7d4351dd96666da080dceeb0"
+RPM_NAME = "libkeccak1-1.4.3-1.3.aarch64.rpm"
+RPM_HASH = "98e014caa48a8a4350e4fffa93cd36ea8c779037f4643ecaf8925c862cd120f72beca4a715a393a9ce39465ba013e251b25e8d3a6947214f32c1fb1bf7b78866"
 
 RPROVIDES:${PN} += "libkeccak.so.1 \
 libkeccak1"

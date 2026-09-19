@@ -9,10 +9,10 @@ has localisations for all the official languages of the EU \
 and koi8-r."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn64037"
+PV = "2026.226.svn75227"
 
-RPM_NAME = "texlive-europecv-2023.209.svn64037-53.1.noarch.rpm"
-RPM_HASH = "d22d00e1383e79114a2be5caa9000b5e9dcee3fa54920b1daa6958a1eaadbac84e3c7e7db42857a516cf5886c392b68d55b5b5de580fe7d8a6af34f7dbec7d3b"
+RPM_NAME = "texlive-europecv-2026.226.svn75227-59.2.noarch.rpm"
+RPM_HASH = "ed6af790ebad3692c363a9e335daba5e4539c8070f517f2794fccc3a07b9e982193fdebad710043608b8bcff9dcd0ec3ea7b4dbb3f4879828f817dc7b659f6ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecvbg.def \

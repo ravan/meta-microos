@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.0.93"
 
-RPM_NAME = "libtolua++-5_4-devel-1.0.93-10.3.aarch64.rpm"
-RPM_HASH = "f28f665c5ecdf8bc7294ca2b0684fba4f88b9acc8f7a794245f3cbb1bd003806e2bfeba88e8de28812dd5e7ebb51143eee794be02ffe4ac44a0f5505ccb67762"
+RPM_NAME = "libtolua++-5_4-devel-1.0.93-13.4.aarch64.rpm"
+RPM_HASH = "a3fa1048c7f531aa6f7df6b87276e4fcd050875ef8020c0b7e69321482a7d814dcb4fe03a5ae16606155596c9b96b1ee71fbd495f97618de69d45059b6954988"
 
 RPROVIDES:${PN} += "libtolua++-5-4-devel \
 pkgconfig-tolua++ \

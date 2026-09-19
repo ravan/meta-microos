@@ -23,12 +23,12 @@ If you mix string-based names with types created by this module, it will \
 warn, with a few exceptions. If you are declaring a 'class_type()' or \
 'role_type()' within your type library, or if you use a fully qualified \
 name like ''MyApp::Foo''."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.50"
+PV = "0.510.0"
 
-RPM_NAME = "perl-MooseX-Types-0.50-1.23.noarch.rpm"
-RPM_HASH = "f479cbbbb93fcc272cfe9554d4253de7abcf63c06dabcb1778ba3ee16be81c03b529af7e8ca3f78e0ab79c1406c4d6b4b860a9b15ee8ffa99aad87c48f4f6efe"
+RPM_NAME = "perl-MooseX-Types-0.510.0-1.7.noarch.rpm"
+RPM_HASH = "b3941f10915ccabd1704b832044ddcef3fccbeca594829da881f222fc39e45519d597a48e16339c170a30b14101f64120e97e307363b6ac37f7f7f16d0cc55e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types \
@@ -42,7 +42,7 @@ perl-MooseX--Types--Util \
 perl-MooseX--Types--Wrapper \
 perl-MooseX-Types"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Carp--Clan \
 perl-Module--Runtime \
 perl-Moose \
@@ -53,7 +53,8 @@ perl-Scalar--Util \
 perl-Sub--Exporter \
 perl-Sub--Exporter--ForMethods \
 perl-Sub--Install \
-perl-Sub--Name \
-perl-namespace--autoclean"
+perl-Sub--Util \
+perl-namespace--autoclean \
+perl-parent"
 
 inherit rpm

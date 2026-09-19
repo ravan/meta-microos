@@ -4,8 +4,8 @@ LICENSE = "Apache-1.1 & BSD-3-Clause"
 
 PV = "2013.6.1"
 
-RPM_NAME = "msv-xsdlib-2013.6.1-3.11.noarch.rpm"
-RPM_HASH = "bea841569e7e6e9318c75e212be6ee08290bf9f0518f639d28f3333bd6e1d0124df9df1ee4cac1c8c4dd7b5e538defe6dc253361ab35f5b271f0032f0618b248"
+RPM_NAME = "msv-xsdlib-2013.6.1-7.2.noarch.rpm"
+RPM_HASH = "2afa98235da7540f3b4a6c58a216b8c0ef00c28e7e1149225c862d6256eeaa46924edcc5bde4bb05b37fd12be300b46124a4df7ba343f7ebedc2aee4be93dff8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "msv-xsdlib \

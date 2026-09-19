@@ -3,10 +3,10 @@ DESCRIPTION = "The wpebackend-fdo-devel package contains libraries, build data, 
 header files for developing applications that use wpebackend-fdo."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.14.2"
+PV = "1.16.1"
 
-RPM_NAME = "wpebackend-fdo-devel-1.14.2-1.1.aarch64.rpm"
-RPM_HASH = "7f360689678b3dd6db13ac4a7280a83230f2be621550028f567ab75d172bc9adbcb508f6bff795cc665ae8f533e60e5731ceb90597c38ef1a754a2054303511c"
+RPM_NAME = "wpebackend-fdo-devel-1.16.1-1.5.aarch64.rpm"
+RPM_HASH = "8a88146ea6f2811a8ea241a933f501971cfb30b1c1500df5918bae035b566bc63ab282b6ae94c152c41bc4baaa4cbbb43f01fbfc78862d7594552ff966c35c86"
 
 RPROVIDES:${PN} += "pkgconfig-wpebackend-fdo-1.0 \
 wpebackend-fdo-devel"

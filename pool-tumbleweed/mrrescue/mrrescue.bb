@@ -10,8 +10,8 @@ LICENSE = "Zlib & MIT & CC-BY-SA-3.0"
 
 PV = "1.02e"
 
-RPM_NAME = "mrrescue-1.02e-5.11.noarch.rpm"
-RPM_HASH = "e66b30aaf4536ff545c15536c21030e33ea025c9ec2af88919405a0f569ec78ceca741e5def136c2be60fe6334b49eee53a9c0cdc7105fc05bb86b896973a1ca"
+RPM_NAME = "mrrescue-1.02e-6.8.noarch.rpm"
+RPM_HASH = "2788d73a847c35fa546878e3500914f7c9d76a7ba1309de429fc6d9439ce355f13cdd02aba207fad2ce2628e6b385f9dd90298bb78def00b5e7ac649f211c202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mrrescue"

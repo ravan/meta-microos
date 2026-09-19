@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "1.0.2"
 
-RPM_NAME = "drawing-lang-1.0.2-1.1.noarch.rpm"
-RPM_HASH = "e312a83f2eaf71d5087854ecfb680b0eaa44460925ed27afff3b9b5f4ee47166d77536734015b80e904cf51b337c07b293ef965e9baa2726f6f2db5b1312aab9"
+RPM_NAME = "drawing-lang-1.0.2-1.10.noarch.rpm"
+RPM_HASH = "040ff1de47a85b6f0137d13802d0f879a8047a2992e38cdd025a93f8e4993853a323e9ec0690274be28e98c5b81058f25efb48db665e358e5d899f978b7d7aab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "drawing-lang \

@@ -23,8 +23,8 @@ LICENSE = "GPL-2.0+ | Artistic-1.0"
 
 PV = "0.112"
 
-RPM_NAME = "perl-Unicode-Map-0.112-13.39.aarch64.rpm"
-RPM_HASH = "a984627da616c70a55a2c254d89b456a6a30cb3697d1e421087c7fe088f648dc1492ce3d98ddcaa36c331e95d2103d9cfb58e5e61b84d085f667b30ae133d8e4"
+RPM_NAME = "perl-Unicode-Map-0.112-13.56.aarch64.rpm"
+RPM_HASH = "5c0767b601f9ab91acea39615029af27d3bd6493862fadb586e4fb1a061cafcf89231cc4e842585e04512b7470acc0029a20eef67e223fd433e826e5d763eb1f"
 
 RPROVIDES:${PN} += "perl-Unicode--Map \
 perl-Unicode-Map"
@@ -32,6 +32,6 @@ perl-Unicode-Map"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

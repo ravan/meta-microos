@@ -6,10 +6,10 @@ mouse movements, and a couple of user programs that allow you to \
 control your computer with a remote control."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.10.1"
+PV = "0.10.2"
 
-RPM_NAME = "lirc-devel-0.10.1-10.2.aarch64.rpm"
-RPM_HASH = "5e3a6934ac75b72b081fd079340d67b216f016e1c5bcf155eab09700554dee5c3fc0ec081cf735bd20b5ca6339eeae30ee33624b222f9a40c9239029b7d57884"
+RPM_NAME = "lirc-devel-0.10.2-2.5.aarch64.rpm"
+RPM_HASH = "b7fd2daa475f8e10c650c6e56fe7e34f689f79546737c32014276387dd67d36d86695463731d4e92589c78008b7d4b673fd6a104e471a25a8d947c88bf2d7542"
 
 RPROVIDES:${PN} += "lirc-devel \
 pkgconfig-lirc \

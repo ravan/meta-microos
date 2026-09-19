@@ -7,8 +7,8 @@ LICENSE = "GPL-3.0-only & LGPL-3.0-only & LGPL-2.1-only"
 
 PV = "13.10.0+bzr20161028"
 
-RPM_NAME = "ido-devel-13.10.0+bzr20161028-3.17.aarch64.rpm"
-RPM_HASH = "e100d3a1f6bc395fb56fe4e99df74b29d15056655f9bc873138e5d44d784a83d821c1638b808ebbfdfb8e018d9cba35e5719cd26c2a8056c7b730ede42fa0e89"
+RPM_NAME = "ido-devel-13.10.0+bzr20161028-4.10.aarch64.rpm"
+RPM_HASH = "9810a1fc9434aa1ffda6bb293dd2eb41d27a80efb1cd40277c249a56a9e1925b6872384a4c355cdb728edcdac73d7cc0ad7980c7a5616d2084ce558a535b7c42"
 
 RPROVIDES:${PN} += "ido-devel \
 pkgconfig-libido3-0.1"

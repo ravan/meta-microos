@@ -12,10 +12,10 @@ standard parsing tools Ocamllex and Ocamlyacc, which contribute to the \
 robustness of cppo across OCaml versions."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.6.9"
+PV = "1.8.0"
 
-RPM_NAME = "ocaml-cppo-1.6.9-1.5.aarch64.rpm"
-RPM_HASH = "de6cf2e637a5a934f49e203845690d3629608e4bee31c16e8456e9ec6188b409d391aad73c8993b2b0fd53acf38caebe71d8b3649f0213d3ae38589ca0182c94"
+RPM_NAME = "ocaml-cppo-1.8.0-2.2.aarch64.rpm"
+RPM_HASH = "b8f582255aad0489847ba6cb42e86c63460cfa6aba75a52f92ba7ec2d2ea0955cafce2c83a22e122e29ef11b77f5c94b5bbc89d6d4f0968deea1f73ffda29dac"
 
 RPROVIDES:${PN} += "ocaml-cppo"
 

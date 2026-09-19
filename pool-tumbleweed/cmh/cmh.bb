@@ -9,8 +9,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.1.1"
 
-RPM_NAME = "cmh-1.1.1-1.5.aarch64.rpm"
-RPM_HASH = "2021c89fed2c16c03ba4178ab2570dc50184d1beeae6579e767d4b081b99e50dd1b835a9020e5935a80ea5a16f4d0956bf6b2a4d233990976f19096caeb4c463"
+RPM_NAME = "cmh-1.1.1-1.16.aarch64.rpm"
+RPM_HASH = "b69afcfe745e9c884084eadb74042779334bfb3181acf084be99d9efc2c59ac51fd2e221c16b3cdfd407943b447fe772a5292251652a7713d2480a71f56cee7e"
 
 RPROVIDES:${PN} += "cmh \
 libparsepari.so.0"
@@ -19,13 +19,13 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcmh.so.0 \
-libfplll.so.8 \
+libfplll.so.9 \
 libgcc-s.so.1 \
 libgmp.so.10 \
 libmpc.so.3 \
 libmpfr.so.6 \
 libmpfrcx.so.1 \
-libpari-gmp-tls.so.8 \
+libpari-gmp-tls.so.9 \
 libstdc++.so.6"
 
 inherit rpm

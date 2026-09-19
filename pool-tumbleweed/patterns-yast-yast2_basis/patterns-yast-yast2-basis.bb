@@ -2,10 +2,10 @@ SUMMARY = "YaST Base Utilities"
 DESCRIPTION = "YaST tools for basic system administration."
 LICENSE = "MIT"
 
-PV = "20220411"
+PV = "20260219"
 
-RPM_NAME = "patterns-yast-yast2_basis-20220411-1.4.aarch64.rpm"
-RPM_HASH = "dce90222d1367e2b5d8ed6f26e14ea382df07be6f7156a76b3f093b0fb3f1d236d815c0db28c1ef1f21945b5bde8fc62a8ab51127d8a94eea9ffbe3e4923a346"
+RPM_NAME = "patterns-yast-yast2_basis-20260219-1.2.aarch64.rpm"
+RPM_HASH = "c94f06379956e1bb122569b0bde962d837e404efb89decef8464c4ecc64a9d75aa4a3b593a21ac57ebd6ca22bb71138afea6c6cf3fd730ed17becaa77d5dac05"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \

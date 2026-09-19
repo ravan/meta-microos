@@ -6,10 +6,10 @@ inspect and maintain the connection tracking subsystem of the Linux \
 kernel."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.7"
+PV = "1.4.9"
 
-RPM_NAME = "conntrack-tools-1.4.7-1.4.aarch64.rpm"
-RPM_HASH = "423da7edba8f4cb95fc26914311fdd43a5382b363d0ba1b88f070bae9f5c8fadcc078e43d7a7932d29e8611007a294604782d727474c52e3c72f9486ea1fbaa7"
+RPM_NAME = "conntrack-tools-1.4.9-1.4.aarch64.rpm"
+RPM_HASH = "7c193aa0ab3c88f263e3756f20580eb9f3611cf908a981e4da134ffb48b817f1ae0b3f98ba73baf631b6e8aa6d7296f227ca7375b2e179dd8ea4c03c9aa74759"
 
 RPROVIDES:${PN} += "conntrack-tools"
 

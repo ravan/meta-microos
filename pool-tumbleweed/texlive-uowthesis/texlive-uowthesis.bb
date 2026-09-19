@@ -6,10 +6,10 @@ of Higher Degree Research Theses' (March 2006), by the Research \
 Student Centre, Research & Innovation Division, UoW."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn19700"
+PV = "2026.226.1.0asvn19700"
 
-RPM_NAME = "texlive-uowthesis-2023.209.1.0asvn19700-54.1.noarch.rpm"
-RPM_HASH = "bc0122534e2650cc0289c9422e4e09de21bee4ba2760db601d893e9a374d8569af5a0b762542fbe9d2e711f915e649609e8cee1fc0d292d3fef2b4b1d47f476d"
+RPM_NAME = "texlive-uowthesis-2026.226.1.0asvn19700-60.2.noarch.rpm"
+RPM_HASH = "56af209af96c6942dd13a70bb0123fbd7424fcd8595ff0fd84850c21e1c4271b80e8363bd3b25f2c98599bcc98d47b6f53e03d9ac2e57dead16f9827f13b6945"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-UoWthesis.cls \

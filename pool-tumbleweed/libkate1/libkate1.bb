@@ -11,10 +11,10 @@ purpose. Motions can be attached to various semantics, like position, \
 color, etc, so scrolling or fading text can be defined."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.1"
+PV = "0.4.3"
 
-RPM_NAME = "libkate1-0.4.1-26.16.aarch64.rpm"
-RPM_HASH = "186bde70639aea3d5474198f7e9b1a60987de6798a9e282e6aacb7a193ff2fba55ccb480d857b009af63533417e6a0b3b58b1785ca0e86602d275732e180c5b5"
+RPM_NAME = "libkate1-0.4.3-1.7.aarch64.rpm"
+RPM_HASH = "d491a55d2052f3e65da1a46318b939321141d5724e9988d9d0ad1f89eeed7cbdac2f34faed3b1cd7234df5022337d32d9e026ff3a2f687b4d03881aef6c41335"
 
 RPROVIDES:${PN} += "libkate.so.1 \
 libkate1"

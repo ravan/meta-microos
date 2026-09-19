@@ -4,10 +4,10 @@ precise technical illustrations. Its output is scalable \
 PostScript or SVG, rather than the bitmaps Metafont creates."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.svn66264"
+PV = "2026.226.svn77830"
 
-RPM_NAME = "texlive-metapost-2023.209.svn66264-55.1.noarch.rpm"
-RPM_HASH = "bcfb063450d26f8e48efa0bfb42742c0a73379d7f7394a2ca0276ac91964357cbec7ee04eabdbb2f86c5633dd6b528bb71619552ff36580d4ca828224d5c7b72"
+RPM_NAME = "texlive-metapost-2026.226.svn77830-61.2.noarch.rpm"
+RPM_HASH = "95afaab2f5905ee88ef96e328035b1c8fc7650e1bcc7024f603e0185e8d2734e9f7658e5acc84e84b7b2515954e25aa12fa3232a0e5c1db154dbe17d649bbf1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-freeeuro.tfm \

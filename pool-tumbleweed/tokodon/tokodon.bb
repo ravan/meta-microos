@@ -3,44 +3,49 @@ DESCRIPTION = "Tokodon is a Mastodon client. It allows you to interact with the 
 community."
 LICENSE = "GPL-3.0-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "tokodon-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "8ce5b25a9a6782d644f5815e30b0bdc6286994ad73aa455a5556870420150cf58b64f6c3bad2c3e1049bf6fa4597d6513a7100e13498aee1ef4c5020ea4da158"
+RPM_NAME = "tokodon-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "8e65a74e529cc3a52f78faeab0e39798edaec3ceea1c0b35c366f7ac493e5059b5d6f5ec5d6092fbe279b1e01e3a469a267eea5371670a6796875a5eff9905e8"
 
 RPROVIDES:${PN} += "tokodon"
 
-RDEPENDS:${PN} += "kirigami-addons \
-kirigami2 \
-kitemmodels-imports \
+RDEPENDS:${PN} += "kf6-kirigami-imports \
+kf6-kitemmodels-imports \
+kf6-sonnet-imports \
+kirigami-addons6 \
 ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KIOCore.so.5 \
-libKF5Kirigami2.so.5 \
-libKF5Notifications.so.5 \
-libKF5WindowSystem.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5QuickControls2.so.5 \
-libQt5WebSockets.so.5 \
-libQt5Widgets.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOGui.so.6 \
+libKF6Notifications.so.6 \
+libKF6Purpose.so.6 \
+libKF6Service.so.6 \
+libKF6WindowSystem.so.6 \
+libKUnifiedPush.so.1 \
+libKirigamiAddonsStatefulApp.so.6 \
+libKirigamiApp.so.6 \
+libKirigamiPlatform.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6WebSockets.so.6 \
+libQt6WebView.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libgcc-s.so.1 \
 libm.so.6 \
-libmpv.so.2 \
-libqt5-qtgraphicaleffects \
-libqt5-qtquickcontrols \
-libqt5-qtquickcontrols2 \
-libqt5keychain.so.1 \
+libqt6keychain.so.1 \
 libstdc++.so.6 \
-sonnet-imports"
+qt6-declarative-imports \
+qt6-webview \
+qt6-webview-imports"
 
 inherit rpm

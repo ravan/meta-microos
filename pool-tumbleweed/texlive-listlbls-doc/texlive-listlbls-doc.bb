@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-listlbls"
 DESCRIPTION = "This package includes the documentation for texlive-listlbls"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.03svn34893"
+PV = "2026.226.1.04svn77682"
 
-RPM_NAME = "texlive-listlbls-doc-2023.209.1.03svn34893-55.1.noarch.rpm"
-RPM_HASH = "b060b86494eee60de5001f2e7daa97b90967e146be0480832eeda1378c489b9639d64d480c096ad3c0eec12eb165205c11661c00ed2e2c1aa3d317c36df0e46c"
+RPM_NAME = "texlive-listlbls-doc-2026.226.1.04svn77682-61.2.noarch.rpm"
+RPM_HASH = "87d639c326fb0aa61cad046b58075263ffc5e551c0f24f522a0791c43dad49e5557e8950a959ad15ca6d88fb0ea939b4a40163ffe2832278104c4bd6b7122b30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-listlbls-doc"

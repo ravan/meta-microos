@@ -3,10 +3,10 @@ DESCRIPTION = "The package is based on chess-problem-diagrams, which in its \
 turn has a dependency on the bartel-chess-fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12svn63708"
+PV = "2026.226.2.13svn78101"
 
-RPM_NAME = "texlive-schwalbe-chess-2023.209.2.12svn63708-54.1.noarch.rpm"
-RPM_HASH = "8c0ccdf97c7fdcfac54c21f700c1724db370be1cf6294f1184b93f19a5aacd8a382a0fdc7d94a9c5d93d3d610dabe59f650026ec05b15ed31c4f1187bc3f14d8"
+RPM_NAME = "texlive-schwalbe-chess-2026.226.2.13svn78101-60.2.noarch.rpm"
+RPM_HASH = "8cdf10766dc0c6c04f43afe5ade6b449b97bbca001d35c3688301bac9fd04dcc2e3ce595e18fb99869117fa21454930f80be0543053c017eee69f9f5d9aa99ef"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schwalbe.cls \

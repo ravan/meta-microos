@@ -35,8 +35,8 @@ LICENSE = "MIT"
 
 PV = "1.2.6"
 
-RPM_NAME = "xf86-video-voodoo-1.2.6-1.3.aarch64.rpm"
-RPM_HASH = "9729e20ecd63c62a92a240d01b3251f615ddcbfb8ee37964adedc5ead7048262a6facf76ebab9b3aa1cae676cb2cf99cff23520a80c1b51f951074ec96174b62"
+RPM_NAME = "xf86-video-voodoo-1.2.6-3.5.aarch64.rpm"
+RPM_HASH = "70475c36de9220656d97f50b6ec2027a42908f3983822264ad81d69d25920107fdf531d424ef2fbd09c324095ae9c80a821efa1ed312c0898232c368baa718b6"
 
 RPROVIDES:${PN} += "xf86-video-voodoo"
 

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0"
 
 PV = "1.1"
 
-RPM_NAME = "perl-SGMLS-1.1-1.19.aarch64.rpm"
-RPM_HASH = "3517947b4009cc9b57368d3835ff542c1bc73a7ca8abb4208ec7d171a279b4bd54c9182bc0d5257c6c6792ad969fed77ad2ef6692cf6e85f1d89ff3cb89a3ea8"
+RPM_NAME = "perl-SGMLS-1.1-1.33.aarch64.rpm"
+RPM_HASH = "5f829bf6e6d032c6a01a0d5fa0e4f95effd395b6f0fc91f3e5f25f121714f4b2819d1122aa7508ac999e483d4e5bd591b1d4665cf4d068304dba09f503231853"
 
 RPROVIDES:${PN} += "perl-SGMLS \
 perl-SGMLS--Output \
@@ -19,6 +19,6 @@ perl-SGMLS-Event \
 perl-SGMLS-Notation"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

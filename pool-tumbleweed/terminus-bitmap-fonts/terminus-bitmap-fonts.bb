@@ -20,8 +20,8 @@ LICENSE = "OFL-1.1"
 
 PV = "4.49.1"
 
-RPM_NAME = "terminus-bitmap-fonts-4.49.1-2.6.noarch.rpm"
-RPM_HASH = "648ce520b06e810107bd1566938637dab222c2ee77527fcfeb573fb6d5659a63d4706e2c8b348d94569be6b57846bc2d22d4ece2d41fc4203f612bc27938fd70"
+RPM_NAME = "terminus-bitmap-fonts-4.49.1-2.14.noarch.rpm"
+RPM_HASH = "6de9278dc3c58aaceced70e5f8a128a64747b11aaf3c954be9a3c4c91476bed08adc42cbfca72bf0a7d098fc4d6cc105126ff96f84d04cf6b50fa2756cceb52a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-ru;bg \

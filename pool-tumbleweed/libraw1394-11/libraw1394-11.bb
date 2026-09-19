@@ -12,8 +12,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.1.2"
 
-RPM_NAME = "libraw1394-11-2.1.2-1.12.aarch64.rpm"
-RPM_HASH = "b2f2aa871744bab0fa03b5e4ba36afef3b55f4b6464771d97b896ffa2dd31a83d4f7e1d22c1e32d0fa06475756c054327a0f3159f13fa329fdfaeef8d2c885e9"
+RPM_NAME = "libraw1394-11-2.1.2-2.9.aarch64.rpm"
+RPM_HASH = "c3e469a0bfd38ff4eeda79680d20ac3c150ce4ed2626e5f547717ece3e3fc2b3be2bbf59f888c0d2d694616ad1c3c42d9e13513d07e36a1d292dcc1fe90e805b"
 
 RPROVIDES:${PN} += "libraw1394-11 \
 libraw1394.so.11"

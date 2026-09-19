@@ -11,14 +11,14 @@ LICENSE = "Artistic-1.0 | GPL-2.0-or-later"
 
 PV = "0.29"
 
-RPM_NAME = "perl-X500-DN-0.29-109.16.aarch64.rpm"
-RPM_HASH = "59c32a2d015d828644d03482481c9bf35c6191a28accba7315ba1b7afd32f6475d7420a574605f0990c77a390d8831bdbd5bcba7274d99eca794a17d9f806f81"
+RPM_NAME = "perl-X500-DN-0.29-110.12.aarch64.rpm"
+RPM_HASH = "f0eb6820c186f25bed19d76a4cf8c043cfebf371391933a0618868fc0d286d5d1ce944d9e09f80164b2921fce0a91a4c3b273d6a5435aed916dcc1316e96f299"
 
 RPROVIDES:${PN} += "perl-X500--DN \
 perl-X500--RDN \
 perl-X500-DN"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Parse-RecDescent"
 
 inherit rpm

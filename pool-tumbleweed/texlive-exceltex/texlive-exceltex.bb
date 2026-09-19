@@ -6,16 +6,16 @@ contrast to other solutions, exceltex does not seek to make the \
 creation of tables in LaTeX easier, but to get data from \
 Spreadsheets into LaTeX as easily as possible. The Excel (TM) \
 file format only acts as an interface between the spreadsheet \
-application and exceltex beacause it is easily accessible (via \
+application and exceltex because it is easily accessible (via \
 the Spreadsheet::ParseExcel Perl module) and because most \
 spreadsheet applications are able to read and write Excel \
 files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.0.0.5.1svn26313"
+PV = "2026.226.0.0.5.1svn76924"
 
-RPM_NAME = "texlive-exceltex-2023.209.0.0.5.1svn26313-53.1.noarch.rpm"
-RPM_HASH = "f7a934e228dad2087ca2a5caa7fe6fd1ae09d7490dfa188119b0428b408241a121ebadf8c44eb242801078f3c1d91ba4cbb8f8ceb30e92d0cb026cd43a63fb2d"
+RPM_NAME = "texlive-exceltex-2026.226.0.0.5.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "62a4c9b34fe398f802411e5b917aaa835d305bf3e921de2460300296cbb049f86622ce120a7300574dcac12e523756aea19b76fbec4e5e4f89bfe63cc01b5605"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-exceltex.sty \

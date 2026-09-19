@@ -4,10 +4,10 @@ server ('dhcp-server' package) and client ('dhcp-client') as the \
 omshell and common manual pages."
 LICENSE = "MPL-2.0"
 
-PV = "4.4.2.P1"
+PV = "4.4.3.P1"
 
-RPM_NAME = "dhcp-4.4.2.P1-14.4.aarch64.rpm"
-RPM_HASH = "280ecf79b2d321c8e7673183615e07723834455aad87e12e3a7bf7b9a41f94fcfa7a2ebe4ed1211a7ad4251aa8094f2c1be20995429ff6f90bb7c4ca7da20c37"
+RPM_NAME = "dhcp-4.4.3.P1-1.2.aarch64.rpm"
+RPM_HASH = "d0eb39802b21d8376e310d1e39b1ffabf20e9b6c49cb57a38077e5d0dce73106ba4a100a572ef27ff2ccfb60a46955de89242d8b077faf298e17f6a19b807193"
 
 RPROVIDES:${PN} += "dhcp"
 

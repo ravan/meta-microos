@@ -4,12 +4,12 @@ Network Neighborhood with samba (Samba) and other SMB shares. It works \
 like smbfs, but instead of accessing one share at a time, all computers \
 and workgroups are accessible at once from a single filesystem mount, \
 making network browsing just as easy as it is on Windows."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "0.8.7"
 
-RPM_NAME = "fusesmb-0.8.7-128.29.aarch64.rpm"
-RPM_HASH = "9594f824d4e9fbc86903171438cc4a6ac352f7b3178f1fbc5d51b5c3f7cf9b006b304637f9f5d16f2a9d6801732360cfe279595f44fb7a6b1d1eb39748c3831f"
+RPM_NAME = "fusesmb-0.8.7-130.10.aarch64.rpm"
+RPM_HASH = "80313b4328830e0e6ad0116a29fcac0d7f0920017ddfed2a7fa2f406cc48e4bcf482c94e3d2694232f1e1f4f4bac8f82ebec988fed858d69b953bef8fe2395c8"
 
 RPROVIDES:${PN} += "fusesmb"
 

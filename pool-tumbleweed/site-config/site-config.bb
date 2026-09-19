@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.2"
 
-RPM_NAME = "site-config-0.2-14.4.aarch64.rpm"
-RPM_HASH = "1ce6eda502dd2186641ad6fad01298e69213317cfd7814a1a2b58086f95d301232f2a652a2c165bc8ccdea608c4c0ba6764f6c770694a86e858a3767ac4eeca7"
+RPM_NAME = "site-config-0.2-15.5.aarch64.rpm"
+RPM_HASH = "21bd7d45bcdb87d85db36929bd75f36577c4fa7b04cbc577f619384d1b42f8167cd7006cf75e4a8b704e4c4df39d0f588a0b8d87b08dc480f33c84009b0439c1"
 
 RPROVIDES:${PN} += "site-config"
 

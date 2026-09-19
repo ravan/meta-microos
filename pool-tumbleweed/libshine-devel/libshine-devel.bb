@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "libshine-devel-3.1.1-1.7.aarch64.rpm"
-RPM_HASH = "32e80d89bfd7f71bd6b1b16c756d22aec47c80b7ead3f2f0507f86bd49fa6d62cab2878fc1801f2a4ee6f8222ad70be2bcaf09551edd187e54f1aa54d899a03f"
+RPM_NAME = "libshine-devel-3.1.1-2.5.aarch64.rpm"
+RPM_HASH = "a1adcea9ce51124f416b141cd4306fc685e25371e0791fda5e96a2d0121c5fac2342bc95b9ca278651691713272fcc4d70cdf85799a6583a8ee3e5f2a56a447a"
 
 RPROVIDES:${PN} += "libshine-devel \
 pkgconfig-shine"

@@ -4,10 +4,10 @@ simply marshalled to/unmarshalled from: BER, DER, CER, BASIC-XER, \
 CXER, EXTENDED-XER, PER."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.9.28"
+PV = "0.9.29"
 
-RPM_NAME = "asn1c-0.9.28-2.14.aarch64.rpm"
-RPM_HASH = "f6a44804c9f67835bd1aa1781cf5ba34aa03b103d958d47f604a156b1e7ecdd62e28e32c113065b71e6cc1a8d48c4a681336a20b8ed118c2cf6b7259caa435ec"
+RPM_NAME = "asn1c-0.9.29-1.3.aarch64.rpm"
+RPM_HASH = "cfe579aad6b81785ae118f585e90a8583518d7ec38c5994fda1e0378dda8b06beca126a617fb128d348ac45e950e10fc885b1e2c3ee8b1914aca8ca0baed75e6"
 
 RPROVIDES:${PN} += "asn1c"
 

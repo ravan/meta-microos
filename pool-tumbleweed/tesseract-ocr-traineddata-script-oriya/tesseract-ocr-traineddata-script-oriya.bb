@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Oriya scrip
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-oriya-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "79e2487fc7a46f2da3c21b2ee555ff3ac238de3d3bb4ce3e97571253a754daff68f9eb4b3c6039780371a5df276670082bfa39c84735d156bee87cd257d4dbff"
+RPM_NAME = "tesseract-ocr-traineddata-script-oriya-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "4ace3299635964dcc31a84eabf3e78e2f86fc48467701d5c945a06e464c084c1316e0ab4b78a893757e6eea34ce994619ab8bdb3d8196c5a307aee060295e528"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-oriya"

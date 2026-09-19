@@ -8,10 +8,10 @@ synchronizing with the display refresh and potentially using a more \
 efficient mechanism than copying the contents of the source pixmap."
 LICENSE = "MIT"
 
-PV = "1.0.1"
+PV = "1.0.2"
 
-RPM_NAME = "libXpresent1-1.0.1-2.1.aarch64.rpm"
-RPM_HASH = "d9793c78fafc974cd62d38f3108fecc3054313f9ceaccc79e5415bf23edde005ece25b7ca668ec64702efc50063280c7d3b64930f4cac98602035a9785e40e46"
+RPM_NAME = "libXpresent1-1.0.2-1.5.aarch64.rpm"
+RPM_HASH = "3307f8620ba627b2eb27512aa189e111539059f0dab6c4160b63e520451ffcec3dd8d830e2b8e2fc5242bc7f70af360013c96be678845441f36a0c1dd3196f49"
 
 RPROVIDES:${PN} += "libXpresent.so.1 \
 libXpresent1"

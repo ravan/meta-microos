@@ -4,8 +4,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.0.2"
 
-RPM_NAME = "libzmf-devel-doc-0.0.2-1.44.noarch.rpm"
-RPM_HASH = "b9e5a3c18a22b471266509c54c038e632acb59c68ca4a03579636061d867da89ea41dfeb8bdcc8503307924a1586270d8cbd9363956369e39fef3d26e8abd9e6"
+RPM_NAME = "libzmf-devel-doc-0.0.2-2.8.noarch.rpm"
+RPM_HASH = "d58937f5d2654532ca3d8f0bddb1509d93f2b4b93305cc8607dd73cb34ee6ebb5e4984206f10888751ff311311275098ed40ccd6859feb2f63985c3cf6f58969"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libzmf-devel-doc"

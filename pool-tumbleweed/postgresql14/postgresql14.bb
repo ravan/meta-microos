@@ -11,10 +11,10 @@ HTML documentation for PostgreSQL can be found in the postgresql-docs \
 package."
 LICENSE = "PostgreSQL"
 
-PV = "14.8"
+PV = "14.24"
 
-RPM_NAME = "postgresql14-14.8-1.6.aarch64.rpm"
-RPM_HASH = "ec20f96bb15b88bed9a4661ada947bf50edc6e8feafce73487b02a8c3520baeeb9c36f622bd75e6b5fda9d1c318273b23cf266ea3df284dfc2ee1d48c459ca82"
+RPM_NAME = "postgresql14-14.24-2.2.aarch64.rpm"
+RPM_HASH = "8d564e5fb1a1c646bb87a4399011fed19ef720e448ee97fb117c2c80c9dae646ed08a6d6d62df0193aaa95f604c6e59ee0b0d5ae61bda16f9c93d45b0a962db8"
 
 RPROVIDES:${PN} += "postgresql \
 postgresql-implementation \
@@ -29,6 +29,7 @@ libpq.so.5 \
 libpq5 \
 libreadline.so.8 \
 libz.so.1 \
+pg-alts \
 postgresql-noarch"
 
 inherit rpm

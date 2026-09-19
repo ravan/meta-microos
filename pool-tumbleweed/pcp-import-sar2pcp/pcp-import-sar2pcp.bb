@@ -3,14 +3,15 @@ DESCRIPTION = "Performance Co-Pilot (PCP) front-end tools for importing sar data
 into standard PCP archive logs for replay with any PCP monitoring tool."
 LICENSE = "LGPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-import-sar2pcp-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "0bb231a0154664c57ca5061c17628742a2a380fab6dd4ddc58d0c3f3e4b53698c29adc831267b61464db89dd68d495092ec72c43b2e5ccba125d4d986a7f9c21"
+RPM_NAME = "pcp-import-sar2pcp-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "2818ebe77e4c0d623c3ea15d3bc959a7db111eb55eda70ea91153671911888107bd49ba7b11bd921bb01586dea22516fd568355b23a4ab87de9ed16393c46b9e"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-import-sar2pcp"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/perl \
 perl-PCP-LogImport \
 sysstat"
 

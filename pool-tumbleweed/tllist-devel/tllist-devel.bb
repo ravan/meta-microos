@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1.0"
 
-RPM_NAME = "tllist-devel-1.1.0-1.2.aarch64.rpm"
-RPM_HASH = "28850a1e7062e0247c2824ed909282182d5d9d41a48d8efb946d8e55ac29669ab4bd05f64c4c74e44e9f1a99e4c5d8fe8ef53817b4c7941d46899bc8f4e34473"
+RPM_NAME = "tllist-devel-1.1.0-1.10.aarch64.rpm"
+RPM_HASH = "5d8846019b12646f09cd7839f6cd2b6593e25d9b4ea2f8c4047b4d3b2350d9c19e2e7e109c71a2f5536e4d68367275d6da50c6fa4b22a7ad7fec006bff34315b"
 
 RPROVIDES:${PN} += "pkgconfig-tllist \
 tllist-devel"

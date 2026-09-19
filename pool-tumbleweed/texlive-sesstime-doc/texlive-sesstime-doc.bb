@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-sesstime"
 DESCRIPTION = "This package includes the documentation for texlive-sesstime"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.12svn49750"
+PV = "2026.226.1.1.3svn74748"
 
-RPM_NAME = "texlive-sesstime-doc-2023.209.1.12svn49750-54.1.noarch.rpm"
-RPM_HASH = "ef10d894e7ae6d3ab92f0ff2f45c7da67bd1158eb60eaad1d2b15dc1a63e6e7a80d55cc77967b95c8f0c61a2af01dcfd8a147c0a93ab378e241a7bc54cf06f71"
+RPM_NAME = "texlive-sesstime-doc-2026.226.1.1.3svn74748-60.2.noarch.rpm"
+RPM_HASH = "c7815ed52bbdbba8b49c404ebd703caca84ad0c40f11121df763b39fc345ea3d010b1bc7d639a18a8f8ac773871c7a90c5152e62bd88bd949033680f4439d167"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-sesstime-doc"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-decimal"
 DESCRIPTION = "This package includes the documentation for texlive-decimal"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23374"
+PV = "2026.226.svn23374"
 
-RPM_NAME = "texlive-decimal-doc-2023.209.svn23374-53.1.noarch.rpm"
-RPM_HASH = "402c83fa081f53cfeeb8798b30f656c0f306b586e942851b39080cc4bb0c91c202a10dc13c69aa83377c96e1cd8439352b010fbcf89602eb6bfc3bc5dd2732c4"
+RPM_NAME = "texlive-decimal-doc-2026.226.svn23374-59.2.noarch.rpm"
+RPM_HASH = "7ddec57670cfef39fef04fa6de677e4b232757742d771c4e96cfa94e50ccd78c2293750940944ea82d75f8f721879c5ac24cdc900699b23efe1d5392f4c7b51a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-decimal-doc"

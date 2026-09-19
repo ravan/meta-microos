@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lilyglyphs"
 DESCRIPTION = "This package includes the documentation for texlive-lilyglyphs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.4svn56473"
+PV = "2026.226.0.0.2.4svn56473"
 
-RPM_NAME = "texlive-lilyglyphs-doc-2023.209.0.0.2.4svn56473-55.1.noarch.rpm"
-RPM_HASH = "64311ebf57ef7b171d7170943cccf1dd0bb3ae0404e3530da9d97ee49b64f2550c01362d269a75a44cc85cd6e3c5d3b838c43456437fc27334cb851509d5de9b"
+RPM_NAME = "texlive-lilyglyphs-doc-2026.226.0.0.2.4svn56473-61.2.noarch.rpm"
+RPM_HASH = "bd00e3949b3ed8d425f4353a36b02be11e6272245cc41a03fa62d2898dfe7e1a0766d29409b00c71a843adf9e470c4069d192c240919295a1e8fe838d4709a2a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lilyglyphs-doc"

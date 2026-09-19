@@ -4,10 +4,10 @@ line diagrams; such diagrams are designed to fit into \
 Curriculum Vitae documents written using the moderncv class."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn55518"
+PV = "2026.226.0.0.11svn55518"
 
-RPM_NAME = "texlive-moderntimeline-2023.209.0.0.11svn55518-55.1.noarch.rpm"
-RPM_HASH = "7b38ab985e51fa61f8c6fddb9f29d709929d472ad6446281149e8a6b9dac2319dfb29152d3664e5f6359d1e12700e64d99d89a4e39725cbc673fb41b0654be65"
+RPM_NAME = "texlive-moderntimeline-2026.226.0.0.11svn55518-61.2.noarch.rpm"
+RPM_HASH = "9a721e9a8a5fdcea23b9c9272ab91a9e12dee3714cf175b9c0a01361c903cd91bcd66537b3b9e7e7ee7906240afcfd853108c8a15eae665ffc5d71f69daf48a6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-moderntimeline.sty \

@@ -5,13 +5,15 @@ weighted graph and uses an exact branch-and-bound algorithm. \
 This subpackage provides the development headers for Cliquer's library."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.22"
+PV = "1.23"
 
-RPM_NAME = "cliquer-devel-1.22-2.7.aarch64.rpm"
-RPM_HASH = "f102226aa739d436fad4555ef7023d075eaeff3c7e2353c872d6dc8be69f67daea04134b4f9fa45b429ac0630240fd80448865aaad9f9e52cd5e2f4c2de8f45c"
+RPM_NAME = "cliquer-devel-1.23-1.5.aarch64.rpm"
+RPM_HASH = "29c0da9555c5b5efc88722348fc751107c654bb430ab1865feeb4696251805a8f282bf1f53e1915b5e9f7f30d742da846dfd5fcd21ccf52699da0c9dda3df61f"
 
-RPROVIDES:${PN} += "cliquer-devel"
+RPROVIDES:${PN} += "cliquer-devel \
+pkgconfig-libcliquer"
 
-RDEPENDS:${PN} += "libcliquer1"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+libcliquer1"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "GNOME System Log Viewer"
 DESCRIPTION = "A utility for viewing detailed event logs for the system."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "43.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-logs-43.0-1.3.aarch64.rpm"
-RPM_HASH = "a7dd0312245c28360323a4d0cf9381474908dd856f70366d18ee7734a9d8188f61a1f4660b12a5e792692fbb3bc49b43776eb66a737e3b750a9c8cfa8f12aac4"
+RPM_NAME = "gnome-logs-50.0-1.3.aarch64.rpm"
+RPM_HASH = "5647fdb9c85af541825e2adb6817422eb75c2021544c857140f21a73e4217b379467b8e31a88f1c6f403ca8b0806c6b38d8c4aa5816098e2ba72b9c4b076aa27"
 
 RPROVIDES:${PN} += "gnome-logs"
 

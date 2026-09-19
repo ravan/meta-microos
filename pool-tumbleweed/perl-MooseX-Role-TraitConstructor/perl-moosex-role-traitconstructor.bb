@@ -6,14 +6,14 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "0.01"
 
-RPM_NAME = "perl-MooseX-Role-TraitConstructor-0.01-9.27.noarch.rpm"
-RPM_HASH = "1ae52f8811066f61bc55a097272bc8991d7594957621e663e8a305a9fb9755ab09ab129c112b32cec06d4806fe70a64fd388f32c6a0b7f3a90296dfab3a2cdf9"
+RPM_NAME = "perl-MooseX-Role-TraitConstructor-0.01-9.41.noarch.rpm"
+RPM_HASH = "c32db1fd1bb0f697e76a972b7b1013fe210d9f7e8b6a941fa7314222130f60d1ab82163c2610da3170df8c2d3f4fc2c9b1c8ba527a186ebe71904c35d3785a11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Role--TraitConstructor \
 perl-MooseX-Role-TraitConstructor"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Moose \
 perl-Test--Exception \
 perl-Test--use--ok"

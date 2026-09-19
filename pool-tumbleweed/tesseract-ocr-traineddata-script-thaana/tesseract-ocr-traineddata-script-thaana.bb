@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Thaana scri
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-thaana-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "ecc1535771ed3bd54098e5d088f908ddbf7e4ccb8b8ee5db195e8723c66c6a9df6b13c053976dfe49ff7cdb76ba447109d48918849bc8d4af816b3ffb0181e32"
+RPM_NAME = "tesseract-ocr-traineddata-script-thaana-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "7a894579bc253616d8b5ce3610e50ff8838a99499a03ccacc3fcd965adef3540191a68421fb7e6f1700da4e356c27ed1732065f9c3a67e9d9f01e716189a33b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-thaana"

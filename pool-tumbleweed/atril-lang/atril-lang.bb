@@ -2,10 +2,10 @@ SUMMARY = "Translations for package atril"
 DESCRIPTION = "Provides translations for the 'atril' package."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.4"
 
-RPM_NAME = "atril-lang-1.26.1-1.2.noarch.rpm"
-RPM_HASH = "3138550356550d084825e8429af69461fb3c4a14aecf604a9dff40be88680859ab23187e48a4329195be9f35597efb8625bf7a064d36d081aa21b30bbbe46f0d"
+RPM_NAME = "atril-lang-1.28.4-1.2.noarch.rpm"
+RPM_HASH = "4d7e939d2b88a0c59d54701b807f113a381f801d316888d878db8624fcf2873b596fd5adff22d9520536a049caea3c96bb563cf8175107c0002bddbb4202276d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atril-lang \
@@ -33,7 +33,6 @@ locale-atril-el \
 locale-atril-en-AU \
 locale-atril-en-CA \
 locale-atril-en-GB \
-locale-atril-en-US \
 locale-atril-eo \
 locale-atril-es \
 locale-atril-es-AR \
@@ -59,6 +58,7 @@ locale-atril-fr \
 locale-atril-fr-CA \
 locale-atril-fur \
 locale-atril-ga \
+locale-atril-gd \
 locale-atril-gl \
 locale-atril-gu \
 locale-atril-he \
@@ -72,6 +72,7 @@ locale-atril-it \
 locale-atril-ja \
 locale-atril-ka \
 locale-atril-kk \
+locale-atril-km \
 locale-atril-kn \
 locale-atril-ko \
 locale-atril-lt \

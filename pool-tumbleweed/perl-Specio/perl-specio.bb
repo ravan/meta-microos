@@ -8,29 +8,16 @@ value's type on assignment to a variable. In fact, there's no built-in way \
 to apply a type to a variable at all. \
  \
 Instead, you can explicitly check a value against a type, and optionally \
-coerce values to that type. \
- \
-My long-term goal is to replace Moose's built-in types and MooseX::Types \
-with this module."
+coerce values to that type."
 LICENSE = "Artistic-2.0"
 
-PV = "0.48"
+PV = "0.530.0"
 
-RPM_NAME = "perl-Specio-0.48-1.6.noarch.rpm"
-RPM_HASH = "51d1eaacb403776bb5d84f8d40146b3c2966cf7640c10bda8b2ed42adcb538a24e8cf6bdb096ff3b2d744f10be86cf7dc4cbfdbc22b6717b441b92e223c8ab42"
+RPM_NAME = "perl-Specio-0.530.0-1.5.noarch.rpm"
+RPM_HASH = "ae8c1837f58785d2cdb14667a0a65313121af5aac21865a8633be94f7e6b148242e35ccbffa93c8eefc7973d9943f78b9a1b9b58b6c697153cd6e715c7b46692"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "perl--T--ArrayOverload \
-perl--T--BoolOverload \
-perl--T--CodeOverload \
-perl--T--GlobOverload \
-perl--T--HashOverload \
-perl--T--NumOverload \
-perl--T--RegexOverload \
-perl--T--ScalarOverload \
-perl--T--StrOverload \
-perl--T--Thing \
-perl-Specio \
+RPROVIDES:${PN} += "perl-Specio \
 perl-Specio--Coercion \
 perl-Specio--Constraint--AnyCan \
 perl-Specio--Constraint--AnyDoes \
@@ -64,18 +51,23 @@ perl-Specio--Library--Structured--Dict \
 perl-Specio--Library--Structured--Map \
 perl-Specio--Library--Structured--Tuple \
 perl-Specio--OO \
+perl-Specio--PP \
 perl-Specio--PartialDump \
 perl-Specio--Registry \
 perl-Specio--Role--Inlinable \
 perl-Specio--Subs \
 perl-Specio--TypeChecks \
+perl-Specio--XS \
 perl-Test--Specio"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Clone \
+perl-Clone--PP \
 perl-Devel--StackTrace \
 perl-Eval--Closure \
 perl-List--Util \
 perl-MRO--Compat \
+perl-Module--Implementation \
 perl-Module--Runtime \
 perl-Role--Tiny \
 perl-Role--Tiny--With \

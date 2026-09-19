@@ -10,10 +10,10 @@ change, so once it's set up, you may never need to think about it \
 again."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.4"
+PV = "1.4.5"
 
-RPM_NAME = "rsnapshot-1.4.4-2.6.noarch.rpm"
-RPM_HASH = "24acf77f6e90d6d13815b4bebc932e0859b9dd1572ad9ba612a8cc80f7cf9a932d3653a6fa93d57da3b2f098d7c1598f0c8f376d1071f3b802ef86fd8c26d0e6"
+RPM_NAME = "rsnapshot-1.4.5-1.8.noarch.rpm"
+RPM_HASH = "971adbfb298c89b231100e61a2af08d5d4606897320213faca14f2caec3f323a1f863e98d428f41153603964be57754e3650f2d4c99498f52a67978e495389e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-rsnapshot \

@@ -2,10 +2,10 @@ SUMMARY = "Package xelatex-dev"
 DESCRIPTION = "The xelatex-dev package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62145"
+PV = "2026.226.svn71363"
 
-RPM_NAME = "texlive-xelatex-dev-2023.209.svn62145-53.2.noarch.rpm"
-RPM_HASH = "505399caec7c72f8dbb95a02b58a10fdca25d6d0c508cd2c44281c851e74bb0b41b6669b73a49343bdba2b81497ba0302135d25cd4fdc58348be6c1b31218e45"
+RPM_NAME = "texlive-xelatex-dev-2026.226.svn71363-59.4.noarch.rpm"
+RPM_HASH = "c7e56762f7a95e540473377c75b33295cf56959810b06e410000aeab54c8b76243011d9ece2a7fe1610de5385c1e1226900d997e4f4f8b8ea0577ed54f095f63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-xelatex-dev"
@@ -20,20 +20,15 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
-texlive-everyshi \
 texlive-filesystem \
-texlive-firstaid \
 texlive-hyphen-base \
+texlive-knuth-lib \
 texlive-kpathsea \
 texlive-kpathsea-bin \
-texlive-l3backend \
-texlive-l3kernel \
-texlive-l3packages \
-texlive-latex \
+texlive-l3backend-dev \
+texlive-l3kernel-dev \
 texlive-latex-base-dev \
 texlive-latex-firstaid-dev \
 texlive-latex-fonts \

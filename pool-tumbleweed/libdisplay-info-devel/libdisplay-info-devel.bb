@@ -5,19 +5,15 @@ for EDID and DisplayID. \
 This package contains headers for the library."
 LICENSE = "MIT"
 
-PV = "0.1.1"
+PV = "0.3.0"
 
-RPM_NAME = "libdisplay-info-devel-0.1.1-1.4.aarch64.rpm"
-RPM_HASH = "40241778839018249211a33d7d09f91b7c206fc3cb41c492d86813c7cbf239374fff09415109a74f71410611d81223b9ce4ec0f2197054b0c1bce190f4659f05"
+RPM_NAME = "libdisplay-info-devel-0.3.0-2.5.aarch64.rpm"
+RPM_HASH = "27fdfe4f83f8e907db4cc6f29b35e48debcf4237adbe2da85245f28ad14d782b7bb16278db8589e0d8e2badc55253f72fd41c37af1bc3a493f422529f687cde6"
 
 RPROVIDES:${PN} += "libdisplay-info-devel \
 pkgconfig-libdisplay-info"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-ld-linux-aarch64.so.1 \
-libc.so.6 \
-libdisplay-info.so.1 \
-libdisplay-info1 \
-libm.so.6"
+libdisplay-info3"
 
 inherit rpm

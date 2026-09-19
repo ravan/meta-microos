@@ -9,19 +9,19 @@ DESCRIPTION = "pianobar is a console client for the personalized web radio pando
 - proxy support for listeners outside the USA"
 LICENSE = "MIT"
 
-PV = "2022.04.01"
+PV = "2024.12.21"
 
-RPM_NAME = "pianobar-2022.04.01-1.5.aarch64.rpm"
-RPM_HASH = "182a4054bbcdfe799a3c7c3e9a332cb2c91a4508ca5d380771f9773a459a1b343bdff2a28c84820230d83a058cf8848205eb150b7010a4adb2fc0c80c5b1840e"
+RPM_NAME = "pianobar-2024.12.21-1.6.aarch64.rpm"
+RPM_HASH = "46865c9d276e10db65c59dc96a6c3cf551e76e7928e023929c1cdbc733efb53b8e73ac0929452cc16f28279f3f08d0056f581540bbd0694ca590f677921b75fc"
 
 RPROVIDES:${PN} += "pianobar"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libao.so.4 \
-libavcodec.so.60 \
-libavfilter.so.9 \
-libavformat.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavfilter.so.11 \
+libavformat.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcurl.so.4 \
 libgcrypt.so.20 \

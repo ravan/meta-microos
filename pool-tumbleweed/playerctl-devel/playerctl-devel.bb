@@ -5,8 +5,8 @@ LICENSE = "LGPL-3.0-or-later"
 
 PV = "2.4.1"
 
-RPM_NAME = "playerctl-devel-2.4.1-1.9.aarch64.rpm"
-RPM_HASH = "79ed4a820885ca86992629f8696c9cba7c2ac7bc367ee76e9e08abc86d1e7475f567df25e2a702cc90934922ccb0e2771fb9920a2599c2cfcd505b1dd9d64772"
+RPM_NAME = "playerctl-devel-2.4.1-1.21.aarch64.rpm"
+RPM_HASH = "9dc306c410e16844b7335d414b7f40592a7b8137875e574236ee971b14805fe10bd9328b0938f6804507010923a7ee001706e71a5fd58cb594dea71ed424bc8a"
 
 RPROVIDES:${PN} += "pkgconfig-playerctl \
 playerctl-devel"

@@ -4,14 +4,13 @@ DESCRIPTION = "This package contains development headers for Boost.Wave library.
 This package installs the default Boost version of the library."
 LICENSE = "MIT"
 
-PV = "1.82.0"
+PV = "1.91.0"
 
-RPM_NAME = "libboost_wave-devel-1.82.0-1.1.noarch.rpm"
-RPM_HASH = "2649f29f0da0e961f94acc7a1e0f322e1b92d4f472303796a6e9ac24750de8988d93033746d049586884aa29c1a34bfcdec98a0d6295efedd55178f7d336cbab"
-REPO_ARCH = "noarch"
+RPM_NAME = "libboost_wave-devel-1.91.0-2.1.aarch64.rpm"
+RPM_HASH = "7536a33eec8fe4a2f8de6421147b8be25d4ae83454bff7b62c79c1e22148f91ddf8d0281fa70cec0ffbf746c36a762741c20b7463429c79ea78550c3dbd4b757"
 
 RPROVIDES:${PN} += "libboost-wave-devel"
 
-RDEPENDS:${PN} += "libboost-wave1-82-0-devel"
+RDEPENDS:${PN} += "libboost-wave1-91-0-devel"
 
 inherit rpm

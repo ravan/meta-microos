@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "7.6"
 
-RPM_NAME = "libwrap0-7.6-895.4.aarch64.rpm"
-RPM_HASH = "df71e858ef1222aa03e8b2a2a1ab8cd8fde6c4dd70cdcefdcad4e49ec22f1a3b5441fc4572f1f2731fc124c1408bcacaa14b1d52d90ae273c5969f4d55c2e59c"
+RPM_NAME = "libwrap0-7.6-901.6.aarch64.rpm"
+RPM_HASH = "4ccc2e369ac1e827450d8d806857b216bab6fb4b534d48e279b38699d3c5fa6534d78033c7cd24823d6aecd5414029257dfb66c6076bd6d1d6d207ee29bb53a8"
 
 RPROVIDES:${PN} += "config-libwrap0 \
 libwrap.so.0 \

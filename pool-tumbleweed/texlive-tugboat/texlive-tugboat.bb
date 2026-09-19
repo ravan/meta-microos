@@ -4,10 +4,10 @@ of the TUGboat journal. Also provides a BibTeX style, \
 tugboat.bst."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.29svn66513"
+PV = "2026.226.2.36svn77682"
 
-RPM_NAME = "texlive-tugboat-2023.209.2.29svn66513-53.1.noarch.rpm"
-RPM_HASH = "2d32e533065c6b2917423231b3fff78f53671d8f2b85f12da5d9176e4515c76cd664954363c52f6837b6dba5dc57e221831202738c3827a1404292de3d45ec69"
+RPM_NAME = "texlive-tugboat-2026.226.2.36svn77682-59.2.noarch.rpm"
+RPM_HASH = "0a7b34f61a41cc225ec0498c4da88d8aeb72cfc76506514c5d36b17437a7c6ee45756d23b6cdce64ab0597f19ee7adc05cea0afc58936f899289139f01d91722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltugboat.cls \
@@ -24,6 +24,7 @@ findutils \
 grep \
 sed \
 tex-article.cls \
+tex-gettitlestring.sty \
 tex-mflogo.sty \
 texlive \
 texlive-filesystem \

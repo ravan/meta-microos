@@ -16,10 +16,10 @@ in August 2009. At that time everything, but the music, was released under \
 the GPL v2."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.15.5"
+PV = "2.15.6"
 
-RPM_NAME = "7kaa-2.15.5-1.8.aarch64.rpm"
-RPM_HASH = "9533b6859f44d75e32a376f7ebe1b071683e70bdb6205b243660d1c8300888d3dacc6a975ff21c8715bc55fc98e9039df725c960bfd8349f443de4f28475edfe"
+RPM_NAME = "7kaa-2.15.6-1.14.aarch64.rpm"
+RPM_HASH = "f8040121c6f5fbad965058f3dd3cdc46088e70eb20ef54bfd7c49acd91619f212383dc7899a90b7bfc060f386229c4eae5072082f9e51a6cdd9716badcae2b61"
 
 RPROVIDES:${PN} += "7kaa"
 

@@ -1,17 +1,19 @@
 SUMMARY = "Babel support for Latin"
 DESCRIPTION = "The babel-latin package provides the babel languages latin, \
-classiclatin, medievallatin, and ecclesiasticlatin. It also \
+classicallatin, medievallatin, and ecclesiasticallatin. It also \
 defines several useful shorthands as well as some modifiers for \
 typographical fine-tuning."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0svn59800"
+PV = "2026.226.4.3svn76176"
 
-RPM_NAME = "texlive-babel-latin-2023.209.4.0svn59800-54.1.noarch.rpm"
-RPM_HASH = "962ebc4c7e33040a97a67e7549c62e02473f5bc3d7bd754a162b79e2381ac7a9725f533ea24036daf3e60f07829b8aae8d9cf3c2d284bc7cc00873ff0f314228"
+RPM_NAME = "texlive-babel-latin-2026.226.4.3svn76176-60.2.noarch.rpm"
+RPM_HASH = "fe8db65a83cbc0cc04bbc3369c0ac6d689e2d180b837c7ccfe8f7396c90ef35555597786d0bccafcbdf7e3e93fb42cc83ae517ffb445fc52fbcab61d947a32e2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-classiclatin.ldf \
+RPROVIDES:${PN} += "tex-classicallatin.ldf \
+tex-classiclatin.ldf \
+tex-ecclesiasticallatin.ldf \
 tex-ecclesiasticlatin.ldf \
 tex-latin.ldf \
 tex-medievallatin.ldf \

@@ -6,8 +6,8 @@ LICENSE = "MIT"
 
 PV = "7.6_1"
 
-RPM_NAME = "xorg-x11-util-devel-7.6_1-10.16.noarch.rpm"
-RPM_HASH = "7d187c7f2b215eb265eacb06e64775c67d690bd759e7f58cba7ffa8ca04339fdf3c0161a4633166c4b7b4c89fd741304460ec779559edd007b5fc194f920cc89"
+RPM_NAME = "xorg-x11-util-devel-7.6_1-10.24.noarch.rpm"
+RPM_HASH = "f3aed2561a73301f582879ef2c516df47e0cc1e297557d419c91930e98ef0526784dc94d6c9505b3bcc4d0ab6fb856f00224e284c102b51e2496745e3a79e4c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-x11-util-devel"

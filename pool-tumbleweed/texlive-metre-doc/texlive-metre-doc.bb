@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-metre"
 DESCRIPTION = "This package includes the documentation for texlive-metre"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn18489"
+PV = "2026.226.1.0svn18489"
 
-RPM_NAME = "texlive-metre-doc-2023.209.1.0svn18489-55.1.noarch.rpm"
-RPM_HASH = "0ffbef83495c82b247e54a0059de781867b92fcdd8727e4750edfc111ad71107137105c0bcc1774bb27bc67bd0453226d69f8ad0dd0ccf53cd46f9393a90249f"
+RPM_NAME = "texlive-metre-doc-2026.226.1.0svn18489-61.2.noarch.rpm"
+RPM_HASH = "74437ef6edba3c7dcd2f57a246ba085b03d008478faeff66545048770b01f39772d134218e4eeff33621c5a35b3116135cdba98e864ac02147b659ef74b95c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-metre-doc"

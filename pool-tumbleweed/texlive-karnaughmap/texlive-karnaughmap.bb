@@ -5,10 +5,10 @@ macros, it provides a key-value system to customize \
 karnaughmaps and a proper LaTeX package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0svn36989"
+PV = "2026.226.2.0svn36989"
 
-RPM_NAME = "texlive-karnaughmap-2023.209.2.0svn36989-56.1.noarch.rpm"
-RPM_HASH = "d9e9d15e9d618523ce579757ac1e5b07a602e4f243f00bcef5da9b04617ebd0863c0ca42b5f127085c91efbe5908d8b1cee8da48deb15bfef6d8a44316ee431a"
+RPM_NAME = "texlive-karnaughmap-2026.226.2.0svn36989-63.2.noarch.rpm"
+RPM_HASH = "5f34324907c0fc0210cbdd7c00180a900c3ab800f4dd4e42f771c4815845f68bf2f935927248e272174e7fe6c42aae10b7afad18d5813823cbe05f4c54852e05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-karnaughmap.sty \

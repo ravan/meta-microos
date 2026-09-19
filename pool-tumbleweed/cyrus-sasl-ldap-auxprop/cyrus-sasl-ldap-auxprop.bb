@@ -5,8 +5,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-ldap-auxprop-2.1.28-5.2.aarch64.rpm"
-RPM_HASH = "4e1e25c5a0914df88024ef44f2472a9817db6a18225d17229b74670e823c3573f51b5a2a81842098d9368ad8c9cc33cc6571b356a3f39d0b813e54b07fe079c8"
+RPM_NAME = "cyrus-sasl-ldap-auxprop-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "1877261e9a87bec2c6b146188f4eaf06cae3c9c9ab480487319522593f5be753a93fefc0fcf4711dea4d9ef8bacb6e794ab4cd3ab961f0be7fb5082a53b53bc4"
 
 RPROVIDES:${PN} += "cyrus-sasl-ldap-auxprop \
 libldapdb.so.3"

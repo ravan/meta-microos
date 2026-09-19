@@ -3,10 +3,10 @@ DESCRIPTION = "Framework for storing, visualizing, and processing Universal Spec
 and Imaging Data (USID)."
 LICENSE = "MIT"
 
-PV = "0.0.10.post2"
+PV = "0.0.12"
 
-RPM_NAME = "python310-pyUSID-0.0.10.post2-1.4.noarch.rpm"
-RPM_HASH = "c2b559029a3d0bd4d3ce5cd014069bb9b6499d49e54d2e2d99c4034fc50f598040e4701636b01950d2727495216f6269bf9b67866b9140417e2013be25f24d1d"
+RPM_NAME = "python310-pyUSID-0.0.12-1.1.noarch.rpm"
+RPM_HASH = "e4b43fe76507347258569126d01a3dd5ccee083f4f53f5f80f0e1468f91320c8c35f22bf5b0dde0eaba9d2a39fd65018b670ebe390c3ec327dc1937dd4aa803c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3.10dist-pyusid \

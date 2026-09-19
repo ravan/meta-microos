@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.1.2"
 
-RPM_NAME = "autobench-2.1.2-3.13.aarch64.rpm"
-RPM_HASH = "6a584701304cf5002c7c4f1ebc889621b0468ae56ec5747153207d24cd715531a3d4bcd15d5df3b986f82f0e274939d82abb806eee7cf0302858447f7a71147b"
+RPM_NAME = "autobench-2.1.2-3.23.aarch64.rpm"
+RPM_HASH = "f6fb87eedf99ca629ebd338051d2c7448d280a61dc373e096afdeca3dc7e69724c3e65fcbd9467c6c2961c653c241bd92a1d2678c0e3321d7785258afa0cae6d"
 
 RPROVIDES:${PN} += "autobench \
 config-autobench"

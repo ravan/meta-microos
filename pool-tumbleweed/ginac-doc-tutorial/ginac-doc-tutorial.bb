@@ -5,10 +5,10 @@ open framework for symbolic computation within the C++ programming language. \
 This package provides a tutorial file for GiNaC in PDF format."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.8.6"
+PV = "1.8.10"
 
-RPM_NAME = "ginac-doc-tutorial-1.8.6-1.1.noarch.rpm"
-RPM_HASH = "22ac3c61afcfc7caed6c00e77b80b5d694b4d2f7575909055e2b943517ab4f5fdea10279fb71a295983efd2b712857cef2130d7ccfdfdf6e029d3992332c5812"
+RPM_NAME = "ginac-doc-tutorial-1.8.10-1.4.noarch.rpm"
+RPM_HASH = "a4607b77dda9af0504ec3dda9b611b0f3b494eae64490d41a9c2eedafab23f613f97c4c2f5785d5d919435144e61eb470f82f69c75b2a78da2615259404b5ae9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ginac-doc-tutorial"

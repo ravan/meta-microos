@@ -4,10 +4,10 @@ available to a font designer more slots for insertion of \
 ligatures and accented characters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn22050"
+PV = "2026.226.svn22050"
 
-RPM_NAME = "texlive-relenc-2023.209.svn22050-54.2.noarch.rpm"
-RPM_HASH = "fe5540d12c707d5167072d7712ccb8af77e4b5b4d51b50641811e291abfddc3b098255610e977898d6068260c48cae7915bb83711ce777ccdd7ac3b8a9a9640e"
+RPM_NAME = "texlive-relenc-2026.226.svn22050-60.4.noarch.rpm"
+RPM_HASH = "1686ff99601ec1c4ff06b573237b580966b275c741c69430e6c161103ea31d6cef5e84af79f703fc62ea78550edd2ecc82bbde30ca6fa6cad58a3604b4caa157"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-2sidedoc.sty \

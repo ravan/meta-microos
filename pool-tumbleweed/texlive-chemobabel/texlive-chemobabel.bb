@@ -9,10 +9,10 @@ execution of the following external commands via latex \
 for cropping large margins of PDF/EPS)"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.9lsvn64778"
+PV = "2026.226.0.0.9lsvn64778"
 
-RPM_NAME = "texlive-chemobabel-2023.209.0.0.9lsvn64778-54.1.noarch.rpm"
-RPM_HASH = "ebfc46107937266e2859f15c7d93183ee97b0c601d88baff857198a2881f71f4b864d4a0be3c488dbfb11001ff9ea5e9ef21cdbdad74a8a534600f027ad4f2f3"
+RPM_NAME = "texlive-chemobabel-2026.226.0.0.9lsvn64778-60.2.noarch.rpm"
+RPM_HASH = "6ec072c3033671fa94e529efc0750ca6b435c5deb4634d0046c654fa521d3747d7d8d2ea140ad18211fa8e9e683eae5bd59c9cabab28fb28f01e82a9270531d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-chemobabel.sty \

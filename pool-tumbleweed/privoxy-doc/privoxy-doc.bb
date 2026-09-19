@@ -5,10 +5,10 @@ browser and a web server and filters contents as described in the \
 configuration files."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.0.34"
+PV = "4.2.0"
 
-RPM_NAME = "privoxy-doc-3.0.34-1.4.noarch.rpm"
-RPM_HASH = "0c0c4b1ab7846e875cbfc67f8e47f810f7643a56d22324dcb67033fd0eef83881123e25a04702911bf8e6bc8df4a10470019c63bdaa3cf73420d859351eddec5"
+RPM_NAME = "privoxy-doc-4.2.0-1.3.noarch.rpm"
+RPM_HASH = "0cb746e3bf4fe5509189025c6b7ec3b1d471e2a0f58917bd6f89f10e49ac54c32f1515c59be5ae509a6f9156cee23124ad643a309dacbd87cca4982a55151f8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "privoxy-doc"

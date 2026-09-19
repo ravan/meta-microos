@@ -6,12 +6,14 @@ videos. Its plug-in-based architecture means that new data types or \
 processing capabilities can be added simply by installing new plug-ins."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-bad-1.22.5-2.1.aarch64.rpm"
-RPM_HASH = "cfd6b503b9d4632ecd51b0755ed495776406a9f6f538905b182a0da286924ae8f8fa3183285a40675b567bde22ed200f89de7177a536af48827b348ff67f9f54"
+RPM_NAME = "gstreamer-plugins-bad-1.28.7-1.1.aarch64.rpm"
+RPM_HASH = "e1c87d7546fa2c2f6c045041026d1928d6b14e74bc06c25766818ecb6e90c779003d66b76d99c092f1bfd4cd4b976637a2ec53146d08109860bc098bd9480fb6"
 
 RPROVIDES:${PN} += "gst-plugins-bad \
+gstreamer-1.20-plugin-openh264 \
+gstreamer-plugin-openh264 \
 gstreamer-plugins-bad \
 gstreamer1 \
 libgstaccurip.so \
@@ -19,6 +21,7 @@ libgstadpcmdec.so \
 libgstadpcmenc.so \
 libgstaes.so \
 libgstaiff.so \
+libgstanalyticsoverlay.so \
 libgstaom.so \
 libgstasfmux.so \
 libgstassrender.so \
@@ -35,6 +38,7 @@ libgstbs2b.so \
 libgstbz2.so \
 libgstcamerabin.so \
 libgstclosedcaption.so \
+libgstcodec2json.so \
 libgstcodecalpha.so \
 libgstcodectimestamper.so \
 libgstcoloreffects.so \
@@ -49,6 +53,7 @@ libgstdvb.so \
 libgstdvbsubenc.so \
 libgstdvbsuboverlay.so \
 libgstdvdspu.so \
+libgstfaad.so \
 libgstfaceoverlay.so \
 libgstfbdevsink.so \
 libgstfdkaac.so \
@@ -61,8 +66,10 @@ libgstgeometrictransform.so \
 libgstgme.so \
 libgstgsm.so \
 libgstgtkwayland.so \
+libgsthip.so \
 libgsthls.so \
 libgstid3tag.so \
+libgstinsertbin.so \
 libgstinter.so \
 libgstinterlace.so \
 libgstipcpipeline.so \
@@ -72,17 +79,17 @@ libgstjp2kdecimator.so \
 libgstjpegformat.so \
 libgstkms.so \
 libgstladspa.so \
+libgstlc3.so \
 libgstldac.so \
 libgstlegacyrawparse.so \
 libgstlv2.so \
 libgstmicrodns.so \
 libgstmidi.so \
-libgstmpeg2enc.so \
 libgstmpegpsdemux.so \
 libgstmpegpsmux.so \
 libgstmpegtsdemux.so \
 libgstmpegtsmux.so \
-libgstmplex.so \
+libgstmse.so \
 libgstmusepack.so \
 libgstmxf.so \
 libgstneonhttpsrc.so \
@@ -90,6 +97,7 @@ libgstnetsim.so \
 libgstnvcodec.so \
 libgstopenal.so \
 libgstopenexr.so \
+libgstopenh264.so \
 libgstopenjpeg.so \
 libgstopenmpt.so \
 libgstopusparse.so \
@@ -98,6 +106,7 @@ libgstpnm.so \
 libgstproxy.so \
 libgstqroverlay.so \
 libgstremovesilence.so \
+libgstresindvd.so \
 libgstrfbsrc.so \
 libgstrist.so \
 libgstrsvg.so \
@@ -105,9 +114,11 @@ libgstrtmp2.so \
 libgstrtpmanagerbad.so \
 libgstrtponvif.so \
 libgstsbc.so \
+libgstsctp.so \
 libgstsdpelem.so \
 libgstsegmentclip.so \
 libgstshm.so \
+libgstsiren.so \
 libgstsmooth.so \
 libgstsmoothstreaming.so \
 libgstsndfile.so \
@@ -117,10 +128,14 @@ libgstspeed.so \
 libgstsrt.so \
 libgstsrtp.so \
 libgstsubenc.so \
+libgstsvtav1.so \
 libgstswitchbin.so \
 libgstteletext.so \
+libgsttensordecoders.so \
 libgsttimecode.so \
 libgstttmlsubs.so \
+libgstunixfd.so \
+libgstuvcgadget.so \
 libgstuvch264.so \
 libgstv4l2codecs.so \
 libgstva.so \
@@ -128,6 +143,7 @@ libgstvideofiltersbad.so \
 libgstvideoframe-audiolevel.so \
 libgstvideoparsersbad.so \
 libgstvideosignal.so \
+libgstvmaf.so \
 libgstvmnc.so \
 libgstvoamrwbenc.so \
 libgstvulkan.so \
@@ -135,19 +151,19 @@ libgstwaylandsink.so \
 libgstwebp.so \
 libgstwebrtc.so \
 libgstwebrtcdsp.so \
-libgsty4mdec.so \
 libgstzbar.so \
 libgstzxing.so \
 patched-subset"
 
 RDEPENDS:${PN} += "glib2-tools \
 ld-linux-aarch64.so.1 \
-libIex-3-1.so.30 \
-libImath-3-1.so.29 \
-libOpenEXR-3-1.so.30 \
+libIex-3-4.so.33 \
+libImath-3-2.so.30 \
+libOpenEXR-3-4.so.33 \
 libSoundTouch.so.1 \
+libSvtAv1Enc.so.4 \
 libX11.so.6 \
-libZXing.so.3 \
+libZXing.so.4 \
 libaom.so.3 \
 libass.so.9 \
 libavtp.so.0 \
@@ -160,6 +176,9 @@ libcurl.so.4 \
 libdc1394.so.26 \
 libdca.so.0 \
 libdrm.so.2 \
+libdvdnav.so.4 \
+libdvdread.so.8 \
+libfaad.so.2 \
 libfdk-aac.so.2 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
@@ -171,6 +190,7 @@ libgobject-2.0.so.0 \
 libgsm.so.1 \
 libgstadaptivedemux-1.0.so.0 \
 libgstallocators-1.0.so.0 \
+libgstanalytics-1.0.so.0 \
 libgstapp-1.0.so.0 \
 libgstaudio-1.0.so.0 \
 libgstbadaudio-1.0.so.0 \
@@ -181,8 +201,11 @@ libgstcodecs-1.0.so.0 \
 libgstcuda-1.0.so.0 \
 libgstfft-1.0.so.0 \
 libgstgl-1.0.so.0 \
+libgsthip-1.0.so.0 \
+libgstinsertbin-1.0.so.0 \
 libgstisoff-1.0.so.0 \
 libgstmpegts-1.0.so.0 \
+libgstmse-1.0.so.0 \
 libgstnet-1.0.so.0 \
 libgstpbutils-1.0.so.0 \
 libgstphotography-1.0.so.0 \
@@ -201,18 +224,16 @@ libgstwebrtcnice-1.0.so.0 \
 libgtk-3.so.0 \
 libgudev-1.0.so.0 \
 libjson-glib-1.0.so.0 \
+liblc3.so.1 \
 liblcms2.so.2 \
 libldacBT-enc.so.2 \
 liblilv-0.so.0 \
-liblrdf.so.2 \
 libm.so.6 \
 libmicrodns.so.1 \
-libmjpegutils-2.2.so.0 \
 libmpcdec.so.6 \
-libmpeg2encpp-2.2.so.0 \
-libmplex2-2.2.so.0 \
 libneon.so.27 \
 libopenal.so.1 \
+libopenh264.so.8 \
 libopenjp2.so.7 \
 libopenmpt.so.0 \
 libopus.so.0 \
@@ -230,12 +251,14 @@ libssl.so.3 \
 libstdc++.so.6 \
 libusb-1.0.so.0 \
 libva.so.2 \
+libvmaf.so.3 \
 libvo-amrwbenc.so.0 \
 libvulkan.so.1 \
 libwayland-client.so.0 \
 libwebp.so.7 \
-libwebrtc-audio-processing.so.1 \
-libxml2.so.2 \
+libwebpmux.so.3 \
+libwebrtc-audio-processing-1.so.3 \
+libxml2.so.16 \
 libzbar.so.0 \
 libzvbi.so.0"
 

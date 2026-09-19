@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-bbold-type1"
 DESCRIPTION = "The  separated fonts package for texlive-bbold-type1"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn33143"
+PV = "2026.226.svn33143"
 
-RPM_NAME = "texlive-bbold-type1-fonts-2023.209.svn33143-54.1.noarch.rpm"
-RPM_HASH = "fd409a6083cbd621575f51b59f4f31c188fcb2edd5656b226e391aea2431d4c75c272f50adcb7a359edd64e99142d698e7e99f1f35f001786a8daaf2387ec61f"
+RPM_NAME = "texlive-bbold-type1-fonts-2026.226.svn33143-61.2.noarch.rpm"
+RPM_HASH = "948a2628972fa96cbcd3b028124ac4602be7cbafa17b7b8259b83ecc031d6936c778e1b225545fc876384bc2f02c2e73ef06e912d3dcdcc3a6874a08c1a7fed4"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

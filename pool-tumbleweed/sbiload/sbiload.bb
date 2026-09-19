@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "sbiload-0.4.0-24.4.aarch64.rpm"
-RPM_HASH = "bcd5c3596d7cf0e554f55b1f57a94289d6fc62b2da6037c3f45039c543f6175465199721191a43ffca2d820bde781bd6f32a245f8e8835f0b0c727a48a609dfd"
+RPM_NAME = "sbiload-0.4.0-29.4.aarch64.rpm"
+RPM_HASH = "813667b22a45f9d8a82e25bb3577a5da9793d319ab5be5bd126ecf89fbcce4673fdc0067a95d63c70e11b749090557357f53f1ac5783621ed94c7ab102a7f8b0"
 
 RPROVIDES:${PN} += "alsa-tools-/usr/bin/sbiload \
 sbiload"

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "libfm-extra-devel-1.3.1-1.21.aarch64.rpm"
-RPM_HASH = "a608fc24332477b1a22702f6e80b23aa0f2a3eae8259c499687e088783ea7e1679b9d8c81085ed1e7f2b809f77564248f431c94a7961f357dda9ca0d7e353886"
+RPM_NAME = "libfm-extra-devel-1.3.1-2.4.aarch64.rpm"
+RPM_HASH = "51c478f1ada7f94c1fc0096522b3e57b32cf5355032c8dcdb179e7b29a7cc3b431e0f1d658497fba0fba114745bb1204849938174a4e46505da21827c48112c6"
 
 RPROVIDES:${PN} += "libfm-extra-devel \
 pkgconfig-libfm-extra"

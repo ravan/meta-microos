@@ -11,10 +11,10 @@ looking code which calls asynchronous APIs from GIO underneath. \
 This package contains the shared library for libdex."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.2.0"
+PV = "1.1.0"
 
-RPM_NAME = "libdex-1-1-0.2.0-1.1.aarch64.rpm"
-RPM_HASH = "d00689f36589fd17e2d31a9f28be3423cc77d93b342a6bf2c7421a9baefb71ae9b4f958f5ed9846a135335138000d6a6b89c6ee712b3abaf31167789752814d0"
+RPM_NAME = "libdex-1-1-1.1.0-1.4.aarch64.rpm"
+RPM_HASH = "02af1c9c7fe7e758d7d24790508e04983523c5b468f39eb7b55e052bbc14ef41738dc9ce0dbff0d0aa1235084d0469949b22b54a3fd1644f0f9e1233ba92168d"
 
 RPROVIDES:${PN} += "libdex-1-1 \
 libdex-1.so.1"

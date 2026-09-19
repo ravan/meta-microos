@@ -8,10 +8,10 @@ additional abilities, such as facilities for a list of poems, \
 an index of first lines, and some structural commands."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.2svn53129"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-poetry-2023.209.2.2svn53129-53.1.noarch.rpm"
-RPM_HASH = "d9b6633dc5d181556aae9fa42cc61fe65c3304a0cbf388ca84ca99b0b55daa76a2331a11bfb72bffc77b54f30d230abdb85067e55c3b9e049b853a2025ae4ee9"
+RPM_NAME = "texlive-poetry-2026.226.2.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "e80b28a1d812ba58c87802cdfee824801ffb1f806257d5af6894eb4644fb0d839e1941b4b6982412814abb16b99dd1415fe5aa3ea433fd864239e4864be3e0e4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-poetry.sty \

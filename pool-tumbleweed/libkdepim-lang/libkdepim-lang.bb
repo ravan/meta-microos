@@ -2,16 +2,17 @@ SUMMARY = "Translations for package libkdepim"
 DESCRIPTION = "Provides translations for the 'libkdepim' package."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "libkdepim-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "b9104b305c321af9882e0961a20b219dabb700a30e630e38e81825063f210976f7042592dbacf86bd1904e9f02c04f2da2cb66cf11b7490fddb004cf1081edda"
+RPM_NAME = "libkdepim-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "dcf323edec595b39056d5b4ab0a20fb6748ec384b94fa08550fcc681136a2b3c5584421c150bf906e720435b003323b93f20dd0d40d912426b2f42f03dcd33c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libkdepim-lang \
 libkdepim-lang-all \
 locale-libkdepim-af \
 locale-libkdepim-ar \
+locale-libkdepim-ast \
 locale-libkdepim-be \
 locale-libkdepim-bg \
 locale-libkdepim-br \

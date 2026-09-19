@@ -3,22 +3,22 @@ DESCRIPTION = "This package provides the Haskell tasty-quickcheck library develo
 files."
 LICENSE = "MIT"
 
-PV = "0.10.2"
+PV = "0.11.1"
 
-RPM_NAME = "ghc-tasty-quickcheck-devel-0.10.2-2.5.aarch64.rpm"
-RPM_HASH = "4d3d06fb8ebd9228f7b370ff476c608b22ca53bc4aca856edc438ac771c30191a7049cedbe752817110a19149d3ce62290d8500cbd97b7da3dc030f02cb13fd4"
+RPM_NAME = "ghc-tasty-quickcheck-devel-0.11.1-5.3.aarch64.rpm"
+RPM_HASH = "51b6fc321a24b0a5aa257bb8af496e8a1764b2e48403d98cb04249093bc92dd44cac7d654a1135b6dfc1a77be5532f2da1b4ce635fb1012ddde8f52e030e04fd"
 
-RPROVIDES:${PN} += "ghc-devel-tasty-quickcheck-0.10.2-2UFPyzLXBXCItwO8bufmfg \
+RPROVIDES:${PN} += "ghc-devel-tasty-quickcheck-0.11.1-1xtFKrSdVsH6cXLURYqoyy \
 ghc-tasty-quickcheck-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-QuickCheck-2.14.3-EdzpnPTYr1uH7EoNAOpgI8 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-optparse-applicative-0.18.1.0-7FhZIXYdOMtK1gl2fqKmzm \
-ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-devel-tagged-0.8.8-F8tUU1VLXnpEnuQm0aKvax \
-ghc-devel-tasty-1.4.3-EvDBAB3nA5D6U1ANfXkHR \
+ghc-devel-QuickCheck-2.15.0.1-BiJUyvfspYF6JuhHRqpj7J \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-optparse-applicative-0.19.0.0-GyrRSLDSSh1GQCxnTYbnDq \
+ghc-devel-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-devel-tagged-0.8.10-H6Ef5dd4ktu4CIJjtjtwM7 \
+ghc-devel-tasty-1.5.4-1HxvBgEXkE5Beb2ChlE06d \
 ghc-tasty-quickcheck"
 
 inherit rpm

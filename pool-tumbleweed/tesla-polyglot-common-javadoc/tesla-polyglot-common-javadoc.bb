@@ -4,8 +4,8 @@ LICENSE = "EPL-1.0"
 
 PV = "0.4.5"
 
-RPM_NAME = "tesla-polyglot-common-javadoc-0.4.5-1.4.noarch.rpm"
-RPM_HASH = "f31b204d19e9b5404f4b74c19f9ff7773df141157af6d7d82022e7908381f6f0685a54bf1afc9db38771bddf5f3757ae053fc45ca279e1f36b34f0448e36854f"
+RPM_NAME = "tesla-polyglot-common-javadoc-0.4.5-2.7.noarch.rpm"
+RPM_HASH = "2886287dfea650c0b5bdeeea785ffd04a02fdcf234433e546261b1435f78918fbf468f39c553600b4cb66f97bc0d59c62b59c325d5ff5de8c095dea3bee65077"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesla-polyglot-common-javadoc"

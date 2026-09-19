@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dsptricks"
 DESCRIPTION = "This package includes the documentation for texlive-dsptricks"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn34724"
+PV = "2026.226.1.1svn68753"
 
-RPM_NAME = "texlive-dsptricks-doc-2023.209.1.0svn34724-53.1.noarch.rpm"
-RPM_HASH = "867a6e0e1bb1e362f1074b5e8afab6b3db5bdc7fa6f1a847dd27e07002605ad27037296a1cfe1965a75cf06f35da3ff4ed7ad71bedc6a7330b76883217d8fde1"
+RPM_NAME = "texlive-dsptricks-doc-2026.226.1.1svn68753-59.2.noarch.rpm"
+RPM_HASH = "ed6171c966e909b1440ec66d9d6e11339866d6d720592e277e59e0b750c68ca0b339e326934811f127524f82f7c62b72fc5843f8a405e9cba97a3581bfcd014f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dsptricks-doc"

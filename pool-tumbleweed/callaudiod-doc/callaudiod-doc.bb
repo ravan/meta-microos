@@ -3,10 +3,10 @@ DESCRIPTION = "A daemon for audio calls. \
 This package contains API documentation for callaudiod."
 LICENSE = "GPL-3.0-or-later & MIT"
 
-PV = "0.1.7"
+PV = "0.1.99"
 
-RPM_NAME = "callaudiod-doc-0.1.7-1.1.noarch.rpm"
-RPM_HASH = "dc57bcc283940becec6df6447d3820d0f5015158398ce81bb2d8d261e9455d8b08736e694870bbd9133ba54dc70b7b89956536aa853dfcfc4faa4c7da0ebf5b4"
+RPM_NAME = "callaudiod-doc-0.1.99-2.1.noarch.rpm"
+RPM_HASH = "266887623f679ae80a6411808ad4682504d1b079bd1255a7517b2b06c8ae9786dfdb2785e0161b327c362934249f5567c4282f6b457005fb52ec7b6859096bae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "callaudiod-doc"

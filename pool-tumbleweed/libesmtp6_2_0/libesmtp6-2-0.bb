@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libesmtp6_2_0-1.1.0-1.5.aarch64.rpm"
-RPM_HASH = "e51b2b97f80be54e8ad76bc8507e51125c5f42bb0e49a95b944ba665c822c5887e592b4ab3d4aea79b495c7fb8e2df83256d2d8b12891fdc4014faad07eb02db"
+RPM_NAME = "libesmtp6_2_0-1.1.0-3.7.aarch64.rpm"
+RPM_HASH = "2c1fdc72c27f56f3933fd7a67eb8ed3819066d6ca0811c83730acfd675da74403d16c4940375f9bcf94aa586ab50b8613929b4eada2d009c11898b7ec7991252"
 
 RPROVIDES:${PN} += "libesmtp.so.6.2.0 \
 libesmtp6-2-0"

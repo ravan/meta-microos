@@ -30,14 +30,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.2311"
 
-RPM_NAME = "perl-File-Temp-0.2311-1.14.noarch.rpm"
-RPM_HASH = "8eec7a0ce8b01023204fef9081aa9913741931cf5bfc7a079b89d6f554b3b1bd2238c6cfb18296a250bec8d8260884252cc270e629dd7c19e039ebc0eb87aae0"
+RPM_NAME = "perl-File-Temp-0.2311-1.28.noarch.rpm"
+RPM_HASH = "1e778e481b9d184dce17115567726a2dde1510d34aaf77267ff3a74f8dd910188ac9297e170709ab66050b134969ee8c9fdec82cf2446fe27364c735d207f849"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--Temp \
 perl-File-Temp"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Path \
 perl-parent"
 

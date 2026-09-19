@@ -3,10 +3,10 @@ DESCRIPTION = "SPIRV-Cross is a tool and library designed for parsing and \
 converting SPIR-V to other shader languages."
 LICENSE = "Apache-2.0 | MIT"
 
-PV = "1.3.261.0"
+PV = "1.4.313.0"
 
-RPM_NAME = "libspirv-cross-c-shared0-1.3.261.0-1.1.aarch64.rpm"
-RPM_HASH = "15c925163feca67f509a4662f65d519e42ef4ac97f2a066df0950279054e8af573634cf633ca8df8f32d9b8ee3b16430e264292ad1a2c0fd01df0337c0fc03b4"
+RPM_NAME = "libspirv-cross-c-shared0-1.4.313.0-1.5.aarch64.rpm"
+RPM_HASH = "d3b231f669b3dfbcd30f850d5f609c14805cd09ccdb64bc60d1fa3dcc540fb02b0ec2a09d9f3fa997f8bad8c48a174eea94bea7b8ea068b99b2ca8c4c0e116d4"
 
 RPROVIDES:${PN} += "libspirv-cross-c-shared.so.0 \
 libspirv-cross-c-shared0"

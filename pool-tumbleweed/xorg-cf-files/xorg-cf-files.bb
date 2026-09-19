@@ -12,10 +12,10 @@ building existing external software programs that have not yet \
 converted."
 LICENSE = "MIT"
 
-PV = "1.0.8"
+PV = "1.0.9"
 
-RPM_NAME = "xorg-cf-files-1.0.8-1.1.noarch.rpm"
-RPM_HASH = "ee6cef5fe75a12f7417bc057347fdba20afc3e12e8ed5c8910a013bf89e2f00fb7ee2ccc7e8d45a7a869e225b7ac48ac418a4e17c183fd8849af0c6f62ba4721"
+RPM_NAME = "xorg-cf-files-1.0.9-3.3.noarch.rpm"
+RPM_HASH = "ae90a6b1c172f7a37ce1f6e8ac7b6e3b0aac0757fd8ec8d887cdc0aa5391a19b93b54e3e37a26a722370b049952861205a908622ab40b04ffdf6e7a768f4db3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xorg-cf-files"

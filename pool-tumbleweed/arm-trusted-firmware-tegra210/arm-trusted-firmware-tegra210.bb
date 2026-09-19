@@ -4,10 +4,10 @@ software for Armv7-A and Armv8-A, including a Secure Monitor executing at \
 Exception Level 3 (EL3)."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.8.6"
+PV = "2.12.8"
 
-RPM_NAME = "arm-trusted-firmware-tegra210-2.8.6-1.1.noarch.rpm"
-RPM_HASH = "5fd8535f901ce4da85ba7198f73018b523769a1878da4ff0a657088a91ba0d2fc47764ff8c65088d1f633c1df0764889ee6984ca72931bc619b849ead12e3b53"
+RPM_NAME = "arm-trusted-firmware-tegra210-2.12.8-4.1.noarch.rpm"
+RPM_HASH = "377b29848596fdcb8e877546c00ba5056236ba67659741ce881a3ef5a581ef25c3242d413b0f83ea2e4b66b312c40ac7393a9bdb633808929737aa6eefde3fa5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "arm-trusted-firmware-tegra210"

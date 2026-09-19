@@ -2,10 +2,10 @@ SUMMARY = "Performance Co-Pilot run-time MMV library"
 DESCRIPTION = "Performance Co-Pilot (PCP) run-time Memory Mapped Values library"
 LICENSE = "LGPL-2.1+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "libpcp_mmv1-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "6c6157bb7ed41ac66a5540db7b2d66dacbfd844e22c9826796ab0c0ff5a0c569e33ca97c603de7f68178949d44b841ce025540aec86ea12f990021e297ffcc8b"
+RPM_NAME = "libpcp_mmv1-6.3.8-3.1.aarch64.rpm"
+RPM_HASH = "c4e05f9ff4710c158b140663721847182920e79c5d90d1ee14953ecaf40fe07f25377e78eac97d58ffd9a4786ee89af81d71139a9271445f37d296b3c59c0df3"
 
 RPROVIDES:${PN} += "libpcp-mmv.so.1 \
 libpcp-mmv1"

@@ -1,18 +1,18 @@
-SUMMARY = "A perlish implementation of Java like inner classes"
+SUMMARY = "Perlish implementation of Java like inner classes"
 DESCRIPTION = "Yet another implementation of an anonymous class with per object \
 overrideable methods, but with the added attraction of sort of working \
 dispatch to the parent class's method."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.200001"
+PV = "0.200.1"
 
-RPM_NAME = "perl-Class-Inner-0.200001-13.28.noarch.rpm"
-RPM_HASH = "7685b159c41b170b34fedcd194ba21d2f70ba8895fe4aac508b406747afe018382b08ae2fb9b49e61e09bad37274335b0670f1e4d6e386a64a7daec6d0f35c4b"
+RPM_NAME = "perl-Class-Inner-0.200.1-1.7.noarch.rpm"
+RPM_HASH = "287aeb858fc96557efd48baded707b6abed0cc8a4f2b7244090d2a6e57579fcf1e3d9e6a6eeb87320af0b2de59c20a38ca7604e6dac8b08fd63aab773ed1fe51"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Class--Inner \
 perl-Class-Inner"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

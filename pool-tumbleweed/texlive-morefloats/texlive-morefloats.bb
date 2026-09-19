@@ -8,10 +8,10 @@ of floats merely delays the arrival of the inevitable error \
 message."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn37927"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-morefloats-2023.209.1.0hsvn37927-55.1.noarch.rpm"
-RPM_HASH = "0cf33e90d9140349baf1841eae310aac325a263c2ab69ec1ae3a0ec1613fa7b082b03b2d83a9d21e406224939d10fc5fce95de9d8d939dcd6000075db8f9bc4e"
+RPM_NAME = "texlive-morefloats-2026.226.1.1asvn77682-61.2.noarch.rpm"
+RPM_HASH = "c529f04ebe4a4e8b58520d29a7f41bd769177110c73fad54bb15f25d2a2655e3ff7d74c5bdc98f375b2104fcd37553795a7e2a9c4c81b95cc406c4954be81ce6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-morefloats.sty \

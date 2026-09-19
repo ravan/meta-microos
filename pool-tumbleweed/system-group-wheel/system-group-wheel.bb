@@ -2,10 +2,10 @@ SUMMARY = "System group 'wheel'"
 DESCRIPTION = "This package provides the system group 'wheel'."
 LICENSE = "MIT"
 
-PV = "20170617"
+PV = "20250822"
 
-RPM_NAME = "system-group-wheel-20170617-24.16.noarch.rpm"
-RPM_HASH = "544e22892f6cfc5d57aff7cb0adca5425182d2c47b3cabb435ca1c48e4448b999d6dd3340c7d9a520edc389ef4dd90cadcaa76871d76ddcbf46bf7594de5db3b"
+RPM_NAME = "system-group-wheel-20250822-2.3.noarch.rpm"
+RPM_HASH = "c8762ee3227e029f546691f8d87381a3dd2d3f79a56c6daaaedffc33360ca5994fd6aa1ee3d97755de18a8017a1305ff9cd5f3c1d158ffb3ab712623b1b7bdac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "group-wheel \

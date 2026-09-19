@@ -3,10 +3,10 @@ DESCRIPTION = "Functionality to handle Smile XML input/output for JAX-RS impleme
 (like Jersey and RESTeasy) using standard Jackson data binding."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-jaxrs-xml-provider-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "b71a70e79eabbf17032ea0134244307ed03712aa0013db3eb9db202db395bbc292a00ab0d55ed8eb84077b9f96a541c8ddd8c22db4cfd24406725db23a177aa7"
+RPM_NAME = "jackson-jaxrs-xml-provider-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "98474937eec110e1df83bdebbdbd1795dc245e81045ce358928a8ba1850a1b905fc0585a4a1e6d5eaf2fc638eabf2d4fc8c6ee887a3939f03b6e3e520dab3a9c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-xml-provider \

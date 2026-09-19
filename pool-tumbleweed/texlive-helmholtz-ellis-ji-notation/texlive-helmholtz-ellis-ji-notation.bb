@@ -16,10 +16,10 @@ theoretical texts, program notes, symbol legends, etc. \
 Documents must be compiled using XeLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn55213"
+PV = "2026.226.1.1svn55213"
 
-RPM_NAME = "texlive-helmholtz-ellis-ji-notation-2023.209.1.1svn55213-54.2.noarch.rpm"
-RPM_HASH = "1bcec32d0c4f49184b33e2356bdad4c1db8ef5e03503646834c40791575898af483413042efcf204e69eec6e3ebe3245bcc4d439d4fbb17693fc52e99c42ae1e"
+RPM_NAME = "texlive-helmholtz-ellis-ji-notation-2026.226.1.1svn55213-60.4.noarch.rpm"
+RPM_HASH = "4a957308788fe2f33ca6da7d4a551c86a0bc901d891a36dc53bda1cbc868ae735d6afb0f67308ede53def706902397dab74f306a6843023f8befae4027b947d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-helmholtz-ellis-ji-notation.sty \

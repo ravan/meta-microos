@@ -5,16 +5,16 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.5.0"
 
-RPM_NAME = "qpdfview-plugin-ps-0.5.0-2.1.aarch64.rpm"
-RPM_HASH = "0a2a663c28b378a9305c117344b36438a4063719747397702f280623f5298a97ff19caadfc886993dae7e975fb2a347bfb6f0aed420537b82bce372ec68cd6fa"
+RPM_NAME = "qpdfview-plugin-ps-0.5.0-4.5.aarch64.rpm"
+RPM_HASH = "ba419cb439a3c6660b31dae80e7ebbc540db4da2bafc06f8f22de13063fd38b0c92dc8a2ac9432adb65a6d98bdc2f1ebf3f84c9085c109b24e51ff9291ecf7c0"
 
 RPROVIDES:${PN} += "libqpdfview-ps.so \
 qpdfview-plugin-ps"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libspectre.so.1 \

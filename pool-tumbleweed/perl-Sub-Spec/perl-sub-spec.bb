@@ -4,8 +4,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.0.7"
 
-RPM_NAME = "perl-Sub-Spec-1.0.7-9.27.noarch.rpm"
-RPM_HASH = "620d284642a38fe32e546bb2a3e7c870ec084fb192d373db010e9019bbd05aaae74290b8bb7b035a0435c850e4917018da0dc3730bb682a93c7229d620b06fab"
+RPM_NAME = "perl-Sub-Spec-1.0.7-9.41.noarch.rpm"
+RPM_HASH = "df52047a9bb670ebe5841e5f5a327aa6a1f6b5358aac5968cad3eca1912044db8df69aa2c397ba35997a3ef3b94dcdd42d32aa946be8acec40bb390d4c601338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Sub--Spec \
@@ -13,7 +13,7 @@ perl-Sub--Spec--Schema \
 perl-Sub--Spec--Util \
 perl-Sub-Spec"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-File--Which \
 perl-Log--Any \
 perl-Probe--Perl \

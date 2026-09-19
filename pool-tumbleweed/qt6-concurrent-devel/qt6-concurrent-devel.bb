@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 Concurrent library"
 DESCRIPTION = "Development files for the Qt 6 Concurrent library."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-concurrent-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "97328d589278f5e18efea8baaac57c140056853cf76e289993a8f3207b0a65174a09a9296da1f35c3e1e453e6a5ddef574ccbcd7adfa87e74c6c2bf4bebf6518"
+RPM_NAME = "qt6-concurrent-devel-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "be44523214d4bc35e45f546ae1c3108827ba73d27bde676d4b66733d50cc6fb4faf85b4939070532ff817595f3fa53ab99fda54034ee9765bb2bdf08363315fd"
 
 RPROVIDES:${PN} += "cmake-Qt6Concurrent \
 pkgconfig-Qt6Concurrent \

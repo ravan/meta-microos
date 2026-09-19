@@ -8,10 +8,10 @@ communication). \
 This package provides the Qt5 implementation of the generic UI toolkit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "libgwengui-qt5-79-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "3816447dcf79cd230dc3bfabaa243de87e5b5172f089f651ed37811c89e521815977d0a0d357a13ac4788e818daab4a4bfa8fa85282a16fdc5d7ea8a70b89bd8"
+RPM_NAME = "libgwengui-qt5-79-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "8e3cbd1a47952439d596e4f506978a2a8d3542f51b3ec233db2b4963c809964c82478dab108751f2a4c64a85065e7966438394bf2aa9f0de29f8dd89925f6ec6"
 
 RPROVIDES:${PN} += "libgwengui-qt4-0 \
 libgwengui-qt5-79 \

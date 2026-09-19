@@ -2,10 +2,10 @@ SUMMARY = "Translations for package transmission-qt"
 DESCRIPTION = "Provides translations for the 'transmission-qt' package."
 LICENSE = "(GPL-2.0-only | GPL-3.0-only) & MIT"
 
-PV = "4.0.3"
+PV = "4.1.3"
 
-RPM_NAME = "transmission-qt-lang-4.0.3-2.2.noarch.rpm"
-RPM_HASH = "0e02fe30f4c492d762ee544990186339ce603144575eb67062bd169dc717709bd08ab0e214e0e2ed03f848983748397fcfc1bc469ed1f5e99feb5eefeb0439a9"
+RPM_NAME = "transmission-qt-lang-4.1.3-1.2.noarch.rpm"
+RPM_HASH = "66a081c274a609ea43fbebf57057a5eaff5aa87a7c4e0476a1b062edafab9ec79a993cfb9f36877d1c2c0e790c632bb0fe4880634a3fbd33c8e5741811efe663"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "transmission-qt-lang \

@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.31"
 
-RPM_NAME = "perl-Unicode-Collate-1.31-1.12.aarch64.rpm"
-RPM_HASH = "ba515558e191c56e6e2803a19096bbb1c180ed977b24901ac695aaf5bd9c393b349621c01e8d6e8e438a8ab45835abaf0d92f13d4cbc1a9dba12ec82a18ed264"
+RPM_NAME = "perl-Unicode-Collate-1.31-1.29.aarch64.rpm"
+RPM_HASH = "946598ee4a5236b023faba22c167a82fb6653a715f5b791e1998120e012a135295d1a22c4912771875c4fc7f8ebaacf3e7073b7fb9b3ca283dd179952a5bae20"
 
 RPROVIDES:${PN} += "perl-Unicode--Collate \
 perl-Unicode--Collate--CJK--Big5 \
@@ -22,6 +22,6 @@ perl-Unicode-Collate"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

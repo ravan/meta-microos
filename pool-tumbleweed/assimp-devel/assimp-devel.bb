@@ -6,10 +6,10 @@ it is primarily useful for importing assets from various sources once and storin
 engine-specific format for easy and fast every-day-loading."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "5.2.5"
+PV = "6.0.5"
 
-RPM_NAME = "assimp-devel-5.2.5-2.2.aarch64.rpm"
-RPM_HASH = "76754a78ffd43bfef58f425343e2b24a814724787f97be853a68a9cf06701030b91b0de6622041d16e62edcd3bd1da8aa7a4c40f17ad965dabc63eaf76ab1b0d"
+RPM_NAME = "assimp-devel-6.0.5-4.3.aarch64.rpm"
+RPM_HASH = "ad115aad3bb408acac780f27ab23f5e0b7d5b903e8972925aa34dc856590b71f86e0169781f3a670f813899fecc5cedc6c6838038f7c5fe7bfcae92cd179857f"
 
 RPROVIDES:${PN} += "assimp-devel \
 cmake-assimp \
@@ -18,8 +18,8 @@ pkgconfig-assimp"
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 glibc-devel \
 ld-linux-aarch64.so.1 \
-libassimp.so.5 \
-libassimp5 \
+libassimp.so.6 \
+libassimp6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

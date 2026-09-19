@@ -11,10 +11,10 @@ DESCRIPTION = "Example applications for for libacars: \
    reports)"
 LICENSE = "MIT"
 
-PV = "2.2.0"
+PV = "2.2.1"
 
-RPM_NAME = "acars2-examples-2.2.0-1.1.aarch64.rpm"
-RPM_HASH = "cbde1e1804608851a1459389430cf5c8e8815da0a4190a0909c901453aa9bf1ed393052b3fe5c573443eb742688f91d3f896c99ca9d4b5b6d7d4cd089df4b5c1"
+RPM_NAME = "acars2-examples-2.2.1-1.4.aarch64.rpm"
+RPM_HASH = "42ed3792d387ba9a2f79970972801a0748cd119043d5051b5a3c955beb0774b30ca0790c2c7a18610b40959f8e10bc658c752a77d832e925a4bce9df84dad3e1"
 
 RPROVIDES:${PN} += "acars2-examples"
 

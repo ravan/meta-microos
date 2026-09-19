@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kdeconnect-kde"
 DESCRIPTION = "Provides translations for the 'kdeconnect-kde' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kdeconnect-kde-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "6d710411a9cc3e615918b0c7ba8a5873e6ad85e53987c445388e07c5951bce6ef6874c7129bc91e8f669a74b1b534751f172eb13e0464ff804387c6229e9ab47"
+RPM_NAME = "kdeconnect-kde-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "27d2e5ce11dd8c560072411d6d3feef89e5712c88510b7f4f453c4f8a42fe3e4df7ef54f08b9690e197fa4c800647340368aefef29e4ba122d77e0543dee550b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdeconnect-kde-lang \
 kdeconnect-kde-lang-all \
 locale-kdeconnect-kde-ar \
+locale-kdeconnect-kde-ast \
 locale-kdeconnect-kde-az \
 locale-kdeconnect-kde-bg \
 locale-kdeconnect-kde-bs \
@@ -27,8 +28,10 @@ locale-kdeconnect-kde-et \
 locale-kdeconnect-kde-eu \
 locale-kdeconnect-kde-fi \
 locale-kdeconnect-kde-fr \
+locale-kdeconnect-kde-ga \
 locale-kdeconnect-kde-gl \
 locale-kdeconnect-kde-he \
+locale-kdeconnect-kde-hi \
 locale-kdeconnect-kde-hu \
 locale-kdeconnect-kde-ia \
 locale-kdeconnect-kde-id \
@@ -38,9 +41,12 @@ locale-kdeconnect-kde-ja \
 locale-kdeconnect-kde-ka \
 locale-kdeconnect-kde-ko \
 locale-kdeconnect-kde-lt \
+locale-kdeconnect-kde-lv \
 locale-kdeconnect-kde-ml \
+locale-kdeconnect-kde-nb \
 locale-kdeconnect-kde-nl \
 locale-kdeconnect-kde-nn \
+locale-kdeconnect-kde-pa \
 locale-kdeconnect-kde-pl \
 locale-kdeconnect-kde-pt \
 locale-kdeconnect-kde-pt-BR \
@@ -55,6 +61,7 @@ locale-kdeconnect-kde-sr@latin \
 locale-kdeconnect-kde-sv \
 locale-kdeconnect-kde-ta \
 locale-kdeconnect-kde-tr \
+locale-kdeconnect-kde-ug \
 locale-kdeconnect-kde-uk \
 locale-kdeconnect-kde-zh-CN \
 locale-kdeconnect-kde-zh-TW"

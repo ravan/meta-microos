@@ -5,10 +5,10 @@ of xdvik (no longer separately available), so that it will \
 build with web2c 'out of the box'. It is included in TeX Live."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn62387"
+PV = "2026.226.svn62387"
 
-RPM_NAME = "texlive-xdvi-2023.209.svn62387-53.2.noarch.rpm"
-RPM_HASH = "61d1cfeaaa9604c52f39f84756813c02761bf43d603bc1e630c4f92a233342e75e3496ca6b70cb5220fd62d2b1b8db803547720b52462437f0a812a16afbb106"
+RPM_NAME = "texlive-xdvi-2026.226.svn62387-59.4.noarch.rpm"
+RPM_HASH = "8b51ca3aa190d8be4d96307c7550e3cbf57d463742f1c3540207354d66805efa9ac04106d3123792a64395cb97f8fb40c3f33fb57a69828b8617e1bb4f675c17"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-xdvi \

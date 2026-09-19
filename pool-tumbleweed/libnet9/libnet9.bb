@@ -8,10 +8,10 @@ tools and network test code. See the man page and sample test code for \
 more detailed information."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2"
+PV = "1.3"
 
-RPM_NAME = "libnet9-1.2-3.9.aarch64.rpm"
-RPM_HASH = "f55a16a51bc0bd49cb5e5ec25d7040effe02011d206b7bc4c5a10deb3ba901d516e608adf6888e8860bc3c7ac6c34099cbd278474fbebc87198acf322b7024de"
+RPM_NAME = "libnet9-1.3-1.11.aarch64.rpm"
+RPM_HASH = "1892e70e45ac31090275ae3322b3041b377b561276dba809061ee6b57f0480c23d366472025db5db6d3374ef236bf8f3c7329cca44d415298225eb6632ab4d01"
 
 RPROVIDES:${PN} += "libnet.so.9 \
 libnet9"

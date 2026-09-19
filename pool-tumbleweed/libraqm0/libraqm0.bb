@@ -3,10 +3,10 @@ DESCRIPTION = "Library that encapsulates the logic for complex \
 text layout and provides a convenient API."
 LICENSE = "MIT"
 
-PV = "0.10.1"
+PV = "0.11.0"
 
-RPM_NAME = "libraqm0-0.10.1-1.1.aarch64.rpm"
-RPM_HASH = "bf63bc6f6430f797736d0a523b91c75887fee4ce45067e2b56991f2f019e81ac0e3b1068f83a28e911786a6ed19655180253b74a4e41a6ade949764d229b6883"
+RPM_NAME = "libraqm0-0.11.0-1.1.aarch64.rpm"
+RPM_HASH = "ecf318cb197ead714486ea31cd026e2210338f2b162e9d4d7c859fb88dcd3277e1c91b8a56db975e2b5d9e09d136c1b10f22f62cc52547467eef592e349068b5"
 
 RPROVIDES:${PN} += "libraqm.so.0 \
 libraqm0"

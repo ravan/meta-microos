@@ -4,10 +4,10 @@ diagrams. The package requires pstricks later than version \
 1.10."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.02svn62977"
+PV = "2026.226.1.05svn72694"
 
-RPM_NAME = "texlive-pst-optic-2023.209.1.02svn62977-53.1.noarch.rpm"
-RPM_HASH = "0fd92d035e838633d036eeac583123fe2aec49ce5380c5f7c1699fe546d7ead05efba47a40729f0c4053388366a65c474e4e301e980102b839e8483588fdb696"
+RPM_NAME = "texlive-pst-optic-2026.226.1.05svn72694-59.2.noarch.rpm"
+RPM_HASH = "048c9ff93c5dfbf2f67af79524ecb7a44cb926f6e4cbc84fb29f24aa2a8665fcb4b643a20b1911d315076e806295db11254f14a0d58ea424f81d55b53c4e2576"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-optic.sty \

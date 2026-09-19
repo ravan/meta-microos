@@ -3,10 +3,10 @@ DESCRIPTION = "libgxps is a GObject based library for handling and rendering XPS
 documents."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.2"
+PV = "0.3.2+5"
 
-RPM_NAME = "libgxps-devel-0.3.2-1.12.aarch64.rpm"
-RPM_HASH = "6e786cf0777e2219741494fdd21d452d9040edbccb6cbab3e884bdb42568d05f427f58797cb02ba419f2302573fee3e1d18f44186c8e05fa0ebbb72dc2eaef4a"
+RPM_NAME = "libgxps-devel-0.3.2+5-1.13.aarch64.rpm"
+RPM_HASH = "b395f36b6b08a72ff6c8b7aaa2f3f5a8f9d158dd14700b9639fdc1bddba0027dcba05e8080da245709a395892d90da6853c08e8fbd8302c745ed6e0f331aba13"
 
 RPROVIDES:${PN} += "libgxps-devel \
 pkgconfig-libgxps"

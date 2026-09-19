@@ -7,16 +7,16 @@ This package contains the system libraries for clients of pulseaudio \
 sound server."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "libpulse0-16.1-4.1.aarch64.rpm"
-RPM_HASH = "95ab852378818d5d108f0f8f3d1077f9b08b2fc1b7d9f1c8801583522b65f2eb58e7eec41c047c3c88320b25d239cf5283119f5d3a6a2f9cd78a19321d5b5c1e"
+RPM_NAME = "libpulse0-17.0-7.5.aarch64.rpm"
+RPM_HASH = "200c0e9a84315c3513fe5efd4f4fb575bf07c65d06f55ab2f1d3d51b19319ca0ed373f35f964d2cf7e60688d86ab6a1e7f2b46d9f3ebbf16a919aeb7de409e9d"
 
 RPROVIDES:${PN} += "config-libpulse0 \
 libpulse-simple.so.0 \
 libpulse.so.0 \
 libpulse0 \
-libpulsecommon-16.1.so \
+libpulsecommon-17.0.so \
 pulseaudio-libs"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \

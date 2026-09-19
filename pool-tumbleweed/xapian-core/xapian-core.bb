@@ -4,10 +4,10 @@ adaptable toolkit for adding indexing and search facilities to \
 applications."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.21"
+PV = "1.4.27"
 
-RPM_NAME = "xapian-core-1.4.21-1.4.aarch64.rpm"
-RPM_HASH = "893e7c0adaa35590d027b8110bd0ea480eb0d8af27860d1bae69f013006b6736370135c3b507ac35e02fdbb33fe388b35d2cb9198b5faf13f4b17685bc7a456f"
+RPM_NAME = "xapian-core-1.4.27-1.6.aarch64.rpm"
+RPM_HASH = "0d0874e0571cef98280bcf344d84cd0ac50d3794283e3dfa531ef4e4e5420ba402737a626e93da455c49e01bc7c4d7a88ba9c4dff130e88575db2aaaa7a7e8f5"
 
 RPROVIDES:${PN} += "xapian-core"
 

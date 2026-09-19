@@ -4,10 +4,10 @@ DESCRIPTION = "libfusn is a library for Update Sequence Number (USN) Journal dat
 Part of the libyal family of libraries."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220119"
+PV = "20260522"
 
-RPM_NAME = "libfusn1-20220119-4.5.aarch64.rpm"
-RPM_HASH = "96f32e1d2bf6eb426914cee1b651c84c7661f8d9c65ab9f482b3a975d2d086f0f7112a40fd3d344aa843a9352921fc0d1e313f06f2500b5fa42ac5f1a8e548c5"
+RPM_NAME = "libfusn1-20260522-1.8.aarch64.rpm"
+RPM_HASH = "424f100d9615eb9eb0d7dc3f5237a414d2e5becaaa7e411a96b947bb1de0ceb42180a7d132a18294aa628016be43e2d86ae24148ee8fdf74ab2a2cac15bf87aa"
 
 RPROVIDES:${PN} += "libfusn.so.1 \
 libfusn1"

@@ -4,10 +4,10 @@ are provided, and a set of examples; for some codes, a small \
 Perl script is needed."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-barcodes-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "0a7bf7fc45090985cf5f5995024796345041c76c53501adbfa996bc212f5ddc33cad5d24f199a4fe035816b010814ac5521d5a99de4fa2032c78efd7f8aa6dd6"
+RPM_NAME = "texlive-barcodes-2026.226.svn15878-60.2.noarch.rpm"
+RPM_HASH = "fc452216ff31cc92f069701db0773092438013905c1f160aaab9131ba409897081b9842edd88b98dd5c480a31d2f07f59cd19a5d76efda9282705cbf41ea6722"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-barcodes.sty \

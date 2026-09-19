@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libosmo-netif."
 LICENSE = "AGPL-3.0-or-later"
 
-PV = "1.3.0"
+PV = "1.8.0"
 
-RPM_NAME = "libosmonetif-devel-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "ab8d58806935c148a342e82c75852b222b25f22edc49a97c174d029c0f382958d6b1e906f80f338b24481e842289ba3d763106479cba6af17c9274a83f20c2fc"
+RPM_NAME = "libosmonetif-devel-1.8.0-1.1.aarch64.rpm"
+RPM_HASH = "30cc4e7f4ceedf8f5be91a437e61f061e4f2ab82df9fff4b56f5b3859b40f2f3415b5c518228381ff60f14b1c5d2bfeda87119b459ce8cf82895565b6011b787"
 
 RPROVIDES:${PN} += "libosmonetif-devel \
 pkgconfig-libosmo-netif"

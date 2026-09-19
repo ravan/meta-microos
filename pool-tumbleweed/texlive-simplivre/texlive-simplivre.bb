@@ -10,10 +10,10 @@ package name 'simplivre' is taken from the French words \
 'simple' and 'livre' (= 'book')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65475"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-simplivre-2023.209.svn65475-58.1.noarch.rpm"
-RPM_HASH = "c3aa7585ab5c8e70764c6d0cfc4e3883971735db17642c3bc7ff789f68fb1e835d92cb6c6f838acd0ec2de8894f0030b2b4c7c992d9f02a0bc109ec74778a4ee"
+RPM_NAME = "texlive-simplivre-2026.226.svn78004-64.2.noarch.rpm"
+RPM_HASH = "d05d6e18b2453b803d43e67b8d35662f2befe0bc0394f1587c435012b4538aa1fc0c8cfa9e63ad9864aab55051b6609bc90a53a788d791e914bec67944615c9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simplivre.cls \
@@ -45,7 +45,7 @@ tex-regexpatch.sty \
 tex-silence.sty \
 tex-tikz-cd.sty \
 tex-unicode-math.sty \
-tex-wrapfig.sty \
+tex-wrapfig2.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

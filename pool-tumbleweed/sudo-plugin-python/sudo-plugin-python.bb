@@ -4,16 +4,16 @@ in python. The API closely follows the C sudo plugin API described by \
 sudo_plugin(5)."
 LICENSE = "ISC"
 
-PV = "1.9.14p1"
+PV = "1.9.17p2"
 
-RPM_NAME = "sudo-plugin-python-1.9.14p1-1.1.aarch64.rpm"
-RPM_HASH = "727f37525d804bcb524c997bf9598a5cfc1b966c30b5a7922a774c5fd5e5fd34af666d1202c10196bc2ee76a763860b77f38cfa6c8e9983f6aef4af6f0e0d502"
+RPM_NAME = "sudo-plugin-python-1.9.17p2-4.1.aarch64.rpm"
+RPM_HASH = "02cba4ab2cc9c950db19d9464e590ca37cda11b52c00893756700eb0f78e2609f3f6ce76560c4664d6bd211aea045023a9c14a1cd270f0559d2231146947b222"
 
 RPROVIDES:${PN} += "sudo-plugin-python"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libsudo-util.so.0 \
 sudo"
 

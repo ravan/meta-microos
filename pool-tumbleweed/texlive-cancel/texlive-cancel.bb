@@ -4,10 +4,10 @@ arrows with limits (cancelling a term 'to a value') through \
 parts of maths formulae."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.2svn32508"
+PV = "2026.226.2.2svn77682"
 
-RPM_NAME = "texlive-cancel-2023.209.2.2svn32508-53.1.noarch.rpm"
-RPM_HASH = "7d48dc76de84502729757ccbcbac3041e85a3176afacd997b19695c2757c52a5bedc63be6c33e7ca9c0c85b4334e36f90af1658ca22e6b348965e1a49a2b9b2f"
+RPM_NAME = "texlive-cancel-2026.226.2.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "62d3f7d49f05697f3725850791da493dda8a6c4820734fac31afe16668ae50516493f50e80ebfea330b1709e0bb50ee584b00e6ce5fc54ab2cdd08a45064333e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cancel.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "pagure-logcom contains the service that logs commits into the dat
 the activity calendar heatmap is filled."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-logcom-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "787219ee2651ca2f8d698dc0d7a0cd7325568c073fa18e9a408159815e684d7b264ae585f1b5bc19fc7acc07677509ae4f180d1c75c243b209b30425ff30cdc1"
+RPM_NAME = "pagure-logcom-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "e8b4134e27b890190797d55fde812c067721f38c4f3e29ace03d0677fd055753e98c5e3e9441d73a9c4a3b0764d714e414b82c1068adbc446defd1fe6470840e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-logcom"

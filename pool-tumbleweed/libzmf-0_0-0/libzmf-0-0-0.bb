@@ -5,8 +5,8 @@ LICENSE = "MPL-2.0"
 
 PV = "0.0.2"
 
-RPM_NAME = "libzmf-0_0-0-0.0.2-1.44.aarch64.rpm"
-RPM_HASH = "65fea849bc084606dab1e0440d1ec4beaee329582ee7127a08f30a68279908e71581a03bd1aa56321ba050804afde90059f38632d6332aeb5f4d3ca5e0f38ac1"
+RPM_NAME = "libzmf-0_0-0-0.0.2-2.8.aarch64.rpm"
+RPM_HASH = "9ef0064d43ba6146a466f020488a23ff2d9f82afcdff9538214eeb9e7d146d26c5768d2123c83d3abfad71bee954587fff3beb689f063f1a312ad6930c0272cd"
 
 RPROVIDES:${PN} += "libzmf-0-0-0 \
 libzmf-0.0.so.0"
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
 libm.so.6 \
 libpng16.so.16 \
 librevenge-0.0.so.0 \

@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "0.4.0"
 
-RPM_NAME = "libvisual-0_4-0-0.4.0-204.4.aarch64.rpm"
-RPM_HASH = "cc94515c50f331831e0401e9b317a22af92761f4ca1a0b771de0b262399798c8db8aa276f0f52b50eefe396c89c916d3c9898d5d0d5f2ece89cf0f092089aeba"
+RPM_NAME = "libvisual-0_4-0-0.4.0-207.10.aarch64.rpm"
+RPM_HASH = "35b89d10021bb3e2172a77fc6f634d380662a14c8f0ed8532cb02aaec47f04b14c13e0f9b6c27792b8303e0add03c17eca8fc93798776eb2861c9639ad2c234b"
 
 RPROVIDES:${PN} += "libvisual-0-4-0 \
 libvisual-0.4.so.0"

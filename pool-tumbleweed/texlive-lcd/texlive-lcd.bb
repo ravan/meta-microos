@@ -4,10 +4,10 @@ display (the output is very visibly pixellated). Assumes 8-bit \
 input in its internal verbatim-style environment."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn16549"
+PV = "2026.226.0.0.3svn16549"
 
-RPM_NAME = "texlive-lcd-2023.209.0.0.3svn16549-55.1.noarch.rpm"
-RPM_HASH = "6a381ab52e6c7ecfc72ca624272c0591acdcafafc67e43ed70e9ae53d31c561b0c06388f0d0cdc40a24856a301d277adcf92d5d6f21e968a9b1d52aafa3822e8"
+RPM_NAME = "texlive-lcd-2026.226.0.0.3svn16549-61.2.noarch.rpm"
+RPM_HASH = "86db45ca7ce81871975f8a6a7fc384c1cd07c1f7bd5ef695756763000311d9bae7c7ce78e44df9585af8afcaa7711de6787d2fd398ad28130106193af21bfc30"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lcd.sty \

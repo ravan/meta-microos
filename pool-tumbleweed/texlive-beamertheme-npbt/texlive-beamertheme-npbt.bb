@@ -6,10 +6,10 @@ FOM. FOM ifes: The layout of Hochschule FOM, Institut fur \
 Empirie & Statistik. eufom: The layout of eufom."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.4.1svn54512"
+PV = "2026.226.4.1svn54512"
 
-RPM_NAME = "texlive-beamertheme-npbt-2023.209.4.1svn54512-54.1.noarch.rpm"
-RPM_HASH = "0abdd4416ccae0894d6923b9c567fe638112cfeb44caa2471718330bb6df6d7b615f162414a1e00af2255d5144f6304f6ea94096da38711425c1d2babf72dd0b"
+RPM_NAME = "texlive-beamertheme-npbt-2026.226.4.1svn54512-61.2.noarch.rpm"
+RPM_HASH = "f5a6855b08b5956934a39e88eb72ac1d349dd1b94d6626e7e5d7d35d51aa4defcdcc5b500b8bf08efb10f3932ea143caa5d32c037c0cf314f16a9dad0e9de358"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemeNPBT-EUFOM.sty \

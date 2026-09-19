@@ -1,5 +1,5 @@
 SUMMARY = "A logbook for people with type one diabetes"
-DESCRIPTION = "Initally a logbook for me, a person with type one diabetes \
+DESCRIPTION = "Initially a logbook for me, a person with type one diabetes \
 mellitus, this evolved over time into a TeX project, making it \
 prettier and/or easier to use. I've made it simple to use, \
 while not forgoing the document's beauty or the speed of input. \
@@ -13,10 +13,10 @@ the package's files are not constructed using the long \
 mellitus log book')."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn54810"
+PV = "2026.226.svn77161"
 
-RPM_NAME = "texlive-diabetes-logbook-2023.209.svn54810-53.1.noarch.rpm"
-RPM_HASH = "cad7c44180c22bb73e3e557eab985d3138e982f19f2879ea7c893b6e6f75a6c19682c671ba3346169cce89da78ed3c480d8a44befb3fa68d6e24f359de693fa2"
+RPM_NAME = "texlive-diabetes-logbook-2026.226.svn77161-59.2.noarch.rpm"
+RPM_HASH = "463bc54d2bcfca7faee24d5391e988d8a6044373765e461d9eeb7d258a91693d4bf0e8bf005cd7234c736f6d8e992616fa055ce37b475481285ba5a1d59d32b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dmlb.sty \

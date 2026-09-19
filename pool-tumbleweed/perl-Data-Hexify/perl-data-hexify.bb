@@ -80,13 +80,13 @@ LICENSE = "GPL-1.0+ | Artistic-1.0"
 
 PV = "1.00"
 
-RPM_NAME = "perl-Data-Hexify-1.00-15.28.noarch.rpm"
-RPM_HASH = "a79267e96e69f9a71542c5a377b762627c01b51f45f02fe203ea8d07f43853d3c8947dcaa1f7d6a150fcf960a1cf0aef5415fe542fb6b7f073c7a342e11ed41b"
+RPM_NAME = "perl-Data-Hexify-1.00-15.42.noarch.rpm"
+RPM_HASH = "625f60a4a734bde1a2b9c92204a5d07dab0b57fd69f84c58fe976092f41bb57701967622eba88607391ad94cd6091b5b06c68d6e89f828f0c7ef115e5998141c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Hexify \
 perl-Data-Hexify"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

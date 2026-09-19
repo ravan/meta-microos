@@ -5,10 +5,10 @@ information: method description path parameter request body and \
 content type response body, content type and status code"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn57068"
+PV = "2026.226.1.4svn57068"
 
-RPM_NAME = "texlive-rest-api-2023.209.1.4svn57068-54.2.noarch.rpm"
-RPM_HASH = "ffece375e357d43da12979bc45a405cb1d67b400612791e7f07e38856ac1b0cfa08d0f6abcba67cc92ccc60dedb6249fa6be52191693fcffd73c0e0fdeaad2a1"
+RPM_NAME = "texlive-rest-api-2026.226.1.4svn57068-60.4.noarch.rpm"
+RPM_HASH = "052f58009d7b156c3b37f5979391b5d16ed4580333f1fb1271c5301c10a2fec8eb3383b6219cc99381345b008fe668577b9d5d7d5edd023961d10611564688b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rest-api.sty \

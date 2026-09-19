@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-contacts"
 DESCRIPTION = "Provides translations for the 'gnome-contacts' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.0"
 
-RPM_NAME = "gnome-contacts-lang-44.0-1.2.noarch.rpm"
-RPM_HASH = "65e611f46871da9807ea4d378854d85cfbce6ef5647cbb4ca62968c5ed9d11704bda96b289a3b7387ffcd95778eedc7d34825cb7f42c97a4568b14754556be53"
+RPM_NAME = "gnome-contacts-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "863c3487ff4b30788d07f214fce6d08c460af28694e07d5797c2de02c862c67a4360796b4d6cee0fcc44ed189bb82324bd238b6dbaab732730183ab78b358295"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-contacts-lang \

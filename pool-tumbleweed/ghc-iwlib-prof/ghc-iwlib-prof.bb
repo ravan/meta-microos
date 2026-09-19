@@ -4,13 +4,13 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.1.2"
 
-RPM_NAME = "ghc-iwlib-prof-0.1.2-2.3.aarch64.rpm"
-RPM_HASH = "2cca1a7b60e781022bcb4ae57bf983b14b1c432195a08fc8e00dafe3d3115f6724c40ba85bea429f6213e9eba7fe6e0abf545505181fa1992f6a8ff1cb6b974f"
+RPM_NAME = "ghc-iwlib-prof-0.1.2-4.14.aarch64.rpm"
+RPM_HASH = "17c5c480327b8552ee630d41254eda1830cd3f8c766c6f599b9922e35ec10ca4bf5ccd07d7aea19a0a74926a854abbf164f9bf81b2c54c910934dbe0183616c4"
 
 RPROVIDES:${PN} += "ghc-iwlib-prof \
-ghc-prof-iwlib-0.1.2-DBPHxQHnFovIGpbAOJfyp4"
+ghc-prof-iwlib-0.1.2-CbOLYXTu5NPFzGiuLS7AmP"
 
 RDEPENDS:${PN} += "ghc-iwlib-devel \
-ghc-prof-base-4.17.2.0"
+ghc-prof-base-4.21.2.0-8844"
 
 inherit rpm

@@ -5,10 +5,10 @@ RPC system. \
 This package provides development headers for capnproto."
 LICENSE = "MIT"
 
-PV = "0.10.4"
+PV = "1.5.0"
 
-RPM_NAME = "libcapnp-devel-0.10.4-1.2.aarch64.rpm"
-RPM_HASH = "370720a433da1e82e4fe076c8519ee61f881b326cb1c5eb1888884efe28fe5e47b3793991ec0e574c348ca4ef1ecdc69cb93d89e7bdb8a88820be39788933ace"
+RPM_NAME = "libcapnp-devel-1.5.0-1.3.aarch64.rpm"
+RPM_HASH = "9e92c4f1adc81303472c3cc60d30341b10ddd184a317cedad0c849e4426e0bc81a6534912025b42bc1a4141c34bf3f4c736e7714c0ef57dd82c91648d65de831"
 
 RPROVIDES:${PN} += "cmake-CapnProto \
 libcapnp-devel \
@@ -25,6 +25,6 @@ pkgconfig-kj-test \
 pkgconfig-kj-tls"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libcapnp-0-10-4"
+libcapnp-1-5-0"
 
 inherit rpm

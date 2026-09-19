@@ -4,10 +4,10 @@ The font is designed as a companion to Adobe Myriad Pro, but it \
 might also fit well with other contemporary typefaces."
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.0.0.5svn28399"
+PV = "2026.226.0.0.5svn77682"
 
-RPM_NAME = "texlive-mdsymbol-2023.208.0.0.5svn28399-53.1.noarch.rpm"
-RPM_HASH = "f597f7250d5fb0e2d484bfe3a0339ea3aaf595539168009b38d5c008cb1380e3a42914ace72383495b28c48c451bd8c7245ae9e6cb7bc18a046b39fbd38ac74a"
+RPM_NAME = "texlive-mdsymbol-2026.226.0.0.5svn77682-59.2.noarch.rpm"
+RPM_HASH = "32426a0ed113744cc516ecbb909970b006aafd6af54826539725da3bda2bfc966aeb4965386fc8c31134cee0f77578e94f72acccac2731d79395bd4a4189921e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-MdSymbolA-Bold.tfm \

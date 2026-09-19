@@ -8,10 +8,10 @@ data associated with an address. \
 This package contains the mmdblookup binary."
 LICENSE = "Apache-2.0"
 
-PV = "1.7.1"
+PV = "1.13.3"
 
-RPM_NAME = "mmdblookup-1.7.1-1.2.aarch64.rpm"
-RPM_HASH = "00578fe884f09f24bbaa73d1b82ef8ee30ce544365c11ba5a379ed0dbd474bf4d7d322c61f5053edede8bbac4c7c54d8eb78f985b6fa012b97c5d218f18f3c2b"
+RPM_NAME = "mmdblookup-1.13.3-1.4.aarch64.rpm"
+RPM_HASH = "f2d347dcfb3b1a98dcac83dab620618451e8d0d784045f9d3460841decf5ea0c96b3ac909946c586420addd1eddc3a43099e4adc345e9c0bbcb936cadba6d0cf"
 
 RPROVIDES:${PN} += "mmdblookup"
 

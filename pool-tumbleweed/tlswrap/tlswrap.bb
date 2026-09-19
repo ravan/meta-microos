@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.04"
 
-RPM_NAME = "tlswrap-1.04-3.21.aarch64.rpm"
-RPM_HASH = "4de9ff94a15442ca7c155fd92427dfcaecf157667308b7f0d1d6fe3ea562f856ffc54431a8d92f364f1c3efd468cee1cdcbe9797197732885bba085b4c130b0d"
+RPM_NAME = "tlswrap-1.04-4.9.aarch64.rpm"
+RPM_HASH = "b52375f2200d2a3fe1ff4900e7b361a20b062ab64fabd92592b20907fe75424dc79d7ae84cee78f013bc230daa478ffc055b56a975d26c553b0023a12ee94c51"
 
 RPROVIDES:${PN} += "tlswrap"
 

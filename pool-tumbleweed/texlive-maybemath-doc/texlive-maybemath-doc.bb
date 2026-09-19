@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-maybemath"
 DESCRIPTION = "This package includes the documentation for texlive-maybemath"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-maybemath-doc-2023.208.svn15878-53.1.noarch.rpm"
-RPM_HASH = "34b07d78940e44b2a810925f8dbac899e55311d267c56ff5e6df07626193afbbd76cc3a36160d94d26cdc65f10a73c7fc969f81e6acb147eab8ddc4e53820546"
+RPM_NAME = "texlive-maybemath-doc-2026.226.svn15878-59.2.noarch.rpm"
+RPM_HASH = "80834db7c721964bd571f391af3796ead3a2fb4d9e58bf58646fd5baa1e708f273541b349bb9f2ed7c30348f4649a4e7cfd003ecc7a09c7dc4d1b104d0bdb535"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-maybemath-doc"

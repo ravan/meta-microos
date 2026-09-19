@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-letterswitharrows"
 DESCRIPTION = "This package includes the documentation for texlive-letterswitharrows"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn59993"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-letterswitharrows-doc-2023.209.svn59993-55.1.noarch.rpm"
-RPM_HASH = "f5bd56fd99310d06da9c86ff266487a29fb4cc8befe3c09ba2668dc4080e5adc3dd4ece4f0c34252aa36f6bf8c8212da5c2b2a94ef099e0b8ae8fe6e20ca3c22"
+RPM_NAME = "texlive-letterswitharrows-doc-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "68df0b15560bb30375c24cea92804f984c6c5e63c704cbc9943d1e5188917edc759362c46f0bb651f6b3b218d44b958586f9659f92395ce27341707ced2113bd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-letterswitharrows-doc"

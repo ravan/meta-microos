@@ -5,8 +5,8 @@ LICENSE = "(CPL-1.0 | LGPL-2.1-or-later) & Zlib"
 
 PV = "3.2.0"
 
-RPM_NAME = "libphysfs-devel-3.2.0-1.4.aarch64.rpm"
-RPM_HASH = "4c4cd024e9efb4fb1ecc9f7d2a9e303a6925a751f3807121a31839bf509901bb6abb6c9a86a891839136e0d1f0fc22bf40aebb5fc91299b6f4fa6b921754774d"
+RPM_NAME = "libphysfs-devel-3.2.0-1.14.aarch64.rpm"
+RPM_HASH = "94513f0ca3afe312b4fef8774fbff6feecd217767794d4eb607418ed47e59f8c3a37f76a9a73a1824738edf216b1c87f650ba5d8b7f0c0cb364f555b4fd95d3e"
 
 RPROVIDES:${PN} += "cmake-PhysFS \
 libphysfs-devel \

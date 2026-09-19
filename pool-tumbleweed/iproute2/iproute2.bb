@@ -6,15 +6,15 @@ tunnels, bridges, packet transformations (IPsec, etc.), and Quality \
 of Service."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "iproute2-6.4-1.1.aarch64.rpm"
-RPM_HASH = "528463a9ccad11f5d91753be2dde06c1d8f4b771e5ec3c119dfebd0e8cc0522c69869b41844782cd37871538438f72c70e1639457b36bf508a5195095959e546"
+RPM_NAME = "iproute2-7.2-1.1.aarch64.rpm"
+RPM_HASH = "14640f558e07f2dd573c490f8590c6988b3333ded69b928ad0bf1a72d7af73828967ab70c522bcfcf266873d38e730ffc2f772f444d870e985eb85b7990501ce"
 
 RPROVIDES:${PN} += "/sbin/ip \
-config-iproute2 \
 iproute \
 iproute2 \
+iproute2-bash-completion \
 iproute2-doc \
 iproute2-xfrm6-raw"
 

@@ -19,10 +19,10 @@ Interactive Hardware Accelerated Remote 3D-Visualization' (Engel, Sommer, \
 Ertl 2000.)"
 LICENSE = "LGPL-2.1-only & SUSE-wxWidgets-3.1"
 
-PV = "3.0.2"
+PV = "3.1.4"
 
-RPM_NAME = "VirtualGL-devel-3.0.2-1.4.aarch64.rpm"
-RPM_HASH = "36a5f1eb808bd1853429a18949c68d37bce0d0fbe0902509d776610a09d44c2f23d4f610ba598c7ba6e023949a3d28c2536cc6e594a9f921b3f810b4a38c8bbd"
+RPM_NAME = "VirtualGL-devel-3.1.4-1.5.aarch64.rpm"
+RPM_HASH = "a3042f8979b76f5b1c350b2b755c174e2432e77f6a826b6e489903390ac5db3584a84fd19aca6a3facd640ac8611c77fcb8ef1ace6571187410cda9c563db762"
 
 RPROVIDES:${PN} += "VirtualGL-devel"
 

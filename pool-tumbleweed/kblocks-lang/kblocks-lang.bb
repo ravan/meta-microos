@@ -2,15 +2,16 @@ SUMMARY = "Translations for package kblocks"
 DESCRIPTION = "Provides translations for the 'kblocks' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kblocks-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "16670e67696c6045d5c4b01135b25564a0498eebca96dfa2883b6f1d80d465a8ab382f2122ebe62a38ce04a6a7fb4d2fa3a3558b1882b9bf5c7904647dea9df3"
+RPM_NAME = "kblocks-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "f6f1e0930ec8aea1df91c4bade88a6ad5a43641f2a853145b71e4af4bdeb28f803d17458927d218c5cce3a63ddc60854efaaf386d9adfcd11d0eee263043c717"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kblocks-lang \
 kblocks-lang-all \
 locale-kblocks-ar \
+locale-kblocks-ast \
 locale-kblocks-bg \
 locale-kblocks-bs \
 locale-kblocks-ca \
@@ -29,9 +30,11 @@ locale-kblocks-fr \
 locale-kblocks-ga \
 locale-kblocks-gl \
 locale-kblocks-gu \
+locale-kblocks-he \
 locale-kblocks-hi \
 locale-kblocks-hr \
 locale-kblocks-hu \
+locale-kblocks-ia \
 locale-kblocks-id \
 locale-kblocks-is \
 locale-kblocks-it \

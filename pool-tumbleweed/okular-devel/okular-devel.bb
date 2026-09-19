@@ -2,22 +2,21 @@ SUMMARY = "Development files for the Okular document viewer"
 DESCRIPTION = "Document viewing program; supports document in various formats"
 LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "okular-devel-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "61314661d94622525068aa5a199669c1e76e614737148504aabebc55fd6c049ef413bf6e0e14ef3ca52da1e53e60431bd5a6ea4198cbc814129c5a5a6da5b788"
+RPM_NAME = "okular-devel-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "0c58c842874e3a2498fb71aba0caeaaf768b6b2585aed74f8d79befc009f4a6d616864470b7d641c680d4a1027ebf0743882526bcbde6c57c231fdf8bd727100"
 
-RPROVIDES:${PN} += "cmake-Okular5 \
+RPROVIDES:${PN} += "cmake-Okular6 \
 okular-devel \
 okular5-devel"
 
-RDEPENDS:${PN} += "cmake-KF5Config \
-cmake-KF5CoreAddons \
-cmake-KF5XmlGui \
-cmake-Qt5Core \
-cmake-Qt5PrintSupport \
-cmake-Qt5Widgets \
-libQt5Core-private-headers-devel \
+RDEPENDS:${PN} += "cmake-KF6Config \
+cmake-KF6CoreAddons \
+cmake-KF6XmlGui \
+cmake-Qt6Core \
+cmake-Qt6PrintSupport \
+cmake-Qt6Widgets \
 okular"
 
 inherit rpm

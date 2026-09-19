@@ -4,13 +4,14 @@ LICENSE = "Apache-2.0"
 
 PV = "4.3"
 
-RPM_NAME = "avalon-framework-javadoc-4.3-4.7.noarch.rpm"
-RPM_HASH = "a8e42a51c329a708264e4e68b9ceb5e03d7b0f76386643d79e86b320840123d1b9966fa598bc8793e312f7c6c11fc9a55936af711989d7142de4ed88be28cee3"
+RPM_NAME = "avalon-framework-javadoc-4.3-8.2.noarch.rpm"
+RPM_HASH = "8613d06fcc2257e2a3f4e373fd6c135d11ca848b8baea06eb6acd43afda11f880f9beff71b6b14c0512e4b43cbe9e4b485c91550c9d35539ea39c3ced81aa4d0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avalon-framework-javadoc \
 avalon-framework-manual"
 
-RDEPENDS:${PN} += "javapackages-filesystem"
+RDEPENDS:${PN} += "avalon-framework-api-javadoc \
+javapackages-filesystem"
 
 inherit rpm

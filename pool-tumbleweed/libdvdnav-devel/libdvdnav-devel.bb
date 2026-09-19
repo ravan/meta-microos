@@ -2,10 +2,10 @@ SUMMARY = "Development Environment for libdvdnav"
 DESCRIPTION = "This library contains functions to display DVD video menus."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.1.1"
+PV = "7.0.0"
 
-RPM_NAME = "libdvdnav-devel-6.1.1-1.10.aarch64.rpm"
-RPM_HASH = "db4fedf5a63ccf01bd74aca4655d9f8e39f01eb93fb124bc1b978ebfffa5edd52ea5662c74e5f56355ebc2783eb69d13033ba12e80f2e7c072a2208b370ace38"
+RPM_NAME = "libdvdnav-devel-7.0.0-1.3.aarch64.rpm"
+RPM_HASH = "333eb5fcf35c7b5ca99c2765d2996b73caa0fd4f083b60e651e8bd47a85ac707d8afa7167a510b3ede00e51398d2a260b80328d59460c97c2f89bb2bfedb11c6"
 
 RPROVIDES:${PN} += "libdvdnav-devel \
 pkgconfig-dvdnav"

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.0.3"
 
-RPM_NAME = "librvngabw-devel-doc-0.0.3-2.1.noarch.rpm"
-RPM_HASH = "8b16a6e511676de1b5a3bea0ad054274707e3b53c22125816cabb28433901a97b9a5866c08b20a0ecef6cbecd506ce0d8550f7458eaf02f06537555be731656e"
+RPM_NAME = "librvngabw-devel-doc-0.0.3-2.11.noarch.rpm"
+RPM_HASH = "3f9e5f5ba2bfa7680ff72b13821bdfe149d61b618619688496661b26ac6955f9ca224ca772f742528780714671c91a985fff2b9526d098de7175bb9ded052dd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "librvngabw-devel-doc"

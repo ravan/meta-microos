@@ -5,12 +5,12 @@ multiple messaging patterns, message filtering (subscriptions) and \
 seamless access to multiple transport protocols. \
  \
 This package holds the development files for ZeroMQ."
-LICENSE = "LGPL-3.0-or-later"
+LICENSE = "MPL-2.0"
 
-PV = "4.3.4"
+PV = "4.3.5"
 
-RPM_NAME = "zeromq-devel-4.3.4-4.4.aarch64.rpm"
-RPM_HASH = "47bde29fd92a28ab617994753e971b3d31cfc6d66cbda9a094749d5a353fa67d9de8fee864b88397ddbbf1026c18c454c8b2322ebad2566cea5d3fc323e45339"
+RPM_NAME = "zeromq-devel-4.3.5-1.12.aarch64.rpm"
+RPM_HASH = "d64f185f6d951a347431cd1c63b1e6f3eb157315f4435141cf46bce7734535745b25142bee0399a16e86bcf64fbc663cae6f41dadcaa51752024f8195e353a5a"
 
 RPROVIDES:${PN} += "libzmq-devel \
 pkgconfig-libzmq \

@@ -7,10 +7,10 @@ heavily recommended. \
 Find server maps in /usr/share/bzflag/maps."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.4.26"
+PV = "2.4.30"
 
-RPM_NAME = "bzflag-2.4.26-1.4.aarch64.rpm"
-RPM_HASH = "6a42eba66d3b45042ec06b22e3f6b8ac7c85c936dd2b42954f271a9803784e641b0521e70c2bdaa7fd7c40d6f694efee77e0f5abc3b543a2c8273a644bd05544"
+RPM_NAME = "bzflag-2.4.30-1.7.aarch64.rpm"
+RPM_HASH = "d7295658181364f05ec6846ea778fabe13c2512017be7a4c2bb927ab09a8581809f9e7a41f212d4a474527637d5bfc471f604cee9c25b5252cb53f1c0c2c33cb"
 
 RPROVIDES:${PN} += "bzflag"
 
@@ -21,7 +21,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 fillup \
 ld-linux-aarch64.so.1 \
 libGL.so.1 \
-libGLEW.so.2.2 \
+libGLEW.so.2.3 \
 libGLU.so.1 \
 libSDL2-2.0.so.0 \
 libc.so.6 \

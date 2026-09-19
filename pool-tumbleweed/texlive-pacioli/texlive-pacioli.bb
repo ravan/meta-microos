@@ -6,10 +6,10 @@ lowercase or digits. The Metafont source is distributed in a \
 .dtx file, together with LaTeX support."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24947"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-pacioli-2023.209.svn24947-52.1.noarch.rpm"
-RPM_HASH = "565e3fbdb3f1ef4ba85a91dd3f033faa40aae14e20d2efd0624f0e83817f8d8f83bd41fd90a897f0f051cba72b9aa236ca232a2f821c1172597f2beb6c215b16"
+RPM_NAME = "texlive-pacioli-2026.226.svn77682-58.2.noarch.rpm"
+RPM_HASH = "ffa59172bf2e4fb7b5368b44d1ed84443c406fd9e6c3cdbfca362e8f258f756ac248d3bcc7c2d58c6322d43c3efa63fae843c9205547a86dc08d6edc42d748b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cpcr10.tfm \

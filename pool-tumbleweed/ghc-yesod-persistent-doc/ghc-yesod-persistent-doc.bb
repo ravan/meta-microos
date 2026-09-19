@@ -2,10 +2,10 @@ SUMMARY = "Haskell yesod-persistent library documentation"
 DESCRIPTION = "This package provides the Haskell yesod-persistent library documentation."
 LICENSE = "MIT"
 
-PV = "1.6.0.8"
+PV = "1.6.0.9"
 
-RPM_NAME = "ghc-yesod-persistent-doc-1.6.0.8-2.17.noarch.rpm"
-RPM_HASH = "846acb8dbe9a9bba5405ab3d260c80e6d59174915f8c98d9c22ae2b156afd697b61f8a2963a36f8bf459d8d43967bd87bab0c4a635132c6fbf680b6d02190f59"
+RPM_NAME = "ghc-yesod-persistent-doc-1.6.0.9-1.6.noarch.rpm"
+RPM_HASH = "beb45ca7bcf7d296a633c1fd8be5ab69d74f40d3b4652d3b77f980ad0d328f3ca0eea8147316b7ec0b0fd8664d3d32208b762f80da6e846c634fd3da999866fc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-yesod-persistent-doc"

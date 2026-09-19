@@ -1,29 +1,15 @@
 SUMMARY = "Accessibilty tools helper library, used e.g. by screen readers"
-DESCRIPTION = "This library is used when writing accessibility clients such as screen readers. \
-It comes with some examples demonstrating the API. These small helpers may be \
-useful when testing accessibility. One of them writes all accessibiliy \
-interfaces an application provides as text output. The other, more advanced \
-application shows a tree of objects and allows some interaction and \
-exploration."
-LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
+DESCRIPTION = "This library is used when writing accessibility clients such as screen readers."
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.4.1"
+PV = "0.6.0"
 
-RPM_NAME = "libqaccessibilityclient-qt5-devel-0.4.1-1.12.aarch64.rpm"
-RPM_HASH = "98e78d3e5d655dd768aece99e6423990426c0ca5858e74115d76558828d99604860840ba75ad4cfd2784c8bb2a166b8a21e75a78d26c9c3066fff8eb4867cea7"
+RPM_NAME = "libqaccessibilityclient-qt5-devel-0.6.0-1.9.aarch64.rpm"
+RPM_HASH = "68ed2cf0952de9a6d6995e98193508e9a5d38405281e5e4a292fa3e84de10578454a3e50748b6b3f8b76415f239ecd2e40a3e3cc32c3bcd3195bf3799da79393"
 
 RPROVIDES:${PN} += "cmake-QAccessibilityClient \
 libqaccessibilityclient-qt5-devel"
 
-RDEPENDS:${PN} += "cmake-Qt5Core \
-extra-cmake-modules \
-ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
-libc.so.6 \
-libqaccessibilityclient-qt5-0 \
-libqaccessibilityclient-qt5.so.0 \
-libstdc++.so.6"
+RDEPENDS:${PN} += "libqaccessibilityclient-qt5-0"
 
 inherit rpm

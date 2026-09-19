@@ -6,10 +6,10 @@ environment variable expansion, functions and nested include \
 statements."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.3"
+PV = "3.4"
 
-RPM_NAME = "libconfuse2-3.3-2.4.aarch64.rpm"
-RPM_HASH = "5cf38df596efb0b20842262c5007a13ddceddf3f7dea601de3f13177e2f553525234720cd6ee17728eda3d07d095b803aedf2ca6957ccbab2fad2490a70878af"
+RPM_NAME = "libconfuse2-3.4-1.1.aarch64.rpm"
+RPM_HASH = "11d3379386a41c30c43a401aadb23762d91af73b7dd375c052d4261fa6bcf8be78c4eb026bf6aa2521e689b4a687d78a04ff151a48e6819e2272074653ef21ee"
 
 RPROVIDES:${PN} += "libconfuse.so.2 \
 libconfuse2"

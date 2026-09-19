@@ -9,17 +9,17 @@ team in ANSI C, and present an Applications Programming Interface \
 high level languages."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.7.1"
+PV = "2.8"
 
-RPM_NAME = "gsl-devel-2.7.1-2.1.aarch64.rpm"
-RPM_HASH = "1e2c439af21eb14f62e970894fdc090dced7b7d1d776710589519670b9cbb4558af66e05ce116462d25b4835ef9ade0b6fbc6ebb9118a2d93b9a21b8a1d8a585"
+RPM_NAME = "gsl-devel-2.8-5.3.aarch64.rpm"
+RPM_HASH = "b9ed6ea8751610853eba9ca15a0123e2531d792e436d990c8de67d1e44896339008a8c48f393de5bd0913f8c917c94b2d92063c464fbf880a96eed76410f4b8e"
 
 RPROVIDES:${PN} += "gsl-devel \
 pkgconfig-gsl"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-libgsl27 \
+libgsl28 \
 libgslcblas0"
 
 inherit rpm

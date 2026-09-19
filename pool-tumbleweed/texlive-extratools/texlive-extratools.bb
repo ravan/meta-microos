@@ -14,10 +14,10 @@ two onto a DIN A4 page (a4toa5) are included. The number of pages must \
 be even (which can be done by odd2even or dvibook)."
 LICENSE = "GPL-2.0-or-later & LPPL-1.0 & LGPL-2.1-or-later"
 
-PV = "2023.208"
+PV = "2026.222"
 
-RPM_NAME = "texlive-extratools-2023.208-60.1.noarch.rpm"
-RPM_HASH = "531a9684b68af330b2fa16f547b9f662dbc04d9fd1978cf6d37ea08acfec26e05fa8abe3ce89f394de667787edbdd758758564b7fdddaee22445e5c1979e66ed"
+RPM_NAME = "texlive-extratools-2026.222-68.2.noarch.rpm"
+RPM_HASH = "0c7140ad237877a0f27978b5b081f5cb857227e97e79084c94b42c100239c9d0ce5993a0300f68a0b7c1952e86dcf37fc230d21ef0019b731c040707a04e8fc0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-extratools"

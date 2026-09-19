@@ -4,10 +4,10 @@ program (libunwind), of a coredump image (libunwind-coredump), or of a separate 
 process (libunwind-ptrace)."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.8.3"
 
-RPM_NAME = "libunwind-devel-1.7.2-1.1.aarch64.rpm"
-RPM_HASH = "35e3f811e0cfec301b8b881d77f769567a0eeb7812984d3f68d3579155a9fcf096fa561a97911a712747e929bceff5eb813a2144e3e340ed211fa9618e1afae9"
+RPM_NAME = "libunwind-devel-1.8.3-3.3.aarch64.rpm"
+RPM_HASH = "df8b82ed09289993d3c6c32355f85ba78bb701fb53b61a79b54ec3984c53998667e63962a47a002d5dc8e3e6b638668959fbcda712d72fbf0750022a5908ed09"
 
 RPROVIDES:${PN} += "libunwind-devel \
 pkgconfig-libunwind \

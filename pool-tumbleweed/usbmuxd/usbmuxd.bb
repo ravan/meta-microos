@@ -6,10 +6,10 @@ Usbmux is an encapsulation protocol (think IP, ATM, PPP) that allows \
 multiplexing several conversations onto a single pair of wires."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.1.1+git48.01c94c7"
+PV = "1.1.1+git72.3ded00c"
 
-RPM_NAME = "usbmuxd-1.1.1+git48.01c94c7-1.1.aarch64.rpm"
-RPM_HASH = "a26ae80be1e646cbc1960340e1e34b81825af4b61f9acf1b540b1652694699a1f0000eceba9235d4eb94dcb9bccfd0fd819eae5669a6665a83e8df8b3bc0dcc3"
+RPM_NAME = "usbmuxd-1.1.1+git72.3ded00c-1.4.aarch64.rpm"
+RPM_HASH = "82b018e09a5da64f333bce3c55091cf29a94e7d345e9cee6e0193b8038f99d3fb59138fca6f255f0d3a455fde9f59715b20371fd576d6ba45705828f7fd748d4"
 
 RPROVIDES:${PN} += "group-usbmux \
 usbmuxd \

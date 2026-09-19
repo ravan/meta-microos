@@ -2,10 +2,10 @@ SUMMARY = "Translations for package NetworkManager-vpnc"
 DESCRIPTION = "Provides translations for the 'NetworkManager-vpnc' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.8"
+PV = "1.4.0"
 
-RPM_NAME = "NetworkManager-vpnc-lang-1.2.8-2.1.noarch.rpm"
-RPM_HASH = "fa43c8864e42a00892d7261258fb281dd62709e8060abab87d5502dc98a122a1a72a6a961ddd2b61e24ab6a5813c36d93e7da9ce9a152eed5522509bfb2df549"
+RPM_NAME = "NetworkManager-vpnc-lang-1.4.0-2.5.noarch.rpm"
+RPM_HASH = "4a904123e7f0980620bca70c03c48a3ab2c832700be4ad24caace578a62dee9849296949052bab6911b9e75c80a28e893fe999707797745a62aab67d74780a0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "NetworkManager-vpnc-lang \
@@ -34,6 +34,7 @@ locale-NetworkManager-vpnc-fur \
 locale-NetworkManager-vpnc-gl \
 locale-NetworkManager-vpnc-gu \
 locale-NetworkManager-vpnc-he \
+locale-NetworkManager-vpnc-hi \
 locale-NetworkManager-vpnc-hr \
 locale-NetworkManager-vpnc-hu \
 locale-NetworkManager-vpnc-id \

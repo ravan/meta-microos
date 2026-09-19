@@ -2,20 +2,22 @@ SUMMARY = "Haskell resource-pool library development files"
 DESCRIPTION = "This package provides the Haskell resource-pool library development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.4.0.0"
+PV = "0.5.0.1"
 
-RPM_NAME = "ghc-resource-pool-devel-0.4.0.0-2.9.aarch64.rpm"
-RPM_HASH = "d793c699bf640e5da617df73cd131686d157f6e7d64b3ef1b26bb497ea5a401d8d3bd31e043cdcba441d1af484d9688130ab0f80b597bcf9a1cb4b39c3771cd6"
+RPM_NAME = "ghc-resource-pool-devel-0.5.0.1-1.1.aarch64.rpm"
+RPM_HASH = "a6aafb101fb8989fedc87288ae3c364332c5218a82cd848b68d285f4da0bd99c68c43df7b2d342ee459462c8617122582a6f3a201894fc3953533778104554c5"
 
-RPROVIDES:${PN} += "ghc-devel-resource-pool-0.4.0.0-7uUtnYEtaeP22tTkIEO3ty \
+RPROVIDES:${PN} += "ghc-devel-resource-pool-0.5.0.1-CRHTi96cJqx7YSyfyqtukW \
 ghc-resource-pool-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-primitive-0.7.4.0-F2Mc1OnmlS8GBXxA9I0mgx \
-ghc-devel-time-1.12.2 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-devel-primitive-0.9.1.0-Ez30Vu7tivmF28X1123Css \
+ghc-devel-stm-2.5.3.1-6d74 \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-time-1.14-a7dc \
 ghc-resource-pool"
 
 inherit rpm

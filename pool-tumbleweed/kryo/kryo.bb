@@ -10,8 +10,8 @@ LICENSE = "Apache-2.0 & BSD-3-Clause"
 
 PV = "4.0.2"
 
-RPM_NAME = "kryo-4.0.2-3.1.noarch.rpm"
-RPM_HASH = "45b078b3bb5792f964e35001ab6450e7f085eb43476b1a6ca4215d196d7fb072a1566fdd8fdeb05ebf6b4419be41b84e3a57dddb418ba808e360be13d14a769c"
+RPM_NAME = "kryo-4.0.2-4.7.noarch.rpm"
+RPM_HASH = "e6c304c02ba8aa185527cec751ff08ae17576c9281d7bc3e60be97310b6e0d2cf230f5a3c76b0d274662b848df21484f789d923a6aafaed2995a03f93cd5dc33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kryo \

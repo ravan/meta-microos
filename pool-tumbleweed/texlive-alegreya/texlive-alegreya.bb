@@ -7,10 +7,10 @@ much care and attention to detail in the design as the roman. \
 Bold, black, small caps and five number styles are available."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.svn64384"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-alegreya-2023.209.svn64384-55.1.noarch.rpm"
-RPM_HASH = "c95b117b187ff995e2f23e9cdb06bb61c062ae777d9611d11affa4b64faf423a2fadbe41c7c9c567ffc1a667e511828c1d61c4b3c9d583f04b873ffe352c6a5a"
+RPM_NAME = "texlive-alegreya-2026.226.svn77682-61.2.noarch.rpm"
+RPM_HASH = "ca589a81dad2444339bcf41152ad0ca7bc71b16004a249650b8820e8628302a887d3c3c5a3acd4c12351d598553259068091e1b0a188bb596e10dfddb8d37eea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-Alegreya-Black-inf-lgr--base.tfm \

@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.13"
 
-RPM_NAME = "pidgin-plugin-birthday-reminder-1.13-1.6.aarch64.rpm"
-RPM_HASH = "14eef2445581b6b3590b6edb81055e0d139729613f5334f8ec8681117e3b6443550a3d8d11e17e7e6df57795d04f562e6624a660af6f037efeae02777b24723b"
+RPM_NAME = "pidgin-plugin-birthday-reminder-1.13-1.16.aarch64.rpm"
+RPM_HASH = "bf267757d2ff0a49f69ae1944052ea89f0b209ba2cfb40863ab7479a6adadbc0d4e8fe3bfcfe1e3d9afbf99f05c94f06ed75f7fbf63d272b584a4c407da52720"
 
 RPROVIDES:${PN} += "pidgin-birthday-reminder \
 pidgin-plugin-birthday-reminder"

@@ -3,10 +3,10 @@ DESCRIPTION = "The package redefines the 'thebibliography' environment to \
 place the citation key into the margin."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.1.0csvn15878"
+PV = "2026.226.1.0csvn15878"
 
-RPM_NAME = "texlive-margbib-2023.208.1.0csvn15878-53.1.noarch.rpm"
-RPM_HASH = "972110e0ce6579ccddd4cf50350c65fba799a96fab5f64440bc3a1ae36e38178f4c46271736ed7131b6c120b8b7d42be85024316834aa45e828ac1cea8419660"
+RPM_NAME = "texlive-margbib-2026.226.1.0csvn15878-59.2.noarch.rpm"
+RPM_HASH = "3ded45243d1cb2bec579122f0202a9e6bf79fda963eeac28a6bfee4b4343c8003677342ca055b0d34cbceb3a01b9a280b3710290052bf16deb4bae3b75979380"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-margbib.sty \

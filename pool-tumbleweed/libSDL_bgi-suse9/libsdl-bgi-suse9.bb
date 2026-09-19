@@ -3,10 +3,10 @@ DESCRIPTION = "SDL_bgi is a Borland Graphics Interface (BGI) emulation library f
 SDL. It provides extensions for RGB colors and mouse support."
 LICENSE = "GPL-2.0-or-later & Zlib"
 
-PV = "3.0.0"
+PV = "3.0.2"
 
-RPM_NAME = "libSDL_bgi-suse9-3.0.0-1.4.aarch64.rpm"
-RPM_HASH = "e898cc26b0c5185e5f75d54a7fa241ccfc7262380cfceae672d4745e49688ba2ce291835afc2bb5760d17371e23277020457a56db24c0774f6c2cf7235a8eae7"
+RPM_NAME = "libSDL_bgi-suse9-3.0.2-1.7.aarch64.rpm"
+RPM_HASH = "81bbd3547434a17d1c46a0538101984ebfdce1d2ef14f9729e1eceb7550e86a42c6cdb36d8a9aafd3bed76bcc7745fc77685ed3c863be3452ddda387ffbe1843"
 
 RPROVIDES:${PN} += "libSDL-bgi-suse9 \
 libSDL-bgi.so.suse9"

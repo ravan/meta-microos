@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.1.0"
 
-RPM_NAME = "octave-forge-mvn-1.1.0-1.23.noarch.rpm"
-RPM_HASH = "2daa15c2b53dbce58590ba4e0e181682ee80e812603c0896ad7f9ede99640b51a2c6bdd7521b465355fe8029b19b3363f3e50d347f8bf9a94a5d72aa499c2fe6"
+RPM_NAME = "octave-forge-mvn-1.1.0-1.32.noarch.rpm"
+RPM_HASH = "88448695795bba3ce13cd32e04ba527f4c5fb17ecb121f2b49cae1c84058375986c9e8e1742c03c64f51d6c9f26069d6d9138b566cc228ff08e81b1a778e460d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-mvn"

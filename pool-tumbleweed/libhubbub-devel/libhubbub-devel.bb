@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.3.7"
 
-RPM_NAME = "libhubbub-devel-0.3.7-2.10.aarch64.rpm"
-RPM_HASH = "97da0ed07cf1a4e7a4b851092c3d062414650cb669082e98e5c729ae7936bcda8603fbc53df1cd7cc3496755039a62b5d88366cc4dbcaa28f59811a4789a9730"
+RPM_NAME = "libhubbub-devel-0.3.7-2.20.aarch64.rpm"
+RPM_HASH = "52c007a0f84cb2172470674f4ff9ed26b5a4e7a6a3994bc2932f5f8d81425d17bda2a4cbdbc15f36b07a2ee023454bf2c80c6ad164568e31c53199ad1c9988c0"
 
 RPROVIDES:${PN} += "libhubbub-devel \
 pkgconfig-libhubbub"

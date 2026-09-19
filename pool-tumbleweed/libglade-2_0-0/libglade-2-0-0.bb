@@ -9,8 +9,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.6.4"
 
-RPM_NAME = "libglade-2_0-0-2.6.4-28.3.aarch64.rpm"
-RPM_HASH = "67108cc66badb8ecba2b73936b33382de8042d053d2fcc7bdb73aabc39c3b69f43d844cf1ab055719784c6ea9b74851d7a6eb25e76020398d955d2cce5f25b5a"
+RPM_NAME = "libglade-2_0-0-2.6.4-30.11.aarch64.rpm"
+RPM_HASH = "7d54fccc4c02a82de4fc649e9c1f606403cd8235358b9d24d0a9028787837f30dddf16d10c9fd7217635f1b282bef3e669541ccacd5731e2bb691eaa9f0a7e04"
 
 RPROVIDES:${PN} += "libglade-2-0-0 \
 libglade-2.0.so.0 \
@@ -26,6 +26,6 @@ libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-x11-2.0.so.0 \
 libpango-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

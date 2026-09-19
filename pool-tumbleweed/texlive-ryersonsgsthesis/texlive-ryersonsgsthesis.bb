@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides a LaTeX class and template files for \
 Ryerson School of Graduate Studies (SGS) theses."
 LICENSE = "Apache-1.0"
 
-PV = "2023.209.1.0.3svn50119"
+PV = "2026.226.1.0.3svn50119"
 
-RPM_NAME = "texlive-ryersonsgsthesis-2023.209.1.0.3svn50119-54.1.noarch.rpm"
-RPM_HASH = "6c34a91c7a079e197bd311f965b8170882359fbeeacf1a6edbff4d126293a6260061f0e81ab8b9cf44f09870109d049cffbf4d9e06ff8d9bc5151dab874296e9"
+RPM_NAME = "texlive-ryersonsgsthesis-2026.226.1.0.3svn50119-60.2.noarch.rpm"
+RPM_HASH = "d49ce2e604094093beae0d25fc958ece595d1dc6c0b87b28c675a3e835784b4bacb5e1585a225bc2524ef4e569e232c78cdee8e51882d0b1fb197a4800362b3e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ryersonSGSThesis.cls \

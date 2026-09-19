@@ -8,8 +8,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "3.0"
 
-RPM_NAME = "entangle-plugin-eclipse-3.0-2.8.aarch64.rpm"
-RPM_HASH = "f4ecb1f0ce2a15ec8c36099f023ef6fb8337c1d9ca3d817bb0ee89c298b3b83031ff9695c72e083a5d5aec13bff1bdf0f7e062a8ccae10d756bc619dc6aded02"
+RPM_NAME = "entangle-plugin-eclipse-3.0-3.2.aarch64.rpm"
+RPM_HASH = "da80ee9971aba279cb9b10f23cb1c216ba268232373857c5efa0fc64541b2ad46ffbc5b1e432d251d4d527c2352111d55f05a19fe567cfbdf1d4b813b8cc0e8e"
 
 RPROVIDES:${PN} += "entangle-plugin-eclipse"
 

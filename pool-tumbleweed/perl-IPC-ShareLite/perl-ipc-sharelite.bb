@@ -53,18 +53,18 @@ Or, you can make either type of lock non-blocking: \
 Release the lock by calling the unlock() method: \
  \
 	$share->unlock;"
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.17"
+PV = "0.170.0"
 
-RPM_NAME = "perl-IPC-ShareLite-0.17-1.40.aarch64.rpm"
-RPM_HASH = "2f0bffacc55db5f3f9e8d39c621133fdfd8ae95edede11db59e24302cd8bf0eef6dd6ec820dae7498e83c878fe6203d2b1555d2de189b5067e0bf5cdf9f534d5"
+RPM_NAME = "perl-IPC-ShareLite-0.170.0-2.3.aarch64.rpm"
+RPM_HASH = "bf0eccb09cc1803dab887dd2745928ce2c04a6c49d4cf6e027a7b1ebb98316b1e15edadd8bd164b88f9f00123c40ad843aa0ec2c2bde3922a0df6f2132b59b2a"
 
 RPROVIDES:${PN} += "perl-IPC--ShareLite \
 perl-IPC-ShareLite"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

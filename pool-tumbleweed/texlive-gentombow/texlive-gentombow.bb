@@ -11,10 +11,10 @@ file. Can be used on LaTeX/pLaTeX/upLaTeX (with DVI output \
 mode) with dvips or dvipdfmx drivers."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn64333"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-gentombow-2023.209.svn64333-53.1.noarch.rpm"
-RPM_HASH = "f64474c86e5033878b988b34de650c83f6db309781d21f30955d9c1a29580c9e3cae0535f9d22206730b9484e2764a365fa429c8490db302fca29b615e833221"
+RPM_NAME = "texlive-gentombow-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "b15ae9dcf11bbd096276fbc91166bc6c04da5456aebe97c880a2cf3c790c8b529fec307590a4590a8116ec5300dd7f9604f207e464c918ec571247d99b9b9f07"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bounddvi.sty \

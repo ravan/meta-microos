@@ -2,10 +2,10 @@ SUMMARY = "Translations for package hivex"
 DESCRIPTION = "Provides translations for the 'hivex' package."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.3.23"
+PV = "1.3.24"
 
-RPM_NAME = "hivex-lang-1.3.23-2.6.noarch.rpm"
-RPM_HASH = "b366ce12c6cb0725a846969fe288817b2f02524df358a093de0ce9b12761945f45f9839e0900cce8ee0999905d32b19824ada951030c7c916ecc1216544b7276"
+RPM_NAME = "hivex-lang-1.3.24-3.3.noarch.rpm"
+RPM_HASH = "014b2841f2f7991e01f4ee4b991b09e2d4b9a5f72b8ba85067182a59389f5e045c8ba413501944e176d42e5d934d74526260476e40c837e67dbfb2f155d7278d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hivex-lang \

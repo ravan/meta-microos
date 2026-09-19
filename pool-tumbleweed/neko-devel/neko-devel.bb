@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Neko virtual machine"
 DESCRIPTION = "Development files and headers for the Neko virtual machine."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.4.1"
 
-RPM_NAME = "neko-devel-2.3.0-3.1.aarch64.rpm"
-RPM_HASH = "5151e9e80b4ddedca5552bf6c8eab3f7f5effd496b0dbca24bd1380f1987d8df21fe7dda8004b9fa84a9f9476df4c845cf1839ae4216e32c3b9a98c1aa52d3ad"
+RPM_NAME = "neko-devel-2.4.1-3.3.aarch64.rpm"
+RPM_HASH = "86e56d03210758756b9a87469f19615b550f518fab0e76fc7b449971b40e9aa7759ae4dca2f6ffe798db4b4fc6e6744bb2bc0b07d34dd843b26be65cbdbaebc7"
 
 RPROVIDES:${PN} += "cmake-Neko \
 neko-devel \

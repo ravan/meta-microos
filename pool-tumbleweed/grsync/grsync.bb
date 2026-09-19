@@ -7,10 +7,10 @@ a music collection with removable devices, backup personal files to a networked 
 drive, replication of a partition to another one, mirroring of files, etc."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "grsync-1.3.0-1.13.aarch64.rpm"
-RPM_HASH = "a44b8e16f437c7c753659a57c05d6215090a1c66e625b006db11e42a3f487079e35439cf7e6b27e968fba2f3c1db8614001b107579bd76549e76539ce321f91b"
+RPM_NAME = "grsync-1.3.1-1.14.aarch64.rpm"
+RPM_HASH = "83127f38148deaf1b786aa398f3d49030c13aae1676209ba8ad4494befeadcc3ddb4ddd3dde4261a63103598959ba2394c15e17fe3f76243ef98aea7dc293796"
 
 RPROVIDES:${PN} += "grsync"
 

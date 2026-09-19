@@ -9,10 +9,10 @@ Turton's estimate--about 90 percent of all fluid processing \
 operations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0asvn60089"
+PV = "2026.226.1.1svn77771"
 
-RPM_NAME = "texlive-pfdicons-2023.209.1.0asvn60089-52.1.noarch.rpm"
-RPM_HASH = "623082d6a27655ef3f6c709b525e5fa0f0c600553aaf88794b6595124c0c504af01095f90ff7e2d57c7dd2818b822a78f229e9146e2ebadf1e43e665133be2be"
+RPM_NAME = "texlive-pfdicons-2026.226.1.1svn77771-58.2.noarch.rpm"
+RPM_HASH = "7d04da7f6c5718c29633dcbc7cf9c1dea04d87e753646b1c411872023cccb49702b013b8cd33b45a066b5be29d979f10dc1c67909d5db7d1c8e4c0e4058ab6bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pfdicons.sty \

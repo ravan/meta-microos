@@ -2,10 +2,10 @@ SUMMARY = "Radius Module for ProFTPD"
 DESCRIPTION = "This is the Radius Module for ProFTPD"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.3.7f"
+PV = "1.3.9c"
 
-RPM_NAME = "proftpd-radius-1.3.7f-1.4.aarch64.rpm"
-RPM_HASH = "fa08648f9a89a2b663f55f422581cad37eb81396bcfbb826fa34506bb185d4fed70eb85bd8db3f2c728d0340f7af131d82b41820135e5fc287a8ae8fbfde3d4d"
+RPM_NAME = "proftpd-radius-1.3.9c-2.1.aarch64.rpm"
+RPM_HASH = "82bb699cad82a22b4c2ead3f7663dfabfc43becf4c96b753b9267e0b46080758af23f0ad79b25c62a052fa79581eca3089b6415135d4177fafb559fbb1eef12d"
 
 RPROVIDES:${PN} += "proftpd-radius"
 

@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 WebViewQuick library - Development files"
 DESCRIPTION = "Development files for the Qt 6 WebViewQuick library."
-LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
+LICENSE = "GPL-2.0-only | GPL-3.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-webviewquick-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "bb114b1cec258ea7906f7415bbe0155511ca568568965f1756338ed8a1e33fb85d5d73ca395e864092b47ee219b3281c16230f813a12270eebb7be30888688df"
+RPM_NAME = "qt6-webviewquick-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "3a7569787c6a5c2ecf6bbb96fcdf8957d84283ae2c4b3f79064dc58f464ea86cfe2b7c73ec6f6cb94c4eb00d11af04c3c3f5391f21e82b0a9912be2ab6377bcc"
 
 RPROVIDES:${PN} += "cmake-Qt6WebViewQuick \
 pkgconfig-Qt6WebViewQuick \

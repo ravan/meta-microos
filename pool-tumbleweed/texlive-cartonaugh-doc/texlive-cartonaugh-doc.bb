@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-cartonaugh"
 DESCRIPTION = "This package includes the documentation for texlive-cartonaugh"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn59938"
+PV = "2026.226.1.0svn59938"
 
-RPM_NAME = "texlive-cartonaugh-doc-2023.209.1.0svn59938-53.1.noarch.rpm"
-RPM_HASH = "298f5e31fd4fdf71c7624560d572797f86c470445c70cb16b2de88f0b24525b57239de618ad282f1e232b3b29104c3907fec9d163af9ab4ba8858a881b9f14f8"
+RPM_NAME = "texlive-cartonaugh-doc-2026.226.1.0svn59938-59.2.noarch.rpm"
+RPM_HASH = "cb97b5b37db27018a8773f0cd44a6b944e770eed0aa812068f50c8b0384a9958ecb49a6a5e3465eb203e1d9158ca5c5857f8f4aafe0aafc710b24191ae3db44d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-cartonaugh-doc"

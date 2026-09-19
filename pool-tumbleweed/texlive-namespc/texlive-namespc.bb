@@ -5,10 +5,10 @@ commands, which can be made accessible in a later contexts \
 without defining them globally."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-namespc-2023.209.svn15878-55.1.noarch.rpm"
-RPM_HASH = "3912dea317af96a702fb1d3547648d5e324450d97e55c6df5864b1c962302ea9d04ef70abac4e4ae950e06cdf3015c0cb20ca8f8d356086b5f0183911d1d6872"
+RPM_NAME = "texlive-namespc-2026.226.svn15878-61.2.noarch.rpm"
+RPM_HASH = "4fac923a2a0f48b1282c3f1e394321d44375a999e8251cac492b3bd75321d69574923d92eefb1808140d814422c0e0b82950ca2e53a139b8a46781210e214fbc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-namespc.sty \

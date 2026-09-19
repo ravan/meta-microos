@@ -15,10 +15,10 @@ Program features: \
  * Ability to process directories recursively."
 LICENSE = "0BSD"
 
-PV = "1.4.4"
+PV = "1.4.6"
 
-RPM_NAME = "rhash-1.4.4-1.1.aarch64.rpm"
-RPM_HASH = "e60eda50b5692ece7677233833212bf982169424b7ee6624cf69828702a2b8dd5d436c9b23297ab5b0dcea22d9eb800b13f836fe0c5e02dc565fe4cedcdf8854"
+RPM_NAME = "rhash-1.4.6-2.3.aarch64.rpm"
+RPM_HASH = "7424b23726ef8815f44a6a96482d350a08a6a95bba65e4c639558158dca19e6abd00dbd86777ef877c9ac4a111652c8dda39119b655db665b4b9e559d2285563"
 
 RPROVIDES:${PN} += "config-rhash \
 rhash"

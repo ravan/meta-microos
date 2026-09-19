@@ -7,16 +7,21 @@ AutoTrace is now a stand-alone program and can be compiled on any UNIX \
 platform using GCC."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "0.31.1"
+PV = "0.31.10"
 
-RPM_NAME = "autotrace-devel-0.31.1-646.4.aarch64.rpm"
-RPM_HASH = "3789dd555f69982df3d5343894359f1b80ef88717c265df3298a38ef4187b63b7592968551bc97e3d5e8ff651cfc795d9c05c92ef22311e603c7d26e970deade"
+RPM_NAME = "autotrace-devel-0.31.10-1.7.aarch64.rpm"
+RPM_HASH = "9e82b4031e3692e959a975fdf49873dde8f511758f0ee9210e066a3d375de549c154a2721f286eacf10889c146c82f3b8e8a05ca9525c0c4aa8e426c967c0bc6"
 
 RPROVIDES:${PN} += "autotrace-devel \
 pkgconfig-autotrace"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-/usr/bin/sh \
-libautotrace3"
+libautotrace3 \
+pkgconfig \
+pkgconfig-ImageMagick \
+pkgconfig-glib-2.0 \
+pkgconfig-gmodule-2.0 \
+pkgconfig-gobject-2.0 \
+pkgconfig-pstoedit"
 
 inherit rpm

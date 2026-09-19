@@ -11,18 +11,17 @@ ways of sending a message for each vendor. \
 This package contains the client applications."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "6.0.2"
+PV = "8.1.7"
 
-RPM_NAME = "cec-client-6.0.2-3.1.aarch64.rpm"
-RPM_HASH = "821a0e613203339c899e084ad8430e509d0d143eeb5831bc2ada8363bd8141124c414c3dd44f1d7f982731be2912896bd3889ee015ab9acdf02209af6e34b195"
+RPM_NAME = "cec-client-8.1.7-1.1.aarch64.rpm"
+RPM_HASH = "c5bfeecc34b4fa21157ce65159e32a72985b742693f486f34c22fe1d37d9e57f2333a9ffce8682363d73c803eab648f81059a3c9a31f63f6b2b48f9787f74c90"
 
 RPROVIDES:${PN} += "cec-client"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libcec6 \
+libcec8 \
 libgcc-s.so.1 \
-libp8-platform.so.2 \
 libstdc++.so.6"
 
 inherit rpm

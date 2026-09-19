@@ -7,10 +7,10 @@ By option the markers can be placed behind or in front of the \
 glyphs. The package requires LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1asvn63578"
+PV = "2026.226.0.0.3svn77682"
 
-RPM_NAME = "texlive-showhyphenation-2023.209.0.0.1asvn63578-54.1.noarch.rpm"
-RPM_HASH = "1e3dc2890434189acadd12447902c3a9c816aef54b9fb4ff7dd3881322bf731c8e887876c2df66af1c33829dcafa896ec36f598d33c9fdfe9ace026b3980016b"
+RPM_NAME = "texlive-showhyphenation-2026.226.0.0.3svn77682-60.2.noarch.rpm"
+RPM_HASH = "543097daac9e88784e6919ce75d90f5f060051fa917324b91353c2e44cc054e8f07c06465d639ef8587d0674295413522034ade1f98c4720f10e930cfa87b975"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showhyphenation.sty \

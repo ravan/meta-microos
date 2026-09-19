@@ -7,10 +7,10 @@ each glyph, and uses the OpenType randomize function to select \
 a variant for each invocation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.003svn24649"
+PV = "2026.226.1.003svn24649"
 
-RPM_NAME = "texlive-punknova-2023.209.1.003svn24649-54.2.noarch.rpm"
-RPM_HASH = "216835929f8fd622f0749b3f2532faaf27f468b32f0f298c679ddab1e6e6f73f06a228edd6445e37b9b70784e2df5f71e5983111ce10a8ae3f5e7a8812132646"
+RPM_NAME = "texlive-punknova-2026.226.1.003svn24649-60.4.noarch.rpm"
+RPM_HASH = "2db0bcb14558f4cd7ec96cc209e690bdc85d76623c61408e1ae8f5c06a521d9c9c8c5e96dfa3bfd58dcf9e2435a6bfbff0b8e55604514f02ba65a398823c5df8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-punknova"

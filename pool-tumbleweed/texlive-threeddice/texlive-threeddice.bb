@@ -5,10 +5,10 @@ Configuration is possible by editing the source code, following \
 the guidance in the documentation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn20675"
+PV = "2026.227.1.0svn20675"
 
-RPM_NAME = "texlive-threeddice-2023.209.1.0svn20675-55.1.noarch.rpm"
-RPM_HASH = "400b6f89098dc56f536d7ad6bf67c185f1d685cb3005f024ec8d81b1e7782bfc39c41bddf14e0c6fdef1e597821644eaf00adbebebbbc89aff506ab31d0f8c7e"
+RPM_NAME = "texlive-threeddice-2026.227.1.0svn20675-62.2.noarch.rpm"
+RPM_HASH = "393f56fe49c4bcbcfff6738136d3d2c20c6be6dee9f552e0d7a1a0a26922cfec553ab12fab80680e36cdfa5c385dc1077481043fba9cb49b1fdb3374c8ea5689"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-threeddice"

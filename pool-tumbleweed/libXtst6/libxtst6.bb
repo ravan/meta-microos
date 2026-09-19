@@ -8,10 +8,10 @@ The RECORD extension supports the recording and reporting of all core \
 X protocol and arbitrary X extension protocol."
 LICENSE = "MIT"
 
-PV = "1.2.4"
+PV = "1.2.5"
 
-RPM_NAME = "libXtst6-1.2.4-1.2.aarch64.rpm"
-RPM_HASH = "a14abfd9f7bea3881695c9f8cfd6af3d487914d11a89f270de3027c44ceeb36553bea539dd2790337036e47bb3ca2dac81fb1f49d5366d1293f8b15020f7773e"
+RPM_NAME = "libXtst6-1.2.5-1.9.aarch64.rpm"
+RPM_HASH = "bb41fccbc522a87384b9b9c74a394cae999f1577ab7fb5d2f8e374c3217660c26ff9cef0bebf4c37c5a8596a50c7e7942626009e1068cb0ece92a5fbcecb4c14"
 
 RPROVIDES:${PN} += "libXtst \
 libXtst.so.6 \

@@ -4,23 +4,21 @@ which allows to automatically restore the last session and allows \
 to create named sessions."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-tabsessionmanager-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "1ccd9922f1f43e924744104b560b74ffe37163ef86b0ff0d108113dce9778cab2df8dd44ba8e795167766b0ac9a5ba7492cb81708802cc068b5a22eda8686fd0"
+RPM_NAME = "leechcraft-tabsessionmanager-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "9e3ec27ad46162c994235e923cb0ab8732bb00a82f669202a59fcceb7f00f53c4fff4ab58401eaf1eeb69c1494b116cb82211a697f96c4ac90cb1f5c35ae5112"
 
 RPROVIDES:${PN} += "leechcraft-tabsessionmanager \
 libleechcraft-tabsessmanager.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
 libstdc++.so.6"
 
 inherit rpm

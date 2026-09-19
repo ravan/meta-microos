@@ -2,10 +2,10 @@ SUMMARY = "Macros for scientific articles"
 DESCRIPTION = "Known as 'Harvard macros', since written at that University."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-harvmac-2023.209.svn15878-54.2.noarch.rpm"
-RPM_HASH = "5f6de5b9cc058a5acfaa75c5e4fc72db87aa7c2bb948b88f846088cb8e76e30709c0b88257310c3aaee065f2a14122b392e14ab5c2145af80e6629041ec997ba"
+RPM_NAME = "texlive-harvmac-2026.226.svn15878-60.4.noarch.rpm"
+RPM_HASH = "9e8f92425c39cc02c6f34439c94ae4724035ddf14665625798eb103eae97425dbcb5a4a0ed54cf47bdf7ecc1cf63fd33fa391d8b9f64bb95fa651c1f6ad8653c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harvmac.tex \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for gssdp"
 DESCRIPTION = "Documentation for gssdp."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.6.2"
+PV = "1.6.6"
 
-RPM_NAME = "gssdp-doc-1.6.2-2.1.noarch.rpm"
-RPM_HASH = "5a5c3a3fd47dc16ed90fe22000ec5748ceb9f9e3344cdc865a6f699fa46fa5d78a1a0805e53f207f847c160a12de45385055152c5d33883bc17166d520617363"
+RPM_NAME = "gssdp-doc-1.6.6-1.3.noarch.rpm"
+RPM_HASH = "22799655a9c82358adbd6983583c2a3f2ab33311f597384411ee4afe1495bdfd149e9ec706368fdf5fe1a64660155b63adfaf8c74e4ad29c337828667ad59d40"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gssdp-doc"

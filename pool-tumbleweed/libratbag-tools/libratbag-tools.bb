@@ -7,10 +7,10 @@ This subpackage contains the ratbag utilities allowing to inspect and configure 
 mice."
 LICENSE = "MIT"
 
-PV = "0.17"
+PV = "0.18"
 
-RPM_NAME = "libratbag-tools-0.17-2.2.aarch64.rpm"
-RPM_HASH = "672e1475523c31237a7af2295f53f4e2315f9fa76c08ddadb72c72ebad4be3f2ba9df1beff3c9df284c4dc6b252f712cdb7a8b07b6504d9497110d4641561c6c"
+RPM_NAME = "libratbag-tools-0.18-2.5.aarch64.rpm"
+RPM_HASH = "42986545683925ec9576cbf0ef7edd3780c6147cf2b53c116af713b7d9725421a680b25835d0c35b9e0f2827f34de1ceaedd4c15562e8df410958c45f679f55b"
 
 RPROVIDES:${PN} += "libratbag-tools"
 

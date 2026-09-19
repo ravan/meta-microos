@@ -8,10 +8,10 @@ LOD control). \
 This provides the Java part of the development files."
 LICENSE = "BSD-3-Clause"
 
-PV = "9.2.6"
+PV = "9.6.1"
 
-RPM_NAME = "vtk-java-devel-9.2.6-2.5.aarch64.rpm"
-RPM_HASH = "399a3e36bab32d44aee63ad41cd4a4068a00e185226e56381e84519826b28c9d70193400bb0c922138f839fa6f54a355a9e9aae7f4b2ba309505dc1044ace930"
+RPM_NAME = "vtk-java-devel-9.6.1-2.2.aarch64.rpm"
+RPM_HASH = "03e3df7fa75c7d7c38fda2792aad860049292e700453ad52de809e37d386be57fdc372a29f490817a000f850364287da1df40705f1ce7b006d4a0d7f24cada14"
 
 RPROVIDES:${PN} += "vtk-devel-/usr/lib64/libvtkJava.so \
 vtk-java-devel"

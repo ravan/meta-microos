@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.0"
 
-RPM_NAME = "qtdeclarative-imports-provides-qt5-1.0-1.20.aarch64.rpm"
-RPM_HASH = "b9d1d83442ba60c01987ca4ddeea458c9a5d92bd984cd19df8921a17a317b50e6a993ce31cd6f3930c377e75ba19ee6113d99a56a4e72dfbfe9fa136a1774db3"
+RPM_NAME = "qtdeclarative-imports-provides-qt5-1.0-1.36.aarch64.rpm"
+RPM_HASH = "2154638c99455818c1dbcac927ac8c903fd109a3607ce16ca4781406f9aa477103a977854f1393c726f0b90faf930d437ec5618a7dd08645a91d93e55660fce8"
 
 RPROVIDES:${PN} += "qt5qmlimport-Qt.labs.animation.1 \
 qt5qmlimport-Qt.labs.folderlistmodel.1 \

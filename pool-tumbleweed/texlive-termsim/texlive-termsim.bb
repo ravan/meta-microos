@@ -5,10 +5,10 @@ Win10, Ubuntu and Mac terminals. It is based on tcolorbox, \
 minted and listings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.1svn61414"
+PV = "2026.227.1.1.1svn76924"
 
-RPM_NAME = "texlive-termsim-2023.209.1.1.1svn61414-55.1.noarch.rpm"
-RPM_HASH = "16eb1d10b64d3a5e6cdd3d031679afa52caa84388b01795c1bfc33acca8b535572ba96e85e75883fd240f8980fc69abad4bc04782c82a806d8ab8be82ae3d21c"
+RPM_NAME = "texlive-termsim-2026.227.1.1.1svn76924-62.2.noarch.rpm"
+RPM_HASH = "8263258562a5bc031b2c3b47a738a9d38ada97f97622ebabb40f136ce9537cfb285874112dcf528ba8ee5c8920f6de94973934ad1b6096cfc5236db8fc31abe0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-termsim.sty \

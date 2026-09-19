@@ -4,10 +4,10 @@ one to distribute to students, but couldn't find an existing \
 one."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn44685"
+PV = "2026.226.svn44685"
 
-RPM_NAME = "texlive-biblatex-cheatsheet-2023.209.svn44685-54.1.noarch.rpm"
-RPM_HASH = "4d0dd0179c163e630ab9e881ed31d3bcb74fc32b85b1bb8edbd4dd89d4eb52f45cbc94cd8171c7a4f1d7c100a466fae3c52a5d387b4b25ec01a37670256e4f92"
+RPM_NAME = "texlive-biblatex-cheatsheet-2026.226.svn44685-61.2.noarch.rpm"
+RPM_HASH = "ce1d2ba7821de0fad131246aac2f5527450e1841bd7ed75c0ff4615903af0e78991b152d818ad5e115b910d86e71d8e998775d8e8c80618b91a2d7af71d9ca33"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-cheatsheet"

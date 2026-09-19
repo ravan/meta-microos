@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-baskervillef"
 DESCRIPTION = "This package includes the documentation for texlive-baskervillef"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.051svn55475"
+PV = "2026.226.1.052svn77682"
 
-RPM_NAME = "texlive-baskervillef-doc-2023.209.1.051svn55475-54.1.noarch.rpm"
-RPM_HASH = "cc67190478a827e368b1286cacc7401c507e125a5683d7056c8b34181879ff359a7e362fec2ed0b957d119bdfb1d7c82fd9ffde51a802b7a80a7c1840b53dcce"
+RPM_NAME = "texlive-baskervillef-doc-2026.226.1.052svn77682-60.2.noarch.rpm"
+RPM_HASH = "e0a0cccee079072f1097c4e1d79fdfe96338d967b66b0ecaceb18bf827efb7691a7d6fda917267661a6d40853503ea49a4283fd7ff02f2f53685e2db1ececfb2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-baskervillef-doc"

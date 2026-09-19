@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Turkish lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-tur-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "8dfd653f33d0ea7f8665ab5249197cad7215007d3913c92e9b0578c39266c3b8a0b47991b3f8a02cabdca71719cf489b7bc16ba0f6d8b3ffe3eeafe4c170365c"
+RPM_NAME = "tesseract-ocr-traineddata-tur-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "a9a302301c186848f58dc9e02a9471dc6b4080904c4b9e4f7b92a1a0771b74abc5629240407fcff9e01b52681eb4c0aca19ba01904fe3b6c7bc3633348b09d77"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-tur \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-tr \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-tur \
 tesseract-ocr-traineddata-turkish \
 tesseract-traineddata-turkish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

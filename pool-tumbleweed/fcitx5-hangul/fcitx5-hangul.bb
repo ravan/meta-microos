@@ -2,13 +2,14 @@ SUMMARY = "Hangul Wrapper for Fcitx5"
 DESCRIPTION = "Hangul Wrapper for Fcitx5."
 LICENSE = "LGPL-2.1-only"
 
-PV = "5.1.0"
+PV = "5.1.8"
 
-RPM_NAME = "fcitx5-hangul-5.1.0-1.1.aarch64.rpm"
-RPM_HASH = "c84fb1f900e669bc421d112c057a3d3438996d4339e93b4c463501b8f3200aa6574ee1cd4953b6ae19ecab38bd3bdf3fa1cc237270b724c2f2fe9307d281877c"
+RPM_NAME = "fcitx5-hangul-5.1.8-1.4.aarch64.rpm"
+RPM_HASH = "6ffee85e352d5e3ec6e0411a9348b8b52a89eff2a12f18012e73353a12964f3afa2c2a72521db4f0a3fc58512c9dbbd668cdcbd294dae5fb0d7e16f589cfc464"
 
 RPROVIDES:${PN} += "fcitx-hangul \
-fcitx5-hangul"
+fcitx5-hangul \
+libhangul.so"
 
 RDEPENDS:${PN} += "fcitx5 \
 ld-linux-aarch64.so.1 \

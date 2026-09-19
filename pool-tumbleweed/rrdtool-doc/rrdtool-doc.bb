@@ -4,10 +4,11 @@ display time-series data (i.e. network bandwidth, machine-room temperature, \
 server load average). This package contains documentation on using RRD."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.11.0"
 
-RPM_NAME = "rrdtool-doc-1.8.0-3.5.aarch64.rpm"
-RPM_HASH = "e182d6e2e6b19e932ef97afacc94ad3c2b5a41814c439f9e2ea3370187578f31d599e2c7f92b156d669627fb0ec04bb54085f56acd68e106d21eeda170a17f16"
+RPM_NAME = "rrdtool-doc-1.11.0-1.1.noarch.rpm"
+RPM_HASH = "3b582a58e05c485f311712206df10906ba357afc5a1bc5bb5649938d200ac200113b33234f5402758a80890d8548fc62371f06c5940bbea7da25c31fbcdbddf4"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rrdtool-doc"
 

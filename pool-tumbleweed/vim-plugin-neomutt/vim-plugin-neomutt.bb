@@ -4,10 +4,10 @@ sets the mail filetype to temporary mail files created by neomutt when writing \
 or editing emails."
 LICENSE = "Vim"
 
-PV = "20220612"
+PV = "20260305"
 
-RPM_NAME = "vim-plugin-neomutt-20220612-56.1.noarch.rpm"
-RPM_HASH = "4e71d39f61efbaa6f8cb530ac8083f40a4c90d7281926ba440a00801cfa066053346d99e7aa95dcbaf44c32efa57d56bd538b39da37de73973a3f857b77e87cb"
+RPM_NAME = "vim-plugin-neomutt-20260305-64.2.noarch.rpm"
+RPM_HASH = "ab77b5e812384dfc5df3ab3aa839a823fcabf0a8524994ab56abb1e40bb7f1b21c43de2bc80ba3765b37315c51cf5822045448e84962aa7646222a756466500f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-neomutt"

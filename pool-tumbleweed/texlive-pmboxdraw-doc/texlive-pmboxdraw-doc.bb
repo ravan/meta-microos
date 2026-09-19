@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pmboxdraw"
 DESCRIPTION = "This package includes the documentation for texlive-pmboxdraw"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn53046"
+PV = "2026.226.1.4svn77682"
 
-RPM_NAME = "texlive-pmboxdraw-doc-2023.209.1.4svn53046-53.1.noarch.rpm"
-RPM_HASH = "69ec3d0b6c668bf3bcc111528d00fb583fd51fe6f20d4e8bb896a9ef80e2c1e8ea37a017e0fb94b898f92c17d563b9bcf5cb668b986c3120c8b5ea2bc9663885"
+RPM_NAME = "texlive-pmboxdraw-doc-2026.226.1.4svn77682-59.2.noarch.rpm"
+RPM_HASH = "fd098726fbc56a981c4130055b09a79e985c8edc7dd3723e1693158280f6d8d0f693da58188936eb22857b5ce0c7e01ec9697b96747a6bd8d56eed278b4e84ae"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pmboxdraw-doc"

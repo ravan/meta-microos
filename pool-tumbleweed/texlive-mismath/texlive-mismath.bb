@@ -1,17 +1,17 @@
 SUMMARY = "Miscellaneous mathematical macros"
 DESCRIPTION = "The package provides some mathematical macros to typeset: \
 mathematical constants e, i, p in upright shape (automatically) \
-as recommended by ISO 80000-2, vectors with beautiful arrows \
-and adjusted norm, some standard operator names, improved \
-spacings in mathematical formulas, systems of equations and \
-small matrices, displaymath in double columns for long \
-calculations."
+as recommended by ISO 80000-2, vectors with nice arrows and \
+adjusted norm (and tensors), tensors in sans serif bold italic \
+shape, some standard operator names, improved spacings in \
+mathematical formulas, systems of equations and small matrices, \
+displaymath in double columns for lengthy calculations."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.7svn66391"
+PV = "2026.226.3.2svn76547"
 
-RPM_NAME = "texlive-mismath-2023.209.2.7svn66391-55.1.noarch.rpm"
-RPM_HASH = "403470db155e15bc68a3164931676654ac25e8f250d69ff156009e9d8faba11a7c6ddfb06f201da10143edbfe5825e98a5915294d7b178c692d84327f945e2a8"
+RPM_NAME = "texlive-mismath-2026.226.3.2svn76547-61.2.noarch.rpm"
+RPM_HASH = "ebcf3a2f4a1ceab8fb30c3a298bf736bc9e5938831b90a67fad52acfeb18193de2291042ce51fad45ea53dda4ac11b1d822cbad50c6414a8880a94b9542e17b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mismath.sty \
@@ -23,13 +23,15 @@ ed \
 findutils \
 grep \
 sed \
-tex-amsmath.sty \
+tex-decimalcomma.sty \
 tex-esvect.sty \
-tex-fontenc.sty \
+tex-etoolbox.sty \
 tex-ibrackets.sty \
 tex-iftex.sty \
 tex-ifthen.sty \
 tex-mathtools.sty \
+tex-mleftright.sty \
+tex-xkeyval.sty \
 tex-xparse.sty \
 tex-xspace.sty \
 texlive \

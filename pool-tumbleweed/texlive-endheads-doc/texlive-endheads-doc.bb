@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-endheads"
 DESCRIPTION = "This package includes the documentation for texlive-endheads"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.6svn43750"
+PV = "2026.226.1.7svn73959"
 
-RPM_NAME = "texlive-endheads-doc-2023.209.1.6svn43750-54.2.noarch.rpm"
-RPM_HASH = "7a450f1cf243a9e3762fa8bef9d22db9cb640e808c80247084130db56c6818c172de674f23e498e6a84b10fac7606c1f67a696c6dda120eca4bb0f5a8e2454d2"
+RPM_NAME = "texlive-endheads-doc-2026.226.1.7svn73959-61.4.noarch.rpm"
+RPM_HASH = "224abf5b4e19ee7ac8599defa6ac642ed767d5bb70fabcd90e4e86df29242b764e48009271cbe0dd25f0be210acc7803e4583ea65b94539025ab74bb1686f919"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-endheads-doc"

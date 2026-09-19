@@ -4,11 +4,13 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "icecream-1.4.0-2.6.aarch64.rpm"
-RPM_HASH = "184ce01d2441a51c279ad564b4e91f441beaa432fd70294dcb8b62bc050a163e220a1805d16ca11f1fa7f52016bcca896856edd299a3d5752486baefe4da3fd0"
+RPM_NAME = "icecream-1.4.0-4.6.aarch64.rpm"
+RPM_HASH = "d68f082913dbac6970124259966e59dbd06e15fee088cbdd46f6dd6b788ecc94cec94466bb663c5b3af7204d871771ac779d9f7d7f4e4d39955d98d56548ec2e"
 
 RPROVIDES:${PN} += "config-icecream \
-icecream"
+group-icecream \
+icecream \
+user-icecream"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/bzip2 \

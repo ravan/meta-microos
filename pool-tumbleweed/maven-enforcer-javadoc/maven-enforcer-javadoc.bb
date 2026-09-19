@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-enforcer"
 DESCRIPTION = "API documentation for maven-enforcer."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.1"
+PV = "3.6.3"
 
-RPM_NAME = "maven-enforcer-javadoc-1.4.1-3.11.noarch.rpm"
-RPM_HASH = "fae6be6895b35fb150337e799e6d91c46126b9cb6f9bbb5ccc86ed2310c0e842da35418630bc38aad4fbfc4db5b96291903eeda2c0a810d3a380dd3d1a44d7c9"
+RPM_NAME = "maven-enforcer-javadoc-3.6.3-1.2.noarch.rpm"
+RPM_HASH = "a0a7dfc4ba9c54eac2eec0878d648c08dc081596555f5d0fe5a904ade4f67fa3095022613a20e5826a73e21e434df2a97748255a1af267d2771854eeaa597e72"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-enforcer-javadoc"

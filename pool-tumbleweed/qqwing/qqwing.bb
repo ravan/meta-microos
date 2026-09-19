@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.4"
 
-RPM_NAME = "qqwing-1.3.4-2.21.aarch64.rpm"
-RPM_HASH = "3f310eab422ef26c0a5eb9c9efc02a6d257ac0309b070a98334a7aa2aef3cfef15baccbc21bfbe2c9035838266aae9cf29922c47df024fa6a8516786c7df947e"
+RPM_NAME = "qqwing-1.3.4-2.31.aarch64.rpm"
+RPM_HASH = "e7507dd743471a7c92b121b7888c4f637cc29a094b22c48469f4fb5d8043da38c179e5bfb59e23a561a41fc7b296db59914d9bffa5b836a75e0145bb9ca42ec9"
 
 RPROVIDES:${PN} += "qqwing"
 

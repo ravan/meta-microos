@@ -6,17 +6,17 @@ This package provides the header and source files needed for development with \
 ThePEG."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.2.3"
+PV = "2.3.0"
 
-RPM_NAME = "ThePEG-devel-2.2.3-1.10.aarch64.rpm"
-RPM_HASH = "3dcd6a5a6d4b710051dd1cc95723d376872994d1ca4aa6599ca25ab6d63697142e7d8afff25d21571d02528dc39231f2470fc34980c4b35d9d71f3f31812664c"
+RPM_NAME = "ThePEG-devel-2.3.0-2.3.aarch64.rpm"
+RPM_HASH = "5072d83d77b33d7ccc5d668ca810f378e7d48a217f7e1fda78188a588e068097bcc04621dde905e2fa0543e454b7619156b656a1c4a1f73f7b5cefd80af1f762"
 
 RPROVIDES:${PN} += "ThePEG-devel"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-ThePEG-libs \
 ld-linux-aarch64.so.1 \
 libThePEG.so.30 \
+libThePEG30 \
 libc.so.6 \
 libgcc-s.so.1 \
 libstdc++.so.6"

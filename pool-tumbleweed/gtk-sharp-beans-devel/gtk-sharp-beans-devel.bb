@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.14.1"
 
-RPM_NAME = "gtk-sharp-beans-devel-2.14.1-23.12.aarch64.rpm"
-RPM_HASH = "f476f0352b141aa978dba0870e15e80750c0ce85da0edafaf9d302f67d73ccfa67cf26a5d8dee2e1165bbde318b846a21242e6b3f9e77738de164f887f5db298"
+RPM_NAME = "gtk-sharp-beans-devel-2.14.1-23.19.aarch64.rpm"
+RPM_HASH = "3edb7fd530f48367d42ce7fc958e9bde726e977c8dd30c1c3c2027566dcc6a1f2269b036d256fc43d81ef35662173824e50857d1bd94011f34536f304c9e43c8"
 
 RPROVIDES:${PN} += "gtk-sharp-beans-devel \
 pkgconfig-gtk-sharp-beans-2.0"

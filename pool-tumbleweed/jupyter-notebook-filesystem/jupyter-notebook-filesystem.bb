@@ -6,20 +6,18 @@ It also provides macros for building packages that depend on \
 the Jupyter notebook."
 LICENSE = "BSD-3-Clause"
 
-PV = "20221227"
+PV = "20241127"
 
-RPM_NAME = "jupyter-notebook-filesystem-20221227-12.1.noarch.rpm"
-RPM_HASH = "eb79a364f7c1422695215cf40c2352612538e1081f7c5bfff7b4a72cb7c2cdd50756d805d36f862e093c35b782f69c5c78a0369e3befadcc8e95f7c5648d62f6"
+RPM_NAME = "jupyter-notebook-filesystem-20241127-1.8.noarch.rpm"
+RPM_HASH = "c70819a5e848956cf995c3260d5a255b256d3e9c81ca4ceb45e8ecea81f067c8d1064cbfc0cfed7a34ba80bc0f8d5190078276d2aa1f7533ef18830ed5f58845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-notebook-filesystem \
 jupyter-notebook-macros-devel \
-python310-notebook-filesystem \
-python310-notebook-macros-devel \
-python311-notebook-filesystem \
-python311-notebook-macros-devel \
-python39-notebook-filesystem \
-python39-notebook-macros-devel \
+python313-notebook-filesystem \
+python313-notebook-macros-devel \
+python314-notebook-filesystem \
+python314-notebook-macros-devel \
 rpm-macro--jupyter-nb-auth-confdir \
 rpm-macro--jupyter-nb-base-confdir \
 rpm-macro--jupyter-nb-bidi-confdir \

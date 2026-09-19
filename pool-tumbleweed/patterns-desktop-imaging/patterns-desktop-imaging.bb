@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "20201106"
 
-RPM_NAME = "patterns-desktop-imaging-20201106-3.5.aarch64.rpm"
-RPM_HASH = "f6010d95c474f2241e45d89a0e02c8efa89edf90fb419b271fa089bf461043c8b99c2f1e07612cf9ca64c9f9fbaebd7a6d940b23f315ab6a9827335e9d59c631"
+RPM_NAME = "patterns-desktop-imaging-20201106-5.5.aarch64.rpm"
+RPM_HASH = "ae4f3ea1bbe45c939dbd8888083638f7f91e46617beaa76389846d278244c487c0cd18c55154fc7d8c4841640a77a466b758aa42139a7cf96008296175edd20e"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
@@ -15,6 +15,6 @@ pattern-visible- \
 patterns-desktop-imaging \
 patterns-openSUSE-imaging"
 
-RDEPENDS:${PN} += "pattern-"
+RDEPENDS:${PN} += ""
 
 inherit rpm

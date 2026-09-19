@@ -5,10 +5,10 @@ trie, as proposed by Junichi Aoe. \
 This package contains the development files for libdatrie."
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.2.13"
+PV = "0.2.14"
 
-RPM_NAME = "libdatrie-devel-0.2.13-1.11.aarch64.rpm"
-RPM_HASH = "b0d78d8928f33a02cd2a5c9add94bc39298347edc97e0b8fb47e5b36b375046ead10f96babe3cb87b9e0e7b2d8f32e6bdefd589bdf24c4f393b4db33fc148dcd"
+RPM_NAME = "libdatrie-devel-0.2.14-1.6.aarch64.rpm"
+RPM_HASH = "7d0014010b6460ec13c3dce3480db15d4536651f1fb3262934ef12d1003a3fd5ca356436bae831c0e2f67a849164cdc2cbc90c44d2184f7b875123481dfbf0aa"
 
 RPROVIDES:${PN} += "libdatrie-devel \
 pkgconfig-datrie-0.2"

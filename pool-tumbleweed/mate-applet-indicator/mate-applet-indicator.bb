@@ -7,10 +7,10 @@ desktop panel. Existing indicators include the Message Menu, \
 Battery Menu and Sound menu."
 LICENSE = "GPL-3.0-only & LGPL-3.0-only"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-applet-indicator-1.26.0-1.9.aarch64.rpm"
-RPM_HASH = "23bfc63afe444afed075b1a3da9874b898150fe6beb8c2b4019d4b22cf3610c80a8ba48b421a9f5becd6be1cf2f9b4d6bdba2d54e0fc4c54ce1360c0db85b30b"
+RPM_NAME = "mate-applet-indicator-1.28.0-1.9.aarch64.rpm"
+RPM_HASH = "efe7805d0d1b28ad0977c8e797ad883ea6ac203ebcc3c597170025d181354a67fd7bb137a3fd02602c5dac80ce7f2b13220d1d802b1823439ec68b769c9f1220"
 
 RPROVIDES:${PN} += "ayatana-indicator-renderer \
 mate-applet-indicator \

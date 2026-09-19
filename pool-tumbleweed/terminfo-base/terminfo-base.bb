@@ -5,15 +5,17 @@ contains information about any known terminal. The ncurses library \
 makes use of this database to use terminals correctly."
 LICENSE = "MIT"
 
-PV = "6.4.20230819"
+PV = "6.6.20260815"
 
-RPM_NAME = "terminfo-base-6.4.20230819-19.1.aarch64.rpm"
-RPM_HASH = "f5c268f5d49eb8f3f7e6995ff459d281e847024bd8eb00f102bfe27462a634c5332c2faf79e697d8e0b445a6aca9fb27a248f9324657eadcb5f92f940b91217a"
+RPM_NAME = "terminfo-base-6.6.20260815-111.1.aarch64.rpm"
+RPM_HASH = "9056fc1537c4f9d6fd6de58c895cbe9f691525abf034efce08859ae8dd1dc68126b5cabd22776d3aa815da279ffc44a8c41095b84f7844d88915195c1490e016"
 
 RPROVIDES:${PN} += "config-terminfo-base \
 ncurses-/usr/share/tabset \
 terminfo-base"
 
-RDEPENDS:${PN} += "ncurses"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6 \
+libtinfo.so.6"
 
 inherit rpm

@@ -4,22 +4,15 @@ much as the figlet program does, and it written in the same spirit \
 of silliness."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.7.0"
+PV = "3.8.4"
 
-RPM_NAME = "cowsay-3.7.0-1.9.noarch.rpm"
-RPM_HASH = "d8d83c28fe33b81e923cc01e1d2d577ab5a7c4b61780e116b9c3d456535ec333d1ff5c44c0b09abca049cdc4d0d11fa6908bce3cee7428dc080acea694371aa7"
+RPM_NAME = "cowsay-3.8.4-1.9.noarch.rpm"
+RPM_HASH = "d0a670958a601ae23d81500e09b3f107a96b05c3185e52232e45a976191352c66655e08a782cf9ba917b67be373cf51c8adf53ad0b13e7d5c2bab73ef0a5ddd2"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "cowsay \
-perl-Acme--Cow--DragonAndCow \
-perl-Acme--Cow--Example \
-perl-Acme--Cow--Frogs \
-perl-Acme--Cow--MechAndCow \
-perl-Acme--Cow--Stegosaurus \
-perl-Acme--Cow--TextBalloon \
-perl-Acme--Cow--TuxStab"
+RPROVIDES:${PN} += "cowsay"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "For typesetting translated text and the original source, \
 parallel on the same page, one above the other."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn15878"
 
-RPM_NAME = "texlive-parrun-2023.209.svn15878-52.1.noarch.rpm"
-RPM_HASH = "b60772618669c868eaec370b31d5c70048aade5569b5750b47081ea49d487f18ae912d031a4512cc35218e8dadb54125cea1a6320c35c099d0599b85a416e45e"
+RPM_NAME = "texlive-parrun-2026.226.svn15878-58.2.noarch.rpm"
+RPM_HASH = "5d23ea8bb60450e91d3e865649cf9dde2d564b882ffde6daf314ad1dedc0b5bf4f976377dd748e6d10629b23b4defd3e601692ab1b7b5450b6cac8b0b165da04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-parrun.sty \

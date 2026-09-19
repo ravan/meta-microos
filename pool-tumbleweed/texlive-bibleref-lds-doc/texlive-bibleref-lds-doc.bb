@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bibleref-lds"
 DESCRIPTION = "This package includes the documentation for texlive-bibleref-lds"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn25526"
+PV = "2026.226.1.0svn25526"
 
-RPM_NAME = "texlive-bibleref-lds-doc-2023.209.1.0svn25526-54.1.noarch.rpm"
-RPM_HASH = "565e17dc49f2041023460d92e9cd0e3368f4d94e8e9d642793a02fb70543a3b6a315d209b12ddc7ecdb0b30612c508fbcf0c31bee1d9effaba8fbf992fabf237"
+RPM_NAME = "texlive-bibleref-lds-doc-2026.226.1.0svn25526-61.2.noarch.rpm"
+RPM_HASH = "aacdccdc59b22bf8e0c1776a86721c780b2553da2b84a2e42d6580adb00f9fc4e7964445d8d1defd62c5bd037c84f650a73520993153a45190046d244c4bbac4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibleref-lds-doc"

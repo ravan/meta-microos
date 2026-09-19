@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for you-get"
 DESCRIPTION = "Fish command line completion support for you-get."
 LICENSE = "MIT"
 
-PV = "0.4.1650"
+PV = "0.4.1743"
 
-RPM_NAME = "you-get-fish-completion-0.4.1650-1.4.noarch.rpm"
-RPM_HASH = "f812fbf3d46b6fcfee6e55a82292627437d53c27fcc5e13752d237e81a390550ad6f9c958d662bcc4acc26e67d3acd8efef3b5d8849f9fad0df7bc3cdd1a05ea"
+RPM_NAME = "you-get-fish-completion-0.4.1743-3.1.noarch.rpm"
+RPM_HASH = "f53993167bac39de020dd40a33c3bf5028ba05c00894e458fb590ddcbea688906fa036881a5f8e6f3386a820721c5ad9ac1d2783858448aeaef53fdee18b4d36"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "you-get-fish-completion"

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Thai langua
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-tha-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "1c9d949724ee9c28f5ec608eae90f4c94a029bd917a5f1de274f9bfc5e4d3102f08c2985e7b1bde0089d4a01925cfee3c9833e6cb593458c71c9f62e8040d912"
+RPM_NAME = "tesseract-ocr-traineddata-tha-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "23a58285e429b9b42c3b6209e16e58b2b45443ecb2882c5df345545aeab2db6216dfa6928b11b795f466b33207634585decc1d7814f69bf6ad5086a9ff08e38e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-tha \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-th \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-tha \
 tesseract-ocr-traineddata-thai \
 tesseract-traineddata-thai"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-symbols package contains a set of 'Rubber Stamp' 
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-symbols-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "f176150c091301870fc4f7a5209d085d66c5b87487833d2abe8b9d533e43733b4fa4e7d63a3af21f47698d613ba486e7a7da92890c99c68fe593e22fb0a586b9"
+RPM_NAME = "tuxpaint-stamps-symbols-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "41744f3831cec45c975bdb3ba04ee8868498945381df57bb9525b53d12a12dd528e65478a3e809ca8fba30da5b71ab314383bef838d6afe12f331ffd62d02a79"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

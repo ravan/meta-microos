@@ -7,10 +7,10 @@ It allows access to the entry number, number of entries and so \
 on."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn15878"
+PV = "2026.226.1.0svn15878"
 
-RPM_NAME = "texlive-mailmerge-2023.208.1.0svn15878-53.1.noarch.rpm"
-RPM_HASH = "14a6f50ab7accc6be99d9cb7fb57a8a9282146c0a2881f16535963adbb25854cba4944fc130dd869edd850d0aa6e50d933cd3f39a6ff05b4cfae9fe0802bd1de"
+RPM_NAME = "texlive-mailmerge-2026.226.1.0svn15878-59.2.noarch.rpm"
+RPM_HASH = "db18b8b9989eb6ac86e61cb6eadca72e833c4b4ebbeaca4a9f97785cd36d12f1b6db588bb81c47e684bcf859eda920d3a5ee695e4d3c3749edc67c053c0a2e38"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mailmerge.sty \

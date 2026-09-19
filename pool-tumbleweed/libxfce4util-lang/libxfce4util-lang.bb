@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libxfce4util"
 DESCRIPTION = "Provides translations for the 'libxfce4util' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.18.1"
+PV = "4.20.1"
 
-RPM_NAME = "libxfce4util-lang-4.18.1-1.4.noarch.rpm"
-RPM_HASH = "b4eeec66a8e76c9205bc7b97988305334e57a93120f7fceba24955e5863ffe25cea9274561c4d2e19bdda217acd404cd057b2ded620b931f6ce8346c70ae2676"
+RPM_NAME = "libxfce4util-lang-4.20.1-1.5.noarch.rpm"
+RPM_HASH = "a0068768467651062fd8c7228f51e6a8cafc034b5a8839653fc84a66950b60fb2333b503318628bda1c0dc44f0662ede1961d0f5a69f02ecca342830812be22e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libxfce4util-lang \
@@ -58,6 +58,7 @@ locale-libxfce4util-sl \
 locale-libxfce4util-sq \
 locale-libxfce4util-sr \
 locale-libxfce4util-sv \
+locale-libxfce4util-te \
 locale-libxfce4util-th \
 locale-libxfce4util-tr \
 locale-libxfce4util-ug \

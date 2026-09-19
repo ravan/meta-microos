@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-embedfile"
 DESCRIPTION = "This package includes the documentation for texlive-embedfile"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.12svn65528"
+PV = "2026.226.2.13svn77682"
 
-RPM_NAME = "texlive-embedfile-doc-2023.209.2.12svn65528-54.2.noarch.rpm"
-RPM_HASH = "3b9379fd696aea10257f920df3d62c39c4c2bb02e3ab1a7a342b4ad4f75369b71929a3b0230953cd3529eb02eeaf174bae5d3db1c9dc21399ce350924ce4bfc9"
+RPM_NAME = "texlive-embedfile-doc-2026.226.2.13svn77682-61.4.noarch.rpm"
+RPM_HASH = "2572f3271482a78003aeb8c8fa0509d2c52a2881436f7cff45470684d94490178f972033ce63bc61af3698b06b2c8bb0fd37521294043c115b96c9e8f0257b22"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-embedfile-doc"

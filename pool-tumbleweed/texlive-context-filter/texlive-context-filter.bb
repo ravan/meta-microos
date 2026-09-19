@@ -8,10 +8,10 @@ temporary files that are created. The module is compatible with \
 both MkII and MkIV."
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.svn62070"
+PV = "2026.226.svn62070"
 
-RPM_NAME = "texlive-context-filter-2023.209.svn62070-55.1.noarch.rpm"
-RPM_HASH = "c7b778d447bc67f46b6140ff1ce4f2040e17a2dc314950406d83b6d3d8b59c225a49905d6855d6753659c938bd2fd6a6c05ee9df0c175336572acdfb202398bd"
+RPM_NAME = "texlive-context-filter-2026.226.svn62070-61.2.noarch.rpm"
+RPM_HASH = "c7f4c7a31491e7af428032a4f4a56513bf6a6dbd99ae4823cce86e8d17a7d6f5fade753f20cb795a7dac32bfa1b0a416cd21d98d92e0b9ada3eaddaa6c2267ab"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-context-filter"

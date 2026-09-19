@@ -7,10 +7,10 @@ X11 forwarding and SCP. There are no dependencies on any JCE provider, as all \
 crypto functionality is included."
 LICENSE = "BSD-3-Clause & MIT"
 
-PV = "217.8"
+PV = "217.293.v56de4d4d3515"
 
-RPM_NAME = "trilead-ssh2-217.8-2.7.noarch.rpm"
-RPM_HASH = "c07407965f92b5e6862fc6422101606944dd4e098346a95f7d37ac4a704f25ac88f7fd252da92b80544114427310b7cbb51a00aa52866c2899b5104e0f848d39"
+RPM_NAME = "trilead-ssh2-217.293.v56de4d4d3515-1.9.noarch.rpm"
+RPM_HASH = "3b34ef5daf8592841d1bebf9176de4f6b9031b6800c044f4de118d54be605de4fd4bebe199fd056f7d621830fcedd403265c0ecb56b5ced001cc48f7531c6b91"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-com.trilead-trilead-ssh2 \
@@ -22,6 +22,8 @@ mvn-org.tmatesoft.svnkit-trilead-ssh2-pom- \
 trilead-ssh2"
 
 RDEPENDS:${PN} += "java-headless \
-javapackages-filesystem"
+javapackages-filesystem \
+mvn-net.i2p.crypto-eddsa \
+mvn-org.connectbot-jbcrypt"
 
 inherit rpm

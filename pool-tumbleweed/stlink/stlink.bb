@@ -2,10 +2,10 @@ SUMMARY = "STM32 discovery line linux programmer"
 DESCRIPTION = "STLINK v1/v2 JTAG/SWD debugging/flashing tool for STM32 microcontrollers."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.7.0"
+PV = "1.8.0"
 
-RPM_NAME = "stlink-1.7.0-2.8.aarch64.rpm"
-RPM_HASH = "7cae2a48c6ace203c8e697eacddb6b263517e515d0ef14706c2f712fde636dd4722d292b58e0679220020c1eafad5246d954300dbe21342e54a7ccb28e1231f4"
+RPM_NAME = "stlink-1.8.0-1.11.aarch64.rpm"
+RPM_HASH = "88da6933a995bd45b67fdbc722fec2ca62f6f97f606cff063554b2aa673f0b1375b00ca22c025b2c1af04b0f5e92e487db77903f07fcd5a739e93234074f3027"
 
 RPROVIDES:${PN} += "stlink"
 

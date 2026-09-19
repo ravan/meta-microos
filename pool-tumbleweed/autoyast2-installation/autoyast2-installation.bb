@@ -3,10 +3,10 @@ DESCRIPTION = "This package performs auto-installation relying on a control file
 generated with the autoyast2 package."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.2"
+PV = "5.0.10"
 
-RPM_NAME = "autoyast2-installation-4.6.2-1.1.noarch.rpm"
-RPM_HASH = "bf56b0e64c70a1b894ea53ee554657c1eff2a3598351bab63a17dd7e074507f9fda09ba0eb39de51be6cf43ea6a0b65a5b1f9f330a3872019a1881b17b0c9512"
+RPM_NAME = "autoyast2-installation-5.0.10-1.1.noarch.rpm"
+RPM_HASH = "a8515481ec59625e4231ced2f32c64269f906a71c9a5949037ab91ec865673baaaffb51191d05e5a350b34a9803968fea868c72fec76e28500b62366d63f452d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "autoyast2-installation \
@@ -17,7 +17,6 @@ yast2 \
 yast2-bootloader \
 yast2-core \
 yast2-country \
-yast2-ncurses \
 yast2-ntp-client \
 yast2-packager \
 yast2-pkg-bindings \

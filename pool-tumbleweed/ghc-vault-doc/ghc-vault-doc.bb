@@ -2,10 +2,10 @@ SUMMARY = "Haskell vault library documentation"
 DESCRIPTION = "This package provides the Haskell vault library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.3.1.5"
+PV = "0.3.2.0"
 
-RPM_NAME = "ghc-vault-doc-0.3.1.5-4.9.noarch.rpm"
-RPM_HASH = "983729eba2069408974ee58b00af266a877d8cbfd98c42801f5f69c0a60645711ae7c350442faed9feb9899da6f8994bb595ab2a082473c82b88da6e82c57b84"
+RPM_NAME = "ghc-vault-doc-0.3.2.0-1.2.noarch.rpm"
+RPM_HASH = "bb7363536d9846c80caffba7aaec5089bef56c91414c2e2aac2331388a1306c77b4f870541dead13f63d373e38fc8dc42992a27b43cbbe7a1586ccdbb6d6f283"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-vault-doc"

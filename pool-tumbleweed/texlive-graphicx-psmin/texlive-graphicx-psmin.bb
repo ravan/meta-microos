@@ -10,10 +10,10 @@ minimal (as Ghostscript and Adobe Distiller only include a \
 single copy of each graphics file, anyway)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn56931"
+PV = "2026.226.1.2svn56931"
 
-RPM_NAME = "texlive-graphicx-psmin-2023.209.1.2svn56931-54.2.noarch.rpm"
-RPM_HASH = "9d43fc7da1ee36bf6f60cc7ec8f436486901f70b4d3512c3c923ff596dceed8608847f1f7619e89da8781ec3dca12fcac07bbebcc5bd767a3a86e3fa02cc2257"
+RPM_NAME = "texlive-graphicx-psmin-2026.226.1.2svn56931-60.4.noarch.rpm"
+RPM_HASH = "0e60d7aa9af78194b4db6696226ae08b53b73ef4703d920d8d3c1a8296bdb15638bb3a91f231913035ea75b1703df1b41ee54ae0394928e9cf7f94db7377c1be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-graphicx-psmin.sty \

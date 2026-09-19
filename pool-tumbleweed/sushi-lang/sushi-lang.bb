@@ -2,18 +2,20 @@ SUMMARY = "Translations for package sushi"
 DESCRIPTION = "Provides translations for the 'sushi' package."
 LICENSE = "SUSE-GPL-2.0-with-plugin-exception"
 
-PV = "44.2"
+PV = "50.0"
 
-RPM_NAME = "sushi-lang-44.2-1.1.noarch.rpm"
-RPM_HASH = "fe956ccd2c0b50c3a4689e90d723ebaf62c3d6a5cdf3c23f1c1bf3d6d2ca19d7e1724cf6e81ccff722ff92355fd2ab86e0c0582eb7ce4111e19f81892046a945"
+RPM_NAME = "sushi-lang-50.0-1.3.noarch.rpm"
+RPM_HASH = "b67d3950b9f5dfcf5dc56a9915261981715a676fc7bc18d4e029a9f2abc5ef9954384300ad91e84889b6df4219ed4357af0b4bc5d8b297bb6150c59f3c4657df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-sushi-af \
 locale-sushi-ar \
 locale-sushi-as \
 locale-sushi-ast \
+locale-sushi-az \
 locale-sushi-be \
 locale-sushi-bg \
+locale-sushi-bn \
 locale-sushi-bn-IN \
 locale-sushi-bs \
 locale-sushi-ca \
@@ -38,6 +40,7 @@ locale-sushi-he \
 locale-sushi-hi \
 locale-sushi-hr \
 locale-sushi-hu \
+locale-sushi-ia \
 locale-sushi-id \
 locale-sushi-is \
 locale-sushi-it \
@@ -54,6 +57,7 @@ locale-sushi-ms \
 locale-sushi-nb \
 locale-sushi-ne \
 locale-sushi-nl \
+locale-sushi-nn \
 locale-sushi-oc \
 locale-sushi-or \
 locale-sushi-pa \

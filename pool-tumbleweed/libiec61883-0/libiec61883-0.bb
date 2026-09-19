@@ -1,4 +1,4 @@
-SUMMARY = "Library implementing IEC 61883"
+SUMMARY = "An isochronous streaming media library for IEEE 1394"
 DESCRIPTION = "This library is an implementation of IEC 61883, part 1 (CIP, plug \
 registers, and CMP), part 2 (DV-SD), part 4 (MPEG2-TS), and part 6 \
 (AMDTP). Outside of IIDC, nearly all FireWire multimedia devices use \
@@ -13,12 +13,12 @@ these media types thereby removing the complexities of additional \
 kernel modules, /dev nodes, and procfs. It also consolidates features \
 for plug control registers and connection management that previously \
 existed in experimental form in an unreleased version of libavc1394."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "libiec61883-0-1.2.0-8.27.aarch64.rpm"
-RPM_HASH = "24f5940ea0e00d3a989d6eeac048a238ffce3444d0b3761301108c97a3255528204635467dfe4f92ffa66c1da8cf4ccd6f2fb82ff421837eb01b1f5ef354576d"
+RPM_NAME = "libiec61883-0-1.2.0-9.5.aarch64.rpm"
+RPM_HASH = "a16b492caa96ca375a974260c9356285813687a1b5acb6a09a481512abfcc8f8d67ac7c229d15306fbc6b3a2997d3393476921de2d2a621e00f01b4696ae868c"
 
 RPROVIDES:${PN} += "libiec61883-0 \
 libiec61883.so.0"

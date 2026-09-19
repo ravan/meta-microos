@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-only & GPL-2.0-or-later & SUSE-Firmware"
 
 PV = "1.2"
 
-RPM_NAME = "bluez-firmware-1.2-150.2.aarch64.rpm"
-RPM_HASH = "3542517632e75331ca8ca78dff31f6fd061f289c723a7ba5d47196031ee7b602e6486809cf74fc48da53f6d5c952d655577832fc213eace5f5acb8c3dad3d608"
+RPM_NAME = "bluez-firmware-1.2-150.10.aarch64.rpm"
+RPM_HASH = "1caeec2bffb953fc429f69f01ccc880c0dea731a84b425b6f25ab61a7b59b4270312f8e5eba2ed338698186cc05c46032a65c03eb2d34034278539ae054ab0fc"
 
 RPROVIDES:${PN} += "bluez-firmware \
 firmware-BCM2033-FW.bin \

@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "libplotter2-2.6-29.4.aarch64.rpm"
-RPM_HASH = "8104708ad74b9c497b3490ad78f6daa63bf4d81f09a1606c7f63ca480cd1faf979da208b01b72d60b66f4c099faf224ad37a65010300a49452c1ccfdb56e7d70"
+RPM_NAME = "libplotter2-2.6-31.7.aarch64.rpm"
+RPM_HASH = "202b73f28aa1a38ac8648ad149989b1f523684702c205a30453ac23a93d6ce1b7c2df507ab800ad2ed51043aa306472264394aa6631190db6db10c3691030bae"
 
 RPROVIDES:${PN} += "libplotter.so.2 \
 libplotter2"

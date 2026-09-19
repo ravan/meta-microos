@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1+"
 
 PV = "0.2"
 
-RPM_NAME = "liblazy-devel-0.2-1.26.aarch64.rpm"
-RPM_HASH = "93f26e9feacd92857062c8427c3bde46197ee5c9d6a5da9862602d3907c8f76bf11a1dd6742027b22057d8af357702aa48967b9e1fcc15d546bc955a8a745798"
+RPM_NAME = "liblazy-devel-0.2-1.36.aarch64.rpm"
+RPM_HASH = "f1a69894b7a664169d704c1c6bed1b9779ece41b9dc1bc67e190b821600e11dc043d44f77e358343cd3067bf3b5aa7045f089f732053b5e94b2cfff29ebd9a46"
 
 RPROVIDES:${PN} += "liblazy-devel \
 pkgconfig-lazy"

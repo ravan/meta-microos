@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the Magra family of fonts designed by \
 FontFuror, with support for LaTeX and pdfLaTeX."
 LICENSE = "OFL-1.1"
 
-PV = "2023.208.0.0.0.1svn57373"
+PV = "2026.226.0.0.0.1svn57373"
 
-RPM_NAME = "texlive-magra-2023.208.0.0.0.1svn57373-53.1.noarch.rpm"
-RPM_HASH = "bad532125741f3e4a6f1f085fb95f7898538cafe837f5c4dbf8bad51662f634225250fec242ebcd07419247f3b861833de97af1b0748f29a7b6ab9c9d1614999"
+RPM_NAME = "texlive-magra-2026.226.0.0.0.1svn57373-59.2.noarch.rpm"
+RPM_HASH = "0d547c1ec4bcdf3df11036fd9dae5838a37e8e59284bfef605eb3a3c834422c80ca43ee6ed6a4b775dc7ca803e223aa3e9c069d582fc02632a3d46e24a48f47a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-LY1Magra-TLF.fd \

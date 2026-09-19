@@ -9,10 +9,10 @@ the pstricks base distribution; the package serves as an \
 extension to PSTricks."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.43svn61838"
+PV = "2026.226.1.45svn77682"
 
-RPM_NAME = "texlive-pst-node-2023.209.1.43svn61838-53.1.noarch.rpm"
-RPM_HASH = "acf84ade873b1304ed1222c17203043531a8114740db1dbb7a68f0ddf17fefe2eb7ea49b0d814aa5dbd55587a2801691c9fd0955e4e3ec364464487e4c52612d"
+RPM_NAME = "texlive-pst-node-2026.226.1.45svn77682-59.2.noarch.rpm"
+RPM_HASH = "9bd5f868ade0b52919c0045123abc63370b281a59fac31b7ef391ce508b35d96ccb88a2b7eeaddffa85559b2919eb40780c2b40c7c3c445b46112ff5c5509a6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pst-node.sty \

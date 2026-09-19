@@ -4,10 +4,10 @@ solving large-scale convex cone problems. \
 This package provides development libraries and headers for scs."
 LICENSE = "MIT"
 
-PV = "3.2.3"
+PV = "3.2.6"
 
-RPM_NAME = "scs-devel-3.2.3-1.1.aarch64.rpm"
-RPM_HASH = "1c063b60274b0124baf98cb74c50034aad48bf956cfa40b211b8f0d79f0f3a3e586213b19aff00267f19a9d724fee411fdab898f9826440bc7d616b4eb3c6e79"
+RPM_NAME = "scs-devel-3.2.6-1.8.aarch64.rpm"
+RPM_HASH = "302f0769f27cf7087bf7c73aa5e2e07f9923a7833b3ed03ae09151b21f72f810909e400a9bd1582962cf59c8eb7bd374bf3d50761ada86929d0fc6d22e375fe8"
 
 RPROVIDES:${PN} += "libscsdir.so \
 libscsindir.so \

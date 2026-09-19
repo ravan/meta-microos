@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-jpneduenumerate"
 DESCRIPTION = "This package includes the documentation for texlive-jpneduenumerate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn63893"
+PV = "2026.226.1.3svn72898"
 
-RPM_NAME = "texlive-jpneduenumerate-doc-2023.209.1.2svn63893-56.1.noarch.rpm"
-RPM_HASH = "4b876e0c2d1eb4f9efc1cb148148645653926f2c51967a9d2022426504945fcf7dbe39ffec0d15f231fa3ac60d7831342023cbda0524f848171f14ae9fea4b99"
+RPM_NAME = "texlive-jpneduenumerate-doc-2026.226.1.3svn72898-63.2.noarch.rpm"
+RPM_HASH = "8321fd60064b99583b51525d8e976cdc64016f27eaaeeb62b3fa7536e1f67eb5575821d43c4f225b73fb1529767c9d0ce22be1846873725b74b2be425e28326d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ja) \

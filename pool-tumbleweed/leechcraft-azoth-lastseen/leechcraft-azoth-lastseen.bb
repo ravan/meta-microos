@@ -4,23 +4,22 @@ contacts' last online and availability time on the client side. It \
 does not depend on a concrete protocol implementation."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-lastseen-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "04615b2c2faa23bf58f64b5235bc9f52f794c05b10a1b7c2d6c0d58565c5dd0575ab027d37223bb3b668ff40a25cfe5c07e2c77b09a7fadd969696cb01fe8eee"
+RPM_NAME = "leechcraft-azoth-lastseen-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "26dbea888bb1fa0cbbe931bf528ca8ca428598b09d5fca18ea78e3af7f6d4d6f355aaca3771d495a2909b8187a324817f0b5cbc739895319a705a1d70991d0f7"
 
 RPROVIDES:${PN} += "leechcraft-azoth-lastseen \
 libleechcraft-azoth-lastseen.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5 \
-libQt5Sql.so.5 \
+libQt6Core.so.6 \
+libQt6Sql.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-db-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
+libleechcraft-util-db-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

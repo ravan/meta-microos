@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-chklref"
 DESCRIPTION = "This package includes the documentation for texlive-chklref"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.1.2svn52649"
+PV = "2026.226.3.1.2svn52649"
 
-RPM_NAME = "texlive-chklref-doc-2023.209.3.1.2svn52649-54.1.noarch.rpm"
-RPM_HASH = "01785c9cf76d7ed07499152b5c23d9b8fb84c5680a37d990a3bc9141e824e65ed2744ec64ed7da36c9ae5a353f9fc3bc89f142a91943292173b2f96feeddb822"
+RPM_NAME = "texlive-chklref-doc-2026.226.3.1.2svn52649-60.2.noarch.rpm"
+RPM_HASH = "14f875e7c5f49b097b774196db614dcb7a8a25348853cd74bc7ac854709b13cae20cabd7e3808ec87ee70811a9523f75f411fe8f6dccaaa2b11b148207cad8e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-chklref.1 \

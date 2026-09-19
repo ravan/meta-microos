@@ -6,19 +6,20 @@ heterogenous GPUs/accelerators. \
 This subpackage contains the shared library part of pocl."
 LICENSE = "MIT"
 
-PV = "3.1"
+PV = "7.1"
 
-RPM_NAME = "libpocl2-3.1-3.2.aarch64.rpm"
-RPM_HASH = "716b893bfdee51ff1c0039c08bfef2415b069142b4e80d8a5e208594704012525c8b5c7dd049ea4e8dc7cec660f34bf943c5e3bd57a96959cb9deb3000ad6d6f"
+RPM_NAME = "libpocl2-7.1-2.2.aarch64.rpm"
+RPM_HASH = "4bd7ec29657bc367ed10b611e5706f1c81efde62c6229ef6b88ee072c242f20e2a4b80c51d4caa5fb9f423b46189317c36abde85adf12ea70dee502b95656a9d"
 
 RPROVIDES:${PN} += "libpocl.so.2 \
 libpocl2"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libLLVM.so.16 \
+libLLVM.so.21.1 \
+libLLVMSPIRVLib.so.23.1 \
 libc.so.6 \
-libclang-cpp.so.16 \
+libclang-cpp.so.21.1 \
 libgcc-s.so.1 \
 libhwloc.so.15 \
 libstdc++.so.6"

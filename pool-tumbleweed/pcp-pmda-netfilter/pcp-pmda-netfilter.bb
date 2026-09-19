@@ -3,10 +3,11 @@ DESCRIPTION = "This package contains the PCP Performance Metrics Domain Agent (P
 collecting metrics about the Netfilter packet filtering framework."
 LICENSE = "GPL-2.0+"
 
-PV = "5.2.5"
+PV = "6.3.8"
 
-RPM_NAME = "pcp-pmda-netfilter-5.2.5-3.8.aarch64.rpm"
-RPM_HASH = "c54770d27acbfe8a1adcd3f446ed289f55e6c723604a40d29751da7e60ade255ccb386efe1fa159797866efbf2d4e1c7e882c2f81e8dac3995d673b0e077832b"
+RPM_NAME = "pcp-pmda-netfilter-6.3.8-3.1.noarch.rpm"
+RPM_HASH = "265c7f8460f35cea6b89fe36785fd11eb13066be5dd770a74f5367f0b99234fadc3c4dca6a9427a6267c1d83e01bcbfe2448d3c42f2c8e6eb59698f9ec7fe365"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pcp-pmda-netfilter"
 

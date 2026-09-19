@@ -8,10 +8,10 @@ inequations de facon intuitive, et produit un affichage ou les \
 termes et les signes sont alignes verticalement."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.34svn55015"
+PV = "2026.226.0.0.51svn77682"
 
-RPM_NAME = "texlive-systeme-2023.209.0.0.34svn55015-58.1.noarch.rpm"
-RPM_HASH = "fc44e45eaf01c08bcbaec9f72d34e9a4afe6858c2da2b3466bea8cb3cbcae36eeeeefcf76c98882312ae1a3e39795098669e05cf37c6baec0981363719b09eec"
+RPM_NAME = "texlive-systeme-2026.226.0.0.51svn77682-64.2.noarch.rpm"
+RPM_HASH = "ad5f4427d9566c2802a49fbe505a547b078f49862b15ad57712504488aad6ebc7bfb1100b78979eb52df3efdb5540159e47c331de488531cb04b308b4ba60713"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-systeme.sty \
@@ -24,6 +24,7 @@ ed \
 findutils \
 grep \
 sed \
+tex-simplekv.sty \
 tex-xstring.sty \
 texlive \
 texlive-filesystem \

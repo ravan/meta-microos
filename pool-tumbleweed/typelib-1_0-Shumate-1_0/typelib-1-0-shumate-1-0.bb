@@ -1,12 +1,12 @@
 SUMMARY = "Introspection file for libshumate"
 DESCRIPTION = "C library providing a GtkWidget to display maps. \
 This package contains introspection file for libshumate."
-LICENSE = "LGPL-2.1-or-later"
+LICENSE = "Apache-2.0 & LGPL-2.1-or-later & BSD-3-Clause & CC0-1.0 & CC-BY-3.0 & GFDL-1.2-only"
 
-PV = "1.0.5"
+PV = "1.6.3"
 
-RPM_NAME = "typelib-1_0-Shumate-1_0-1.0.5-1.1.aarch64.rpm"
-RPM_HASH = "46d8b68f95c1b18402c18df6fa24340cbccffc8bacf0d82534faf37cdec56b97f74e21371c33919058d915f93cd3d15faf3447f934a65c23bff6a27957c4da0f"
+RPM_NAME = "typelib-1_0-Shumate-1_0-1.6.3-1.1.aarch64.rpm"
+RPM_HASH = "fa0ec3371b5ba9c395bcbdf9cd7738c4100c3281a1e512502b2177df6ddf6f74241a1f4b5ffdc87824d082953a948480f9966ab35e63be6aa33847c34ed57850"
 
 RPROVIDES:${PN} += "typelib-1-0-Shumate-1-0 \
 typelib-Shumate"

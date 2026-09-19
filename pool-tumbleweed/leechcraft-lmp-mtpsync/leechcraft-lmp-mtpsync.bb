@@ -2,10 +2,10 @@ SUMMARY = "LeechCraft MtpSync Module"
 DESCRIPTION = "This package allows to synchronize with MTP devices via LeechCraft."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-lmp-mtpsync-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "1a58765ab0aa885ea8fd9b559ed80fd3e4f1afdbaa40b632a0543fe8f8c19192a39ba04e4d8ec9435c9d49c1699ad4870b61e9c841fb36ec660a69e4c20ec733"
+RPM_NAME = "leechcraft-lmp-mtpsync-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "26e073e6bf05eba0e16ae5b1aff495675305bdbad74d2a78f8712136e4df469b1df820249f9d20778f9bef6d516f7ab65ce1da66f284bc77722e208eeb88efcd"
 
 RPROVIDES:${PN} += "leechcraft-lmp-mtpsync \
 libleechcraft-lmp-mtpsync.so"
@@ -13,11 +13,18 @@ libleechcraft-lmp-mtpsync.so"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-devmon \
 leechcraft-lmp \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
+libleechcraft-util-models-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
 libmtp.so.9 \
-libstdc++.so.6"
+libstdc++.so.6 \
+libtag.so.2"
 
 inherit rpm

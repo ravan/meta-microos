@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tkz-euclide"
 DESCRIPTION = "This package includes the documentation for texlive-tkz-euclide"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.5.02csvn65724"
+PV = "2026.226.5.13csvn77515"
 
-RPM_NAME = "texlive-tkz-euclide-doc-2023.209.5.02csvn65724-53.1.noarch.rpm"
-RPM_HASH = "b9bf2f0b34f6d94f3399d9f5dbbf79b3e9ac8955ee244d0443af6c2e3a0b3f8cf8cf6a66c1854b00e864fe322706f032b61b338bc571ab6eb5256de9dba09172"
+RPM_NAME = "texlive-tkz-euclide-doc-2026.226.5.13csvn77515-59.2.noarch.rpm"
+RPM_HASH = "54ed807899534ef680974263bb0664e00bb8a2f174245c55acc2d38dba1f039e33ed533dffa186f9a1ffd1a754ffcc78ac81ba3264e13d7d24ac28eaa9b8cabd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tkz-euclide-doc"

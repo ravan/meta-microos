@@ -8,10 +8,10 @@ Novell GroupWise Messenger, IBM Sametime, and Zephyr. It can \
 support many more with plugins."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "pidgin-2.14.12-1.4.aarch64.rpm"
-RPM_HASH = "a86729e67b252a5ebb19ebae63c9f3cd2cdfec920d6bf393ef0124d6c1d8e4e9ff4894c06b26329954b50716e3fc450a1639bcaa572e3c3b5602dd63553a6f0a"
+RPM_NAME = "pidgin-2.14.14-2.3.aarch64.rpm"
+RPM_HASH = "cd97ba5537d269624f6f748fde421666daf19098fdc82b0180373d6d1e434a9702f81b7acb59e5d6f0f31dc6acd854e21a26530a85dee126b598c3d00388e551"
 
 RPROVIDES:${PN} += "perl-Pidgin \
 pidgin"

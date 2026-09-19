@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "0.4.0"
 
-RPM_NAME = "ghc-call-stack-doc-0.4.0-2.8.noarch.rpm"
-RPM_HASH = "3ec2365cdfb31794fbe671dad92d64f91b47183a0bb87df5f3287b8352707c5457a285cc3b6f191a7416d438eae83138a43a75e22be67168b8fa4623589f78ea"
+RPM_NAME = "ghc-call-stack-doc-0.4.0-2.35.noarch.rpm"
+RPM_HASH = "9a684b31678cb4394a7c967c8422e5e478196c4840625bc93660a2b6d6e9ae2856c2534c34b038fe3daa5a2e9042a939b3ae89e708959aaa5000a1d828a3cfe5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-call-stack-doc"

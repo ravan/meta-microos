@@ -7,10 +7,10 @@ and development tools necessary for compiling and linking \
 applications which will use GNT."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.14.3"
+PV = "2.14.4"
 
-RPM_NAME = "libgnt-devel-2.14.3-1.8.aarch64.rpm"
-RPM_HASH = "e01628b632070d8a9e9c433964061915eb121e59a464d359df79e01e7cec6f0bb10b9a18ef75fd41679331a4e9434bfbbb82f5928c9a5090448a02818ca3573d"
+RPM_NAME = "libgnt-devel-2.14.4-1.10.aarch64.rpm"
+RPM_HASH = "b051dbdd5005204a865e23f1a0892054fc8e80415e61eaef9eb00369efd56c69a009ed4c4cf8c645c6f2958e7a77246db27548bba2eca0b2e46aeea032539f82"
 
 RPROVIDES:${PN} += "libgnt-devel \
 pkgconfig-gnt"

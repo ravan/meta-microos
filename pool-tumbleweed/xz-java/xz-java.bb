@@ -2,12 +2,12 @@ SUMMARY = "Pure Java implementation of XZ compression"
 DESCRIPTION = "This is an implementation of XZ data compression in pure Java. \
 Single-threaded streamed compression and decompression and random access \
 decompression have been implemented."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "0BSD"
 
-PV = "1.9"
+PV = "1.12"
 
-RPM_NAME = "xz-java-1.9-1.3.noarch.rpm"
-RPM_HASH = "4f4ceb8081ad99ab6629f5e14896f4f311d9f958e86f35b26bd6b146f59c77abdf73f39d56ac7164959a7725ee903fcfec2947612a9814337a8248a6ec6aad6d"
+RPM_NAME = "xz-java-1.12-1.2.noarch.rpm"
+RPM_HASH = "85608a14fb9b1cf546727911ad8a00f4a66969748154ef0da33b866227182a8e6e1e12cb754cc0375684dec0361d9481c18fe51d2f94e6530e10aab061de081a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-xz \

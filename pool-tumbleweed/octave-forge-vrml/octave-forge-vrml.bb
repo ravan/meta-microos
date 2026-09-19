@@ -1,12 +1,13 @@
 SUMMARY = "3D graphics using VRML for Octave"
 DESCRIPTION = "3D graphics using VRML. \
 This is part of Octave-Forge project."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "1.0.13"
+PV = "1.0.14"
 
-RPM_NAME = "octave-forge-vrml-1.0.13-1.23.aarch64.rpm"
-RPM_HASH = "e7fcc07b72ba031d46d11f04b8dc89021c8aca280e323afe8e99b9534044f3a3be62e7d5a10366e165396ef28eeadf2a3fa1254c1bd2f9c67aaa082b3ab08f0e"
+RPM_NAME = "octave-forge-vrml-1.0.14-1.6.noarch.rpm"
+RPM_HASH = "caaca90d5e81ab67b5e9576a76a92ace61aeb1d0f32599c0aff03f26017bac9b0541829aeae6c5999e40f55db4c5ba4f9b1537cebccbbd7552d90152a9c15878"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "octave-forge-vrml"
 

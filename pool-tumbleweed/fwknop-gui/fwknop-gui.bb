@@ -18,8 +18,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.3.1"
 
-RPM_NAME = "fwknop-gui-1.3.1-1.5.aarch64.rpm"
-RPM_HASH = "9da709e1672533cb9463746ed2b22a80beab468c7b73bb20afc6f0d1c643323949240352bcc95f1ece4bb11be1c5b48ff394e769060d75821889f01cb5dc11a2"
+RPM_NAME = "fwknop-gui-1.3.1-2.13.aarch64.rpm"
+RPM_HASH = "4cee3e744027e1bd93f1596d348a65bb9570ff00bd73c274880b95cb5bf364ac4e6a9440cdae9c67a09af82a5acffa3d21e24e96d1ace6eb009c1c699a127d1d"
 
 RPROVIDES:${PN} += "fwknop-gui"
 
@@ -28,12 +28,12 @@ libc.so.6 \
 libcurl.so.4 \
 libfko.so.3 \
 libgcc-s.so.1 \
-libgpgme.so.11 \
+libgpgme.so.45 \
 libqrencode.so.4 \
 libstdc++.so.6 \
-libwx-baseu-net-suse.so.9.0.0 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
-libwx-gtk2u-html-suse.so.9.0.0"
+libwx-baseu-net-suse.so.16.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
+libwx-gtk2u-html-suse.so.16.0.0"
 
 inherit rpm

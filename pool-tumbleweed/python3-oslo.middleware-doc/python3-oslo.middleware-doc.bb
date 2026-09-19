@@ -6,10 +6,10 @@ for limiting size/connection etc. \
 This package contains the documentation."
 LICENSE = "Apache-2.0"
 
-PV = "5.1.1"
+PV = "8.1.0"
 
-RPM_NAME = "python3-oslo.middleware-doc-5.1.1-1.3.noarch.rpm"
-RPM_HASH = "f619baf3bcfe9a594348938d006eb390d212502e1db1008ab7291cce87bd9687fd8d02da16cb0b637dd06dff238db646edf9eccad7e985c3639574e1396dcd8d"
+RPM_NAME = "python3-oslo.middleware-doc-8.1.0-1.2.noarch.rpm"
+RPM_HASH = "f93b2fe296279f86ddfdb44e077df21ec9246296bc0dec3754ea7258c41c3c07a0daf6c1ffcdaf3e4df67f2e01504c4b78e9b59cc3a7a973616f98a78eb25338"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python3-oslo.middleware-doc"

@@ -10,10 +10,10 @@ support many more with plugins. \
 This package provides the upstream default configuration for Pidgin."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.14.12"
+PV = "2.14.14"
 
-RPM_NAME = "libpurple-branding-upstream-2.14.12-1.4.noarch.rpm"
-RPM_HASH = "93904554e4a0b7b37baf102beba942274429defb1c3372a6456e8508dbd2352b0d8f19a2d038d90390dfdbcf18ca55d02d56c5c76d306bf217e2fe0163cf86ee"
+RPM_NAME = "libpurple-branding-upstream-2.14.14-2.3.noarch.rpm"
+RPM_HASH = "a301a3cf97f9e487e165f4b1166ae8f40820fdde4b105d6246442d808524c949e3f7e983770d59ad460636792806e9dc86c091339f828f0f2885fa4d62b8a92e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libpurple-branding-upstream \

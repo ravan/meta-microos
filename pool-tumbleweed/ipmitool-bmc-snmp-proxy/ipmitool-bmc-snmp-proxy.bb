@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.8.19.13.gbe11d94"
 
-RPM_NAME = "ipmitool-bmc-snmp-proxy-1.8.19.13.gbe11d94-1.1.noarch.rpm"
-RPM_HASH = "52bafd57c2157f0cc3f554775dd27272f5e7de400d4d4ac3a81664921daae3f6c172035f6d47fc19773b1acef1aa2b4c52f14655143ab02ddc975c93d4b11435"
+RPM_NAME = "ipmitool-bmc-snmp-proxy-1.8.19.13.gbe11d94-5.4.noarch.rpm"
+RPM_HASH = "240938afb8714b47bcb8c6a1020b0db421cc72ebe355c6c767aeaa73a469a162fa0685795665f7d59b061101626bba66ee19697887ad7c506658e5ca3aa049e2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-ipmitool-bmc-snmp-proxy \

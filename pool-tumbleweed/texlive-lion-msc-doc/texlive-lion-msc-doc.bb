@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lion-msc"
 DESCRIPTION = "This package includes the documentation for texlive-lion-msc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.30svn55415"
+PV = "2026.226.0.0.31svn75184"
 
-RPM_NAME = "texlive-lion-msc-doc-2023.209.0.0.30svn55415-55.1.noarch.rpm"
-RPM_HASH = "00ba97a036e5c6e428f53d8e43341969d02a57ba2d4839a3b149c9575e0d7a1914628f2671a18d0675b071c7b0fea032424f88f4b37d8d5662c8de9c8180cdbb"
+RPM_NAME = "texlive-lion-msc-doc-2026.226.0.0.31svn75184-61.2.noarch.rpm"
+RPM_HASH = "b78cbe35ddf9e17ff164b68ab0b8744780ef5bc7376b6b06cc34f296b26dc56e3fd4b3d4e6759eb38f9496b9d94fc2ed2e5da28ad01ffa90a8413b2a56e1a1b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lion-msc-doc"

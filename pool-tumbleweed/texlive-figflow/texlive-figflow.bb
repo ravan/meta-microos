@@ -8,10 +8,10 @@ wrapfig, floatflt and picins support the needs of LaTeX users \
 in this area."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21462"
+PV = "2026.226.svn21462"
 
-RPM_NAME = "texlive-figflow-2023.209.svn21462-53.1.noarch.rpm"
-RPM_HASH = "120d5da90ffa5688229099f04a744d955e49754e5affd4dd5d5a8bfbe583df70e0989c8703e7c93dc25ec388cc1c48b839410f58d763207005188492c0e3ca60"
+RPM_NAME = "texlive-figflow-2026.226.svn21462-59.2.noarch.rpm"
+RPM_HASH = "58d732af8493793ef54ac3e3c37d44950d1b37bcb83bc7e89ddde11b980ae41ef89b3d06dec0e9ac06ba825efd04a4baf4a3acea0dbd59fba67f33ac511370a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-figflow.tex \

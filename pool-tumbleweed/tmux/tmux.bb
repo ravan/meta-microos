@@ -11,10 +11,10 @@ moved between sessions and otherwise manipulated. Each session may be attached \
 to (display and accept keyboard input from) multiple clients."
 LICENSE = "ISC & BSD-3-Clause & BSD-2-Clause"
 
-PV = "3.3a"
+PV = "3.7b"
 
-RPM_NAME = "tmux-3.3a-4.2.aarch64.rpm"
-RPM_HASH = "839532842b265f8b882cb56d896ceb6badd54f45801b50b70202785b45d0199e85fb90b15335965278d0661edd11153a997aceacfb992e51b964dc450a1a2ca5"
+RPM_NAME = "tmux-3.7b-1.2.aarch64.rpm"
+RPM_HASH = "7a8582128b1bd68d1e53cc8b0d0ef73439173184119b62d12c2fc8bed5589cbd49c596f2f7aeba31fad3a4f0bbff61e7fdd9463e02a5573392ba9b6d7f794e83"
 
 RPROVIDES:${PN} += "tmux"
 

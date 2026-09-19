@@ -18,10 +18,10 @@ includes different styles and layouts for the main title page, \
 the section page and the default slide background."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7.0svn65985"
+PV = "2026.226.0.0.7.0svn65985"
 
-RPM_NAME = "texlive-beamertheme-trigon-2023.209.0.0.7.0svn65985-54.1.noarch.rpm"
-RPM_HASH = "a3fa7751db3f12dbdef33009efb3020047650ab9481ad3e73a6da9195e1fdbc563fc69c28df439b9807753a87c864fa077c5cd387765e8984cefe10efe23ac31"
+RPM_NAME = "texlive-beamertheme-trigon-2026.226.0.0.7.0svn65985-61.2.noarch.rpm"
+RPM_HASH = "acfe92bd144ec93c55d30d68c6fd657375d7318e5c1ce1b170c9bc858b4a5976dc092eab20ab526e3ce4912f3ab064a0a2b1bb8a3136e6960848c2cee3ec0a7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamercolorthemetrigon.sty \

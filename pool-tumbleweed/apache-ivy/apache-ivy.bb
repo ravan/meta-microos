@@ -7,10 +7,10 @@ of powerful Ant tasks ranging from dependency resolution to dependency \
 reporting and publication."
 LICENSE = "Apache-2.0"
 
-PV = "2.5.2"
+PV = "2.6.0"
 
-RPM_NAME = "apache-ivy-2.5.2-1.1.noarch.rpm"
-RPM_HASH = "7d3306ed42e02a780ccee5961a6f64416cf80d52d6d73a357ef5c5691a20486f164dc763a410abd66123f334e4d728c8f2064ef5432fe1a7fc0ee8de104d5c5b"
+RPM_NAME = "apache-ivy-2.6.0-1.1.noarch.rpm"
+RPM_HASH = "b3e74c079f96b20b16888ebeda1fec518afaed873c10614b21c2a57982df518896c621118050343a53965353a8bbc57e42ab49f9da4af6b88670a7a34eef37b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-ivy \

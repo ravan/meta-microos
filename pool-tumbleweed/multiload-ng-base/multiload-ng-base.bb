@@ -12,12 +12,12 @@ It supports the following panels: \
 [x] Avant Window Navigator (EXPERIMENTAL) \
  \
 Multiload-ng can be built with GTK2 and GTK3, so can be embedded within GTK2/GTK3 builds of all the panels above."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
 PV = "git20210103.743885d"
 
-RPM_NAME = "multiload-ng-base-git20210103.743885d-1.8.aarch64.rpm"
-RPM_HASH = "994134d368067236149c8de26b6d4d501014cb7c6f9df03d985f1b9afc598654c7a43f6ea7e8aec78240a16ce343a5ad11d373f41bcd3e1289356f8e35c7003b"
+RPM_NAME = "multiload-ng-base-git20210103.743885d-3.3.aarch64.rpm"
+RPM_HASH = "a7b05c1863c48cfbcb153da3c2fc74b4607fd8e9045ef86c9cdb6a7ba4a8011cfe9a2df44d269b85c7ed4ee5cc741e49f41b67ea9f1f4950ab1065c233221b59"
 
 RPROVIDES:${PN} += "multiload-ng-base"
 

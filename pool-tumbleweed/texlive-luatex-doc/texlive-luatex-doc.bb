@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-luatex"
 DESCRIPTION = "This package includes the documentation for texlive-luatex"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.svn66546"
+PV = "2026.226.svn78218"
 
-RPM_NAME = "texlive-luatex-doc-2023.208.svn66546-53.1.noarch.rpm"
-RPM_HASH = "1c3ddad849fec40ed8e42c71e314067c0eb4486c7ad5e0104df55c636333a4ea3b53627f43a6329a48464bb215e2100244dc2b7dc2aca95a38aeef089689b9a2"
+RPM_NAME = "texlive-luatex-doc-2026.226.svn78218-59.2.noarch.rpm"
+RPM_HASH = "cd347157b71d92e2a296963e731fb3400eaf7bf3bd3898d0eb8836eae2c483bf99f8bfd5c4da514e72188bbda5d64772220100448ac8c3c87eb77ed36155b514"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-dviluatex.1 \

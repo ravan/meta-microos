@@ -2,14 +2,12 @@ SUMMARY = "Dynamically create Perl language bindings"
 DESCRIPTION = "Dynamically create Perl language bindings"
 LICENSE = "LGPL-2.1-only"
 
-PV = "0.050"
+PV = "0.52.0"
 
-RPM_NAME = "perl-Glib-Object-Introspection-0.050-1.3.aarch64.rpm"
-RPM_HASH = "edfe916e3b59792f007d4064a1f03f3aa94c012572f5300a868ca343cbd37320c0004cd0ed4f4079527a1f82e506247b7ed641dc0eaae1e3c2e42a9cd769b589"
+RPM_NAME = "perl-Glib-Object-Introspection-0.52.0-1.8.aarch64.rpm"
+RPM_HASH = "3e8b6cec4619ed9e58fb6ffb6768de26b76ba3515d8241eba6d46629ebe26fd1fd043c16a489ffefe4cecebb6a94137ae550d912f3bc6e0a4d8abea56e227661"
 
 RPROVIDES:${PN} += "perl-Glib--Object--Introspection \
-perl-Glib--Object--Introspection---FuncWrapper \
-perl-Glib--Object--Introspection--Install--Files \
 perl-Glib-Object-Introspection"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
@@ -20,7 +18,7 @@ libgirepository-1.0.so.1 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--Depends \
 perl-ExtUtils--PkgConfig \
 perl-Glib"

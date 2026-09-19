@@ -2,12 +2,12 @@ SUMMARY = "AWS Java SDK for Amazon Kinesis"
 DESCRIPTION = "The AWS Java SDK for Amazon Kinesis module holds the \
 client classes that are used for communicating with \
 Amazon Kinesis Service."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-kinesis-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "9e46ad5d0388e15814e414653f7c7a34b5e6d994f1c755bf8872d3dc3f4df5c91c9d07cdbf9ca40e2d574752eb6a6cddfafe20b802b02353d236164929c04b1f"
+RPM_NAME = "aws-sdk-java-kinesis-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "7543599b7935c80fe061f7904dfb8100a0852658418e29a84ff148b6a819085cbf5c482d118591df38866b3eb275d974228228a2b8104b5c1cacd6298d8e8797"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java-kinesis \

@@ -2,10 +2,10 @@ SUMMARY = "PulseAudio zsh completion"
 DESCRIPTION = "Optional dependency offering zsh completion for various PulseAudio utilities"
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "16.1"
+PV = "17.0"
 
-RPM_NAME = "pulseaudio-zsh-completion-16.1-4.1.aarch64.rpm"
-RPM_HASH = "dd1456f284c6577b3b4363a77affb39792472b2933a55ee137d094b292d59e6e78b1ea7778e8e3617bf2403816166664c05c18e3e62ec6fa3e3297db5a23b868"
+RPM_NAME = "pulseaudio-zsh-completion-17.0-7.5.aarch64.rpm"
+RPM_HASH = "7b05131c036908a813aa62e82f07502935940aa6e5549428a16247aae84c4f89cc182566cb6fbe60fb3c270a3c33026074fbbdca955285ed948813314f6f16a5"
 
 RPROVIDES:${PN} += "pulseaudio-zsh-completion"
 

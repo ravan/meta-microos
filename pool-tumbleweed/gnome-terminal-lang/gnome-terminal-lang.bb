@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gnome-terminal"
 DESCRIPTION = "Provides translations for the 'gnome-terminal' package."
 LICENSE = "GPL-3.0-or-later & LGPL-2.1-or-later"
 
-PV = "3.48.2"
+PV = "3.60.0"
 
-RPM_NAME = "gnome-terminal-lang-3.48.2-1.1.noarch.rpm"
-RPM_HASH = "a4fb3e6fd3aab3c885223273c9cd5902ee0e4a044be47a82d291bda8c3e8fd33cd6ae457e92f2a0fd2686bf951d38249568f2e5f3cf92c9446a7111b93438ad7"
+RPM_NAME = "gnome-terminal-lang-3.60.0-1.2.noarch.rpm"
+RPM_HASH = "8344a2e5f1a90b05988772146317890b93e4dc043ba3445815bdb37b218cf6b1e1bb20dc8ef90ccaa0315356755d14501f8972ad0bb43b72d6b55a7973c95c68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-terminal-lang \

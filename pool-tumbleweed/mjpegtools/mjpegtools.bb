@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "2.2.1"
 
-RPM_NAME = "mjpegtools-2.2.1-2.6.aarch64.rpm"
-RPM_HASH = "2a5d33c73fccecf247bdbcf3b776ef556347c8b01e9a544b8e3a01f9b118c742d6cd6bbc6f6ab84dbfd424d849044151fdb1901af8d922c5165fab932f17b876"
+RPM_NAME = "mjpegtools-2.2.1-3.6.aarch64.rpm"
+RPM_HASH = "522ba03ad820d3136c56501f20b7a64f9400334b5480044440e628720820ff50bd5087d15986fd0fd4faf2edf2683bfe49f557cba1b74fc4c3962d33950cbdd4"
 
 RPROVIDES:${PN} += "mjpegtools"
 
@@ -18,7 +18,7 @@ RDEPENDS:${PN} += "/usr/bin/bash \
 info \
 ld-linux-aarch64.so.1 \
 libSDL-1.2.so.0 \
-libSDL-gfx.so.15 \
+libSDL-gfx.so.16 \
 libc.so.6 \
 libdv.so.4 \
 libgcc-s.so.1 \

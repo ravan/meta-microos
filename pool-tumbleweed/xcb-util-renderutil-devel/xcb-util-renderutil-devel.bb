@@ -9,8 +9,8 @@ LICENSE = "MIT"
 
 PV = "0.3.10"
 
-RPM_NAME = "xcb-util-renderutil-devel-0.3.10-1.2.aarch64.rpm"
-RPM_HASH = "1cdb0dd1468087c02ac4386f0527a5fe1f16d6126ffb43a733444ea2ee949fba91957da646668e82d7f02d011106f1513ca294439bd8c214ade9de1c6c8b2641"
+RPM_NAME = "xcb-util-renderutil-devel-0.3.10-1.12.aarch64.rpm"
+RPM_HASH = "4a8501c864c3d6d550359e11dad2c9070eb1a3f6937079dd020c7139ef5f5535790a3d63e45350f2394461a87625554f783cbbefb74cf9a3f8bfddb2a2f31188"
 
 RPROVIDES:${PN} += "pkgconfig-xcb-renderutil \
 xcb-util-renderutil-devel"

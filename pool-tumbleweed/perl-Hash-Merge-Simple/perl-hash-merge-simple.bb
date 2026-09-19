@@ -6,20 +6,20 @@ hash, but doesn't attempt to combine arrays, objects, scalars, or anything \
 else. The rightmost hash also takes precedence, replacing whatever was in \
 the left hash if a conflict occurs. \
  \
-This code was pretty much taken straight from the Catalyst::Utils manpage, \
-and modified to handle more than 2 hashes at the same time."
-LICENSE = "GPL-1.0+ | Artistic-1.0"
+This code was pretty much taken straight from Catalyst::Utils, and modified \
+to handle more than 2 hashes at the same time."
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.051"
+PV = "0.52.0"
 
-RPM_NAME = "perl-Hash-Merge-Simple-0.051-9.28.noarch.rpm"
-RPM_HASH = "4a2686c1d1dd8128aa81068e4b610805933847d9a4bfb0ccb12e3128e56caa41d1e70736ad7864414a29cab9387c918a6b8d1f51156861a948d18acab152876e"
+RPM_NAME = "perl-Hash-Merge-Simple-0.52.0-1.10.noarch.rpm"
+RPM_HASH = "f0608f32646a55de99a45d748a23f78533882e32a9477a9c117ffab0891b90cd81a2f47599d16099d1c19907e7faa00bab81ff76b2cd4cdea623034cbb33a90f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Hash--Merge--Simple \
 perl-Hash-Merge-Simple"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Clone"
 
 inherit rpm

@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.212"
 
-RPM_NAME = "frozen-bubble-2.212-15.5.aarch64.rpm"
-RPM_HASH = "147be7671db6b9b64a0de69b917a34428158000dda7bb2da8632bb9663f3db0215f135a183537ee2a4aa9bdbcc3916a2076ec3191d38e45041ad7888e1e3b087"
+RPM_NAME = "frozen-bubble-2.212-18.5.aarch64.rpm"
+RPM_HASH = "3475f002b5b67671ddcab1e7e25bc77c8205d1f37ef5452395d6de01357061d360339a86d406998b1df9037c4ff6d8a309e29d7b10eba68b4f87c76b8de43b6f"
 
 RPROVIDES:${PN} += "frozen-bubble \
 perl-Games--FrozenBubble \

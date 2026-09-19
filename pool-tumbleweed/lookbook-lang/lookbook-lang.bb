@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "lookbook-lang-1.2.0-1.11.noarch.rpm"
-RPM_HASH = "8d254ac8e7a3337b44b15c9283cdec384735c55317e2ba8d7203786c2ba40b84101e4d19e7c87d8f309119f09d772d511ec3d636a5bd963cc1cb76998c11ffb4"
+RPM_NAME = "lookbook-lang-1.2.0-2.8.noarch.rpm"
+RPM_HASH = "4365854a2cb02f3b92d0fdc9487ae7f7499e85918cc33d8cd8ba1700d88d6bcebad1221cb0e32b96395bc17cedff2461f9c050abc3413f4e98e08aa84aa94770"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-lookbook-fr \

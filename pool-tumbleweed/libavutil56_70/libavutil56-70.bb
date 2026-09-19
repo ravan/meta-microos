@@ -6,10 +6,10 @@ cryptography and multimedia related functionality (like enumerations \
 for pixel and sample formats)."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libavutil56_70-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "68a1df3019167457c8e632e17af33151f7296a5075c840f5b30197673e46990baa9a5e8961725dc62c1f5c0d1e33df091ed43a4942bf1dbf75ecc905d7aa00b3"
+RPM_NAME = "libavutil56_70-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "2d008059fed736b4386ebbd96316806e8919f669281e9fc8234a158e87fc2e088da409eaeb2e384bf4ead35bc188b3072335ed4b2f8e7d17c5e22c43f8b48cb9"
 
 RPROVIDES:${PN} += "libavutil.so.56.70 \
 libavutil56-70"

@@ -4,10 +4,10 @@ QCOW formats v1 and v2 in compressed or encrypted form are supported. \
 Not supported are backing file-based snapshots and in-image snapshots."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20221124"
+PV = "20260703"
 
-RPM_NAME = "libqcow-tools-20221124-4.1.aarch64.rpm"
-RPM_HASH = "2ea58832aaa2c0c84ddc87c02527a6f941bffd293f52abb1c27fba49770bb4e8c0b8a3618ad63a4f112027bf135a4d168b16a85bffafe5a262cb3dd71663f5e1"
+RPM_NAME = "libqcow-tools-20260703-1.4.aarch64.rpm"
+RPM_HASH = "65c4809efa706c4215c71301f0c3f8de9a462bc4a7eca1d4481c61c6585ac9f88aff552ea68304a479a6293e61a0ba75e284d5401b3e460019d15e07632de9b9"
 
 RPROVIDES:${PN} += "libqcow-tools"
 
@@ -18,7 +18,7 @@ libcerror.so.1 \
 libclocale.so.1 \
 libcnotify.so.1 \
 libcpath.so.1 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libqcow.so.1 \
 libuna.so.1"
 

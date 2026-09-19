@@ -6,10 +6,10 @@ that this package is (in principle) superseded by siunitx; \
 sistyle has maintenance-only support, now."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3asvn59682"
+PV = "2026.226.2.3asvn59682"
 
-RPM_NAME = "texlive-sistyle-2023.209.2.3asvn59682-58.1.noarch.rpm"
-RPM_HASH = "7510cd23b94feb79db4db4dff96d0dd697f816d414dab6606d543bd3441a97ef84d9d81bf2edf2bab7c32ff17754c17737b6e24922b18c80510193d549dd9ed2"
+RPM_NAME = "texlive-sistyle-2026.226.2.3asvn59682-64.2.noarch.rpm"
+RPM_HASH = "66604c1a22714caab89682d93701b063ddef2d035f0ad9ff4693ad49406d66c8d2cbaad85664af0ed6128e18ef0674c3a3a2810d1baff1432a509e00b03bc6e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sistyle.sty \

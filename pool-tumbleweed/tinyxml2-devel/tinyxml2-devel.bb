@@ -3,16 +3,16 @@ DESCRIPTION = "Contains libraries and header files for \
 developing applications that use libtinyxml2."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "9.0.0"
+PV = "11.0.0"
 
-RPM_NAME = "tinyxml2-devel-9.0.0-1.8.aarch64.rpm"
-RPM_HASH = "fa2b4b5e1e88099d17a4ca509ab232224fa1e612dfb67f67a3a9fa951fc6e27177537110fa209288d87caeb5bcdcf5d0862bcacdf6894f2b5ff0686b4cd81326"
+RPM_NAME = "tinyxml2-devel-11.0.0-1.5.aarch64.rpm"
+RPM_HASH = "fe58d0eaa8f062e588ca5b79b6c4d784ca543544ffd28f5495d66d6ea7908b8f7f11c0409745203bfcf5eed4a0ea1ce246601bd7e61938bf095c0df1e4d09c26"
 
 RPROVIDES:${PN} += "cmake-tinyxml2 \
 pkgconfig-tinyxml2 \
 tinyxml2-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-libtinyxml2-9"
+libtinyxml2-11"
 
 inherit rpm

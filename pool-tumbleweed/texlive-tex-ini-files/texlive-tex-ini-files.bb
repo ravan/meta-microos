@@ -1,20 +1,21 @@
 SUMMARY = "Model TeX format creation files"
 DESCRIPTION = "This bundle provides a collection of model .ini files for \
 creating TeX formats. These files are commonly used to \
-introduced distribution-dependent variations in formats. They \
+introduce distribution-dependent variations in formats. They \
 are also used to allow existing format source files to be used \
 with newer engines, for example to adapt the plain e-TeX source \
 file to work with XeTeX and LuaTeX."
-LICENSE = "SUSE-Public-Domain"
+LICENSE = "LicenseRef-SUSE-Public-Domain"
 
-PV = "2023.209.svn40533"
+PV = "2026.227.svn73863"
 
-RPM_NAME = "texlive-tex-ini-files-2023.209.svn40533-55.1.noarch.rpm"
-RPM_HASH = "1a454c4bcd53ee4a1ccd2cc2c3026c8b4f67747150a8c6638bb20233708fe3f0b43661d2eb56038393fca652749c92f98501a7af852e5fe88122f736e3f28f91"
+RPM_NAME = "texlive-tex-ini-files-2026.227.svn73863-62.2.noarch.rpm"
+RPM_HASH = "8ad2115b2b181521133522d300d08051724a2162fdb8c0405a5bda1de00d3351b34fd7497604ef7747e8803e9100358ba02e76bb71ead7bbc285a3be1a34b156"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-tex-ini-files \
 tex-luatexconfig.tex \
+tex-luatexiniconfig.tex \
 tex-pdftexconfig.tex \
 texlive-tex-ini-files"
 

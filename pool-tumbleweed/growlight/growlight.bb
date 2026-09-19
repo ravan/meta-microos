@@ -6,10 +6,10 @@ boot when run in an installer context. Both full-screen and REPL readline UIs \
 are available."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.2.38"
+PV = "1.2.41"
 
-RPM_NAME = "growlight-1.2.38-1.8.aarch64.rpm"
-RPM_HASH = "f6d83bbc0b3a4c76b008a6a6b3cb442afbd505a395ce089a7ff3f2f6b7b9ed5c9bd6d8d91c98614ae8534010a488e578c4075ce70ba7da20b2898d1932aa3136"
+RPM_NAME = "growlight-1.2.41-1.4.aarch64.rpm"
+RPM_HASH = "31aad015ccc4720e73cc5927614be4b80f224063616226d091782995546b67cf0045854058cd34cbb1da934062c4385d1b9d7c050cb39ecbecb923e8edaf7f2c"
 
 RPROVIDES:${PN} += "growlight"
 
@@ -22,7 +22,6 @@ libcryptsetup.so.12 \
 libdevmapper.so.1.03 \
 libnettle.so.8 \
 libnotcurses-core.so.3 \
-libnotcurses.so.3 \
 libpci.so.3 \
 libpciaccess.so.0 \
 libudev.so.1 \

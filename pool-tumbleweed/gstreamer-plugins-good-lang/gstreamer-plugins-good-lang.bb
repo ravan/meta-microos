@@ -2,15 +2,16 @@ SUMMARY = "Translations for package gstreamer-plugins-good"
 DESCRIPTION = "Provides translations for the 'gstreamer-plugins-good' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.5"
+PV = "1.28.7"
 
-RPM_NAME = "gstreamer-plugins-good-lang-1.22.5-2.1.noarch.rpm"
-RPM_HASH = "0bfff200d4b1cb92a6581900adf5c97b4361ab695c927bf42d47027ac681e9fde239a52c8e2ffe825ea2db3f9174efee056bf6909dd66521c1537632dd1591a6"
+RPM_NAME = "gstreamer-plugins-good-lang-1.28.7-1.1.noarch.rpm"
+RPM_HASH = "e2f4f0027a6a0ec5bfffffcaddc2e02d37dd866435234f8f3c867a9cae6c6c88fe0785df702752e7d46a39ff4c543c8789b3b0eee8b1314da3d542409d34b58e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gstreamer-plugins-good-lang \
 gstreamer-plugins-good-lang-all \
 locale-gstreamer-plugins-good-af \
+locale-gstreamer-plugins-good-ar \
 locale-gstreamer-plugins-good-az \
 locale-gstreamer-plugins-good-bg \
 locale-gstreamer-plugins-good-ca \
@@ -32,6 +33,7 @@ locale-gstreamer-plugins-good-id \
 locale-gstreamer-plugins-good-it \
 locale-gstreamer-plugins-good-ja \
 locale-gstreamer-plugins-good-ka \
+locale-gstreamer-plugins-good-kk \
 locale-gstreamer-plugins-good-lt \
 locale-gstreamer-plugins-good-lv \
 locale-gstreamer-plugins-good-nb \

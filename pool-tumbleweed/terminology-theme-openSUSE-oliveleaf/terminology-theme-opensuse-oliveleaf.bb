@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause & LGPL-2.1-only & CC-BY-SA-3.0"
 
 PV = "20220219.1.26"
 
-RPM_NAME = "terminology-theme-openSUSE-oliveleaf-20220219.1.26-1.6.noarch.rpm"
-RPM_HASH = "2d8813069b8ebd8a9355127860daf49d421f292465c2732df9c0a56632235f6702695759a0e99708b8b3b7bdd7e1ef04c59030355631046e411ca29ce8dcdedc"
+RPM_NAME = "terminology-theme-openSUSE-oliveleaf-20220219.1.26-2.2.noarch.rpm"
+RPM_HASH = "b34268d09da6fb39e245ae4df75142333f353ad08dd3c60fac94eee22e54ae86d4dd12b904b5985ead106a33dbfc4cba7f8690b4c18afd3ba098b499f90528aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "terminology-theme \

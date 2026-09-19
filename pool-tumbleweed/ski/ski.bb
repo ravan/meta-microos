@@ -10,10 +10,10 @@ outmaneuver them. A fun and very silly game that proves you don't need \
 fancy graphical user interfaces to have a good time."
 LICENSE = "BSD-3-Clause"
 
-PV = "6.14"
+PV = "6.16"
 
-RPM_NAME = "ski-6.14-1.1.noarch.rpm"
-RPM_HASH = "e7b6dec5e7ea1b5525e5f88449fa11d9b149959d647048b01d0fb643ae75835fcd23f9edd3cd2aecebf87084effcf037a529392ed4d67c7a0a77f15eb278dbcf"
+RPM_NAME = "ski-6.16-1.2.noarch.rpm"
+RPM_HASH = "5ad0e1a216d724b8ad88d30237fc06a4f909313055c84a0831b511b124b0f7306916859422b4b26c3f4ce68600519cb38fa32a3a4d1422788170538cfd4f91d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ski"

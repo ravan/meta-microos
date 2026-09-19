@@ -22,25 +22,22 @@ There are currently several different ways to run amsynth: \
 This package includes the LV2 implementation of the synthesizer."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.13.2"
+PV = "2.0.0"
 
-RPM_NAME = "amsynth-plugin-lv2-1.13.2-1.7.aarch64.rpm"
-RPM_HASH = "1ebbe210bf2f3bec6dd530986d08db4b42381582cc554c9156e0cf6e68fe20bf50f9013c8957db580313360a5109c86ee6afa602cffbab35eda9323479fcae76"
+RPM_NAME = "amsynth-plugin-lv2-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "468247eb66437a4fe529f60f769f7ab57dc1ba02fabe7fb6de72574a050567c50bab6dcb302451431577abb718e08d22175607f1c1f0c847510743b4f3ab184d"
 
 RPROVIDES:${PN} += "amsynth-plugin-lv2"
 
 RDEPENDS:${PN} += "amsynth \
 ld-linux-aarch64.so.1 \
+libX11.so.6 \
 libc.so.6 \
-libcairo.so.2 \
+libfreetype.so.6 \
 libgcc-s.so.1 \
-libgdk-pixbuf-2.0.so.0 \
-libgdk-x11-2.0.so.0 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
-libgtk-x11-2.0.so.0 \
 libm.so.6 \
-libstdc++.so.6"
+libpng16.so.16 \
+libstdc++.so.6 \
+libz.so.1"
 
 inherit rpm

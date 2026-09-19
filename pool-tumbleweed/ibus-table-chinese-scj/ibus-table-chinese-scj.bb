@@ -7,10 +7,10 @@ both Traditional and Simplified Chinese. \
 This package includes Smart Cangjie 6."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.8.12"
+PV = "1.8.14"
 
-RPM_NAME = "ibus-table-chinese-scj-1.8.12-1.2.noarch.rpm"
-RPM_HASH = "05999de46d6bc4b4ad59a5960293d59fc1f5dea51b7f78a3a25410f918a9e1bf34609738851b324ab1ac45471ef2e117f2f504fe8e01d7a8cd5f85b9f0a40aa7"
+RPM_NAME = "ibus-table-chinese-scj-1.8.14-1.6.noarch.rpm"
+RPM_HASH = "ee60dfb0716a302c391eba1476c1aa67feb2ec2f3ed5adc0bf776455af42db04c27ba735699c9f0bdb64d426cf3b6fd65d0465583593e057c54b52fb726a4b3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ibus-table-cangjie \

@@ -2,10 +2,10 @@ SUMMARY = "Binary files of chklref"
 DESCRIPTION = "Binary files of chklref"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn52631"
+PV = "2026.20260301.svn52631"
 
-RPM_NAME = "texlive-chklref-bin-2023.20230311.svn52631-93.2.aarch64.rpm"
-RPM_HASH = "011f24065f5ba777a885ac7b1ed1588dbf7c1ad739ded96280b56e85ccb62497d2f47a876580ff49ec7daff2fa13d67c3b08258888c1142b0c5adae2577d297f"
+RPM_NAME = "texlive-chklref-bin-2026.20260301.svn52631-120.4.aarch64.rpm"
+RPM_HASH = "cd32b7ca835e4f2b097843574d300af2e7127c78db4ac103be2a05e2c1ebae1d0b72bda6f056f9ae2c34c3a2935aa1262ab40fb6bab1adfa9514fa86caf3b74c"
 
 RPROVIDES:${PN} += "texlive-chklref-bin"
 

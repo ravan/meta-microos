@@ -7,10 +7,10 @@ Firefox, Flash, GNOME, Java, KDE, OpenOffice.org, Opera, RealPlayer, \
 VIM, XChat, and more."
 LICENSE = "GPL-3.0-only"
 
-PV = "4.4.2"
+PV = "6.0.4"
 
-RPM_NAME = "bleachbit-4.4.2-2.2.noarch.rpm"
-RPM_HASH = "b2f38aec8af267c23f766f0eb5527a9800963829cfcfdaefab3ee8cf8ab3e5b8e898ae8fdcc8d80ac398e32828bb8c7b17e7cb7f98961da9184e9ec9b6f87a89"
+RPM_NAME = "bleachbit-6.0.4-1.1.noarch.rpm"
+RPM_HASH = "888854fdc714cb88e18daaf0afba00a9111b0ba9f727050fc233bd9ce2b380f0b6a0b8d810ba221dc583fb8afacdf37126ec1396481a06eff3aeb2d5b3694c0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bleachbit"
@@ -27,6 +27,7 @@ typelib-Gdk \
 typelib-Gio \
 typelib-Gtk \
 typelib-Notify \
+typelib-Pango \
 xdg-utils"
 
 inherit rpm

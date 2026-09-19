@@ -3,10 +3,10 @@ DESCRIPTION = "libscg is a SCSI transport library, providing an abstraction \
 layer from operating systems' mechanisms to issue SCSI commands."
 LICENSE = "CDDL-1.0"
 
-PV = "2022.10.16"
+PV = "2024.03.21"
 
-RPM_NAME = "libscg1_0-2022.10.16-47.4.aarch64.rpm"
-RPM_HASH = "35a7228ca03a9f9f24d6faaa9bb3b3cc5a1179bbde248775df71ee58e7b83aaf8fe2ff84311bd3419a09a2d1078b395784ee0c0bb7650ae7de739adf8ad329fe"
+RPM_NAME = "libscg1_0-2024.03.21-53.5.aarch64.rpm"
+RPM_HASH = "e26e6dc4facb65cbc9886c68343b95bece47ec8a0913a9ab4b374ea26b192b8d7a797a87a9626114aade83995b2621f130a1ec39eb060b33698762dada1a1bc8"
 
 RPROVIDES:${PN} += "libscg.so.1.0 \
 libscg1-0"

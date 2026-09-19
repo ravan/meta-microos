@@ -21,22 +21,22 @@ library, along with more motivating examples. \
 reflection> explains how to use this library."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.7"
+PV = "2.1.9"
 
-RPM_NAME = "ghc-reflection-2.1.7-1.3.aarch64.rpm"
-RPM_HASH = "2697721601e1c51a8b08f12d399614450e5c3d1980cad0f362590106632525b033db62b687bbd521ea808124c1e671b2be272ba3ab001bfbdb48e55420b375a0"
+RPM_NAME = "ghc-reflection-2.1.9-2.12.aarch64.rpm"
+RPM_HASH = "2da8c515282bfcf08859e1bfded5d66537aae5fe4c9b10f624431d2c7bf76e3056410df11d50b0646d5132050229c0e3b7f10c8be329f12367452bf4abd90a1c"
 
 RPROVIDES:${PN} += "ghc-reflection \
-libHSreflection-2.1.7-1WygFxHmxkcEQBv8T6gHut-ghc9.4.6.so"
+libHSreflection-2.1.9-D6RNqRhT9cGDEmA5fjQvJF-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSarray-0.5.4.0-ghc9.4.6.so \
-libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSdeepseq-1.4.8.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-boot-th-9.4.6-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHSpretty-1.1.3.6-ghc9.4.6.so \
-libHStemplate-haskell-2.19.0.0-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSdeepseq-1.5.1.0-1350-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-boot-th-9.12.4-0605-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHSpretty-1.1.3.6-b7fd-ghc9.12.4.so \
+libHStemplate-haskell-2.23.0.0-358a-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

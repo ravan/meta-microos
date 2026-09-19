@@ -9,10 +9,10 @@ self test may or may not pick up on such clues depending on \
 the disk vendor decision making logic."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.20"
+PV = "0.21"
 
-RPM_NAME = "diskscan-0.20-3.9.aarch64.rpm"
-RPM_HASH = "0bfce2ad2b8019e27b49d3891b1c4d5458d6d20586697a45eb12e2f2dcaf36d21099bf0976dbab20afb4ea123b15dcaa1a556dfbc8cf0b4487d8a17a07164863"
+RPM_NAME = "diskscan-0.21-2.3.aarch64.rpm"
+RPM_HASH = "6fb6e590c501cf52aaa3565739857cf13a298b017e3c1dbd2f11736369689f440a1ec92347c75d662ea9d492422aa3b6beae65c474d99300951a9f1a64b2bbb9"
 
 RPROVIDES:${PN} += "diskscan"
 

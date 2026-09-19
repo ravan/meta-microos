@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-texmate"
 DESCRIPTION = "This package includes the documentation for texlive-texmate"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2svn15878"
+PV = "2026.227.2svn78101"
 
-RPM_NAME = "texlive-texmate-doc-2023.209.2svn15878-55.1.noarch.rpm"
-RPM_HASH = "e3a3b4638aba2e0d61b596a5ab20758327f16899302f58915606b2b2df9f61b06b26fda4ee0a3b3f838ac2417ad1594d150e110c4c235b3f51ae7aad157efd9f"
+RPM_NAME = "texlive-texmate-doc-2026.227.2svn78101-62.2.noarch.rpm"
+RPM_HASH = "8d85a23036ddeaafee9239ebd15c91bd9568b62231074375a233f9e8b278edec90681e4e670b095b1b4fe204fcf9d763448b18ffdefb0736fd33f987fccd3917"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-texmate-doc"

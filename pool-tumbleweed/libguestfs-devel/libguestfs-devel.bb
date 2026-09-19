@@ -7,10 +7,10 @@ scripting changes to VMs, monitoring disk used/free statistics, P2V, V2V, \
 performing partial backups, cloning VMs, and much else besides."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.50.1"
+PV = "1.60.1"
 
-RPM_NAME = "libguestfs-devel-1.50.1-4.2.aarch64.rpm"
-RPM_HASH = "aa8297d52b40d3e4dc9c149d086c678ac25674d7b266be3624b0861371bfa1c61a579bc8a56b2ae6e19d0328e6c2ac8178144f8590ade89072a4cc8d7ef44e12"
+RPM_NAME = "libguestfs-devel-1.60.1-1.1.aarch64.rpm"
+RPM_HASH = "770521f34d531581adb18f5549a85e26a935b1990b733afb7256ed945ba422423b2e26cc7315a8dc08a988425f33490080f3420b42fc387962dbeddab283174f"
 
 RPROVIDES:${PN} += "libguestfs-devel \
 pkgconfig-libguestfs"

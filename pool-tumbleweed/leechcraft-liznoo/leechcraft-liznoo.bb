@@ -13,32 +13,33 @@ Features: \
  * Notifies the user on low capacity."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-liznoo-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "e375c7139773968e4e181288847c5fd155191e70e3df07127b3c6cac492fc68a914e57c86f0a3940d6d008069b18791fe37e729bda8e4a398daefbe686074364"
+RPM_NAME = "leechcraft-liznoo-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "9966331875a19ba6ec13724805b339660fe3ee3bb46ab90f2891dcd9d3400aac7faf0d7c3382d13d768cb6adf0003db1ec8943cf567c17a99200d68939c90a5a"
 
 RPROVIDES:${PN} += "leechcraft-liznoo \
 libleechcraft-liznoo.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-gui-qt5.so.0.6.75.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-sll-qt5.so.0.6.75.1 \
-libleechcraft-util-sys-qt5.so.0.6.75.1 \
-libleechcraft-util-threads-qt5.so.0.6.75 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
-libqwt-qt5.so.6.2 \
+libleechcraft-util-dbus-qt6.so.0.6.75 \
+libleechcraft-util-gui-qt6.so.0.6.75 \
+libleechcraft-util-qt6.so.0.6.75 \
+libleechcraft-util-sll-qt6.so.0.6.75 \
+libleechcraft-util-sys-qt6.so.0.6.75 \
+libleechcraft-util-threads-qt6.so.0.6.75 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
+libqwt-qt6.so.6.3 \
 libstdc++.so.6 \
-qt5qmlimport-QtQuick.2 \
+qt6qmlimport-QtQuick \
 upower"
 
 inherit rpm

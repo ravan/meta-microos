@@ -10,10 +10,10 @@ It also is friendly to screen readers by adding alt-text \
 indicating redacted content."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.1.0svn62167"
+PV = "2026.226.1.1.1svn71922"
 
-RPM_NAME = "texlive-luacensor-2023.208.1.1.0svn62167-53.1.noarch.rpm"
-RPM_HASH = "0c177d05bacac16d8465ed8e697222f020a17ce789d00f21c4f1d6b16227df4bbd30e285eb829df3d5c8d0fab9e4a26e7784fc5366a9c4442887635fb3d6b6b1"
+RPM_NAME = "texlive-luacensor-2026.226.1.1.1svn71922-59.2.noarch.rpm"
+RPM_HASH = "f55d28422be481ad159e9c2eaf25b7f473c9525682d7c835e0d8abd00505d729d68502bc59de77ed2deb39e07beabbb42e91a00a51103f86ec18207c045a831f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luacensor.sty \
@@ -36,6 +36,7 @@ texlive \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
+texlive-luacensor-fonts \
 texlive-scripts \
 texlive-scripts-bin"
 

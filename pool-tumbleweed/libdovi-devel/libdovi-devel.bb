@@ -3,10 +3,10 @@ DESCRIPTION = "The libdovi-devel package contains C header files for \
 developing applications that use libdovi."
 LICENSE = "MIT"
 
-PV = "3.1.2"
+PV = "3.4.0"
 
-RPM_NAME = "libdovi-devel-3.1.2-2.2.aarch64.rpm"
-RPM_HASH = "1cbbc7b2f343abd7038ddd5d46fcd505180068157d7e517b1aa6e553ee5e35a59e8576947b77b8a9b62d63c7ee4692566da1a838cadacbf89f20e491138dec44"
+RPM_NAME = "libdovi-devel-3.4.0-1.3.aarch64.rpm"
+RPM_HASH = "92dfead111cda02ece9995960e9bd1e6294b4dd852cf794fb63c241c03790c325118c829c7fe29f040dd6fd1047c9e9e6ca9d78a2bf5732004ff861236c5d641"
 
 RPROVIDES:${PN} += "libdovi-devel \
 pkgconfig-dovi"

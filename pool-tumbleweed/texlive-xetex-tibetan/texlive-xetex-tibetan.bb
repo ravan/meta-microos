@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a map for use with Jonathan Kew's TECkit, \
 to translate Tibetan to Unicode (range 0F00-0FFF)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1svn28847"
+PV = "2026.226.0.0.1svn28847"
 
-RPM_NAME = "texlive-xetex-tibetan-2023.209.0.0.1svn28847-53.2.noarch.rpm"
-RPM_HASH = "7a73bbeab4279757e883da6a83fecea7a2a233145290e9b0a85e40e760298c60fe775f23d60e7f375fa32f2ac72acf2bfe13e916aa8a3d7920b8c623e0b3fc38"
+RPM_NAME = "texlive-xetex-tibetan-2026.226.0.0.1svn28847-59.4.noarch.rpm"
+RPM_HASH = "5c1e54d0b570b11bfd8731720011f2726a2e8368ecae78cd58babc780b1d10d8d0ccb67fea4d5b21f7e16c2e4d9b06072b9daab91fcee1685aab8f33934c40eb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-loctib.map \

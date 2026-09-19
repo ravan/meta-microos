@@ -4,65 +4,88 @@ LICENSE = "MIT"
 
 PV = "5.0"
 
-RPM_NAME = "patterns-microos-desktop-kde-5.0-73.1.aarch64.rpm"
-RPM_HASH = "ab549eae796559d788addc23f230ed96cd2abca4124b8dbdba6ceed796404a5862b3b1b70fa170b1edc5e2a8dcce8066a0bc27ea55cfd4ff37e068a60dd698a4"
+RPM_NAME = "patterns-microos-desktop-kde-5.0-111.1.aarch64.rpm"
+RPM_HASH = "ffd78b1dd0327e9203d7407950157b7e94805f35661945a2e54034bada3f07260aaf743d8d8031e3fec9e6ae2b0c17460fbf451962da9001bfbe08f039748b96"
 
 RPROVIDES:${PN} += "pattern- \
 pattern-category- \
 pattern-icon- \
 pattern-order- \
-pattern-visible- \
 patterns-microos-desktop-kde"
 
-RDEPENDS:${PN} += "NetworkManager-openvpn \
-baloo5-file \
-bluedevil5 \
-breeze5-wallpapers \
-discover-backend-flatpak \
-discover-backend-fwupd \
-discover-notifier \
+RDEPENDS:${PN} += "Mesa-demo-egl \
+NetworkManager-openvpn \
+adobe-sourcecodepro-fonts \
+adobe-sourcesans3-fonts \
+adobe-sourcesanspro-fonts \
+adobe-sourceserifpro-fonts \
+adwaita-fonts \
+bluedevil6 \
+breeze6-wallpapers \
+cantarell-fonts \
+dejavu-fonts \
+discover6-backend-flatpak \
+discover6-backend-fwupd \
+discover6-notifier \
 dolphin \
+falkon-kde \
 ffmpegthumbs \
+flatpak-kcm6 \
+ghostscript-fonts-std \
+google-carlito-fonts \
 google-noto-coloremoji-fonts \
 google-noto-sans-cjk-fonts \
+google-noto-sans-symbols-fonts \
+google-noto-sans-symbols2-fonts \
+google-opensans-fonts \
+google-roboto-fonts \
+gvfs \
+gvfs-backends \
+hack-fonts \
+ibm-plex-mono-fonts \
+kaccounts-integration \
+kaccounts-providers \
 kate \
-kcm-flatpak \
-kcm-sddm \
-kde-gtk-config5 \
-kde-gtk-config5-gtk3 \
+kde-gtk-config6 \
+kde-gtk-config6-gtk3 \
 kde-print-manager \
 kdegraphics-thumbnailers \
 kdenetwork-filesharing \
-kgamma5 \
-kio-extras5 \
+kdeplasma6-addons \
+kf6-baloo-file \
+kf6-purpose \
+kf6-qqc2-desktop-style \
+kgamma6 \
+kio-extras \
 kio-fuse \
+kio-gdrive \
 konsole \
-kwalletmanager5 \
-kwrited5 \
+ksshaskpass6 \
+kwalletmanager \
+liberation-fonts \
 libqt5-qtimageformats \
-noto-sans-math-fonts \
 openvpn-auth-pam-plugin \
 oxygen5-sounds \
 partitionmanager \
 pattern- \
-phonon4qt5-backend-gstreamer \
-pinentry-qt5 \
-plasma-branding-MicroOS \
-plasma-browser-integration \
-plasma-nm5 \
-plasma-nm5-openconnect \
-plasma-nm5-openvpn \
-plasma5-addons \
-plasma5-defaults-openSUSE \
-plasma5-desktop-emojier \
-plasma5-pa \
-plasma5-session-wayland \
-plasma5-systemmonitor \
-purpose \
-qqc2-desktop-style \
-sddm \
-sddm-theme-openSUSE \
+phonon-vlc-qt6 \
+pinentry-qt6 \
+plasma-branding-Kalpa \
+plasma6-browser-integration \
+plasma6-desktop-emojier \
+plasma6-nm \
+plasma6-nm-openconnect \
+plasma6-nm-openvpn \
+plasma6-pa \
+plasma6-sddm-theme-openSUSE \
+plasma6-session \
+plasma6-systemmonitor \
+sddm-kcm6 \
+sddm-qt6 \
 spectacle \
+steam-devices \
+suse-fonts \
+urw-base35-fonts \
 xdg-desktop-portal-kde"
 
 inherit rpm

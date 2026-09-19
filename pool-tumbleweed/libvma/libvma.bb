@@ -6,10 +6,10 @@ To run over Infiniband/Ethernet from userspace with full network stack bypass \
 and get better throughput, latency and packets/sec rate"
 LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
-PV = "9.7.0"
+PV = "9.8.84"
 
-RPM_NAME = "libvma-9.7.0-2.2.aarch64.rpm"
-RPM_HASH = "09754f763d187f1e1cc42110faaf847add66473edbbc8a9f6a023e8150c52f8e070abea940c912a48125a544204bb3fa84b298ad929dddbfd5d1cc450deee0f3"
+RPM_NAME = "libvma-9.8.84-2.1.aarch64.rpm"
+RPM_HASH = "7b79d10e79b607aeb0f2d20f48eaee2ca152759de460c1e993d754f714929767f02702f51c30293f78caf89a64fa0264c2d2d331185eae9f21cb6e1264f62050"
 
 RPROVIDES:${PN} += "config-libvma \
 libvma"

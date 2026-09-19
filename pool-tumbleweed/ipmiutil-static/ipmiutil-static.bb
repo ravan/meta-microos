@@ -3,10 +3,10 @@ DESCRIPTION = "The ipmiutil-static package contains static libraries which are \
 useful for building custom IPMI applications."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.1.8"
+PV = "3.2.2"
 
-RPM_NAME = "ipmiutil-static-3.1.8-1.5.aarch64.rpm"
-RPM_HASH = "6030bf3f07727e39fb0ae9ca0bb26504c52d3342f70384c464661062b66f63962e6619cf537fb2674521b9facbad9cb6b73ee3153e8c32db469214cb908c8d51"
+RPM_NAME = "ipmiutil-static-3.2.2-1.4.aarch64.rpm"
+RPM_HASH = "a6ff092a659a998083da95b4c81f052b9b9b8a4e1f69fa1e2c66e4445864e3e8b6a224b984450c898cea873b29261af270cfeda093c6eea985aed193539db74b"
 
 RPROVIDES:${PN} += "ipmiutil-static"
 

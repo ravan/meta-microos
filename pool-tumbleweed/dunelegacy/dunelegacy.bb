@@ -12,20 +12,25 @@ has been replicated an extended to a wide variety of storylines and \
 series. \
  \
 NOTE: Original Dune 2 game files are needed."
-LICENSE = "GPL-2.0+"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.96.4"
+PV = "0.99.5"
 
-RPM_NAME = "dunelegacy-0.96.4-3.26.aarch64.rpm"
-RPM_HASH = "a856739f0e9f956e70ad94556447540326875b6da234f275f8902adbe403d3b251aea4e8b62f061b5a7c57e346f12b71bd504b37eee9793e5e5db013c502d878"
+RPM_NAME = "dunelegacy-0.99.5-2.1.aarch64.rpm"
+RPM_HASH = "0b795e1a4e3f882e42a8e27f7a520bcd67de9b09a00e2288e70b692c6bd2bb6f642da3ba49bc5d9af7866595c950e7a1d9703b6795c7085f9e9130b33e9c499e"
 
 RPROVIDES:${PN} += "dunelegacy"
 
-RDEPENDS:${PN} += "libSDL2-2.0.so.0 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libSDL2-2.0.so.0 \
 libSDL2-mixer-2.0.so.0 \
+libSDL2-ttf-2.0.so.0 \
 libc.so.6 \
+libcurl.so.4 \
+libdiscord-rpc.so.3.4.0 \
 libgcc-s.so.1 \
 libm.so.6 \
+libminiupnpc.so.21 \
 libstdc++.so.6"
 
 inherit rpm

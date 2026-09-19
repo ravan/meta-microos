@@ -7,10 +7,10 @@ variants of commonly used ones, as well as more obscure symbols \
 which cannot be as easily found in other TeX or LaTeX packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn65324"
+PV = "2026.226.1.1.1svn66618"
 
-RPM_NAME = "texlive-pdfmsym-2023.209.1.1.0svn65324-52.1.noarch.rpm"
-RPM_HASH = "b1e752001094f06941032b8ea6fd9e43d9862f388bfd5f85804f37ab79c2dfbc93e734880ab0b234bd7d21a2f51cf3a4978a9bc5a3deeb263602415b1024b734"
+RPM_NAME = "texlive-pdfmsym-2026.226.1.1.1svn66618-58.2.noarch.rpm"
+RPM_HASH = "c81f15a6d5e0653ed5e6e1ebaf1cd679c8a920218af536b8f5bbb1dea6a8813aa3dbb3cb0e3852123c37309f20c5fe2c8ccaabba07f1111b2d5d58fe3c2b5b0c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfmsym.tex \

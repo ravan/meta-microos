@@ -4,10 +4,10 @@ class, in which the user may add headers and footers to the \
 slide."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn32293"
+PV = "2026.226.svn32293"
 
-RPM_NAME = "texlive-sslides-2023.209.svn32293-58.1.noarch.rpm"
-RPM_HASH = "a99277c2933753a4b906d1ab80ce4265954d91ac628b2a1146e58b2b7226ee5a4f0a20f45198d0a30d630363e98401116e5144c5176dcd6ac2871dc84b20e7cf"
+RPM_NAME = "texlive-sslides-2026.226.svn32293-64.2.noarch.rpm"
+RPM_HASH = "5d3254a35a04d6c3c819b4d14613276137c79ed3c4a7eb1390ca28d3eb6b2f2266d0a02e4c244bdedfc9a7518d9b6de5a5b2843a31458291bc0264fb5317a240"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-sslides.cls \

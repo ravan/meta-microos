@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "41.0"
 
-RPM_NAME = "gnome-screenshot-lang-41.0-2.7.noarch.rpm"
-RPM_HASH = "3647b2940af47a443229c61bc33c11a1300dc73aae51083556b5bb120da1732b22aba7067b91b9a3cd46a54e1f82a081f5064ef7c1a01426f1c846c55ae18129"
+RPM_NAME = "gnome-screenshot-lang-41.0-2.18.noarch.rpm"
+RPM_HASH = "a3c4e826ea921e8a8a4abd29f4a9b25d3456e8f0cfb7e619b0af4ceaf2839465ae8bad9f4d74c501f8e482eed04af77d266f62b528d1db0fef8940f3158a7427"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gnome-screenshot-lang \

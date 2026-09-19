@@ -5,10 +5,10 @@ supposed to comply with the common spelling of the Friulan \
 November 6, 1996 and its following amendments."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-friulan-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "1227f1bbc1890e7798bb45f7fd130b4e69aba9f56a016720355cb27daf7b82eb79f08490deb5bcff4b7168a73e9058e0d513f549844a036c0876618cae57403d"
+RPM_NAME = "texlive-hyphen-friulan-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "5f68033549638feb9d7beee29474b0fd054432dbe3f035d799ab72b1e6f7c365addc77a01325f784e6d7401b5dde82b027d26722d75ba61646c29e1b2b186e73"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-fur.ec.tex \

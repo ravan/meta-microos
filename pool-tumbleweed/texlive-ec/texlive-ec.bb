@@ -17,10 +17,10 @@ of the EC set, and differs from the EC in a number of \
 particulars."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn25033"
+PV = "2026.226.1.0svn25033"
 
-RPM_NAME = "texlive-ec-2023.209.1.0svn25033-54.2.noarch.rpm"
-RPM_HASH = "6b39473b82b27a0a61c90e9c24fa43f7905ff64a47033b0cae37b18658a910e50619359b369443454eaf55b685063ea8e32c0a14d76518a08e999d8ce080de16"
+RPM_NAME = "texlive-ec-2026.226.1.0svn25033-61.4.noarch.rpm"
+RPM_HASH = "bd8b363b3e611e5bb51d3baf8d08cbd2989ba3f60e2fd59292e9b9e700169b0501d55fd1ce950331e6f35e35f0ddaef92ec8444fc3caa77e086be2772ddaf566"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ecbi0500.tfm \

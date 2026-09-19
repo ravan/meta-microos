@@ -4,10 +4,10 @@ including all the events supported by the device. It then monitors the device \
 and displays all the events layer events generated."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.34"
+PV = "1.36"
 
-RPM_NAME = "evtest-1.34-1.10.aarch64.rpm"
-RPM_HASH = "7fa95e72f8e577ea6974dcb5b4781729ac77461ceca05a9e8656f33e261c6ff8e8ca3fe318147d9c89908d980c3132f068b857db188d04b8acb71c0ce41d0537"
+RPM_NAME = "evtest-1.36-1.4.aarch64.rpm"
+RPM_HASH = "aedc927fd1236f86a555107f067c54f7f9c4248e3bbc500faae93db40e6db8409ab81a9249f44d2b01a95eda98143285db16ebf7db891535bfae2a3ba2f5ed19"
 
 RPROVIDES:${PN} += "evtest \
 input-utils-/usr/bin/evtest"

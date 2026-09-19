@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.1.0"
 
-RPM_NAME = "libmygpo-qt5-1-1.1.0-2.24.aarch64.rpm"
-RPM_HASH = "8b614eddf30fe034249082269a240990a825c8ea15bf046bb67ff7f4d77de668965944ca3ac0818f1d49a6060cd99fccf6b0e5eb63a098d3c6db6f79e1bead02"
+RPM_NAME = "libmygpo-qt5-1-1.1.0-3.6.aarch64.rpm"
+RPM_HASH = "4c144deec779f9cd425e977d495abbfba7954915212a6b2943d4e8de13751b5f6e626d2546450e8bc27430ebe8892e5010b7a42b9b319b115a011b8bc1a8c0b6"
 
 RPROVIDES:${PN} += "libmygpo-qt5-1 \
 libmygpo-qt5.so.1"

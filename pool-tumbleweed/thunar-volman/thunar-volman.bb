@@ -7,10 +7,10 @@ preferred photo application and import the new pictures from the camera \
 into your photo collection."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.18.0"
+PV = "4.20.0"
 
-RPM_NAME = "thunar-volman-4.18.0-1.3.aarch64.rpm"
-RPM_HASH = "94ca6312c6ebce99529142371f5bfc56e5624454e5d77b284213bc1068572c4895c31decb1d040d534a64a5e620d5108a60b3b38ab387cd96e94272828a61ed8"
+RPM_NAME = "thunar-volman-4.20.0-1.7.aarch64.rpm"
+RPM_HASH = "1ba5380866631837c48463f0894b906cce048c48ec781c7dbd82a8350e47c810aa3f3372b52a2dd494e789aa3d8a1da1937d66d54fe32dfabec957f4497a8a6a"
 
 RPROVIDES:${PN} += "thunar-volman"
 

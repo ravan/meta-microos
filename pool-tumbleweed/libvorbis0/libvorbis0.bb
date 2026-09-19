@@ -9,8 +9,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3.7"
 
-RPM_NAME = "libvorbis0-1.3.7-4.1.aarch64.rpm"
-RPM_HASH = "c1f78891f3269ea5c713c7a614e0cfe93726cf6077861691765c4dcfc015729dfd1b516c5cb32fb87c0161de3aa602c47771bd3df35e59736bf034fd01b29178"
+RPM_NAME = "libvorbis0-1.3.7-5.10.aarch64.rpm"
+RPM_HASH = "95f11d5e6d8e25235f7e12b7cec9c764d8796b3e8ef1dbc1ad5f10d1fefcd02a42ac7bee382d0fb8e2602f16dbc42f979826504178a18575fe3fbab2636de6b3"
 
 RPROVIDES:${PN} += "libvorbis.so.0 \
 libvorbis0"
@@ -19,6 +19,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libm.so.6 \
+libmvec.so.1 \
 libogg.so.0"
 
 inherit rpm

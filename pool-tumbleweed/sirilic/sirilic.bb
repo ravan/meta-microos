@@ -8,13 +8,13 @@ It does three things: \
 Sirilic allows also to batch process multiple channel and sessions."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.15.7"
+PV = "1.15.12"
 
-RPM_NAME = "sirilic-1.15.7-1.1.noarch.rpm"
-RPM_HASH = "c914b6edb7394dd74844398eae7822298463fd5c9bec92cd8844bbfadd274bebaab9d093915febe00db41f3b930fcae615ffa91bf983aaf5d37c91e5a8258ad8"
+RPM_NAME = "sirilic-1.15.12-1.6.noarch.rpm"
+RPM_HASH = "d6669d655fbace431f375005131b25c2c2aa6c1ef4389f56e932e8a0ffd483dba2e1482019c0a583174559e27bb2cd5fdb078ab058f3780e2dad36e563eba1ed"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-sirilic \
+RPROVIDES:${PN} += "python3.13dist-sirilic \
 python3dist-sirilic \
 sirilic"
 

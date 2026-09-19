@@ -5,10 +5,10 @@ read from keyword tags such as $Id$, $Date$, and $Author$ via \
 the svn or svn-multi packages."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn41870"
+PV = "2026.226.1.0svn41870"
 
-RPM_NAME = "texlive-phfsvnwatermark-2023.209.1.0svn41870-52.1.noarch.rpm"
-RPM_HASH = "d094d7e4fc9258479adaa80cfcb6334a530f7382d3610402604ed637909eeb6c13c277ffd400784e38abb4bcfdf240d24016da5b55c3d3163678990df7a51154"
+RPM_NAME = "texlive-phfsvnwatermark-2026.226.1.0svn41870-58.2.noarch.rpm"
+RPM_HASH = "5b9305d437f2986063a097f756fa840b8c8e0ef9b226ce37e7cf90b83d29e9c3901db07730c680c92852edb0da9b88965b66be7f02f3fcba690964e1b1ba7922"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfsvnwatermark.sty \

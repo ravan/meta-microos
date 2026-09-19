@@ -2,10 +2,10 @@ SUMMARY = "Severed fonts for texlive-fontmfizz"
 DESCRIPTION = "The  separated fonts package for texlive-fontmfizz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn43546"
+PV = "2026.226.svn43546"
 
-RPM_NAME = "texlive-fontmfizz-fonts-2023.209.svn43546-53.1.noarch.rpm"
-RPM_HASH = "24a8338d3c1d5dfb219ebafc858489b1ec10d2b0dd48f2e4605bd721abaa08dd4c5faaf2ece0b66eb6e1109d912dce11cc79b9a7bf6de38e0c529c2ad29211d6"
+RPM_NAME = "texlive-fontmfizz-fonts-2026.226.svn43546-60.2.noarch.rpm"
+RPM_HASH = "0f6359b56e1efe9029989e7610ff9ce21d73f3384e2756677f9cfe2c7273ed11e9d02b3c212272241a512d5ce9e34eedf9d931c96ccb7e632bbdb6a55fc8d74e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-font-mfizz \

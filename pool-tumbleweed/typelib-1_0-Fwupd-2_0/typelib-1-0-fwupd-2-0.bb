@@ -3,18 +3,18 @@ DESCRIPTION = "fwupd is a daemon to allows session software to update device fir
 the local machine."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.8.17"
+PV = "2.1.7"
 
-RPM_NAME = "typelib-1_0-Fwupd-2_0-1.8.17-1.1.aarch64.rpm"
-RPM_HASH = "cb6e90626e24b1a6158768ff12d9454000be7e57bccede722e89e418f93cb327da096e7dd4411ad4298d6eab90964ad6bf2884c28dbf342f7760214d7df0088d"
+RPM_NAME = "typelib-1_0-Fwupd-2_0-2.1.7-2.1.aarch64.rpm"
+RPM_HASH = "f860b432a186bb4c22e5423b22a3f4977384992ba1c5090202a20f6f7e9322f0bdae62abfbb207766f7b01e14b0d3c1bc73ae44a09f266763b0c697134da9435"
 
 RPROVIDES:${PN} += "typelib-1-0-Fwupd-2-0 \
 typelib-Fwupd"
 
-RDEPENDS:${PN} += "libfwupd.so.2 \
+RDEPENDS:${PN} += "libfwupd.so.3 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
-typelib-Gio \
-typelib-Json"
+typelib-Gio"
 
 inherit rpm

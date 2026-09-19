@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "20220219.1.26"
 
-RPM_NAME = "openSUSE-e-X-Neon-Icons-20220219.1.26-1.12.noarch.rpm"
-RPM_HASH = "d1649c873282c930fc4c5aecec85485364644657d1bf9c9f425a4b706bf6d721261d174c2156fac1b3d1d2de77b943e5605e0c376fdff5e45d0982cdc2a29b80"
+RPM_NAME = "openSUSE-e-X-Neon-Icons-20220219.1.26-2.2.noarch.rpm"
+RPM_HASH = "b8e6d2168bfb4de4be83ecb7a89d9ee1f4d4d8670a128e7abbb24056e88d64cdfd03f6fa1dc700fb5872c937aa61ad2e8e864978bf7d5ef8a4c3d307a9c9f0db"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openSUSE-e-X-Neon-Icons"

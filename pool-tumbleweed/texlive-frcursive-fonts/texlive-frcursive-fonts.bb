@@ -2,21 +2,25 @@ SUMMARY = "Severed fonts for texlive-frcursive"
 DESCRIPTION = "The  separated fonts package for texlive-frcursive"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24559"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-frcursive-fonts-2023.209.svn24559-53.1.noarch.rpm"
-RPM_HASH = "d4e13bc11b7e5645b8af455542d7313342bfb9dda15c1af880e8f308d9d30373555fbf7839c672ecd916d3ef12751c523221c16bd16c0a65e621f4d55793862b"
+RPM_NAME = "texlive-frcursive-fonts-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "4ac2dfee4baef0595fbd7141027b856739e65168f4721bc80e20f55539dcb035b06b136e82019e1964a9b04e95936d01f4fe58c13c1c7e8653c85fce627c68b4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
 font--lang=crh \
 font--lang=cs \
 font--lang=csb \
+font--lang=dsb \
 font--lang=en \
 font--lang=es \
 font--lang=et \
@@ -43,6 +47,7 @@ font--lang=ku-tr \
 font--lang=kwm \
 font--lang=li \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=ng \
 font--lang=nl \
@@ -73,8 +78,10 @@ font--lang=sw \
 font--lang=tk \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=tr \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
@@ -82,6 +89,7 @@ font--lang=wa \
 font--lang=wen \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-frca10 \

@@ -8,8 +8,8 @@ LICENSE = "MIT"
 
 PV = "0.9.8"
 
-RPM_NAME = "libmimetic0-0.9.8-3.9.aarch64.rpm"
-RPM_HASH = "dcdedd9fcb2657b29d670c535f5fde68c72b8e12284c8fd4cef2daaa16ad055ecab6eac2078aa046952d6ea52bc0870be8cdf9996937124279707652d3f0ae69"
+RPM_NAME = "libmimetic0-0.9.8-4.7.aarch64.rpm"
+RPM_HASH = "c00478028168b64b81fb3ca72f05adfa17518396326282e399196271bfffba698bf6c6e268fef2a9b835ab9817a8b2b1c3bc908f0abf252c76156f65c4f4174a"
 
 RPROVIDES:${PN} += "libmimetic.so.0 \
 libmimetic0"

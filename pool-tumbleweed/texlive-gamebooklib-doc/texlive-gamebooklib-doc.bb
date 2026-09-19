@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gamebooklib"
 DESCRIPTION = "This package includes the documentation for texlive-gamebooklib"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn63424"
+PV = "2026.226.1.4svn67772"
 
-RPM_NAME = "texlive-gamebooklib-doc-2023.209.1.3svn63424-53.1.noarch.rpm"
-RPM_HASH = "834515c9aa1cad76e80ff05950a90b771e0011c0822ad888c4fc919e5d22afb656c6c680c74afd6900a8a4d3f52e53b472e961ea1f7f6d21d56de092ed9a1955"
+RPM_NAME = "texlive-gamebooklib-doc-2026.226.1.4svn67772-60.2.noarch.rpm"
+RPM_HASH = "6cfee677385e3e4d2d4d0be5486848627a452e8c5443ce5dc2917d14958a427cb27a073e47d24236f087edd37507f781e4dd534f9c14c20853c0193b8935622b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gamebooklib-doc"

@@ -1,12 +1,12 @@
-SUMMARY = "Library of Commonly Used Type Constraints"
+SUMMARY = "Library of commonly used type constraints"
 DESCRIPTION = "A set of commonly-used type constraints that do not ship with Moose by \
 default."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.001014"
+PV = "0.001015"
 
-RPM_NAME = "perl-MooseX-Types-Common-0.001014-1.23.noarch.rpm"
-RPM_HASH = "75cb099b779c2d22a3fde08bf36c8e237795c6cd37043bc86d24f349078a0fb53acc1d54a243613a2ccfc9ff59db3fa5759a6c7ef548c98694820d90af694065"
+RPM_NAME = "perl-MooseX-Types-Common-0.001015-1.7.noarch.rpm"
+RPM_HASH = "08c36c73e3f6e30c193117669c4bb8653faab82d4faf514384a1e0afe4436e567c718eb3070bbaf44cc6673158bb96f500095aa0bca792c06f9f2ad6ecfe7ae7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Types--Common \
@@ -14,7 +14,8 @@ perl-MooseX--Types--Common--Numeric \
 perl-MooseX--Types--Common--String \
 perl-MooseX-Types-Common"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-Moose \
 perl-MooseX--Types \
 perl-MooseX--Types--Moose"
 

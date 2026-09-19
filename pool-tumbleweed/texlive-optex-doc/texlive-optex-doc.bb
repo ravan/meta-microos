@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-optex"
 DESCRIPTION = "This package includes the documentation for texlive-optex"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.11svn66513"
+PV = "2026.226.1.19svn78109"
 
-RPM_NAME = "texlive-optex-doc-2023.209.1.11svn66513-55.1.noarch.rpm"
-RPM_HASH = "d10355ab6915a454f0eb3f45dc6dce6184224b13f5668f49229c447632f065c636db2395a3efc4c3e967b99a98f9ebb8ed54321b7d0031aac63b7f2b5ba70bdd"
+RPM_NAME = "texlive-optex-doc-2026.226.1.19svn78109-61.2.noarch.rpm"
+RPM_HASH = "092202e33e47686acd2edc974d26e925c95154adc8fc4c0cce98c44ddc44244212463c98eb7184cf8e80786061ad71b75e3a4135a67ed804ce7ed2581f4c8a54"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-optex.1 \

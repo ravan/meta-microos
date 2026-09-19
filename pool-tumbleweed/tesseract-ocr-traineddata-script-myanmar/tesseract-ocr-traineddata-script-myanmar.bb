@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the fast integer version of the Myanmar scr
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-script-myanmar-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "0aff7aad6afe96c89526e01dfe8f9e6c4cdd971205113c606aff4704625c1e3cf5f53d7f88d9174db7748e149e9cf1c83c075651553472c540fcefb98883f1d5"
+RPM_NAME = "tesseract-ocr-traineddata-script-myanmar-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "703501bcc3f336e12d11572dd2e6339c28f2f7a5128ab99c110d8c0f04dcdc3b72c069fba707f29aadeb8d61e3504d3c1dd2700d11197df403b0351baa57741a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-script-myanmar"

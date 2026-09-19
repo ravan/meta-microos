@@ -1,18 +1,18 @@
 SUMMARY = "Typesetting mathematics according to French rules"
 DESCRIPTION = "The package provides capital letters in roman (upright shape) \
 in mathematical mode according to French rule (can be \
-optionnally disabled), optionally lowercase Greek letters in \
-upright shape, correct spacing in math mode after commas, \
-before a semicolon and around square brackets, some useful \
-macros and aliases for symbols used in France: \\infeg, \\supeg, \
-\\paral, ... several macros for writing french operator names \
-like pgcd, ppcm, Card, rg, Vect, ..."
+optionally disabled), correct spacing in math mode after \
+commas, before a semicolon and around square brackets, some \
+useful macros and aliases for symbols used in France: \\infeg, \
+\\supeg, \\paral, ... several macros for writing french operator \
+names like pgcd, ppcm, Card, rg, Vect, ... optionally lowercase \
+Greek letters in upright shape,"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.6svn66470"
+PV = "2026.226.3.1svn71205"
 
-RPM_NAME = "texlive-frenchmath-2023.209.2.6svn66470-53.1.noarch.rpm"
-RPM_HASH = "fcac3b21f16b1daf97234aa49b84c5890636bbb53d0d5dbb78130cc87ebd7c77a49dcb731fd40f4466c34170ec1f1fd26a5316f89f923bedab151ef8c29c917c"
+RPM_NAME = "texlive-frenchmath-2026.226.3.1svn71205-60.2.noarch.rpm"
+RPM_HASH = "f5d1bea1c5b9843b33918045f5fb57cf89ab50da340566f09d61532b8f8c80c2f0f8dda2f3b52d0c0f87474c07958177d6e74ce49341341e1d63487e64aabf63"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-frenchmath.sty \
@@ -25,15 +25,13 @@ findutils \
 grep \
 sed \
 tex-amsopn.sty \
-tex-amssymb.sty \
+tex-amstext.sty \
+tex-decimalcomma.sty \
 tex-dotlessj.sty \
+tex-etoolbox.sty \
 tex-ibrackets.sty \
-tex-iftex.sty \
-tex-lgrmath.sty \
-tex-mathptmx.sty \
+tex-mathgreeks.sty \
 tex-mathrsfs.sty \
-tex-ncccomma.sty \
-tex-upgreek.sty \
 tex-xspace.sty \
 texlive \
 texlive-filesystem \

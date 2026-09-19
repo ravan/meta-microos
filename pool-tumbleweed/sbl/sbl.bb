@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.5.0.20130317.git7a75bc29"
 
-RPM_NAME = "sbl-3.5.0.20130317.git7a75bc29-6.15.aarch64.rpm"
-RPM_HASH = "f5ebbc0c17080429c84bcc8488e899cf767dae647557df4d9e0cc8a91ec822981b86b5e94c84fb48ec58e7105324ecf5a3a18afa4bda8e476276e346098aae2a"
+RPM_NAME = "sbl-3.5.0.20130317.git7a75bc29-10.4.aarch64.rpm"
+RPM_HASH = "255ca61b1082c2f335199dab12b59191aab1ad09401abf67ee5dacbf57480e247ba669757516d7e5e4ce54efa6b4936a0a5f63af94414b7f5b582128adb4c19b"
 
 RPROVIDES:${PN} += "config-sbl \
 libbrld.so.1 \

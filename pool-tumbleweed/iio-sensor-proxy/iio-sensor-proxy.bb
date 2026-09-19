@@ -3,10 +3,10 @@ DESCRIPTION = "This proxy reads sensor data from the IIO subsystem and serves to
 the input subsystem"
 LICENSE = "GPL-3.0-only"
 
-PV = "3.5"
+PV = "3.9"
 
-RPM_NAME = "iio-sensor-proxy-3.5-1.1.aarch64.rpm"
-RPM_HASH = "2641cc01a384b1073aac97cfc6e6af97d80f8895a4027329573e5f4650fe8c41616d8be90cacc48327590b433e570738549662e0299b8391835f2566d8454ca7"
+RPM_NAME = "iio-sensor-proxy-3.9-1.5.aarch64.rpm"
+RPM_HASH = "ca78de8e29ed2c0626b2ce4b6b881f0372b6bd6a50384e77a6b78211448875beef61759a5007a03fe3b8f23ed569cfc1732b612128c3dc69c306d021399c72a8"
 
 RPROVIDES:${PN} += "iio-sensor-proxy"
 

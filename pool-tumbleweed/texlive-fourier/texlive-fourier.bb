@@ -7,13 +7,13 @@ and several other symbols. The system is absolutely \
 stand-alone: apart from Utopia and Fourier, no other typefaces \
 are required. The fourier fonts will also work with Adobe \
 Utopia Expert fonts, which are only available for purchase. \
-Utopia is a registered trademark of Adobe Systems Incorporated"
+Utopia is a registered trademark of Adobe Systems Incorporated."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.3svn61937"
+PV = "2026.226.2.4svn77682"
 
-RPM_NAME = "texlive-fourier-2023.209.2.3svn61937-53.1.noarch.rpm"
-RPM_HASH = "3f6fef8b175765fe0581a5bf959e24514cf3be62fc06f46272b8e5bee27b4d5a24086007bd29655c815d60b4fe621c954add649f46a9fb11e9c7b7c62b44e401"
+RPM_NAME = "texlive-fourier-2026.226.2.4svn77682-60.2.noarch.rpm"
+RPM_HASH = "04c17accf877b098694dfd8b27f40aaf363730c5ababe1867526a17748b94fd74bbe93cf64bcf55a6ea2f5c76c38807ea95b94ecce608d170eca7e7d34181a97"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fmlfutm.fd \

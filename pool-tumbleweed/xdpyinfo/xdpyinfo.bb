@@ -7,10 +7,10 @@ and the server, and the different types of screens, visuals, and X11 \
 protocol extensions that are available."
 LICENSE = "MIT"
 
-PV = "1.3.4"
+PV = "1.4.0"
 
-RPM_NAME = "xdpyinfo-1.3.4-1.1.aarch64.rpm"
-RPM_HASH = "937d1bab0dcbd83d7ec127d30fd8768e1b33b38719e6bdcdf89dc25b057d386d40c73c496d2a774be02fb47118dd100843813b15b0cc8facd1f027a4116b3959"
+RPM_NAME = "xdpyinfo-1.4.0-1.5.aarch64.rpm"
+RPM_HASH = "b8fbe8d15f41e569d300b3e54f64f56b043707a334b60ecb73f5b8b1167465b1ff1f10b6db6b9b6c7fded3b50df74d1b3c20355df73318220e30f4c3f1a09d33"
 
 RPROVIDES:${PN} += "xdpyinfo"
 

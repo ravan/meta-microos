@@ -2,10 +2,10 @@ SUMMARY = "Library package for libopusenc"
 DESCRIPTION = "A library that provides a way to encode Ogg Opus files."
 LICENSE = "BSD-3-Clause"
 
-PV = "0.2.1"
+PV = "0.3"
 
-RPM_NAME = "libopusenc0-0.2.1-1.16.aarch64.rpm"
-RPM_HASH = "bf0a92fe02c08c2279341792205a9546db532af3791f9ebe51be7852aa3bc71c57dc7e109854ea2c5e269ec3eb4e3d1c4251ccca31d94894d3d52ad45abce9b6"
+RPM_NAME = "libopusenc0-0.3-1.4.aarch64.rpm"
+RPM_HASH = "6c99cc9a1cb6b621ecb50553614aacb995a593e3f7503c1dc0925f0e1c94384947b88be0198557bf55c98476e849da7233ff05a38c5bfc00e494af81beba9c24"
 
 RPROVIDES:${PN} += "libopusenc.so.0 \
 libopusenc0"

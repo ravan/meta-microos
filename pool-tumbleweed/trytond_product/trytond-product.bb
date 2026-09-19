@@ -4,13 +4,13 @@ application platform: Category of Unit of Measure, Unit of Measure, \
 Product Template, Product and Product Category."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.4"
+PV = "7.0.5"
 
-RPM_NAME = "trytond_product-6.0.4-1.2.noarch.rpm"
-RPM_HASH = "995b49e4dc11387ca8b856b9ecb03116863062315d2f5663f3bf4321425505d0cba3d40efc28207efc281157a29ae00587daae4adfb9b77257acac2c78ccdb89"
+RPM_NAME = "trytond_product-7.0.5-1.2.noarch.rpm"
+RPM_HASH = "837ccd59930c09d825a8028d40f6c6afe812cdda17f564cdf131b1c9a51f0e7ab1c88fbca21039a47c67ef8ca9b89238d51de4f2eae54baa302772f4b868530f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-product \
+RPROVIDES:${PN} += "python3.13dist-trytond-product \
 python3dist-trytond-product \
 trytond-product"
 

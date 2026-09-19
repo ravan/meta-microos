@@ -5,10 +5,10 @@ condensed versions of the fonts are also supported. The missing \
 typefaces for slanted text are also defined."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn64695"
+PV = "2026.226.0.0.01svn77682"
 
-RPM_NAME = "texlive-heros-otf-2023.209.0.0.01svn64695-54.2.noarch.rpm"
-RPM_HASH = "07e6c0dbb6e788c34f97ccd8918695ee46c59704b36ed4a85e7531baefac1984eab7ebdd896306b0eca93efe5183f75778e16946ce3aacc201c74da017f5b317"
+RPM_NAME = "texlive-heros-otf-2026.226.0.0.01svn77682-60.4.noarch.rpm"
+RPM_HASH = "2686b87bb29f35d55cfc0f7aa7d58fd0d783988db469d8cc076ab6a645b01bd41b586afe152a6941a309cc148418c44ae1c33b8526cc424ec3abf0581b90fd9d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-heros-otf.sty \

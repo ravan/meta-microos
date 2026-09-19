@@ -13,10 +13,10 @@ delimiter sizes can be set at the leaf nodes of a mathematical \
 expression, and magically bubble upward through the delimiters."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.0svn62630"
+PV = "2026.226.0.0.2.0svn62630"
 
-RPM_NAME = "texlive-jmsdelim-2023.209.0.0.2.0svn62630-56.1.noarch.rpm"
-RPM_HASH = "7401b5361c5fb9c9315d519ec13476fd139875aac2b824383969a814a7010450c294210c6a56f012c60720ce9f5596268ebf4b15cd1f309f064eaa8f306fb0d4"
+RPM_NAME = "texlive-jmsdelim-2026.226.0.0.2.0svn62630-63.2.noarch.rpm"
+RPM_HASH = "3ee6f5f790800edb88d80368bcea6975209e3501b644baa9fe92f349a0bbda588207b587f6869ffc26c2fcfac0fe793fee876538045456e55ac3fca2b126b1e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jmsdelim.sty \

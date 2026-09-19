@@ -6,8 +6,8 @@ LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
 PV = "12.10.1~bzr20200706.298"
 
-RPM_NAME = "libappindicator1-12.10.1~bzr20200706.298-2.3.aarch64.rpm"
-RPM_HASH = "59cc250b0c9695c516a897919a8db4a99411d5e0bb66bb0e8376584afedf0ff46d5714c6c8e159298cf6aacd9288e5c9b8337ea0a63b9e5acb0ee4037ae4cdef"
+RPM_NAME = "libappindicator1-12.10.1~bzr20200706.298-4.9.aarch64.rpm"
+RPM_HASH = "c1f2ff14572a8e9d8e016c86402f4cfefbbc2c33f613ae42d01456067f7d25510710131c53179cc4bf8884873cd9add2d5777e9ca813d33c88309e946005a0ad"
 
 RPROVIDES:${PN} += "libappindicator \
 libappindicator.so.1 \

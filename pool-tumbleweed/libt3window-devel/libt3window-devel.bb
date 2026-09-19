@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libt3window."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.1"
+PV = "0.4.2"
 
-RPM_NAME = "libt3window-devel-0.4.1-1.6.aarch64.rpm"
-RPM_HASH = "540c5436194e09cc04bf354852aa5fdf96a11a83853e9c9a6e7dc33603c93a15738a8ac33c912896ae916fdc641df853bc8636fac1643cf08e8196f80f376915"
+RPM_NAME = "libt3window-devel-0.4.2-1.5.aarch64.rpm"
+RPM_HASH = "569177b4875dc76c8d07d2f36f8680197d701fba7e55f3b8d5204d0596a60720ccfafbbaf8b46dd5fbd6337b50900efc24db791bc2438d87da966b9d44346b50"
 
 RPROVIDES:${PN} += "libt3window-devel \
 pkgconfig-libt3window"

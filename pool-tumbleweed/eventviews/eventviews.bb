@@ -3,10 +3,10 @@ DESCRIPTION = "This internal library implements a GUI framework for viewing vari
 calendar events in agenda, list, month view or timeline fashion."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "eventviews-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "5eb0c5cb86d7f1c61d7f79e617b9dfce1c23d524a1d44c49dd4ba1b8102049e00882c594aad3f4e71a849bfa968fc93e077bef0affa34bab0ab727520d7e1b41"
+RPM_NAME = "eventviews-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "8664faedd532527b3482e77f37191721c494439dd4f5a043007d9df44f756de3e8a28acc74dde2a88b29cedae103ac3a8f0369a3a9c94463a215fa0cc256ad93"
 
 RPROVIDES:${PN} += "eventviews"
 

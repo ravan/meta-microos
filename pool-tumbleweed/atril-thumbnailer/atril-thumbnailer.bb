@@ -5,10 +5,10 @@ page document formats like PDF and Postscript. \
 This package contains the Atril extension for the Caja file manager."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.4"
 
-RPM_NAME = "atril-thumbnailer-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "2ed468af693124c5192073131214ba40f1f156d9ea41d1db6b99f4c37b0f723f08aa939220c3f52d8dae21ac8446fb7e93467c26c95fc67b093953c2af2c71a6"
+RPM_NAME = "atril-thumbnailer-1.28.4-1.2.aarch64.rpm"
+RPM_HASH = "f277bcdb309d8fa2413ad6b70c3f717117f63b2b887f9aa6c4606f1cb9dcb8f56c8db7e7b437a80edee3105bf1e8cee90e412dc65980d71f6e3a5566da998bbc"
 
 RPROVIDES:${PN} += "atril-thumbnailer"
 

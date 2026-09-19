@@ -3,10 +3,10 @@ DESCRIPTION = "Allows footnotes on individual pages to be numbered from 1, \
 rather than being numbered sequentially through the document."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-footnpag-2023.209.svn15878-53.1.noarch.rpm"
-RPM_HASH = "669f383b7c5e1b3209270e0f7ba1510b6a3851fa6d3350a9a1fba24d085063e5f8d9b2daca1c6204fa7ee9fd259e2ff5b5bd18a9a1b42ec0539388c48cf833be"
+RPM_NAME = "texlive-footnpag-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "adcbb4b41ec8b3c043d6987668d81a8dea14b69b6aca7f86c6aed311dbc9fd864c16f145f9af45e437eb6d143cbe06c79265c8eaa17e48ffff3619e99716dbd0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-footnpag.sty \

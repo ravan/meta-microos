@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.18.1"
 
-RPM_NAME = "csound-devel-6.18.1-3.2.aarch64.rpm"
-RPM_HASH = "a22c6b0b90e2944c34474d85175778878763476dccab2b14384a8ddaecc2e20edf04a74e5fe6016286c99f20824afb079cc30e3e4dcea183c5727486e1a7fc4d"
+RPM_NAME = "csound-devel-6.18.1-6.4.aarch64.rpm"
+RPM_HASH = "40952edb747ad728a14df5f72a773b5fb5e3e6eebc3def6b3748ee446e7f8a06a7de7728906e2d1136fac439df25cd745c6090fba8bd6e287ed4f177a8d9709f"
 
 RPROVIDES:${PN} += "csound-devel"
 

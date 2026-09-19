@@ -13,17 +13,17 @@ or flash drives from userspace. Its features include: \
 - a maintainer who is open for suggestions;)"
 LICENSE = "MIT"
 
-PV = "2.4.2"
+PV = "2.6.1"
 
-RPM_NAME = "udiskie-2.4.2-1.7.noarch.rpm"
-RPM_HASH = "46ffc59e4ba52b9e5e0b9d921286a62dd38b059d174606c14a175f0c5f586aaa784d6dee06f98850733b708b278bef91aac78ba42733cf8803362bc4a97705d0"
+RPM_NAME = "udiskie-2.6.1-1.2.noarch.rpm"
+RPM_HASH = "6b93b1844f004610c895505324ec3635cfe77ade57b23cf0c98fb24b9f4a6eb26c859c5e6c0d041100dd4bde3aa2d1d24446641991201ae37e1c170807386a9c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-udiskie \
+RPROVIDES:${PN} += "python3.13dist-udiskie \
 python3dist-udiskie \
 udiskie"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 gdk-pixbuf-loader-rsvg \
 python-abi \
 python3-PyYAML \

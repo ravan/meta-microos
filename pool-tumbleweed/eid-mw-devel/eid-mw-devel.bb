@@ -5,10 +5,10 @@ websites and/or sign documents. This package contains the files needed \
 to develop against the eID Middleware."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "5.1.11"
+PV = "5.1.29"
 
-RPM_NAME = "eid-mw-devel-5.1.11-1.1.aarch64.rpm"
-RPM_HASH = "3908ba52579a3af1525344420cbf3f9f52e64f0ba0ff6c54a56feeb5b53182e401d0158c6407f305b660825bc87c99e768ace3374e9d6ab58bdcb660818b5074"
+RPM_NAME = "eid-mw-devel-5.1.29-1.2.aarch64.rpm"
+RPM_HASH = "c5b6b9219c975b077b9653c344606fdf2c8511dd5e7b58eea586aeec96d1f7016802a4b662cfaa4961faf2d4067df3a501c1aef1938079b93a93302e00ae60e2"
 
 RPROVIDES:${PN} += "eid-mw-devel \
 pkgconfig-libbeidpkcs11"

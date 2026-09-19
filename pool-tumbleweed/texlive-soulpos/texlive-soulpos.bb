@@ -7,10 +7,10 @@ soul underlines, which are built by repeating small elements, \
 here each chunk of text to be underlined is a single element."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn60772"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-soulpos-2023.209.1.2svn60772-58.1.noarch.rpm"
-RPM_HASH = "b360b77fcd17a532d4b1a6e94b5c2fdd8b94620109cf405b98ae8d136ab083a504ef622b222ff4ba51d7c02eb5d956127f7c9872af3d15e5e709592ae1552085"
+RPM_NAME = "texlive-soulpos-2026.226.1.2svn77682-64.2.noarch.rpm"
+RPM_HASH = "98e29fdf9a69ab39b794d9742f6c0dc8bcae66332f85f3749d408af608c491f1909d653892bfdb11ff8f8b16c338911bb38f8b1323ecafa9bf46c7a31f702b96"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-soulpos.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Debug Utils Library for Recastnavigation"
 DESCRIPTION = "This package contains the debug utilities library for the recastnavigation."
 LICENSE = "Zlib"
 
-PV = "1.5.1+git20210305.c5cbd53"
+PV = "1.6.0"
 
-RPM_NAME = "libDebugUtils1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
-RPM_HASH = "a8de3285c45ae52be9014f728d5790ea29bbe1acc277720643e2b16abdb3ede2cc75e0898b5c74ade2df73129113fc2b9392dd4474a1f366c449a96acbf0d529"
+RPM_NAME = "libDebugUtils1-1.6.0-1.9.aarch64.rpm"
+RPM_HASH = "bde7aabd6062aabd1674df9e1fcb59cf46248865aa1b735c1ec84415df8a24c741dae4d5630fdb24d2298e282291ca8f549307b6a5f20e7944aa909b813213f6"
 
 RPROVIDES:${PN} += "libDebugUtils.so.1 \
 libDebugUtils1"

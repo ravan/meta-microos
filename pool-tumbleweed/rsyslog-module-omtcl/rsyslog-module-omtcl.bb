@@ -5,15 +5,16 @@ package. \
 This module provides an output module for TCL."
 LICENSE = "Apache-2.0 & GPL-3.0-or-later"
 
-PV = "8.2306.0"
+PV = "8.2608.0"
 
-RPM_NAME = "rsyslog-module-omtcl-8.2306.0-1.1.aarch64.rpm"
-RPM_HASH = "5095fe9bb85cba1530fcff89f67d16da2160e7054737a5a1c074d5c6c639264d3facadd408433f51f05cb935b238e2cde16acb5696d0648410bcb4b9e881f03b"
+RPM_NAME = "rsyslog-module-omtcl-8.2608.0-1.1.aarch64.rpm"
+RPM_HASH = "49c1e1159512d62cf61ed6d2b98d674c26a1735890cab93f1b93298754a14431c3e20dcfeadf54b95124a8029b6bd87c5e8635c546a7d0f07140738ac20571e0"
 
 RPROVIDES:${PN} += "rsyslog-module-omtcl"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
+libtcl8.6.so \
 rsyslog"
 
 inherit rpm

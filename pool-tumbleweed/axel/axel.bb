@@ -5,10 +5,10 @@ no dependencies and is lightweight, so it might be useful as a wget clone on \
 byte-critical systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.17.11"
+PV = "2.17.14"
 
-RPM_NAME = "axel-2.17.11-1.8.aarch64.rpm"
-RPM_HASH = "ae3a13164d6abaa6acc713b7f5749c046c47a78394ba2ef0c30f168f2cd1977aa5a91fcd0c33289e0ad921839da314171eb5926dff47f2af6807a153ca7acb90"
+RPM_NAME = "axel-2.17.14-1.9.aarch64.rpm"
+RPM_HASH = "ec170e56ea7b6e331b72938588cea87e30eb6749e16f809bf7842c4f698f13d7f3b22daa5e577389f9e931a28a5254e0d95b55e1b3265757ae2decb6c6294449"
 
 RPROVIDES:${PN} += "axel"
 

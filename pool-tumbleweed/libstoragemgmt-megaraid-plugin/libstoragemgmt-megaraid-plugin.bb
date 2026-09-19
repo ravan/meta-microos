@@ -3,16 +3,16 @@ DESCRIPTION = "The libstoragemgmt-megaraid-plugin package contains the plugin fo
 storage management via storcli."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.9.8"
+PV = "1.10.3"
 
-RPM_NAME = "libstoragemgmt-megaraid-plugin-1.9.8-1.2.noarch.rpm"
-RPM_HASH = "a1e841783a6001bf9e44120ddc2652f5aec1fae0d483b41744f2ab5b83da1ac504cfc3e90e50bcbe4abd62b7f2a16c9d68e3aa2a2e1d183b74f600635bf4173a"
+RPM_NAME = "libstoragemgmt-megaraid-plugin-1.10.3-1.3.noarch.rpm"
+RPM_HASH = "2d40b1ed36dcf215f3bba3332be1b7eacdb7d89ccdc2670cb03f7484384c657049fdb986e659465fb206071d2f2e424d77aff2b2fd45e6f6e2e7bc926a6d439e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-libstoragemgmt-megaraid-plugin \
 libstoragemgmt-megaraid-plugin"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 python-abi \
 python3-libstoragemgmt"

@@ -2,10 +2,10 @@ SUMMARY = "GTK+3 timezone map widget"
 DESCRIPTION = "Timezone map widget for GTK+3."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.4.4"
+PV = "0.4.6"
 
-RPM_NAME = "libtimezonemap1-0.4.4-2.10.aarch64.rpm"
-RPM_HASH = "07e902fd32f0c6dddaa88d6559447b90120673eca6617e5a5e5652cc57339ed6e337c833478e6dd006be0f67deefd5c52d3a4621b3d2ad1721210c8e44b788fb"
+RPM_NAME = "libtimezonemap1-0.4.6-1.11.aarch64.rpm"
+RPM_HASH = "b826c0153cc55c07f0479fb2441f8e6ae1c3f1a089f9a17490b7c15e15c0848ef24b17dd6bc9efee75fbf974a9f7a81cab8ec93a699673bfbfb6a13defc128b5"
 
 RPROVIDES:${PN} += "libtimezonemap.so.1 \
 libtimezonemap1"

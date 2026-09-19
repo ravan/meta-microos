@@ -2,10 +2,10 @@ SUMMARY = "PulseAudio emulation for ALSA"
 DESCRIPTION = "PulseAudio emulation intended to be used with Firefox and Skype."
 LICENSE = "MIT"
 
-PV = "0.1.13"
+PV = "0.1.14"
 
-RPM_NAME = "apulse-0.1.13-2.12.aarch64.rpm"
-RPM_HASH = "aa981b5b7a711569624c648a56c2f4e0220ca15af07804038c0c5549b4c471d118fa1c338522a8814fcb8c7db1118853d6155d8b33bdca77155daa13cbc33dbe"
+RPM_NAME = "apulse-0.1.14-1.4.aarch64.rpm"
+RPM_HASH = "1493d0f74c9f23e7a1cfebc69c0349ebe895faf06ab47a1fab3c0c603f99ee57076e1a19ae3fec83448785387cc2c6b018492f4cefda84fc433ab1835731b6d4"
 
 RPROVIDES:${PN} += "apulse \
 config-apulse"

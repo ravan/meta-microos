@@ -1,14 +1,18 @@
 SUMMARY = "Global warnings at the end of the logfile"
-DESCRIPTION = "This package provides a command that generates a list of \
-warnings that are printed out at the very end of the logfile. \
-This is useful for warnings such as 'Rerun for this or that \
-reason' or 'This is a draft, change it before the final run'."
+DESCRIPTION = "This package is obsolete. For LaTeX-format 2020-10-01 and \
+newer: Instead of \\addglobalwarning{ something } use \
+\\AddToHook{enddocument/info}{ something } and do not load the \
+warning package. For older formats this package provides a \
+command that generates a list of warnings that are printed out \
+at the very end of the logfile. This is useful for warnings \
+such as 'Rerun for this or that reason' or 'This is a draft, \
+change it before the final run'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.01svn22028"
+PV = "2026.226.0.0.11svn73265"
 
-RPM_NAME = "texlive-warning-2023.209.0.0.01svn22028-54.1.noarch.rpm"
-RPM_HASH = "4e6f730419646e92728ae943a6b2ddfa9595ba52e5a62245cd2d6175f08b3d660052c2a6443b32ad69902ae4e4e5bd1e96da87fd9758fa0f575ab2028ec430b1"
+RPM_NAME = "texlive-warning-2026.226.0.0.11svn73265-60.2.noarch.rpm"
+RPM_HASH = "0182009a88f325d56ffb278f366a504dff1f7e4c9a15a64eb204fdf1344b3f802afd5b99c8ad83a983666abebf4186493556634448a80167f30c61dc09f971aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-warning.sty \

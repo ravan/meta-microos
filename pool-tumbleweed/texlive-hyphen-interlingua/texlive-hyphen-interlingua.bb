@@ -2,10 +2,10 @@ SUMMARY = "Interlingua hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Interlingua in ASCII encoding."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58609"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-interlingua-2023.209.svn58609-54.1.noarch.rpm"
-RPM_HASH = "58b06a8eee9cb2593c50f258e04e49b7b0fd42d5a57e90fff2cd5cc63c8ab23230b71913ac7658a16f6e99f2d69c7c29f4d5ea556e6a8a1c0b7c598342773714"
+RPM_NAME = "texlive-hyphen-interlingua-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "246243b17bfaf214dfe49595604bd204ab34477290cac4535e59070f4898e27e5efb65d9d111939f8467b47c99571b1a74ec107865dec091b0f1a0a79e0caa44"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-ia.tex \

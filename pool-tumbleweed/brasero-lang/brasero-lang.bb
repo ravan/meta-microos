@@ -2,10 +2,10 @@ SUMMARY = "Translations for package brasero"
 DESCRIPTION = "Provides translations for the 'brasero' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.12.3"
+PV = "3.12.3+43"
 
-RPM_NAME = "brasero-lang-3.12.3-2.8.noarch.rpm"
-RPM_HASH = "88bd20c6c4af4be2c0fa8df504892d25057b9896e7c24e6df0d6b6d478ab32219988de47b582335ab2a06363618470bc2c49dd424d3328fe7851c4a48133f5bf"
+RPM_NAME = "brasero-lang-3.12.3+43-3.3.noarch.rpm"
+RPM_HASH = "9d334272220397018d33cebadab6f69a1bf917c549203722da286598f37c0dc51f29d2d536918a17c25197eb3c51be17a49b22eea9d55e484a2e7a602a6c5c3d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "brasero-lang \
@@ -50,6 +50,7 @@ locale-brasero-id \
 locale-brasero-is \
 locale-brasero-it \
 locale-brasero-ja \
+locale-brasero-ka \
 locale-brasero-kk \
 locale-brasero-km \
 locale-brasero-kn \

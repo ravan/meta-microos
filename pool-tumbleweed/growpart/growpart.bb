@@ -1,13 +1,13 @@
 SUMMARY = "Grow a partition"
-DESCRIPTION = "Grow a partition. This is predominantly useful in the cloud when an instance \
-is started with a larger root partition than the image size. The root \
-partition can be expanded to take up the additional size."
+DESCRIPTION = "Grow a partition. This is predominantly useful in the cloud when an instance is \
+started with a larger root partition than the image size. The root partition \
+can be expanded to take up the additional size."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.30"
+PV = "0.33"
 
-RPM_NAME = "growpart-0.30-6.10.noarch.rpm"
-RPM_HASH = "f6138ef7949f70709cf63788402745a7363fb5362abee6f99734dc0239c20c39932f666b86c44f5fae165ff934758abd736b7d4badcd09766fb08fec2f35ffe2"
+RPM_NAME = "growpart-0.33-2.7.noarch.rpm"
+RPM_HASH = "d34572bc418791dad2f0ed19de7653e25983c0b7fad85d15c7c54d4167cf16984139d7d439773451d32ef3efef932d50219fef62413aa4c287bed92ba540e684"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "growpart"

@@ -4,10 +4,10 @@ following the Microsoft Open Specifications. This package provides the shared \
 libraries used by the client."
 LICENSE = "Apache-2.0"
 
-PV = "2.11.0"
+PV = "2.11.7"
 
-RPM_NAME = "libfreerdp2-2-2.11.0-1.1.aarch64.rpm"
-RPM_HASH = "22d5cd5d6690b464b126a5e03ad4f15fd06fbf1ecdfbecd52ba6d0095dc6cf0910b8562d941096284c538e125fa49c0e095e60591afdd45eb24251bbd052003a"
+RPM_NAME = "libfreerdp2-2-2.11.7-8.4.aarch64.rpm"
+RPM_HASH = "aea21bfbcb3c83ccf054f6aa4f3a724f967b70999dfd816531844a0da4efa6ab2964fabe842e8cafde8008ed538343fdbb687b94cefc7a5410c6fedc5ea97994"
 
 RPROVIDES:${PN} += "libainput-client.so \
 libaudin-client-alsa.so \
@@ -51,8 +51,8 @@ libXfixes.so.3 \
 libXinerama.so.1 \
 libXtst.so.6 \
 libasound.so.2 \
-libavcodec.so.60 \
-libavutil.so.58 \
+libavcodec.so.62 \
+libavutil.so.60 \
 libc.so.6 \
 libcairo.so.2 \
 libcrypto.so.3 \

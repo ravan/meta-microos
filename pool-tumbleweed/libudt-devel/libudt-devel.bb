@@ -12,8 +12,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "4.11"
 
-RPM_NAME = "libudt-devel-4.11-1.23.aarch64.rpm"
-RPM_HASH = "69c2cfc8028ab2946593eee7ff3c89ad64c84efe7789e5de5dc842b4bf8fd31928eb4694fb7e24af9a6df3233b7f0b861d971ad811b483405fa43a3decf97081"
+RPM_NAME = "libudt-devel-4.11-1.33.aarch64.rpm"
+RPM_HASH = "75bb3e33f0aad25bb551b1f48c60c7ac3b1993b61897920fef65c05e1395390272c05fc401730b0570b39835e50578bdea40348d050c60f222d22f0d012d87f4"
 
 RPROVIDES:${PN} += "libudt-devel \
 udt-devel"

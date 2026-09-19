@@ -2,10 +2,10 @@ SUMMARY = "Development files for liballegro_color"
 DESCRIPTION = "Development files needed to build applications which use liballegro_color."
 LICENSE = "BSD-3-Clause & Zlib"
 
-PV = "5.2.8.0"
+PV = "5.2.11.3"
 
-RPM_NAME = "liballegro_color5_2-devel-5.2.8.0-1.4.aarch64.rpm"
-RPM_HASH = "db37cc9947a53a3d47df3946224b627d3d93dd94ee3513ba196ce7d89bec5703b4ca7caf565899b4fe68b0a48b8d7a21d31bd8d8b57cf755530e5b3836c293fd"
+RPM_NAME = "liballegro_color5_2-devel-5.2.11.3-1.5.aarch64.rpm"
+RPM_HASH = "cbf9f5b4703d14ee34b8d3246e9a7647521fae713ac9e260971fa4a66a6f3dd749841b34d04daa1211939465e9d8d3a7b65eb358c034fe080dc96d48fe1190c9"
 
 RPROVIDES:${PN} += "liballegro-color5-2-devel \
 pkgconfig-allegro-color-5"

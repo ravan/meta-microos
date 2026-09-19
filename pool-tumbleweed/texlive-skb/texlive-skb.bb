@@ -13,10 +13,10 @@ using the document classes provided, it hides a lot of LaTeX \
 from someone who just wants to write articles and books."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.52svn22781"
+PV = "2026.226.0.0.52svn22781"
 
-RPM_NAME = "texlive-skb-2023.209.0.0.52svn22781-58.1.noarch.rpm"
-RPM_HASH = "da5ff668b7faa8982ef30402b1775b38ca603c3d02ac02e90485104575d453b951e460f01e9a6e812c9b8872d6ccca77430c0a62c63323cc1a199c53ec5ceb22"
+RPM_NAME = "texlive-skb-2026.226.0.0.52svn22781-64.2.noarch.rpm"
+RPM_HASH = "ea018b5e937021ba3b60eb914c643e159dead391abdf8a5a8255530f13ce2763b3441a82ea4817f5419ba5b9538689dc5f0c4731e285477eb4b6d114a9ddfb08"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-skb.cfg \

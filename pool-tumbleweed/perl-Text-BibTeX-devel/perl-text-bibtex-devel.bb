@@ -5,10 +5,10 @@ low-level.  If you have more sophisticated needs, you might be interested \
 the 'Text::BibTeX' module for Perl."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.890.0"
+PV = "0.910.0"
 
-RPM_NAME = "perl-Text-BibTeX-devel-0.890.0-1.1.aarch64.rpm"
-RPM_HASH = "e1e7c7975b5adac9bca33d7cc3a65eaa6fe60090c775232f24cea69dbd0768d9c1df3b25827c047214589b16dd41a5a198517df4c88e826d2cd258853e50e414"
+RPM_NAME = "perl-Text-BibTeX-devel-0.910.0-1.11.aarch64.rpm"
+RPM_HASH = "2e785c9a14c3e69d45f3daca5902b14fe0407544abe68b0544b64be145cf9a0d6e86c3d95241de629f0e2d76dd39db0b4596e5940e2b05c633522ee68504bc99"
 
 RPROVIDES:${PN} += "libbtparse.so \
 perl-Text-BibTeX-/usr/lib64/libbtparse.so \

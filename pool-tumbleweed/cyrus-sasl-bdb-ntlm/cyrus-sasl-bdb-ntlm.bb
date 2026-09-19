@@ -5,8 +5,8 @@ LICENSE = "BSD-4-Clause"
 
 PV = "2.1.28"
 
-RPM_NAME = "cyrus-sasl-bdb-ntlm-2.1.28-5.1.aarch64.rpm"
-RPM_HASH = "4c4668e3251e9341353e5df700298c898d358f99d887dc864ebac87de5cd240cbd3444930302b4c0055cf867da5e8a13d3b622ff855cebb7a13093cb1b7dcd9a"
+RPM_NAME = "cyrus-sasl-bdb-ntlm-2.1.28-12.4.aarch64.rpm"
+RPM_HASH = "e6393719701b20d6617f43660fd916f485de6015765c2a638ce25d07758e01cf1e052c8786ec43997adefdbff9b1e4910d2feb0e8c80ca99dbfcf40e3d61964b"
 
 RPROVIDES:${PN} += "cyrus-sasl-bdb-ntlm \
 libntlm.so.3"

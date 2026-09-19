@@ -7,10 +7,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfixbuf."
 LICENSE = "LGPL-3.0-only"
 
-PV = "2.4.2"
+PV = "2.5.4"
 
-RPM_NAME = "libfixbuf-devel-2.4.2-1.1.aarch64.rpm"
-RPM_HASH = "7a1aaa14f1c42dbcc31248f099cf75f229cb8955cb3531135717f9f4f72e40e4a59ddf77266cd18c05b22c5948cfa7fc0a56b10acccc9057b2f927aae878715c"
+RPM_NAME = "libfixbuf-devel-2.5.4-1.4.aarch64.rpm"
+RPM_HASH = "6ef40a108c6c89935afc3194e0359caaec80e06780282bc16a913cfee05d0a8aca129e2cc86d6a52afba2dc3df8b3accc2fe5413d6c36525061fe9b413b7aab9"
 
 RPROVIDES:${PN} += "libfixbuf-devel \
 pkgconfig-libfixbuf"

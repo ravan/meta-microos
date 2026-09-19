@@ -2,16 +2,20 @@ SUMMARY = "Config module for Icinga Web 2"
 DESCRIPTION = "Director is an config module for icingaweb2"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.10.2"
+PV = "1.11.9"
 
-RPM_NAME = "icingaweb2-module-director-1.10.2-1.4.noarch.rpm"
-RPM_HASH = "09b5fbab5a2196a8c0a3db6a299f2956afaa4edab23c1362f630aefef6f6c0ad1b6615d323c8413c6a4de7edf9aa022871ac8032a728830723b7468d23131dcd"
+RPM_NAME = "icingaweb2-module-director-1.11.9-1.3.noarch.rpm"
+RPM_HASH = "20d4f329d574270e76a49b4f71a22322ca89528eea23fe3fbc47ce00dce69e7cd6abe125afd6bd9cddb98ae5ccefa34ec35b0813a58321186999d6c41605d85e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "icingaweb2-module-director"
+RPROVIDES:${PN} += "group-icingaweb2 \
+icingaweb2-module-director \
+user-icingadirector"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
+icinga-php-library \
+icinga-php-thirdparty \
 icinga2 \
 icingaweb2 \
 icingaweb2-module-incubator \
@@ -23,6 +27,7 @@ php-iconv \
 php-pcntl \
 php-posix \
 php-sockets \
+pwdutils \
 systemd"
 
 inherit rpm

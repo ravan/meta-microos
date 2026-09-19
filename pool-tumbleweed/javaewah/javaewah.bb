@@ -10,10 +10,10 @@ uncompressed bitmap (implemented in Java as the BitSet class). Unlike \
 some alternatives, javaewah does not rely on a patented scheme."
 LICENSE = "Apache-2.0"
 
-PV = "1.1.6"
+PV = "1.2.3"
 
-RPM_NAME = "javaewah-1.1.6-3.1.noarch.rpm"
-RPM_HASH = "14f99750074b3f536b995f1bd411834c572f679a87bd4fd963abe439e5353151c6f2c897d3f3fc108d8ec71d9aa47fbec3427ba1b81f686cefb9df95457a69af"
+RPM_NAME = "javaewah-1.2.3-1.9.noarch.rpm"
+RPM_HASH = "0d4bbac5a4dfb42e29300924dd04013d5cc86058c18e2431ac97b01eb7c593111b18ca694bd7f53cd0aad8120b24d7f6c130b83983e01169eecf4f24a7e1e77e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "javaewah \

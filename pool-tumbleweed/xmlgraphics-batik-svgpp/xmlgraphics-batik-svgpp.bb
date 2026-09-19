@@ -4,10 +4,10 @@ get their tabulations and other cosmetic parameters in order. It can \
 also be used to modify the DOCTYPE declaration on SVG files."
 LICENSE = "Apache-2.0"
 
-PV = "1.15"
+PV = "1.18"
 
-RPM_NAME = "xmlgraphics-batik-svgpp-1.15-3.1.noarch.rpm"
-RPM_HASH = "c6dae07c7d96ffccbf80b0e2d97adbbf5574fa907e0a2732c737363f30968f09ecd68f1110c82b84d5e7c04ecd43557b3eb25663c5b7fe1773a5b9a822103771"
+RPM_NAME = "xmlgraphics-batik-svgpp-1.18-1.7.noarch.rpm"
+RPM_HASH = "d28e37abed025cb40e5667da1b671c50a4977deb6cad6636415d7f201917a9455e335f418f546baae2f9a6610b9a477ed665135ed2c6ce55c17cdd2d7e62121f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "batik-svgpp \
@@ -19,6 +19,13 @@ xmlgraphics-batik-svgpp"
 RDEPENDS:${PN} += "/usr/bin/bash \
 java-headless \
 javapackages-filesystem \
-xmlgraphics-batik"
+javapackages-tools \
+mvn-org.apache.xmlgraphics-batik-shared-resources \
+mvn-org.apache.xmlgraphics-batik-transcoder \
+mvn-org.apache.xmlgraphics-batik-util \
+rhino \
+xml-commons-apis \
+xmlgraphics-batik \
+xmlgraphics-commons"
 
 inherit rpm

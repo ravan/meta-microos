@@ -6,10 +6,10 @@ DESCRIPTION = "This portable C library implements Unicode string types in three 
 case folding and regular expressions)."
 LICENSE = "GPL-3.0-or-later | LGPL-3.0-or-later"
 
-PV = "1.1"
+PV = "1.4.2"
 
-RPM_NAME = "libunistring5-1.1-3.1.aarch64.rpm"
-RPM_HASH = "4e154919270b6094e2d15d815f0e7eec1cecdeeb9912ec5cbb1304d3078801de76cef6f0d75344e5a913249afbcc5c0c43320eb721e0753970458174076e1d51"
+RPM_NAME = "libunistring5-1.4.2-1.3.aarch64.rpm"
+RPM_HASH = "fe90cbcb609b733e4d34cc2b9ec955d5bae7f7b9eec59d2bddf0723376f6ed11d804ab97ed399348d50315789bfa8cd1a2f0bd0021ac36db151341ea71f0207a"
 
 RPROVIDES:${PN} += "libunistring.so.5 \
 libunistring5"

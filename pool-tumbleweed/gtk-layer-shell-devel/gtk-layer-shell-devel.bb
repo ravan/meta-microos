@@ -2,10 +2,10 @@ SUMMARY = "Development files for gtk-layer-shell"
 DESCRIPTION = "Development files and headers for gtk-layer-shell"
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "0.8.1"
+PV = "0.10.1"
 
-RPM_NAME = "gtk-layer-shell-devel-0.8.1-1.2.aarch64.rpm"
-RPM_HASH = "ec61a647451b3a0c6411d32de242d15bc985b6de39a41d432fc677c361674bb7c906e61ee0c4ec95481459e61bf92c86d63e4abd9a9dbec747f61e0cbcc3e90c"
+RPM_NAME = "gtk-layer-shell-devel-0.10.1-1.4.aarch64.rpm"
+RPM_HASH = "9d7f88db660431e283da88d527970803358d2ff9bb6309761ce3c19289e448c92bafc5ed84e9e68f36908d3dacfc0b41e8f30b94994e75215f4b858466e6ade4"
 
 RPROVIDES:${PN} += "gtk-layer-shell-devel \
 pkgconfig-gtk-layer-shell-0"

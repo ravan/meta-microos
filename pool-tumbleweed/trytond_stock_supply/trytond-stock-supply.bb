@@ -4,13 +4,13 @@ introduce the concepts of order point and purchase request into the \
 Tryton application platform."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.0.6"
+PV = "7.0.5"
 
-RPM_NAME = "trytond_stock_supply-6.0.6-1.2.noarch.rpm"
-RPM_HASH = "e757e1af9647b9bf6512bc0b7589e2dda302101dc0c78ffa6e7dea509ef44122f109faf36a48f25870b6b81a521bb5803156895850ae8ae02053cec4af106a79"
+RPM_NAME = "trytond_stock_supply-7.0.5-1.3.noarch.rpm"
+RPM_HASH = "c11966ce9117013559ea6bbe94302c9e24c51d44c4f66db9bc6625b00f814517a4d7f49b1bcec4a5fdd67c19721e61acffbe677506a923e065c5e28f0d994a14"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-stock-supply \
+RPROVIDES:${PN} += "python3.13dist-trytond-stock-supply \
 python3dist-trytond-stock-supply \
 trytond-stock-supply"
 

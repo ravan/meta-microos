@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tabbing"
 DESCRIPTION = "This package includes the documentation for texlive-tabbing"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn59715"
+PV = "2026.226.svn59715"
 
-RPM_NAME = "texlive-tabbing-doc-2023.209.svn59715-58.1.noarch.rpm"
-RPM_HASH = "c32fbb6382a50969f2eb75de7cb5bdc8cc9729310afd222686c93310e6f62bc0b03400502d1fa3d98ecff4734eb92dc64a006d422ccb11d9c598d6f53167d43b"
+RPM_NAME = "texlive-tabbing-doc-2026.226.svn59715-64.2.noarch.rpm"
+RPM_HASH = "d3e331ab05ac0d0e584f74eeced9bfca38a8a84994ab7af6b1e2882103a9ea21e933b0592bbaca3ae598fa7521c393fd4ff4abe930bab56b44a4056145e05882"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-tabbing-doc-en \

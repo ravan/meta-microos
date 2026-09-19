@@ -4,15 +4,16 @@ aid in the processing of gravitation wave data sets. ldas-tools-cmake provides t
 a collection of cmake functions used by LDAS."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.1.1"
+PV = "1.3.0"
 
-RPM_NAME = "ldas-tools-cmake-1.1.1-1.9.noarch.rpm"
-RPM_HASH = "80357de580d33749d831ac525347fa6da2955a3bcaf59cc46553e8cbca2ce7d9f3b6f53364472342fb6375f8b6a230b6117741777eedba131fc6eac0e254d3d2"
+RPM_NAME = "ldas-tools-cmake-1.3.0-1.6.noarch.rpm"
+RPM_HASH = "b3df8040514c7fdb833e3b51e82677a146757d0c079b819b974b8322706a5730965b12dc0f3ffe600defd96ab1e83711abc50e1b647319f5cd0a5c7db2d48f43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ldas-tools-cmake \
 pkgconfig-ldastoolscmake"
 
-RDEPENDS:${PN} += "/usr/bin/pkg-config"
+RDEPENDS:${PN} += "/usr/bin/pkg-config \
+pkgconfig-igwncmake"
 
 inherit rpm

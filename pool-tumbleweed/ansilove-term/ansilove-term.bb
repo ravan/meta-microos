@@ -5,8 +5,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.0.0+git.20190908"
 
-RPM_NAME = "ansilove-term-0.0.0+git.20190908-2.2.aarch64.rpm"
-RPM_HASH = "c14c056edf87c307942407bcf66bcee18918b8b141a0e839d2aac03763fefa8338317824d6a532bbee9d4925fb8e688dd831c20d112c29f0c0e47190047abda1"
+RPM_NAME = "ansilove-term-0.0.0+git.20190908-2.12.aarch64.rpm"
+RPM_HASH = "d8a3359f5bd7ed27b6a60791226a4c291c61e47764c05fe1e45a6dae523a4e9971b5c197cbb23d95f2a094fcf2b0c58186150cc3e682716bfd03e4c1b83dcdc0"
 
 RPROVIDES:${PN} += "ansilove-term"
 

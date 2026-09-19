@@ -2,10 +2,10 @@ SUMMARY = "Convenience package for a single-instance setup using nginx proxy"
 DESCRIPTION = "Use this package to setup a local instance with all services provided together."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1694101660.598baea"
+PV = "5.1788605562.29b45941"
 
-RPM_NAME = "openQA-single-instance-nginx-4.6.1694101660.598baea-1.1.aarch64.rpm"
-RPM_HASH = "e11934f714ce678740f55a127b2ecfb439dec66820096c5c177b9b84424d498964acdfd1e84c397f904cdaa87471f1ce76380db09f3b1b5b26bbf0449c3bcaa2"
+RPM_NAME = "openQA-single-instance-nginx-5.1788605562.29b45941-1.1.aarch64.rpm"
+RPM_HASH = "10e0b54d4c8a2a2cb471b166a532abe3211869061c9a376c95e62b5d71cc21eb2f6338be97655c42f1e629c97d351723b82f7cda68b18b6c0bd2f6791b99796e"
 
 RPROVIDES:${PN} += "openQA-single-instance-nginx"
 

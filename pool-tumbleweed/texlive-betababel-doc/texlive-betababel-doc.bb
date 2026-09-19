@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-betababel"
 DESCRIPTION = "This package includes the documentation for texlive-betababel"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.5svn15878"
+PV = "2026.226.0.0.5svn15878"
 
-RPM_NAME = "texlive-betababel-doc-2023.209.0.0.5svn15878-54.1.noarch.rpm"
-RPM_HASH = "17333e015344aec9f5170ca4208bb31ae27c24ea40b71c98f8251bd22dd0c52e8338b4d60bac46f25588004096d85a81edad6966f3c139a28e3003a7fb09bfe3"
+RPM_NAME = "texlive-betababel-doc-2026.226.0.0.5svn15878-61.2.noarch.rpm"
+RPM_HASH = "029a825935663b4367986c17942d5ef73a9e8b2a73e85666daffeee90f64fba9633f74deddb61b150032682ec3461b2d8e253386ee09c2ec0ddeb95fde839d1e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-betababel-doc"

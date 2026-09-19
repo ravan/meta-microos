@@ -9,8 +9,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "dd_rhelp-0.3.0-14.2.noarch.rpm"
-RPM_HASH = "0898fd217bd9179ae54dd533330803bdd1d8472c8dbd875dd8ca4e801d4e090eec6a268a257b2decb9324ec1cebb559be92f12dc035c835977c785a5022e9d6b"
+RPM_NAME = "dd_rhelp-0.3.0-15.7.noarch.rpm"
+RPM_HASH = "7430bc412f3988bf5be564a2773764d4dba2670ce495919b88ea9a1d5144bf60c5c1ac1fff0ae36abc53e83914b62ec04975ea6931f061c95577df5933012d6f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dd-rhelp"

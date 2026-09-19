@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "mpt-status-1.2.0-194.12.aarch64.rpm"
-RPM_HASH = "04b91993b68d2ba2c04be5dc089bf316003f040eca06b3b7e29a9551912b09000035a4e0fea355b0fdea4b3dbdcd944bf17826a2314ab5db0b2afec6573bdf5b"
+RPM_NAME = "mpt-status-1.2.0-194.22.aarch64.rpm"
+RPM_HASH = "9b7de990c245e22bc779484946ece55c30541d5a6887e51d10bc9aa6cc4f6dcb3e915d6ea7f6b6fa43d862852255e16b697d149b13ecb2612e54f660dd4de4d3"
 
 RPROVIDES:${PN} += "mpt-status"
 

@@ -6,14 +6,16 @@ files. You can then use the files to restore and run the application from \
 the point it was frozen at."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.18"
+PV = "4.2.1"
 
-RPM_NAME = "criu-3.18-1.2.aarch64.rpm"
-RPM_HASH = "7f61aeedae672c30e795ea41179c19423fe35e336764f331e8870b2fb94339b447aff1bba9d3f6c34d689003a5695f9ac6539af311c3719f8aaf7f38d1b26aa7"
+RPM_NAME = "criu-4.2.1-1.1.aarch64.rpm"
+RPM_HASH = "c21c128eba5296d7547e666b6aa581c4bfd54e793d802c368a2fdc6899e396966a9a2f544680c049f733d3cb2b689021861063a9c7710a5c24ac8d48010faac9"
 
 RPROVIDES:${PN} += "criu \
-python3.11dist-crit \
-python3dist-crit"
+python3.13dist-crit \
+python3.13dist-pycriu \
+python3dist-crit \
+python3dist-pycriu"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
@@ -25,8 +27,9 @@ libnet.so.9 \
 libnftables.so.1 \
 libnl-3.so.200 \
 libprotobuf-c.so.1 \
+libselinux.so.1 \
+libuuid.so.1 \
 python-abi \
-python3-ipaddr \
 python3-protobuf"
 
 inherit rpm

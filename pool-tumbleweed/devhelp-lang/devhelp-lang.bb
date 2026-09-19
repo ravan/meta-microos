@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "43.0"
 
-RPM_NAME = "devhelp-lang-43.0-2.2.noarch.rpm"
-RPM_HASH = "fd4ca777606e7a2a5fe4c4b92cbd25e155e8d03d183eaa12271e0937d8241f601d9a543a96470586f4eb3052665e12c2937d34f41c8e54aca326bb69e83074a6"
+RPM_NAME = "devhelp-lang-43.0-3.7.noarch.rpm"
+RPM_HASH = "aa1b4d94ad0c0b50349c58c98d5060498e302319697850d6f473fbd76da269b60dc451d5ee03d16aba98aa400fc47e065fabd7a8bbdddb01204444584c3b61be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "devhelp-lang \

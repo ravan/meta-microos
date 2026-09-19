@@ -4,10 +4,10 @@ patterned block to the marker, which is done by moving the blocks in \
 its way."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.38.2"
+PV = "3.38.2+47"
 
-RPM_NAME = "gnome-klotski-3.38.2-1.14.aarch64.rpm"
-RPM_HASH = "85750ade73b8c9b9b375b421275ef86103d412377e28e5b4f2d5e19de24ff84e2dd25f595b360526a73ef07a6d139dca5e7917ebfb77cc3334639f712693e422"
+RPM_NAME = "gnome-klotski-3.38.2+47-1.3.aarch64.rpm"
+RPM_HASH = "2df7c128bf2672dbeab993caaa9f584434ff4eeaab082be3ac0c22f85635b5ca26e554d4caadc41b91c87d980fb0d0b2572514840a6c77715e199336f54939b4"
 
 RPROVIDES:${PN} += "gnome-klotski"
 

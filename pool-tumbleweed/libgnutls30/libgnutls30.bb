@@ -4,10 +4,10 @@ layer. Currently the GnuTLS library implements the proposed standards \
 of the IETF's TLS working group."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.8.1"
+PV = "3.8.13"
 
-RPM_NAME = "libgnutls30-3.8.1-1.1.aarch64.rpm"
-RPM_HASH = "409b7b1b3d19fde9262481bdd7db5beb4773272993072cb278969cfa7b58e5acaad31fcdc65d7fc79926ac691706846063210df3ac5358cf207430315cd9c7b7"
+RPM_NAME = "libgnutls30-3.8.13-3.1.aarch64.rpm"
+RPM_HASH = "9589fd4224a64bb9d2c2b6d1f2403e3f7410c64c5a26b2be5d5d8ead7d19b7d1ae3cc14f688fafeeac4d04a6114ed4ed97a26a582b939d11771fac5b2b6fe92c"
 
 RPROVIDES:${PN} += "libgnutls.so.30 \
 libgnutls30 \
@@ -21,10 +21,10 @@ libgmp.so.10 \
 libhogweed.so.6 \
 libidn2.so.0 \
 libjitterentropy.so.3 \
+libleancrypto.so.1 \
 libnettle.so.8 \
 libp11-kit.so.0 \
 libtasn1.so.6 \
-libunistring.so.5 \
-libz.so.1"
+libunistring.so.5"
 
 inherit rpm

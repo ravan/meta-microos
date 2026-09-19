@@ -16,10 +16,10 @@ useful, annoying or if you simply find bugs. Feedback can also be sent to \
 'jhthorsen@cpan.org'."
 LICENSE = "Artistic-2.0"
 
-PV = "3.29"
+PV = "3.310.0"
 
-RPM_NAME = "perl-Mojo-Redis-3.29-1.9.noarch.rpm"
-RPM_HASH = "75470ad1e2a50b6faca001742983f6b596b5a91c890e56e311c70fd30a7f460b6e041e7fa3aa0673db4ef87558fbb448dbaf8d7a935aa9a4584289ff05dd7d5a"
+RPM_NAME = "perl-Mojo-Redis-3.310.0-1.3.noarch.rpm"
+RPM_HASH = "81232f5998eb945fb83c353a427136b0780d63efc8c49cb128c8584597c81fbce5473fe81890afae4ff481719996bef58e27d2a66fb4d38fd3e5ff308844d5f0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--Redis \
@@ -31,7 +31,7 @@ perl-Mojo--Redis--Database \
 perl-Mojo--Redis--PubSub \
 perl-Mojo-Redis"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Mojolicious \
 perl-Protocol--Redis--Faster"
 

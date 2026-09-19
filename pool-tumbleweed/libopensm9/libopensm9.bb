@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause | GPL-2.0-only"
 
 PV = "3.3.24"
 
-RPM_NAME = "libopensm9-3.3.24-3.8.aarch64.rpm"
-RPM_HASH = "e0e9a367b09e37157ff057f779544a00a221ed423bd7398fcf0cf6635d3161b1fb8eb315ce46080709f44580a5528888336aaab5089a33fd66dcf89e5553ec6c"
+RPM_NAME = "libopensm9-3.3.24-5.4.aarch64.rpm"
+RPM_HASH = "a53dc4d7bef8991d8abce66561409d68a5b6ed30d9a9c88dc04e0bb977a54eeb1de2ea90d47d48b56ea7618cd4a3ba2ecf4eeeb88b9d60b2a6c786a266213ca2"
 
 RPROVIDES:${PN} += "libopensm.so.9 \
 libopensm9"

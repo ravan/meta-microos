@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt 6 WebEngineCore library"
 DESCRIPTION = "Development files for the Qt 6 WebEngineCore library."
 LICENSE = "GPL-2.0-only | LGPL-3.0-only | GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-webenginecore-devel-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "c627f2e7a15633151438208c85f7b71e001bd39c69f9a23ca1d3b05449596d228478aeba5ce1bd813cc3a34970bd7a45c43f92d1971846915c34a6177ac11b1a"
+RPM_NAME = "qt6-webenginecore-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "22ed65bfc66d99f940733f030685e95576244f9d90d86f5c6d2c644d95de3924bfa1b6d5621f04b1788a9c9ce314b60273a849012ddfd7726780900c8b892749"
 
 RPROVIDES:${PN} += "cmake-Qt6WebEngineCore \
 cmake-Qt6WebEngineCoreTools \
@@ -18,15 +18,8 @@ cmake-Qt6Network \
 cmake-Qt6Positioning \
 cmake-Qt6Quick \
 cmake-Qt6WebChannel \
-ld-linux-aarch64.so.1 \
-libQt6Core.so.6 \
 libQt6WebEngineCore6 \
 libc.so.6 \
-libevent-2.1.so.7 \
-libgcc-s.so.1 \
-libicui18n.so.73 \
-libicuuc.so.73 \
-libm.so.6 \
 libstdc++.so.6 \
 pkgconfig-Qt6Core \
 pkgconfig-Qt6Gui \

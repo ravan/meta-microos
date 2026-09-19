@@ -4,8 +4,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.3.4"
 
-RPM_NAME = "ghc-terminal-size-doc-0.3.4-1.4.noarch.rpm"
-RPM_HASH = "79f0826b343f227ba1535c87d6feffc505fc1144c7d8ffc37a3a3521666ff2ad6b82bf244d2c4a77dde96cff7efbd1865c2eb07753f6d68b8a6c0cff47291065"
+RPM_NAME = "ghc-terminal-size-doc-0.3.4-2.16.noarch.rpm"
+RPM_HASH = "7efd7ce05337453403d811156552677cfab6cc6d1cf0cea138469e5b854413762428e86245f948b513700bd0b1d86e752012ce6e6040502601e0e4f938156699"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-terminal-size-doc"

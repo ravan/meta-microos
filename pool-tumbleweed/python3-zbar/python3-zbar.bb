@@ -1,11 +1,11 @@
 SUMMARY = "Python3 module for ZBar"
 DESCRIPTION = "This package contains the module to use ZBar from python3."
-LICENSE = "LGPL-2.0-or-later"
+LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.23.90"
+PV = "0.23.93"
 
-RPM_NAME = "python3-zbar-0.23.90-4.1.aarch64.rpm"
-RPM_HASH = "c5d4c4cfafee488504691375956d73197945ee743d0976aa9e01753d2be56c0b2f5f7fd263082f74b3f0b7798f258d87f43deda6895d3c167383adcc7fdafc86"
+RPM_NAME = "python3-zbar-0.23.93-4.3.aarch64.rpm"
+RPM_HASH = "9528b58d273c3778b452d75763c46abfeaadfa10fbde905529e7250bfee7139dab0c335d7054ad2891df383d62662821d9e3babb9a9dd7a9b629ad35911081c5"
 
 RPROVIDES:${PN} += "python3-zbar"
 

@@ -25,10 +25,10 @@ Features: \
  * Optional video format support (e.g. for webm animations)"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.12"
+PV = "2.13.3"
 
-RPM_NAME = "pqiv-2.12-1.4.aarch64.rpm"
-RPM_HASH = "6c3a298838a510203ab705c7a47e9480893f07e5ea0622a6aa8bc9c3cefbea71db362ef75ccbe7e1f9e6d16a83efb9659e5795cdc1e278fe61670804695fc797"
+RPM_NAME = "pqiv-2.13.3-1.4.aarch64.rpm"
+RPM_HASH = "667e22ef3fe2ee444f022281c0c6f4f3dec8042b33401782f8595b27406344f51900f8ba35642ff0fbece09d9fbcf5791aa4aae6c42a86a2e837961f76b4eb40"
 
 RPROVIDES:${PN} += "pqiv"
 
@@ -41,6 +41,8 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libm.so.6"
+libm.so.6 \
+libpango-1.0.so.0 \
+libpangocairo-1.0.so.0"
 
 inherit rpm

@@ -6,10 +6,10 @@ physics journals. An extensive set of features provide for \
 other applications such as reference sublisting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.2svn31648"
+PV = "2026.226.1.2svn77682"
 
-RPM_NAME = "texlive-mciteplus-2023.208.1.2svn31648-53.1.noarch.rpm"
-RPM_HASH = "522ce572a916457a2b638a4935f56efea4c1eaed484c5719c88073cffc5a3369c3945c1583a47af765f6c34cafcfea3d580951e8d6963c8c21d807d6604ec788"
+RPM_NAME = "texlive-mciteplus-2026.226.1.2svn77682-59.2.noarch.rpm"
+RPM_HASH = "b8610ef2b6fcbc4c2ce52f461d7a2ec78c974433dbaca75ec1a15831d13a74377543a1602701b45a2ee0cd4720956d1136434523a700219411d4aaf62e3bf430"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mciteplus.sty \

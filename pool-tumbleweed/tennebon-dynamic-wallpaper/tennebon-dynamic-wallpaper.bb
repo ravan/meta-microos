@@ -7,8 +7,8 @@ LICENSE = "CC-BY-SA-2.5"
 
 PV = "1"
 
-RPM_NAME = "tennebon-dynamic-wallpaper-1-13.16.noarch.rpm"
-RPM_HASH = "f034d19592d78ff946c85cee72d84698d75cd87f4e12c8f9cb77dec06dec0d52ae6c29648559eb9162337432379110a717102704283646519eddf3d606e893fc"
+RPM_NAME = "tennebon-dynamic-wallpaper-1-13.24.noarch.rpm"
+RPM_HASH = "cead034c15daf51ae7033ec4bf0b6f821b523d83f045d0cb77feb136af73f66584fb418a8135d57fd71964d3377390dbb092f69c80584d0ff681a6b642a3b858"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tennebon-dynamic-wallpaper"

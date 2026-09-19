@@ -8,12 +8,12 @@ API. \
  \
 This PCRE2 library variant supports 8-bit and UTF-8 strings. \
 (See also libpcre2-16 and libpcre2-32)"
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause & BSD-3-Clause-with-PCRE2-exception"
 
-PV = "10.42"
+PV = "10.48"
 
-RPM_NAME = "libpcre2-8-0-10.42-3.5.aarch64.rpm"
-RPM_HASH = "e88761d2d23499f3c8b1811781e4b58aebec40eeebb9ef0137acb6bce6e9b92eeb7b51679967bc26f1f4b55090b9550b70e89fc6ffb58fdbdf3bdf23c9d2209d"
+RPM_NAME = "libpcre2-8-0-10.48-1.1.aarch64.rpm"
+RPM_HASH = "cd17714ca4a4ffb55867fb201aa55223a50aba6b2cef090dcbe071a5b3af7a5819a578b4b3393a0e1559380bc90d34e5d64247adb4b0ce15a364e50ad6d1356b"
 
 RPROVIDES:${PN} += "libpcre2-8-0 \
 libpcre2-8.so.0"

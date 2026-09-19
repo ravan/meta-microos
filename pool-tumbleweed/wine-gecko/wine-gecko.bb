@@ -4,8 +4,8 @@ LICENSE = "MPL-1.1+"
 
 PV = "2.47.4"
 
-RPM_NAME = "wine-gecko-2.47.4-1.1.noarch.rpm"
-RPM_HASH = "2074c9b357a8a6a45f999d842f888e780241c5773c27bed05848f41151d0917afab9df6c504117fcb389c36acef175417a785f4ccc75d1ad144c346c3469e31e"
+RPM_NAME = "wine-gecko-2.47.4-1.9.noarch.rpm"
+RPM_HASH = "949e2c2969e8b1012ac92e19d24078aab25456c5ad127234aaa6956fbd51fc7ce5b863f31a4bbb8f736c35805aa7ad7118ede101b8a6a6d0f099801ddfdeb18c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wine-gecko"

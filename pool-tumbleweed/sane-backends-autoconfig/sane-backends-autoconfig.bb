@@ -21,10 +21,11 @@ If you do not like automated driver activation, do not install this \
 package or remove it when it is already installed."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later & SUSE-Public-Domain"
 
-PV = "1.2.1"
+PV = "1.3.1"
 
-RPM_NAME = "sane-backends-autoconfig-1.2.1-1.2.aarch64.rpm"
-RPM_HASH = "3a520a36d25f15052c4c393e6600fd49c6fd4089a1d982a081b5441f759f012c720c5fc10cafdba75752c229e676a4178017faa8287e54375e56fd390f04b94c"
+RPM_NAME = "sane-backends-autoconfig-1.3.1-3.11.noarch.rpm"
+RPM_HASH = "74c8f1e0aaeb63dbf0909984d374b6c024782438df717119e1c3ebe6e847fb8d62b24d02db0041b5a5c7e5bae8955cbcef26ad5877a5268205a85499944bb733"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sane-backends-autoconfig"
 

@@ -6,10 +6,10 @@ if you spend a little time on the setup. \
 One notable feature is that it respects French accounting rules."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.0.5"
+PV = "3.90.1"
 
-RPM_NAME = "grisbi-2.0.5-1.9.aarch64.rpm"
-RPM_HASH = "12a1e5eda99b39103fa6f00b02289fe1d22ed22d9634016738fed06e774f10dd1016249fc29b5cbb59f251989170256badae8a9521a6721600fa3f332f3bbec1"
+RPM_NAME = "grisbi-3.90.1-1.6.aarch64.rpm"
+RPM_HASH = "6c7e043d0e545f2b47ec36b6aec3bb50b3773476911d97a53770eab5b8a97b06345aa0560d9432e30e00cff62d03615d9e6fa863b8c5457d1637ef9e5e10bba2"
 
 RPROVIDES:${PN} += "grisbi"
 
@@ -28,7 +28,7 @@ libm.so.6 \
 libofx.so.7 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1"
 
 inherit rpm

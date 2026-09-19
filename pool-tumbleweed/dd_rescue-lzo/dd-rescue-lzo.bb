@@ -17,13 +17,13 @@ appending to .lzo files, so it fits neatly into dd_rescue. \
  \
 Some fuzz testing has been applied to the plugin's decompression routines, \
 though more will have to be done to feel confident about feeding untrusted \
-data to the decompressor; the plugin is still young and might expose bugs."
+data to the decompressor."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "1.99.13"
+PV = "1.99.22"
 
-RPM_NAME = "dd_rescue-lzo-1.99.13-2.3.aarch64.rpm"
-RPM_HASH = "c7bbe4cb8f0fa5684ad12d94339294df48bb59139f2e114e8e1b349696a809048031cf0bb346ef5a32cea5de6093c8f5fd2ebce0618223212de70550fae95371"
+RPM_NAME = "dd_rescue-lzo-1.99.22-1.4.aarch64.rpm"
+RPM_HASH = "ad1c6578b824af102144fbafb423fbbcb36fdb02adf158cadd59dc930b75e2228ba55decef95db709d5b11170fdd010d6f78b6d17aac180ec0876f95e230b5f7"
 
 RPROVIDES:${PN} += "dd-rescue-lzo \
 libddr-lzo.so"

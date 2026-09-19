@@ -2,10 +2,10 @@ SUMMARY = "Eog light-theme plugin"
 DESCRIPTION = "The Eye of Gnome Light Theme plugin"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "44.1"
 
-RPM_NAME = "eog-plugin-light-theme-44.0-1.2.aarch64.rpm"
-RPM_HASH = "d5fec2e1d1808a1a5dbc101cfcd602bcf8f6178504f4af92d85f72db136c72334b67428b8daceed77b913ef745108f694b83a5bf94796e4ad7c625664b6118a6"
+RPM_NAME = "eog-plugin-light-theme-44.1-2.3.aarch64.rpm"
+RPM_HASH = "69ee15af25cc2b6525d89a3f74df27e9271ca347a919e74d877c7119680d536881fe4d8af756ff8cb28c6ea532c074085f11b10238becb0a72e5abdb52fea96c"
 
 RPROVIDES:${PN} += "eog-plugin-light-theme \
 eog-plugins-/usr/lib64/eog/plugins/light-theme.plugin \
@@ -18,6 +18,6 @@ libeog.so \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libpeas-1.0.so.0"
+libpeas-1.0.so.1"
 
 inherit rpm

@@ -23,16 +23,15 @@ constants are returned as 'undef' in both cases \
 method."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.07"
+PV = "2.70.0"
 
-RPM_NAME = "perl-Devel-Caller-2.07-1.3.aarch64.rpm"
-RPM_HASH = "3d48ae25908dda403e90dbc7df9abab5ebaea07c926cba6f0ce13e207f849e8fdb5e93bf72a1c2dd94f568e4370df9a2bde28f1a732cbbd5881aac186a0f4833"
+RPM_NAME = "perl-Devel-Caller-2.70.0-1.8.aarch64.rpm"
+RPM_HASH = "9405225ead8175c07a93aa42515e6d8ef696e270ed5caa6f6748b42ebdabf49f72c7d8d29f918bda313140c86d394c67ef1817c799f188edd6047be5aaff614b"
 
-RPROVIDES:${PN} += "perl-DB \
-perl-Devel--Caller \
+RPROVIDES:${PN} += "perl-Devel--Caller \
 perl-Devel-Caller"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-PadWalker"
 
 inherit rpm

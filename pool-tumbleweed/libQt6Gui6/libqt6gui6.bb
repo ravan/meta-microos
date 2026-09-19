@@ -10,10 +10,10 @@ higher level APIs, like Qt Quick, which are much more suitable than \
 the enablers found in the Qt GUI module."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6Gui6-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "5f46855f854830142c846b87c46fd2ae6ec4e9d1ab6f767d0698b2b2e46ba4d3e92814c52e81ecce6d50fba401ab8d862c3fa147fc0767abd938c6eee2232cf2"
+RPM_NAME = "libQt6Gui6-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "7164decfc95bff7dae8f69d93e1df9f138626f205446e0b93e0bd224bfe8874cbd73c8eb2e2f4bf5edaeb9b627fba491dc2bda5094e81e8cd7eb995a800eab03"
 
 RPROVIDES:${PN} += "libQt6EglFSDeviceIntegration.so.6 \
 libQt6EglFsKmsGbmSupport.so.6 \
@@ -44,6 +44,7 @@ libqtslibplugin.so \
 libqtuiotouchplugin.so \
 libqvkkhrdisplay.so \
 libqvnc.so \
+libqwayland.so \
 libqxcb-egl-integration.so \
 libqxcb.so"
 
@@ -58,6 +59,7 @@ libQt6DBus.so.6 \
 libQt6DBus6 \
 libQt6Network.so.6 \
 libQt6OpenGL.so.6 \
+libQt6WaylandClient.so.6 \
 libSM.so.6 \
 libX11-xcb.so.1 \
 libX11.so.6 \
@@ -71,6 +73,7 @@ libharfbuzz.so.0 \
 libinput.so.10 \
 libjpeg.so.8 \
 libm.so.6 \
+libmd4c.so.0 \
 libmtdev.so.1 \
 libpng16.so.16 \
 libstdc++.so.6 \

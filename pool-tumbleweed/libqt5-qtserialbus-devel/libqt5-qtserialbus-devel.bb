@@ -2,10 +2,10 @@ SUMMARY = "Development files for the Qt5 SerialBus library"
 DESCRIPTION = "You need this package if you want to compile programs with qtserialbus."
 LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
 
-PV = "5.15.10+kde0"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtserialbus-devel-5.15.10+kde0-1.1.aarch64.rpm"
-RPM_HASH = "d62c2c07013e84b680bffa730940b0c9c0580f915f07d4663372fb892a98fef384a12265211c8478a7ed417b75bdf4a298b0e1cc4627c93c824b376d9f06b171"
+RPM_NAME = "libqt5-qtserialbus-devel-5.15.19+kde0-1.3.aarch64.rpm"
+RPM_HASH = "a5b388a26901450b0e47b025b574ae39e87b57d470e7eefc03ffe779f12ed9247588421e72f85a6c1d68c0c28b948201e8849bd75b661d136b1a8b84df2c28fa"
 
 RPROVIDES:${PN} += "cmake-Qt5SerialBus \
 libqt5-qtserialbus-devel \

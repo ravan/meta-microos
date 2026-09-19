@@ -7,10 +7,10 @@ See PSGI for the PSGI specification and PSGI::FAQ to know what PSGI and \
 Plack are and why we need them."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.0050"
+PV = "1.0054"
 
-RPM_NAME = "perl-Plack-1.0050-1.4.noarch.rpm"
-RPM_HASH = "eec837d8dc8494e1a0e3bed14cd80d9c8c2dcfe6b5a1fc61f3ec5657f4133aee9cdff1817c102b655fab60ae375a491a204d97de5febab45ed997ff1057fb68b"
+RPM_NAME = "perl-Plack-1.0054-1.3.noarch.rpm"
+RPM_HASH = "f83ad414f431e3be21e15e99449c1db07575f2b3801a92a77e4e881dec80bba4ed572ec02e6f24806c6879de561683c434481a0d78b2ab1c291c8041da2fd7c6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-HTTP--Message--PSGI \
@@ -89,7 +89,7 @@ perl-Plack--Util--IOWithPath \
 perl-Plack--Util--Prototype"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Apache--LogFormat--Compiler \
 perl-Cookie--Baker \
 perl-Devel--StackTrace \

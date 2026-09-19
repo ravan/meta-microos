@@ -12,8 +12,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "2.2"
 
-RPM_NAME = "int10h-oldschoolpc-fonts-2.2-1.8.noarch.rpm"
-RPM_HASH = "3c3997c2d59e079d66f6d6d23abc57f6e55b6a144b57f23265a66c43b0fd6fb5a82e555ffd676ec6e336acb8a746f0b7a83acdbc97693ab43be1b3f0de20c6e1"
+RPM_NAME = "int10h-oldschoolpc-fonts-2.2-1.16.noarch.rpm"
+RPM_HASH = "c65c062c35434c0e30cb58d611224bfabd04d7b53d21b94672e373e1a99196d68985db34f6d8ed0132a2df4c0709ef26e52b93282230bf392d17af7e3414fe8e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-int10h-oldschoolpc-fonts \

@@ -10,10 +10,10 @@ This package contains the development headers for the library found \
 in libXt6."
 LICENSE = "MIT"
 
-PV = "1.3.0"
+PV = "1.3.1"
 
-RPM_NAME = "libXt-devel-1.3.0-1.1.aarch64.rpm"
-RPM_HASH = "13745b0d8d6c84d544a98f15efaa59bdda16bfe72ce028b1611b8c92330c0b26c149d381cacaa43d0522e4487bbd3a9d63c7c3083394bb1f2ae30ef7cb163678"
+RPM_NAME = "libXt-devel-1.3.1-3.6.aarch64.rpm"
+RPM_HASH = "8ef16a3fadcb34fcc7d5ca25d0cc16c8ca0d2dae943c92f465c01191cf10ec1b3c40f30f1a1366bf207cc7a880420d965455d94ab186100c0b1897f9696fefbb"
 
 RPROVIDES:${PN} += "libXt-devel \
 pkgconfig-xt \

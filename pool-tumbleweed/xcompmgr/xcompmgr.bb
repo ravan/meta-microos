@@ -4,10 +4,10 @@ XFIXES, DAMAGE, RENDER, and COMPOSITE extensions. It enables basic \
 eye-candy effects."
 LICENSE = "MIT"
 
-PV = "1.1.9"
+PV = "1.1.10"
 
-RPM_NAME = "xcompmgr-1.1.9-1.3.aarch64.rpm"
-RPM_HASH = "ccf608055724d467e26e74163bd998270c2e86d46816bc6943f1d06f3fc2a99425e9100a34d49f1e6a4036e5afeb0ba0b8d364d15d8ef88d492032f592205f43"
+RPM_NAME = "xcompmgr-1.1.10-1.9.aarch64.rpm"
+RPM_HASH = "0550786d60496b1ba30001c5e80dffed5d1217c7bf6559597c8e91f280f21507a157d492ab51a08ab0cc36114c49390c53130cff07dafaaf92438d5dfca573a3"
 
 RPROVIDES:${PN} += "xcompmgr"
 

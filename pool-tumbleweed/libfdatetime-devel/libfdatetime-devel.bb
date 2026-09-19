@@ -5,10 +5,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libfdatetime."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20220112"
+PV = "20260521"
 
-RPM_NAME = "libfdatetime-devel-20220112-4.3.aarch64.rpm"
-RPM_HASH = "917c603caa682f1ff0ccc20a1cfaabd13a7b6d6f6f21377037323fa1cb28575ac7f1436a2719c98e2da0e04a09c04fcc8009e68f6a554d9a656d27ed2abc4e61"
+RPM_NAME = "libfdatetime-devel-20260521-1.6.aarch64.rpm"
+RPM_HASH = "8996e1b4b7c4b6cf2eef47cac999ccb3c94b5d8d37c47ca44a361d61f7048936200a193aa12e36f627c759885ba8c9a2aac3bde28b1b5329d9e4800f5a43427a"
 
 RPROVIDES:${PN} += "libfdatetime-devel \
 pkgconfig-libfdatetime"

@@ -4,10 +4,10 @@ commands for presentation from right to left. It requires Babel \
 with the LuaTeX engine."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn65725"
+PV = "2026.226.2svn76587"
 
-RPM_NAME = "texlive-beamer-rl-2023.209.1.8svn65725-54.1.noarch.rpm"
-RPM_HASH = "0b1d6c9df38962d910f5c0dfc678b26660bfaa936fe28ddc814f3cf7d5cc1f39a05b856967e848229422927b56c7a61d8f7e067a9958aa9b8e423986313438fb"
+RPM_NAME = "texlive-beamer-rl-2026.226.2svn76587-61.2.noarch.rpm"
+RPM_HASH = "155683b14153cec1b473ed79ce468e8e962db1136eae439feafb64668b67edf8312779894a8d5683c1ea1844895d2e8be5ca5b6a007430ca5470f3115214939c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-beamer-rl.cls \

@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.1.1"
 
-RPM_NAME = "shine-3.1.1-1.7.aarch64.rpm"
-RPM_HASH = "8e9f9055e2c37f6245ab5e95b66f404ecfdc4897aa3c2eb8edeaf5ea10ef65bcc724ceed4b927bb0ddef7792121eb2a5431eea8e14567c4a1c2b998b644b0d32"
+RPM_NAME = "shine-3.1.1-2.5.aarch64.rpm"
+RPM_HASH = "bf893d51c433c9ccad02848fe0f215c35a1d611a23f00b59d7c02cf431ec8ebf2355d605e38bde21842dfbb04ebd6178b26e9cafb7937dff0c83c30504ab2ead"
 
 RPROVIDES:${PN} += "shine"
 

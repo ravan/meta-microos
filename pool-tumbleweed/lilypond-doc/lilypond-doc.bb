@@ -3,10 +3,10 @@ DESCRIPTION = "Common and english documentation files for the \
 GNU LilyPond music typesetter."
 LICENSE = "GFDL-1.3-only"
 
-PV = "2.24.2"
+PV = "2.24.4"
 
-RPM_NAME = "lilypond-doc-2.24.2-1.1.noarch.rpm"
-RPM_HASH = "3aef11fc64584714b0534102e7882af911b48a9a200c1df11c3c29e11f75a322dd85948e5584553d8b8cb75e11d130cd2764ce5d074f2ec498aacc0d2c99f59b"
+RPM_NAME = "lilypond-doc-2.24.4-1.19.noarch.rpm"
+RPM_HASH = "dc4aac884886d18be49d0486cde29d03aefa9d0fb92068e76bf74935e31e2541fd16feab3ba9d15e4d1edea4956fe109a80eb7f94e1183d208c6ab08cd6d3b86"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lilypond-doc \

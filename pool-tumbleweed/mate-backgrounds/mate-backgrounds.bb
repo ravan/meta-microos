@@ -3,10 +3,10 @@ DESCRIPTION = "This is a collection of desktop wallpapers created with MATE user
 in mind."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-backgrounds-1.26.0-2.5.noarch.rpm"
-RPM_HASH = "c83e05e730b94fd507322f034a29889edf486b97435aa02acd59eb6aea3fa67bf2e48b5eac8e44a062cfd360ff0cbe6051d0914a7ed1702ee5b866c90b5aa5f3"
+RPM_NAME = "mate-backgrounds-1.28.0-1.7.noarch.rpm"
+RPM_HASH = "d00edfbb6d5d0bf9b0c461420458448b42d0ebc74e2884ddcedb974b619eb4fb27e4990f6edea24f4493e4787c44ea571174113b516c468e84375b8915a538da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mate-backgrounds"

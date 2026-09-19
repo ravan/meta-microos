@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.18"
 
-RPM_NAME = "perl-ExtUtils-XSpp-0.18-3.26.aarch64.rpm"
-RPM_HASH = "e8e16bfa6c64ada9c90bd8274b52bc4e63acc95f7be5b42348bb7b75860664f9654118c508b8bd4130114beaea0644650cb80a0be9305d8dd3008f870e373ea6"
+RPM_NAME = "perl-ExtUtils-XSpp-0.18-3.40.aarch64.rpm"
+RPM_HASH = "1b1152d8b2b8d4047976a745ff8da44709f4d629276b849766385b10750d9540e4fd1a46a04ba6e423166a2314721fa204b5b27c52adf373bcd4e1fac985ecaa"
 
 RPROVIDES:${PN} += "perl-ExtUtils--XSpp \
 perl-ExtUtils--XSpp--Cmd \
@@ -58,7 +58,7 @@ xspp"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
 gcc-c++ \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-ExtUtils--ParseXS \
 perl-ExtUtils--Typemaps"
 

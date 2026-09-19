@@ -13,16 +13,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.7.2"
 
-RPM_NAME = "ghc-transformers-compat-0.7.2-2.8.aarch64.rpm"
-RPM_HASH = "b901cb1286e9803335cb3ea7723bb348fb0aeb62b493c317196df28365a75b9601b6a1d7d5d9e5d9cd584d4ca2a75c6479e75f1c49c43960e4999c46d01753eb"
+RPM_NAME = "ghc-transformers-compat-0.7.2-2.35.aarch64.rpm"
+RPM_HASH = "98a5d4c6f5164218f59416233ee2437fae5d70278c5f2b6b834febfbef1ad616164d8e49a9a93d53374b9b9ae3d3fb9d82ec293868c8fa8bea48e3fdd601d539"
 
 RPROVIDES:${PN} += "ghc-transformers-compat \
-libHStransformers-compat-0.7.2-2GbmZx5KxIlAJLN4VBqBUM-ghc9.4.6.so"
+libHStransformers-compat-0.7.2-Je4epVh1rXP8zT22dFNkMW-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
-libHStransformers-0.5.6.2-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
+libHStransformers-0.6.3.0-4709-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

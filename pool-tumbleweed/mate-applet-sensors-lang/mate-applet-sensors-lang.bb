@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-applet-sensors"
 DESCRIPTION = "Provides translations for the 'mate-applet-sensors' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.0"
+PV = "1.28.0"
 
-RPM_NAME = "mate-applet-sensors-lang-1.26.0-1.9.noarch.rpm"
-RPM_HASH = "180b713b9843e28406bbeb2ea7754715c1bbaa8f15911d439007bf9a8342bdde30a5503c836b8b07f738aea65e09a5e60fc0561a48f7d1bdb92104f57217f924"
+RPM_NAME = "mate-applet-sensors-lang-1.28.0-1.11.noarch.rpm"
+RPM_HASH = "d62660d1d394ca8432500d81c26c792115578a5a13765cf0c3ef68fa394857c3226d73c9e4d3bb51343a527015a0859ffcc2a8c1fa158c6b3f5920275d53fe78"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-applet-sensors-af \

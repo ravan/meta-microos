@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-utopia"
 DESCRIPTION = "The  separated fonts package for texlive-utopia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-utopia-fonts-2023.209.svn15878-54.1.noarch.rpm"
-RPM_HASH = "87bac6cad19f9403e1c44a6420126660ce29e526df4863dafa101342b2be269efd40670c039eeae4fe025bb3528557c6ec97fe1bfe8683f3a11369aa026a9597"
+RPM_NAME = "texlive-utopia-fonts-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "179cc291c33cbb5ebc26a7dd4e72e66aa7edd84e1146faf976c2a699b7a7962999c84903cba49db9aea08fc58ad45fb8eda3cfffd33400721035c5591b3183e6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-utopia \

@@ -1,19 +1,18 @@
-SUMMARY = "User-mode driver and GTK3-based GUI for the Steam Controller"
-DESCRIPTION = "Application allowing to setup, configure and use the Steam Controller \
-without using the Steam client."
+SUMMARY = "User-mode driver, mapper, and GTK3-based GUI for the Steam Controller and many other controllers."
+DESCRIPTION = "User-mode driver and GTK3-based GUI for game controllers, including but not limited to the Steam Controller (2015 & 2026)."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.4.8.11"
+PV = "0.7.2"
 
-RPM_NAME = "sc-controller-0.4.8.11-1.2.aarch64.rpm"
-RPM_HASH = "358096b3fe313ecb58c5629109a6e27af31c59eb90c734163e272b9864829fae9e03900d01a4474f0613974e19563f02402da62f1bb9848a6a276b0986336333"
+RPM_NAME = "sc-controller-0.7.2-1.1.aarch64.rpm"
+RPM_HASH = "a15c65cdc91bd12511b5481d38e6ef4f292b3546fe3770e0ba143e6432c4846a486b5e14d5ff26b2c1fc543c711a2c4159edb8edf5eee9d17dec36569fcca116"
 
-RPROVIDES:${PN} += "libcemuhook.cpython-311-aarch64-linux-gnu.so \
-libhiddrv.cpython-311-aarch64-linux-gnu.so \
-libremotepad.cpython-311-aarch64-linux-gnu.so \
-libsc-by-bt.cpython-311-aarch64-linux-gnu.so \
-libuinput.cpython-311-aarch64-linux-gnu.so \
-python3.11dist-sccontroller \
+RPROVIDES:${PN} += "libcemuhook.cpython-313-aarch64-linux-gnu.so \
+libhiddrv.cpython-313-aarch64-linux-gnu.so \
+libremotepad.cpython-313-aarch64-linux-gnu.so \
+libsc-by-bt.cpython-313-aarch64-linux-gnu.so \
+libuinput.cpython-313-aarch64-linux-gnu.so \
+python3.13dist-sccontroller \
 python3dist-sccontroller \
 sc-controller"
 
@@ -22,12 +21,15 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \
 python-abi \
-python3-evdev \
 python3-gobject-Gdk \
+python3-ioctl-opt \
+python3-libusb1 \
 python3-pycairo \
 python3-pylibacl \
 python3-setuptools \
+python3-vdf \
 typelib-AppIndicator3 \
+typelib-AyatanaAppIndicator3 \
 typelib-GLib \
 typelib-GObject \
 typelib-Gdk \
@@ -37,7 +39,6 @@ typelib-Gio \
 typelib-Gtk \
 typelib-GtkLayerShell \
 typelib-Pango \
-typelib-Rsvg \
-typelib-cairo"
+typelib-Rsvg"
 
 inherit rpm

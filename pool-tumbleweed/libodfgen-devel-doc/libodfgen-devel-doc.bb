@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later & MPL-2.0"
 
 PV = "0.1.8"
 
-RPM_NAME = "libodfgen-devel-doc-0.1.8-3.9.noarch.rpm"
-RPM_HASH = "4a0e1504a2e7437f6b5d8f8b4185fb5394a0770e80c2c1a68a8c4e2f63e1b32948f93bb10e330b2bfd7401f22798f2b2ee460e55f555ea82089e5f1e498b161e"
+RPM_NAME = "libodfgen-devel-doc-0.1.8-4.6.noarch.rpm"
+RPM_HASH = "aedb457400a1846bc141940e0d47b3f022ff59b13e4ebc7af858751d388bfc8bb86f649914825aa40c9ec0bdd0f1879480234ba755dba85583bdde98cdb16080"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libodfgen-devel-doc"

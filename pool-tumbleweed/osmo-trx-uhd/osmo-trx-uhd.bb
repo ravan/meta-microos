@@ -17,8 +17,8 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-trx-uhd-1.4.0-1.16.aarch64.rpm"
-RPM_HASH = "fc1fa540ceff12ec5564022a77ed9be59c950ba5cb687aae649fbcfa56666489aba12a11a687d921bf5531447f7519fe8f30c86263be2fc010197ca26a0fbcbe"
+RPM_NAME = "osmo-trx-uhd-1.4.0-3.6.aarch64.rpm"
+RPM_HASH = "11562eb663b52fa516af2406d9830f2a015cd7050ba1d0115992fe3752b2fbd6cd71eb369d850349df1caf756172144fcf6c29d4095b21785d62f954949b2254"
 
 RPROVIDES:${PN} += "config-osmo-trx-uhd \
 osmo-trx-uhd"
@@ -29,12 +29,12 @@ libc.so.6 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libosmoctrl.so.0 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libstdc++.so.6 \
 libtalloc.so.2 \
-libuhd.so.4.4.0"
+libuhd.so.4.10.0"
 
 inherit rpm

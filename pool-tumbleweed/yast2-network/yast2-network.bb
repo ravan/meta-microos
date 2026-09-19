@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Network Configuration"
 DESCRIPTION = "This package contains the YaST2 component for network configuration."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.5"
+PV = "5.0.7"
 
-RPM_NAME = "yast2-network-4.6.5-1.1.noarch.rpm"
-RPM_HASH = "c34acdf89c6c16a464d6930b099958e1b92062c1c1ff11a4f0653f233e66b794efa3d1a070d161014bc451f1ba72e3072da54c6e100c176277b3f1c40160868f"
+RPM_NAME = "yast2-network-5.0.7-1.2.noarch.rpm"
+RPM_HASH = "fc1737a1b6073a905d78113d05315e17981b59b71c032030dcff8bea68308e1dc99cfd59f9f4c5ec3fbb374529be15bac6622b7783f5fdee4bf2d90d760b0430"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "yast2-network \
@@ -16,7 +16,7 @@ RDEPENDS:${PN} += "/usr/bin/perl \
 augeas-lenses \
 hostname \
 hwinfo \
-rubygem-ruby-3.2.0-cfa \
+rubygem-ruby-4.0.0-cfa \
 sysconfig \
 yast2 \
 yast2-packager \

@@ -3,10 +3,10 @@ DESCRIPTION = "Apache Lucene is a full-text search engine written entirely in Ja
 This package provides the 'misc' module for Lucene."
 LICENSE = "Apache-2.0"
 
-PV = "8.5.0"
+PV = "8.11.4"
 
-RPM_NAME = "lucene-misc-8.5.0-5.1.aarch64.rpm"
-RPM_HASH = "3550c1782b93bfe2c58ff59f581be5657c5a5b65990d4c94b20c2052e9ca09a2719925d2b6433a5e9682e50ef02ffa13fb97c2fd53fbf981735adfa5873d4077"
+RPM_NAME = "lucene-misc-8.11.4-1.8.aarch64.rpm"
+RPM_HASH = "abd93b6be65ed074d7a5856bbc89f1e99bb9b16a5322b9b92a0279367847b19108f3039b3fe8ff74e754e52e24c8ac2dd5afdb1e378129ff6ca8a531f40d9135"
 
 RPROVIDES:${PN} += "lucene-misc \
 mvn-org.apache.lucene-lucene-misc \

@@ -7,15 +7,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "0.05"
 
-RPM_NAME = "perl-DBICx-TestDatabase-0.05-2.21.noarch.rpm"
-RPM_HASH = "52c32a896d0ea18d4f0a6019e0101244c95e56d736481a17e921d2e0693dfa404889ac552bbc536798f671b9a9f3d177fedabb7c8d011b468164c2d79da4f807"
+RPM_NAME = "perl-DBICx-TestDatabase-0.05-2.35.noarch.rpm"
+RPM_HASH = "b5f011ce1ca7dddf64845cc435145ae03834ab86df398ff60913a9e3c840b30cc0cea35197054809415ccff9c6d48d5112cf920a5b3decd81c5f6f81ee06bcee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DBICx--TestDatabase \
 perl-DBICx--TestDatabase--Subclass \
 perl-DBICx-TestDatabase"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-DBD--SQLite \
 perl-SQL--Translator"
 

@@ -4,10 +4,10 @@ of the ABNT rules for academic texts. Its purpose is to be as \
 simple and user-friendly as possible."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn55471"
+PV = "2026.226.svn55471"
 
-RPM_NAME = "texlive-abnt-2023.209.svn55471-55.1.noarch.rpm"
-RPM_HASH = "5b23b663e233bc8909ace3be9ea54db857f5964ce7ae2acf443f15b6426e5ce9596afab16d5927eb50bf6dbeb6490e521b29bfe6a0753e68d97bd637d3122d8f"
+RPM_NAME = "texlive-abnt-2026.226.svn55471-61.2.noarch.rpm"
+RPM_HASH = "3bdea8ac2e52f785bd998884c7f70ce3176fb0aa58f7f01dbea8fbdc650fc1bd5a121ca8c9f15e44980e850ea5fe71dbf69ff7f68c6b978ad61c07d29e09193b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-abnt.sty \

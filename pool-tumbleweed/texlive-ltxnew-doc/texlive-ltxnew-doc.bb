@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ltxnew"
 DESCRIPTION = "This package includes the documentation for texlive-ltxnew"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.3svn21586"
+PV = "2026.226.1.3svn21586"
 
-RPM_NAME = "texlive-ltxnew-doc-2023.208.1.3svn21586-53.1.noarch.rpm"
-RPM_HASH = "0b9a782dc1d98921bc78731c23f66bfb15fd99a4d006c0b132207a10dafe5d403a2fbdb82fe22144a70b8de47f3139cd44231a23cfda3f5a866e5b8ac1600a9b"
+RPM_NAME = "texlive-ltxnew-doc-2026.226.1.3svn21586-59.2.noarch.rpm"
+RPM_HASH = "7f9d170fa7ee30aa6b0177d7368b2b7f0f5cd2545cb7d2af1bad99a271afc6fb9d783e3f3b3482820f68292f2ab868f21d4d8c252881f5689e5cf9705428ddd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ltxnew-doc"

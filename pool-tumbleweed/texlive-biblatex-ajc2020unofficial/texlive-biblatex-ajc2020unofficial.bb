@@ -5,10 +5,10 @@ March 2020) does not accept BibLaTeX, so you probably want to \
 use biblatex2bibitem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2.0svn54401"
+PV = "2026.226.0.0.2.0svn54401"
 
-RPM_NAME = "texlive-biblatex-ajc2020unofficial-2023.209.0.0.2.0svn54401-54.1.noarch.rpm"
-RPM_HASH = "b6c83b3f3cf480847a4a0b362a0250919f33faafb00bbf1cbdb2376bbff78f415828604f8655fa2db625abaaf914671a0b7b27120b005bd50213a12d31af3bae"
+RPM_NAME = "texlive-biblatex-ajc2020unofficial-2026.226.0.0.2.0svn54401-61.2.noarch.rpm"
+RPM_HASH = "a9934dba8277f0ab9134c0849731cb059e23477ca2bb4c477287160da8ce9e26d72c2afecc6d0d927438cb8c9abea69f8a5e7fb2a38fbd4ca1600e1415dffd14"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ajc2020unofficial.bbx \

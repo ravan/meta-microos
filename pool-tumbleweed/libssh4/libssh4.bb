@@ -7,10 +7,10 @@ This package provides libssh from https://www.libssh.org that should not be \
 confused with libssh2 available from https://www.libssh2.org (libssh2 package)"
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.10.5"
+PV = "0.11.5"
 
-RPM_NAME = "libssh4-0.10.5-2.1.aarch64.rpm"
-RPM_HASH = "e9bca5442356ea5f9d3970fe0b60ce8735eea0439182c6e66547a3afdd177083cc259f8cd4d6b1f77492bfeb5bd7ad162c236f6e0fd46d9bd017ddc12f15abf1"
+RPM_NAME = "libssh4-0.11.5-2.1.aarch64.rpm"
+RPM_HASH = "fd9362bd42d4fc55c8af9dbc157f517f77750456fa1f9d692a1fe6b65daf0cc459eb5d15dd632ef79b0daf26efa451d4e37778c679ba7579de6991993319f8e8"
 
 RPROVIDES:${PN} += "libssh.so.4 \
 libssh4"

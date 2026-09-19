@@ -15,14 +15,14 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.35"
 
-RPM_NAME = "perl-Time-Local-1.35-1.3.noarch.rpm"
-RPM_HASH = "b07f0cd1a6a65cf1489fbb05c9bff1e87094634500fbd866dc04aef709e4c0dee8c282b2407cf57830383f3600edca07811c2e50e5958c4b7499b3f28a4332d8"
+RPM_NAME = "perl-Time-Local-1.35-1.17.noarch.rpm"
+RPM_HASH = "c5016c3598a650ee46e5094f841345ff689c19bc2b4d7a436e12921a21aee3cfe6d3d413b1d0ca54803a1951e27a7a47cdf6c68667257baa39e9a6357fab0abd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Time--Local \
 perl-Time-Local"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

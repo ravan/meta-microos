@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "1.2.0"
 
-RPM_NAME = "pass-otp-1.2.0-2.8.noarch.rpm"
-RPM_HASH = "cebd3f4b0969be4a83118a29c3410c27846c181840ddff16bae91d4bded7845e94db153e691ba7443f66cb54ebf9837197b21699d605a69e7ccbeb65d35f8bc8"
+RPM_NAME = "pass-otp-1.2.0-3.7.noarch.rpm"
+RPM_HASH = "e33cd9bef2b4fc835628464388ee64005d1e3dacdeddd5ea4aa13e721a7d9455a50baca87ea7dde3fdb51e242b1a53df1135ec3e2a80b38cb35e11c4df2778df"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pass-otp"

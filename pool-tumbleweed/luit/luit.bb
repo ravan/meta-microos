@@ -5,10 +5,10 @@ locale's encoding into UTF-8, and convert terminal input from UTF-8 into \
 the locale's encoding."
 LICENSE = "MIT"
 
-PV = "20221028"
+PV = "20230201"
 
-RPM_NAME = "luit-20221028-1.3.aarch64.rpm"
-RPM_HASH = "529c1bfccc40688b9362870d4ae1259bf86080997e9983b138eb2922540367dcdc264ac91afab1956e1f7d743ede9835edb713ad9f6c01c027abb6d1d6867e6b"
+RPM_NAME = "luit-20230201-1.11.aarch64.rpm"
+RPM_HASH = "9d2a98ad12612a43783473c363d0fd030d150268d3c5f6ee4a74e491fb8f4fc79242c357716b057aa51c4f5df5a63ddfa1014eea41d1c846a35faa3324379941"
 
 RPROVIDES:${PN} += "luit"
 

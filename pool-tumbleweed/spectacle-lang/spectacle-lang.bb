@@ -2,13 +2,14 @@ SUMMARY = "Translations for package spectacle"
 DESCRIPTION = "Provides translations for the 'spectacle' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "6.7.5"
 
-RPM_NAME = "spectacle-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "18dd7c41cc96e9b135c0c9f4b14076f97ef6adbf64a280858d1bbd2e49a43b895762da3a8b1945fdc3392d8c755a064bd8ac36b27273859ea47e1e91a007bef6"
+RPM_NAME = "spectacle-lang-6.7.5-1.1.noarch.rpm"
+RPM_HASH = "d71bed6d81dfff7a8d8b26a8ab9cf178e972c884e2d06ed40aca17bf3d1c70d76e41f7a8985cf05657b4fde4ae4ec7fd1894df59afeff155447caf46db8adda8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-spectacle-ar \
+locale-spectacle-ast \
 locale-spectacle-az \
 locale-spectacle-bg \
 locale-spectacle-ca \
@@ -24,8 +25,10 @@ locale-spectacle-et \
 locale-spectacle-eu \
 locale-spectacle-fi \
 locale-spectacle-fr \
+locale-spectacle-ga \
 locale-spectacle-gl \
 locale-spectacle-he \
+locale-spectacle-hi \
 locale-spectacle-hu \
 locale-spectacle-ia \
 locale-spectacle-id \
@@ -35,7 +38,9 @@ locale-spectacle-ja \
 locale-spectacle-ka \
 locale-spectacle-ko \
 locale-spectacle-lt \
+locale-spectacle-lv \
 locale-spectacle-ml \
+locale-spectacle-nb \
 locale-spectacle-nl \
 locale-spectacle-nn \
 locale-spectacle-pa \

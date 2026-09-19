@@ -8,10 +8,10 @@ some basic styling to make the note look nicer. At the same \
 time, it is highly flexible and customizable."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.4.0svn60733"
+PV = "2026.226.4.0svn60733"
 
-RPM_NAME = "texlive-phfnote-2023.209.4.0svn60733-52.1.noarch.rpm"
-RPM_HASH = "e5d18f5cca5812cf0f370773c59969c40f53827a7fbca971f2ad052bbcd1c9c5984569b934002cfc5e38baad5417aedc7bb16568b52fa5def0ba829975c02bcb"
+RPM_NAME = "texlive-phfnote-2026.226.4.0svn60733-58.2.noarch.rpm"
+RPM_HASH = "fb477e6fd2c4d7b627c27bca3392408d57c7027b3dad80750ea159169aea7576a8c70e54150a1e6edc0dfbb6806d2eb97b540d852725cf800a565b2a9880cf75"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfnote.sty \

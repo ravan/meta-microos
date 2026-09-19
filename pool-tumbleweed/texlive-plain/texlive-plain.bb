@@ -4,10 +4,10 @@ in the TeXbook, together with various supporting files (some \
 also discussed in the book)."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.3.141592653svn57963"
+PV = "2026.226.3.1415926535svn75712"
 
-RPM_NAME = "texlive-plain-2023.209.3.141592653svn57963-52.1.noarch.rpm"
-RPM_HASH = "ba305af58d1961d33688968198cef82b9eaa1f9f1ea3dee70456c286d1cbb4be4e3b0557cc42d6d1faeac8b36f3706b9a508f68c2ca2ef6cc6784bd9e2e1a723"
+RPM_NAME = "texlive-plain-2026.226.3.1415926535svn75712-58.2.noarch.rpm"
+RPM_HASH = "23305950ab1660726ad4d6e0654a3bc5c4a2534bbf55846a9b5e59e7e4fd2806ea965a6353fac39b5eb524a26f90ab18d35447077fc1c0b520ef0abfdb1c71aa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-fontchart.tex \

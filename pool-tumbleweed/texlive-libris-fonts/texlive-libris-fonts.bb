@@ -1,16 +1,19 @@
 SUMMARY = "Severed fonts for texlive-libris"
 DESCRIPTION = "The  separated fonts package for texlive-libris"
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.007svn19409"
+PV = "2026.226.1.1svn77682"
 
-RPM_NAME = "texlive-libris-fonts-2023.209.1.007svn19409-55.1.noarch.rpm"
-RPM_HASH = "f5932e3da0abe5827f2a1eb704c885d35298c2ee0a1c197fecc58fc975e11225b3285f722635727424c4ecd00afa566a6f7adace3ea15127cf5a92eb2b7afc3a"
+RPM_NAME = "texlive-libris-fonts-2026.226.1.1svn77682-61.2.noarch.rpm"
+RPM_HASH = "7cb0fd9e2cb2a479c8a29eb65bd86490c91355c293af8571693cd31f77ccf1ef995f10202244c8961a88e32f095520d04e861225fde03f2533c864446bdf7f4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -44,7 +47,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -76,13 +82,17 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=vot \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-librisadfstd \

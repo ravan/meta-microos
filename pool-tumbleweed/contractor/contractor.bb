@@ -1,15 +1,13 @@
 SUMMARY = "A desktop-wide extension service"
 DESCRIPTION = "An extension service that allows apps to use the exposed functionality of \
 registered apps. This way, applications do not have to have the functions \
-hard coded into them. \
- \
-Designed for Elementary OS."
+hard coded into them."
 LICENSE = "GPL-3.0-or-later"
 
 PV = "0.3.5"
 
-RPM_NAME = "contractor-0.3.5-1.4.aarch64.rpm"
-RPM_HASH = "3f640928c560d50db11517d8dbf98835bc3b87c972ff326f338941ed9171135b89f23cdb5f69858b33184728526d850ed84c37f49f3bc95f4938d40922e63038"
+RPM_NAME = "contractor-0.3.5-4.9.aarch64.rpm"
+RPM_HASH = "a3a8e3a733de13ae6bacc4636294073091e68171ba7f753b9470f58f2a84c4933182a3687450c9b6e9479ec1a12e7b16054263c9db1d3744a797c38e9e0a1298"
 
 RPROVIDES:${PN} += "contractor"
 

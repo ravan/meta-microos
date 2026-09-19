@@ -8,10 +8,10 @@ package to this package since they are not directly related to \
 Unicode mathematics typesetting."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.12svn61464"
+PV = "2026.226.1.12svn77682"
 
-RPM_NAME = "texlive-lualatex-math-2023.208.1.12svn61464-53.1.noarch.rpm"
-RPM_HASH = "ea820d6bad9b6e2c6326f5d757541d6d032fa1c681201c62e3654fd7e6340519906394f4a21e9f8eb514c81343c7c25b1441a5dccf6266b5b9dbe7725743473f"
+RPM_NAME = "texlive-lualatex-math-2026.226.1.12svn77682-59.2.noarch.rpm"
+RPM_HASH = "07b75f9de9fc9b40b3a34703a9f940d098c54e3cdba414cba55137135321de058398eb5fd672aa1800f3e03a954870e6853160d8a7f38de2f7a55a8928cc4514"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lualatex-math.sty \

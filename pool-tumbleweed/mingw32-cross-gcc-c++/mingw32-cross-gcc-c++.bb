@@ -2,10 +2,10 @@ SUMMARY = "MinGW Windows cross-compiler for C++"
 DESCRIPTION = "MinGW Windows cross-compiler for C++"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-c++-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "cf9537ea203c45bcc7e3b6727d08b116849061f6e95a61333f72bbef41a27fe4496b3eb85d15016722d5b4270070ed4c288c2e9adb101d428033944bddd3062c"
+RPM_NAME = "mingw32-cross-gcc-c++-16.2.0-1.1.aarch64.rpm"
+RPM_HASH = "a598149779abbf3ad7623709b5fc06ea154c25d3133b299a64f8458f2d9a8e0b87dc80233c7330408ee8e779e456c332b246a5883dce543e35ebd1e7c3a8f04e"
 
 RPROVIDES:${PN} += "mingw32-cross-gcc-c++"
 

@@ -4,29 +4,30 @@ game is to remove all tiles from the field. This is done by removing \
 two tiles with of the same type until no tile is left."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kshisen-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "912bfb2985f6a8a3484d34d9c4c9b6695d2a47583688aab5116f58302b411ce06d62df4cf55a58ca0840b0018cac0283ac0f2bd7836933bc23773c4bf616db6e"
+RPM_NAME = "kshisen-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4c630e9e32e7c55ed929e0815b184fbb50fb5236b9b7d2f0ec41ae8b575fdc10494bc0db12758cced90b3d53a151071fa8a95b91d0424ad5b5122a781da8982a"
 
 RPROVIDES:${PN} += "kshisen \
 kshisen5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KMahjongglib.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libKMahjongg6.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

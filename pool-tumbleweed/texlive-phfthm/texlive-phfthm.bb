@@ -7,10 +7,10 @@ automatically producing text such as 'See proof on page XYZ' \
 and 'Proof of Theorem 4: ...'."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn60735"
+PV = "2026.226.1.2svn60735"
 
-RPM_NAME = "texlive-phfthm-2023.209.1.2svn60735-52.1.noarch.rpm"
-RPM_HASH = "4cc6ff495b5fce9d9492f4866037dab882a80e97aa92e9845a3b280cbee1bb8cf49cc24b179a5c16abc464ce4f10e96ea0cb36976028eb4b2318d692f3554d68"
+RPM_NAME = "texlive-phfthm-2026.226.1.2svn60735-58.2.noarch.rpm"
+RPM_HASH = "b6b130d9864d9c89330df5ae4aba8d96ca46d5bc48b85a916fb14a0af811547b5872d0b1348bdc94de76034a695baf41e854366f072fd4cb3dd6df4ba83b141b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-phfthm.sty \

@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.4.1"
 
-RPM_NAME = "bazel-compilation-database-source-0.4.1-1.10.noarch.rpm"
-RPM_HASH = "79f6e7c5de42718b6d970ba0e01120dcda891697d9fc3ef326dea26375255e5f43b4c5eae346afb54bd79db9397ca6e58bc413cb22f6828914f8a4a4b298dc76"
+RPM_NAME = "bazel-compilation-database-source-0.4.1-1.18.noarch.rpm"
+RPM_HASH = "6ffedae09a44daa5408f023de9114949270ad0b77886634ad48d4bbe68be48ef3a8ffb0c87ebcfe5edfb3a2e35963e3d014e74692ad5fd46f8b2048dc0cde315"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bazel-compilation-database-source"

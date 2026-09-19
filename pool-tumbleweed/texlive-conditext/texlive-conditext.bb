@@ -23,10 +23,10 @@ a condition domain and a condition property to match with one \
 or more substitutable forms."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn55387"
+PV = "2026.226.1.5svn55387"
 
-RPM_NAME = "texlive-conditext-2023.209.1.5svn55387-54.1.noarch.rpm"
-RPM_HASH = "441e6c3bd0ea91185a80b945fe79a093510bfbdb17a16ff3c78f28b75148457aafd6d6ded67b931c8e441e0733ec606816aef728c3b2d2455d3cfd4a6e48ec13"
+RPM_NAME = "texlive-conditext-2026.226.1.5svn55387-60.2.noarch.rpm"
+RPM_HASH = "4e1944f890d2bb215f29235d634cec75f26f0b47dada17619409dd78f512abe4a768caa6a8fba1b5d6cb3548be4dcfd81eba5a115b34b568fb04cdf05044eb9a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CondiTeXt.sty \

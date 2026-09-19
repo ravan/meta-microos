@@ -2,10 +2,10 @@ SUMMARY = "Dispatcher daemon for kanku"
 DESCRIPTION = "A dispatcher for kanku based on RabbitMQ."
 LICENSE = "GPL-3.0-only"
 
-PV = "0.14.0"
+PV = "1.0.0"
 
-RPM_NAME = "kanku-dispatcher-0.14.0-1.5.noarch.rpm"
-RPM_HASH = "6ac10e121e70a54174b8ecd118abba67c920534c537f2a3c139521bfbcd515e8a2224c939313e4dbc8e95fc365978ed8a74487bb99a410f0dbb5543b1e093cf7"
+RPM_NAME = "kanku-dispatcher-1.0.0-2.2.noarch.rpm"
+RPM_HASH = "0f11fa6dead08181603094f77cab7377266efc91bd09ffe0724c2f4a3d77d44650f10c6614fb183fd7448520219a03098720099790dcf08eea4a70325d414114"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanku-dispatcher \

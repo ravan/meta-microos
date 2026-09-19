@@ -8,13 +8,13 @@ and the .tex file is to be compiled with the LuaLaTeX engine. \
 The time required for operations on sets is not an issue while \
 compiling with the LuaLaTeX engine. There is no need to install \
 Lua on the users system as TeX distributions (TeX Live or \
-MikTeX) come bundled with LuaLaTeX."
+MiKTeX) come bundled with LuaLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.1.0svn65376"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-luaset-2023.208.1.0svn65376-53.1.noarch.rpm"
-RPM_HASH = "242e3b72bf70e44294011420653e13a6659d6c36b178772f4436a53c7902023fd65af9b51490159ff022971c03c4b3b64fbb30380393ac681cde48f3351b6ed5"
+RPM_NAME = "texlive-luaset-2026.226.1.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "8c2857d62205b982c7f1e32e2f3c8a439c8ddec8c659f031d37051a24330b56809ac8600736f6829a8783a044d7b522c1899a35c5853bf9fed73f0caef0a3786"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-luaset.sty \

@@ -8,10 +8,10 @@ windowing systems, compositors and system-level clients such as \
 Wayland and kmscon."
 LICENSE = "MIT"
 
-PV = "1.5.0"
+PV = "1.13.2"
 
-RPM_NAME = "libxkbcommon0-1.5.0-1.4.aarch64.rpm"
-RPM_HASH = "a91a4642e7f0b511fc1bf6b335cf85b13f047f9fcd89dc047bc30404337b903cc89a0a02ca78ba6d4728cdd51c827a684c86589a68b207083663a0c17e0ccdf6"
+RPM_NAME = "libxkbcommon0-1.13.2-1.3.aarch64.rpm"
+RPM_HASH = "c741df89d565fbdfb815394fea3b6eef8604f9ec5413953308af5d04c1c731f0144a8c446a697341b2b9d039ca85cb6950406892509e35238567e6c5ce2d97b6"
 
 RPROVIDES:${PN} += "libxkbcommon.so.0 \
 libxkbcommon0"

@@ -2,10 +2,10 @@ SUMMARY = "TCP Modbus Plugin for collectd"
 DESCRIPTION = "Optional collectd plugin to communicate with TCP Modbus devices."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-modbus-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "5c29fcfced0ff9820b4637e1a838f613156909e0036fa17d557751b43c0aa91fe4e3cf7ee3b29413999988ea3468cd643a53ce3f1ed5ee0e791b0453b91152c7"
+RPM_NAME = "collectd-plugin-modbus-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "2911b9673e51baa6b0b2e7911e04235be314e4c59d14958dc2d4f8f4e206fafcb9a067f3a3020f9c2f8e6329f4c757f14faa78b5bec993f6e4a67302f8428204"
 
 RPROVIDES:${PN} += "collectd-plugin-modbus"
 

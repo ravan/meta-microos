@@ -13,10 +13,10 @@ The following formats are supported: \
           sets and palettes"
 LICENSE = "BSD-2-Clause"
 
-PV = "4.2.0"
+PV = "4.2.2"
 
-RPM_NAME = "ansilove-4.2.0-1.1.aarch64.rpm"
-RPM_HASH = "92ce0f28ce2e79170de0fd878e1e160edb828b6945c8c4409c4428fc39f9c6baebc9cfb9507bc589b82338283387efb58ce3fadf982cd7a53dd901f4b71ee6af"
+RPM_NAME = "ansilove-4.2.2-1.3.aarch64.rpm"
+RPM_HASH = "6c31bd3e6abf547518cd679ac644f05e54e4a7494e86b1c93ed1030f635ded0b66ccc93ce364a45ad4087c6c70b3624c1215ded07e0ab4837949de49c4622439"
 
 RPROVIDES:${PN} += "ansilove"
 

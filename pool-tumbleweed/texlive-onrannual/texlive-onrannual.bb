@@ -5,10 +5,10 @@ LaTeX-generated PDF submissions in the past. A skeleton \
 document (and its PDF output) are included."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn17474"
+PV = "2026.226.1.1svn17474"
 
-RPM_NAME = "texlive-onrannual-2023.209.1.1svn17474-55.1.noarch.rpm"
-RPM_HASH = "866eea5fb16d0d976be74bfdf040670f5964f17a75b1d8a8510ca9f3cea9a8b6bb6c716702cebde4d2c9adbf5951e6eaf842ffc3745a5591db14314087d6d176"
+RPM_NAME = "texlive-onrannual-2026.226.1.1svn17474-61.2.noarch.rpm"
+RPM_HASH = "b7170fd8d6dc739726899b0cd2ea5e518f2fa9f763b8611c797afcf61a8f2277f23d4be6530ed61bd95529db6bffbae7a16e9239590209c85355c8778590ed32"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-onrannual.cls \

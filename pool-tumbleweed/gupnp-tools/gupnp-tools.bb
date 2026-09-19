@@ -23,10 +23,10 @@ one to easily test and debug one's UPnP devices and control points: \
     MediaServers."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.12.1"
+PV = "0.12.4"
 
-RPM_NAME = "gupnp-tools-0.12.1-1.1.aarch64.rpm"
-RPM_HASH = "72eeaabf0a33ff65710313d8717f52d328b9b29dd8535ea0ca18b74eb93865fa46e248a23ab7302ac1a5943b488316147444657ccab8c492c0dc8541a3d08847"
+RPM_NAME = "gupnp-tools-0.12.4-1.1.aarch64.rpm"
+RPM_HASH = "7966eeec2f57b9d9a813f7ca94798c93652bb60e52c7e372cb3ca47fc36edec296431f4f49073c19420f213655bd04c997ff6fa9f23674f3868cea1ef5981adc"
 
 RPROVIDES:${PN} += "gupnp-tools"
 
@@ -43,6 +43,6 @@ libgtksourceview-4.so.0 \
 libgupnp-1.6.so.0 \
 libgupnp-av-1.0.so.3 \
 libsoup-3.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

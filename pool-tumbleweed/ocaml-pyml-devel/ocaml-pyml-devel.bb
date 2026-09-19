@@ -3,12 +3,13 @@ DESCRIPTION = "The ocaml-pyml-devel package contains libraries and signature fil
 developing applications that use ocaml-pyml."
 LICENSE = "BSD-2-Clause"
 
-PV = "20220905"
+PV = "20250807"
 
-RPM_NAME = "ocaml-pyml-devel-20220905-1.5.aarch64.rpm"
-RPM_HASH = "ebacebf588a7908d83583391d9518672ff1534bdb2cb6d81816fdaf17d4881d250b628937d9f821c9de73bd5eacb1678398ade843c7b6c1c6dab53d62fef8f03"
+RPM_NAME = "ocaml-pyml-devel-20250807-2.2.aarch64.rpm"
+RPM_HASH = "50763de0b221c13ba9a8c9bc612aeaa8aa1dc824f91004c11274f3cbdccc16f653de55bebb0f54c795dcd87f4247cd08efa7c4c92294713d561c247e29900c49"
 
-RPROVIDES:${PN} += "ocaml-Numpy \
+RPROVIDES:${PN} += "config-ocaml-pyml-devel \
+ocaml-Numpy \
 ocaml-Py \
 ocaml-Pycaml \
 ocaml-Pyml-arch \
@@ -30,90 +31,33 @@ ocamlx-Pywrappers"
 RDEPENDS:${PN} += "libc.so.6 \
 ocaml-CamlinternalFormatBasics \
 ocaml-CamlinternalLazy \
-ocaml-CamlinternalOO \
 ocaml-Stdcompat \
-ocaml-Stdcompat--arg-s \
-ocaml-Stdcompat--array-s \
-ocaml-Stdcompat--arrayLabels-s \
-ocaml-Stdcompat--atomic-s \
-ocaml-Stdcompat--bool-s \
-ocaml-Stdcompat--buffer-s \
-ocaml-Stdcompat--bytes-s \
-ocaml-Stdcompat--bytesLabels-s \
-ocaml-Stdcompat--char-s \
-ocaml-Stdcompat--digest-s \
-ocaml-Stdcompat--either-s \
-ocaml-Stdcompat--ephemeron-s \
-ocaml-Stdcompat--filename-s \
-ocaml-Stdcompat--float-s \
-ocaml-Stdcompat--format-s \
-ocaml-Stdcompat--fun-s \
-ocaml-Stdcompat--hashtbl \
-ocaml-Stdcompat--hashtbl-ext \
-ocaml-Stdcompat--hashtbl-s \
-ocaml-Stdcompat--in-channel-s \
 ocaml-Stdcompat--init \
-ocaml-Stdcompat--int-s \
-ocaml-Stdcompat--int32-s \
-ocaml-Stdcompat--int64-s \
-ocaml-Stdcompat--lazy-s \
-ocaml-Stdcompat--lexing-s \
-ocaml-Stdcompat--list-s \
-ocaml-Stdcompat--listLabels-s \
-ocaml-Stdcompat--map-s \
-ocaml-Stdcompat--nativeint-s \
-ocaml-Stdcompat--option-s \
-ocaml-Stdcompat--out-channel-s \
-ocaml-Stdcompat--pervasives-s \
-ocaml-Stdcompat--printexc-s \
-ocaml-Stdcompat--printf-s \
-ocaml-Stdcompat--queue-s \
-ocaml-Stdcompat--random-s \
-ocaml-Stdcompat--result-s \
-ocaml-Stdcompat--seq \
-ocaml-Stdcompat--seq-s \
-ocaml-Stdcompat--set-s \
-ocaml-Stdcompat--stack-s \
 ocaml-Stdcompat--stdlib-s \
-ocaml-Stdcompat--string-s \
-ocaml-Stdcompat--stringLabels-s \
-ocaml-Stdcompat--sys-s \
-ocaml-Stdcompat--uchar-s \
-ocaml-Stdcompat--unit-s \
-ocaml-Stdcompat--weak-s \
 ocaml-Stdlib \
-ocaml-Stdlib--Arg \
 ocaml-Stdlib--Array \
-ocaml-Stdlib--ArrayLabels \
-ocaml-Stdlib--Atomic \
 ocaml-Stdlib--Bigarray \
 ocaml-Stdlib--Buffer \
-ocaml-Stdlib--Callback \
+ocaml-Stdlib--Bytes \
 ocaml-Stdlib--Complex \
+ocaml-Stdlib--Domain \
 ocaml-Stdlib--Either \
-ocaml-Stdlib--Float \
+ocaml-Stdlib--Filename \
 ocaml-Stdlib--Format \
+ocaml-Stdlib--Fun \
 ocaml-Stdlib--Gc \
 ocaml-Stdlib--Hashtbl \
 ocaml-Stdlib--In-channel \
 ocaml-Stdlib--Int32 \
 ocaml-Stdlib--Int64 \
 ocaml-Stdlib--Lazy \
-ocaml-Stdlib--Lexing \
-ocaml-Stdlib--Map \
-ocaml-Stdlib--Nativeint \
+ocaml-Stdlib--List \
 ocaml-Stdlib--Obj \
-ocaml-Stdlib--Oo \
-ocaml-Stdlib--Out-channel \
-ocaml-Stdlib--Parsing \
+ocaml-Stdlib--Option \
 ocaml-Stdlib--Printexc \
 ocaml-Stdlib--Printf \
-ocaml-Stdlib--Queue \
-ocaml-Stdlib--Random \
-ocaml-Stdlib--Scanf \
 ocaml-Stdlib--Seq \
-ocaml-Stdlib--Set \
-ocaml-Stdlib--Stack \
+ocaml-Stdlib--String \
 ocaml-Stdlib--Sys \
 ocaml-Stdlib--Uchar \
 ocaml-Stdlib--Weak \
@@ -127,10 +71,25 @@ ocamlx-Stdcompat \
 ocamlx-Stdlib \
 ocamlx-Stdlib--Array \
 ocamlx-Stdlib--Bigarray \
+ocamlx-Stdlib--Buffer \
+ocamlx-Stdlib--Bytes \
+ocamlx-Stdlib--Filename \
+ocamlx-Stdlib--Format \
+ocamlx-Stdlib--Fun \
+ocamlx-Stdlib--Gc \
 ocamlx-Stdlib--Hashtbl \
+ocamlx-Stdlib--In-channel \
+ocamlx-Stdlib--Int64 \
+ocamlx-Stdlib--Lazy \
+ocamlx-Stdlib--List \
+ocamlx-Stdlib--Option \
 ocamlx-Stdlib--Printexc \
 ocamlx-Stdlib--Printf \
+ocamlx-Stdlib--String \
+ocamlx-Stdlib--Sys \
+ocamlx-Stdlib--Weak \
 ocamlx-Unix \
+python3-base \
 which"
 
 inherit rpm

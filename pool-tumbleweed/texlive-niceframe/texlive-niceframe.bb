@@ -4,10 +4,10 @@ dingbat fonts. Some (Metafont) font sources are included; the \
 fonts are available separately in Type 1 format."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1csvn36086"
+PV = "2026.226.1.1csvn77682"
 
-RPM_NAME = "texlive-niceframe-2023.209.1.1csvn36086-55.1.noarch.rpm"
-RPM_HASH = "bf0c764718979a29f6133164677c3b21fc386839b87212069a136a5475a5b20531ca6451e226cb1b2a7a690cc14043b95bb8315c6704a3d37668b2c3f75c0bf7"
+RPM_NAME = "texlive-niceframe-2026.226.1.1csvn77682-61.2.noarch.rpm"
+RPM_HASH = "d1f7c4042b92de297f720ebf7b2b455241d61eead215a075b725ead8ba079c4bb9daa1e2cc57bda850f3a6d6035fe81b1b75d5b57bb9b41e707e6411db3b0bc2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-karta15.tfm \

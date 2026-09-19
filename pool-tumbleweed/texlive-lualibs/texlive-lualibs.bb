@@ -5,10 +5,10 @@ ConTeXt, and made available in this bundle for use independent \
 of ConTeXt."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.2.75svn64615"
+PV = "2026.226.2.76svn67994"
 
-RPM_NAME = "texlive-lualibs-2023.208.2.75svn64615-53.1.noarch.rpm"
-RPM_HASH = "41ae168c4335d74027dffd522da63ac836aced50696b76ea1baa8e63504f394ba0f62097661f0359985b26e6021b874fff7982c422e37b78ff5458baa0ab2899"
+RPM_NAME = "texlive-lualibs-2026.226.2.76svn67994-59.2.noarch.rpm"
+RPM_HASH = "cae798e692d3c7e715386a01e7b19f737f3b6237c8f9d652897866c5ae70cad0ca202241785aaa0787b03793dce36c94f5628f22cee9938f826dea57b8d2ba6d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualibs"

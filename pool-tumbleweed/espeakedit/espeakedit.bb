@@ -5,8 +5,8 @@ LICENSE = "GPL-3.0+"
 
 PV = "1.48.03"
 
-RPM_NAME = "espeakedit-1.48.03-2.28.aarch64.rpm"
-RPM_HASH = "6cf79dfd065067c04cb45c68e6a7b79faef8d60d055cfdf05a170d10ce34b60c4a15bdd03b5ca05ea3fc8eef0fa49aea28deaba1d61486544a307c948d5d8371"
+RPM_NAME = "espeakedit-1.48.03-3.12.aarch64.rpm"
+RPM_HASH = "90f5e7b10a3c67d10636c185e9f4972f40330c2910b5a87e0943689e6867dbce7e1c4e7ea76e3581753d09bdf6e4d9784fef998f2f354accf01b178c57effcce"
 
 RPROVIDES:${PN} += "espeakedit"
 
@@ -14,8 +14,8 @@ RDEPENDS:${PN} += "libc.so.6 \
 libm.so.6 \
 libportaudio.so.2 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk2u-core-suse.so.9.0.0 \
-libwx-gtk2u-html-suse.so.9.0.0"
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk2u-core-suse.so.16.0.0 \
+libwx-gtk2u-html-suse.so.16.0.0"
 
 inherit rpm

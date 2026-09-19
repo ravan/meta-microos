@@ -2,10 +2,10 @@ SUMMARY = "German translation of the User Guide for BibLaTeX"
 DESCRIPTION = "A German translation of the User Guide for BibLaTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.15bsvn59382"
+PV = "2026.226.3.15bsvn59382"
 
-RPM_NAME = "texlive-translation-biblatex-de-2023.209.3.15bsvn59382-53.1.noarch.rpm"
-RPM_HASH = "4d38c3f4375251e465be7a3a575ef897bd33fa62769293b414d9eb676652a9fed3f427d23eed5041d65a8b13d83ef4e77cbc69c5b57f0964463a16281185d622"
+RPM_NAME = "texlive-translation-biblatex-de-2026.226.3.15bsvn59382-59.2.noarch.rpm"
+RPM_HASH = "e3c72cb192b23ebd02a5c709ccd263518fae2da1c9b4bd81de652e4fa6e6b259ea249f0c7df5640d7ef55e4550cc73203527f8aa1edaf2f817752bcf5c8ba391"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-translation-biblatex-de"

@@ -14,8 +14,8 @@ LICENSE = "MIT"
 
 PV = "0.9.0"
 
-RPM_NAME = "mono-zeroconf-doc-0.9.0-22.18.noarch.rpm"
-RPM_HASH = "6a46e6085b7ab7e82c25c651ca6578f009e8c8814dad25184130ea012fe0c1eed7e78d26391d569f93a4e4c5e73663a184b915d30de08fb3c713b7c4e5372b9d"
+RPM_NAME = "mono-zeroconf-doc-0.9.0-23.6.noarch.rpm"
+RPM_HASH = "e8443e773e83ada775f747b5b7254bbb5786d3f098dddfc84efdb5d0ce1c99b2faef44268fffb2eadcdaa2574908aceee968d57fa1d2d1e188cf20415e8803bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mono-zeroconf-doc"

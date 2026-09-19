@@ -10,16 +10,15 @@ includes support for spell checking, comparing files, viewing VCS \
 ChangeLogs, and adjusting indentation levels."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.4.3"
+PV = "3.8.9"
 
-RPM_NAME = "xed-devel-3.4.3-1.1.aarch64.rpm"
-RPM_HASH = "8928605ebb75d96bb95e89b83eebb44c53d1a5011008e672ad7bc649677d7e1d734245e294b854763bec883eb424873db1c9ac9db1e3444e835b5e1756717306"
+RPM_NAME = "xed-devel-3.8.9-1.3.aarch64.rpm"
+RPM_HASH = "446549f3cec2fed8ff712b886dc6eb8344c0dbccb0d8d2ca5fbf08849247365943a2ac0a92cf53d10634a505bd174ab4213a097f20c3bc30d29b4d2d9e1948bb"
 
 RPROVIDES:${PN} += "pkgconfig-xed \
 xed-devel"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
-pkgconfig \
 pkgconfig-gio-2.0 \
 pkgconfig-glib-2.0 \
 pkgconfig-gtk+-3.0 \

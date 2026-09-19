@@ -6,8 +6,8 @@ LICENSE = "OFL-1.1"
 
 PV = "20121212"
 
-RPM_NAME = "avesta-fonts-20121212-3.17.noarch.rpm"
-RPM_HASH = "a7d44a8bd3e6072f6e3eca953d4b7541fb3fb862512553bb8626d60e046158f04b02a47388616b03fad3d445b2cd5656d0c1cbccd59881d848843943367ef22d"
+RPM_NAME = "avesta-fonts-20121212-3.25.noarch.rpm"
+RPM_HASH = "d7e0da1a51f7a929af35dde02d0e0ebc1326def89e019fe86ed41f94c08fe3594ecfe9a351e3d5bdc18ee9eb0e8c12fe41e543d623356ebc35a2bcf84b43b9c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avesta-fonts"

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-tikzmarmots"
 DESCRIPTION = "This package includes the documentation for texlive-tikzmarmots"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn54080"
+PV = "2026.226.2.2svn76924"
 
-RPM_NAME = "texlive-tikzmarmots-doc-2023.209.1.0svn54080-53.1.noarch.rpm"
-RPM_HASH = "3fede98fa7785af252c702f635dac5b2c7ea801ac3fed2f0e4d80abc16d44f4090d7b80d7eb820e9bd1d4b8eae917112b88a84b5504d7f0833514eb1d3b7e276"
+RPM_NAME = "texlive-tikzmarmots-doc-2026.226.2.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "642d229f0403f729cc1efadc1a0aba448a1911ada6c56831b25c794fe3d879468e6ce8a7952ff988b12c16ac71c05e044989aa95aab885e1e05e9a778acff9fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-tikzmarmots-doc"

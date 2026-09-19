@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt XML module provides C++ implementations of the SAX and DOM
 standards for XML."
 LICENSE = "LGPL-3.0-only | GPL-3.0-with-Qt-Company-Qt-exception-1.1"
 
-PV = "5.15.10+kde129"
+PV = "5.15.19+kde96"
 
-RPM_NAME = "libQt5Xml5-5.15.10+kde129-2.1.aarch64.rpm"
-RPM_HASH = "04cf5d76f4f9955ce7ea2cde6db3a0360e009ba7ec0aafb5b26bdd2821097afad5eb7b5b1538d2fdafabe716f3b6dd962d8b41334262c06d60895e22f9022186"
+RPM_NAME = "libQt5Xml5-5.15.19+kde96-1.3.aarch64.rpm"
+RPM_HASH = "8934ec01e6055b4bb81439870710efe94fbcb5a7b202020db4b264af76a5e722b6b598d2de366704005313ec657beb763ed4ba0264ca6b521462e9a1f1d3caab"
 
 RPROVIDES:${PN} += "libQt5Xml.so.5 \
 libQt5Xml5"

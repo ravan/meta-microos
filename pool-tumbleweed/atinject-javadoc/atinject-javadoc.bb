@@ -1,11 +1,11 @@
-SUMMARY = "API documentation for atinject"
-DESCRIPTION = "API documentation for atinject."
+SUMMARY = "Javadoc for atinject"
+DESCRIPTION = "This package contains the API documentation for atinject."
 LICENSE = "Apache-2.0"
 
-PV = "1+20160610git1f74ea7"
+PV = "1+20211017gitd06ce18"
 
-RPM_NAME = "atinject-javadoc-1+20160610git1f74ea7-2.7.noarch.rpm"
-RPM_HASH = "841606a64a67adfecd9a529d89c99c5770c6812dc22aedcd96dc779241e3d992f46d6657c353e5d494c4adc9a16d8c1381d2bb927d32d3c0038983c5ae7c4110"
+RPM_NAME = "atinject-javadoc-1+20211017gitd06ce18-2.1.noarch.rpm"
+RPM_HASH = "54821f9924c91cbf7d15044a418a446f011b7f645edbd3ad96feea1d986c4bf6655ce2168c0f85bbac85cfb6a40feeafcc4b184f86ee1dc1270fe6a79f3c3009"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "atinject-javadoc"

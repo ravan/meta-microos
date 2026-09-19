@@ -2,10 +2,10 @@ SUMMARY = "Qt 6 CUPS plugin"
 DESCRIPTION = "The Qt printsupport CUPS plugin."
 LICENSE = "LGPL-2.1-with-Qt-Company-Qt-exception-1.1 | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-printsupport-cups-6.5.2-2.1.aarch64.rpm"
-RPM_HASH = "c5b4edf2d4e784e5b8ce68edd4b86747496b9e6591734790823c458fc0a024a1282684dd537b0400045b2601e7911797da603d64e2380ac2f4d51c4e643af0b9"
+RPM_NAME = "qt6-printsupport-cups-6.11.2-2.1.aarch64.rpm"
+RPM_HASH = "5be05a0bd0bed29183257edbce29b76c56df6714ddddddb556cf6a241069d55162ffe3e00aedf235d0d16b93ed70d1ef3a066598d5a852a120da33b0786ddf31"
 
 RPROVIDES:${PN} += "libcupsprintersupport.so \
 qt6-printsupport-cups"

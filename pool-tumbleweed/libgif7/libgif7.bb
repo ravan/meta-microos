@@ -3,10 +3,10 @@ DESCRIPTION = "This Library allows manipulating GIF Image files. Since the LZW p
 have expired, giflib can again be used instead of libungif."
 LICENSE = "MIT"
 
-PV = "5.2.1"
+PV = "5.2.2"
 
-RPM_NAME = "libgif7-5.2.1-4.1.aarch64.rpm"
-RPM_HASH = "fb30ee5536c9f0a1bef796b18f6d80436e25bdf542bf3cf2f8d2a70a9f6895161b72c40445df3baf89f04ebbadb6d817c66481b52f860800bb5d48b47eb4d2d8"
+RPM_NAME = "libgif7-5.2.2-4.3.aarch64.rpm"
+RPM_HASH = "4ba0f9633df3e6e2bef5de9ed6405f0e1073bd8414d7fa3f7cdf5819a8a74a59258c52097635abcc6db594bcb3b6f00ff32b407a306c3125dec9555266197c13"
 
 RPROVIDES:${PN} += "libgif.so.7 \
 libgif7"

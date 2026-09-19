@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-gfsdidotclassic"
 DESCRIPTION = "This package includes the documentation for texlive-gfsdidotclassic"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.001.001svn52778"
+PV = "2026.226.001.001svn52778"
 
-RPM_NAME = "texlive-gfsdidotclassic-doc-2023.209.001.001svn52778-53.1.noarch.rpm"
-RPM_HASH = "914ccbcdcc6803b2596c2222fe4197c88195ec343cf57b704e82c6f343d214a6fdb2fd326951b03971743159aef4f777a0a8faa52babc3eef5e884390c8d5a31"
+RPM_NAME = "texlive-gfsdidotclassic-doc-2026.226.001.001svn52778-60.2.noarch.rpm"
+RPM_HASH = "c40922826bbed785eacb744872cbb284f393913a6767b5b811b8c28ff817cdb3c7d01c297a803cb4359d29619653aa4a954552739b1ba5bdd0c4b8e8801b3cec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-gfsdidotclassic-doc"

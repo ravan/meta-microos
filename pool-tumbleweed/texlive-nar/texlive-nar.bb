@@ -4,10 +4,10 @@ Research. It was adapted from the standard unsrt.bst style \
 file."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.19svn38100"
+PV = "2026.226.3.19svn77682"
 
-RPM_NAME = "texlive-nar-2023.209.3.19svn38100-55.1.noarch.rpm"
-RPM_HASH = "34718af5d5f04e237ae3a387ee429c26e1725e0f5cd73a76c1ce2751f8c7f07d7bf882154daf19549b18329cc948b18f676ab2685092e7a676f1ae728f5d291d"
+RPM_NAME = "texlive-nar-2026.226.3.19svn77682-61.2.noarch.rpm"
+RPM_HASH = "9934feda8add4fbc2065897322b20bee4bb3c2c0512d11407e973ef0124e59a331fa10b216d684cc35f10b156d7fe54a5ec2376b683f76715b00694bf0ae893b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-nar"

@@ -7,12 +7,12 @@ partnership with the Intel Brand Team and VMLY&R, for maximum \
 legibility to address developers' fatigue and eyestrain and reduce \
 coding errors. A panel of low-vision and legally blind developers \
 provided feedback at each stage of design."
-LICENSE = "OFL-1.1"
+LICENSE = "OFL-1.1-RFN"
 
-PV = "1.3.0"
+PV = "1.4.0"
 
-RPM_NAME = "intel-one-mono-fonts-1.3.0-1.1.noarch.rpm"
-RPM_HASH = "660ea4dfd717a07787bd259269b08458fa9f68c5decd6024f4ba997edf6607471a240c223c0ba54c5beddad1af0489345d7082f3f639b23def514d4f7ea7c1bb"
+RPM_NAME = "intel-one-mono-fonts-1.4.0-1.7.noarch.rpm"
+RPM_HASH = "7ba7670ee75f584dd4d935dd961192d88edd2ddd569f14482cb05367e06b9ae31df74e2a4b1343636b2b0acf6fc1fe12ae548b7028534a3f041eb00881fccb8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "intel-one-mono-fonts"

@@ -45,8 +45,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "1.05"
 
-RPM_NAME = "perl-Digest-SHA3-1.05-1.4.aarch64.rpm"
-RPM_HASH = "ebda1a21eb811b50b61e494ef0f15e3638613dfe81d68f243652cb36beed9da298646ed1ca042c3aebebfced3f27237cdeee68522d6e5136c7c17094713a728d"
+RPM_NAME = "perl-Digest-SHA3-1.05-1.21.aarch64.rpm"
+RPM_HASH = "5a399bd6a6ae89ccf4e95eb5632efe6d2b92088107a16a7841a6bf916d1975e554c78c70c6daf36fa52f0609494c8a6c578c2a340517e2b69c6e3ca84f37c831"
 
 RPROVIDES:${PN} += "perl-Digest--SHA3 \
 perl-Digest-SHA3"
@@ -54,6 +54,6 @@ perl-Digest-SHA3"
 RDEPENDS:${PN} += "/usr/bin/perl \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

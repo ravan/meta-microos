@@ -4,10 +4,10 @@ DESCRIPTION = "Monitor access to a Lightweight Directory Access Protocol (LDAP) 
 This package includes the 'check_ldap' and 'check_ldaps' plugins."
 LICENSE = "GPL-2.0-or-later & GPL-3.0-only"
 
-PV = "2.3.1"
+PV = "2.4.0"
 
-RPM_NAME = "monitoring-plugins-ldap-2.3.1-9.5.aarch64.rpm"
-RPM_HASH = "4061ac56b3cf38a741abc8ea7cf71132d4d1c55805e48f1e38e445f2d5a85cfff55929e229f7763173b70821f2acbdf499361dbb51e145a4f0b227bc16ab585b"
+RPM_NAME = "monitoring-plugins-ldap-2.4.0-5.1.aarch64.rpm"
+RPM_HASH = "2311b2c33da1477b6e8068150ff7659a4d8797c09ec70a3bce3d0df3e45e3f3ced7fe5f75c68a036775624ca4aa82c50f8b9c7f96c2d5d3965c583a7dbcce4ba"
 
 RPROVIDES:${PN} += "monitoring-plugins-ldap \
 nagios-plugins-ldap"

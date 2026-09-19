@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "20090618"
 
-RPM_NAME = "pari-seadata-20090618-10.3.noarch.rpm"
-RPM_HASH = "8a1a9c7c01f432d161d1804dd5ce92fb542f3e7bf81bab985c4c3cc929e685c8035637168e1e3cb5f47773476b75abc5bd492e5f2b13345687a00adc2ebda249"
+RPM_NAME = "pari-seadata-20090618-10.11.noarch.rpm"
+RPM_HASH = "b944d45fae21c58c7f30b9dccf3d2fb91a56faddcbe520c76e7a4fdd6486043a30b86584c4f5e2bf2f07c322f2d98caa7c2ee7fa8cbe5c1e176d042643ef18b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pari-seadata"

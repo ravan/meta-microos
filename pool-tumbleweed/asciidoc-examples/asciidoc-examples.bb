@@ -2,10 +2,10 @@ SUMMARY = "Examples and Documents for asciidoc"
 DESCRIPTION = "This package contains examples and documents of asciidoc."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "10.2.0"
+PV = "10.2.1"
 
-RPM_NAME = "asciidoc-examples-10.2.0-1.5.noarch.rpm"
-RPM_HASH = "7f62266e3180b474a2480554bbe3669dbff207ccdbe2a5e95f6be6bbf9365aa1ded0d0fc62705c74438c583b8d3d3260a177e479b4bc724dc872f9d2f39c72de"
+RPM_NAME = "asciidoc-examples-10.2.1-2.1.noarch.rpm"
+RPM_HASH = "c16d428cc54f2406d4657fe49f03b1ef9e63caa63d083f846c1e97bb0d0b0be666dd3ab658299278191ab5b455452cfb6aa01efdd12e493a009faea83d36e83a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "asciidoc-examples"

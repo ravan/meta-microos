@@ -10,14 +10,15 @@ LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
 PV = "6.0.0"
 
-RPM_NAME = "typelib-1_0-Gda-6_0-6.0.0-6.8.aarch64.rpm"
-RPM_HASH = "950cacdbf464bf1e18861f10a296bcd0170b5bc620a39100c56075c587d22be8997d08d961561b7f0727a3c414a7e7fd23134e6ca95ebf71cfa564dfb3ee44aa"
+RPM_NAME = "typelib-1_0-Gda-6_0-6.0.0-11.5.aarch64.rpm"
+RPM_HASH = "c8d28b949973ad453dac4c492efa8e84101af8d88913e45430c0b0ed94b125c76dff0c449f4789b732ec7398051d385be395824d70227c9e13dd06b0cb51b0fe"
 
 RPROVIDES:${PN} += "typelib-1-0-Gda-6-0 \
 typelib-Gda"
 
 RDEPENDS:${PN} += "libgda-6.0.so.6.0.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-Gio \
 typelib-libxml2"

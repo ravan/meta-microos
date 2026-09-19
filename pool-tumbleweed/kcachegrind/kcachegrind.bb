@@ -1,31 +1,31 @@
 SUMMARY = "Frontend for Cachegrind"
 DESCRIPTION = "KCachegrind is a frontend for cachegrind."
-LICENSE = "GPL-2.0-only & BSD-4-Clause & GFDL-1.2-only"
+LICENSE = "BSD-4-Clause & GPL-2.0-only & GFDL-1.2-only"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kcachegrind-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "fc36281976cebeeb05cf113274acadddf527633593ff76525677acada45a13f99ccd1b61dca7d871227ccc6b881197cbde95d3911af560dee571e67f00b8a808"
+RPM_NAME = "kcachegrind-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "4b5675c63a717ac2afbe719730e9a74796fed43c741dd1f16e83ab62e8b52942798fba4c11950051f44cdab8a55a71cc100ad83c426df14614135ec398f3a50b"
 
 RPROVIDES:${PN} += "kcachegrind"
 
 RDEPENDS:${PN} += "/usr/bin/env \
 /usr/bin/perl \
 ld-linux-aarch64.so.1 \
-libKF5Archive.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6Archive.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6KIOCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libm.so.6 \
 libstdc++.so.6"

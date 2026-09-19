@@ -1,12 +1,12 @@
-SUMMARY = "Chewing Data for libchewing"
-DESCRIPTION = "This package contains data files for chewing, an intelligent phonetic \
-input method library for traditional Chinese."
+SUMMARY = "Data for libchewing"
+DESCRIPTION = "This package contains data files for libchewing."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.5.1+git20200627.452f622"
+PV = "0.12.0"
 
-RPM_NAME = "chewing-data-0.5.1+git20200627.452f622-1.10.aarch64.rpm"
-RPM_HASH = "1ac535078305454f792beba15a3080e1566df7ccab0d133f79f64b2e5caaeb569b677187fa322423259917b9598b853e0e44ce8e17aae96d96fb44a7d1969127"
+RPM_NAME = "chewing-data-0.12.0-1.4.noarch.rpm"
+RPM_HASH = "ca7acde5e80cd511bd681af73a65a5cf7072237b106f5f7d68f6c023c6b6c2bef2112e1bcf9c3aeae87561b3b9b83759c735d533d7af6f017a0dc787e2d2d0b0"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chewing-data"
 

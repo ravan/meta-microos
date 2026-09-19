@@ -4,10 +4,10 @@ circled text. Its starred version can produce an inverted \
 version."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.0svn63166"
+PV = "2026.226.1.1.2svn77682"
 
-RPM_NAME = "texlive-circledtext-2023.209.1.1.0svn63166-54.1.noarch.rpm"
-RPM_HASH = "e26f1a6f7c0111d4ef98c6bf3372c929614949677a8a2ed51eb86392c05bf73f7298165255b69b7e1139a6635329830634c1b298b629df7d6ca7eb86696b5e87"
+RPM_NAME = "texlive-circledtext-2026.226.1.1.2svn77682-60.2.noarch.rpm"
+RPM_HASH = "8845ee3093a39509e20185c1bdc5aa943df74d4e94b0295ead40e2ce56ccce97d292eff4ff926fedd4641e49eb4d39cb9e6095a26bde99df3862b2144978de8a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-circledtext.sty \

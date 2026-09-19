@@ -9,10 +9,10 @@ PostgreSQL server, which will in turn allow you to create and maintain \
 PostgreSQL databases."
 LICENSE = "PostgreSQL"
 
-PV = "14.8"
+PV = "14.24"
 
-RPM_NAME = "postgresql14-server-14.8-1.6.aarch64.rpm"
-RPM_HASH = "4991d1a7813e1c77a7464cbf32f7be75b8ede624f2cd5fdc08e6f61bbe781f8e1ef24ce863e561b4828aa784c5ebdea6d3a031c3ad155e1ad70daacb36261d8b"
+RPM_NAME = "postgresql14-server-14.24-2.2.aarch64.rpm"
+RPM_HASH = "c4b96fa3ee2912ff7bdcb301e28254b05b68efea81fceb0aae80960b59489ed08274c12fd23b80873cad50cee0820b8fde3d8de215d850e17a4d5e4584c4e640"
 
 RPROVIDES:${PN} += "libpqwalreceiver.so \
 postgresql-server-implementation \
@@ -24,8 +24,8 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypto.so.3 \
 libgssapi-krb5.so.2 \
-libicui18n.so.73 \
-libicuuc.so.73 \
+libicui18n.so.78 \
+libicuuc.so.78 \
 libldap.so.2 \
 liblz4.so.1 \
 libm.so.6 \
@@ -34,7 +34,7 @@ libpq.so.5 \
 libpq5 \
 libssl.so.3 \
 libsystemd.so.0 \
-libxml2.so.2 \
+libxml2.so.16 \
 postgresql \
 postgresql-noarch \
 postgresql-server-noarch \

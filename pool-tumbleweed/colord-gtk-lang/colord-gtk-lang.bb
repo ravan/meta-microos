@@ -2,15 +2,16 @@ SUMMARY = "Translations for package colord-gtk"
 DESCRIPTION = "Provides translations for the 'colord-gtk' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.3.0"
+PV = "0.3.1"
 
-RPM_NAME = "colord-gtk-lang-0.3.0-2.1.noarch.rpm"
-RPM_HASH = "52b7b84187e3b69e70c08f8094aea53206716de6a85e536bfc249a7172b7b8bef40df9539d18058f694b555dab1a6d17cd8817e4e0096a44d87843e55b7f728c"
+RPM_NAME = "colord-gtk-lang-0.3.1-1.6.noarch.rpm"
+RPM_HASH = "ecc3a104e29438bf2570af4c1581e65d8d92f366ae515f21ce5325d2f17c155cb662310d3aa782d0ac48329622bc65b8448c504bcddd33fe9cf56245e2fa495e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "colord-gtk-lang \
 colord-gtk-lang-all \
-locale-colord-gtk-en-GB"
+locale-colord-gtk-en-GB \
+locale-colord-gtk-ka"
 
 RDEPENDS:${PN} += "colord-gtk"
 

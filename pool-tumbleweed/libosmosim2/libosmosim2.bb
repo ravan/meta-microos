@@ -6,10 +6,10 @@ The libosmosim library in particular contains routines for SIM card \
 access."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.0"
+PV = "1.14.2"
 
-RPM_NAME = "libosmosim2-1.8.0-1.2.aarch64.rpm"
-RPM_HASH = "0ea455d646b0d8990bf9226509283f5f64f7ac44866e1b642e779cd349c5dbdc0b2e62dbc31f96098ac3fb41288d89522d3a85fd1e8ede000f0c212ce70db226"
+RPM_NAME = "libosmosim2-1.14.2-1.1.aarch64.rpm"
+RPM_HASH = "d2fdfda1d3c0d5260bb709de336c495a838467ba7f129eed07cee16c4dada5427ad767569ceaced46d800c3ffdb87cbd0a9c561624c4fc879a779c4e04655b67"
 
 RPROVIDES:${PN} += "libosmosim.so.2 \
 libosmosim2"
@@ -17,8 +17,8 @@ libosmosim2"
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libosmocore.so.20 \
-libosmogsm.so.18 \
+libosmocore.so.22 \
+libosmogsm.so.20 \
 libpcsclite.so.1 \
 libtalloc.so.2"
 

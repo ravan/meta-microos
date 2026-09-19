@@ -5,10 +5,11 @@ managing data. It supports an unlimited variety of datatypes. \
 This package provides examples of HDF5 library use."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.2"
+PV = "1.14.6"
 
-RPM_NAME = "hdf5-examples-1.12.2-5.3.aarch64.rpm"
-RPM_HASH = "3cf035fa31d37aaf3f3239163e91e4bfb8028348f380be5c4ffc65a01794a1277c133e741f0a580c10f68d59666dfb2f08988359adbcb4b589ed63d7ec23eba4"
+RPM_NAME = "hdf5-examples-1.14.6-2.7.noarch.rpm"
+RPM_HASH = "2ec27d3308e97fddd31836b497928f17bb080bfa7c778bd99acf28ca70336448595dd1443d5485620c761a06c9323f566abcb1ed49016d0cbe47cd7fa8c32c33"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "hdf5-examples"
 

@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.6.76"
 
-RPM_NAME = "libpst-devel-0.6.76-1.4.aarch64.rpm"
-RPM_HASH = "d3810fce605d01b9745a2553e9b5bc8aab80d6a35fa37269e04713d57c5237a96a86566340a78f0d50b80b883211ca114a5dce888c93740c9476d112d0bcdb8e"
+RPM_NAME = "libpst-devel-0.6.76-3.6.aarch64.rpm"
+RPM_HASH = "9bf3431e19201d058e58b43060502487336a57689d14abc149c95b6809b613a4b766b534dc28c9ee5f2aaf37a861027dfd3837263e9c6e818a0b0f9819d67e59"
 
 RPROVIDES:${PN} += "libpst-devel \
 pkgconfig-libpst"

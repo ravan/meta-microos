@@ -3,10 +3,10 @@ DESCRIPTION = "The libmate-menu library implements the 'Desktop Menu Specificati
 from freedesktop.org."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "libmate-menu2-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "91175a6dfd7fe30d3e6ad5695331ea97cf22e3d804e861dc78ce586fe466bb64f296b2fd4cf7531110c9244f7adf69466fd5599c8f80cf0926db121be349decd"
+RPM_NAME = "libmate-menu2-1.28.0-2.5.aarch64.rpm"
+RPM_HASH = "b01bdbe5f2673d4d37ee13e60c654f9e2a689cac523f211e6ce45e596728c97b91a1d94c20861e83b34684aa732d9ac3666a44c42359665ce935f2822bdab0df"
 
 RPROVIDES:${PN} += "libmate-menu.so.2 \
 libmate-menu2"

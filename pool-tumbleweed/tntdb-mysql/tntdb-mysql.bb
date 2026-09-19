@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.4"
 
-RPM_NAME = "tntdb-mysql-1.4-1.13.aarch64.rpm"
-RPM_HASH = "1e777725f53de50aa0a4b2b00d060043636d06a2dfa9f71ef67a93882922ab40cb7d3207ca8bd780879f8e862570a1ca95e5ad365d0da455ed2004f61dbda213"
+RPM_NAME = "tntdb-mysql-1.4-1.22.aarch64.rpm"
+RPM_HASH = "2f1d68fb1a538b5d12b37c9e52aa47b4a428cde6fb39db98bb3d548fdcbc15f85afa6c7669c59299e3e38db94de43bcb019aeabde8662305872ebcce3c2159dd"
 
 RPROVIDES:${PN} += "tntdb-mysql"
 

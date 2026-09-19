@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rotpages"
 DESCRIPTION = "This package includes the documentation for texlive-rotpages"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn18740"
+PV = "2026.226.3.0svn77682"
 
-RPM_NAME = "texlive-rotpages-doc-2023.209.3.0svn18740-54.1.noarch.rpm"
-RPM_HASH = "3448a4bbb73c9427f0fa7feb2341d8bf9d01d3cf6e0e8c79d86aaaa74eefff5b81a71639afde1605b81c11574fef86e4b596a4162da4364a059dc60a2db5d124"
+RPM_NAME = "texlive-rotpages-doc-2026.226.3.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "db91b9eccbdbef03cb7a3e1a60851fbe2e1258d2466a78f250059b3c193ef998c28140fdbb9de3a6b2f189fd0b1f56474a6c00869f0467d5084fcabfee7acd00"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rotpages-doc"

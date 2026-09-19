@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "2.0.1"
 
-RPM_NAME = "segment-2.0.1-1.19.noarch.rpm"
-RPM_HASH = "499f2fb75b5efb64bc85a33a6765a4e32801c4d5f242d1b38f60839ae2666d8a3a1b0687aa0806f3f5ba375c12e35165b5990fccc824cc9e9dbe6a35252c4bfd"
+RPM_NAME = "segment-2.0.1-2.10.noarch.rpm"
+RPM_HASH = "a14b869d453a93e0eed9606ce45bc8dbf3d91d35bbeeb7307c19aab5dfc0165f6045e4ef5d8f858dca4ea0d2052101ca1ea99c405e88686106845109f23afbad"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-net.loomchild-segment \

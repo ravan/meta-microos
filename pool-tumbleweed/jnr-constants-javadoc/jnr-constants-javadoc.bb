@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.10.4"
 
-RPM_NAME = "jnr-constants-javadoc-0.10.4-2.1.noarch.rpm"
-RPM_HASH = "f7bc417847e5c5cd4af6b76739043c48cf270516827d9c7991008738d84025cba8aadbfd06618c386a31786ee1e3dc25693195feef9a79c0fcca1adf15221f97"
+RPM_NAME = "jnr-constants-javadoc-0.10.4-2.10.noarch.rpm"
+RPM_HASH = "bf54e16ddf4adf6703e68e8ac3c517f1bb374cd65878422333433937b0531c3e9bf4dcc27c68b956e862328d03acd0a097defa22a182ff88eb44b5eea61c0a74"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jnr-constants-javadoc"

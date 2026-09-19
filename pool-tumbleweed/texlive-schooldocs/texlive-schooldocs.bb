@@ -1,16 +1,17 @@
 SUMMARY = "Various layout styles for school documents"
-DESCRIPTION = "The purpose of this package is to provide several layout styles \
-for school documents. It is useful for exercise sheets, exams, \
-course materials. The package sets the page geometry \
-(dimensions of text and margins) and the title typesetting; the \
-various styles define the header, footer and title formatting. \
-Many features are freely configurable."
+DESCRIPTION = "The aim of this package is to offer diverse layout styles for \
+school-related documents. It serves well in creating exercise \
+sheets, exams, course materials. The package sets the page \
+geometry (dimensions of text and margins) and the title \
+formatting. Various styles are available defining settings for \
+headers, footers or alternative title formatting, providing \
+many customizable features."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn65650"
+PV = "2026.226.1.6svn73466"
 
-RPM_NAME = "texlive-schooldocs-2023.209.1.2svn65650-54.1.noarch.rpm"
-RPM_HASH = "4ae4e80add83b2bb227abc0abf6dbeec07c893adc1f3ee888659abec0260262828cc34b848e6877b5ae4656cf49af3f48042a648f13463e9c865fe92b5a25494"
+RPM_NAME = "texlive-schooldocs-2026.226.1.6svn73466-60.2.noarch.rpm"
+RPM_HASH = "62abf76269cce155e3c8207afd4571c37b446bc6d220331a255c7d4eca1eedf47ee475973f49f87a209aa39a2258632fed1e194f58729323193bc1700c7bb624"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-schooldocs.sty \
@@ -26,7 +27,7 @@ tex-fancybox.sty \
 tex-fancyhdr.sty \
 tex-geometry.sty \
 tex-ifthen.sty \
-tex-lastpage.sty \
+tex-totpages.sty \
 tex-translations.sty \
 tex-xcolor.sty \
 texlive \

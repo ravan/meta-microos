@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ufrgscca"
 DESCRIPTION = "This package includes the documentation for texlive-ufrgscca"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.8svn65661"
+PV = "2026.226.2.13svn77050"
 
-RPM_NAME = "texlive-ufrgscca-doc-2023.209.1.0.8svn65661-54.1.noarch.rpm"
-RPM_HASH = "ac73cb82bf10e4965c835b3398e4bf2e4b2275ec07c4b1bf4490e37554a41a728415a965f57d390f26f95e1bb53fde3a7a4730698a0908186b68f4b29fe11b06"
+RPM_NAME = "texlive-ufrgscca-doc-2026.226.2.13svn77050-60.2.noarch.rpm"
+RPM_HASH = "fcc62dd2388ae5a823766da354cb34bbef436b9f63f1e1b16b6ba1d8395d8682ca559f11c50dbd7a4688ef5e86781e5d80a9ec6031adc6bc9e2ebfe4d8d24116"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ufrgscca-doc"

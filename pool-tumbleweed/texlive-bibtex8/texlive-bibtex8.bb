@@ -8,10 +8,10 @@ written by Niel Kempson and Alejandro Aguilar-Sierra, it is now \
 maintained as part of TeX Live."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.3.72svn66186"
+PV = "2026.226.svn75712"
 
-RPM_NAME = "texlive-bibtex8-2023.209.3.72svn66186-54.1.noarch.rpm"
-RPM_HASH = "384f79927b2f67470f1c8a33e6c08bfe8c071b8b0541d669c0e4a0c5ccdccbbeb608ba1644dff089203b02accb5796b76d0ef7b3facee6215e94b237c2240ceb"
+RPM_NAME = "texlive-bibtex8-2026.226.svn75712-61.2.noarch.rpm"
+RPM_HASH = "88f4024be7db7bc6bc513d5a5282bae3a71c83738e21cefda22de6359d686ea188cdf39bde26b172d1cac25bb796f2d1dc0735afdad78df0cf0b5a2060a54289"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bibtex8"

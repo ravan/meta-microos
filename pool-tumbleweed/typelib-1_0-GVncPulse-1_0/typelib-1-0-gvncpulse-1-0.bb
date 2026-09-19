@@ -7,16 +7,17 @@ This package provides the GObject Introspection bindings for the \
 libgvncpulse library."
 LICENSE = "LGPL-2.1-only & LGPL-2.1-or-later"
 
-PV = "1.3.1"
+PV = "1.5.0"
 
-RPM_NAME = "typelib-1_0-GVncPulse-1_0-1.3.1-1.6.aarch64.rpm"
-RPM_HASH = "9ef1252fcc61dd9ce9cae62c89e01f706b94702fe1e2b9127d1db4400fd819418fb9cb77a5cafd0a08399ac248e9764440a57b720e3c81b33fff7aa6dc2906c0"
+RPM_NAME = "typelib-1_0-GVncPulse-1_0-1.5.0-5.2.aarch64.rpm"
+RPM_HASH = "ef30a847fbb70bdd3d00f44c05136b3fc0645bd78f5f3c5fef1c1eb27e0f51926bd1f273c0b12e4471e040e7f0d3a17b8c00ae2f020b1e930908628610d0c515"
 
 RPROVIDES:${PN} += "typelib-1-0-GVncPulse-1-0 \
 typelib-GVncPulse"
 
 RDEPENDS:${PN} += "libgvncpulse-1.0.so.0 \
 typelib-GLib \
+typelib-GModule \
 typelib-GObject \
 typelib-GVnc \
 typelib-Gio"

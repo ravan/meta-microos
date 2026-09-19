@@ -2,10 +2,10 @@ SUMMARY = "Qt Development Kit"
 DESCRIPTION = "You need this package, if you want to compile programs with qtsensors."
 LICENSE = "LGPL-3.0-only | (GPL-2.0-only | GPL-3.0-or-later)"
 
-PV = "5.15.10+kde4"
+PV = "5.15.19+kde0"
 
-RPM_NAME = "libqt5-qtconnectivity-devel-5.15.10+kde4-1.1.aarch64.rpm"
-RPM_HASH = "88f843bb6abfdc2d942cac4de408def82510705574f65a1e2d1677e69e4c5ac7033ea480a1e0c21709d89fa1136685ca70cab7ec3c7707d154114ad8c02aa8be"
+RPM_NAME = "libqt5-qtconnectivity-devel-5.15.19+kde0-1.2.aarch64.rpm"
+RPM_HASH = "b1016f2d4998f4005be2d2a31abb35e2f1f6d56abc20bdfdd6db1f633b8010be27a6a27365c9e78819ffee860d11150735e70568a6e8e95c030ecbab4f1416c7"
 
 RPROVIDES:${PN} += "cmake-Qt5Bluetooth \
 cmake-Qt5Nfc \

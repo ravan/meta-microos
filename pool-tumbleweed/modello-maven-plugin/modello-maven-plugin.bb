@@ -10,10 +10,10 @@ marshallers/unmarshallers, XSD and documentation. \
 Modello Maven Plugin enables the use of Modello in Maven builds."
 LICENSE = "Apache-2.0 & MIT"
 
-PV = "2.1.2"
+PV = "2.8.1"
 
-RPM_NAME = "modello-maven-plugin-2.1.2-1.1.noarch.rpm"
-RPM_HASH = "5c67f7e53569a15190c51c79febad07f7a74f6e65f8b99641ddefe0c23f52a3d15433e72fb5c52deb0be8ff76c61760e010b6581005e829851cc31467eb99f18"
+RPM_NAME = "modello-maven-plugin-2.8.1-1.1.noarch.rpm"
+RPM_HASH = "7acbcf9d26e4dbe8c6e3d9029be0a58b20ba6cd9a15c2c7c6d39801d4dce22ef52524f1a8ba4a23198d22fdcbe2494d6d897e5aded7521e4a9da6c7b0b42c402"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "modello-maven-plugin \
@@ -25,15 +25,19 @@ javapackages-filesystem \
 mvn-org.codehaus.modello-modello-core \
 mvn-org.codehaus.modello-modello-plugin-converters \
 mvn-org.codehaus.modello-modello-plugin-dom4j \
+mvn-org.codehaus.modello-modello-plugin-jackson \
 mvn-org.codehaus.modello-modello-plugin-java \
 mvn-org.codehaus.modello-modello-plugin-jdom \
+mvn-org.codehaus.modello-modello-plugin-jsonschema \
 mvn-org.codehaus.modello-modello-plugin-sax \
+mvn-org.codehaus.modello-modello-plugin-snakeyaml \
 mvn-org.codehaus.modello-modello-plugin-stax \
+mvn-org.codehaus.modello-modello-plugin-velocity \
 mvn-org.codehaus.modello-modello-plugin-xdoc \
 mvn-org.codehaus.modello-modello-plugin-xpp3 \
 mvn-org.codehaus.modello-modello-plugin-xsd \
-mvn-org.codehaus.plexus-plexus-component-annotations \
+mvn-org.codehaus.plexus-plexus-build-api \
 mvn-org.codehaus.plexus-plexus-utils \
-mvn-org.sonatype.plexus-plexus-build-api"
+mvn-org.codehaus.plexus-plexus-xml"
 
 inherit rpm

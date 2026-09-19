@@ -11,8 +11,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "2.3.2"
 
-RPM_NAME = "jogl2-2.3.2-11.10.aarch64.rpm"
-RPM_HASH = "181183c4c020f873188bdab069f00f465bdcc7d5f80eafe0b9315fbc0881a55b740325caac307b26b760df9e31195b3ccf4874bda6c632148503f2b9f9226403"
+RPM_NAME = "jogl2-2.3.2-12.12.aarch64.rpm"
+RPM_HASH = "14e5e138d5bcde413eef6332a3313f85166e3795e024c57b24308e607858c9654064f77de0bf99478dd6d6466573967bef7f175173d80c5bd079cf9ac4a8e0a7"
 
 RPROVIDES:${PN} += "jogl2 \
 libjogl-cg.so \
@@ -30,7 +30,6 @@ libXcursor.so.1 \
 libXrandr.so.2 \
 libXrender.so.1 \
 libXxf86vm.so.1 \
-libc.so.6 \
 libjawt.so"
 
 inherit rpm

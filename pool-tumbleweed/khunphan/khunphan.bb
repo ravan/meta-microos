@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.55"
 
-RPM_NAME = "khunphan-0.55-477.25.aarch64.rpm"
-RPM_HASH = "64741685e6a92e5b4a9a4b0e378842b9a9d95088365740195c2029050e0bed7244662a7145ead1b3aa612dd1cd1746640a3829a03ca5a588ccc36b2b76c0bd99"
+RPM_NAME = "khunphan-0.55-478.14.aarch64.rpm"
+RPM_HASH = "effdcee4b35fd68b25ab6a2b8d8ea82a49df55b2f0c01b95e0339bbd5db50fbca99476d3f0e0444a30a70c2718aeeb78ea6e54c637b3ab70d090678e376c7e36"
 
 RPROVIDES:${PN} += "khunphan"
 
@@ -29,7 +29,7 @@ libglut.so.3 \
 libm.so.6 \
 libpng16.so.16 \
 libstdc++.so.6 \
-libxml2.so.2 \
+libxml2.so.16 \
 pwdutils"
 
 inherit rpm

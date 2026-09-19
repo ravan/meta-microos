@@ -4,14 +4,14 @@ used by the nitro-cli build-enclave command to generate a Enclave \
 Image File."
 LICENSE = "Apache-2.0"
 
-PV = "1.2.2~git0.4ccc639"
+PV = "1.5.0~git0.2950b36"
 
-RPM_NAME = "aws-nitro-enclaves-binaryblobs-upstream-1.2.2~git0.4ccc639-1.5.aarch64.rpm"
-RPM_HASH = "de088a5144600ac01195d02060e9d07a4930a734885f28200c80614412071b2a0afe6276ea50c72a10cdde1772181256c5eebf0c63b9930fc4178cecf1a559a2"
+RPM_NAME = "aws-nitro-enclaves-binaryblobs-upstream-1.5.0~git0.2950b36-1.1.aarch64.rpm"
+RPM_HASH = "b4725ffd20c55589adac4a719628b3506f0db6c6c4e21e4fa3656c9424921e448664ba165f230009d76fcdf534f61d0ebcc2d68de08d9779676d5940ab997913"
 
 RPROVIDES:${PN} += "aws-nitro-enclaves-binaryblobs \
 aws-nitro-enclaves-binaryblobs-upstream"
 
-RDEPENDS:${PN} += "rtld-GNU-HASH"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-spalign"
 DESCRIPTION = "This package includes the documentation for texlive-spalign"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn42225"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-spalign-doc-2023.209.svn42225-58.1.noarch.rpm"
-RPM_HASH = "f81a146d19afabf3b90df465b56c79d0616603fdafe1a3804d010ced8548b3a59f9f77aeafe67a76ec3ec70c6b48a83baf3edf31eba2b86fd0eef44273d1f18c"
+RPM_NAME = "texlive-spalign-doc-2026.226.svn77682-64.2.noarch.rpm"
+RPM_HASH = "9f1d0bb2b0d1301bac8bd2e2a90c1375fcfbf7104ee47ce507ef77621fa84c18c642304ae1a730156743b6c324ed04700c94daeaaa08826795de896a078acca9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-spalign-doc"

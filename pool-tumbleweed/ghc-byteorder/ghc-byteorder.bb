@@ -4,15 +4,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.0.4"
 
-RPM_NAME = "ghc-byteorder-1.0.4-4.3.aarch64.rpm"
-RPM_HASH = "2545fea81c8ae0b859ccaa01f631cb92e9fee9d7c41348a8563316cbb5fc2d306f0198053f8389c1be49d92f149eadd70690d2470d3310f38f75fd10356deaa3"
+RPM_NAME = "ghc-byteorder-1.0.4-4.19.aarch64.rpm"
+RPM_HASH = "3c69f24f81e3fae68934d8a8d5a65de9c9b5f48b0372520a142a947404c2f9c42759c8bccc7f440b8c81e0e951e5efbc536f2d3d709f9077ec572ddd083fe859"
 
 RPROVIDES:${PN} += "ghc-byteorder \
-libHSbyteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0-ghc9.4.6.so"
+libHSbyteorder-1.0.4-2KwV8jNH81I9JBUzKyr4X2-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

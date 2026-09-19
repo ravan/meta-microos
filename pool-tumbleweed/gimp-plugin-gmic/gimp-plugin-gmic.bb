@@ -3,10 +3,10 @@ DESCRIPTION = "This is a plugin for gimp that exposes many of the nice gmic feat
 for interactive use in gimp."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.3.0"
+PV = "4.0.3"
 
-RPM_NAME = "gimp-plugin-gmic-3.3.0-1.1.aarch64.rpm"
-RPM_HASH = "cfda54dcc621787c2c35efbf8b5508db743c1bb8bf792bd37074c7996b78e454d60b11a6cec90c2405534845e7966f69b7da51a8341cac360faf511ee5dd73f8"
+RPM_NAME = "gimp-plugin-gmic-4.0.3-1.2.aarch64.rpm"
+RPM_HASH = "157ba62ad090acf7ecf8627aecd296ad5007268c37ce6183f4f8c3bbc2bde0951d07eed1a4a189f0c0b08570b5452fdf2f4aebf0a2d591b4ddc93d8a29d0bd9f"
 
 RPROVIDES:${PN} += "gimp-plugin-gmic \
 gmic-gimp"
@@ -14,18 +14,20 @@ gmic-gimp"
 RDEPENDS:${PN} += "gimp \
 gmic-data \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libX11.so.6 \
 libbabl-0.1.so.0 \
 libc.so.6 \
 libfftw3-threads.so.3 \
 libgcc-s.so.1 \
 libgegl-0.4.so.0 \
-libgimp-2.0.so.0 \
-libgmic.so.3 \
+libgimp-3.0.so.0 \
+libgimpbase-3.0.so.0 \
+libglib-2.0.so.0 \
+libgmic.so.4 \
 libgobject-2.0.so.0 \
 libgomp.so.1 \
 libm.so.6 \

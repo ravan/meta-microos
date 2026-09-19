@@ -2,10 +2,10 @@ SUMMARY = "Configuration of squid"
 DESCRIPTION = "Configuration of squid"
 LICENSE = "GPL-2.0-only"
 
-PV = "4.6.0"
+PV = "5.0.0"
 
-RPM_NAME = "yast2-squid-4.6.0-1.4.aarch64.rpm"
-RPM_HASH = "64cf460645a07655d78f8a1f0e36a9653f0b7a6cfda47df2ad5993e92b0075bdcab8d055454d0ac77631ac60a3d9f844cc032fd495b54a1744c25e1448d22317"
+RPM_NAME = "yast2-squid-5.0.0-1.14.aarch64.rpm"
+RPM_HASH = "619c14fd1b07fc8bc3ad2c7b97f5bcb9d99b6f5bf38cf0c423694f306a9826faec82fc414abb1d5eadc5db3b925d36c89c012796373c67abacdc9e15a509d3e3"
 
 RPROVIDES:${PN} += "libpy2ag-squid.so.2 \
 yast2-squid"

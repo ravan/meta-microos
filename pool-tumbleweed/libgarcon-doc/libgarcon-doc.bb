@@ -2,10 +2,10 @@ SUMMARY = "Documentation for garcon"
 DESCRIPTION = "This package includes the documentation for garcon."
 LICENSE = "GFDL-1.1-only & LGPL-2.0-only"
 
-PV = "4.18.1"
+PV = "4.20.0"
 
-RPM_NAME = "libgarcon-doc-4.18.1-2.1.noarch.rpm"
-RPM_HASH = "0b9006462f776d311b1ea1af9c719abf55c71b07f069a1af54caa78190897f30d6af4b3fea6fb24e53d0ca882bf8674a7b44a6af90303007c215424ccaf5f8c2"
+RPM_NAME = "libgarcon-doc-4.20.0-1.8.noarch.rpm"
+RPM_HASH = "21dbb9cf552ee4473192a33ba21ab556ab58eba8348e589ac1bedd1d1159115c51460fd13d954aa579fd4e1c70910a53df8733f08e1fea894cf2cc73dee7261a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgarcon-doc"

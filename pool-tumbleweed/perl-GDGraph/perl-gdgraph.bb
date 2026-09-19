@@ -2,29 +2,16 @@ SUMMARY = "Produces charts with GD"
 DESCRIPTION = "Produces charts with GD"
 LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & GPL-2.0-or-later"
 
-PV = "1.54"
+PV = "1.560.0"
 
-RPM_NAME = "perl-GDGraph-1.54-3.9.noarch.rpm"
-RPM_HASH = "76dbf8727ddd393c458c9be4868451c486cd52b6337be91c5f8940ac85e199b654d2d5d9fa94218f43a988d3c9881e6a0b39e1d226445c50d36510ef8ad02d04"
+RPM_NAME = "perl-GDGraph-1.560.0-1.12.noarch.rpm"
+RPM_HASH = "0b1ba59d9ec07c49d3b9940f923caab2d36d18dcad3740b1ea1f3d3395741deacf6b9e76b29a3068fbcbbd7f4b98344ee59c88b32be7fc98a89b103f41c39298"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-GD--Graph \
-perl-GD--Graph--Data \
-perl-GD--Graph--Error \
-perl-GD--Graph--area \
-perl-GD--Graph--axestype \
-perl-GD--Graph--bars \
-perl-GD--Graph--colour \
-perl-GD--Graph--hbars \
-perl-GD--Graph--lines \
-perl-GD--Graph--linespoints \
-perl-GD--Graph--mixed \
-perl-GD--Graph--pie \
-perl-GD--Graph--points \
-perl-GD--Graph--utils \
 perl-GDGraph"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-GD \
 perl-GD--Text"
 

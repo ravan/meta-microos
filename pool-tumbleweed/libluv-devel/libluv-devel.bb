@@ -1,12 +1,12 @@
-SUMMARY = "Header files for lua51-luv"
+SUMMARY = "Header files for luajit-luv"
 DESCRIPTION = "This subpackage contains header files for developing applications that \
-want to make use of lua51-luv."
+want to make use of luajit-luv."
 LICENSE = "Apache-2.0"
 
-PV = "1.43.0~0"
+PV = "1.51.0+1"
 
-RPM_NAME = "libluv-devel-1.43.0~0-3.6.aarch64.rpm"
-RPM_HASH = "c62fbe6325a4a996edbbc7a6aba77affac4c15df22c5b06bfedd5edb7271c422be84ed115f9ed4daa3ce20369ab5810da764fa4ea0ffebedc8d077c761528d2b"
+RPM_NAME = "libluv-devel-1.51.0+1-7.3.aarch64.rpm"
+RPM_HASH = "bff24ab991ae049a04de2db9fa3076a1905757acc50d2b86773040d94e1f9c3a3b08cd637b231657b33eb8e906b6f8478ae2c74f14c9301e295cb1cd03b9617f"
 
 RPROVIDES:${PN} += "libluv-devel \
 pkgconfig-libluv"

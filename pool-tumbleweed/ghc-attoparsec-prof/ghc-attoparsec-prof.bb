@@ -4,21 +4,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.14.4"
 
-RPM_NAME = "ghc-attoparsec-prof-0.14.4-4.4.aarch64.rpm"
-RPM_HASH = "775d7703d8e8a459dcdf479f1a98b5b849c8b3105cee5d94a7789f797bcd1c09b113a289352ebc5c3bb613b283be8f21e7c04dec256b5bf2c35ee214968ee8e1"
+RPM_NAME = "ghc-attoparsec-prof-0.14.4-6.19.aarch64.rpm"
+RPM_HASH = "984eaa87c375a91684126c4e71511c813775e8f7b999d8c58db09a0cee112fc3ce02d155d9adf0008907e96274a237241bc71879639e4ffb0a534f1501520eac"
 
 RPROVIDES:${PN} += "ghc-attoparsec-prof \
-ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3"
+ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7"
 
 RDEPENDS:${PN} += "ghc-attoparsec-devel \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-deepseq-1.4.8.0 \
-ghc-prof-ghc-prim-0.9.1 \
-ghc-prof-scientific-0.3.7.0-2FbzCTQ2hp2GeCo5OsVSzz \
-ghc-prof-text-2.0.2 \
-ghc-prof-transformers-0.5.6.2"
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-deepseq-1.5.1.0-1350 \
+ghc-prof-ghc-prim-0.13.0-f55c \
+ghc-prof-scientific-0.3.8.1-EfN6leGWc5k1t5YPK2dkVk \
+ghc-prof-text-2.1.4-cf23 \
+ghc-prof-transformers-0.6.3.0-4709"
 
 inherit rpm

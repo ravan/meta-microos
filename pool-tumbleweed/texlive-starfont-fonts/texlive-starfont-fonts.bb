@@ -2,15 +2,18 @@ SUMMARY = "Severed fonts for texlive-starfont"
 DESCRIPTION = "The  separated fonts package for texlive-starfont"
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.2svn19982"
+PV = "2026.226.1.2svn19982"
 
-RPM_NAME = "texlive-starfont-fonts-2023.209.1.2svn19982-58.1.noarch.rpm"
-RPM_HASH = "848a169571da4a1edeb4bdbb12e991c78a4d9a4ca189fa170ee3edccf27e2fc2679847cc08a76e4ddc0d607ba57eaa427d03bbf1fab0b2cfd8d932d8a689c609"
+RPM_NAME = "texlive-starfont-fonts-2026.226.1.2svn19982-64.2.noarch.rpm"
+RPM_HASH = "8fc148242f92f194f8d215982bac91efafd7d8b03265b4fe21390624d66aded7756a7780539ae767b2a8bf6336571ae9835ab61b441a46c9dd702b1a01b6c4ee"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font--lang=aa \
+font--lang=agr \
 font--lang=an \
 font--lang=ay \
+font--lang=ayc \
+font--lang=bem \
 font--lang=bi \
 font--lang=br \
 font--lang=ch \
@@ -42,7 +45,10 @@ font--lang=kj \
 font--lang=kwm \
 font--lang=lb \
 font--lang=li \
+font--lang=lij \
+font--lang=mfe \
 font--lang=mg \
+font--lang=mjw \
 font--lang=ms \
 font--lang=nb \
 font--lang=nds \
@@ -74,12 +80,16 @@ font--lang=sv \
 font--lang=sw \
 font--lang=tl \
 font--lang=tn \
+font--lang=tpi \
 font--lang=ts \
+font--lang=unm \
 font--lang=uz \
 font--lang=vo \
 font--lang=wa \
+font--lang=wae \
 font--lang=xh \
 font--lang=yap \
+font--lang=yuw \
 font--lang=za \
 font--lang=zu \
 font-starfontsans \

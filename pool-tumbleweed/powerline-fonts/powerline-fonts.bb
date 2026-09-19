@@ -2,10 +2,10 @@ SUMMARY = "Powerline Fonts"
 DESCRIPTION = "This package provides the powerline fonts."
 LICENSE = "MIT"
 
-PV = "2.8.3"
+PV = "2.8.4"
 
-RPM_NAME = "powerline-fonts-2.8.3-3.1.noarch.rpm"
-RPM_HASH = "8d208b2cb2251b06f70ef1bb244845585bbbc0e41068a5567a104a763235eca2a624d5a9c94536dc12e382488d6af01e9b6ec334477ec9fb114e2e4eaf0ade6d"
+RPM_NAME = "powerline-fonts-2.8.4-3.5.noarch.rpm"
+RPM_HASH = "6ba95c1f9278171c61dba422c7c18c10ff590bd328360eaa39fdad4768d286d16025ec2d91bd9612f53ef6fef77d83425577928bfc19421ee6c2428ee4615629"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "font-powerlinesymbols \

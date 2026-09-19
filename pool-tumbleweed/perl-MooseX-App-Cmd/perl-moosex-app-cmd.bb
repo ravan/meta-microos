@@ -11,15 +11,15 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.34"
 
-RPM_NAME = "perl-MooseX-App-Cmd-0.34-1.12.noarch.rpm"
-RPM_HASH = "4e8dab4dc22dff191d4e0cdbcc43ad568b7004b83f16cf39e76e7b5d2b788ebfc7ac0a425f5198ed7883d2985ef1d389a28ffd215bd2da609ebcd10fd4819a77"
+RPM_NAME = "perl-MooseX-App-Cmd-0.34-1.26.noarch.rpm"
+RPM_HASH = "0ab52f8187a727a27515932ebc35f4c3c08ad32388f9896121e30af89d15baf494af8c273aba24019cb269f6650c131747c5293986d3e37cafa402f16cf9a136"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--App--Cmd \
 perl-MooseX--App--Cmd--Command \
 perl-MooseX-App-Cmd"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-App--Cmd \
 perl-App--Cmd--Command \
 perl-Getopt--Long--Descriptive \

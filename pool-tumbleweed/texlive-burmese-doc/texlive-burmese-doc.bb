@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-burmese"
 DESCRIPTION = "This package includes the documentation for texlive-burmese"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25185"
+PV = "2026.226.svn25185"
 
-RPM_NAME = "texlive-burmese-doc-2023.209.svn25185-53.1.noarch.rpm"
-RPM_HASH = "1ed7420d03ebacaeddc7d30aaaf58c118f4453d98bb79d06ce6eb973bb9c1aa906435696f162b217a4b973ce6ad23edd26e2d2afd7fd625926fe071b7dd4c978"
+RPM_NAME = "texlive-burmese-doc-2026.226.svn25185-59.2.noarch.rpm"
+RPM_HASH = "4c5686430aec2729fb1171b8573ee85cdaa9d58ffd6fba14923830877273406fe163b847fd07f342fb08e67d2775161fa81e67b48791b697a58a11371ac0e7ff"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-burmese-doc"

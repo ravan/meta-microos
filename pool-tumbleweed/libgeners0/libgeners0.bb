@@ -6,8 +6,8 @@ LICENSE = "X11"
 
 PV = "1.12.0"
 
-RPM_NAME = "libgeners0-1.12.0-1.15.aarch64.rpm"
-RPM_HASH = "65ca1d2c66b5a5c540ec8fa4e5a6a55285c530e27eb0a838d4d6aed75127310ae73def8af323edaee0d4b11ab390193ef94e559ba629ad388e673b3432ea1496"
+RPM_NAME = "libgeners0-1.12.0-1.25.aarch64.rpm"
+RPM_HASH = "a51b30f7f566e229129e22c6a34b6b7b66903b82923fdb30dcefd4d0b3cd2e45377b3fde505e1a850f9d510e30b9ba18c06821cea25739044865cf8567bfc4d2"
 
 RPROVIDES:${PN} += "libgeners.so.0 \
 libgeners0"

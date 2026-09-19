@@ -3,10 +3,10 @@ DESCRIPTION = "Commons-Collections seek to build upon the JDK classes by providi
 new interfaces, implementations and utilities."
 LICENSE = "Apache-2.0"
 
-PV = "4.1"
+PV = "4.5.0"
 
-RPM_NAME = "apache-commons-collections4-4.1-2.7.noarch.rpm"
-RPM_HASH = "aa47713fd8e0b4d8e4c1744bc93db962a02180bbe05857f96f1d52f20121e3d86126316b397577ac4d2fc179c558f0b4080c5dd34c71df4b18e73ce67f70f8a0"
+RPM_NAME = "apache-commons-collections4-4.5.0-1.3.noarch.rpm"
+RPM_HASH = "9aed61670af773ad78f4ef352a3da260c0af1816bea8a74bf78884de9d3025b13e1a948b97f911ae2b097501b4c52332744749d46345aebf44f332b3ca791701"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "apache-commons-collections4 \

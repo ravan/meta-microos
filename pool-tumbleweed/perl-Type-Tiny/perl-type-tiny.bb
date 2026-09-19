@@ -6,10 +6,10 @@ Type::Tiny is a small class for creating Moose-like type constraint objects \
 which are compatible with Moo, Moose and Mouse."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.004000"
+PV = "2.010001"
 
-RPM_NAME = "perl-Type-Tiny-2.004000-1.3.noarch.rpm"
-RPM_HASH = "e0ed41c7f5bed324ebbc2a578509f21c06084d826d861d15db48fe468d7421e3f4190f05ce581b84d1fdb326fb6a2d4a64ba36d322622c7069b4e9a4d93daf39"
+RPM_NAME = "perl-Type-Tiny-2.010001-1.5.noarch.rpm"
+RPM_HASH = "f9a7da7becd558f3b44df484256bf88d52839b71cce4e054136cdeed33ad19ec327140e852ed5c504d916ec81c6239265a0752b13d3f68b28f5d20ec9c89d11c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Devel--TypeTiny--Perl58Compat \
@@ -67,7 +67,7 @@ perl-Types--Standard--Tied \
 perl-Types--Standard--Tuple \
 perl-Types--TypeTiny"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Exporter--Tiny"
 
 inherit rpm

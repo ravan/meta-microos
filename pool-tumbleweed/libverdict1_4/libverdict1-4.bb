@@ -2,10 +2,10 @@ SUMMARY = "Verdict library for evaluating the geometric qualities of regions of 
 DESCRIPTION = "Verdict is a library for evaluating the geometric qualities of regions of space."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.4.1"
+PV = "1.4.4"
 
-RPM_NAME = "libverdict1_4-1.4.1-1.4.aarch64.rpm"
-RPM_HASH = "67ec6e78e9cf71dfc8bbe45c73875c757387a2a2c7bf99223dca59dd94f5485afdc40ce4f070ec560dcb2c0a27947020d470c4636c525f01be604e2c71c37000"
+RPM_NAME = "libverdict1_4-1.4.4-1.5.aarch64.rpm"
+RPM_HASH = "4ada554f44cad0ce2d28f76a8e5cacac9d3070cf8bc9c99b9c948b32c8269128f4a89476de37944e1f235dcfd0dc37f4018af88e6944dbe0772035b08143bcfc"
 
 RPROVIDES:${PN} += "libverdict.so.1.4 \
 libverdict1-4"

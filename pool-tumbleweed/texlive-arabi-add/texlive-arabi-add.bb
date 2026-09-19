@@ -4,10 +4,10 @@ hyperref and bookmark packages offer when you create a table of \
 contents for Arabic texts created by the arabi package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn37709"
+PV = "2026.226.1.0svn67573"
 
-RPM_NAME = "texlive-arabi-add-2023.209.1.0svn37709-55.1.noarch.rpm"
-RPM_HASH = "0a0cccc8a116597f8fe8829abe035c08a20a04215cedbb81310fae8dbe3606a688982e8e26f9b1fa698c1e1697fb2a5315b2da70a853de1cba7dcc06fc4822a9"
+RPM_NAME = "texlive-arabi-add-2026.226.1.0svn67573-61.2.noarch.rpm"
+RPM_HASH = "acd68ca94cec31cf4fc7adede043388ac7733708fd19d352b037c274872219b30a8e6d748a2213bf799cae47ee908b513bb6e370a10e36d47ff49610a51d95b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-arabi-add.sty \

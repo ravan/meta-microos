@@ -2,25 +2,30 @@ SUMMARY = "US and UK English"
 DESCRIPTION = "Support for, and documentation in, English."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn65496"
+PV = "2026.222.svn74022"
 
-RPM_NAME = "texlive-collection-langenglish-2023.208.svn65496-60.1.noarch.rpm"
-RPM_HASH = "f351aca7f503ef39e3e88715fee6d340af1db2e7e2cf156061d91871751376a5dcb5fea0f9ea5e4883605e4a15d4bcb4f1f7ba02dc25244de1b20433ed0de895"
+RPM_NAME = "texlive-collection-langenglish-2026.222.svn74022-68.2.noarch.rpm"
+RPM_HASH = "3c350ac3669c7fc585289e2e9769dd4df201410cd8674bd5a06e5b36a543a3f2d37e303f8352b5289b966355707197aea417d6ab544cd9e46daf98248f26e415"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langenglish"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-english \
+texlive-collection-langenglish"
 
 RDEPENDS:${PN} += "texlive-amiweb2c-guide \
 texlive-amscls-doc \
 texlive-amslatex-primer \
 texlive-around-the-bend \
 texlive-ascii-chart \
+texlive-asy-overview \
 texlive-biblatex-cheatsheet \
 texlive-collection-basic \
 texlive-components \
 texlive-comprehensive \
 texlive-dickimaw \
 texlive-docsurvey \
+texlive-drawing-with-metapost \
 texlive-dtxtut \
 texlive-first-latex-doc \
 texlive-fontinstallationguide \
@@ -59,6 +64,7 @@ texlive-metapost-examples \
 texlive-patgen2-tutorial \
 texlive-pictexsum \
 texlive-plain-doc \
+texlive-quran-en \
 texlive-short-math-guide \
 texlive-simplified-latex \
 texlive-svg-inkscape \
@@ -67,7 +73,6 @@ texlive-tds \
 texlive-tex-font-errors-cheatsheet \
 texlive-tex-nutshell \
 texlive-tex-overview \
-texlive-tex-refs \
 texlive-tex-vpat \
 texlive-texbytopic \
 texlive-texonly \
@@ -75,9 +80,11 @@ texlive-titlepages \
 texlive-tlc2 \
 texlive-tlc3-examples \
 texlive-tlmgrbasics \
+texlive-typstfun \
 texlive-undergradmath \
 texlive-visualfaq \
 texlive-webguide \
+texlive-wrapstuff-doc-en \
 texlive-xetexref \
 texlive-yet-another-guide-latex2e"
 

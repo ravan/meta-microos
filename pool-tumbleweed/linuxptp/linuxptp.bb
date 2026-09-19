@@ -3,10 +3,10 @@ DESCRIPTION = "This software is an implementation of the Precision Time Protocol
 according to the IEEE1588 standard for Linux."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.1"
+PV = "4.4"
 
-RPM_NAME = "linuxptp-3.1.1-2.9.aarch64.rpm"
-RPM_HASH = "671208ae2c2ddb8c8d7cd28bba074c0ee54b8981ab89621dfb2598d63559087b4464f1654f5788462fcd6880c7305f85d622399b0e426c8fc0715b5a3bc424fb"
+RPM_NAME = "linuxptp-4.4-2.3.aarch64.rpm"
+RPM_HASH = "db3b8b61e9afd67308980e580405391507cdc75b00c52677daf86e74c622de121e62a93d09653e1ebb096eaffa2accbae58b2b9e8ff726ab7e5ffbc16a72752e"
 
 RPROVIDES:${PN} += "config-linuxptp \
 linuxptp \

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package celluloid"
 DESCRIPTION = "Provides translations for the 'celluloid' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.25"
+PV = "0.30"
 
-RPM_NAME = "celluloid-lang-0.25-2.1.noarch.rpm"
-RPM_HASH = "675502e8e185298e1e5b3498827ae18179c2a4a68e5988ac38ec37e3423e28b0e8ef1eba59c867422c50e015650289f68fbf0febe52f3dfd085ca03a8b7ae861"
+RPM_NAME = "celluloid-lang-0.30-1.3.noarch.rpm"
+RPM_HASH = "24355ab5b88997e000f83479298f9494ef9ae0f4684c93d3b136ecabfb7be894a81551645a86451cf7019325eb4e95906afdf5083d2333dd5eb5dfba0390fce4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "celluloid-lang \
@@ -24,6 +24,8 @@ locale-celluloid-eu \
 locale-celluloid-fa \
 locale-celluloid-fi \
 locale-celluloid-fr \
+locale-celluloid-ga \
+locale-celluloid-hi \
 locale-celluloid-hr \
 locale-celluloid-hu \
 locale-celluloid-id \
@@ -31,8 +33,10 @@ locale-celluloid-is \
 locale-celluloid-it \
 locale-celluloid-ja \
 locale-celluloid-ka \
+locale-celluloid-kk \
 locale-celluloid-ko \
 locale-celluloid-lt \
+locale-celluloid-lv \
 locale-celluloid-ms \
 locale-celluloid-nb-NO \
 locale-celluloid-nl \

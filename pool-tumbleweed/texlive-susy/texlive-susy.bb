@@ -2,10 +2,10 @@ SUMMARY = "Macros for SuperSymmetry-related work"
 DESCRIPTION = "The package provides abbreviations of longer expressions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn19440"
+PV = "2026.226.svn19440"
 
-RPM_NAME = "texlive-susy-2023.209.svn19440-58.1.noarch.rpm"
-RPM_HASH = "774bb90d0bd13f610eb894ec9db6bd590c0baad6a5214bd4b26168a77d526a61c020d0b1f94057237c7209f82a21c2abe97e31a2cbddcd317a5a5846336af924"
+RPM_NAME = "texlive-susy-2026.226.svn19440-64.2.noarch.rpm"
+RPM_HASH = "e98e43fda172100d264704ca16ebe4ed2ec0e356653d84e3405081ea87c504541ee5aed21901e781613243a62a0491d7ee94ab870b926bffc9048da48c9fc375"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-susy.sty \

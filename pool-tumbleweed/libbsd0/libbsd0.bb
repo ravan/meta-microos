@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.11.7"
 
-RPM_NAME = "libbsd0-0.11.7-2.2.aarch64.rpm"
-RPM_HASH = "8fa7f08238a44ad5b7f4c9ba1076b8dc75bd5ed89ed819accb66afc3f47ad1eb44bfd8d8d044e39b022cd14882d67a79b968db8b01525ff4e0adf9934d2ba295"
+RPM_NAME = "libbsd0-0.11.7-2.12.aarch64.rpm"
+RPM_HASH = "c29b5f0964ee7baaf67494671f12bb22d4b4b4e01786b9dab3f5f3715bd6f3c65dceebff564ae952c5af5d2f027dbecd3591b208a07b7831cc6366c4bff73b3f"
 
 RPROVIDES:${PN} += "libbsd.so.0 \
 libbsd0"

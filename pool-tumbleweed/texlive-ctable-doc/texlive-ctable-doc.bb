@@ -2,14 +2,14 @@ SUMMARY = "Documentation for texlive-ctable"
 DESCRIPTION = "This package includes the documentation for texlive-ctable"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.31svn38672"
+PV = "2026.226.1.33svn77682"
 
-RPM_NAME = "texlive-ctable-doc-2023.209.1.31svn38672-55.1.noarch.rpm"
-RPM_HASH = "40398939af941d0619b674f0db83b5cc860c00bd07f2565af51cd95c41de4fc4f867c5883c4531ed7008524bc3bf44361685015912584853e4a5d4195dbb0cb3"
+RPM_NAME = "texlive-ctable-doc-2026.226.1.33svn77682-61.2.noarch.rpm"
+RPM_HASH = "e269b1fc78ed818ebf4cadd476147b1f69210c75f1625e9c458df3a5efb11959867bc664b12eecac0659a29ddbe955c938f3727c0bedb956e322e82dd2b1a76f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ctable-doc"
 
-RDEPENDS:${PN} += "/usr/bin/bash"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -5,10 +5,10 @@ package introduces enumerative expressions in Japanese \
 education."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn63893"
+PV = "2026.226.1.3svn72898"
 
-RPM_NAME = "texlive-jpneduenumerate-2023.209.1.2svn63893-56.1.noarch.rpm"
-RPM_HASH = "aaf4a5aaa1eaae1d4a8aeccd9925691e6364ed1a630965cb5951951458225c5e37b98c897a35a71c4ab872080331e205f35d7e8f0e2c737efdbaf2391a90cd5a"
+RPM_NAME = "texlive-jpneduenumerate-2026.226.1.3svn72898-63.2.noarch.rpm"
+RPM_HASH = "6ee3a5aa15210088d4b437d413f14acfd65fcc30a1ca41dcf26f6deb7ed3ab53f6297d1e480b552499d0c1e7a13438e38ab0207e6a3c5a7de4f28b4fd09c71f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jpneduenumerate.sty \

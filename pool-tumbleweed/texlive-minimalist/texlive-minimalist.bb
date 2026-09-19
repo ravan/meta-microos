@@ -14,13 +14,15 @@ Russian and Spanish typesetting, and also use more beautiful \
 fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn66434"
+PV = "2026.226.svn78004"
 
-RPM_NAME = "texlive-minimalist-2023.209.svn66434-55.1.noarch.rpm"
-RPM_HASH = "a521cd5625a1aa5ed16386370722af7666d818d2b3ed3c3eb1975019a2e11f51368352145e9ee28a3be82503de1848bc312d3aaf359e3f9945ded0a34761f6b8"
+RPM_NAME = "texlive-minimalist-2026.226.svn78004-61.2.noarch.rpm"
+RPM_HASH = "d4c920e2f688698391d1d74f8ad867a4e1864a0b0ea5043f636d685156fb820d7e83cd54be103b8891bd8d1db2a64daad285f587c1708b0e833652c943e4fd69"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minimalist-classical.sty \
+tex-minimalist-classicthesis.sty \
+tex-minimalist-default.sty \
 tex-minimalist-flow.sty \
 tex-minimalist-plain.sty \
 tex-minimalist-stream.sty \
@@ -41,6 +43,7 @@ tex-amsthm.sty \
 tex-anyfontsize.sty \
 tex-bookmark.sty \
 tex-caption.sty \
+tex-classicthesis.sty \
 tex-draftwatermark.sty \
 tex-embrac.sty \
 tex-enumitem.sty \
@@ -75,7 +78,7 @@ tex-tikzpagenodes.sty \
 tex-titlesec.sty \
 tex-titletoc.sty \
 tex-ulem.sty \
-tex-wrapfig.sty \
+tex-wrapfig2.sty \
 texlive \
 texlive-filesystem \
 texlive-kpathsea \

@@ -4,22 +4,21 @@ which can show the list of currently opened tabs \
 and allows to navigate between them."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-tabslist-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "3156129fc31ace3a2a4144938dc465c87b1bb182ac9ef9d85daa38589f9678012ca035d898d7a07365280740e07a829260e12d15ab5b55ef60db398d5024c22a"
+RPM_NAME = "leechcraft-tabslist-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "702c8938713df7d8f98f522979e535de15af3a5c50182240300af7513a97df749e787e427ecc8b9175a9f6b1ca2f83502925f317918ca5bb4aa067294c6558f5"
 
 RPROVIDES:${PN} += "leechcraft-tabslist \
 libleechcraft-tabslist.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

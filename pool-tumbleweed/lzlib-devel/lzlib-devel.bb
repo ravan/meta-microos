@@ -8,10 +8,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libcerror."
 LICENSE = "BSD-2-Clause & GPL-2.0-or-later"
 
-PV = "1.13"
+PV = "1.16"
 
-RPM_NAME = "lzlib-devel-1.13-1.8.aarch64.rpm"
-RPM_HASH = "82f24bed5fcbd205fe75f34df2fb3add62aa14adc816f921dcb9639848fcee4d96682059be57ec9620418d67cc7936a371bcacedcb2053a353a63eebcf3d9f2b"
+RPM_NAME = "lzlib-devel-1.16-1.3.aarch64.rpm"
+RPM_HASH = "40c76c9d517da55dbbc91ac3dec756ebef7444c566dc0f971c63a6242bbf50f9c6bc7b171f51c742f831d651894c02f39846f4132f2fc8a4d81167268b30621f"
 
 RPROVIDES:${PN} += "lzlib-devel"
 

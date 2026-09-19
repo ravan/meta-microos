@@ -4,10 +4,10 @@ font (including the standard T2A, so one can use the patterns \
 with free fonts)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21081"
+PV = "2026.226.svn21081"
 
-RPM_NAME = "texlive-ukrhyph-2023.209.svn21081-54.1.noarch.rpm"
-RPM_HASH = "711bb484578208f1353c29473ad7555a5af27029af31442db55689d82b51bc11d4baaea9e39c1c01c4469cfdd7f7e65221ba31e0b367cad3e52fa28e1d8cb45b"
+RPM_NAME = "texlive-ukrhyph-2026.226.svn21081-60.2.noarch.rpm"
+RPM_HASH = "c735e583bef93c69170609451f8dc03b10dadbc6bc7ff3b3eebafca0bc84f48062773ab5ae47ef7eb1981134812f3f8f98a17220d2fe8693dc2fc6875145f1ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-catlcy.tex \

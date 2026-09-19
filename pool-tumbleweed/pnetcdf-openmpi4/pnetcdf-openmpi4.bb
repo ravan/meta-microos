@@ -6,14 +6,14 @@ and sharing of array-oriented scientific data. \
 Parallel netCDF (PnetCDF) is a library providing high-performance I/O while \
 still maintaining file-format compatibility with NetCDF by Unidata. \
  \
-This package contains the openmpi version of utility functions for \
+This package contains the openmpi4 version of utility functions for \
 working with NetCDF files."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-openmpi4-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "3cdc090c96b4551e1d8d5a12811555b43a52d9e7053bfc8001d56e1a534a43989118101bc4aff4b72f887e923e5f07eaf6b5e90441becd1d4d7e3c78a8d4c5a6"
+RPM_NAME = "pnetcdf-openmpi4-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "7ae4b1151709f165b941cb31f364ecbb015e1f87d5103043685c9a4c3250deb532a413f8d6649ca52aac52feb10fc8017ed84c9700c4451fbd0883dc1fa6f39f"
 
 RPROVIDES:${PN} += "parallel-netcdf-openmpi4 \
 pnetcdf-openmpi4"
@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.40 \
-libpnetcdf.so.4 \
+libpnetcdf.so.7 \
 libpnetcdf4-openmpi4 \
 openmpi4"
 

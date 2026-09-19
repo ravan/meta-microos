@@ -6,10 +6,10 @@ multiple solutions have to be graded and might offer mutual \
 exclusive ways of receiving points."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.1.1svn62505"
+PV = "2026.226.0.0.1.1svn76924"
 
-RPM_NAME = "texlive-grading-scheme-2023.209.0.0.1.1svn62505-54.2.noarch.rpm"
-RPM_HASH = "d431ead31859b31f46f4487f4b8682162cdca9437b14d17ab41e4bc6c7bbc2b83b4df4e94000f83c07fcc26e33c3fb63f96b3e9c3b47b1d82c09fbabfcbbd5e7"
+RPM_NAME = "texlive-grading-scheme-2026.226.0.0.1.1svn76924-60.4.noarch.rpm"
+RPM_HASH = "724100a4b464368093736671cc0f5e5d6d15541e5bfcfa65a8dfe0cc3528c0de9234f9a4f66864dd8575e47f22e4b17fb367a076d600a159c81442c99f0cc424"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-grading-scheme.sty \

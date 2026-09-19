@@ -1,42 +1,40 @@
 SUMMARY = "Risk-like game by KDE"
 DESCRIPTION = "KsirK is a computerized version of a well known strategy game."
-LICENSE = "GPL-2.0-or-later & LGPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "ksirk-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "87bbaf64c84b84d88b78264ac27992617cdfa0107ac9a1401a843f3bc73f08432b236a936672ff79ccdcb58e2b0a34cfd8cf090441592c2772a402df7acc405c"
+RPM_NAME = "ksirk-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "5297e93c528deab5104be491f46d00feddb19e7b7e3007ebf0c5278986b10f70e96e4ea49ebfcb19cdb69c4b27db4f808a208f8cdce0d667f37e003b0f0f6cf1"
 
 RPROVIDES:${PN} += "ksirk \
-ksirk5 \
-libiris-ksirk.so.2"
+ksirk5"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5KDEGames.so.7 \
-libKF5KDEGamesPrivate.so.7 \
-libKF5NewStuff.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libKDEGames6.so.6 \
+libKDEGames6Private.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Core5Compat.so.6 \
+libQt6Gui.so.6 \
+libQt6Multimedia.so.6 \
+libQt6Svg.so.6 \
+libQt6SvgWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libphonon4qt5.so.4 \
-libqca-qt5.so.2 \
-libstdc++.so.6 \
-libz.so.1"
+libstdc++.so.6"
 
 inherit rpm

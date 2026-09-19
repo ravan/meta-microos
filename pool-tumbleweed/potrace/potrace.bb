@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.16"
 
-RPM_NAME = "potrace-1.16-1.15.aarch64.rpm"
-RPM_HASH = "a45b9b5dde155b7442db11bb4e162eec2ce039a57bad447ec27220940aedcca31cb542be4a460933735f692581d4b27c57cbf69f559ea1e8a0a6ae4bc3251dca"
+RPM_NAME = "potrace-1.16-2.10.aarch64.rpm"
+RPM_HASH = "564c7d4c03d8b5a04d6db2ce9c75d7ffa1a8bfd26559ff938dc72e6785d02e46d0bafcb3f531cd43ad13096a92838117bfa1651edfed188f6b77a187aa4df807"
 
 RPROVIDES:${PN} += "bitmap-tracing \
 potrace"

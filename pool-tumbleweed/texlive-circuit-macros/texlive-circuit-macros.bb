@@ -16,10 +16,10 @@ TeX output to be read by pstricks, TikZ commands for use by the \
 pgf bundle, or SVG."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.10.2svn66549"
+PV = "2026.226.10.9svn76218"
 
-RPM_NAME = "texlive-circuit-macros-2023.209.10.2svn66549-54.1.noarch.rpm"
-RPM_HASH = "37a178f14aeba031cf33e86b3cbe89b45609264bd045f59b5680e867dc962719d7219c000f9e399c0396e2ef7580f764cef1ebed6d4e322017f2caafe0cc23e5"
+RPM_NAME = "texlive-circuit-macros-2026.226.10.9svn76218-60.2.noarch.rpm"
+RPM_HASH = "201dcaa34e5b1a2ac4fdb17412db31af90c7a12c763834d98d304d07d39526bf2eb1b607a04814c421f1198556242f640ed4055e803c93c827c07f02412c3911"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-boxdims.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "xpr takes as input a window dump file produced by xwd \
 and formats it for output on various types of printers."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.2.1"
 
-RPM_NAME = "xpr-1.1.0-1.4.aarch64.rpm"
-RPM_HASH = "66568ec0068ae9ac09f3099903276dd731d7b7b771655485b01dbf4b376786172c7fbe904cc9797e4f9fac43d32ac9c763a67404da2385d636e21743fbcee396"
+RPM_NAME = "xpr-1.2.1-1.1.aarch64.rpm"
+RPM_HASH = "ee22a97f01c0732db322e5aff3dac64af338fafaa9f9badd66e088ed31115752dc6cc4f3afd2e75a482ead5f3d1dc7a3299d69949a9673d15a7e560c564e3e1e"
 
 RPROVIDES:${PN} += "xpr"
 

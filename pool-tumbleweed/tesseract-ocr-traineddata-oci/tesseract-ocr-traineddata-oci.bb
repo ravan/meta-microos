@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Occitan lan
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-oci-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "acd0ff34730bfa622757509eb5512562c37fda7634fafcfdfb06f9499e710fda9628d7174706ee1f1bf41d553d33f68b6b6cb00587b430d509e2e93c09577574"
+RPM_NAME = "tesseract-ocr-traineddata-oci-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "a850434aa89a5abd0a3149590a304ea7ab1deac5a2a14a1ae6fd78f075678bc7447ef8b13f785b71a889952c841f44b949db852d4044db511dfaf899c475f7cc"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-occitan \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-oc \
+tesseract-ocr-traineddata-occitan \
 tesseract-ocr-traineddata-oci \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-occitan"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

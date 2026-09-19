@@ -4,10 +4,10 @@ various pieces of GNOME infrastructure, such as the org.gnome.Shell.Screenshot \
 or org.gnome.SessionManager D-Bus interfaces."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.14.1"
+PV = "1.15.3"
 
-RPM_NAME = "xdg-desktop-portal-gtk-1.14.1-3.2.aarch64.rpm"
-RPM_HASH = "a4a9e4a58e0f98ba9739e8cecee63f963d0e38e8de6480e7a51b39be235e1053a73b70f5bdcbcc204623b9af5aa793a5aa917010615c47b9f4f397a401f66349"
+RPM_NAME = "xdg-desktop-portal-gtk-1.15.3-1.5.aarch64.rpm"
+RPM_HASH = "f72069bd8a3c2f477063ed0658dffefe45761abcbf77d41c1af86773d8f60e3259d80fcddc2dab5b8ab1a5c09f84a4e0e0e5cca9f84bb9d208dd93410efef665"
 
 RPROVIDES:${PN} += "xdg-desktop-portal-gtk"
 

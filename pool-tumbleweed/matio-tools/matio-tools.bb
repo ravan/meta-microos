@@ -4,10 +4,10 @@ This library is designed for use by programs/libraries that do not have \
 access or do not want to rely on MATLAB's shared library."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.5.23"
+PV = "1.5.30"
 
-RPM_NAME = "matio-tools-1.5.23-2.3.aarch64.rpm"
-RPM_HASH = "54b0fd9c6273115453e5dc1f85bc4899264a21f4e58aca9674768415c8c9b0279c9869e5195d3e032269c27cd29e0ed7cc9d2c02e313e947157df8dc547a77f3"
+RPM_NAME = "matio-tools-1.5.30-1.4.aarch64.rpm"
+RPM_HASH = "044da9a416d9786f2d1c70c4f0bf64a42099dfe428619eecee0f08b82c25acb914db6418bb99c29474824e1c0726a61d7139756f733f173ee8ef21ec3eb91340"
 
 RPROVIDES:${PN} += "matio-tools"
 
@@ -15,7 +15,7 @@ RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhdf5 \
 libm.so.6 \
-libmatio.so.11 \
-libmatio11"
+libmatio.so.14 \
+libmatio14"
 
 inherit rpm

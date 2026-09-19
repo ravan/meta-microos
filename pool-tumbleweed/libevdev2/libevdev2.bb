@@ -4,10 +4,10 @@ through type-safe interfaces and provides functions to change \
 the appearance of the device."
 LICENSE = "MIT"
 
-PV = "1.13.1"
+PV = "1.13.7"
 
-RPM_NAME = "libevdev2-1.13.1-1.1.aarch64.rpm"
-RPM_HASH = "fa3edf1a5067d96d3c4159228f5d71b28c486d8426a983d468eec0a0e6e03ee62cd8a49aa68e1239355e39c2a2f843b4bda6a417ad8a995169a33ca397e1d4c1"
+RPM_NAME = "libevdev2-1.13.7-1.1.aarch64.rpm"
+RPM_HASH = "ff1d931ccbe269100f8dcb858c0a8dc1f7e4e744808dd4b6a2ead4aa608c41ef2ef118d645fe38f26c79c7319c0e634deb6257bafef6543a48049593840c29e1"
 
 RPROVIDES:${PN} += "libevdev.so.2 \
 libevdev2"

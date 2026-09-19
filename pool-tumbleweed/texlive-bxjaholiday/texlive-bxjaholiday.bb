@@ -6,10 +6,10 @@ Further (lower-level) APIs are provided for expl3. The package \
 supports pdfTeX, XeTeX, LuaTeX, pTeX, and upTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.1svn60636"
+PV = "2026.226.1.1.1svn76924"
 
-RPM_NAME = "texlive-bxjaholiday-2023.209.1.1.1svn60636-53.1.noarch.rpm"
-RPM_HASH = "77882623f4ac57a84fc2bbe9091e6627c3c9ec6b6cdbce5528c0c5a2542708101e03f36e3b75b64301994ba893d9e618bec3c3a09c077ac21dffbad065da1c0b"
+RPM_NAME = "texlive-bxjaholiday-2026.226.1.1.1svn76924-59.2.noarch.rpm"
+RPM_HASH = "1ace9b938c5e99d33ac8df984c20a000c695ddfb98a7370a3b626f98bcfc5dad480a83d888d0b84a9b40ade698b5a4bf0636fe39c8412e994d416d5e3a6489ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxjaholiday.sty \

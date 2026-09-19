@@ -2,10 +2,10 @@ SUMMARY = "Machines plugin for pdsh"
 DESCRIPTION = "Plugin for pdsh to determine nodes to run on from machines file."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.34"
+PV = "2.36"
 
-RPM_NAME = "pdsh-machines-2.34-12.1.aarch64.rpm"
-RPM_HASH = "0a4758a4752a9dadf043af29992d3e5ba878f0272600a3f68ce598ae16d687fadfe85414047df4b205646991a6481067c6c7de89703ec0e911bbd9666aa20787"
+RPM_NAME = "pdsh-machines-2.36-1.2.aarch64.rpm"
+RPM_HASH = "4416681d9ca98606e1009f4162d1a593ab3fdf1a6153647ffb9585ad7374ed3796cf1c6c7d365a171419aec8a7cf7276b188d741348537bd1aebffaa013d0331"
 
 RPROVIDES:${PN} += "pdsh-machines"
 

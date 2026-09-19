@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the headers required for FFmpeg to interfac
 with NVIDIA codec APIs."
 LICENSE = "MIT"
 
-PV = "11.1.5.2"
+PV = "13.0.19.0"
 
-RPM_NAME = "ffnvcodec-devel-11.1.5.2-1.1.aarch64.rpm"
-RPM_HASH = "460bef35fc74142696a98cbc653a007e65178d3677c6806df261f2657786a62c5de9ce93604210c3ede3ac8619de5994e3ecddb413e1a5fbca84c3aab62a087a"
+RPM_NAME = "ffnvcodec-devel-13.0.19.0-1.4.aarch64.rpm"
+RPM_HASH = "226c057091a8813a07fd1482256c87e54c0ff758735ec4310a24ddbef7e117fac6fa8c1d3ff3b7f1102c26108ace8405a37fd5d29f181e4f94ad75cc71423afb"
 
 RPROVIDES:${PN} += "ffnvcodec-devel \
 pkgconfig-ffnvcodec"

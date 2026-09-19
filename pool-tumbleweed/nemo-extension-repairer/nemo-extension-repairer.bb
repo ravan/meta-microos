@@ -8,10 +8,10 @@ You can find a candidate for filename in context menu or submenu. \
 This extension also provides a decoded name for URL encoded filename."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-repairer-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "2d807b3b63f35bae5948b9decfadc250bbfd4ce1e40c8e2d1318d03fe9d805c579d983e6f48e3e2a2fef22edc5b9fed8def2ab14d45ff4b6f9e180cf7abe46a4"
+RPM_NAME = "nemo-extension-repairer-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "3e39737da3eda5c282629ca05eb3865790b7b97f865c833577fffd5d069e915378ccbdd55eaa0707010065aaaa14a8acace8d298326aa1d2c3cdb9512601dc79"
 
 RPROVIDES:${PN} += "libnemo-filename-repairer.so \
 nemo-extension-repairer \

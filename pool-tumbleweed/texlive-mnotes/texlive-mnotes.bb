@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides a flexible mechanism for annotating, and \
 commenting upon, collaboratively-written documents."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn63406"
+PV = "2026.226.0.0.9svn63406"
 
-RPM_NAME = "texlive-mnotes-2023.209.0.0.9svn63406-55.1.noarch.rpm"
-RPM_HASH = "a1c504d3842728246457fb2c2d095c2cdd29f923472f530881e649018de5d803196060f022e9642ad3b7785221824c74e4c9f9f2b131176d78af5f5c221c5b45"
+RPM_NAME = "texlive-mnotes-2026.226.0.0.9svn63406-61.2.noarch.rpm"
+RPM_HASH = "c60552c609198d758b8e46a6c4b7c2b376404264320479d8a7ff8bc37ebc44fac506d29ed13c3a6f72ed50a85e58569a991611e771c64c21c8f686b3439bc46a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mnotes.sty \

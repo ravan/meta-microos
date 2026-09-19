@@ -1,16 +1,15 @@
 SUMMARY = "Create beautiful scientific Persian/Latin posters using TikZ"
 DESCRIPTION = "This package is designed for making beautiful scientific \
 Persian/Latin posters. It is a fork of baposter by Brian Amberg \
-and Reinhold Kainhofer available at \
-http://www.brian-amberg.de/uni/poster/. baposter's users should \
-be able to compile their poster using xebaposter (instead of \
-baposter) without any problem."
+and Reinhold Kainhofer available at LaTeX Poster Template. \
+baposter's users should be able to compile their poster using \
+xebaposter (instead of baposter) without any problem."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.53svn63513"
+PV = "2026.226.2.54svn75290"
 
-RPM_NAME = "texlive-xebaposter-2023.209.2.53svn63513-53.2.noarch.rpm"
-RPM_HASH = "82478d1b6a1e4d8ecb2854a61d29e9b09c41f06d756d96fb7423cdc05cbe62f2024c3d2bf4e7b92cd6564b1a0c569d98d1cfed1b05f6a3df2f6318b6c3956a08"
+RPM_NAME = "texlive-xebaposter-2026.226.2.54svn75290-59.4.noarch.rpm"
+RPM_HASH = "f12c84856567cfe90cc84f4319db0b08715fa49d7b4e9377a52c108da077820f6adeb199add6b563c9faabb6f5de8a47ebe858d07f7762cf26f5eb87377e1c5c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xebaposter.cls \

@@ -2,10 +2,10 @@ SUMMARY = "Plugins for the Linux kernel trace event library"
 DESCRIPTION = "This package provides plugins for the libtraceevent library."
 LICENSE = "GPL-2.0-only & LGPL-2.1-only"
 
-PV = "1.7.3"
+PV = "1.9.0"
 
-RPM_NAME = "libtraceevent1-plugins-1.7.3-1.1.aarch64.rpm"
-RPM_HASH = "881c44dd761ba6c503aad6c561ef4511c63d0f76d57998ea8cb99f24fc6875db5c48a24b6c67ccf9645f0db58f397460241607bf0ff3b507660cb5d92e867a77"
+RPM_NAME = "libtraceevent1-plugins-1.9.0-1.3.aarch64.rpm"
+RPM_HASH = "c016ede1afc13192ed6a85c33d96b27886be423938a66b166449ac863dd6f9050a05db3bd4166ac06627517aacfc2a8138b54ce969508f3f1fca41c601004c49"
 
 RPROVIDES:${PN} += "libtraceevent1-plugins"
 

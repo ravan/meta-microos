@@ -16,8 +16,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0+"
 
 PV = "1.60000"
 
-RPM_NAME = "perl-Perl6-Junction-1.60000-3.28.noarch.rpm"
-RPM_HASH = "0358db22f57208857ae0bc883f631e38444010b2cf4cd94d21b847b10b7d2edb7b64ffec72271e9937cf33cdf39f5609b0070e348c5cb4428f4addc9da7039cb"
+RPM_NAME = "perl-Perl6-Junction-1.60000-3.42.noarch.rpm"
+RPM_HASH = "42bed721b5c7f628fb8f2099954f8ab0b6c556e7f8a2c06a138501049a7b0d1c658a86736369628a5d9558d23733f0453cbdebc888f3976a5eaa6104eb76f1d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Perl6--Junction \
@@ -28,6 +28,6 @@ perl-Perl6--Junction--None \
 perl-Perl6--Junction--One \
 perl-Perl6-Junction"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

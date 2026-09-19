@@ -1,14 +1,17 @@
 SUMMARY = "Portuguese"
-DESCRIPTION = "Support for Portuguese."
+DESCRIPTION = "Support for Portuguese and Brazilian Portuguese."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.svn54074"
+PV = "2026.222.svn73303"
 
-RPM_NAME = "texlive-collection-langportuguese-2023.208.svn54074-60.1.noarch.rpm"
-RPM_HASH = "6ca1c56e2cc180ceb85545dacdfe162cb98421b3014484b157f45f1f69af272e1a66b653d29d6ba1d4fa3750fb422368a5440e6295098c11d838a408c6d1d879"
+RPM_NAME = "texlive-collection-langportuguese-2026.222.svn73303-68.2.noarch.rpm"
+RPM_HASH = "b09a983ec69ddfc56c76c0ecbcf94308fc4f03c0656c867c05eab8b18548e7cf43ecc51d152f6383c0645ab32ca9389fd9622455babcd177854734c9b943e239"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "texlive-collection-langportuguese"
+RPROVIDES:${PN} += "pattern- \
+pattern-category- \
+tex-portuguese \
+texlive-collection-langportuguese"
 
 RDEPENDS:${PN} += "texlive-babel-portuges \
 texlive-beamer-tut-pt \
@@ -21,6 +24,8 @@ texlive-latexcheat-ptbr \
 texlive-lshort-portuguese \
 texlive-numberpt \
 texlive-ordinalpt \
+texlive-ptlatexcommands \
+texlive-tabularray-abnt \
 texlive-xypic-tut-pt"
 
 inherit rpm

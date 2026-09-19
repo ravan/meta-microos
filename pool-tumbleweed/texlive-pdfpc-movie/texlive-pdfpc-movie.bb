@@ -8,10 +8,10 @@ and Arch. The package depends on etoolbox, hyperref, and \
 pgfkeys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48245"
+PV = "2026.226.1.0svn67201"
 
-RPM_NAME = "texlive-pdfpc-movie-2023.209.1.0svn48245-52.1.noarch.rpm"
-RPM_HASH = "1a2d962e788350d6a8634d9e276a2dc35d5654f3347279ff2fcac26935e7ef447c6d8bcf62f3e95a8909233901621a0f350352b7a404237a0dd776e64f486511"
+RPM_NAME = "texlive-pdfpc-movie-2026.226.1.0svn67201-58.2.noarch.rpm"
+RPM_HASH = "5c9bc66e2ab7ea21fd4bc13fab7d029f2026c65d1292a23e8691b43583c43b14a449930b448cfe52515dbf52ec7cff65526a0e189cacc645e5d33d5bc3e1dee3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pdfpc-movie.sty \

@@ -4,8 +4,8 @@ LICENSE = "SUSE-Public-Domain"
 
 PV = "0.6.2"
 
-RPM_NAME = "ghc-control-monad-free-doc-0.6.2-4.8.noarch.rpm"
-RPM_HASH = "198b1589f53dc820a5ec33bfd87fd89d4c93ea3f602136f76b5914707ed3f7f0dfb9718bd77f59b9e53658917a503904fe3dee7f6c51a72b425313db5e498f7b"
+RPM_NAME = "ghc-control-monad-free-doc-0.6.2-4.35.noarch.rpm"
+RPM_HASH = "b769e63956b914497f9d175e1cb5516c21dc432b85d9f09bb5a2926520ffbabce4634cc0f8b760539c49335636da016338a15a923f7893658c243161547cef41"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-control-monad-free-doc"

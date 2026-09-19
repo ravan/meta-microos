@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.40.0"
+PV = "2.41.3+4"
 
-RPM_NAME = "libgtop-devel-2.40.0-4.4.aarch64.rpm"
-RPM_HASH = "cad2e7a53ba8c79c8cebf93ab4087f44a5c15d546fbea8cfdae26c5a42c2bb6ce20d04764417aa4d1fb1c4fc0f096fbdb00db6aca07463fe4e2359b6eeb754a7"
+RPM_NAME = "libgtop-devel-2.41.3+4-3.3.aarch64.rpm"
+RPM_HASH = "ee358fc3f004b7448b202915719a94ed1ee084cf23c529b87090b7fa311dec5c0dd05b4884650d30eec3851255031919ce5971e57d9092c559fde084c333d447"
 
 RPROVIDES:${PN} += "libgtop-devel \
 pkgconfig-libgtop-2.0"

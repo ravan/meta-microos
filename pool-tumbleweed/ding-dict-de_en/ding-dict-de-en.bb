@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.9"
 
-RPM_NAME = "ding-dict-de_en-1.9-2.2.noarch.rpm"
-RPM_HASH = "467a6b0d95470f65e7fdff8e4924fc22333f5164aef6794bbf1ab56d8b3f3c404a2b6ecfa582e0fafc7a619b500e6a04982d4c14e0f1ca039b82037606b311b7"
+RPM_NAME = "ding-dict-de_en-1.9-3.9.noarch.rpm"
+RPM_HASH = "665c796948d6ae92ebf45e3c563592e4ba9ad1c47868c3a93b0676d1a3200a2f671b83bee6abe12b1f61105f73ba0cf5789dfe7baac93923d989bfb6d77ccc48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ding-dict-de-en"

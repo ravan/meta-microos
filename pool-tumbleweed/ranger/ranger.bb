@@ -8,18 +8,18 @@ The default keys are similar to those of Vim, Emacs and Midnight Commander, \
 though ranger is easily controllable with just the arrow keys or the mouse."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.9.3+git20230416.478d5b6"
+PV = "1.9.4+git20250910.3f7a3546"
 
-RPM_NAME = "ranger-1.9.3+git20230416.478d5b6-2.2.noarch.rpm"
-RPM_HASH = "1443a2b2a66cd80edca14115f009afa3d9332d9f8385ad082ad101a6cfcd65a0c106aba78e711df5f3a9dd92cfe10be191cd7134c2da29a1cbf382663915247a"
+RPM_NAME = "ranger-1.9.4+git20250910.3f7a3546-1.3.noarch.rpm"
+RPM_HASH = "1582f7f28d3e874db4c4e0b086b1d256177f42f1e6c6a6ec52aadaef5fd9366fc1868821aff46c0d629c1b784e951ca5931320248620a632205c1263083b555f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-ranger-fm \
+RPROVIDES:${PN} += "python3.13dist-ranger-fm \
 python3dist-ranger-fm \
 ranger"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
-/usr/bin/python3 \
+/usr/bin/python3.13 \
 file \
 python-abi \
 python3-curses"

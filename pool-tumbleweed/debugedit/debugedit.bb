@@ -3,10 +3,10 @@ DESCRIPTION = "debugedit provides programs and scripts for creating debuginfo an
 collect build-ids and rewrite source paths in DWARF data for debugging, tracing and profiling."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "5.0"
+PV = "5.1"
 
-RPM_NAME = "debugedit-5.0-5.5.aarch64.rpm"
-RPM_HASH = "836d7cda59ce72f57f8d7fc4aa15a1308d20446b886da050e845b1cc8da2cff25c5f2058cd292c559ab4440a88c227442be930c81dfe0bd0abaf0ede439058a9"
+RPM_NAME = "debugedit-5.1-1.9.aarch64.rpm"
+RPM_HASH = "a5fd60a036c4e6f7cc8bd3f92f17d63209c5d522616d23b6309f2d9c7898f5f928f56426a86738aec35fe725b220816ee0f40f4ba2ae5192c925104f79fd9399"
 
 RPROVIDES:${PN} += "debugedit"
 

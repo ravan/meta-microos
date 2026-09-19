@@ -13,17 +13,17 @@ the GNU fileutils, sh-utils, and textutils packages. \
   uptime users vdir wc who whoami yes"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.4"
+PV = "9.11"
 
-RPM_NAME = "coreutils-systemd-9.4-1.1.aarch64.rpm"
-RPM_HASH = "e36d2926d9b5935c4d92915931ad8a481f70886793b6e6630e263b2ffb179bac19477750de27de28f19a083f8105b719d510432c1bec9dc9e1384842e7b29287"
+RPM_NAME = "coreutils-systemd-9.11-5.1.aarch64.rpm"
+RPM_HASH = "710b07877a0799ceffb29a21d028102f5667a57e6b92a21011b0bf9d1891cb3ecc41ba736ee02e2f7305363324f0585a669428fc9913c68fa9b66b9da3987df4"
 
 RPROVIDES:${PN} += "coreutils-/usr/bin/who \
 coreutils-systemd"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-coreutils \
+RDEPENDS:${PN} += "coreutils \
 ld-linux-aarch64.so.1 \
-libc.so.6"
+libc.so.6 \
+libsystemd.so.0"
 
 inherit rpm

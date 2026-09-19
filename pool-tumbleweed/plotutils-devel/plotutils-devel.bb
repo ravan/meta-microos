@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "2.6"
 
-RPM_NAME = "plotutils-devel-2.6-29.4.aarch64.rpm"
-RPM_HASH = "4db84d6e7b1c71a362103c3235922b1e926614c72304d533859c92203415b8a0673dbfc20a0999f4f9de28b30c8278910cc93de4442f9666fbff04a46860f588"
+RPM_NAME = "plotutils-devel-2.6-31.7.aarch64.rpm"
+RPM_HASH = "c7f44a70608bbd15ec1c3402b0a0349151285fec68cff7077beeb99877a7454c6103cc99976211e62e1d7d6cf2388909b05c23ddff0acf2363d9150ce0a63cb0"
 
 RPROVIDES:${PN} += "plotutils-devel"
 

@@ -3,10 +3,10 @@ DESCRIPTION = "GUPnP A/V is a small utility library that aims to ease the handli
 implementation of UPnP A/V profiles."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "0.14.1"
+PV = "0.14.5"
 
-RPM_NAME = "gupnp-av-0.14.1-3.1.aarch64.rpm"
-RPM_HASH = "f19fcad70b23b0f2af4e0c66b8b22aec26f5826400a73b96eb1eefd8838c83562df205a3d65e5187ee8da25bdf7831641761d23d3444f64bb3bf49f3bb362151"
+RPM_NAME = "gupnp-av-0.14.5-1.3.aarch64.rpm"
+RPM_HASH = "9e43ed0a1236e1f81bf85e8a24a232a7b6031117b2776afda2c3bdd42d5ac1f01e9668dd8ae3c11c920942cc036a0640470423f0dc9d84bfee97f2037965cacc"
 
 RPROVIDES:${PN} += "gupnp-av"
 

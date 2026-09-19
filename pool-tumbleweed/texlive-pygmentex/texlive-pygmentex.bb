@@ -6,16 +6,16 @@ kinds of software such as forum systems, wikis or other \
 applications that need to prettify source code."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.11svn64131"
+PV = "2026.226.0.0.11svn64131"
 
-RPM_NAME = "texlive-pygmentex-2023.209.0.0.11svn64131-54.2.noarch.rpm"
-RPM_HASH = "b17bdbfdc0cdba1d5df0521241240986eacca68f9f568097029633a99b73797e1d6e409d235019e17b39102d2a46e6951095e958ea47fd7fd071ece5d1eeaac8"
+RPM_NAME = "texlive-pygmentex-2026.226.0.0.11svn64131-60.4.noarch.rpm"
+RPM_HASH = "e21b16bb9f04c9cc9a6455fc584941df8a23bfee71766d472eb950b474e50a33426ea39e8fa109cd5ce4cbc0715f7f733bffd875ef76fe590e70518889226cea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pygmentex.sty \
 texlive-pygmentex"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 coreutils \
 ed \

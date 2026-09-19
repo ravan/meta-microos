@@ -12,13 +12,18 @@ style. A LaTeX package (citation-style-language.sty) is \
 provided to communicate with the processor."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3.0svn65878"
+PV = "2026.226.0.0.9.1svn77682"
 
-RPM_NAME = "texlive-citation-style-language-2023.209.0.0.3.0svn65878-54.1.noarch.rpm"
-RPM_HASH = "d16c931937658d49ad37c79d3e8a1ee7bd4ec692f477f79386b245faf17877d1ae497aa09d4297eb6535a5271d2194dbccb3ceefe07515244f0d70882fd47cb1"
+RPM_NAME = "texlive-citation-style-language-2026.226.0.0.9.1svn77682-60.2.noarch.rpm"
+RPM_HASH = "6a93e6c9ff7bc71576b480a5e05693cfbc11b23a3d8adc922c5ed355a7b9405780fdf51e39ed118add911d7f5cbd50ac8c8a48e01e4680e3c523ed7e69036277"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-citation-style-language.sty \
+RPROVIDES:${PN} += "tex-citation-style-language-bib.sty \
+tex-citation-style-language-cite.sty \
+tex-citation-style-language-compatible.sty \
+tex-citation-style-language-data.sty \
+tex-citation-style-language-init.sty \
+tex-citation-style-language.sty \
 texlive-citation-style-language"
 
 RDEPENDS:${PN} += "/usr/bin/luatex \
@@ -30,18 +35,16 @@ findutils \
 grep \
 sed \
 tex-expl3.sty \
-tex-filehook.sty \
-tex-l3keys2e.sty \
 tex-url.sty \
 tex-xparse.sty \
 texlive \
 texlive-citation-style-language-bin \
-texlive-filehook \
 texlive-filesystem \
 texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3kernel \
 texlive-l3packages \
+texlive-lua-tinyyaml \
 texlive-lua-uca \
 texlive-lualibs \
 texlive-luatex \

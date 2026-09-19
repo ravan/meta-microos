@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the SQLite 3 backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-sqlite3-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "e3975ec21071be000b1343c0ef8894627ea09cf9605ed7c9f8d86b55f1d5c80a15c40061477c584a66df64fc9c508da4cc853fd0d5fe4e11938ef3a5d1a30f9e"
+RPM_NAME = "pdns-backend-sqlite3-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "d6841b0a8fcf01b3965aeb989206cba54db3f3ff2de5166018b5dbda51e28036820467889504367a05be5198650e900ec007e440ccf14951c465aa361b240c2c"
 
 RPROVIDES:${PN} += "libgsqlite3backend.so \
 pdns-backend-sqlite3"

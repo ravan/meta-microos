@@ -4,10 +4,10 @@ SAM, BAM, and CRAM formats, including indexing, variant calling (in conjunction 
 with bcftools), and a simple alignment viewer."
 LICENSE = "MIT"
 
-PV = "1.16.1"
+PV = "1.21"
 
-RPM_NAME = "samtools-1.16.1-1.4.aarch64.rpm"
-RPM_HASH = "f83078f7d540d374dcf424d1a66f5134e87a9ac8467d7102a277932aeef7a0505804455e0a8a656a6c37ba59f40eded590b6605aa268cf368fb8434645b0bf53"
+RPM_NAME = "samtools-1.21-2.1.aarch64.rpm"
+RPM_HASH = "a228905116ad9cb3f97f3b247c7e22117dc957911bf234bc8e6b984576e9429a69d06f166078f3130187a58dfcf553108c4e8947f388e74d69845a430fb5ea03"
 
 RPROVIDES:${PN} += "samtools"
 
@@ -16,12 +16,11 @@ bgzip \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libhts.so.3 \
-libhts3 \
 libm.so.6 \
 libncursesw.so.6 \
 libtinfo.so.6 \
 libz.so.1 \
-perl \
+perl-base \
 tabix"
 
 inherit rpm

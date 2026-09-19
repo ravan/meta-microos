@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pst-bar"
 DESCRIPTION = "This package includes the documentation for texlive-pst-bar"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.93svn64331"
+PV = "2026.226.0.0.93svn64331"
 
-RPM_NAME = "texlive-pst-bar-doc-2023.209.0.0.93svn64331-53.1.noarch.rpm"
-RPM_HASH = "3c06244273f4f3783a7ffd30ae6bc0821fbeca71c77eec178ce27d7468a3ec5d4e187eea8d162b6c207a83825293891a94c70da143b76eb43d98e81927ef12d2"
+RPM_NAME = "texlive-pst-bar-doc-2026.226.0.0.93svn64331-59.2.noarch.rpm"
+RPM_HASH = "5b8c589a54aa37079176547dd9113cc744aab60bc52af6966ad51f152ff78d6206074d490f1ef90f091c522b98384d42bdacaedf2ae5a05972a52c425725dc56"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pst-bar-doc"

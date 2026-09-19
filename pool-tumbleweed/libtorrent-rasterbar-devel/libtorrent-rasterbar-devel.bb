@@ -7,10 +7,10 @@ with a working example client. \
 This package holds the development files for libtorrent-rasterbar."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.0.9"
+PV = "2.0.14"
 
-RPM_NAME = "libtorrent-rasterbar-devel-2.0.9-1.3.aarch64.rpm"
-RPM_HASH = "fbc6e33f8e2a5e084b9b1c4d1b348b208ea7535f1e249580742b4aa5dd5d785d27596ba750e54112a2be8fa2480a007acf634ace4b6406c9d85df245efa5c34e"
+RPM_NAME = "libtorrent-rasterbar-devel-2.0.14-1.1.aarch64.rpm"
+RPM_HASH = "35aaaf2a47a615e9600a3964f113aa84f54b53b36882e54ac51dff2e4adb7969bb721361fccafb8f15cd1a79beef734674c64b28249429904a812c44fcf5cfa1"
 
 RPROVIDES:${PN} += "cmake-LibtorrentRasterbar \
 libtorrent-rasterbar-devel \

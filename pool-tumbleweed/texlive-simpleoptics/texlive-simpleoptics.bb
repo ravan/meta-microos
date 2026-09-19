@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides some of macros for drawing simple lenses \
 and mirrors for use in optical diagrams."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1.1svn62977"
+PV = "2026.226.1.1.1svn62977"
 
-RPM_NAME = "texlive-simpleoptics-2023.209.1.1.1svn62977-54.1.noarch.rpm"
-RPM_HASH = "422acd39f583f9a5d38eed944c59e0cba921c07f4abda50b04837e597b0b464d791d90760244a9fea728edbf5996f90b08edd242ef5e00cce58ea1a921155932"
+RPM_NAME = "texlive-simpleoptics-2026.226.1.1.1svn62977-60.2.noarch.rpm"
+RPM_HASH = "7b81576dd6c18bd782c8dfbd58701f8bdf9c7b9a5382c9b7c62d40144a688cf80ffe9276a97f8efd0d9b6a1c2566d3a368bb3da78bcc461bd62ad60e0a93c48a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-simpleoptics.sty \

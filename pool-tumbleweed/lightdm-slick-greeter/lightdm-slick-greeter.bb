@@ -5,8 +5,8 @@ LICENSE = "CC-BY-SA-3.0 & GPL-3.0-only"
 
 PV = "1.6.1"
 
-RPM_NAME = "lightdm-slick-greeter-1.6.1-1.4.aarch64.rpm"
-RPM_HASH = "a29554191c883de4b0e714ee4e341aca027275cbd5f291e3b58ea33808b1e73b4c6eff448a91cab3262fac28c0b978e52570c21361c5cdac35bf2ea2257dbfb4"
+RPM_NAME = "lightdm-slick-greeter-1.6.1-2.10.aarch64.rpm"
+RPM_HASH = "dda8d4d221e7b24defdfd823cdd983d79b32c5e5446ff8cda19ae9746f695c657e6fea6a535b59a5e08d573f576c93cafebf53b85c5e5bec0271be8d6874d3d3"
 
 RPROVIDES:${PN} += "lightdm-greeter \
 lightdm-slick-greeter"

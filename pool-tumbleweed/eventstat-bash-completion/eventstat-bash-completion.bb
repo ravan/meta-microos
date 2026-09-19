@@ -2,10 +2,10 @@ SUMMARY = "Bash Completion for eventstat"
 DESCRIPTION = "Bash completion script for eventstat."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "0.04.13"
+PV = "0.06.00"
 
-RPM_NAME = "eventstat-bash-completion-0.04.13-1.5.noarch.rpm"
-RPM_HASH = "d077a4611619bc1d13b26b719091e71ef1401a311e9a69aedd83595461b2e85acc99deb92bc03865d9548680844413d7b9a2f285f512d593f70ec115ebf185cc"
+RPM_NAME = "eventstat-bash-completion-0.06.00-1.10.noarch.rpm"
+RPM_HASH = "73ed63a2eae48c6c2940194bd9a84a41124e6b90a84b1702cc69c81e01cb851e4312e5d20e7813c57e1f83fd57389e599adc2fe5c1d266fc070ef21cd5670abc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "eventstat-bash-completion"

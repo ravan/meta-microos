@@ -16,10 +16,10 @@ DESCRIPTION = "This package contains the following Vamp plugins: \
    aims to place with strictly correct timing"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.1.0"
+PV = "4.0.0"
 
-RPM_NAME = "rubberband-vamp-3.1.0-1.4.aarch64.rpm"
-RPM_HASH = "41c01c06e7ab61e0115db936ed755c8e7c774668bb3e9723d0f59cf6cb12584339caa286d1fdca62bf4e8aca4fa21c9017081c498bbd7f08897df85518f0f4e7"
+RPM_NAME = "rubberband-vamp-4.0.0-1.6.aarch64.rpm"
+RPM_HASH = "87572cce9daf08eb69deef9491a7e8abc91059da9d722b24d3d7f982f07b6a022dfd18afd12e232e41686de325bba4e58129eff308b0109c80da5ddff0bf3b65"
 
 RPROVIDES:${PN} += "rubberband-vamp"
 
@@ -28,7 +28,7 @@ libc.so.6 \
 libfftw3.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-librubberband2 \
+librubberband3 \
 libstdc++.so.6 \
 libvamp-sdk.so.2"
 

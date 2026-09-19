@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-babel-breton"
 DESCRIPTION = "This package includes the documentation for texlive-babel-breton"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0hsvn30257"
+PV = "2026.226.1.0isvn77470"
 
-RPM_NAME = "texlive-babel-breton-doc-2023.209.1.0hsvn30257-54.1.noarch.rpm"
-RPM_HASH = "d6f2352278bf0d9f557b1e4d0bc40fe2f8d6bbf67f15a4497fa98996664e1afaa62f37dd203864de3314a647ce2f6cf73b556fd4c3d0b452188f828e5ec8dc55"
+RPM_NAME = "texlive-babel-breton-doc-2026.226.1.0isvn77470-60.2.noarch.rpm"
+RPM_HASH = "ea84ee44ca54bb26353ca6729b954c65c5c1ccfa7ff31a013fe233d5ef09db4926e86be35f8b25a66cac16f33ce1ba6a265f6c1776991820f2cdaee707bb1495"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-babel-breton-doc"

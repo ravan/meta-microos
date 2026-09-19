@@ -7,10 +7,10 @@ This package contains the development headers for the library found \
 in libXmu6 and libXmuu1."
 LICENSE = "MIT"
 
-PV = "1.1.4"
+PV = "1.3.1"
 
-RPM_NAME = "libXmu-devel-1.1.4-1.3.aarch64.rpm"
-RPM_HASH = "84f135f841e15e1c669147fde3726f294cd5e4487aeb217ccff881dc38f746e0f8c1b5e65e0c94a82e2f5885d259902291fa96a1de7e43abd95269c665cddcb1"
+RPM_NAME = "libXmu-devel-1.3.1-1.4.aarch64.rpm"
+RPM_HASH = "d3a1a02b944b74bbeec2e86defebaabd7537059de6e5bee6110df1b4766126fedbbb10cefaef281c38ca3943d4f21f8861c4705a9fd94556fe4b56656a7ad472"
 
 RPROVIDES:${PN} += "libXmu-devel \
 pkgconfig-xmu \

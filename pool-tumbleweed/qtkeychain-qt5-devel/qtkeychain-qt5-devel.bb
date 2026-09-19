@@ -4,10 +4,10 @@ DESCRIPTION = "qtkeychain can be used to store passwords. \
 This package contains development files for libqtkeychain."
 LICENSE = "BSD-2-Clause"
 
-PV = "0.14.1"
+PV = "0.17.0"
 
-RPM_NAME = "qtkeychain-qt5-devel-0.14.1-1.1.aarch64.rpm"
-RPM_HASH = "d8996ef25398d52cc34d7b184c5b8d91c1e84796a2604384a5b0c190282f89fdc84f1bd353dea80853cb7e83f8dad14e4988fb4335e77137d757cbfd0857c11b"
+RPM_NAME = "qtkeychain-qt5-devel-0.17.0-1.1.aarch64.rpm"
+RPM_HASH = "18eaf732c5aef5ee53ab6827f40e5f6df64e3c1cc0c35dff22f7141cb188d30cb98c028cef161d0dbf58b762045eee98e97933d5b1dca244c8865dcf6d456dd2"
 
 RPROVIDES:${PN} += "cmake-Qt5Keychain \
 qtkeychain-qt5-devel"

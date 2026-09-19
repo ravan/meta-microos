@@ -1,11 +1,11 @@
-SUMMARY = "Minimal Appliance Base"
+SUMMARY = "Minimal Appliance Base (32bit)"
 DESCRIPTION = "The 32bit pattern complementing minimal_base."
 LICENSE = "MIT"
 
-PV = "20200505"
+PV = "20241218"
 
-RPM_NAME = "patterns-base-minimal_base-32bit-20200505-42.1.aarch64.rpm"
-RPM_HASH = "41dcec5c67154b7dff9e5dfaeb3aadd2608ef381b4937fd0d64487d1c3bfab20c3d5ceefb9dd97e378eb4c76c5c89c62ed9a5401e935b2b91a72f9e814e64b3e"
+RPM_NAME = "patterns-base-minimal_base-32bit-20241218-34.1.aarch64.rpm"
+RPM_HASH = "711b2100a33d6c1076e47fd30956c4388bd602b3130b420471de037048a10099e8f9f17d7857e6dafe12bb7304ed3788a7c005a6348e307686d2d4c319edb522"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-base-minimal-base-32bit"

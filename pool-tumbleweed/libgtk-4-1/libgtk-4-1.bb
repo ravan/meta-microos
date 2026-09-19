@@ -4,17 +4,14 @@ Offering a complete set of widgets, GTK+ is suitable for projects \
 ranging from small one-off projects to complete application suites."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "4.12.0"
+PV = "4.22.5"
 
-RPM_NAME = "libgtk-4-1-4.12.0-2.1.aarch64.rpm"
-RPM_HASH = "bb176c99af8ca2634a558ba8341c6b0352fb29b6d8f6a90f3e957c2882389b69b89ea87fc8334d802eeba8c1e61c54912cf5924161eb3532b99a0efb45253dd8"
+RPM_NAME = "libgtk-4-1-4.22.5-1.1.aarch64.rpm"
+RPM_HASH = "db62ac4d384955ffb38bc92284b357434d89488db589ae8e0c1a6f4293a9aa62a50993fe0a80321a13ce69055af28f9cf7528edb36325fc45c08ed7578bf05ba"
 
 RPROVIDES:${PN} += "gtk4 \
 libgtk-4-1 \
-libgtk-4.so.1 \
-libmedia-gstreamer.so \
-libprintbackend-cups.so \
-libprintbackend-file.so"
+libgtk-4.so.1"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
 adwaita-icon-theme \
@@ -45,10 +42,12 @@ libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgraphene-1.0.so.0 \
+libgstallocators-1.0.so.0 \
 libgstgl-1.0.so.0 \
-libgstplayer-1.0.so.0 \
+libgstplay-1.0.so.0 \
 libgstreamer-1.0.so.0 \
 libgstvideo-1.0.so.0 \
+libharfbuzz-subset.so.0 \
 libharfbuzz.so.0 \
 libjpeg.so.8 \
 libm.so.6 \
@@ -57,7 +56,8 @@ libpangocairo-1.0.so.0 \
 libpangoft2-1.0.so.0 \
 libpng16.so.16 \
 libtiff.so.6 \
-libtracker-sparql-3.0.so.0 \
+libtinysparql-3.0.so.0 \
+libvulkan.so.1 \
 libwayland-client.so.0 \
 libwayland-egl.so.1 \
 libxkbcommon.so.0"

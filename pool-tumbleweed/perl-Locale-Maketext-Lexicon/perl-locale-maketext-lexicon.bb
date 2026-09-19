@@ -12,8 +12,8 @@ LICENSE = "MIT"
 
 PV = "1.00"
 
-RPM_NAME = "perl-Locale-Maketext-Lexicon-1.00-1.28.noarch.rpm"
-RPM_HASH = "7d4ab2a74b220be0885f418f9b3bb95afb7f7362dc182a9afc92b982ad04ea729883c02e116fb47ba27687734750e823e54644429f828d272d9ff30f92e4b91c"
+RPM_NAME = "perl-Locale-Maketext-Lexicon-1.00-1.43.noarch.rpm"
+RPM_HASH = "28ba8c2464b91e7ddf2658af433f3eb5e8cd78edf30f283c99cf17fc27abba09296daf4767ac031f9e336900df66c493371d5a54afa47e49e021427611979c84"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Locale--Maketext--Extract \
@@ -41,7 +41,7 @@ perl-Locale--Maketext--Lexicon--Tie \
 perl-Locale-Maketext-Lexicon"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-Locale--Maketext"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-splines"
 DESCRIPTION = "This package includes the documentation for texlive-splines"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn15878"
+PV = "2026.226.0.0.2svn15878"
 
-RPM_NAME = "texlive-splines-doc-2023.209.0.0.2svn15878-58.1.noarch.rpm"
-RPM_HASH = "56e1375871d6109b384b067d2be4e5bd664ed7846b1af720b6bd65d1c2c10c4bd470bd1cc0d1fe5669a9e0cb2c6b91fc3d263538012159f492976893be4df06b"
+RPM_NAME = "texlive-splines-doc-2026.226.0.0.2svn15878-64.2.noarch.rpm"
+RPM_HASH = "33f2f9b3503433ab6d31ab11604ba04df8fd7cfc8d3afb3d104e43225c04b4be472ef63ef5b604354cf7c9cbaa9e5b13d9336bde744e67be81be6eda5401deba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-splines-doc"

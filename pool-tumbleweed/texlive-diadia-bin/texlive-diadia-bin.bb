@@ -2,10 +2,10 @@ SUMMARY = "Binary files of diadia"
 DESCRIPTION = "Binary files of diadia"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.20230311.svn37645"
+PV = "2026.20260301.svn37645"
 
-RPM_NAME = "texlive-diadia-bin-2023.20230311.svn37645-93.2.noarch.rpm"
-RPM_HASH = "f283e52f49322abb61bbd5b4fba5a6e51f53b27a0eb761b5d014348760b8c72fdd5463a6a6c8c3b4aa613adccd48cb26a9ab778e9920116592177ecd36cc5232"
+RPM_NAME = "texlive-diadia-bin-2026.20260301.svn37645-120.4.noarch.rpm"
+RPM_HASH = "a643f73398f7ce6b1a1205b85dcf35b2debab4a505f5bac7eb6f8d7a2f8b98355b0a69baec1b38f2410aad8ee11dcb75a86310f42214726a90fbdf121ae5eb7d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-diadia-bin"

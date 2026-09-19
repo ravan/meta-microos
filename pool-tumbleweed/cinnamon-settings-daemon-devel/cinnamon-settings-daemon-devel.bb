@@ -4,10 +4,10 @@ DESCRIPTION = "This package contains the settings Daemon for the Cinnamon Deskto
 This package contains development files for cinnamon-settings-daemon."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-only"
 
-PV = "5.2.0"
+PV = "6.4.3"
 
-RPM_NAME = "cinnamon-settings-daemon-devel-5.2.0-2.8.aarch64.rpm"
-RPM_HASH = "9af3be5fb39873131d69cfa63f04a686748d41bf8fbe56809926ede06ad723c77d1761909e54a840705f2326b33c21ff8c0bfef057357e4675fa4f7bf7a631b5"
+RPM_NAME = "cinnamon-settings-daemon-devel-6.4.3-2.4.aarch64.rpm"
+RPM_HASH = "7ef413b156bf44497cf557dde71174238d4ac36b097bef63c03d3d2d9d2ab4d96db12ec5a471f2563d4fdcbed0c160d43702fc60dea521ce92442bd86bcfb26d"
 
 RPROVIDES:${PN} += "cinnamon-settings-daemon-devel \
 pkgconfig-cinnamon-settings-daemon"

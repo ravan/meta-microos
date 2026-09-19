@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-only"
 
 PV = "8.0"
 
-RPM_NAME = "4pane-lang-8.0-1.5.noarch.rpm"
-RPM_HASH = "a460e99218cccaf05fe2df7278f0719de7fea34becb026554f948d2c8d43172db37059c9d27a77d092defe8b9f0b03d6c63546fd363a734858636ec7d4d1b788"
+RPM_NAME = "4pane-lang-8.0-2.6.noarch.rpm"
+RPM_HASH = "6c088b1e9e7f7fd1825d9eabdfcb71343d125d5bc31455faa50dc6a119ea3b36a26f0caf1d5a5ee907d874c40086eedc315c984a27914f592917067b985c3bed"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "4pane-lang \

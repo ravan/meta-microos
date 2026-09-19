@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "xautolock-2.2-2.22.aarch64.rpm"
-RPM_HASH = "6a385306d4008ad9ce206f19b67b6d5bae97c27c27799de5f69ef224a5bb1caad0f0712771dd96b3b71af9bbe618f85e9361e958acd7918058180320a2d4b757"
+RPM_NAME = "xautolock-2.2-3.9.aarch64.rpm"
+RPM_HASH = "83eb282890ebfe796fbdc268a68368b95da79231c367708b4af2bc90f7520efbe3d9202dd13ad3f4b0a495a5d4252f9fb62fefe564f1501b75e68b8e15830c38"
 
 RPROVIDES:${PN} += "xautolck \
 xautolock"

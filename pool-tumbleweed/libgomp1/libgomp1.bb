@@ -5,10 +5,10 @@ were auto-parallelized via the -ftree-parallelize-loops compiler \
 option."
 LICENSE = "GPL-3.0-or-later-with-GCC-exception-3.1"
 
-PV = "13.2.1+git7683"
+PV = "16.2.0+git9497"
 
-RPM_NAME = "libgomp1-13.2.1+git7683-2.1.aarch64.rpm"
-RPM_HASH = "533c2eee135130644a9b739674c9deb6dcb1536873affaeee16369c48afe77d56fb7e924ba0a17e5a813704067220d9cf145121928daae5f07389c284fd6a221"
+RPM_NAME = "libgomp1-16.2.0+git9497-3.1.aarch64.rpm"
+RPM_HASH = "ad7bc2dc1a0ca7934087292b03c3178ae34060541beab1b195026a3026f7676f47ea8d04a2f3be2327b57f0101b867293a280f2627ea2b352dc48705534a5f7b"
 
 RPROVIDES:${PN} += "libgomp.so.1 \
 libgomp1"

@@ -4,8 +4,8 @@ LICENSE = "CC-BY-SA-4.0"
 
 PV = "1.1"
 
-RPM_NAME = "german-pos-dict-1.1-1.19.noarch.rpm"
-RPM_HASH = "9d353bc1aa0e3c74bad43a78a6d6c4734b2267a5372ed167eca6999f2ab36df1ff5439122ee0f25a7b4c482f80e47fe2ec340ad4f0b9b2414863987f2aae53f4"
+RPM_NAME = "german-pos-dict-1.1-1.27.noarch.rpm"
+RPM_HASH = "05442e260e408c651ebd8d2f0b84ba375d680bc2d1f5d57138b415506fbde04bea17cc030b84858dc4a8bfde3cda11e0ca748e2b0d38a6149f6062df795e64ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "german-pos-dict \

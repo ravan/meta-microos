@@ -5,13 +5,14 @@ multi-radix multi-precision arithmetic.  It also supports efficient \
 numerical computations inside Coq."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "4.1.1"
+PV = "4.2.2"
 
-RPM_NAME = "flocq-4.1.1-1.5.aarch64.rpm"
-RPM_HASH = "585061c18412ced5e1d8f654fb6cde32dd4045b1745cae122a9cf3e4e4096dc314949a19baa6d16da0078f1bc2c1865df40adb0a10a714ace3f42aac98b41a1b"
+RPM_NAME = "flocq-4.2.2-1.7.aarch64.rpm"
+RPM_HASH = "508addc61208ccba2c29906ad54a6c5ade96935b7404880e7971ac6297d97b365807aba5fa1784d07ea3bd760f2163ade7a5c832f0eba591e70d6fef86892112"
 
 RPROVIDES:${PN} += "flocq"
 
-RDEPENDS:${PN} += "coq"
+RDEPENDS:${PN} += "coq \
+rocq-stdlib"
 
 inherit rpm

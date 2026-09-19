@@ -5,10 +5,10 @@ With this service, your CI server will be able to report the results of the \
 build on the pull-requests opened to your project."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "5.13.3"
+PV = "5.14.1"
 
-RPM_NAME = "pagure-ci-5.13.3-1.5.noarch.rpm"
-RPM_HASH = "a17d0c7f50e53b041f98b0bcc14597bbba3190de7d53f57682340e776e35969aab53779c3b2096c83984da5f743d848e412d9ee9a29553732082e96216a0175c"
+RPM_NAME = "pagure-ci-5.14.1-3.3.noarch.rpm"
+RPM_HASH = "28bf3b2fada384d04200f9ef22af4746f523cffe5cbe1b9fc6833789e025838c16dab6eb65b644d410799cb1f4203a36953fa3bd5b6677b1b3f00e4314f66dd4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pagure-ci"

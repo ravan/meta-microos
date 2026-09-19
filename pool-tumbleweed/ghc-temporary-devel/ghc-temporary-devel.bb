@@ -4,21 +4,21 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.3"
 
-RPM_NAME = "ghc-temporary-devel-1.3-6.3.aarch64.rpm"
-RPM_HASH = "5f596bf0e8baa42e2a930eef5011f7d1bbbebc0b50e051e0176aa79053acab59bcb5307ca1c4546d38df2e179ac4cdbac8e8cf440f09c7b3140fd50e2d119b73"
+RPM_NAME = "ghc-temporary-devel-1.3-6.30.aarch64.rpm"
+RPM_HASH = "93cb7a08d71485ea62824de26a4e705975bc1f17aa2945190b88f6b6ed0e83eaf46cff2f85ec23318a09c11f49a2aa8f51cee1a6681fe188a2aa9fe43bd001a9"
 
-RPROVIDES:${PN} += "ghc-devel-temporary-1.3-Ezu2TwUgvSS2TpaVIHxXuR \
+RPROVIDES:${PN} += "ghc-devel-temporary-1.3-2Osk9MNG2oU9jER7tTbSTz \
 ghc-temporary-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-exceptions-0.10.5 \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-random-1.2.1.1-DaR3VtSJjyj4XXOpfKJ29k \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-2.7.3 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-exceptions-0.10.12-f655 \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-random-1.3.1-JfaDd4Q5FuLKGb9yRr3GDh \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-2.8.8.0-178a \
 ghc-temporary"
 
 inherit rpm

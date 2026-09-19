@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for dust"
 DESCRIPTION = "Fish command line completion support for dust."
 LICENSE = "Apache-2.0"
 
-PV = "0.8.6"
+PV = "1.2.5"
 
-RPM_NAME = "dust-fish-completion-0.8.6-1.2.noarch.rpm"
-RPM_HASH = "4e5e1d36774588b7aaba267fdc28f87ddee9bdc86c16e50322b13791c03a885448cd88087448d841ae80925450e8d6fe6ee4f2a90a8f612b6fd685817a9539ec"
+RPM_NAME = "dust-fish-completion-1.2.5-1.2.noarch.rpm"
+RPM_HASH = "7be924cb76299ff70536a8182715d10685aede96732cdcda445cd33cbac2545d50084cdbd69ac61c76bd04db782c05e8ad43e9d2e5fc55281c592854e89ec03b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dust-fish-completion"

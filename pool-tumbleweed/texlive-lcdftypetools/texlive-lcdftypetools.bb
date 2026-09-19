@@ -19,10 +19,10 @@ you specify; and T1testpage, which creates a PostScript proof \
 for a Type 1 font. It is preliminary software."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn52851"
+PV = "2026.226.svn70015"
 
-RPM_NAME = "texlive-lcdftypetools-2023.209.svn52851-55.1.noarch.rpm"
-RPM_HASH = "c046cd389e4a3f0dd0eae7bffcba20f6b582d9bedf747ef83815c40b8337431e6ec201005e20df59823382d4153387651f8d7bf7f0033041818d1158ccd94479"
+RPM_NAME = "texlive-lcdftypetools-2026.226.svn70015-61.2.noarch.rpm"
+RPM_HASH = "7c5148b136e455a06d253162976f2a73b1567861d1601f899c7502ebcc271a248e940910d743c6c5470c7ee423e1e614c5878733053e716c6c0f0eb96b744763"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "man-cfftot1.1 \

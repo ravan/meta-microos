@@ -5,10 +5,10 @@ currently unmaintained. Please see the README for the procedure \
 to follow if you want to take over the maintenance."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn47632"
+PV = "2026.226.1.1svn47632"
 
-RPM_NAME = "texlive-datetime2-irish-2023.209.1.1svn47632-53.1.noarch.rpm"
-RPM_HASH = "d8ce12a8978eba3389deb3f810c1e530c42ae34eb44578860c20f2c3232f4bef785e87cb1798a1b76fb4c213952fbc48f731b39308974511336340c6a01cafc2"
+RPM_NAME = "texlive-datetime2-irish-2026.226.1.1svn47632-59.2.noarch.rpm"
+RPM_HASH = "1d57046ff5a7fb504933812a72f244e4b340ad5b4bd8ec2619ac2272ae45613b089d9736e3e1fb22c7b012e4e2e523c18f7c29c891cb2932c08893d5db21f9f6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-datetime2-ga-GB.ldf \

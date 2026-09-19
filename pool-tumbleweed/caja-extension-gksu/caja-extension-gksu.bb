@@ -4,10 +4,10 @@ privileges using the context menu when browsing your files with \
 Caja file manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.1"
+PV = "1.28.0"
 
-RPM_NAME = "caja-extension-gksu-1.26.1-2.3.aarch64.rpm"
-RPM_HASH = "702bff58180500b7cb636b7ad3693e6711679f1b29315f3e204d8fe2541a6da029de1072d3482c6e73288bd540a7e0474f5207409d7c11ebad6a5f24f8fb3835"
+RPM_NAME = "caja-extension-gksu-1.28.0-2.11.aarch64.rpm"
+RPM_HASH = "4dba3a5f97a6abe06c4787b2acd9d38433c831f185c7e929c4cf77cc7f3d557c4d936f8590f333479e8e7424a9c0b9937d87fd5384c291079a1521a408c026aa"
 
 RPROVIDES:${PN} += "caja-extension-gksu \
 caja-gksu \

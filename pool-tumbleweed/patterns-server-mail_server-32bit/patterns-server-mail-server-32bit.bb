@@ -2,10 +2,10 @@ SUMMARY = "Mail and News Server"
 DESCRIPTION = "The 32bit pattern complementing mail_server."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-mail_server-32bit-20210330-5.1.aarch64.rpm"
-RPM_HASH = "2800a4ec8de228bc4d7b672ae127d55a45703c28203fe8dbee6591df057964e58cfebec8f0e63baf235572bdf1f5cb9e2d04b634d614b33c5fd93022dfc89bc1"
+RPM_NAME = "patterns-server-mail_server-32bit-20250313-5.2.aarch64.rpm"
+RPM_HASH = "216d706459c3f2c7f43a75e0f5e33972a0f6ea38fafcb2cd22e72f4cccaaafa85b384c0162c91fb0fc4d421f958d28763abd6fb7d763958abfc148accb22e392"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-server-mail-server-32bit"

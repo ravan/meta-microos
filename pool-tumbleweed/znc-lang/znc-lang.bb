@@ -2,10 +2,10 @@ SUMMARY = "Translations for package znc"
 DESCRIPTION = "Provides translations for the 'znc' package."
 LICENSE = "Apache-2.0"
 
-PV = "1.8.2"
+PV = "1.10.3"
 
-RPM_NAME = "znc-lang-1.8.2-3.8.noarch.rpm"
-RPM_HASH = "b40b685bb226ab75e392fb62e9aa5082963dec9870086f36836ca4190a2f1dad1ab55b8762de525bc6204a321d6951748676daaa62dced9716b8522d7a72aca0"
+RPM_NAME = "znc-lang-1.10.3-1.1.noarch.rpm"
+RPM_HASH = "2d6c81638f6a02170ea0240ce728c7a12962393b2d8b9a967eac07016b0843620ce1826a23ef36d1767293055775f16048bacbcdd9fd36112a0a53d8feeea195"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-znc-de-DE \
@@ -15,7 +15,9 @@ locale-znc-fr-FR \
 locale-znc-it-IT \
 locale-znc-pl-PL \
 locale-znc-pt-BR \
+locale-znc-pt-PT \
 locale-znc-ru-RU \
+locale-znc-tr-TR \
 znc-lang \
 znc-lang-all"
 

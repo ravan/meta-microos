@@ -10,17 +10,17 @@ not been tested nor made convenient. Gaupol's user interface is based on the GTK
 toolkit and has been designed to best fit the GNOME desktop environment."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.12"
+PV = "1.15"
 
-RPM_NAME = "gaupol-1.12-1.4.noarch.rpm"
-RPM_HASH = "e89ea6bf0b2afcfbe1601aa0d3d4c6dd8b2631d92c98b1e4919c67152550d96392bf79d073237577c386558fa2dad358b401b83d16ac7d1283549dd652c316eb"
+RPM_NAME = "gaupol-1.15-1.9.noarch.rpm"
+RPM_HASH = "3cf5b3df74b8fb13aa14e28f409bf8257d735b3a2aefbe33d5e02373b26ae32185a5e3405f818a1011e9e1fb04d0a9f30e9da548712b0913baae52a0e0cfd202"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gaupol \
-python3.11dist-gaupol \
+python3.13dist-gaupol \
 python3dist-gaupol"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3 \
 python3-aeidon \

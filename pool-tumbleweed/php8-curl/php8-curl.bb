@@ -4,10 +4,10 @@ with servers of many different types, using protocols of many different \
 types."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-curl-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "e281c60c1a3db3df2c0e7bf0b388cbd88a00a4847e4bf8aee424609178d6d79b828ec593f0cde948aef8fd51d60c5c5993da5512222a54570323c9333eeaf26d"
+RPM_NAME = "php8-curl-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "fb2d8efa3ed64e19e2943925b9afa7fdc6ac88c752d8fa62e23e2bd2bd02348400f7a0bf208d71a2570522f6e4c894a260e6e6fd90506b0a2e2dbdb4ace30106"
 
 RPROVIDES:${PN} += "config-php8-curl \
 php-curl \

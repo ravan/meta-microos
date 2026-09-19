@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "3.2.0"
 
-RPM_NAME = "kdb-lang-3.2.0-7.17.noarch.rpm"
-RPM_HASH = "2187b244aff528a25cacd95fdc2220e215ba94b6a09c611914d26280838d060399fa0def41b1376ea590134cac931dc681149554c84ba8ee949b825325cca1e8"
+RPM_NAME = "kdb-lang-3.2.0-10.7.noarch.rpm"
+RPM_HASH = "4c93a75085060ee337878fd120bd3bb439fb87c5806e744b956ea6e9ec43a3d5768d865f8ab08e90a47df751ecf1e13abff4f0a336063169ce4c9cb5ab9ee639"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kdb-lang \

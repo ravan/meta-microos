@@ -11,10 +11,10 @@ for PostScript files that fit into the confines of file system \
 conventions."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn23483"
+PV = "2026.226.svn23483"
 
-RPM_NAME = "texlive-emp-2023.209.svn23483-54.2.noarch.rpm"
-RPM_HASH = "052d4b05ec091ce30e7d710cd1bb0e2de030c1d58fb9b2d8b64127883be169f48f288cda7daee142c868bd7425f9cba84a8d095f66aef27bf22dd86738d84ea1"
+RPM_NAME = "texlive-emp-2026.226.svn23483-61.4.noarch.rpm"
+RPM_HASH = "a2aac041bf1e405a1108e3769948031c3f1797557aeb4632be29f46bbd94d7362a8046c0b63666db5e573a4751092dc015d1b2b24b57e4e3130681f0dd293982"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-emp.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for plexus-interpolation"
 DESCRIPTION = "API documentation for plexus-interpolation."
 LICENSE = "Apache-1.1 & Apache-2.0 & MIT"
 
-PV = "1.26"
+PV = "1.28"
 
-RPM_NAME = "plexus-interpolation-javadoc-1.26-2.7.noarch.rpm"
-RPM_HASH = "c31a658b682b1c821aac4fbb0e64d56d7111a1d5486b5948a8f3f07b19c78d9637001b4c65c9de4d730034caf3deaee1889a1078e3546623f1320489fedd5c6f"
+RPM_NAME = "plexus-interpolation-javadoc-1.28-1.6.noarch.rpm"
+RPM_HASH = "05b048a3c76b176c38ccfaff5d3fa4646159b59622e35ae04acc8a01a254cc993eacd7ddd4d272cc4ebb156e94a085f624b0bb5212e1eec06ae08fd235e50a05"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "plexus-interpolation-javadoc"

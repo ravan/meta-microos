@@ -3,10 +3,10 @@ DESCRIPTION = "This is NemoPreview, a quick previewer for Nemo, the Cinnamon \
 desktop file manager."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.2.0"
+PV = "6.4.0"
 
-RPM_NAME = "nemo-extension-preview-5.2.0-4.1.aarch64.rpm"
-RPM_HASH = "63fbf55245a3f76f56960a4f711eef1e7dbd2677c329982b0cca125562b179cafa538678f10cd4d9c5c9724aafa1804d16f3cf18b40219db9f364739b27ba9c4"
+RPM_NAME = "nemo-extension-preview-6.4.0-6.4.aarch64.rpm"
+RPM_HASH = "f118c9ac842f78f0268f6156ea9f06c2ab948bc7d56f86f7aad5815fc55e95ff9d2ec2dd25e06a53003c160b167e16330b17a94f7233a8f431e03ab2ad723c0b"
 
 RPROVIDES:${PN} += "libnemo-preview-1.0.so \
 nemo-extension-preview \

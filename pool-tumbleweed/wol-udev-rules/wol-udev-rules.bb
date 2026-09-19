@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.7.1"
 
-RPM_NAME = "wol-udev-rules-0.7.1-162.20.noarch.rpm"
-RPM_HASH = "cbc284c0fd1e1afc0a34bf7531c2987ef8b91e95d9fa54d437685b6bce80bdb80f25d097993b60da3edcd078799ae832cb0183c747a0d526718d2db0c63f76fe"
+RPM_NAME = "wol-udev-rules-0.7.1-165.3.noarch.rpm"
+RPM_HASH = "039f0ca02e5fecac82368a23d359e0d4ef3af7ea9272cd5838e112acc70d112116d86f5a84d513a69b8456d1adc8d0b42b623ec682b1bb78423074da4d9739d3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "wol-udev-rules"

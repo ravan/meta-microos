@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-combofont"
 DESCRIPTION = "This package includes the documentation for texlive-combofont"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.3svn51348"
+PV = "2026.226.0.0.3svn51348"
 
-RPM_NAME = "texlive-combofont-doc-2023.209.0.0.3svn51348-54.1.noarch.rpm"
-RPM_HASH = "adcb57a13ebe7f0a4a9d7858050ff8b3cea9ba7eed400a466b15fdc3605bd7f84aead46f94f6ae398143ee402f5deac8413250e25ced2bd45e63f7419c223cf8"
+RPM_NAME = "texlive-combofont-doc-2026.226.0.0.3svn51348-60.2.noarch.rpm"
+RPM_HASH = "593f53f214740fd4cf5eeb27ad91fc70efeaeed7c2f1de252261d1ed46bc57c52a038c71ded0c8b1be847aa129c88816468e7837a7898189704d34f92e63b500"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-combofont-doc"

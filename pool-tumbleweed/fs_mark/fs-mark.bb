@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "3.3"
 
-RPM_NAME = "fs_mark-3.3-2.25.aarch64.rpm"
-RPM_HASH = "eb014461283fa2083fefb031395ea3075bebc60c3ed0279be94cee1eccf9856b75dd6a2cf404b34adf091fcf587e3805eceedd9e8c3d2899a8a486f4151e54cd"
+RPM_NAME = "fs_mark-3.3-3.9.aarch64.rpm"
+RPM_HASH = "135f6ba8492f1312bb7dffcc6d50f5423997c68dd539633159b4eaf1c3cdac530fbebe02d9fa68b1b14898c0f337c751de4e6550106f775b8cfe67dbb766f05b"
 
 RPROVIDES:${PN} += "fs-mark"
 

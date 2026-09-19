@@ -1,18 +1,19 @@
-SUMMARY = "Frankish language data for tesseract-ocr-traineddata"
-DESCRIPTION = "This package contains the fast integer version of the Frankish language \
+SUMMARY = "Fraktur language data for tesseract-ocr-traineddata"
+DESCRIPTION = "This package contains the fast integer version of the Fraktur language \
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-frk-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "327480a722da285ee41b6e0030901152d1b42f68328e882961bf185261c30243be4f65d8da3981a00f14b81d43a6f1f7ed0af1de0de3abb143e3f4ed4b41b638"
+RPM_NAME = "tesseract-ocr-traineddata-frk-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "dd1917d31dd6a8b6f7ac38bc7dc713dc54cbed9e6ea38197a40d4cd7d53c1a95032e41c2163211773acabe7d5bf0bcdad43863c5e1e9b6437c70a54bf22883c0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-frankish \
 tesseract-ocr-traineddata-frk \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-frankish"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

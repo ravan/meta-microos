@@ -1,7 +1,7 @@
 SUMMARY = "A LaTeX template for ASME conference papers"
 DESCRIPTION = "The asmeconf class provides a LaTeX template for ASME \
 conference papers, following ASME's guidelines for margins, \
-fonts, headings, captions, and reference formats as of 2022. \
+fonts, headings, captions, and reference formats as of 2025. \
 This LaTeX template is intended to be used with the \
 asmeconf.bst BibTeX style, for reference formatting, which is \
 part of this distribution. Unlike older ASME conference LaTeX \
@@ -11,16 +11,17 @@ fields. This LaTeX template enables inline author names, \
 following ASME's current style, but it can also produce the \
 traditional grid style. Options include line numbering, final \
 column balancing, various math options, government copyright, \
-archivability (PDF/A), and multilingual support. The code is \
-compatible with pdfLaTeX or LuaLaTeX. This LaTeX template is \
-not a publication of ASME, but it does conform to ASME's \
-currently published guidelines for conference papers."
+archivability and accessibility (PDF/A), and multilingual \
+support. The code is compatible with pdfLaTeX or LuaLaTeX. This \
+LaTeX template is not a publication of ASME, but it does \
+conform to ASME's currently published guidelines for conference \
+papers."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.34svn65413"
+PV = "2026.226.1.46svn77682"
 
-RPM_NAME = "texlive-asmeconf-2023.209.1.34svn65413-54.1.noarch.rpm"
-RPM_HASH = "5f9f5fbf66d588151abb1b53124a91b1ffb47f46ac1ccf922ac06a13aaa58b9aba46983fffa625711c0005fd381f39d221d5dca7598015b6b49b58149905e703"
+RPM_NAME = "texlive-asmeconf-2026.226.1.46svn77682-60.2.noarch.rpm"
+RPM_HASH = "51a5de486f1ac95748ae7f8cab6305006f8745975fd4e77113ab3a68ad166287827652fc454d4e31a8fa2c040028c5dd9238bc2a4cac9c848d3a84d68841478c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-asmeconf.cls \
@@ -36,7 +37,6 @@ tex-array.sty \
 tex-article.cls \
 tex-babel.sty \
 tex-bm.sty \
-tex-bookmark.sty \
 tex-booktabs.sty \
 tex-caption.sty \
 tex-dcolumn.sty \
@@ -46,32 +46,21 @@ tex-fancyhdr.sty \
 tex-flushend.sty \
 tex-fnpos.sty \
 tex-fontenc.sty \
-tex-fontspec.sty \
+tex-footmisc.sty \
 tex-geometry.sty \
-tex-glyphtounicode.tex \
 tex-graphicx.sty \
-tex-hologo.sty \
 tex-hyperref.sty \
-tex-hyperxmp.sty \
-tex-hyphsubst.sty \
-tex-iftex.sty \
-tex-ifthen.sty \
 tex-inconsolata.sty \
-tex-inputenc.sty \
 tex-kvoptions.sty \
 tex-lineno.sty \
 tex-luatexja-fontspec.sty \
-tex-mathalfa.sty \
 tex-mathtools.sty \
-tex-metalogo.sty \
 tex-natbib.sty \
 tex-newtxmath.sty \
 tex-newtxtext.sty \
 tex-subcaption.sty \
-tex-superiors.sty \
 tex-textcase.sty \
-tex-titlesec.sty \
-tex-xcoffins.sty \
+tex-unicode-math.sty \
 tex-xcolor.sty \
 tex-xparse.sty \
 texlive \

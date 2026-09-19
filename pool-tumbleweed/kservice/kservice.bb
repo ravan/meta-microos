@@ -4,10 +4,10 @@ be applications or libraries. They can be bound to MIME types or handled by \
 application specific code."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.109.0"
+PV = "5.116.0"
 
-RPM_NAME = "kservice-5.109.0-1.1.aarch64.rpm"
-RPM_HASH = "90cb7ea017bd25134290c087fed1af37eef864d3825c59dd2a2808e0f9c3392039f75f4913598d49f339cc4690f59d322f3dcbe58258cd7c842eafc9c1a0c311"
+RPM_NAME = "kservice-5.116.0-1.9.aarch64.rpm"
+RPM_HASH = "925ba256782ff63ebd83ed0e03c7471ff24664662bca76749f42b8dcb1a1bca6aa5ac4b98e2a04e181fe46755ff73a7c06f6351812130473d4aaa485811f5238"
 
 RPROVIDES:${PN} += "kservice \
 libKF5Service.so.5"

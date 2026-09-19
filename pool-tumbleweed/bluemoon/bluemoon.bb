@@ -15,12 +15,12 @@ partial sequence followed by a space, followed by enough cards to \
 make a row of 14. A moment's reflection will show that this game \
 cannot take more than 13 deals. A good score is 1-3 deals, 4-7 is \
 average, 8 or more is poor."
-LICENSE = "BSD-3-Clause"
+LICENSE = "BSD-2-Clause"
 
-PV = "2.12"
+PV = "2.13"
 
-RPM_NAME = "bluemoon-2.12-1.26.aarch64.rpm"
-RPM_HASH = "aec1ce4e297981f50497af5af6f512ce5650b1bb442ed9e6815a1a7877391e7cb013a2fd8d0db39435edcdb0feb32190f294f92fb13a65f494a3140138824754"
+RPM_NAME = "bluemoon-2.13-1.4.aarch64.rpm"
+RPM_HASH = "0ef9560f57fbd2d4dfbe33083fb83c2221df428a23af07469a1ebc73be3251a933c5194579be7f2c072ea47858436cbcd8e2ff57089e110d486ad6ec4c8bed7d"
 
 RPROVIDES:${PN} += "bluemoon"
 

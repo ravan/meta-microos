@@ -2,10 +2,10 @@ SUMMARY = "SDR radio receiver library"
 DESCRIPTION = "Library for bladeRF, an SDR transceiver."
 LICENSE = "AGPL-3.0-or-later & GPL-2.0-only"
 
-PV = "2.5.0"
+PV = "2.6.0"
 
-RPM_NAME = "libbladeRF2-2.5.0-16.4.aarch64.rpm"
-RPM_HASH = "7da9b45d914c07e504d4a239d8fcc4f6a955f18dacad4225252909c82688c4bf36f57f9356538b6563811a1d4c99ba3d7ce6e8653873e46e35c89c76daeb8d7e"
+RPM_NAME = "libbladeRF2-2.6.0-22.3.aarch64.rpm"
+RPM_HASH = "a2a815e0a7abaecbfa6432044acf031bef92cd778c37fea78ece622ea493720b2adff533b3f9c2d5d0f1a2768e7f5c7dea1f8211d4025aefab8fdfc6cef7f3fb"
 
 RPROVIDES:${PN} += "libbladeRF.so.2 \
 libbladeRF2"

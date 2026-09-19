@@ -2,10 +2,10 @@ SUMMARY = "Translations for package xfce4-eyes-plugin"
 DESCRIPTION = "Provides translations for the 'xfce4-eyes-plugin' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.0"
+PV = "4.7.0"
 
-RPM_NAME = "xfce4-eyes-plugin-lang-4.6.0-1.8.noarch.rpm"
-RPM_HASH = "86d83278d392d8dd93f998eff5408c9a414dca0ba41c5abb8671131bbf31342097bedf8aa1cd61797bccd38940a4b550d2b4568a365fd27ef22bed010d238289"
+RPM_NAME = "xfce4-eyes-plugin-lang-4.7.0-1.4.noarch.rpm"
+RPM_HASH = "caedf09c780dba8edb4053cbd1a53adbfb57c8ccf10f18f7c65b98c6623839f3f3ae7b211c3d211b713d28c77d473b991648d8ab30a3d4a78b143dfbf7eb4208"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-xfce4-eyes-plugin-ar \
@@ -26,6 +26,7 @@ locale-xfce4-eyes-plugin-et \
 locale-xfce4-eyes-plugin-eu \
 locale-xfce4-eyes-plugin-fi \
 locale-xfce4-eyes-plugin-fr \
+locale-xfce4-eyes-plugin-ga \
 locale-xfce4-eyes-plugin-gl \
 locale-xfce4-eyes-plugin-he \
 locale-xfce4-eyes-plugin-hi \

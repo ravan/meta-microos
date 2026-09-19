@@ -6,10 +6,10 @@ Font Society. The font supports the Greek and Latin alphabets. \
 LaTeX support is provided, using the OT1, T1 and LGR encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn19469"
+PV = "2026.226.1.0svn77682"
 
-RPM_NAME = "texlive-gfsartemisia-2023.209.1.0svn19469-53.1.noarch.rpm"
-RPM_HASH = "0333a8dc708f457aab1b5c85a6a6f4dc40c61142c760b0eb7445eb86e2c5a1f5f7570b15c0ad6d9bc01f32186a7a7b3df3ac3675189dd96bbc69de13589bc726"
+RPM_NAME = "texlive-gfsartemisia-2026.226.1.0svn77682-60.2.noarch.rpm"
+RPM_HASH = "82f58c53e6a6c4361121585d67821bb4b0226b854d5c55162c71208184b4c77987174b5ae119c8419a6de0c92f008063f30ee5cacaced8283691a0d3e9b98197"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-artemisia.enc \

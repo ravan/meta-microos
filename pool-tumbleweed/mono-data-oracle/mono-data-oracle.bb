@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "6.12.0"
 
-RPM_NAME = "mono-data-oracle-6.12.0-5.4.aarch64.rpm"
-RPM_HASH = "12cdf239842cbd1130e6523a7e648fb1f034f0acca8d737c820948b9d7a25b093e827a157c4f05c7918091f050e6327bb0c174f104a01fbd6ae862f2363c2f8c"
+RPM_NAME = "mono-data-oracle-6.12.0-8.11.aarch64.rpm"
+RPM_HASH = "c5c22af01e4afc2abb8b2dd03200c1d9c193ce62fd8aed96337daccba6e59f268cde230128471e79febcd9049a223797f138d0b77df71d04ce6cd51f06c8ba94"
 
 RPROVIDES:${PN} += "mono-System.Data.OracleClient \
 mono-data-oracle"

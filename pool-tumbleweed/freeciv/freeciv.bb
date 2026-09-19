@@ -9,29 +9,32 @@ To start a new game, first start the server 'civserver,' then start the \
 client 'civclient'. Have fun!"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "3.0.8"
+PV = "3.2.6"
 
-RPM_NAME = "freeciv-3.0.8-1.1.aarch64.rpm"
-RPM_HASH = "09f4d0bb0c0beb12918a8e3b8a0156e38225747ee4dabf1a7a7829aba0a4b577546cbede4c1811f5ce56c9a2405086716abe22acb08b2a3bf7acee50255ac747"
+RPM_NAME = "freeciv-3.2.6-2.1.aarch64.rpm"
+RPM_HASH = "4ae1f2503d3455446de8473b3068744b402c5831294ea362c741eb3fdb8904f55a7a0510ede63c3011f4612d158628e7ca039d7fad3f88307ebf9ecfc60be090"
 
 RPROVIDES:${PN} += "config-freeciv \
-freeciv"
+freeciv \
+libfreeciv.so"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-freeciv-client-3.0.8 \
+RDEPENDS:${PN} += "freeciv-client-3.2.6 \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libbz2.so.1 \
 libc.so.6 \
 libcurl.so.4 \
 libgcc-s.so.1 \
-libicuuc.so.73 \
+libicuuc.so.78 \
+liblua5.4.so.5 \
 liblzma.so.5 \
 libm.so.6 \
 libreadline.so.8 \
+libsqlite3.so.0 \
 libstdc++.so.6 \
-libz.so.1"
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

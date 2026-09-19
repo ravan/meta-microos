@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-styledcmd"
 DESCRIPTION = "This package includes the documentation for texlive-styledcmd"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.2.0svn65262"
+PV = "2026.226.2.0.1svn76924"
 
-RPM_NAME = "texlive-styledcmd-doc-2023.209.2.0svn65262-58.1.noarch.rpm"
-RPM_HASH = "86077328b79342fa629d4e3b27a50723ac82e2e436a218825db5993de34c268a815268bf1a9e3f1b1a5cefb950c6675ef27a2c33c2f96192a34b25179f66db69"
+RPM_NAME = "texlive-styledcmd-doc-2026.226.2.0.1svn76924-64.2.noarch.rpm"
+RPM_HASH = "bba30ba32789ad8b891345443d5b174f54c5d2ca62e45ed95c0d71c1bd82dd1c49831b458e43e2973fa69d7202451f30da8324cacc7f64eab398b17fa25ab3fa"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-styledcmd-doc"

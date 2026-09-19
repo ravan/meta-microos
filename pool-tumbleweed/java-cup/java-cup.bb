@@ -13,8 +13,8 @@ LICENSE = "HPND"
 
 PV = "0.11"
 
-RPM_NAME = "java-cup-0.11-32.1.noarch.rpm"
-RPM_HASH = "e6ef5186ca1efd839596671d3e0da99eeb6f12e137da2717c4fb1b36ed3a1e7ba8b958c4b2d79e045c13762480ffdcbb8fcc24517ee54a789b2327459063e08c"
+RPM_NAME = "java-cup-0.11-33.10.noarch.rpm"
+RPM_HASH = "8d8d73478f4a190bc0eb3c00374db627811b8ec3a33da581c6aac8d8ba051f96e527aef11c5da69df94b97870770633b9b1455d47c06b8ed9462f4ac003ef0e5"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "java-cup \

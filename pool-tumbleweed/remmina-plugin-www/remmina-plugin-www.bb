@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the a plugin for Remmina which allows to lo
 to browse a page."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.4.31"
+PV = "1.4.43"
 
-RPM_NAME = "remmina-plugin-www-1.4.31-1.1.aarch64.rpm"
-RPM_HASH = "8f6f17484ccd2dbf16fc6531f4c4bd77a404fbe1b36dcc6a7fc33d2cda593e43f0455da891fcf88869f2f712024cc5e3f07d20933a6182626370ba1ea3e6858b"
+RPM_NAME = "remmina-plugin-www-1.4.43-2.2.aarch64.rpm"
+RPM_HASH = "2553298d304173866ed66910e6f719c569c764e326dcbcea6259349337f86d61160ec537ba45bd809ccc1b27bda1c06029b232ec522bccd6602938ebb9fe16b5"
 
 RPROVIDES:${PN} += "remmina-plugin-www"
 
@@ -18,8 +18,7 @@ libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgtk-3.so.0 \
-libsoup-3.0.so.0 \
-libwebkit2gtk-4.0.so.37 \
+libwebkit2gtk-4.1.so.0 \
 remmina"
 
 inherit rpm

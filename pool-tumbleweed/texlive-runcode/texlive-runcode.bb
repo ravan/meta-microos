@@ -11,10 +11,10 @@ added. For more details and usage examples, refer to the \
 package's github repository."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8svn65588"
+PV = "2026.226.2.4svn73500"
 
-RPM_NAME = "texlive-runcode-2023.209.1.8svn65588-54.1.noarch.rpm"
-RPM_HASH = "23a1a66f02617ce5b56cf8067932ff9592669d4284df1ad82d5b5a98c8c92a466eab716a2d804aae3490bbfc4157d67f7090b47264b6796931b5b2baa44ebfc9"
+RPM_NAME = "texlive-runcode-2026.226.2.4svn73500-60.2.noarch.rpm"
+RPM_HASH = "eeb24d384b75ce7e463c068cd529a26e8eed1adf1c3f4308249160a65f345e300d764ffc3aad64bd7d5281a845150ed81b5c745617616d2dcb67a6fc01845c48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-runcode.sty \
@@ -26,7 +26,8 @@ ed \
 findutils \
 grep \
 sed \
-tex-filecontents.sty \
+tex-etoolbox.sty \
+tex-forloop.sty \
 tex-fvextra.sty \
 tex-inputenc.sty \
 tex-listings.sty \

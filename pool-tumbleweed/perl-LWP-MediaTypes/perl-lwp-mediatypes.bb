@@ -61,15 +61,15 @@ Parse media types files and add the type mappings found there. Example: \
     read_media_types('conf/mime.types');"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "6.04"
+PV = "6.50.0"
 
-RPM_NAME = "perl-LWP-MediaTypes-6.04-1.17.noarch.rpm"
-RPM_HASH = "de2de02584645116917585d69affe49d2581ecafaa57edb50abc9dc2bc9b0c13740cd7a038f896419c1a613bbba510758cf8bd83cf4cd60dbb1b72c37efb02a0"
+RPM_NAME = "perl-LWP-MediaTypes-6.50.0-1.1.noarch.rpm"
+RPM_HASH = "480cdefdb7743bad71f3c29ebaca641f32065ee7952bffcb08cee0e02340ce6ffe8641022dd876c498cfc88eaa7df8d0dcbb037e3a2008314bced81a3279267a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-LWP--MediaTypes \
 perl-LWP-MediaTypes"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

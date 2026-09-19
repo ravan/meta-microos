@@ -49,15 +49,16 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.8.4"
 
-RPM_NAME = "ghc-clock-0.8.4-1.2.aarch64.rpm"
-RPM_HASH = "c1019765dbd5ec7d2f27fb1c9453ed34a7d2af86f96f29ecf59a671ee82581e45ce654cd1cd57c19298e323f57ed8373d4783418c21dd56f08b1b6d2a340e3dc"
+RPM_NAME = "ghc-clock-0.8.4-1.19.aarch64.rpm"
+RPM_HASH = "3e2ad6c6a85f7fb3667eae97acd49cffb5d50dca8bc608dcc53115a37cd82db1048f9fd3cf929a0e776088591391b5135d297748ba13f3e03e6af580d7082163"
 
 RPROVIDES:${PN} += "ghc-clock \
-libHSclock-0.8.4-FaEd7XcSjZTFKcoXlUaX3W-ghc9.4.6.so"
+libHSclock-0.8.4-Jabd1gSnpD77RKirxFCoTK-ghc9.12.4.so"
 
-RDEPENDS:${PN} += "libHSbase-4.17.2.0-ghc9.4.6.so \
-libHSghc-bignum-1.3-ghc9.4.6.so \
-libHSghc-prim-0.9.1-ghc9.4.6.so \
+RDEPENDS:${PN} += "libHSbase-4.21.2.0-8844-ghc9.12.4.so \
+libHSghc-bignum-1.3-03b0-ghc9.12.4.so \
+libHSghc-internal-9.1204.0-f1e1-ghc9.12.4.so \
+libHSghc-prim-0.13.0-f55c-ghc9.12.4.so \
 libc.so.6 \
 libgmp.so.10 \
 libm.so.6"

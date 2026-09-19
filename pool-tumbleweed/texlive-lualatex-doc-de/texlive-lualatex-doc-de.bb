@@ -6,10 +6,10 @@ gathers information from several sources, and offers links to \
 others."
 LICENSE = "GFDL-1.3-or-later"
 
-PV = "2023.208.1.0svn30474"
+PV = "2026.226.1.0svn30474"
 
-RPM_NAME = "texlive-lualatex-doc-de-2023.208.1.0svn30474-53.1.noarch.rpm"
-RPM_HASH = "f1c30bd977519817e6a7499f6301f103d3fb9eed138432cb1ff8a183b42067e60e8e3de2b16d03c680400ada5c85ca897e517460438aaab0980cae6fe9f47e78"
+RPM_NAME = "texlive-lualatex-doc-de-2026.226.1.0svn30474-59.2.noarch.rpm"
+RPM_HASH = "009f84ce2ef2fd9231ca5ee1c277d68de5b950a3cae914e9f96b671a9d78e55c9000144f52578fdbb5201ed69beb33fe2b2cadedecd43f112ac7c6b0657f6198"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualatex-doc-de"

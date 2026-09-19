@@ -6,10 +6,10 @@ parsing commands can handle and offers an interface to define \
 and switch between indefinite levels of styles."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn51432"
+PV = "2026.226.1.5svn78101"
 
-RPM_NAME = "texlive-xskak-2023.209.1.5svn51432-53.2.noarch.rpm"
-RPM_HASH = "a633ef97e97534350ce6f3b24d659dd9b1f4fd8a52f08274fee219070ba893cdd13040c49d74bebc631a1624e559190fef1b27278961c99138db8c68babb6c4d"
+RPM_NAME = "texlive-xskak-2026.226.1.5svn78101-59.4.noarch.rpm"
+RPM_HASH = "d68a93758290a334c1a5e28b958ee49b23c3e77a09a6e390f69a9e808f3184ab0d3a0f54f12a96fed168ab587ea9ab1962194a248cba5692a1468f0640d1ccd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-xskak-keys.sty \

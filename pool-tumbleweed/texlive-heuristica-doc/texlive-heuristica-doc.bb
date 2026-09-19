@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-heuristica"
 DESCRIPTION = "This package includes the documentation for texlive-heuristica"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.092svn51362"
+PV = "2026.226.1.093svn77682"
 
-RPM_NAME = "texlive-heuristica-doc-2023.209.1.092svn51362-54.2.noarch.rpm"
-RPM_HASH = "66ce4e16bb19e7e000dd8d2c3b40c9e6f43025c4c74179dc26831fb5a4bccd0fd6263bf78bbe3d1063f114a2a591bfea6317d738b305d34c04c3540c8387ebb3"
+RPM_NAME = "texlive-heuristica-doc-2026.226.1.093svn77682-60.4.noarch.rpm"
+RPM_HASH = "40e6fba1f0b7c1d317ef8240fad4a50ee012b541b690b6eb60f0731db5a23d5371d7809eb347c3bc00cbe4fcd7807af72febee3da3e2df91456823c450130f1b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-heuristica-doc"

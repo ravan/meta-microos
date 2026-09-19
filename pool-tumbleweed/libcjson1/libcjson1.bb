@@ -2,10 +2,10 @@ SUMMARY = "JSON parser library written in ANSI C"
 DESCRIPTION = "A simple JSON parser library written in ANSI C."
 LICENSE = "MIT"
 
-PV = "1.7.16"
+PV = "1.7.19"
 
-RPM_NAME = "libcjson1-1.7.16-1.1.aarch64.rpm"
-RPM_HASH = "447a34a75352ef99fee299f688399d42513012a359f4ee14f9cc97c56e32fef586880356560ba2ed0613c323afcb98a03baf2b544d3a30e97bc4be556f246ba3"
+RPM_NAME = "libcjson1-1.7.19-3.2.aarch64.rpm"
+RPM_HASH = "0a5cd3501b22d0d160a361db9b14186eefee06f0c2e34c153e36086ba7a2951d62eb0b6859b0110164b18f99e362a3c038db385209e155fe21638f03d1b06e28"
 
 RPROVIDES:${PN} += "libcjson.so.1 \
 libcjson1"

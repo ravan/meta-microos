@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.8"
 
-RPM_NAME = "libsecprog0-0.8-165.25.aarch64.rpm"
-RPM_HASH = "07e96ad56f072ba7c8566e0926786d455a565aeafce88360e1dab3b910876ae74f08d61ea296ab8429f5ca7974e6c7a199c4d92feeb74583c5582c02eed60d54"
+RPM_NAME = "libsecprog0-0.8-166.9.aarch64.rpm"
+RPM_HASH = "57b121f71042f0d42164b5ec108e6c4f8a99fc125da6d0b2825deabb54b6dc22e5a3d84b05ed2fce3ce6016a8143d1ab4c240fbd53ee1b22c5551560b84b64c3"
 
 RPROVIDES:${PN} += "libsecprog \
 libsecprog.so.0 \

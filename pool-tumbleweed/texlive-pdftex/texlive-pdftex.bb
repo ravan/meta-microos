@@ -6,10 +6,10 @@ TeX) and pdfLaTeX (LaTeX), among many other formats based on \
 the pdfTeX engine."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn66243"
+PV = "2026.226.svn77868"
 
-RPM_NAME = "texlive-pdftex-2023.209.svn66243-52.1.noarch.rpm"
-RPM_HASH = "38142135ee1273785921e2877ac1bf66fa132709c58a8d42a5367ddd3a12ea6b2367dec82cd5eac8ba8e7c4a2d5441c8220556b1e13b39f1d8eef3298af8d3a7"
+RPM_NAME = "texlive-pdftex-2026.226.svn77868-58.2.noarch.rpm"
+RPM_HASH = "18d6b82782d88759bbf53bcc758020b1e7d05a4665ded7fe19da9ba5a08d27fef31407e7ce3f266162ca767849b12ee71b39c8092c07ac1b98ff7b84c0c07244"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dummy-space.map \

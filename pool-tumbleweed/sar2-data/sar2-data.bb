@@ -2,10 +2,10 @@ SUMMARY = "Data files for sar2"
 DESCRIPTION = "Data files for Search and Rescue II"
 LICENSE = "GPL-2.0-only"
 
-PV = "2.5.0"
+PV = "2.6.0"
 
-RPM_NAME = "sar2-data-2.5.0-2.4.noarch.rpm"
-RPM_HASH = "f63976b858e3365f00ad39c705f0c958ebcdc06243e339b4a2084cd651d4bf37251d28189e59daf372ab908e49430d6916be2ae0591a9a9a6375fc805aa7ba6a"
+RPM_NAME = "sar2-data-2.6.0-2.4.noarch.rpm"
+RPM_HASH = "113cdf015125be25313d0909921f11bd8a79b388883997f1adc5ec9c84c3ad18f8134113d29010b89d39c2cc0ca9bfb317f6ca7dad6f991f18c97718ccbd75b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sar2-data"

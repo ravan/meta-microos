@@ -4,10 +4,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of openal-soft."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "1.22.2"
+PV = "1.24.3~179"
 
-RPM_NAME = "openal-soft-devel-1.22.2-1.5.aarch64.rpm"
-RPM_HASH = "b36b474784a49140cc879d60b66191b45d8fb10af01b68f24796a7adbb51a4a5cbcff5e18216957363c81a1a68bc42dc25a9dabaa1d22344cf1276033e4c35da"
+RPM_NAME = "openal-soft-devel-1.24.3~179-1.6.aarch64.rpm"
+RPM_HASH = "4d53f4f83b0bf228e593a462e0b5337b0dc17d65d605ae2a57519b4060c7a1fe9453a734e7c0d7a54e2e057a96f36b02a7805b7b39b0cc90449fe1f1e6d5e3b0"
 
 RPROVIDES:${PN} += "cmake-OpenAL \
 openal-devel \

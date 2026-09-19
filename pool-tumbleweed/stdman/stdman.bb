@@ -6,10 +6,10 @@ provide excellent formatting for easy readability. \
 This package provides the full cppreference documentation in the man format."
 LICENSE = "MIT"
 
-PV = "2022.07.30"
+PV = "2024.07.05"
 
-RPM_NAME = "stdman-2022.07.30-1.2.noarch.rpm"
-RPM_HASH = "103024e424490b3dc0e855903721f744aa23dc5b0210ad3fc3c3b222f6f95e55490a9893851c450bbec217b700ebfeb3f4f44b3c304bf3c9f715d6a6fdf991f8"
+RPM_NAME = "stdman-2024.07.05-1.7.noarch.rpm"
+RPM_HASH = "ed27f5427551661aeaa5b8b3fe6666edf3b8ef7f8812bde6a6634e550d38c5f9692f3435a4ec1cde8a35c00479c3156623272e6407b770d6ca5a42fd083ab659"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "stdman"

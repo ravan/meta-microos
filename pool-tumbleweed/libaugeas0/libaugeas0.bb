@@ -11,8 +11,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.14.1"
 
-RPM_NAME = "libaugeas0-1.14.1-1.1.aarch64.rpm"
-RPM_HASH = "a972bebc89ba8b29e6629483a1f5ed64e2367dff1afe17adc36dc67e2e72e08906e91a33bcb3a963a114033a39c104ad3aba8707e68f5c5ef94fcc7319e16f98"
+RPM_NAME = "libaugeas0-1.14.1-2.6.aarch64.rpm"
+RPM_HASH = "e64c8da527aa648c9bf4bfebcbec9152fb416c27e4457f143e81d3ea7e8f3a694883288b152821f872986adea98dacbcfbca4ac98b520c59167ad2fc41253f8a"
 
 RPROVIDES:${PN} += "libaugeas.so.0 \
 libaugeas0"
@@ -21,6 +21,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libfa.so.1 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "YaST2 - Pashto Translations"
 DESCRIPTION = "YaST2 - Translations for Pashto."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "84.87.20230901.be24cb382f"
+PV = "84.87.20260906.c2bec94659"
 
-RPM_NAME = "yast2-trans-ps-84.87.20230901.be24cb382f-1.1.noarch.rpm"
-RPM_HASH = "e016fd8033f2cec6316a17ca42133a15a408b6890ef73135711485723eb945f249f3da945ff416407a73877cc6fe590840488e0f3ebdb88b81ecbd1d44ca2fe8"
+RPM_NAME = "yast2-trans-ps-84.87.20260906.c2bec94659-1.1.noarch.rpm"
+RPM_HASH = "acb2fbd12d7acca5c98d9adbedf91f2cae48654a5de6964bcda71fea8659c01c4da233ea394aca057de8362ceabfe58d5a0be0079fc250051abdfc7445ca1c0b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-yast2-ps \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-piton"
 DESCRIPTION = "This package includes the documentation for texlive-piton"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.4svn65835"
+PV = "2026.226.4.11svn77682"
 
-RPM_NAME = "texlive-piton-doc-2023.209.1.4svn65835-52.1.noarch.rpm"
-RPM_HASH = "7d1f79554a69c6c3986228516e9bc72d0d74b3e0c18c1febba62e099fc28762f0c78e189b93c4f886dc1a6dbf2eb7575fb7ae4f0d948e7625a8317055b501ac4"
+RPM_NAME = "texlive-piton-doc-2026.226.4.11svn77682-58.2.noarch.rpm"
+RPM_HASH = "5d98b572b0de83bef086f6f927277630107168144f7b781abe5d6dd45a7b7a0f0effe644f6ad667b387734fef9840842b96f9d7effb4ea03cccf9f9200e1504c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-piton-doc-fr \

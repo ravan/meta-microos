@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-beamersubframe"
 DESCRIPTION = "This package includes the documentation for texlive-beamersubframe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn23510"
+PV = "2026.226.0.0.2svn23510"
 
-RPM_NAME = "texlive-beamersubframe-doc-2023.209.0.0.2svn23510-54.1.noarch.rpm"
-RPM_HASH = "8ad77003dd9e73163dea3e2ba6ba26e5fb645a5eb448ed1c38ae63975b9836e2d0be53978d37c4246f9df6eaaef3e202ef38bc17ef66f4f59e92cbd170e2ecb1"
+RPM_NAME = "texlive-beamersubframe-doc-2026.226.0.0.2svn23510-61.2.noarch.rpm"
+RPM_HASH = "480fc5143c80bcbbe508d2bc391c78d49313d11f0112371503f9fdd39ea890f715c2f6812504a6f14d232a96360150cb438002785020e11310fc1210d6a548b9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-beamersubframe-doc"

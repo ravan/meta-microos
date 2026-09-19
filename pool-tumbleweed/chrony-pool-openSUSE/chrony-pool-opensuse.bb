@@ -3,17 +3,17 @@ DESCRIPTION = "This package configures chrony to use the openSUSE NTP server poo
 default."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.4"
+PV = "4.9"
 
-RPM_NAME = "chrony-pool-openSUSE-4.4-1.1.noarch.rpm"
-RPM_HASH = "8df8676ba5db2ae0e57334c205530f7bc16a22893c0b3dc976fd43c4b061e6d05eeee49af6769a5fac969bfc074c8424a8a0a33eed05513a1e4d109562767b1a"
+RPM_NAME = "chrony-pool-openSUSE-4.9-2.1.noarch.rpm"
+RPM_HASH = "508eb3d5e1673d029a44f345b05fae88654dc768a9f687ee71372638acf2864899066465c384bc65f936a5978b34dcef8380a7f6b1df9a0816cb3e026a1d84e9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "chrony-pool \
 chrony-pool-nonempty \
-chrony-pool-openSUSE \
-config-chrony-pool-openSUSE"
+chrony-pool-openSUSE"
 
-RDEPENDS:${PN} += "chrony"
+RDEPENDS:${PN} += "/usr/bin/sh \
+chrony"
 
 inherit rpm

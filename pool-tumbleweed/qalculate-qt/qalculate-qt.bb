@@ -9,21 +9,23 @@ precision, uncertainty propagation, interval arithmetic, plotting, and a \
 user-friendly interface (QT, GTK+ and CLI)."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.6.1"
+PV = "5.12.0"
 
-RPM_NAME = "qalculate-qt-4.6.1-1.2.aarch64.rpm"
-RPM_HASH = "4d908c8d1a990b6e0a74b27a821bde5bac15c7151b35ac9131e0cf262a8ac8f3e38821b2cba335f0d80c1325b95f1788371e5571f90a72247c5f4a7aaf305697"
+RPM_NAME = "qalculate-qt-5.12.0-1.1.aarch64.rpm"
+RPM_HASH = "6249b7dd18f6db9d6d904aa9112f92185ce09952d6c2809e0fa7174f25727f66f33a445eabbcd155810cbb0598536105a201ee89cb31ba474b38a951f9ce41f4"
 
 RPROVIDES:${PN} += "qalculate-qt"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Widgets.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libqalculate.so.22 \
-libstdc++.so.6"
+libqalculate.so.23 \
+libqalculate23 \
+libstdc++.so.6 \
+qalculate-data"
 
 inherit rpm

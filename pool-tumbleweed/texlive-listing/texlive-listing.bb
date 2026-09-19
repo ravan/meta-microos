@@ -8,10 +8,10 @@ bigcaptions is used), so packages that change the layout of \
 \\caption still work."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn17373"
+PV = "2026.226.1.2svn17373"
 
-RPM_NAME = "texlive-listing-2023.209.1.2svn17373-55.1.noarch.rpm"
-RPM_HASH = "74235438bd6b229ecc26ba199695d820cb98225c728626b73c621da7c92f0df83b5301e4ecfe2bf1e8906cb767de25a2ad3b4743f8a57bf604ba085238dbf845"
+RPM_NAME = "texlive-listing-2026.226.1.2svn17373-61.2.noarch.rpm"
+RPM_HASH = "7ca40c21a5e6ef8ab57d5524a797e0bf0e398157c0649e9c415daa6e41a88a3652acb692ae4daf1be36ef6e714725c6674545edc71a28365f24c10ab3ef7ea5a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-listing.sty \

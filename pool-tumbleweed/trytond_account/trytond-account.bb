@@ -2,15 +2,15 @@ SUMMARY = "The 'account' module for the Tryton ERP system"
 DESCRIPTION = "The accounting module of the Tryton application platform. \
 It defines fundamentals for most of accounting needs, such as fiscal year, \
 period, account type, journal, tax code and more."
-LICENSE = "GPL-3.0+"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "6.0.18"
+PV = "7.0.28"
 
-RPM_NAME = "trytond_account-6.0.18-1.1.noarch.rpm"
-RPM_HASH = "4c258e3368276ca0e75dbcf6177416ffd1b88966199c909cac2ae1c55b6ff1a0fe7583de09831d71d83cf5777ffd1476a5e2330a953edcf6029879682adc74e5"
+RPM_NAME = "trytond_account-7.0.28-1.1.noarch.rpm"
+RPM_HASH = "4be8c6d82480e4937fa478e9b9bdca3802df7b862867137d6f37adac0ed3a565f2bd44f3dc0238f135024e3302317f0795165323547153c2d7891c605b7ee745"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-trytond-account \
+RPROVIDES:${PN} += "python3.13dist-trytond-account \
 python3dist-trytond-account \
 trytond-account"
 

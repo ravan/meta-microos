@@ -9,10 +9,10 @@ tell if the field is empty or not. The documentation contains \
 examples."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn51857"
+PV = "2026.226.1.0svn51857"
 
-RPM_NAME = "texlive-csvmerge-2023.209.1.0svn51857-55.1.noarch.rpm"
-RPM_HASH = "16eae97759f0d86c585a6834889e2aeb83fd3a22a02ae41a75470d43e79305fa71cb7e0d92e5f23e6cf385cc9d17214dcbd810b8d9b5b3ef4afc4b56d1f401c4"
+RPM_NAME = "texlive-csvmerge-2026.226.1.0svn51857-61.2.noarch.rpm"
+RPM_HASH = "b1b9e62bfe099071b6cbd67eaca661ca951b0896781c031cb0910dfe7201620b201a7abfb48498094f682363fd8394e4fbccc834a7f9a2ade583960f2269a079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-csvmerge.sty \

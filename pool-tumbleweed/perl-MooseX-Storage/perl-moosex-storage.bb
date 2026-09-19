@@ -4,10 +4,10 @@ flexible and highly pluggable way to serialize Moose classes to a number of \
 different formats and styles."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.53"
+PV = "0.530.0"
 
-RPM_NAME = "perl-MooseX-Storage-0.53-1.15.noarch.rpm"
-RPM_HASH = "3419afc65a71c2b47e6e87b3d7a9848419f1e08c7cba2c68cabddab66a5dd149a2f9456d6d858742bd532caea980bd45a754aad46eaa95a6ac7eae194bbd4000"
+RPM_NAME = "perl-MooseX-Storage-0.530.0-1.7.noarch.rpm"
+RPM_HASH = "9d8d4eea472b2924bde1bbfe6afee37e0867c7c30e31dff0f2b9a604e6d3685e2ab24e8dd3e53982743330d5e516bf5683a820e8401c992cb83c670467594065"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-MooseX--Storage \
@@ -32,7 +32,7 @@ perl-MooseX--Storage--Traits--OnlyWhenBuilt \
 perl-MooseX--Storage--Util \
 perl-MooseX-Storage"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IO--AtomicFile \
 perl-JSON--MaybeXS \
 perl-Module--Runtime \

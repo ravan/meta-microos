@@ -6,10 +6,10 @@ internally to keep writers from trampling on each other. \
 This package contains tools to manage Tdb files."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "1.4.8"
+PV = "1.4.15"
 
-RPM_NAME = "tdb-tools-1.4.8-1.2.aarch64.rpm"
-RPM_HASH = "d965010eeea17dc03713a947dbcaf3f34c49f0d5f15fa60e01b5734991029081d86c1378abacb4963f88cae4ec1f93a219fcc35315a4047130a928ca01506ef9"
+RPM_NAME = "tdb-tools-1.4.15-1.3.aarch64.rpm"
+RPM_HASH = "1646e018f88438fa45686f21007221e8b9a3ec3f9c17110c2585bed14f0fbf5dfbb81c2478b2000d10b302c89ca68ad1705ccf65a4af89503604b0844d6b60de"
 
 RPROVIDES:${PN} += "tdb-tools"
 

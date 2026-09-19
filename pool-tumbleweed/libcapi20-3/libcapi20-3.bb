@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.27"
 
-RPM_NAME = "libcapi20-3-3.27-2.9.aarch64.rpm"
-RPM_HASH = "8cbff263325c4b205cfd506f83b3b47577a69e8852eaa4039c33a853b1e7471278b560d1f0ec0b8b98895f871309806ca637fd2a8391b948c73b32a564f75d7f"
+RPM_NAME = "libcapi20-3-3.27-2.19.aarch64.rpm"
+RPM_HASH = "6a64ca1db04a9449794f2770e07e14db7ac84c63f6d191aa4b24aba56b7021ff76f9a25fd86607c30065f35d9bebc49ef49633f444497b6ffc1097117559f75f"
 
 RPROVIDES:${PN} += "capi4linux \
 lib-capi-mod-fritzbox.so.2 \

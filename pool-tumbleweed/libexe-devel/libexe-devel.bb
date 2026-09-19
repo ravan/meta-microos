@@ -6,10 +6,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libexe."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20210424"
+PV = "20260705"
 
-RPM_NAME = "libexe-devel-20210424-5.1.aarch64.rpm"
-RPM_HASH = "e0abf09278a02ae59f1fe5a05ed83256f32159d06c41b6f930a4a1e71394ee99c1745c55b956a8d7be8198f1647ca4fbf19fd8dc414138a1e573771a6679f3f8"
+RPM_NAME = "libexe-devel-20260705-1.2.aarch64.rpm"
+RPM_HASH = "cb3db106d217a3f634f78eccf26e984138998eabf15a92874df0fa7fcc80e443822875c85b2c5d6fc301ee8af6e90942991e39eaf1e29ea0b2a8d3732cc46458"
 
 RPROVIDES:${PN} += "libexe-devel \
 pkgconfig-libexe"

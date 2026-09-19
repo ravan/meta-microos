@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.1"
 
-RPM_NAME = "string-template-maven-plugin-javadoc-1.1-2.11.noarch.rpm"
-RPM_HASH = "588d9e46ee35ae72d0a37b300b4ff677357c9c6cd7dadbf3b72797e5dcaf30f8a271766b974f999623c66a7893c6f4c1f2d9765a4b1a212aa02c7f89c9dc2851"
+RPM_NAME = "string-template-maven-plugin-javadoc-1.1-5.6.noarch.rpm"
+RPM_HASH = "f47b27c5086c1e4a661c7860b8d1f8fce916ecd8e334a12aedfa0681c55cdd771f81d06aec1237f3e7fdddf562277ad6aea49ea78fd946ac46da8d0bde7e52e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "string-template-maven-plugin-javadoc"

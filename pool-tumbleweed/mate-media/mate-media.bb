@@ -2,12 +2,14 @@ SUMMARY = "MATE Desktop multimedia stack"
 DESCRIPTION = "This package provides the Multimedia stack used by the MATE Desktop."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.26.1"
+PV = "1.28.1"
 
-RPM_NAME = "mate-media-1.26.1-1.1.aarch64.rpm"
-RPM_HASH = "a630fe16bd18c41267da760ec6465952c1f7837aa8dd24fdc82e9a1bd10a2bd1a62a82359a35261e00715967a1243a9f66c820e7c35afba7cbdb7c2ca950090c"
+RPM_NAME = "mate-media-1.28.1-2.10.aarch64.rpm"
+RPM_HASH = "ccd9214eda240add76a5872b4bb7fb83851590a65a2b9f45e0ee040b4916d20d44d0532d912b20b2284ef6ff767544f0aa41aaa7c63fe2e7af7186baa7cb271b"
 
-RPROVIDES:${PN} += "mate-media"
+RPROVIDES:${PN} += "config-mate-media \
+liblibmate-volume-control-applet.so \
+mate-media"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libatk-1.0.so.0 \
@@ -26,6 +28,6 @@ libmate-desktop-2.so.17 \
 libmate-panel-applet-4.so.1 \
 libmatemixer.so.0 \
 libpango-1.0.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

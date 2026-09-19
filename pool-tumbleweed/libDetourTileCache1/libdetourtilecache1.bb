@@ -2,10 +2,10 @@ SUMMARY = "Detour Tile Cache Library for Recastnatnaviagtion"
 DESCRIPTION = "This package contains the detour tile cache library part of Recastnatnaviagtion."
 LICENSE = "Zlib"
 
-PV = "1.5.1+git20210305.c5cbd53"
+PV = "1.6.0"
 
-RPM_NAME = "libDetourTileCache1-1.5.1+git20210305.c5cbd53-1.8.aarch64.rpm"
-RPM_HASH = "7afaed99e65174c6566825d3d645052dcb8244271f32fbad2f41afa99471fd5c202757ce01343a227c9cb03850cd614d27e11f1c4e998eadf66fc99a578cd83a"
+RPM_NAME = "libDetourTileCache1-1.6.0-1.9.aarch64.rpm"
+RPM_HASH = "3b81818ee87340e87bcbeb7d221b229e1a3da2f40e604ec15d3f0b09dbd62ff5725d3d6eeeb217db5642aa6905826e6c3f9ce86b0f737eccdbd4cabaad8c8902"
 
 RPROVIDES:${PN} += "libDetourTileCache.so.1 \
 libDetourTileCache1"

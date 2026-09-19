@@ -2,14 +2,15 @@ SUMMARY = "Translations for package mailimporter"
 DESCRIPTION = "Provides translations for the 'mailimporter' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "mailimporter-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "633f3dd2d98a6fdb4a29538ca2c55459b9949ae9df12194d547e5a207fcae35ec20fa065f5ab0a88bc9c3764c7b29cea4397bf23288ec6fd10980dd8a769c885"
+RPM_NAME = "mailimporter-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "c725b587012aac3b559deb4be8c9e7f7f8df92fb0674ad525781f9fea963a6c48c3ff27e4202a5d9de8319a0f8b60dab799a669828b733f1dc46735156cc97c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mailimporter-af \
 locale-mailimporter-ar \
+locale-mailimporter-ast \
 locale-mailimporter-be \
 locale-mailimporter-bg \
 locale-mailimporter-br \

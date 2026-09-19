@@ -2,10 +2,10 @@ SUMMARY = "Logparser plugin for collectd"
 DESCRIPTION = "Optional collectd plugin for filtering and parsing logs."
 LICENSE = "GPL-2.0-only & MIT"
 
-PV = "5.12.0.134.g4cebbfc"
+PV = "5.12.0.382.g2cd055fe"
 
-RPM_NAME = "collectd-plugin-logparser-5.12.0.134.g4cebbfc-1.6.aarch64.rpm"
-RPM_HASH = "a1e4f3197df1051a1cb21d4c3bff6baf54455e27e60d58806b895e693bd8ae7b3e406e6ec7c4b716f9247b60fbc8a0cffbfadb8dd5c2fee980abbb99d307e40d"
+RPM_NAME = "collectd-plugin-logparser-5.12.0.382.g2cd055fe-3.1.aarch64.rpm"
+RPM_HASH = "437fbc7d658cef7a7e95a97334d1e07ed065a7a9c3c94c1c243b4bdadd9cc773b55ddbf86a3ea037294f7c8d7673cdbed34e1617069eabb711bc4d8d62a58e69"
 
 RPROVIDES:${PN} += "collectd-plugin-logparser"
 

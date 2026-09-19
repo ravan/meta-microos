@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "0.3.0"
 
-RPM_NAME = "qmodbus-0.3.0-1.14.aarch64.rpm"
-RPM_HASH = "869f7dcf3e95de4e78e43be1e9b976d2852d7cbb08a1de1fac7d54777f5dbb7d1ac23cf07692a3d8af17b1cdd6822209365e2ab20403d4eaa7712d9e7aaec217"
+RPM_NAME = "qmodbus-0.3.0-1.26.aarch64.rpm"
+RPM_HASH = "27ff7a40b2b9d8a7da10a18a08a9f2e8781997de40f167599137e30840fe79d7fb4bd11f2090d88b480b3de28ccdd16e345ab35dc6af3a9a7a0ef83a2cd398d8"
 
 RPROVIDES:${PN} += "bundled-QextSerialPort \
 bundled-libmodbus \

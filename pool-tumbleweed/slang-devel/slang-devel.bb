@@ -9,10 +9,10 @@ This package contains all necessary include files and libraries needed to \
 develop applications that require it."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.3"
+PV = "2.3.3+git16.89d32bb"
 
-RPM_NAME = "slang-devel-2.3.3-1.4.aarch64.rpm"
-RPM_HASH = "c187bc3d3952d24d3b073e6e712755496a832ed095764d6e9b21f65eaea52d00bd3a3c539470a4d721af6c538aa6607a2a35d0a3489466eadc937f91bd1f54c8"
+RPM_NAME = "slang-devel-2.3.3+git16.89d32bb-2.7.aarch64.rpm"
+RPM_HASH = "c33ea981767ff65468038907346732816c9efa762af6a609bf625d3396f3e7b382fb702af5f39c06275443ab206fa41e01f176ee719615f5e343129c7b658dbc"
 
 RPROVIDES:${PN} += "pkgconfig-slang \
 slang-/usr/include/slang.h \

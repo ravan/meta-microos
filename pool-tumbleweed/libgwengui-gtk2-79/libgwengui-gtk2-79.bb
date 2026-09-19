@@ -8,10 +8,10 @@ communication). \
 This package provides the GTK+ 2 implementation of the generic UI toolkit."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "5.10.1"
+PV = "5.14.1"
 
-RPM_NAME = "libgwengui-gtk2-79-5.10.1-1.5.aarch64.rpm"
-RPM_HASH = "76bf254a5c3a3eca04ba63a5d7e6a5e286b333fc0ac2c217e5a3e05dc285d790f53dae85f6e7f87279c9abd26211084a5c84bd309fee81956bf5798c2ac5ea06"
+RPM_NAME = "libgwengui-gtk2-79-5.14.1-1.3.aarch64.rpm"
+RPM_HASH = "451d22e6432fd366068e05cd325232aa075647718f21d013e4ecf4d2a115700cd7cd6464a9cdda2a78ee3cfcfa2054650119672d705e8314a4b0e5179cee9900"
 
 RPROVIDES:${PN} += "libgwengui-gtk2-79 \
 libgwengui-gtk2.so.79"

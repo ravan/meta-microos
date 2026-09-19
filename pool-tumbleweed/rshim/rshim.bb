@@ -2,18 +2,23 @@ SUMMARY = "User-space driver for Mellanox BlueField SoC"
 DESCRIPTION = "This is the user-space driver to access the BlueField SoC via the rshim \
 interface. It provides ways to push boot stream, debug the target or login \
 via the virtual console or network interface."
-LICENSE = "GPL-2.0 | BSD-3-Clause"
+LICENSE = "BSD-3-Clause | GPL-2.0-only"
 
-PV = "2.0.9.0"
+PV = "2.7.3"
 
-RPM_NAME = "rshim-2.0.9.0-1.1.aarch64.rpm"
-RPM_HASH = "5a20e381bea0c6e7162c98fbc8b9f883eee8c12a868ab90ae6345e41700cc4999b48127fd3169183a04d3e93946972a95f6226f779a086792597005dd69b07a9"
+RPM_NAME = "rshim-2.7.3-1.2.aarch64.rpm"
+RPM_HASH = "d5061b102fe6e19ea46e624d9ef0e3f36f0eaa9d69d1b13d8d4892a7346b5e595d4fe5e67fec78021c874c04121b4a84f23243d434aaa4aaeee3edf93b0fbefb"
 
-RPROVIDES:${PN} += "rshim"
+RPROVIDES:${PN} += "config-rshim \
+rshim"
 
-RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "/usr/bin/bash \
+/usr/bin/perl \
+/usr/bin/python3 \
+/usr/bin/sh \
+ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse.so.2 \
+libfuse3.so.4 \
 libpci.so.3 \
 libusb-1.0.so.0"
 

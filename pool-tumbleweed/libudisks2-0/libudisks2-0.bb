@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the dynamic library, which provides \
 access to the UDisksd daemon."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "2.9.4"
+PV = "2.11.2"
 
-RPM_NAME = "libudisks2-0-2.9.4-6.4.aarch64.rpm"
-RPM_HASH = "2129af31de1b1f4cf52c2b25e2b0396724db26c6c1ef9909c8b26015d2bcdd4b8824021fa2477661843734015d867e9a636bb7bbc1d0f2a3cb4a229b125dec89"
+RPM_NAME = "libudisks2-0-2.11.2-1.1.aarch64.rpm"
+RPM_HASH = "d9122539928e9361832c4477be5fd5f861d720f2a1fd603733b3f570a7b12fc96aa8c494135f786dac25b9ba77f7676843d8e152b1e2982d6b170946f25f0890"
 
 RPROVIDES:${PN} += "libudisks2-0 \
 libudisks2.so.0"

@@ -1,11 +1,11 @@
 SUMMARY = "Provides libknet1 zlib support"
 DESCRIPTION = "Provides zlib compression support for libknet1."
-LICENSE = "GPL-2.0+ & LGPL-2.1+"
+LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.21"
+PV = "1.33"
 
-RPM_NAME = "libknet1-compress-zlib-plugin-1.21-1.10.aarch64.rpm"
-RPM_HASH = "c54b8ae8ddfbb3b7f75e4b89092a0676c9315886b01da0fede881eddd5226c63a8f72128ba3fe57aa4f51845f69a5b8a9ca97ef7a7e82b1b8781adc77a006204"
+RPM_NAME = "libknet1-compress-zlib-plugin-1.33-2.2.aarch64.rpm"
+RPM_HASH = "6dc1f3929baabc130bb09563cc4bb2b3ff1a45202a605b7e26f2f4af20543e1f5371121dc1d9c16852e43c6346bea604d33ece5c23ab3f587ade769fd4153353"
 
 RPROVIDES:${PN} += "libknet1-compress-zlib-plugin"
 

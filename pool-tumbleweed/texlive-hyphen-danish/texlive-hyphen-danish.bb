@@ -2,10 +2,10 @@ SUMMARY = "Danish hyphenation patterns"
 DESCRIPTION = "Hyphenation patterns for Danish in T1/EC and UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-danish-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "05dcafa77ec10ea85168d7dc2cc62a60d52c6af1a1d43cc689a42c5ac7bc4832b81058b33f5364774226390bef2feb99f62c388b44b77636f7b5262a5d35f270"
+RPM_NAME = "texlive-hyphen-danish-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "9a68bf23f4235145cfa43b7cdb2eec47a53049c49e4e4fe8ddb7ea2d2f576e5469a4ddfa5e271adc927507295189a3ece6ac9629c6a20313cca2edaa9dffbd4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-da.ec.tex \

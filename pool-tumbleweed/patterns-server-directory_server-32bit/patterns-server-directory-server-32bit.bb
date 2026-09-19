@@ -2,10 +2,10 @@ SUMMARY = "Directory Server (LDAP)"
 DESCRIPTION = "The 32bit pattern complementing directory_server."
 LICENSE = "MIT"
 
-PV = "20210330"
+PV = "20250313"
 
-RPM_NAME = "patterns-server-directory_server-32bit-20210330-5.1.aarch64.rpm"
-RPM_HASH = "0b14eae5b8d8578b5e8842016864b89f77cf65605d8e09bed33c855e477c99586cf0deac0064e29051b8c9a68c238d1c9bd949c132c5502bf9d3577e3e4c6eeb"
+RPM_NAME = "patterns-server-directory_server-32bit-20250313-5.2.aarch64.rpm"
+RPM_HASH = "402680a5c699bf2a8416bbb3877bf3c8de0e236a991ce5b15ea6958cbc797aecc783bb10b62fd613d8ac129fe9d47459687e14c88c413d86a76af5abdf0a4881"
 
 RPROVIDES:${PN} += "pattern- \
 patterns-server-directory-server-32bit"

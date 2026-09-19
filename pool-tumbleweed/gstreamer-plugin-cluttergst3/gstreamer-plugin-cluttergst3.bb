@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "3.0.27"
 
-RPM_NAME = "gstreamer-plugin-cluttergst3-3.0.27-2.5.aarch64.rpm"
-RPM_HASH = "ec832cc8e91677fab60166838f57a9fc95f96ca0ebe20055bf078363d6fbb758fd2fc04cbd33bf7bf2a28f88350db20c012c419ea79c84c3f9df72361200943d"
+RPM_NAME = "gstreamer-plugin-cluttergst3-3.0.27-2.16.aarch64.rpm"
+RPM_HASH = "8f2db517c3ed3abdeb000214a0eebb7a96d4a21c1531015af32c682cd7fa3e5d74f990e1a67d32da527a77cda1a4ed9d944be893235826b4c202c7e0df9476bf"
 
 RPROVIDES:${PN} += "gstreamer-plugin-cluttergst3 \
 libcluttergst3.so"

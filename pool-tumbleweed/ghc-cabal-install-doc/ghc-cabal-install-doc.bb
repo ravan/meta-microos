@@ -2,10 +2,10 @@ SUMMARY = "Haskell cabal-install library documentation"
 DESCRIPTION = "This package provides the Haskell cabal-install library documentation."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.8.1.0"
+PV = "3.14.1.1"
 
-RPM_NAME = "ghc-cabal-install-doc-3.8.1.0-2.4.noarch.rpm"
-RPM_HASH = "83a8e46134cd97b3dd866e4c548cff697c0bcfcf98d82a6c9785171fca5f92df9452a210357eac517d7ef38ba5bf99067842d6fd10a514faacf5bb754677137d"
+RPM_NAME = "ghc-cabal-install-doc-3.14.1.1-6.4.noarch.rpm"
+RPM_HASH = "8e372cc46d76e04c4c97100b3a7dfae23ad3746e1a6e6edb543efd65c70bda7be819e771468ab57dc2cf75545424658a6647afe8a2cdf8b541a24c8e7d0165bc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-cabal-install-doc"

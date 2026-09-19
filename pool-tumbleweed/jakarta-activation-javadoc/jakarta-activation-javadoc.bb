@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for jakarta-activation"
 DESCRIPTION = "This package contains javadoc for jakarta-activation."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.1.0"
+PV = "2.1.3"
 
-RPM_NAME = "jakarta-activation-javadoc-2.1.0-2.7.noarch.rpm"
-RPM_HASH = "32b3d0382cf573a3c1898361a99db33622b2793871390660a196d533f0591f858b882c48554b48f20fa69bd3acb084c0280d6bcc756263df99ff9f427c04050e"
+RPM_NAME = "jakarta-activation-javadoc-2.1.3-1.9.noarch.rpm"
+RPM_HASH = "b4fb5053d44eb446ae4a89319caf7bdf221b780709d5250372a239535b4b2eb21adc6d4cc31143daf61a64934c75255714e2f4e75e566cd707f4deb590e05cc6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jakarta-activation-javadoc"

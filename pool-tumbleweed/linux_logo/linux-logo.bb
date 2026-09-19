@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "6.01"
 
-RPM_NAME = "linux_logo-6.01-1.1.aarch64.rpm"
-RPM_HASH = "34dd09cfd5dcc5e5393080115c1b63328b5812c2028850526717f7fcbc57fbee866cee11accf6937bb00d4355729d0dfa6a6f56cbcec7e37ce71161d7e369192"
+RPM_NAME = "linux_logo-6.01-1.11.aarch64.rpm"
+RPM_HASH = "e299ba884547883f6be431b6608169ab3ac320d0cfa6277b4bea216eec521a111c9ed4fb4e22a924ee12ff735aed1497e417d96593f070d04b134f9219c6e9a1"
 
 RPROVIDES:${PN} += "linux-logo"
 

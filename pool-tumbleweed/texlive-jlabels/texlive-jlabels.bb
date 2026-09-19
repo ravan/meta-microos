@@ -3,10 +3,10 @@ DESCRIPTION = "The package provides controls for the numbers of rows and \
 columns."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn24858"
+PV = "2026.226.svn24858"
 
-RPM_NAME = "texlive-jlabels-2023.209.svn24858-56.1.noarch.rpm"
-RPM_HASH = "e666fb4549f16cd231ee2309b2d88b0fc2fd827b8febb284379d5819df0518f863491f834fa7077f9d9e1828a08927bf656409866e47595a3b48f4723fb04464"
+RPM_NAME = "texlive-jlabels-2026.226.svn24858-63.2.noarch.rpm"
+RPM_HASH = "0c8383caf416f5688a76865b3387e22187e82504f07f80a6cdca3865766693b1865465862f091f8aeae34d67fbd901234d823444bcb10e8d9ccb12a94936e09d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-jlabels.sty \

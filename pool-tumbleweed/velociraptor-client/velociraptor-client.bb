@@ -10,18 +10,21 @@ This package contains only the endpoint agent.  For the full server and GUI \
 console, please install the 'velociraptor' package."
 LICENSE = "AGPL-3.0-only"
 
-PV = "0.6.7.5~git81.01be570"
+PV = "0.7.0.4.git185.a5708584"
 
-RPM_NAME = "velociraptor-client-0.6.7.5~git81.01be570-4.1.aarch64.rpm"
-RPM_HASH = "59167032e7fb34f6b39900f90556741a449a64971f3a2016d085904f4a5f986fb3148e7e50e75aa256d26ed76d614e151daed0d8c73cbc1ae783de0dd013e6ee"
+RPM_NAME = "velociraptor-client-0.7.0.4.git185.a5708584-2.4.aarch64.rpm"
+RPM_HASH = "15a0b8fbcfce7314d8d9c82d1d0fb3cf665f01639bf5aafd642c79b5f25cfd2eba91dc2aa4752f7165feae021f3170d8d2cdfa975b95f470fedee400b7ab4714"
 
 RPROVIDES:${PN} += "config-velociraptor-client \
-velociraptor-client"
+velociraptor-client \
+velociraptor-client-project-openSUSE-Factory-ARM"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
+group-velociraptor \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libz.so.1 \
-libzstd.so.1"
+libzstd.so.1 \
+sysuser-shadow"
 
 inherit rpm

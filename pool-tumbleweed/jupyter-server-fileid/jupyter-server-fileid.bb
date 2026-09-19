@@ -4,10 +4,10 @@ DESCRIPTION = "A Jupyter Server extension providing an implementation of the Fil
 This subpackage provides the jupyter configuration"
 LICENSE = "BSD-3-Clause"
 
-PV = "0.9.0"
+PV = "0.9.3"
 
-RPM_NAME = "jupyter-server-fileid-0.9.0-2.1.noarch.rpm"
-RPM_HASH = "7d107ef6df2d51f452115d9b1374620b415dd07763155444cefacebe1bd88704ff76fc48072d5af941ff2be81ffb11bd49b6146620745f701c23ef26b253764c"
+RPM_NAME = "jupyter-server-fileid-0.9.3-1.8.noarch.rpm"
+RPM_HASH = "67fe68b892f8539f80a7e436f5585b1bd73ec5f9d9a20e55249cede5aa48bac8ec97ea51279d161b2aa6b97b1ba501fe791ba50c29bbc23e977e79bd24b2d68f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jupyter-server-fileid"

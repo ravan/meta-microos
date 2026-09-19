@@ -3,13 +3,13 @@ DESCRIPTION = "This is an unofficial LaTeX package to generate titlepages for \
 the Radboud University, Nijmegen. It uses official vector logos \
 from the university. This package requires the following other \
 LaTeX packages: geometry, graphicx, ifpdf, keyval, iflang, and, \
-optionnaly, babel-dutch."
+optionally, babel-dutch."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.0svn62143"
+PV = "2026.226.3.0svn76924"
 
-RPM_NAME = "texlive-rutitlepage-2023.209.3.0svn62143-54.1.noarch.rpm"
-RPM_HASH = "bc77836334b3c5d1f83b28e3ad1c6af09f3d23e03c1a208bffcceff3ae57c6bf5ceff2b12253751135c88647f2c6c22e16235e612bba15769c0a9de7238bde7e"
+RPM_NAME = "texlive-rutitlepage-2026.226.3.0svn76924-60.2.noarch.rpm"
+RPM_HASH = "ab5ff7a226f9c1d9b5c254898caeb2ff2699d4d3931084b485375612983796c3ec36adf890ac8887c776b975bd75db36a1b13c0261c6f31d76fe42ef28f02845"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rutitlepage.sty \

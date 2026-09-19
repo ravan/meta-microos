@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.2~pre2"
 
-RPM_NAME = "rxtx-java-2.2~pre2-5.1.aarch64.rpm"
-RPM_HASH = "02529194c1961cbbdc084ecedebf2ddbbce879a42028594d4f61f1f243f861eba232b841ff2b333ed6ee30dd285d096c0c3c9d6929e43c6823fe85ccd10e6824"
+RPM_NAME = "rxtx-java-2.2~pre2-10.1.aarch64.rpm"
+RPM_HASH = "27ed21d2a2e2c382708bd25799054a768d9e6c255124211a930642953c543e3bbd6f11cc1c819738de14ce23ab744a451c14e3ab4c06902554ed744b98dce3f4"
 
 RPROVIDES:${PN} += "osgi-gnu.io.rxtx \
 rxtx-java"

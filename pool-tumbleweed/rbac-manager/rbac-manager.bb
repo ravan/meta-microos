@@ -1,13 +1,18 @@
 SUMMARY = "Kubernetes operator for easier RBAC management"
 DESCRIPTION = "RBAC Manager is designed to simplify authorization in Kubernetes. \
-This is an operator that supports declarative configuration for RBAC with new custom resources. \
-Instead of managing role bindings or service accounts directly, you can specify a desired state and RBAC Manager will make the necessary changes to achieve that state."
+ \
+This is an operator that supports declarative configuration for RBAC with new \
+custom resources. \
+ \
+Instead of managing role bindings or service accounts directly, you can specify \
+a desired state and RBAC Manager will make the necessary changes to achieve \
+that state."
 LICENSE = "Apache-2.0"
 
-PV = "1.4.2"
+PV = "1.10.2"
 
-RPM_NAME = "rbac-manager-1.4.2-1.5.aarch64.rpm"
-RPM_HASH = "6244d5e1b7889432139f360993eea083f326e4431724dce7a0fccd8a4a31d54d5824262a22a465cbb8bdaa105e035102bba910507a534efd4aef8f952101f265"
+RPM_NAME = "rbac-manager-1.10.2-1.1.aarch64.rpm"
+RPM_HASH = "555bd51c5c3b4f92baff1bfb1160c2bd63aa2714d5b8f0a5fd6c639e76a455b39c488dfea21f268decd6eb58592c6a46a5b1f9da25cd1c9b3eb1750cca81c449"
 
 RPROVIDES:${PN} += "rbac-manager"
 

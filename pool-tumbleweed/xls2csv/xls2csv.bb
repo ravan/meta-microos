@@ -5,8 +5,8 @@ LICENSE = "Artistic-1.0 | GPL-2.0+"
 
 PV = "1.07"
 
-RPM_NAME = "xls2csv-1.07-1.21.noarch.rpm"
-RPM_HASH = "4b450ff978a86635e712a246a2572d0ba5c10090490de1a548080840ec1d4bd5530ab34472eb130fd7f8f93ededc2aa7f2049ac9000b5766d0a273c1dd18ba07"
+RPM_NAME = "xls2csv-1.07-1.30.noarch.rpm"
+RPM_HASH = "70c2d60e56d249afac979a5c3e1b681c84cc9ba304a9a3b3aa81a27b6a0f299738071361701e4ab6f110f2bfc593b3e5aa80d5d4cdd840f3d2a9ea2c1475ace2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xls2csv"

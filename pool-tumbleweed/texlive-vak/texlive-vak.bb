@@ -9,10 +9,10 @@ references. Processing bibliographies produced by the style \
 requires a 8-bit BibTeX system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn23431"
+PV = "2026.226.svn75878"
 
-RPM_NAME = "texlive-vak-2023.209.svn23431-54.1.noarch.rpm"
-RPM_HASH = "5e4d2f71433da3d9fa32e39bed6a8539ce876ac91f869e88aae66f153383b17ab2f828f99ac9a392496dd6ba366d10df1d9318923c5c5c311b2fe861635bb317"
+RPM_NAME = "texlive-vak-2026.226.svn75878-60.2.noarch.rpm"
+RPM_HASH = "1b1b358086949efd0e3b51bcfacf7cdb6badd38c308488b46edcb0cbbba2a2e5bb1be360e754567368b1d4ec99785379b93bd61a44df8639fbc6c296cc4c5ac0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-vak"

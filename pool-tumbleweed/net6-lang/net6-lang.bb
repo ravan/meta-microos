@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package net6"
 DESCRIPTION = "Provides translations for the 'net6' package."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.3.14"
 
-RPM_NAME = "net6-lang-1.3.14-12.27.noarch.rpm"
-RPM_HASH = "9e34886ad9d96b0b34e7b31388b4618edac2655b9bdf7a6e147b23a904a79c702bb3710614c34a0773ef782c2b7b57753be46c44452788e8f4f271b6c8b29894"
+RPM_NAME = "net6-lang-1.3.14-13.9.noarch.rpm"
+RPM_HASH = "f4c984e46da02ef3a7570f753dbff0d07356101de40fc22d4a85a8d6cddcdc0bcce15bb72227d12fb3926fae35253b86b5454d7157e52273092ec6b157db2b85"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-net6-ast \

@@ -2,15 +2,16 @@ SUMMARY = "File browser for Cinnamon"
 DESCRIPTION = "Nemo is the file manager for the Cinnamon desktop environment."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.6.4"
+PV = "6.6.4"
 
-RPM_NAME = "nemo-5.6.4-1.3.aarch64.rpm"
-RPM_HASH = "1a5891f462509be131a02d43b437d784a100ceb9759e2228472ad56e2f7bdb1705c973e55e4f171e657169b448fbec93f426396cc395166f2552dbe9bb140a52"
+RPM_NAME = "nemo-6.6.4-1.1.aarch64.rpm"
+RPM_HASH = "1bf306791b6bf611a884c62d8ef4cc874aa525d23dc0fa70b4464298baf88a06f0ed5e7b1a35692120b2c7f5942497490b39518577bc8e56597bf74c3c63f413"
 
 RPROVIDES:${PN} += "nemo"
 
-RDEPENDS:${PN} += "/usr/bin/env \
+RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/python3 \
+/usr/bin/sh \
 desktop-file-utils \
 glib2-tools \
 gvfs \
@@ -32,12 +33,22 @@ libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgsf-1.so.114 \
 libgtk-3.so.0 \
+libjson-glib-1.0.so.0 \
 libnemo-extension.so.1 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \
+libselinux.so.1 \
+libtinysparql-3.0.so.0 \
 libxapp.so.1 \
-libxml2.so.2 \
 python3 \
-shared-mime-info"
+shared-mime-info \
+typelib-GLib \
+typelib-Gdk \
+typelib-GdkPixbuf \
+typelib-Gio \
+typelib-Gtk \
+typelib-Pango \
+typelib-XApp \
+typelib-Xmlb"
 
 inherit rpm

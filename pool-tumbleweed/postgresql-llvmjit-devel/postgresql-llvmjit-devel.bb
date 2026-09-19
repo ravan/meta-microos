@@ -10,16 +10,18 @@ support if the base distro has llvm enabled. \
 Otherwise it will just pull the postgresqlXY-server-devel package"
 LICENSE = "PostgreSQL"
 
-PV = "15"
+PV = "18"
 
-RPM_NAME = "postgresql-llvmjit-devel-15-2.12.noarch.rpm"
-RPM_HASH = "46497f18a09689595e667c5c264cb1c54f8ab524a64ccbe6b5d1acf1f812de3f01de61e4b2a78bd18033f0931c22920aab71cab755a40c6e173d74fdb1f13d2b"
+RPM_NAME = "postgresql-llvmjit-devel-18-3.4.noarch.rpm"
+RPM_HASH = "5d14218ccbb2fc2bf032c957b1fb7b2cc0fb884bfe3927669d388e35d44f4e226d7daab386e562d7f66fa552ef318d39bfecb19af99bf4ab239d74a992a1c6b3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "postgresql-llvmjit-devel \
 postgresql-llvmjit-devel-noarch"
 
-RDEPENDS:${PN} += "postgresql-llvmjit-devel-implementation \
+RDEPENDS:${PN} += "postgresql \
+postgresql-llvmjit-devel-implementation \
+postgresql-noarch \
 postgresql-server-devel-noarch"
 
 inherit rpm

@@ -2,12 +2,12 @@ SUMMARY = "AWS SDK for Java"
 DESCRIPTION = "The AWS SDK for Java enables Java developers to easily work with \
 Amazon Web Services and build scalable solutions with Amazon S3, \
 Amazon DynamoDB, Amazon Glacier, and more."
-LICENSE = "Apache-2.0 & SUSE-Public-Domain"
+LICENSE = "Apache-2.0 & LicenseRef-SUSE-Public-Domain"
 
 PV = "1.11.3"
 
-RPM_NAME = "aws-sdk-java-1.11.3-7.9.noarch.rpm"
-RPM_HASH = "f0c5d8d934333c84cacd889ee10c15502caa3b12559d884926c5acd8c93cf47147c1e3a724659edf7dde2014539067b5c67ab7421b4169beb3ac72b451a95c9d"
+RPM_NAME = "aws-sdk-java-1.11.3-12.2.noarch.rpm"
+RPM_HASH = "b5dfdc1d6dcd3f970df70ae30a7d7ca3d75bee782f520b98c0d9fe4c2704e964b99f231a71ccc06aa452b15c111b9342f908260ab1b1fe3d82ab5e787b1d1859"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "aws-sdk-java \

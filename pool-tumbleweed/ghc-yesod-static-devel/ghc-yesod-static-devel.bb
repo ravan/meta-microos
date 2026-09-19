@@ -2,45 +2,46 @@ SUMMARY = "Haskell yesod-static library development files"
 DESCRIPTION = "This package provides the Haskell yesod-static library development files."
 LICENSE = "MIT"
 
-PV = "1.6.1.0"
+PV = "1.6.1.3"
 
-RPM_NAME = "ghc-yesod-static-devel-1.6.1.0-4.17.aarch64.rpm"
-RPM_HASH = "da1050245f921f4c9cfe23508a222eb728d5a390757a14e3c752de0289aa5be97330ba63621db391bf0135efca584741e185bea4f5eb0ab7d7ebf520d8003348"
+RPM_NAME = "ghc-yesod-static-devel-1.6.1.3-1.5.aarch64.rpm"
+RPM_HASH = "5e7731ebbb38354b5e658a4d0b9d5ada84292135f9dff39d5745050b3c9c1fb3f25a098f7eda0fc1a8caad5411d6c376a24fd8ac1dd87d0c5561ed6d492049d2"
 
-RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.0-EfPKBZFI7L9CZHJVHpSVxP \
+RPROVIDES:${PN} += "ghc-devel-yesod-static-1.6.1.3-9noSySaJsVKKGGZ3TtCUj8 \
 ghc-yesod-static-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-async-2.2.4-LcXCzTmy8C6G7Wa774EctI \
-ghc-devel-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-base64-bytestring-1.2.1.0-JQ4JRrw3cTgQfbCEB1eM \
-ghc-devel-blaze-builder-0.4.2.3-5OTuTvWo4E897AhC0hKBND \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-conduit-1.3.5-3TRUhNB8WbY2vxuXe2VjBX \
-ghc-devel-containers-0.6.7 \
-ghc-devel-cryptonite-0.30-LSC76M64GQaFgLGwFfgIgW \
-ghc-devel-cryptonite-conduit-0.2.2-4rYVqGhYqU58GDqiFoVTUX \
-ghc-devel-css-text-0.1.3.0-8klVmv0TGJS6WEADR2StQO \
-ghc-devel-data-default-0.7.1.1-4TeAZDN81Uu1IorgFaPMOc \
-ghc-devel-directory-1.3.7.1 \
-ghc-devel-file-embed-0.0.15.0-DAhwsrlSNND3ZIPejkHOUv \
-ghc-devel-filepath-1.4.2.2 \
-ghc-devel-hashable-1.4.3.0-IAiFPPoB7KF1SaZ2CDcpeP \
-ghc-devel-hjsmin-0.2.1-5GDclcDeF3LDFr0332m90w \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-memory-0.18.0-6jbQrbksm9m3FIftlSlmf1 \
-ghc-devel-mime-types-0.1.1.0-oV8uh4Pssd1mRIrSbk6Ab \
-ghc-devel-process-1.6.17.0 \
-ghc-devel-template-haskell-2.19.0.0 \
-ghc-devel-text-2.0.2 \
-ghc-devel-transformers-0.5.6.2 \
-ghc-devel-unix-compat-0.6-IJaiJvo5DQ6Elf7LVlEGei \
-ghc-devel-unordered-containers-0.2.19.1-BD6cH0OVlFU7YsFVVfZeZn \
-ghc-devel-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
-ghc-devel-wai-app-static-3.1.7.4-GYm23xVACFBKSbu1JkCZl2 \
-ghc-devel-yesod-core-1.6.24.4-1di0EYNbRAz9TOkBiAT5Ab \
+ghc-devel-async-2.2.6-4fW0sXrepSt4QxgAnnLVB6 \
+ghc-devel-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-base64-bytestring-1.2.1.0-9fPiMCS8Y4g8itFjJTGk2y \
+ghc-devel-blaze-builder-0.4.4.1-DHhu3j9nndC9LUZIrPJCEG \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-conduit-1.3.6.1-DuJaiNNDon54jV6QjcNayt \
+ghc-devel-containers-0.7-d5e1 \
+ghc-devel-crypton-1.1.4-CRp9zIWu5CJCaPWpwBhIPB \
+ghc-devel-crypton-conduit-0.3.0-ID9cpdbxIMIJwDEvCNr6mu \
+ghc-devel-css-text-0.1.3.0-H6znMdaU8xkJgIqMcqUC7W \
+ghc-devel-data-default-0.8.0.2-E5U3DddOalL1fqy98B4vdZ \
+ghc-devel-directory-1.3.10.1-b1d7 \
+ghc-devel-file-embed-0.0.16.0-JqsWezc6wrB9rh480YKWnn \
+ghc-devel-filepath-1.5.5.0-b25b \
+ghc-devel-hashable-1.5.1.0-csiQUH7RkN8TUlZyJbFpr \
+ghc-devel-hjsmin-0.2.1-8bKwnYn2QQi2TYSbwT5Kau \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-memory-0.18.0-4OCVGiXkS6t9StTfiwlZlu \
+ghc-devel-mime-types-0.1.2.2-6XnqAsimqz1GLkPrdggNkp \
+ghc-devel-process-1.6.26.1-905d \
+ghc-devel-ram-0.22.0-4Io46KcWliV5ncwh4lemlr \
+ghc-devel-template-haskell-2.23.0.0-358a \
+ghc-devel-text-2.1.4-cf23 \
+ghc-devel-transformers-0.6.3.0-4709 \
+ghc-devel-unix-compat-0.7.4.1-4v781Gok1KY8Kg7jV1j1vn \
+ghc-devel-unordered-containers-0.2.21-BkBQHKMtdH7EKz6YnT01Lu \
+ghc-devel-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
+ghc-devel-wai-app-static-3.1.9.1-79h1qWsU2OJ8maZZtyFIQX \
+ghc-devel-yesod-core-1.6.29.1-6DqdyPYDE9N9BEzGBhDP9D \
 ghc-yesod-static"
 
 inherit rpm

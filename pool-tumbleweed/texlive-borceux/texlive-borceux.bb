@@ -9,10 +9,10 @@ pair of adjoint arrows, etc.) and their direction (north, \
 south-east, etc.); 12 types and 32 directions are available."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn21047"
+PV = "2026.226.svn21047"
 
-RPM_NAME = "texlive-borceux-2023.209.svn21047-53.1.noarch.rpm"
-RPM_HASH = "c7b2f17d8e2dc19c567e8ea4455fa3b9156adb5d9d7f1c9aa9fd735b3507e4acfa56befdddabb4c286f7c83c6f7a53bd78e4a1a1f34d69643b4c47ec542d264a"
+RPM_NAME = "texlive-borceux-2026.226.svn21047-59.2.noarch.rpm"
+RPM_HASH = "3de296d9be8d22878f04186729e0bfe4e7842046285e02f4f0a5f9bf4554d0aaf4cb09f3c68fda81997eacb403a8f93e64e6cf34449980894648485ad76c16b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-borceux"

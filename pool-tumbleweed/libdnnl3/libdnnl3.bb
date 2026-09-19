@@ -6,10 +6,10 @@ Intel MKL-DNN contains vectorized and threaded building blocks that you can use 
 to implement deep neural networks (DNN) with C and C++ interfaces."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.7.3"
 
-RPM_NAME = "libdnnl3-3.0.1-1.3.aarch64.rpm"
-RPM_HASH = "a06775825505b1bf6207e76eb4a16da682740272c1ce0137126a99dfa963080cf718b3eb05bc7c22e6460b6932e08b9972f9bb92591716b8909cc9bf6963134c"
+RPM_NAME = "libdnnl3-3.7.3-2.1.aarch64.rpm"
+RPM_HASH = "9e528892c0d4a836be453c705ac84b88e42d1e94aa8274a61ca260467aece4557303ee36aa3fd25c3c77a6939a34b4720a20f2ededad1a1a03ca863e82599a56"
 
 RPROVIDES:${PN} += "libdnnl.so.3 \
 libdnnl3"

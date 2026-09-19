@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-everyhook"
 DESCRIPTION = "This package includes the documentation for texlive-everyhook"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.2svn35675"
+PV = "2026.226.1.2svn35675"
 
-RPM_NAME = "texlive-everyhook-doc-2023.209.1.2svn35675-53.1.noarch.rpm"
-RPM_HASH = "f242b2e7ad114eb45d4e54206729feac1527515d2ca5ba0757cc031b22f0787f2d365309abf0a5529abb1920cc66054166fec050a0aabca98ce45937d9950599"
+RPM_NAME = "texlive-everyhook-doc-2026.226.1.2svn35675-59.2.noarch.rpm"
+RPM_HASH = "5801fadad0f99ef9367856dbe3cb22065c6d7a0322a48981c0ad7e69ca557090cda38236d2266e909a456b476724191ec81ab3030fe524082aadbdc5dfc2f9a9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-everyhook-doc"

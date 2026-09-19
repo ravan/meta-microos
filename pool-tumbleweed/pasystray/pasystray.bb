@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8.2"
 
-RPM_NAME = "pasystray-0.8.2-1.4.aarch64.rpm"
-RPM_HASH = "e52a1f5dedb1ccb4af8570814df6225510a2bc3befbc00edc08a5fd4c13aa9cd88efd670246d7f179b557bb1d70aa237eec9e1f1888e2e5a5d28e588cd10fb8d"
+RPM_NAME = "pasystray-0.8.2-2.4.aarch64.rpm"
+RPM_HASH = "5d10c18d9694b2b9e42434414d84951052b41f05ddae94d480fab5ed614dbc0d4f54e346585d70d823b4a412ca1b6f1e652b87802e1f22dbeb89bc352bcc3cd5"
 
 RPROVIDES:${PN} += "pasystray"
 

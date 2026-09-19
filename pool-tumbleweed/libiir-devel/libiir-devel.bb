@@ -9,12 +9,13 @@ All realtime filter code is in the header files which guarantees efficient integ
 and the compiler can optimise both filter code and main program at the same time."
 LICENSE = "MIT"
 
-PV = "1.9.4"
+PV = "1.10.0"
 
-RPM_NAME = "libiir-devel-1.9.4-1.4.aarch64.rpm"
-RPM_HASH = "c5e2e2b2cce4b6994c28fc64ff72ddd9cac4603840309f8f167d840eb75cd422a022b0fbb6602e54c36d7f6f3897cdad70d3b6cc2cd8e9dbdd1ccf89a3b4d81d"
+RPM_NAME = "libiir-devel-1.10.0-1.5.aarch64.rpm"
+RPM_HASH = "89f842905d3750715a1b2b768e8868ac17fc933bded20eaf6bb025dec9bd6c24e43773232c0bb959b5a3ba95eef72115056ed8080ed6d1c0c4b83fb311d87007"
 
-RPROVIDES:${PN} += "libiir-devel \
+RPROVIDES:${PN} += "cmake-iir \
+libiir-devel \
 pkgconfig-iir"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

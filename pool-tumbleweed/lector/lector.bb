@@ -11,15 +11,15 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.5.1"
 
-RPM_NAME = "lector-0.5.1-2.17.noarch.rpm"
-RPM_HASH = "d5cd8c6b7f374a2cec1a14b3f5c0c22cf1eae8b8dfb3d2ac118ce487c3cb8cf14bbf949d04a67efb50357119ba3ca15e4628bedb212e115ef52cd3bf9214d9c6"
+RPM_NAME = "lector-0.5.1-3.7.noarch.rpm"
+RPM_HASH = "75ed4e32b52bdfa6a4f4cb2d23f9663e2c34e0889fdca4b22ee7a61d2238f02300945d7c5d0229cac20ec88b4c4c78ca091f03c88af947ff7196519faf69758c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lector \
-python3.11dist-lector \
+python3.13dist-lector \
 python3dist-lector"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3 \
 python3-beautifulsoup4 \

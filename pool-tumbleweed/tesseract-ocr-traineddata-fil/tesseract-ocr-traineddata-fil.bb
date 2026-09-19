@@ -3,16 +3,17 @@ DESCRIPTION = "This package contains the fast integer version of the Filipino; P
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-fil-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "46e29cb3f5fbcf3102f2bc13c0ca22474a75e288435131c433ff2f2c4da4a3176a074c97b17e89b28e81b8e6ced3ecacb18158cfadd6aeb737404353b95d8eed"
+RPM_NAME = "tesseract-ocr-traineddata-fil-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "fc2ad6944ef31baa18e63cab015a56b5b46e68762fb640bb7bfdc01e5e94f38728c384a42d2d22f428c0ea6fa94738a555f5d2795e34900d949b90294b21ddb9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tesseract-ocr-traineddata-fil \
 tesseract-ocr-traineddata-filipino \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-filipino"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

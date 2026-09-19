@@ -2,10 +2,10 @@ SUMMARY = "Translations for package libgedit-gtksourceview"
 DESCRIPTION = "Provides translations for the 'libgedit-gtksourceview' package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "299.0.3"
+PV = "299.7.1"
 
-RPM_NAME = "libgedit-gtksourceview-lang-299.0.3-1.1.noarch.rpm"
-RPM_HASH = "84cbd0f9b9b147ba6d079389b6ec2fd167cc5302c65ed841554c1ec7f6c4b714dec3dffadae253d2fb813ba75e7897a29037cb9567aadd48db7e25ee89f4aa35"
+RPM_NAME = "libgedit-gtksourceview-lang-299.7.1-1.1.noarch.rpm"
+RPM_HASH = "4846e7ec99a9936d344af9fcd889a7fa980e2a6f574d2f1c2c3e9645dfaf4ffb600845ae1a3756ac86069d5645d31f1aecb8a8d7f87cfd2c226faca53166e7c9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libgedit-gtksourceview-lang \
@@ -48,6 +48,7 @@ locale-libgedit-gtksourceview-hu \
 locale-libgedit-gtksourceview-id \
 locale-libgedit-gtksourceview-it \
 locale-libgedit-gtksourceview-ja \
+locale-libgedit-gtksourceview-ka \
 locale-libgedit-gtksourceview-kk \
 locale-libgedit-gtksourceview-kn \
 locale-libgedit-gtksourceview-ko \

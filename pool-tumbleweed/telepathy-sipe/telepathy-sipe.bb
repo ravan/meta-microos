@@ -13,8 +13,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.25.0"
 
-RPM_NAME = "telepathy-sipe-1.25.0-2.12.aarch64.rpm"
-RPM_HASH = "3c9e6ea50b1fef77de40074b4c6b4317329b9e5ed1b2eba891ae91b75467a70ae35e875163ac78b6773118b338567845f5f50697967e3cd1478bc3c32415b28a"
+RPM_NAME = "telepathy-sipe-1.25.0-4.8.aarch64.rpm"
+RPM_HASH = "445545a9734cccf0a849a9c19b7c5975fde089db2f37284f13302aef108ac147b3ea3479c4f6da12c7564e2c179d1d43f34487ee42ce621765beb95763f4f6f8"
 
 RPROVIDES:${PN} += "telepathy-plugin-sipe \
 telepathy-sipe"
@@ -33,6 +33,6 @@ libnspr4.so \
 libnss3.so \
 libsmime3.so \
 libtelepathy-glib.so.0 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

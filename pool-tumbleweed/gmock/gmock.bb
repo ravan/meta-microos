@@ -7,16 +7,16 @@ This package provides shared libraries and header files for development \
 with googlemock."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.12.1"
+PV = "1.17.0"
 
-RPM_NAME = "gmock-1.12.1-1.4.aarch64.rpm"
-RPM_HASH = "e29938654a4cc2d47c01ca6eff88c6361444705e91b53a6d1ba3a2062d72688f8466ab41409b03ab2465bcb5aec74e8d1f6413fcfd00c3ea6961c500939ea2cf"
+RPM_NAME = "gmock-1.17.0-1.5.aarch64.rpm"
+RPM_HASH = "6be78ddf7bc0bc69aba68e87491ac837cdb4aceb7b5a87228b8d0d5985672e85f4338ede29f299c246b31aa6765d95023e2e25ccd718ad622c1c48a78eb03e45"
 
 RPROVIDES:${PN} += "cmake-GTest \
 gmock \
 googlemock-devel \
-libgmock-main.so.1.12.1 \
-libgmock.so.1.12.1 \
+libgmock-main.so.1.17.0 \
+libgmock.so.1.17.0 \
 pkgconfig-gmock \
 pkgconfig-gmock-main"
 
@@ -25,7 +25,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libgtest.so.1.12.1 \
+libgtest.so.1.17.0 \
 libstdc++.so.6 \
 pkgconfig-gtest"
 

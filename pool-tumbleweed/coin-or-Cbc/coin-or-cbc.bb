@@ -5,10 +5,10 @@ library or using a stand-alone executable. It can be used in a wide \
 variety of ways through various modeling systems, packages, etc."
 LICENSE = "EPL-2.0"
 
-PV = "2.10.8"
+PV = "2.10.13"
 
-RPM_NAME = "coin-or-Cbc-2.10.8-1.4.aarch64.rpm"
-RPM_HASH = "692eed10a7cf598905d002d380404f4dec310da491e7f5e64f8226b68ec8b7d5b90ae4f184fb9a8d1379ece8ad1001ee761d610f8fe97682f30cff08cb39cffd"
+RPM_NAME = "coin-or-Cbc-2.10.13-1.2.aarch64.rpm"
+RPM_HASH = "d575274e5741d1340d5901b03cebb56513526ab3e1fb881a5d67a384ba1fcb215d73c255d572aeeb96eb13d314e4b4dbe97f7b199d01149ff7b963198dafe7a0"
 
 RPROVIDES:${PN} += "coin-or-Cbc"
 

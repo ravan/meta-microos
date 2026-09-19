@@ -6,15 +6,18 @@ up a non-local goto via setjmp is generally faster compared to the \
 system routines, at the cost of a much slower longjmp."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.8.3"
 
-RPM_NAME = "libunwind-setjmp0-1.7.2-1.1.aarch64.rpm"
-RPM_HASH = "51bc40a506bd776f07eeca4f4df0daa220207f60127ab63352b94c745832dc92b70f125da7695dc81222cb81cd0230c9d73c3ac95611b421861648c46c21135e"
+RPM_NAME = "libunwind-setjmp0-1.8.3-3.3.aarch64.rpm"
+RPM_HASH = "5e0f52ef6755cce81db51be035e428b1009bf6a2b9709a7f14fe1f3e1095bd52c3144fe1570a09e572cb5c96a29b9347c628d3a535eca5c079538af31a427db0"
 
 RPROVIDES:${PN} += "libunwind-setjmp.so.0 \
 libunwind-setjmp0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
+ld-linux-aarch64.so.1 \
+libc.so.6 \
+liblzma.so.5 \
 libunwind-aarch64.so.8"
 
 inherit rpm

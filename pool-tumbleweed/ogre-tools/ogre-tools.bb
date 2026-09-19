@@ -9,16 +9,17 @@ objects and other intuitive classes. \
 This package contains various tools that make working with ogre easier."
 LICENSE = "LGPL-2.1-only"
 
-PV = "13.5.3"
+PV = "13.6.5"
 
-RPM_NAME = "ogre-tools-13.5.3-2.3.aarch64.rpm"
-RPM_HASH = "577de4f36f36ef2cbcd60746c1083009dda4a2173424f430aa9a04a933e172f8cf498f0be610fbc61cf50d83cd7b2da9d75768c1738820ff038b84df429de4eb"
+RPM_NAME = "ogre-tools-13.6.5-5.1.aarch64.rpm"
+RPM_HASH = "94a79337b809839ec810b5df59764bba467f4b1f03afa2b18963e1349f7b98df7750b0b8341ffd3b94522401db374b42a52f62dacde2d336241b3e6e263892e1"
 
 RPROVIDES:${PN} += "ogre-tools"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libOgreMain.so.13.5 \
-libOgreMeshLodGenerator.so.13.5 \
+libOgreMain.so.13.6 \
+libOgreMeshLodGenerator.so.13.6 \
+libOgreRTShaderSystem.so.13.6 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \

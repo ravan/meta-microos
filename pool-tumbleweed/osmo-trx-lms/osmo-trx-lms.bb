@@ -17,23 +17,23 @@ LICENSE = "AGPL-3.0-or-later"
 
 PV = "1.4.0"
 
-RPM_NAME = "osmo-trx-lms-1.4.0-1.16.aarch64.rpm"
-RPM_HASH = "eb1ed62382da5d9159e0cc01adcb68370059245981b2ffb0571b6b6106b533f03498f7ad59697ebc1ef053e856c94d12813ce65fd64ea00ae2a0b3a3f33956bd"
+RPM_NAME = "osmo-trx-lms-1.4.0-3.6.aarch64.rpm"
+RPM_HASH = "45e44d43053ec4b98b82517d6b8dfec462a214a95a44f23fbf2dd7f0c55de6bf3c84dd0ab55b2adc4773400c74e46bf4ce42ec8f55e46101ef354ff189ef208a"
 
 RPROVIDES:${PN} += "config-osmo-trx-lms \
 osmo-trx-lms"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libLimeSuite.so.22.09-1 \
+libLimeSuite.so.23.11-1 \
 libc.so.6 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
 libm.so.6 \
-libosmocore.so.20 \
+libosmocore.so.22 \
 libosmoctrl.so.0 \
-libosmogsm.so.18 \
-libosmovty.so.9 \
+libosmogsm.so.20 \
+libosmovty.so.13 \
 libstdc++.so.6 \
 libtalloc.so.2"
 

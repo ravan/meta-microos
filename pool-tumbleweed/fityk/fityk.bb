@@ -6,8 +6,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.3.2"
 
-RPM_NAME = "fityk-1.3.2-1.5.aarch64.rpm"
-RPM_HASH = "5422addcaf309dacf43d0588fbc52da59408bafb524af46a1ea98cc0effd15bd8c5e7cde057a26cde9636f6ecfe204158f8dace5d207605c7bb476cb42fd50aa"
+RPM_NAME = "fityk-1.3.2-2.6.aarch64.rpm"
+RPM_HASH = "f7c21897cdee1e26f6b116cc0dc1e7056cb1df3553950564ccf59fa5121be9ea48fcfbeb6ed5eb98ce304e69198fec48c6f2d256981d4d982f1d10f1aaec21af"
 
 RPROVIDES:${PN} += "fityk"
 
@@ -16,11 +16,11 @@ libc.so.6 \
 libfityk.so.4 \
 libgcc-s.so.1 \
 libm.so.6 \
-libnlopt.so.0 \
+libnlopt.so.1 \
 libstdc++.so.6 \
-libwx-baseu-suse.so.9.0.0 \
-libwx-gtk3u-core-suse.so.9.0.0 \
-libwx-gtk3u-stc-suse.so.9.0.0 \
+libwx-baseu-suse.so.16.0.0 \
+libwx-gtk3u-core-suse.so.16.0.0 \
+libwx-gtk3u-stc-suse.so.16.0.0 \
 libxy.so.3"
 
 inherit rpm

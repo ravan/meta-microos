@@ -1,12 +1,12 @@
 SUMMARY = "Alert messages for LaTeX"
-DESCRIPTION = "Some macros to display alert messages (informations, errors, \
-warnings and success messages)."
+DESCRIPTION = "Some macros to display alert messages (informational, error, \
+warning and success messages)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1svn38055"
+PV = "2026.226.1.1svn76924"
 
-RPM_NAME = "texlive-alertmessage-2023.209.1.1svn38055-55.1.noarch.rpm"
-RPM_HASH = "91c083930824aa7df101d4914dbdcd29e2a3f0c9ed7f54efd3f19e3a799ff80a00d8c91619af57ff0454242ecee2f73fcb866d5bbc040ab4b0e84048ecd63d4c"
+RPM_NAME = "texlive-alertmessage-2026.226.1.1svn76924-61.2.noarch.rpm"
+RPM_HASH = "f3c6d143173943f87ef6301e2a0cd3a36c4b1c5abe8507f8b284f20daf06d4455108a5fb3faf037c20067af8982b5b4efbf8bbf2a726178809d665bee609100c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-alertmessage.sty \

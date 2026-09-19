@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package gparted"
 DESCRIPTION = "Provides translations for the 'gparted' package."
-LICENSE = "GPL-2.0-only"
+LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.0"
+PV = "1.8.1"
 
-RPM_NAME = "gparted-lang-1.5.0-1.4.noarch.rpm"
-RPM_HASH = "f8bea0405d8708292788f6eed601db061cd5a90d488d723b2834d5fa2a9fc12713cbfec74523fab23e21ac65a699a30da79d2c10fae378cca4476526a84a1cba"
+RPM_NAME = "gparted-lang-1.8.1-2.3.noarch.rpm"
+RPM_HASH = "0fcc41f7f66651cc57747a8740c92c95b33ece34c36bc2dae433af70973f07924282ee5704f1e59fa07ebd5f3b9cd26f78940beca26f057ae9ae03278f0f8c46"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gparted-lang \
@@ -36,6 +36,7 @@ locale-gparted-gd \
 locale-gparted-gl \
 locale-gparted-gu \
 locale-gparted-he \
+locale-gparted-hi \
 locale-gparted-hr \
 locale-gparted-hu \
 locale-gparted-id \

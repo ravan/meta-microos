@@ -4,10 +4,10 @@ JAX-RS implementations (like Jersey and RESTeasy) using standard \
 Jackson data binding."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-jaxrs-smile-provider-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "1f0f84d12abefa023ff599c341c0d1e9f3f93988044cbffc1e2023e2ad26f1c1b83eea967081ce454a3ca811fe13f1407d77b3888c9ba762c0fd27714df9ed24"
+RPM_NAME = "jackson-jaxrs-smile-provider-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "acddfcb376867c7296707eaaa0522e077b0369a310f80bd9ea112e5748b07061e4fbf535f357b1451e23da2e67cd221590fad67699e62f36d2c69f92d8424c2c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-jaxrs-smile-provider \

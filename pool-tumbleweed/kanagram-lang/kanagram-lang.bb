@@ -2,17 +2,17 @@ SUMMARY = "Translations for package kanagram"
 DESCRIPTION = "Provides translations for the 'kanagram' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kanagram-lang-23.08.0-1.1.noarch.rpm"
-RPM_HASH = "2e97370bc4a9fcb50df4d674b41813f089433606ed388d14d71de927f9ebb8e704cd3c22f84c92fd3138a86152300dd624d7f93211c51aa28a0da8e73c95ab5a"
+RPM_NAME = "kanagram-lang-26.08.1-1.1.noarch.rpm"
+RPM_HASH = "f912b1cff99c48c37c7b21e77a1c0fabe59d4f92862bdf25212a048d33b78eb656f5d4e001f43ccd34e41baf9b5bb1b08bbb30150bf20e57fde9d19be8ae625e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "kanagram-lang \
 kanagram-lang-all \
 locale-kanagram-ar \
+locale-kanagram-ast \
 locale-kanagram-be \
-locale-kanagram-bg \
 locale-kanagram-bn \
 locale-kanagram-br \
 locale-kanagram-bs \
@@ -38,6 +38,7 @@ locale-kanagram-he \
 locale-kanagram-hi \
 locale-kanagram-hr \
 locale-kanagram-hu \
+locale-kanagram-ia \
 locale-kanagram-id \
 locale-kanagram-it \
 locale-kanagram-ja \

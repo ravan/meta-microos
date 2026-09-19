@@ -8,10 +8,10 @@ primary interface is through a DateTime object, and most users will not \
 need to directly use 'DateTime::TimeZone' methods."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "2.60"
+PV = "2.690.0"
 
-RPM_NAME = "perl-DateTime-TimeZone-2.60-1.3.noarch.rpm"
-RPM_HASH = "63f4ca0467d3ae350f6039b4bc197d7e5c5e701efc35fe06a0a1f1db0a99558d7806636241b448cf459699ee8818c84535d2a75c1c9a73f10391c90c40154569"
+RPM_NAME = "perl-DateTime-TimeZone-2.690.0-1.1.noarch.rpm"
+RPM_HASH = "26a878409c4927ac502c11d76df78716c2fce7eaff06b4d2e6dce2785935e017f85923db6832d78cd249c7abdac361997013096b50bb0f322658d88caab422a3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DateTime--TimeZone \
@@ -67,6 +67,7 @@ perl-DateTime--TimeZone--America--Chicago \
 perl-DateTime--TimeZone--America--Chihuahua \
 perl-DateTime--TimeZone--America--Ciudad-Juarez \
 perl-DateTime--TimeZone--America--Costa-Rica \
+perl-DateTime--TimeZone--America--Coyhaique \
 perl-DateTime--TimeZone--America--Cuiaba \
 perl-DateTime--TimeZone--America--Danmarkshavn \
 perl-DateTime--TimeZone--America--Dawson \
@@ -161,6 +162,7 @@ perl-DateTime--TimeZone--Antarctica--Mawson \
 perl-DateTime--TimeZone--Antarctica--Palmer \
 perl-DateTime--TimeZone--Antarctica--Rothera \
 perl-DateTime--TimeZone--Antarctica--Troll \
+perl-DateTime--TimeZone--Antarctica--Vostok \
 perl-DateTime--TimeZone--Asia--Almaty \
 perl-DateTime--TimeZone--Asia--Amman \
 perl-DateTime--TimeZone--Asia--Anadyr \
@@ -175,7 +177,6 @@ perl-DateTime--TimeZone--Asia--Barnaul \
 perl-DateTime--TimeZone--Asia--Beirut \
 perl-DateTime--TimeZone--Asia--Bishkek \
 perl-DateTime--TimeZone--Asia--Chita \
-perl-DateTime--TimeZone--Asia--Choibalsan \
 perl-DateTime--TimeZone--Asia--Colombo \
 perl-DateTime--TimeZone--Asia--Damascus \
 perl-DateTime--TimeZone--Asia--Dhaka \
@@ -255,12 +256,7 @@ perl-DateTime--TimeZone--Australia--Lord-Howe \
 perl-DateTime--TimeZone--Australia--Melbourne \
 perl-DateTime--TimeZone--Australia--Perth \
 perl-DateTime--TimeZone--Australia--Sydney \
-perl-DateTime--TimeZone--CET \
-perl-DateTime--TimeZone--CST6CDT \
 perl-DateTime--TimeZone--Catalog \
-perl-DateTime--TimeZone--EET \
-perl-DateTime--TimeZone--EST \
-perl-DateTime--TimeZone--EST5EDT \
 perl-DateTime--TimeZone--Europe--Andorra \
 perl-DateTime--TimeZone--Europe--Astrakhan \
 perl-DateTime--TimeZone--Europe--Athens \
@@ -300,7 +296,6 @@ perl-DateTime--TimeZone--Europe--Volgograd \
 perl-DateTime--TimeZone--Europe--Warsaw \
 perl-DateTime--TimeZone--Europe--Zurich \
 perl-DateTime--TimeZone--Floating \
-perl-DateTime--TimeZone--HST \
 perl-DateTime--TimeZone--Indian--Chagos \
 perl-DateTime--TimeZone--Indian--Maldives \
 perl-DateTime--TimeZone--Indian--Mauritius \
@@ -308,16 +303,12 @@ perl-DateTime--TimeZone--Local \
 perl-DateTime--TimeZone--Local--Android \
 perl-DateTime--TimeZone--Local--Unix \
 perl-DateTime--TimeZone--Local--VMS \
-perl-DateTime--TimeZone--MET \
-perl-DateTime--TimeZone--MST \
-perl-DateTime--TimeZone--MST7MDT \
 perl-DateTime--TimeZone--OffsetOnly \
 perl-DateTime--TimeZone--OlsonDB \
 perl-DateTime--TimeZone--OlsonDB--Change \
 perl-DateTime--TimeZone--OlsonDB--Observance \
 perl-DateTime--TimeZone--OlsonDB--Rule \
 perl-DateTime--TimeZone--OlsonDB--Zone \
-perl-DateTime--TimeZone--PST8PDT \
 perl-DateTime--TimeZone--Pacific--Apia \
 perl-DateTime--TimeZone--Pacific--Auckland \
 perl-DateTime--TimeZone--Pacific--Bougainville \
@@ -349,10 +340,9 @@ perl-DateTime--TimeZone--Pacific--Tahiti \
 perl-DateTime--TimeZone--Pacific--Tarawa \
 perl-DateTime--TimeZone--Pacific--Tongatapu \
 perl-DateTime--TimeZone--UTC \
-perl-DateTime--TimeZone--WET \
 perl-DateTime-TimeZone"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Class--Singleton \
 perl-List--Util \
 perl-Module--Runtime \

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Khmer langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-khm-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "6f1d2d6f76708b11213b55094efef17a8e96d6a698db68c84f51ffdbf380720f178a843f186b0d396f4e1248692ae0af610179f5e7d8c3c9d30de267380ba781"
+RPM_NAME = "tesseract-ocr-traineddata-khm-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "efc843d1708ec0bebc6016bdf7d61b955c5bf661960f5817c04c30d128b943994aea5087775f4519c1028cc1d23908e87cceea322f1a001d2f04c9b662f3120c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-khm \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-km \
+tesseract-ocr-traineddata-khm \
 tesseract-ocr-traineddata-khmer \
+tesseract-ocr-traineddata-provider \
 tesseract-traineddata-khmer"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

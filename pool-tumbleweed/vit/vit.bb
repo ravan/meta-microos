@@ -12,17 +12,17 @@ Features: \
  * Intelligent sub-project indenting"
 LICENSE = "MIT"
 
-PV = "2.3.1"
+PV = "2.3.4"
 
-RPM_NAME = "vit-2.3.1-1.1.noarch.rpm"
-RPM_HASH = "ebe28fdcef6b21ecad2b78fa2864d2b013c4dd9c5c4532ba6d4e03cf51aa147581f63a4e48e3ce42f0507b1803aee70fee90f797dc765713ffdf30092f928605"
+RPM_NAME = "vit-2.3.4-1.2.noarch.rpm"
+RPM_HASH = "b03db9a960936745524305c6623676950a694b5049b9c73fd18c1c1d4aa824e245bf7577beeda9c1079628f2c96a82692b7f7b192a1f522c0c243b7e1fa2c257"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "python3.11dist-vit \
+RPROVIDES:${PN} += "python3.13dist-vit \
 python3dist-vit \
 vit"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-base \
 python3-tasklib \

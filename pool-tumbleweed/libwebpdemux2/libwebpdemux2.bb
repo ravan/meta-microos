@@ -4,10 +4,10 @@ data from WebP files. This API currently supports reading of XMP/EXIF \
 metadata, ICC profile and animated images."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.3.1"
+PV = "1.6.0"
 
-RPM_NAME = "libwebpdemux2-1.3.1-1.1.aarch64.rpm"
-RPM_HASH = "8368203194863b8bbb76642ebc108bfd3562f06d1796397f7a926b4fc37c361783cf24b531fd708f4afcdfc8260ca3e40b2680a471476c351183b4e96be98627"
+RPM_NAME = "libwebpdemux2-1.6.0-2.3.aarch64.rpm"
+RPM_HASH = "d85707428c64412fe4f56f6b198cae31057ed93566298346fbbc9c4aa183505ee86063df39d0e4bf1b0366e0248eab8f05d3d3514d4da87c4da577a30c3651e9"
 
 RPROVIDES:${PN} += "libwebpdemux.so.2 \
 libwebpdemux2"

@@ -8,8 +8,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.002"
 
-RPM_NAME = "google-caladea-fonts-1.002-3.17.noarch.rpm"
-RPM_HASH = "912c6940e0483fdd5642f177f5130a1f782364862db9b0a17ac8984988f73a0ce985b239dbfbcad1fc8acd282c3630750eac2291f13bad9a5d8526f92b5745be"
+RPM_NAME = "google-caladea-fonts-1.002-3.25.noarch.rpm"
+RPM_HASH = "fa70e7ef3c5a2b6c2844e9d767a97cddf2eab5f13f3f359b73e5b0843a2a33e97ec5d5c2d05b1fa9493f19afe5ead6d5a271643b4ebfcc1b73454382105bf203"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-caladea-fonts"

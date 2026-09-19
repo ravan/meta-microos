@@ -14,8 +14,8 @@ LICENSE = "OFL-1.1"
 
 PV = "1.04"
 
-RPM_NAME = "google-cardo-fonts-1.04-7.17.noarch.rpm"
-RPM_HASH = "f75c1c87bfad779ea37e4770f8a50271c7250102e324c0bc48a440f2967319265ad948bcec222e1813703aaa8f0ad2a49eb85ef7ecb7cf72a8c3f30caf0a2451"
+RPM_NAME = "google-cardo-fonts-1.04-7.25.noarch.rpm"
+RPM_HASH = "a9a9d1344f2694f56f19a0972c6b64792cd0792406150cd2237565adda51be0bb8e9359d9b2af8b3b3895124815b68e50555cd7105495cefca51e9b8aafd0089"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-cardo-fonts"

@@ -4,10 +4,10 @@ DESCRIPTION = "Post transaction actions Plugin for DNF, Python 3 version. Plugin
 files."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.3.1"
+PV = "4.10.1"
 
-RPM_NAME = "python3-dnf-plugin-post-transaction-actions-4.3.1-2.2.noarch.rpm"
-RPM_HASH = "04d48db1ba553169cdb76e3d66f64bdceb3faf9a3b203d7de9d8d346a256b9273fa4251a84636d6eda1dc9dd04c54736ff98406404f12525dd1c02a4f76521d5"
+RPM_NAME = "python3-dnf-plugin-post-transaction-actions-4.10.1-1.6.noarch.rpm"
+RPM_HASH = "427839cc5658138182becb7c9abfe69b753e5f3d39ed2eaee4bab5cd8dc3b021c1946dbe03299d0d39ff21f54f0b7d76c7b47baa0856f66a3637ac7cd2bbde7e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-python3-dnf-plugin-post-transaction-actions \

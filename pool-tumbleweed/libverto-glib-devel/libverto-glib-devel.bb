@@ -5,8 +5,8 @@ LICENSE = "MIT"
 
 PV = "0.3.2"
 
-RPM_NAME = "libverto-glib-devel-0.3.2-3.1.aarch64.rpm"
-RPM_HASH = "8c066549594040d45692e948b633b7aec51a9a8b44c61a634dc018a7980915e05efdf753622e57890a687477d6301230c8e7066b9655a4576e9b9c0120a034ce"
+RPM_NAME = "libverto-glib-devel-0.3.2-3.11.aarch64.rpm"
+RPM_HASH = "e186a04de3c594e291690efed1e1479362798acc0ffee3772c2cae4f3d7517791be491421954b81d264acfb4936d657df6428bdd43bb441d235340936aa86716"
 
 RPROVIDES:${PN} += "libverto-glib-devel \
 pkgconfig-libverto-glib"

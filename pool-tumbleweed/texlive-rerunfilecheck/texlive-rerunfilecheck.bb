@@ -4,10 +4,10 @@ auxiliary files have changed. It is based on MD5 checksum \
 provided by pdfTeX, LuaTeX, XeTeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.10svn63869"
+PV = "2026.226.1.11svn77682"
 
-RPM_NAME = "texlive-rerunfilecheck-2023.209.1.10svn63869-54.2.noarch.rpm"
-RPM_HASH = "4f55b06cb490b573de71e8d7dacf24a12e27480cc7df0ea02c5ac09eb630a3b20a56e83999341cd1b0c0d85b61712c839f24cecd0ae57a6b9417074ba7e19241"
+RPM_NAME = "texlive-rerunfilecheck-2026.226.1.11svn77682-60.4.noarch.rpm"
+RPM_HASH = "921c2f48934c58f50629b3066310f84784a8b6fa3479a09b8f527be05fea6bfc54ddbe9b9ee636d9f69c61fcc38c2d72f599bb9b50adaeed6caaf66d07cabf5f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-rerunfilecheck.sty \
@@ -19,7 +19,6 @@ ed \
 findutils \
 grep \
 sed \
-tex-atveryend.sty \
 tex-infwarerr.sty \
 tex-kvoptions.sty \
 tex-pdftexcmds.sty \

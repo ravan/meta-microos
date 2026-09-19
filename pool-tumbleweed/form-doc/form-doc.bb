@@ -8,10 +8,11 @@ disk space and not by the available RAM. \
 This package provides additional documentation for form."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.3.0"
+PV = "5.0.0"
 
-RPM_NAME = "form-doc-4.3.0-1.5.aarch64.rpm"
-RPM_HASH = "c6e90e74abb715132f039be361677befd9f6999fa78620da5b99db1804bd64bcfd0e0347e788da1e25a2a430683da881c03f3c41b4f6fd1d5d52ac8bb10a725d"
+RPM_NAME = "form-doc-5.0.0-1.6.noarch.rpm"
+RPM_HASH = "ed032f4d3fc094cd757799ccc0dc70a7e544895c01a09186f7cffede3e0732014f2fe78487f25cc5dffad00452faff6e42566f0b8538f4f2374095badaa55a82"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "form-doc"
 

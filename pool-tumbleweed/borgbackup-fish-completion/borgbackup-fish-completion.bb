@@ -7,10 +7,10 @@ targets. \
 This package contains the fish completion script for borgbackup."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.2.4"
+PV = "1.4.5"
 
-RPM_NAME = "borgbackup-fish-completion-1.2.4-1.3.noarch.rpm"
-RPM_HASH = "ad03afefd56277c5d958796fa18c695b7bc1036836f686b60eb9765b6854eab7d062374a1ce865cbc5a9ce92b2716a5e7e8f823cf7d22df8cbb2316405a94dfd"
+RPM_NAME = "borgbackup-fish-completion-1.4.5-1.1.noarch.rpm"
+RPM_HASH = "788a08ec31baf1ba4d92c760bd1f79c499f7616a48f5722be395ee2575782db3996e51f70938d28ae1dc1c34380d5928d50a9c39753976a7c2419248b56f888a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "borgbackup-fish-completion"

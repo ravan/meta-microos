@@ -9,10 +9,10 @@ This library contains GType declarations for Cairo types. It is also \
 meant to support gobject-introspection binding creation."
 LICENSE = "LGPL-2.1-or-later | MPL-1.1"
 
-PV = "1.17.8"
+PV = "1.18.4"
 
-RPM_NAME = "libcairo-gobject2-1.17.8-1.2.aarch64.rpm"
-RPM_HASH = "6f1d55cd91226a624aed9e980d0e6910e8507e4298521d9fcae3fe57892ac6ccd1c3bd0102659414afecc62e42ee7d463d06417aea86ebc48d13201380f903d0"
+RPM_NAME = "libcairo-gobject2-1.18.4-4.5.aarch64.rpm"
+RPM_HASH = "b0855cfeb27db0f8a5e1159978ba07a3f12d43ec0e78db30a7ab230c6ac3f40c3499679708644c8f029b9105faa893feb5ef132c3c3a4117117cdf02e42f8ce0"
 
 RPROVIDES:${PN} += "libcairo-gobject.so.2 \
 libcairo-gobject2"

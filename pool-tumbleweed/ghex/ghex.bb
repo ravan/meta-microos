@@ -4,10 +4,10 @@ in either hex or ASCII. It is a must for anyone playing games that use \
 a non-ASCII format for saving."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.2"
+PV = "50.3"
 
-RPM_NAME = "ghex-44.2-1.1.aarch64.rpm"
-RPM_HASH = "9c214d659f1417d48eb9c0b3dc0cb30d10e070aaadb911c2b783a4ec788953019ceeee72168bad4a6970996da2a5bfe9fccf7ec73997ba8a454e29bdfa0125a5"
+RPM_NAME = "ghex-50.3-1.1.aarch64.rpm"
+RPM_HASH = "57ae6aa98a561b44f9eafbb5ddb4c997f766fc587460d3932e1e73801907f784b27de2f5e42abb465a55300a29d28f9640ac1f82556118f05cdd4c29d19db368"
 
 RPROVIDES:${PN} += "ghex \
 libhex-buffer-direct.so \

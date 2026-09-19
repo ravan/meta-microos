@@ -8,10 +8,10 @@ package. You can select this as automatic default with \
 \\floatplacement{figure}{H}."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3dsvn15878"
+PV = "2026.226.1.3dsvn77682"
 
-RPM_NAME = "texlive-float-2023.209.1.3dsvn15878-53.1.noarch.rpm"
-RPM_HASH = "d2d3e64b90d7e38e9e8062afb74edff52ff9bb6f0ee7e3903e71c9e07f8c773cf358ef290139ddb729f03ebbc0bd44f1adfc42ddf7307526654b8330a2cae681"
+RPM_NAME = "texlive-float-2026.226.1.3dsvn77682-60.2.noarch.rpm"
+RPM_HASH = "fa1061f410f81bcd28d0e18f55ece65820188046a9cfd75eeae7c251437685f49635d550f3ca29b04ad677339db0bf7f4f6d849bdfc2307a4f97c017b746d75f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-float.sty \

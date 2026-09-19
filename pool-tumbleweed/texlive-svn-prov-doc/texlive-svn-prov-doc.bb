@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-svn-prov"
 DESCRIPTION = "This package includes the documentation for texlive-svn-prov"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.3.1862svn64967"
+PV = "2026.226.3.1862svn77682"
 
-RPM_NAME = "texlive-svn-prov-doc-2023.209.3.1862svn64967-58.1.noarch.rpm"
-RPM_HASH = "bfae081038393a7e5754f7577c4a2a920fa34b4fb09af8f0e7c535f43c7ece9f98b2acc5fb3fa61e9ab5827a3b32d89d2c9111e62b92bc54342fb02b719acbdb"
+RPM_NAME = "texlive-svn-prov-doc-2026.226.3.1862svn77682-64.2.noarch.rpm"
+RPM_HASH = "e519950f9952d73f9c68ae46d1e133040ad7dc4c5754576328ed1d91e97676b8cd62c646c4f1838c35a5293da94d3bd3b51cca8d33203d8638750c1fa10b83c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-svn-prov-doc"

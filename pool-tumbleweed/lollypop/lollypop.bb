@@ -18,10 +18,10 @@ features: \
 * Tunein support."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "1.4.37"
+PV = "1.4.40"
 
-RPM_NAME = "lollypop-1.4.37-1.3.noarch.rpm"
-RPM_HASH = "b5478565051c2450293f8996ddd3a6fb99cf78537753e57538e65c9dfe724db8cb9cbe79f37df09428c866cc13f15278d5a64f6f2a1c34f9a8cb5003d6d93802"
+RPM_NAME = "lollypop-1.4.40-1.7.noarch.rpm"
+RPM_HASH = "c65d7de059811b6e6bdacafd51a1588c6980017cfaf9ac93aa546853e36396cd2224f918ce939790e42403b557a9432362748663e1a5d9692f5ecd8f958e71fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lollypop"

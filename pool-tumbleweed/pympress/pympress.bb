@@ -11,17 +11,17 @@ great features, including: \
 - and much more"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.8.4"
+PV = "1.8.6"
 
-RPM_NAME = "pympress-1.8.4-1.1.noarch.rpm"
-RPM_HASH = "fe48e9a68210793c1cd3ac405671c62f77ab19c0d8c5ae298b2556974e17c29a3489a6429ce472fe8d9a55496c8ead984586707b0551ea8ed0e1310967873f46"
+RPM_NAME = "pympress-1.8.6-1.5.noarch.rpm"
+RPM_HASH = "e371f439fe1552ef62cf0517bdacd1c6c65d7aa287fa45b66b87cc55745efdcd8b595a830a07f3f09700aef08af8e7c4bab046219d13e8d02b6c1c07cdc864d8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pympress \
-python3.11dist-pympress \
+python3.13dist-pympress \
 python3dist-pympress"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 gobject-introspection \
 gstreamer \

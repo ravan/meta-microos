@@ -2,16 +2,17 @@ SUMMARY = "Translations for package ktimetracker"
 DESCRIPTION = "Provides translations for the 'ktimetracker' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "5.0.1"
+PV = "6.0.0"
 
-RPM_NAME = "ktimetracker-lang-5.0.1-1.19.noarch.rpm"
-RPM_HASH = "6166cb7b90d86c58dad0ca523282bb1651005a0dacaadba70eb0085f0271a9535e9b1ed7dc64d45b80e1ec922e5f39b82e80edd4571e5011de22a9234a3f6ee2"
+RPM_NAME = "ktimetracker-lang-6.0.0-1.5.noarch.rpm"
+RPM_HASH = "4ecda518b06af0b640355f18da1997de67effb96ed0c612a9592aec716f2964c214ce005ca54bb6ff9859b480e5a0392c2badad6440946967381aae1291a6ad6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ktimetracker-lang \
 ktimetracker-lang-all \
 locale-ktimetracker-af \
 locale-ktimetracker-ar \
+locale-ktimetracker-ast \
 locale-ktimetracker-be \
 locale-ktimetracker-bg \
 locale-ktimetracker-br \
@@ -34,12 +35,14 @@ locale-ktimetracker-fr \
 locale-ktimetracker-ga \
 locale-ktimetracker-gl \
 locale-ktimetracker-he \
+locale-ktimetracker-hi \
 locale-ktimetracker-hr \
 locale-ktimetracker-hu \
 locale-ktimetracker-ia \
 locale-ktimetracker-is \
 locale-ktimetracker-it \
 locale-ktimetracker-ja \
+locale-ktimetracker-ka \
 locale-ktimetracker-kk \
 locale-ktimetracker-km \
 locale-ktimetracker-ko \

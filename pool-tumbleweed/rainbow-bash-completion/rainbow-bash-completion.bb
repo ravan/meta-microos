@@ -4,8 +4,8 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "2.8.0"
 
-RPM_NAME = "rainbow-bash-completion-2.8.0-1.5.noarch.rpm"
-RPM_HASH = "f7652d2047053ddbc1b6f2275b9055dd866dcc9a970656aace4233fcb48d99d37f3e3fc70d564386d04387a399dd37d6450440e40fd481ca16ed9bd2a316508d"
+RPM_NAME = "rainbow-bash-completion-2.8.0-1.13.noarch.rpm"
+RPM_HASH = "9c59f97ff4b6ee732ba62c4164155f354f499a9687d1a310c5b65fb75e2ebfc3b45c3923e62c3a58b49239007f95dd4acb123800d7225d5c0fd5d6af3908f857"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "rainbow-bash-completion"

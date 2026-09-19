@@ -2,10 +2,10 @@ SUMMARY = "Serbian language module for glossaries package"
 DESCRIPTION = "Serbian language module for glossaries package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn35665"
+PV = "2026.226.1.0svn35665"
 
-RPM_NAME = "texlive-glossaries-serbian-2023.209.1.0svn35665-54.2.noarch.rpm"
-RPM_HASH = "35ca813a6081b9c7d020c5cd7ebda67cd9dcc7c6eff9e852f84ce9333c4eeb32b5b3125d5fa5e0bd78d7b8568f4382b7b677d55b17ea9cd914495c21ca7ec5b8"
+RPM_NAME = "texlive-glossaries-serbian-2026.226.1.0svn35665-60.4.noarch.rpm"
+RPM_HASH = "b206c71f507c5c77570a4a8bdbe9de0901e9f0a28febe2053e6e2a580dedf7804fb18ea195ed77645614345d345c91291da305d1369d25b4414a04a272cf0e2f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-glossaries-serbian-noenc.ldf \

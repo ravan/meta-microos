@@ -7,16 +7,14 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "2.4.0"
 
-RPM_NAME = "sarg-2.4.0-4.3.aarch64.rpm"
-RPM_HASH = "9a1ddad6892732c29154712b772a6947fabbffd0a017f493603d69b3de63a578aa71ac482f99467658c22d0c2bbfc596750238f3cbfed877c2643c78ca77c072"
+RPM_NAME = "sarg-2.4.0-8.3.aarch64.rpm"
+RPM_HASH = "f94eef37cb303b46b8395f668c226bb753321b1115d679ed90d59b4adb4564692b3f995d40bb1feeefc32a7d0602cd93c6e31cad7aeafc3766c03bead9102baf"
 
 RPROVIDES:${PN} += "config-sarg \
 sarg"
 
-RDEPENDS:${PN} += "/usr/bin/mkdir \
-/usr/bin/sh \
-/usr/bin/touch \
-fillup \
+RDEPENDS:${PN} += "/usr/bin/sh \
+group-squid \
 ld-linux-aarch64.so.1 \
 libbz2.so.1 \
 libc.so.6 \
@@ -24,7 +22,7 @@ libgd.so.3 \
 libldap.so.2 \
 liblzma.so.5 \
 libm.so.6 \
-libpcre.so.1 \
-libz.so.1"
+libz.so.1 \
+user-squid"
 
 inherit rpm

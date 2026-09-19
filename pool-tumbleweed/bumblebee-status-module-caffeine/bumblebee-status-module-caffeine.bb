@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "2.1.5"
 
-RPM_NAME = "bumblebee-status-module-caffeine-2.1.5-3.3.noarch.rpm"
-RPM_HASH = "f2e942575f655341ac9b68cf9f52341f54b5c573b0e5703a65ce4ce1258ade4a6dcfe107d4b98cdb8d01f3d526c5efc2d62ef82702d06477b4f2606b849903bd"
+RPM_NAME = "bumblebee-status-module-caffeine-2.1.5-4.7.noarch.rpm"
+RPM_HASH = "9c68fb02254f09b9f920d13b292c5dc5187b92b6e5d6f07c7a3074ba2c33211b5cf1e7633a829b1a8755be40aa3887ca85bdffa0f285217310538698122d40de"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "bumblebee-status-module-caffeine"

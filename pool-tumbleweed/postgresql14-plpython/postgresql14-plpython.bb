@@ -12,17 +12,17 @@ PostgreSQL also offers the built-in procedural language PL/SQL which is \
 included in the postgresql-server package."
 LICENSE = "PostgreSQL"
 
-PV = "14.8"
+PV = "14.24"
 
-RPM_NAME = "postgresql14-plpython-14.8-1.6.aarch64.rpm"
-RPM_HASH = "b74c8d38179496fd137cc6af6f0562c6c94fbd6df5978878e438e698173470d1a5480a6332fa79bacb5610f573c243a46c5b1ec3f0a7d9825ab57499d1dcd703"
+RPM_NAME = "postgresql14-plpython-14.24-2.2.aarch64.rpm"
+RPM_HASH = "650b3046a3c406a2d4094cf2a757ac67a5315fa4547d3ae5cd799a90b01557cef75447620a79e0962cc5a2f2c583ad4586fb84a9ed144e72c606a39a62e59fac"
 
 RPROVIDES:${PN} += "postgresql-plpython-implementation \
 postgresql14-plpython"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 postgresql-plpython-noarch \
 postgresql14-server \
 python3"

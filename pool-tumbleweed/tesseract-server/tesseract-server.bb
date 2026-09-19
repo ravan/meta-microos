@@ -2,10 +2,10 @@ SUMMARY = "Tesseract standalone server"
 DESCRIPTION = "This package provides the server files for the Tesseract game."
 LICENSE = "Zlib"
 
-PV = "2018_02_01"
+PV = "2024_06_15"
 
-RPM_NAME = "tesseract-server-2018_02_01-3.12.aarch64.rpm"
-RPM_HASH = "79164d90a10e59508fb884d6bdc9392a23e0add76cb92fe3f5276547558b6d73a336e0fc1401f8b441e8b9bc56b5b2b2e33475e13cba8e0036a2d8b7460cd3e0"
+RPM_NAME = "tesseract-server-2024_06_15-2.1.aarch64.rpm"
+RPM_HASH = "e667aa4e2ce2d0a856c942fd6d04fbba70622d02973fcbbc18356bfcaee3f6a47250cb2de9197a6dee151c64dee13dac609d9541c70033e6ce9960ecba0b895f"
 
 RPROVIDES:${PN} += "tesseract-server"
 

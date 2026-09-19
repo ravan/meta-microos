@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-apacite"
 DESCRIPTION = "This package includes the documentation for texlive-apacite"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.6.03svn54080"
+PV = "2026.226.6.03svn77682"
 
-RPM_NAME = "texlive-apacite-doc-2023.209.6.03svn54080-55.1.noarch.rpm"
-RPM_HASH = "6e0a36573267523d4d33df46f94bbd8abd2ebcfe8b93f57e4e171c2b9e48b68501ba3f16b9bb41110de828931ce4b4b078a41bd968d0af8319261a5087d5052d"
+RPM_NAME = "texlive-apacite-doc-2026.226.6.03svn77682-61.2.noarch.rpm"
+RPM_HASH = "0f89301f0d4c6f2ffa3955cc32643f319db7dbca768ff5a674990ce5d6257d294bf79a9cb79754666a948260c56f02ad782d7bc8c512f809ba4b0f30ec95706b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apacite-doc"

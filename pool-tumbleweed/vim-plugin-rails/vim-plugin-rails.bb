@@ -4,8 +4,8 @@ LICENSE = "Vim"
 
 PV = "5.2"
 
-RPM_NAME = "vim-plugin-rails-5.2-56.1.noarch.rpm"
-RPM_HASH = "9e62c34b0046ae6fdec69f9a637d42556b85028484a9ff99f8153e43c50f759f1033fc0917541cfcf930c902c8c6ecf54047aa61c07f5da1238f2a6fc5315df7"
+RPM_NAME = "vim-plugin-rails-5.2-64.2.noarch.rpm"
+RPM_HASH = "d7233859ea61d8b310a9b50475ff66f969b144abac2f22c81cd86ba49d5f90da4cf7c77541d12c66409415372152a88058d525a7e7502387197823f3c84e382e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-rails"

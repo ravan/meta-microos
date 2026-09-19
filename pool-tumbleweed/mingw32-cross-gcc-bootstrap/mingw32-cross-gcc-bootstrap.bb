@@ -2,10 +2,10 @@ SUMMARY = "MinGW Windows cross-compiler (GCC) for C"
 DESCRIPTION = "MinGW Windows cross-compiler (GCC) for C"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "12.2.0"
+PV = "16.2.0"
 
-RPM_NAME = "mingw32-cross-gcc-bootstrap-12.2.0-3.1.aarch64.rpm"
-RPM_HASH = "bbac2bf97491595430ff1b72915dc12015bfcd0b41e4a203502ac4cc619c1f30e29f6416f5ac21e6c347fc9cfee423a2d4af9858d994523c3c7efbd3a5bcbea7"
+RPM_NAME = "mingw32-cross-gcc-bootstrap-16.2.0-1.1.aarch64.rpm"
+RPM_HASH = "5a1a47ce50bbfeebaad66e5f2ef473486903709c3bfa46509aec249c2a4dbd4731ad0c25708d64f655e1f1b378d1bace14ce26b38c3ff04f8cd881242e5cd10c"
 
 RPROVIDES:${PN} += "liblto-plugin.so \
 mingw32-cross-gcc-bootstrap"

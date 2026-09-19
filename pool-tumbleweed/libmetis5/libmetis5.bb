@@ -7,8 +7,8 @@ LICENSE = "Apache-2.0"
 
 PV = "5.1.0"
 
-RPM_NAME = "libmetis5-5.1.0-9.12.aarch64.rpm"
-RPM_HASH = "aedf04998d8815e94ac3ad53ee4e1dddc59094fbfe6a1276373c939358f22b11d847e8fb8f7f4c69090af8403e5dbd8084c8233d12a123cfb9df89ac17dc9d37"
+RPM_NAME = "libmetis5-5.1.0-13.5.aarch64.rpm"
+RPM_HASH = "a53cd15fe0da2df73ad6167544d42791054a8daf991aa4d9998851fa881bd73d87c87334fd0da04e63488257a676e28e2bb1c33cc5fee5d2da5614b7a59c4813"
 
 RPROVIDES:${PN} += "libmetis.so.5 \
 libmetis5"

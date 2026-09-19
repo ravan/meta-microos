@@ -12,10 +12,10 @@ If Suil supports a particular toolkit, then all hosts that use Suil will \
 support that toolkit."
 LICENSE = "ISC"
 
-PV = "0.10.18"
+PV = "0.10.22"
 
-RPM_NAME = "libsuil-0-0-0.10.18-1.1.aarch64.rpm"
-RPM_HASH = "d01e96ca6accf5cd32ca4e70160590c56311e59c4c8ebc8b2b45c28346dd8afdc8758f79411a82a88c6d2f8a72371568865bb0a5a5f4659db8e1581b1e8f4600"
+RPM_NAME = "libsuil-0-0-0.10.22-1.6.aarch64.rpm"
+RPM_HASH = "c082724fcde4d5e89b2cbb50afa037af9fb72722c35ba4bb51bbfcdd9cffb641be26f21341a1727344f08258059595aa9fdf80eba9e19b4be2931f9434af4c8f"
 
 RPROVIDES:${PN} += "libsuil-0-0 \
 libsuil-0.so.0"

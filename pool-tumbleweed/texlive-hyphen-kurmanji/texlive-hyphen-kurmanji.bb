@@ -4,10 +4,10 @@ in Turkey and by the Kurdish diaspora in Europe, in T1/EC and \
 UTF-8 encodings."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn58652"
+PV = "2026.226.svn78069"
 
-RPM_NAME = "texlive-hyphen-kurmanji-2023.209.svn58652-54.1.noarch.rpm"
-RPM_HASH = "a4e9422f82fd4482c12eade7a446af7d0166bcbf190e7313b2a94a3ab3cef0a09645a7aab9d57a277f629a189a5bc8c674c14f30a6ecfeab957714bab6d6499c"
+RPM_NAME = "texlive-hyphen-kurmanji-2026.226.svn78069-60.2.noarch.rpm"
+RPM_HASH = "57f9d967a13f900dc0033a921ce14bc1277e006a81bfed6f0b801eb1bb7ac84cb6c1ec57914c34be4d7b9bfcf8a763d38ecd35aca98f8f767b5512e98bacf078"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-hyph-kmr.ec.tex \

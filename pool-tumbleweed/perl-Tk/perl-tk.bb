@@ -8,10 +8,10 @@ Perl API is essentially the same as Tk800 series Tk800.025 but has not \
 been verified as compliant. There ARE differences see pod/804delta.pod."
 LICENSE = "(Artistic-1.0 | GPL-1.0-or-later) & Zlib"
 
-PV = "804.036"
+PV = "804.36.0"
 
-RPM_NAME = "perl-Tk-804.036-2.3.aarch64.rpm"
-RPM_HASH = "ed1e3dc001782bce34a9c1bbc7f54836dc047e99dee04688afc9d2c51766ea41660eafbeada9f82e17f8d1ec62bdbb382deb74c5cdf686e9f6975a60575d136e"
+RPM_NAME = "perl-Tk-804.36.0-1.10.aarch64.rpm"
+RPM_HASH = "2d79c1b32a95cff51f4ba975a9d9b2a1c4f2339ddf12c592e69a69bd88a41ae16b4f511546a5c2b105bf8f3b19340bf3ff6d3752f22a01f9d3d84b431c18f974"
 
 RPROVIDES:${PN} += "perl-Tie--Watch \
 perl-Tk \
@@ -30,7 +30,6 @@ perl-Tk--ColorDialog \
 perl-Tk--ColorEditor \
 perl-Tk--ColorSelect \
 perl-Tk--Compound \
-perl-Tk--Config \
 perl-Tk--Configure \
 perl-Tk--Derived \
 perl-Tk--Dialog \
@@ -45,6 +44,8 @@ perl-Tk--DragDrop--Rect \
 perl-Tk--DragDrop--SunConst \
 perl-Tk--DragDrop--SunDrop \
 perl-Tk--DragDrop--SunSite \
+perl-Tk--DragDrop--Win32Drop \
+perl-Tk--DragDrop--Win32Site \
 perl-Tk--DragDrop--XDNDDrop \
 perl-Tk--DragDrop--XDNDSite \
 perl-Tk--DropSite \
@@ -144,6 +145,6 @@ libfontconfig.so.1 \
 libjpeg.so.8 \
 libm.so.6 \
 libpng16.so.16 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

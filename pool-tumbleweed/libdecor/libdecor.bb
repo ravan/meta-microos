@@ -3,20 +3,24 @@ DESCRIPTION = "A library that can help Wayland clients draw window decorations f
 It aims to provide multiple backends that implements the decoration drawing."
 LICENSE = "MIT"
 
-PV = "0.1.1"
+PV = "0.2.5"
 
-RPM_NAME = "libdecor-0.1.1-1.3.aarch64.rpm"
-RPM_HASH = "69f94fc96f26b275782916839b6a68efc92f7077d4be0a8e9f88b1915ee8a194f18238d05082e6e6ff814676902e4372340ca67dadf0a1b2891a04e223c15f64"
+RPM_NAME = "libdecor-0.2.5-1.6.aarch64.rpm"
+RPM_HASH = "e80526a03451f7425984853e3fbff8f9521baee7f566b68279829590d446aa84459dd0c1fde1f3027f185b461b383fd57de452312e435d0d848518cafa41a4cf"
 
 RPROVIDES:${PN} += "libdecor \
-libdecor-cairo.so"
+libdecor-cairo.so \
+libdecor-gtk.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcairo.so.2 \
 libdbus-1.so.3 \
 libdecor-0.so.0 \
+libgdk-3.so.0 \
+libglib-2.0.so.0 \
 libgobject-2.0.so.0 \
+libgtk-3.so.0 \
 libm.so.6 \
 libpango-1.0.so.0 \
 libpangocairo-1.0.so.0 \

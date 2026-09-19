@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-pagenote"
 DESCRIPTION = "This package includes the documentation for texlive-pagenote"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1asvn63708"
+PV = "2026.226.1.1asvn77682"
 
-RPM_NAME = "texlive-pagenote-doc-2023.209.1.1asvn63708-52.1.noarch.rpm"
-RPM_HASH = "c50c5c1322b2f5dc1e44767a2b6f112c0a208f05275dfa3b338cf34517b6120ea8237073057bd78194f2fb70f7cf5652ba2e3f46967db4d26c9de30665a36876"
+RPM_NAME = "texlive-pagenote-doc-2026.226.1.1asvn77682-58.2.noarch.rpm"
+RPM_HASH = "7891fad6303e512d29049f6760eba0cda74854c26eeab36f636dd6456b0fd8bb9f25d11366766e2e15aeb88aad18abdafb11da33f21e9513104e61717d8338b8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-pagenote-doc"

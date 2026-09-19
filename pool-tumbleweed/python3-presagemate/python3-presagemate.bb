@@ -4,14 +4,14 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.9.1"
 
-RPM_NAME = "python3-presagemate-0.9.1-13.2.noarch.rpm"
-RPM_HASH = "ddd7d285eacdd3948aef011cbf2bc02711745d384378dbc143c4ad406f698aed739eaf697d83b54454101257b44c277193122fd7103502e7cedee0ccb15b9be4"
+RPM_NAME = "python3-presagemate-0.9.1-18.6.noarch.rpm"
+RPM_HASH = "063fb8b83976183470995fe572dd6c60a2fb0447ad0973c1ee0536963834af5b23ac9370176885ede39f0f107a465fc82f2429bf2166e80707c46bb9f69d8b19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-presagemate \
 python3-presagemate"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 python-abi \
 python3-atspi \
 python3-gobject \

@@ -5,10 +5,10 @@ Computer Modern (CM) fonts. The system is distributed as a TeX \
 change file."
 LICENSE = "SUSE-TeX"
 
-PV = "2023.209.2.2svn62145"
+PV = "2026.226.2.2svn71363"
 
-RPM_NAME = "texlive-mltex-2023.209.2.2svn62145-55.1.noarch.rpm"
-RPM_HASH = "f1b78a1cd108b867a5c2ef9a6c5f9d8826bc665d72e57f5aec6e754e53b79ed1a51959f34c68d2c2ccac12ba3ec8451ded541f9f979deb333c998e94904cdd3b"
+RPM_NAME = "texlive-mltex-2026.226.2.2svn71363-61.2.noarch.rpm"
+RPM_HASH = "47941a8693a62530bb26ac76168b557fbf116564aa4f060733d6519d4d5fef68ca3e0cd247e70a2ad0e3b7165a07789d5c2dc6a1f5e223952d6d3f8ac6b6c079"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-lo1enc.def \
@@ -26,12 +26,9 @@ tex-language.dat \
 tex-language.dat.lua \
 tex-language.def \
 texlive \
-texlive-atbegshi \
-texlive-atveryend \
 texlive-babel \
 texlive-cm \
 texlive-dehyph \
-texlive-everyshi \
 texlive-filesystem \
 texlive-firstaid \
 texlive-hyph-utf8 \
@@ -41,7 +38,6 @@ texlive-kpathsea \
 texlive-kpathsea-bin \
 texlive-l3backend \
 texlive-l3kernel \
-texlive-l3packages \
 texlive-latex \
 texlive-latex-fonts \
 texlive-latexconfig \

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-rectopma"
 DESCRIPTION = "This package includes the documentation for texlive-rectopma"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn19980"
+PV = "2026.226.svn70885"
 
-RPM_NAME = "texlive-rectopma-doc-2023.209.svn19980-54.2.noarch.rpm"
-RPM_HASH = "3bd7158946d9dcd0210a034966f3f27f8aaeb0c43b76afae30913118bb79655f28d381eeb910e42a79caeebc0e9f92776320d39a060da1abb87d9f3c0478233e"
+RPM_NAME = "texlive-rectopma-doc-2026.226.svn70885-60.4.noarch.rpm"
+RPM_HASH = "b4acf5377dd429df5e53fa27d9af0fbaa24fd0c0174542cd1b5ed1d212f67cdf8f084d3d5436e0909d0d3ad721a67737a5501d20b22ff2c24a7a61271a075644"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-rectopma-doc"

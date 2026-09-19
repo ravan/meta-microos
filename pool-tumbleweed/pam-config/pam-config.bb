@@ -6,10 +6,10 @@ hardware based authentication schemes. pam-config can also \
 add/adjust/remove other PAM modules and their options."
 LICENSE = "GPL-2.0-only"
 
-PV = "2.8"
+PV = "2.14+git.20260216"
 
-RPM_NAME = "pam-config-2.8-1.1.aarch64.rpm"
-RPM_HASH = "e13d14af2a0993855e66be3d87d49e7ab081a17a9164be8eb2d8b5d905f766f3bbfa894845334e5c7b266d38a633724fef3047cc1b71756058d93ba95569b9d1"
+RPM_NAME = "pam-config-2.14+git.20260216-1.4.aarch64.rpm"
+RPM_HASH = "a9af556a4e75c5661be471cb4d8a1062e82796f7ed2d6fa099deae470376a3627e105574d377e3de7fbc388860d1c026e81953426f8bad2b42c740f577daf8df"
 
 RPROVIDES:${PN} += "config-pam-config \
 pam-config"
@@ -17,6 +17,8 @@ pam-config"
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-pam"
+libeconf.so.0 \
+pam \
+pam-extra"
 
 inherit rpm

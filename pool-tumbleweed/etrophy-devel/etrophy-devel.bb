@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.5.1"
 
-RPM_NAME = "etrophy-devel-0.5.1-8.30.aarch64.rpm"
-RPM_HASH = "246753e42dba96c88565400db0eaa241a3078285e2a05c30f05d24eb23b06a08928e63f3847b9c3b84878e2ba914135975774020c8b5c83313e93894dffc33fb"
+RPM_NAME = "etrophy-devel-0.5.1-8.38.aarch64.rpm"
+RPM_HASH = "82254544de8a03cc8647a7bd875fe1f51dc80017acd2599a063e1b55f672ba8d1014a70eb97176741681e9ad41fbb16f6991208ab860d4200c447d73fa8afd89"
 
 RPROVIDES:${PN} += "etrophy-devel \
 pkgconfig-etrophy"

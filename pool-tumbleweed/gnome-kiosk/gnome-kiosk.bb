@@ -3,10 +3,10 @@ DESCRIPTION = "Kiosk provides a desktop enviroment suitable for fixed purpose, o
 application deployments like wall displays and point-of-sale systems."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "44.0"
+PV = "50.1"
 
-RPM_NAME = "gnome-kiosk-44.0-1.2.aarch64.rpm"
-RPM_HASH = "7df85dfff8688d1f2060509cc697d68ee950918e34722585acf91b32d947e47626494df6ce248c2a1310f206d0c202fd71a72a4ee605995e11d4772a145475a1"
+RPM_NAME = "gnome-kiosk-50.1-1.2.aarch64.rpm"
+RPM_HASH = "60099846ddce476594c740c7fb386d964a4c8d5d35d69af95147445a78eb41dd31aad1740fa843cf0494202c2e1b899400b0422b0a4e43c2aafa2f6ebb279b6d"
 
 RPROVIDES:${PN} += "gnome-kiosk"
 
@@ -14,15 +14,19 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 gnome-session \
 ld-linux-aarch64.so.1 \
 libGLESv2.so.2 \
-libX11.so.6 \
 libc.so.6 \
+libcairo.so.2 \
+libgdk-pixbuf-2.0.so.0 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
-libgnome-desktop-3.so.20 \
+libgnome-desktop-4.so.2 \
 libgobject-2.0.so.0 \
+libgraphene-1.0.so.0 \
 libibus-1.0.so.5 \
-libmutter-12.so.0 \
-libmutter-clutter-12.so.0 \
+libmutter-18.so.0 \
+libmutter-clutter-18.so.0 \
+libmutter-cogl-18.so.0 \
+libmutter-mtk-18.so.0 \
 libsystemd.so.0"
 
 inherit rpm

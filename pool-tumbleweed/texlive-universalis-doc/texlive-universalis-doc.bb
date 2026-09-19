@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-universalis"
 DESCRIPTION = "This package includes the documentation for texlive-universalis"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn64505"
+PV = "2026.226.svn77682"
 
-RPM_NAME = "texlive-universalis-doc-2023.209.svn64505-54.1.noarch.rpm"
-RPM_HASH = "4224940437475d677cb9688413fd979786b32e5baee3161c171535e58ce5087939821e467a548529c10616e68e5976a1d8288e500d28a90791188b2e129dae8c"
+RPM_NAME = "texlive-universalis-doc-2026.226.svn77682-60.2.noarch.rpm"
+RPM_HASH = "d3ea2ed3ea64b6879d20a824f6b928a06ba0f6213c02b18bce88818ebfc7b1491c5620e14f6738376575449f9350723e1d7b90f6f58f4627f32b136376892e43"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-universalis-doc"

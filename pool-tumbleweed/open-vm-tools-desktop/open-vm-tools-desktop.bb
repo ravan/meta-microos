@@ -4,10 +4,10 @@ open-vm-tools that are essential for improved user experience of VMware virtual 
 machines."
 LICENSE = "BSD-3-Clause & GPL-2.0-only & LGPL-2.1-only"
 
-PV = "12.3.0"
+PV = "13.1.0"
 
-RPM_NAME = "open-vm-tools-desktop-12.3.0-1.1.aarch64.rpm"
-RPM_HASH = "50ff207e47eafa5b2347cb30b535deab94f6e8d49678349c4f2c5c7ac5ad9268098a4efbe8e5d89eec19531ba82ac34a685c1f643bbb86ea64c8714d7f0827cd"
+RPM_NAME = "open-vm-tools-desktop-13.1.0-2.3.aarch64.rpm"
+RPM_HASH = "54e857a6e817c43bf453d12dd0c813888b4c00b83db4b4dffcce54250f9df580e68118e70f5a8ce6c3c7879db71b490c7e7ce195e9949b612a977c3fea9fb3f3"
 
 RPROVIDES:${PN} += "config-open-vm-tools-desktop \
 libdesktopEvents.so \
@@ -30,7 +30,7 @@ libatkmm-1.6.so.1 \
 libc.so.6 \
 libcairomm-1.0.so.1 \
 libdrm.so.2 \
-libfuse3.so.3 \
+libfuse3.so.4 \
 libgcc-s.so.1 \
 libgdk-3.so.0 \
 libgdkmm-3.0.so.1 \

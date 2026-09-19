@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-guitlogo"
 DESCRIPTION = "This package includes the documentation for texlive-guitlogo"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.0_alpha.4svn55741"
+PV = "2026.226.1.0.0_alpha.4svn55741"
 
-RPM_NAME = "texlive-guitlogo-doc-2023.209.1.0.0_alpha.4svn55741-54.2.noarch.rpm"
-RPM_HASH = "f8b3b705dc2e713ec6b112eef4d2996235275faad4063bb4c9ee8e4642f9ac895e6ae4358687ad1e2e349acef6f99be4d621b3aadbe38c7842d44bfaea7abd91"
+RPM_NAME = "texlive-guitlogo-doc-2026.226.1.0.0_alpha.4svn55741-60.4.noarch.rpm"
+RPM_HASH = "5bf5113689b9de8588602c8a7175b8a99da78fa25a948903630a8f9f50634be68ec1fab812b08fa428dc3d80f88bfb68aa7b45b57dd0c5a853ea0a90ed916288"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-texlive-guitlogo-doc-it \

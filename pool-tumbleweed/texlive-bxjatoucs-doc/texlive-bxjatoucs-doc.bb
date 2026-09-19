@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-bxjatoucs"
 DESCRIPTION = "This package includes the documentation for texlive-bxjatoucs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.2svn52509"
+PV = "2026.226.0.0.3asvn71870"
 
-RPM_NAME = "texlive-bxjatoucs-doc-2023.209.0.0.2svn52509-53.1.noarch.rpm"
-RPM_HASH = "9217fd6542bbdd98e0aab67e0361c9e520349ee3a8dd916bb728a499c97cc639a021c63336c83a2bcdc602e945ffb7895ae8cc8ffadab8bb78e5524116789160"
+RPM_NAME = "texlive-bxjatoucs-doc-2026.226.0.0.3asvn71870-59.2.noarch.rpm"
+RPM_HASH = "c6990c907f0193e1eaf79a9f50c77916f06e8c28c78effc647fdf47521a976507d71f93c038dc7d2d25e22cecf39a194164588d1cd9daa4d43fee2b137869c8c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-bxjatoucs-doc"

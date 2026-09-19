@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-frederika2016"
 DESCRIPTION = "This package includes the documentation for texlive-frederika2016"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.000_2016_initial_releasesvn42157"
+PV = "2026.226.1.000_2016_initial_releasesvn42157"
 
-RPM_NAME = "texlive-frederika2016-doc-2023.209.1.000_2016_initial_releasesvn42157-53.1.noarch.rpm"
-RPM_HASH = "10008c57570dec8f8ec5005c82441ea24f22fc84959ae0381ded1ad71666de0abe415d84e6435f7289c453f27a0e893f6d32fb08b6c3de17bc468217d33a46a6"
+RPM_NAME = "texlive-frederika2016-doc-2026.226.1.000_2016_initial_releasesvn42157-60.2.noarch.rpm"
+RPM_HASH = "1efac2fd1ea97cf603ccc117b41d27f91a6fd309108c74d968217aabf1e832701f0c75f686243ff26d580897b93c27f3a90610a42c82e25dd0d9119aec39c527"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-frederika2016-doc"

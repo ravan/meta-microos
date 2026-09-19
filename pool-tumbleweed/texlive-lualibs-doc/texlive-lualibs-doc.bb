@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-lualibs"
 DESCRIPTION = "This package includes the documentation for texlive-lualibs"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.208.2.75svn64615"
+PV = "2026.226.2.76svn67994"
 
-RPM_NAME = "texlive-lualibs-doc-2023.208.2.75svn64615-53.1.noarch.rpm"
-RPM_HASH = "3f013cbfa4c70385f0169093d090a13ebcfe8654ac7490c7131270229fafeaaa363d7170ef35a362f9eda792c75a967e6297a9aedfd48020ba1055b8803777aa"
+RPM_NAME = "texlive-lualibs-doc-2026.226.2.76svn67994-59.2.noarch.rpm"
+RPM_HASH = "a9f17a0753bda90cd9c30a3303d207a376c09dd2ffbd9d25dbdac4fd9c41354492dabdb0a6ad0aaa29ae50c6c5837d49bf3e337ba7f7aa16afc3abee034f1af4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-lualibs-doc"

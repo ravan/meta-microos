@@ -7,14 +7,14 @@ LICENSE = "GPL-3.0-or-later"
 
 PV = "0.10.0"
 
-RPM_NAME = "whipper-0.10.0-3.8.aarch64.rpm"
-RPM_HASH = "22f263f333e083de02cd0be356cacadcd61f2d4ae2f3126d970720e49f53cce747d17e58bc515b7760ec8d3a2c05d53d79c6aafc0ffe64c26b65f1da6062855c"
+RPM_NAME = "whipper-0.10.0-5.4.aarch64.rpm"
+RPM_HASH = "a41745700b009b1dc6d9b37293baed850ce3ed202e58f99d1abbeafc12666751e377da57d11ad3fe5d7c708b3e6a327925bf1d3c594d8a32aa5397915d98fb84"
 
-RPROVIDES:${PN} += "python3.11dist-whipper \
+RPROVIDES:${PN} += "python3.13dist-whipper \
 python3dist-whipper \
 whipper"
 
-RDEPENDS:${PN} += "/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 cd-paranoia \
 cdrdao \
 flac \
@@ -28,6 +28,7 @@ python3-musicbrainzngs \
 python3-mutagen \
 python3-pycdio \
 python3-ruamel.yaml \
+python3-setuptools \
 sox \
 typelib-GLib"
 

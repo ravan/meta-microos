@@ -2,10 +2,10 @@ SUMMARY = "German translation of documentation of etoolbox"
 DESCRIPTION = "The version translated is 2.1 or 2011-01-03."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1svn21906"
+PV = "2026.226.1svn21906"
 
-RPM_NAME = "texlive-etoolbox-de-2023.209.1svn21906-53.1.noarch.rpm"
-RPM_HASH = "ad89171d720c60abfa7127dcdc797a10b6d57a9e68d833ec719305411ba89236cc4620dcc6bbd35010479b0a7eab574af9b9b1a59694646a372b05f3430d4511"
+RPM_NAME = "texlive-etoolbox-de-2026.226.1svn21906-59.2.noarch.rpm"
+RPM_HASH = "5563bc2b0eeddd3b3cc611c3c819568136a3cc0a4e2d8103d6ca82324d89837fbed82a796e04821e5a3caa81fea6446091a3f38d0c97ec0aee6fcb0dcf9f63be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-etoolbox-de"

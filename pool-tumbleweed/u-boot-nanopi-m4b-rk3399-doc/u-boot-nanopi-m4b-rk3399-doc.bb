@@ -3,10 +3,10 @@ DESCRIPTION = "Das U-Boot (or just 'U-Boot' for short) is Open Source Firmware f
 This package contains documentation for U-Boot firmware."
 LICENSE = "GPL-2.0-only"
 
-PV = "2023.07"
+PV = "2026.07"
 
-RPM_NAME = "u-boot-nanopi-m4b-rk3399-doc-2023.07-1.1.aarch64.rpm"
-RPM_HASH = "cb1383bef43d452f2a3605b471abbc80f9e4791f018df68a2afa46b36c6f6b1a70d9563dd844e7564756fd1a092c032cc1db27085d8c3d6585b981282ad46763"
+RPM_NAME = "u-boot-nanopi-m4b-rk3399-doc-2026.07-2.1.aarch64.rpm"
+RPM_HASH = "fb37aafef9eb268480dcb93ad1ccc5c17eb0738164b3326dcc2e29bad4033d8d68dfb8500f0cf67b335d1de65bcc2c42d80ea8e1522ffa40e01cd9257b219ea2"
 
 RPROVIDES:${PN} += "u-boot-nanopi-m4b-rk3399-doc"
 

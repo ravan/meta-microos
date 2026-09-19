@@ -3,10 +3,10 @@ DESCRIPTION = "DBGL is a Java front-end for DOSBox, based largely upon the \
 proven interface of D-Fend."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.92"
+PV = "0.99"
 
-RPM_NAME = "dbgl-0.92-1.13.noarch.rpm"
-RPM_HASH = "68b0e0c6a286af974bddb389761a3bd979fe373e7bd253651cce00bacd44e07019655207522755f1e400a96055e8f00a8be724366838c3347bfb2ade91c20706"
+RPM_NAME = "dbgl-0.99-1.5.noarch.rpm"
+RPM_HASH = "c3604d7c4f58d4e9c36487763c87dd14a2bd3763676411e15004b37372ec6e854d5c0448263cb0704feb9a59189feb50f34658e89b0b11558a95c51328e15224"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "dbgl"

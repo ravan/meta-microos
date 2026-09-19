@@ -5,10 +5,10 @@ broadcasting due to limited standard size (512..1024 entries, \
 depending on type) of the kernel ARP cache."
 LICENSE = "GPL-2.0-only"
 
-PV = "6.4"
+PV = "7.2"
 
-RPM_NAME = "iproute2-arpd-6.4-1.1.aarch64.rpm"
-RPM_HASH = "585ed7b2126e212785c38d4dfe3deff28b534ba947bc8ce5bec64325cec8e6116ff0792729ed6946deaeaeec5bbdccfd03838363bf6ab3bbc246de990d0cacd2"
+RPM_NAME = "iproute2-arpd-7.2-1.1.aarch64.rpm"
+RPM_HASH = "80b638d74c2b0aaffb2e94e7e53d198f4b42a412553c281e276bc13219116a04e8f53e55b4ca7a7260c0a2e0d9ad79ce3074581cd3ce70f8b2af8b0884d3614a"
 
 RPROVIDES:${PN} += "iproute2-/usr/sbin/arpd \
 iproute2-arpd"

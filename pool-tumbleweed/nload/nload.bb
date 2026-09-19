@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "0.7.4"
 
-RPM_NAME = "nload-0.7.4-1.31.aarch64.rpm"
-RPM_HASH = "ebe171bb245765ae83f6a2de7cf695002e700e00c0f7c2f2e918f53052aa8df458dcacee5c2424bc1b3d2cf58c09ea579ac661caabffb66da4a2305b66514181"
+RPM_NAME = "nload-0.7.4-2.10.aarch64.rpm"
+RPM_HASH = "715ba2a85ab3dd3d018c98883fbeefb13fcdc91637a1032a0be2fa32c99d97beff1fc0430ecec564cd3828abd843fae64338657c795fae40e4febbb479c698e5"
 
 RPROVIDES:${PN} += "nload"
 

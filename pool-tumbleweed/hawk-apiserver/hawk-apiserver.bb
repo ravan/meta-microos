@@ -2,17 +2,18 @@ SUMMARY = "Web server and API provider for Hawk"
 DESCRIPTION = "This package contains the Hawk API server"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "0.0.4+git.1604696958.cd5cdf1"
+PV = "0.2.3+git.1787575068.680f9de"
 
-RPM_NAME = "hawk-apiserver-0.0.4+git.1604696958.cd5cdf1-1.2.aarch64.rpm"
-RPM_HASH = "f20ed73a72ebb8e4aaf663a3591ec61f2f4de1466624012897893ec1a2470ea82009af4cbbc31c3200af5858a82a8062d1d27be916a54c3a0b04d06cc6bcea5f"
+RPM_NAME = "hawk-apiserver-0.2.3+git.1787575068.680f9de-1.1.aarch64.rpm"
+RPM_HASH = "f47f3c8caa915e922e498684ded0e50cbcad95555094064b88eac586cf927b125ab6f6000a7359400cd96f5695e0c3c5e199833b4e6defed9ab1863ea9c5117c"
 
 RPROVIDES:${PN} += "hawk-apiserver"
 
 RDEPENDS:${PN} += "libc.so.6 \
-libcib.so.27 \
-libcrmcommon.so.34 \
+libcib.so.54 \
+libcrmcommon.so.68 \
 libglib-2.0.so.0 \
+libxml2.so.16 \
 pacemaker"
 
 inherit rpm

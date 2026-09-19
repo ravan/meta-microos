@@ -46,17 +46,15 @@ LICENSE = "Apache-2.0 & MPL-2.0"
 
 PV = "10.9"
 
-RPM_NAME = "saxon10-10.9-1.1.noarch.rpm"
-RPM_HASH = "35b119e92fcf281ba56e0edb7475e6af71f10ff476a84813b0bd640039b2d29552958faa473d0e4928124fb30612caa7759cc52be510dbb0b753aae083179e29"
+RPM_NAME = "saxon10-10.9-5.5.noarch.rpm"
+RPM_HASH = "60f533cc17d91bd398145036878c7d46b87950b0145d9380d7aa2ee77e0aa18b7f55a75f57beaf640fbc20b0c557f922b4d3b1e58d1cd14fdc6fe62607ce34f1"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "jaxp-transform-impl \
-mvn-net.sf.saxon-Saxon-HE \
+RPROVIDES:${PN} += "mvn-net.sf.saxon-Saxon-HE \
 mvn-net.sf.saxon-Saxon-HE-pom- \
 saxon10"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem"
 
 inherit rpm

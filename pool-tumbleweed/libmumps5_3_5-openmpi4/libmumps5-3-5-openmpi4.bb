@@ -10,8 +10,8 @@ LICENSE = "CECILL-C"
 
 PV = "5.3.5"
 
-RPM_NAME = "libmumps5_3_5-openmpi4-5.3.5-3.4.aarch64.rpm"
-RPM_HASH = "88f0fd2dc843a1f0d21aba8171e483a3716ebbf5a978cef5f904b60e109abbf78be05ea4597b494cf737ded6031cadb215c931bf30dc8413103a683914fa9d0a"
+RPM_NAME = "libmumps5_3_5-openmpi4-5.3.5-7.7.aarch64.rpm"
+RPM_HASH = "c0a40ec550672956058c1753863bf2979108271d9d082369f0a81e954a029fed08af700fe082268073067a9e908a53e9ef1cb89a3603a5834be3f179d79ad47c"
 
 RPROVIDES:${PN} += "libcmumps.so.5.3.5 \
 libdmumps.so.5.3.5 \
@@ -23,7 +23,7 @@ libzmumps.so.5.3.5"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libblacs.so.2.1.0 \
+libblacs.so.2.2.2 \
 libblacs2-openmpi4 \
 libblas.so.3 \
 libc.so.6 \
@@ -35,6 +35,6 @@ libmpi-mpifh.so.40 \
 libmpi-usempi-ignore-tkr.so.40 \
 libmpi-usempif08.so.40 \
 libmpi.so.40 \
-libscalapack.so.2.1.0"
+libscalapack.so.2.2.2"
 
 inherit rpm

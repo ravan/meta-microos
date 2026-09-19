@@ -4,10 +4,10 @@ layers 1, 2 and 3 (most commonly MPEG 1.0 Layer 3 aka MP3), as well as re-usable
 and output libraries."
 LICENSE = "LGPL-2.1-only"
 
-PV = "1.31.3"
+PV = "1.33.7"
 
-RPM_NAME = "mpg123-devel-1.31.3-1.3.aarch64.rpm"
-RPM_HASH = "ed56be99b33403400a3c19af2c5bc7d451514b10c473886dbb97dfaad65584486192313335f6eca94a1db0e5e5143cc3f510447b8c67fd8d8eca09a43e2f6c7c"
+RPM_NAME = "mpg123-devel-1.33.7-1.1.aarch64.rpm"
+RPM_HASH = "4abaac3cbd6f52ab078ca7488a128cc3d70c9434b585d9d5e180e352b96b9df762b623ef97e9f7d9eca055ffe80645378007ab576169804552e4736e29b1654c"
 
 RPROVIDES:${PN} += "mpg123-devel \
 pkgconfig-libmpg123 \

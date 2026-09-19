@@ -11,8 +11,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.48"
 
-RPM_NAME = "perl-XML-XSLT-0.48-198.15.noarch.rpm"
-RPM_HASH = "4e71084150f138874d599e3f0ddf7f9ee2bda591e9f1aa57e52fd6f2789d590a6552743a851fe9254241a342033541dc6ec4954d8a197610f90256074e3ffc48"
+RPM_NAME = "perl-XML-XSLT-0.48-198.29.noarch.rpm"
+RPM_HASH = "c6e9aa19f83e1f7e3123d5cb040888ebcc34c772390803967caca78daf48ddf98383306b319863121b1f1f47f0e861e601a0cc7c2efed2e30f5c08f2a66cf6f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-XML--XSLT \
@@ -20,7 +20,7 @@ perl-XML--XSLT--DOM--TextDOE \
 perl-XML-XSLT"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-XML--DOM \
 perl-XML--Parser"
 

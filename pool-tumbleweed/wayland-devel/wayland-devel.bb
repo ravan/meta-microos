@@ -10,10 +10,10 @@ This package contains all necessary include files and libraries needed \
 to develop applications that require these."
 LICENSE = "MIT"
 
-PV = "1.22.0"
+PV = "1.26.0"
 
-RPM_NAME = "wayland-devel-1.22.0-1.1.aarch64.rpm"
-RPM_HASH = "ba69710493289539938496e8dcd5bd6da883c53c2623cbadf405258ecb4198c7c7bb56e77fe79dcacbd81ffdab19c586be264721d3371a1a29eebd7225436042"
+RPM_NAME = "wayland-devel-1.26.0-1.2.aarch64.rpm"
+RPM_HASH = "62c73cc08fabf6ab538e226588f99e35dc4cd6dc88309abd34ea4990f4866cfdf7f13c8af6799310df083d67130894dfd78abe1bf40f66f03f485c33f2bd1268"
 
 RPROVIDES:${PN} += "libwayland-egl-devel \
 pkgconfig-wayland-client \
@@ -32,7 +32,7 @@ libwayland-client0 \
 libwayland-cursor0 \
 libwayland-egl1 \
 libwayland-server0 \
-libxml2.so.2 \
+libxml2.so.16 \
 pkgconfig-libffi \
 pkgconfig-wayland-client"
 

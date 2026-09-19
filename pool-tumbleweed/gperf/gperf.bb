@@ -4,10 +4,10 @@ that allows recognition of a key word in a set of words using exactly \
 one probe into the data structure."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "3.1"
+PV = "3.3"
 
-RPM_NAME = "gperf-3.1-4.5.aarch64.rpm"
-RPM_HASH = "282644a1c34da27edb89d6cb5b64685806c7748a1a81334fbd324251276ee9ad54d749a580d475d8687fa79a7c2d448f7703ad58513edb3b9919fc8096bf9d38"
+RPM_NAME = "gperf-3.3-1.6.aarch64.rpm"
+RPM_HASH = "f62c6c21f58d234e7a80d587dc29e7e2e1b63eccd1c3ef5b7d026fa8c3426e370b541199a32ac7a320410aaa80891ae3fd32a21df597d79bfa6d0ff1995d2d1e"
 
 RPROVIDES:${PN} += "gperf"
 

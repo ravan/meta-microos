@@ -5,10 +5,10 @@ Useful to access ZIP archives from Qt programs. \
 This package contains documentation for quazip."
 LICENSE = "GPL-2.0-or-later | LGPL-2.1-or-later"
 
-PV = "1.4"
+PV = "1.7.2"
 
-RPM_NAME = "quazip-doc-1.4-2.4.noarch.rpm"
-RPM_HASH = "0938f9628d70af389e1daeda4ab8e93892e12efc7f53019caa81122c93ea1dc392aa30462a28fc9aee2c102c8c90cb3964bbf3a586e2e97126bd2b20945f482f"
+RPM_NAME = "quazip-doc-1.7.2-1.3.noarch.rpm"
+RPM_HASH = "fe58f6995f2acd1272cdf5e68ec6bf6958b6cbfc1a0a1f742452bcee856e302df5f1179adbf12cf7fda70f616b6eb7be76ffbd9765466a527da5cf169b9ce592"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "libquazip-qt5-doc \

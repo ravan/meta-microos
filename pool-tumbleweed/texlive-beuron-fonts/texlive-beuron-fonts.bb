@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-beuron"
 DESCRIPTION = "The  separated fonts package for texlive-beuron"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.3svn46374"
+PV = "2026.226.1.3svn46374"
 
-RPM_NAME = "texlive-beuron-fonts-2023.209.1.3svn46374-54.1.noarch.rpm"
-RPM_HASH = "afc20df32088ab652c69afe4313040ee66a047bf7645e59a4208c0fe72f2ab1ce142fa906b356d8ae9561c86e7176ebb6e1ec2c7c2a84dc9f6b67ac9161051a1"
+RPM_NAME = "texlive-beuron-fonts-2026.226.1.3svn46374-61.2.noarch.rpm"
+RPM_HASH = "607d0c7a3a719f3ef323f82946896949085283b84d27867b054a218a4415f95ef772987556090bad99b3abf431e2224c8e6ec836a8f398cc956c51609f4ef634"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-texlive-beuron-fonts \
+font--lang=bem \
 font--lang=fj \
 font--lang=ho \
 font--lang=ia \

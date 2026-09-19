@@ -6,10 +6,10 @@ generic. \
 This package contains development headers and libraries for libecpint"
 LICENSE = "MIT"
 
-PV = "1.0.7"
+PV = "v1.0.7+git20230218.8e788d4"
 
-RPM_NAME = "libecpint-devel-1.0.7-2.11.aarch64.rpm"
-RPM_HASH = "3e661a80f921c710671c64d80040d53f1eed32b4a4487862c7ccd7d8aa6c867b9c9fe221481b008b9e81782dd085715d4c5b1ff7954a3e32ed39e272d27f9aaa"
+RPM_NAME = "libecpint-devel-v1.0.7+git20230218.8e788d4-1.9.aarch64.rpm"
+RPM_HASH = "fda32e8a88727e250acf2af30d90a68dddea986ec5704387ff966d726bca2e6a648a71516638bf4693e36244f4c023232c4b890b8ec0cf8e5845a87474fce673"
 
 RPROVIDES:${PN} += "cmake-ecpint \
 libecpint-devel"

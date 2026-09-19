@@ -3,10 +3,10 @@ DESCRIPTION = "C++ (with python bindings) library for easily reading/writing/man
 common animation particle formats such as PDB, BGEO, PTC."
 LICENSE = "BSD-3-Clause"
 
-PV = "1.14.6"
+PV = "1.20.0"
 
-RPM_NAME = "partio-1.14.6-1.10.aarch64.rpm"
-RPM_HASH = "a436ebfd5b07fbcae0566e1cfbb78c4468d8b4d282ebef115afa5e306117dff795ba3d626bf5393807fa7b5da18526422291de481a2b9d4aadbdde260423635e"
+RPM_NAME = "partio-1.20.0-1.4.aarch64.rpm"
+RPM_HASH = "303908528c22893dc23a3172c2c6439bd955e25accde73720ad14e00af1d0fd7e853f317a07eb72f7f7769e4cafa1202ba9cb42c7a2ddf97dc5ef9681542d836"
 
 RPROVIDES:${PN} += "partio"
 

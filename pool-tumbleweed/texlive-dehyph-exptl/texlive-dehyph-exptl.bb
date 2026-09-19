@@ -10,15 +10,15 @@ reformierten Rechtschreibung ab und konnen mit den Paketen \
 Babel und hyphsubst aus dem Oberdiek-Bundel verwendet werden."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.9svn66390"
+PV = "2026.226.1.0svn72949"
 
-RPM_NAME = "texlive-dehyph-exptl-2023.209.0.0.9svn66390-53.1.noarch.rpm"
-RPM_HASH = "e22d140749f698bf2ca9b9e5282c55384098b87d03352bc37d7380c99c27d6db8ec5eabcea694cda0188ce3e64a4099246e981328d3a84f5b76e8a50becc8df0"
+RPM_NAME = "texlive-dehyph-exptl-2026.226.1.0svn72949-59.2.noarch.rpm"
+RPM_HASH = "32e4efd39a767db32eafe840f15c6922afee5061ff510d3af7b489d60288de1b7df3c6833b7ab7a1d83f8ef1f2f4a75b0b67af3b5026d00847c9aa49ff25c66a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tex-dehyphn-x-2023-03-06.tex \
-tex-dehypht-x-2023-03-06.tex \
-tex-dehyphts-x-2023-03-06.tex \
+RPROVIDES:${PN} += "tex-dehyphn-x-2024-02-28.tex \
+tex-dehypht-x-2024-02-28.tex \
+tex-dehyphts-x-2024-02-28.tex \
 texlive-dehyph-exptl"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

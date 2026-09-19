@@ -5,8 +5,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.4"
 
-RPM_NAME = "axis-1.4-306.7.noarch.rpm"
-RPM_HASH = "f8113978bc65c433a18b20a97d31e1263e16e909ef4b2c3a449a8450c18383afe1d934fe1554c53cb37d47ef56f672da1ecf32348e473ba9cb855f4a49e133ec"
+RPM_NAME = "axis-1.4-310.6.noarch.rpm"
+RPM_HASH = "341ec5661f47a5bd11512d6220236bc8da1bb9a1e6424380f357d93e329b09a0e427b8678c89770ccc21fc20bc474903f56436e92522608f4a9b990111727841"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "axis \
@@ -36,13 +36,13 @@ java \
 java-headless \
 javamail \
 javapackages-filesystem \
-jaxp-parser-impl \
 mvn-axis-axis-wsdl4j \
 mvn-commons-discovery-commons-discovery \
 mvn-commons-logging-commons-logging \
 osgi-javax.wsdl \
 osgi-org.apache.commons.discovery \
 reload4j \
-wsdl4j"
+wsdl4j \
+xerces-j2"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-mversion"
 DESCRIPTION = "This package includes the documentation for texlive-mversion"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn29370"
+PV = "2026.226.1.0.1svn29370"
 
-RPM_NAME = "texlive-mversion-doc-2023.209.1.0.1svn29370-55.1.noarch.rpm"
-RPM_HASH = "e85df9f5de5a3eef61ca3c3f5ec7a8f8bb47ad9beb11ed49cc927db750036f5471618a248a4be64a28889a4053896e066b15d39e0c0a54fb5fbbeb00bf350b0d"
+RPM_NAME = "texlive-mversion-doc-2026.226.1.0.1svn29370-61.2.noarch.rpm"
+RPM_HASH = "517607a406d0c74839467d63a9ec1d198207c3cb142ad0299ff2256d888cae236549d31ff5601db4e94b5a120345a427ba38724717d92efaa04bbf708e067fd8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-mversion-doc"

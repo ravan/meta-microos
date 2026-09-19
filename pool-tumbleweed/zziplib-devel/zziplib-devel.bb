@@ -3,10 +3,10 @@ DESCRIPTION = "That are the header files needed for developing applications usin
 ZZipLib."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.13.72"
+PV = "0.13.80"
 
-RPM_NAME = "zziplib-devel-0.13.72-1.9.aarch64.rpm"
-RPM_HASH = "ddd52e9233cbf22063ff0eafc1a2e4d425cfd98ac563f43f31978323001a7a0c5615cf26c951db7553524340076b5dce95998d6789d796fa6deb0e8e72960ea7"
+RPM_NAME = "zziplib-devel-0.13.80-1.5.aarch64.rpm"
+RPM_HASH = "a06251fc3d8433f792ba4c7d1a2b89ad4effd2d52a165b52544b00d9f838510fe8d716111e8ace130fa42d9e59a7b9fd4dc21892531852833db87b223a42425f"
 
 RPROVIDES:${PN} += "pkgconfig-zzipfseeko \
 pkgconfig-zziplib \

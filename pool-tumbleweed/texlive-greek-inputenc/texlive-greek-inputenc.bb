@@ -1,12 +1,13 @@
 SUMMARY = "Greek encoding support for inputenc"
-DESCRIPTION = "The bundle provides UTF-8, Macintosh Greek encoding and ISO \
-8859-7 definition files for use with inputenc."
+DESCRIPTION = "Input encoding definition files for UTF-8, Macintosh Greek, and \
+ISO 8859-7 enabling the use of literal characters for Greek \
+letters and symbols with 8-bit TeX engines (pdfLaTeX)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.8.2svn66296"
+PV = "2026.226.1.9svn66634"
 
-RPM_NAME = "texlive-greek-inputenc-2023.209.1.8.2svn66296-54.2.noarch.rpm"
-RPM_HASH = "96fbe1f0649676852b5c60ff5931fb08b186017da8938f6cb9dcde8c6996f7d2a83f6a89d9c99dd1f3ca72366e4f6599a505012d3880f2e7fcbc3ff54468acf3"
+RPM_NAME = "texlive-greek-inputenc-2026.226.1.9svn66634-60.4.noarch.rpm"
+RPM_HASH = "569140ca89bf0bc9bb23b4be22d1eca91afc79adba8d852c33ef2c51e2bde81fc60ac4aff7f925322094e4559d636bc42220af21c5f2dbf722c7bbe76192006b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-iso-8859-7.def \

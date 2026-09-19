@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains a collection of methods to provide a librar
 for tasks done in other kiwi dracut modules"
 LICENSE = "GPL-3.0-or-later"
 
-PV = "9.25.12"
+PV = "10.3.11"
 
-RPM_NAME = "dracut-kiwi-lib-9.25.12-1.1.aarch64.rpm"
-RPM_HASH = "fb59dface9072471d4d7083fe58203a8dee2f48c7b9bc58f949bcc295868b58baa3d971c974f14b68ce8eb4dda5028b4ac52f9f7d46315ca524c9e16d7c9918b"
+RPM_NAME = "dracut-kiwi-lib-10.3.11-1.1.aarch64.rpm"
+RPM_HASH = "302d38c17da3f398bd2cc7349773d8b833220a40280db36260d33b876856cc31f5e629309a6bcbad81e37ba9f0e59bbc484cfeeb877bf69bac4d7a5283568555"
 
 RPROVIDES:${PN} += "dracut-kiwi-lib"
 

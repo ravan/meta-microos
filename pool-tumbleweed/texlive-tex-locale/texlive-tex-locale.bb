@@ -10,10 +10,10 @@ packages such as fontspec (XeLaTeX/LuaLaTeX) or fontenc + \
 inputenc (pdfLaTeX)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn48500"
+PV = "2026.227.1.0svn77682"
 
-RPM_NAME = "texlive-tex-locale-2023.209.1.0svn48500-55.1.noarch.rpm"
-RPM_HASH = "426e620702edeb831abe78e93ed7e6992b3d846ff0bc8c88519d4c9da6ab994e997dda919b73234e92108a369ea57e81ef1713a5570c16276d7f3e7ef9449047"
+RPM_NAME = "texlive-tex-locale-2026.227.1.0svn77682-62.2.noarch.rpm"
+RPM_HASH = "a68f5a7f01694992ca1b88e72c89eec6be706a78dbd358ec727548fa1fc6e1e81c76361be184c6ba15c8fad48f050066ed03714f1cc0d9a33c952a1af0d133ac"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tex-locale-encodings.def \

@@ -5,10 +5,11 @@ This package provides syntax highlighting support for conky \
 configuration files in vim."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later & MIT"
 
-PV = "1.13.1"
+PV = "1.24.2"
 
-RPM_NAME = "vim-plugin-conky-1.13.1-3.3.aarch64.rpm"
-RPM_HASH = "8e98c1ca5a2f1809e288168e04f1b7732bc7b2a268d87d919a0bcbde4e17062b994995216927349d3153f2d90f937d37ecefab02ffdd2e0a33fc95bd67ea0e1e"
+RPM_NAME = "vim-plugin-conky-1.24.2-1.1.noarch.rpm"
+RPM_HASH = "4b2c3772437ea9d5edc6dcfc15b00a84c86d9d2ca26faf3da6b07ae546f1c08726b6cf16fc925a6ca49637cf51872916eef1ed282ce828de86dc1f26fcdf9d68"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "conky-vim \
 vim-plugin-conky"

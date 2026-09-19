@@ -6,10 +6,10 @@ which can be embedded into an application to make it extensible. With \
 slsh, a standalone interpreter is available as well."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.3.3"
+PV = "2.3.3+git16.89d32bb"
 
-RPM_NAME = "libslang2-2.3.3-1.4.aarch64.rpm"
-RPM_HASH = "79e341ab380b9e709d206191d99fd5e4f23447f682041b606213d5b566f628fdafb5947015b8e83b918999b49ed83eb03ddb5e378f2d1f621bcc51389f9b1205"
+RPM_NAME = "libslang2-2.3.3+git16.89d32bb-2.7.aarch64.rpm"
+RPM_HASH = "ba665523470a2f9a80da632b1bd4055050926e0a469711596b2ec3f8f6bc61c66434ee62ee546c6abbf347fd855098644fbe0acd5ee94d0d203a8d3c1cda0476"
 
 RPROVIDES:${PN} += "libslang.so.2 \
 libslang2"

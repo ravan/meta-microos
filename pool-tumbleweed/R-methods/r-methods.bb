@@ -2,10 +2,10 @@ SUMMARY = "Package providing R-methods"
 DESCRIPTION = "This package provides R-methods, one of R-core packages."
 LICENSE = "GPL-2.0-only | GPL-3.0-only"
 
-PV = "4.3.1"
+PV = "4.6.1"
 
-RPM_NAME = "R-methods-4.3.1-46.1.aarch64.rpm"
-RPM_HASH = "793d9d45ba37a65d5585d7e22f47df8164ba99a720831d45c42c2812fafab0e5f0932da86e3186b1da61c62cfd33a4d8537a6aacbc29ebcda113159962d54457"
+RPM_NAME = "R-methods-4.6.1-58.3.aarch64.rpm"
+RPM_HASH = "773ee19bcbe35df2eb4afd66ec3e1e7d79d15d53b77e109ae9e36158a30a901822365298d2744298a92240493508cbb9a1c2a7844a92a7e01f1e2d5bc5e80fc9"
 
 RPROVIDES:${PN} += "R-methods"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-matlab-prettifier"
 DESCRIPTION = "This package includes the documentation for texlive-matlab-prettifier"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.3svn34323"
+PV = "2026.226.0.0.3svn34323"
 
-RPM_NAME = "texlive-matlab-prettifier-doc-2023.208.0.0.3svn34323-53.1.noarch.rpm"
-RPM_HASH = "c9560252affa58caa5d685a9f606a2fde46fce7d690d3c17aa890992b12b42302b9bcde02ed3778ff5dda77255bf1ef8563f458e5775a3d2a80c4c6aad643465"
+RPM_NAME = "texlive-matlab-prettifier-doc-2026.226.0.0.3svn34323-59.2.noarch.rpm"
+RPM_HASH = "b9e7f66a4939683fcb686138224abe2847125fc8aa313f14c59c1bac98b2a790e427841844fb6999c43eebe39ac84038177e2b94005aa56157039c6a1be47e4a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-matlab-prettifier-doc"

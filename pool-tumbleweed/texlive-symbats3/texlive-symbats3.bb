@@ -3,10 +3,10 @@ DESCRIPTION = "This package makes available for LaTeX the glyphs in Feorag's \
 OpenType Symbats3 neopagan dingbats fonts."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63833"
+PV = "2026.226.svn63833"
 
-RPM_NAME = "texlive-symbats3-2023.209.svn63833-58.1.noarch.rpm"
-RPM_HASH = "89559d088a7df554a3688dd7be0f124eb7f4cbc9fefadadbb07ebb7583ce8760c884257f4b2f5077fc27d57ab21e01ed359917c31ce3f00c0aeb4c7dfd78d04e"
+RPM_NAME = "texlive-symbats3-2026.226.svn63833-64.2.noarch.rpm"
+RPM_HASH = "d103cb551905782dab03fd52ca6e35abfe6959747530419d1cc1f1174efce7119d365a833020c5044dc71a6fa7f068ad98fad8524d43be7e8849dca43f8e3487"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-symbats3.sty \

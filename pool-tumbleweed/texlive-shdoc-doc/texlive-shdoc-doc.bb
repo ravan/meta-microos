@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-shdoc"
 DESCRIPTION = "This package includes the documentation for texlive-shdoc"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.1bsvn41991"
+PV = "2026.226.2.1bsvn41991"
 
-RPM_NAME = "texlive-shdoc-doc-2023.209.2.1bsvn41991-54.1.noarch.rpm"
-RPM_HASH = "ab66ea2add45fbddc267ec48d38089f69ed9fba4941a48a0b3a76f974f4d60f279dec5166b0d5c8ce65b25d31178958c4dadb16fc540ef8228903c68465e4c53"
+RPM_NAME = "texlive-shdoc-doc-2026.226.2.1bsvn41991-60.2.noarch.rpm"
+RPM_HASH = "4dff44e1a759e935db6f725ec14927be6704d13aef11c22e79be8516c9bfba2671390e9ef60c7b31ec00d52a235c24611b32c6fc7fbcbe6b9f61200cc401f306"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-shdoc-doc"

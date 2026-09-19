@@ -8,8 +8,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.6+git.20190731"
 
-RPM_NAME = "interceptty-0.6+git.20190731-1.10.aarch64.rpm"
-RPM_HASH = "e24a1ca8392fa6894a3782e749fcd26f25aba3ffb0f043f3bfaf602d85e2366d85a44862d21cfed5cb52301425277217962c7f56e0ffe8cf45168bb57da407b5"
+RPM_NAME = "interceptty-0.6+git.20190731-1.20.aarch64.rpm"
+RPM_HASH = "d1cb30d69a765b462d4b33a66aef6d8a57cf5f1adeb0bcff31b71cb9cd73399a4e3809a47e11fc2c2f028593bb494e59e07329c30e700dc1cc43947c925dc938"
 
 RPROVIDES:${PN} += "interceptty"
 

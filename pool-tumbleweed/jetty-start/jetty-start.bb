@@ -13,10 +13,10 @@ Jetty is available on all Java supported platforms. \
 This package contains The start module for Jetty."
 LICENSE = "Apache-2.0 | EPL-1.0"
 
-PV = "9.4.51"
+PV = "9.4.58"
 
-RPM_NAME = "jetty-start-9.4.51-2.1.noarch.rpm"
-RPM_HASH = "0bdc80ddcdc7e22daa944b61ef2c156116c8fc748ea64b2e5081124ccafb13d529ccc90f50cf8bd10c92f01c5c6a8733502f98bf088f5c51a6df3e050d739ad6"
+RPM_NAME = "jetty-start-9.4.58-5.1.noarch.rpm"
+RPM_HASH = "43951bf2e87b3a79b4c2dea92eda982b26fece1c1937688142dbede929201eaa4b45ede83cfa8535fd39216ddd6e7ff263b23f9588698176e856b38ef98746f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jetty-start \

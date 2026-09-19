@@ -2,10 +2,10 @@ SUMMARY = "Command-line interface to various pastebins"
 DESCRIPTION = "Command-line interface to communicate with various pastebin services."
 LICENSE = "MIT"
 
-PV = "2.33"
+PV = "2.34"
 
-RPM_NAME = "wgetpaste-2.33-1.2.noarch.rpm"
-RPM_HASH = "8607158e263b34d33dea355c7635f0533e65c49e84632e00d6bd40e66f1a83f966737932fe9b290bba1ebd99704220225d21331c8bd1ce563d2741c0de9c3d87"
+RPM_NAME = "wgetpaste-2.34-1.7.noarch.rpm"
+RPM_HASH = "238745e991ea281829c9048e8702d66be868059e0574d0b03e869773e0b3b6b0c79db7a97699f9893ebc5e1be5aafd19ef2ea5237f1986f7d7aa1b699130f759"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-wgetpaste \

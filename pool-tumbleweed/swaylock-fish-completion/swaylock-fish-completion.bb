@@ -2,10 +2,10 @@ SUMMARY = "Fish completion for swaylock"
 DESCRIPTION = "Fish command line completion support for swaylock."
 LICENSE = "MIT"
 
-PV = "1.7.2"
+PV = "1.8.6"
 
-RPM_NAME = "swaylock-fish-completion-1.7.2-1.1.noarch.rpm"
-RPM_HASH = "ea0ea70b9bcc6ee8f01b8ee77424a8b8989ec4c157fed128ae148ddff5c16892d29398f1ae5d1f639fd5197b9da15788436b476bb0ebeb73f430bd26cef30233"
+RPM_NAME = "swaylock-fish-completion-1.8.6-1.2.noarch.rpm"
+RPM_HASH = "767304c935a04fbb4d40dc5b0b1ccc73f1deae50a0e7e19faa85f7768cfc43286d1dc71490b0d6771a76cabbbe526dc2fa07e51c3ae904455f85a9f8c4373709"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "swaylock-fish-completion"

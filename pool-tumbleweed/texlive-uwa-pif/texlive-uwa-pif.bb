@@ -9,10 +9,10 @@ class works with XeLaTeX and LuaLaTeX. It depends on the \
 uwa-letterhead package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn64491"
+PV = "2026.226.1.0.1svn78219"
 
-RPM_NAME = "texlive-uwa-pif-2023.209.1.0.1svn64491-54.1.noarch.rpm"
-RPM_HASH = "eb98b460e7f47be148c4b71135e90d324552d51e7df5fc3c288c9455b6d47a87406aa83c0f7afde816d20a004c4899508a22e7f652f6499847c193b31592fd3e"
+RPM_NAME = "texlive-uwa-pif-2026.226.1.0.1svn78219-60.2.noarch.rpm"
+RPM_HASH = "32c94a94b0c794b315dfe65e8d0333aea99bad00bd266d22e769d9c670e8e1abccb4ceb4bb26bf3c9cb661d08764c2f38bae01d9736d3a0c6aa0ea2237f52027"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-uwa-pif.cls \

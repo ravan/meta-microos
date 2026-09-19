@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-blopentype"
 DESCRIPTION = "This package includes the documentation for texlive-blopentype"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.0.0svn65441"
+PV = "2026.226.0.0.0.4svn69080"
 
-RPM_NAME = "texlive-blopentype-doc-2023.209.0.0.0.0svn65441-53.1.noarch.rpm"
-RPM_HASH = "a3fd9243a1a62d7d049c50ed61860a741ac3e8e5fe9ba889b14e98fd4e58d38987c0506ff474809618fe4b2c7ea75bed54bd7285ae53bb72f13888a7e66b84c5"
+RPM_NAME = "texlive-blopentype-doc-2026.226.0.0.0.4svn69080-59.2.noarch.rpm"
+RPM_HASH = "368a52d6805318009439e7ccd55f9749da83c213f7df137042aef5e3bbbdb4d787d2d7b86dff1547fc8c458294b03dc02644b2f8a897ab48b72ffc32366203e7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-blopentype-doc"

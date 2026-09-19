@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Urdu langua
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-urd-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "1fe39dac5deec8e5b60d5f863c6e0f06366018d754eb3b791ac980862273e6add2e272d367dc8467f006c186abaff209b2078a284d23b6807c8d73a49eaded14"
+RPM_NAME = "tesseract-ocr-traineddata-urd-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "2ace1d1180adfb005f4cadf1048140f6998802e218dfc03aeafc18293a27357d07b8ff8d8923537e540650b083a6c14633fcc4e3ecc8d65bc88ab38e1a772822"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-urd \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ur \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-urd \
 tesseract-ocr-traineddata-urdu \
 tesseract-traineddata-urdu"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

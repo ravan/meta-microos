@@ -6,8 +6,8 @@ LICENSE = "CC-BY-2.0"
 
 PV = "1.8.r5043"
 
-RPM_NAME = "subversion-doc-1.8.r5043-1.17.noarch.rpm"
-RPM_HASH = "c03b77ba27a0f695b358115f4e66dbf14c7cbc92975c822efe104cf89a8895b0c953f1aa0432227cbcf2f97c6130b31d581e299189c7b3e5d15462cbc42d9700"
+RPM_NAME = "subversion-doc-1.8.r5043-1.26.noarch.rpm"
+RPM_HASH = "5f9e6cfb45ef52a5db7bfdcdb43e22568ddb7869349b8f8e2eb832c977b932fc18eb156264e398437cc2abc333f14a765312fa3a9f07363b92270c84df83b98a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-subversion-doc \

@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "1.3"
 
-RPM_NAME = "dialog-1.3-10.1.aarch64.rpm"
-RPM_HASH = "84db09837257769ce5c60c47395df480af3f60951cb963e6fd5c56aefa598e53ce94e8b56b9483855258b3b008b38dcaac8a65bd04349eff707628f2d88aceb5"
+RPM_NAME = "dialog-1.3-14.1.aarch64.rpm"
+RPM_HASH = "e4cef4face015bb477934d183b07410c89685cdbc949adf197b9d9c7a5926efbc5759caa549e823d5f695e32a8a2b72eb53ddb78d148e7553bb396afc8bca0a3"
 
 RPROVIDES:${PN} += "config-dialog \
 dialog"

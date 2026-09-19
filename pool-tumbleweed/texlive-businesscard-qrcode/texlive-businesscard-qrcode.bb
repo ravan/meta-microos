@@ -10,7 +10,7 @@ contacts. This also works well when you are offline and \
 bluetooth transfer fails. So here is the highly configurable \
 business card or visiting card with full vcard as QR-Code, \
 ready to send to online printers. You can specify the exact \
-size of the paper and the content within the paper, inluding \
+size of the paper and the content within the paper, including \
 generation of crop marks. The package depends on the following \
 other LaTeX packages: calc, crop, DejaVuSans, etoolbox, \
 fontawesome, fontenc, geometry, kvoptions, marvosym, qrcode, \
@@ -18,10 +18,10 @@ varwidth, and wrapfig. The package needs XeLaTeX for working \
 properly."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2023.209.1.2svn61719"
+PV = "2026.226.1.2svn76924"
 
-RPM_NAME = "texlive-businesscard-qrcode-2023.209.1.2svn61719-53.1.noarch.rpm"
-RPM_HASH = "f27787083b23360d04ff99d6a8b64ee0acb6dac5c660a6029cd8aedc44c1db9fc73428ad0c27a9f13c3a0e50d2fec7a83931d0cb48379655fa790f44df1a059a"
+RPM_NAME = "texlive-businesscard-qrcode-2026.226.1.2svn76924-59.2.noarch.rpm"
+RPM_HASH = "e13c988b63186dedc34f7251a28e3aeba0f923ec13a93c9f585ea286e70ffaa6329d23a08f73da459ba9dc32532ab5bef456036bcd5b79cfe414a4ef8b4fb63f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-businesscard-qrcode.cls \

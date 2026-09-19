@@ -7,12 +7,12 @@ operating a MARISA-based dictionary. \
  \
 A MARISA-based dictionary supports not only lookup but also reverse \
 lookup, common prefix search and predictive search."
-LICENSE = "LGPL-2.1-or-later | BSD-2-Clause"
+LICENSE = "BSD-2-Clause | LGPL-2.1-or-later"
 
-PV = "0.2.6"
+PV = "0.3.1"
 
-RPM_NAME = "marisa-0.2.6-1.24.aarch64.rpm"
-RPM_HASH = "9d3f3c94d0af9237331c9898a6ddef9b811ba59b8fd7f1d3366c5c516e17e1e64f1b9ab9f2ac553f8e2e7be7278c33c5f4ea6a659e82984a9297abdb2cd24819"
+RPM_NAME = "marisa-0.3.1-1.6.aarch64.rpm"
+RPM_HASH = "2bc894af2198ac5ec7e395df61798fa09e2a162ba81fd92dcbc5511170a15e15386ed35fc905de1704601ef30e8c3867a5d490d1c5feb7d1020d896fc1813663"
 
 RPROVIDES:${PN} += "marisa \
 marisa-trie"

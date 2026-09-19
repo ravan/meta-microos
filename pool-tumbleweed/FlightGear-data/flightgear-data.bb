@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the base scenery and aircraft for FlightGea
 It must be installed together with the FlightGear flight simulator package."
 LICENSE = "GPL-2.0-only"
 
-PV = "2020.3.18"
+PV = "2024.1.7"
 
-RPM_NAME = "FlightGear-data-2020.3.18-1.1.noarch.rpm"
-RPM_HASH = "b625c7dae7a681dab6c87b0901d2a5f4d5640c94500913df8ebe45754cfe345e2f29ce42c67bb1ef9ede31bc61815926d7d93e2d07a7f9398a7acac16b2aab5e"
+RPM_NAME = "FlightGear-data-2024.1.7-1.1.noarch.rpm"
+RPM_HASH = "d1386b0ba0fc176a00c60ad79ebed3b64c9007c99d37728d3bf49610234d62318e19f66caee3d654d6727799bf311e02d159b9dd739ea2bf8f846f318c09d579"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "FlightGear-data"

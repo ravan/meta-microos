@@ -2,10 +2,10 @@ SUMMARY = "Anagram Game"
 DESCRIPTION = "Kanagram is a letter order game."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kanagram-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "7e46c3cc5f618affc09113f89469bda3586af3bd28fd3b5379bea84f0310b58667c455abfa8fefc8311074ed8ad14a6780307f999740b7fd87ad5352a2037238"
+RPM_NAME = "kanagram-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "43917f683de614ad3168741f0d71831ed85f5e8382314778a296fad81e4bc696090625e553534a27de83ad723f247a285b0d4b7b796543c3b44e3a34ee4967b3"
 
 RPROVIDES:${PN} += "kanagram \
 kanagram5"
@@ -13,27 +13,25 @@ kanagram5"
 RDEPENDS:${PN} += "kdeedu-data \
 ld-linux-aarch64.so.1 \
 libKEduVocDocument.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5NewStuffCore.so.5 \
-libKF5NewStuffWidgets.so.5 \
-libKF5SonnetCore.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Qml.so.5 \
-libQt5Quick.so.5 \
-libQt5TextToSpeech.so.5 \
-libQt5Widgets.so.5 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6NewStuffWidgets.so.6 \
+libKF6SonnetCore.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Qml.so.6 \
+libQt6Quick.so.6 \
+libQt6TextToSpeech.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6 \
-qt5qmlimport-QtMultimedia.5 \
-qt5qmlimport-QtQuick.2 \
-qt5qmlimport-QtQuick.Controls.1 \
-qt5qmlimport-QtQuick.Controls.Styles.1"
+qt6qmlimport-QtMultimedia \
+qt6qmlimport-QtQuick \
+qt6qmlimport-QtQuick.Controls"
 
 inherit rpm

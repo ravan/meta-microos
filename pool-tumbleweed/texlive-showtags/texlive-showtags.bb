@@ -2,10 +2,10 @@ SUMMARY = "Print the tags of bibliography entries"
 DESCRIPTION = "Prints the tag right-aligned on each line of the bibliography."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.05svn20336"
+PV = "2026.226.1.05svn77682"
 
-RPM_NAME = "texlive-showtags-2023.209.1.05svn20336-54.1.noarch.rpm"
-RPM_HASH = "016aca127fc71c45758f3dc5643bde6e3b8bdc6a54fb926f577320d7430430c5892b6800fe780a2a8562510a56007b3e7f134ea3b552f0afd68c28ac8916769c"
+RPM_NAME = "texlive-showtags-2026.226.1.05svn77682-60.2.noarch.rpm"
+RPM_HASH = "f9acfe6402da123f329e54079cd50ee84ea18f87bf35b4648fd465afdd745439d82d011a926a5049071ebf6964f9304a2ba1c1186c6b962743086251b447c72c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-showtags.sty \

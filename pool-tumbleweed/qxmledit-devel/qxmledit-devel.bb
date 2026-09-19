@@ -5,13 +5,13 @@ interface to ease the edit of long files. \
 This package includes QXmlEdit development files."
 LICENSE = "LGPL-2.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.9.17"
+PV = "0.9.18.1"
 
-RPM_NAME = "qxmledit-devel-0.9.17-1.6.aarch64.rpm"
-RPM_HASH = "5f3fffe55f302ec55ddfb741bdeda06a6f714ea5e9d2ae7335534dda8ba0c69b678846af42419568a9faf6d84057ebfeea77d045f217f9b7e1fa9d745bc83005"
+RPM_NAME = "qxmledit-devel-0.9.18.1-1.1.aarch64.rpm"
+RPM_HASH = "54cb4f5caa6ca4c3051cd2fb51756d58c6b79b1e47f251720a1af9a112be030b6e23ce3d8749da35787dde4d0e8a5abc29bef65bacf3405f29a99176cde6c25f"
 
 RPROVIDES:${PN} += "qxmledit-devel"
 
-RDEPENDS:${PN} += "libqxmledit-0-9-17-0"
+RDEPENDS:${PN} += "libqxmledit0"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-inconsolata"
 DESCRIPTION = "This package includes the documentation for texlive-inconsolata"
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.121svn54512"
+PV = "2026.226.1.121svn77682"
 
-RPM_NAME = "texlive-inconsolata-doc-2023.209.1.121svn54512-54.1.noarch.rpm"
-RPM_HASH = "8ddefd99076aa4c9fe46675e1a8cc4827b848501027bb9d379a035b616320e719c77967148c863ed45758788d81e3e9ab0ddb1aa098701e6770d5a772c9c0b20"
+RPM_NAME = "texlive-inconsolata-doc-2026.226.1.121svn77682-60.2.noarch.rpm"
+RPM_HASH = "b14770af81c34ca62ba83f5dd19acb850dca1ba9f7e9dc6b2204142390f539bde37567675955ff041510d9dd1a55f349ff71e138e62e8be13ec3b2f6d7269939"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-inconsolata-doc"

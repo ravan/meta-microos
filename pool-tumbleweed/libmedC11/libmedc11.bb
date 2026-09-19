@@ -5,10 +5,10 @@ to store and exchange meshed data or computation results. \
 It uses the HDF5 file format to store the data."
 LICENSE = "LGPL-3.0-only"
 
-PV = "4.1.1"
+PV = "5.0.0"
 
-RPM_NAME = "libmedC11-4.1.1-1.7.aarch64.rpm"
-RPM_HASH = "c308423e9957cebd83f252e1c0a0f4c12b7c5fa00b5af9ae14851852b173d2b9a17a1eafe4108e4df997a27262203422ce41a4d391431d2c6ad0e0d717d5684a"
+RPM_NAME = "libmedC11-5.0.0-1.6.aarch64.rpm"
+RPM_HASH = "c469ca3d752559acaf3bde37979c2a7cc744d3832c5e5486968f4c57a49a1d4956851f70f546d49a599613c7f0736dbd0e5df3e6d8b0d62609ecbe0117758b59"
 
 RPROVIDES:${PN} += "libmedC.so.11 \
 libmedC11"
@@ -17,7 +17,7 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-libhdf5.so.200 \
+libhdf5.so.310 \
 libstdc++.so.6"
 
 inherit rpm

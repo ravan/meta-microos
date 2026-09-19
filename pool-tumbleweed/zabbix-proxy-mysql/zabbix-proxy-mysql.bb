@@ -1,11 +1,11 @@
 SUMMARY = "Zabbix proxy with MySQL support"
 DESCRIPTION = "The Zabbix proxy compiled with MySQL support."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "Apache-2.0 & GPL-2.0-or-later & EPL-2.0 & MPL-2.0 & BSD-3-Clause"
 
-PV = "6.0.19"
+PV = "7.0.28"
 
-RPM_NAME = "zabbix-proxy-mysql-6.0.19-1.1.aarch64.rpm"
-RPM_HASH = "b3e0c0d1717dbdd227cac9ab14f16969b3f72c83f40d350cd29b0c03a9d3623953c9f0b66e849421c6557663a5c4cc2385d0f2876f0f42ac254657177ffac189"
+RPM_NAME = "zabbix-proxy-mysql-7.0.28-1.2.aarch64.rpm"
+RPM_HASH = "c40163d35dd2d4d6ab59913faa97e894dc43694abde012e75bd63bb4f5b31a396fccb9e42d6155a81ad946acdf3821889a1b57960ceecebef29209d5671f8e36"
 
 RPROVIDES:${PN} += "zabbix \
 zabbix-proxy-binary \
@@ -18,17 +18,19 @@ libOpenIPMIposix.so.0 \
 libc.so.6 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libevent-2.1.so.7 \
+libevent-core-2.1.so.7 \
+libevent-extra-2.1.so.7 \
+libevent-pthreads-2.1.so.7 \
 liblber.so.2 \
 libldap.so.2 \
 libm.so.6 \
 libmariadb.so.3 \
-libnetsnmp.so.40 \
+libnetsnmp.so.45 \
 libodbc.so.2 \
-libpcre.so.1 \
+libpcre2-8.so.0 \
 libssh2.so.1 \
 libssl.so.3 \
-libxml2.so.2 \
+libxml2.so.16 \
 libz.so.1 \
 mariadb \
 update-alternatives \

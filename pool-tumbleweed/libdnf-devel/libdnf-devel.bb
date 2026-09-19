@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides the headers and libraries for developing ap
 that use libdnf."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.70.2"
+PV = "0.75.0"
 
-RPM_NAME = "libdnf-devel-0.70.2-1.1.aarch64.rpm"
-RPM_HASH = "d90bb013d2d8fd076da4427174f99627ebe7053d3174bd25c7dbd53d4833072a427c8242034576c56234e6408953e312538b138e943c7fa9b2e4f4755e72e995"
+RPM_NAME = "libdnf-devel-0.75.0-1.3.aarch64.rpm"
+RPM_HASH = "be0fd82a651c38ea035a47c3560ab59dc9972097507f98c16607f4a43797624541714dab43419ed8a5882e0498ae1689192570495d49b9d572152b51b98acd31"
 
 RPROVIDES:${PN} += "libdnf-devel \
 pkgconfig-libdnf"

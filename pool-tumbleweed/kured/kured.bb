@@ -12,10 +12,10 @@ indicated by the package management system of the underlying OS. \
 - Cordons & drains worker nodes before reboot, uncordoning them after"
 LICENSE = "Apache-2.0"
 
-PV = "1.10.2"
+PV = "1.21.0"
 
-RPM_NAME = "kured-1.10.2-1.5.aarch64.rpm"
-RPM_HASH = "862762c4b9598ecde64ba5f6891d0279330e02f5820d78b63bd7e2934f2151dc5063a8a3af5f3b50ac8ec06c2c7b2974a9b327774881575a465b396a77d966ac"
+RPM_NAME = "kured-1.21.0-1.7.aarch64.rpm"
+RPM_HASH = "7cb02811c17fb6bd90e12693dc739e26a65383c99e73ee075f793a4ae82547d03c11d58e4ef1052c1d7ccda784fdf73228f78a8cc12c6143c82d58b92fa6886d"
 
 RPROVIDES:${PN} += "kured"
 

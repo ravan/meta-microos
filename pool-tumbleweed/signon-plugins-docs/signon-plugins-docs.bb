@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "8.61"
 
-RPM_NAME = "signon-plugins-docs-8.61-1.1.noarch.rpm"
-RPM_HASH = "aa4c13ad1bb0c39a49ac93a923529d4c22291c2daa78454a5315c9d18c9409081c6da36553b0aceb7ed5a092c6b9f02c6d1b23a72036e6ee9454640c126b11d5"
+RPM_NAME = "signon-plugins-docs-8.61-2.10.noarch.rpm"
+RPM_HASH = "201af05605c26c50134d562c6ce0750dc3b72dc82a9844c0edb3e824eee1946b9f299a409f6fe11c0203c345d063130ffd194938f1fc6d0c10717aa37061efd2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "signon-plugins-docs"

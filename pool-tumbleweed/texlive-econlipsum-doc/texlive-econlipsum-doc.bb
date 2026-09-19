@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-econlipsum"
 DESCRIPTION = "This package includes the documentation for texlive-econlipsum"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.8.2svn58390"
+PV = "2026.226.0.0.8.2svn77682"
 
-RPM_NAME = "texlive-econlipsum-doc-2023.209.0.0.8.2svn58390-54.2.noarch.rpm"
-RPM_HASH = "79e0d65acebee1316bf3b1b05dc02d9ed02c636ac7a0fdec778e861849a0ca95cc6e41f4c77305c67cf5f4045f59c9764b2dd351f7144cfdc89595c52ac23115"
+RPM_NAME = "texlive-econlipsum-doc-2026.226.0.0.8.2svn77682-61.4.noarch.rpm"
+RPM_HASH = "43b626787f1b7cda21454906d6876f02f455a9cdac2026cabceac78cc499da1ab4a2e374960712f8c7c6d910acc7d0e202657a5c2df38f63a049262a59b8ae80"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econlipsum-doc"

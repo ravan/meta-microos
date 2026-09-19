@@ -1,11 +1,11 @@
 SUMMARY = "Development files for gtk2-engines"
 DESCRIPTION = "This package contains development files for gtk2-engines."
-LICENSE = "LGPL-2.1+"
+LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.20.2"
 
-RPM_NAME = "gtk2-engines-devel-2.20.2-19.43.aarch64.rpm"
-RPM_HASH = "f6dffaba7f0a807baa6efbf598a4a00894ee70cc1b152f5a6ee2b52dac92b17675c928cd9ea5d92e4f4e734a4a7cdb2244c413698d50a60c54b32d0950833a66"
+RPM_NAME = "gtk2-engines-devel-2.20.2-23.6.aarch64.rpm"
+RPM_HASH = "2c4e5ac9f053c81f3cdafba1436ec89cdfb047dea73952f449e3807e1048c71becb41509de4dc13f4d0965a93b1115636820f7c52ae94f4a5fcc89cde6352a83"
 
 RPROVIDES:${PN} += "gtk2-engines-devel \
 pkgconfig-gtk-engines-2"

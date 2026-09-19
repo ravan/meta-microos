@@ -2,10 +2,10 @@ SUMMARY = "Execute external programs or internal code blocks as separate process
 DESCRIPTION = "Mojo::IOLoop::ReadWriteProcess is yet another process manager."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.33"
+PV = "1.1.0"
 
-RPM_NAME = "perl-Mojo-IOLoop-ReadWriteProcess-0.33-1.4.noarch.rpm"
-RPM_HASH = "18d6507d6a1945e31c509c38e6a8302504084d3df06ceba1fee13f567e37b1e8e7370cee215e44dc66e3064ee8cb61d70b9928239ba5d0c48d2fe50d34cb4f8f"
+RPM_NAME = "perl-Mojo-IOLoop-ReadWriteProcess-1.1.0-1.8.noarch.rpm"
+RPM_HASH = "378e8783fd1f294ee319cee6043c6c34e725d524cef980896c619c6c6acbf8f6a64798d8b0282a0872ee8d824138dc8d92656da228d31f68e830ac985757b656"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Mojo--IOLoop--ReadWriteProcess \
@@ -37,7 +37,7 @@ perl-Mojo--IOLoop--ReadWriteProcess--Shared--Memory \
 perl-Mojo--IOLoop--ReadWriteProcess--Shared--Semaphore \
 perl-Mojo-IOLoop-ReadWriteProcess"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-IPC--SharedMem \
 perl-Mojolicious"
 

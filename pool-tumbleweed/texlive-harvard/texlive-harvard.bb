@@ -1,5 +1,5 @@
-SUMMARY = "Harvard citation package for use with LaTeX 2e"
-DESCRIPTION = "This is a re-implementation, for LaTeX 2e, of the original \
+SUMMARY = "Harvard citation package for use with LaTeX2e"
+DESCRIPTION = "This is a re-implementation, for LaTeX2e, of the original \
 Harvard package. The bundle contains the LaTeX package, several \
 BibTeX styles, and a 'Perl package' for use with LaTeX2HTML. \
 Harvard is an author-year citation style (all but the first \
@@ -15,10 +15,10 @@ several styles whose authors offer no description of their \
 behaviour."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.0.5svn15878"
+PV = "2026.226.2.0.5svn77682"
 
-RPM_NAME = "texlive-harvard-2023.209.2.0.5svn15878-54.2.noarch.rpm"
-RPM_HASH = "356abd78b9a07d5478dfd7f3bb4668e6205f448950e547ed2e9fa3036c3a0e7a08f14056c17523da9f03ad6f23857d3313adb5ebe554e7d0442e5a1005f67610"
+RPM_NAME = "texlive-harvard-2026.226.2.0.5svn77682-60.4.noarch.rpm"
+RPM_HASH = "12b2b0250a9b1a6015675511f5d33ff33c40d586fbaae22733ea0cf63a1c42e06906468161e7dd54e54e1b75a13131c097df345e49f664b090572f11eb28f9c3"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-harvard.sty \

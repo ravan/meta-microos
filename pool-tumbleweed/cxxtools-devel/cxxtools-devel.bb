@@ -27,8 +27,8 @@ LICENSE = "LGPL-2.1-only"
 
 PV = "3.0"
 
-RPM_NAME = "cxxtools-devel-3.0-4.6.aarch64.rpm"
-RPM_HASH = "3db62282e7b52962b7db487a6f220dc3acd4658a69fc8260b246bdb18a820b6a2c428b5f63375f00c6cedeff8fef4730113792cc9d6ffca5660b10d0910feba9"
+RPM_NAME = "cxxtools-devel-3.0-5.1.aarch64.rpm"
+RPM_HASH = "c87033a564935de55103eb89af9a153522b9ad3b67d234f4c618468e3f1a06fb52278de0f039c322546a51a5a44e50fbaeb4715c75d2383fb25650456f6a3676"
 
 RPROVIDES:${PN} += "cxxtools-devel \
 libcxxtools-devel \

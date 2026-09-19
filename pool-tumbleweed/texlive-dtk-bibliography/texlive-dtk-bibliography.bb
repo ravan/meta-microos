@@ -4,10 +4,10 @@ Komodie', the journal of the German-speaking TeX User Group. It \
 is updated on a quarterly basis."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2022_04svn65444"
+PV = "2026.226.2025_11svn76870"
 
-RPM_NAME = "texlive-dtk-bibliography-2023.209.2022_04svn65444-53.1.noarch.rpm"
-RPM_HASH = "e63cfe52dd757cb9d55eda81ded3a3b990fce34020dca80b8aa71ebb50e917570df70390df6bc15716d0043530576d042ad4c62b87d8203465f1cd333d5f0d8e"
+RPM_NAME = "texlive-dtk-bibliography-2026.226.2025_11svn76870-59.2.noarch.rpm"
+RPM_HASH = "8b8c6fe06a2bf8a8ccc71491281005ed2bba63d56bc9f0af659e2724aabb563a00aa57c70674e9019c4884b89b175d7440cfef4e6babce936736608b5736e7da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-dtk-authoryear.bbx \

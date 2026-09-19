@@ -3,10 +3,10 @@ DESCRIPTION = "Qt VirtualKeyboard provides an input framework and reference keyb
 for Qt 6."
 LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-virtualkeyboard-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "c05e7ad506fd02539f0077322fa930abef6ea98804289bb1c22277562751ff71836af427f526fad9a9c7116e4233ff4f65b7e45f9a2ffefa3b36574b2274cf0f"
+RPM_NAME = "qt6-virtualkeyboard-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "8af8b220f1ad6a3490f108ae10319407b7d56dbf3ba446a1a310e2f99f5ab9719222ccf8ce1b6e29777b430518df65a5667466b0cc2d8603667dede5ea9a4cac"
 
 RPROVIDES:${PN} += "libqtvirtualkeyboardplugin.so \
 qt6-virtualkeyboard"

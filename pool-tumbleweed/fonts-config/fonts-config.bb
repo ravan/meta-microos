@@ -6,10 +6,10 @@ fonts is installed, upgraded or removed. But it can also be executed \
 directly, which is mainly useful to debug it (use the --debug flag)."
 LICENSE = "GPL-2.0-or-later & MIT"
 
-PV = "20200609+git0.42e2b1b"
+PV = "20231210+git0.f7216ba"
 
-RPM_NAME = "fonts-config-20200609+git0.42e2b1b-1.11.noarch.rpm"
-RPM_HASH = "c99850c73352d5598a0fecbdb2cae0febb0339c4dbd02e60069c82710dded43fa5802c99c45edf9f48df8474523a6b584629b5f14ac38065cc02a282684c6e8e"
+RPM_NAME = "fonts-config-20231210+git0.f7216ba-1.10.noarch.rpm"
+RPM_HASH = "72a39ffb5e6f3bc4e385131432ecf6402727766a270cd0cbb3af24419078de97b56fd2cf76958c68dc0c7a23a607967f7985d9c8b8599013ab3008034b603b68"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-fonts-config \

@@ -3,12 +3,13 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications with the GNUstep Objective-C runtime."
 LICENSE = "MIT"
 
-PV = "2.1"
+PV = "2.3"
 
-RPM_NAME = "libobjc2-devel-2.1-2.4.aarch64.rpm"
-RPM_HASH = "b7c0930b88608b108bdd73c487fb5080547b9874b2f8c886c55b6440c7f1064b2d636150edb8b61bb5998c842750558a1954b9ba414ab0e13e0914baef052141"
+RPM_NAME = "libobjc2-devel-2.3-1.4.aarch64.rpm"
+RPM_HASH = "2749fa23a3c49ba250ebf20e2aa4c0236f26eebaa22c1848ee6ae6daad314c1c4c38d6e46b8e473b4da813bc595ea8d8e98f9c2ba05ce878940c92c410d62b0a"
 
-RPROVIDES:${PN} += "libobjc2-devel \
+RPROVIDES:${PN} += "cmake-libobjc \
+libobjc2-devel \
 pkgconfig-libobjc"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \

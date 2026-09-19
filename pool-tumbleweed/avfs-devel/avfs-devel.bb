@@ -5,16 +5,16 @@ compressed files, or access remote files without recompiling the programs \
 or changing the kernel."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "1.1.5"
+PV = "1.2.0"
 
-RPM_NAME = "avfs-devel-1.1.5-1.3.aarch64.rpm"
-RPM_HASH = "094eda44797e3c29cd6b0a88edd4bcb4c1cd01a8990d50e1f689c2a1e80a1afae683b1341306a10334d20da8423988232234b5007a5d4632b13df2e9de65d714"
+RPM_NAME = "avfs-devel-1.2.0-3.5.aarch64.rpm"
+RPM_HASH = "d461ffec4e161375e3af95896ef089a88990b4a4f3eab1e1dbed7e358ee2fa2d678d4f5748154cb5d4472bf18a9bd3bc3b62989bcf058336dd314deae70f11c4"
 
 RPROVIDES:${PN} += "avfs-devel \
 pkgconfig-avfs"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-libavfs0"
+libavfs1"
 
 inherit rpm

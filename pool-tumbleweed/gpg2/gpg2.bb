@@ -6,10 +6,10 @@ messages and/or to sign and verify them. \
 gpg2 provides GPGSM, gpg-agent, and a keybox library."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.3.8"
+PV = "2.5.22"
 
-RPM_NAME = "gpg2-2.3.8-3.1.aarch64.rpm"
-RPM_HASH = "032f8b5e722b4140caa14c59c3db9620e54f226b0ba980f287a984902130fe7bd52c4d2d8fa7f8722b609a0cec8be4b1959d04d2e76a2d13a5fe9098eac4b7a4"
+RPM_NAME = "gpg2-2.5.22-1.1.aarch64.rpm"
+RPM_HASH = "b0326276cedd8248e52b8fcdeb7f33dd54b18ec54517d793ab0efd49965d9f40b3e6e05ae5afa66cb80fa5d4d4352020db2ff78fcc039991af7d337b0b7199fc"
 
 RPROVIDES:${PN} += "config-gpg2 \
 gnupg \
@@ -19,14 +19,11 @@ newpg"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
-libassuan.so.0 \
-libassuan0 \
+libassuan.so.9 \
 libbz2.so.1 \
 libc.so.6 \
 libgcrypt.so.20 \
-libgcrypt20 \
 libgpg-error.so.0 \
-libksba \
 libksba.so.8 \
 libnpth.so.0 \
 libreadline.so.8 \

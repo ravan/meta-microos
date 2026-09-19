@@ -9,10 +9,10 @@ create and validate credentials without the use of root privileges, \
 reserved ports, or platform-specific methods."
 LICENSE = "GPL-3.0-or-later & LGPL-3.0-or-later"
 
-PV = "0.5.15"
+PV = "0.5.18"
 
-RPM_NAME = "munge-0.5.15-2.5.aarch64.rpm"
-RPM_HASH = "9f7bdcb185823c75862a0de9b3ed62d8deb150dcd40f430696a6226fc2a6fdeb32ba56c97815b8014e392a31dab06e617afc43d64fa5ea48420493d2d34b61bf"
+RPM_NAME = "munge-0.5.18-1.4.aarch64.rpm"
+RPM_HASH = "c1df14b65b4be5cf2d3fcdea0723e8f55536cc560bfd8be880255c61d25af3f261f5ec896b7c2711a481ab522f501ae7fa30c6d1d8c1efa61b3552fcdad84de6"
 
 RPROVIDES:${PN} += "config-munge \
 group-munge \

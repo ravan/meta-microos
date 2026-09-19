@@ -2,10 +2,10 @@ SUMMARY = "Command line tools for the MathGL library"
 DESCRIPTION = "This package contains command line tools for making scientific graphics."
 LICENSE = "GPL-3.0-only"
 
-PV = "8.0.1"
+PV = "8.0.3"
 
-RPM_NAME = "mathgl-tools-8.0.1-4.2.aarch64.rpm"
-RPM_HASH = "c6c953aefd7e56934311c451253690f640c671791177fa07a429d82112003d632512efd342d254195e005c21c95a0823555c6b616c30f9ba6755bb7c6b0981ec"
+RPM_NAME = "mathgl-tools-8.0.3-2.6.aarch64.rpm"
+RPM_HASH = "47e2f596bd60de6ecb1bc0125aaa90ad25743fd63de160ea3874ad3492638a37a8bd8fa3b9ae11953bbc5c7ce6798f4fc688356190ac39ea9f5f8259c609f1a7"
 
 RPROVIDES:${PN} += "mathgl-tools"
 

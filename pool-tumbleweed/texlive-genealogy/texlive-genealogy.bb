@@ -6,10 +6,10 @@ need only genealogical symbols. The font is distributed as \
 Metafont source."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn25112"
+PV = "2026.226.svn25112"
 
-RPM_NAME = "texlive-genealogy-2023.209.svn25112-53.1.noarch.rpm"
-RPM_HASH = "097f9b3334bf11a5e1e00680e895c5c3e66cf9b413e35daf91152299aebec9db7416698028c227750e85e16f5f6ad800b93d27f5dec380f03bbb4348ea39a9e3"
+RPM_NAME = "texlive-genealogy-2026.226.svn25112-60.2.noarch.rpm"
+RPM_HASH = "8a95a8aa9e2f9edce59846ecb75ff4fb8444015e33d3d7bb9a3e7d3077776bbdf74fe496eb380fe434c359adea0bd3e66fab7dd374cd606dd45797e5fc160bdf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drgen10.tfm \

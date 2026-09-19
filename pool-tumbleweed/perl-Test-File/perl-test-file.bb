@@ -17,14 +17,14 @@ The optional NAME parameter for every function allows you to specify a name \
 for the test. If not supplied, a reasonable default will be generated."
 LICENSE = "Artistic-2.0"
 
-PV = "1.993"
+PV = "1.995.0"
 
-RPM_NAME = "perl-Test-File-1.993-1.4.aarch64.rpm"
-RPM_HASH = "df0e3d6f325be199970bf7467dbd83b5abf07693b03d998aa8aa8ce0e9f8ed6df91f20c4f34eea9726eb2c2843ad3d0e309b0d786352af3eed3553391673e37c"
+RPM_NAME = "perl-Test-File-1.995.0-1.7.aarch64.rpm"
+RPM_HASH = "20fc94acf4856caf3b1adc2500b366cf3f4566c0777fd277f6e3c4e3d93a0da63e2ba0fd73828de9805133efb190f7b330177cb84a6ea7a614098d858a7da23f"
 
 RPROVIDES:${PN} += "perl-Test--File \
 perl-Test-File"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

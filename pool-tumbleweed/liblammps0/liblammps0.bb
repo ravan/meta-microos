@@ -1,4 +1,4 @@
-SUMMARY = "LAMMPS library"
+SUMMARY = "A molecular dynamics simulator library"
 DESCRIPTION = "LAMMPS is a classical molecular dynamics code, and an acronym for Large-scale \
 Atomic/Molecular Massively Parallel Simulator. \
  \
@@ -14,10 +14,10 @@ designed to be easy to modify or extend with new functionality. \
 This package contains the library of LAMMPS package."
 LICENSE = "GPL-2.0-only & GPL-3.0-or-later"
 
-PV = "20201029"
+PV = "20250722.03"
 
-RPM_NAME = "liblammps0-20201029-5.2.aarch64.rpm"
-RPM_HASH = "e4c800d2089402e5552f39184972fe2e2a6bab5b40d6da199068ebf7a61e98daccb6d7735bab4445cfbd210a3ad75022c782da30ae06dca2f9f7133be4f316fe"
+RPM_NAME = "liblammps0-20250722.03-1.6.aarch64.rpm"
+RPM_HASH = "a10038c51d61a6cc9ec97389a984092ed3281c1e48eab1449f7de068ce824f93b41f589f8cdae02a572c173deed5d2ddf94504d22d7896e0033fa87da64c032e"
 
 RPROVIDES:${PN} += "liblammps.so.0 \
 liblammps0"
@@ -26,7 +26,6 @@ RDEPENDS:${PN} += "/sbin/ldconfig \
 ld-linux-aarch64.so.1 \
 libOpenCL.so.1 \
 libc.so.6 \
-libfftw3.so.3 \
 libgcc-s.so.1 \
 libgomp.so.1 \
 libjpeg.so.8 \
@@ -34,8 +33,10 @@ libkim-api.so.2 \
 libm.so.6 \
 libmpi.so.40 \
 libpng16.so.16 \
-libpython3.11.so.1.0 \
+libpython3.13.so.1.0 \
 libstdc++.so.6 \
-libvoro++.so.0"
+libvoro++.so.0 \
+libz.so.1 \
+libzstd.so.1"
 
 inherit rpm

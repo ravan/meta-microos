@@ -2,10 +2,10 @@ SUMMARY = "Translations for package mate-panel"
 DESCRIPTION = "Provides translations for the 'mate-panel' package."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.26.3"
+PV = "1.28.1"
 
-RPM_NAME = "mate-panel-lang-1.26.3-1.1.noarch.rpm"
-RPM_HASH = "11d4791832e63d6ddef4a4d4a3bc1dbf3d4be19513d703ecbac06c25d5847be4e2475b3a8efc98fee65a312e69a3c30063ef10134f14a7dd3798641fd2b7b2c3"
+RPM_NAME = "mate-panel-lang-1.28.1-2.14.noarch.rpm"
+RPM_HASH = "97a65d6ffc706847a72bc9bcaa43aa19cc0a263308047795489c1733b4a9136ffa6bb64e5590a67dc0b387c87baef20ecd195752820452872e0687dea521e8d7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-mate-panel-af \
@@ -30,7 +30,6 @@ locale-mate-panel-el \
 locale-mate-panel-en-AU \
 locale-mate-panel-en-CA \
 locale-mate-panel-en-GB \
-locale-mate-panel-en-US \
 locale-mate-panel-eo \
 locale-mate-panel-es \
 locale-mate-panel-es-AR \

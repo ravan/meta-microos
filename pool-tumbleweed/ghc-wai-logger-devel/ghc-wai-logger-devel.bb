@@ -2,23 +2,23 @@ SUMMARY = "Haskell wai-logger library development files"
 DESCRIPTION = "This package provides the Haskell wai-logger library development files."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.5.0"
 
-RPM_NAME = "ghc-wai-logger-devel-2.4.0-2.9.aarch64.rpm"
-RPM_HASH = "ee605417c09dfecfe529bfff8ac3303cd631f814ba94575198e6e532f9c57e6d8c1c928a072285c9d80008cf22cd5af65910cb410fdfb832cbaa997e5808e2b1"
+RPM_NAME = "ghc-wai-logger-devel-2.5.0-1.23.aarch64.rpm"
+RPM_HASH = "666d5b3aefe4f583e5550f35ac7b216fdb3112d5afffb7b4096bd4842df3bfd6e07c3c7331b706b747f8db64ddedc47fa9e68c28543bc9034adbc673f8b38722"
 
-RPROVIDES:${PN} += "ghc-devel-wai-logger-2.4.0-9HbB2lkmWIvBhHGAMxm4Zs \
+RPROVIDES:${PN} += "ghc-devel-wai-logger-2.5.0-3cHzLKgypSbCdVbvyxsJiz \
 ghc-wai-logger-devel"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
 ghc-compiler \
-ghc-devel-base-4.17.2.0 \
-ghc-devel-byteorder-1.0.4-HgduUBa2I8KG54Jejj0SY0 \
-ghc-devel-bytestring-0.11.5.1 \
-ghc-devel-fast-logger-3.1.2-2QS5oj3W57wGcX3QgTrERi \
-ghc-devel-http-types-0.12.3-FlcnRjG0fwC5p06cSFRT1p \
-ghc-devel-network-3.1.4.0-5p1NVWLTlrvDdAAI1mskSs \
-ghc-devel-wai-3.2.3-JhFX1996sswH7nU4MZQSow \
+ghc-devel-base-4.21.2.0-8844 \
+ghc-devel-byteorder-1.0.4-2KwV8jNH81I9JBUzKyr4X2 \
+ghc-devel-bytestring-0.12.2.0-65be \
+ghc-devel-fast-logger-3.2.6-JkXOEB4fbDV8mDlAr0wMkH \
+ghc-devel-http-types-0.12.5-FL2i1xGcqPq49wgWtgpOPM \
+ghc-devel-network-3.2.8.0-HuXYLk4qLzHK9Hhg0VTDpI \
+ghc-devel-wai-3.2.4-Is1UVC1czjX2cAufnl3tJW \
 ghc-wai-logger"
 
 inherit rpm

@@ -4,8 +4,8 @@ LICENSE = "MIT"
 
 PV = "1.3.0"
 
-RPM_NAME = "lua54-lualdap-1.3.0-2.2.aarch64.rpm"
-RPM_HASH = "ce2413e6a37c13724362cf895b3b882942d30aba06decc3c1e2af68fb51277d030806ee9ef0f099c1655d71ddbf752953103c80ef357120dc52ddbc7f9081c41"
+RPM_NAME = "lua54-lualdap-1.3.0-5.3.aarch64.rpm"
+RPM_HASH = "8c7fafb2d57ee7ce6ce38ea9ac575550ad074f01aa297e5a7894cb4b3dc31d1af9305d0577d7d9edbb0adf6b6b01d70ca766b003952ad217a5f5f758a4a8722c"
 
 RPROVIDES:${PN} += "lua-lualdap \
 lua54-lualdap"

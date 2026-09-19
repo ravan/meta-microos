@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.8"
 
-RPM_NAME = "avahi-lang-0.8-23.3.noarch.rpm"
-RPM_HASH = "abc6c7fd13016a24a40dff2157b093645ce79bd0ffc03b66c9ea19eb6fd6eb14f365252e32dcfbd8756b58be552dc94c7b3f48b9b93c324302d175361135744a"
+RPM_NAME = "avahi-lang-0.8-45.2.noarch.rpm"
+RPM_HASH = "88954f65515c904a7741e07cfb8090738ca0075959e0a570ac3dbf88cb1fc54cfe9a319e1e1ffb91bce9aa6a96b00c31dae7308f7dac7cbb398b7555e6552c19"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "avahi-lang \

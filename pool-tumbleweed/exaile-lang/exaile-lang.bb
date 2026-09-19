@@ -2,10 +2,10 @@ SUMMARY = "Translations for package exaile"
 DESCRIPTION = "Provides translations for the 'exaile' package."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.1.2"
+PV = "4.2.2"
 
-RPM_NAME = "exaile-lang-4.1.2-1.2.noarch.rpm"
-RPM_HASH = "72ce41800191357a088edb832ff307733ce5ad6dcb07ab4123d0522cac52beff954075d278c5cda419a063362238e4509142055eec46a81e4ed81645017d7612"
+RPM_NAME = "exaile-lang-4.2.2-1.2.noarch.rpm"
+RPM_HASH = "1b33ab088244b6127f6f33fe09f73400d36b6d3c8af0e06cd6d02db880e505343ae1a6a8ac7fa9d8a4b67a1f60b3a329a96c1c94ba2f02ae78c230f1d94cbd48"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "exaile-lang \
@@ -73,6 +73,7 @@ locale-exaile-th \
 locale-exaile-tr \
 locale-exaile-uk \
 locale-exaile-vi \
+locale-exaile-zh \
 locale-exaile-zh-CN \
 locale-exaile-zh-TW"
 

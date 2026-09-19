@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains all necessary include files and libraries n
 to develop applications that require these."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "3.2.4"
+PV = "3.2.5"
 
-RPM_NAME = "libxml++30-devel-3.2.4-1.4.aarch64.rpm"
-RPM_HASH = "3acc9bb9e425ffaff0c986f55ef58108f63e9a2b33aad224a165f8c25f634fc5c0c94fd767de689920f139f4ea778db0ea14c68ed618f33cdba7532b6602b798"
+RPM_NAME = "libxml++30-devel-3.2.5-2.6.aarch64.rpm"
+RPM_HASH = "3d38978f9eeac9bd4f66d594aaf835717ec246f4ccb31ded3b25920acc7b5b56397de31e4aeb3df217905fff27ed22d32b7423e1d3cfa8e79d5beb77ab6a7103"
 
 RPROVIDES:${PN} += "libxml++30-devel \
 pkgconfig-libxml++-3.0"

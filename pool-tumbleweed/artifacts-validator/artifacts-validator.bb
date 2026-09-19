@@ -7,16 +7,18 @@ LICENSE = "Apache-2.0"
 
 PV = "20221219"
 
-RPM_NAME = "artifacts-validator-20221219-2.1.noarch.rpm"
-RPM_HASH = "dc86397db392a9245ca6a151316659a36a832e909cf11f78eb2e6159df06bdee2ebcb73e6dd2d5256e5e7c8d3e5cb85d59f757cfcdd667dfe815cfb55220e7ac"
+RPM_NAME = "artifacts-validator-20221219-4.4.noarch.rpm"
+RPM_HASH = "340651561e888849ca7ec151ac1dbd1ed1249c97163d76232533bdc42b393be45d32d9e3ced951ab5b8645dac3e430002edb23465a8c88a5a8dc1b15655fee8f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "artifacts-validator \
-python3.11dist-artifacts \
+python3.13dist-artifacts \
 python3dist-artifacts"
 
-RDEPENDS:${PN} += "/usr/bin/python3.11 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 artifacts \
-python-abi"
+python-abi \
+python3-PyYAML \
+python3-pip"
 
 inherit rpm

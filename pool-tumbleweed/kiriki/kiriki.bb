@@ -3,30 +3,30 @@ DESCRIPTION = "Kiriki is the KDE version of the dice game Yahtzee where you roll
 to get higher scores in several combinations"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "kiriki-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "95320c636970500935e96d1a2cf9753a5c495f69087fb54df46af18db6cd670d12586a09e0081dcdb7329ab56fdf8a4d12fff45849b965edda19eae9a8c25b89"
+RPM_NAME = "kiriki-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "3f15fe9a0e5c8738b45f368d833f34b18886e03ebb18cb7d9c05c2f1c3862cc285ab1358830bdb8826d6722b2f5af1f45078dcde4815974b3df2c9a0fe72f46a"
 
 RPROVIDES:${PN} += "kiriki \
 kiriki5"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5DBusAddons.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5KDEGames.so.7 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5PrintSupport.so.5 \
-libQt5Widgets.so.5 \
+libKDEGames6.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6DBusAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6PrintSupport.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
 libstdc++.so.6"
 

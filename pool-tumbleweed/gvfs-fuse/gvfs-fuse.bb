@@ -8,10 +8,10 @@ This package contains FUSE support that allows applications \
 not using GIO to access the GVfs filesystems."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "1.50.5"
+PV = "1.60.3"
 
-RPM_NAME = "gvfs-fuse-1.50.5-1.1.aarch64.rpm"
-RPM_HASH = "5aebb7152a25a67d2ea63acc0b7947b4b37938152ecd85777052ffcf6f1075eb0356d5557fc540847792e4246417a21b44c95ab8b7397d98493d1191e1656732"
+RPM_NAME = "gvfs-fuse-1.60.3-1.1.aarch64.rpm"
+RPM_HASH = "e4720618d9793680f7cd19ba767a3a46c01e52de5cc0bec316e63d96fb6d738452f73a59d2aba8ed2d6fd3fa7c0decb0acc01911b020be9f74db6943f5999ac3"
 
 RPROVIDES:${PN} += "gvfs-fuse"
 
@@ -20,7 +20,7 @@ fuse3 \
 gvfs \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libfuse3.so.3 \
+libfuse3.so.4 \
 libgio-2.0.so.0 \
 libglib-2.0.so.0 \
 libgobject-2.0.so.0 \

@@ -4,10 +4,10 @@ the time in analog or digital form, continuously updated at a \
 frequency which may be specified by the user."
 LICENSE = "X11"
 
-PV = "1.1.1"
+PV = "1.2.1"
 
-RPM_NAME = "xclock-1.1.1-1.7.aarch64.rpm"
-RPM_HASH = "1f9521abee0bc68e94608d70d246d2a48a9fb01300eeb99ceabd0dd7efef2cc3218ccafc54f33dfeb9820900b08014825dbb2167d25d289b4418d31cfed8359a"
+RPM_NAME = "xclock-1.2.1-1.2.aarch64.rpm"
+RPM_HASH = "85aebc367a3006e712cb2e9d98942a0864bf6d0911025f8750f45980401bac2a829abdc621511caf346194bfab9349c210f8b00affadfa877408bd8e63598b95"
 
 RPROVIDES:${PN} += "xclock"
 

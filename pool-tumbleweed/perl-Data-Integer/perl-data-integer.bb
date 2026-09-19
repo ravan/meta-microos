@@ -1,4 +1,4 @@
-SUMMARY = "Details of the Native Integer Data Type"
+SUMMARY = "Details of the native integer data type"
 DESCRIPTION = "This module is about the native integer numerical data type. A native \
 integer is one of the types of datum that can appear in the numeric part of \
 a Perl scalar. This module supplies constants describing the native integer \
@@ -6,18 +6,18 @@ type. \
  \
 There are actually two native integer representations: signed and unsigned. \
 Both are handled by this module."
-LICENSE = "Artistic-1.0 | GPL-1.0+"
+LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.006"
+PV = "0.7.0"
 
-RPM_NAME = "perl-Data-Integer-0.006-1.22.noarch.rpm"
-RPM_HASH = "681229829ad3d4886b053c0ed9c90b57d02371f4d5bb67e86dc5ac1632c493a5a216f6089aa5766fe1ef949198e1030ac0d384aea0ba9eb7a4cc19aebdda2ce6"
+RPM_NAME = "perl-Data-Integer-0.7.0-1.7.noarch.rpm"
+RPM_HASH = "c80909b134ebb2fcd7a5d6afa9af5946a63e542a73fe20d6fb5fbf25571b6ad33cf1c660dda167e2703a05da7900baa8ff1e21f0a55a791805f06135562f5546"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Data--Integer \
 perl-Data-Integer"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-parent"
 
 inherit rpm

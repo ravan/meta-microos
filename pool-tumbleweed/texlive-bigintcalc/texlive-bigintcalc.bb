@@ -3,10 +3,10 @@ DESCRIPTION = "This package provides expandable arithmetic operations with big \
 integers that can exceed TeX's number limits."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn53172"
+PV = "2026.226.1.5svn77682"
 
-RPM_NAME = "texlive-bigintcalc-2023.209.1.5svn53172-54.1.noarch.rpm"
-RPM_HASH = "e035ab8176bc68e92261a47259a1d748cd303dad048b5fa68999ada625387024e120acc54284b12e42f0c66e3614052cbc280d5b581d3e01592f6a94a9c04c3a"
+RPM_NAME = "texlive-bigintcalc-2026.226.1.5svn77682-61.2.noarch.rpm"
+RPM_HASH = "fff2779969483d319c87e88aeee40c4608dd64842cc0e9513d76966678f44ed3a0c4b9d3fae32c8e7c7d1116fc3b6062672c36e0b740ab2af4240c64b61360b2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bigintcalc.sty \

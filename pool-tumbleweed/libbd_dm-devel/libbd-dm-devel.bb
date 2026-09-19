@@ -3,18 +3,17 @@ DESCRIPTION = "This package contains header files and pkg-config files needed fo
 with the libbd_dm plugin/library.."
 LICENSE = "LGPL-2.1-only"
 
-PV = "2.28"
+PV = "3.5.0"
 
-RPM_NAME = "libbd_dm-devel-2.28-1.6.aarch64.rpm"
-RPM_HASH = "d41154e32417335c903eabcf5a68490a42504d882b5df8fc276b41133b18259f326d3dfb2647080db55c30649ac9088fa027d0d6345fa3de3594f3db799b15a7"
+RPM_NAME = "libbd_dm-devel-3.5.0-1.4.aarch64.rpm"
+RPM_HASH = "7cdf1be6b05d7af6c3d0829d9a8cb58853bb0079b55e85ea396b17dca8061aea1598dafb86033a4de136e16a6f96aeddc9bc58ce93950128c786e0e726b57dde"
 
 RPROVIDES:${PN} += "libbd-dm-devel \
 libblockdev-dm-devel"
 
 RDEPENDS:${PN} += "device-mapper-devel \
-dmraid-devel \
 glib2-devel \
-libbd-dm2 \
+libbd-dm3 \
 libbd-utils-devel \
 systemd-devel"
 

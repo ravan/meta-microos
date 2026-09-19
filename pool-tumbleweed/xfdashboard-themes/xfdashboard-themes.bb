@@ -2,10 +2,10 @@ SUMMARY = "Themes for Xfdashboard"
 DESCRIPTION = "Additional themes for use with Xfdashboard."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.0.0"
+PV = "1.1.0"
 
-RPM_NAME = "xfdashboard-themes-1.0.0-1.5.noarch.rpm"
-RPM_HASH = "53b1c80b9ac307aac45e6de57edd8432e22c68a3a83c0eb7d1ad4f1cd43ac1731254fc4b98d6ee9fe2163bbe41129105cad39309f145b20bb56e7254670804ea"
+RPM_NAME = "xfdashboard-themes-1.1.0-1.4.noarch.rpm"
+RPM_HASH = "b5a50c6c1b3953c1ed2af4d72df895a5403753b6ac0b99c7f30d06c95046b2d5eb2f53cd67cc3ec05b1cc380a4e062cfa7f5ba65ce5032b7bb821440310d81bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "xfdashboard-themes"

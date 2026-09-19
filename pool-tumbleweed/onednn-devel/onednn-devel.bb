@@ -9,10 +9,10 @@ This package includes the required headers and library files to develop software
 with the Intel MKL-DNN."
 LICENSE = "Apache-2.0"
 
-PV = "3.0.1"
+PV = "3.7.3"
 
-RPM_NAME = "onednn-devel-3.0.1-1.3.aarch64.rpm"
-RPM_HASH = "85f9c4dff03bb0402c3ee5d6e6b6dc4046b38449cb5f6482a18a6f83add1fba3af228b8febde5350b5ed1ab4d1cb202e22f0e1e8c7fbb76a34f6943c95c983b2"
+RPM_NAME = "onednn-devel-3.7.3-2.1.aarch64.rpm"
+RPM_HASH = "5120e8a5a72f1cbb359bf681d2d4bdae428a61d270209c7d987b18477e82f3a6fbc7416779a723685d0d416cd4887d2f9b9df4611b3768fc70282d90b39b3032"
 
 RPROVIDES:${PN} += "cmake-dnnl \
 mkl-dnn-devel \

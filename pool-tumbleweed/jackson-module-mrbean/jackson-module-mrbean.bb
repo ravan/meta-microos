@@ -4,10 +4,10 @@ ability for databinder to construct implementation classes for Java interfaces \
 and abstract classes, as part of deserialization."
 LICENSE = "Apache-2.0"
 
-PV = "2.15.2"
+PV = "2.18.9"
 
-RPM_NAME = "jackson-module-mrbean-2.15.2-2.1.noarch.rpm"
-RPM_HASH = "55907bdb840cdb8155d1d87a5d601a682e679944c3d9ce33c49b4bf44202465efbb4435347d6e7c3fcb37d0800af4a019a252673188e8ff5c8e82833f09dbb0d"
+RPM_NAME = "jackson-module-mrbean-2.18.9-1.1.noarch.rpm"
+RPM_HASH = "4b47c752b626c1bcaab4d79cb794a8eda0023cd63b38fdb4168c8be568fa25dbdce7dd5c9a416fccbf34c363b4a8908b7a19c3141276be44f0c5eb999c781852"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jackson-module-mrbean \

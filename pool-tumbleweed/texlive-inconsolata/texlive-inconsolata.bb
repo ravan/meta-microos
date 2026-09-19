@@ -7,10 +7,10 @@ shapelier lower-case L, plus metric files for use with TeX, and \
 LaTeX font definition and other relevant files."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.1.121svn54512"
+PV = "2026.226.1.121svn77682"
 
-RPM_NAME = "texlive-inconsolata-2023.209.1.121svn54512-54.1.noarch.rpm"
-RPM_HASH = "65d95b3075045286cb74caba054beccc3c3f3236c821e16e598d4a890e7de4b24d9464d0c921f81f31a748236c3342e793faac3103e47e52e28f9f974ef84b6f"
+RPM_NAME = "texlive-inconsolata-2026.226.1.121svn77682-60.2.noarch.rpm"
+RPM_HASH = "f286d144b78c0e2c990cbf4b655aeb6af8ea75119c6861934cd3b2b74a83a79471916d25823c0b1951f8d1cec3114e45a40263ffa6a17dbfde0da1ae040f77be"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-i4-ly1-0.enc \

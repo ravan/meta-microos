@@ -16,16 +16,16 @@ Perl::Critic API, but it should give you a good idea of what Perl::Critic \
 can do."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.04"
+PV = "1.40.0"
 
-RPM_NAME = "perl-Test-Perl-Critic-1.04-1.17.noarch.rpm"
-RPM_HASH = "acff3d5ba44b54c5da46725696e772126d2a18f5a2156054b59a0e003e50e22421c4642d66af7be22db7b15488a8365aa1d4470c0fc3a7678f03e47f2431210c"
+RPM_NAME = "perl-Test-Perl-Critic-1.40.0-1.7.noarch.rpm"
+RPM_HASH = "f59340045912f3f63745ea69fd56446eeda63e798a77f2dcd261def63218fe1107a5f63e5369079f5f7eeba3c5c7467c660881a976b0a3f56644f0b9bdc8201d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Test--Perl--Critic \
 perl-Test-Perl-Critic"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-MCE \
 perl-Perl--Critic \
 perl-Perl--Critic--Utils \

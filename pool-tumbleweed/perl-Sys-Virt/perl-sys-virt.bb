@@ -4,10 +4,10 @@ machine management APIs. This allows machines running within arbitrary \
 virtualization containers to be managed with a consistent API."
 LICENSE = "ClArtistic | GPL-2.0-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "perl-Sys-Virt-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "dc9dcc9c4b04267202978bb86a4343bf357c0a13bb564080c5b6abee1fd22f7700a3b0ea662f132bb969c7f72b53476b75769d00716843ee2be5ca34aeed9b4c"
+RPM_NAME = "perl-Sys-Virt-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "85f1ac58d0e9a23e3df1edab3ea17c62943847322cb50793e1f03d56b9728ed076e5b6aa66c610477483d3e3561f8116c844b1ac9dc597ac8c3e301c90043b66"
 
 RPROVIDES:${PN} += "perl-Sys--Virt \
 perl-Sys--Virt--Domain \
@@ -31,6 +31,6 @@ perl-Sys-Virt"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libvirt.so.0 \
-perl--MODULE-COMPAT-5.38.0"
+perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

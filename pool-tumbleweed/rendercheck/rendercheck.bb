@@ -3,15 +3,16 @@ DESCRIPTION = "rendercheck is a program to test a Render extension implementatio
 against separate calculations of expected output."
 LICENSE = "HPND"
 
-PV = "1.5"
+PV = "1.6"
 
-RPM_NAME = "rendercheck-1.5-1.27.aarch64.rpm"
-RPM_HASH = "3b324bd8fe2c61eb383f602a21d02876b501d42fb49fc4e67a7ec954be3e11f7e963b0f7d001cb8c9f81739d50a7d12d493b2b6a122f32650d395110a68a0d26"
+RPM_NAME = "rendercheck-1.6-1.9.aarch64.rpm"
+RPM_HASH = "2a32952c0c1ec10cf201b441e8895648b5eba66a23e63d3167aa5731e72758fb0ac6925806fa413a281930de1ed869e8dd1bb6910c47aed9161c8b8aaed41635"
 
 RPROVIDES:${PN} += "rendercheck"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libX11.so.6 \
+libXext.so.6 \
 libXrender.so.1 \
 libc.so.6"
 

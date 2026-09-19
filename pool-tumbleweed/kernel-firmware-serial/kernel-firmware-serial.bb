@@ -1,12 +1,11 @@
 SUMMARY = "Kernel firmware files for various serial drivers"
-DESCRIPTION = "This package contains compressed kernel firmware files for \
-various serial drivers."
-LICENSE = "GPL-2.0-only & SUSE-Firmware & GPL-2.0-or-later & MIT"
+DESCRIPTION = "This package contains kernel firmware files for various serial drivers."
+LICENSE = "GPL-2.0-or-later & SUSE-Firmware & GPL-2.0-only"
 
-PV = "20230829"
+PV = "20260610"
 
-RPM_NAME = "kernel-firmware-serial-20230829-1.1.noarch.rpm"
-RPM_HASH = "e874d56fcb4ceb7c8386bd73ebe82729595ab33c7b0d3a95bc3405a5cadc007b7d05a8ac4deb97ff066990cef718c9e6c126692784ecfc5dfb06fbac4e6ba594"
+RPM_NAME = "kernel-firmware-serial-20260610-1.2.noarch.rpm"
+RPM_HASH = "94532c22f3dc09a0ccaf4b593615e122cc5a911f45af607dd13b5696013b8e63729e52dadc9e8fe565b376f595e09dc7e3dd05f6668aedd4831c4350cb41f7ea"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "firmware-edgeport/boot.fw \
@@ -42,11 +41,11 @@ firmware-moxa/moxa-1613.fw \
 firmware-moxa/moxa-1618.fw \
 firmware-moxa/moxa-1653.fw \
 firmware-moxa/moxa-1658.fw \
+firmware-moxa/moxa-pf-mux50u.fw \
+firmware-moxa/moxa-up-mux50u.fw \
 firmware-mts-cdma.fw \
 firmware-mts-edge.fw \
 firmware-mts-gsm.fw \
-firmware-mts-mt9234mu.fw \
-firmware-mts-mt9234zba.fw \
 firmware-rp2.fw \
 firmware-ti-3410.fw \
 firmware-ti-5052.fw \

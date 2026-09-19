@@ -2,10 +2,10 @@ SUMMARY = "Italian translation of amsthdoc: Using the amsthm package"
 DESCRIPTION = "The amsthdoc-it package"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn45662"
+PV = "2026.226.svn45662"
 
-RPM_NAME = "texlive-amsthdoc-it-2023.209.svn45662-55.1.noarch.rpm"
-RPM_HASH = "92f1da157eff049e17732ebb5989c097f78d34df81bf30eb6a22661e340edac8a0f09238fb0dd218feef1c406102d68e183f191d44aae68b0d63d86e21b22d8b"
+RPM_NAME = "texlive-amsthdoc-it-2026.226.svn45662-61.2.noarch.rpm"
+RPM_HASH = "e8314f74155d03a407ff667dda9ac974b4b4a22d2fd781192a474531b3b10feee704d878ab7cbb034634491cf9d3a6f2bd3058f9d8b3c8d10a342dc8639720e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-amsthdoc-it"

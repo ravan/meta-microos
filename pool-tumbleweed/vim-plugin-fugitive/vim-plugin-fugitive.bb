@@ -4,8 +4,8 @@ LICENSE = "Vim"
 
 PV = "3.7"
 
-RPM_NAME = "vim-plugin-fugitive-3.7-56.1.noarch.rpm"
-RPM_HASH = "170d8707fdce426b55e4dd3b7772edb2196b311dddffdf3fc38889ed8b72e74aa17c99572ecff4f4f8191f604a022e3b640b80f14f8d451929447372a7a5b2f7"
+RPM_NAME = "vim-plugin-fugitive-3.7-64.2.noarch.rpm"
+RPM_HASH = "1ed729be2d4fdbbb11579c947dd242abfc31f63658a720cf3a45878fc7b09f92d52c48ab52aea1d46191d273a8b4cdee84a65cbb9f5a3ab09d5f71818e227816"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "vim-plugin-fugitive"

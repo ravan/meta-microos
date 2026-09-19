@@ -2,10 +2,10 @@ SUMMARY = "Tape drive control utility"
 DESCRIPTION = "This package includes the 'mt', a local tape drive control program."
 LICENSE = "GPL-3.0-only"
 
-PV = "2.14"
+PV = "2.15"
 
-RPM_NAME = "cpio-mt-2.14-1.1.aarch64.rpm"
-RPM_HASH = "8dbe4df4af2d14423145fa87b438dd23271421351c7b4934acd229afae457274989cc851ddb6243f0c808392dfad3c6d9388572c96873e6f050ae0668b98124a"
+RPM_NAME = "cpio-mt-2.15-9.1.aarch64.rpm"
+RPM_HASH = "cf4e0544bf3b4f36e1ccfecfa580d91b48518dc278c7ecab65b2b616c72f339b53c5fcd1cf69a8fb4e8071616e2a7f50137f759165d9817fa16c0c1d7508fb03"
 
 RPROVIDES:${PN} += "cpio-mt \
 mt"

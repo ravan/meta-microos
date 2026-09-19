@@ -8,10 +8,10 @@ issue creation, cloning, linking, ticket transition, and much more. The TUI is \
 heavily inspired by the GitHub CLI."
 LICENSE = "MIT"
 
-PV = "1.1.0"
+PV = "1.6.0"
 
-RPM_NAME = "jira-cli-1.1.0-1.7.aarch64.rpm"
-RPM_HASH = "7bd497ff70c5fd9968629cd782a7cdc1bf04427a42a8442d536d6655cb4ac263c0dcb3b9bdf2b6d379cd1d3b969c56eb3c632d312649869469bfb65e9a70b1ec"
+RPM_NAME = "jira-cli-1.6.0-1.8.aarch64.rpm"
+RPM_HASH = "b2bae2589280b33780f8106b5aa7eb11cd3e8a0628e4447b2f6fa87de7a171f156165d5b3a26cd4069aa244727401d4653793eec30a4cd1e52c854255c5d9d2f"
 
 RPROVIDES:${PN} += "jira-cli"
 

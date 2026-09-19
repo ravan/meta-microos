@@ -6,10 +6,10 @@ so that (for example) the package may be used for drawing some \
 plots. The package uses lua's zip library."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.7svn65268"
+PV = "2026.226.0.0.10svn77682"
 
-RPM_NAME = "texlive-odsfile-2023.209.0.0.7svn65268-55.1.noarch.rpm"
-RPM_HASH = "33f13941c943697e6ad33e22956783bb8d477ba7e74672ff7e361363f675487c812be8ef55bb89dba3ad31f08fa899eff21401f4b9503447d1721100bed14366"
+RPM_NAME = "texlive-odsfile-2026.226.0.0.10svn77682-61.2.noarch.rpm"
+RPM_HASH = "dc4b7abfd60c09f129f4a48625c276a8d895ae0a16291b73244d338727805326aff1e4d15cbcaed5e0daf0c09dbaf1e5f0b633a621f26a94db2a1541a2675464"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-odsfile.sty \

@@ -2,10 +2,10 @@ SUMMARY = "Javadoc for maven-invoker"
 DESCRIPTION = "API documentation for maven-invoker."
 LICENSE = "Apache-2.0"
 
-PV = "3.1.0"
+PV = "3.3.0"
 
-RPM_NAME = "maven-invoker-javadoc-3.1.0-2.4.noarch.rpm"
-RPM_HASH = "b5cb538259c3249caac5e49a894debcffdb4442e438a7f2cf2e680e061af031ff5d43d988d8bc650602d1b0fc23f3dfa460f930df37431e2779ec7d12c7658ec"
+RPM_NAME = "maven-invoker-javadoc-3.3.0-2.6.noarch.rpm"
+RPM_HASH = "9107a299722638ae575a8fd83c2a2d9af452656373f41ce2cd8ebf3563e33f2f0d9eca79680146525943efb8d65de3289180bb01c3a154a1f1695e0495e36cbe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-invoker-javadoc"

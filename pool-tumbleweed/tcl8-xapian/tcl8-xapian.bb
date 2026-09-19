@@ -6,10 +6,10 @@ This package provides the files needed for developing Tcl scripts \
 which use Xapian."
 LICENSE = "GPL-2.0-only"
 
-PV = "1.4.21"
+PV = "1.4.27"
 
-RPM_NAME = "tcl8-xapian-1.4.21-2.7.aarch64.rpm"
-RPM_HASH = "397c75491e1f95c44eb9948e2ad6474784a93c95393241a0151e9cdfe3ed6d41f01fed325820a8a0c4cbc7bce34198fe743a185fa91fc5334ecb198d86d4071e"
+RPM_NAME = "tcl8-xapian-1.4.27-1.7.aarch64.rpm"
+RPM_HASH = "8896d4fe223630b8cc28e1a67cc34862961f0e3dfcb172e52845d6587941899ba53c055ea1134ee8242e85311a5500029cf91ed92eb334680aac104fa1af30b5"
 
 RPROVIDES:${PN} += "tcl8-xapian"
 

@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Tajik langu
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-tgk-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "1a67e38dc2759780e82498c687bc2f48421937b53c01ddd63a344962ee57f449351ac9acafc2028f96f1915aedf369871eb017eec204150a9e19214dd9561edf"
+RPM_NAME = "tesseract-ocr-traineddata-tgk-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "e5f9d2293da3bdf4c3dcc92cf917c83e59107a23e5ad4afa9d9a8ab7e254832373af49449f43fefef203cefbde3c2c4bd61189b46a1727923763bc4f7ffa6e6c"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-tajik \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-tg \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-tajik \
 tesseract-ocr-traineddata-tgk \
 tesseract-traineddata-tajik"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

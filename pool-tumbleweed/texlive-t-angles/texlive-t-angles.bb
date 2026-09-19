@@ -7,10 +7,10 @@ drivers, including emTeX drivers, dviwin, xdvi and dvips, and \
 pdfLaTeX."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.svn15878"
+PV = "2026.226.svn71991"
 
-RPM_NAME = "texlive-t-angles-2023.209.svn15878-58.1.noarch.rpm"
-RPM_HASH = "e480a588e96fdd8843cdc5e44ea27e39ea5fac01d2f024e0ea3e87d0fdfb57ba71188fb2e8fff2b8d3b1151fa60019518098c98464bf1cb62255c7f02c9b07f5"
+RPM_NAME = "texlive-t-angles-2026.226.svn71991-64.2.noarch.rpm"
+RPM_HASH = "1628507c9ea5c8e86bc5f243f38dc132fbfc01cd18b9b7566cddfd06e67bb3c5be7e058e137ee8e316b452cd3d6ba58ba75de354f9fb27f80e18f2e4f9df2dd9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-t-angles.sty \

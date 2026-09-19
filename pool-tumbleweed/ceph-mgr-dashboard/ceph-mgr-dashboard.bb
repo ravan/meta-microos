@@ -3,12 +3,12 @@ DESCRIPTION = "ceph-mgr-dashboard is a manager module, providing a web-based app
 to monitor and manage many aspects of a Ceph cluster and related components. \
 See the Dashboard documentation at http://docs.ceph.com/ for details and a \
 detailed feature overview."
-LICENSE = "LGPL-2.1 & LGPL-3.0 & CC-BY-SA-3.0 & GPL-2.0 & BSL-1.0 & BSD-3-Clause & MIT"
+LICENSE = "BSD-3-Clause & BSL-1.0 & CC-BY-SA-3.0 & LGPL-2.1-only & LGPL-3.0-only & GPL-2.0-only & MIT"
 
-PV = "16.2.13.66+g54799ee0666"
+PV = "18.2.7"
 
-RPM_NAME = "ceph-mgr-dashboard-16.2.13.66+g54799ee0666-4.1.noarch.rpm"
-RPM_HASH = "9447b4184fa6ccb41f306985c72bb96208bc71c9c1cf6456a9e8c38f07bc31a74adbc19c32f0465c4820c0da04ab8b108e2b64549f51d3484b71151c38b6c7ca"
+RPM_NAME = "ceph-mgr-dashboard-18.2.7-8.1.noarch.rpm"
+RPM_HASH = "8e9c5504638844f9c185564b7d2c5b7621ddf40fa5f51cf79648557c24f7b00f7e94ca7e7e9fd38b6721dedf507f25a533fd93998418ebd2915c3aa839dc4b90"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ceph-mgr-dashboard"
@@ -18,7 +18,6 @@ ceph-grafana-dashboards \
 ceph-mgr \
 ceph-prometheus-alerts \
 python3-CherryPy \
-python3-PyJWT \
 python3-Routes \
 python3-Werkzeug \
 python3-setuptools"

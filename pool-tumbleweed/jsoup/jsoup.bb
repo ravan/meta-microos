@@ -15,10 +15,10 @@ jsoup implements the WHATWG HTML5 specification. \
 jsoup can deal with invalid HTML tag soup."
 LICENSE = "MIT"
 
-PV = "1.15.3"
+PV = "1.23.2"
 
-RPM_NAME = "jsoup-1.15.3-2.3.noarch.rpm"
-RPM_HASH = "2bb756d7959667754964bbe1529288d43e1f0f929e6c419620b143123d71758485b7fa245a9b81b3bc95e0a8a35297ab251bfda363976fd151fb0da64c354efa"
+RPM_NAME = "jsoup-1.23.2-1.1.noarch.rpm"
+RPM_HASH = "f84c3d20f4f644caa18f9adfccb1d5103c78e019153ff4f067ec46654c4ae0fbc4c76b24a7e267ceeaa08ac1f381e35317a203aa6359394cfa085bdf6949f6fe"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jsoup \

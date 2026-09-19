@@ -3,10 +3,10 @@ DESCRIPTION = "cdrskin is a limited cdrecord compatibility wrapper which allows 
 the libburn features from the command line."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.5.6"
+PV = "1.5.8"
 
-RPM_NAME = "cdrskin-1.5.6-2.1.aarch64.rpm"
-RPM_HASH = "ae3aefcb10e7cc6cef2745bd9f9bfef14b1dc4265888a98efe0352cc0ba990f3697287f868f79ea9aee92621e2df427a94157e9e2ff52643bf3860479c4bf250"
+RPM_NAME = "cdrskin-1.5.8-1.3.aarch64.rpm"
+RPM_HASH = "c357823e7ea1d651ea659a928624db947c081489b317812fadfa24a1be2871daca2227d3a779bd81de1a9648e1821a6f3c845bb13bfb0d215668ade5b74c26de"
 
 RPROVIDES:${PN} += "cdrskin"
 

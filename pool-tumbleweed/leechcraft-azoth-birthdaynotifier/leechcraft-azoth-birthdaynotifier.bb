@@ -4,22 +4,21 @@ will be notified of your contacts' birthdays if they are present in \
 vCards."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-azoth-birthdaynotifier-0.6.70+git.14794.g33744ae6ce-3.2.aarch64.rpm"
-RPM_HASH = "d3d591c58cc5aafd1daf3ed1869b431d44f82416b739d7865538f7e3c0287572c53c5604eafcd7660afa1b6f39adeadd6d7dc10b044aa8481bd4b5214051c308"
+RPM_NAME = "leechcraft-azoth-birthdaynotifier-0.6.70+git.18808.g3467692359-3.1.aarch64.rpm"
+RPM_HASH = "3bbe296c55c1f78669491485e3c55bd519235b452e79205c8e80fe35b245fa094228a98972d09c228228ef1fe14c5b5f484b9559230d8b7237cb50a53a62be2e"
 
 RPROVIDES:${PN} += "leechcraft-azoth-birthdaynotifier \
 libleechcraft-azoth-birthdaynotifier.so"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 leechcraft-azoth \
-libQt5Core.so.5 \
+libQt6Core.so.6 \
 libc.so.6 \
 libgcc-s.so.1 \
-libleechcraft-util-qt5.so.0.6.75 \
-libleechcraft-util-xpc-qt5.so.0.6.75.2 \
-libleechcraft-xsd-qt5.so.0.6.75.2 \
+libleechcraft-util-xpc-qt6.so.0.6.75 \
+libleechcraft-xsd-qt6.so.0.6.75 \
 libstdc++.so.6"
 
 inherit rpm

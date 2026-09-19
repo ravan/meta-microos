@@ -12,13 +12,15 @@ LICENSE = "MIT"
 
 PV = "0.7.1"
 
-RPM_NAME = "dehydrated-0.7.1-1.3.noarch.rpm"
-RPM_HASH = "67b84c6d4a40e864b7ced410784bf4357dcc8fe54c395909b6272622656e20a9be2a7cdc4eeca775716cb243c003f2a58ebad4d7ff85e1e9970d23d5495cf08f"
+RPM_NAME = "dehydrated-0.7.1-3.8.noarch.rpm"
+RPM_HASH = "82fb1cffc5452b6fa88f27fc693cf2eca20b61e848772d8f3e47a658a3e5dedd0ab4830e66c90818df31f54d966ac6eed13744944b68ce8f080be6cec6a73743"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-dehydrated \
 dehydrated \
-letsencrypt.sh"
+group-dehydrated \
+letsencrypt.sh \
+user-dehydrated"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/getent \
@@ -29,6 +31,6 @@ coreutils \
 curl \
 openssl \
 sudo \
-systemd"
+sysuser-shadow"
 
 inherit rpm

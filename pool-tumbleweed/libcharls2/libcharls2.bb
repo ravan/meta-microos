@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause"
 
 PV = "2.4.2"
 
-RPM_NAME = "libcharls2-2.4.2-1.1.aarch64.rpm"
-RPM_HASH = "c232d036460d0ccb7aead02e7b04d25c5f933f65f44e2ae61dfcb7bf49277c917932035e364b5eca56b1d80a9e71fddb439eb7743406d22ab4d64316c0a75fa8"
+RPM_NAME = "libcharls2-2.4.2-1.11.aarch64.rpm"
+RPM_HASH = "24f6fd3d9e3f2cf5175ce952b85c6aa4a13d961c7fb06a5ae9e1936310e65e06399b3903510687275e2ccfeb5914fb76603b0a639e1dba0ca033b6055d059217"
 
 RPROVIDES:${PN} += "libcharls.so.2 \
 libcharls2"

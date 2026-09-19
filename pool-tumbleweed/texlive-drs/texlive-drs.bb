@@ -8,10 +8,10 @@ variables and conditions. The package is based on DRS macros in \
 the covington package."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.1bsvn19232"
+PV = "2026.226.1.1bsvn19232"
 
-RPM_NAME = "texlive-drs-2023.209.1.1bsvn19232-53.1.noarch.rpm"
-RPM_HASH = "eb6659d9db8fb21cc8d69cef82fc864b07eef0c1a47053e914f0251850d3fcfc5f8476c9ab97ba7f1d73b2cab182c3adabcf9d5106ffbc0f936b8bada0b64ed2"
+RPM_NAME = "texlive-drs-2026.226.1.1bsvn19232-59.2.noarch.rpm"
+RPM_HASH = "bde300915cfd7dc095cea42a39cf9727cd7dcf8598cfefbe5f57ddab13a4ebab0b318bab59925c7b7a6805a3a281d1a86d5bd9afd0940872cf6573737fdb01bf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-drs.sty \

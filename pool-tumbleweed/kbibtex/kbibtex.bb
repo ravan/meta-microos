@@ -6,56 +6,54 @@ XML/HTML. As KBibTeX is using KDE's KParts technology, KBibTeX can be \
 embedded into Kile or Konqueror."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.9.3.2"
+PV = "0.10.50git.20260801T020758~7ee937e1"
 
-RPM_NAME = "kbibtex-0.9.3.2-1.4.aarch64.rpm"
-RPM_HASH = "236fcc4a023bc0303c21618caf6ef5a0c2b80e3d1255e57e86cf8062f0484bc3ea8ef9f5e3ad67c76e4a2c8261c9cc4fc8bf7dda0bc8eb49d94c765480a69b11"
+RPM_NAME = "kbibtex-0.10.50git.20260801T020758~7ee937e1-1.1.aarch64.rpm"
+RPM_HASH = "021a6ba76538dff19f9306a51e96219533ac9a08f1e03000fce1f00dc289a4bb37a967ec1ebefb227f76cedff125e46b65fdf21c4bd0cba989df3edc5c1d7b81"
 
 RPROVIDES:${PN} += "kbibtex \
 libkbibtexconfig.so.0 \
 libkbibtexdata.so.0 \
+libkbibtexglobal.so.0 \
 libkbibtexgui.so.0 \
 libkbibtexio.so.0 \
 libkbibtexnetworking.so.0 \
-libkbibtexproc.so.0"
+libkbibtexprocessing.so.0"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-desktop-file-utils \
 ld-linux-aarch64.so.1 \
-libKF5Completion.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5Crash.so.5 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5Parts.so.5 \
-libKF5Service.so.5 \
-libKF5TextEditor.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5Wallet.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5WebEngineWidgets.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
-libQt5XmlPatterns.so.5 \
+libKF6ColorScheme.so.6 \
+libKF6Completion.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6Crash.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6ItemViews.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Parts.so.6 \
+libKF6TextEditor.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6Wallet.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6NetworkAuth.so.6 \
+libQt6WebEngineCore.so.6 \
+libQt6WebEngineWidgets.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libc.so.6 \
-libicui18n.so.73 \
-libicuuc.so.73 \
-libpoppler-qt5.so.1 \
-libqoauth.so.2 \
-libstdc++.so.6 \
-shared-mime-info"
+libicui18n.so.78 \
+libicuuc.so.78 \
+libpoppler-qt6.so.3 \
+libstdc++.so.6"
 
 inherit rpm

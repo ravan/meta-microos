@@ -6,21 +6,21 @@ DESCRIPTION = "RawTherapee is a cross platform image processing software equippe
 Latest stable build from 'releases' branch."
 LICENSE = "GPL-3.0-only"
 
-PV = "5.9"
+PV = "5.12"
 
-RPM_NAME = "rawtherapee-5.9-4.3.aarch64.rpm"
-RPM_HASH = "1da3ce3a508e3342bea6361927a6bccd486ad6d2c801b70e60d3528c9df1aa804fbcebc263ee891f94840153c765f6e30d22bf0d7e217b2bf6304b0b6ebfa063"
+RPM_NAME = "rawtherapee-5.12-4.6.aarch64.rpm"
+RPM_HASH = "664c9fd39a027cf86a75d8a64d5f692422636f527b0cf6538178a2956ee0b42adeb3fe5d6ddf26d848e67d6383104fce3a4ab3ec10b6e8238a937a68c32c78da"
 
 RPROVIDES:${PN} += "rawtherapee"
 
-RDEPENDS:${PN} += "/usr/bin/sh \
-desktop-file-utils \
-ld-linux-aarch64.so.1 \
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libatkmm-1.6.so.1 \
 libc.so.6 \
+libcairo.so.2 \
 libcairomm-1.0.so.1 \
 libcanberra-gtk3.so.0 \
 libcanberra.so.0 \
+libexiv2.so.28 \
 libexpat.so.1 \
 libfftw3f.so.3 \
 libgcc-s.so.1 \
@@ -33,17 +33,19 @@ libgobject-2.0.so.0 \
 libgomp.so.1 \
 libgtk-3.so.0 \
 libgtkmm-3.0.so.1 \
-libiptcdata.so.0 \
 libjpeg.so.8 \
-liblcms2-2 \
+libjxl-threads.so.0.11 \
+libjxl.so.0.11 \
 liblcms2.so.2 \
 liblensfun.so.1 \
 libm.so.6 \
 libpangomm-1.4.so.1 \
 libpng16.so.16 \
+libraw-r.so.25 \
 librsvg-2.so.2 \
 libsigc-2.0.so.0 \
 libstdc++.so.6 \
+libtcmalloc.so.4 \
 libtiff.so.6 \
 libz.so.1"
 

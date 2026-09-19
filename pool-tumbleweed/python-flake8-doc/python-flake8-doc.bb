@@ -4,10 +4,10 @@ DESCRIPTION = "Flake8 is a modular extensible source code checker. \
 This package provides documentation for python-flake8."
 LICENSE = "MIT"
 
-PV = "6.1.0"
+PV = "7.3.0"
 
-RPM_NAME = "python-flake8-doc-6.1.0-1.1.noarch.rpm"
-RPM_HASH = "667b07a0956792d07417bb595526ea6d2c24e197cd0609f71129f61c6c2e3f11a19b0c768ae483ce8bb0a17b6652471aee6191ff4d9b10afc7279590337db2f9"
+RPM_NAME = "python-flake8-doc-7.3.0-2.5.noarch.rpm"
+RPM_HASH = "e16626c232f97e123a183cc8ef551807723048d9040c9d8b067afe86aba4c2bc09753c4a6c08f5fa6bdc4854d1c3447139b3ebf02414beaf495ce40eb9612fa4"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "python-flake8-doc"

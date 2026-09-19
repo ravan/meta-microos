@@ -9,10 +9,10 @@ support, archive support, and multiple signature languages for \
 detecting threats."
 LICENSE = "GPL-2.0-only"
 
-PV = "0.103.9"
+PV = "1.5.4"
 
-RPM_NAME = "clamav-0.103.9-1.1.aarch64.rpm"
-RPM_HASH = "7695ff3254bf48825497d16d8ea2bcccd3ccc537f96da32711654e860ab9abdc6e9d984282109664d03d3ce130854338662b15c15241b63fb43bca8f8ed23fce"
+RPM_NAME = "clamav-1.5.4-2.1.aarch64.rpm"
+RPM_HASH = "333aaf5684b41a3e66917dfd98de3d28f1dbff0d6f1211a553b37009ab152d154b344deffd12e70b01ee9781613af173402b0664ef3c9d37c32a13b590670920"
 
 RPROVIDES:${PN} += "clamav \
 clamav-nodb \
@@ -22,12 +22,19 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 group-vscan \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
-libclamav.so.9 \
+libclamav.so.12 \
+libclamav12 \
+libclammspack0 \
 libcrypto.so.3 \
 libcurl.so.4 \
-libfreshclam.so.2 \
+libfreshclam.so.4 \
+libfreshclam4 \
+libgcc-s.so.1 \
 libjson-c.so.5 \
+libm.so.6 \
 libncurses.so.6 \
+libssl.so.3 \
+libsystemd.so.0 \
 libtinfo.so.6 \
 libz.so.1 \
 user-vscan"

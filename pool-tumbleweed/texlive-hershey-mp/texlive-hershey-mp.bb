@@ -6,10 +6,10 @@ files, which you can probably find in the software repository \
 of your operating system."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2022_1.0svn64878"
+PV = "2026.226.2022_1.0svn70885"
 
-RPM_NAME = "texlive-hershey-mp-2023.209.2022_1.0svn64878-54.2.noarch.rpm"
-RPM_HASH = "64e6bfe2c7bf693b65def7bec55a1f8febd140c37246e332dcc5d29397021d30f0ad5297177e01a45aaed541025fd539e854859512ebdfe77491a67f16e17f43"
+RPM_NAME = "texlive-hershey-mp-2026.226.2022_1.0svn70885-60.4.noarch.rpm"
+RPM_HASH = "9b1cc6a0d46d50199180def3f4edf86c983a0a954e88c8ab58c63468c9991e636f389c9f8c62ebb2783f733c5d7cb6030576ea32085760366ccdc16f3c736cd6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-hershey-mp"

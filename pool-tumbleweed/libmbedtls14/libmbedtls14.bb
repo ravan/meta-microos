@@ -6,12 +6,12 @@ supports a number of extensions such as SSL Session Tickets (RFC \
 5746) and Application Layer Protocol Negotiation (ALPN). It \
 understands the RSA, (EC)DH(E)-RSA, (EC)DH(E)-PSK and RSA-PSK key \
 exchanges."
-LICENSE = "Apache-2.0"
+LICENSE = "Apache-2.0 | GPL-2.0-or-later"
 
-PV = "2.28.4"
+PV = "2.28.10"
 
-RPM_NAME = "libmbedtls14-2.28.4-1.1.aarch64.rpm"
-RPM_HASH = "31fc9670fad6dbdb2ddfcd2f367190c6bd98a1aba10e5e4e0fd6ccf5d8b922656e83a1e06c071d56468b5a40f1a19ff9d0570304f0c05726d54bf4c5116ad86f"
+RPM_NAME = "libmbedtls14-2.28.10-5.1.aarch64.rpm"
+RPM_HASH = "7e75c66458c3a2688c4b44d759801b60ca652dfa235822231b2865c55202a3ce76af37ea9b32440df62ca59d2fca9ce2d3579edd5b30f4e9e32d4db24623ad22"
 
 RPROVIDES:${PN} += "libmbedtls.so.14 \
 libmbedtls14"

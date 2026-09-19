@@ -5,10 +5,10 @@ It conforms to contemporary DNS standards documents. \
 This package holds the Lua backend for pdns."
 LICENSE = "GPL-2.0-only"
 
-PV = "4.8.0"
+PV = "4.9.8"
 
-RPM_NAME = "pdns-backend-lua-4.8.0-1.2.aarch64.rpm"
-RPM_HASH = "8cf484f227419005927cf1221e65015ebf6df9cbb22e5e4135b03d6e0a34d10fa9e48c10a812352cd61bd6b4e38f74d4b2b5f3b6aae03060ea55ef032156802d"
+RPM_NAME = "pdns-backend-lua-4.9.8-1.12.aarch64.rpm"
+RPM_HASH = "55f513c5041a24f911c5cd342dec58028cbd7e2aa9795723a2ebd095fd9b3a0726500a547c40b9766382e67fd765985f788e2a682a5fe3cea24f983a950b7976"
 
 RPROVIDES:${PN} += "liblua2backend.so \
 pdns-backend-lua"
@@ -16,7 +16,7 @@ pdns-backend-lua"
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
-liblua5.4.so.5 \
+libluajit-5.1.so.2 \
 libstdc++.so.6 \
 pdns"
 

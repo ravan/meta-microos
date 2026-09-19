@@ -8,8 +8,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "2.24.33"
 
-RPM_NAME = "gtk2-immodule-vietnamese-2.24.33-4.4.aarch64.rpm"
-RPM_HASH = "8d1647beccb911b50e50bccc27f2ea8cbf46c5894b95cb459d23c27db9c323017c9e1994636bd6574561d8ca5af31a665d82cc565637ad7fca0ca271a10a7153"
+RPM_NAME = "gtk2-immodule-vietnamese-2.24.33-18.7.aarch64.rpm"
+RPM_HASH = "9a4fa00e635719fd7c738bef45183f16329a1a9589855b548fe4ba6b5d5acaad2c7149f591525a3d75091f8f8a98e199d0612d8f80fd971b64157542ceddd11f"
 
 RPROVIDES:${PN} += "gtk2-immodule-vietnamese \
 locale-gtk2-vi"

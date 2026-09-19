@@ -1,11 +1,11 @@
 SUMMARY = "Snorenotify is a multi platform Qt based notification framework"
 DESCRIPTION = "Snorenotify is a multi platform Qt based notification framework. Using a plugin system it is possible to create notifications with many different notification systems on Windows, Unix and Mac."
-LICENSE = "LGPL-3.0"
+LICENSE = "LGPL-3.0-only"
 
 PV = "0.7.0"
 
-RPM_NAME = "snorenotify-qt5-devel-0.7.0-2.35.aarch64.rpm"
-RPM_HASH = "2b71555b8ab590dd9aff5524bff93473fb4847addea8ec1ba56ce90cc883b96ff663b6439226b49fc672bbf793028bf6f3f79775469e9080693b54f58673c94a"
+RPM_NAME = "snorenotify-qt5-devel-0.7.0-4.4.aarch64.rpm"
+RPM_HASH = "75b7c2eb9129b18816ed08ad1fcdf391c6310088cca49e55777d0a7a568d91b3e0cbf4280116999d872815b7a0d5206134701ab5f60c9df38c06ff54a925eb87"
 
 RPROVIDES:${PN} += "cmake-LibsnoreQt5 \
 cmake-LibsnoreSettingsQt5 \

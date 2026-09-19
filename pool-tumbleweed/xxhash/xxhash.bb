@@ -4,13 +4,14 @@ evaluates collision, dispersion and randomness qualities of hash functions. \
 Hashes are identical on all platforms."
 LICENSE = "BSD-2-Clause & GPL-2.0-only"
 
-PV = "0.8.1"
+PV = "0.8.3"
 
-RPM_NAME = "xxhash-0.8.1-3.4.aarch64.rpm"
-RPM_HASH = "6145ffbf88c52fde91520bbdacb59b327882ce7cdc6feb8a356a6fbf4966f2cd32fb8afd883d0f73a1a615b1416738b2012b1906000e83f5b5cdd5cd10027f02"
+RPM_NAME = "xxhash-0.8.3-1.8.aarch64.rpm"
+RPM_HASH = "5efab484c0ff6643b2cd26a749633e4a2496d7df77df6ff9536db0366ed1aaa7fee5eea921f46d3549e6b8e1996d45a50e1175698c1c173a83c36f080eccda05"
 
 RPROVIDES:${PN} += "xxhash"
 
-RDEPENDS:${PN} += "libc.so.6"
+RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
+libc.so.6"
 
 inherit rpm

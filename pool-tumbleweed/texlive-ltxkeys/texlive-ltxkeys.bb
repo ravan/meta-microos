@@ -11,10 +11,10 @@ things) it avoids character-wise parsing of key values (called \
 also provides functions for defining and managing keys."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.208.0.0.0.3csvn28332"
+PV = "2026.226.0.0.0.3csvn28332"
 
-RPM_NAME = "texlive-ltxkeys-2023.208.0.0.0.3csvn28332-53.1.noarch.rpm"
-RPM_HASH = "7d0bc29298a7fbfcfc56c6811b553f8d7993c45e006176aaee37a804faa017f78b2dc630c9308e1c8420eebdac572485e693c3e7979988873ce251c9dd3d8704"
+RPM_NAME = "texlive-ltxkeys-2026.226.0.0.0.3csvn28332-59.2.noarch.rpm"
+RPM_HASH = "de29840333f9c87967be9f473a31021ab20ecbac67337ba547dc8b60fb8e2bd3dead774e19b83fb3f64219f6ac7839bbe97b1e3929966f0a6c67bfb28437afb8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-ltxkeys.sty \

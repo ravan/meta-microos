@@ -9,10 +9,10 @@ Both programs abstract away the differences between IPv4 and IPv6, and rules \
 for each protocol can be applied as needed."
 LICENSE = "GPL-2.0-only"
 
-PV = "3.1.7"
+PV = "3.1.8"
 
-RPM_NAME = "firehol-3.1.7-2.7.noarch.rpm"
-RPM_HASH = "871d7426136ee08b93dd2af248c5e44d4d63762f1061e7cbef9b8d2e11e63b07dc19198c270ea480c8d1de5b9b964d3730d51c71431a692c76b9839d135102c6"
+RPM_NAME = "firehol-3.1.8-1.4.noarch.rpm"
+RPM_HASH = "f81ae49958f9e99f1d7d20b126fc00ccfc81254b9ac04b2f40dc38a462a1ffe3e38ff366cf97d44ceeaafe2fc53f94b71cb95d758c35b669c7a68ea5324be6ba"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "config-firehol \

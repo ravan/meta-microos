@@ -11,10 +11,10 @@ configuration of its own 'fixed names', using .mld files \
 fixed names)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.62svn61719"
+PV = "2026.226.62svn77682"
 
-RPM_NAME = "texlive-minitoc-2023.209.62svn61719-55.1.noarch.rpm"
-RPM_HASH = "77a386d643e11a01c3dcfe4f405c237095a59f55d12d283372560399b0a8970655540c1fdf25088de617d8232cdfed662ad306c811b140785d0a046b98de11a7"
+RPM_NAME = "texlive-minitoc-2026.226.62svn77682-61.2.noarch.rpm"
+RPM_HASH = "328914b38928fc5392e3c802dc08ee1d31d5af31be2afb3f47be818828e14dd6979e27915612bcced397d33c003c15bce03634591971f687cdc318bc70b4b18d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-minitoc.sty \

@@ -9,10 +9,10 @@ This subpackage contains libraries and header files for developing \
 applications that want to make use of libewf."
 LICENSE = "GFDL-1.3-or-later & LGPL-3.0-or-later"
 
-PV = "20230212"
+PV = "20240506"
 
-RPM_NAME = "libewf-devel-20230212-3.1.aarch64.rpm"
-RPM_HASH = "d5a77eb6b329a41864634fc98f807117b39d3eff74a31b2093c49a6beebc511c7d66c6fb9d55328ca40f8947eb9af90bfd944c5dbf1277dfc12ba3a2076e9ebf"
+RPM_NAME = "libewf-devel-20240506-2.22.aarch64.rpm"
+RPM_HASH = "eead90fa3ed9efd255f82db55e4d5d425748402205db60eaf4e67654e2c482fc672a0c40bf9a62502522994f596933c875dc72db1bb41b32c8334980b7a34f30"
 
 RPROVIDES:${PN} += "libewf-devel \
 pkgconfig-libewf"

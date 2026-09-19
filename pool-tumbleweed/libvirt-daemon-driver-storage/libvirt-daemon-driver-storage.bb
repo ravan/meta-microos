@@ -1,13 +1,14 @@
-SUMMARY = "Storage driver plugin including all backends for the libvirtd daemon"
-DESCRIPTION = "The storage driver plugin for the libvirtd daemon, providing \
-an implementation of the storage APIs using LVM, iSCSI, \
-parted and more."
+SUMMARY = "Storage daemon and driver plugin including all backends"
+DESCRIPTION = "The storage daemon and driver plugin, providing an implementation of the \
+storage APIs using LVM, iSCSI, parted and more. \
+ \
+This package does not contain files, it just requires the necessary packages."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "9.7.0"
+PV = "12.7.0"
 
-RPM_NAME = "libvirt-daemon-driver-storage-9.7.0-1.1.aarch64.rpm"
-RPM_HASH = "a456e8ce9c0b1f4d69e51056dd9a9196c6894322b90fbef75fe624ebaf3a559d84175b6d8d72d71c7ff97581d192743965426e0562996e151d31bf896c0fecf6"
+RPM_NAME = "libvirt-daemon-driver-storage-12.7.0-1.1.aarch64.rpm"
+RPM_HASH = "a99f537733d8047a7ee7d94a7dfc7185ff6a9f6f8ed87ee210bd8b0438ab53e57f22b5250f9db2496712aeab2c253f41d3871fdca7c5a32e4f3a60cbc808446b"
 
 RPROVIDES:${PN} += "libvirt-daemon-driver-storage"
 

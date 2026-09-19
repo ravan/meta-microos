@@ -11,10 +11,10 @@ columns. The package depends on ifthen, array, calc, and \
 xkeyval."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.9.0svn61501"
+PV = "2026.226.1.9.1asvn77682"
 
-RPM_NAME = "texlive-cellspace-2023.209.1.9.0svn61501-53.1.noarch.rpm"
-RPM_HASH = "532897915815edac5795364826a9791b08839078f7bcd18db46fcc4f63d2668930ff71121386773a4c4e402f79d87b3e635d48878773fe7b9051013f58951515"
+RPM_NAME = "texlive-cellspace-2026.226.1.9.1asvn77682-59.2.noarch.rpm"
+RPM_HASH = "ae822ac2f4f6a88acf139a30cdc88773afb755ada7397f01dce934ba543daef8c95df9a084af3b91248b67720bdc4b3cb0f1ebf7b4ce1d3ea9f4e908001677c7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cellspace.sty \

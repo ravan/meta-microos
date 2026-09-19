@@ -7,8 +7,8 @@ LICENSE = "BSD-3-Clause & (LGPL-2.1-or-later | MPL-2.0)"
 
 PV = "0.0.5"
 
-RPM_NAME = "librevenge-stream-0_0-0-0.0.5-1.4.aarch64.rpm"
-RPM_HASH = "a443373de000f8334fb580c9f4b01fd94890c052cf8c892d85a980a364d3d1328118c83d347d0b1730c490487a014a0a1e817d8f47993384b4824c18d82552ae"
+RPM_NAME = "librevenge-stream-0_0-0-0.0.5-1.14.aarch64.rpm"
+RPM_HASH = "b2829a0ab69c1dc9d8924da404edb352a54bb513612c6ec56a039a8cfe71d0cf1396f4e11e47190394252dce41e016989534b0b097544732ad1dbb8c92fde108"
 
 RPROVIDES:${PN} += "librevenge-stream-0-0-0 \
 librevenge-stream-0.0.so.0"

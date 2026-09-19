@@ -8,10 +8,10 @@ option is the table-colouring option of the xcolor. However, \
 colortab remains an adequate solution for use with Plain TeX."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn22155"
+PV = "2026.226.1.0svn22155"
 
-RPM_NAME = "texlive-colortab-2023.209.1.0svn22155-54.1.noarch.rpm"
-RPM_HASH = "854d105e86cea52085dd335e58db82f925fb56ba6d1801095fa88d149c5d48c0951952e5be1cda98dd14552c205bec67b16b68c5b7643ed691a5d64c979b33fd"
+RPM_NAME = "texlive-colortab-2026.226.1.0svn22155-60.2.noarch.rpm"
+RPM_HASH = "517ad6edaf5c1107d6deb3537289002aa1da8ddf28d5b95c271373ba9bd9e8ccd14afbd855f9e4b0672df234390bcf00d7032b259208a26aea86dedfa8708a6a"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-colortab.sty \

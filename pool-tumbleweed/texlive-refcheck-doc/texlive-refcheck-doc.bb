@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-refcheck"
 DESCRIPTION = "This package includes the documentation for texlive-refcheck"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2023.209.1.9.1svn29128"
+PV = "2026.226.1.9.2svn77682"
 
-RPM_NAME = "texlive-refcheck-doc-2023.209.1.9.1svn29128-54.2.noarch.rpm"
-RPM_HASH = "3c767817c83f89ba20439dbb3ca08b59f422ef252781915f91fb67d11be54b8828fe7d75e8a6da0637b1c359a1eb1a3bc31afccb4d6eec43a8d0c6d34fbf2a94"
+RPM_NAME = "texlive-refcheck-doc-2026.226.1.9.2svn77682-60.4.noarch.rpm"
+RPM_HASH = "906fc450e1503b9fbf07ec6ce4371e41cbb1eda70bfe39698b73006d825cf5be607eebcc8b97aab06bee3d3f4008daa203b2984f1b4e85394377bafc047213af"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-refcheck-doc"

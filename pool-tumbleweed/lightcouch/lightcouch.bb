@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0"
 
 PV = "0.2.0"
 
-RPM_NAME = "lightcouch-0.2.0-1.8.noarch.rpm"
-RPM_HASH = "aed51bb9e67a5e5f3d2f5c8dd450eaf26256538a5fbc967277e19f1abf90386bb304017c9d7865ab0cc7e66663ed83dc943b5508be2a53f751c1395cd5705ad3"
+RPM_NAME = "lightcouch-0.2.0-1.18.noarch.rpm"
+RPM_HASH = "08fc1a1f60b3fec4dd7b9d6d41d215219cf27fd223d33314607e7f70705b5c16724b11a2af9a0b6001d8a457c8a53b506ff6d489786731c3d7f74d5865b70de0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lightcouch \

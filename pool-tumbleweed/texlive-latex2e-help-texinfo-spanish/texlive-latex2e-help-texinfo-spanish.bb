@@ -3,15 +3,16 @@ DESCRIPTION = "The manual is provided as Texinfo source (which was originally \
 derived from the VMS help file in the DECUS TeX distribution of \
 1990, with many subsequent changes). This is a collaborative \
 development, and details of getting involved are to be found on \
-the package home page. A French translation is available as a \
-separate package. All the other formats in the distribution are \
-derived from the Texinfo source, as usual."
+the package home page. A Spanish translation is included here, \
+and a French translation is available as a separate package. \
+All the other formats in the distribution are derived from the \
+Texinfo source, as usual."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn65614"
+PV = "2026.226.svn75712"
 
-RPM_NAME = "texlive-latex2e-help-texinfo-spanish-2023.209.svn65614-55.1.noarch.rpm"
-RPM_HASH = "271f0a3aee6dc8f11b28c86603181d9ab657dcf651f866654a6d3250e7334384ddddc1e0ecdf980e762f42a159dfb2c3037b9ccf188b8fa453bbb5a0c3cdcd02"
+RPM_NAME = "texlive-latex2e-help-texinfo-spanish-2026.226.svn75712-61.2.noarch.rpm"
+RPM_HASH = "bada3887d3f5b76f1fd3372089dc49452978c75bd50ed5f22a06f10d3886366d905738bd148c23b7431fd490b22e7d0d6d8157584b8c6fab66a2256240d20447"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-latex2e-help-texinfo-spanish"

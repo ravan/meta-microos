@@ -5,10 +5,10 @@ supports several input and output devices, including Video4Linux2, VfW, \
 DShow, and ALSA."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "4.4.4"
+PV = "4.4.8"
 
-RPM_NAME = "libavdevice58_13-4.4.4-2.3.aarch64.rpm"
-RPM_HASH = "ecaf23052a9efdf2ce689c9f67a06af264c40c0ee9968a98bc9dc29e889635006858ce77628f4a1aea3eef0ac06d44f09c59130f2807113c0e96a1d99332bf43"
+RPM_NAME = "libavdevice58_13-4.4.8-5.1.aarch64.rpm"
+RPM_HASH = "b98e0dbd4c8d90bcfce670b1a9d15943744522777dc29087cacb71442a071f82b56843ba4c9f1caf560c328448a0101b5f3e18f883bd7c269d40453fd39f10c7"
 
 RPROVIDES:${PN} += "libavdevice.so.58.13 \
 libavdevice58-13"

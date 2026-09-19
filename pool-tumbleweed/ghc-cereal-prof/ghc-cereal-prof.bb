@@ -4,17 +4,17 @@ LICENSE = "BSD-3-Clause"
 
 PV = "0.5.8.3"
 
-RPM_NAME = "ghc-cereal-prof-0.5.8.3-2.8.aarch64.rpm"
-RPM_HASH = "8c18478d6f8cb606f029ef5eedc6cbd0b03c170b65e0ef5a696a29529ecfe6e97293af0812ef716ba97db3b5755381481ae410d670a44b3182ab523678b9dbdf"
+RPM_NAME = "ghc-cereal-prof-0.5.8.3-2.35.aarch64.rpm"
+RPM_HASH = "e44a2f0fe4ac4bef46fb71a54029e069694be9667a1427b5030a231ff112c683e9475c57a3a5b651c84b0925439b3155d1d9bb7eade94e11e54c1abe18ee9dc9"
 
 RPROVIDES:${PN} += "ghc-cereal-prof \
-ghc-prof-cereal-0.5.8.3-BmWUcZuhGTnIupxReuIO3I"
+ghc-prof-cereal-0.5.8.3-9RjPyVhfWFC69r1oCUPmww"
 
 RDEPENDS:${PN} += "ghc-cereal-devel \
-ghc-prof-array-0.5.4.0 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-ghc-prim-0.9.1"
+ghc-prof-array-0.5.8.0-2a42 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-ghc-prim-0.13.0-f55c"
 
 inherit rpm

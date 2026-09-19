@@ -1,13 +1,12 @@
-SUMMARY = "Translations for QEMU"
-DESCRIPTION = "This package contains a few language translations, particularly for the \
-graphical user interface components that come with QEMU. The bulk of strings \
-in QEMU are not localized."
+SUMMARY = "Translations for package qemu"
+DESCRIPTION = "Provides translations for the 'qemu' package."
 LICENSE = "BSD-2-Clause & BSD-3-Clause & GPL-2.0-only & GPL-2.0-or-later & LGPL-2.1-or-later & MIT"
 
-PV = "8.0.4"
+PV = "11.1.1"
 
-RPM_NAME = "qemu-lang-8.0.4-1.1.aarch64.rpm"
-RPM_HASH = "a8a7a1835db2d7d3c3c90d8de3edfd2da766a80b352367f531ee97690ee99cd4f32c02081ee59706b409f6b5a94fc71b32e74b1edc218515f11e54617e179e4d"
+RPM_NAME = "qemu-lang-11.1.1-1.1.noarch.rpm"
+RPM_HASH = "c79786388360537c50cad85c83c6129149635cf500d256032f630b98553a7c5c1838ea563fc30b1a053a05414fee3b71ae0c7e97fddef7cd2a8f36afddfeca13"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-qemu-bg \
 locale-qemu-de-DE \
@@ -18,8 +17,9 @@ locale-qemu-sv \
 locale-qemu-tr \
 locale-qemu-uk \
 locale-qemu-zh-CN \
-qemu-lang"
+qemu-lang \
+qemu-lang-all"
 
-RDEPENDS:${PN} += ""
+RDEPENDS:${PN} += "qemu"
 
 inherit rpm

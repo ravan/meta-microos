@@ -3,10 +3,10 @@ DESCRIPTION = "Atril is a document viewer capable of displaying multiple and sin
 page document formats like PDF and Postscript."
 LICENSE = "GPL-2.0-only & LGPL-2.0-only"
 
-PV = "1.26.1"
+PV = "1.28.4"
 
-RPM_NAME = "typelib-1_0-AtrilView-1_5_0-1.26.1-1.2.aarch64.rpm"
-RPM_HASH = "acba8badd1c7785a22b0499048b0da35197655aa891421739492d7c38348a73587f4168294853c5527bac47936a16714a09ab079d65fedf93558d242218d33b0"
+RPM_NAME = "typelib-1_0-AtrilView-1_5_0-1.28.4-1.2.aarch64.rpm"
+RPM_HASH = "75c1864088eabe0b894e460c375a9adb205ffd32b06408f4491e3f1310b9ec4f9246c8be2de4e8ca6d169d60af8b0fb247ffe241b49bbbaed2ac6d2738e2a01b"
 
 RPROVIDES:${PN} += "typelib-1-0-AtrilView-1-5-0 \
 typelib-AtrilView"

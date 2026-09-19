@@ -3,10 +3,10 @@ DESCRIPTION = "This package contains the development files for the ayatana \
 appindicator3 library."
 LICENSE = "GPL-3.0-only & LGPL-2.0-only & LGPL-3.0-only"
 
-PV = "0.5.91"
+PV = "0.5.93"
 
-RPM_NAME = "libayatana-appindicator3-devel-0.5.91-1.5.aarch64.rpm"
-RPM_HASH = "a94a084a1dba22813bce4fe434f6a90decd6d7fc4cdaf36844c9840d38feccf5818fd5d02a8372c4819f0e4f18ba543824c6d4e2774fd2b746f77f7354755656"
+RPM_NAME = "libayatana-appindicator3-devel-0.5.93-3.4.aarch64.rpm"
+RPM_HASH = "28a9b51fcabdd512e0c98f2185db57c6f2160e0f5fee165e8bbda289fac0764a4f540f57edad010fc23bbeedad9a163db7f751eda7f2fbe934643acd6a95b7e0"
 
 RPROVIDES:${PN} += "libayatana-appindicator3-devel \
 pkgconfig-ayatana-appindicator3-0.1"

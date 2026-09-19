@@ -3,10 +3,10 @@ DESCRIPTION = "The package addresses the problem of importing only one \
 TikZ-image from a file holding multiple images."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn28715"
+PV = "2026.226.1.0svn28715"
 
-RPM_NAME = "texlive-tikzinclude-2023.209.1.0svn28715-53.1.noarch.rpm"
-RPM_HASH = "19e0c064efd98297d3e66d6bd149edef2734fe17719959e294690cfa8bc7688db11d053f50fc593e2f87356a3c2d5ff7f121bbe70b62991aa8d28a51d6c02456"
+RPM_NAME = "texlive-tikzinclude-2026.226.1.0svn28715-59.2.noarch.rpm"
+RPM_HASH = "0cf644259803341e913e7996e3dec3beb9e51ad592ae0cd5ad479eead85bb24c8ad9b995c69a939037ba58dda4be7c53649bc3865b0706fe58e66237cb5ad3a0"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-tikzinclude.sty \

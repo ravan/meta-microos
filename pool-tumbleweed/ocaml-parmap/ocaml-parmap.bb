@@ -10,8 +10,8 @@ LICENSE = "LGPL-2.0-only"
 
 PV = "1.2.5"
 
-RPM_NAME = "ocaml-parmap-1.2.5-1.5.aarch64.rpm"
-RPM_HASH = "7d9b06304f65032cecccffc20d2bc4a7f007a5a6007f0f0f419019ae4923e4954a26f06c1c3e0e667ade899e47e7ecd644949f1d0702b9c61a1fa055252a4d2c"
+RPM_NAME = "ocaml-parmap-1.2.5-3.2.aarch64.rpm"
+RPM_HASH = "63ece3d1208d38e221921ac44c9e26efbd4549a78ac15f0d7ec165232a31b43e2b63bea46cc532d11a86f6940bf422b33ab98b3c861704d2a7aaf63392000a54"
 
 RPROVIDES:${PN} += "ocaml-parmap"
 

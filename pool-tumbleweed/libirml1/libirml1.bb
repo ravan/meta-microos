@@ -1,12 +1,18 @@
-SUMMARY = "Threading Building Blocks (TBB) - IPC Library"
-DESCRIPTION = "This subpackage provides the library required in order to enable inter-process \
-(IPC) coordination between oneTBB schedulers for the TBB python module."
+SUMMARY = "IPC library for oneAPI Threading Building Blocks"
+DESCRIPTION = "oneTBB (previously known as TBB) is a flexible C++ library that simplifies the \
+work of adding parallelism to complex applications. The library lets you easily \
+write parallel programs that take full advantage of the multi-core performance. \
+oneTBB provides you with functions, interfaces, and classes to parallelize and \
+scale the code. \
+ \
+This subpackage provides the library required in order to enable inter-process \
+(IPC) coordination between oneTBB schedulers for the oneTBB python module."
 LICENSE = "Apache-2.0"
 
-PV = "2021.10.0"
+PV = "2023.0.0"
 
-RPM_NAME = "libirml1-2021.10.0-1.1.aarch64.rpm"
-RPM_HASH = "39b5ceb9eb9aefd8fc96d4516425e274208ba3aaa764ed9984facb33ac9dbb38dfede9124128fcaa0b7685c00486f88f793b4b29c01073f35751f05ae2bb1660"
+RPM_NAME = "libirml1-2023.0.0-1.3.aarch64.rpm"
+RPM_HASH = "62904a5c0b6809a8776f32fd412e741548ee706ce432ca3eb2dc793beeb9f6fbcbb2714a08f8369cd3730d8597d0afadb3a869fad26d1c64089e7f470ec39927"
 
 RPROVIDES:${PN} += "libirml.so.1 \
 libirml1"

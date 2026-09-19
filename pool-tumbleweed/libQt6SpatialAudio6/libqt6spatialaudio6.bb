@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SpatialAudio library"
 DESCRIPTION = "The Qt 6 SpatialAudio library."
-LICENSE = "GPL-3.0-or-later"
+LICENSE = "GPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6SpatialAudio6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "7bb39f1e736b35ee02d980303fb684c62a67fc8dcb30d7525cfbb679deb9e69ef2568b9b764729120d1e23188f6eb24efa4773777a6b4dfd648acf8103b7e52b"
+RPM_NAME = "libQt6SpatialAudio6-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "f1654170a930000526721435f3401155c6b34285c1e7b2ef7aa64d2b7cb668a55468081d12fa4ca3b8af9b8c98bccacf0cfd56ba26c21644973e93519e91a771"
 
 RPROVIDES:${PN} += "libQt6SpatialAudio.so.6 \
 libQt6SpatialAudio6"

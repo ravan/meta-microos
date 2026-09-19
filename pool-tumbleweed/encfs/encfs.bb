@@ -19,8 +19,8 @@ LICENSE = "GPL-2.0-or-later & GPL-3.0-or-later"
 
 PV = "1.9.5"
 
-RPM_NAME = "encfs-1.9.5-2.17.aarch64.rpm"
-RPM_HASH = "8737d799a55c34127be957d7a6f89cb50fe734d2034c4ca0efe338ebeebf2097eaeab41303dca480fe452ba38cbc76a3abaca1e80e2ba9527bcac7dc0037b38f"
+RPM_NAME = "encfs-1.9.5-4.6.aarch64.rpm"
+RPM_HASH = "ebc888e580f59fffc93458b1f96c6b49d1517e43b1fc1875f5e19ffdf431bbf80901375d5717b9621b713047421358e39b7481c5b22bd0a68619da230bbe2ef0"
 
 RPROVIDES:${PN} += "encfs \
 libencfs.so.1.9"
@@ -35,6 +35,6 @@ libfuse.so.2 \
 libgcc-s.so.1 \
 libssl.so.3 \
 libstdc++.so.6 \
-libtinyxml2.so.9"
+libtinyxml2.so.11"
 
 inherit rpm

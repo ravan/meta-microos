@@ -3,10 +3,10 @@ DESCRIPTION = "libfolks is a library that aggregates people from multiple source
 Telepathy connection managers) to create metacontacts."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "0.15.6"
+PV = "0.15.12"
 
-RPM_NAME = "libfolks-telepathy26-0.15.6-1.2.aarch64.rpm"
-RPM_HASH = "0ea49e52af5f1d745d0d1274271e71ee89abdfb4b4bec7eaddac5a7c0360b8b4c4b980967c6698c0c6914264da302cbad23590c7a491c61e59b9a80d27833cfa"
+RPM_NAME = "libfolks-telepathy26-0.15.12-2.4.aarch64.rpm"
+RPM_HASH = "f26df3e0cb5747f4dcf3a9a8794c82ee6235a99764e4265f069fbd8efa76d3d3fca4fafc5c1f4897a82d9191a4ed4bc753d4ba193270277c12bf45ca6a65619f"
 
 RPROVIDES:${PN} += "libfolks-telepathy.so.26 \
 libfolks-telepathy26"

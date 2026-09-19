@@ -6,10 +6,10 @@ higher level functions, such as cadenced supervisory tone detection, \
 and a complete software FAX machine."
 LICENSE = "LGPL-2.1-only"
 
-PV = "3.0.0+g21"
+PV = "3.0.0+g57"
 
-RPM_NAME = "libspandsp3-3.0.0+g21-1.1.aarch64.rpm"
-RPM_HASH = "3fa49751df99083ea139150423967f37bf534263ed46a5f1d138ddc2493d24d5ea3e1fccc88df1e70480852f63c1c41d084b1a54665b0a8d33feddca2d536ef1"
+RPM_NAME = "libspandsp3-3.0.0+g57-1.8.aarch64.rpm"
+RPM_HASH = "2dc52fbcc4c14d2e791c4a31bd3982eca8995c6771e36e099a8750272180bd1bc39d4552f1dee46644e98917ebc5bbf5419cc43f3feb10ad00cfc44a1d134ba3"
 
 RPROVIDES:${PN} += "libspandsp.so.3 \
 libspandsp3"
@@ -19,6 +19,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libjpeg.so.8 \
 libm.so.6 \
+libmvec.so.1 \
 libtiff.so.6"
 
 inherit rpm

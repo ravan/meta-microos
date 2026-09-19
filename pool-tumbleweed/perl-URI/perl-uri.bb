@@ -29,10 +29,10 @@ components. The methods available for a specific 'URI' object depend on the \
 scheme."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "5.210.0"
+PV = "5.370.0"
 
-RPM_NAME = "perl-URI-5.210.0-1.1.noarch.rpm"
-RPM_HASH = "cf0f1e3a4089abe1e35c771db8d093f2f1f3ca664116dba2ebc0c7e76e891d01bf175f8f080d24e94182534dc12b9b840325a94b7b104d7a16b11fa6d18acadc"
+RPM_NAME = "perl-URI-5.370.0-1.1.noarch.rpm"
+RPM_HASH = "3a417be3d2f39ad3cdb48ad6a51ba423f37657142c1bb00b41bbe47e6a0ca2482f954bc78eef66b1eb67474e95d597d9513a7ff937b813d71978830bdb47bd5e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-URI \
@@ -53,11 +53,16 @@ perl-URI--file--QNX \
 perl-URI--file--Unix \
 perl-URI--file--Win32 \
 perl-URI--ftp \
+perl-URI--ftpes \
+perl-URI--ftps \
+perl-URI--geo \
 perl-URI--gopher \
 perl-URI--http \
 perl-URI--https \
 perl-URI--icap \
 perl-URI--icaps \
+perl-URI--irc \
+perl-URI--ircs \
 perl-URI--ldap \
 perl-URI--ldapi \
 perl-URI--ldaps \
@@ -66,23 +71,30 @@ perl-URI--mms \
 perl-URI--news \
 perl-URI--nntp \
 perl-URI--nntps \
+perl-URI--otpauth \
 perl-URI--pop \
 perl-URI--rlogin \
 perl-URI--rsync \
 perl-URI--rtsp \
 perl-URI--rtspu \
+perl-URI--scp \
 perl-URI--sftp \
 perl-URI--sip \
 perl-URI--sips \
+perl-URI--smb \
+perl-URI--smtp \
 perl-URI--snews \
 perl-URI--ssh \
 perl-URI--telnet \
 perl-URI--tn3270 \
 perl-URI--urn \
 perl-URI--urn--isbn \
-perl-URI--urn--oid"
+perl-URI--urn--oid \
+perl-URI--ws \
+perl-URI--wss"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
+perl-MIME--Base32 \
 perl-parent"
 
 inherit rpm

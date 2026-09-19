@@ -18,17 +18,17 @@ conventions: \
               current object. (Sometimes referred as '$self' in other code)"
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "4.61"
+PV = "4.610.0"
 
-RPM_NAME = "perl-CGI-Application-4.61-1.19.noarch.rpm"
-RPM_HASH = "c9249f004408a9712df1183c10f63fb30e552d070311276f52a17dd7bca68a470474cac7bd676f9f0247679d4e00179c8294f375f0f30aab062794db0f197376"
+RPM_NAME = "perl-CGI-Application-4.610.0-1.7.noarch.rpm"
+RPM_HASH = "22218c575a14465d40bc2d469da8e2b3fcd56af6ef434cd2c83c471df466d58c7144d55f453a717c8306652cc0cb304e159129bcd36661f16e532c65f0748d01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-CGI--Application \
 perl-CGI--Application--Mailform \
 perl-CGI-Application"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-CGI \
 perl-Class--ISA \
 perl-HTML--Template \

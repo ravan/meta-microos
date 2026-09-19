@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-econometrics"
 DESCRIPTION = "This package includes the documentation for texlive-econometrics"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn39396"
+PV = "2026.226.1.0svn39396"
 
-RPM_NAME = "texlive-econometrics-doc-2023.209.1.0svn39396-54.2.noarch.rpm"
-RPM_HASH = "dfcc22d01565d34fb358fa70e1f83ad0e9dbb5086ddedf8bd0071de47e9669cc7f52cddac2913e9ada938c073c4e7df040bec1d63bd19baeee594e8c189cba70"
+RPM_NAME = "texlive-econometrics-doc-2026.226.1.0svn39396-61.4.noarch.rpm"
+RPM_HASH = "98793d357eaddc5a3a97d6a207eee567cc8cbfbe795964d8c4eaf0d558f363df649c88b91dced1eec681a0d366d7baf4000e7db8ea64128a7a4778448b8693f7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-econometrics-doc"

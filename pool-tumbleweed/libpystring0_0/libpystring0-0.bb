@@ -13,10 +13,10 @@ Originally developed at Sony Pictures Imageworks. \
 http://opensource.imageworks.com/"
 LICENSE = "BSD-2-Clause"
 
-PV = "1.1.3"
+PV = "1.1.4"
 
-RPM_NAME = "libpystring0_0-1.1.3-1.9.aarch64.rpm"
-RPM_HASH = "3db74b830a7eb3cfc0531140118e49366e04762e7871da424b02e8b80a2ba48191c6abf686a2e66c65af2912f0ba6eabd00d276951c180d73f592bd6947dd0c6"
+RPM_NAME = "libpystring0_0-1.1.4-1.9.aarch64.rpm"
+RPM_HASH = "0ff330c22c956d1aadbb226d764bbd16a4d61f64a2dfe3b72549f9ae0fd25c7aa9e44ff096221af255050a006e078f1ac7cbf6989d5b3c0c9d8bbd40f05e0700"
 
 RPROVIDES:${PN} += "libpystring.so.0.0 \
 libpystring0-0"

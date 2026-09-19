@@ -8,15 +8,16 @@ Checks include: incorrect or inconsistent character encoding, missing \
 headers, incorrect language codes and improper plural forms."
 LICENSE = "MIT"
 
-PV = "0.26"
+PV = "0.27.2"
 
-RPM_NAME = "i18nspector-0.26-2.9.noarch.rpm"
-RPM_HASH = "77037016934d943ed3101a90c49ba58045b2c7ccbc748c1973138866f0689287dcf4943ed6da5a968832e0ca66cef6a5fe31b6c61dc152e1ea052c5ea31e0eb0"
+RPM_NAME = "i18nspector-0.27.2-1.2.noarch.rpm"
+RPM_HASH = "94be889e183609b3f29f9a03c11927514ddaacf24ae2699d10e308e0ded0b7a04a3404f8c243f9f8dd94927c0103dc810bb5e67b699f18a37298fa31b4c69cb7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "i18nspector"
 
 RDEPENDS:${PN} += "/usr/bin/python3 \
+python3 \
 python3-polib \
 python3-rply"
 

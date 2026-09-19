@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-ku-template"
 DESCRIPTION = "This package includes the documentation for texlive-ku-template"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn45935"
+PV = "2026.226.0.0.02svn45935"
 
-RPM_NAME = "texlive-ku-template-doc-2023.209.0.0.02svn45935-56.1.noarch.rpm"
-RPM_HASH = "54b0ca064cae7dbb6e7eb336e90e2ec03b7c1d723b1bf6212b9c5cca902fae520669039c048ba66735ce14452ef8c4a7e6c9d2d0d4ef32f11e91a3450694c969"
+RPM_NAME = "texlive-ku-template-doc-2026.226.0.0.02svn45935-63.2.noarch.rpm"
+RPM_HASH = "8705e3bb2267f77f978bb2abab2ada2f422c94e83587a5884146ca16347f2dfe4cd69ca8eae4626b8d76790d0efd8c4ae97511cfb26cf8887dcc78a023882892"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-ku-template-doc"

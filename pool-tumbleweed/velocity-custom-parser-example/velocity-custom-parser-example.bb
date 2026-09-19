@@ -23,10 +23,10 @@ applications to be developed according to a true MVC model. \
 This package contains Custom Parser Example for Apache Velocity."
 LICENSE = "Apache-2.0"
 
-PV = "2.3"
+PV = "2.4.1"
 
-RPM_NAME = "velocity-custom-parser-example-2.3-3.10.noarch.rpm"
-RPM_HASH = "ea3ea234251147edd056b5ba53e1e9ec550a59cbb2ad75ed9b8a7b196da9bda48069230f32b2879c9b0f0ba6eba96126ea12beeec2c4fedf11976b545bd90cf4"
+RPM_NAME = "velocity-custom-parser-example-2.4.1-1.4.noarch.rpm"
+RPM_HASH = "ad94a89403f7b13f9e3dd2c034268da8d1524a273cc5c04cf27ef39cd225a0da25649f69b70a8f49580c4b15f43814345b5b1b9ae40664cfa9c80924fbff91c2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mvn-org.apache.velocity-velocity-custom-parser-example-pom- \
@@ -34,8 +34,6 @@ velocity-custom-parser-example"
 
 RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-com.google.code.maven-replacer-plugin-replacer \
-mvn-commons-io-commons-io \
 mvn-org.apache.felix-maven-bundle-plugin \
 mvn-org.apache.maven.plugins-maven-dependency-plugin \
 mvn-org.apache.maven.plugins-maven-resources-plugin \

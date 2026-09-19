@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-oinuit"
 DESCRIPTION = "The  separated fonts package for texlive-oinuit"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn28668"
+PV = "2026.226.svn28668"
 
-RPM_NAME = "texlive-oinuit-fonts-2023.209.svn28668-55.1.noarch.rpm"
-RPM_HASH = "837e2fa53464427d4e84ca6f5b67a40b23f293acf2b89c97267db64d560a4af4c5c2a61f250576d6614773c2aa0ff3cee9978571b9329b3fa3328efe04359f53"
+RPM_NAME = "texlive-oinuit-fonts-2026.226.svn28668-61.2.noarch.rpm"
+RPM_HASH = "be8d2d3ee3a6b1e3e1e19f35a0836a78fc39db0d96b69ef19c61e6994b2c0778dbd2ab319e3dd78b2cd0f9ead6a756c9ca5c7095c5bb18aed4aa1a455683b07f"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

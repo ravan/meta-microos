@@ -8,15 +8,15 @@ If you want Module::Find to search in a certain directory on your harddisk \
 you modify '@INC' before you call the Module::Find functions."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.16"
+PV = "0.170.0"
 
-RPM_NAME = "perl-Module-Find-0.16-1.4.noarch.rpm"
-RPM_HASH = "033623f08159319bdaca97ff67460a35f6bed92d24b1c0c341027ea05d29e6a889b4baa7cc2343b070debcea2f6d92e2cc3627a94c2e8a80419ef4ef2f88e469"
+RPM_NAME = "perl-Module-Find-0.170.0-1.9.noarch.rpm"
+RPM_HASH = "9978e218b9c7b2253a88289b45debe82d50c5c42cb62e0e9b93dc13d63abbd3acf711b73d92ccf11ea192f1f151975491b02dc42f0eed869cc0855b6a04626c1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Find \
 perl-Module-Find"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

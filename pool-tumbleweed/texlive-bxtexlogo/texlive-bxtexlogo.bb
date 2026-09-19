@@ -11,10 +11,10 @@ logos can be imported in the same way as those provided by the \
 \\logoAleph and \\logoLamed are used)."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn63231"
+PV = "2026.226.0.0.6svn63231"
 
-RPM_NAME = "texlive-bxtexlogo-2023.209.0.0.6svn63231-53.1.noarch.rpm"
-RPM_HASH = "5e2f61a6928fdc6f6d4c9e39b7853f08a028f5ccf4f1939d03364ac0fc03767c59cd6dd76c6bf4fc273b4d1ec60512efaa10fe7388a3ca8c733f9133089ece6a"
+RPM_NAME = "texlive-bxtexlogo-2026.226.0.0.6svn63231-59.2.noarch.rpm"
+RPM_HASH = "5b8b84b37e709659a6e359d30a9fc8fa52c6770900b6d512747117cbba58f0bab658ac8da7aa159c2d270e9c52710fe594a34183019075f1993e158c2edad54e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxtexlogo.sty \

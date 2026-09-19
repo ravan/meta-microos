@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-dtxdescribe"
 DESCRIPTION = "This package includes the documentation for texlive-dtxdescribe"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.07svn65445"
+PV = "2026.226.1.09svn69507"
 
-RPM_NAME = "texlive-dtxdescribe-doc-2023.209.1.07svn65445-53.1.noarch.rpm"
-RPM_HASH = "08c209316bcc608fbf349ec1c06f56b3898e29ebbb66b83d381f63746b2923dc743b3a7116915df96ad3fb27f5236d9c73b9c75113dcdf8eb3727fc7b0a17ece"
+RPM_NAME = "texlive-dtxdescribe-doc-2026.226.1.09svn69507-59.2.noarch.rpm"
+RPM_HASH = "a0f50d0dae15d62d63869624fec8614404e3ebe5b6fa49e2c5e8ee6d3f41520e7a4478710ea8f4bd5e7fd269d1bf0b5321142d1eda1bc6c46d27f673cc4fc707"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-dtxdescribe-doc"

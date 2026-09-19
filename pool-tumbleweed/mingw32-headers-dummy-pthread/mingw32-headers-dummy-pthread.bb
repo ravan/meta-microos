@@ -4,10 +4,10 @@ and only exist to satisfy dependencies in MinGW's unistd.h until \
 an actual pthread implementation (like winpthreads) is installed."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "10.0.0"
+PV = "14.0.0"
 
-RPM_NAME = "mingw32-headers-dummy-pthread-10.0.0-1.3.noarch.rpm"
-RPM_HASH = "ae728c695b5f2b04167df051048ceb6dffebabc4052b14ff16e2604f52129640329f661cc722c290e0661ee3980635b899069ae485fedd12888f365271918af9"
+RPM_NAME = "mingw32-headers-dummy-pthread-14.0.0-1.1.noarch.rpm"
+RPM_HASH = "436ab47c9e0043fef887e0265e0ad6914292ddc49cae5aea8f34dee17bc6fcd5238bed4e3813b7264f9a8b10e2cb28755741917141b159aaca726fd31cfc8baf"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mingw32-headers-dummy-pthread \

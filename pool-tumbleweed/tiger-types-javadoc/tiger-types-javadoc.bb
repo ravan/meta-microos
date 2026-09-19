@@ -4,8 +4,8 @@ LICENSE = "CDDL-1.0 | GPL-2.0-only-with-Classpath-exception-2.0"
 
 PV = "2.2"
 
-RPM_NAME = "tiger-types-javadoc-2.2-5.1.noarch.rpm"
-RPM_HASH = "8f362c0e405027f618b049319e4c973eccdd954c582a27b4488f98d211b73603980d1c7046a369c17466520c276889723fd23799ccbe5e7531e9d6d0fef13158"
+RPM_NAME = "tiger-types-javadoc-2.2-5.10.noarch.rpm"
+RPM_HASH = "f94f9c1b86c88dcb73452e6b848e51fc857971fbd0471511973ab5db4cc6106a1da7cc36ed0c811475ef5fdee2de523340c83f9916cde2444cfcf6b100049178"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tiger-types-javadoc"

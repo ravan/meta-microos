@@ -3,10 +3,10 @@ DESCRIPTION = "tuxpaint-stamps-town package contains a set of 'Rubber Stamp' ima
 which can be used with the 'Stamp' tool within Tux Paint."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2021.11.25"
+PV = "2023.07.20"
 
-RPM_NAME = "tuxpaint-stamps-town-2021.11.25-1.5.noarch.rpm"
-RPM_HASH = "aafb75b28e991b5e2637cf463049e94e95a0971b848cf93efb6c897f54c86c3a38fd61084d6d1268928fea9b2269afc2c952491692605f2def39adcdfb565585"
+RPM_NAME = "tuxpaint-stamps-town-2023.07.20-1.9.noarch.rpm"
+RPM_HASH = "34a29435ef215b967a0dbcf9101eef79d6521e2d17a599d5471d3d16d8284e29da02c02173ab61efd1e2f854db25e56ab297f04856cf42874be1dc1c45dc48dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tuxpaint-stamps-category \

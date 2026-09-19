@@ -45,8 +45,8 @@ LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
 PV = "0.423400"
 
-RPM_NAME = "perl-Module-Build-0.423400-1.3.noarch.rpm"
-RPM_HASH = "03c4b6d68510c0d9bc9ac83324ee6a42a342fd35ffc1b6538b4e6b6db8a5ed0d509af89b3a55c6d6fda598708bca4e860c117f57a3b2923ff2a568799dde528a"
+RPM_NAME = "perl-Module-Build-0.423400-1.18.noarch.rpm"
+RPM_HASH = "2618f67b82d755a6dc2a881b3a42f06f70e6190d258f7c2c4c076e733431c5af993458a51a74903e1ab11434e8e8f9eb2d52e8f4a6adeae2d80c450d98e5db58"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Module--Build \
@@ -72,7 +72,7 @@ perl-Module--Build--PodParser \
 perl-Module-Build"
 
 RDEPENDS:${PN} += "/usr/bin/perl \
-perl--MODULE-COMPAT-5.38.0 \
+perl--MODULE-COMPAT-5.44.0 \
 perl-CPAN--Meta \
 perl-ExtUtils--CBuilder \
 perl-ExtUtils--ParseXS \

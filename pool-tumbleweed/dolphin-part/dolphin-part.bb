@@ -2,44 +2,46 @@ SUMMARY = "KDE File Manager"
 DESCRIPTION = "This package contains the libraries used by Dolphin and Konqueror."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "23.08.0"
+PV = "26.08.1"
 
-RPM_NAME = "dolphin-part-23.08.0-1.1.aarch64.rpm"
-RPM_HASH = "c897781218ce0a502fea18cd211122a63eb4bf3aa782ea04e3080b24120d61b228f88bc6c0627e265912ad184328c6aa6b5a2a662c84bd5a8cdf9118bf3c61fd"
+RPM_NAME = "dolphin-part-26.08.1-1.1.aarch64.rpm"
+RPM_HASH = "b45e22e4587bd2e99e3fa0d6f0037ed7b740e54316b868ac52630b42f0b2980809a7ed32917b8e7d65a00a15158138fabd334080436538a9e804f03b4bd9eab3"
 
 RPROVIDES:${PN} += "dolphin-part \
-libdolphinprivate.so.5"
+libdolphinprivate.so.6"
 
 RDEPENDS:${PN} += "/sbin/ldconfig \
-kio \
+kf6-kio \
 ld-linux-aarch64.so.1 \
-libKF5Baloo.so.5 \
-libKF5BalooWidgets.so.5 \
-libKF5Codecs.so.5 \
-libKF5ConfigCore.so.5 \
-libKF5ConfigGui.so.5 \
-libKF5ConfigWidgets.so.5 \
-libKF5CoreAddons.so.5 \
-libKF5FileMetaData.so.3 \
-libKF5I18n.so.5 \
-libKF5IconThemes.so.5 \
-libKF5ItemViews.so.5 \
-libKF5JobWidgets.so.5 \
-libKF5KIOCore.so.5 \
-libKF5KIOFileWidgets.so.5 \
-libKF5KIOGui.so.5 \
-libKF5KIOWidgets.so.5 \
-libKF5NewStuff.so.5 \
-libKF5Parts.so.5 \
-libKF5TextWidgets.so.5 \
-libKF5WidgetsAddons.so.5 \
-libKF5XmlGui.so.5 \
-libQt5Core.so.5 \
-libQt5DBus.so.5 \
-libQt5Gui.so.5 \
-libQt5Widgets.so.5 \
+libKF6Baloo.so.6 \
+libKF6BalooWidgets.so.6 \
+libKF6Codecs.so.6 \
+libKF6ColorScheme.so.6 \
+libKF6ConfigCore.so.6 \
+libKF6ConfigGui.so.6 \
+libKF6ConfigWidgets.so.6 \
+libKF6CoreAddons.so.6 \
+libKF6FileMetaData.so.3 \
+libKF6GuiAddons.so.6 \
+libKF6I18n.so.6 \
+libKF6IconThemes.so.6 \
+libKF6JobWidgets.so.6 \
+libKF6KCMUtils.so.6 \
+libKF6KCMUtilsCore.so.6 \
+libKF6KIOCore.so.6 \
+libKF6KIOFileWidgets.so.6 \
+libKF6KIOGui.so.6 \
+libKF6KIOWidgets.so.6 \
+libKF6Parts.so.6 \
+libKF6TextWidgets.so.6 \
+libKF6WidgetsAddons.so.6 \
+libKF6XmlGui.so.6 \
+libQt6Core.so.6 \
+libQt6DBus.so.6 \
+libQt6Gui.so.6 \
+libQt6Widgets.so.6 \
 libc.so.6 \
-libdolphinvcs.so.5 \
+libdolphinvcs.so.6 \
 libm.so.6 \
 libstdc++.so.6"
 

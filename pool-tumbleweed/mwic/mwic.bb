@@ -5,10 +5,10 @@ documents that often contain words that are not included in standard \
 dictionaries."
 LICENSE = "MIT"
 
-PV = "0.7.9"
+PV = "0.7.10"
 
-RPM_NAME = "mwic-0.7.9-1.3.noarch.rpm"
-RPM_HASH = "b30183bf001fb4a7bfaaba848a13ac0653f87056d1562b41db376085721ac5dcf0d7e5ce74d683959645487cb16a339444a5cfcb4586000609a5b4d642199ea9"
+RPM_NAME = "mwic-0.7.10-1.9.noarch.rpm"
+RPM_HASH = "3cdb3fa1ef613fc2d91192efae21685c7e768ace666b5b811a13b4c18e4f7f0e4a21aa7b0f046e13b445ff92ded7bb780ddd224f68cc651e1c361aee9291c9fb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "mwic"

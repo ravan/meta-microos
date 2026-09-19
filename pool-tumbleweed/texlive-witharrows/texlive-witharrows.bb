@@ -8,13 +8,14 @@ The package requires the following other LaTeX packages: expl3, \
 footnote, l3keys2e, tikz, and xparse."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2.8asvn65841"
+PV = "2026.226.2.9asvn77682"
 
-RPM_NAME = "texlive-witharrows-2023.209.2.8asvn65841-54.1.noarch.rpm"
-RPM_HASH = "e82d11894b257c5f21f12117318bdabb659bb441a12d5ac1eada60ce898bf4f9b87ea48025b38fc8e0a60988bf0c96c6b4ea080ba1b658b7cc83e382b9c80845"
+RPM_NAME = "texlive-witharrows-2026.226.2.9asvn77682-60.2.noarch.rpm"
+RPM_HASH = "4276b440ebfd33491e7761363f90b8a7bcb4e6798e75523effaf276f20f7194ab45e7255c4bc4cf41c1e9cd9a44b1d2887006f1ad389e5c98b8371b916a1ff04"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-witharrows.sty \
+tex-witharrows.tex \
 texlive-witharrows"
 
 RDEPENDS:${PN} += "/usr/bin/sh \

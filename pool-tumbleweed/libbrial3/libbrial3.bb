@@ -7,10 +7,10 @@ binary decision diagrams are used as internal storage type for \
 polynomial structures."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.2.12"
+PV = "1.2.15"
 
-RPM_NAME = "libbrial3-1.2.12-1.4.aarch64.rpm"
-RPM_HASH = "9f2dac5308c069b05069f4059711f26f6e709f435e2ff0d9e0df526c0cf5b0f4f58a5e6274b552d17e60aa50785e9f179b151aaf4d830f0ecd86a75b43cb48f2"
+RPM_NAME = "libbrial3-1.2.15-2.1.aarch64.rpm"
+RPM_HASH = "9449bc62b6a588ba3702a4db17b585ca621bf1db5243597ef3a61fb2348c40a33e3827639f9ed9a281af7bb55fb66c52b50ae0ef8473ec4fc3adbec74c535ad2"
 
 RPROVIDES:${PN} += "libbrial-groebner.so.3 \
 libbrial.so.3 \
@@ -21,7 +21,7 @@ ld-linux-aarch64.so.1 \
 libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
-libm4ri-0.0.20200125.so \
+libm4ri.so.2 \
 libstdc++.so.6"
 
 inherit rpm

@@ -29,10 +29,10 @@ With Sonic Visualiser you can: \
   Control (OSC) protocol"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "4.5.2"
+PV = "5.2.1"
 
-RPM_NAME = "sonic-visualiser-4.5.2-1.1.aarch64.rpm"
-RPM_HASH = "bc73fa8e1908b86146f8f5109dcad396fac7b2b941b9de4c2de973e3e602a7f06e59eac1d0bb5f35107088000ecda734a1a883f7b42840397dc6d2c69643ad6a"
+RPM_NAME = "sonic-visualiser-5.2.1-2.8.aarch64.rpm"
+RPM_HASH = "0f33b8c2e03486bf5274cdd87d416c63cd42a3fa735ae565acfad0d6259a8d75ad6a345695fc4d5c7baabca4a120ec7c8c804d589b5c336fd2e34aae9293e8ab"
 
 RPROVIDES:${PN} += "sonic-visualiser"
 
@@ -40,21 +40,21 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 dssi \
 ladspa \
 ld-linux-aarch64.so.1 \
-libQt5Core.so.5 \
-libQt5Gui.so.5 \
-libQt5Network.so.5 \
-libQt5Svg.so.5 \
-libQt5Widgets.so.5 \
-libQt5Xml.so.5 \
+libQt6Core.so.6 \
+libQt6Gui.so.6 \
+libQt6Network.so.6 \
+libQt6Svg.so.6 \
+libQt6Widgets.so.6 \
+libQt6Xml.so.6 \
 libasound.so.2 \
 libbz2.so.1 \
 libc.so.6 \
-libcapnp-0.10.4.so \
+libcapnp.so.1.5.0 \
 libfftw3.so.3 \
 libfishsound.so.1 \
 libgcc-s.so.1 \
-libid3tag.so.0.16.2 \
-libkj-0.10.4.so \
+libid3tag.so.0 \
+libkj.so.1.5.0 \
 liblo.so.7 \
 liblrdf.so.2 \
 libm.so.6 \
@@ -63,7 +63,7 @@ liboggz.so.2 \
 libopusfile.so.0 \
 libportaudio.so.2 \
 libpulse.so.0 \
-librubberband.so.2 \
+librubberband.so.3 \
 libsamplerate.so.0 \
 libserd-0.so.0 \
 libsndfile.so.1 \

@@ -5,10 +5,10 @@ audio, etc. similar to SDL. \
 This subpackage contains the developer documentation."
 LICENSE = "Zlib"
 
-PV = "2.6.0"
+PV = "2.6.1"
 
-RPM_NAME = "sfml2-doc-2.6.0-1.1.noarch.rpm"
-RPM_HASH = "5f47abbd06fd95f3e717a61c13ecdcd4e549e18f70b1f429380fb09dde3325deb24c394822726f890f3b7754ecbe746babef091ad3dbb9c0652d6564ef171d77"
+RPM_NAME = "sfml2-doc-2.6.1-2.8.noarch.rpm"
+RPM_HASH = "25703b475f2f0cae8afad9a64cbaea487427ab11f6d27db380a83f633ed9672197e66ae592ca5aca7216b92f9915a17de947169d1de2944c9f45f215cba0d2a2"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "sfml2-doc"

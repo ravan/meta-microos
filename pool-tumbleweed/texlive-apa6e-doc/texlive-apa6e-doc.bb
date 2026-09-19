@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-apa6e"
 DESCRIPTION = "This package includes the documentation for texlive-apa6e"
 LICENSE = "BSD-3-Clause"
 
-PV = "2023.209.0.0.3svn23350"
+PV = "2026.226.0.0.3svn23350"
 
-RPM_NAME = "texlive-apa6e-doc-2023.209.0.0.3svn23350-55.1.noarch.rpm"
-RPM_HASH = "7c6b750307f97e5a0ccae73b5b2c8f36773b0bb37f8946af0f6b890646632576273c6f61070bee5ec08ee117e88edcd129c768ae636c89a84025770a330f9964"
+RPM_NAME = "texlive-apa6e-doc-2026.226.0.0.3svn23350-61.2.noarch.rpm"
+RPM_HASH = "86e371f8716d16b37d61ce0ef00ba6f28a53153920d10dd6bfa9754a6095a8c6b8b732c43aff5a7349b4ac3940c1c1c807bf9f3a83a3c63d5370e6574bac5e11"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-apa6e-doc"

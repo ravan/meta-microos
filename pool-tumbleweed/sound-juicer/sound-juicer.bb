@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.40.0"
 
-RPM_NAME = "sound-juicer-3.40.0-1.1.aarch64.rpm"
-RPM_HASH = "d6d6e5f395efa6e3d264b9113ac575c88fd1a38290cc66a39b2cb36ff095fac1e126f90cfcbe6fda276f750482cd46cbb8287df1d95e774b666223fae0e746e4"
+RPM_NAME = "sound-juicer-3.40.0-3.6.aarch64.rpm"
+RPM_HASH = "94273e47bc1dee961eecbc3d13ffcb47819a475d96351c7f54bcf15b8754a64d6ff665752e3a11cbd9180457c449efdf2636df217e7f7f414b2b4c7f0c12937c"
 
 RPROVIDES:${PN} += "sound-juicer"
 

@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-puyotikz"
 DESCRIPTION = "This package includes the documentation for texlive-puyotikz"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0.1svn57254"
+PV = "2026.226.1.0.1svn57254"
 
-RPM_NAME = "texlive-puyotikz-doc-2023.209.1.0.1svn57254-54.2.noarch.rpm"
-RPM_HASH = "aa2c22f6eb01a6217ffa8d07f668bcfe93f75a6c9183950e6c76efc655c13c4f672b8c3ad44a3d0108a2eeb4b3adeca134a6b36fbba05f440aa9dfb36a3fb2c6"
+RPM_NAME = "texlive-puyotikz-doc-2026.226.1.0.1svn57254-60.4.noarch.rpm"
+RPM_HASH = "96088e1874b183deb88e38644db45cad94951846b202c571aa85b64c020798810eefdbb0d3ff8d835914465fd29e8b4f0d075c0d6430891a6541d78c1bd45756"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-puyotikz-doc"

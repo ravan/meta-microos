@@ -30,10 +30,10 @@ Perl to handle Unicode filenames, which is not yet the case on Windows. \
 See L<ExtUtils::MakeMaker::FAQ> for details of the design and usage."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "7.70"
+PV = "7.78"
 
-RPM_NAME = "perl-ExtUtils-MakeMaker-7.70-1.3.noarch.rpm"
-RPM_HASH = "2f6b1cb2e70ac00856da2d62657bb439ed7da5a084ce02da54c04e1fec0ba89973c6f9e07479c08492d38bbcc15f892a45fa27c03bcea82cc0f86baf172c668e"
+RPM_NAME = "perl-ExtUtils-MakeMaker-7.78-1.4.noarch.rpm"
+RPM_HASH = "8fa1c46cf9f20968ac5c98697b544d75e1e49304439dd874332fe04414fcb61e03f61419bbee31c03d4d225301461ef22586e13e81d4f081f117dd237f8c83bb"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-DynaLoader \
@@ -75,6 +75,6 @@ perl-ExtUtils-MakeMaker \
 perl-MM \
 perl-MY"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

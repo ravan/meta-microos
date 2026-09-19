@@ -4,10 +4,10 @@ a number of \\magsteps to change size; from this are defined \
 commands \\larger, \\smaller, \\textlarger, etc."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.4.1svn30707"
+PV = "2026.226.4.1svn77682"
 
-RPM_NAME = "texlive-relsize-2023.209.4.1svn30707-54.2.noarch.rpm"
-RPM_HASH = "a65486c1ffd2920af1193b846ea778ff5a3ca5ce53fb95ba1aa5374437e9cad1fa1ea5d501aa8fd4433ae45fa8929a9da594bedbdf3640c524e886a066aa6646"
+RPM_NAME = "texlive-relsize-2026.226.4.1svn77682-60.4.noarch.rpm"
+RPM_HASH = "d3fc0a576f03b0a11a7a4e8394bbab69358f25f978cd94956f21a8b852a62c888cd1adb4ad42b972c95f8c5adc5706609c6aa98c0e132e640a561ff440af0a4f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-relsize.sty \

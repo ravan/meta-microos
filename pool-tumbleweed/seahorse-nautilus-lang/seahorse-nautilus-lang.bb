@@ -4,8 +4,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "3.11.92+95"
 
-RPM_NAME = "seahorse-nautilus-lang-3.11.92+95-1.3.noarch.rpm"
-RPM_HASH = "84ad2503645dbc8966738a9e7c9739124ca7927f86f11edc02e230bd9458475cd70dab2759a3af046ca9dab947008299e7a7377942063f5d68c86182fd38ade3"
+RPM_NAME = "seahorse-nautilus-lang-3.11.92+95-2.6.noarch.rpm"
+RPM_HASH = "b9debbf9467b27c632e0ce61e2b84a487bb4ee7baee745f6178dde830cfbeb402f7495b57cc687185a27fc650b7ec223a539172ca7b32b6e27a56eac4cec50b1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-seahorse-nautilus-ar \

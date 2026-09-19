@@ -10,8 +10,8 @@ LICENSE = "GPL-2.0+"
 
 PV = "1.0.1"
 
-RPM_NAME = "fillets-ng-data-1.0.1-1.16.noarch.rpm"
-RPM_HASH = "c2fdd635e35d659ae26882b30025809df5725feea214d2737713d3deba1c80aa2fe9e2891fc651c176bcef72aa396cca065226507cef8780bb7eba61249b8560"
+RPM_NAME = "fillets-ng-data-1.0.1-1.24.noarch.rpm"
+RPM_HASH = "8b090cafbc0089e10071e7b3243e26a4f57bb01860cb677be06052cdae019389755aa9043423d8efaa73c1b1e87aca0232904dd08be0bb1dfd62524ae2bb0ddd"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "fillets-ng-data"

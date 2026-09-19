@@ -6,10 +6,10 @@ graphics applications such as games and interactive media. \
 This package contains the Khronos official Vulkan tools and utilities."
 LICENSE = "Apache-2.0"
 
-PV = "1.3.261.0"
+PV = "1.4.357"
 
-RPM_NAME = "vulkan-tools-1.3.261.0-1.1.aarch64.rpm"
-RPM_HASH = "575ae4d6ccc1096039dcf76e6435e2995a29a24f9f1da2c08e329f14cfc0049695997954c3afc6bc7c13971fd8329a4d8f3538ef93505a0e1d85259331c2f74e"
+RPM_NAME = "vulkan-tools-1.4.357-1.1.aarch64.rpm"
+RPM_HASH = "e26278e03c1c7355b0e9c720345f43fc0b6a145251f3e95c8563eda64669fcd4d939da582c1870458478619d5430c9361d2016320dea20475e0a3b8db4eb3e12"
 
 RPROVIDES:${PN} += "vulkan \
 vulkan-tools"
@@ -20,7 +20,6 @@ libc.so.6 \
 libgcc-s.so.1 \
 libm.so.6 \
 libstdc++.so.6 \
-libvulkan.so.1 \
 libwayland-client.so.0 \
 libxcb.so.1"
 

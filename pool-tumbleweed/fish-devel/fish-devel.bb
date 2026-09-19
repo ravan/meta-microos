@@ -1,11 +1,11 @@
 SUMMARY = "Devel files for the fish shell"
 DESCRIPTION = "This package contains development files for the fish shell."
-LICENSE = "GPL-2.0-only"
+LICENSE = "BSD-3-Clause & GPL-2.0-only & ISC & LGPL-2.0-or-later & MIT & PSF-2.0"
 
-PV = "3.6.1"
+PV = "4.8.1"
 
-RPM_NAME = "fish-devel-3.6.1-1.2.aarch64.rpm"
-RPM_HASH = "835b406dd7251a9f3402d31b97d7548c0f80d24c913ce1fb9fa985d9e91e751d51468ca398c7f347693e74cb0a7f54e0793e451b84a9b44d182caebb645e04a8"
+RPM_NAME = "fish-devel-4.8.1-1.2.aarch64.rpm"
+RPM_HASH = "d427963a38bb1e1e49735810f0e61133118f5349244cd9eea160ad47055bd670b3b403f738d5379e7f850956eee5e7c09cdc9cb50927dfb0ce5c4a0cd0245609"
 
 RPROVIDES:${PN} += "fish-devel \
 pkgconfig-fish"

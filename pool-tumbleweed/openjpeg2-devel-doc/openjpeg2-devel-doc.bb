@@ -4,10 +4,11 @@ DESCRIPTION = "The OpenJPEG library is an open-source JPEG 2000 codec written in
 This package provides the API documentation for openjpeg2."
 LICENSE = "BSD-2-Clause"
 
-PV = "2.5.0"
+PV = "2.5.4"
 
-RPM_NAME = "openjpeg2-devel-doc-2.5.0-3.4.aarch64.rpm"
-RPM_HASH = "7f812672a1bf49e721f89d981ec8bc32ba1478bb2e9e601a198fdc0b1f8646ecdb418e636d2ae779b55c8322739886bba51f535589abdf20e3354b882c4a308c"
+RPM_NAME = "openjpeg2-devel-doc-2.5.4-2.6.noarch.rpm"
+RPM_HASH = "5732d84a405f6002cf055a0a42944fbfab1b12f6065dd5e959ef6692900305658759906ba6747eb48ba42d930a183334bdedf0ce1ce9f745b4acb8503f513e24"
+REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "openjpeg2-devel-doc"
 

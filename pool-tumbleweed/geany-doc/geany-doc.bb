@@ -2,10 +2,10 @@ SUMMARY = "Geany documentation"
 DESCRIPTION = "Geany's developers documentation"
 LICENSE = "GPL-2.0-or-later"
 
-PV = "1.38"
+PV = "2.1"
 
-RPM_NAME = "geany-doc-1.38-3.8.aarch64.rpm"
-RPM_HASH = "9632db8342e95db79c48d40c21633c9d7e96f2362bcee9adec2e8053a87724b49cda1dd078180b1f70d21538c5d83b225e62469f7a9d4b6be90359fe5d0ff315"
+RPM_NAME = "geany-doc-2.1-1.7.aarch64.rpm"
+RPM_HASH = "b1c0dde06bce9c2e036e621fc7782f44f1282a9747ae207091203661996d32bd614930e8ab6ce9d62b796245112e4d434b8cdf753aaa53bc75b06057eeff225f"
 
 RPROVIDES:${PN} += "geany-doc"
 

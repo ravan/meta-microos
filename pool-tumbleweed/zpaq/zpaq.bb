@@ -7,12 +7,12 @@ since the previous backup are added. For 100 GB of files, this \
 typically takes 1-2 minutes, vs. a few hours to create the first \
 version. 'Deduplicating' means that identical files or fragments are \
 stored only once to save time and space."
-LICENSE = "SUSE-Public-Domain & MIT"
+LICENSE = "MIT & SUSE-Public-Domain"
 
 PV = "7.15"
 
-RPM_NAME = "zpaq-7.15-3.10.aarch64.rpm"
-RPM_HASH = "416e9102c1f61fdab6951a24c1887ac42aea50c525f7532a0d0a2a6cfee2dc457e58e2e2f43e0f61168f715e656083be322cbc1524806d2acde3a9135a2ac4a0"
+RPM_NAME = "zpaq-7.15-4.3.aarch64.rpm"
+RPM_HASH = "27ee0daeb40a5518a2f5a4cc62bdd611a14b61013ba6b7d7fb724f62b9bb1b36f01f9b6fda3564c78b07f7992afbf2bf7ef32d936a833bf55a6bdd971dfb2516"
 
 RPROVIDES:${PN} += "zpaq"
 

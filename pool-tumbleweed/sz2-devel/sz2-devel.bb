@@ -3,10 +3,10 @@ DESCRIPTION = "Header files for libsz2, a drop-in replacement for the \
 SZIP library (http://www.hdfgroup.org/doc_resource/SZIP)."
 LICENSE = "BSD-2-Clause"
 
-PV = "1.0.6"
+PV = "1.1.7"
 
-RPM_NAME = "sz2-devel-1.0.6-1.8.aarch64.rpm"
-RPM_HASH = "2d180c07792670dda54469ea57d133a9c48be45b24927624a71b76429279fad906d9f74e0646808f08a3fa998215be5f50fc90cbe2048f7425daf07a67d30a28"
+RPM_NAME = "sz2-devel-1.1.7-1.3.aarch64.rpm"
+RPM_HASH = "3143e28f882a1cbcdae1f04b671e12bad705cf291bb0d82b5208608136d75e07bccb9a8cc8360537370a0094777ac4d6501d1f81f2955bb661896349e3adc286"
 
 RPROVIDES:${PN} += "libsz2-devel \
 sz2-devel"

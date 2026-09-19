@@ -11,8 +11,8 @@ LICENSE = "MIT"
 
 PV = "1.0.1"
 
-RPM_NAME = "libxcb-errors0-1.0.1-1.2.aarch64.rpm"
-RPM_HASH = "2ca50802bb25217ce2de9b0038dda607b5679f5c036e64f64fb08c00259767d25f35c7c08a4f7dd8c97872ab0a26b480c94196bab2eceb2b62b669af2e25e807"
+RPM_NAME = "libxcb-errors0-1.0.1-1.12.aarch64.rpm"
+RPM_HASH = "cf00bf071839d5235e6bbcb9ad0bc3b8a86c3372e6f9c426788d01e964477821888ac34386b4c89c9d38410401d75b8a43b40762988a58cf8a7d441cfb201ea7"
 
 RPROVIDES:${PN} += "libxcb-errors.so.0 \
 libxcb-errors0"

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package rhash"
 DESCRIPTION = "Provides translations for the 'rhash' package."
 LICENSE = "0BSD"
 
-PV = "1.4.4"
+PV = "1.4.6"
 
-RPM_NAME = "rhash-lang-1.4.4-1.1.noarch.rpm"
-RPM_HASH = "ee6fdc401b11d6dca71f28b39228aa69b1eb76a0e00623d3b52cdb5d50ef376c1815fc24d53c02c7e914d8aa06872cabb9e77fed63b9541fd9c9a147c8348155"
+RPM_NAME = "rhash-lang-1.4.6-2.3.noarch.rpm"
+RPM_HASH = "02e92bf4a9c988d32e98acb68d9ebfa6f2a82a14961dc4797d39896c9a93393399da5362549ee656d5fb142cc396358c9df317c9fdd8e72b622d0fa814b87f01"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-rhash-ca \
@@ -15,6 +15,7 @@ locale-rhash-es \
 locale-rhash-fr \
 locale-rhash-gl \
 locale-rhash-it \
+locale-rhash-pt-BR \
 locale-rhash-ro \
 locale-rhash-ru \
 locale-rhash-uk \

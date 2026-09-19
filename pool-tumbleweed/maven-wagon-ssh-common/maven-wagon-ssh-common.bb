@@ -4,8 +4,8 @@ LICENSE = "Apache-2.0"
 
 PV = "3.5.3"
 
-RPM_NAME = "maven-wagon-ssh-common-3.5.3-1.2.noarch.rpm"
-RPM_HASH = "fd69c991207dae48b8454876cdae5885b24a0ddb5ece345f2c0b49352d3e22c535293329ed577bb5a4becf31cea69503b5bf127a72f15fc357ed84d5a69ae669"
+RPM_NAME = "maven-wagon-ssh-common-3.5.3-2.9.noarch.rpm"
+RPM_HASH = "d2fe2431ac17139b62afff41c9ba08732ff073e41d7fc0839bfc6c27247357bb6ef707e2c327709e456d310de7b3bf58aaa1e0477156aeffbb4d7d91a24f400f"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "maven-wagon-ssh-common \

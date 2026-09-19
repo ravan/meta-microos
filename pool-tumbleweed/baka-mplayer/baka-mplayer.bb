@@ -6,8 +6,8 @@ LICENSE = "Apache-2.0 & GPL-2.0-or-later"
 
 PV = "2.0.4"
 
-RPM_NAME = "baka-mplayer-2.0.4-5.9.aarch64.rpm"
-RPM_HASH = "ea45fb84983fee91e23c2488feee15c9d86766853da50ffa00ccb21f6378e0d5258c9ec07fbd5544f2107628c5e8c1090c26a1ac101d85964c342a7677948fa0"
+RPM_NAME = "baka-mplayer-2.0.4-5.18.aarch64.rpm"
+RPM_HASH = "11a821fde4a129d864cdf5317bff9b3cbd0851b6c58f9cd60e63e14127d321cd3ba9966cde5e8a24a12657db1346175f2ea495f3fa50057970383c82527a0aa8"
 
 RPROVIDES:${PN} += "baka-mplayer"
 

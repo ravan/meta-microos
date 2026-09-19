@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "0.9.4"
 
-RPM_NAME = "pentaho-reporting-flow-engine-javadoc-0.9.4-6.7.noarch.rpm"
-RPM_HASH = "5349ba34daad0d16665d01bd181c6c82e9de487c9a4d97c7ef1d86fd6716838bb9007b56624c41e6519ef3d8aa7df1408b6ac5bb43191241fd2cbbd0a252ec66"
+RPM_NAME = "pentaho-reporting-flow-engine-javadoc-0.9.4-6.17.noarch.rpm"
+RPM_HASH = "210d22e556f9ad7a30c301efa4e52b52577818b260243fef41b383413a1d7354d08bf091c9b599b6c5fd3e127d4445e2d03518c4e2e47507229e2f0851add6e8"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "pentaho-reporting-flow-engine-javadoc"

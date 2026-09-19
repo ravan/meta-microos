@@ -5,8 +5,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "7.21.7"
 
-RPM_NAME = "libpgf-devel-7.21.7-1.11.aarch64.rpm"
-RPM_HASH = "eca4586ee917b2886aaea432e47d8cbba01535b8fc404d28e2c2774b7a1ad29f089e76dd62e86e5afceecd9ff2f413df17fb5578fa06720ddfd48e58d7aabb97"
+RPM_NAME = "libpgf-devel-7.21.7-1.21.aarch64.rpm"
+RPM_HASH = "6060cc0854b6bc12ad3f7a2957bcee392bc299fc4216877d71af4cf04f1af524e018bff59d4c2829e0016fa387956152e0d09d1d9c30fda89b3d4bd87ea27faa"
 
 RPROVIDES:${PN} += "libpgf-devel \
 pkgconfig-libpgf"

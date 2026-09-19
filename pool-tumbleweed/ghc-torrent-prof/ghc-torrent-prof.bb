@@ -4,19 +4,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "10000.1.3"
 
-RPM_NAME = "ghc-torrent-prof-10000.1.3-1.9.aarch64.rpm"
-RPM_HASH = "5a78ca10b9ef3b92600fe9bd3bdb9fdab93943062c5c42a46f49cf017a0402f485c90611959ea82839126887363ce8dcf81b4d001ec20ebf647c5b84738ea1d0"
+RPM_NAME = "ghc-torrent-prof-10000.1.3-1.32.aarch64.rpm"
+RPM_HASH = "dc55678273ef75fcd96a8ed659205d46a7a617da044d6cba8a5719dccb1738bcd12615944c2daa15e8decc8efdeff3fc26f869ac83e0db4adda8ec63a3ace9ad"
 
-RPROVIDES:${PN} += "ghc-prof-torrent-10000.1.3-G2wBML2oDMy6AdmYQo4Dlc \
+RPROVIDES:${PN} += "ghc-prof-torrent-10000.1.3-FDBlXWeq8Eo78d8gddJr1A \
 ghc-torrent-prof"
 
-RDEPENDS:${PN} += "ghc-prof-base-4.17.2.0 \
-ghc-prof-bencode-0.6.1.1-26x5GmL2BHOEu40VootDht \
-ghc-prof-binary-0.8.9.1 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-containers-0.6.7 \
-ghc-prof-filepath-1.4.2.2 \
-ghc-prof-syb-0.7.2.4-URkW17Cd7D7rpu7G0BDIE \
+RDEPENDS:${PN} += "ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bencode-0.6.1.1-KWSVkFpNEL1HhwrIArSQND \
+ghc-prof-binary-0.8.9.3-9861 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-containers-0.7-d5e1 \
+ghc-prof-filepath-1.5.5.0-b25b \
+ghc-prof-syb-0.7.4-6fi78MDXPhtHdqjdF3SBYJ \
 ghc-torrent-devel"
 
 inherit rpm

@@ -13,10 +13,10 @@ scanning (lexical analysis) and parsing (syntactic analysis) into a \
 single activity."
 LICENSE = "MIT"
 
-PV = "0.1.18"
+PV = "0.1.20"
 
-RPM_NAME = "peg-0.1.18-1.12.aarch64.rpm"
-RPM_HASH = "7ef25b1986fb326251d7645f0ff7309e8d1a887ae47151a03161791739a54ed2a64b6b8a4cf05e9f8a61b9d85c92f84d4d56a10b471593176d607ab986b774e0"
+RPM_NAME = "peg-0.1.20-1.11.aarch64.rpm"
+RPM_HASH = "b604d9a3ee2c4f63fed3790647b5682007e49e5a5bbf9fe420e13b806dbe5ce71495ede397082b5cac0da814dab3d0bc61397376083a801314c98cee8dff27a5"
 
 RPROVIDES:${PN} += "peg"
 

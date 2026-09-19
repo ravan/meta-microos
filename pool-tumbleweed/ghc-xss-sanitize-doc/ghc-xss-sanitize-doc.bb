@@ -4,8 +4,8 @@ LICENSE = "BSD-2-Clause"
 
 PV = "0.3.7.2"
 
-RPM_NAME = "ghc-xss-sanitize-doc-0.3.7.2-1.9.noarch.rpm"
-RPM_HASH = "6adea157ccaa991cd6e77e301f01b510f889cb4b906e6c8b70294722563416479faaf628bdde86b3310ced21748c72ae8a845a1d98133bb54cfdef6a5531f1cf"
+RPM_NAME = "ghc-xss-sanitize-doc-0.3.7.2-2.36.noarch.rpm"
+RPM_HASH = "1d32a5ed249a8770c91dff6bb486e2261f31bbdfa3fdea920a5d0e51c49a5070f8a41cab2947b2fbe0fde77f7ad1bc3aab6ffe381bdbe6eefbc40a714989f5da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-xss-sanitize-doc"

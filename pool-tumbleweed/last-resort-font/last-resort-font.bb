@@ -1,6 +1,7 @@
 SUMMARY = "A special-purpose font that includes a collection of glyphs to represent types of Unicode characters"
-DESCRIPTION = "Last Resort is a special-purpose font that includes a collection of glyphs to represent types of Unicode characters. \
-These glyphs are specifically designed to allow users to recognize that a code point is one of the following: \
+DESCRIPTION = "Last Resort is a special-purpose font that includes a collection of glyphs to \
+represent types of Unicode characters.  These glyphs are specifically designed \
+to allow users to recognize that a code point is one of the following: \
  \
 * A specific type of Unicode character \
 * In the PUA (Private Use Area) for which no agreement exists \
@@ -8,10 +9,10 @@ These glyphs are specifically designed to allow users to recognize that a code p
 * A noncharacter"
 LICENSE = "OFL-1.1"
 
-PV = "13.001"
+PV = "17.000"
 
-RPM_NAME = "last-resort-font-13.001-1.8.noarch.rpm"
-RPM_HASH = "5db698de9453bd975a69cfd5d721d8c3743bfc0fe5c283204ff0b1ea11fcaaa911e052a92b3bc0efa57d6e558196ba622575e471b37559187868fc0a8a575850"
+RPM_NAME = "last-resort-font-17.000-1.2.noarch.rpm"
+RPM_HASH = "a21d8ccf89953b2f32160ed1ff557a52b992635b6fb9a65571ad3830ca98fe5328112aa8bab817f014a25388aca102e777fba656b7c3285c434e342d48a7e896"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "last-resort-font"

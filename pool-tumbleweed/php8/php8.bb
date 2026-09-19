@@ -8,10 +8,10 @@ must be installed in order to use PHP. Additionally, extension \
 modules and server modules (e.g. for Apache) may be installed."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "ddd2020c1e37fb7c70044b663226dcfafb4fe134596c6aa89c808607bc309169588f86e67b340390fcf12d60e4e06f113291a73b307de689984053e49fe8f5da"
+RPM_NAME = "php8-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "36a3b24a96b8c8a6ea97e3fa57d8f400c22db2a15babb7cd6ac6638ea2f27662038fe7951648d46da5bb560377ecc2d062de15157c0886913269fb6496c9d022"
 
 RPROVIDES:${PN} += "php \
 php-api \
@@ -19,6 +19,7 @@ php-date \
 php-filter \
 php-hash \
 php-json \
+php-opcache \
 php-pcre \
 php-reflection \
 php-session \
@@ -29,7 +30,9 @@ php-zend-abi \
 php8 \
 zend"
 
-RDEPENDS:${PN} += "php-sapi \
-timezone"
+RDEPENDS:${PN} += "group-www \
+php-sapi \
+timezone \
+user-wwwrun"
 
 inherit rpm

@@ -7,10 +7,10 @@ There is an alternative, subroutine-based syntax described in \
 'Subroutine-based interface'."
 LICENSE = "Artistic-1.0 | Artistic-2.0 | BSD-3-Clause | MIT"
 
-PV = "2017060201"
+PV = "2024080801.0.0"
 
-RPM_NAME = "perl-Regexp-Common-2017060201-1.24.noarch.rpm"
-RPM_HASH = "f093b72b74a19c44642c6f65f3d028de0c05138afd2aa30ef9d195ef59cfcb5f982f0905901dd7d9c1f67ea617189ed904c243545ea0c2beeb3d3d5a8234adf4"
+RPM_NAME = "perl-Regexp-Common-2024080801.0.0-1.10.noarch.rpm"
+RPM_HASH = "e9ada2eb902ad3efbc765cfc56f0d679e3e5f5326ea90c986e175e4d11840f22e8d5080c56cfab6bcd1cc7b4ed618d0c081fc3d8c022d44f8d70d46671a2ff12"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Regexp--Common \
@@ -49,6 +49,6 @@ perl-Regexp--Common--whitespace \
 perl-Regexp--Common--zip \
 perl-Regexp-Common"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

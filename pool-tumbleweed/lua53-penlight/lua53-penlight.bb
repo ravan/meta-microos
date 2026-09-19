@@ -5,10 +5,10 @@ reduce, placeholder expressions,etc), and OS path management. Much of \
 the functionality is inspired by the Python standard libraries."
 LICENSE = "MIT"
 
-PV = "1.13.1"
+PV = "1.14.0"
 
-RPM_NAME = "lua53-penlight-1.13.1-2.2.noarch.rpm"
-RPM_HASH = "980353eef3c768cf8f6fb49ebaaa162bad113d9b9a3e98af21ea1e7266eb219e422c89180ce34b45e555e045dadcc6cbdfcd03e69a39443b99446df1b8d75cb0"
+RPM_NAME = "lua53-penlight-1.14.0-3.3.noarch.rpm"
+RPM_HASH = "f6fde3b46385c5e589469abf84a8b21e6b1f39d8634e6aad380d3a14a2f93227fafaee4f2185ab74d298c3f9f6964ae8ffa8ed95e20260e3a33f2acaad494439"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "lua53-penlight"

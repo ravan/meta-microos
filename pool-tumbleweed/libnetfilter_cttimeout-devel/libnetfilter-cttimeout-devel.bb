@@ -5,8 +5,8 @@ LICENSE = "GPL-2.0-or-later"
 
 PV = "1.0.1"
 
-RPM_NAME = "libnetfilter_cttimeout-devel-1.0.1-1.5.aarch64.rpm"
-RPM_HASH = "c117ef2b09eafd44908f926b95899b0693700970dc7597ec5c4da702e747b860c5b1c24da34dad6f2c65c8ba4490a7104353cc5a8243cd04546d9a09ad6af7ce"
+RPM_NAME = "libnetfilter_cttimeout-devel-1.0.1-1.15.aarch64.rpm"
+RPM_HASH = "3b256b208a175c94ee8fd81af92a1c82c0ceb85a3f73be0a9ffd580bd85411c46690277c571650e51b45e14a63b50165dc7a95cccb3697434df2debeb9bab210"
 
 RPROVIDES:${PN} += "libnetfilter-cttimeout-devel \
 pkgconfig-libnetfilter-cttimeout"

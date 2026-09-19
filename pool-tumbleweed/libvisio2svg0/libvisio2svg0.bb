@@ -7,8 +7,8 @@ LICENSE = "GPL-2.0-only"
 
 PV = "0.5.5"
 
-RPM_NAME = "libvisio2svg0-0.5.5-3.14.aarch64.rpm"
-RPM_HASH = "c24ac26d232eb6933a3e4417d7cda09181d6cb320f8ea6cdeb90ca7279d5f01657ce70c6a99c08d0f2790c0ba9fa2f1b9852f58c60df81d8c982a8a1cb72aa9e"
+RPM_NAME = "libvisio2svg0-0.5.5-3.24.aarch64.rpm"
+RPM_HASH = "ff40381a40c66df7d49f91678b532df51890432fd84914d712097943a9b4588b5775b612657891a09bdb6f5b20cd4b66d7f58d28f36c7d2a28640fce41959e9a"
 
 RPROVIDES:${PN} += "libTitleGenerator.so.0 \
 libVisio2Svg.so.0 \
@@ -25,6 +25,6 @@ libstdc++.so.6 \
 libvisio-0.1.so.1 \
 libwmf-0.2.so.7 \
 libwmflite-0.2.so.7 \
-libxml2.so.2"
+libxml2.so.16"
 
 inherit rpm

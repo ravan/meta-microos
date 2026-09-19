@@ -1,11 +1,11 @@
 SUMMARY = "Vim syntax highlighting for icinga2"
 DESCRIPTION = "Provides Vim syntax highlighting for icinga2."
-LICENSE = "GPL-2.0-or-later"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "2.13.8"
+PV = "2.16.5"
 
-RPM_NAME = "vim-icinga2-2.13.8-2.1.aarch64.rpm"
-RPM_HASH = "7e66ff18043e10ee278c3d15446bddf83c4e9792e941444c20d876eec8b69a4f821d781ae0fc85a7f56aea30e2a8d496786df110b12ad56a256d618849e2c3aa"
+RPM_NAME = "vim-icinga2-2.16.5-1.2.aarch64.rpm"
+RPM_HASH = "7fd9451be1540f42743685f7152ca44497c6f8a4bc9d57b513f92796c5733d3afb5725b91a6880f0dfd7a702a26b16e91e09963efc20d91154903f056348dd34"
 
 RPROVIDES:${PN} += "vim-icinga2"
 

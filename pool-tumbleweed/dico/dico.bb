@@ -4,20 +4,19 @@ contrast to another implementations, it does not depend on particular \
 database format. GNU Dico handles database accesses using loadable modules."
 LICENSE = "GPL-3.0-or-later"
 
-PV = "2.11"
+PV = "2.12"
 
-RPM_NAME = "dico-2.11-1.16.aarch64.rpm"
-RPM_HASH = "71a4058b30b53df3db24cdd6d63c7445cbdc64f0edcd1627986289b1676aaaeafc639cee3f72903797d15d690ac7e313d44c25492614b8b7436669066d68c6ae"
+RPM_NAME = "dico-2.12-2.5.aarch64.rpm"
+RPM_HASH = "4bbe510f5f4ff68a1f2801841d48fc1160a96d926c8aa3a483aabedf62ec6bbc40ff81b0f61bb6988346f1fdc2e2cdae4063b6a3cafddde81162b93cbd0a74e1"
 
 RPROVIDES:${PN} += "dico"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-info \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libcrypt.so.1 \
 libdico.so.2 \
-libgsasl.so.7 \
+libgsasl.so.18 \
 libltdl.so.7 \
 libreadline.so.8 \
 m4"

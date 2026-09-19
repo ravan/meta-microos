@@ -3,10 +3,10 @@ DESCRIPTION = "The glib2-tests-devel package contains tests that can be used to 
 the functionality of the installed glib2 package."
 LICENSE = "LGPL-2.1-or-later"
 
-PV = "2.76.5"
+PV = "2.88.3"
 
-RPM_NAME = "glib2-tests-devel-2.76.5-1.1.aarch64.rpm"
-RPM_HASH = "8f1869c0d0bf6bc4eebcff767025518c0a4146ad2abb1cc6cc019de5040d862d9eaf1f18e77d26b041c667ff74a8676ffa123148c2aedaf337e72b0010798cd8"
+RPM_NAME = "glib2-tests-devel-2.88.3-1.1.aarch64.rpm"
+RPM_HASH = "4393d2cdf76b91ffedeac2e04d8e5646e0bba02acbce8c353a09af9ab343bc54c451fc5fc547b801b9150dfe2395b562a71fe3e4cd59e7133ed4e155ba01c0ad"
 
 RPROVIDES:${PN} += "glib2-tests \
 glib2-tests-devel \
@@ -19,18 +19,22 @@ libresourceplugin.so \
 libtestmodulea.so \
 libtestmoduleb.so"
 
-RDEPENDS:${PN} += "/usr/bin/env \
-/usr/bin/python3 \
+RDEPENDS:${PN} += "/usr/bin/python3.13 \
 /usr/bin/sh \
 glib2-devel \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
+libffi.so.8 \
 libgio-2.0.so.0 \
+libgirepository-2.0.so.0 \
 libglib-2.0.so.0 \
 libgmodule-2.0.so.0 \
 libgobject-2.0.so.0 \
 libgthread-2.0.so.0 \
 libm.so.6 \
-libpcre2-8.so.0"
+libpcre2-8.so.0 \
+typelib-GLib \
+typelib-GObject \
+typelib-Gio"
 
 inherit rpm

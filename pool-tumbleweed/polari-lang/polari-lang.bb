@@ -2,16 +2,17 @@ SUMMARY = "Translations for package polari"
 DESCRIPTION = "Provides translations for the 'polari' package."
 LICENSE = "GPL-2.0-or-later & LGPL-2.1-or-later"
 
-PV = "43.0"
+PV = "50.0"
 
-RPM_NAME = "polari-lang-43.0-1.4.noarch.rpm"
-RPM_HASH = "2c7e42ea16b12ef96f39dfbcab8f7f541edcc00db26bc06f918bc2d2ec6c51c9f5cb65105c620116d6092baf8df82ee8494b12cf75d785f6d68c03aee11f0ce6"
+RPM_NAME = "polari-lang-50.0-1.2.noarch.rpm"
+RPM_HASH = "722ea9c935361d2d840177e9af8fa7d6a7dfaf54eb2ecb0a03d221661c27304ef61959c235b6fac362c700a778a4b32e07abaa0d9d1fa9ed42c091967d08e9b7"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-polari-af \
 locale-polari-ar \
 locale-polari-as \
 locale-polari-be \
+locale-polari-bg \
 locale-polari-bs \
 locale-polari-ca \
 locale-polari-ca@valencia \
@@ -30,9 +31,11 @@ locale-polari-fr \
 locale-polari-fur \
 locale-polari-gl \
 locale-polari-he \
+locale-polari-hi \
 locale-polari-hr \
 locale-polari-hu \
 locale-polari-id \
+locale-polari-is \
 locale-polari-it \
 locale-polari-ja \
 locale-polari-ka \
@@ -58,6 +61,7 @@ locale-polari-sr \
 locale-polari-sr@latin \
 locale-polari-sv \
 locale-polari-te \
+locale-polari-th \
 locale-polari-tr \
 locale-polari-uk \
 locale-polari-vi \

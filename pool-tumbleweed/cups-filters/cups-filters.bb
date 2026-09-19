@@ -6,33 +6,22 @@ In addition it contains additional filters \
 and software developed independently of Apple, \
 especially filters for the PDF-centric printing \
 workflow introduced by OpenPrinting and a daemon \
-to browse broadcasts of remote CUPS printers \
-and makes these printers available locally. \
+to auto-discover printers in the local network \
+and make these printers available locally \
+in the separated cups-filters-cups-browsed RPM. \
 Since Ghostscript version 9.10 the CUPS filters \
 gstoraster and gstopxl are removed from Ghostscript. \
 Those filters are now provided by cups-filters. \
 Since cups-filters version 1.0.42 foomatic-rip \
-is also provided by cups-filters. \
-Since CUPS >= 1.6 the CUPS Browsing functionality \
-is dropped in CUPS. The OpenPrinting cups-browsed \
-is a daemon running in parallel to the CUPS daemon \
-to provide again basic CUPS Browsing functionality. \
-This way basic CUPS Browsing works on clients \
-with CUPS >= 1.6 when there are remote CUPS servers \
-of CUPS version 1.5 and older in the network. \
-Load-balancing (what CUPS <= 1.5 did via implicit classes) \
-is not supported with cups-browsed."
+is also provided by cups-filters."
 LICENSE = "GPL-2.0-only & GPL-2.0-or-later & GPL-3.0-only & MIT"
 
-PV = "1.28.15"
+PV = "1.28.17"
 
-RPM_NAME = "cups-filters-1.28.15-3.2.aarch64.rpm"
-RPM_HASH = "453439aad387607e5893e7de60a421cbf6388c51342db8248e924092569f749b56e334b68e605ee45987852ddaab720e89777a83936073a182628df524e4cbfb"
+RPM_NAME = "cups-filters-1.28.17-9.1.aarch64.rpm"
+RPM_HASH = "c97194d7faf65b6a1c468c0c651d888dd6390759158eb0c8dd78b8e2a45e8b1b1d3f289c2e41497ae3b291cca9b00f6c1b375fb4b2269c7320c21ad0b0af5979"
 
-RPROVIDES:${PN} += "config-cups-filters \
-cups-browsed \
-cups-filters \
-cups-filters-cups-browsed \
+RPROVIDES:${PN} += "cups-filters \
 cups-filters-foomatic-rip \
 cups-filters-ghostscript \
 foomatic-filters \
@@ -47,25 +36,19 @@ postscriptdriver-ricoh;pdf-printer;"
 
 RDEPENDS:${PN} += "/usr/bin/bash \
 /usr/bin/sh \
-cups \
 ld-linux-aarch64.so.1 \
-libavahi-client.so.3 \
-libavahi-common.so.3 \
-libavahi-glib.so.1 \
 libc.so.6 \
 libcups.so.2 \
 libdbus-1.so.3 \
+libexif.so.12 \
 libfontconfig.so.1 \
 libgcc-s.so.1 \
-libgio-2.0.so.0 \
-libglib-2.0.so.0 \
-libgobject-2.0.so.0 \
 libjpeg.so.8 \
 liblcms2.so.2 \
 libm.so.6 \
 libpng16.so.16 \
-libpoppler-cpp.so.0 \
-libqpdf.so.29 \
+libpoppler-cpp.so.3 \
+libqpdf.so.30 \
 libstdc++.so.6 \
 libtiff.so.6 \
 libz.so.1 \

@@ -11,10 +11,10 @@ which should also be self-evident from the provided example \
 file."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.1.72svn64978"
+PV = "2026.226.1.72svn64978"
 
-RPM_NAME = "texlive-mhequ-2023.209.1.72svn64978-55.1.noarch.rpm"
-RPM_HASH = "eea231f8774973b328e19884e30e1d8c1fd74d3bbcb5c6768ef8136d42e6acc32fdaf13278ec104920a35d6073a4ba55bda26fffc69d5e0af019bf82b5e3ffa6"
+RPM_NAME = "texlive-mhequ-2026.226.1.72svn64978-61.2.noarch.rpm"
+RPM_HASH = "2a82a9fee120774ddbdbb6340124cdf781aa5033fe35097891814f55ecad2e2901720f04a1e81b258bd1c5f5332d087a6152766d7b437132a1b0612489697189"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mhequ.sty \

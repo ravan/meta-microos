@@ -1,11 +1,11 @@
 SUMMARY = "Qt 6 SerialBus library - Development files"
 DESCRIPTION = "Development files for the Qt 6 SerialBus library."
-LICENSE = "LGPL-3.0-only | GPL-2.0-or-later"
+LICENSE = "GPL-2.0-or-later | LGPL-3.0-only"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "qt6-serialbus-devel-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "e43cdefd19ba1d46ea987510b1fbd6b98d1325efaaef89627591c306e7341f0a954d599b60c34c0ad514570f96ef12166b92c9e34a61b79059e4d29d1572d21d"
+RPM_NAME = "qt6-serialbus-devel-6.11.2-1.1.aarch64.rpm"
+RPM_HASH = "9d11a75b9cbfc53557aa4d12b31a1277990af76c87845e62d9c454f7392c4d59a2901ec11c26b09fec30fb3233fc7529e1700c35f73f7787cf0c17731920f71a"
 
 RPROVIDES:${PN} += "cmake-Qt6SerialBus \
 pkgconfig-Qt6SerialBus \

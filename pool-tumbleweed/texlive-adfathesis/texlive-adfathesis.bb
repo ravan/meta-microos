@@ -2,10 +2,10 @@ SUMMARY = "Australian Defence Force Academy thesis format"
 DESCRIPTION = "The bundle includes a BibTeX style file."
 LICENSE = "SUSE-Public-Domain"
 
-PV = "2023.209.2.42svn26048"
+PV = "2026.226.2.42svn26048"
 
-RPM_NAME = "texlive-adfathesis-2023.209.2.42svn26048-55.1.noarch.rpm"
-RPM_HASH = "706e99193a959d3e6ae3f19dd9582a4b03d1225a6bd324ce1921aa2a97fa0f2c4390a05fb6031c39062762da4defde45f5de1337ed519ba2707bfb1ecc74bde6"
+RPM_NAME = "texlive-adfathesis-2026.226.2.42svn26048-61.2.noarch.rpm"
+RPM_HASH = "760d2a47df19d0da2178b4658392f3979567aaabde7bca48d834ac33d8883ec2ad3298733f07851f1a996cab842c5b22847a593c80f67d241fee0b6d4967d366"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-adfathesis.cls \

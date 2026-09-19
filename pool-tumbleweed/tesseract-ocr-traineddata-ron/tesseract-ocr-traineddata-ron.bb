@@ -3,16 +3,18 @@ DESCRIPTION = "This package contains the fast integer version of the Romanian la
 trained models for the Tesseract Open Source OCR Engine."
 LICENSE = "Apache-2.0"
 
-PV = "4.1.0+git.20191030.6572757"
+PV = "4.1.0+git.20240801.8741641"
 
-RPM_NAME = "tesseract-ocr-traineddata-ron-4.1.0+git.20191030.6572757-2.1.noarch.rpm"
-RPM_HASH = "2b30b0d4bcda2c7e5ae8f6c661c53374aa62b811c48aacf715073761438f98ee258e43ff776d7fd7fb7a774eb661a64c2d1a799a5e6d58dc95d7779068abb0e7"
+RPM_NAME = "tesseract-ocr-traineddata-ron-4.1.0+git.20240801.8741641-2.2.noarch.rpm"
+RPM_HASH = "b6f5382097c8446e96176b078e870175d7951c5a025d74c982494bdcce8423cdd86452493aa0944fd86e5e47706ce0a9ac66c439336fb7b5b2a59d84e4d9a84e"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "tesseract-ocr-traineddata-romanian \
+RPROVIDES:${PN} += "locale-tesseract-ocr-common-ro \
+tesseract-ocr-traineddata-provider \
+tesseract-ocr-traineddata-romanian \
 tesseract-ocr-traineddata-ron \
 tesseract-traineddata-romanian"
 
-RDEPENDS:${PN} += "tesseract-ocr"
+RDEPENDS:${PN} += ""
 
 inherit rpm

@@ -5,10 +5,10 @@ quality on all platforms, no matter which underlying architecture is \
 used."
 LICENSE = "LGPL-2.0-or-later"
 
-PV = "4.11.1"
+PV = "4.12.0"
 
-RPM_NAME = "libphonon4qt5-4.11.1-3.10.aarch64.rpm"
-RPM_HASH = "6c608c80bd51beef40511352d016622648d25a83d37dd94ce2d512e05c47173b6513d927c972d849daf8c735322e6043b9c70b82fc76ea1b028dd368fc032869"
+RPM_NAME = "libphonon4qt5-4.12.0-2.8.aarch64.rpm"
+RPM_HASH = "3c6a1f15c3d1e0b35ff794020756808b50fc4b2576d58ea3c5618c7521fa0c0d2a1fd59bfc6f638c597ee50448412bac7e7e260c4be080262d3530da7394d76f"
 
 RPROVIDES:${PN} += "libphonon4qt5 \
 libphonon4qt5.so.4 \

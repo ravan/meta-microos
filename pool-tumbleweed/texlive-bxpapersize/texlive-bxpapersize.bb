@@ -5,10 +5,10 @@ applied to output paper size. This package enables LaTeX \
 authors to synchronize both kinds of paper sizes."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn63174"
+PV = "2026.226.0.0.6svn63174"
 
-RPM_NAME = "texlive-bxpapersize-2023.209.0.0.6svn63174-53.1.noarch.rpm"
-RPM_HASH = "f852b68900efce8b8551ac3cb5dfdca6a85858569b7271272123effbf5ab6fb1e48902851ff01ceffdadf8133ffc071e0e43c7adc7b4e9db4c5892a9995745b8"
+RPM_NAME = "texlive-bxpapersize-2026.226.0.0.6svn63174-59.2.noarch.rpm"
+RPM_HASH = "cb44c43b9c998d07b6a17397e1323b044a23c8e188829c02f95463ae81870d3fd746eb35e66f934ddcf1cc562cdabedaceca298a78b888f5aca3505b72c2c6da"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-bxpapersize.sty \

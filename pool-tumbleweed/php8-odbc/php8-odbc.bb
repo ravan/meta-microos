@@ -2,10 +2,10 @@ SUMMARY = "ODBC extension for PHP"
 DESCRIPTION = "This module adds Open Database Connectivity (ODBC) support."
 LICENSE = "MIT & PHP-3.01"
 
-PV = "8.2.10"
+PV = "8.5.10"
 
-RPM_NAME = "php8-odbc-8.2.10-2.1.aarch64.rpm"
-RPM_HASH = "3fe30e483e8be6629d82dd64c72ec7bd9592b02c413e76916cc5d7e5e219aea3ead4e4e81732dfb2d64cf2f4a6505503a80e96d2c1b7048d4aff4248d0df9f06"
+RPM_NAME = "php8-odbc-8.5.10-1.1.aarch64.rpm"
+RPM_HASH = "0f53bba2e9411085eb7b5902b46cce04f679d9a376530514e0666c54d139f6bfae741ff450f9b5507efdfe0d58494a5dd6384652cc530bed39e65d5a07d2b6f3"
 
 RPROVIDES:${PN} += "config-php8-odbc \
 php-odbc \

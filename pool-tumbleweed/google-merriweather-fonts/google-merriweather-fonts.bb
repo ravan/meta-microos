@@ -21,8 +21,8 @@ LICENSE = "OFL-1.1"
 
 PV = "2.001"
 
-RPM_NAME = "google-merriweather-fonts-2.001-1.11.noarch.rpm"
-RPM_HASH = "f60670560773723b860981034bdb2886bb3274786b427dfe008435b25b9d527a7088e46f5b91df93737b65e404398bc55b1e5a89a39b380441430909886d87b0"
+RPM_NAME = "google-merriweather-fonts-2.001-1.19.noarch.rpm"
+RPM_HASH = "73f1f1ede789bf698668004b0eade3006a53cece047ba5b6cb7e621316fea0b24cade3cf32f8a04939365293cec2abb2c02f3f49add0115f9e745ad0c7ad25d9"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "google-merriweather-fonts"

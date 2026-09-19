@@ -2,10 +2,10 @@ SUMMARY = "Panorama Tools Utilities"
 DESCRIPTION = "Utilities for working with panoramas."
 LICENSE = "GPL-2.0-or-later"
 
-PV = "2.9.21"
+PV = "2.9.23"
 
-RPM_NAME = "libpano-utils-2.9.21-1.9.aarch64.rpm"
-RPM_HASH = "8a3a85925ad4535e86f0c9d3f364f5a16aa425c24d794e8d12a369463c90d1afa799b58e6be21e16b16172c3a0247433cc4e3958344ec770e99870084c02438f"
+RPM_NAME = "libpano-utils-2.9.23-1.4.aarch64.rpm"
+RPM_HASH = "33cc44153c905328fcb5d6f362dead3e3a07f832b82e2c4d96750a8de3b19ca5eba7f47f6c265dd852e7b6cb85ad3759823d2913ef90de468b1b3f7eda2c6667"
 
 RPROVIDES:${PN} += "libpano-utils"
 

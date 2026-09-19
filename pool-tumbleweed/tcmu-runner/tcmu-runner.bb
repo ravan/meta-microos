@@ -5,7 +5,7 @@ by regular files or block devices. But, if we want to get fancier with \
 the capabilities of the device we're emulating, the kernel is not \
 necessarily the right place. While there are userspace libraries for \
 compression, encryption, and clustered storage solutions like \
-Ceph or Gluster, these are not accessible from the kernel. \
+Ceph, these are not accessible from the kernel. \
  \
 The TCMU userspace-passthrough backstore allows a userspace process to \
 handle requests to a LUN. But since the kernel-user interface that \
@@ -22,8 +22,8 @@ LICENSE = "Apache-2.0"
 
 PV = "1.6.2"
 
-RPM_NAME = "tcmu-runner-1.6.2-1.1.aarch64.rpm"
-RPM_HASH = "d44699400abeeb0e74637e0e8f7a310b189fee2294cc93b9045b426596d86e13d359b0403ba3795492f9bf29a160d1c2f9073a21e20dd0b658456341332d75d5"
+RPM_NAME = "tcmu-runner-1.6.2-4.6.aarch64.rpm"
+RPM_HASH = "a167e20e86c36d79d4e3186bf4ed8d177a026c2e47ec08f9837422ecb6c6a9a36982741452338ca80d7f2ea47cf5fb76702ffbea5c52c59778be25290f474ab5"
 
 RPROVIDES:${PN} += "config-tcmu-runner \
 tcmu-runner"

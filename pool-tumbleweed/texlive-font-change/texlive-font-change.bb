@@ -10,10 +10,10 @@ free and are included in current MiKTeX and TeX Live \
 distributions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.2015.2svn40403"
+PV = "2026.226.2015.2svn40403"
 
-RPM_NAME = "texlive-font-change-2023.209.2015.2svn40403-53.1.noarch.rpm"
-RPM_HASH = "67f7d2f349629ed6ee2d62f4e6f7f5536759530f89c9eae5b403ff033237bb5b086818189391e799605b3e3b6d831501a0c4d07c48903f0c6deb74e1099e206f"
+RPM_NAME = "texlive-font-change-2026.226.2015.2svn40403-60.2.noarch.rpm"
+RPM_HASH = "687748cbb653fdfad49bb95e2e4ba22364dd192d1b487c736518299cc4c5acd015c767af2fa5214ceb3d650109c8c965ebf7763256e58905c0cc7c4746b92b62"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-default-amssymbols.tex \

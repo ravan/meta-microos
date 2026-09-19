@@ -6,10 +6,10 @@ When this first client exits, xinit will kill the X server and then \
 terminate."
 LICENSE = "MIT"
 
-PV = "1.4.2"
+PV = "1.4.4"
 
-RPM_NAME = "xinit-1.4.2-1.3.aarch64.rpm"
-RPM_HASH = "ea20ac371c0e37bc8548759bffac1c73a64dc8b651ff9fc88bf133dc2bcbbe4c0b7efd00edd7118351da75d8cf2db09fde83723f9df387073b7b13f3b52ba567"
+RPM_NAME = "xinit-1.4.4-1.5.aarch64.rpm"
+RPM_HASH = "aa2220fa85455ed8cb5be72084000d2b5aab8c9eb5afcffb4dbd1380c962df044dd790775f265412a60b821cd398b7c19d80aa2ac866ff95f8e7045a3e3d85cc"
 
 RPROVIDES:${PN} += "config-xinit \
 xinit"

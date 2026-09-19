@@ -2,10 +2,10 @@ SUMMARY = "Test packages for PMIx"
 DESCRIPTION = "Test binaries which allow to test proper PMIx operations."
 LICENSE = "BSD-3-Clause"
 
-PV = "3.2.3"
+PV = "3.2.5"
 
-RPM_NAME = "pmix-test-3.2.3-10.2.aarch64.rpm"
-RPM_HASH = "bed440ee8e2bd6da08fda07682678e21d5be56fcdac96b153d6c8eee32ec68cda3a3e59953365137ee9a75b35b814c02a0bfa2e28c1e383918b6bf2eca87683d"
+RPM_NAME = "pmix-test-3.2.5-2.10.aarch64.rpm"
+RPM_HASH = "66d608f7474ddd18078f20a3a07dbdad066f632e5e5936ef735a8424f68a27781862b944f69dbfab8b0817dfeba4525e535ca6bdbfa46851922c469de6a1ce8f"
 
 RPROVIDES:${PN} += "pmix-test"
 

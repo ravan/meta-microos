@@ -7,10 +7,10 @@ Note however, a certain amount of care is needed when dealing with \
 APIs that employ signalfd."
 LICENSE = "MIT"
 
-PV = "2.4.0"
+PV = "2.4.1"
 
-RPM_NAME = "libuev3-2.4.0-1.7.aarch64.rpm"
-RPM_HASH = "bbe6a0c4118e5e0ed89e337c126f5b3ad0c2eb36ef0a88e69ec8bb6d2b2fd7eda2e88079a29d71be2eaf9e9752a6985a7e4e1279b2ca95f28ab2c7250dc7575f"
+RPM_NAME = "libuev3-2.4.1-2.11.aarch64.rpm"
+RPM_HASH = "a4c6eaba45f44f7d1d412a153c18bf5da053cbb412c3ad9fed0ad2813780b03d400f4ae9f2823525d49e8bd0e33938ff0fb0f1896e56e8b14dfbea7569b2f76e"
 
 RPROVIDES:${PN} += "libuev.so.3 \
 libuev3"

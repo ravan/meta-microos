@@ -2,13 +2,14 @@ SUMMARY = "Severed fonts for texlive-cmathbb"
 DESCRIPTION = "The  separated fonts package for texlive-cmathbb"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.0svn56414"
+PV = "2026.226.1.0svn56414"
 
-RPM_NAME = "texlive-cmathbb-fonts-2023.209.1.0svn56414-54.1.noarch.rpm"
-RPM_HASH = "27a657f7f0c9eac028cac8bc23a6e778881d80a4a7874e23a78a2d3e4ffdde4f46448e4d8cec813841c7150ef838e099d6003a8c5c0da61ff4381fd4d1861231"
+RPM_NAME = "texlive-cmathbb-fonts-2026.226.1.0svn56414-60.2.noarch.rpm"
+RPM_HASH = "4f548060a6b53abd066c6c9d4815594ed97aae1d01bf98d83dbad31d833a104deca14580bdae59ed02ba527a6c58416892f8e482a1b7e7fcb254ab25c402b11a"
 REPO_ARCH = "noarch"
 
-RPROVIDES:${PN} += "font--lang=fj \
+RPROVIDES:${PN} += "font--lang=bem \
+font--lang=fj \
 font--lang=ho \
 font--lang=ia \
 font--lang=io \

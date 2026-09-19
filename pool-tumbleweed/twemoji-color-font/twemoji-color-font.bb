@@ -10,10 +10,10 @@ operating systems and applications. Regular monochrome outline \
 emoji are included for backwards/fallback compatibility."
 LICENSE = "CC-BY-4.0"
 
-PV = "14.0.2"
+PV = "15.1.0"
 
-RPM_NAME = "twemoji-color-font-14.0.2-1.2.noarch.rpm"
-RPM_HASH = "c02cef615b8ea33f2bbf85c215e217a1c88cbf05030d63dbed06160f55005ed2ea488a89cb96fbf87135e99a9926d03bb0c39c6b7e033e992e2507c4f592b86e"
+RPM_NAME = "twemoji-color-font-15.1.0-1.6.noarch.rpm"
+RPM_HASH = "9cafeabacfd93d65da263b9a2ec8c9f74a1f06cc65b6107df369b5482337406284b2d79ea09af8117a01c157869c0029da8160778a82ded98944530cff1a3873"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "twemoji-color-font"

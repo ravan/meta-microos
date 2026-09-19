@@ -9,10 +9,10 @@ configured directory path (controlled by the 'changelog-dir' \
 directive)."
 LICENSE = "GPL-2.0-only | LGPL-3.0-or-later"
 
-PV = "11.0"
+PV = "11.1"
 
-RPM_NAME = "libgfchangelog0-11.0-4.1.aarch64.rpm"
-RPM_HASH = "64d3c3c1451cb0ba480a095c5e65b96f5cb1560dddbbebaca71ae1862efcaf958305b411f8ddbf420a6e9bd7cd666dc4dd232cd254be4566fdeceef0b8d315df"
+RPM_NAME = "libgfchangelog0-11.1-4.10.aarch64.rpm"
+RPM_HASH = "293fbfb0d8db4559196c7b1dad43a326487d3be13594b1034801e5a3e2c262d0be17abf47f294e0ada1e542d885dce7ecff4f70c8fdc25093f9ffae3d334b88d"
 
 RPROVIDES:${PN} += "libgfchangelog.so.0 \
 libgfchangelog0"

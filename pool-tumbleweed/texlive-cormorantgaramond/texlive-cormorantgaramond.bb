@@ -6,10 +6,10 @@ light, regular, medium, semi-bold, and bold weights, with \
 italics."
 LICENSE = "OFL-1.1"
 
-PV = "2023.209.3.601svn64411"
+PV = "2026.226.3.601svn71057"
 
-RPM_NAME = "texlive-cormorantgaramond-2023.209.3.601svn64411-55.1.noarch.rpm"
-RPM_HASH = "eb7d9fdec3c2a152b71a29e7a0bd815025e928b0dd2a9b2c715d1775f5e0edb179256d3ed94e7350b8cafc4fb4e938ac5cced1046a1d57a3b4c06991cb19d4d9"
+RPM_NAME = "texlive-cormorantgaramond-2026.226.3.601svn71057-61.2.noarch.rpm"
+RPM_HASH = "13c1543e09588b99bb5e8988c3cdd607087d9ac3f7c183f18ad82d85db23ead2e6bcc8e2f3f8090d8a8d911f0a8949169ca70efe1cc6347136743b97e842261b"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-CormorantGaramond-Bold-inf-ly1.tfm \

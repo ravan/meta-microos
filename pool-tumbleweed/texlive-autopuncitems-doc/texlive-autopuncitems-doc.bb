@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-autopuncitems"
 DESCRIPTION = "This package includes the documentation for texlive-autopuncitems"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn63045"
+PV = "2026.226.svn63045"
 
-RPM_NAME = "texlive-autopuncitems-doc-2023.209.svn63045-54.1.noarch.rpm"
-RPM_HASH = "a191a817729c467248f015b1185a5ad1f97964bd9ef1a4085aa9dee04afefe46729647dd6bbbc8819c3a6619693e06ef186a0d33808682d5fd21761b89df6e75"
+RPM_NAME = "texlive-autopuncitems-doc-2026.226.svn63045-60.2.noarch.rpm"
+RPM_HASH = "47a4138757b8d87375fe1e63b759fadfad413577e808103fd398b2e9e7b29e8fa8d676574b91e31ce0cfc1a7739b3ab20fc1ba385bf2aa7a61a5f4c1348ee6b6"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-autopuncitems-doc"

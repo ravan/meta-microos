@@ -1,21 +1,21 @@
 SUMMARY = "GDAL library header files"
 DESCRIPTION = "Development Libraries for the GDAL file format library"
-LICENSE = "BSD-3-Clause & MIT & SUSE-Public-Domain"
+LICENSE = "BSD-3-Clause & MIT & LicenseRef-SUSE-Public-Domain"
 
-PV = "3.6.3"
+PV = "3.13.3"
 
-RPM_NAME = "gdal-devel-3.6.3-2.6.aarch64.rpm"
-RPM_HASH = "35b3213172a7606facd21359bfe644e124c4fa81a00215afea888a3f463afb90968226384aade2496eca1509ff2ce9d1d7da7ecac74b96b3736b9364a401cb73"
+RPM_NAME = "gdal-devel-3.13.3-1.1.aarch64.rpm"
+RPM_HASH = "e65b887e902b48992b7ca143a57ea3da466ed127cba4988e538198a47571f0df73e581b7a75ebaa45593827e13b29a90950227171a85b2e7489fcd634e6651e5"
 
 RPROVIDES:${PN} += "cmake-GDAL \
 gdal-devel \
 libgdal-devel \
-libgdal32-devel \
+libgdal39-devel \
 pkgconfig-gdal"
 
 RDEPENDS:${PN} += "/usr/bin/pkg-config \
 /usr/bin/sh \
-libgdal32 \
+libgdal39 \
 pkgconfig-libopenjp2"
 
 inherit rpm

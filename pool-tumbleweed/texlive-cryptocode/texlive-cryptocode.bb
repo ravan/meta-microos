@@ -8,10 +8,10 @@ but also flexible and powerful environments to layout \
 game-based proofs or black-box reductions."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.44svn60249"
+PV = "2026.226.0.0.44svn60249"
 
-RPM_NAME = "texlive-cryptocode-2023.209.0.0.44svn60249-55.1.noarch.rpm"
-RPM_HASH = "503b09fe2a91255fd84111118d601bed88eb23eec911d3db07ac6cbed78e06b8a33ba085725f76e08044b92fc687a467c1e51bbad36257a0c13dc7c66af04c9c"
+RPM_NAME = "texlive-cryptocode-2026.226.0.0.44svn60249-61.2.noarch.rpm"
+RPM_HASH = "5ed80c5bf6cbf6602cab5f5a9671d18b05ed88cf7a295a8a53855e6d8da3291f3a05f4176da8f90edb00f083309ec3ae01c9a961239bc007c7bc2ba6335a2ded"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cryptocode-2018-11-11.sty \

@@ -3,10 +3,10 @@ DESCRIPTION = "This package will cause the installation of several \
 development packages for TeXLive."
 LICENSE = "BSD-3-Clause & LGPL-2.1-or-later & SUSE-TeX"
 
-PV = "2023.20230311"
+PV = "2026.20260301"
 
-RPM_NAME = "texlive-bin-devel-2023.20230311-93.2.aarch64.rpm"
-RPM_HASH = "ebdbd7bfc4468dc6e4b6db5cc59f8e773d8b3b508f113e56ecbd05d426f3fa71a0dfbb9e78ab78081d7cd5f6fa452add15d79335edb370253618bae6a5c28afe"
+RPM_NAME = "texlive-bin-devel-2026.20260301-120.4.aarch64.rpm"
+RPM_HASH = "e2bf58665a520fe795110eee6a57b749d1794df3b5b294a0264337442380330ab5f363854d7896a7d665c07ac2fc8bb2e3dd8e300a36b5ba6d17009b90343d73"
 
 RPROVIDES:${PN} += "texlive-bin-devel"
 

@@ -15,10 +15,10 @@ pythonimmediate-tex package, which can be obtained from \
 https://pypi.org/project/pythonimmediate-tex/."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.4.0svn66461"
+PV = "2026.226.0.0.6.0svn76924"
 
-RPM_NAME = "texlive-pythonimmediate-2023.209.0.0.4.0svn66461-54.2.noarch.rpm"
-RPM_HASH = "c1edd8c46ddb369fdc52cb761f925037af600a6655666bf9646d687139e7540ca3cefc0016eda0b589a8add1d77df7bd2b5ab8639db4730d0f2838d040ba3784"
+RPM_NAME = "texlive-pythonimmediate-2026.226.0.0.6.0svn76924-60.4.noarch.rpm"
+RPM_HASH = "b413ae2741bc3c65d28ad9df65844915df42984d8fc564c0edff1dd18d30cebf34a8d2ac12600fb3145c6b7ea9d6c998a5ca8495b74b3054eace634bee9bbb0d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pythonimmediate.sty \

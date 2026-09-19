@@ -5,10 +5,10 @@ text and math. The missing typefaces like bold math and slanted \
 text are also defined"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.02svn64705"
+PV = "2026.226.0.0.02svn77682"
 
-RPM_NAME = "texlive-pagella-otf-2023.209.0.0.02svn64705-52.1.noarch.rpm"
-RPM_HASH = "5b53ff7a97a8557c59d1d19a57674187a7912da79fcd13e1cc6bcdff2601739fad4072b84314dd4b08c753ef0cfd2dd0c9f3475d4dee087a336cbdc9a377da9b"
+RPM_NAME = "texlive-pagella-otf-2026.226.0.0.02svn77682-58.2.noarch.rpm"
+RPM_HASH = "e1202fc782bac4bb373122222075b0798063c0b9aaf33008c8ebe3938ba1e17a603d0f40b67b15957f515bb2f4066a87bf52625fb27449b2ba9a788543e80777"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-pagella-otf.sty \

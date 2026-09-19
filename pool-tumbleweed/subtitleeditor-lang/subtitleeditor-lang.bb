@@ -1,11 +1,11 @@
 SUMMARY = "Translations for package subtitleeditor"
 DESCRIPTION = "Provides translations for the 'subtitleeditor' package."
-LICENSE = "GPL-3.0"
+LICENSE = "GPL-3.0-or-later"
 
-PV = "0.54.0"
+PV = "0.56.2"
 
-RPM_NAME = "subtitleeditor-lang-0.54.0-4.17.noarch.rpm"
-RPM_HASH = "c613a0ee874c53561febbd365eeabf7b9953fe9525c47b6e5e1ae3bdfde87827cf8d2f0d72bd9d799e574064b9a065a06044304e4d509dfbcdf7b240f952ef3b"
+RPM_NAME = "subtitleeditor-lang-0.56.2-1.4.noarch.rpm"
+RPM_HASH = "04523b6a47ce1b52be32da742cdb2546f539699da780b736c9320704e805f92f37bd885dfb5f6f575070ba6b591b33cf8bbe6e217319701d1e6c9894de39f52c"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "locale-subtitleeditor-bg \
@@ -17,6 +17,7 @@ locale-subtitleeditor-el \
 locale-subtitleeditor-en-GB \
 locale-subtitleeditor-eo \
 locale-subtitleeditor-es \
+locale-subtitleeditor-eu \
 locale-subtitleeditor-fr \
 locale-subtitleeditor-gl \
 locale-subtitleeditor-hu \

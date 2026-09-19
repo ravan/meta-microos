@@ -2,10 +2,10 @@ SUMMARY = "Haskell hslua-classes library documentation"
 DESCRIPTION = "This package provides the Haskell hslua-classes library documentation."
 LICENSE = "MIT"
 
-PV = "2.3.0"
+PV = "2.3.2"
 
-RPM_NAME = "ghc-hslua-classes-doc-2.3.0-1.8.noarch.rpm"
-RPM_HASH = "c771d17c2c2e0809e0f913e4b86033594d10a6cab611624d6b079886dd939f400154e2d057bc06210c40ca90d204e79cede420c07b8cdbffacb12ebada35631d"
+RPM_NAME = "ghc-hslua-classes-doc-2.3.2-1.2.noarch.rpm"
+RPM_HASH = "4fcbfa91a5b4f32c91cbddc3bdacf426c6980d913ce86eac58e67bae96ff5caa9904162d8463f29658986156eaf810db62fe3ad319e5b15436633514cf98da81"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "ghc-hslua-classes-doc"

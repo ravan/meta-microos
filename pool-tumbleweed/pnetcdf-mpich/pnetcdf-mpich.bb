@@ -10,10 +10,10 @@ This package contains the mpich version of utility functions for \
 working with NetCDF files."
 LICENSE = "NetCDF"
 
-PV = "1.12.3"
+PV = "1.14.1"
 
-RPM_NAME = "pnetcdf-mpich-1.12.3-1.4.aarch64.rpm"
-RPM_HASH = "402103873d04172179dd2453dcd90bb3266cf166c1446eede9bed54d52fa7f04ff0c743a8e80f06342371f1a988c28cacc325f3645d323dd51ff742c73547057"
+RPM_NAME = "pnetcdf-mpich-1.14.1-1.3.aarch64.rpm"
+RPM_HASH = "59dd9a30cdb580b2cf28244cb2a22dab2ce644b90299d722db19f97ae0f9388f05d2ec90dc326f284f47f7ac9bfc7ea8df0262f23e1faf4a10454379931565cd"
 
 RPROVIDES:${PN} += "parallel-netcdf-mpich \
 pnetcdf-mpich"
@@ -22,7 +22,7 @@ RDEPENDS:${PN} += "/usr/bin/sh \
 ld-linux-aarch64.so.1 \
 libc.so.6 \
 libmpi.so.12 \
-libpnetcdf.so.4 \
+libpnetcdf.so.7 \
 libpnetcdf4-mpich \
 mpich"
 

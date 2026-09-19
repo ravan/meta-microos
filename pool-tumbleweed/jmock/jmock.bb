@@ -13,18 +13,19 @@ LICENSE = "BSD-3-Clause"
 
 PV = "1.2.0"
 
-RPM_NAME = "jmock-1.2.0-30.7.noarch.rpm"
-RPM_HASH = "db3124d9f743ee690b7ee99625faf7f95b625143a29589df5fc3df4ebb913fd1c89865c8e2c4fe4b2264126696db9b3940ef00db552ce7be6fa6d9a5e3bae38d"
+RPM_NAME = "jmock-1.2.0-31.9.noarch.rpm"
+RPM_HASH = "12068f9adb7f24e9ab97942948afd9cfd7513f72ae28691c559b7e363f206edc9d224dedbaeb1f204737f700271e0d0dfeab1a44eada7781b1ed3b057655542e"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "jmock \
 mvn-jmock-jmock \
+mvn-jmock-jmock-cglib \
+mvn-jmock-jmock-cglib-pom- \
 mvn-jmock-jmock-pom-"
 
-RDEPENDS:${PN} += "cglib \
-java-headless \
+RDEPENDS:${PN} += "java-headless \
 javapackages-filesystem \
-mvn-junit-junit \
-objectweb-asm"
+mvn-cglib-cglib-nodep \
+mvn-junit-junit"
 
 inherit rpm

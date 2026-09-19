@@ -3,10 +3,10 @@ DESCRIPTION = "xlsfonts lists fonts available from an X server via the X11 core 
 protocol."
 LICENSE = "X11"
 
-PV = "1.0.7"
+PV = "1.0.8"
 
-RPM_NAME = "xlsfonts-1.0.7-1.7.aarch64.rpm"
-RPM_HASH = "179f2e745981b0b00ccb5b4b2a8465ea069c71cb7c1557ee1bb2b28f6fecadff8b02ceec5fd91821c10162ae2a26ae270bcab274c7a8b599ca234535112d69b1"
+RPM_NAME = "xlsfonts-1.0.8-1.9.aarch64.rpm"
+RPM_HASH = "818c2a53f62c546bf03a0e8e412505241ef6f62b57a0686ffde64fee8d6a98df256c2752206d666a83e4e585faa17b821dcb0afb2b80923432bb44573b0671a0"
 
 RPROVIDES:${PN} += "xlsfonts"
 

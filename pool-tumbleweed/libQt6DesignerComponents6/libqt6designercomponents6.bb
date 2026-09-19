@@ -3,10 +3,10 @@ DESCRIPTION = "The Qt 6 DesignerComponents library. \
 This library does not have any ABI or API guarantees."
 LICENSE = "GPL-3.0-only-with-Qt-GPL-exception-1.0"
 
-PV = "6.5.2"
+PV = "6.11.2"
 
-RPM_NAME = "libQt6DesignerComponents6-6.5.2-1.1.aarch64.rpm"
-RPM_HASH = "03544682c4bd3dce6e9ae2ef0c6cd450c4276c88af1585811605c9d35f92e6807a4843ac857348d11a3bdeb067198ba5aeb0a4c7eeebe35172ed1027d332f43d"
+RPM_NAME = "libQt6DesignerComponents6-6.11.2-2.3.aarch64.rpm"
+RPM_HASH = "e1d79d1a7e5b6c452f86101bd40e1292a731f1b6b851dad744ad60f1f83078272940d6162f20c33e5b8710e7cfd0ad2a0d839aeb9db78e43a076c56f7ff7c12d"
 
 RPROVIDES:${PN} += "libQt6DesignerComponents.so.6 \
 libQt6DesignerComponents6"

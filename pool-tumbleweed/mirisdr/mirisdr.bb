@@ -1,17 +1,18 @@
-SUMMARY = "Support programs for MRi2500"
-DESCRIPTION = "Programs that controls Mirics MRi2500 based DVB dongle in raw mode, so \
-it can be used as a SDR receiver."
-LICENSE = "GPL-2.0"
+SUMMARY = "Support programs for Mirics MSi2500 based SDR receivers"
+DESCRIPTION = "Programs that control a Mirics MSi2500 based DVB dongle in raw mode, so \
+that it can be used as an SDR receiver."
+LICENSE = "GPL-2.0-or-later"
 
-PV = "0.0.0+git.20130608"
+PV = "2.0.0"
 
-RPM_NAME = "mirisdr-0.0.0+git.20130608-1.25.aarch64.rpm"
-RPM_HASH = "ac024e0264779dda1a6882a4c4533aac0a29f913fc8434078db5618b15717d80bd9735fffb34ae9593cb04e669a742dde04d67310e51dd7e87f09a59e18277da"
+RPM_NAME = "mirisdr-2.0.0-1.1.aarch64.rpm"
+RPM_HASH = "cbef56c8f062ffa826162e6f04877f540e8b6c7a82493e7443ab7bdb8c2d2e307a628e7bc9dfa99052e2af4e48a6b0b0761ac7b381ea8f21d43025541f07a385"
 
 RPROVIDES:${PN} += "mirisdr"
 
 RDEPENDS:${PN} += "ld-linux-aarch64.so.1 \
 libc.so.6 \
-libusb-1.0.so.0"
+libm.so.6 \
+libmirisdr.so.4"
 
 inherit rpm

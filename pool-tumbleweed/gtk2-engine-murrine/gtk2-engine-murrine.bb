@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-only | LGPL-3.0-only"
 
 PV = "0.98.2"
 
-RPM_NAME = "gtk2-engine-murrine-0.98.2-10.24.aarch64.rpm"
-RPM_HASH = "d82e0a981fcfff41e2749e16ee1128097f5ab9b6a495196d941cd88f75ef58249e7fbba82109f3811ff96e97d6445912f1e1a06e9af39fda0bb31d265f11cf06"
+RPM_NAME = "gtk2-engine-murrine-0.98.2-12.9.aarch64.rpm"
+RPM_HASH = "ed448cdd0f65a348657bd177b7bb92b7f5b140ead32523d30d59d78ae3ab163093eef0e11a2b677872b93de4f855439860cc36c7158715c0d328ccb5f46c42e2"
 
 RPROVIDES:${PN} += "gtk2-engine-murrine \
 libmurrine.so"

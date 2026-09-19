@@ -5,10 +5,10 @@ encoding OT2). The package is distributed as part of the fundus \
 bundle."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.svn26019"
+PV = "2026.226.svn26019"
 
-RPM_NAME = "texlive-fundus-cyr-2023.209.svn26019-53.1.noarch.rpm"
-RPM_HASH = "b7fe663648013ca702a1bda4aee85feee6ef1edaaba0edbcbe6b775beb214185001c0beacb991f54aef05557c6779c698e9720f793554b3c8f699c6d206ea150"
+RPM_NAME = "texlive-fundus-cyr-2026.226.svn26019-60.2.noarch.rpm"
+RPM_HASH = "64777fb37613ccbdb7df50332955a1701b228c4cf2664f9302e6e1a208a5cc64b011202f395bdd0fdba959f0ff4afb8e905e480f5bddaafa412f997d3e5e3043"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-cyr.sty \

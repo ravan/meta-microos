@@ -5,10 +5,10 @@ parts, and allows you access to various parts of the message. Headers are \
 decoded from MIME encoding."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "1.953"
+PV = "1.954.0"
 
-RPM_NAME = "perl-Email-MIME-1.953-1.3.noarch.rpm"
-RPM_HASH = "899019fe3460dd8e9edf65787a4e52590ea072fd601e8d00714321ab89ad964a182864c3279f6fc5fd4a3ca54d815f0ca385098c4d3f796cc5854a6383d24ead"
+RPM_NAME = "perl-Email-MIME-1.954.0-1.12.noarch.rpm"
+RPM_HASH = "25059439a9aa0cabb721fe25e7f2503edc09f910694b4e940ea8d7be396a8612a36d817ac3eef9756d4dc02df0b1dbc3ba6d083579a823b574fa7e64752161a1"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-Email--MIME \
@@ -19,7 +19,7 @@ perl-Email--MIME--Header--AddressList \
 perl-Email--MIME--Modifier \
 perl-Email-MIME"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0 \
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0 \
 perl-Email--Address--XS \
 perl-Email--MIME--ContentType \
 perl-Email--MIME--Encodings \

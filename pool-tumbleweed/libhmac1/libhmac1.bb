@@ -2,10 +2,10 @@ SUMMARY = "Library to support various HMACs"
 DESCRIPTION = "A library to support various Hash-based Message Authentication Codes (HMAC)."
 LICENSE = "LGPL-3.0-or-later"
 
-PV = "20230407"
+PV = "20260522"
 
-RPM_NAME = "libhmac1-20230407-1.2.aarch64.rpm"
-RPM_HASH = "678d0911805fadaa9051a87c8c45ef0c5f28a154dbc068e3a545a16131eab752561ab40c68ca7fc007f2f5ca19bbc90dec45a923f85d720a01b96af1390fb331"
+RPM_NAME = "libhmac1-20260522-1.10.aarch64.rpm"
+RPM_HASH = "0504aa38fde840e1830c07ca9df9635b08058ec8589a2b24f93221de3619fe025bcf8fe6e784a99eba0a3318aaa3d342dda14dcabf7ed1d293e13df2178a99ee"
 
 RPROVIDES:${PN} += "libhmac.so.1 \
 libhmac1"

@@ -11,15 +11,15 @@ Please note that this module installs read-only data files; empty \
 directories will be ignored."
 LICENSE = "Artistic-1.0 | GPL-1.0-or-later"
 
-PV = "0.14"
+PV = "0.140.0"
 
-RPM_NAME = "perl-File-ShareDir-Install-0.14-1.6.noarch.rpm"
-RPM_HASH = "e2197d95379e3e2d9e4c40fbc5c476f1ee6cd3125f9ce4773e1b9a3d3bc78cc2be04013bc0125a5877855d1381d3dc20515785c485fb74deca1db15401435e82"
+RPM_NAME = "perl-File-ShareDir-Install-0.140.0-1.7.noarch.rpm"
+RPM_HASH = "65b1cc02014a4a98518ccc0dd677b31f217548a55e71357162ca3562c1c56bd08b2ca7c2c5e242f3bbb44a0409be0b7ea52b8bf101816da3d7567eecd1be85dc"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "perl-File--ShareDir--Install \
 perl-File-ShareDir-Install"
 
-RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.38.0"
+RDEPENDS:${PN} += "perl--MODULE-COMPAT-5.44.0"
 
 inherit rpm

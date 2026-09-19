@@ -3,17 +3,17 @@ DESCRIPTION = "This package allows to start Leechcraft as a Desktop Environment 
 the KDE Window Manager."
 LICENSE = "BSL-1.0"
 
-PV = "0.6.70+git.14794.g33744ae6ce"
+PV = "0.6.70+git.18808.g3467692359"
 
-RPM_NAME = "leechcraft-fenet-kwin-0.6.70+git.14794.g33744ae6ce-3.2.noarch.rpm"
-RPM_HASH = "2c73c261646f8f6bb2442ebfc1b716645e99ddb495254e019bb152ca2513d6d0e6d9dd8dbff63b083f925ec53854fcbca0c0b197122a52991792ae50628c1e1a"
+RPM_NAME = "leechcraft-fenet-kwin-0.6.70+git.18808.g3467692359-3.1.noarch.rpm"
+RPM_HASH = "75102d3463e53884d9dc7b7c543bf3bc6ed09ab51901eb2112990ebce21239b9e38d641bdbac9ec2eb35915955f38b27cbb4cb27d82860102e9a23c05117ff4d"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "leechcraft-fenet-kwin \
 leechcraft-fenet-wm"
 
 RDEPENDS:${PN} += "/usr/bin/sh \
-kwin5 \
+kwin6-x11 \
 leechcraft-fenet"
 
 inherit rpm

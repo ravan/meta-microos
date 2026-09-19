@@ -2,18 +2,18 @@ SUMMARY = "Haskell email-validate profiling library"
 DESCRIPTION = "This package provides the Haskell email-validate profiling library."
 LICENSE = "BSD-3-Clause"
 
-PV = "2.3.2.19"
+PV = "2.3.2.21"
 
-RPM_NAME = "ghc-email-validate-prof-2.3.2.19-1.3.aarch64.rpm"
-RPM_HASH = "409fb608fcb23a556ead9c8ffb0c73a901673c24fe3e7699d90534d92e96cebfcd6d9f63d1f394e30bbceb436a6b31b61d6a6a00619ea77a10773d90f9ac447c"
+RPM_NAME = "ghc-email-validate-prof-2.3.2.21-1.17.aarch64.rpm"
+RPM_HASH = "639e0516f2b9eea82401691d8f37f62203a3b4424ef89bed235624702afcf566e425c568de930535af65148a9f30da09db430326d6cabf783aefc060c3aef180"
 
 RPROVIDES:${PN} += "ghc-email-validate-prof \
-ghc-prof-email-validate-2.3.2.19-qAeQdfI4jV1bzSPjytegN"
+ghc-prof-email-validate-2.3.2.21-Kzdyy7ay2BfLqW6NieUzU3"
 
 RDEPENDS:${PN} += "ghc-email-validate-devel \
-ghc-prof-attoparsec-0.14.4-54ZoOcYS6qmLoV5VBUocW3 \
-ghc-prof-base-4.17.2.0 \
-ghc-prof-bytestring-0.11.5.1 \
-ghc-prof-template-haskell-2.19.0.0"
+ghc-prof-attoparsec-0.14.4-IG7JFX7g1aObGVedAHYv7 \
+ghc-prof-base-4.21.2.0-8844 \
+ghc-prof-bytestring-0.12.2.0-65be \
+ghc-prof-template-haskell-2.23.0.0-358a"
 
 inherit rpm

@@ -2,10 +2,10 @@ SUMMARY = "Translations for package gtk-doc-manual"
 DESCRIPTION = "Provides translations for the 'gtk-doc-manual' package."
 LICENSE = "GFDL-1.1-or-later"
 
-PV = "1.33.2"
+PV = "1.36.1"
 
-RPM_NAME = "gtk-doc-manual-lang-1.33.2-1.4.noarch.rpm"
-RPM_HASH = "fe1f040ed2bcc37302d1ebac17329b8c2567f8d0c7009a0069de325723a83060c6a0a9cb1c354dadd2b0bb013c916823648e492fd6ea5fdb0adeb5f0c03e8fe8"
+RPM_NAME = "gtk-doc-manual-lang-1.36.1-1.2.noarch.rpm"
+RPM_HASH = "9e5973eb6a5b38204e90e2d42229d707e47dc7cfff907bbd2cfa9d11628d5818cfb08875cb6eaa7784118308cb10ff920856b23a738e3251394c44308c6fa015"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "gtk-doc-manual-lang \

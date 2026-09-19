@@ -4,8 +4,8 @@ LICENSE = "LGPL-2.1"
 
 PV = "0.92+git20130131"
 
-RPM_NAME = "nant-devel-0.92+git20130131-10.14.noarch.rpm"
-RPM_HASH = "650affba397ba11329da6eea1d25ba2b8a4114a6edffa99b62e5871459b54dedcb4b83430931b957406ab8f6ac828faf812b35c760dbf4f887b63b16312ff385"
+RPM_NAME = "nant-devel-0.92+git20130131-11.6.noarch.rpm"
+RPM_HASH = "3942cc8df2e639d2a28b1e51a67fa8cb17ffedd2ccbe74c8884058eb8a327a70222c2dd622a35c34101152d53b32c5dc25028a9f6f6cadb0f312b313c4bf2036"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "nant-devel \

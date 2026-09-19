@@ -4,10 +4,10 @@ provides high performance without the limitations of server specific \
 APIs."
 LICENSE = "OML"
 
-PV = "2.4.0"
+PV = "2.4.7"
 
-RPM_NAME = "libfcgi0-2.4.0-173.3.aarch64.rpm"
-RPM_HASH = "04cc9c9bb7522532f2689fd4c5c09723c319784e82e245d386b50c33039f0e7a863f26445b655626844232a0d41d62f70103dff06cbd7b1d4ef47d55d87b69a6"
+RPM_NAME = "libfcgi0-2.4.7-1.7.aarch64.rpm"
+RPM_HASH = "152e44c65b628489ccfcc347c49bb315dfce303d132790a715394dbb2b19a26a3649232208b5c96aad7b60541e6e33f59b4ff352a7010ef8fad5a66a2d48550d"
 
 RPROVIDES:${PN} += "libfcgi++-0 \
 libfcgi++.so.0 \

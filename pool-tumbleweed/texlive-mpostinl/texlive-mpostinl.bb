@@ -7,10 +7,10 @@ files. It also allows for various configuration options to \
 manage the generation of files and compilation."
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.1.5svn49559"
+PV = "2026.226.1.5.3svn77187"
 
-RPM_NAME = "texlive-mpostinl-2023.209.1.5svn49559-55.1.noarch.rpm"
-RPM_HASH = "e4ad2051e1d23a5f6365e13ea8eebe602518e7decfc5ca2cab984401cb329198fc53ab0c8680e7e2f49671b3ff014bd33eebc35ade2ce43475df00b7a7a8421b"
+RPM_NAME = "texlive-mpostinl-2026.226.1.5.3svn77187-61.2.noarch.rpm"
+RPM_HASH = "93a788000fcd09d4b035f6e4043edf09de3d4f67382710366de43d85960d143d9973a1ff3e46bfe583563c8d6faf3e69fa13d67acb90f0b6fa1ca075a28089ec"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "tex-mpostinl.sty \
@@ -24,6 +24,7 @@ grep \
 sed \
 tex-graphicx.sty \
 tex-keyval.sty \
+tex-shellesc.sty \
 tex-verbatim.sty \
 texlive \
 texlive-filesystem \

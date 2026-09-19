@@ -6,8 +6,8 @@ LICENSE = "LGPL-2.1-or-later"
 
 PV = "1.5.4"
 
-RPM_NAME = "libloudmouth-1-0-1.5.4-1.7.aarch64.rpm"
-RPM_HASH = "5a0e5a8b0b74a7b6e8d5fc87a68e0f70e3c1a636b553a92c3cf75139dc0a10ac8a3907e9622f22f0083d88832f7ecdf7121b41e1882c6a6bd62231b76cfe0abb"
+RPM_NAME = "libloudmouth-1-0-1.5.4-1.18.aarch64.rpm"
+RPM_HASH = "d12bb118843d0d8182833f526c27fbbc4d014030359d5aa8bd01a4c63e659e6af644d014bcbabf52f480bb362a46150202fefd4a92ccf9ba3f2a51f4d503796e"
 
 RPROVIDES:${PN} += "libloudmouth-1-0 \
 libloudmouth-1.so.0"

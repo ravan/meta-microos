@@ -2,10 +2,10 @@ SUMMARY = "Documentation for texlive-biblatex-lncs"
 DESCRIPTION = "This package includes the documentation for texlive-biblatex-lncs"
 LICENSE = "LPPL-1.0"
 
-PV = "2023.209.0.0.6svn65280"
+PV = "2026.226.0.0.7svn67053"
 
-RPM_NAME = "texlive-biblatex-lncs-doc-2023.209.0.0.6svn65280-54.1.noarch.rpm"
-RPM_HASH = "6a60520491ff4777c6ae55878839bd0274a748bffb0be2c33aa107dfeffa828bd32aeb2412536ed0432ab70f1705a5903d5c8f673f8328253d5aa8f86bbeda90"
+RPM_NAME = "texlive-biblatex-lncs-doc-2026.226.0.0.7svn67053-61.2.noarch.rpm"
+RPM_HASH = "110cb0f3c96059bf57c6c65bbb7c025b6848a0023837e2db59913fca45c131863e7ae79f4fbb23b22756e03799b0faac58888d75c6b11192a610a0a5cda9c318"
 REPO_ARCH = "noarch"
 
 RPROVIDES:${PN} += "texlive-biblatex-lncs-doc"
