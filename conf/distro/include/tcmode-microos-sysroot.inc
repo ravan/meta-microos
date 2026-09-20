@@ -31,6 +31,27 @@ TARGET_VENDOR = "-suse"
 MICROOS_LIB64_ARCHS = "aarch64 x86_64 riscv64 powerpc64le s390x"
 baselib = "${@'lib64' if d.getVar('TARGET_ARCH') in d.getVar('MICROOS_LIB64_ARCHS').split() else 'lib'}"
 
+# The dynamic loader is the one library that does not follow baselib.
+#
+# Where a CPU keeps its loader is fixed by that CPU's ABI, not by the distro.
+# Only x86_64 and powerpc64le name a path under /lib64; aarch64 asks for
+# /lib/ld-linux-aarch64.so.1 and riscv64 for /lib/ld-linux-riscv64-lp64d.so.1.
+# openSUSE follows the ABI, so on aarch64 the loader really is in /usr/lib while
+# every other library is in /usr/lib64, and /lib is a symlink to /usr/lib.
+#
+# gcc bakes one absolute path into every dynamic executable it links, and poky
+# builds that path from target_base_libdir, which cross.bbclass writes as
+# ${target_base_prefix}/${baselib}. With baselib at lib64 the binary asks for
+# /lib64/ld-linux-aarch64.so.1, nothing is there, and the kernel refuses to
+# start it. The shell reports this as
+#
+#   -bash: /usr/bin/hello-learn: cannot execute: required file not found
+#
+# which says nothing about a loader. The gcc-cross bbappend reads the value
+# below and overrides target_base_libdir with it.
+MICROOS_LOADER_LIB64_ARCHS = "x86_64 powerpc64le"
+MICROOS_LOADER_BASELIB = "${@'lib64' if d.getVar('TARGET_ARCH') in d.getVar('MICROOS_LOADER_LIB64_ARCHS').split() else 'lib'}"
+
 # --- built from source by Yocto -------------------------------------------
 
 PREFERRED_PROVIDER_virtual/${TARGET_PREFIX}binutils = "binutils-cross-${TARGET_ARCH}"

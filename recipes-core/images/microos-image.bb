@@ -25,3 +25,17 @@ IMAGE_FSTYPES = "cpio.gz ext4"
 MICROOS_SERIAL_AUTOLOGIN = "1"
 
 inherit microos-image
+
+# Our own package, built by BitBake rather than downloaded.
+#
+# It is named here and not in conf/image-packages.inc, because that file is
+# also read by scripts/microos-sysroot, which resolves every name in it against
+# the openSUSE pool. hello-learn is not in the pool, so a name there would find
+# no recipe to link. IMAGE_INSTALL takes it directly instead.
+#
+# dnf still installs it the same way as the rest: BitBake builds the RPM, puts
+# it in the same local repository in ${WORKDIR}/oe-rootfs-repo, and dnf reads
+# its metadata. This is the one package in the image without an openSUSE
+# signature, which is the point of it being here - it shows that our own code
+# and the vendor's packages can share one image.
+IMAGE_INSTALL:append = " hello-learn"
